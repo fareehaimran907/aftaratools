@@ -1,10 +1,9 @@
 {
   "Navigation": {
-    "home": "Inicio",
-    "tools": "Herramientas",
     "categories": "Categorías",
     "about": "Acerca de",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "home": "Inicio"
   },
   "Common": {
     "viewIn": "¿Ver en {language}?",
@@ -126,7 +125,7 @@
       "ui": {
         "bmiCalculator": "Calculadora de IMC",
         "metric": "Métrico",
-        "imperial": "Imperial",
+        "imperial": "Imperial​",
         "heightCm": "Altura (cm)",
         "weightKg": "Peso (kg)",
         "heightFt": "Altura (pies)",
@@ -290,7 +289,7 @@
       "ui": {
         "cssMinifier": "Minificador CSS",
         "inputCss": "CSS de entrada",
-        "bytes": "bytes (-",
+        "bytes": "bytes (-​",
         "minifiedCss": "CSS minificado"
       }
     },
@@ -462,7 +461,7 @@
       "description": "",
       "ui": {
         "fractionCalculator": "Calculadora de fracciones",
-        "decimal": "Decimal:"
+        "decimal": "Decimal:​"
       }
     },
     "gpa-calculator": {
@@ -553,7 +552,7 @@
       "ui": {
         "htmlMinifier": "Minificador HTML",
         "inputHtml": "HTML de entrada",
-        "bytes": "bytes (-",
+        "bytes": "bytes (-​",
         "minifiedHtml": "HTML minificado"
       }
     },
@@ -579,7 +578,7 @@
       "ui": {
         "javascriptMinifier": "Minificador de JavaScript",
         "inputJs": "JS de entrada",
-        "bytes": "bytes (-",
+        "bytes": "bytes (-​",
         "minifiedJs": "JS minificado"
       }
     },
@@ -592,7 +591,7 @@
         "invalidJwtFormat": "Formato JWT no válido.",
         "header": "Encabezado",
         "payload": "Carga útil",
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik..."
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...​"
       }
     },
     "length-converter": {
@@ -722,7 +721,7 @@
         "numberBaseConverter": "Conversor de bases numéricas",
         "from": "De",
         "to": "A",
-        "base": "Base"
+        "base": "Base​"
       }
     },
     "overtime-calculator": {
@@ -1114,8 +1113,8 @@
       "ui": {
         "temperatureConverter": "Conversor de temperatura",
         "from": "De",
-        "celsius": "Celsius",
-        "fahrenheit": "Fahrenheit",
+        "celsius": "Celsius​",
+        "fahrenheit": "Fahrenheit​",
         "kelvin": "kélvin",
         "to": "A"
       }
@@ -1190,7 +1189,7 @@
         "numberOfPeople": "Número de personas",
         "tipAmount": "Importe de la propina",
         "person": "/ persona",
-        "total": "Total",
+        "total": "Total​",
         "totalTip": "Propina total:",
         "totalBill": "Cuenta total:",
         "billDetails": "Detalles de la factura",
@@ -1362,61 +1361,70 @@
     "noResults": "No se encontraron herramientas para \"{query}\"."
   },
   "Home": {
-    "title": "Herramientas en línea gratuitas para tareas diarias",
-    "subtitle": "Calcule, convierta, genere y simplifique su trabajo diario con herramientas en línea rápidas, gratuitas y fáciles de usar.",
-    "popularTools": "Herramientas populares",
-    "metaTitle": "100 herramientas: herramientas premium gratuitas en línea",
-    "metaDescription": "Calcule, convierta, genere y analice todo lo que necesita con nuestro conjunto de más de 100 herramientas premium en línea.",
-    "heroBadge": "Más de 100 herramientas gratuitas en línea",
-    "heroTitle1": "Calcular, convertir y",
-    "heroTitle2": "generarlo todo.",
-    "heroDescription": "La plataforma de productividad premium para desarrolladores, profesionales financieros y tareas cotidianas. Rápido, privado y bellamente diseñado.",
-    "popular": "Popular:",
-    "browseCategories": "Explorar categorías",
-    "browseCategoriesDesc": "Encuentre exactamente lo que necesita organizado por flujo de trabajo.",
-    "mostPopularTools": "Herramientas más populares",
-    "mostPopularToolsDesc": "Las herramientas que nuestra comunidad utiliza con más frecuencia.",
-    "exploreAll": "Explorar todo",
-    "whyUse": "¿Por qué utilizar 100 herramientas?",
-    "whyUseDesc": "Construido con tecnología moderna para brindar la mejor experiencia de usuario.",
-    "feature1Title": "Rayo rápido",
-    "feature1Desc": "Resultados instantáneos sin recargas de página. Optimizado para velocidad y baja latencia.",
-    "feature2Title": "Privacidad primero",
-    "feature2Desc": "Los cálculos se realizan directamente en su navegador. Tus datos nunca salen de tu dispositivo.",
-    "feature3Title": "Diseño premium",
-    "feature3Desc": "Interfaces cuidadosamente diseñadas que son hermosas, intuitivas y fáciles de usar."
+    "metaTitle": "Herramientas Online Gratis y Calculadoras",
+    "metaDescription": "Accede a una colección completa de herramientas online gratis, convertidores de unidades y utilidades web. Sin registro. Rápido, privado y preciso.",
+    "heroH1": "Herramientas Online Gratis para Cada Necesidad",
+    "heroSub": "Descubre nuestra colección de calculadoras y convertidores en línea, diseñados para ser rápidos, precisos y proteger tu privacidad en cada tarea diaria.",
+    "trustFree": "100% Gratis",
+    "trustNoSignup": "Sin Registro",
+    "trustBrowser": "Uso en Navegador",
+    "trustLanguages": "16 Idiomas",
+    "searchPlaceholder": "Buscar calculadoras, convertidores...",
+    "popular": "Popular:​",
+    "browseCategories": "Explorar por Categoría",
+    "browseCategoriesDesc": "Navega por nuestra amplia biblioteca de utilidades web organizadas por categorías. Desde finanzas hasta desarrollo web, encuentra exactamente lo que buscas.",
+    "mostPopularTools": "Herramientas Más Populares",
+    "mostPopularToolsDesc": "Únete a miles de usuarios que confían en estas herramientas online gratis para resolver sus necesidades matemáticas y de conversión todos los días.",
+    "exploreAll": "Explorar Todas",
+    "whyUse": "¿Por Qué Elegir Nuestra Plataforma?",
+    "whyUseDesc": "Priorizamos la experiencia del usuario. Nuestra plataforma está construida para ofrecer resultados instantáneos sin comprometer tu privacidad digital ni la seguridad de tus datos.",
+    "featureSpeedTitle": "Procesamiento Ultrarrápido",
+    "featureSpeedDesc": "Todos los cálculos se ejecutan localmente en tu navegador. Experimenta cero demoras, conversiones al instante y sin esperas por respuestas del servidor.",
+    "featurePrivacyTitle": "Estrictos Estándares de Privacidad",
+    "featurePrivacyDesc": "No almacenamos los datos que introduces. Tu información nunca sale de tu dispositivo, asegurando total confidencialidad para cálculos sensibles.",
+    "featureAccuracyTitle": "Precisión de Alta Fidelidad",
+    "featureAccuracyDesc": "Nuestros algoritmos utilizan fórmulas estandarizadas a nivel global. Ya sea para calcular impuestos o convertir unidades científicas, espera una precisión rigurosa.",
+    "howItWorksTitle": "Cómo Funciona en 3 Pasos",
+    "howItWorksStep1": "Encuentra tu herramienta",
+    "howItWorksStep1Desc": "Usa la barra de búsqueda inteligente o explora nuestras categorías bien organizadas para localizar la calculadora o convertidor específico que necesitas.",
+    "howItWorksStep2": "Introduce tus datos",
+    "howItWorksStep2Desc": "Ingresa tus números, textos o fechas en nuestra interfaz intuitiva, diseñada tanto para ordenadores de escritorio como para dispositivos móviles.",
+    "howItWorksStep3": "Obtén resultados al instante",
+    "howItWorksStep3Desc": "Visualiza tus resultados de manera precisa e inmediata. Cópialos al portapapeles con un solo clic o expórtalos para tus registros personales.",
+    "featuredTool": "Herramienta Destacada de la Semana",
+    "featuredToolDesc": "Prueba nuestra completa Calculadora de Edad para averiguar tu edad exacta en años, meses, días e incluso segundos con total precisión.",
+    "featuredToolCTA": "Probar la Calculadora de Edad",
+    "languagesTitle": "Disponible en 16 Idiomas",
+    "languagesDesc": "Creemos que las utilidades potentes deben ser accesibles para todos. Cambia a tu idioma nativo para disfrutar de una experiencia perfectamente localizada.",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Q": "¿El uso de estas herramientas es completamente gratuito?",
+    "faq1A": "Sí, absolutamente. Toda nuestra gama de calculadoras, convertidores y utilidades para desarrolladores es 100% gratis. No hay tarifas ocultas ni suscripciones.",
+    "faq2Q": "¿Necesito crear una cuenta para usar las calculadoras?",
+    "faq2A": "No se requiere ningún tipo de registro. Puedes acceder y utilizar todas las funciones de nuestro sitio web inmediatamente, sin proporcionar información personal.",
+    "faq3Q": "¿Se almacenan mis datos en sus servidores?",
+    "faq3A": "No. La gran mayoría de nuestras herramientas procesan los datos localmente en tu navegador web. No recopilamos, almacenamos ni transmitimos tu información a servidores externos.",
+    "faq4Q": "¿Qué tan precisas son las calculadoras financieras?",
+    "faq4A": "Nuestras herramientas financieras utilizan fórmulas contables estándar y son auditadas regularmente. Sin embargo, tienen fines informativos y no sustituyen el asesoramiento financiero profesional.",
+    "faq5Q": "¿Puedo usar este sitio web en mi teléfono móvil?",
+    "faq5A": "Sí, nuestra plataforma es totalmente responsiva. Está optimizada para funcionar a la perfección en teléfonos inteligentes, tabletas y ordenadores de escritorio.",
+    "faq6Q": "¿Con qué frecuencia se añaden nuevas herramientas?",
+    "faq6A": "Ampliamos nuestro directorio continuamente. Añadimos nuevas calculadoras y utilidades cada semana, basándonos en los comentarios de los usuarios y las tendencias actuales.",
+    "ctaTitle": "¿Listo para simplificar tus tareas?",
+    "ctaDesc": "Deja de perder tiempo haciendo cálculos manuales. Empieza a usar nuestras herramientas online gratis hoy mismo y aumenta tu productividad.",
+    "ctaButton": "Ver Todas las Categorías"
   },
   "Footer": {
-    "100Tools": "100 herramientas",
-    "thePremiumProductivityPlatf": "La plataforma de productividad premium para todas sus necesidades diarias de cálculo, conversión y generación.",
-    "categories": "Categorías",
-    "developerTools": "Herramientas para desarrolladores",
-    "finance": "Finanzas",
-    "dateTime": "Fecha y hora",
-    "textTools": "Herramientas de texto",
-    "converters": "Convertidoras",
+    "tagline": "La plataforma de productividad premium para todas tus necesidades diarias de cálculo, conversión y generación.",
     "popularTools": "Herramientas populares",
-    "ageCalculator": "Calculadora de edad",
-    "jSONFormatter": "Formateador JSON",
-    "percentageCalculator": "Calculadora de porcentaje",
-    "base64Encoder": "Codificador Base64",
-    "salaryCalculator": "Calculadora de salario",
-    "company": "Compañía",
-    "aboutUs": "Sobre nosotras",
-    "contact": "Contacto",
-    "privacyPolicy": "política de privacidad",
-    "termsOfService": "Términos de servicio",
-    "Copy": "&Copiar;",
-    "100ToolsAllRightsReserved": "100 herramientas. Reservados todos los derechos.",
-    "builtWithNextJs": "Construido con Next.js",
-    "madeWith": "Hecho con ❤️",
-    "tagline": "La plataforma de productividad premium para todas sus necesidades diarias de cálculo, conversión y generación.",
-    "privacy": "política de privacidad",
-    "terms": "Términos de servicio",
-    "allRightsReserved": "Reservados todos los derechos.",
-    "builtWith": "Construido con Next.js",
+    "company": "Empresa",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookie": "Política de Cookies",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "builtWith": "Creado con Next.js",
     "madeWithHeart": "Hecho con ❤️",
-    "cookie": "Cookie Policy"
+    "disclaimer": "Aviso legal",
+    "privacySettings": "Configuración de privacidad"
   },
   "Header": {
     "100Tools": "100 herramientas",
@@ -1427,7 +1435,7 @@
   "LanguageSwitcher": {},
   "RelatedTools": {
     "relatedTools": "Herramientas relacionadas",
-    "popular": "Popular"
+    "popular": "Popular​"
   },
   "ToolSearch": {
     "tryADifferentSearchTermOr": "Pruebe con un término de búsqueda diferente o explore categorías."
@@ -1540,7 +1548,7 @@
     "reset": "Reiniciar"
   },
   "JwtDecoder": {
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...​"
   },
   "LengthConverter": {},
   "LoanCalculator": {
@@ -1569,7 +1577,7 @@
   },
   "MulchCalculator": {},
   "NumberBaseConverter": {
-    "base": "Base"
+    "base": "Base​"
   },
   "OvertimeCalculator": {
     "paySummary": "Resumen de pago"
@@ -1739,74 +1747,116 @@
     "converters": "Convertidoras"
   },
   "About": {
-    "title": "About Us & Methodology",
-    "description": "Welcome to 100 Tools, your free resource for premium online calculators and developer utilities.",
-    "missionTitle": "Our Mission",
-    "missionText": "Our mission is to provide fast, reliable, and privacy-respecting tools for everyday tasks. Whether you're a developer needing to encode a JWT, a homeowner calculating mulch volume, or just trying to figure out a discount, we've built a robust tool for you.",
-    "methodologyTitle": "Our Methodology",
-    "methodologyIntro": "We believe in transparency and accuracy, particularly for financial and health-related tools (Your Money or Your Life topics). Here is how we ensure our tools are reliable:",
-    "standardizedFormulasTitle": "Standardized Formulas",
-    "standardizedFormulasText": "All financial calculators (like ROI, Mortgages, and Loans) use industry-standard amortization and compound interest formulas.",
-    "medicalGuidelinesTitle": "Medical Guidelines",
-    "medicalGuidelinesText": "Health calculators (like BMI and BMR) use globally recognized equations, such as the Mifflin-St Jeor Equation for metabolic rate, and the standard WHO classifications for BMI.",
-    "privacyFirstTitle": "Privacy First",
-    "privacyFirstText": "Your data never leaves your browser. All calculations, hashing, and conversions happen locally on your device via JavaScript. We do not store or transmit your inputs.",
-    "continuousTestingTitle": "Continuous Testing",
-    "continuousTestingText": "Our toolkit is rigorously tested to ensure edge cases (like zero values or invalid inputs) are handled gracefully without crashing.",
-    "editorialGuidelinesTitle": "Editorial Guidelines",
-    "editorialGuidelinesText": "Every tool page is designed to be self-explanatory. We prioritize usability and clear instructions over cluttered interfaces. If an equation has limitations (like the Navy Body Fat method being an estimation), we clearly note it on the tool page.",
-    "disclaimer": "Disclaimer: The tools and calculators on this website are for informational and educational purposes only. They do not constitute professional financial or medical advice. Always consult with a qualified professional before making significant health or financial decisions."
+    "title": "Acerca de nosotros y Metodología",
+    "description": "Bienvenido a 100 Tools, su recurso gratuito para calculadoras en línea premium y utilidades para desarrolladores.",
+    "missionTitle": "Nuestra Misión",
+    "missionText": "Nuestra misión es proporcionar herramientas rápidas, confiables y que respeten la privacidad para las tareas diarias. Ya sea que sea un desarrollador que necesita codificar un JWT, un propietario de una casa que calcula el volumen de mantillo o simplemente trata de calcular un descuento, hemos creado una herramienta sólida para usted.",
+    "methodologyTitle": "Nuestra Metodología",
+    "methodologyIntro": "Creemos en la transparencia y la precisión, en particular para las herramientas financieras y relacionadas con la salud (temas de Tu dinero o Tu vida). Así es como nos aseguramos de que nuestras herramientas sean confiables:",
+    "standardizedFormulasTitle": "Fórmulas Estandarizadas",
+    "standardizedFormulasText": "Todas las calculadoras financieras (como ROI, Hipotecas y Préstamos) utilizan fórmulas de interés compuesto y amortización estándar de la industria.",
+    "medicalGuidelinesTitle": "Pautas Médicas",
+    "medicalGuidelinesText": "Las calculadoras de salud (como el IMC y la TMB) utilizan ecuaciones reconocidas a nivel mundial, como la Ecuación de Mifflin-St Jeor para la tasa metabólica y las clasificaciones estándar de la OMS para el IMC.",
+    "privacyFirstTitle": "Privacidad Primero",
+    "privacyFirstText": "Sus datos nunca abandonan su navegador. Todos los cálculos, hash y conversiones ocurren localmente en su dispositivo a través de JavaScript. No almacenamos ni transmitimos sus entradas.",
+    "continuousTestingTitle": "Pruebas Continuas",
+    "continuousTestingText": "Nuestro conjunto de herramientas se prueba rigurosamente para garantizar que los casos límite (como valores cero o entradas no válidas) se manejen sin problemas y sin fallas.",
+    "editorialGuidelinesTitle": "Pautas Editoriales",
+    "editorialGuidelinesText": "Cada página de la herramienta está diseñada para que se explique por sí misma. Priorizamos la usabilidad y las instrucciones claras sobre las interfaces desordenadas. Si una ecuación tiene limitaciones (como que el método de Grasa Corporal de la Marina es una estimación), lo indicamos claramente en la página de la herramienta.",
+    "disclaimer": "Descargo de responsabilidad: Las herramientas y calculadoras en este sitio web son solo para fines informativos y educativos. No constituyen asesoramiento médico o financiero profesional. Siempre consulte con un profesional calificado antes de tomar decisiones financieras o de salud importantes.",
+    "teamTitle": "Quiénes Somos",
+    "teamText": "Este sitio es operado por [TODO: Your Company Name / Your Name]. Nos dedicamos a proporcionar herramientas de alta calidad al público. Si necesita comunicarse con nosotros, consulte nuestra página de Contacto."
   },
   "Contact": {
-    "title": "Contact Us",
-    "description": "We'd love to hear from you. Whether you have a question, a feature request, or found a bug, let us know!",
-    "formName": "Name",
-    "formEmail": "Email",
-    "formSubject": "Subject",
-    "formMessage": "Message",
-    "formSubmit": "Send Message",
-    "emailUs": "Email Us",
-    "emailAddress": "contact@100tools.example.com",
-    "responseTime": "We typically respond within 24-48 hours.",
-    "successMessage": "Thank you! Your message has been sent.",
-    "errorMessage": "Something went wrong. Please try again later."
+    "title": "Contáctenos",
+    "description": "Nos encantaría saber de usted. Ya sea que tenga una pregunta, una solicitud de función o haya encontrado un error, ¡háganoslo saber!",
+    "formName": "Nombre",
+    "formEmail": "Correo electrónico",
+    "formSubject": "Asunto",
+    "formMessage": "Mensaje",
+    "formSubmit": "Enviar Mensaje",
+    "emailUs": "Envíenos un correo electrónico",
+    "emailAddress": "[TODO: Your Email Address]",
+    "responseTime": "Por lo general, respondemos dentro de las 24-48 horas.",
+    "successMessage": "¡Gracias! Tu mensaje ha sido enviado.",
+    "errorMessage": "Algo salió mal. Por favor, inténtelo de nuevo más tarde.",
+    "formNamePlaceholder": "Juan Pérez",
+    "formEmailPlaceholder": "juan@ejemplo.com",
+    "formSubjectPlaceholder": "¿Cómo podemos ayudar?",
+    "formMessagePlaceholder": "Escribe tu mensaje aquí..."
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: September 29, 2026",
-    "intro": "At 100 Tools, your privacy is our top priority. This Privacy Policy outlines how we handle (and explicitly do NOT handle) your personal data.",
-    "dataCollectionTitle": "No Data Collection",
-    "dataCollectionText": "We do not collect, store, or transmit any personal data when you use our calculators and tools. All computations—including formatting, decoding, and calculating—are performed strictly locally within your browser using JavaScript.",
-    "analyticsTitle": "Analytics & Tracking",
-    "analyticsText": "We may use privacy-friendly, anonymized analytics to understand general traffic patterns (like which tools are most popular). This data cannot be traced back to individual users and does not use intrusive tracking cookies.",
-    "thirdPartyTitle": "Third-Party Services",
-    "thirdPartyText": "Our website is hosted on modern edge networks. These infrastructure providers may log basic connection data (like IP addresses) for security and anti-DDoS purposes, which is standard practice for any website.",
-    "contactUs": "If you have any questions about this Privacy Policy, please contact us."
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 29 de septiembre de 2026",
+    "intro": "En 100 Tools, su privacidad es nuestra máxima prioridad. Esta Política de Privacidad describe cómo manejamos (y explícitamente NO manejamos) sus datos personales.",
+    "dataCollectionTitle": "Sin Recopilación de Datos",
+    "dataCollectionText": "No recopilamos datos personales de forma innecesaria. Los cálculos se realizan de forma local. Sin embargo, al utilizar nuestro sitio, nosotros y nuestros socios externos podemos utilizar datos básicos de conexión y cookies, como se describe a continuación.",
+    "analyticsTitle": "Análisis y Seguimiento",
+    "analyticsText": "Podemos utilizar análisis anónimos y amigables con la privacidad para comprender los patrones generales de tráfico (como qué herramientas son las más populares). Estos datos no se pueden rastrear hasta usuarios individuales y no utilizan cookies de seguimiento intrusivas.",
+    "thirdPartyTitle": "Proveedores externos y Google AdSense",
+    "thirdPartyText": "Los proveedores externos, incluido Google, utilizan cookies para mostrar anuncios basados en sus visitas anteriores a este sitio web u otros sitios web. El uso de cookies publicitarias por parte de Google permite que Google y sus socios le muestren anuncios basados en su visita a nuestros sitios y/o a otros sitios en Internet.",
+    "contactUs": "Si tiene alguna pregunta sobre esta Política de Privacidad, contáctenos.",
+    "optOutTitle": "Exclusión de anuncios personalizados",
+    "optOutText": "Puede inhabilitar la publicidad personalizada visitando la Configuración de anuncios de Google (https://myadcenter.google.com/). Como alternativa, puede optar por que algunos proveedores externos no utilicen cookies para publicidad personalizada visitando www.aboutads.info.",
+    "userRightsTitle": "Sus Derechos de Privacidad (GDPR y CCPA)",
+    "userRightsText": "Dependiendo de su ubicación, es posible que tenga derechos según el GDPR, CCPA/CPRA o leyes similares para acceder, eliminar o restringir el procesamiento de sus datos. También tiene el derecho a optar por no participar en la venta o uso compartido de su información personal. Utilice el enlace 'Configuración de privacidad' en el pie de página para administrar su consentimiento.",
+    "childrenTitle": "Privacidad de los Niños",
+    "childrenText": "Nuestros servicios no están dirigidos a niños menores de 13 años y no recopilamos a sabiendas información personal de niños.",
+    "dataRetentionTitle": "Retención de Datos",
+    "dataRetentionText": "Cualquier registro de conexión temporal que mantengan nuestros proveedores de alojamiento se conserva solo durante el tiempo que sea necesario para fines operativos y de seguridad."
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: September 29, 2026",
-    "intro": "By accessing and using 100 Tools, you agree to comply with and be bound by the following terms and conditions of use.",
-    "noWarrantyTitle": "No Warranties (As-Is)",
-    "noWarrantyText": "All tools, calculators, and information on this website are provided \"as-is\" without any representations or warranties, express or implied. We make no guarantees regarding the accuracy, reliability, or completeness of the results generated.",
-    "liabilityTitle": "Limitation of Liability",
-    "liabilityText": "In no event shall 100 Tools be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever arising out of or in connection with the use of our tools. This includes financial losses or medical decisions made based on our calculators.",
-    "acceptableUseTitle": "Acceptable Use",
-    "acceptableUseText": "You agree to use our tools for lawful purposes only. You must not attempt to scrape, DDoS, or otherwise disrupt the service or networks connected to 100 Tools.",
-    "modificationsTitle": "Modifications",
-    "modificationsText": "We reserve the right to revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then-current version of these terms."
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: 29 de septiembre de 2026",
+    "intro": "Al acceder y utilizar 100 Tools, acepta cumplir y estar sujeto a los siguientes términos y condiciones de uso.",
+    "noWarrantyTitle": "Sin Garantías (Tal Cual)",
+    "noWarrantyText": "Todas las herramientas, calculadoras e información de este sitio web se proporcionan \"tal cual\" sin representaciones ni garantías, expresas o implícitas. No ofrecemos garantías sobre la exactitud, fiabilidad o integridad de los resultados generados.",
+    "liabilityTitle": "Limitación de Responsabilidad",
+    "liabilityText": "En ningún caso 100 Tools será responsable por daños especiales, directos, indirectos, consecuentes o incidentales o cualquier daño que surja de o en conexión con el uso de nuestras herramientas. Esto incluye pérdidas financieras o decisiones médicas tomadas en base a nuestras calculadoras.",
+    "acceptableUseTitle": "Uso Aceptable",
+    "acceptableUseText": "Usted acepta utilizar nuestras herramientas solo para fines legales. No debe intentar hacer scraping, DDoS o interrumpir de otro modo el servicio o las redes conectadas a 100 Tools.",
+    "modificationsTitle": "Modificaciones",
+    "modificationsText": "Nos reservamos el derecho de revisar estos términos de servicio en cualquier momento sin previo aviso. Al usar este sitio web, usted acepta estar sujeto a la versión actual de estos términos."
   },
   "Cookie": {
-    "title": "Cookie Policy",
-    "lastUpdated": "Last Updated: September 29, 2026",
-    "intro": "This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, or the information we collect using cookies and how that information is used.",
-    "whatAreCookiesTitle": "What are Cookies?",
-    "whatAreCookiesText": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used to make websites work, or work more efficiently, as well as to provide reporting information.",
-    "howWeUseCookiesTitle": "How We Use Cookies",
-    "howWeUseCookiesText": "We use cookies strictly for essential functionality and basic user preferences. For example, we might use local storage or a cookie to remember if you prefer \"Dark Mode\" or \"Light Mode\", or to remember your preferred language.",
-    "noTrackingTitle": "No Invasive Tracking",
-    "noTrackingText": "We do not use advertising cookies, third-party trackers, or cross-site tracking technologies. Your use of our tools remains private.",
-    "managingCookiesTitle": "Managing Cookies",
-    "managingCookiesText": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed."
+    "title": "Política de Cookies",
+    "lastUpdated": "Última actualización: 29 de septiembre de 2026",
+    "intro": "Esta Política de Cookies explica qué son las cookies y cómo las utilizamos. Debe leer esta política para comprender qué tipo de cookies utilizamos, o la información que recopilamos mediante cookies y cómo se utiliza esa información.",
+    "whatAreCookiesTitle": "¿Qué son las Cookies?",
+    "whatAreCookiesText": "Las cookies son pequeños archivos de texto que los sitios web que visita colocan en su computadora o dispositivo móvil. Se utilizan ampliamente para hacer que los sitios web funcionen, o funcionen de manera más eficiente, así como para proporcionar información de informes.",
+    "howWeUseCookiesTitle": "Cómo Usamos las Cookies",
+    "howWeUseCookiesText": "Utilizamos cookies para funcionalidades esenciales, guardar sus preferencias y mostrar anuncios relevantes a través de proveedores externos como Google.",
+    "noTrackingTitle": "Cookies de Publicidad de Terceros",
+    "noTrackingText": "Utilizamos Google AdSense para financiar nuestras herramientas gratuitas. Estos proveedores externos utilizan cookies para mostrar anuncios personalizados. Puede administrar sus preferencias en cualquier momento mediante el enlace Configuración de privacidad en nuestro pie de página.",
+    "managingCookiesTitle": "Gestión de Cookies",
+    "managingCookiesText": "Puede controlar y/o eliminar las cookies como desee. Puede eliminar todas las cookies que ya están en su computadora y puede configurar la mayoría de los navegadores para evitar que se coloquen."
+  },
+  "Disclaimer": {
+    "title": "Aviso Legal",
+    "lastUpdated": "Última actualización: 29 de septiembre de 2026",
+    "intro": "La información y las herramientas proporcionadas en 100 Tools son solo para fines informativos y educativos generales.",
+    "accuracyTitle": "Precisión General",
+    "accuracyText": "Si bien nos esforzamos por mantener nuestras calculadoras y convertidores actualizados y correctos, no hacemos representaciones ni garantías de ningún tipo, expresas o implícitas, sobre la integridad, exactitud, confiabilidad o idoneidad de las herramientas.",
+    "medicalTitle": "Aviso Médico y de Salud",
+    "medicalText": "Las herramientas como las calculadoras de IMC, Calorías, Macros, Grasa Corporal e Ingesta de Agua proporcionan estimaciones basadas en fórmulas estándar. NO son un sustituto del consejo, diagnóstico o tratamiento médico profesional. Siempre busque el consejo de su médico u otro proveedor de salud calificado.",
+    "financialTitle": "Aviso Financiero",
+    "financialText": "Las calculadoras sobre préstamos, hipotecas, EMI, inversiones, impuestos y salarios son solo para fines ilustrativos. No constituyen asesoramiento financiero. Las tasas, impuestos y términos reales variarán según su institución específica y las leyes regionales.",
+    "legalTitle": "Variaciones Legales y Regionales",
+    "legalText": "Es posible que las fórmulas no reflejen las normas fiscales o legales precisas de su jurisdicción específica. Siempre consulte a un profesional certificado en su área antes de tomar cualquier decisión financiera o legal vinculante."
+  },
+  "Consent": {
+    "title": "Valoramos su privacidad",
+    "description": "Nosotros y nuestros socios utilizamos cookies para almacenar y/o acceder a la información de su dispositivo. Esto se utiliza para mostrar anuncios y contenido personalizados, medir el rendimiento de los anuncios y el contenido, y obtener información sobre la audiencia.",
+    "acceptAll": "Aceptar todo",
+    "rejectAll": "Rechazar no esenciales",
+    "managePreferences": "Gestionar preferencias",
+    "savePreferences": "Guardar preferencias",
+    "essentialCookies": "Cookies esenciales (Obligatorio)",
+    "essentialCookiesDesc": "Necesarias para que el sitio web funcione correctamente.",
+    "analyticsCookies": "Cookies analíticas",
+    "analyticsCookiesDesc": "Nos ayudan a comprender cómo interactúan los visitantes con el sitio.",
+    "adCookies": "Cookies publicitarias",
+    "adCookiesDesc": "Utilizadas por nosotros y nuestros socios (como Google) para mostrar anuncios personalizados.",
+    "close": "Cerrar"
   }
 }

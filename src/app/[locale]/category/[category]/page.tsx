@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { routing, Locale } from "@/i18n/routing";
 import { categoriesRegistry } from "@/lib/tools/categories";
 import { toolsRegistry } from "@/lib/tools/registry";
+import { getToolSeoContent } from "@/lib/tools/registry-helpers";
 import { Metadata } from "next";
 import { ToolCard } from "@/components/ui/ToolCard";
 import { Box } from "lucide-react";
@@ -113,10 +114,14 @@ export default async function CategoryPage({ params }: { params: Promise<{ local
         slug = slugObj;
       }
       
+      const jsonContent = getToolSeoContent(tool.id, locale);
+      const title = jsonContent?.h1 || jsonContent?.seoTitle || tool.locales[locale as Locale]?.title || tool.locales.en?.title || tool.id;
+      const description = jsonContent?.intro || jsonContent?.metaDescription || tool.locales[locale as Locale]?.description || tool.locales.en?.description || "";
+      
       return {
         id: tool.id,
-        title: tool.locales[locale as Locale]?.title || tool.locales.en?.title || tool.id,
-        description: tool.locales[locale as Locale]?.description || tool.locales.en?.description || "",
+        title,
+        description,
         slug: slug.startsWith('/') ? slug.slice(1) : slug,
         category: category,
         icon: tool.icon

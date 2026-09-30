@@ -1,6 +1,15 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Shield, EyeOff, Server, HardDrive } from "lucide-react";
 
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Privacy" });
+  return {
+    title: `${t("title")} - 100 Tools`,
+    description: t("intro")
+  };
+}
+
 export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
@@ -57,6 +66,33 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
               <h2 className="text-2xl font-bold text-foreground mb-3">{t("thirdPartyTitle")}</h2>
               <p className="text-muted-foreground leading-relaxed text-lg">
                 {t("thirdPartyText")}
+              </p>
+              
+              <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">{t("optOutTitle")}</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                {t("optOutText")}
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col md:flex-row gap-8 items-start bg-card border border-border/50 rounded-3xl p-8 hover:shadow-md transition-shadow">
+            <div className="p-4 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 rounded-2xl shrink-0">
+              <Shield className="w-8 h-8" />
+            </div>
+            <div>
+              <h2 className="text-2xl font-bold text-foreground mb-3">{t("userRightsTitle")}</h2>
+              <p className="text-muted-foreground leading-relaxed text-lg">
+                {t("userRightsText")}
+              </p>
+              
+              <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">{t("childrenTitle")}</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                {t("childrenText")}
+              </p>
+              
+              <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">{t("dataRetentionTitle")}</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                {t("dataRetentionText")}
               </p>
             </div>
           </div>

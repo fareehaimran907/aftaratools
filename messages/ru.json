@@ -1,10 +1,9 @@
 {
   "Navigation": {
-    "home": "Главная",
-    "tools": "Инструменты",
     "categories": "Категории",
     "about": "О нас",
-    "contact": "Контакты"
+    "contact": "Контакты",
+    "home": "Главная"
   },
   "Common": {
     "viewIn": "Просмотреть на {language}?",
@@ -84,7 +83,7 @@
       }
     },
     "base64encode-decode": {
-      "title": "Base64EncodeDecode",
+      "title": "Base64EncodeDecode​",
       "description": "",
       "ui": {
         "base64EncoderDecoder": "Кодер/декодер Base64",
@@ -584,7 +583,7 @@
       }
     },
     "jwt-decoder": {
-      "title": "JwtDecoder",
+      "title": "JwtDecoder​",
       "description": "",
       "ui": {
         "jwtDecoder": "JWT-декодер",
@@ -592,7 +591,7 @@
         "invalidJwtFormat": "Неверный формат JWT.",
         "header": "Заголовок",
         "payload": "Полезная нагрузка",
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik..."
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...​"
       }
     },
     "length-converter": {
@@ -716,7 +715,7 @@
       }
     },
     "number-base-converter": {
-      "title": "NumberBaseConverter",
+      "title": "NumberBaseConverter​",
       "description": "",
       "ui": {
         "numberBaseConverter": "Конвертер системы счисления",
@@ -856,7 +855,7 @@
       }
     },
     "qr-code-generator": {
-      "title": "QrCodeGenerator",
+      "title": "QrCodeGenerator​",
       "description": "",
       "ui": {
         "qrCodeGenerator": "Генератор QR-кода",
@@ -1043,7 +1042,7 @@
       }
     },
     "sql-formatter": {
-      "title": "SqlFormatter",
+      "title": "SqlFormatter​",
       "description": "",
       "ui": {
         "sqlFormatter": "SQL форматтер",
@@ -1198,7 +1197,7 @@
       }
     },
     "unix-timestamp-converter": {
-      "title": "UnixTimestampConverter",
+      "title": "UnixTimestampConverter​",
       "description": "",
       "ui": {
         "timestampToDate": "Временная метка даты",
@@ -1223,7 +1222,7 @@
       }
     },
     "uuid-generator": {
-      "title": "UuidGenerator",
+      "title": "UuidGenerator​",
       "description": "",
       "ui": {
         "uuidV4Generator": "Генератор UUID (v4)",
@@ -1299,7 +1298,7 @@
       }
     },
     "word-counter": {
-      "title": "WordCounter",
+      "title": "WordCounter​",
       "description": "",
       "ui": {
         "wordCounter": "Счетчик слов",
@@ -1334,7 +1333,7 @@
       }
     },
     "xml-formatter": {
-      "title": "XmlFormatter",
+      "title": "XmlFormatter​",
       "description": "",
       "ui": {
         "xmlFormatter": "XML-форматер",
@@ -1362,61 +1361,70 @@
     "noResults": "Инструменты для \"{query}\" не найдены."
   },
   "Home": {
-    "title": "Бесплатные онлайн-инструменты для повседневных задач",
-    "subtitle": "Вычисляйте, конвертируйте, генерируйте и упрощайте свою повседневную работу с помощью быстрых, бесплатных и удобных онлайн-инструментов.",
-    "popularTools": "Популярные инструменты",
-    "metaTitle": "100 инструментов — бесплатные онлайн-инструменты премиум-класса",
-    "metaDescription": "Рассчитывайте, конвертируйте, генерируйте и анализируйте все, что вам нужно, с помощью нашего набора из более чем 100 онлайн-инструментов премиум-класса.",
-    "heroBadge": "Более 100 бесплатных онлайн-инструментов",
-    "heroTitle1": "Рассчитать, преобразовать и",
-    "heroTitle2": "генерировать все.",
-    "heroDescription": "Платформа премиум-класса для разработчиков, финансовых специалистов и повседневных задач. Быстро, конфиденциально и красиво оформлено.",
-    "popular": "Популярные:",
-    "browseCategories": "Просмотр категорий",
-    "browseCategoriesDesc": "Найдите именно то, что вам нужно, организованное по рабочему процессу.",
-    "mostPopularTools": "Самые популярные инструменты",
-    "mostPopularToolsDesc": "Инструменты, которые наше сообщество использует чаще всего.",
-    "exploreAll": "Исследуйте все",
-    "whyUse": "Зачем использовать 100 инструментов?",
-    "whyUseDesc": "Создан с использованием современных технологий для обеспечения наилучшего пользовательского опыта.",
-    "feature1Title": "Молниеносно",
-    "feature1Desc": "Мгновенные результаты без перезагрузки страницы. Оптимизирован для скорости и низкой задержки.",
-    "feature2Title": "Конфиденциальность прежде всего",
-    "feature2Desc": "Расчеты происходят прямо в вашем браузере. Ваши данные никогда не покидают ваше устройство.",
-    "feature3Title": "Премиум-дизайн",
-    "feature3Desc": "Тщательно продуманные интерфейсы, красивые, интуитивно понятные и простые в использовании."
+    "metaTitle": "Бесплатные Онлайн Инструменты и Калькуляторы",
+    "metaDescription": "Получите доступ к полной коллекции бесплатных онлайн-инструментов, конвертеров и утилит. Без регистрации. Быстро, конфиденциально и точно.",
+    "heroH1": "Бесплатные Онлайн Инструменты для Любых Задач",
+    "heroSub": "Откройте для себя нашу коллекцию быстрых, безопасных и невероятно точных онлайн-калькуляторов и конвертеров для упрощения ваших повседневных задач.",
+    "trustFree": "100% Бесплатно",
+    "trustNoSignup": "Без Регистрации",
+    "trustBrowser": "Работает в Браузере",
+    "trustLanguages": "16 Языков",
+    "searchPlaceholder": "Поиск калькуляторов, конвертеров...",
+    "popular": "Популярное:",
+    "browseCategories": "Обзор по Категориям",
+    "browseCategoriesDesc": "Изучите нашу обширную библиотеку веб-утилит, распределенных по категориям для вашего удобства. От финансов до веб-разработки.",
+    "mostPopularTools": "Самые Популярные Инструменты",
+    "mostPopularToolsDesc": "Присоединяйтесь к тысячам пользователей, которые ежедневно полагаются на эти высоко оцененные бесплатные онлайн-инструменты.",
+    "exploreAll": "Смотреть Все",
+    "whyUse": "Почему Стоит Выбрать Нашу Платформу?",
+    "whyUseDesc": "Мы ставим пользовательский опыт превыше всего. Наша платформа создана для предоставления мгновенных результатов без ущерба для вашей цифровой конфиденциальности.",
+    "featureSpeedTitle": "Молниеносная Обработка",
+    "featureSpeedDesc": "Все вычисления выполняются локально в вашем браузере. Ощутите отсутствие задержек и мгновенную конвертацию без ожидания ответов от сервера.",
+    "featurePrivacyTitle": "Строгие Стандарты Конфиденциальности",
+    "featurePrivacyDesc": "Мы не храним ваши вводимые данные. Ваша информация никогда не покидает ваше устройство, что обеспечивает полную конфиденциальность.",
+    "featureAccuracyTitle": "Высочайшая Точность",
+    "featureAccuracyDesc": "Наши алгоритмы используют стандартизированные, общепринятые формулы. Ожидайте строгую точность при любых вычислениях.",
+    "howItWorksTitle": "Как это Работает за 3 Шага",
+    "howItWorksStep1": "Найдите нужный инструмент",
+    "howItWorksStep1Desc": "Используйте умную панель поиска или просмотрите наши организованные категории, чтобы найти конкретный калькулятор.",
+    "howItWorksStep2": "Введите ваши данные",
+    "howItWorksStep2Desc": "Вводите числа, текст или даты в наш интуитивно понятный интерфейс, разработанный как для настольных, так и для мобильных устройств.",
+    "howItWorksStep3": "Мгновенно получите результат",
+    "howItWorksStep3Desc": "Точные результаты отображаются моментально. Скопируйте их в буфер обмена одним щелчком мыши или экспортируйте для себя.",
+    "featuredTool": "Инструмент Недели",
+    "featuredToolDesc": "Опробуйте наш Калькулятор Возраста, чтобы узнать свой точный возраст в годах, месяцах, днях и даже секундах с абсолютной точностью.",
+    "featuredToolCTA": "Попробовать Калькулятор Возраста",
+    "languagesTitle": "Доступно на 16 Языках",
+    "languagesDesc": "Мы верим, что мощные утилиты должны быть доступны всем. Переключитесь на свой родной язык для максимального комфорта.",
+    "faqTitle": "Часто Задаваемые Вопросы",
+    "faq1Q": "Являются ли эти онлайн-инструменты полностью бесплатными?",
+    "faq1A": "Да, абсолютно. Весь наш набор калькуляторов, конвертеров и утилит для разработчиков на 100% бесплатен. Скрытых платежей нет.",
+    "faq2Q": "Нужно ли мне создавать учетную запись?",
+    "faq2A": "Регистрация не требуется. Вы можете получить доступ ко всем функциям нашего сайта мгновенно, не предоставляя личную информацию.",
+    "faq3Q": "Хранятся ли мои данные на ваших серверах?",
+    "faq3A": "Нет. Подавляющее большинство наших инструментов обрабатывают данные локально в вашем браузере. Мы не собираем и не храним ваши цифры.",
+    "faq4Q": "Насколько точны финансовые калькуляторы?",
+    "faq4A": "Наши финансовые инструменты созданы с использованием стандартных бухгалтерских формул. Однако они не заменяют профессиональные финансовые консультации.",
+    "faq5Q": "Могу ли я использовать этот сайт на своем мобильном телефоне?",
+    "faq5A": "Да, наша платформа полностью адаптивна и оптимизирована для безупречной работы на смартфонах, планшетах и настольных компьютерах.",
+    "faq6Q": "Как часто добавляются новые инструменты?",
+    "faq6A": "Мы постоянно расширяем наш каталог. Новые калькуляторы и утилиты добавляются еженедельно на основе отзывов пользователей.",
+    "ctaTitle": "Готовы упростить свои задачи?",
+    "ctaDesc": "Хватит тратить время на ручные вычисления. Начните использовать наши бесплатные онлайн-инструменты уже сегодня и повысьте свою продуктивность.",
+    "ctaButton": "Посмотреть Все Категории"
   },
   "Footer": {
-    "100Tools": "100 инструментов",
-    "thePremiumProductivityPlatf": "Платформа производительности премиум-класса для всех ваших ежедневных вычислений, преобразований и генерации данных.",
-    "categories": "Категории",
-    "developerTools": "Инструменты разработчика",
-    "finance": "Финансы",
-    "dateTime": "Дата и время",
-    "textTools": "Текстовые инструменты",
-    "converters": "Конвертеры",
+    "tagline": "Платформа премиум-класса для всех ваших ежедневных вычислений, конвертаций и генераций.",
     "popularTools": "Популярные инструменты",
-    "ageCalculator": "Калькулятор возраста",
-    "jSONFormatter": "Форматер JSON",
-    "percentageCalculator": "Калькулятор процентов",
-    "base64Encoder": "Кодировщик Base64",
-    "salaryCalculator": "Калькулятор зарплаты",
     "company": "Компания",
-    "aboutUs": "О нас",
-    "contact": "Контакт",
-    "privacyPolicy": "политика конфиденциальности",
-    "termsOfService": "Условия использования",
-    "Copy": "&копировать;",
-    "100ToolsAllRightsReserved": "100 инструментов. Все права защищены.",
-    "builtWithNextJs": "Создано с помощью Next.js",
-    "madeWith": "Сделано с ❤️",
-    "tagline": "Платформа производительности премиум-класса для всех ваших ежедневных вычислений, преобразований и генерации данных.",
-    "privacy": "политика конфиденциальности",
-    "terms": "Условия использования",
+    "privacy": "Политика Конфиденциальности",
+    "terms": "Условия Обслуживания",
+    "cookie": "Политика Использования Файлов Cookie",
     "allRightsReserved": "Все права защищены.",
     "builtWith": "Создано с помощью Next.js",
     "madeWithHeart": "Сделано с ❤️",
-    "cookie": "Cookie Policy"
+    "disclaimer": "Отказ от ответственности",
+    "privacySettings": "Настройки конфиденциальности"
   },
   "Header": {
     "100Tools": "100 инструментов",
@@ -1540,7 +1548,7 @@
     "reset": "Перезагрузить"
   },
   "JwtDecoder": {
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...​"
   },
   "LengthConverter": {},
   "LoanCalculator": {
@@ -1739,74 +1747,116 @@
     "converters": "Конвертеры"
   },
   "About": {
-    "title": "About Us & Methodology",
-    "description": "Welcome to 100 Tools, your free resource for premium online calculators and developer utilities.",
-    "missionTitle": "Our Mission",
-    "missionText": "Our mission is to provide fast, reliable, and privacy-respecting tools for everyday tasks. Whether you're a developer needing to encode a JWT, a homeowner calculating mulch volume, or just trying to figure out a discount, we've built a robust tool for you.",
-    "methodologyTitle": "Our Methodology",
-    "methodologyIntro": "We believe in transparency and accuracy, particularly for financial and health-related tools (Your Money or Your Life topics). Here is how we ensure our tools are reliable:",
-    "standardizedFormulasTitle": "Standardized Formulas",
-    "standardizedFormulasText": "All financial calculators (like ROI, Mortgages, and Loans) use industry-standard amortization and compound interest formulas.",
-    "medicalGuidelinesTitle": "Medical Guidelines",
-    "medicalGuidelinesText": "Health calculators (like BMI and BMR) use globally recognized equations, such as the Mifflin-St Jeor Equation for metabolic rate, and the standard WHO classifications for BMI.",
-    "privacyFirstTitle": "Privacy First",
-    "privacyFirstText": "Your data never leaves your browser. All calculations, hashing, and conversions happen locally on your device via JavaScript. We do not store or transmit your inputs.",
-    "continuousTestingTitle": "Continuous Testing",
-    "continuousTestingText": "Our toolkit is rigorously tested to ensure edge cases (like zero values or invalid inputs) are handled gracefully without crashing.",
-    "editorialGuidelinesTitle": "Editorial Guidelines",
-    "editorialGuidelinesText": "Every tool page is designed to be self-explanatory. We prioritize usability and clear instructions over cluttered interfaces. If an equation has limitations (like the Navy Body Fat method being an estimation), we clearly note it on the tool page.",
-    "disclaimer": "Disclaimer: The tools and calculators on this website are for informational and educational purposes only. They do not constitute professional financial or medical advice. Always consult with a qualified professional before making significant health or financial decisions."
+    "title": "О нас и Методология",
+    "description": "Добро пожаловать в 100 Tools, ваш бесплатный ресурс для премиальных онлайн-калькуляторов и утилит для разработчиков.",
+    "missionTitle": "Наша миссия",
+    "missionText": "Наша миссия — предоставлять быстрые, надежные и ориентированные на конфиденциальность инструменты для повседневных задач. Будь вы разработчик, которому нужно закодировать JWT, домовладелец, рассчитывающий объем мульчи, или просто пытаетесь вычислить скидку, мы создали для вас надежный инструмент.",
+    "methodologyTitle": "Наша методология",
+    "methodologyIntro": "Мы верим в прозрачность и точность, особенно для финансовых и медицинских инструментов (темы «Ваши деньги или ваша жизнь»). Вот как мы гарантируем надежность наших инструментов:",
+    "standardizedFormulasTitle": "Стандартизированные формулы",
+    "standardizedFormulasText": "Все финансовые калькуляторы (такие как рентабельность инвестиций, ипотека и кредиты) используют стандартные отраслевые формулы амортизации и сложного процента.",
+    "medicalGuidelinesTitle": "Медицинские рекомендации",
+    "medicalGuidelinesText": "Калькуляторы здоровья (такие как ИМТ и BMR) используют всемирно признанные уравнения, такие как уравнение Миффлина-Сан Жеора для скорости метаболизма, и стандартные классификации ВОЗ для ИМТ.",
+    "privacyFirstTitle": "Конфиденциальность прежде всего",
+    "privacyFirstText": "Ваши данные никогда не покидают ваш браузер. Все вычисления, хеширование и преобразования происходят локально на вашем устройстве через JavaScript. Мы не храним и не передаем ваши введенные данные.",
+    "continuousTestingTitle": "Непрерывное тестирование",
+    "continuousTestingText": "Наш набор инструментов тщательно тестируется, чтобы убедиться, что пограничные случаи (такие как нулевые значения или недействительные данные) обрабатываются корректно без сбоев.",
+    "editorialGuidelinesTitle": "Редакционные правила",
+    "editorialGuidelinesText": "Страница каждого инструмента создана так, чтобы быть понятной интуитивно. Мы отдаем приоритет удобству использования и четким инструкциям перед перегруженными интерфейсами. Если уравнение имеет ограничения (например, метод расчета жира в организме Navy является оценочным), мы четко отмечаем это на странице инструмента.",
+    "disclaimer": "Отказ от ответственности: Инструменты и калькуляторы на этом веб-сайте предназначены только для информационных и образовательных целей. Они не представляют собой профессиональную финансовую или медицинскую консультацию. Всегда консультируйтесь с квалифицированным специалистом перед принятием важных решений в области здоровья или финансов.",
+    "teamTitle": "Кто мы",
+    "teamText": "Этот сайт управляется [TODO: Your Company Name / Your Name]. Мы стремимся предоставлять общественности высококачественные инструменты. Если вам нужно связаться с нами, пожалуйста, посетите нашу страницу Контакты."
   },
   "Contact": {
-    "title": "Contact Us",
-    "description": "We'd love to hear from you. Whether you have a question, a feature request, or found a bug, let us know!",
-    "formName": "Name",
+    "title": "Свяжитесь с нами",
+    "description": "Мы будем рады услышать вас. Если у вас есть вопрос, запрос на функцию или вы нашли ошибку, дайте нам знать!",
+    "formName": "Имя",
     "formEmail": "Email",
-    "formSubject": "Subject",
-    "formMessage": "Message",
-    "formSubmit": "Send Message",
-    "emailUs": "Email Us",
-    "emailAddress": "contact@100tools.example.com",
-    "responseTime": "We typically respond within 24-48 hours.",
-    "successMessage": "Thank you! Your message has been sent.",
-    "errorMessage": "Something went wrong. Please try again later."
+    "formSubject": "Тема",
+    "formMessage": "Сообщение",
+    "formSubmit": "Отправить сообщение",
+    "emailUs": "Напишите нам",
+    "emailAddress": "[TODO: Your Email Address]",
+    "responseTime": "Обычно мы отвечаем в течение 24-48 часов.",
+    "successMessage": "Спасибо! Ваше сообщение отправлено.",
+    "errorMessage": "Что-то пошло не так. Пожалуйста, попробуйте позже.",
+    "formNamePlaceholder": "Иван Иванов",
+    "formEmailPlaceholder": "ivan@example.com",
+    "formSubjectPlaceholder": "Чем мы можем помочь?",
+    "formMessagePlaceholder": "Напишите ваше сообщение здесь..."
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: September 29, 2026",
-    "intro": "At 100 Tools, your privacy is our top priority. This Privacy Policy outlines how we handle (and explicitly do NOT handle) your personal data.",
-    "dataCollectionTitle": "No Data Collection",
-    "dataCollectionText": "We do not collect, store, or transmit any personal data when you use our calculators and tools. All computations—including formatting, decoding, and calculating—are performed strictly locally within your browser using JavaScript.",
-    "analyticsTitle": "Analytics & Tracking",
-    "analyticsText": "We may use privacy-friendly, anonymized analytics to understand general traffic patterns (like which tools are most popular). This data cannot be traced back to individual users and does not use intrusive tracking cookies.",
-    "thirdPartyTitle": "Third-Party Services",
-    "thirdPartyText": "Our website is hosted on modern edge networks. These infrastructure providers may log basic connection data (like IP addresses) for security and anti-DDoS purposes, which is standard practice for any website.",
-    "contactUs": "If you have any questions about this Privacy Policy, please contact us."
+    "title": "Политика конфиденциальности",
+    "lastUpdated": "Последнее обновление: 29 сентября 2026 года",
+    "intro": "В 100 Tools ваша конфиденциальность является нашим главным приоритетом. В настоящей Политике конфиденциальности описывается, как мы обращаемся (и явно НЕ обращаемся) с вашими персональными данными.",
+    "dataCollectionTitle": "Нет сбора данных",
+    "dataCollectionText": "Мы не собираем персональные данные без необходимости. Вычисления происходят локально. Однако при использовании нашего сайта мы и наши сторонние партнеры можем использовать базовые данные о подключении и файлы cookie, как описано ниже.",
+    "analyticsTitle": "Аналитика и отслеживание",
+    "analyticsText": "Мы можем использовать анонимную аналитику, не нарушающую конфиденциальность, для понимания общих моделей трафика (например, какие инструменты наиболее популярны). Эти данные невозможно отследить до отдельных пользователей, и при этом не используются навязчивые файлы cookie для отслеживания.",
+    "thirdPartyTitle": "Сторонние поставщики и Google AdSense",
+    "thirdPartyText": "Сторонние поставщики, включая Google, используют файлы cookie для показа рекламы на основе ваших предыдущих посещений этого или других веб-сайтов. Использование рекламных файлов cookie позволяет компании Google и ее партнерам показывать вам рекламу с учетом ваших посещений наших и/или других сайтов в Интернете.",
+    "contactUs": "Если у вас есть какие-либо вопросы относительно настоящей Политики конфиденциальности, свяжитесь с нами.",
+    "optOutTitle": "Отказ от персонализированной рекламы",
+    "optOutText": "Вы можете отказаться от персонализированной рекламы, посетив Настройки рекламных предпочтений Google (https://myadcenter.google.com/). Вы также можете отказаться от использования файлов cookie некоторыми сторонними поставщиками для персонализированной рекламы, посетив сайт www.aboutads.info.",
+    "userRightsTitle": "Ваши права на конфиденциальность (GDPR и CCPA)",
+    "userRightsText": "В зависимости от вашего местонахождения у вас могут быть права в соответствии с GDPR, CCPA/CPRA или аналогичными законами на доступ, удаление или ограничение обработки ваших данных. У вас также есть право отказаться от продажи или передачи вашей личной информации. Используйте ссылку «Настройки конфиденциальности» в подвале сайта для управления своим согласием.",
+    "childrenTitle": "Конфиденциальность детей",
+    "childrenText": "Наши услуги не направлены на детей младше 13 лет, и мы сознательно не собираем личную информацию от детей.",
+    "dataRetentionTitle": "Хранение данных",
+    "dataRetentionText": "Любые временные журналы подключений, хранящиеся у наших хостинг-провайдеров, сохраняются только до тех пор, пока это необходимо для целей безопасности и эксплуатации."
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: September 29, 2026",
-    "intro": "By accessing and using 100 Tools, you agree to comply with and be bound by the following terms and conditions of use.",
-    "noWarrantyTitle": "No Warranties (As-Is)",
-    "noWarrantyText": "All tools, calculators, and information on this website are provided \"as-is\" without any representations or warranties, express or implied. We make no guarantees regarding the accuracy, reliability, or completeness of the results generated.",
-    "liabilityTitle": "Limitation of Liability",
-    "liabilityText": "In no event shall 100 Tools be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever arising out of or in connection with the use of our tools. This includes financial losses or medical decisions made based on our calculators.",
-    "acceptableUseTitle": "Acceptable Use",
-    "acceptableUseText": "You agree to use our tools for lawful purposes only. You must not attempt to scrape, DDoS, or otherwise disrupt the service or networks connected to 100 Tools.",
-    "modificationsTitle": "Modifications",
-    "modificationsText": "We reserve the right to revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then-current version of these terms."
+    "title": "Условия использования",
+    "lastUpdated": "Последнее обновление: 29 сентября 2026 года",
+    "intro": "Получая доступ и используя 100 Tools, вы соглашаетесь соблюдать следующие условия использования.",
+    "noWarrantyTitle": "Без гарантий (как есть)",
+    "noWarrantyText": "Все инструменты, калькуляторы и информация на этом веб-сайте предоставляются «как есть» без каких-либо заверений или гарантий, явных или подразумеваемых. Мы не даем никаких гарантий относительно точности, надежности или полноты генерируемых результатов.",
+    "liabilityTitle": "Ограничение ответственности",
+    "liabilityText": "Ни при каких обстоятельствах 100 Tools не несет ответственности за любые специальные, прямые, косвенные, косвенные или случайные убытки или любые убытки, возникающие из-за использования наших инструментов или в связи с ним. Это включает финансовые потери или медицинские решения, принятые на основе наших калькуляторов.",
+    "acceptableUseTitle": "Допустимое использование",
+    "acceptableUseText": "Вы соглашаетесь использовать наши инструменты только в законных целях. Вы не должны пытаться парсить, осуществлять DDoS-атаки или иным образом нарушать работу сервиса или сетей, подключенных к 100 Tools.",
+    "modificationsTitle": "Модификации",
+    "modificationsText": "Мы оставляем за собой право пересматривать настоящие условия обслуживания в любое время без предварительного уведомления. Используя этот веб-сайт, вы соглашаетесь соблюдать текущую на тот момент версию настоящих условий."
   },
   "Cookie": {
-    "title": "Cookie Policy",
-    "lastUpdated": "Last Updated: September 29, 2026",
-    "intro": "This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, or the information we collect using cookies and how that information is used.",
-    "whatAreCookiesTitle": "What are Cookies?",
-    "whatAreCookiesText": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used to make websites work, or work more efficiently, as well as to provide reporting information.",
-    "howWeUseCookiesTitle": "How We Use Cookies",
-    "howWeUseCookiesText": "We use cookies strictly for essential functionality and basic user preferences. For example, we might use local storage or a cookie to remember if you prefer \"Dark Mode\" or \"Light Mode\", or to remember your preferred language.",
-    "noTrackingTitle": "No Invasive Tracking",
-    "noTrackingText": "We do not use advertising cookies, third-party trackers, or cross-site tracking technologies. Your use of our tools remains private.",
-    "managingCookiesTitle": "Managing Cookies",
-    "managingCookiesText": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed."
+    "title": "Политика использования файлов cookie",
+    "lastUpdated": "Последнее обновление: 29 сентября 2026 года",
+    "intro": "В настоящей Политике использования файлов cookie объясняется, что такое файлы cookie и как мы их используем. Вам следует прочитать эту политику, чтобы понять, какой тип файлов cookie мы используем, какую информацию мы собираем с помощью файлов cookie и как эта информация используется.",
+    "whatAreCookiesTitle": "Что такое файлы cookie?",
+    "whatAreCookiesText": "Файлы cookie — это небольшие текстовые файлы, которые размещаются на вашем компьютере или мобильном устройстве посещаемыми вами веб-сайтами. Они широко используются для обеспечения работы или более эффективной работы веб-сайтов, а также для предоставления отчетной информации.",
+    "howWeUseCookiesTitle": "Как мы используем файлы cookie",
+    "howWeUseCookiesText": "Мы используем файлы cookie для основных функций, сохранения ваших предпочтений и для показа релевантной рекламы через сторонних поставщиков, таких как Google.",
+    "noTrackingTitle": "Сторонние рекламные файлы cookie",
+    "noTrackingText": "Мы используем Google AdSense для финансирования наших бесплатных инструментов. Эти сторонние поставщики используют файлы cookie для показа персонализированной рекламы. Вы можете управлять своими предпочтениями в любое время, используя ссылку «Настройки конфиденциальности» в подвале нашего сайта.",
+    "managingCookiesTitle": "Управление файлами cookie",
+    "managingCookiesText": "Вы можете контролировать и/или удалять файлы cookie по своему желанию. Вы можете удалить все файлы cookie, которые уже есть на вашем компьютере, и вы можете настроить большинство браузеров таким образом, чтобы предотвратить их размещение."
+  },
+  "Disclaimer": {
+    "title": "Отказ от ответственности",
+    "lastUpdated": "Последнее обновление: 29 сентября 2026 года",
+    "intro": "Информация и инструменты, предоставляемые в 100 Tools, предназначены только для общих информационных и образовательных целей.",
+    "accuracyTitle": "Общая точночность",
+    "accuracyText": "Хотя мы стремимся поддерживать наши калькуляторы и конвертеры в актуальном и правильном состоянии, мы не делаем никаких заявлений или гарантий любого рода, явных или подразумеваемых, относительно полноты, точности, надежности или пригодности инструментов.",
+    "medicalTitle": "Медицинский отказ от ответственности",
+    "medicalText": "Такие инструменты, как калькуляторы ИМТ, калорий, макронутриентов, жировых отложений и потребления воды, предоставляют оценки, основанные на стандартных формулах. Они НЕ заменяют профессиональную медицинскую консультацию, диагностику или лечение. Всегда обращайтесь за советом к врачу или другому квалифицированному медицинскому работнику.",
+    "financialTitle": "Финансовый отказ от ответственности",
+    "financialText": "Калькуляторы, касающиеся кредитов, ипотеки, EMI, инвестиций, налогов и заработной платы, предназначены только для иллюстративных целей. Они не представляют собой финансовую консультацию. Фактические ставки, налоги и условия будут зависеть от вашего конкретного учреждения и региональных законов.",
+    "legalTitle": "Юридические и региональные различия",
+    "legalText": "Формулы могут не отражать точные юридические или налоговые правила в вашей конкретной юрисдикции. Всегда консультируйтесь с сертифицированным специалистом в вашем регионе перед принятием любых обязательных финансовых или юридических решений."
+  },
+  "Consent": {
+    "title": "Мы ценим вашу конфиденциальность",
+    "description": "Мы и наши партнеры используем файлы cookie для хранения и/или доступа к информации на вашем устройстве. Это используется для показа персонализированной рекламы и контента, измерения эффективности рекламы и контента, а также для получения информации об аудитории.",
+    "acceptAll": "Принять все",
+    "rejectAll": "Отклонить необязательные",
+    "managePreferences": "Управление настройками",
+    "savePreferences": "Сохранить настройки",
+    "essentialCookies": "Основные файлы cookie (Обязательно)",
+    "essentialCookiesDesc": "Необходимы для правильной работы веб-сайта.",
+    "analyticsCookies": "Аналитические файлы cookie",
+    "analyticsCookiesDesc": "Помогают нам понять, как посетители взаимодействуют с сайтом.",
+    "adCookies": "Рекламные файлы cookie",
+    "adCookiesDesc": "Используются нами и нашими партнерами (например, Google) для показа персонализированной рекламы.",
+    "close": "Закрыть"
   }
 }

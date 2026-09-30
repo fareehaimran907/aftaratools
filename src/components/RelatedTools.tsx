@@ -3,6 +3,7 @@ import { toolsRegistry } from "@/lib/tools/registry";
 import { Locale, routing } from "@/i18n/routing";
 import { ToolCard } from "@/components/ui/ToolCard";
 import { useTranslations } from "next-intl";
+import { getToolSeoContent } from "@/lib/tools/registry-helpers";
 
 export function RelatedTools({ currentToolId, locale, orientation = "vertical" }: { currentToolId: string; locale: Locale; orientation?: "vertical" | "horizontal" }) {
     const t = useTranslations("RelatedTools");
@@ -35,12 +36,17 @@ export function RelatedTools({ currentToolId, locale, orientation = "vertical" }
       } else if (typeof slugObj === 'string') {
         slug = slugObj;
       }
+      
+      const jsonContent = getToolSeoContent(tool.id, locale);
+      const title = jsonContent?.h1 || jsonContent?.seoTitle || tool.locales[locale]?.title || tool.locales.en?.title || tool.id;
+      const description = jsonContent?.intro || jsonContent?.metaDescription || tool.locales[locale]?.description || tool.locales.en?.description || "";
+      
       return {
         id: tool.id,
         category: tool.categoryId,
         icon: tool.icon,
-        title: tool.locales[locale]?.title || tool.locales.en?.title || tool.id,
-        description: tool.locales[locale]?.description || tool.locales.en?.description || "",
+        title,
+        description,
         slug: slug.startsWith('/') ? slug.slice(1) : slug,
       };
     })
@@ -59,12 +65,17 @@ export function RelatedTools({ currentToolId, locale, orientation = "vertical" }
       } else if (typeof slugObj === 'string') {
         slug = slugObj;
       }
+      
+      const jsonContent = getToolSeoContent(tool.id, locale);
+      const title = jsonContent?.h1 || jsonContent?.seoTitle || tool.locales[locale]?.title || tool.locales.en?.title || tool.id;
+      const description = jsonContent?.intro || jsonContent?.metaDescription || tool.locales[locale]?.description || tool.locales.en?.description || "";
+      
       return {
         id: tool.id,
         category: tool.categoryId,
         icon: tool.icon,
-        title: tool.locales[locale]?.title || tool.locales.en?.title || tool.id,
-        description: tool.locales[locale]?.description || tool.locales.en?.description || "",
+        title,
+        description,
         slug: slug.startsWith('/') ? slug.slice(1) : slug,
       };
     });

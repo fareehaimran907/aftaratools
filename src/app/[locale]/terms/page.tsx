@@ -1,6 +1,15 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { FileText, AlertTriangle, Scale, Settings } from "lucide-react";
 
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Terms" });
+  return {
+    title: `${t("title")} - 100 Tools`,
+    description: t("intro")
+  };
+}
+
 export default async function TermsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);

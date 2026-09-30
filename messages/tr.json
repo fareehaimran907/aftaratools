@@ -1,10 +1,9 @@
 {
   "Navigation": {
-    "home": "Ana Sayfa",
-    "tools": "Araçlar",
     "categories": "Kategoriler",
-    "about": "Hakkında",
-    "contact": "İletişim"
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "home": "Ana Sayfa"
   },
   "Common": {
     "viewIn": "{language} dilinde görüntüle?",
@@ -84,7 +83,7 @@
       }
     },
     "base64encode-decode": {
-      "title": "Base64EncodeDecode",
+      "title": "Base64EncodeDecode​",
       "description": "",
       "ui": {
         "base64EncoderDecoder": "Base64 Kodlayıcı / Kod Çözücü",
@@ -211,7 +210,7 @@
         "veryActiveHardExercise67Daysweek": "Çok aktif (haftada 6-7 gün ağır egzersiz)",
         "extraActiveVeryHardExercisephysicalJob": "Ekstra aktif (çok ağır egzersiz/fiziksel iş)",
         "maintainWeight": "Ağırlığı Koruyun",
-        "kcal": "kcal",
+        "kcal": "kcal​",
         "loseWeight05kgweek": "Kilo Verme (-0,5kg/hafta)",
         "gainWeight05kgweek": "Kilo Alın (+0,5kg/hafta)"
       }
@@ -285,7 +284,7 @@
       }
     },
     "css-minifier": {
-      "title": "CssMinifier",
+      "title": "CssMinifier​",
       "description": "",
       "ui": {
         "cssMinifier": "CSS Küçültücü",
@@ -510,7 +509,7 @@
       }
     },
     "hex-to-decimal": {
-      "title": "HexToDecimal",
+      "title": "HexToDecimal​",
       "description": "",
       "ui": {
         "hexToDecimalConverter": "Hex'ten Ondalık Sayıya Dönüştürücü",
@@ -536,7 +535,7 @@
       }
     },
     "html-encode-decode": {
-      "title": "HtmlEncodeDecode",
+      "title": "HtmlEncodeDecode​",
       "description": "",
       "ui": {
         "htmlEntityEncoderDecoder": "HTML Varlık Kodlayıcı / Kod Çözücü",
@@ -548,7 +547,7 @@
       }
     },
     "html-minifier": {
-      "title": "HtmlMinifier",
+      "title": "HtmlMinifier​",
       "description": "",
       "ui": {
         "htmlMinifier": "HTML Küçültücü",
@@ -574,7 +573,7 @@
       }
     },
     "js-minifier": {
-      "title": "JsMinifier",
+      "title": "JsMinifier​",
       "description": "",
       "ui": {
         "javascriptMinifier": "JavaScript Küçültücü",
@@ -592,7 +591,7 @@
         "invalidJwtFormat": "Geçersiz JWT biçimi.",
         "header": "Başlık",
         "payload": "Yük",
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik..."
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...​"
       }
     },
     "length-converter": {
@@ -640,12 +639,12 @@
         "balanced303040": "Dengeli (30/30/40)",
         "lowCarb404020": "Düşük Karbonhidrat (40/40/20)",
         "highProtein402535": "Yüksek Protein (40/25/35)",
-        "keto20755": "Keto (20/75/5)",
-        "protein": "Protein",
+        "keto20755": "Keto (20/75/5)​",
+        "protein": "Protein​",
         "g": "G",
         "fats": "Yağlar",
         "carbs": "Karbonhidratlar",
-        "kcal": "kcal"
+        "kcal": "kcal​"
       }
     },
     "markup-calculator": {
@@ -716,7 +715,7 @@
       }
     },
     "number-base-converter": {
-      "title": "NumberBaseConverter",
+      "title": "NumberBaseConverter​",
       "description": "",
       "ui": {
         "numberBaseConverter": "Sayı Tabanı Dönüştürücü",
@@ -856,7 +855,7 @@
       }
     },
     "qr-code-generator": {
-      "title": "QrCodeGenerator",
+      "title": "QrCodeGenerator​",
       "description": "",
       "ui": {
         "qrCodeGenerator": "QR Kod Oluşturucu",
@@ -1043,7 +1042,7 @@
       }
     },
     "sql-formatter": {
-      "title": "SqlFormatter",
+      "title": "SqlFormatter​",
       "description": "",
       "ui": {
         "sqlFormatter": "SQL Biçimlendirici",
@@ -1116,7 +1115,7 @@
         "from": "İtibaren",
         "celsius": "santigrat",
         "fahrenheit": "Fahrenhayt",
-        "kelvin": "Kelvin",
+        "kelvin": "Kelvin​",
         "to": "İle"
       }
     },
@@ -1211,7 +1210,7 @@
       }
     },
     "url-encode-decode": {
-      "title": "UrlEncodeDecode",
+      "title": "UrlEncodeDecode​",
       "description": "",
       "ui": {
         "urlEncoderDecoder": "URL Kodlayıcı / Kod Çözücü",
@@ -1334,7 +1333,7 @@
       }
     },
     "xml-formatter": {
-      "title": "XmlFormatter",
+      "title": "XmlFormatter​",
       "description": "",
       "ui": {
         "xmlFormatter": "XML Biçimlendirici",
@@ -1362,61 +1361,70 @@
     "noResults": "\"{query}\" için araç bulunamadı."
   },
   "Home": {
-    "title": "Günlük Görevler İçin Ücretsiz Çevrimiçi Araçlar",
-    "subtitle": "Hızlı, ücretsiz ve kullanımı kolay çevrimiçi araçlarla günlük işlerinizi hesaplayın, dönüştürün, oluşturun ve basitleştirin.",
-    "popularTools": "Popüler Araçlar",
-    "metaTitle": "100 Araç - Premium Ücretsiz Çevrimiçi Araçlar",
-    "metaDescription": "100'den fazla premium çevrimiçi araçtan oluşan paketimizle ihtiyacınız olan her şeyi hesaplayın, dönüştürün, oluşturun ve analiz edin.",
-    "heroBadge": "100+ Ücretsiz Çevrimiçi Araç",
-    "heroTitle1": "Hesapla, dönüştür ve",
-    "heroTitle2": "her şeyi üretir.",
-    "heroDescription": "Geliştiriciler, finans profesyonelleri ve günlük görevler için birinci sınıf üretkenlik platformu. Hızlı, özel ve güzel tasarlanmış.",
+    "metaTitle": "Ücretsiz Çevrimiçi Araçlar ve Hesap Makineleri",
+    "metaDescription": "Ücretsiz çevrimiçi araçlar, birim dönüştürücüler ve web yardımcı programlarından oluşan kapsamlı bir koleksiyona erişin. Kayıt yok. Hızlı, gizli ve doğru.",
+    "heroH1": "Her İhtiyaç İçin Ücretsiz Çevrimiçi Araçlar",
+    "heroSub": "Günlük görevlerinizi basitleştirmek için hızlı, gizliliğe önem veren ve son derece hassas çevrimiçi hesap makineleri koleksiyonumuzu keşfedin.",
+    "trustFree": "%100 Ücretsiz",
+    "trustNoSignup": "Kayıt Olmak Yok",
+    "trustBrowser": "Tarayıcıda Çalışır",
+    "trustLanguages": "16 Dil",
+    "searchPlaceholder": "Hesap makinesi veya dönüştürücü ara...",
     "popular": "Popüler:",
-    "browseCategories": "Kategorilere Göz Atın",
-    "browseCategoriesDesc": "İş akışına göre düzenlenmiş olarak tam olarak ihtiyacınız olanı bulun.",
+    "browseCategories": "Kategorilere Göre Göz Atın",
+    "browseCategoriesDesc": "Size kolaylık sağlamak için kategorize edilmiş geniş web araçları kütüphanemizi keşfedin. Finanstan web geliştirmeye kadar her şeyi bulun.",
     "mostPopularTools": "En Popüler Araçlar",
-    "mostPopularToolsDesc": "Topluluğumuzun en sık kullandığı araçlar.",
+    "mostPopularToolsDesc": "Günlük matematiksel ve dönüştürme ihtiyaçları için bu yüksek puanlı ücretsiz çevrimiçi araçlara güvenen binlerce kullanıcıya katılın.",
     "exploreAll": "Tümünü Keşfet",
-    "whyUse": "Neden 100 Araç kullanmalısınız?",
-    "whyUseDesc": "En iyi kullanıcı deneyimini sağlamak için modern teknolojiyle tasarlandı.",
-    "feature1Title": "Yıldırım Hızında",
-    "feature1Desc": "Sayfa yeniden yüklenmeden anında sonuçlar. Hız ve düşük gecikme için optimize edilmiştir.",
-    "feature2Title": "Önce Gizlilik",
-    "feature2Desc": "Hesaplamalar doğrudan tarayıcınızda gerçekleşir. Verileriniz asla cihazınızdan ayrılmaz.",
-    "feature3Title": "Üstün Tasarım",
-    "feature3Desc": "Güzel, sezgisel ve kullanımı kolay, özenle hazırlanmış arayüzler."
+    "whyUse": "Neden Platformumuzu Seçmelisiniz?",
+    "whyUseDesc": "Kullanıcı deneyimine her şeyden çok önem veriyoruz. Platformumuz dijital gizliliğinizden ödün vermeden anında sonuç sağlamak üzere tasarlanmıştır.",
+    "featureSpeedTitle": "Işık Hızında İşlem",
+    "featureSpeedDesc": "Tüm hesaplamalar yerel olarak tarayıcınızda gerçekleştirilir. Gecikme yaşamazsınız, anında dönüşüm yapabilirsiniz.",
+    "featurePrivacyTitle": "Sıkı Gizlilik Standartları",
+    "featurePrivacyDesc": "Girdiğiniz verileri asla saklamıyoruz. Bilgileriniz cihazınızdan asla ayrılmaz, böylece hesaplamalarınızın gizliliği tam olarak sağlanır.",
+    "featureAccuracyTitle": "Yüksek Hassasiyet",
+    "featureAccuracyDesc": "Algoritmalarımız küresel olarak kabul görmüş standart formüller kullanır. Kesin doğruluk bekleyebilirsiniz.",
+    "howItWorksTitle": "3 Adımda Nasıl Çalışır",
+    "howItWorksStep1": "Aracınızı bulun",
+    "howItWorksStep1Desc": "İhtiyacınız olan hesap makinesini bulmak için akıllı arama çubuğunu kullanın veya kategorilerimize göz atın.",
+    "howItWorksStep2": "Verilerinizi girin",
+    "howItWorksStep2Desc": "Sayılarınızı veya metinlerinizi hem masaüstü hem de mobil cihazlar için tasarlanmış kullanımı kolay arayüzümüze girin.",
+    "howItWorksStep3": "Anında sonuç alın",
+    "howItWorksStep3Desc": "Doğru sonuçlarınızı anında görüntüleyin. Tek bir tıklamayla panonuza kopyalayabilir veya kaydedebilirsiniz.",
+    "featuredTool": "Haftanın Öne Çıkan Aracı",
+    "featuredToolDesc": "Tam yaşınızı yıl, ay, gün ve hatta saniye cinsinden mutlak doğrulukla bulmak için kapsamlı Yaş Hesaplayıcımızı deneyin.",
+    "featuredToolCTA": "Yaş Hesaplayıcısını Dene",
+    "languagesTitle": "16 Dilde Mevcut",
+    "languagesDesc": "Güçlü araçların herkes için erişilebilir olması gerektiğine inanıyoruz. Sorunsuz bir deneyim için anadilinize geçin.",
+    "faqTitle": "Sıkça Sorulan Sorular",
+    "faq1Q": "Bu çevrimiçi araçları kullanmak tamamen ücretsiz mi?",
+    "faq1A": "Evet, kesinlikle. Araçlarımızın tamamı %100 ücretsizdir. Gizli ücretler veya abonelikler yoktur.",
+    "faq2Q": "Hesap makinelerini kullanmak için hesap oluşturmam gerekiyor mu?",
+    "faq2A": "Hayır. Herhangi bir kayıt veya kişisel bilgi sağlamadan sitemizdeki tüm özellikleri anında kullanabilirsiniz.",
+    "faq3Q": "Verilerim sunucularınızda saklanıyor mu?",
+    "faq3A": "Hayır. Araçlarımızın büyük çoğunluğu verileri yerel olarak tarayıcınızda işler. Girdiğiniz rakamları toplamıyoruz.",
+    "faq4Q": "Finansal hesap makineleri ne kadar doğru?",
+    "faq4A": "Standart formüller kullanılarak oluşturulmuştur ancak yalnızca bilgi amaçlıdır ve profesyonel tavsiyenin yerini alamaz.",
+    "faq5Q": "Bu web sitesini cep telefonumda kullanabilir miyim?",
+    "faq5A": "Evet, platformumuz tamamen duyarlıdır. Akıllı telefonlarda ve tabletlerde mükemmel şekilde çalışacak şekilde optimize edilmiştir.",
+    "faq6Q": "Ne sıklıkla yeni araçlar ekleniyor?",
+    "faq6A": "Kataloğumuzu sürekli genişletiyoruz. Kullanıcı geri bildirimlerine dayalı olarak her hafta yeni hesap makineleri eklenmektedir.",
+    "ctaTitle": "Görevlerinizi basitleştirmeye hazır mısınız?",
+    "ctaDesc": "Manuel hesaplamalarla zaman kaybetmeyi bırakın. Ücretsiz çevrimiçi araçlarımızı bugün kullanmaya başlayın ve üretkenliğinizi artırın.",
+    "ctaButton": "Tüm Kategorileri Görüntüle"
   },
   "Footer": {
-    "100Tools": "100 Araç",
-    "thePremiumProductivityPlatf": "Tüm günlük hesaplama, dönüştürme ve üretim ihtiyaçlarınız için birinci sınıf üretkenlik platformu.",
-    "categories": "Kategoriler",
-    "developerTools": "Geliştirici Araçları",
-    "finance": "Finans",
-    "dateTime": "Tarih ve Saat",
-    "textTools": "Metin Araçları",
-    "converters": "Dönüştürücüler",
+    "tagline": "Tüm günlük hesaplama, dönüştürme ve oluşturma ihtiyaçlarınız için premium üretkenlik platformu.",
     "popularTools": "Popüler Araçlar",
-    "ageCalculator": "Yaş Hesaplayıcı",
-    "jSONFormatter": "JSON Biçimlendirici",
-    "percentageCalculator": "Yüzde Hesaplayıcı",
-    "base64Encoder": "Base64 Kodlayıcı",
-    "salaryCalculator": "Maaş Hesaplayıcı",
     "company": "Şirket",
-    "aboutUs": "Hakkımızda",
-    "contact": "Temas etmek",
-    "privacyPolicy": "Gizlilik Politikası",
-    "termsOfService": "Hizmet Şartları",
-    "Copy": "&kopyala;",
-    "100ToolsAllRightsReserved": "100 Araç. Her hakkı saklıdır.",
-    "builtWithNextJs": "Next.js ile oluşturuldu",
-    "madeWith": "❤️ ile yapıldı",
-    "tagline": "Tüm günlük hesaplama, dönüştürme ve üretim ihtiyaçlarınız için birinci sınıf üretkenlik platformu.",
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları",
-    "allRightsReserved": "Her hakkı saklıdır.",
+    "cookie": "Çerez Politikası",
+    "allRightsReserved": "Tüm hakları saklıdır.",
     "builtWith": "Next.js ile oluşturuldu",
     "madeWithHeart": "❤️ ile yapıldı",
-    "cookie": "Cookie Policy"
+    "disclaimer": "Yasal Uyarı",
+    "privacySettings": "Gizlilik Ayarları"
   },
   "Header": {
     "100Tools": "100 Araç",
@@ -1540,7 +1548,7 @@
     "reset": "Sıfırla"
   },
   "JwtDecoder": {
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...​"
   },
   "LengthConverter": {},
   "LoanCalculator": {
@@ -1551,7 +1559,7 @@
     "generatedText": "Oluşturulan Metin"
   },
   "MacroCalculator": {
-    "kcal": "kcal",
+    "kcal": "kcal​",
     "enterCaloriesToCalculateMa": "Makroları hesaplamak için kalori girin"
   },
   "MarkupCalculator": {
@@ -1739,74 +1747,116 @@
     "converters": "Dönüştürücüler"
   },
   "About": {
-    "title": "About Us & Methodology",
-    "description": "Welcome to 100 Tools, your free resource for premium online calculators and developer utilities.",
-    "missionTitle": "Our Mission",
-    "missionText": "Our mission is to provide fast, reliable, and privacy-respecting tools for everyday tasks. Whether you're a developer needing to encode a JWT, a homeowner calculating mulch volume, or just trying to figure out a discount, we've built a robust tool for you.",
-    "methodologyTitle": "Our Methodology",
-    "methodologyIntro": "We believe in transparency and accuracy, particularly for financial and health-related tools (Your Money or Your Life topics). Here is how we ensure our tools are reliable:",
-    "standardizedFormulasTitle": "Standardized Formulas",
-    "standardizedFormulasText": "All financial calculators (like ROI, Mortgages, and Loans) use industry-standard amortization and compound interest formulas.",
-    "medicalGuidelinesTitle": "Medical Guidelines",
-    "medicalGuidelinesText": "Health calculators (like BMI and BMR) use globally recognized equations, such as the Mifflin-St Jeor Equation for metabolic rate, and the standard WHO classifications for BMI.",
-    "privacyFirstTitle": "Privacy First",
-    "privacyFirstText": "Your data never leaves your browser. All calculations, hashing, and conversions happen locally on your device via JavaScript. We do not store or transmit your inputs.",
-    "continuousTestingTitle": "Continuous Testing",
-    "continuousTestingText": "Our toolkit is rigorously tested to ensure edge cases (like zero values or invalid inputs) are handled gracefully without crashing.",
-    "editorialGuidelinesTitle": "Editorial Guidelines",
-    "editorialGuidelinesText": "Every tool page is designed to be self-explanatory. We prioritize usability and clear instructions over cluttered interfaces. If an equation has limitations (like the Navy Body Fat method being an estimation), we clearly note it on the tool page.",
-    "disclaimer": "Disclaimer: The tools and calculators on this website are for informational and educational purposes only. They do not constitute professional financial or medical advice. Always consult with a qualified professional before making significant health or financial decisions."
+    "title": "Hakkımızda ve Metodoloji",
+    "description": "Premium çevrimiçi hesap makineleri ve geliştirici yardımcı programları için ücretsiz kaynağınız 100 Tools'a hoş geldiniz.",
+    "missionTitle": "Misyonumuz",
+    "missionText": "Misyonumuz, günlük görevler için hızlı, güvenilir ve gizliliğe saygılı araçlar sağlamaktır. Bir JWT kodlaması gereken bir geliştirici, malç hacmini hesaplayan bir ev sahibi veya sadece bir indirimi hesaplamaya çalışan biri olun, sizin için sağlam bir araç oluşturduk.",
+    "methodologyTitle": "Metodolojimiz",
+    "methodologyIntro": "Özellikle finansal ve sağlıkla ilgili araçlar (Paranız veya Hayatınız konuları) için şeffaflık ve doğruluğa inanıyoruz. Araçlarımızın güvenilir olmasını şu şekilde sağlıyoruz:",
+    "standardizedFormulasTitle": "Standartlaştırılmış Formüller",
+    "standardizedFormulasText": "Tüm finansal hesap makineleri (ROI, İpotekler ve Krediler gibi) endüstri standardı amortisman ve bileşik faiz formüllerini kullanır.",
+    "medicalGuidelinesTitle": "Tıbbi Yönergeler",
+    "medicalGuidelinesText": "Sağlık hesap makineleri (VKI ve BMR gibi), metabolik hız için Mifflin-St Jeor Denklemi ve VKI için standart WHO sınıflandırmaları gibi dünya çapında tanınan denklemleri kullanır.",
+    "privacyFirstTitle": "Önce Gizlilik",
+    "privacyFirstText": "Verileriniz asla tarayıcınızdan ayrılmaz. Tüm hesaplamalar, karma (hashing) işlemleri ve dönüşümler, cihazınızda JavaScript aracılığıyla yerel olarak gerçekleşir. Girdilerinizi saklamıyor veya iletmiyoruz.",
+    "continuousTestingTitle": "Sürekli Test",
+    "continuousTestingText": "Araç setimiz, uç durumların (sıfır değerler veya geçersiz girdiler gibi) çökme olmadan zarif bir şekilde işlendiğinden emin olmak için titizlikle test edilir.",
+    "editorialGuidelinesTitle": "Editoryal Yönergeler",
+    "editorialGuidelinesText": "Her araç sayfası kendi kendini açıklayıcı olacak şekilde tasarlanmıştır. Karmaşık arayüzler yerine kullanılabilirliğe ve net talimatlara öncelik veriyoruz. Bir denklemin sınırlamaları varsa (Donanma Vücut Yağ yönteminin bir tahmin olması gibi), bunu araç sayfasında açıkça belirtiriz.",
+    "disclaimer": "Sorumluluk Reddi: Bu web sitesindeki araçlar ve hesap makineleri yalnızca bilgilendirme ve eğitim amaçlıdır. Profesyonel finansal veya tıbbi tavsiye teşkil etmezler. Önemli sağlık veya finansal kararlar almadan önce her zaman kalifiye bir uzmana danışın.",
+    "teamTitle": "Biz Kimiz",
+    "teamText": "Bu site [TODO: Your Company Name / Your Name] tarafından işletilmektedir. Halka yüksek kaliteli araçlar sunmaya adadık. Bize ulaşmanız gerekirse, lütfen İletişim sayfamıza bakın."
   },
   "Contact": {
-    "title": "Contact Us",
-    "description": "We'd love to hear from you. Whether you have a question, a feature request, or found a bug, let us know!",
-    "formName": "Name",
-    "formEmail": "Email",
-    "formSubject": "Subject",
-    "formMessage": "Message",
-    "formSubmit": "Send Message",
-    "emailUs": "Email Us",
-    "emailAddress": "contact@100tools.example.com",
-    "responseTime": "We typically respond within 24-48 hours.",
-    "successMessage": "Thank you! Your message has been sent.",
-    "errorMessage": "Something went wrong. Please try again later."
+    "title": "Bize Ulaşın",
+    "description": "Sizden haber almaktan memnuniyet duyarız. Bir sorunuz, bir özellik isteğiniz veya bir hata bulduysanız, bize bildirin!",
+    "formName": "İsim",
+    "formEmail": "E-posta",
+    "formSubject": "Konu",
+    "formMessage": "Mesaj",
+    "formSubmit": "Mesaj Gönder",
+    "emailUs": "Bize E-posta Gönder",
+    "emailAddress": "[TODO: Your Email Address]",
+    "responseTime": "Genellikle 24-48 saat içinde yanıt veririz.",
+    "successMessage": "Teşekkürler! Mesajınız gönderildi.",
+    "errorMessage": "Bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin.",
+    "formNamePlaceholder": "Ahmet Yılmaz",
+    "formEmailPlaceholder": "ahmet@example.com",
+    "formSubjectPlaceholder": "Nasıl yardımcı olabiliriz?",
+    "formMessagePlaceholder": "Mesajınızı buraya yazın..."
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: September 29, 2026",
-    "intro": "At 100 Tools, your privacy is our top priority. This Privacy Policy outlines how we handle (and explicitly do NOT handle) your personal data.",
-    "dataCollectionTitle": "No Data Collection",
-    "dataCollectionText": "We do not collect, store, or transmit any personal data when you use our calculators and tools. All computations—including formatting, decoding, and calculating—are performed strictly locally within your browser using JavaScript.",
-    "analyticsTitle": "Analytics & Tracking",
-    "analyticsText": "We may use privacy-friendly, anonymized analytics to understand general traffic patterns (like which tools are most popular). This data cannot be traced back to individual users and does not use intrusive tracking cookies.",
-    "thirdPartyTitle": "Third-Party Services",
-    "thirdPartyText": "Our website is hosted on modern edge networks. These infrastructure providers may log basic connection data (like IP addresses) for security and anti-DDoS purposes, which is standard practice for any website.",
-    "contactUs": "If you have any questions about this Privacy Policy, please contact us."
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son Güncelleme: 29 Eylül 2026",
+    "intro": "100 Tools'da gizliliğiniz en büyük önceliğimizdir. Bu Gizlilik Politikası, kişisel verilerinizi nasıl işlediğimizi (ve açıkça nasıl İŞLEMEDİĞİMİZİ) özetlemektedir.",
+    "dataCollectionTitle": "Veri Toplama Yok",
+    "dataCollectionText": "Gereksiz yere kişisel veri toplamıyoruz. Hesaplamalar yerel olarak gerçekleşir. Ancak sitemizi kullanırken, aşağıda açıklandığı gibi temel bağlantı verileri ve çerezler biz ve üçüncü taraf ortaklarımız tarafından kullanılabilir.",
+    "analyticsTitle": "Analitik ve İzleme",
+    "analyticsText": "Genel trafik modellerini (hangi araçların en popüler olduğu gibi) anlamak için gizlilik dostu, anonimleştirilmiş analitikler kullanabiliriz. Bu veriler bireysel kullanıcılara kadar izlenemez ve müdahaleci izleme çerezleri kullanmaz.",
+    "thirdPartyTitle": "Üçüncü Taraf Satıcılar ve Google AdSense",
+    "thirdPartyText": "Google da dahil olmak üzere üçüncü taraf satıcılar, bu web sitesine veya diğer web sitelerine yaptığınız önceki ziyaretlere dayalı olarak reklam sunmak için çerezleri kullanır. Google'ın reklam çerezlerini kullanması, kendisinin ve ortaklarının sitemize ve/veya internetteki diğer sitelere yaptığınız ziyarete dayalı olarak size reklam sunmasına olanak tanır.",
+    "contactUs": "Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen bizimle iletişime geçin.",
+    "optOutTitle": "Kişiselleştirilmiş Reklamları Devre Dışı Bırakma",
+    "optOutText": "Google Reklam Ayarları'nı (https://myadcenter.google.com/) ziyaret ederek kişiselleştirilmiş reklamlardan vazgeçebilirsiniz. Alternatif olarak, www.aboutads.info adresini ziyaret ederek bazı üçüncü taraf satıcıların kişiselleştirilmiş reklamlar için çerez kullanımını devre dışı bırakabilirsiniz.",
+    "userRightsTitle": "Gizlilik Haklarınız (GDPR ve CCPA)",
+    "userRightsText": "Bulunduğunuz yere bağlı olarak, verilerinize erişmek, silmek veya işlenmesini kısıtlamak için GDPR, CCPA/CPRA veya benzeri yasalar kapsamında haklarınız olabilir. Ayrıca kişisel bilgilerinizin satışından veya paylaşılmasından vazgeçme hakkına da sahipsiniz. Onayınızı yönetmek için altbilgideki 'Gizlilik ayarları' bağlantısını kullanın.",
+    "childrenTitle": "Çocukların Gizliliği",
+    "childrenText": "Hizmetlerimiz 13 yaşın altındaki çocuklara yönelik değildir ve bilerek çocuklardan kişisel bilgi toplamıyoruz.",
+    "dataRetentionTitle": "Veri Saklama",
+    "dataRetentionText": "Barındırma sağlayıcılarımız tarafından tutulan geçici bağlantı günlükleri, yalnızca güvenlik ve operasyonel amaçlar için gerekli olduğu sürece saklanır."
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: September 29, 2026",
-    "intro": "By accessing and using 100 Tools, you agree to comply with and be bound by the following terms and conditions of use.",
-    "noWarrantyTitle": "No Warranties (As-Is)",
-    "noWarrantyText": "All tools, calculators, and information on this website are provided \"as-is\" without any representations or warranties, express or implied. We make no guarantees regarding the accuracy, reliability, or completeness of the results generated.",
-    "liabilityTitle": "Limitation of Liability",
-    "liabilityText": "In no event shall 100 Tools be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever arising out of or in connection with the use of our tools. This includes financial losses or medical decisions made based on our calculators.",
-    "acceptableUseTitle": "Acceptable Use",
-    "acceptableUseText": "You agree to use our tools for lawful purposes only. You must not attempt to scrape, DDoS, or otherwise disrupt the service or networks connected to 100 Tools.",
-    "modificationsTitle": "Modifications",
-    "modificationsText": "We reserve the right to revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then-current version of these terms."
+    "title": "Kullanım Koşulları",
+    "lastUpdated": "Son Güncelleme: 29 Eylül 2026",
+    "intro": "100 Tools'a erişerek ve onu kullanarak, aşağıdaki kullanım koşullarına uymayı ve bunlara bağlı kalmayı kabul etmiş olursunuz.",
+    "noWarrantyTitle": "Garanti Yok (Olduğu Gibi)",
+    "noWarrantyText": "Bu web sitesindeki tüm araçlar, hesap makineleri ve bilgiler, açık veya zımni hiçbir beyan veya garanti olmaksızın \"olduğu gibi\" sağlanmaktadır. Üretilen sonuçların doğruluğu, güvenilirliği veya eksiksizliği konusunda hiçbir garanti vermiyoruz.",
+    "liabilityTitle": "Sorumluluğun Sınırlandırılması",
+    "liabilityText": "Hiçbir durumda 100 Tools, araçlarımızın kullanımından kaynaklanan veya bununla bağlantılı olarak ortaya çıkan herhangi bir özel, doğrudan, dolaylı, sonuç olarak ortaya çıkan veya arızi zarardan veya herhangi bir zarardan sorumlu tutulamaz. Buna finansal kayıplar veya hesap makinelerimize dayalı olarak alınan tıbbi kararlar dahildir.",
+    "acceptableUseTitle": "Kabul Edilebilir Kullanım",
+    "acceptableUseText": "Araçlarımızı yalnızca yasal amaçlar için kullanmayı kabul ediyorsunuz. 100 Tools'a bağlı hizmeti veya ağları kazımaya (scrape), DDoS saldırısı yapmaya veya başka bir şekilde bozmaya çalışmamalısınız.",
+    "modificationsTitle": "Değişiklikler",
+    "modificationsText": "Bu hizmet şartlarını herhangi bir zamanda önceden haber vermeksizin revize etme hakkını saklı tutarız. Bu web sitesini kullanarak, bu koşulların o anki güncel sürümüne bağlı kalmayı kabul etmiş olursunuz."
   },
   "Cookie": {
-    "title": "Cookie Policy",
-    "lastUpdated": "Last Updated: September 29, 2026",
-    "intro": "This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, or the information we collect using cookies and how that information is used.",
-    "whatAreCookiesTitle": "What are Cookies?",
-    "whatAreCookiesText": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used to make websites work, or work more efficiently, as well as to provide reporting information.",
-    "howWeUseCookiesTitle": "How We Use Cookies",
-    "howWeUseCookiesText": "We use cookies strictly for essential functionality and basic user preferences. For example, we might use local storage or a cookie to remember if you prefer \"Dark Mode\" or \"Light Mode\", or to remember your preferred language.",
-    "noTrackingTitle": "No Invasive Tracking",
-    "noTrackingText": "We do not use advertising cookies, third-party trackers, or cross-site tracking technologies. Your use of our tools remains private.",
-    "managingCookiesTitle": "Managing Cookies",
-    "managingCookiesText": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed."
+    "title": "Çerez Politikası",
+    "lastUpdated": "Son Güncelleme: 29 Eylül 2026",
+    "intro": "Bu Çerez Politikası, çerezlerin ne olduğunu ve bunları nasıl kullandığımızı açıklar. Ne tür çerezler kullandığımızı veya çerez kullanarak hangi bilgileri topladığımızı ve bu bilgilerin nasıl kullanıldığını anlamanız için bu politikayı okumalısınız.",
+    "whatAreCookiesTitle": "Çerezler Nedir?",
+    "whatAreCookiesText": "Çerezler, ziyaret ettiğiniz web siteleri tarafından bilgisayarınıza veya mobil cihazınıza yerleştirilen küçük metin dosyalarıdır. Web sitelerinin çalışmasını veya daha verimli çalışmasını sağlamak ve ayrıca raporlama bilgileri sağlamak için yaygın olarak kullanılırlar.",
+    "howWeUseCookiesTitle": "Çerezleri Nasıl Kullanıyoruz",
+    "howWeUseCookiesText": "Gerekli işlevsellik, tercihlerinizi kaydetmek ve Google gibi üçüncü taraf satıcılar aracılığıyla alakalı reklamlar sunmak için çerezler kullanıyoruz.",
+    "noTrackingTitle": "Üçüncü Taraf Reklam Çerezleri",
+    "noTrackingText": "Ücretsiz araçlarımızı finanse etmek için Google AdSense'i kullanıyoruz. Bu üçüncü taraf satıcılar, kişiselleştirilmiş reklamlar sunmak için çerezler kullanır. Altbilgimizdeki Gizlilik Ayarları bağlantısını kullanarak tercihlerinizi istediğiniz zaman yönetebilirsiniz.",
+    "managingCookiesTitle": "Çerezleri Yönetme",
+    "managingCookiesText": "Çerezleri dilediğiniz gibi kontrol edebilir ve/veya silebilirsiniz. Bilgisayarınızda halihazırda bulunan tüm çerezleri silebilir ve çoğu tarayıcıyı bunların yerleştirilmesini önleyecek şekilde ayarlayabilirsiniz."
+  },
+  "Disclaimer": {
+    "title": "Sorumluluk Reddi",
+    "lastUpdated": "Son Güncelleme: 29 Eylül 2026",
+    "intro": "100 Tools'da sağlanan bilgiler ve araçlar yalnızca genel bilgi ve eğitim amaçlıdır.",
+    "accuracyTitle": "Genel Doğruluk",
+    "accuracyText": "Hesap makinelerimizi ve dönüştürücülerimizi güncel ve doğru tutmaya çalışsak da, araçların eksiksizliği, doğruluğu, güvenilirliği veya uygunluğu hakkında açık veya zımni hiçbir türden beyan veya garanti vermiyoruz.",
+    "medicalTitle": "Tıbbi ve Sağlık Sorumluluk Reddi",
+    "medicalText": "VKI, Kalori, Makro, Vücut Yağı ve Su Tüketimi hesap makineleri gibi araçlar standart formüllere dayalı tahminler sağlar. Bunlar profesyonel tıbbi tavsiye, teşhis veya tedavinin yerine GEÇMEZ. Her zaman doktorunuzun veya diğer kalifiye sağlık hizmeti sağlayıcınızın tavsiyesini alın.",
+    "financialTitle": "Finansal Sorumluluk Reddi",
+    "financialText": "Krediler, ipotekler, EMI, yatırımlar, vergiler ve maaşlarla ilgili hesap makineleri yalnızca açıklama amaçlıdır. Finansal tavsiye teşkil etmezler. Gerçek oranlar, vergiler ve koşullar, özel kurumunuza ve bölgesel yasalara göre değişecektir.",
+    "legalTitle": "Yasal ve Bölgesel Varyasyonlar",
+    "legalText": "Formüller, özel yargı bölgenizdeki kesin yasal veya vergi kurallarını yansıtmayabilir. Bağlayıcı herhangi bir finansal veya yasal karar almadan önce her zaman bölgenizdeki sertifikalı bir uzmana danışın."
+  },
+  "Consent": {
+    "title": "Gizliliğinize değer veriyoruz",
+    "description": "Biz ve ortaklarımız, cihazınızdaki bilgileri saklamak ve/veya bunlara erişmek için çerezler kullanırız. Bu, kişiselleştirilmiş reklamlar ve içerik sunmak, reklam ve içerik performansını ölçmek ve kitle analizleri elde etmek için kullanılır.",
+    "acceptAll": "Tümünü Kabul Et",
+    "rejectAll": "Gerekli Olmayanları Reddet",
+    "managePreferences": "Tercihleri Yönet",
+    "savePreferences": "Tercihleri Kaydet",
+    "essentialCookies": "Temel Çerezler (Gerekli)",
+    "essentialCookiesDesc": "Web sitesinin düzgün çalışması için gereklidir.",
+    "analyticsCookies": "Analitik Çerezleri",
+    "analyticsCookiesDesc": "Ziyaretçilerin siteyle nasıl etkileşimde bulunduğunu anlamamıza yardımcı olur.",
+    "adCookies": "Reklam Çerezleri",
+    "adCookiesDesc": "Bizim ve ortaklarımızın (Google gibi) kişiselleştirilmiş reklamlar sunması için kullanılır.",
+    "close": "Kapat"
   }
 }

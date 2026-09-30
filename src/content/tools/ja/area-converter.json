@@ -20,7 +20,11 @@
   "howItWorks": "仕組み",
   "workedExample": "例",
   "resultInterpretation": "解釈",
-  "useCases": ["不動産物件一覧", "農地", "外出先で平方メートルを迅速に処理"],
+  "useCases": [
+    "不動産物件一覧",
+    "農地",
+    "外出先で平方メートルを迅速に処理"
+  ],
   "tipsAndLimitations": [
     "面積変換は、線形変換係数を 2 乗します。",
     "最良の結果を得るために、入力が正しくフォーマットされていることを確認してください。",
@@ -28,19 +32,23 @@
   ],
   "faq": [
     {
-      "question": "How big is an acre?",
-      "answer": "43,560 square feet."
+      "question": "エーカーってどれくらいの大きさですか?",
+      "answer": "43,560平方フィート。"
     },
     {
-      "question": "Is the Area Converter free to use?",
-      "answer": "Yes, our Area Converter is completely free and requires no registration."
+      "question": "エリアコンバータは無料で使用できますか?",
+      "answer": "はい、エリアコンバーターは完全に無料で、登録は必要ありません。"
     },
     {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "これはモバイルデバイスでも機能しますか?",
+      "answer": "はい、このツールは完全に応答性が高く、すべてのスマートフォンやタブレットで完璧に機能します。"
     }
   ],
-  "relatedTools": ["長さコンバータ", "重量換算装置", "身長コンバーター"],
+  "relatedTools": [
+    "長さコンバータ",
+    "重量換算装置",
+    "身長コンバーター"
+  ],
   "lastReviewed": "2026-09-30",
   "imageAlt": "エリアコンバータ",
   "ogImageText": "エリアコンバータ"

@@ -1,12 +1,22 @@
 import { Link } from "@/i18n/routing";
 import { Wrench } from "lucide-react";
+import { getToolSeoContent } from "@/lib/tools/registry-helpers";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+
+import { PrivacySettingsButton } from "@/components/PrivacySettingsButton";
 
 export function Footer() {
   const tCat = useTranslations("Categories");
   const tNav = useTranslations("Navigation");
   const tFooter = useTranslations("Footer");
+  const locale = useLocale();
+  
+  const getToolTitle = (id: string, fallback: string) => {
+    const jsonContent = getToolSeoContent(id, locale);
+    return jsonContent?.h1 || jsonContent?.seoTitle || fallback;
+  };
+
   return (
     <footer className="bg-surface border-t border-border pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4">
@@ -39,11 +49,11 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-foreground mb-4">{tFooter("popularTools") || "Popular Tools"}</h4>
             <ul className="space-y-3 text-sm text-secondary-foreground">
-              <li><Link href={"/age-calculator" as any} className="hover:text-primary transition-colors">Age Calculator</Link></li>
-              <li><Link href={"/json-formatter" as any} className="hover:text-primary transition-colors">JSON Formatter</Link></li>
-              <li><Link href={"/percentage-calculator" as any} className="hover:text-primary transition-colors">Percentage Calculator</Link></li>
-              <li><Link href={"/base64-encode-decode" as any} className="hover:text-primary transition-colors">Base64 Encoder</Link></li>
-              <li><Link href={"/salary-calculator" as any} className="hover:text-primary transition-colors">Salary Calculator</Link></li>
+              <li><Link href={"/age-calculator" as any} className="hover:text-primary transition-colors">{getToolTitle("age-calculator", "Age Calculator")}</Link></li>
+              <li><Link href={"/json-formatter" as any} className="hover:text-primary transition-colors">{getToolTitle("json-formatter", "JSON Formatter")}</Link></li>
+              <li><Link href={"/percentage-calculator" as any} className="hover:text-primary transition-colors">{getToolTitle("percentage-calculator", "Percentage Calculator")}</Link></li>
+              <li><Link href={"/base64-encode-decode" as any} className="hover:text-primary transition-colors">{getToolTitle("base64-encode-decode", "Base64 Encoder")}</Link></li>
+              <li><Link href={"/salary-calculator" as any} className="hover:text-primary transition-colors">{getToolTitle("salary-calculator", "Salary Calculator")}</Link></li>
             </ul>
           </div>
           
@@ -55,6 +65,10 @@ export function Footer() {
               <li><Link href={"/privacy" as any} className="hover:text-primary transition-colors">{tFooter("privacy") || "Privacy Policy"}</Link></li>
               <li><Link href={"/terms" as any} className="hover:text-primary transition-colors">{tFooter("terms") || "Terms of Service"}</Link></li>
               <li><Link href={"/cookie" as any} className="hover:text-primary transition-colors">{tFooter("cookie") || "Cookie Policy"}</Link></li>
+              <li><Link href={"/disclaimer" as any} className="hover:text-primary transition-colors">{tFooter("disclaimer") || "Disclaimer"}</Link></li>
+              <li>
+                <PrivacySettingsButton label={tFooter("privacySettings") || "Privacy Settings"} />
+              </li>
             </ul>
           </div>
         </div>

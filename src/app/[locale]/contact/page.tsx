@@ -1,6 +1,15 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Mail, MessageSquare, Send } from "lucide-react";
 
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Contact" });
+  return {
+    title: `${t("title")} - 100 Tools`,
+    description: t("description")
+  };
+}
+
 export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
@@ -34,7 +43,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                   type="text" 
                   id="name" 
                   className="w-full bg-background border border-input rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
-                  placeholder="John Doe"
+                  placeholder={t("formNamePlaceholder")}
                 />
               </div>
               <div className="space-y-2">
@@ -43,7 +52,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                   type="email" 
                   id="email" 
                   className="w-full bg-background border border-input rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
-                  placeholder="john@example.com"
+                  placeholder={t("formEmailPlaceholder")}
                 />
               </div>
             </div>
@@ -54,7 +63,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                 type="text" 
                 id="subject" 
                 className="w-full bg-background border border-input rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
-                placeholder="How can we help?"
+                placeholder={t("formSubjectPlaceholder")}
               />
             </div>
 
@@ -64,7 +73,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                 id="message" 
                 rows={5}
                 className="w-full bg-background border border-input rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-y"
-                placeholder="Write your message here..."
+                placeholder={t("formMessagePlaceholder")}
               ></textarea>
             </div>
 

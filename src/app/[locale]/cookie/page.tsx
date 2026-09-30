@@ -1,6 +1,15 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Cookie, Info, Lock, Settings2 } from "lucide-react";
 
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Cookie" });
+  return {
+    title: `${t("title")} - 100 Tools`,
+    description: t("intro")
+  };
+}
+
 export default async function CookiePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);

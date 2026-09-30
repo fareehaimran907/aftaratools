@@ -12,6 +12,8 @@ const arabic = Noto_Sans_Arabic({ subsets: ["arabic"], display: "swap" });
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { AdSenseLoader } from "@/components/ads/AdSenseLoader";
+import { ConsentBanner } from "@/components/ads/ConsentBanner";
 
 export const metadata: Metadata = {
   title: "100 Tools",
@@ -42,6 +44,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={isRtl ? 'rtl' : 'ltr'} suppressHydrationWarning>
+      <head>
+        <AdSenseLoader />
+      </head>
       <body className={fontClass} suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
@@ -54,6 +59,7 @@ export default async function LocaleLayout({
               <Header />
               <div className="flex-1">{children}</div>
               <Footer />
+              <ConsentBanner />
             </div>
           </ThemeProvider>
         </NextIntlClientProvider>
