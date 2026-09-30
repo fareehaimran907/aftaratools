@@ -1,0 +1,1812 @@
+{
+  "Navigation": {
+    "home": "الرئيسية",
+    "tools": "الأدوات",
+    "categories": "الفئات",
+    "about": "من نحن",
+    "contact": "اتصل بنا"
+  },
+  "Common": {
+    "viewIn": "عرض باللغة {language}؟",
+    "yes": "نعم",
+    "dismiss": "إغلاق",
+    "language": "اللغة",
+    "theme": "المظهر",
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام",
+    "copy": "ينسخ"
+  },
+  "Tools": {
+    "age-calculator": {
+      "title": "حاسبة العمر",
+      "description": "احسب عمرك بدقة بالسنوات والأشهر والأيام.",
+      "ui": {
+        "calculateYourAge": "احسب عمرك",
+        "dateOfBirth": "تاريخ الميلاد",
+        "calculate": "احسب",
+        "years": "سنوات",
+        "months": "أشهر",
+        "days": "أيام",
+        "nextBirthday": "عيد الميلاد القادم:",
+        "totalDays": "إجمالي الأيام:",
+        "yourAgeIs": "عمرك هو:",
+        "copy": "نسخ",
+        "reset": "إعادة تعيين",
+        "targetDate": "التاريخ المستهدف (اختياري)",
+        "selectYourDateOfBirth": "حدد تاريخ ميلادك"
+      }
+    },
+    "percentage-calculator": {
+      "title": "حاسبة النسبة المئوية",
+      "description": "احسب النسب المئوية بسرعة ودقة.",
+      "ui": {
+        "percentageCalculator": "حاسبة النسبة المئوية",
+        "whatIs": "ما هي",
+        "of": "من",
+        "amount": "المبلغ",
+        "calculate": "احسب",
+        "result": "النتيجة",
+        "calculatePercentage": "حساب النسبة المئوية"
+      }
+    },
+    "json-formatter": {
+      "title": "منسق JSON",
+      "description": "نسّق بيانات JSON وتحقق من صحتها وحسّن مظهرها.",
+      "ui": {
+        "formatJson": "تنسيق JSON",
+        "inputJSON": "الإدخال J S O N",
+        "reset": "إعادة ضبط"
+      }
+    },
+    "area-converter": {
+      "title": "محول المساحة",
+      "description": "",
+      "ui": {
+        "areaConverter": "محول المساحة",
+        "from": "من",
+        "to": "إلى"
+      }
+    },
+    "average-calculator": {
+      "title": "حاسبة المتوسط",
+      "description": "",
+      "ui": {
+        "averageCalculator": "حاسبة المتوسط",
+        "enterNumbersSeparatedByCommasOrSpaces": "أدخل الأرقام (مفصولة بفواصل أو مسافات)",
+        "count": "العدد",
+        "sum": "المجموع",
+        "averageMean": "المتوسط الحسابي",
+        "median": "الوسيط",
+        "dataSet": "مجموعة البيانات",
+        "eG12345": "على سبيل المثال 1، 2، 3، 4، 5",
+        "statistics": "إحصائيات"
+      }
+    },
+    "base64encode-decode": {
+      "title": "ترميز وفك ترميز Base64",
+      "description": "",
+      "ui": {
+        "base64EncoderDecoder": "أداة ترميز وفك ترميز Base64",
+        "encode": "ترميز",
+        "decode": "فك الترميز",
+        "input": "الإدخال (",
+        "output": "الإخراج (",
+        "mode": "وضع"
+      }
+    },
+    "bedtime-calculator": {
+      "title": "حاسبة وقت النوم",
+      "description": "",
+      "ui": {
+        "bedtimeCalculator": "حاسبة وقت النوم",
+        "whenDoYouNeedToWakeUp": "متى تحتاج إلى الاستيقاظ؟",
+        "calculate": "احسب",
+        "toWakeUpAt": "للاستيقاظ في الساعة",
+        "youShouldTryToBeAsleepBy": "، يُنصح بأن تكون نائمًا بحلول:",
+        "6Cycles9h": "6 دورات (9 ساعات)",
+        "5Cycles75h": "5 دورات (7.5 ساعات)",
+        "calculationsIncludeAnAverage15MinutesToFallAsleep": "تتضمن الحسابات متوسط 15 دقيقة للاستغراق في النوم.",
+        "enterYourWakeUpTimeToCal": "أدخل وقت استيقاظك لحساب أوقات النوم"
+      }
+    },
+    "binary-to-decimal": {
+      "title": "من ثنائي إلى عشري",
+      "description": "",
+      "ui": {
+        "binaryToDecimalConverter": "محول من النظام الثنائي إلى العشري",
+        "binaryNumber": "الرقم الثنائي",
+        "decimalResult": "النتيجة العشرية",
+        "eG1010": "على سبيل المثال 1010"
+      }
+    },
+    "bmi-calculator": {
+      "title": "حاسبة مؤشر كتلة الجسم",
+      "description": "",
+      "ui": {
+        "bmiCalculator": "حاسبة مؤشر كتلة الجسم",
+        "metric": "متري",
+        "imperial": "إمبراطوري",
+        "heightCm": "الطول (سم)",
+        "weightKg": "الوزن (كجم)",
+        "heightFt": "الطول (قدم)",
+        "heightIn": "الطول (بوصة)",
+        "weightLbs": "الوزن (رطل)",
+        "yourBmi": "مؤشر كتلة جسمك",
+        "Lt185": "<18.5"
+      }
+    },
+    "bmr-calculator": {
+      "title": "حاسبة معدل الأيض الأساسي",
+      "description": "",
+      "ui": {
+        "bmrCalculator": "حاسبة معدل الأيض الأساسي",
+        "male": "ذكر",
+        "female": "أنثى",
+        "ageYears": "العمر (بالسنوات)",
+        "heightCm": "الطول (سم)",
+        "weightKg": "الوزن (كجم)",
+        "basalMetabolicRate": "معدل الأيض الأساسي",
+        "caloriesDay": "السعرات / اليوم",
+        "thisIsTheAmountOfEnergyYourBodyBurnsAtRestJustToKeepYouAlive": "هذه هي كمية الطاقة التي يحرقها جسمك أثناء الراحة للحفاظ على وظائفه الأساسية."
+      }
+    },
+    "board-foot-calculator": {
+      "title": "حاسبة أقدام الألواح الخشبية",
+      "description": "",
+      "ui": {
+        "boardFootCalculator": "حاسبة أقدام الألواح الخشبية",
+        "thicknessIn": "السماكة (بوصة)",
+        "widthIn": "العرض (بوصة)",
+        "lengthFt": "الطول (قدم)",
+        "quantity": "الكمية",
+        "pricePerBf": "السعر لكل قدم لوح ($)",
+        "totalBoardFeet": "إجمالي أقدام الألواح",
+        "totalCost": "التكلفة الإجمالية: $"
+      }
+    },
+    "body-fat-calculator": {
+      "title": "حاسبة نسبة الدهون في الجسم",
+      "description": "",
+      "ui": {
+        "bodyFatCalculatorNavyMethod": "حاسبة نسبة الدهون في الجسم (طريقة البحرية الأمريكية)",
+        "male": "ذكر",
+        "female": "أنثى",
+        "heightCm": "الطول (سم)",
+        "neckCm": "محيط الرقبة (سم)",
+        "waistCmAtNavel": "محيط الخصر عند السرة (سم)",
+        "hipsCm": "محيط الورك (سم)",
+        "estimatedBodyFat": "نسبة الدهون المقدرة"
+      }
+    },
+    "break-even-calculator": {
+      "title": "حاسبة نقطة التعادل",
+      "description": "",
+      "ui": {
+        "breakevenCalculator": "حاسبة نقطة التعادل",
+        "fixedCosts": "التكاليف الثابتة",
+        "variableCostPerUnit": "التكلفة المتغيرة لكل وحدة",
+        "sellingPricePerUnit": "سعر البيع لكل وحدة",
+        "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "يجب أن يكون سعر البيع أكبر من التكلفة المتغيرة للوحدة للوصول إلى نقطة التعادل.",
+        "unitsToSell": "الوحدات المطلوب بيعها",
+        "breakevenRevenue": "إيرادات نقطة التعادل",
+        "costsPricing": "تسعير التكاليف",
+        "breakEvenPoint": "نقطة التعادل"
+      }
+    },
+    "calorie-calculator": {
+      "title": "حاسبة السعرات الحرارية",
+      "description": "",
+      "ui": {
+        "dailyCalorieCalculator": "حاسبة السعرات الحرارية اليومية",
+        "male": "ذكر",
+        "female": "أنثى",
+        "age": "العمر",
+        "heightCm": "الطول (سم)",
+        "weightKg": "الوزن (كجم)",
+        "activityLevel": "مستوى النشاط",
+        "sedentaryLittleOrNoExercise": "خامل (قليل من التمارين أو لا توجد تمارين)",
+        "lightlyActiveLightExercise13Daysweek": "نشاط خفيف (تمارين خفيفة 1-3 أيام أسبوعيًا)",
+        "moderatelyActiveModerateExercise35Daysweek": "نشاط متوسط (تمارين متوسطة 3-5 أيام أسبوعيًا)",
+        "veryActiveHardExercise67Daysweek": "نشاط مرتفع (تمارين شديدة 6-7 أيام أسبوعيًا)",
+        "extraActiveVeryHardExercisephysicalJob": "نشاط مرتفع جدًا (تمارين شديدة جدًا أو عمل بدني)",
+        "maintainWeight": "الحفاظ على الوزن",
+        "kcal": "سعرة حرارية",
+        "loseWeight05kgweek": "خسارة الوزن (-0.5 كجم/أسبوع)",
+        "gainWeight05kgweek": "زيادة الوزن (+0.5 كجم/أسبوع)"
+      }
+    },
+    "character-counter": {
+      "title": "عداد الأحرف",
+      "description": "",
+      "ui": {
+        "characterCounter": "عداد الأحرف",
+        "totalCharacters": "إجمالي الأحرف",
+        "withoutSpaces": "بدون مسافات",
+        "spaces": "المسافات",
+        "lines": "الأسطر",
+        "startTypingOrPasteYourTex": "ابدأ بكتابة النص أو لصقه هنا..."
+      }
+    },
+    "compound-interest-calculator": {
+      "title": "حاسبة الفائدة المركبة",
+      "description": "",
+      "ui": {
+        "compoundInterestCalculator": "حاسبة الفائدة المركبة",
+        "principalAmount": "المبلغ الأساسي",
+        "annualRate": "المعدل السنوي (%)",
+        "timeYears": "المدة (بالسنوات)",
+        "compoundFrequency": "تكرار احتساب الفائدة",
+        "daily": "يوميًا",
+        "monthly": "شهريًا",
+        "quarterly": "ربع سنوي",
+        "semiannually": "نصف سنوي",
+        "annually": "سنويًا",
+        "interestEarned": "الفائدة المكتسبة",
+        "finalBalance": "الرصيد النهائي",
+        "interestDetails": "تفاصيل الفائدة",
+        "growthBreakdown": "انهيار النمو"
+      }
+    },
+    "concrete-calculator": {
+      "title": "حاسبة الخرسانة",
+      "description": "",
+      "ui": {
+        "concreteCalculator": "حاسبة الخرسانة",
+        "lengthFt": "الطول (قدم)",
+        "widthFt": "العرض (قدم)",
+        "depthThicknessInches": "العمق / السماكة (بوصة)",
+        "volumeRequired": "الحجم المطلوب",
+        "cubicYards": "ياردة مكعبة",
+        "80lbBags": "أكياس 80 رطل",
+        "60lbBags": "أكياس 60 رطل",
+        "40lbBags": "أكياس 40 رطل"
+      }
+    },
+    "cost-per-square-foot-calculator": {
+      "title": "حاسبة التكلفة لكل قدم مربع",
+      "description": "",
+      "ui": {
+        "costPerSquareFoot": "التكلفة لكل قدم مربع",
+        "totalPriceOrCost": "إجمالي السعر أو التكلفة ($)",
+        "totalSquareFootage": "إجمالي المساحة بالقدم المربع",
+        "sqFt": "/ قدم مربع"
+      }
+    },
+    "countdown-timer": {
+      "title": "مؤقت العد التنازلي",
+      "description": "",
+      "ui": {
+        "countdownTimer": "مؤقت العد التنازلي",
+        "minutes": "الدقائق",
+        "start": "بدء",
+        "pause": "إيقاف مؤقت",
+        "reset": "إعادة تعيين"
+      }
+    },
+    "css-minifier": {
+      "title": "مصغّر CSS",
+      "description": "",
+      "ui": {
+        "cssMinifier": "مصغّر CSS",
+        "inputCss": "CSS المدخل",
+        "bytes": "بايت (-",
+        "minifiedCss": "CSS المصغّر"
+      }
+    },
+    "currency-converter": {
+      "title": "محول العملات",
+      "description": "",
+      "ui": {
+        "currencyConverterEstimated": "محول العملات (تقديري)",
+        "amount": "المبلغ",
+        "from": "من",
+        "to": "إلى",
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "ملاحظة: هذه الأسعار تقديرات ثابتة لأغراض العرض التوضيحي فقط."
+      }
+    },
+    "data-storage-converter": {
+      "title": "محول وحدات تخزين البيانات",
+      "description": "",
+      "ui": {
+        "dataStorageConverter": "محول تخزين البيانات",
+        "from": "من",
+        "to": "إلى"
+      }
+    },
+    "date-difference-calculator": {
+      "title": "حاسبة الفرق بين التاريخين",
+      "description": "",
+      "ui": {
+        "dateDifferenceCalculator": "حاسبة الفرق بين التاريخين",
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء",
+        "calculateDifference": "احسب الفرق",
+        "timeDifference": "الفرق الزمني:",
+        "years": "سنوات",
+        "months": "أشهر",
+        "days": "أيام",
+        "totalDaysEquivalent": "إجمالي ما يعادل الأيام:",
+        "totalWeeksEquivalent": "إجمالي ما يعادل الأسابيع:",
+        "weeks": "أسابيع،",
+        "copy": "نسخ",
+        "reset": "إعادة تعيين",
+        "selectDatesToCalculate": "حدد التواريخ للحساب"
+      }
+    },
+    "days-between-dates": {
+      "title": "حساب الأيام بين تاريخين",
+      "description": "",
+      "ui": {
+        "daysBetweenDates": "الأيام بين تاريخين",
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء",
+        "includeStartDateInCalculation": "تضمين تاريخ البدء في الحساب",
+        "includeEndDateInCalculation": "تضمين تاريخ الانتهاء في الحساب",
+        "calculateDays": "احسب الأيام",
+        "totalResult": "النتيجة الإجمالية:",
+        "days": "أيام",
+        "copy": "نسخ",
+        "reset": "إعادة تعيين",
+        "selectDatesToCalculate": "حدد التواريخ للحساب"
+      }
+    },
+    "days-until-calculator": {
+      "title": "حاسبة الأيام المتبقية",
+      "description": "",
+      "ui": {
+        "daysUntil": "الأيام المتبقية حتى...",
+        "selectFutureDateEventHolidayDeadline": "اختر تاريخًا مستقبليًا (حدث، عطلة، موعد نهائي)",
+        "calculate": "احسب",
+        "timeRemaining": "الوقت المتبقي:",
+        "totalDays": "إجمالي الأيام",
+        "whichIsExactly": "وهو بالضبط:",
+        "days": "أيام",
+        "copy": "نسخ",
+        "reset": "إعادة تعيين",
+        "selectAFutureDate": "حدد تاريخًا مستقبليًا"
+      }
+    },
+    "decimal-to-binary": {
+      "title": "من عشري إلى ثنائي",
+      "description": "",
+      "ui": {
+        "decimalToBinaryConverter": "محول من النظام العشري إلى الثنائي",
+        "decimalNumber": "الرقم العشري",
+        "binaryResult": "النتيجة الثنائية",
+        "eG10": "على سبيل المثال 10"
+      }
+    },
+    "decking-calculator": {
+      "title": "حاسبة مواد السطح الخشبي",
+      "description": "",
+      "ui": {
+        "deckingMaterialCalculator": "حاسبة مواد السطح الخشبي",
+        "deckLengthFt": "طول السطح (قدم)",
+        "parallelToHouse": "موازٍ للمنزل",
+        "deckWidthDepthFt": "عرض / عمق السطح (قدم)",
+        "awayFromHouse": "بعيدًا عن المنزل",
+        "boardLengthFt": "طول اللوح (قدم)",
+        "boardWidthIn": "عرض اللوح (بوصة)",
+        "requiredBoards": "الألواح المطلوبة (",
+        "length": "' طول)",
+        "deckArea": "مساحة السطح",
+        "sqFt": "قدم مربع",
+        "screwsFasteners": "البراغي / المثبتات"
+      }
+    },
+    "discount-calculator": {
+      "title": "حاسبة الخصم",
+      "description": "",
+      "ui": {
+        "discountCalculator": "حاسبة الخصم",
+        "originalPrice": "السعر الأصلي",
+        "discount": "الخصم",
+        "type": "النوع",
+        "off": "% خصم",
+        "fixedAmountOff": "خصم بمبلغ ثابت",
+        "youSave": "مقدار التوفير",
+        "finalPrice": "السعر النهائي",
+        "discountDetails": "تفاصيل الخصم",
+        "priceBreakdown": "انهيار الأسعار"
+      }
+    },
+    "emi-calculator": {
+      "title": "حاسبة القسط الشهري EMI",
+      "description": "",
+      "ui": {
+        "emiCalculator": "حاسبة القسط الشهري EMI",
+        "loanAmountPrincipal": "مبلغ القرض (الأصل)",
+        "annualRate": "المعدل السنوي (%)",
+        "tenureMonths": "مدة القرض (بالأشهر)",
+        "monthlyEmi": "القسط الشهري EMI",
+        "totalInterestPayable": "إجمالي الفائدة المستحقة",
+        "totalPaymentPrincipalInterest": "إجمالي المدفوع (الأصل + الفائدة)",
+        "eMIDetails": "تفاصيل E M",
+        "paymentSummary": "ملخص الدفع"
+      }
+    },
+    "fence-calculator": {
+      "title": "حاسبة السياج",
+      "description": "",
+      "ui": {
+        "fenceMaterialCalculator": "حاسبة مواد السياج",
+        "totalFenceLengthFt": "إجمالي طول السياج (قدم)",
+        "postSpacingFt": "المسافة بين الأعمدة (قدم)",
+        "standardIs6Or8": "المقاس القياسي 6 أو 8 أقدام",
+        "horizontalRailsPerPanel": "القضبان الأفقية لكل لوح",
+        "usually2Or3": "عادةً 2 أو 3",
+        "picketWidthIn": "عرض لوح السياج (بوصة)",
+        "picketSpacingIn": "المسافة بين ألواح السياج (بوصة)",
+        "0ForSolidPrivacy": "0 للسياج الخصوصي المصمت",
+        "posts": "الأعمدة",
+        "rails": "القضبان",
+        "pickets": "ألواح السياج"
+      }
+    },
+    "final-grade-calculator": {
+      "title": "حاسبة الدرجة النهائية",
+      "description": "",
+      "ui": {
+        "finalGradeCalculator": "حاسبة الدرجة النهائية",
+        "currentGrade": "الدرجة الحالية (%)",
+        "desiredClassGrade": "الدرجة المطلوبة للمادة (%)",
+        "finalExamWeight": "وزن الاختبار النهائي (%)",
+        "youNeedToScore": "تحتاج إلى الحصول على",
+        "onTheFinalExam": "في الاختبار النهائي",
+        "itLooksLikeScoringThisGradeIsMathematicallyImpossibleUnlessThereIsExtraCreditAvailable": "يبدو أن الحصول على هذه الدرجة مستحيل رياضيًا ما لم تتوفر درجات إضافية."
+      }
+    },
+    "fraction-calculator": {
+      "title": "حاسبة الكسور",
+      "description": "",
+      "ui": {
+        "fractionCalculator": "حاسبة الكسور",
+        "decimal": "العدد العشري:"
+      }
+    },
+    "gpa-calculator": {
+      "title": "حاسبة المعدل التراكمي GPA",
+      "description": "",
+      "ui": {
+        "gpaCalculator": "حاسبة المعدل التراكمي GPA",
+        "courseName": "اسم المقرر",
+        "credits": "الساعات المعتمدة",
+        "grade": "الدرجة",
+        "addCourse": "إضافة مقرر",
+        "totalCredits": "إجمالي الساعات المعتمدة",
+        "cumulativeGpa": "المعدل التراكمي GPA",
+        "courseList": "قائمة الدورة",
+        "course": "دورة",
+        "result": "نتيجة"
+      }
+    },
+    "grade-calculator": {
+      "title": "حاسبة الدرجات",
+      "description": "",
+      "ui": {
+        "gradeCalculator": "حاسبة الدرجات",
+        "assignmentCategory": "فئة التقييم",
+        "grade": "الدرجة (%)",
+        "weight": "الوزن (%)",
+        "addCategory": "إضافة فئة",
+        "totalWeightEntered": "إجمالي الوزن المدخل",
+        "currentGrade": "الدرجة الحالية",
+        "assignments": "المهام",
+        "eGMidterm": "على سبيل المثال منتصف المدة",
+        "result": "نتيجة"
+      }
+    },
+    "height-converter": {
+      "title": "محول الطول",
+      "description": "",
+      "ui": {
+        "heightConverter": "محول الطول",
+        "metricCentimeters": "النظام المتري (سنتيمتر)",
+        "cm": "سم",
+        "imperialFeetInches": "النظام الإمبراطوري (قدم وبوصة)",
+        "ft": "قدم",
+        "in": "بوصة"
+      }
+    },
+    "hex-to-decimal": {
+      "title": "من سداسي عشري إلى عشري",
+      "description": "",
+      "ui": {
+        "hexToDecimalConverter": "محول من النظام السداسي عشري إلى العشري",
+        "hexadecimalNumber": "الرقم السداسي عشري",
+        "decimalResult": "النتيجة العشرية",
+        "eG1AOrFFFFFF": "على سبيل المثال 1A أو FFFFFF"
+      }
+    },
+    "hourly-to-salary-calculator": {
+      "title": "حاسبة تحويل الأجر بالساعة إلى راتب",
+      "description": "",
+      "ui": {
+        "hourlyToSalaryCalculator": "حاسبة تحويل الأجر بالساعة إلى راتب",
+        "hourlyWage": "الأجر بالساعة",
+        "hoursWeek": "الساعات / الأسبوع",
+        "weeksYear": "الأسابيع / السنة",
+        "daily": "يومي",
+        "weekly": "أسبوعي",
+        "monthly": "شهري",
+        "yearlySalary": "الراتب السنوي",
+        "hourlyDetails": "تفاصيل كل ساعة",
+        "salaryBreakdown": "توزيع الراتب"
+      }
+    },
+    "html-encode-decode": {
+      "title": "ترميز وفك ترميز HTML",
+      "description": "",
+      "ui": {
+        "htmlEntityEncoderDecoder": "أداة ترميز وفك ترميز كيانات HTML",
+        "encode": "ترميز",
+        "decode": "فك الترميز",
+        "input": "الإدخال",
+        "output": "الإخراج",
+        "mode": "وضع"
+      }
+    },
+    "html-minifier": {
+      "title": "مصغّر HTML",
+      "description": "",
+      "ui": {
+        "htmlMinifier": "مصغّر HTML",
+        "inputHtml": "HTML المدخل",
+        "bytes": "بايت (-",
+        "minifiedHtml": "HTML المصغّر"
+      }
+    },
+    "investment-calculator": {
+      "title": "حاسبة الاستثمار",
+      "description": "",
+      "ui": {
+        "investmentCalculator": "حاسبة الاستثمار",
+        "initialInvestment": "الاستثمار الأولي",
+        "monthlyContribution": "المساهمة الشهرية",
+        "expectedReturn": "العائد المتوقع (%)",
+        "yearsToGrow": "سنوات النمو",
+        "totalContributions": "إجمالي المساهمات",
+        "interestEarned": "الفائدة المكتسبة",
+        "futureValue": "القيمة المستقبلية",
+        "investmentPlan": "خطة الاستثمار",
+        "growthProjection": "توقعات النمو"
+      }
+    },
+    "js-minifier": {
+      "title": "مصغّر JavaScript",
+      "description": "",
+      "ui": {
+        "javascriptMinifier": "مصغّر JavaScript",
+        "inputJs": "JavaScript المدخل",
+        "bytes": "بايت (-",
+        "minifiedJs": "JavaScript المصغّر"
+      }
+    },
+    "jwt-decoder": {
+      "title": "فك ترميز JWT",
+      "description": "",
+      "ui": {
+        "jwtDecoder": "فك ترميز JWT",
+        "encodedJwtHeaderpayloadsignature": "رمز JWT المشفر (الرأس. الحمولة. التوقيع)",
+        "invalidJwtFormat": "تنسيق JWT غير صالح.",
+        "header": "الرأس",
+        "payload": "الحمولة",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik..."
+      }
+    },
+    "length-converter": {
+      "title": "محول الطول",
+      "description": "",
+      "ui": {
+        "lengthConverter": "محول الطول",
+        "from": "من",
+        "to": "إلى"
+      }
+    },
+    "loan-calculator": {
+      "title": "حاسبة القروض",
+      "description": "",
+      "ui": {
+        "loanCalculator": "حاسبة القروض",
+        "loanAmount": "مبلغ القرض",
+        "interestRate": "معدل الفائدة (%)",
+        "loanTermYears": "مدة القرض (بالسنوات)",
+        "monthlyPayment": "الدفعة الشهرية",
+        "totalInterest": "إجمالي الفائدة",
+        "totalCostOfLoan": "إجمالي تكلفة القرض",
+        "loanDetails": "تفاصيل القرض",
+        "paymentBreakdown": "تفصيل الدفع"
+      }
+    },
+    "lorem-ipsum-generator": {
+      "title": "مولد Lorem Ipsum",
+      "description": "",
+      "ui": {
+        "loremIpsumGenerator": "مولد Lorem Ipsum",
+        "paragraphs": "الفقرات",
+        "generate": "إنشاء",
+        "copy": "نسخ",
+        "generatedText": "النص المولد"
+      }
+    },
+    "macro-calculator": {
+      "title": "حاسبة المغذيات الكبرى",
+      "description": "",
+      "ui": {
+        "macroCalculator": "حاسبة المغذيات الكبرى",
+        "dailyCalories": "السعرات اليومية",
+        "dietPlan": "خطة النظام الغذائي",
+        "balanced303040": "متوازن (30/30/40)",
+        "lowCarb404020": "منخفض الكربوهيدرات (40/40/20)",
+        "highProtein402535": "عالي البروتين (40/25/35)",
+        "keto20755": "كيتو (20/75/5)",
+        "protein": "البروتين",
+        "g": "جم",
+        "fats": "الدهون",
+        "carbs": "الكربوهيدرات",
+        "kcal": "سعر حراري"
+      }
+    },
+    "markup-calculator": {
+      "title": "حاسبة هامش الزيادة",
+      "description": "",
+      "ui": {
+        "markupCalculator": "حاسبة هامش الزيادة",
+        "cost": "التكلفة",
+        "markup": "الزيادة (%)",
+        "profit": "الربح",
+        "sellingPrice": "سعر البيع",
+        "pricingDetails": "تفاصيل التسعير"
+      }
+    },
+    "md5generator": {
+      "title": "مولد تجزئة MD5",
+      "description": "",
+      "ui": {
+        "md5HashGenerator": "مولد تجزئة MD5",
+        "inputString": "النص المدخل",
+        "md5Hash": "تجزئة MD5",
+        "theDefaultHashShownIsForAnEmptyString": "التجزئة الافتراضية المعروضة تخص نصًا فارغًا."
+      }
+    },
+    "months-between-dates": {
+      "title": "الأشهر بين تاريخين",
+      "description": "",
+      "ui": {
+        "monthsBetweenDates": "الأشهر بين تاريخين",
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء",
+        "calculateMonths": "احسب الأشهر",
+        "months": "أشهر",
+        "days": "أيام",
+        "copy": "نسخ",
+        "reset": "إعادة تعيين",
+        "selectDatesToCalculate": "حدد التواريخ للحساب"
+      }
+    },
+    "mortgage-calculator": {
+      "title": "حاسبة الرهن العقاري",
+      "description": "",
+      "ui": {
+        "mortgageCalculator": "حاسبة الرهن العقاري",
+        "homePrice": "سعر المنزل",
+        "downPayment": "الدفعة المقدمة",
+        "interestRate": "معدل الفائدة (%)",
+        "loanTermYears": "مدة القرض (بالسنوات)",
+        "principalLoanAmount": "مبلغ أصل القرض",
+        "monthlyPayment": "الدفعة الشهرية",
+        "propertyDetails": "تفاصيل العقار",
+        "mortgageSummary": "ملخص الرهن العقاري"
+      }
+    },
+    "mulch-calculator": {
+      "title": "حاسبة نشارة التربة",
+      "description": "",
+      "ui": {
+        "mulchTopsoilCalculator": "حاسبة النشارة والتربة السطحية",
+        "lengthFt": "الطول (قدم)",
+        "widthFt": "العرض (قدم)",
+        "depthInches": "العمق (بوصة)",
+        "standardMulchDepthIs24Inches": "العمق القياسي للنشارة هو 2-4 بوصات.",
+        "youWillNeed": "ستحتاج إلى",
+        "cubicYards": "ياردة مكعبة",
+        "2CuFtBags": "أكياس 2 قدم مكعب",
+        "3CuFtBags": "أكياس 3 قدم مكعب"
+      }
+    },
+    "number-base-converter": {
+      "title": "محول أنظمة الأعداد",
+      "description": "",
+      "ui": {
+        "numberBaseConverter": "محول أنظمة الأعداد",
+        "from": "من",
+        "to": "إلى",
+        "base": "قاعدة"
+      }
+    },
+    "overtime-calculator": {
+      "title": "حاسبة العمل الإضافي",
+      "description": "",
+      "ui": {
+        "overtimeCalculator": "حاسبة العمل الإضافي",
+        "hourlyRate": "الأجر بالساعة",
+        "otMultiplier": "معامل العمل الإضافي",
+        "timeAndAHalf15x": "ساعة ونصف (1.5x)",
+        "doubleTime20x": "أجر مضاعف (2.0x)",
+        "straightTime10x": "الأجر العادي (1.0x)",
+        "standardWeeklyHours": "ساعات العمل الأسبوعية القياسية",
+        "totalHoursWorked": "إجمالي ساعات العمل",
+        "regularPay": "الأجر العادي (",
+        "hrs": "ساعة @",
+        "overtimePay": "أجر العمل الإضافي (",
+        "hr": "/ساعة)",
+        "totalGrossPay": "إجمالي الأجر",
+        "paySummary": "ملخص الدفع"
+      }
+    },
+    "pace-calculator": {
+      "title": "حاسبة وتيرة الجري",
+      "description": "",
+      "ui": {
+        "runningPaceCalculator": "حاسبة وتيرة الجري",
+        "distance": "المسافة",
+        "kilometersKm": "كيلومترات (كم)",
+        "milesMi": "أميال (ميل)",
+        "totalTime": "الوقت الإجمالي",
+        "hrs": "ساعات",
+        "mins": "دقائق",
+        "secs": "ثوانٍ",
+        "averagePace": "متوسط الوتيرة",
+        "per": "لكل"
+      }
+    },
+    "paint-calculator": {
+      "title": "حاسبة الطلاء",
+      "description": "",
+      "ui": {
+        "paintCalculator": "حاسبة الطلاء",
+        "totalSurfaceAreaSqFt": "إجمالي مساحة السطح (قدم مربع)",
+        "numberOfCoats": "عدد طبقات الطلاء",
+        "1Coat": "طبقة واحدة",
+        "2Coats": "طبقتان",
+        "3Coats": "3 طبقات",
+        "coverageSqFtGallon": "التغطية (قدم مربع / جالون)",
+        "youWillNeed": "ستحتاج إلى",
+        "gallons": "جالونات)",
+        "exactCalculation": "(الحساب الدقيق:"
+      }
+    },
+    "password-generator": {
+      "title": "مولد كلمات المرور",
+      "description": "",
+      "ui": {
+        "securePasswordGenerator": "مولد كلمات مرور آمن",
+        "generatePassword": "إنشاء كلمة مرور",
+        "passwordLength": "طول كلمة المرور:",
+        "uppercaseAz": "أحرف كبيرة (A-Z)",
+        "lowercaseAz": "أحرف صغيرة (a-z)",
+        "numbers09": "أرقام (0-9)",
+        "symbols": "رموز (!@#)",
+        "constraints": "قيود",
+        "copyPassword": "نسخ كلمة المرور"
+      }
+    },
+    "percentage-decrease-calculator": {
+      "title": "حاسبة نسبة الانخفاض",
+      "description": "",
+      "ui": {
+        "percentageDecreaseCalculator": "حاسبة نسبة الانخفاض",
+        "initialValue": "القيمة الأولية",
+        "finalValue": "القيمة النهائية",
+        "absoluteChange": "التغير المطلق",
+        "decrease": "الانخفاض",
+        "values": "قيم",
+        "decreaseBreakdown": "تقليل الانهيار"
+      }
+    },
+    "percentage-increase-calculator": {
+      "title": "حاسبة نسبة الزيادة",
+      "description": "",
+      "ui": {
+        "percentageIncreaseCalculator": "حاسبة نسبة الزيادة",
+        "initialValue": "القيمة الأولية",
+        "finalValue": "القيمة النهائية",
+        "absoluteChange": "التغير المطلق",
+        "change": "التغير",
+        "values": "قيم",
+        "increaseBreakdown": "زيادة الانهيار"
+      }
+    },
+    "plant-spacing-calculator": {
+      "title": "حاسبة مسافات زراعة النباتات",
+      "description": "",
+      "ui": {
+        "plantSpacingCalculator": "حاسبة مسافات زراعة النباتات",
+        "squareGrid": "شبكة مربعة",
+        "triangularOffset": "مثلثية (متداخلة)",
+        "bedLengthFt": "طول الحوض (قدم)",
+        "bedWidthFt": "عرض الحوض (قدم)",
+        "plantSpacingInchesBetweenCenters": "مسافة النباتات (بوصة بين المراكز)",
+        "estimatedTotalPlants": "إجمالي النباتات المقدر"
+      }
+    },
+    "pomodoro-timer": {
+      "title": "مؤقت بومودورو",
+      "description": "",
+      "ui": {
+        "pomodoroTimer": "مؤقت بومودورو",
+        "work25m": "عمل (25 دقيقة)",
+        "break5m": "استراحة (5 دقائق)",
+        "reset": "إعادة تعيين",
+        "start": "يبدأ"
+      }
+    },
+    "profit-margin-calculator": {
+      "title": "حاسبة هامش الربح",
+      "description": "",
+      "ui": {
+        "profitMarginCalculator": "حاسبة هامش الربح",
+        "revenueSellingPrice": "الإيرادات (سعر البيع)",
+        "costOfGoodsSold": "تكلفة البضائع المباعة",
+        "grossProfit": "إجمالي الربح",
+        "margin": "الهامش",
+        "financialDetails": "التفاصيل المالية",
+        "profitability": "الربحية"
+      }
+    },
+    "qr-code-generator": {
+      "title": "مولد رمز QR",
+      "description": "",
+      "ui": {
+        "qrCodeGenerator": "مولد رمز QR",
+        "urlOrText": "رابط URL أو نص",
+        "size": "الحجم",
+        "small150x150": "صغير (150×150)",
+        "medium250x250": "متوسط (250×250)",
+        "large500x500": "كبير (500×500)",
+        "highres1000x1000": "دقة عالية (1000×1000)",
+        "downloadImage": "تنزيل الصورة",
+        "enterTextAboveToGenerateAQrCode": "أدخل النص أعلاه لإنشاء رمز QR",
+        "contentSettings": "إعدادات المحتوى",
+        "enterURLOrTextToEncode": "أدخل عنوان URL أو النص المراد تشفيره",
+        "generatedQRCode": "تم إنشاء رمز الاستجابة السريعة"
+      }
+    },
+    "random-number-generator": {
+      "title": "مولد الأرقام العشوائية",
+      "description": "",
+      "ui": {
+        "randomNumberGenerator": "مولد الأرقام العشوائية",
+        "minimum": "الحد الأدنى",
+        "maximum": "الحد الأقصى",
+        "generateRandomNumber": "إنشاء رقم عشوائي",
+        "result": "النتيجة",
+        "rangeSettings": "إعدادات النطاق"
+      }
+    },
+    "ratio-calculator": {
+      "title": "حاسبة النسبة",
+      "description": "",
+      "ui": {
+        "ratioCalculatorAbCd": "حاسبة النسبة (A:B = C:D)",
+        "enter3ValuesToCalculateThe4thMissingValue": "أدخل 3 قيم لحساب القيمة الرابعة المفقودة."
+      }
+    },
+    "roi-calculator": {
+      "title": "حاسبة العائد على الاستثمار",
+      "description": "",
+      "ui": {
+        "roiCalculator": "حاسبة العائد على الاستثمار",
+        "initialInvestment": "الاستثمار الأولي",
+        "finalValueReturned": "القيمة النهائية المستردة",
+        "profit": "الربح",
+        "roi": "العائد على الاستثمار",
+        "investmentDetails": "تفاصيل الاستثمار",
+        "returnOnInvestment": "العائد على الاستثمار"
+      }
+    },
+    "roman-numeral-converter": {
+      "title": "محول الأرقام الرومانية",
+      "description": "",
+      "ui": {
+        "romanNumeralConverter": "محول الأرقام الرومانية",
+        "numberRoman": "رقم → روماني",
+        "romanNumber": "روماني → رقم",
+        "result": "النتيجة"
+      }
+    },
+    "running-distance-calculator": {
+      "title": "حاسبة مسافة الجري",
+      "description": "",
+      "ui": {
+        "runningDistanceCalculator": "حاسبة مسافة الجري",
+        "pacePer": "الوتيرة (لكل",
+        "mins": "دقائق",
+        "secs": "ثوانٍ",
+        "totalTime": "الوقت الإجمالي",
+        "hrs": "ساعات",
+        "totalDistance": "المسافة الإجمالية",
+        "kilometersKm": "كيلومترات (كم)",
+        "milesMi": "أميال (ميل)"
+      }
+    },
+    "salary-calculator": {
+      "title": "حاسبة الراتب",
+      "description": "",
+      "ui": {
+        "salaryCalculator": "حاسبة الراتب",
+        "salaryAmount": "قيمة الراتب",
+        "per": "لكل",
+        "hour": "ساعة",
+        "day": "يوم",
+        "week": "أسبوع",
+        "month": "شهر",
+        "year": "سنة",
+        "hoursPerWeek": "ساعات العمل أسبوعيًا",
+        "calculate": "احسب",
+        "hourly": "بالساعة",
+        "daily": "يومي",
+        "weekly": "أسبوعي",
+        "monthly": "شهري",
+        "yearly": "سنوي",
+        "incomeDetails": "تفاصيل الدخل",
+        "enterYourIncomeDetailsToS": "أدخل تفاصيل دخلك لرؤية الملخص"
+      }
+    },
+    "salary-to-hourly-calculator": {
+      "title": "حاسبة تحويل الراتب إلى أجر بالساعة",
+      "description": "",
+      "ui": {
+        "salaryToHourlyCalculator": "حاسبة تحويل الراتب إلى أجر بالساعة",
+        "annualSalary": "الراتب السنوي",
+        "hoursWeek": "الساعات / الأسبوع",
+        "weeksYear": "الأسابيع / السنة",
+        "hourlyWage": "الأجر بالساعة",
+        "salaryDetails": "تفاصيل الراتب",
+        "equivalentWage": "الأجر المعادل"
+      }
+    },
+    "sha1generator": {
+      "title": "مولد تجزئة SHA-1",
+      "description": "",
+      "ui": {
+        "sha1HashGenerator": "مولد تجزئة SHA-1",
+        "inputString": "النص المدخل",
+        "sha1Hash": "تجزئة SHA-1",
+        "theDefaultHashShownIsForAnEmptyString": "التجزئة الافتراضية المعروضة تخص نصًا فارغًا."
+      }
+    },
+    "sha256generator": {
+      "title": "مولد تجزئة SHA-256",
+      "description": "",
+      "ui": {
+        "sha256HashGenerator": "مولد تجزئة SHA-256",
+        "inputString": "النص المدخل",
+        "sha256Hash": "تجزئة SHA-256",
+        "theDefaultHashShownIsForAnEmptyString": "التجزئة الافتراضية المعروضة تخص نصًا فارغًا."
+      }
+    },
+    "simple-interest-calculator": {
+      "title": "حاسبة الفائدة البسيطة",
+      "description": "",
+      "ui": {
+        "simpleInterestCalculator": "حاسبة الفائدة البسيطة",
+        "principalAmount": "المبلغ الأساسي",
+        "annualRate": "المعدل السنوي (%)",
+        "time": "المدة",
+        "years": "سنوات",
+        "months": "أشهر",
+        "days": "أيام",
+        "interestEarned": "الفائدة المكتسبة",
+        "finalBalance": "الرصيد النهائي",
+        "interestDetails": "تفاصيل الفائدة",
+        "growthBreakdown": "انهيار النمو"
+      }
+    },
+    "sleep-calculator": {
+      "title": "حاسبة النوم",
+      "description": "",
+      "ui": {
+        "sleepCalculator": "حاسبة النوم",
+        "iWantToWakeUpAt": "أريد الاستيقاظ في الساعة:",
+        "calculate": "احسب",
+        "toWakeUpRefreshedAt": "للاستيقاظ بنشاط في الساعة",
+        "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": "، يُنصح بمحاولة النوم في أحد هذه الأوقات (تشمل 15 دقيقة للاستغراق في النوم):",
+        "6Cycles9h": "6 دورات (9 ساعات)",
+        "5Cycles75h": "5 دورات (7.5 ساعات)",
+        "4Cycles6h": "4 دورات (6 ساعات)",
+        "3Cycles45h": "3 دورات (4.5 ساعات)",
+        "enterWakeTimeToCalculateS": "أدخل وقت الاستيقاظ لحساب أوقات النوم"
+      }
+    },
+    "speed-converter": {
+      "title": "محول السرعة",
+      "description": "",
+      "ui": {
+        "speedConverter": "محول السرعة",
+        "from": "من",
+        "to": "إلى"
+      }
+    },
+    "speed-distance-time-calculator": {
+      "title": "حاسبة السرعة والمسافة والوقت",
+      "description": "",
+      "ui": {
+        "speedDistanceTime": "السرعة والمسافة والوقت",
+        "solveForSpeed": "احسب السرعة",
+        "solveForDistance": "احسب المسافة",
+        "solveForTime": "احسب الوقت",
+        "distance": "المسافة",
+        "timeHours": "الوقت (بالساعات)",
+        "speed": "السرعة"
+      }
+    },
+    "sql-formatter": {
+      "title": "منسق SQL",
+      "description": "",
+      "ui": {
+        "sqlFormatter": "منسق SQL",
+        "rawSql": "SQL الخام",
+        "formattedSql": "SQL المنسق"
+      }
+    },
+    "square-footage-calculator": {
+      "title": "حاسبة المساحة بالقدم المربع",
+      "description": "",
+      "ui": {
+        "squareFootageCalculator": "حاسبة المساحة بالقدم المربع",
+        "lengthFt": "الطول (قدم)",
+        "widthFt": "العرض (قدم)",
+        "addArea": "إضافة مساحة",
+        "totalArea": "المساحة الإجمالية",
+        "squareFeetSqFt": "قدم مربع (قدم²)"
+      }
+    },
+    "step-calculator": {
+      "title": "حاسبة الدرجات والسلالم",
+      "description": "",
+      "ui": {
+        "stairStepCalculator": "حاسبة الدرجات والسلالم",
+        "totalRiseHeightInches": "الارتفاع الإجمالي (بوصة)",
+        "totalVerticalDistanceFromLowerFloorToUpperFloor": "المسافة الرأسية الإجمالية من الطابق السفلي إلى الطابق العلوي.",
+        "targetRiserHeightIn": "ارتفاع الدرجة المستهدف (بوصة)",
+        "standardMaxIsUsually775": "الحد الأقصى القياسي عادةً 7.75 بوصة",
+        "targetTreadDepthIn": "عمق سطح الدرجة المستهدف (بوصة)",
+        "standardMinIsUsually10": "الحد الأدنى القياسي عادةً 10 بوصات",
+        "numberOfRisers": "عدد القوائم",
+        "actualRiserHeight": "ارتفاع القائمة الفعلي",
+        "totalRunHorizontalDistance": "المسافة الأفقية الإجمالية",
+        "ft": "قدم)"
+      }
+    },
+    "stopwatch": {
+      "title": "ساعة إيقاف",
+      "description": "",
+      "ui": {
+        "stopwatch": "ساعة إيقاف",
+        "start": "بدء",
+        "pause": "إيقاف مؤقت",
+        "lap": "لفة",
+        "reset": "إعادة تعيين",
+        "laps": "لفات",
+        "noLapsRecordedYet": "لم يتم تسجيل أي دورات حتى الآن"
+      }
+    },
+    "tax-calculator": {
+      "title": "حاسبة ضريبة المبيعات",
+      "description": "",
+      "ui": {
+        "salesTaxCalculator": "حاسبة ضريبة المبيعات",
+        "price": "السعر",
+        "taxRate": "معدل الضريبة (%)",
+        "priceAlreadyIncludesTax": "السعر يشمل الضريبة بالفعل",
+        "priceBeforeTax": "السعر قبل الضريبة",
+        "taxAmount": "قيمة الضريبة",
+        "totalFinalPrice": "السعر النهائي الإجمالي",
+        "taxDetails": "التفاصيل الضريبية",
+        "priceBreakdown": "انهيار الأسعار"
+      }
+    },
+    "temperature-converter": {
+      "title": "محول درجة الحرارة",
+      "description": "",
+      "ui": {
+        "temperatureConverter": "محول درجة الحرارة",
+        "from": "من",
+        "celsius": "مئوية",
+        "fahrenheit": "فهرنهايت",
+        "kelvin": "كلفن",
+        "to": "إلى"
+      }
+    },
+    "tile-calculator": {
+      "title": "حاسبة البلاط",
+      "description": "",
+      "ui": {
+        "tileCalculator": "حاسبة البلاط",
+        "totalAreaToCoverSqFt": "إجمالي المساحة المطلوب تغطيتها (قدم مربع)",
+        "tileLengthInches": "طول البلاطة (بوصة)",
+        "tileWidthInches": "عرض البلاطة (بوصة)",
+        "wasteOverage": "الهدر / الزيادة (%)",
+        "standardRecommendationIs10ForStandardLayouts15ForDiagonal": "التوصية القياسية هي 10% للتخطيطات العادية و15% للتخطيطات القطرية.",
+        "totalTilesNeeded": "إجمالي البلاطات المطلوبة",
+        "eachTileCovers": "كل بلاطة تغطي",
+        "sqFt": "قدم مربع"
+      }
+    },
+    "time-difference-calculator": {
+      "title": "حاسبة فرق الوقت",
+      "description": "",
+      "ui": {
+        "timeDifference": "فرق الوقت",
+        "firstTime": "الوقت الأول",
+        "secondTime": "الوقت الثاني",
+        "calculateAbsoluteDifference": "احسب الفرق المطلق",
+        "difference": "الفرق:",
+        "h": "س",
+        "m": "د",
+        "copy": "نسخ",
+        "reset": "إعادة تعيين",
+        "selectTimesToCompare": "حدد الأوقات للمقارنة"
+      }
+    },
+    "time-duration-calculator": {
+      "title": "حاسبة مدة الوقت",
+      "description": "",
+      "ui": {
+        "timeDurationCalculator": "حاسبة مدة الوقت",
+        "startTime": "وقت البدء",
+        "endTime": "وقت الانتهاء",
+        "endsOnTheNextDayCrossesMidnight": "ينتهي في اليوم التالي (يتجاوز منتصف الليل)",
+        "calculateDuration": "احسب المدة",
+        "hours": "ساعات",
+        "minutes": "دقائق",
+        "totalTimeInMinutes": "إجمالي الوقت بالدقائق:",
+        "copy": "نسخ",
+        "reset": "إعادة تعيين",
+        "selectStartAndEndTimes": "حدد أوقات البدء والانتهاء"
+      }
+    },
+    "time-zone-converter": {
+      "title": "محول المناطق الزمنية",
+      "description": "",
+      "ui": {
+        "timeZoneConverter": "محول المناطق الزمنية",
+        "dateTime": "التاريخ والوقت",
+        "fromTimeZoneRelative": "من المنطقة الزمنية",
+        "toTimeZone": "إلى المنطقة الزمنية",
+        "convert": "تحويل",
+        "selectDateAndTimeZonesTo": "حدد التاريخ والمناطق الزمنية للمقارنة"
+      }
+    },
+    "tip-calculator": {
+      "title": "حاسبة الإكرامية",
+      "description": "",
+      "ui": {
+        "tipCalculator": "حاسبة الإكرامية",
+        "billAmount": "قيمة الفاتورة",
+        "tip": "الإكرامية %",
+        "numberOfPeople": "عدد الأشخاص",
+        "tipAmount": "قيمة الإكرامية",
+        "person": "/ شخص",
+        "total": "الإجمالي",
+        "totalTip": "إجمالي الإكرامية:",
+        "totalBill": "إجمالي الفاتورة:",
+        "billDetails": "تفاصيل الفاتورة",
+        "totalBreakdown": "الانهيار الكلي"
+      }
+    },
+    "unix-timestamp-converter": {
+      "title": "محول الطابع الزمني Unix",
+      "description": "",
+      "ui": {
+        "timestampToDate": "الطابع الزمني إلى التاريخ",
+        "unixTimestamp": "الطابع الزمني Unix",
+        "convert": "تحويل",
+        "dateToTimestamp": "التاريخ إلى الطابع الزمني",
+        "localDateTime": "التاريخ والوقت المحلي",
+        "eG1700000000": "على سبيل المثال 1700000000",
+        "result": "نتيجة"
+      }
+    },
+    "url-encode-decode": {
+      "title": "ترميز وفك ترميز URL",
+      "description": "",
+      "ui": {
+        "urlEncoderDecoder": "أداة ترميز وفك ترميز URL",
+        "encode": "ترميز",
+        "decode": "فك الترميز",
+        "input": "الإدخال",
+        "output": "الإخراج",
+        "mode": "وضع"
+      }
+    },
+    "uuid-generator": {
+      "title": "مولد UUID",
+      "description": "",
+      "ui": {
+        "uuidV4Generator": "مولد UUID (الإصدار 4)",
+        "howManyUuids": "كم عدد UUIDs؟",
+        "generate": "إنشاء",
+        "generatedUuids": "UUIDs المُنشأة",
+        "copyAll": "نسخ الكل",
+        "clickGenerateToCreateUUI": "انقر فوق إنشاء لإنشاء UUID"
+      }
+    },
+    "volume-converter": {
+      "title": "محول الحجم",
+      "description": "",
+      "ui": {
+        "volumeConverter": "محول الحجم",
+        "from": "من",
+        "to": "إلى"
+      }
+    },
+    "wake-up-time-calculator": {
+      "title": "حاسبة وقت الاستيقاظ",
+      "description": "",
+      "ui": {
+        "wakeupTimeCalculator": "حاسبة وقت الاستيقاظ",
+        "ifYouHeadToBedRightNowWhenShouldYouWakeUpToFeelRefreshed": "إذا ذهبت إلى النوم الآن، متى يجب أن تستيقظ لتشعر بالنشاط؟",
+        "imGoingToBedNow": "سأذهب إلى النوم الآن",
+        "weAdded15MinutesForYouToFallAsleepSetYourAlarmForOneOfTheseTimesToWakeUpBetween90minuteSleepCycles": "أضفنا 15 دقيقة للاستغراق في النوم. اضبط المنبه على أحد هذه الأوقات للاستيقاظ بين دورات النوم التي تبلغ 90 دقيقة:",
+        "3Cycles45h": "3 دورات (4.5 ساعات)",
+        "4Cycles6h": "4 دورات (6 ساعات)",
+        "5Cycles75h": "5 دورات (7.5 ساعات)",
+        "6Cycles9h": "6 دورات (9 ساعات)",
+        "readyForBed": "جاهز للنوم",
+        "clickTheButtonWhenYouReG": "انقر فوق الزر عندما تذهب للنوم"
+      }
+    },
+    "water-intake-calculator": {
+      "title": "حاسبة كمية الماء",
+      "description": "",
+      "ui": {
+        "dailyWaterIntakeCalculator": "حاسبة كمية الماء اليومية",
+        "weightKg": "الوزن (كجم)",
+        "dailyExerciseMins": "التمارين اليومية (بالدقائق)",
+        "recommendedDailyIntake": "الكمية اليومية الموصى بها",
+        "liters": "لترات",
+        "approx": "(تقريبًا",
+        "ozOr": "أونصة أو",
+        "cups": "أكواب)",
+        "or": "أو"
+      }
+    },
+    "weeks-between-dates": {
+      "title": "الأسابيع بين تاريخين",
+      "description": "",
+      "ui": {
+        "weeksBetweenDates": "الأسابيع بين تاريخين",
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء",
+        "calculateWeeks": "احسب الأسابيع",
+        "weeks": "أسابيع",
+        "days": "أيام",
+        "copy": "نسخ",
+        "reset": "إعادة تعيين",
+        "selectDatesToCalculate": "حدد التواريخ للحساب"
+      }
+    },
+    "weight-converter": {
+      "title": "محول الوزن",
+      "description": "",
+      "ui": {
+        "weightConverter": "محول الوزن",
+        "from": "من",
+        "to": "إلى"
+      }
+    },
+    "word-counter": {
+      "title": "عداد الكلمات",
+      "description": "",
+      "ui": {
+        "wordCounter": "عداد الكلمات",
+        "words": "الكلمات",
+        "characters": "الأحرف",
+        "noSpaces": "بدون مسافات",
+        "paragraphs": "الفقرات",
+        "startTypingOrPasteYourTex": "ابدأ بكتابة النص أو لصقه هنا..."
+      }
+    },
+    "work-hours-calculator": {
+      "title": "حاسبة ساعات العمل",
+      "description": "",
+      "ui": {
+        "workHoursCalculator": "حاسبة ساعات العمل",
+        "clockIn": "وقت بدء العمل",
+        "clockOut": "وقت انتهاء العمل",
+        "breakMinutes": "الاستراحة (بالدقائق)",
+        "daysPerWeek": "أيام العمل في الأسبوع",
+        "calculateHours": "احسب الساعات",
+        "dailyWorkHours": "ساعات العمل اليومية",
+        "hrs": "ساعات",
+        "weeklyTotal": "الإجمالي الأسبوعي",
+        "enterScheduleToCalculateHo": "أدخل الجدول الزمني لحساب الساعات"
+      }
+    },
+    "world-time-converter": {
+      "title": "محول التوقيت العالمي",
+      "description": "",
+      "ui": {
+        "worldTimeConverter": "محول التوقيت العالمي"
+      }
+    },
+    "xml-formatter": {
+      "title": "منسق XML",
+      "description": "",
+      "ui": {
+        "xmlFormatter": "منسق XML",
+        "rawXml": "XML الخام",
+        "formattedXml": "XML المنسق"
+      }
+    },
+    "bionic-reading-converter": {
+      "title": "محول القراءة السريعة (Bionic)",
+      "description": "",
+      "ui": {
+        "inputText": "نص الإدخال",
+        "placeholder": "الصق أو اكتب النص هنا...",
+        "clear": "مسح",
+        "bionicOutput": "الإخراج",
+        "copyResult": "نسخ النتيجة",
+        "emptyOutput": "سيظهر ناتج القراءة السريعة هنا...",
+        "howItWorksTitle": "كيف تعمل:",
+        "howItWorksDescription": "تطبق هذه الأداة تقنية القراءة السريعة من خلال إبراز الأحرف الأولى من الكلمات. يوجه هذا عينيك عبر النص ويكمل عقلك الكلمة، مما يتيح لك القراءة بشكل أسرع وبتركيز أكبر."
+      }
+    }
+  },
+  "Search": {
+    "placeholder": "ابحث عن الأدوات...",
+    "noResults": "لم يتم العثور على أدوات لـ \"{query}\"."
+  },
+  "Home": {
+    "title": "أدوات مجانية عبر الإنترنت للمهام اليومية",
+    "subtitle": "احسب وحوّل وأنشئ وبسّط عملك اليومي باستخدام أدوات سريعة ومجانية وسهلة الاستخدام عبر الإنترنت.",
+    "popularTools": "الأدوات الشائعة",
+    "metaTitle": "100 أداة - أدوات متميزة مجانية عبر الإنترنت",
+    "metaDescription": "قم بحساب كل ما تحتاجه وتحويله وتوليده وتحليله باستخدام مجموعتنا التي تضم أكثر من 100 أداة متميزة عبر الإنترنت.",
+    "heroBadge": "أكثر من 100 أداة مجانية عبر الإنترنت",
+    "heroTitle1": "حساب وتحويل و",
+    "heroTitle2": "توليد كل شيء.",
+    "heroDescription": "منصة الإنتاجية المتميزة للمطورين والمتخصصين الماليين والمهام اليومية. سريع، خاص، ومصمم بشكل جميل.",
+    "popular": "شائع:",
+    "browseCategories": "تصفح الفئات",
+    "browseCategoriesDesc": "اعثر على ما تحتاجه بالضبط، منظمًا حسب سير العمل.",
+    "mostPopularTools": "الأدوات الأكثر شعبية",
+    "mostPopularToolsDesc": "الأدوات التي يستخدمها مجتمعنا بشكل متكرر.",
+    "exploreAll": "استكشاف الكل",
+    "whyUse": "لماذا نستخدم 100 أداة؟",
+    "whyUseDesc": "تم تصميمه باستخدام التكنولوجيا الحديثة لتوفير أفضل تجربة للمستخدم.",
+    "feature1Title": "بسرعة البرق",
+    "feature1Desc": "نتائج فورية دون إعادة تحميل الصفحة. الأمثل للسرعة والكمون المنخفض.",
+    "feature2Title": "الخصوصية أولاً",
+    "feature2Desc": "تتم الحسابات مباشرة في متصفحك. بياناتك لا تترك جهازك أبدًا.",
+    "feature3Title": "تصميم مميز",
+    "feature3Desc": "واجهات مصممة بعناية وجميلة وبديهية وسهلة الاستخدام."
+  },
+  "Footer": {
+    "100Tools": "100 أداة",
+    "thePremiumProductivityPlatf": "منصة الإنتاجية المتميزة لجميع احتياجاتك اليومية من العمليات الحسابية والتحويلية والتوليدية.",
+    "categories": "فئات",
+    "developerTools": "أدوات المطور",
+    "finance": "تمويل",
+    "dateTime": "التاريخ والوقت",
+    "textTools": "أدوات النص",
+    "converters": "المحولات",
+    "popularTools": "الأدوات الشعبية",
+    "ageCalculator": "حاسبة العمر",
+    "jSONFormatter": "تنسيق JSON",
+    "percentageCalculator": "حاسبة النسبة المئوية",
+    "base64Encoder": "التشفير Base64",
+    "salaryCalculator": "حاسبة الراتب",
+    "company": "شركة",
+    "aboutUs": "معلومات عنا",
+    "contact": "اتصال",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "Copy": "&ينسخ؛",
+    "100ToolsAllRightsReserved": "100 أداة. جميع الحقوق محفوظة.",
+    "builtWithNextJs": "بنيت مع Next.js",
+    "madeWith": "مصنوع باستخدام ❤️",
+    "tagline": "منصة الإنتاجية المتميزة لجميع احتياجاتك اليومية من العمليات الحسابية والتحويلية والتوليدية.",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "allRightsReserved": "جميع الحقوق محفوظة.",
+    "builtWith": "بنيت مع Next.js",
+    "madeWithHeart": "مصنوع باستخدام ❤️",
+    "cookie": "Cookie Policy"
+  },
+  "Header": {
+    "100Tools": "100 أداة",
+    "developer": "المطور",
+    "finance": "تمويل",
+    "time": "وقت"
+  },
+  "LanguageSwitcher": {},
+  "RelatedTools": {
+    "relatedTools": "الأدوات ذات الصلة",
+    "popular": "شائع"
+  },
+  "ToolSearch": {
+    "tryADifferentSearchTermOr": "جرّب مصطلح بحث مختلفًا أو تصفح الفئات."
+  },
+  "index": {
+    "advertisement": "إعلان"
+  },
+  "AgeCalculator": {},
+  "AreaConverter": {},
+  "AverageCalculator": {
+    "dataSet": "مجموعة البيانات",
+    "statistics": "إحصائيات",
+    "eG12345": "على سبيل المثال 1 2 3 4 5"
+  },
+  "Base64EncodeDecode": {
+    "mode": "وضع:"
+  },
+  "BedtimeCalculator": {
+    "recommended": "مُستَحسَن",
+    "enterYourWakeUpTimeToCal": "أدخل وقت استيقاظك لحسابه"
+  },
+  "BinaryToDecimal": {
+    "eG1010": "على سبيل المثال 1010"
+  },
+  "BionicReadingConverter": {},
+  "BmiCalculator": {
+    "Lt185": "&lt; 18.5",
+    "enterYourHeightAndWeight": "أدخل طولك ووزنك"
+  },
+  "BmrCalculator": {
+    "enterYourDetailsToCalculat": "أدخل التفاصيل الخاصة بك لحساب BMR"
+  },
+  "BoardFootCalculator": {},
+  "BodyFatCalculator": {
+    "enterYourMeasurementsToCal": "أدخل قياساتك لحساب نسبة الدهون في الجسم"
+  },
+  "BreakEvenCalculator": {
+    "costsPricing": "التكاليف والتسعير",
+    "breakEvenPoint": "نقطة التعادل"
+  },
+  "CalorieCalculator": {
+    "enterYourDetailsToCalculat": "أدخل التفاصيل الخاصة بك لحساب السعرات الحرارية"
+  },
+  "CharacterCounter": {
+    "startTypingOrPasteYourTex": "ابدأ بكتابة النص أو لصقه هنا..."
+  },
+  "CompoundInterestCalculator": {
+    "interestDetails": "تفاصيل الفائدة",
+    "growthBreakdown": "انهيار النمو"
+  },
+  "ConcreteCalculator": {},
+  "CostPerSquareFootCalculator": {},
+  "CountdownTimer": {},
+  "CssMinifier": {},
+  "CurrencyConverter": {},
+  "DataStorageConverter": {},
+  "DateDifferenceCalculator": {
+    "selectDatesToCalculate": "حدد التواريخ لحسابها"
+  },
+  "DaysBetweenDates": {
+    "selectDatesToCalculate": "حدد التواريخ لحسابها"
+  },
+  "DaysUntilCalculator": {
+    "selectAFutureDate": "حدد تاريخًا مستقبليًا"
+  },
+  "DecimalToBinary": {
+    "eG10": "على سبيل المثال 10"
+  },
+  "DeckingCalculator": {},
+  "DiscountCalculator": {
+    "discountDetails": "تفاصيل الخصم",
+    "priceBreakdown": "انهيار الأسعار"
+  },
+  "EmiCalculator": {
+    "eMIDetails": "تفاصيل EMI",
+    "paymentSummary": "ملخص الدفع"
+  },
+  "FenceCalculator": {},
+  "FinalGradeCalculator": {},
+  "FractionCalculator": {},
+  "GpaCalculator": {
+    "courseList": "قائمة الدورة",
+    "result": "نتيجة",
+    "course": "دورة"
+  },
+  "GradeCalculator": {
+    "assignments": "المهام",
+    "result": "نتيجة",
+    "eGMidterm": "على سبيل المثال منتصف المدة"
+  },
+  "HeightConverter": {},
+  "HexToDecimal": {
+    "eG1AOrFFFFFF": "على سبيل المثال 1A أو #FFFFFF"
+  },
+  "HourlyToSalaryCalculator": {
+    "hourlyDetails": "تفاصيل كل ساعة",
+    "salaryBreakdown": "توزيع الراتب"
+  },
+  "HtmlEncodeDecode": {
+    "mode": "وضع:"
+  },
+  "HtmlMinifier": {},
+  "InvestmentCalculator": {
+    "investmentPlan": "خطة الاستثمار",
+    "growthProjection": "توقعات النمو"
+  },
+  "JsMinifier": {},
+  "JsonFormatter": {
+    "inputJSON": "أدخل جسون",
+    "reset": "إعادة ضبط"
+  },
+  "JwtDecoder": {
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+  },
+  "LengthConverter": {},
+  "LoanCalculator": {
+    "loanDetails": "تفاصيل القرض",
+    "paymentBreakdown": "تفصيل الدفع"
+  },
+  "LoremIpsumGenerator": {
+    "generatedText": "النص المولد"
+  },
+  "MacroCalculator": {
+    "kcal": "سعر حراري",
+    "enterCaloriesToCalculateMa": "أدخل السعرات الحرارية لحساب وحدات الماكرو"
+  },
+  "MarkupCalculator": {
+    "pricingDetails": "تفاصيل التسعير",
+    "sellingPrice": "سعر البيع"
+  },
+  "Md5Generator": {},
+  "MonthsBetweenDates": {
+    "result": "نتيجة",
+    "selectDatesToCalculate": "حدد التواريخ لحسابها"
+  },
+  "MortgageCalculator": {
+    "propertyDetails": "تفاصيل العقار",
+    "mortgageSummary": "ملخص الرهن العقاري"
+  },
+  "MulchCalculator": {},
+  "NumberBaseConverter": {
+    "base": "قاعدة"
+  },
+  "OvertimeCalculator": {
+    "paySummary": "ملخص الدفع"
+  },
+  "PaceCalculator": {
+    "enterDistanceAndTimeToCal": "أدخل المسافة والوقت لحساب السرعة"
+  },
+  "PaintCalculator": {},
+  "PasswordGenerator": {
+    "constraints": "قيود",
+    "copyPassword": "نسخ كلمة المرور"
+  },
+  "PercentageCalculator": {
+    "calculatePercentage": "حساب النسبة المئوية",
+    "result": "نتيجة",
+    "enterValuesToCalculatePerc": "أدخل القيم لحساب النسبة المئوية"
+  },
+  "PercentageDecreaseCalculator": {
+    "values": "قيم",
+    "decreaseBreakdown": "تقليل الانهيار"
+  },
+  "PercentageIncreaseCalculator": {
+    "values": "قيم",
+    "increaseBreakdown": "زيادة الانهيار"
+  },
+  "PlantSpacingCalculator": {},
+  "PomodoroTimer": {
+    "pause": "يوقف",
+    "start": "يبدأ"
+  },
+  "ProfitMarginCalculator": {
+    "financialDetails": "التفاصيل المالية",
+    "profitability": "الربحية"
+  },
+  "QrCodeGenerator": {
+    "contentSettings": "المحتوى والإعدادات",
+    "enterURLOrTextToEncode": "أدخل عنوان URL أو النص المراد ترميزه...",
+    "generatedQRCode": "تم إنشاء رمز الاستجابة السريعة"
+  },
+  "RandomNumberGenerator": {
+    "rangeSettings": "إعدادات النطاق"
+  },
+  "RatioCalculator": {},
+  "RoiCalculator": {
+    "investmentDetails": "تفاصيل الاستثمار",
+    "returnOnInvestment": "العائد على الاستثمار"
+  },
+  "RomanNumeralConverter": {},
+  "RunningDistanceCalculator": {
+    "enterPaceAndTimeToCalcula": "أدخل السرعة والوقت لحساب المسافة"
+  },
+  "SalaryCalculator": {
+    "incomeDetails": "تفاصيل الدخل",
+    "salaryBreakdown": "توزيع الراتب",
+    "enterYourIncomeDetailsToS": "أدخل تفاصيل دخلك لرؤية التفاصيل"
+  },
+  "SalaryToHourlyCalculator": {
+    "salaryDetails": "تفاصيل الراتب",
+    "equivalentWage": "الأجر المعادل"
+  },
+  "Sha1Generator": {},
+  "Sha256Generator": {},
+  "SimpleInterestCalculator": {
+    "interestDetails": "تفاصيل الفائدة",
+    "growthBreakdown": "انهيار النمو"
+  },
+  "SleepCalculator": {
+    "recommended": "مُستَحسَن",
+    "enterWakeTimeToCalculateS": "أدخل وقت الاستيقاظ لحساب دورات النوم"
+  },
+  "SpeedConverter": {},
+  "SpeedDistanceTimeCalculator": {
+    "enterTheKnownValuesToCalc": "أدخل القيم المعروفة لحسابها"
+  },
+  "SqlFormatter": {},
+  "SquareFootageCalculator": {},
+  "StepCalculator": {},
+  "Stopwatch": {
+    "laps": "لفات",
+    "noLapsRecordedYet": "لم يتم تسجيل أي لفات حتى الآن"
+  },
+  "TaxCalculator": {
+    "taxDetails": "التفاصيل الضريبية",
+    "priceBreakdown": "انهيار الأسعار"
+  },
+  "TemperatureConverter": {},
+  "TileCalculator": {},
+  "TimeDifferenceCalculator": {
+    "selectTimesToCompare": "حدد الأوقات للمقارنة"
+  },
+  "TimeDurationCalculator": {
+    "durationResult": "نتيجة المدة",
+    "selectStartAndEndTimes": "حدد أوقات البدء والانتهاء"
+  },
+  "TimeZoneConverter": {
+    "conversionResult": "نتيجة التحويل",
+    "selectDateAndTimeZonesTo": "حدد مناطق التاريخ والوقت للتحويل"
+  },
+  "TipCalculator": {
+    "billDetails": "تفاصيل الفاتورة",
+    "totalBreakdown": "الانهيار الكلي"
+  },
+  "UnixTimestampConverter": {
+    "result": "نتيجة",
+    "eG1700000000": "على سبيل المثال 1700000000"
+  },
+  "UrlEncodeDecode": {
+    "mode": "وضع:"
+  },
+  "UuidGenerator": {
+    "clickGenerateToCreateUUI": "انقر فوق \"إنشاء\" لإنشاء UUIDs..."
+  },
+  "VolumeConverter": {},
+  "WakeUpTimeCalculator": {
+    "readyForBed": "جاهز للنوم؟",
+    "recommended": "مُستَحسَن",
+    "clickTheButtonWhenYouReG": "انقر فوق الزر عندما تذهب للنوم"
+  },
+  "WaterIntakeCalculator": {
+    "or": "أو",
+    "enterYourDetailsToCalculat": "أدخل التفاصيل الخاصة بك لحساب استهلاك المياه"
+  },
+  "WeeksBetweenDates": {
+    "result": "نتيجة",
+    "selectDatesToCalculate": "حدد التواريخ لحسابها"
+  },
+  "WeightConverter": {},
+  "WordCounter": {
+    "startTypingOrPasteYourTex": "ابدأ بكتابة النص أو لصقه هنا..."
+  },
+  "WorkHoursCalculator": {
+    "hoursLog": "سجل الساعات",
+    "enterScheduleToCalculateHo": "أدخل الجدول الزمني لحساب الساعات"
+  },
+  "WorldTimeConverter": {},
+  "XmlFormatter": {},
+  "button": {},
+  "card": {},
+  "CategoryCard": {
+    "tools": "أدوات",
+    "viewAllTools": "عرض جميع الأدوات"
+  },
+  "input": {},
+  "label": {},
+  "textarea": {},
+  "ToolCard": {},
+  "editor": {
+    "copy": "ينسخ"
+  },
+  "layout": {},
+  "panels": {},
+  "Page": {
+    "whatIs": "ما هو {title}؟",
+    "howToUse": "كيفية استخدام {title}",
+    "example": "مثال",
+    "useCases": "حالات الاستخدام الشائعة",
+    "howItWorks": "كيف يعمل",
+    "faq": "الأسئلة المتداولة",
+    "readyToStart": "هل أنت مستعد للبدء؟",
+    "useToolNow": "استخدم الأداة الآن"
+  },
+  "Categories": {
+    "developerTools": "أدوات المطور",
+    "finance": "تمويل",
+    "time": "التاريخ والوقت",
+    "text": "أدوات النص",
+    "converters": "المحولات"
+  },
+  "About": {
+    "title": "About Us & Methodology",
+    "description": "Welcome to 100 Tools, your free resource for premium online calculators and developer utilities.",
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is to provide fast, reliable, and privacy-respecting tools for everyday tasks. Whether you're a developer needing to encode a JWT, a homeowner calculating mulch volume, or just trying to figure out a discount, we've built a robust tool for you.",
+    "methodologyTitle": "Our Methodology",
+    "methodologyIntro": "We believe in transparency and accuracy, particularly for financial and health-related tools (Your Money or Your Life topics). Here is how we ensure our tools are reliable:",
+    "standardizedFormulasTitle": "Standardized Formulas",
+    "standardizedFormulasText": "All financial calculators (like ROI, Mortgages, and Loans) use industry-standard amortization and compound interest formulas.",
+    "medicalGuidelinesTitle": "Medical Guidelines",
+    "medicalGuidelinesText": "Health calculators (like BMI and BMR) use globally recognized equations, such as the Mifflin-St Jeor Equation for metabolic rate, and the standard WHO classifications for BMI.",
+    "privacyFirstTitle": "Privacy First",
+    "privacyFirstText": "Your data never leaves your browser. All calculations, hashing, and conversions happen locally on your device via JavaScript. We do not store or transmit your inputs.",
+    "continuousTestingTitle": "Continuous Testing",
+    "continuousTestingText": "Our toolkit is rigorously tested to ensure edge cases (like zero values or invalid inputs) are handled gracefully without crashing.",
+    "editorialGuidelinesTitle": "Editorial Guidelines",
+    "editorialGuidelinesText": "Every tool page is designed to be self-explanatory. We prioritize usability and clear instructions over cluttered interfaces. If an equation has limitations (like the Navy Body Fat method being an estimation), we clearly note it on the tool page.",
+    "disclaimer": "Disclaimer: The tools and calculators on this website are for informational and educational purposes only. They do not constitute professional financial or medical advice. Always consult with a qualified professional before making significant health or financial decisions."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you. Whether you have a question, a feature request, or found a bug, let us know!",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "Send Message",
+    "emailUs": "Email Us",
+    "emailAddress": "contact@100tools.example.com",
+    "responseTime": "We typically respond within 24-48 hours.",
+    "successMessage": "Thank you! Your message has been sent.",
+    "errorMessage": "Something went wrong. Please try again later."
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "At 100 Tools, your privacy is our top priority. This Privacy Policy outlines how we handle (and explicitly do NOT handle) your personal data.",
+    "dataCollectionTitle": "No Data Collection",
+    "dataCollectionText": "We do not collect, store, or transmit any personal data when you use our calculators and tools. All computations—including formatting, decoding, and calculating—are performed strictly locally within your browser using JavaScript.",
+    "analyticsTitle": "Analytics & Tracking",
+    "analyticsText": "We may use privacy-friendly, anonymized analytics to understand general traffic patterns (like which tools are most popular). This data cannot be traced back to individual users and does not use intrusive tracking cookies.",
+    "thirdPartyTitle": "Third-Party Services",
+    "thirdPartyText": "Our website is hosted on modern edge networks. These infrastructure providers may log basic connection data (like IP addresses) for security and anti-DDoS purposes, which is standard practice for any website.",
+    "contactUs": "If you have any questions about this Privacy Policy, please contact us."
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "By accessing and using 100 Tools, you agree to comply with and be bound by the following terms and conditions of use.",
+    "noWarrantyTitle": "No Warranties (As-Is)",
+    "noWarrantyText": "All tools, calculators, and information on this website are provided \"as-is\" without any representations or warranties, express or implied. We make no guarantees regarding the accuracy, reliability, or completeness of the results generated.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityText": "In no event shall 100 Tools be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever arising out of or in connection with the use of our tools. This includes financial losses or medical decisions made based on our calculators.",
+    "acceptableUseTitle": "Acceptable Use",
+    "acceptableUseText": "You agree to use our tools for lawful purposes only. You must not attempt to scrape, DDoS, or otherwise disrupt the service or networks connected to 100 Tools.",
+    "modificationsTitle": "Modifications",
+    "modificationsText": "We reserve the right to revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then-current version of these terms."
+  },
+  "Cookie": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, or the information we collect using cookies and how that information is used.",
+    "whatAreCookiesTitle": "What are Cookies?",
+    "whatAreCookiesText": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used to make websites work, or work more efficiently, as well as to provide reporting information.",
+    "howWeUseCookiesTitle": "How We Use Cookies",
+    "howWeUseCookiesText": "We use cookies strictly for essential functionality and basic user preferences. For example, we might use local storage or a cookie to remember if you prefer \"Dark Mode\" or \"Light Mode\", or to remember your preferred language.",
+    "noTrackingTitle": "No Invasive Tracking",
+    "noTrackingText": "We do not use advertising cookies, third-party trackers, or cross-site tracking technologies. Your use of our tools remains private.",
+    "managingCookiesTitle": "Managing Cookies",
+    "managingCookiesText": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed."
+  }
+}

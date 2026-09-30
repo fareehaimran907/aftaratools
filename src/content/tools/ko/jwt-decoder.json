@@ -1,0 +1,55 @@
+{
+  "seoTitle": "JWT 디코더",
+  "metaDescription": "무료 온라인 JWT 디코더. JSON 웹 토큰을 디코딩합니다.",
+  "h1": "JWT 디코더",
+  "primaryKeyword": "JWT 디코더",
+  "secondaryKeywords": [
+    "JWT 디코더 온라인",
+    "무료 JWT 디코더",
+    "최고의 JWT 디코더"
+  ],
+  "slug": "jwt 디코더",
+  "intro": "무료 온라인 JWT 디코더 도구를 사용해 보세요. 입력 내용을 기반으로 JSON 웹 토큰을 구문 분석합니다.",
+  "whatIs": "JWT 디코더는 JSON 웹 토큰을 구문 분석하는 온라인 유틸리티입니다. JWT 문자열을 처리하고 읽을 수 있는 JSON 클레임을 제공합니다.",
+  "howToUse": [
+    "지정된 입력 필드에 JWT 문자열을 입력하세요.",
+    "디코딩된 헤더/페이로드와 같은 보조 매개변수를 제공하세요.",
+    "계산 또는 제출 버튼을 클릭하여 읽을 수 있는 JSON 청구를 생성하세요.",
+    "필요에 따라 결과 출력을 복사하거나 검토합니다."
+  ],
+  "howItWorks": "이 도구는 JWT 문자열에 표준 알고리즘을 적용하여 브라우저에서 작동합니다. 데이터를 즉시 처리하여 읽을 수 있는 JSON 클레임을 출력합니다.",
+  "workedExample": "예: 표준 base64Url 클레임을 `{ \"sub\": \"123\" }`로 디코딩합니다.",
+  "resultInterpretation": "결과는 읽을 수 있는 JSON 클레임을 나타냅니다. 특정 계산이나 형식 요구 사항에 대해 이 데이터를 사용할 수 있습니다.",
+  "useCases": [
+    "디버깅 인증",
+    "토큰 만료 확인",
+    "이동 중에도 JWT 문자열을 빠르게 처리"
+  ],
+  "tipsAndLimitations": [
+    "디코딩은 서명을 확인하지 않습니다. 디코딩된 데이터를 맹목적으로 신뢰하지 마십시오.",
+    "최상의 결과를 얻으려면 입력 형식이 올바른지 확인하세요.",
+    "이 도구는 완전히 클라이언트 측에서 실행되므로 데이터가 비공개로 유지됩니다."
+  ],
+  "faq": [
+    {
+      "question": "Can I edit the JWT?",
+      "answer": "You can, but it will invalidate the cryptographic signature."
+    },
+    {
+      "question": "Is the JWT Decoder free to use?",
+      "answer": "Yes, our JWT Decoder is completely free and requires no registration."
+    },
+    {
+      "question": "Does this work on mobile devices?",
+      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+    }
+  ],
+  "relatedTools": [
+    "json 포맷터",
+    "base64-인코드-디코드",
+    "URL 인코딩 디코딩"
+  ],
+  "lastReviewed": "2026-09-29",
+  "imageAlt": "JWT 디코더 인터페이스 스크린샷",
+  "ogImageText": "JWT 디코더"
+}

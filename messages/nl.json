@@ -1,0 +1,1812 @@
+{
+  "Navigation": {
+    "home": "Thuis",
+    "tools": "Hulpmiddelen",
+    "categories": "Categorieën",
+    "about": "Over ons",
+    "contact": "Contact"
+  },
+  "Common": {
+    "viewIn": "Bekijken in het {language}?",
+    "yes": "Ja",
+    "dismiss": "Sluiten",
+    "language": "Taal",
+    "theme": "Thema",
+    "light": "Licht",
+    "dark": "Donker",
+    "system": "Systeem",
+    "copy": "Kopiëren"
+  },
+  "Tools": {
+    "age-calculator": {
+      "title": "Leeftijdscalculator",
+      "description": "Bereken je exacte leeftijd in jaren, maanden en dagen.",
+      "ui": {
+        "calculateYourAge": "Bereken je leeftijd",
+        "dateOfBirth": "Geboortedatum",
+        "calculate": "Berekenen",
+        "years": "Jaar",
+        "months": "Maanden",
+        "days": "Dagen",
+        "nextBirthday": "Volgende verjaardag:",
+        "totalDays": "Totaal aantal dagen:",
+        "yourAgeIs": "Je leeftijd is:",
+        "copy": "Kopiëren",
+        "reset": "Resetten",
+        "targetDate": "Streefdatum (optioneel)",
+        "selectYourDateOfBirth": "Selecteer uw geboortedatum"
+      }
+    },
+    "percentage-calculator": {
+      "title": "Percentagecalculator",
+      "description": "Bereken percentages snel en nauwkeurig.",
+      "ui": {
+        "percentageCalculator": "Percentagecalculator",
+        "whatIs": "Wat is",
+        "of": "van",
+        "amount": "Bedrag",
+        "calculate": "Berekenen",
+        "result": "Resultaat",
+        "calculatePercentage": "Bereken het percentage"
+      }
+    },
+    "json-formatter": {
+      "title": "JSON-formatter",
+      "description": "Formatteer, valideer en maak JSON-gegevens overzichtelijk.",
+      "ui": {
+        "formatJson": "JSON formatteren",
+        "inputJSON": "Voer J S O N in",
+        "reset": "Opnieuw instellen"
+      }
+    },
+    "area-converter": {
+      "title": "Oppervlakteconverter",
+      "description": "",
+      "ui": {
+        "areaConverter": "Oppervlakteconverter",
+        "from": "Van",
+        "to": "Naar"
+      }
+    },
+    "average-calculator": {
+      "title": "Gemiddeldecalculator",
+      "description": "",
+      "ui": {
+        "averageCalculator": "Gemiddeldecalculator",
+        "enterNumbersSeparatedByCommasOrSpaces": "Voer getallen in (gescheiden door komma's of spaties)",
+        "count": "Aantal",
+        "sum": "Som",
+        "averageMean": "Gemiddelde",
+        "median": "Mediaan",
+        "dataSet": "Gegevensset",
+        "eG12345": "bijv. 1, 2, 3, 4, 5",
+        "statistics": "Statistieken"
+      }
+    },
+    "base64encode-decode": {
+      "title": "Base64EncoderDecoder",
+      "description": "",
+      "ui": {
+        "base64EncoderDecoder": "Base64-encoder / decoder",
+        "encode": "Coderen",
+        "decode": "Decoderen",
+        "input": "Invoer (",
+        "output": "Uitvoer (",
+        "mode": "Modus"
+      }
+    },
+    "bedtime-calculator": {
+      "title": "Bedtijdcalculator",
+      "description": "",
+      "ui": {
+        "bedtimeCalculator": "Bedtijdcalculator",
+        "whenDoYouNeedToWakeUp": "Hoe laat moet je wakker worden?",
+        "calculate": "Berekenen",
+        "toWakeUpAt": "Om wakker te worden om",
+        "youShouldTryToBeAsleepBy": ", probeer dan uiterlijk om deze tijd te slapen:",
+        "6Cycles9h": "6 cycli (9 uur)",
+        "5Cycles75h": "5 cycli (7,5 uur)",
+        "calculationsIncludeAnAverage15MinutesToFallAsleep": "Bij de berekeningen wordt gemiddeld 15 minuten om in slaap te vallen meegerekend.",
+        "enterYourWakeUpTimeToCal": "Voer uw wektijd in om de bedtijden te berekenen"
+      }
+    },
+    "binary-to-decimal": {
+      "title": "BinairNaarDecimaal",
+      "description": "",
+      "ui": {
+        "binaryToDecimalConverter": "Binair-naar-decimaalconverter",
+        "binaryNumber": "Binair getal",
+        "decimalResult": "Decimaal resultaat",
+        "eG1010": "bijv. 1010"
+      }
+    },
+    "bmi-calculator": {
+      "title": "BMI-calculator",
+      "description": "",
+      "ui": {
+        "bmiCalculator": "BMI-calculator",
+        "metric": "Metrisch",
+        "imperial": "Imperiaal",
+        "heightCm": "Lengte (cm)",
+        "weightKg": "Gewicht (kg)",
+        "heightFt": "Lengte (ft)",
+        "heightIn": "Lengte (in)",
+        "weightLbs": "Gewicht (lbs)",
+        "yourBmi": "Je BMI",
+        "Lt185": "<18,5"
+      }
+    },
+    "bmr-calculator": {
+      "title": "BMR-calculator",
+      "description": "",
+      "ui": {
+        "bmrCalculator": "BMR-calculator",
+        "male": "Man",
+        "female": "Vrouw",
+        "ageYears": "Leeftijd (jaar)",
+        "heightCm": "Lengte (cm)",
+        "weightKg": "Gewicht (kg)",
+        "basalMetabolicRate": "Basaal metabolisme",
+        "caloriesDay": "Calorieën / dag",
+        "thisIsTheAmountOfEnergyYourBodyBurnsAtRestJustToKeepYouAlive": "Dit is de hoeveelheid energie die je lichaam in rust verbruikt om je in leven te houden."
+      }
+    },
+    "board-foot-calculator": {
+      "title": "BoardFootCalculator",
+      "description": "",
+      "ui": {
+        "boardFootCalculator": "Board-footcalculator",
+        "thicknessIn": "Dikte (in)",
+        "widthIn": "Breedte (in)",
+        "lengthFt": "Lengte (ft)",
+        "quantity": "Aantal",
+        "pricePerBf": "Prijs per BF ($)",
+        "totalBoardFeet": "Totaal aantal board feet",
+        "totalCost": "Totale kosten: $"
+      }
+    },
+    "body-fat-calculator": {
+      "title": "Lichaamsvetcalculator",
+      "description": "",
+      "ui": {
+        "bodyFatCalculatorNavyMethod": "Lichaamsvetcalculator (Navy-methode)",
+        "male": "Man",
+        "female": "Vrouw",
+        "heightCm": "Lengte (cm)",
+        "neckCm": "Nek (cm)",
+        "waistCmAtNavel": "Taille (cm) ter hoogte van de navel",
+        "hipsCm": "Heupen (cm)",
+        "estimatedBodyFat": "Geschat lichaamsvet"
+      }
+    },
+    "break-even-calculator": {
+      "title": "Break-evencalculator",
+      "description": "",
+      "ui": {
+        "breakevenCalculator": "Break-evencalculator",
+        "fixedCosts": "Vaste kosten",
+        "variableCostPerUnit": "Variabele kosten per eenheid",
+        "sellingPricePerUnit": "Verkoopprijs per eenheid",
+        "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "De verkoopprijs moet hoger zijn dan de variabele kosten om het break-evenpunt te bereiken.",
+        "unitsToSell": "Te verkopen eenheden",
+        "breakevenRevenue": "Break-evenomzet",
+        "costsPricing": "Kosten Prijzen",
+        "breakEvenPoint": "Break-even-punt"
+      }
+    },
+    "calorie-calculator": {
+      "title": "Caloriecalculator",
+      "description": "",
+      "ui": {
+        "dailyCalorieCalculator": "Dagelijkse caloriecalculator",
+        "male": "Man",
+        "female": "Vrouw",
+        "age": "Leeftijd",
+        "heightCm": "Lengte (cm)",
+        "weightKg": "Gewicht (kg)",
+        "activityLevel": "Activiteitsniveau",
+        "sedentaryLittleOrNoExercise": "Zittend (weinig of geen beweging)",
+        "lightlyActiveLightExercise13Daysweek": "Licht actief (lichte beweging 1-3 dagen/week)",
+        "moderatelyActiveModerateExercise35Daysweek": "Gemiddeld actief (matige beweging 3-5 dagen/week)",
+        "veryActiveHardExercise67Daysweek": "Zeer actief (zware beweging 6-7 dagen/week)",
+        "extraActiveVeryHardExercisephysicalJob": "Extreem actief (zeer zware beweging/fysiek werk)",
+        "maintainWeight": "Gewicht behouden",
+        "kcal": "kcal",
+        "loseWeight05kgweek": "Afvallen (-0,5 kg/week)",
+        "gainWeight05kgweek": "Aankomen (+0,5 kg/week)"
+      }
+    },
+    "character-counter": {
+      "title": "Tekenteller",
+      "description": "",
+      "ui": {
+        "characterCounter": "Tekenteller",
+        "totalCharacters": "Totaal aantal tekens",
+        "withoutSpaces": "Zonder spaties",
+        "spaces": "Spaties",
+        "lines": "Regels",
+        "startTypingOrPasteYourTex": "Begin hier met typen of plak uw tekst..."
+      }
+    },
+    "compound-interest-calculator": {
+      "title": "Samengestelde-rente calculator",
+      "description": "",
+      "ui": {
+        "compoundInterestCalculator": "Samengestelde-rentecalculator",
+        "principalAmount": "Hoofdsom",
+        "annualRate": "Jaarlijkse rente (%)",
+        "timeYears": "Periode (jaar)",
+        "compoundFrequency": "Rente-op-rente frequentie",
+        "daily": "Dagelijks",
+        "monthly": "Maandelijks",
+        "quarterly": "Per kwartaal",
+        "semiannually": "Halfjaarlijks",
+        "annually": "Jaarlijks",
+        "interestEarned": "Verdiende rente",
+        "finalBalance": "Eindsaldo",
+        "interestDetails": "Interessegegevens",
+        "growthBreakdown": "Groei-uitsplitsing"
+      }
+    },
+    "concrete-calculator": {
+      "title": "Betoncalculator",
+      "description": "",
+      "ui": {
+        "concreteCalculator": "Betoncalculator",
+        "lengthFt": "Lengte (ft)",
+        "widthFt": "Breedte (ft)",
+        "depthThicknessInches": "Diepte / dikte (inch)",
+        "volumeRequired": "Benodigd volume",
+        "cubicYards": "Kubieke yards",
+        "80lbBags": "Zak van 80 lb",
+        "60lbBags": "Zak van 60 lb",
+        "40lbBags": "Zak van 40 lb"
+      }
+    },
+    "cost-per-square-foot-calculator": {
+      "title": "Kosten-per-vierkante-voetcalculator",
+      "description": "",
+      "ui": {
+        "costPerSquareFoot": "Kosten per vierkante voet",
+        "totalPriceOrCost": "Totale prijs of kosten ($)",
+        "totalSquareFootage": "Totale oppervlakte",
+        "sqFt": "/ vierkante meter"
+      }
+    },
+    "countdown-timer": {
+      "title": "Afteltimer",
+      "description": "",
+      "ui": {
+        "countdownTimer": "Afteltimer",
+        "minutes": "Minuten",
+        "start": "Begin",
+        "pause": "Pauzeren",
+        "reset": "Resetten"
+      }
+    },
+    "css-minifier": {
+      "title": "CSS-minifier",
+      "description": "",
+      "ui": {
+        "cssMinifier": "CSS-minifier",
+        "inputCss": "Invoer-CSS",
+        "bytes": "bytes (-",
+        "minifiedCss": "Geminificeerde CSS"
+      }
+    },
+    "currency-converter": {
+      "title": "Valutaconverter",
+      "description": "",
+      "ui": {
+        "currencyConverterEstimated": "Valutaconverter (schatting)",
+        "amount": "Bedrag",
+        "from": "Van",
+        "to": "Naar",
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Let op: deze wisselkoersen zijn statische schattingen en uitsluitend bedoeld voor demonstratiedoeleinden."
+      }
+    },
+    "data-storage-converter": {
+      "title": "Datacapaciteitsconverter",
+      "description": "",
+      "ui": {
+        "dataStorageConverter": "Datacapaciteitsconverter",
+        "from": "Van",
+        "to": "Naar"
+      }
+    },
+    "date-difference-calculator": {
+      "title": "Datumverschilcalculator",
+      "description": "",
+      "ui": {
+        "dateDifferenceCalculator": "Datumverschilcalculator",
+        "startDate": "Startdatum",
+        "endDate": "Einddatum",
+        "calculateDifference": "Verschil berekenen",
+        "timeDifference": "Tijdsverschil:",
+        "years": "Jaar",
+        "months": "Maanden",
+        "days": "dagen",
+        "totalDaysEquivalent": "Totaal aantal dagen:",
+        "totalWeeksEquivalent": "Totaal aantal weken:",
+        "weeks": "weken,",
+        "copy": "Kopiëren",
+        "reset": "Resetten",
+        "selectDatesToCalculate": "Selecteer Data om te berekenen"
+      }
+    },
+    "days-between-dates": {
+      "title": "Dagen tussen datums",
+      "description": "",
+      "ui": {
+        "daysBetweenDates": "Dagen tussen datums",
+        "startDate": "Startdatum",
+        "endDate": "Einddatum",
+        "includeStartDateInCalculation": "Startdatum meenemen in berekening",
+        "includeEndDateInCalculation": "Einddatum meenemen in berekening",
+        "calculateDays": "Dagen berekenen",
+        "totalResult": "Totaal resultaat:",
+        "days": "Dagen",
+        "copy": "Kopiëren",
+        "reset": "Resetten",
+        "selectDatesToCalculate": "Selecteer Data om te berekenen"
+      }
+    },
+    "days-until-calculator": {
+      "title": "Dagen-tot-calculator",
+      "description": "",
+      "ui": {
+        "daysUntil": "Dagen tot...",
+        "selectFutureDateEventHolidayDeadline": "Selecteer een toekomstige datum (evenement, feestdag, deadline)",
+        "calculate": "Berekenen",
+        "timeRemaining": "Resterende tijd:",
+        "totalDays": "Totaal aantal dagen",
+        "whichIsExactly": "Dat is precies:",
+        "days": "dagen",
+        "copy": "Kopiëren",
+        "reset": "Resetten",
+        "selectAFutureDate": "Selecteer een toekomstige datum"
+      }
+    },
+    "decimal-to-binary": {
+      "title": "DecimaalNaarBinair",
+      "description": "",
+      "ui": {
+        "decimalToBinaryConverter": "Decimaal-naar-binairconverter",
+        "decimalNumber": "Decimaal getal",
+        "binaryResult": "Binair resultaat",
+        "eG10": "bijv. 10"
+      }
+    },
+    "decking-calculator": {
+      "title": "Terrascalculator",
+      "description": "",
+      "ui": {
+        "deckingMaterialCalculator": "Terrasmateriaalcalculator",
+        "deckLengthFt": "Terraslengte (ft)",
+        "parallelToHouse": "Parallel aan het huis",
+        "deckWidthDepthFt": "Terrasbreedte / diepte (ft)",
+        "awayFromHouse": "Van het huis af",
+        "boardLengthFt": "Planklengte (ft)",
+        "boardWidthIn": "Plankbreedte (in)",
+        "requiredBoards": "Benodigde planken (",
+        "length": "' lengte)",
+        "deckArea": "Terrasoppervlakte",
+        "sqFt": "vierkante meter",
+        "screwsFasteners": "Schroeven / bevestigingsmiddelen"
+      }
+    },
+    "discount-calculator": {
+      "title": "Kortingscalculator",
+      "description": "",
+      "ui": {
+        "discountCalculator": "Kortingscalculator",
+        "originalPrice": "Oorspronkelijke prijs",
+        "discount": "Korting",
+        "type": "Type",
+        "off": "% korting",
+        "fixedAmountOff": "Vaste korting",
+        "youSave": "Je bespaart",
+        "finalPrice": "Eindprijs",
+        "discountDetails": "Kortingsdetails",
+        "priceBreakdown": "Prijsverdeling"
+      }
+    },
+    "emi-calculator": {
+      "title": "EMI-calculator",
+      "description": "",
+      "ui": {
+        "emiCalculator": "EMI-calculator",
+        "loanAmountPrincipal": "Leningbedrag (hoofdsom)",
+        "annualRate": "Jaarlijkse rente (%)",
+        "tenureMonths": "Looptijd (maanden)",
+        "monthlyEmi": "Maandelijkse EMI",
+        "totalInterestPayable": "Totale te betalen rente",
+        "totalPaymentPrincipalInterest": "Totale betaling (hoofdsom + rente)",
+        "eMIDetails": "E M I-details",
+        "paymentSummary": "Betalingsoverzicht"
+      }
+    },
+    "fence-calculator": {
+      "title": "Schuttingcalculator",
+      "description": "",
+      "ui": {
+        "fenceMaterialCalculator": "Schuttingmateriaalcalculator",
+        "totalFenceLengthFt": "Totale schuttinglengte (ft)",
+        "postSpacingFt": "Paalkafstand (ft)",
+        "standardIs6Or8": "Standaard is 6' of 8'",
+        "horizontalRailsPerPanel": "Horizontale regels per paneel",
+        "usually2Or3": "Meestal 2 of 3",
+        "picketWidthIn": "Plankbreedte (in)",
+        "picketSpacingIn": "Plankafstand (in)",
+        "0ForSolidPrivacy": "0 voor volledige privacy",
+        "posts": "Palen",
+        "rails": "Regels",
+        "pickets": "Planken"
+      }
+    },
+    "final-grade-calculator": {
+      "title": "Eindcijfercalculator",
+      "description": "",
+      "ui": {
+        "finalGradeCalculator": "Eindcijfercalculator",
+        "currentGrade": "Huidig cijfer (%)",
+        "desiredClassGrade": "Gewenst eindcijfer (%)",
+        "finalExamWeight": "Weging eindexamen (%)",
+        "youNeedToScore": "Je moet behalen",
+        "onTheFinalExam": "op het eindexamen",
+        "itLooksLikeScoringThisGradeIsMathematicallyImpossibleUnlessThereIsExtraCreditAvailable": "Het lijkt wiskundig onmogelijk om dit cijfer te behalen, tenzij er extra punten beschikbaar zijn."
+      }
+    },
+    "fraction-calculator": {
+      "title": "Breukencalculator",
+      "description": "",
+      "ui": {
+        "fractionCalculator": "Breukencalculator",
+        "decimal": "Decimaal:"
+      }
+    },
+    "gpa-calculator": {
+      "title": "GPA-calculator",
+      "description": "",
+      "ui": {
+        "gpaCalculator": "GPA-calculator",
+        "courseName": "Vaknaam",
+        "credits": "Studiepunten",
+        "grade": "Cijfer",
+        "addCourse": "Vak toevoegen",
+        "totalCredits": "Totaal aantal studiepunten",
+        "cumulativeGpa": "Cumulatieve GPA",
+        "courseList": "Cursuslijst",
+        "course": "Cursus",
+        "result": "Resultaat"
+      }
+    },
+    "grade-calculator": {
+      "title": "Cijfercalculator",
+      "description": "",
+      "ui": {
+        "gradeCalculator": "Cijfercalculator",
+        "assignmentCategory": "Opdrachtcategorie",
+        "grade": "Cijfer (%)",
+        "weight": "Weging (%)",
+        "addCategory": "Categorie toevoegen",
+        "totalWeightEntered": "Totale ingevoerde weging",
+        "currentGrade": "Huidig cijfer",
+        "assignments": "Opdrachten",
+        "eGMidterm": "bijv. Tussentijds",
+        "result": "Resultaat"
+      }
+    },
+    "height-converter": {
+      "title": "Lengteconverter",
+      "description": "",
+      "ui": {
+        "heightConverter": "Lengteconverter",
+        "metricCentimeters": "Metrisch (centimeters)",
+        "cm": "cm",
+        "imperialFeetInches": "Imperiaal (voet en inches)",
+        "ft": "ft",
+        "in": "in"
+      }
+    },
+    "hex-to-decimal": {
+      "title": "HexNaarDecimaal",
+      "description": "",
+      "ui": {
+        "hexToDecimalConverter": "Hexadecimaal-naar-decimaalconverter",
+        "hexadecimalNumber": "Hexadecimaal getal",
+        "decimalResult": "Decimaal resultaat",
+        "eG1AOrFFFFFF": "bijv. 1A of FFFFFF"
+      }
+    },
+    "hourly-to-salary-calculator": {
+      "title": "UurloonNaarSalariscalculator",
+      "description": "",
+      "ui": {
+        "hourlyToSalaryCalculator": "Uurloon-naar-salariscalculator",
+        "hourlyWage": "Uurloon",
+        "hoursWeek": "Uren / week",
+        "weeksYear": "Weken / jaar",
+        "daily": "Per dag",
+        "weekly": "Per week",
+        "monthly": "Per maand",
+        "yearlySalary": "Jaarsalaris",
+        "hourlyDetails": "Uurgegevens",
+        "salaryBreakdown": "Salarisverdeling"
+      }
+    },
+    "html-encode-decode": {
+      "title": "HtmlEncodeDecode",
+      "description": "",
+      "ui": {
+        "htmlEntityEncoderDecoder": "HTML-entiteitsencoder / decoder",
+        "encode": "Coderen",
+        "decode": "Decoderen",
+        "input": "Invoer",
+        "output": "Uitvoer",
+        "mode": "Modus"
+      }
+    },
+    "html-minifier": {
+      "title": "HTML-minifier",
+      "description": "",
+      "ui": {
+        "htmlMinifier": "HTML-minifier",
+        "inputHtml": "Invoer-HTML",
+        "bytes": "bytes (-",
+        "minifiedHtml": "Geminificeerde HTML"
+      }
+    },
+    "investment-calculator": {
+      "title": "Investeringscalculator",
+      "description": "",
+      "ui": {
+        "investmentCalculator": "Investeringscalculator",
+        "initialInvestment": "Initiële investering",
+        "monthlyContribution": "Maandelijkse inleg",
+        "expectedReturn": "Verwacht rendement (%)",
+        "yearsToGrow": "Aantal investeringsjaren",
+        "totalContributions": "Totale inleg",
+        "interestEarned": "Verdiende rente",
+        "futureValue": "Toekomstige waarde",
+        "investmentPlan": "Investeringsplan",
+        "growthProjection": "Groeiprojectie"
+      }
+    },
+    "js-minifier": {
+      "title": "JS-minifier",
+      "description": "",
+      "ui": {
+        "javascriptMinifier": "JavaScript-minifier",
+        "inputJs": "Invoer-JS",
+        "bytes": "bytes (-",
+        "minifiedJs": "Geminificeerde JS"
+      }
+    },
+    "jwt-decoder": {
+      "title": "JWT-decoder",
+      "description": "",
+      "ui": {
+        "jwtDecoder": "JWT-decoder",
+        "encodedJwtHeaderpayloadsignature": "Gecodeerde JWT (Header.Payload.Signature)",
+        "invalidJwtFormat": "Ongeldige JWT-indeling.",
+        "header": "Koptekst",
+        "payload": "Laadvermogen",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik..."
+      }
+    },
+    "length-converter": {
+      "title": "Lengteconverter",
+      "description": "",
+      "ui": {
+        "lengthConverter": "Lengteconverter",
+        "from": "Van",
+        "to": "Naar"
+      }
+    },
+    "loan-calculator": {
+      "title": "Leningcalculator",
+      "description": "",
+      "ui": {
+        "loanCalculator": "Leningcalculator",
+        "loanAmount": "Leningbedrag",
+        "interestRate": "Rentepercentage (%)",
+        "loanTermYears": "Looptijd lening (jaar)",
+        "monthlyPayment": "Maandelijkse betaling",
+        "totalInterest": "Totale rente",
+        "totalCostOfLoan": "Totale kosten van de lening",
+        "loanDetails": "Leninggegevens",
+        "paymentBreakdown": "Betalingsverdeling"
+      }
+    },
+    "lorem-ipsum-generator": {
+      "title": "Lorem Ipsum-generator",
+      "description": "",
+      "ui": {
+        "loremIpsumGenerator": "Lorem Ipsum-generator",
+        "paragraphs": "Alinea's",
+        "generate": "Genereren",
+        "copy": "Kopiëren",
+        "generatedText": "Gegenereerde tekst"
+      }
+    },
+    "macro-calculator": {
+      "title": "Macrocalculator",
+      "description": "",
+      "ui": {
+        "macroCalculator": "Macrocalculator",
+        "dailyCalories": "Dagelijkse calorieën",
+        "dietPlan": "Dieetplan",
+        "balanced303040": "Gebalanceerd (30/30/40)",
+        "lowCarb404020": "Koolhydraatarm (40/40/20)",
+        "highProtein402535": "Eiwitrijk (40/25/35)",
+        "keto20755": "Keto (20/75/5)",
+        "protein": "Eiwitten",
+        "g": "G",
+        "fats": "Vetten",
+        "carbs": "Koolhydraten",
+        "kcal": "kcal"
+      }
+    },
+    "markup-calculator": {
+      "title": "Opslagcalculator",
+      "description": "",
+      "ui": {
+        "markupCalculator": "Opslagcalculator",
+        "cost": "Kosten",
+        "markup": "Opslag (%)",
+        "profit": "Winst",
+        "sellingPrice": "Verkoopprijs",
+        "pricingDetails": "Prijsdetails"
+      }
+    },
+    "md5generator": {
+      "title": "MD5-generator",
+      "description": "",
+      "ui": {
+        "md5HashGenerator": "MD5-hashgenerator",
+        "inputString": "Invoerstring",
+        "md5Hash": "MD5-hash",
+        "theDefaultHashShownIsForAnEmptyString": "De standaard weergegeven hash is voor een lege string."
+      }
+    },
+    "months-between-dates": {
+      "title": "Maanden tussen datums",
+      "description": "",
+      "ui": {
+        "monthsBetweenDates": "Maanden tussen datums",
+        "startDate": "Startdatum",
+        "endDate": "Einddatum",
+        "calculateMonths": "Maanden berekenen",
+        "months": "Maanden",
+        "days": "Dagen",
+        "copy": "Kopiëren",
+        "reset": "Resetten",
+        "selectDatesToCalculate": "Selecteer Data om te berekenen"
+      }
+    },
+    "mortgage-calculator": {
+      "title": "Hypotheekcalculator",
+      "description": "",
+      "ui": {
+        "mortgageCalculator": "Hypotheekcalculator",
+        "homePrice": "Woningprijs",
+        "downPayment": "Aanbetaling",
+        "interestRate": "Rentepercentage (%)",
+        "loanTermYears": "Looptijd lening (jaar)",
+        "principalLoanAmount": "Hoofdsom lening",
+        "monthlyPayment": "Maandelijkse betaling",
+        "propertyDetails": "Eigenschapsdetails",
+        "mortgageSummary": "Hypotheekoverzicht"
+      }
+    },
+    "mulch-calculator": {
+      "title": "Mulch- en teelaardecalculator",
+      "description": "",
+      "ui": {
+        "mulchTopsoilCalculator": "Mulch- en teelaardecalculator",
+        "lengthFt": "Lengte (ft)",
+        "widthFt": "Breedte (ft)",
+        "depthInches": "Diepte (inch)",
+        "standardMulchDepthIs24Inches": "De standaarddiepte voor mulch is 2-4 inch.",
+        "youWillNeed": "Je hebt nodig",
+        "cubicYards": "Kubieke yards",
+        "2CuFtBags": "Zakken van 2 cu. ft.",
+        "3CuFtBags": "Zakken van 3 cu. ft."
+      }
+    },
+    "number-base-converter": {
+      "title": "Getalbasisconverter",
+      "description": "",
+      "ui": {
+        "numberBaseConverter": "Getalbasisconverter",
+        "from": "Van",
+        "to": "Naar",
+        "base": "Baseren"
+      }
+    },
+    "overtime-calculator": {
+      "title": "Overwerkcalculator",
+      "description": "",
+      "ui": {
+        "overtimeCalculator": "Overwerkcalculator",
+        "hourlyRate": "Uurtarief",
+        "otMultiplier": "Overwerkfactor",
+        "timeAndAHalf15x": "Anderhalf keer (1.5x)",
+        "doubleTime20x": "Dubbel tarief (2.0x)",
+        "straightTime10x": "Normaal tarief (1.0x)",
+        "standardWeeklyHours": "Standaard aantal uren per week",
+        "totalHoursWorked": "Totaal gewerkte uren",
+        "regularPay": "Normaal loon (",
+        "hrs": "uur @",
+        "overtimePay": "Overwerkvergoeding (",
+        "hr": "/uur)",
+        "totalGrossPay": "Totaal brutoloon",
+        "paySummary": "Betaaloverzicht"
+      }
+    },
+    "pace-calculator": {
+      "title": "Pacecalculator",
+      "description": "",
+      "ui": {
+        "runningPaceCalculator": "Hardlooptempo-calculator",
+        "distance": "Afstand",
+        "kilometersKm": "Kilometers (km)",
+        "milesMi": "Mijlen (mi)",
+        "totalTime": "Totale tijd",
+        "hrs": "uur",
+        "mins": "min",
+        "secs": "sec",
+        "averagePace": "Gemiddeld tempo",
+        "per": "per"
+      }
+    },
+    "paint-calculator": {
+      "title": "Verfcalculator",
+      "description": "",
+      "ui": {
+        "paintCalculator": "Verfcalculator",
+        "totalSurfaceAreaSqFt": "Totale oppervlakte (sq ft)",
+        "numberOfCoats": "Aantal lagen",
+        "1Coat": "1 laag",
+        "2Coats": "2 lagen",
+        "3Coats": "3 lagen",
+        "coverageSqFtGallon": "Dekking (sq ft / gallon)",
+        "youWillNeed": "Je hebt nodig",
+        "gallons": "gallon)",
+        "exactCalculation": "(Exacte berekening:"
+      }
+    },
+    "password-generator": {
+      "title": "Wachtwoordgenerator",
+      "description": "",
+      "ui": {
+        "securePasswordGenerator": "Veilige wachtwoordgenerator",
+        "generatePassword": "Wachtwoord genereren",
+        "passwordLength": "Wachtwoordlengte:",
+        "uppercaseAz": "Hoofdletters (A-Z)",
+        "lowercaseAz": "Kleine letters (a-z)",
+        "numbers09": "Cijfers (0-9)",
+        "symbols": "Symbolen (!@#)",
+        "constraints": "Beperkingen",
+        "copyPassword": "Kopieer wachtwoord"
+      }
+    },
+    "percentage-decrease-calculator": {
+      "title": "Percentage-afnamecalculator",
+      "description": "",
+      "ui": {
+        "percentageDecreaseCalculator": "Percentage-afnamecalculator",
+        "initialValue": "Beginwaarde",
+        "finalValue": "Eindwaarde",
+        "absoluteChange": "Absolute verandering",
+        "decrease": "Afname",
+        "values": "Waarden",
+        "decreaseBreakdown": "Verlaag de verdeling"
+      }
+    },
+    "percentage-increase-calculator": {
+      "title": "Percentage-toenamecalculator",
+      "description": "",
+      "ui": {
+        "percentageIncreaseCalculator": "Percentage-toenamecalculator",
+        "initialValue": "Beginwaarde",
+        "finalValue": "Eindwaarde",
+        "absoluteChange": "Absolute verandering",
+        "change": "Verandering",
+        "values": "Waarden",
+        "increaseBreakdown": "Vergroot de verdeling"
+      }
+    },
+    "plant-spacing-calculator": {
+      "title": "Plantafstandcalculator",
+      "description": "",
+      "ui": {
+        "plantSpacingCalculator": "Plantafstandcalculator",
+        "squareGrid": "Vierkant raster",
+        "triangularOffset": "Driehoekig (versprongen)",
+        "bedLengthFt": "Lengte van het bed (ft)",
+        "bedWidthFt": "Breedte van het bed (ft)",
+        "plantSpacingInchesBetweenCenters": "Plantafstand (inch tussen middelpunten)",
+        "estimatedTotalPlants": "Geschat totaal aantal planten"
+      }
+    },
+    "pomodoro-timer": {
+      "title": "Pomodoro-timer",
+      "description": "",
+      "ui": {
+        "pomodoroTimer": "Pomodoro-timer",
+        "work25m": "Werk (25 min)",
+        "break5m": "Pauze (5 min)",
+        "reset": "Resetten",
+        "start": "Begin"
+      }
+    },
+    "profit-margin-calculator": {
+      "title": "Winstmargecalculator",
+      "description": "",
+      "ui": {
+        "profitMarginCalculator": "Winstmargecalculator",
+        "revenueSellingPrice": "Omzet (verkoopprijs)",
+        "costOfGoodsSold": "Kostprijs van verkochte goederen",
+        "grossProfit": "Brutowinst",
+        "margin": "Marge",
+        "financialDetails": "Financiële details",
+        "profitability": "Winstgevendheid"
+      }
+    },
+    "qr-code-generator": {
+      "title": "QR-codegenerator",
+      "description": "",
+      "ui": {
+        "qrCodeGenerator": "QR-codegenerator",
+        "urlOrText": "URL of tekst",
+        "size": "Grootte",
+        "small150x150": "Klein (150x150)",
+        "medium250x250": "Gemiddeld (250x250)",
+        "large500x500": "Groot (500x500)",
+        "highres1000x1000": "Hoge resolutie (1000x1000)",
+        "downloadImage": "Afbeelding downloaden",
+        "enterTextAboveToGenerateAQrCode": "Voer hierboven tekst in om een QR-code te genereren",
+        "contentSettings": "Inhoudsinstellingen",
+        "enterURLOrTextToEncode": "Voer de URL of tekst in die u wilt coderen",
+        "generatedQRCode": "Gegenereerde QR-code"
+      }
+    },
+    "random-number-generator": {
+      "title": "Willekeurige-getallengenerator",
+      "description": "",
+      "ui": {
+        "randomNumberGenerator": "Willekeurige-getallengenerator",
+        "minimum": "Minimum",
+        "maximum": "Maximaal",
+        "generateRandomNumber": "Willekeurig getal genereren",
+        "result": "Resultaat",
+        "rangeSettings": "Bereikinstellingen"
+      }
+    },
+    "ratio-calculator": {
+      "title": "Verhoudingscalculator",
+      "description": "",
+      "ui": {
+        "ratioCalculatorAbCd": "Verhoudingscalculator (A:B = C:D)",
+        "enter3ValuesToCalculateThe4thMissingValue": "Voer 3 waarden in om de ontbrekende 4e waarde te berekenen."
+      }
+    },
+    "roi-calculator": {
+      "title": "ROI-calculator",
+      "description": "",
+      "ui": {
+        "roiCalculator": "ROI-calculator",
+        "initialInvestment": "Initiële investering",
+        "finalValueReturned": "Uiteindelijke teruggekregen waarde",
+        "profit": "Winst",
+        "roi": "ROI",
+        "investmentDetails": "Investeringsdetails",
+        "returnOnInvestment": "Rendement op investering"
+      }
+    },
+    "roman-numeral-converter": {
+      "title": "Romeinse-cijferconverter",
+      "description": "",
+      "ui": {
+        "romanNumeralConverter": "Romeinse-cijferconverter",
+        "numberRoman": "Getal → Romeins",
+        "romanNumber": "Romeins → Getal",
+        "result": "Resultaat"
+      }
+    },
+    "running-distance-calculator": {
+      "title": "Hardloopafstandcalculator",
+      "description": "",
+      "ui": {
+        "runningDistanceCalculator": "Hardloopafstandcalculator",
+        "pacePer": "Tempo (per",
+        "mins": "min",
+        "secs": "sec",
+        "totalTime": "Totale tijd",
+        "hrs": "uur",
+        "totalDistance": "Totale afstand",
+        "kilometersKm": "Kilometers (km)",
+        "milesMi": "Mijlen (mi)"
+      }
+    },
+    "salary-calculator": {
+      "title": "Salariscalculator",
+      "description": "",
+      "ui": {
+        "salaryCalculator": "Salariscalculator",
+        "salaryAmount": "Salarisbedrag",
+        "per": "Per",
+        "hour": "Uur",
+        "day": "Dag",
+        "week": "Week",
+        "month": "Maand",
+        "year": "Jaar",
+        "hoursPerWeek": "Uren per week",
+        "calculate": "Berekenen",
+        "hourly": "Per uur",
+        "daily": "Per dag",
+        "weekly": "Per week",
+        "monthly": "Per maand",
+        "yearly": "Per jaar",
+        "incomeDetails": "Inkomensgegevens",
+        "enterYourIncomeDetailsToS": "Vul uw inkomensgegevens in om het overzicht te zien"
+      }
+    },
+    "salary-to-hourly-calculator": {
+      "title": "Salaris-naar-uurlooncalculator",
+      "description": "",
+      "ui": {
+        "salaryToHourlyCalculator": "Salaris-naar-uurlooncalculator",
+        "annualSalary": "Jaarsalaris",
+        "hoursWeek": "Uren / week",
+        "weeksYear": "Weken / jaar",
+        "hourlyWage": "Uurloon",
+        "salaryDetails": "Salarisgegevens",
+        "equivalentWage": "Gelijkwaardig loon"
+      }
+    },
+    "sha1generator": {
+      "title": "SHA-1-generator",
+      "description": "",
+      "ui": {
+        "sha1HashGenerator": "SHA-1-hashgenerator",
+        "inputString": "Invoerstring",
+        "sha1Hash": "SHA-1-hash",
+        "theDefaultHashShownIsForAnEmptyString": "De standaard weergegeven hash is voor een lege string."
+      }
+    },
+    "sha256generator": {
+      "title": "SHA-256-generator",
+      "description": "",
+      "ui": {
+        "sha256HashGenerator": "SHA-256-hashgenerator",
+        "inputString": "Invoerstring",
+        "sha256Hash": "SHA-256-hash",
+        "theDefaultHashShownIsForAnEmptyString": "De standaard weergegeven hash is voor een lege string."
+      }
+    },
+    "simple-interest-calculator": {
+      "title": "Enkelvoudige-rentecalculator",
+      "description": "",
+      "ui": {
+        "simpleInterestCalculator": "Enkelvoudige-rentecalculator",
+        "principalAmount": "Hoofdsom",
+        "annualRate": "Jaarlijkse rente (%)",
+        "time": "Tijd",
+        "years": "Jaar",
+        "months": "Maanden",
+        "days": "Dagen",
+        "interestEarned": "Verdiende rente",
+        "finalBalance": "Eindsaldo",
+        "interestDetails": "Interessegegevens",
+        "growthBreakdown": "Groei-uitsplitsing"
+      }
+    },
+    "sleep-calculator": {
+      "title": "Slaapcalculator",
+      "description": "",
+      "ui": {
+        "sleepCalculator": "Slaapcalculator",
+        "iWantToWakeUpAt": "Ik wil wakker worden om:",
+        "calculate": "Berekenen",
+        "toWakeUpRefreshedAt": "Om uitgerust wakker te worden om",
+        "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": ", probeer dan op een van deze tijdstippen in slaap te vallen (inclusief 15 minuten om in slaap te vallen):",
+        "6Cycles9h": "6 cycli (9 uur)",
+        "5Cycles75h": "5 cycli (7,5 uur)",
+        "4Cycles6h": "4 cycli (6 uur)",
+        "3Cycles45h": "3 cycli (4,5 uur)",
+        "enterWakeTimeToCalculateS": "Voer de wektijd in om de slaaptijden te berekenen"
+      }
+    },
+    "speed-converter": {
+      "title": "Snelheidsconverter",
+      "description": "",
+      "ui": {
+        "speedConverter": "Snelheidsconverter",
+        "from": "Van",
+        "to": "Naar"
+      }
+    },
+    "speed-distance-time-calculator": {
+      "title": "Snelheid-Afstand-Tijdcalculator",
+      "description": "",
+      "ui": {
+        "speedDistanceTime": "Snelheid, afstand, tijd",
+        "solveForSpeed": "Snelheid berekenen",
+        "solveForDistance": "Afstand berekenen",
+        "solveForTime": "Tijd berekenen",
+        "distance": "Afstand",
+        "timeHours": "Tijd (uren)",
+        "speed": "Snelheid"
+      }
+    },
+    "sql-formatter": {
+      "title": "SQL Formatter",
+      "description": "",
+      "ui": {
+        "sqlFormatter": "SQL-formatter",
+        "rawSql": "Onbewerkte SQL",
+        "formattedSql": "Geformatteerde SQL"
+      }
+    },
+    "square-footage-calculator": {
+      "title": "Vierkante-voetcalculator",
+      "description": "",
+      "ui": {
+        "squareFootageCalculator": "Vierkante-voetcalculator",
+        "lengthFt": "Lengte (ft)",
+        "widthFt": "Breedte (ft)",
+        "addArea": "Oppervlakte toevoegen",
+        "totalArea": "Totale oppervlakte",
+        "squareFeetSqFt": "Vierkante voet (sq ft)"
+      }
+    },
+    "step-calculator": {
+      "title": "Trap-/tredecalculator",
+      "description": "",
+      "ui": {
+        "stairStepCalculator": "Trap-/tredecalculator",
+        "totalRiseHeightInches": "Totale stijging / hoogte (inch)",
+        "totalVerticalDistanceFromLowerFloorToUpperFloor": "Totale verticale afstand van de onderste naar de bovenste verdieping.",
+        "targetRiserHeightIn": "Doelhoogte van de optrede (in)",
+        "standardMaxIsUsually775": "Het standaardmaximum is meestal 7.75\"",
+        "targetTreadDepthIn": "Doeldiepte van de trede (in)",
+        "standardMinIsUsually10": "Het standaardminimum is meestal 10\"",
+        "numberOfRisers": "Aantal optredes",
+        "actualRiserHeight": "Werkelijke optredehoogte",
+        "totalRunHorizontalDistance": "Totale horizontale afstand",
+        "ft": "ft)"
+      }
+    },
+    "stopwatch": {
+      "title": "Stopwatch",
+      "description": "",
+      "ui": {
+        "stopwatch": "Stopwatch",
+        "start": "Begin",
+        "pause": "Pauzeren",
+        "lap": "Ronde",
+        "reset": "Resetten",
+        "laps": "Ronden",
+        "noLapsRecordedYet": "Nog geen ronden geregistreerd"
+      }
+    },
+    "tax-calculator": {
+      "title": "Belastingcalculator",
+      "description": "",
+      "ui": {
+        "salesTaxCalculator": "Btw-calculator",
+        "price": "Prijs",
+        "taxRate": "Belastingtarief (%)",
+        "priceAlreadyIncludesTax": "Prijs is al inclusief belasting",
+        "priceBeforeTax": "Prijs vóór belasting",
+        "taxAmount": "Belastingbedrag",
+        "totalFinalPrice": "Totale eindprijs",
+        "taxDetails": "Belastinggegevens",
+        "priceBreakdown": "Prijsverdeling"
+      }
+    },
+    "temperature-converter": {
+      "title": "Temperatuurconverter",
+      "description": "",
+      "ui": {
+        "temperatureConverter": "Temperatuurconverter",
+        "from": "Van",
+        "celsius": "Celsius",
+        "fahrenheit": "Fahrenheit",
+        "kelvin": "Kelvin",
+        "to": "Naar"
+      }
+    },
+    "tile-calculator": {
+      "title": "Tegelcalculator",
+      "description": "",
+      "ui": {
+        "tileCalculator": "Tegelcalculator",
+        "totalAreaToCoverSqFt": "Totale te bedekken oppervlakte (sq ft)",
+        "tileLengthInches": "Tegellengte (inch)",
+        "tileWidthInches": "Tegelbreedte (inch)",
+        "wasteOverage": "Verspilling / extra (%)",
+        "standardRecommendationIs10ForStandardLayouts15ForDiagonal": "De standaardaanbeveling is 10% voor normale patronen en 15% voor diagonale patronen.",
+        "totalTilesNeeded": "Totaal benodigde tegels",
+        "eachTileCovers": "Elke tegel bedekt",
+        "sqFt": "vierkante meter"
+      }
+    },
+    "time-difference-calculator": {
+      "title": "Tijdsverschilcalculator",
+      "description": "",
+      "ui": {
+        "timeDifference": "Tijdsverschil",
+        "firstTime": "Eerste tijd",
+        "secondTime": "Tweede tijd",
+        "calculateAbsoluteDifference": "Absoluut verschil berekenen",
+        "difference": "Verschil:",
+        "h": "u",
+        "m": "M",
+        "copy": "Kopiëren",
+        "reset": "Resetten",
+        "selectTimesToCompare": "Selecteer Tijden om te vergelijken"
+      }
+    },
+    "time-duration-calculator": {
+      "title": "Tijdsduurcalculator",
+      "description": "",
+      "ui": {
+        "timeDurationCalculator": "Tijdsduurcalculator",
+        "startTime": "Starttijd",
+        "endTime": "Eindtijd",
+        "endsOnTheNextDayCrossesMidnight": "Eindigt de volgende dag (gaat over middernacht)",
+        "calculateDuration": "Duur berekenen",
+        "hours": "Uur",
+        "minutes": "minuten",
+        "totalTimeInMinutes": "Totale tijd in minuten:",
+        "copy": "Kopiëren",
+        "reset": "Resetten",
+        "selectStartAndEndTimes": "Selecteer Begin- en eindtijden"
+      }
+    },
+    "time-zone-converter": {
+      "title": "Tijdzoneconverter",
+      "description": "",
+      "ui": {
+        "timeZoneConverter": "Tijdzoneconverter",
+        "dateTime": "Datum & tijd",
+        "fromTimeZoneRelative": "Van tijdzone (relatief)",
+        "toTimeZone": "Naar tijdzone",
+        "convert": "Converteren",
+        "selectDateAndTimeZonesTo": "Selecteer datum- en tijdzones om te vergelijken"
+      }
+    },
+    "tip-calculator": {
+      "title": "Fooi-calculator",
+      "description": "",
+      "ui": {
+        "tipCalculator": "Fooi-calculator",
+        "billAmount": "Rekeningbedrag",
+        "tip": "Fooi %",
+        "numberOfPeople": "Aantal personen",
+        "tipAmount": "Fooi",
+        "person": "/ persoon",
+        "total": "Totaal",
+        "totalTip": "Totale fooi:",
+        "totalBill": "Totale rekening:",
+        "billDetails": "Factuurgegevens",
+        "totalBreakdown": "Totale uitsplitsing"
+      }
+    },
+    "unix-timestamp-converter": {
+      "title": "Unix-tijdstempelconverter",
+      "description": "",
+      "ui": {
+        "timestampToDate": "Tijdstempel naar datum",
+        "unixTimestamp": "Unix-tijdstempel",
+        "convert": "Converteren",
+        "dateToTimestamp": "Datum naar tijdstempel",
+        "localDateTime": "Lokale datum en tijd",
+        "eG1700000000": "bijv. 1700000000",
+        "result": "Resultaat"
+      }
+    },
+    "url-encode-decode": {
+      "title": "URL-encoder/decoder",
+      "description": "",
+      "ui": {
+        "urlEncoderDecoder": "URL-encoder / decoder",
+        "encode": "Coderen",
+        "decode": "Decoderen",
+        "input": "Invoer",
+        "output": "Uitvoer",
+        "mode": "Modus"
+      }
+    },
+    "uuid-generator": {
+      "title": "UUID-generator",
+      "description": "",
+      "ui": {
+        "uuidV4Generator": "UUID (v4)-generator",
+        "howManyUuids": "Hoeveel UUID's?",
+        "generate": "Genereren",
+        "generatedUuids": "Gegenereerde UUID's",
+        "copyAll": "Alles kopiëren",
+        "clickGenerateToCreateUUI": "Klik op genereren om UUID te maken"
+      }
+    },
+    "volume-converter": {
+      "title": "Volumeconverter",
+      "description": "",
+      "ui": {
+        "volumeConverter": "Volumeconverter",
+        "from": "Van",
+        "to": "Naar"
+      }
+    },
+    "wake-up-time-calculator": {
+      "title": "Wektijdcalculator",
+      "description": "",
+      "ui": {
+        "wakeupTimeCalculator": "Wektijdcalculator",
+        "ifYouHeadToBedRightNowWhenShouldYouWakeUpToFeelRefreshed": "Als je nu naar bed gaat, hoe laat moet je dan wakker worden om je uitgerust te voelen?",
+        "imGoingToBedNow": "Ik ga nu naar bed",
+        "weAdded15MinutesForYouToFallAsleepSetYourAlarmForOneOfTheseTimesToWakeUpBetween90minuteSleepCycles": "We hebben 15 minuten toegevoegd om in slaap te vallen. Stel je alarm in op een van deze tijdstippen om tussen slaapcycli van 90 minuten wakker te worden:",
+        "3Cycles45h": "3 cycli (4,5 uur)",
+        "4Cycles6h": "4 cycli (6 uur)",
+        "5Cycles75h": "5 cycli (7,5 uur)",
+        "6Cycles9h": "6 cycli (9 uur)",
+        "readyForBed": "Klaar Voor Bed",
+        "clickTheButtonWhenYouReG": "Klik op de knop als je naar bed gaat"
+      }
+    },
+    "water-intake-calculator": {
+      "title": "Dagelijkse waterinnamecalculator",
+      "description": "",
+      "ui": {
+        "dailyWaterIntakeCalculator": "Dagelijkse waterinnamecalculator",
+        "weightKg": "Gewicht (kg)",
+        "dailyExerciseMins": "Dagelijkse beweging (min)",
+        "recommendedDailyIntake": "Aanbevolen dagelijkse inname",
+        "liters": "Liter",
+        "approx": "(ongeveer",
+        "ozOr": "oz of",
+        "cups": "kopjes)",
+        "or": "Of"
+      }
+    },
+    "weeks-between-dates": {
+      "title": "Weken tussen datums",
+      "description": "",
+      "ui": {
+        "weeksBetweenDates": "Weken tussen datums",
+        "startDate": "Startdatum",
+        "endDate": "Einddatum",
+        "calculateWeeks": "Weken berekenen",
+        "weeks": "Weken",
+        "days": "Dagen",
+        "copy": "Kopiëren",
+        "reset": "Resetten",
+        "selectDatesToCalculate": "Selecteer Data om te berekenen"
+      }
+    },
+    "weight-converter": {
+      "title": "Gewichtsconverter",
+      "description": "",
+      "ui": {
+        "weightConverter": "Gewichtsconverter",
+        "from": "Van",
+        "to": "Naar"
+      }
+    },
+    "word-counter": {
+      "title": "Woordensteller",
+      "description": "",
+      "ui": {
+        "wordCounter": "Woordensteller",
+        "words": "Woorden",
+        "characters": "Tekens",
+        "noSpaces": "Zonder spaties",
+        "paragraphs": "Alinea's",
+        "startTypingOrPasteYourTex": "Begin hier met typen of plak uw tekst..."
+      }
+    },
+    "work-hours-calculator": {
+      "title": "Werkuren-calculator",
+      "description": "",
+      "ui": {
+        "workHoursCalculator": "Werkuren-calculator",
+        "clockIn": "Inklokken",
+        "clockOut": "Uitklokken",
+        "breakMinutes": "Pauze (minuten)",
+        "daysPerWeek": "Dagen per week",
+        "calculateHours": "Uren berekenen",
+        "dailyWorkHours": "Dagelijkse werkuren",
+        "hrs": "uur",
+        "weeklyTotal": "Wekelijks totaal",
+        "enterScheduleToCalculateHo": "Voer een schema in om uren te berekenen"
+      }
+    },
+    "world-time-converter": {
+      "title": "Wereldtijdconverter",
+      "description": "",
+      "ui": {
+        "worldTimeConverter": "Wereldtijdconverter"
+      }
+    },
+    "xml-formatter": {
+      "title": "XML Formatter",
+      "description": "",
+      "ui": {
+        "xmlFormatter": "XML-formatter",
+        "rawXml": "Onbewerkte XML",
+        "formattedXml": "Geformatteerde XML"
+      }
+    },
+    "bionic-reading-converter": {
+      "title": "Bionische Lees Converter",
+      "description": "",
+      "ui": {
+        "inputText": "Invoertekst",
+        "placeholder": "Plak of typ uw tekst hier...",
+        "clear": "Wissen",
+        "bionicOutput": "Bionische Uitvoer",
+        "copyResult": "Resultaat Kopiëren",
+        "emptyOutput": "Bionische leesuitvoer verschijnt hier...",
+        "howItWorksTitle": "Hoe het werkt:",
+        "howItWorksDescription": "Deze tool past een snelleestechniek toe door de beginletters van woorden te markeren. Dit leidt uw ogen door de tekst en uw hersenen vullen het woord aan, waardoor u sneller en met meer focus kunt lezen."
+      }
+    }
+  },
+  "Search": {
+    "placeholder": "Hulpmiddelen zoeken...",
+    "noResults": "Geen hulpmiddelen gevonden voor \"{query}\"."
+  },
+  "Home": {
+    "title": "Gratis online tools voor alledaagse taken",
+    "subtitle": "Bereken, converteer, genereer en vereenvoudig uw dagelijkse werk met snelle, gratis en gebruiksvriendelijke online tools.",
+    "popularTools": "Populaire tools",
+    "metaTitle": "100 Tools - Premium gratis online tools",
+    "metaDescription": "Bereken, converteer, genereer en analyseer alles wat u nodig heeft met onze suite van meer dan 100 premium online tools.",
+    "heroBadge": "100+ gratis onlinehulpmiddelen",
+    "heroTitle1": "Bereken, converteer &",
+    "heroTitle2": "alles genereren.",
+    "heroDescription": "Het premium productiviteitsplatform voor ontwikkelaars, financiële professionals en dagelijkse taken. Snel, privé en prachtig ontworpen.",
+    "popular": "Populair:",
+    "browseCategories": "Blader door categorieën",
+    "browseCategoriesDesc": "Vind precies wat u nodig heeft, georganiseerd per workflow.",
+    "mostPopularTools": "Meest populaire hulpmiddelen",
+    "mostPopularToolsDesc": "De tools die onze community het meest gebruikt.",
+    "exploreAll": "Ontdek alles",
+    "whyUse": "Waarom 100 Tools gebruiken?",
+    "whyUseDesc": "Gebouwd met moderne technologie om de beste gebruikerservaring te bieden.",
+    "feature1Title": "Bliksemsnel",
+    "feature1Desc": "Directe resultaten zonder herladen van pagina's. Geoptimaliseerd voor snelheid en lage latentie.",
+    "feature2Title": "Privacy eerst",
+    "feature2Desc": "Berekeningen gebeuren rechtstreeks in uw browser. Uw gegevens verlaten nooit uw apparaat.",
+    "feature3Title": "Premium-ontwerp",
+    "feature3Desc": "Zorgvuldig ontworpen interfaces die mooi, intuïtief en gebruiksvriendelijk zijn."
+  },
+  "Footer": {
+    "100Tools": "100 Gereedschap",
+    "thePremiumProductivityPlatf": "Het premium productiviteitsplatform voor al uw dagelijkse calculatie-, conversie- en generatiebehoeften.",
+    "categories": "Categorieën",
+    "developerTools": "Ontwikkelaarstools",
+    "finance": "Financiën",
+    "dateTime": "Datum en tijd",
+    "textTools": "Teksthulpmiddelen",
+    "converters": "Converters",
+    "popularTools": "Populaire hulpmiddelen",
+    "ageCalculator": "Leeftijdscalculator",
+    "jSONFormatter": "JSON-formatter",
+    "percentageCalculator": "Percentagecalculator",
+    "base64Encoder": "Base64-encoder",
+    "salaryCalculator": "Salariscalculator",
+    "company": "Bedrijf",
+    "aboutUs": "Over ons",
+    "contact": "Contact",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfService": "Servicevoorwaarden",
+    "Copy": "&kopiëren;",
+    "100ToolsAllRightsReserved": "100 Gereedschap. Alle rechten voorbehouden.",
+    "builtWithNextJs": "Gebouwd met Next.js",
+    "madeWith": "Gemaakt met ❤️",
+    "tagline": "Het premium productiviteitsplatform voor al uw dagelijkse calculatie-, conversie- en generatiebehoeften.",
+    "privacy": "Privacybeleid",
+    "terms": "Servicevoorwaarden",
+    "allRightsReserved": "Alle rechten voorbehouden.",
+    "builtWith": "Gebouwd met Next.js",
+    "madeWithHeart": "Gemaakt met ❤️",
+    "cookie": "Cookie Policy"
+  },
+  "Header": {
+    "100Tools": "100 Gereedschap",
+    "developer": "Ontwikkelaar",
+    "finance": "Financiën",
+    "time": "Tijd"
+  },
+  "LanguageSwitcher": {},
+  "RelatedTools": {
+    "relatedTools": "Gerelateerde hulpmiddelen",
+    "popular": "Populair"
+  },
+  "ToolSearch": {
+    "tryADifferentSearchTermOr": "Probeer een andere zoekterm of blader door categorieën."
+  },
+  "index": {
+    "advertisement": "Advertentie"
+  },
+  "AgeCalculator": {},
+  "AreaConverter": {},
+  "AverageCalculator": {
+    "dataSet": "Gegevensset",
+    "statistics": "Statistieken",
+    "eG12345": "bijv. 1 2 3 4 5"
+  },
+  "Base64EncodeDecode": {
+    "mode": "Modus:"
+  },
+  "BedtimeCalculator": {
+    "recommended": "Aanbevolen",
+    "enterYourWakeUpTimeToCal": "Voer uw wektijd in om te berekenen"
+  },
+  "BinaryToDecimal": {
+    "eG1010": "bijv. 1010"
+  },
+  "BionicReadingConverter": {},
+  "BmiCalculator": {
+    "Lt185": "&lt; 18.5",
+    "enterYourHeightAndWeight": "Voer uw lengte en gewicht in"
+  },
+  "BmrCalculator": {
+    "enterYourDetailsToCalculat": "Vul uw gegevens in om de BMR te berekenen"
+  },
+  "BoardFootCalculator": {},
+  "BodyFatCalculator": {
+    "enterYourMeasurementsToCal": "Voer uw metingen in om het lichaamsvet te berekenen"
+  },
+  "BreakEvenCalculator": {
+    "costsPricing": "Kosten en prijzen",
+    "breakEvenPoint": "Break-even punt"
+  },
+  "CalorieCalculator": {
+    "enterYourDetailsToCalculat": "Vul uw gegevens in om calorieën te berekenen"
+  },
+  "CharacterCounter": {
+    "startTypingOrPasteYourTex": "Begin hier met typen of plak uw tekst..."
+  },
+  "CompoundInterestCalculator": {
+    "interestDetails": "Interessegegevens",
+    "growthBreakdown": "Groei-uitsplitsing"
+  },
+  "ConcreteCalculator": {},
+  "CostPerSquareFootCalculator": {},
+  "CountdownTimer": {},
+  "CssMinifier": {},
+  "CurrencyConverter": {},
+  "DataStorageConverter": {},
+  "DateDifferenceCalculator": {
+    "selectDatesToCalculate": "Selecteer datums om te berekenen"
+  },
+  "DaysBetweenDates": {
+    "selectDatesToCalculate": "Selecteer datums om te berekenen"
+  },
+  "DaysUntilCalculator": {
+    "selectAFutureDate": "Selecteer een toekomstige datum"
+  },
+  "DecimalToBinary": {
+    "eG10": "bijv. 10"
+  },
+  "DeckingCalculator": {},
+  "DiscountCalculator": {
+    "discountDetails": "Kortingsdetails",
+    "priceBreakdown": "Prijsverdeling"
+  },
+  "EmiCalculator": {
+    "eMIDetails": "EMI-details",
+    "paymentSummary": "Betalingsoverzicht"
+  },
+  "FenceCalculator": {},
+  "FinalGradeCalculator": {},
+  "FractionCalculator": {},
+  "GpaCalculator": {
+    "courseList": "Cursuslijst",
+    "result": "Resultaat",
+    "course": "Cursus"
+  },
+  "GradeCalculator": {
+    "assignments": "Opdrachten",
+    "result": "Resultaat",
+    "eGMidterm": "bijv. Tussentijds"
+  },
+  "HeightConverter": {},
+  "HexToDecimal": {
+    "eG1AOrFFFFFF": "bijv. 1A of #FFFFFF"
+  },
+  "HourlyToSalaryCalculator": {
+    "hourlyDetails": "Uurgegevens",
+    "salaryBreakdown": "Salarisverdeling"
+  },
+  "HtmlEncodeDecode": {
+    "mode": "Modus:"
+  },
+  "HtmlMinifier": {},
+  "InvestmentCalculator": {
+    "investmentPlan": "Investeringsplan",
+    "growthProjection": "Groeiprojectie"
+  },
+  "JsMinifier": {},
+  "JsonFormatter": {
+    "inputJSON": "Voer JSON in",
+    "reset": "Opnieuw instellen"
+  },
+  "JwtDecoder": {
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+  },
+  "LengthConverter": {},
+  "LoanCalculator": {
+    "loanDetails": "Leninggegevens",
+    "paymentBreakdown": "Betalingsverdeling"
+  },
+  "LoremIpsumGenerator": {
+    "generatedText": "Gegenereerde tekst"
+  },
+  "MacroCalculator": {
+    "kcal": "kcal",
+    "enterCaloriesToCalculateMa": "Voer calorieën in om macro's te berekenen"
+  },
+  "MarkupCalculator": {
+    "pricingDetails": "Prijsdetails",
+    "sellingPrice": "Verkoopprijs"
+  },
+  "Md5Generator": {},
+  "MonthsBetweenDates": {
+    "result": "Resultaat",
+    "selectDatesToCalculate": "Selecteer datums om te berekenen"
+  },
+  "MortgageCalculator": {
+    "propertyDetails": "Eigenschapsdetails",
+    "mortgageSummary": "Hypotheekoverzicht"
+  },
+  "MulchCalculator": {},
+  "NumberBaseConverter": {
+    "base": "Baseren"
+  },
+  "OvertimeCalculator": {
+    "paySummary": "Betaaloverzicht"
+  },
+  "PaceCalculator": {
+    "enterDistanceAndTimeToCal": "Voer afstand en tijd in om het tempo te berekenen"
+  },
+  "PaintCalculator": {},
+  "PasswordGenerator": {
+    "constraints": "Beperkingen",
+    "copyPassword": "Kopieer wachtwoord"
+  },
+  "PercentageCalculator": {
+    "calculatePercentage": "Bereken het percentage",
+    "result": "Resultaat",
+    "enterValuesToCalculatePerc": "Voer waarden in om het percentage te berekenen"
+  },
+  "PercentageDecreaseCalculator": {
+    "values": "Waarden",
+    "decreaseBreakdown": "Verlaag de verdeling"
+  },
+  "PercentageIncreaseCalculator": {
+    "values": "Waarden",
+    "increaseBreakdown": "Vergroot de verdeling"
+  },
+  "PlantSpacingCalculator": {},
+  "PomodoroTimer": {
+    "pause": "Pauze",
+    "start": "Begin"
+  },
+  "ProfitMarginCalculator": {
+    "financialDetails": "Financiële details",
+    "profitability": "Winstgevendheid"
+  },
+  "QrCodeGenerator": {
+    "contentSettings": "Inhoud en instellingen",
+    "enterURLOrTextToEncode": "Voer de URL of tekst in om te coderen...",
+    "generatedQRCode": "Gegenereerde QR-code"
+  },
+  "RandomNumberGenerator": {
+    "rangeSettings": "Bereikinstellingen"
+  },
+  "RatioCalculator": {},
+  "RoiCalculator": {
+    "investmentDetails": "Investeringsdetails",
+    "returnOnInvestment": "Rendement op investering"
+  },
+  "RomanNumeralConverter": {},
+  "RunningDistanceCalculator": {
+    "enterPaceAndTimeToCalcula": "Voer tempo en tijd in om de afstand te berekenen"
+  },
+  "SalaryCalculator": {
+    "incomeDetails": "Inkomensgegevens",
+    "salaryBreakdown": "Salarisverdeling",
+    "enterYourIncomeDetailsToS": "Vul uw inkomensgegevens in om het overzicht te zien"
+  },
+  "SalaryToHourlyCalculator": {
+    "salaryDetails": "Salarisgegevens",
+    "equivalentWage": "Gelijkwaardig loon"
+  },
+  "Sha1Generator": {},
+  "Sha256Generator": {},
+  "SimpleInterestCalculator": {
+    "interestDetails": "Interessegegevens",
+    "growthBreakdown": "Groei-uitsplitsing"
+  },
+  "SleepCalculator": {
+    "recommended": "Aanbevolen",
+    "enterWakeTimeToCalculateS": "Voer de wektijd in om de slaapcycli te berekenen"
+  },
+  "SpeedConverter": {},
+  "SpeedDistanceTimeCalculator": {
+    "enterTheKnownValuesToCalc": "Voer de bekende waarden in om te berekenen"
+  },
+  "SqlFormatter": {},
+  "SquareFootageCalculator": {},
+  "StepCalculator": {},
+  "Stopwatch": {
+    "laps": "Ronden",
+    "noLapsRecordedYet": "Er zijn nog geen ronden geregistreerd"
+  },
+  "TaxCalculator": {
+    "taxDetails": "Belastinggegevens",
+    "priceBreakdown": "Prijsverdeling"
+  },
+  "TemperatureConverter": {},
+  "TileCalculator": {},
+  "TimeDifferenceCalculator": {
+    "selectTimesToCompare": "Selecteer tijden om te vergelijken"
+  },
+  "TimeDurationCalculator": {
+    "durationResult": "Duur Resultaat",
+    "selectStartAndEndTimes": "Selecteer begin- en eindtijden"
+  },
+  "TimeZoneConverter": {
+    "conversionResult": "Conversieresultaat",
+    "selectDateAndTimeZonesTo": "Selecteer de datum- en tijdzones die u wilt converteren"
+  },
+  "TipCalculator": {
+    "billDetails": "Factuurgegevens",
+    "totalBreakdown": "Totale uitsplitsing"
+  },
+  "UnixTimestampConverter": {
+    "result": "Resultaat",
+    "eG1700000000": "bijv. 1700000000"
+  },
+  "UrlEncodeDecode": {
+    "mode": "Modus:"
+  },
+  "UuidGenerator": {
+    "clickGenerateToCreateUUI": "Klik op 'Genereren' om UUID's aan te maken..."
+  },
+  "VolumeConverter": {},
+  "WakeUpTimeCalculator": {
+    "readyForBed": "Klaar om naar bed te gaan?",
+    "recommended": "Aanbevolen",
+    "clickTheButtonWhenYouReG": "Klik op de knop als je naar bed gaat"
+  },
+  "WaterIntakeCalculator": {
+    "or": "of",
+    "enterYourDetailsToCalculat": "Vul uw gegevens in om de waterinname te berekenen"
+  },
+  "WeeksBetweenDates": {
+    "result": "Resultaat",
+    "selectDatesToCalculate": "Selecteer datums om te berekenen"
+  },
+  "WeightConverter": {},
+  "WordCounter": {
+    "startTypingOrPasteYourTex": "Begin hier met typen of plak uw tekst..."
+  },
+  "WorkHoursCalculator": {
+    "hoursLog": "Urenlogboek",
+    "enterScheduleToCalculateHo": "Voer een schema in om uren te berekenen"
+  },
+  "WorldTimeConverter": {},
+  "XmlFormatter": {},
+  "button": {},
+  "card": {},
+  "CategoryCard": {
+    "tools": "hulpmiddelen",
+    "viewAllTools": "Bekijk alle gereedschappen"
+  },
+  "input": {},
+  "label": {},
+  "textarea": {},
+  "ToolCard": {},
+  "editor": {
+    "copy": "Kopiëren"
+  },
+  "layout": {},
+  "panels": {},
+  "Page": {
+    "whatIs": "Wat is de {title}?",
+    "howToUse": "Hoe de {title} te gebruiken",
+    "example": "Voorbeeld",
+    "useCases": "Veelvoorkomende gebruiksscenario's",
+    "howItWorks": "Hoe het werkt",
+    "faq": "Veelgestelde vragen",
+    "readyToStart": "Klaar om te beginnen?",
+    "useToolNow": "Gebruik nu gereedschap"
+  },
+  "Categories": {
+    "developerTools": "Ontwikkelaarstools",
+    "finance": "Financiën",
+    "time": "Datum en tijd",
+    "text": "Teksthulpmiddelen",
+    "converters": "Converters"
+  },
+  "About": {
+    "title": "About Us & Methodology",
+    "description": "Welcome to 100 Tools, your free resource for premium online calculators and developer utilities.",
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is to provide fast, reliable, and privacy-respecting tools for everyday tasks. Whether you're a developer needing to encode a JWT, a homeowner calculating mulch volume, or just trying to figure out a discount, we've built a robust tool for you.",
+    "methodologyTitle": "Our Methodology",
+    "methodologyIntro": "We believe in transparency and accuracy, particularly for financial and health-related tools (Your Money or Your Life topics). Here is how we ensure our tools are reliable:",
+    "standardizedFormulasTitle": "Standardized Formulas",
+    "standardizedFormulasText": "All financial calculators (like ROI, Mortgages, and Loans) use industry-standard amortization and compound interest formulas.",
+    "medicalGuidelinesTitle": "Medical Guidelines",
+    "medicalGuidelinesText": "Health calculators (like BMI and BMR) use globally recognized equations, such as the Mifflin-St Jeor Equation for metabolic rate, and the standard WHO classifications for BMI.",
+    "privacyFirstTitle": "Privacy First",
+    "privacyFirstText": "Your data never leaves your browser. All calculations, hashing, and conversions happen locally on your device via JavaScript. We do not store or transmit your inputs.",
+    "continuousTestingTitle": "Continuous Testing",
+    "continuousTestingText": "Our toolkit is rigorously tested to ensure edge cases (like zero values or invalid inputs) are handled gracefully without crashing.",
+    "editorialGuidelinesTitle": "Editorial Guidelines",
+    "editorialGuidelinesText": "Every tool page is designed to be self-explanatory. We prioritize usability and clear instructions over cluttered interfaces. If an equation has limitations (like the Navy Body Fat method being an estimation), we clearly note it on the tool page.",
+    "disclaimer": "Disclaimer: The tools and calculators on this website are for informational and educational purposes only. They do not constitute professional financial or medical advice. Always consult with a qualified professional before making significant health or financial decisions."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you. Whether you have a question, a feature request, or found a bug, let us know!",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "Send Message",
+    "emailUs": "Email Us",
+    "emailAddress": "contact@100tools.example.com",
+    "responseTime": "We typically respond within 24-48 hours.",
+    "successMessage": "Thank you! Your message has been sent.",
+    "errorMessage": "Something went wrong. Please try again later."
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "At 100 Tools, your privacy is our top priority. This Privacy Policy outlines how we handle (and explicitly do NOT handle) your personal data.",
+    "dataCollectionTitle": "No Data Collection",
+    "dataCollectionText": "We do not collect, store, or transmit any personal data when you use our calculators and tools. All computations—including formatting, decoding, and calculating—are performed strictly locally within your browser using JavaScript.",
+    "analyticsTitle": "Analytics & Tracking",
+    "analyticsText": "We may use privacy-friendly, anonymized analytics to understand general traffic patterns (like which tools are most popular). This data cannot be traced back to individual users and does not use intrusive tracking cookies.",
+    "thirdPartyTitle": "Third-Party Services",
+    "thirdPartyText": "Our website is hosted on modern edge networks. These infrastructure providers may log basic connection data (like IP addresses) for security and anti-DDoS purposes, which is standard practice for any website.",
+    "contactUs": "If you have any questions about this Privacy Policy, please contact us."
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "By accessing and using 100 Tools, you agree to comply with and be bound by the following terms and conditions of use.",
+    "noWarrantyTitle": "No Warranties (As-Is)",
+    "noWarrantyText": "All tools, calculators, and information on this website are provided \"as-is\" without any representations or warranties, express or implied. We make no guarantees regarding the accuracy, reliability, or completeness of the results generated.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityText": "In no event shall 100 Tools be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever arising out of or in connection with the use of our tools. This includes financial losses or medical decisions made based on our calculators.",
+    "acceptableUseTitle": "Acceptable Use",
+    "acceptableUseText": "You agree to use our tools for lawful purposes only. You must not attempt to scrape, DDoS, or otherwise disrupt the service or networks connected to 100 Tools.",
+    "modificationsTitle": "Modifications",
+    "modificationsText": "We reserve the right to revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then-current version of these terms."
+  },
+  "Cookie": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, or the information we collect using cookies and how that information is used.",
+    "whatAreCookiesTitle": "What are Cookies?",
+    "whatAreCookiesText": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used to make websites work, or work more efficiently, as well as to provide reporting information.",
+    "howWeUseCookiesTitle": "How We Use Cookies",
+    "howWeUseCookiesText": "We use cookies strictly for essential functionality and basic user preferences. For example, we might use local storage or a cookie to remember if you prefer \"Dark Mode\" or \"Light Mode\", or to remember your preferred language.",
+    "noTrackingTitle": "No Invasive Tracking",
+    "noTrackingText": "We do not use advertising cookies, third-party trackers, or cross-site tracking technologies. Your use of our tools remains private.",
+    "managingCookiesTitle": "Managing Cookies",
+    "managingCookiesText": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed."
+  }
+}

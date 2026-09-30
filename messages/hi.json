@@ -1,0 +1,1812 @@
+{
+  "Navigation": {
+    "home": "होम",
+    "tools": "टूल्स",
+    "categories": "श्रेणियाँ",
+    "about": "हमारे बारे में",
+    "contact": "संपर्क"
+  },
+  "Common": {
+    "viewIn": "{language} में देखें?",
+    "yes": "हाँ",
+    "dismiss": "खारिज करें",
+    "language": "भाषा",
+    "theme": "थीम",
+    "light": "लाइट",
+    "dark": "डार्क",
+    "system": "सिस्टम",
+    "copy": "प्रतिलिपि"
+  },
+  "Tools": {
+    "age-calculator": {
+      "title": "आयु कैलकुलेटर",
+      "description": "वर्षों, महीनों और दिनों में अपनी सटीक आयु की गणना करें।",
+      "ui": {
+        "calculateYourAge": "अपनी आयु की गणना करें",
+        "dateOfBirth": "जन्म तिथि",
+        "calculate": "गणना करें",
+        "years": "वर्ष",
+        "months": "महीने",
+        "days": "दिन",
+        "nextBirthday": "अगला जन्मदिन:",
+        "totalDays": "कुल दिनों की संख्या:",
+        "yourAgeIs": "आपकी आयु है:",
+        "copy": "कॉपी करें",
+        "reset": "रीसेट करें",
+        "targetDate": "लक्ष्य तिथि (वैकल्पिक)",
+        "selectYourDateOfBirth": "अपनी जन्मतिथि चुनें"
+      }
+    },
+    "percentage-calculator": {
+      "title": "प्रतिशत कैलकुलेटर",
+      "description": "प्रतिशत की जल्दी और सटीक गणना करें।",
+      "ui": {
+        "percentageCalculator": "प्रतिशत कैलकुलेटर",
+        "whatIs": "कितना है",
+        "of": "का",
+        "amount": "राशि",
+        "calculate": "गणना करें",
+        "result": "परिणाम",
+        "calculatePercentage": "प्रतिशत की गणना करें"
+      }
+    },
+    "json-formatter": {
+      "title": "JSON फॉर्मेटर",
+      "description": "अपने JSON डेटा को फॉर्मेट, मान्य और व्यवस्थित करें।",
+      "ui": {
+        "formatJson": "JSON फॉर्मेट करें",
+        "inputJSON": "इनपुट जे एस ओ एन",
+        "reset": "रीसेट करें"
+      }
+    },
+    "area-converter": {
+      "title": "क्षेत्रफल कन्वर्टर",
+      "description": "",
+      "ui": {
+        "areaConverter": "क्षेत्रफल कन्वर्टर",
+        "from": "से",
+        "to": "में"
+      }
+    },
+    "average-calculator": {
+      "title": "औसत कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "averageCalculator": "औसत कैलकुलेटर",
+        "enterNumbersSeparatedByCommasOrSpaces": "संख्याएँ दर्ज करें (कॉमा या स्पेस से अलग)",
+        "count": "गिनती",
+        "sum": "योग",
+        "averageMean": "औसत",
+        "median": "मध्यिका",
+        "dataSet": "डेटा सेट",
+        "eG12345": "जैसे 1, 2, 3, 4, 5",
+        "statistics": "आंकड़े"
+      }
+    },
+    "base64encode-decode": {
+      "title": "Base64 एन्कोडर/डिकोडर",
+      "description": "",
+      "ui": {
+        "base64EncoderDecoder": "Base64 एन्कोडर / डिकोडर",
+        "encode": "एन्कोड करें",
+        "decode": "डिकोड करें",
+        "input": "इनपुट (",
+        "output": "आउटपुट (",
+        "mode": "तरीका"
+      }
+    },
+    "bedtime-calculator": {
+      "title": "सोने का समय कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "bedtimeCalculator": "सोने का समय कैलकुलेटर",
+        "whenDoYouNeedToWakeUp": "आपको कितने बजे उठना है?",
+        "calculate": "गणना करें",
+        "toWakeUpAt": "इस समय उठने के लिए",
+        "youShouldTryToBeAsleepBy": ", आपको इस समय तक सो जाने की कोशिश करनी चाहिए:",
+        "6Cycles9h": "6 चक्र (9 घंटे)",
+        "5Cycles75h": "5 चक्र (7.5 घंटे)",
+        "calculationsIncludeAnAverage15MinutesToFallAsleep": "गणना में सोने के लिए औसतन 15 मिनट का समय शामिल है।",
+        "enterYourWakeUpTimeToCal": "सोने के समय की गणना करने के लिए अपना जागने का समय दर्ज करें"
+      }
+    },
+    "binary-to-decimal": {
+      "title": "बाइनरी से दशमलव कन्वर्टर",
+      "description": "",
+      "ui": {
+        "binaryToDecimalConverter": "बाइनरी से दशमलव कन्वर्टर",
+        "binaryNumber": "बाइनरी संख्या",
+        "decimalResult": "दशमलव परिणाम",
+        "eG1010": "जैसे 1010"
+      }
+    },
+    "bmi-calculator": {
+      "title": "BMI कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "bmiCalculator": "BMI कैलकुलेटर",
+        "metric": "मेट्रिक",
+        "imperial": "इंपीरियल",
+        "heightCm": "ऊँचाई (सेमी)",
+        "weightKg": "वज़न (किग्रा)",
+        "heightFt": "ऊँचाई (फीट)",
+        "heightIn": "ऊँचाई (इंच)",
+        "weightLbs": "वज़न (पाउंड)",
+        "yourBmi": "आपका BMI",
+        "Lt185": "<18.5"
+      }
+    },
+    "bmr-calculator": {
+      "title": "BMR कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "bmrCalculator": "बेसल मेटाबोलिक रेट कैलकुलेटर",
+        "male": "पुरुष",
+        "female": "महिला",
+        "ageYears": "आयु (वर्ष)",
+        "heightCm": "ऊँचाई (सेमी)",
+        "weightKg": "वज़न (किग्रा)",
+        "basalMetabolicRate": "बेसल मेटाबोलिक रेट",
+        "caloriesDay": "कैलोरी / दिन",
+        "thisIsTheAmountOfEnergyYourBodyBurnsAtRestJustToKeepYouAlive": "यह वह ऊर्जा है जिसे आपका शरीर केवल जीवित रहने के लिए आराम की स्थिति में खर्च करता है।"
+      }
+    },
+    "board-foot-calculator": {
+      "title": "बोर्ड-फुट कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "boardFootCalculator": "बोर्ड-फुट कैलकुलेटर",
+        "thicknessIn": "मोटाई (इंच)",
+        "widthIn": "चौड़ाई (इंच)",
+        "lengthFt": "लंबाई (फीट)",
+        "quantity": "मात्रा",
+        "pricePerBf": "प्रति बोर्ड-फुट कीमत ($)",
+        "totalBoardFeet": "कुल बोर्ड-फुट",
+        "totalCost": "कुल लागत: $"
+      }
+    },
+    "body-fat-calculator": {
+      "title": "बॉडी फैट कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "bodyFatCalculatorNavyMethod": "बॉडी फैट कैलकुलेटर (यूएस नेवी विधि)",
+        "male": "पुरुष",
+        "female": "महिला",
+        "heightCm": "ऊँचाई (सेमी)",
+        "neckCm": "गर्दन (सेमी)",
+        "waistCmAtNavel": "कमर (सेमी), नाभि के स्तर पर",
+        "hipsCm": "कूल्हे (सेमी)",
+        "estimatedBodyFat": "अनुमानित बॉडी फैट"
+      }
+    },
+    "break-even-calculator": {
+      "title": "ब्रेक-ईवन कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "breakevenCalculator": "ब्रेक-ईवन कैलकुलेटर",
+        "fixedCosts": "स्थिर लागत",
+        "variableCostPerUnit": "प्रति इकाई परिवर्ती लागत",
+        "sellingPricePerUnit": "प्रति इकाई बिक्री मूल्य",
+        "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "ब्रेक-ईवन तक पहुँचने के लिए बिक्री मूल्य परिवर्ती लागत से अधिक होना चाहिए।",
+        "unitsToSell": "बेचने वाली इकाइयाँ",
+        "breakevenRevenue": "ब्रेक-ईवन राजस्व",
+        "costsPricing": "लागत मूल्य निर्धारण",
+        "breakEvenPoint": "लाभ - अलाभ स्थिति"
+      }
+    },
+    "calorie-calculator": {
+      "title": "कैलोरी कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "dailyCalorieCalculator": "दैनिक कैलोरी कैलकुलेटर",
+        "male": "पुरुष",
+        "female": "महिला",
+        "age": "आयु",
+        "heightCm": "ऊँचाई (सेमी)",
+        "weightKg": "वज़न (किग्रा)",
+        "activityLevel": "गतिविधि स्तर",
+        "sedentaryLittleOrNoExercise": "निष्क्रिय (बहुत कम या कोई व्यायाम नहीं)",
+        "lightlyActiveLightExercise13Daysweek": "हल्का सक्रिय (सप्ताह में 1 से 3 दिन हल्का व्यायाम)",
+        "moderatelyActiveModerateExercise35Daysweek": "मध्यम रूप से सक्रिय (सप्ताह में 3 से 5 दिन मध्यम व्यायाम)",
+        "veryActiveHardExercise67Daysweek": "बहुत सक्रिय (सप्ताह में 6 से 7 दिन कठिन व्यायाम)",
+        "extraActiveVeryHardExercisephysicalJob": "अत्यधिक सक्रिय (बहुत कठिन व्यायाम/शारीरिक कार्य)",
+        "maintainWeight": "वज़न बनाए रखें",
+        "kcal": "किलो कैलोरी",
+        "loseWeight05kgweek": "वज़न कम करें (-0.5 किग्रा/सप्ताह)",
+        "gainWeight05kgweek": "वज़न बढ़ाएँ (+0.5 किग्रा/सप्ताह)"
+      }
+    },
+    "character-counter": {
+      "title": "अक्षर काउंटर",
+      "description": "",
+      "ui": {
+        "characterCounter": "अक्षर काउंटर",
+        "totalCharacters": "कुल अक्षर",
+        "withoutSpaces": "स्पेस के बिना",
+        "spaces": "स्पेस",
+        "lines": "पंक्तियाँ",
+        "startTypingOrPasteYourTex": "टाइप करना प्रारंभ करें या अपना टेक्स्ट यहां पेस्ट करें..."
+      }
+    },
+    "compound-interest-calculator": {
+      "title": "चक्रवृद्धि ब्याज कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "compoundInterestCalculator": "चक्रवृद्धि ब्याज कैलकुलेटर",
+        "principalAmount": "मूलधन",
+        "annualRate": "वार्षिक दर (%)",
+        "timeYears": "अवधि (वर्ष)",
+        "compoundFrequency": "चक्रवृद्धि आवृत्ति",
+        "daily": "दैनिक",
+        "monthly": "मासिक",
+        "quarterly": "त्रैमासिक",
+        "semiannually": "अर्धवार्षिक",
+        "annually": "वार्षिक",
+        "interestEarned": "अर्जित ब्याज",
+        "finalBalance": "अंतिम शेष राशि",
+        "interestDetails": "रुचि विवरण",
+        "growthBreakdown": "विकास का टूटना"
+      }
+    },
+    "concrete-calculator": {
+      "title": "कंक्रीट कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "concreteCalculator": "कंक्रीट कैलकुलेटर",
+        "lengthFt": "लंबाई (फीट)",
+        "widthFt": "चौड़ाई (फीट)",
+        "depthThicknessInches": "गहराई / मोटाई (इंच)",
+        "volumeRequired": "आवश्यक आयतन",
+        "cubicYards": "घन गज",
+        "80lbBags": "80 पाउंड के बैग",
+        "60lbBags": "60 पाउंड के बैग",
+        "40lbBags": "40 पाउंड के बैग"
+      }
+    },
+    "cost-per-square-foot-calculator": {
+      "title": "प्रति वर्ग फुट लागत कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "costPerSquareFoot": "प्रति वर्ग फुट लागत",
+        "totalPriceOrCost": "कुल कीमत या लागत ($)",
+        "totalSquareFootage": "कुल क्षेत्रफल",
+        "sqFt": "/ वर्ग फुट"
+      }
+    },
+    "countdown-timer": {
+      "title": "काउंटडाउन टाइमर",
+      "description": "",
+      "ui": {
+        "countdownTimer": "काउंटडाउन टाइमर",
+        "minutes": "मिनट",
+        "start": "शुरू करें",
+        "pause": "रोकें",
+        "reset": "रीसेट करें"
+      }
+    },
+    "css-minifier": {
+      "title": "CSS मिनिफायर",
+      "description": "",
+      "ui": {
+        "cssMinifier": "CSS मिनिफायर",
+        "inputCss": "इनपुट CSS",
+        "bytes": "बाइट्स (-",
+        "minifiedCss": "मिनिफाइड CSS"
+      }
+    },
+    "currency-converter": {
+      "title": "मुद्रा कन्वर्टर",
+      "description": "",
+      "ui": {
+        "currencyConverterEstimated": "मुद्रा कन्वर्टर (अनुमानित)",
+        "amount": "राशि",
+        "from": "से",
+        "to": "में",
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "नोट: ये दरें केवल प्रदर्शन उद्देश्यों के लिए स्थिर अनुमान हैं।"
+      }
+    },
+    "data-storage-converter": {
+      "title": "डेटा स्टोरेज कन्वर्टर",
+      "description": "",
+      "ui": {
+        "dataStorageConverter": "डेटा स्टोरेज कन्वर्टर",
+        "from": "से",
+        "to": "में"
+      }
+    },
+    "date-difference-calculator": {
+      "title": "तिथियों के बीच अंतर कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "dateDifferenceCalculator": "तिथियों के बीच अंतर कैलकुलेटर",
+        "startDate": "आरंभ तिथि",
+        "endDate": "समाप्ति तिथि",
+        "calculateDifference": "अंतर की गणना करें",
+        "timeDifference": "समय का अंतर:",
+        "years": "वर्ष",
+        "months": "महीने",
+        "days": "दिन",
+        "totalDaysEquivalent": "कुल दिनों के बराबर:",
+        "totalWeeksEquivalent": "कुल सप्ताहों के बराबर:",
+        "weeks": "सप्ताह,",
+        "copy": "कॉपी करें",
+        "reset": "रीसेट करें",
+        "selectDatesToCalculate": "गणना करने के लिए तिथियाँ चुनें"
+      }
+    },
+    "days-between-dates": {
+      "title": "दो तिथियों के बीच दिन",
+      "description": "",
+      "ui": {
+        "daysBetweenDates": "दो तिथियों के बीच दिन",
+        "startDate": "आरंभ तिथि",
+        "endDate": "समाप्ति तिथि",
+        "includeStartDateInCalculation": "गणना में आरंभ तिथि शामिल करें",
+        "includeEndDateInCalculation": "गणना में समाप्ति तिथि शामिल करें",
+        "calculateDays": "दिनों की गणना करें",
+        "totalResult": "कुल परिणाम:",
+        "days": "दिन",
+        "copy": "कॉपी करें",
+        "reset": "रीसेट करें",
+        "selectDatesToCalculate": "गणना करने के लिए तिथियाँ चुनें"
+      }
+    },
+    "days-until-calculator": {
+      "title": "बचे हुए दिनों का कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "daysUntil": "तक बचे दिन...",
+        "selectFutureDateEventHolidayDeadline": "भविष्य की तिथि चुनें (कार्यक्रम, अवकाश, समय-सीमा)",
+        "calculate": "गणना करें",
+        "timeRemaining": "शेष समय:",
+        "totalDays": "कुल दिनों की संख्या",
+        "whichIsExactly": "जो बिल्कुल बराबर है:",
+        "days": "दिन",
+        "copy": "कॉपी करें",
+        "reset": "रीसेट करें",
+        "selectAFutureDate": "भविष्य की तारीख चुनें"
+      }
+    },
+    "decimal-to-binary": {
+      "title": "दशमलव से बाइनरी कन्वर्टर",
+      "description": "",
+      "ui": {
+        "decimalToBinaryConverter": "दशमलव से बाइनरी कन्वर्टर",
+        "decimalNumber": "दशमलव संख्या",
+        "binaryResult": "बाइनरी परिणाम",
+        "eG10": "जैसे 10"
+      }
+    },
+    "decking-calculator": {
+      "title": "डेकिंग कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "deckingMaterialCalculator": "डेकिंग सामग्री कैलकुलेटर",
+        "deckLengthFt": "डेक की लंबाई (फीट)",
+        "parallelToHouse": "घर के समानांतर",
+        "deckWidthDepthFt": "डेक की चौड़ाई / गहराई (फीट)",
+        "awayFromHouse": "घर से लंबवत",
+        "boardLengthFt": "बोर्ड की लंबाई (फीट)",
+        "boardWidthIn": "बोर्ड की चौड़ाई (इंच)",
+        "requiredBoards": "आवश्यक बोर्ड (",
+        "length": "' लंबाई)",
+        "deckArea": "डेक का क्षेत्रफल",
+        "sqFt": "वर्ग फुट",
+        "screwsFasteners": "स्क्रू / फास्टनर"
+      }
+    },
+    "discount-calculator": {
+      "title": "छूट कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "discountCalculator": "छूट कैलकुलेटर",
+        "originalPrice": "मूल कीमत",
+        "discount": "छूट",
+        "type": "प्रकार",
+        "off": "% छूट",
+        "fixedAmountOff": "निश्चित छूट राशि",
+        "youSave": "आपकी बचत",
+        "finalPrice": "अंतिम कीमत",
+        "discountDetails": "छूट विवरण",
+        "priceBreakdown": "मूल्य विभाजन"
+      }
+    },
+    "emi-calculator": {
+      "title": "EMI कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "emiCalculator": "EMI कैलकुलेटर",
+        "loanAmountPrincipal": "ऋण राशि (मूलधन)",
+        "annualRate": "वार्षिक दर (%)",
+        "tenureMonths": "अवधि (महीने)",
+        "monthlyEmi": "मासिक EMI",
+        "totalInterestPayable": "कुल देय ब्याज",
+        "totalPaymentPrincipalInterest": "कुल भुगतान (मूलधन + ब्याज)",
+        "eMIDetails": "ई एम आई विवरण",
+        "paymentSummary": "भुगतान सारांश"
+      }
+    },
+    "fence-calculator": {
+      "title": "बाड़ कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "fenceMaterialCalculator": "बाड़ सामग्री कैलकुलेटर",
+        "totalFenceLengthFt": "बाड़ की कुल लंबाई (फीट)",
+        "postSpacingFt": "खंभों के बीच दूरी (फीट)",
+        "standardIs6Or8": "मानक 6' या 8' है",
+        "horizontalRailsPerPanel": "प्रति पैनल क्षैतिज रेल",
+        "usually2Or3": "आमतौर पर 2 या 3",
+        "picketWidthIn": "पिकेट की चौड़ाई (इंच)",
+        "picketSpacingIn": "पिकेट के बीच दूरी (इंच)",
+        "0ForSolidPrivacy": "ठोस प्राइवेसी बाड़ के लिए 0",
+        "posts": "खंभे",
+        "rails": "रेल",
+        "pickets": "पिकेट"
+      }
+    },
+    "final-grade-calculator": {
+      "title": "अंतिम ग्रेड कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "finalGradeCalculator": "अंतिम ग्रेड कैलकुलेटर",
+        "currentGrade": "वर्तमान ग्रेड (%)",
+        "desiredClassGrade": "वांछित अंतिम ग्रेड (%)",
+        "finalExamWeight": "अंतिम परीक्षा का भार (%)",
+        "youNeedToScore": "आपको प्राप्त करना होगा",
+        "onTheFinalExam": "अंतिम परीक्षा में",
+        "itLooksLikeScoringThisGradeIsMathematicallyImpossibleUnlessThereIsExtraCreditAvailable": "ऐसा लगता है कि अतिरिक्त अंक उपलब्ध न होने पर यह ग्रेड प्राप्त करना गणितीय रूप से संभव नहीं है।"
+      }
+    },
+    "fraction-calculator": {
+      "title": "भिन्न कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "fractionCalculator": "भिन्न कैलकुलेटर",
+        "decimal": "दशमलव:"
+      }
+    },
+    "gpa-calculator": {
+      "title": "GPA कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "gpaCalculator": "GPA कैलकुलेटर",
+        "courseName": "कोर्स का नाम",
+        "credits": "क्रेडिट",
+        "grade": "ग्रेड",
+        "addCourse": "कोर्स जोड़ें",
+        "totalCredits": "कुल क्रेडिट",
+        "cumulativeGpa": "संचयी GPA",
+        "courseList": "पाठ्यक्रम सूची",
+        "course": "अवधि",
+        "result": "परिणाम"
+      }
+    },
+    "grade-calculator": {
+      "title": "ग्रेड कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "gradeCalculator": "ग्रेड कैलकुलेटर",
+        "assignmentCategory": "असाइनमेंट श्रेणी",
+        "grade": "ग्रेड (%)",
+        "weight": "भार (%)",
+        "addCategory": "श्रेणी जोड़ें",
+        "totalWeightEntered": "दर्ज किया गया कुल भार",
+        "currentGrade": "वर्तमान ग्रेड",
+        "assignments": "कार्य",
+        "eGMidterm": "जैसे मध्यावधि",
+        "result": "परिणाम"
+      }
+    },
+    "height-converter": {
+      "title": "ऊँचाई कन्वर्टर",
+      "description": "",
+      "ui": {
+        "heightConverter": "ऊँचाई कन्वर्टर",
+        "metricCentimeters": "मेट्रिक (सेंटीमीटर)",
+        "cm": "सेमी",
+        "imperialFeetInches": "इंपीरियल (फीट और इंच)",
+        "ft": "फीट",
+        "in": "इंच"
+      }
+    },
+    "hex-to-decimal": {
+      "title": "हेक्साडेसिमल से दशमलव कन्वर्टर",
+      "description": "",
+      "ui": {
+        "hexToDecimalConverter": "हेक्साडेसिमल से दशमलव कन्वर्टर",
+        "hexadecimalNumber": "हेक्साडेसिमल संख्या",
+        "decimalResult": "दशमलव परिणाम",
+        "eG1AOrFFFFFF": "जैसे 1ए या एफएफएफएफएफएफ"
+      }
+    },
+    "hourly-to-salary-calculator": {
+      "title": "प्रति घंटा वेतन → वार्षिक वेतन कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "hourlyToSalaryCalculator": "प्रति घंटा वेतन कैलकुलेटर",
+        "hourlyWage": "प्रति घंटा वेतन",
+        "hoursWeek": "घंटे / सप्ताह",
+        "weeksYear": "सप्ताह / वर्ष",
+        "daily": "दैनिक",
+        "weekly": "साप्ताहिक",
+        "monthly": "मासिक",
+        "yearlySalary": "वार्षिक वेतन",
+        "hourlyDetails": "प्रति घंटा विवरण",
+        "salaryBreakdown": "वेतन विच्छेद"
+      }
+    },
+    "html-encode-decode": {
+      "title": "HTML एन्कोडर/डिकोडर",
+      "description": "",
+      "ui": {
+        "htmlEntityEncoderDecoder": "HTML एंटिटी एन्कोडर / डिकोडर",
+        "encode": "एन्कोड करें",
+        "decode": "डिकोड करें",
+        "input": "इनपुट",
+        "output": "आउटपुट",
+        "mode": "तरीका"
+      }
+    },
+    "html-minifier": {
+      "title": "HTML मिनिफायर",
+      "description": "",
+      "ui": {
+        "htmlMinifier": "HTML मिनिफायर",
+        "inputHtml": "इनपुट HTML",
+        "bytes": "बाइट्स (-",
+        "minifiedHtml": "मिनिफाइड HTML"
+      }
+    },
+    "investment-calculator": {
+      "title": "निवेश कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "investmentCalculator": "निवेश कैलकुलेटर",
+        "initialInvestment": "प्रारंभिक निवेश",
+        "monthlyContribution": "मासिक योगदान",
+        "expectedReturn": "अपेक्षित रिटर्न (%)",
+        "yearsToGrow": "निवेश अवधि (वर्ष)",
+        "totalContributions": "कुल योगदान",
+        "interestEarned": "अर्जित ब्याज",
+        "futureValue": "भविष्य का मूल्य",
+        "investmentPlan": "निवेश योजना",
+        "growthProjection": "विकास प्रक्षेपण"
+      }
+    },
+    "js-minifier": {
+      "title": "JavaScript मिनिफायर",
+      "description": "",
+      "ui": {
+        "javascriptMinifier": "JavaScript मिनिफायर",
+        "inputJs": "इनपुट JS",
+        "bytes": "बाइट्स (-",
+        "minifiedJs": "मिनिफाइड JS"
+      }
+    },
+    "jwt-decoder": {
+      "title": "JWT डिकोडर",
+      "description": "",
+      "ui": {
+        "jwtDecoder": "JWT डिकोडर",
+        "encodedJwtHeaderpayloadsignature": "एन्कोडेड JWT (Header.Payload.Signature)",
+        "invalidJwtFormat": "अमान्य JWT फ़ॉर्मेट।",
+        "header": "हेडर",
+        "payload": "पेलोड",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik..."
+      }
+    },
+    "length-converter": {
+      "title": "लंबाई कन्वर्टर",
+      "description": "",
+      "ui": {
+        "lengthConverter": "लंबाई कन्वर्टर",
+        "from": "से",
+        "to": "में"
+      }
+    },
+    "loan-calculator": {
+      "title": "ऋण कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "loanCalculator": "ऋण कैलकुलेटर",
+        "loanAmount": "ऋण राशि",
+        "interestRate": "ब्याज दर (%)",
+        "loanTermYears": "ऋण अवधि (वर्ष)",
+        "monthlyPayment": "मासिक भुगतान",
+        "totalInterest": "कुल ब्याज",
+        "totalCostOfLoan": "ऋण की कुल लागत",
+        "loanDetails": "ऋण विवरण",
+        "paymentBreakdown": "भुगतान टूटना"
+      }
+    },
+    "lorem-ipsum-generator": {
+      "title": "Lorem Ipsum जनरेटर",
+      "description": "",
+      "ui": {
+        "loremIpsumGenerator": "Lorem Ipsum जनरेटर",
+        "paragraphs": "पैराग्राफ",
+        "generate": "जनरेट करें",
+        "copy": "कॉपी करें",
+        "generatedText": "उत्पन्न पाठ"
+      }
+    },
+    "macro-calculator": {
+      "title": "मैक्रोन्यूट्रिएंट कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "macroCalculator": "मैक्रोन्यूट्रिएंट कैलकुलेटर",
+        "dailyCalories": "दैनिक कैलोरी",
+        "dietPlan": "डाइट प्लान",
+        "balanced303040": "संतुलित (30/30/40)",
+        "lowCarb404020": "कम कार्बोहाइड्रेट (40/40/20)",
+        "highProtein402535": "उच्च प्रोटीन (40/25/35)",
+        "keto20755": "कीटो (20/75/5)",
+        "protein": "प्रोटीन",
+        "g": "ग्राम",
+        "fats": "वसा",
+        "carbs": "कार्बोहाइड्रेट",
+        "kcal": "किलो कैलोरी"
+      }
+    },
+    "markup-calculator": {
+      "title": "मार्कअप कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "markupCalculator": "मार्कअप कैलकुलेटर",
+        "cost": "लागत",
+        "markup": "मार्कअप (%)",
+        "profit": "लाभ",
+        "sellingPrice": "बिक्री मूल्य",
+        "pricingDetails": "मूल्य निर्धारण विवरण"
+      }
+    },
+    "md5generator": {
+      "title": "MD5 जनरेटर",
+      "description": "",
+      "ui": {
+        "md5HashGenerator": "MD5 हैश जनरेटर",
+        "inputString": "इनपुट स्ट्रिंग",
+        "md5Hash": "MD5 हैश",
+        "theDefaultHashShownIsForAnEmptyString": "डिफ़ॉल्ट रूप से दिखाया गया हैश एक खाली स्ट्रिंग के लिए है।"
+      }
+    },
+    "months-between-dates": {
+      "title": "दो तिथियों के बीच महीने",
+      "description": "",
+      "ui": {
+        "monthsBetweenDates": "दो तिथियों के बीच महीने",
+        "startDate": "आरंभ तिथि",
+        "endDate": "समाप्ति तिथि",
+        "calculateMonths": "महीनों की गणना करें",
+        "months": "महीने",
+        "days": "दिन",
+        "copy": "कॉपी करें",
+        "reset": "रीसेट करें",
+        "selectDatesToCalculate": "गणना करने के लिए तिथियाँ चुनें"
+      }
+    },
+    "mortgage-calculator": {
+      "title": "होम लोन कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "mortgageCalculator": "होम लोन कैलकुलेटर",
+        "homePrice": "घर की कीमत",
+        "downPayment": "डाउन पेमेंट",
+        "interestRate": "ब्याज दर (%)",
+        "loanTermYears": "ऋण अवधि (वर्ष)",
+        "principalLoanAmount": "ऋण की मूल राशि",
+        "monthlyPayment": "मासिक भुगतान",
+        "propertyDetails": "संपत्ति ब्यौरा",
+        "mortgageSummary": "बंधक सारांश"
+      }
+    },
+    "mulch-calculator": {
+      "title": "मल्च और ऊपरी मिट्टी कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "mulchTopsoilCalculator": "मल्च और ऊपरी मिट्टी कैलकुलेटर",
+        "lengthFt": "लंबाई (फीट)",
+        "widthFt": "चौड़ाई (फीट)",
+        "depthInches": "गहराई (इंच)",
+        "standardMulchDepthIs24Inches": "मानक मल्च की गहराई 2 से 4 इंच होती है।",
+        "youWillNeed": "आपको चाहिए होगा",
+        "cubicYards": "घन गज",
+        "2CuFtBags": "2 घन फुट के बैग",
+        "3CuFtBags": "3 घन फुट के बैग"
+      }
+    },
+    "number-base-converter": {
+      "title": "संख्या आधार कन्वर्टर",
+      "description": "",
+      "ui": {
+        "numberBaseConverter": "संख्या आधार कन्वर्टर",
+        "from": "से",
+        "to": "में",
+        "base": "आधार"
+      }
+    },
+    "overtime-calculator": {
+      "title": "ओवरटाइम कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "overtimeCalculator": "ओवरटाइम कैलकुलेटर",
+        "hourlyRate": "प्रति घंटा दर",
+        "otMultiplier": "ओवरटाइम गुणक",
+        "timeAndAHalf15x": "डेढ़ गुना (1.5x)",
+        "doubleTime20x": "दोगुना (2.0x)",
+        "straightTime10x": "सामान्य दर (1.0x)",
+        "standardWeeklyHours": "मानक साप्ताहिक घंटे",
+        "totalHoursWorked": "कुल काम किए गए घंटे",
+        "regularPay": "सामान्य वेतन (",
+        "hrs": "घंटे @",
+        "overtimePay": "ओवरटाइम वेतन (",
+        "hr": "/घंटा)",
+        "totalGrossPay": "कुल सकल वेतन",
+        "paySummary": "वेतन सारांश"
+      }
+    },
+    "pace-calculator": {
+      "title": "गति/पेस कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "runningPaceCalculator": "दौड़ने की पेस कैलकुलेटर",
+        "distance": "दूरी",
+        "kilometersKm": "किलोमीटर (किमी)",
+        "milesMi": "मील (mi)",
+        "totalTime": "कुल समय",
+        "hrs": "घंटे",
+        "mins": "मिनट",
+        "secs": "सेकंड",
+        "averagePace": "औसत पेस",
+        "per": "प्रति"
+      }
+    },
+    "paint-calculator": {
+      "title": "पेंट कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "paintCalculator": "पेंट कैलकुलेटर",
+        "totalSurfaceAreaSqFt": "कुल सतह क्षेत्रफल (वर्ग फुट)",
+        "numberOfCoats": "कोट की संख्या",
+        "1Coat": "1 कोट",
+        "2Coats": "2 कोट",
+        "3Coats": "3 कोट",
+        "coverageSqFtGallon": "कवरेज (वर्ग फुट / गैलन)",
+        "youWillNeed": "आपको चाहिए होगा",
+        "gallons": "गैलन)",
+        "exactCalculation": "(सटीक गणना:"
+      }
+    },
+    "password-generator": {
+      "title": "पासवर्ड जनरेटर",
+      "description": "",
+      "ui": {
+        "securePasswordGenerator": "सुरक्षित पासवर्ड जनरेटर",
+        "generatePassword": "पासवर्ड जनरेट करें",
+        "passwordLength": "पासवर्ड की लंबाई:",
+        "uppercaseAz": "बड़े अक्षर (A-Z)",
+        "lowercaseAz": "छोटे अक्षर (a-z)",
+        "numbers09": "संख्याएँ (0-9)",
+        "symbols": "प्रतीक (!@#)",
+        "constraints": "प्रतिबंध",
+        "copyPassword": "पासवर्ड कॉपी करें"
+      }
+    },
+    "percentage-decrease-calculator": {
+      "title": "प्रतिशत कमी कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "percentageDecreaseCalculator": "प्रतिशत कमी कैलकुलेटर",
+        "initialValue": "प्रारंभिक मान",
+        "finalValue": "अंतिम मान",
+        "absoluteChange": "पूर्ण परिवर्तन",
+        "decrease": "कमी",
+        "values": "मान",
+        "decreaseBreakdown": "ब्रेकडाउन कम करें"
+      }
+    },
+    "percentage-increase-calculator": {
+      "title": "प्रतिशत वृद्धि कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "percentageIncreaseCalculator": "प्रतिशत वृद्धि कैलकुलेटर",
+        "initialValue": "प्रारंभिक मान",
+        "finalValue": "अंतिम मान",
+        "absoluteChange": "पूर्ण परिवर्तन",
+        "change": "परिवर्तन",
+        "values": "मान",
+        "increaseBreakdown": "ब्रेकडाउन बढ़ाएँ"
+      }
+    },
+    "plant-spacing-calculator": {
+      "title": "पौधों की दूरी कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "plantSpacingCalculator": "पौधों की दूरी कैलकुलेटर",
+        "squareGrid": "वर्गाकार ग्रिड",
+        "triangularOffset": "त्रिकोणीय (ऑफसेट)",
+        "bedLengthFt": "क्यारी की लंबाई (फीट)",
+        "bedWidthFt": "क्यारी की चौड़ाई (फीट)",
+        "plantSpacingInchesBetweenCenters": "पौधों के बीच दूरी (केंद्रों के बीच इंच)",
+        "estimatedTotalPlants": "अनुमानित कुल पौधे"
+      }
+    },
+    "pomodoro-timer": {
+      "title": "पोमोडोरो टाइमर",
+      "description": "",
+      "ui": {
+        "pomodoroTimer": "पोमोडोरो टाइमर",
+        "work25m": "काम (25 मिनट)",
+        "break5m": "ब्रेक (5 मिनट)",
+        "reset": "रीसेट करें",
+        "start": "शुरू"
+      }
+    },
+    "profit-margin-calculator": {
+      "title": "लाभ मार्जिन कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "profitMarginCalculator": "लाभ मार्जिन कैलकुलेटर",
+        "revenueSellingPrice": "राजस्व (बिक्री मूल्य)",
+        "costOfGoodsSold": "बेची गई वस्तुओं की लागत",
+        "grossProfit": "सकल लाभ",
+        "margin": "मार्जिन",
+        "financialDetails": "वित्तीय विवरण",
+        "profitability": "लाभप्रदता"
+      }
+    },
+    "qr-code-generator": {
+      "title": "QR कोड जनरेटर",
+      "description": "",
+      "ui": {
+        "qrCodeGenerator": "QR कोड जनरेटर",
+        "urlOrText": "URL या टेक्स्ट",
+        "size": "आकार",
+        "small150x150": "छोटा (150x150)",
+        "medium250x250": "मध्यम (250x250)",
+        "large500x500": "बड़ा (500x500)",
+        "highres1000x1000": "उच्च रिज़ॉल्यूशन (1000x1000)",
+        "downloadImage": "इमेज डाउनलोड करें",
+        "enterTextAboveToGenerateAQrCode": "QR कोड जनरेट करने के लिए ऊपर टेक्स्ट दर्ज करें",
+        "contentSettings": "सामग्री समायोजन",
+        "enterURLOrTextToEncode": "एनकोड करने के लिए यूआरएल या टेक्स्ट दर्ज करें",
+        "generatedQRCode": "क्यू आर कोड जनरेट किया गया"
+      }
+    },
+    "random-number-generator": {
+      "title": "रैंडम संख्या जनरेटर",
+      "description": "",
+      "ui": {
+        "randomNumberGenerator": "रैंडम संख्या जनरेटर",
+        "minimum": "न्यूनतम",
+        "maximum": "अधिकतम",
+        "generateRandomNumber": "रैंडम संख्या जनरेट करें",
+        "result": "परिणाम",
+        "rangeSettings": "रेंज सेटिंग्स"
+      }
+    },
+    "ratio-calculator": {
+      "title": "अनुपात कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "ratioCalculatorAbCd": "अनुपात कैलकुलेटर (A:B = C:D)",
+        "enter3ValuesToCalculateThe4thMissingValue": "चौथा अज्ञात मान निकालने के लिए 3 मान दर्ज करें।"
+      }
+    },
+    "roi-calculator": {
+      "title": "ROI कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "roiCalculator": "ROI कैलकुलेटर",
+        "initialInvestment": "प्रारंभिक निवेश",
+        "finalValueReturned": "वापस प्राप्त अंतिम मूल्य",
+        "profit": "लाभ",
+        "roi": "लागत पर लाभ",
+        "investmentDetails": "निवेश विवरण",
+        "returnOnInvestment": "निवेश पर प्रतिफल"
+      }
+    },
+    "roman-numeral-converter": {
+      "title": "रोमन अंक कन्वर्टर",
+      "description": "",
+      "ui": {
+        "romanNumeralConverter": "रोमन अंक कन्वर्टर",
+        "numberRoman": "संख्या → रोमन",
+        "romanNumber": "रोमन → संख्या",
+        "result": "परिणाम"
+      }
+    },
+    "running-distance-calculator": {
+      "title": "दौड़ की दूरी कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "runningDistanceCalculator": "दौड़ की दूरी कैलकुलेटर",
+        "pacePer": "पेस (प्रति",
+        "mins": "मिनट",
+        "secs": "सेकंड",
+        "totalTime": "कुल समय",
+        "hrs": "घंटे",
+        "totalDistance": "कुल दूरी",
+        "kilometersKm": "किलोमीटर (किमी)",
+        "milesMi": "मील (mi)"
+      }
+    },
+    "salary-calculator": {
+      "title": "वेतन कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "salaryCalculator": "वेतन कैलकुलेटर",
+        "salaryAmount": "वेतन राशि",
+        "per": "प्रति",
+        "hour": "घंटा",
+        "day": "दिन",
+        "week": "सप्ताह",
+        "month": "महीना",
+        "year": "वर्ष",
+        "hoursPerWeek": "प्रति सप्ताह घंटे",
+        "calculate": "गणना करें",
+        "hourly": "प्रति घंटा",
+        "daily": "दैनिक",
+        "weekly": "साप्ताहिक",
+        "monthly": "मासिक",
+        "yearly": "वार्षिक",
+        "incomeDetails": "आय विवरण",
+        "enterYourIncomeDetailsToS": "सारांश देखने के लिए अपनी आय का विवरण दर्ज करें"
+      }
+    },
+    "salary-to-hourly-calculator": {
+      "title": "वेतन → प्रति घंटा कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "salaryToHourlyCalculator": "वेतन से प्रति घंटा कैलकुलेटर",
+        "annualSalary": "वार्षिक वेतन",
+        "hoursWeek": "घंटे / सप्ताह",
+        "weeksYear": "सप्ताह / वर्ष",
+        "hourlyWage": "प्रति घंटा वेतन",
+        "salaryDetails": "वेतन विवरण",
+        "equivalentWage": "समतुल्य वेतन"
+      }
+    },
+    "sha1generator": {
+      "title": "SHA-1 जनरेटर",
+      "description": "",
+      "ui": {
+        "sha1HashGenerator": "SHA-1 हैश जनरेटर",
+        "inputString": "इनपुट स्ट्रिंग",
+        "sha1Hash": "SHA-1 हैश",
+        "theDefaultHashShownIsForAnEmptyString": "डिफ़ॉल्ट रूप से दिखाया गया हैश एक खाली स्ट्रिंग के लिए है।"
+      }
+    },
+    "sha256generator": {
+      "title": "SHA-256 जनरेटर",
+      "description": "",
+      "ui": {
+        "sha256HashGenerator": "SHA-256 हैश जनरेटर",
+        "inputString": "इनपुट स्ट्रिंग",
+        "sha256Hash": "SHA-256 हैश",
+        "theDefaultHashShownIsForAnEmptyString": "डिफ़ॉल्ट रूप से दिखाया गया हैश एक खाली स्ट्रिंग के लिए है।"
+      }
+    },
+    "simple-interest-calculator": {
+      "title": "साधारण ब्याज कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "simpleInterestCalculator": "साधारण ब्याज कैलकुलेटर",
+        "principalAmount": "मूलधन",
+        "annualRate": "वार्षिक दर (%)",
+        "time": "अवधि",
+        "years": "वर्ष",
+        "months": "महीने",
+        "days": "दिन",
+        "interestEarned": "अर्जित ब्याज",
+        "finalBalance": "अंतिम शेष राशि",
+        "interestDetails": "रुचि विवरण",
+        "growthBreakdown": "विकास का टूटना"
+      }
+    },
+    "sleep-calculator": {
+      "title": "नींद कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "sleepCalculator": "नींद कैलकुलेटर",
+        "iWantToWakeUpAt": "मैं इस समय उठना चाहता हूँ:",
+        "calculate": "गणना करें",
+        "toWakeUpRefreshedAt": "इस समय तरोताज़ा होकर उठने के लिए",
+        "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": ", इन समयों में से किसी एक पर सोने की कोशिश करें (सोने के लिए 15 मिनट शामिल हैं):",
+        "6Cycles9h": "6 चक्र (9 घंटे)",
+        "5Cycles75h": "5 चक्र (7.5 घंटे)",
+        "4Cycles6h": "4 चक्र (6 घंटे)",
+        "3Cycles45h": "3 चक्र (4.5 घंटे)",
+        "enterWakeTimeToCalculateS": "सोने के समय की गणना करने के लिए जागने का समय दर्ज करें"
+      }
+    },
+    "speed-converter": {
+      "title": "गति कन्वर्टर",
+      "description": "",
+      "ui": {
+        "speedConverter": "गति कन्वर्टर",
+        "from": "से",
+        "to": "में"
+      }
+    },
+    "speed-distance-time-calculator": {
+      "title": "गति-दूरी-समय कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "speedDistanceTime": "गति, दूरी, समय",
+        "solveForSpeed": "गति की गणना करें",
+        "solveForDistance": "दूरी की गणना करें",
+        "solveForTime": "समय की गणना करें",
+        "distance": "दूरी",
+        "timeHours": "समय (घंटे)",
+        "speed": "गति"
+      }
+    },
+    "sql-formatter": {
+      "title": "SQL फॉर्मेटर",
+      "description": "",
+      "ui": {
+        "sqlFormatter": "SQL फॉर्मेटर",
+        "rawSql": "कच्चा SQL",
+        "formattedSql": "फॉर्मेट किया हुआ SQL"
+      }
+    },
+    "square-footage-calculator": {
+      "title": "वर्ग फुट क्षेत्रफल कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "squareFootageCalculator": "वर्ग फुट क्षेत्रफल कैलकुलेटर",
+        "lengthFt": "लंबाई (फीट)",
+        "widthFt": "चौड़ाई (फीट)",
+        "addArea": "क्षेत्रफल जोड़ें",
+        "totalArea": "कुल क्षेत्रफल",
+        "squareFeetSqFt": "वर्ग फुट (वर्ग फुट)"
+      }
+    },
+    "step-calculator": {
+      "title": "सीढ़ी कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "stairStepCalculator": "सीढ़ी / स्टेप कैलकुलेटर",
+        "totalRiseHeightInches": "कुल ऊँचाई (इंच)",
+        "totalVerticalDistanceFromLowerFloorToUpperFloor": "निचली मंजिल से ऊपरी मंजिल तक की कुल ऊर्ध्वाधर दूरी।",
+        "targetRiserHeightIn": "लक्षित राइज़र ऊँचाई (इंच)",
+        "standardMaxIsUsually775": "मानक अधिकतम आमतौर पर 7.75\" होता है",
+        "targetTreadDepthIn": "लक्षित ट्रेड गहराई (इंच)",
+        "standardMinIsUsually10": "मानक न्यूनतम आमतौर पर 10\" होता है",
+        "numberOfRisers": "राइज़र की संख्या",
+        "actualRiserHeight": "वास्तविक राइज़र ऊँचाई",
+        "totalRunHorizontalDistance": "कुल रन (क्षैतिज दूरी)",
+        "ft": "फीट)"
+      }
+    },
+    "stopwatch": {
+      "title": "स्टॉपवॉच",
+      "description": "",
+      "ui": {
+        "stopwatch": "स्टॉपवॉच",
+        "start": "शुरू करें",
+        "pause": "रोकें",
+        "lap": "लैप",
+        "reset": "रीसेट करें",
+        "laps": "लैप",
+        "noLapsRecordedYet": "अभी तक कोई अंतराल रिकार्ड नहीं किया गया"
+      }
+    },
+    "tax-calculator": {
+      "title": "टैक्स कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "salesTaxCalculator": "बिक्री कर कैलकुलेटर",
+        "price": "कीमत",
+        "taxRate": "टैक्स दर (%)",
+        "priceAlreadyIncludesTax": "कीमत में पहले से टैक्स शामिल है",
+        "priceBeforeTax": "टैक्स से पहले की कीमत",
+        "taxAmount": "टैक्स राशि",
+        "totalFinalPrice": "कुल अंतिम कीमत",
+        "taxDetails": "कर विवरण",
+        "priceBreakdown": "मूल्य विभाजन"
+      }
+    },
+    "temperature-converter": {
+      "title": "तापमान कन्वर्टर",
+      "description": "",
+      "ui": {
+        "temperatureConverter": "तापमान कन्वर्टर",
+        "from": "से",
+        "celsius": "सेल्सियस",
+        "fahrenheit": "फ़ारेनहाइट",
+        "kelvin": "केल्विन",
+        "to": "में"
+      }
+    },
+    "tile-calculator": {
+      "title": "टाइल कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "tileCalculator": "टाइल कैलकुलेटर",
+        "totalAreaToCoverSqFt": "कवर किया जाने वाला कुल क्षेत्रफल (वर्ग फुट)",
+        "tileLengthInches": "टाइल की लंबाई (इंच)",
+        "tileWidthInches": "टाइल की चौड़ाई (इंच)",
+        "wasteOverage": "अपव्यय / अतिरिक्त (%)",
+        "standardRecommendationIs10ForStandardLayouts15ForDiagonal": "मानक लेआउट के लिए 10% और डायगोनल लेआउट के लिए 15% अतिरिक्त रखने की सामान्य सलाह है।",
+        "totalTilesNeeded": "आवश्यक कुल टाइलें",
+        "eachTileCovers": "प्रत्येक टाइल का क्षेत्रफल",
+        "sqFt": "वर्ग फुट"
+      }
+    },
+    "time-difference-calculator": {
+      "title": "समय अंतर कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "timeDifference": "समय का अंतर",
+        "firstTime": "पहला समय",
+        "secondTime": "दूसरा समय",
+        "calculateAbsoluteDifference": "पूर्ण अंतर की गणना करें",
+        "difference": "अंतर:",
+        "h": "घं.",
+        "m": "मि.",
+        "copy": "कॉपी करें",
+        "reset": "रीसेट करें",
+        "selectTimesToCompare": "तुलना करने के लिए समय चुनें"
+      }
+    },
+    "time-duration-calculator": {
+      "title": "समय अवधि कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "timeDurationCalculator": "समय अवधि कैलकुलेटर",
+        "startTime": "आरंभ समय",
+        "endTime": "समाप्ति समय",
+        "endsOnTheNextDayCrossesMidnight": "अगले दिन समाप्त होता है (आधी रात पार करता है)",
+        "calculateDuration": "अवधि की गणना करें",
+        "hours": "घंटे",
+        "minutes": "मिनट",
+        "totalTimeInMinutes": "मिनटों में कुल अवधि:",
+        "copy": "कॉपी करें",
+        "reset": "रीसेट करें",
+        "selectStartAndEndTimes": "आरंभ और समाप्ति समय चुनें"
+      }
+    },
+    "time-zone-converter": {
+      "title": "समय क्षेत्र कन्वर्टर",
+      "description": "",
+      "ui": {
+        "timeZoneConverter": "समय क्षेत्र कन्वर्टर",
+        "dateTime": "तिथि और समय",
+        "fromTimeZoneRelative": "समय क्षेत्र से (सापेक्ष)",
+        "toTimeZone": "समय क्षेत्र में",
+        "convert": "कन्वर्ट करें",
+        "selectDateAndTimeZonesTo": "तुलना करने के लिए दिनांक और समय क्षेत्र चुनें"
+      }
+    },
+    "tip-calculator": {
+      "title": "टिप कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "tipCalculator": "टिप कैलकुलेटर",
+        "billAmount": "बिल की राशि",
+        "tip": "टिप %",
+        "numberOfPeople": "लोगों की संख्या",
+        "tipAmount": "टिप की राशि",
+        "person": "/ व्यक्ति",
+        "total": "कुल",
+        "totalTip": "कुल टिप:",
+        "totalBill": "कुल बिल:",
+        "billDetails": "बिल विवरण",
+        "totalBreakdown": "कुल टूटना"
+      }
+    },
+    "unix-timestamp-converter": {
+      "title": "Unix टाइमस्टैम्प कन्वर्टर",
+      "description": "",
+      "ui": {
+        "timestampToDate": "टाइमस्टैम्प से तिथि",
+        "unixTimestamp": "Unix टाइमस्टैम्प",
+        "convert": "कन्वर्ट करें",
+        "dateToTimestamp": "तिथि से टाइमस्टैम्प",
+        "localDateTime": "स्थानीय तिथि और समय",
+        "eG1700000000": "जैसे 1700000000",
+        "result": "परिणाम"
+      }
+    },
+    "url-encode-decode": {
+      "title": "URL एन्कोडर/डिकोडर",
+      "description": "",
+      "ui": {
+        "urlEncoderDecoder": "URL एन्कोडर / डिकोडर",
+        "encode": "एन्कोड करें",
+        "decode": "डिकोड करें",
+        "input": "इनपुट",
+        "output": "आउटपुट",
+        "mode": "तरीका"
+      }
+    },
+    "uuid-generator": {
+      "title": "UUID जनरेटर",
+      "description": "",
+      "ui": {
+        "uuidV4Generator": "UUID जनरेटर (v4)",
+        "howManyUuids": "कितने UUID?",
+        "generate": "जनरेट करें",
+        "generatedUuids": "जनरेट किए गए UUID",
+        "copyAll": "सभी कॉपी करें",
+        "clickGenerateToCreateUUI": "UUID बनाने के लिए जनरेट पर क्लिक करें"
+      }
+    },
+    "volume-converter": {
+      "title": "आयतन कन्वर्टर",
+      "description": "",
+      "ui": {
+        "volumeConverter": "आयतन कन्वर्टर",
+        "from": "से",
+        "to": "में"
+      }
+    },
+    "wake-up-time-calculator": {
+      "title": "जागने का समय कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "wakeupTimeCalculator": "जागने का समय कैलकुलेटर",
+        "ifYouHeadToBedRightNowWhenShouldYouWakeUpToFeelRefreshed": "यदि आप अभी सोने जाएँ, तो तरोताज़ा महसूस करने के लिए आपको किस समय उठना चाहिए?",
+        "imGoingToBedNow": "मैं अभी सोने जा रहा हूँ",
+        "weAdded15MinutesForYouToFallAsleepSetYourAlarmForOneOfTheseTimesToWakeUpBetween90minuteSleepCycles": "हमने आपके सो जाने के लिए 15 मिनट जोड़े हैं। 90 मिनट के नींद चक्रों के बीच जागने के लिए इनमें से किसी एक समय पर अपना अलार्म सेट करें:",
+        "3Cycles45h": "3 चक्र (4.5 घंटे)",
+        "4Cycles6h": "4 चक्र (6 घंटे)",
+        "5Cycles75h": "5 चक्र (7.5 घंटे)",
+        "6Cycles9h": "6 चक्र (9 घंटे)",
+        "readyForBed": "बिस्तर के लिए तैयार",
+        "clickTheButtonWhenYouReG": "जब आप सोने जा रहे हों तो बटन क्लिक करें"
+      }
+    },
+    "water-intake-calculator": {
+      "title": "पानी सेवन कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "dailyWaterIntakeCalculator": "दैनिक पानी सेवन कैलकुलेटर",
+        "weightKg": "वज़न (किग्रा)",
+        "dailyExerciseMins": "दैनिक व्यायाम (मिनट)",
+        "recommendedDailyIntake": "अनुशंसित दैनिक सेवन",
+        "liters": "लीटर",
+        "approx": "(लगभग",
+        "ozOr": "औंस या",
+        "cups": "कप)",
+        "or": "या"
+      }
+    },
+    "weeks-between-dates": {
+      "title": "दो तिथियों के बीच सप्ताह",
+      "description": "",
+      "ui": {
+        "weeksBetweenDates": "दो तिथियों के बीच सप्ताह",
+        "startDate": "आरंभ तिथि",
+        "endDate": "समाप्ति तिथि",
+        "calculateWeeks": "सप्ताहों की गणना करें",
+        "weeks": "सप्ताह",
+        "days": "दिन",
+        "copy": "कॉपी करें",
+        "reset": "रीसेट करें",
+        "selectDatesToCalculate": "गणना करने के लिए तिथियाँ चुनें"
+      }
+    },
+    "weight-converter": {
+      "title": "वज़न कन्वर्टर",
+      "description": "",
+      "ui": {
+        "weightConverter": "वज़न कन्वर्टर",
+        "from": "से",
+        "to": "में"
+      }
+    },
+    "word-counter": {
+      "title": "शब्द काउंटर",
+      "description": "",
+      "ui": {
+        "wordCounter": "शब्द काउंटर",
+        "words": "शब्द",
+        "characters": "अक्षर",
+        "noSpaces": "स्पेस के बिना",
+        "paragraphs": "पैराग्राफ",
+        "startTypingOrPasteYourTex": "टाइप करना प्रारंभ करें या अपना टेक्स्ट यहां पेस्ट करें..."
+      }
+    },
+    "work-hours-calculator": {
+      "title": "कार्य घंटे कैलकुलेटर",
+      "description": "",
+      "ui": {
+        "workHoursCalculator": "कार्य घंटे कैलकुलेटर",
+        "clockIn": "काम शुरू करने का समय",
+        "clockOut": "काम समाप्त करने का समय",
+        "breakMinutes": "ब्रेक (मिनट)",
+        "daysPerWeek": "प्रति सप्ताह दिन",
+        "calculateHours": "घंटों की गणना करें",
+        "dailyWorkHours": "दैनिक कार्य घंटे",
+        "hrs": "घं.",
+        "weeklyTotal": "साप्ताहिक कुल",
+        "enterScheduleToCalculateHo": "घंटों की गणना करने के लिए शेड्यूल दर्ज करें"
+      }
+    },
+    "world-time-converter": {
+      "title": "विश्व समय कन्वर्टर",
+      "description": "",
+      "ui": {
+        "worldTimeConverter": "विश्व समय कन्वर्टर"
+      }
+    },
+    "xml-formatter": {
+      "title": "XML फॉर्मेटर",
+      "description": "",
+      "ui": {
+        "xmlFormatter": "XML फॉर्मेटर",
+        "rawXml": "कच्चा XML",
+        "formattedXml": "फॉर्मेट किया हुआ XML"
+      }
+    },
+    "bionic-reading-converter": {
+      "title": "बायोनिक रीडिंग कनवर्टर",
+      "description": "",
+      "ui": {
+        "inputText": "इनपुट टेक्स्ट",
+        "placeholder": "अपना टेक्स्ट यहाँ पेस्ट या टाइप करें...",
+        "clear": "साफ़ करें",
+        "bionicOutput": "बायोनिक आउटपुट",
+        "copyResult": "परिणाम कॉपी करें",
+        "emptyOutput": "बायोनिक रीडिंग आउटपुट यहाँ दिखाई देगा...",
+        "howItWorksTitle": "यह कैसे काम करता है:",
+        "howItWorksDescription": "यह टूल शब्दों के शुरुआती अक्षरों को हाइलाइट करके स्पीड-रीडिंग तकनीक लागू करता है। यह आपकी आंखों को पूरे टेक्स्ट में निर्देशित करता है और आपका मस्तिष्क शब्द को पूरा करता है, जिससे आप तेजी से और अधिक ध्यान के साथ पढ़ सकते हैं।"
+      }
+    }
+  },
+  "Search": {
+    "placeholder": "टूल्स खोजें...",
+    "noResults": "“{query}” के लिए कोई टूल नहीं मिला।"
+  },
+  "Home": {
+    "title": "रोजमर्रा के कामों के लिए मुफ्त ऑनलाइन टूल",
+    "subtitle": "तेज, मुफ्त और उपयोग में आसान ऑनलाइन टूल के साथ अपने रोजमर्रा के काम को गिनें, बदलें, बनाएं और आसान बनाएं।",
+    "popularTools": "लोकप्रिय टूल",
+    "metaTitle": "100 उपकरण - प्रीमियम निःशुल्क ऑनलाइन उपकरण",
+    "metaDescription": "हमारे 100+ प्रीमियम ऑनलाइन टूल के सुइट के साथ अपनी ज़रूरत की हर चीज़ की गणना करें, रूपांतरित करें, उत्पन्न करें और उसका विश्लेषण करें।",
+    "heroBadge": "100+ निःशुल्क ऑनलाइन उपकरण",
+    "heroTitle1": "गणना करें, रूपांतरित करें &",
+    "heroTitle2": "सब कुछ उत्पन्न करें.",
+    "heroDescription": "डेवलपर्स, वित्त पेशेवरों और रोजमर्रा के कार्यों के लिए प्रीमियम उत्पादकता मंच। तेज़, निजी और खूबसूरती से डिज़ाइन किया गया।",
+    "popular": "लोकप्रिय:",
+    "browseCategories": "श्रेणियाँ ब्राउज़ करें",
+    "browseCategoriesDesc": "वर्कफ़्लो द्वारा व्यवस्थित वही खोजें जो आपको चाहिए।",
+    "mostPopularTools": "सर्वाधिक लोकप्रिय उपकरण",
+    "mostPopularToolsDesc": "वे उपकरण जिनका उपयोग हमारा समुदाय सबसे अधिक बार करता है।",
+    "exploreAll": "सभी का अन्वेषण करें",
+    "whyUse": "100 टूल्स का उपयोग क्यों करें?",
+    "whyUseDesc": "सर्वोत्तम उपयोगकर्ता अनुभव प्रदान करने के लिए आधुनिक तकनीक से निर्मित।",
+    "feature1Title": "बिजली की तेजी",
+    "feature1Desc": "पृष्ठ पुनः लोड किए बिना त्वरित परिणाम। गति और कम विलंबता के लिए अनुकूलित।",
+    "feature2Title": "गोपनीयता पहले",
+    "feature2Desc": "गणना सीधे आपके ब्राउज़र में होती है. आपका डेटा कभी भी आपका डिवाइस नहीं छोड़ता.",
+    "feature3Title": "प्रीमियम डिज़ाइन",
+    "feature3Desc": "सावधानीपूर्वक तैयार किए गए इंटरफ़ेस सुंदर, सहज और उपयोग में आसान हैं।"
+  },
+  "Footer": {
+    "100Tools": "100 उपकरण",
+    "thePremiumProductivityPlatf": "आपकी सभी दैनिक गणना, रूपांतरण और पीढ़ी की जरूरतों के लिए प्रीमियम उत्पादकता मंच।",
+    "categories": "श्रेणियाँ",
+    "developerTools": "डेवलपर उपकरण",
+    "finance": "वित्त",
+    "dateTime": "दिनांक समय",
+    "textTools": "पाठ उपकरण",
+    "converters": "कन्वर्टर्स",
+    "popularTools": "लोकप्रिय उपकरण",
+    "ageCalculator": "आयु कैलकुलेटर",
+    "jSONFormatter": "JSON फ़ॉर्मेटर",
+    "percentageCalculator": "प्रतिशत कैलक्यूलेटर",
+    "base64Encoder": "बेस64 एनकोडर",
+    "salaryCalculator": "वेतन कैलकुलेटर",
+    "company": "कंपनी",
+    "aboutUs": "हमारे बारे में",
+    "contact": "संपर्क",
+    "privacyPolicy": "गोपनीयता नीति",
+    "termsOfService": "सेवा की शर्तें",
+    "Copy": "&प्रतिलिपि;",
+    "100ToolsAllRightsReserved": "100 उपकरण. सर्वाधिकार सुरक्षित।",
+    "builtWithNextJs": "Next.js के साथ निर्मित",
+    "madeWith": "❤️ से बनाया गया",
+    "tagline": "आपकी सभी दैनिक गणना, रूपांतरण और पीढ़ी की जरूरतों के लिए प्रीमियम उत्पादकता मंच।",
+    "privacy": "गोपनीयता नीति",
+    "terms": "सेवा की शर्तें",
+    "allRightsReserved": "सर्वाधिकार सुरक्षित।",
+    "builtWith": "Next.js के साथ निर्मित",
+    "madeWithHeart": "❤️ से बनाया गया",
+    "cookie": "Cookie Policy"
+  },
+  "Header": {
+    "100Tools": "100 उपकरण",
+    "developer": "डेवलपर",
+    "finance": "वित्त",
+    "time": "समय"
+  },
+  "LanguageSwitcher": {},
+  "RelatedTools": {
+    "relatedTools": "संबंधित उपकरण",
+    "popular": "लोकप्रिय"
+  },
+  "ToolSearch": {
+    "tryADifferentSearchTermOr": "कोई भिन्न खोज शब्द आज़माएँ या श्रेणियाँ ब्राउज़ करें।"
+  },
+  "index": {
+    "advertisement": "विज्ञापन"
+  },
+  "AgeCalculator": {},
+  "AreaConverter": {},
+  "AverageCalculator": {
+    "dataSet": "डेटा सेट",
+    "statistics": "आंकड़े",
+    "eG12345": "जैसे 1 2 3 4 5"
+  },
+  "Base64EncodeDecode": {
+    "mode": "तरीका:"
+  },
+  "BedtimeCalculator": {
+    "recommended": "अनुशंसित",
+    "enterYourWakeUpTimeToCal": "गणना करने के लिए अपना जागने का समय दर्ज करें"
+  },
+  "BinaryToDecimal": {
+    "eG1010": "जैसे 1010"
+  },
+  "BionicReadingConverter": {},
+  "BmiCalculator": {
+    "Lt185": "&lt; 18.5",
+    "enterYourHeightAndWeight": "अपनी ऊंचाई और वजन दर्ज करें"
+  },
+  "BmrCalculator": {
+    "enterYourDetailsToCalculat": "बीएमआर की गणना करने के लिए अपना विवरण दर्ज करें"
+  },
+  "BoardFootCalculator": {},
+  "BodyFatCalculator": {
+    "enterYourMeasurementsToCal": "शरीर में वसा की गणना के लिए अपना माप दर्ज करें"
+  },
+  "BreakEvenCalculator": {
+    "costsPricing": "लागत और मूल्य निर्धारण",
+    "breakEvenPoint": "लाभ - अलाभ स्थिति"
+  },
+  "CalorieCalculator": {
+    "enterYourDetailsToCalculat": "कैलोरी की गणना करने के लिए अपना विवरण दर्ज करें"
+  },
+  "CharacterCounter": {
+    "startTypingOrPasteYourTex": "टाइप करना प्रारंभ करें या अपना टेक्स्ट यहां पेस्ट करें..."
+  },
+  "CompoundInterestCalculator": {
+    "interestDetails": "रुचि विवरण",
+    "growthBreakdown": "विकास का टूटना"
+  },
+  "ConcreteCalculator": {},
+  "CostPerSquareFootCalculator": {},
+  "CountdownTimer": {},
+  "CssMinifier": {},
+  "CurrencyConverter": {},
+  "DataStorageConverter": {},
+  "DateDifferenceCalculator": {
+    "selectDatesToCalculate": "गणना करने के लिए तिथियाँ चुनें"
+  },
+  "DaysBetweenDates": {
+    "selectDatesToCalculate": "गणना करने के लिए तिथियाँ चुनें"
+  },
+  "DaysUntilCalculator": {
+    "selectAFutureDate": "भविष्य की तारीख चुनें"
+  },
+  "DecimalToBinary": {
+    "eG10": "जैसे 10"
+  },
+  "DeckingCalculator": {},
+  "DiscountCalculator": {
+    "discountDetails": "छूट विवरण",
+    "priceBreakdown": "मूल्य विभाजन"
+  },
+  "EmiCalculator": {
+    "eMIDetails": "ईएमआई विवरण",
+    "paymentSummary": "भुगतान सारांश"
+  },
+  "FenceCalculator": {},
+  "FinalGradeCalculator": {},
+  "FractionCalculator": {},
+  "GpaCalculator": {
+    "courseList": "पाठ्यक्रम सूची",
+    "result": "परिणाम",
+    "course": "अवधि"
+  },
+  "GradeCalculator": {
+    "assignments": "कार्य",
+    "result": "परिणाम",
+    "eGMidterm": "जैसे मध्यावधि"
+  },
+  "HeightConverter": {},
+  "HexToDecimal": {
+    "eG1AOrFFFFFF": "जैसे 1ए या #एफएफएफएफएफएफ"
+  },
+  "HourlyToSalaryCalculator": {
+    "hourlyDetails": "प्रति घंटा विवरण",
+    "salaryBreakdown": "वेतन विच्छेद"
+  },
+  "HtmlEncodeDecode": {
+    "mode": "तरीका:"
+  },
+  "HtmlMinifier": {},
+  "InvestmentCalculator": {
+    "investmentPlan": "निवेश योजना",
+    "growthProjection": "विकास प्रक्षेपण"
+  },
+  "JsMinifier": {},
+  "JsonFormatter": {
+    "inputJSON": "इनपुट JSON",
+    "reset": "रीसेट करें"
+  },
+  "JwtDecoder": {
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+  },
+  "LengthConverter": {},
+  "LoanCalculator": {
+    "loanDetails": "ऋण विवरण",
+    "paymentBreakdown": "भुगतान टूटना"
+  },
+  "LoremIpsumGenerator": {
+    "generatedText": "उत्पन्न पाठ"
+  },
+  "MacroCalculator": {
+    "kcal": "किलो कैलोरी",
+    "enterCaloriesToCalculateMa": "मैक्रोज़ की गणना करने के लिए कैलोरी दर्ज करें"
+  },
+  "MarkupCalculator": {
+    "pricingDetails": "मूल्य निर्धारण विवरण",
+    "sellingPrice": "विक्रय मूल्य"
+  },
+  "Md5Generator": {},
+  "MonthsBetweenDates": {
+    "result": "परिणाम",
+    "selectDatesToCalculate": "गणना करने के लिए तिथियाँ चुनें"
+  },
+  "MortgageCalculator": {
+    "propertyDetails": "संपत्ति ब्यौरा",
+    "mortgageSummary": "बंधक सारांश"
+  },
+  "MulchCalculator": {},
+  "NumberBaseConverter": {
+    "base": "आधार"
+  },
+  "OvertimeCalculator": {
+    "paySummary": "वेतन सारांश"
+  },
+  "PaceCalculator": {
+    "enterDistanceAndTimeToCal": "गति की गणना करने के लिए दूरी और समय दर्ज करें"
+  },
+  "PaintCalculator": {},
+  "PasswordGenerator": {
+    "constraints": "प्रतिबंध",
+    "copyPassword": "पासवर्ड कॉपी करें"
+  },
+  "PercentageCalculator": {
+    "calculatePercentage": "प्रतिशत की गणना करें",
+    "result": "परिणाम",
+    "enterValuesToCalculatePerc": "प्रतिशत की गणना करने के लिए मान दर्ज करें"
+  },
+  "PercentageDecreaseCalculator": {
+    "values": "मान",
+    "decreaseBreakdown": "ब्रेकडाउन कम करें"
+  },
+  "PercentageIncreaseCalculator": {
+    "values": "मान",
+    "increaseBreakdown": "ब्रेकडाउन बढ़ाएँ"
+  },
+  "PlantSpacingCalculator": {},
+  "PomodoroTimer": {
+    "pause": "विराम",
+    "start": "शुरू"
+  },
+  "ProfitMarginCalculator": {
+    "financialDetails": "वित्तीय विवरण",
+    "profitability": "लाभप्रदता"
+  },
+  "QrCodeGenerator": {
+    "contentSettings": "सामग्री समायोजन",
+    "enterURLOrTextToEncode": "एन्कोड करने के लिए URL या टेक्स्ट दर्ज करें...",
+    "generatedQRCode": "क्यूआर कोड जनरेट किया गया"
+  },
+  "RandomNumberGenerator": {
+    "rangeSettings": "रेंज सेटिंग्स"
+  },
+  "RatioCalculator": {},
+  "RoiCalculator": {
+    "investmentDetails": "निवेश विवरण",
+    "returnOnInvestment": "निवेश पर प्रतिफल"
+  },
+  "RomanNumeralConverter": {},
+  "RunningDistanceCalculator": {
+    "enterPaceAndTimeToCalcula": "दूरी की गणना करने के लिए गति और समय दर्ज करें"
+  },
+  "SalaryCalculator": {
+    "incomeDetails": "आय विवरण",
+    "salaryBreakdown": "वेतन विच्छेद",
+    "enterYourIncomeDetailsToS": "विवरण देखने के लिए अपनी आय का विवरण दर्ज करें"
+  },
+  "SalaryToHourlyCalculator": {
+    "salaryDetails": "वेतन विवरण",
+    "equivalentWage": "समतुल्य वेतन"
+  },
+  "Sha1Generator": {},
+  "Sha256Generator": {},
+  "SimpleInterestCalculator": {
+    "interestDetails": "रुचि विवरण",
+    "growthBreakdown": "विकास का टूटना"
+  },
+  "SleepCalculator": {
+    "recommended": "अनुशंसित",
+    "enterWakeTimeToCalculateS": "नींद चक्र की गणना करने के लिए जागने का समय दर्ज करें"
+  },
+  "SpeedConverter": {},
+  "SpeedDistanceTimeCalculator": {
+    "enterTheKnownValuesToCalc": "गणना करने के लिए ज्ञात मान दर्ज करें"
+  },
+  "SqlFormatter": {},
+  "SquareFootageCalculator": {},
+  "StepCalculator": {},
+  "Stopwatch": {
+    "laps": "लैप",
+    "noLapsRecordedYet": "अभी तक कोई चूक दर्ज नहीं की गई"
+  },
+  "TaxCalculator": {
+    "taxDetails": "कर विवरण",
+    "priceBreakdown": "मूल्य विभाजन"
+  },
+  "TemperatureConverter": {},
+  "TileCalculator": {},
+  "TimeDifferenceCalculator": {
+    "selectTimesToCompare": "तुलना करने के लिए समय चुनें"
+  },
+  "TimeDurationCalculator": {
+    "durationResult": "अवधि परिणाम",
+    "selectStartAndEndTimes": "आरंभ और समाप्ति समय चुनें"
+  },
+  "TimeZoneConverter": {
+    "conversionResult": "रूपांतरण परिणाम",
+    "selectDateAndTimeZonesTo": "कनवर्ट करने के लिए दिनांक और समय क्षेत्र चुनें"
+  },
+  "TipCalculator": {
+    "billDetails": "बिल विवरण",
+    "totalBreakdown": "कुल टूटना"
+  },
+  "UnixTimestampConverter": {
+    "result": "परिणाम",
+    "eG1700000000": "जैसे 1700000000"
+  },
+  "UrlEncodeDecode": {
+    "mode": "तरीका:"
+  },
+  "UuidGenerator": {
+    "clickGenerateToCreateUUI": "यूयूआईडी बनाने के लिए 'जेनरेट' पर क्लिक करें..."
+  },
+  "VolumeConverter": {},
+  "WakeUpTimeCalculator": {
+    "readyForBed": "बिस्तर के लिए तैयार हैं?",
+    "recommended": "अनुशंसित",
+    "clickTheButtonWhenYouReG": "जब आप सोने जा रहे हों तो बटन क्लिक करें"
+  },
+  "WaterIntakeCalculator": {
+    "or": "या",
+    "enterYourDetailsToCalculat": "पानी के सेवन की गणना के लिए अपना विवरण दर्ज करें"
+  },
+  "WeeksBetweenDates": {
+    "result": "परिणाम",
+    "selectDatesToCalculate": "गणना करने के लिए तिथियाँ चुनें"
+  },
+  "WeightConverter": {},
+  "WordCounter": {
+    "startTypingOrPasteYourTex": "टाइप करना प्रारंभ करें या अपना टेक्स्ट यहां पेस्ट करें..."
+  },
+  "WorkHoursCalculator": {
+    "hoursLog": "घंटे लॉग",
+    "enterScheduleToCalculateHo": "घंटों की गणना करने के लिए शेड्यूल दर्ज करें"
+  },
+  "WorldTimeConverter": {},
+  "XmlFormatter": {},
+  "button": {},
+  "card": {},
+  "CategoryCard": {
+    "tools": "औजार",
+    "viewAllTools": "सभी उपकरण देखें"
+  },
+  "input": {},
+  "label": {},
+  "textarea": {},
+  "ToolCard": {},
+  "editor": {
+    "copy": "प्रतिलिपि"
+  },
+  "layout": {},
+  "panels": {},
+  "Page": {
+    "whatIs": "शीर्षक क्या है}?",
+    "howToUse": "{title} का उपयोग कैसे करें",
+    "example": "उदाहरण",
+    "useCases": "सामान्य उपयोग के मामले",
+    "howItWorks": "यह काम किस प्रकार करता है",
+    "faq": "अक्सर पूछे जाने वाले प्रश्नों",
+    "readyToStart": "शुरू करने के लिए तैयार हैं?",
+    "useToolNow": "अभी टूल का उपयोग करें"
+  },
+  "Categories": {
+    "developerTools": "डेवलपर उपकरण",
+    "finance": "वित्त",
+    "time": "दिनांक समय",
+    "text": "पाठ उपकरण",
+    "converters": "कन्वर्टर्स"
+  },
+  "About": {
+    "title": "About Us & Methodology",
+    "description": "Welcome to 100 Tools, your free resource for premium online calculators and developer utilities.",
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is to provide fast, reliable, and privacy-respecting tools for everyday tasks. Whether you're a developer needing to encode a JWT, a homeowner calculating mulch volume, or just trying to figure out a discount, we've built a robust tool for you.",
+    "methodologyTitle": "Our Methodology",
+    "methodologyIntro": "We believe in transparency and accuracy, particularly for financial and health-related tools (Your Money or Your Life topics). Here is how we ensure our tools are reliable:",
+    "standardizedFormulasTitle": "Standardized Formulas",
+    "standardizedFormulasText": "All financial calculators (like ROI, Mortgages, and Loans) use industry-standard amortization and compound interest formulas.",
+    "medicalGuidelinesTitle": "Medical Guidelines",
+    "medicalGuidelinesText": "Health calculators (like BMI and BMR) use globally recognized equations, such as the Mifflin-St Jeor Equation for metabolic rate, and the standard WHO classifications for BMI.",
+    "privacyFirstTitle": "Privacy First",
+    "privacyFirstText": "Your data never leaves your browser. All calculations, hashing, and conversions happen locally on your device via JavaScript. We do not store or transmit your inputs.",
+    "continuousTestingTitle": "Continuous Testing",
+    "continuousTestingText": "Our toolkit is rigorously tested to ensure edge cases (like zero values or invalid inputs) are handled gracefully without crashing.",
+    "editorialGuidelinesTitle": "Editorial Guidelines",
+    "editorialGuidelinesText": "Every tool page is designed to be self-explanatory. We prioritize usability and clear instructions over cluttered interfaces. If an equation has limitations (like the Navy Body Fat method being an estimation), we clearly note it on the tool page.",
+    "disclaimer": "Disclaimer: The tools and calculators on this website are for informational and educational purposes only. They do not constitute professional financial or medical advice. Always consult with a qualified professional before making significant health or financial decisions."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you. Whether you have a question, a feature request, or found a bug, let us know!",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "Send Message",
+    "emailUs": "Email Us",
+    "emailAddress": "contact@100tools.example.com",
+    "responseTime": "We typically respond within 24-48 hours.",
+    "successMessage": "Thank you! Your message has been sent.",
+    "errorMessage": "Something went wrong. Please try again later."
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "At 100 Tools, your privacy is our top priority. This Privacy Policy outlines how we handle (and explicitly do NOT handle) your personal data.",
+    "dataCollectionTitle": "No Data Collection",
+    "dataCollectionText": "We do not collect, store, or transmit any personal data when you use our calculators and tools. All computations—including formatting, decoding, and calculating—are performed strictly locally within your browser using JavaScript.",
+    "analyticsTitle": "Analytics & Tracking",
+    "analyticsText": "We may use privacy-friendly, anonymized analytics to understand general traffic patterns (like which tools are most popular). This data cannot be traced back to individual users and does not use intrusive tracking cookies.",
+    "thirdPartyTitle": "Third-Party Services",
+    "thirdPartyText": "Our website is hosted on modern edge networks. These infrastructure providers may log basic connection data (like IP addresses) for security and anti-DDoS purposes, which is standard practice for any website.",
+    "contactUs": "If you have any questions about this Privacy Policy, please contact us."
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "By accessing and using 100 Tools, you agree to comply with and be bound by the following terms and conditions of use.",
+    "noWarrantyTitle": "No Warranties (As-Is)",
+    "noWarrantyText": "All tools, calculators, and information on this website are provided \"as-is\" without any representations or warranties, express or implied. We make no guarantees regarding the accuracy, reliability, or completeness of the results generated.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityText": "In no event shall 100 Tools be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever arising out of or in connection with the use of our tools. This includes financial losses or medical decisions made based on our calculators.",
+    "acceptableUseTitle": "Acceptable Use",
+    "acceptableUseText": "You agree to use our tools for lawful purposes only. You must not attempt to scrape, DDoS, or otherwise disrupt the service or networks connected to 100 Tools.",
+    "modificationsTitle": "Modifications",
+    "modificationsText": "We reserve the right to revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then-current version of these terms."
+  },
+  "Cookie": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, or the information we collect using cookies and how that information is used.",
+    "whatAreCookiesTitle": "What are Cookies?",
+    "whatAreCookiesText": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used to make websites work, or work more efficiently, as well as to provide reporting information.",
+    "howWeUseCookiesTitle": "How We Use Cookies",
+    "howWeUseCookiesText": "We use cookies strictly for essential functionality and basic user preferences. For example, we might use local storage or a cookie to remember if you prefer \"Dark Mode\" or \"Light Mode\", or to remember your preferred language.",
+    "noTrackingTitle": "No Invasive Tracking",
+    "noTrackingText": "We do not use advertising cookies, third-party trackers, or cross-site tracking technologies. Your use of our tools remains private.",
+    "managingCookiesTitle": "Managing Cookies",
+    "managingCookiesText": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed."
+  }
+}

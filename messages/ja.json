@@ -1,0 +1,1812 @@
+{
+  "Navigation": {
+    "home": "ホーム",
+    "tools": "ツール",
+    "categories": "カテゴリー",
+    "about": "概要",
+    "contact": "お問い合わせ"
+  },
+  "Common": {
+    "viewIn": "{language}で表示しますか？",
+    "yes": "はい",
+    "dismiss": "閉じる",
+    "language": "言語",
+    "theme": "テーマ",
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム",
+    "copy": "コピー"
+  },
+  "Tools": {
+    "age-calculator": {
+      "title": "年齢計算機",
+      "description": "年、月、日単位で正確な年齢を計算します。",
+      "ui": {
+        "calculateYourAge": "年齢を計算",
+        "dateOfBirth": "生年月日",
+        "calculate": "計算",
+        "years": "年",
+        "months": "か月",
+        "days": "日",
+        "nextBirthday": "次の誕生日：",
+        "totalDays": "合計日数：",
+        "yourAgeIs": "あなたの年齢：",
+        "copy": "コピー",
+        "reset": "リセット",
+        "targetDate": "目標日 (オプション)",
+        "selectYourDateOfBirth": "生年月日を選択してください"
+      }
+    },
+    "percentage-calculator": {
+      "title": "パーセント計算機",
+      "description": "パーセンテージをすばやく正確に計算します。",
+      "ui": {
+        "percentageCalculator": "パーセント計算機",
+        "whatIs": "いくらですか",
+        "of": "の",
+        "amount": "金額",
+        "calculate": "計算",
+        "result": "結果",
+        "calculatePercentage": "パーセンテージを計算する"
+      }
+    },
+    "json-formatter": {
+      "title": "JSONフォーマッター",
+      "description": "JSONデータを整形、検証、見やすく整えます。",
+      "ui": {
+        "formatJson": "JSONを整形",
+        "inputJSON": "入力 J S O N",
+        "reset": "リセット"
+      }
+    },
+    "area-converter": {
+      "title": "面積変換",
+      "description": "",
+      "ui": {
+        "areaConverter": "面積変換",
+        "from": "変換元",
+        "to": "変換先"
+      }
+    },
+    "average-calculator": {
+      "title": "平均計算機",
+      "description": "",
+      "ui": {
+        "averageCalculator": "平均計算機",
+        "enterNumbersSeparatedByCommasOrSpaces": "数値を入力（カンマまたはスペースで区切る）",
+        "count": "個数",
+        "sum": "合計",
+        "averageMean": "平均",
+        "median": "中央値",
+        "dataSet": "データセット",
+        "eG12345": "例えば 1、2、3、4、5",
+        "statistics": "統計"
+      }
+    },
+    "base64encode-decode": {
+      "title": "Base64エンコード・デコード",
+      "description": "",
+      "ui": {
+        "base64EncoderDecoder": "Base64エンコーダー / デコーダー",
+        "encode": "エンコード",
+        "decode": "デコード",
+        "input": "入力（",
+        "output": "出力（",
+        "mode": "モード"
+      }
+    },
+    "bedtime-calculator": {
+      "title": "就寝時間計算機",
+      "description": "",
+      "ui": {
+        "bedtimeCalculator": "就寝時間計算機",
+        "whenDoYouNeedToWakeUp": "何時に起きる必要がありますか？",
+        "calculate": "計算",
+        "toWakeUpAt": "起床時刻を",
+        "youShouldTryToBeAsleepBy": "にする場合、次の時刻までに眠るようにしましょう：",
+        "6Cycles9h": "6サイクル（9時間）",
+        "5Cycles75h": "5サイクル（7.5時間）",
+        "calculationsIncludeAnAverage15MinutesToFallAsleep": "計算には、眠りにつくまでの平均15分が含まれています。",
+        "enterYourWakeUpTimeToCal": "起床時間を入力して就寝時間を計算します"
+      }
+    },
+    "binary-to-decimal": {
+      "title": "2進数から10進数への変換",
+      "description": "",
+      "ui": {
+        "binaryToDecimalConverter": "2進数から10進数への変換",
+        "binaryNumber": "2進数",
+        "decimalResult": "10進数の結果",
+        "eG1010": "例えば 1010"
+      }
+    },
+    "bmi-calculator": {
+      "title": "BMI計算機",
+      "description": "",
+      "ui": {
+        "bmiCalculator": "BMI計算機",
+        "metric": "メートル法",
+        "imperial": "ヤード・ポンド法",
+        "heightCm": "身長（cm）",
+        "weightKg": "体重（kg）",
+        "heightFt": "身長（ft）",
+        "heightIn": "身長（in）",
+        "weightLbs": "体重（lbs）",
+        "yourBmi": "あなたのBMI",
+        "Lt185": "< 18.5"
+      }
+    },
+    "bmr-calculator": {
+      "title": "基礎代謝量計算機",
+      "description": "",
+      "ui": {
+        "bmrCalculator": "基礎代謝量計算機",
+        "male": "男性",
+        "female": "女性",
+        "ageYears": "年齢（歳）",
+        "heightCm": "身長（cm）",
+        "weightKg": "体重（kg）",
+        "basalMetabolicRate": "基礎代謝量",
+        "caloriesDay": "カロリー / 日",
+        "thisIsTheAmountOfEnergyYourBodyBurnsAtRestJustToKeepYouAlive": "これは、生命を維持するために安静時に体が消費するエネルギー量です。"
+      }
+    },
+    "board-foot-calculator": {
+      "title": "ボードフィート計算機",
+      "description": "",
+      "ui": {
+        "boardFootCalculator": "ボードフィート計算機",
+        "thicknessIn": "厚さ（in）",
+        "widthIn": "幅（in）",
+        "lengthFt": "長さ（ft）",
+        "quantity": "数量",
+        "pricePerBf": "1ボードフィートあたりの価格（$）",
+        "totalBoardFeet": "ボードフィート合計",
+        "totalCost": "合計費用：$"
+      }
+    },
+    "body-fat-calculator": {
+      "title": "体脂肪率計算機",
+      "description": "",
+      "ui": {
+        "bodyFatCalculatorNavyMethod": "体脂肪率計算機（米海軍方式）",
+        "male": "男性",
+        "female": "女性",
+        "heightCm": "身長（cm）",
+        "neckCm": "首回り（cm）",
+        "waistCmAtNavel": "へそ周りのウエスト（cm）",
+        "hipsCm": "ヒップ（cm）",
+        "estimatedBodyFat": "推定体脂肪率"
+      }
+    },
+    "break-even-calculator": {
+      "title": "損益分岐点計算機",
+      "description": "",
+      "ui": {
+        "breakevenCalculator": "損益分岐点計算機",
+        "fixedCosts": "固定費",
+        "variableCostPerUnit": "単位あたりの変動費",
+        "sellingPricePerUnit": "単位あたりの販売価格",
+        "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "損益分岐点に達するには、販売価格が変動費を上回る必要があります。",
+        "unitsToSell": "販売数量",
+        "breakevenRevenue": "損益分岐点売上高",
+        "costsPricing": "コストの価格設定",
+        "breakEvenPoint": "損益分岐点"
+      }
+    },
+    "calorie-calculator": {
+      "title": "カロリー計算機",
+      "description": "",
+      "ui": {
+        "dailyCalorieCalculator": "1日のカロリー計算機",
+        "male": "男性",
+        "female": "女性",
+        "age": "年齢",
+        "heightCm": "身長（cm）",
+        "weightKg": "体重（kg）",
+        "activityLevel": "活動レベル",
+        "sedentaryLittleOrNoExercise": "座りがち（運動がほとんどない）",
+        "lightlyActiveLightExercise13Daysweek": "軽度の活動（軽い運動を週1～3日）",
+        "moderatelyActiveModerateExercise35Daysweek": "中程度の活動（適度な運動を週3～5日）",
+        "veryActiveHardExercise67Daysweek": "非常に活動的（激しい運動を週6～7日）",
+        "extraActiveVeryHardExercisephysicalJob": "極めて活動的（非常に激しい運動／肉体労働）",
+        "maintainWeight": "体重を維持",
+        "kcal": "kcal",
+        "loseWeight05kgweek": "減量（-0.5kg/週）",
+        "gainWeight05kgweek": "増量（+0.5kg/週）"
+      }
+    },
+    "character-counter": {
+      "title": "文字数カウンター",
+      "description": "",
+      "ui": {
+        "characterCounter": "文字数カウンター",
+        "totalCharacters": "文字数合計",
+        "withoutSpaces": "スペースを除く",
+        "spaces": "スペース",
+        "lines": "行数",
+        "startTypingOrPasteYourTex": "入力を開始するか、ここにテキストを貼り付けてください..."
+      }
+    },
+    "compound-interest-calculator": {
+      "title": "複利計算機",
+      "description": "",
+      "ui": {
+        "compoundInterestCalculator": "複利計算機",
+        "principalAmount": "元金",
+        "annualRate": "年利（%）",
+        "timeYears": "期間（年）",
+        "compoundFrequency": "複利計算頻度",
+        "daily": "毎日",
+        "monthly": "毎月",
+        "quarterly": "四半期ごと",
+        "semiannually": "半年ごと",
+        "annually": "毎年",
+        "interestEarned": "獲得利息",
+        "finalBalance": "最終残高",
+        "interestDetails": "興味の詳細",
+        "growthBreakdown": "成長の内訳"
+      }
+    },
+    "concrete-calculator": {
+      "title": "コンクリート計算機",
+      "description": "",
+      "ui": {
+        "concreteCalculator": "コンクリート計算機",
+        "lengthFt": "長さ（ft）",
+        "widthFt": "幅（ft）",
+        "depthThicknessInches": "深さ / 厚さ（インチ）",
+        "volumeRequired": "必要量",
+        "cubicYards": "立方ヤード",
+        "80lbBags": "80lb袋",
+        "60lbBags": "60lb袋",
+        "40lbBags": "40lb袋"
+      }
+    },
+    "cost-per-square-foot-calculator": {
+      "title": "平方フィートあたりの費用計算機",
+      "description": "",
+      "ui": {
+        "costPerSquareFoot": "平方フィートあたりの費用",
+        "totalPriceOrCost": "合計価格または費用（$）",
+        "totalSquareFootage": "総面積",
+        "sqFt": "/ 平方フィート"
+      }
+    },
+    "countdown-timer": {
+      "title": "カウントダウンタイマー",
+      "description": "",
+      "ui": {
+        "countdownTimer": "カウントダウンタイマー",
+        "minutes": "分",
+        "start": "開始",
+        "pause": "一時停止",
+        "reset": "リセット"
+      }
+    },
+    "css-minifier": {
+      "title": "CSSミニファイア",
+      "description": "",
+      "ui": {
+        "cssMinifier": "CSSミニファイア",
+        "inputCss": "入力CSS",
+        "bytes": "バイト（-",
+        "minifiedCss": "圧縮後のCSS"
+      }
+    },
+    "currency-converter": {
+      "title": "通貨コンバーター",
+      "description": "",
+      "ui": {
+        "currencyConverterEstimated": "通貨コンバーター（推定）",
+        "amount": "金額",
+        "from": "変換元",
+        "to": "変換先",
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "注：これらの為替レートはデモ目的のみの静的な推定値です。"
+      }
+    },
+    "data-storage-converter": {
+      "title": "データ容量変換",
+      "description": "",
+      "ui": {
+        "dataStorageConverter": "データ容量変換",
+        "from": "変換元",
+        "to": "変換先"
+      }
+    },
+    "date-difference-calculator": {
+      "title": "日付差計算機",
+      "description": "",
+      "ui": {
+        "dateDifferenceCalculator": "日付差計算機",
+        "startDate": "開始日",
+        "endDate": "終了日",
+        "calculateDifference": "差を計算",
+        "timeDifference": "時間差：",
+        "years": "年",
+        "months": "か月",
+        "days": "日",
+        "totalDaysEquivalent": "合計日数換算：",
+        "totalWeeksEquivalent": "合計週数換算：",
+        "weeks": "週間、",
+        "copy": "コピー",
+        "reset": "リセット",
+        "selectDatesToCalculate": "計算する日付を選択してください"
+      }
+    },
+    "days-between-dates": {
+      "title": "日付間の日数",
+      "description": "",
+      "ui": {
+        "daysBetweenDates": "日付間の日数",
+        "startDate": "開始日",
+        "endDate": "終了日",
+        "includeStartDateInCalculation": "開始日を計算に含める",
+        "includeEndDateInCalculation": "終了日を計算に含める",
+        "calculateDays": "日数を計算",
+        "totalResult": "合計結果：",
+        "days": "日",
+        "copy": "コピー",
+        "reset": "リセット",
+        "selectDatesToCalculate": "計算する日付を選択してください"
+      }
+    },
+    "days-until-calculator": {
+      "title": "残り日数計算機",
+      "description": "",
+      "ui": {
+        "daysUntil": "あと何日...",
+        "selectFutureDateEventHolidayDeadline": "未来の日付を選択（イベント、祝日、締切）",
+        "calculate": "計算",
+        "timeRemaining": "残り時間：",
+        "totalDays": "合計日数",
+        "whichIsExactly": "正確には：",
+        "days": "日",
+        "copy": "コピー",
+        "reset": "リセット",
+        "selectAFutureDate": "将来の日付を選択してください"
+      }
+    },
+    "decimal-to-binary": {
+      "title": "10進数から2進数への変換",
+      "description": "",
+      "ui": {
+        "decimalToBinaryConverter": "10進数から2進数への変換",
+        "decimalNumber": "10進数",
+        "binaryResult": "2進数の結果",
+        "eG10": "例えば 10"
+      }
+    },
+    "decking-calculator": {
+      "title": "デッキ計算機",
+      "description": "",
+      "ui": {
+        "deckingMaterialCalculator": "デッキ材料計算機",
+        "deckLengthFt": "デッキの長さ（ft）",
+        "parallelToHouse": "家と平行",
+        "deckWidthDepthFt": "デッキの幅 / 奥行き（ft）",
+        "awayFromHouse": "家から離れる方向",
+        "boardLengthFt": "板の長さ（ft）",
+        "boardWidthIn": "板の幅（in）",
+        "requiredBoards": "必要な板（",
+        "length": "' 長）",
+        "deckArea": "デッキ面積",
+        "sqFt": "平方フィート",
+        "screwsFasteners": "ネジ / 固定具"
+      }
+    },
+    "discount-calculator": {
+      "title": "割引計算機",
+      "description": "",
+      "ui": {
+        "discountCalculator": "割引計算機",
+        "originalPrice": "元の価格",
+        "discount": "割引",
+        "type": "種類",
+        "off": "%割引",
+        "fixedAmountOff": "固定額割引",
+        "youSave": "節約額",
+        "finalPrice": "最終価格",
+        "discountDetails": "割引詳細",
+        "priceBreakdown": "価格の内訳"
+      }
+    },
+    "emi-calculator": {
+      "title": "EMI計算機",
+      "description": "",
+      "ui": {
+        "emiCalculator": "EMI計算機",
+        "loanAmountPrincipal": "ローン金額（元金）",
+        "annualRate": "年利（%）",
+        "tenureMonths": "返済期間（月）",
+        "monthlyEmi": "月々のEMI",
+        "totalInterestPayable": "支払利息合計",
+        "totalPaymentPrincipalInterest": "総支払額（元金 + 利息）",
+        "eMIDetails": "EMI詳細",
+        "paymentSummary": "お支払い概要"
+      }
+    },
+    "fence-calculator": {
+      "title": "フェンス計算機",
+      "description": "",
+      "ui": {
+        "fenceMaterialCalculator": "フェンス材料計算機",
+        "totalFenceLengthFt": "フェンスの全長（ft）",
+        "postSpacingFt": "支柱間隔（ft）",
+        "standardIs6Or8": "標準は6'または8'",
+        "horizontalRailsPerPanel": "パネルあたりの横桟",
+        "usually2Or3": "通常2本または3本",
+        "picketWidthIn": "縦板の幅（in）",
+        "picketSpacingIn": "縦板の間隔（in）",
+        "0ForSolidPrivacy": "完全な目隠しフェンスの場合は0",
+        "posts": "支柱",
+        "rails": "横桟",
+        "pickets": "縦板"
+      }
+    },
+    "final-grade-calculator": {
+      "title": "最終成績計算機",
+      "description": "",
+      "ui": {
+        "finalGradeCalculator": "最終成績計算機",
+        "currentGrade": "現在の成績（%）",
+        "desiredClassGrade": "希望する最終成績（%）",
+        "finalExamWeight": "期末試験の配点（%）",
+        "youNeedToScore": "必要な得点：",
+        "onTheFinalExam": "期末試験で",
+        "itLooksLikeScoringThisGradeIsMathematicallyImpossibleUnlessThereIsExtraCreditAvailable": "追加点が利用できない場合、この成績を達成することは数学的に不可能と思われます。"
+      }
+    },
+    "fraction-calculator": {
+      "title": "分数計算機",
+      "description": "",
+      "ui": {
+        "fractionCalculator": "分数計算機",
+        "decimal": "小数："
+      }
+    },
+    "gpa-calculator": {
+      "title": "GPA計算機",
+      "description": "",
+      "ui": {
+        "gpaCalculator": "GPA計算機",
+        "courseName": "科目名",
+        "credits": "単位",
+        "grade": "成績",
+        "addCourse": "科目を追加",
+        "totalCredits": "取得単位合計",
+        "cumulativeGpa": "累積GPA",
+        "courseList": "コース一覧",
+        "course": "コース",
+        "result": "結果"
+      }
+    },
+    "grade-calculator": {
+      "title": "成績計算機",
+      "description": "",
+      "ui": {
+        "gradeCalculator": "成績計算機",
+        "assignmentCategory": "課題カテゴリー",
+        "grade": "成績（%）",
+        "weight": "配点（%）",
+        "addCategory": "カテゴリーを追加",
+        "totalWeightEntered": "入力した配点合計",
+        "currentGrade": "現在の成績",
+        "assignments": "課題",
+        "eGMidterm": "例えば 中間",
+        "result": "結果"
+      }
+    },
+    "height-converter": {
+      "title": "身長変換",
+      "description": "",
+      "ui": {
+        "heightConverter": "身長変換",
+        "metricCentimeters": "メートル法（センチメートル）",
+        "cm": "cm",
+        "imperialFeetInches": "ヤード・ポンド法（フィート・インチ）",
+        "ft": "フィート",
+        "in": "で"
+      }
+    },
+    "hex-to-decimal": {
+      "title": "16進数から10進数への変換",
+      "description": "",
+      "ui": {
+        "hexToDecimalConverter": "16進数から10進数への変換",
+        "hexadecimalNumber": "16進数",
+        "decimalResult": "10進数の結果",
+        "eG1AOrFFFFFF": "例えば 1AまたはFFFFFF"
+      }
+    },
+    "hourly-to-salary-calculator": {
+      "title": "時給から年収への計算機",
+      "description": "",
+      "ui": {
+        "hourlyToSalaryCalculator": "時給から年収への計算機",
+        "hourlyWage": "時給",
+        "hoursWeek": "時間 / 週",
+        "weeksYear": "週 / 年",
+        "daily": "日給",
+        "weekly": "週給",
+        "monthly": "月給",
+        "yearlySalary": "年収",
+        "hourlyDetails": "時間ごとの詳細",
+        "salaryBreakdown": "給与の内訳"
+      }
+    },
+    "html-encode-decode": {
+      "title": "HTMLエンコード・デコード",
+      "description": "",
+      "ui": {
+        "htmlEntityEncoderDecoder": "HTMLエンティティエンコーダー / デコーダー",
+        "encode": "エンコード",
+        "decode": "デコード",
+        "input": "入力",
+        "output": "出力",
+        "mode": "モード"
+      }
+    },
+    "html-minifier": {
+      "title": "HTMLミニファイア",
+      "description": "",
+      "ui": {
+        "htmlMinifier": "HTMLミニファイア",
+        "inputHtml": "入力HTML",
+        "bytes": "バイト（-",
+        "minifiedHtml": "圧縮後のHTML"
+      }
+    },
+    "investment-calculator": {
+      "title": "投資計算機",
+      "description": "",
+      "ui": {
+        "investmentCalculator": "投資計算機",
+        "initialInvestment": "初期投資額",
+        "monthlyContribution": "毎月の積立額",
+        "expectedReturn": "期待収益率（%）",
+        "yearsToGrow": "運用期間（年）",
+        "totalContributions": "積立総額",
+        "interestEarned": "獲得利息",
+        "futureValue": "将来価値",
+        "investmentPlan": "投資計画",
+        "growthProjection": "成長予測"
+      }
+    },
+    "js-minifier": {
+      "title": "JavaScriptミニファイア",
+      "description": "",
+      "ui": {
+        "javascriptMinifier": "JavaScriptミニファイア",
+        "inputJs": "入力JS",
+        "bytes": "バイト（-",
+        "minifiedJs": "圧縮後のJS"
+      }
+    },
+    "jwt-decoder": {
+      "title": "JWTデコーダー",
+      "description": "",
+      "ui": {
+        "jwtDecoder": "JWTデコーダー",
+        "encodedJwtHeaderpayloadsignature": "エンコードされたJWT（Header.Payload.Signature）",
+        "invalidJwtFormat": "無効なJWT形式です。",
+        "header": "ヘッダ",
+        "payload": "ペイロード",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik..."
+      }
+    },
+    "length-converter": {
+      "title": "長さ変換",
+      "description": "",
+      "ui": {
+        "lengthConverter": "長さ変換",
+        "from": "変換元",
+        "to": "変換先"
+      }
+    },
+    "loan-calculator": {
+      "title": "ローン計算機",
+      "description": "",
+      "ui": {
+        "loanCalculator": "ローン計算機",
+        "loanAmount": "ローン金額",
+        "interestRate": "金利（%）",
+        "loanTermYears": "ローン期間（年）",
+        "monthlyPayment": "月々の支払い",
+        "totalInterest": "支払利息合計",
+        "totalCostOfLoan": "ローン総費用",
+        "loanDetails": "ローンの詳細",
+        "paymentBreakdown": "お支払いの内訳"
+      }
+    },
+    "lorem-ipsum-generator": {
+      "title": "Lorem Ipsumジェネレーター",
+      "description": "",
+      "ui": {
+        "loremIpsumGenerator": "Lorem Ipsumジェネレーター",
+        "paragraphs": "段落",
+        "generate": "生成",
+        "copy": "コピー",
+        "generatedText": "生成されたテキスト"
+      }
+    },
+    "macro-calculator": {
+      "title": "マクロ栄養素計算機",
+      "description": "",
+      "ui": {
+        "macroCalculator": "マクロ栄養素計算機",
+        "dailyCalories": "1日のカロリー",
+        "dietPlan": "食事プラン",
+        "balanced303040": "バランス型（30/30/40）",
+        "lowCarb404020": "低炭水化物（40/40/20）",
+        "highProtein402535": "高タンパク質（40/25/35）",
+        "keto20755": "ケト（20/75/5）",
+        "protein": "タンパク質",
+        "g": "g",
+        "fats": "脂質",
+        "carbs": "炭水化物",
+        "kcal": "kcal"
+      }
+    },
+    "markup-calculator": {
+      "title": "マークアップ計算機",
+      "description": "",
+      "ui": {
+        "markupCalculator": "マークアップ計算機",
+        "cost": "コスト",
+        "markup": "マークアップ（%）",
+        "profit": "利益",
+        "sellingPrice": "販売価格",
+        "pricingDetails": "価格の詳細"
+      }
+    },
+    "md5generator": {
+      "title": "MD5ジェネレーター",
+      "description": "",
+      "ui": {
+        "md5HashGenerator": "MD5ハッシュジェネレーター",
+        "inputString": "入力文字列",
+        "md5Hash": "MD5ハッシュ",
+        "theDefaultHashShownIsForAnEmptyString": "デフォルトで表示されるハッシュは空の文字列に対するものです。"
+      }
+    },
+    "months-between-dates": {
+      "title": "日付間の月数",
+      "description": "",
+      "ui": {
+        "monthsBetweenDates": "日付間の月数",
+        "startDate": "開始日",
+        "endDate": "終了日",
+        "calculateMonths": "月数を計算",
+        "months": "か月",
+        "days": "日",
+        "copy": "コピー",
+        "reset": "リセット",
+        "selectDatesToCalculate": "計算する日付を選択してください"
+      }
+    },
+    "mortgage-calculator": {
+      "title": "住宅ローン計算機",
+      "description": "",
+      "ui": {
+        "mortgageCalculator": "住宅ローン計算機",
+        "homePrice": "住宅価格",
+        "downPayment": "頭金",
+        "interestRate": "金利（%）",
+        "loanTermYears": "ローン期間（年）",
+        "principalLoanAmount": "ローン元金",
+        "monthlyPayment": "月々の支払い",
+        "propertyDetails": "物件詳細",
+        "mortgageSummary": "住宅ローンの概要"
+      }
+    },
+    "mulch-calculator": {
+      "title": "マルチ・表土計算機",
+      "description": "",
+      "ui": {
+        "mulchTopsoilCalculator": "マルチ・表土計算機",
+        "lengthFt": "長さ（ft）",
+        "widthFt": "幅（ft）",
+        "depthInches": "深さ（インチ）",
+        "standardMulchDepthIs24Inches": "マルチの標準的な深さは2～4インチです。",
+        "youWillNeed": "必要量",
+        "cubicYards": "立方ヤード",
+        "2CuFtBags": "2立方フィート袋",
+        "3CuFtBags": "3立方フィート袋"
+      }
+    },
+    "number-base-converter": {
+      "title": "数値基数変換",
+      "description": "",
+      "ui": {
+        "numberBaseConverter": "数値基数変換",
+        "from": "変換元",
+        "to": "変換先",
+        "base": "ベース"
+      }
+    },
+    "overtime-calculator": {
+      "title": "残業代計算機",
+      "description": "",
+      "ui": {
+        "overtimeCalculator": "残業代計算機",
+        "hourlyRate": "時給",
+        "otMultiplier": "残業倍率",
+        "timeAndAHalf15x": "1.5倍（1.5x）",
+        "doubleTime20x": "2倍（2.0x）",
+        "straightTime10x": "通常賃金（1.0x）",
+        "standardWeeklyHours": "標準週間労働時間",
+        "totalHoursWorked": "総労働時間",
+        "regularPay": "通常給与（",
+        "hrs": "時間 @",
+        "overtimePay": "残業代（",
+        "hr": "/時間）",
+        "totalGrossPay": "総支給額",
+        "paySummary": "給与概要"
+      }
+    },
+    "pace-calculator": {
+      "title": "ランニングペース計算機",
+      "description": "",
+      "ui": {
+        "runningPaceCalculator": "ランニングペース計算機",
+        "distance": "距離",
+        "kilometersKm": "キロメートル（km）",
+        "milesMi": "マイル（mi）",
+        "totalTime": "合計時間",
+        "hrs": "時間",
+        "mins": "分",
+        "secs": "秒",
+        "averagePace": "平均ペース",
+        "per": "あたり"
+      }
+    },
+    "paint-calculator": {
+      "title": "塗料計算機",
+      "description": "",
+      "ui": {
+        "paintCalculator": "塗料計算機",
+        "totalSurfaceAreaSqFt": "総塗装面積（平方フィート）",
+        "numberOfCoats": "塗装回数",
+        "1Coat": "1回塗り",
+        "2Coats": "2回塗り",
+        "3Coats": "3回塗り",
+        "coverageSqFtGallon": "塗布面積（平方フィート / ガロン）",
+        "youWillNeed": "必要量",
+        "gallons": "ガロン）",
+        "exactCalculation": "（正確な計算："
+      }
+    },
+    "password-generator": {
+      "title": "パスワードジェネレーター",
+      "description": "",
+      "ui": {
+        "securePasswordGenerator": "安全なパスワードジェネレーター",
+        "generatePassword": "パスワードを生成",
+        "passwordLength": "パスワードの長さ：",
+        "uppercaseAz": "大文字（A-Z）",
+        "lowercaseAz": "小文字（a-z）",
+        "numbers09": "数字（0-9）",
+        "symbols": "記号（!@#）",
+        "constraints": "制約",
+        "copyPassword": "パスワードをコピーする"
+      }
+    },
+    "percentage-decrease-calculator": {
+      "title": "パーセント減少計算機",
+      "description": "",
+      "ui": {
+        "percentageDecreaseCalculator": "パーセント減少計算機",
+        "initialValue": "初期値",
+        "finalValue": "最終値",
+        "absoluteChange": "絶対変化量",
+        "decrease": "減少",
+        "values": "価値観",
+        "decreaseBreakdown": "減少の内訳"
+      }
+    },
+    "percentage-increase-calculator": {
+      "title": "パーセント増加計算機",
+      "description": "",
+      "ui": {
+        "percentageIncreaseCalculator": "パーセント増加計算機",
+        "initialValue": "初期値",
+        "finalValue": "最終値",
+        "absoluteChange": "絶対変化量",
+        "change": "変化",
+        "values": "価値観",
+        "increaseBreakdown": "内訳の増加"
+      }
+    },
+    "plant-spacing-calculator": {
+      "title": "植物間隔計算機",
+      "description": "",
+      "ui": {
+        "plantSpacingCalculator": "植物間隔計算機",
+        "squareGrid": "正方形グリッド",
+        "triangularOffset": "三角形（ずらし配置）",
+        "bedLengthFt": "花壇の長さ（ft）",
+        "bedWidthFt": "花壇の幅（ft）",
+        "plantSpacingInchesBetweenCenters": "植物間隔（中心間のインチ）",
+        "estimatedTotalPlants": "推定植物数"
+      }
+    },
+    "pomodoro-timer": {
+      "title": "ポモドーロタイマー",
+      "description": "",
+      "ui": {
+        "pomodoroTimer": "ポモドーロタイマー",
+        "work25m": "作業（25分）",
+        "break5m": "休憩（5分）",
+        "reset": "リセット",
+        "start": "始める"
+      }
+    },
+    "profit-margin-calculator": {
+      "title": "利益率計算機",
+      "description": "",
+      "ui": {
+        "profitMarginCalculator": "利益率計算機",
+        "revenueSellingPrice": "売上高（販売価格）",
+        "costOfGoodsSold": "売上原価",
+        "grossProfit": "粗利益",
+        "margin": "利益率",
+        "financialDetails": "財務詳細",
+        "profitability": "収益性"
+      }
+    },
+    "qr-code-generator": {
+      "title": "QRコードジェネレーター",
+      "description": "",
+      "ui": {
+        "qrCodeGenerator": "QRコードジェネレーター",
+        "urlOrText": "URLまたはテキスト",
+        "size": "サイズ",
+        "small150x150": "小（150x150）",
+        "medium250x250": "中（250x250）",
+        "large500x500": "大（500x500）",
+        "highres1000x1000": "高解像度（1000x1000）",
+        "downloadImage": "画像をダウンロード",
+        "enterTextAboveToGenerateAQrCode": "上にテキストを入力してQRコードを生成",
+        "contentSettings": "コンテンツ設定",
+        "enterURLOrTextToEncode": "エンコードする URL またはテキストを入力してください",
+        "generatedQRCode": "生成されたQRコード"
+      }
+    },
+    "random-number-generator": {
+      "title": "乱数ジェネレーター",
+      "description": "",
+      "ui": {
+        "randomNumberGenerator": "乱数ジェネレーター",
+        "minimum": "最小値",
+        "maximum": "最大値",
+        "generateRandomNumber": "乱数を生成",
+        "result": "結果",
+        "rangeSettings": "範囲設定"
+      }
+    },
+    "ratio-calculator": {
+      "title": "比率計算機",
+      "description": "",
+      "ui": {
+        "ratioCalculatorAbCd": "比率計算機（A:B = C:D）",
+        "enter3ValuesToCalculateThe4thMissingValue": "3つの値を入力して、4つ目の不足している値を計算します。"
+      }
+    },
+    "roi-calculator": {
+      "title": "ROI計算機",
+      "description": "",
+      "ui": {
+        "roiCalculator": "ROI計算機",
+        "initialInvestment": "初期投資額",
+        "finalValueReturned": "最終回収額",
+        "profit": "利益",
+        "roi": "ROI",
+        "investmentDetails": "投資内容",
+        "returnOnInvestment": "投資収益率"
+      }
+    },
+    "roman-numeral-converter": {
+      "title": "ローマ数字変換",
+      "description": "",
+      "ui": {
+        "romanNumeralConverter": "ローマ数字変換",
+        "numberRoman": "数字 → ローマ数字",
+        "romanNumber": "ローマ数字 → 数字",
+        "result": "結果"
+      }
+    },
+    "running-distance-calculator": {
+      "title": "ランニング距離計算機",
+      "description": "",
+      "ui": {
+        "runningDistanceCalculator": "ランニング距離計算機",
+        "pacePer": "ペース（",
+        "mins": "分",
+        "secs": "秒",
+        "totalTime": "合計時間",
+        "hrs": "時間",
+        "totalDistance": "総距離",
+        "kilometersKm": "キロメートル（km）",
+        "milesMi": "マイル（mi）"
+      }
+    },
+    "salary-calculator": {
+      "title": "給与計算機",
+      "description": "",
+      "ui": {
+        "salaryCalculator": "給与計算機",
+        "salaryAmount": "給与額",
+        "per": "単位",
+        "hour": "時間",
+        "day": "日",
+        "week": "週",
+        "month": "月",
+        "year": "年",
+        "hoursPerWeek": "週あたりの時間",
+        "calculate": "計算",
+        "hourly": "時給",
+        "daily": "日給",
+        "weekly": "週給",
+        "monthly": "月給",
+        "yearly": "年給",
+        "incomeDetails": "収入の詳細",
+        "enterYourIncomeDetailsToS": "収入の詳細を入力すると概要が表示されます"
+      }
+    },
+    "salary-to-hourly-calculator": {
+      "title": "年収から時給への計算機",
+      "description": "",
+      "ui": {
+        "salaryToHourlyCalculator": "年収から時給への計算機",
+        "annualSalary": "年収",
+        "hoursWeek": "時間 / 週",
+        "weeksYear": "週 / 年",
+        "hourlyWage": "時給",
+        "salaryDetails": "給与詳細",
+        "equivalentWage": "相当賃金"
+      }
+    },
+    "sha1generator": {
+      "title": "SHA-1ジェネレーター",
+      "description": "",
+      "ui": {
+        "sha1HashGenerator": "SHA-1ハッシュジェネレーター",
+        "inputString": "入力文字列",
+        "sha1Hash": "SHA-1ハッシュ",
+        "theDefaultHashShownIsForAnEmptyString": "デフォルトで表示されるハッシュは空の文字列に対するものです。"
+      }
+    },
+    "sha256generator": {
+      "title": "SHA-256ジェネレーター",
+      "description": "",
+      "ui": {
+        "sha256HashGenerator": "SHA-256ハッシュジェネレーター",
+        "inputString": "入力文字列",
+        "sha256Hash": "SHA-256ハッシュ",
+        "theDefaultHashShownIsForAnEmptyString": "デフォルトで表示されるハッシュは空の文字列に対するものです。"
+      }
+    },
+    "simple-interest-calculator": {
+      "title": "単利計算機",
+      "description": "",
+      "ui": {
+        "simpleInterestCalculator": "単利計算機",
+        "principalAmount": "元金",
+        "annualRate": "年利（%）",
+        "time": "期間",
+        "years": "年",
+        "months": "か月",
+        "days": "日",
+        "interestEarned": "獲得利息",
+        "finalBalance": "最終残高",
+        "interestDetails": "興味の詳細",
+        "growthBreakdown": "成長の内訳"
+      }
+    },
+    "sleep-calculator": {
+      "title": "睡眠計算機",
+      "description": "",
+      "ui": {
+        "sleepCalculator": "睡眠計算機",
+        "iWantToWakeUpAt": "起床したい時刻：",
+        "calculate": "計算",
+        "toWakeUpRefreshedAt": "すっきり目覚めるには",
+        "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": "、次のいずれかの時刻に眠りにつくようにしましょう（入眠までの15分を含む）：",
+        "6Cycles9h": "6サイクル（9時間）",
+        "5Cycles75h": "5サイクル（7.5時間）",
+        "4Cycles6h": "4サイクル（6時間）",
+        "3Cycles45h": "3サイクル（4.5時間）",
+        "enterWakeTimeToCalculateS": "起床時間を入力して睡眠時間を計算します"
+      }
+    },
+    "speed-converter": {
+      "title": "速度変換",
+      "description": "",
+      "ui": {
+        "speedConverter": "速度変換",
+        "from": "変換元",
+        "to": "変換先"
+      }
+    },
+    "speed-distance-time-calculator": {
+      "title": "速度・距離・時間計算機",
+      "description": "",
+      "ui": {
+        "speedDistanceTime": "速度、距離、時間",
+        "solveForSpeed": "速度を計算",
+        "solveForDistance": "距離を計算",
+        "solveForTime": "時間を計算",
+        "distance": "距離",
+        "timeHours": "時間（時間）",
+        "speed": "速度"
+      }
+    },
+    "sql-formatter": {
+      "title": "SQLフォーマッター",
+      "description": "",
+      "ui": {
+        "sqlFormatter": "SQLフォーマッター",
+        "rawSql": "生SQL",
+        "formattedSql": "整形済みSQL"
+      }
+    },
+    "square-footage-calculator": {
+      "title": "面積計算機",
+      "description": "",
+      "ui": {
+        "squareFootageCalculator": "面積計算機",
+        "lengthFt": "長さ（ft）",
+        "widthFt": "幅（ft）",
+        "addArea": "面積を追加",
+        "totalArea": "総面積",
+        "squareFeetSqFt": "平方フィート（sq ft）"
+      }
+    },
+    "step-calculator": {
+      "title": "階段・ステップ計算機",
+      "description": "",
+      "ui": {
+        "stairStepCalculator": "階段・ステップ計算機",
+        "totalRiseHeightInches": "総上昇高 / 高さ（インチ）",
+        "totalVerticalDistanceFromLowerFloorToUpperFloor": "下階から上階までの垂直距離の合計。",
+        "targetRiserHeightIn": "目標蹴上げ高さ（in）",
+        "standardMaxIsUsually775": "標準最大値は通常7.75\"です",
+        "targetTreadDepthIn": "目標踏面奥行き（in）",
+        "standardMinIsUsually10": "標準最小値は通常10\"です",
+        "numberOfRisers": "蹴上げ段数",
+        "actualRiserHeight": "実際の蹴上げ高さ",
+        "totalRunHorizontalDistance": "総水平距離",
+        "ft": "フィート）"
+      }
+    },
+    "stopwatch": {
+      "title": "ストップウォッチ",
+      "description": "",
+      "ui": {
+        "stopwatch": "ストップウォッチ",
+        "start": "開始",
+        "pause": "一時停止",
+        "lap": "ラップ",
+        "reset": "リセット",
+        "laps": "ラップ",
+        "noLapsRecordedYet": "ラップはまだ記録されていません"
+      }
+    },
+    "tax-calculator": {
+      "title": "税計算機",
+      "description": "",
+      "ui": {
+        "salesTaxCalculator": "売上税計算機",
+        "price": "価格",
+        "taxRate": "税率（%）",
+        "priceAlreadyIncludesTax": "価格にはすでに税金が含まれています",
+        "priceBeforeTax": "税抜価格",
+        "taxAmount": "税額",
+        "totalFinalPrice": "最終合計価格",
+        "taxDetails": "税金の詳細",
+        "priceBreakdown": "価格の内訳"
+      }
+    },
+    "temperature-converter": {
+      "title": "温度変換",
+      "description": "",
+      "ui": {
+        "temperatureConverter": "温度変換",
+        "from": "変換元",
+        "celsius": "摂氏",
+        "fahrenheit": "華氏",
+        "kelvin": "ケルビン",
+        "to": "変換先"
+      }
+    },
+    "tile-calculator": {
+      "title": "タイル計算機",
+      "description": "",
+      "ui": {
+        "tileCalculator": "タイル計算機",
+        "totalAreaToCoverSqFt": "施工面積（平方フィート）",
+        "tileLengthInches": "タイルの長さ（インチ）",
+        "tileWidthInches": "タイルの幅（インチ）",
+        "wasteOverage": "廃棄 / 余裕分（%）",
+        "standardRecommendationIs10ForStandardLayouts15ForDiagonal": "標準的な配置では10%、斜め配置では15%を推奨します。",
+        "totalTilesNeeded": "必要なタイルの総数",
+        "eachTileCovers": "1枚のタイルがカバーする面積",
+        "sqFt": "平方フィート"
+      }
+    },
+    "time-difference-calculator": {
+      "title": "時差計算機",
+      "description": "",
+      "ui": {
+        "timeDifference": "時間差",
+        "firstTime": "1つ目の時刻",
+        "secondTime": "2つ目の時刻",
+        "calculateAbsoluteDifference": "絶対差を計算",
+        "difference": "差：",
+        "h": "時間",
+        "m": "分",
+        "copy": "コピー",
+        "reset": "リセット",
+        "selectTimesToCompare": "比較する時間を選択してください"
+      }
+    },
+    "time-duration-calculator": {
+      "title": "時間差計算機",
+      "description": "",
+      "ui": {
+        "timeDurationCalculator": "時間差計算機",
+        "startTime": "開始時刻",
+        "endTime": "終了時刻",
+        "endsOnTheNextDayCrossesMidnight": "翌日に終了（深夜をまたぐ）",
+        "calculateDuration": "時間を計算",
+        "hours": "時間",
+        "minutes": "分",
+        "totalTimeInMinutes": "合計時間（分）：",
+        "copy": "コピー",
+        "reset": "リセット",
+        "selectStartAndEndTimes": "開始時間と終了時間を選択してください"
+      }
+    },
+    "time-zone-converter": {
+      "title": "タイムゾーン変換",
+      "description": "",
+      "ui": {
+        "timeZoneConverter": "タイムゾーン変換",
+        "dateTime": "日時",
+        "fromTimeZoneRelative": "変換元タイムゾーン（相対）",
+        "toTimeZone": "変換先タイムゾーン",
+        "convert": "変換",
+        "selectDateAndTimeZonesTo": "比較する日付とタイムゾーンを選択してください"
+      }
+    },
+    "tip-calculator": {
+      "title": "チップ計算機",
+      "description": "",
+      "ui": {
+        "tipCalculator": "チップ計算機",
+        "billAmount": "請求額",
+        "tip": "チップ %",
+        "numberOfPeople": "人数",
+        "tipAmount": "チップ額",
+        "person": "/ 人",
+        "total": "合計",
+        "totalTip": "チップ合計：",
+        "totalBill": "請求額合計：",
+        "billDetails": "請求書の詳細",
+        "totalBreakdown": "合計の内訳"
+      }
+    },
+    "unix-timestamp-converter": {
+      "title": "Unixタイムスタンプ変換",
+      "description": "",
+      "ui": {
+        "timestampToDate": "タイムスタンプ → 日付",
+        "unixTimestamp": "Unixタイムスタンプ",
+        "convert": "変換",
+        "dateToTimestamp": "日付 → タイムスタンプ",
+        "localDateTime": "現地日時",
+        "eG1700000000": "例えば 1700000000",
+        "result": "結果"
+      }
+    },
+    "url-encode-decode": {
+      "title": "URLエンコード・デコード",
+      "description": "",
+      "ui": {
+        "urlEncoderDecoder": "URLエンコーダー / デコーダー",
+        "encode": "エンコード",
+        "decode": "デコード",
+        "input": "入力",
+        "output": "出力",
+        "mode": "モード"
+      }
+    },
+    "uuid-generator": {
+      "title": "UUIDジェネレーター",
+      "description": "",
+      "ui": {
+        "uuidV4Generator": "UUID（v4）ジェネレーター",
+        "howManyUuids": "UUIDはいくつ？",
+        "generate": "生成",
+        "generatedUuids": "生成されたUUID",
+        "copyAll": "すべてコピー",
+        "clickGenerateToCreateUUI": "「生成」をクリックして UUID を作成します"
+      }
+    },
+    "volume-converter": {
+      "title": "体積変換",
+      "description": "",
+      "ui": {
+        "volumeConverter": "体積変換",
+        "from": "変換元",
+        "to": "変換先"
+      }
+    },
+    "wake-up-time-calculator": {
+      "title": "起床時間計算機",
+      "description": "",
+      "ui": {
+        "wakeupTimeCalculator": "起床時間計算機",
+        "ifYouHeadToBedRightNowWhenShouldYouWakeUpToFeelRefreshed": "今すぐ寝るなら、すっきり目覚めるためには何時に起きればよいですか？",
+        "imGoingToBedNow": "今から寝ます",
+        "weAdded15MinutesForYouToFallAsleepSetYourAlarmForOneOfTheseTimesToWakeUpBetween90minuteSleepCycles": "眠りにつくための15分を追加しています。90分の睡眠サイクルの間に目覚めるよう、次のいずれかの時刻にアラームを設定してください：",
+        "3Cycles45h": "3サイクル（4.5時間）",
+        "4Cycles6h": "4サイクル（6時間）",
+        "5Cycles75h": "5サイクル（7.5時間）",
+        "6Cycles9h": "6サイクル（9時間）",
+        "readyForBed": "レディ・フォー・ベッド",
+        "clickTheButtonWhenYouReG": "寝るときにボタンをクリックしてください"
+      }
+    },
+    "water-intake-calculator": {
+      "title": "水分摂取量計算機",
+      "description": "",
+      "ui": {
+        "dailyWaterIntakeCalculator": "1日の水分摂取量計算機",
+        "weightKg": "体重（kg）",
+        "dailyExerciseMins": "1日の運動時間（分）",
+        "recommendedDailyIntake": "推奨される1日の摂取量",
+        "liters": "リットル",
+        "approx": "（約",
+        "ozOr": "oz または",
+        "cups": "カップ）",
+        "or": "または"
+      }
+    },
+    "weeks-between-dates": {
+      "title": "日付間の週数",
+      "description": "",
+      "ui": {
+        "weeksBetweenDates": "日付間の週数",
+        "startDate": "開始日",
+        "endDate": "終了日",
+        "calculateWeeks": "週数を計算",
+        "weeks": "週間",
+        "days": "日",
+        "copy": "コピー",
+        "reset": "リセット",
+        "selectDatesToCalculate": "計算する日付を選択してください"
+      }
+    },
+    "weight-converter": {
+      "title": "重量変換",
+      "description": "",
+      "ui": {
+        "weightConverter": "重量変換",
+        "from": "変換元",
+        "to": "変換先"
+      }
+    },
+    "word-counter": {
+      "title": "文字数・単語数カウンター",
+      "description": "",
+      "ui": {
+        "wordCounter": "単語数カウンター",
+        "words": "単語",
+        "characters": "文字",
+        "noSpaces": "スペースなし",
+        "paragraphs": "段落",
+        "startTypingOrPasteYourTex": "入力を開始するか、ここにテキストを貼り付けてください..."
+      }
+    },
+    "work-hours-calculator": {
+      "title": "勤務時間計算機",
+      "description": "",
+      "ui": {
+        "workHoursCalculator": "勤務時間計算機",
+        "clockIn": "出勤時刻",
+        "clockOut": "退勤時刻",
+        "breakMinutes": "休憩（分）",
+        "daysPerWeek": "週あたりの日数",
+        "calculateHours": "勤務時間を計算",
+        "dailyWorkHours": "1日の勤務時間",
+        "hrs": "時間",
+        "weeklyTotal": "週間合計",
+        "enterScheduleToCalculateHo": "スケジュールを入力して時間を計算します"
+      }
+    },
+    "world-time-converter": {
+      "title": "世界時計変換",
+      "description": "",
+      "ui": {
+        "worldTimeConverter": "世界時計変換"
+      }
+    },
+    "xml-formatter": {
+      "title": "XMLフォーマッター",
+      "description": "",
+      "ui": {
+        "xmlFormatter": "XMLフォーマッター",
+        "rawXml": "生XML",
+        "formattedXml": "整形済みXML"
+      }
+    },
+    "bionic-reading-converter": {
+      "title": "バイオニックリーディング変換",
+      "description": "",
+      "ui": {
+        "inputText": "入力テキスト",
+        "placeholder": "ここにテキストを貼り付けるか入力してください...",
+        "clear": "クリア",
+        "bionicOutput": "バイオニック出力",
+        "copyResult": "結果をコピー",
+        "emptyOutput": "バイオニックリーディングの出力がここに表示されます...",
+        "howItWorksTitle": "使い方:",
+        "howItWorksDescription": "このツールは、単語の最初の文字を強調表示することで速読テクニックを実装します。これにより視線がテキスト上を誘導され、脳が単語を補完するため、より速く、より集中して読むことができます。"
+      }
+    }
+  },
+  "Search": {
+    "placeholder": "ツールを検索...",
+    "noResults": "\"{query}\" に一致するツールが見つかりません。"
+  },
+  "Home": {
+    "title": "日常業務のための無料オンラインツール",
+    "subtitle": "高速で無料で使いやすいオンラインツールを使用して、毎日の作業を計算、変換、生成、簡素化します。",
+    "popularTools": "人気のツール",
+    "metaTitle": "100 ツール - プレミアム無料オンライン ツール",
+    "metaDescription": "100 以上のプレミアム オンライン ツール スイートを使用して、必要なものすべてを計算、変換、生成、分析します。",
+    "heroBadge": "100 以上の無料オンライン ツール",
+    "heroTitle1": "計算、変換、",
+    "heroTitle2": "すべてを生成します。",
+    "heroDescription": "開発者、財務専門家、日常業務向けのプレミアム生産性プラットフォーム。 高速、プライベート、そして美しいデザイン。",
+    "popular": "人気のある：",
+    "browseCategories": "カテゴリを参照",
+    "browseCategoriesDesc": "ワークフローごとに整理されているので、必要なものを正確に見つけることができます。",
+    "mostPopularTools": "最も人気のあるツール",
+    "mostPopularToolsDesc": "私たちのコミュニティが最も頻繁に使用するツール。",
+    "exploreAll": "すべてを探索する",
+    "whyUse": "100 個のツールを使用する理由",
+    "whyUseDesc": "最高のユーザーエクスペリエンスを提供するために最新のテクノロジーで構築されています。",
+    "feature1Title": "電光石火の速さ",
+    "feature1Desc": "ページをリロードすることなく即座に結果が得られます。 速度と低遅延を実現するために最適化されています。",
+    "feature2Title": "プライバシー第一",
+    "feature2Desc": "計算はブラウザ内で直接行われます。 データがデバイスの外に出ることはありません。",
+    "feature3Title": "プレミアムデザイン",
+    "feature3Desc": "美しく直感的で使いやすい、注意深く作られたインターフェイス。"
+  },
+  "Footer": {
+    "100Tools": "100 のツール",
+    "thePremiumProductivityPlatf": "日常の計算、変換、生成のすべてのニーズに対応するプレミアム生産性プラットフォーム。",
+    "categories": "カテゴリー",
+    "developerTools": "開発者ツール",
+    "finance": "ファイナンス",
+    "dateTime": "日付と時刻",
+    "textTools": "テキストツール",
+    "converters": "コンバーター",
+    "popularTools": "人気のツール",
+    "ageCalculator": "年齢計算機",
+    "jSONFormatter": "JSON フォーマッタ",
+    "percentageCalculator": "パーセンテージ計算機",
+    "base64Encoder": "Base64 エンコーダ",
+    "salaryCalculator": "給与計算機",
+    "company": "会社",
+    "aboutUs": "私たちについて",
+    "contact": "接触",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "Copy": "＆コピー;",
+    "100ToolsAllRightsReserved": "100のツール。 無断転載を禁じます。",
+    "builtWithNextJs": "Next.js で構築",
+    "madeWith": "❤️で作りました",
+    "tagline": "日常の計算、変換、生成のすべてのニーズに対応するプレミアム生産性プラットフォーム。",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "allRightsReserved": "無断転載を禁じます。",
+    "builtWith": "Next.js で構築",
+    "madeWithHeart": "❤️で作りました",
+    "cookie": "Cookie Policy"
+  },
+  "Header": {
+    "100Tools": "100 のツール",
+    "developer": "開発者",
+    "finance": "ファイナンス",
+    "time": "時間"
+  },
+  "LanguageSwitcher": {},
+  "RelatedTools": {
+    "relatedTools": "関連ツール",
+    "popular": "人気のある"
+  },
+  "ToolSearch": {
+    "tryADifferentSearchTermOr": "別の検索語を試すか、カテゴリを参照してください。"
+  },
+  "index": {
+    "advertisement": "広告"
+  },
+  "AgeCalculator": {},
+  "AreaConverter": {},
+  "AverageCalculator": {
+    "dataSet": "データセット",
+    "statistics": "統計",
+    "eG12345": "例えば 1 2 3 4 5"
+  },
+  "Base64EncodeDecode": {
+    "mode": "モード："
+  },
+  "BedtimeCalculator": {
+    "recommended": "推奨",
+    "enterYourWakeUpTimeToCal": "起床時間を入力して計算します"
+  },
+  "BinaryToDecimal": {
+    "eG1010": "例えば 1010"
+  },
+  "BionicReadingConverter": {},
+  "BmiCalculator": {
+    "Lt185": "<; 18.5",
+    "enterYourHeightAndWeight": "身長と体重を入力してください"
+  },
+  "BmrCalculator": {
+    "enterYourDetailsToCalculat": "BMRを計算するには詳細を入力してください"
+  },
+  "BoardFootCalculator": {},
+  "BodyFatCalculator": {
+    "enterYourMeasurementsToCal": "測定値を入力して体脂肪を計算します"
+  },
+  "BreakEvenCalculator": {
+    "costsPricing": "コストと価格設定",
+    "breakEvenPoint": "損益分岐点"
+  },
+  "CalorieCalculator": {
+    "enterYourDetailsToCalculat": "詳細を入力してカロリーを計算します"
+  },
+  "CharacterCounter": {
+    "startTypingOrPasteYourTex": "入力を開始するか、ここにテキストを貼り付けてください..."
+  },
+  "CompoundInterestCalculator": {
+    "interestDetails": "興味の詳細",
+    "growthBreakdown": "成長の内訳"
+  },
+  "ConcreteCalculator": {},
+  "CostPerSquareFootCalculator": {},
+  "CountdownTimer": {},
+  "CssMinifier": {},
+  "CurrencyConverter": {},
+  "DataStorageConverter": {},
+  "DateDifferenceCalculator": {
+    "selectDatesToCalculate": "計算する日付を選択してください"
+  },
+  "DaysBetweenDates": {
+    "selectDatesToCalculate": "計算する日付を選択してください"
+  },
+  "DaysUntilCalculator": {
+    "selectAFutureDate": "将来の日付を選択してください"
+  },
+  "DecimalToBinary": {
+    "eG10": "例えば 10"
+  },
+  "DeckingCalculator": {},
+  "DiscountCalculator": {
+    "discountDetails": "割引詳細",
+    "priceBreakdown": "価格の内訳"
+  },
+  "EmiCalculator": {
+    "eMIDetails": "EMIの詳細",
+    "paymentSummary": "お支払い概要"
+  },
+  "FenceCalculator": {},
+  "FinalGradeCalculator": {},
+  "FractionCalculator": {},
+  "GpaCalculator": {
+    "courseList": "コース一覧",
+    "result": "結果",
+    "course": "コース"
+  },
+  "GradeCalculator": {
+    "assignments": "課題",
+    "result": "結果",
+    "eGMidterm": "例えば 中間"
+  },
+  "HeightConverter": {},
+  "HexToDecimal": {
+    "eG1AOrFFFFFF": "例えば 1A または #FFFFFF"
+  },
+  "HourlyToSalaryCalculator": {
+    "hourlyDetails": "時間ごとの詳細",
+    "salaryBreakdown": "給与の内訳"
+  },
+  "HtmlEncodeDecode": {
+    "mode": "モード："
+  },
+  "HtmlMinifier": {},
+  "InvestmentCalculator": {
+    "investmentPlan": "投資計画",
+    "growthProjection": "成長予測"
+  },
+  "JsMinifier": {},
+  "JsonFormatter": {
+    "inputJSON": "JSONを入力",
+    "reset": "リセット"
+  },
+  "JwtDecoder": {
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+  },
+  "LengthConverter": {},
+  "LoanCalculator": {
+    "loanDetails": "ローンの詳細",
+    "paymentBreakdown": "お支払いの内訳"
+  },
+  "LoremIpsumGenerator": {
+    "generatedText": "生成されたテキスト"
+  },
+  "MacroCalculator": {
+    "kcal": "kcal",
+    "enterCaloriesToCalculateMa": "カロリーを入力してマクロを計算します"
+  },
+  "MarkupCalculator": {
+    "pricingDetails": "価格の詳細",
+    "sellingPrice": "販売価格"
+  },
+  "Md5Generator": {},
+  "MonthsBetweenDates": {
+    "result": "結果",
+    "selectDatesToCalculate": "計算する日付を選択してください"
+  },
+  "MortgageCalculator": {
+    "propertyDetails": "物件詳細",
+    "mortgageSummary": "住宅ローンの概要"
+  },
+  "MulchCalculator": {},
+  "NumberBaseConverter": {
+    "base": "ベース"
+  },
+  "OvertimeCalculator": {
+    "paySummary": "給与概要"
+  },
+  "PaceCalculator": {
+    "enterDistanceAndTimeToCal": "距離と時間を入力してペースを計算します"
+  },
+  "PaintCalculator": {},
+  "PasswordGenerator": {
+    "constraints": "制約",
+    "copyPassword": "パスワードをコピーする"
+  },
+  "PercentageCalculator": {
+    "calculatePercentage": "パーセンテージを計算する",
+    "result": "結果",
+    "enterValuesToCalculatePerc": "値を入力してパーセンテージを計算します"
+  },
+  "PercentageDecreaseCalculator": {
+    "values": "価値観",
+    "decreaseBreakdown": "減少の内訳"
+  },
+  "PercentageIncreaseCalculator": {
+    "values": "価値観",
+    "increaseBreakdown": "内訳の増加"
+  },
+  "PlantSpacingCalculator": {},
+  "PomodoroTimer": {
+    "pause": "一時停止",
+    "start": "始める"
+  },
+  "ProfitMarginCalculator": {
+    "financialDetails": "財務詳細",
+    "profitability": "収益性"
+  },
+  "QrCodeGenerator": {
+    "contentSettings": "コンテンツと設定",
+    "enterURLOrTextToEncode": "エンコードする URL またはテキストを入力してください...",
+    "generatedQRCode": "生成されたQRコード"
+  },
+  "RandomNumberGenerator": {
+    "rangeSettings": "範囲設定"
+  },
+  "RatioCalculator": {},
+  "RoiCalculator": {
+    "investmentDetails": "投資内容",
+    "returnOnInvestment": "投資収益率"
+  },
+  "RomanNumeralConverter": {},
+  "RunningDistanceCalculator": {
+    "enterPaceAndTimeToCalcula": "ペースと時間を入力して距離を計算します"
+  },
+  "SalaryCalculator": {
+    "incomeDetails": "収入の詳細",
+    "salaryBreakdown": "給与の内訳",
+    "enterYourIncomeDetailsToS": "収入の詳細を入力すると内訳が表示されます"
+  },
+  "SalaryToHourlyCalculator": {
+    "salaryDetails": "給与詳細",
+    "equivalentWage": "相当賃金"
+  },
+  "Sha1Generator": {},
+  "Sha256Generator": {},
+  "SimpleInterestCalculator": {
+    "interestDetails": "興味の詳細",
+    "growthBreakdown": "成長の内訳"
+  },
+  "SleepCalculator": {
+    "recommended": "推奨",
+    "enterWakeTimeToCalculateS": "起床時間を入力して睡眠サイクルを計算します"
+  },
+  "SpeedConverter": {},
+  "SpeedDistanceTimeCalculator": {
+    "enterTheKnownValuesToCalc": "計算する既知の値を入力します"
+  },
+  "SqlFormatter": {},
+  "SquareFootageCalculator": {},
+  "StepCalculator": {},
+  "Stopwatch": {
+    "laps": "ラップ",
+    "noLapsRecordedYet": "ラップはまだ記録されていません"
+  },
+  "TaxCalculator": {
+    "taxDetails": "税金の詳細",
+    "priceBreakdown": "価格の内訳"
+  },
+  "TemperatureConverter": {},
+  "TileCalculator": {},
+  "TimeDifferenceCalculator": {
+    "selectTimesToCompare": "比較する時間を選択してください"
+  },
+  "TimeDurationCalculator": {
+    "durationResult": "継続時間の結果",
+    "selectStartAndEndTimes": "開始時間と終了時間を選択してください"
+  },
+  "TimeZoneConverter": {
+    "conversionResult": "変換結果",
+    "selectDateAndTimeZonesTo": "変換する日付とタイムゾーンを選択してください"
+  },
+  "TipCalculator": {
+    "billDetails": "請求書の詳細",
+    "totalBreakdown": "合計の内訳"
+  },
+  "UnixTimestampConverter": {
+    "result": "結果",
+    "eG1700000000": "例えば 1700000000"
+  },
+  "UrlEncodeDecode": {
+    "mode": "モード："
+  },
+  "UuidGenerator": {
+    "clickGenerateToCreateUUI": "「生成」をクリックして UUID を作成します..."
+  },
+  "VolumeConverter": {},
+  "WakeUpTimeCalculator": {
+    "readyForBed": "寝る準備はできていますか？",
+    "recommended": "推奨",
+    "clickTheButtonWhenYouReG": "寝るときにボタンをクリックしてください"
+  },
+  "WaterIntakeCalculator": {
+    "or": "または",
+    "enterYourDetailsToCalculat": "詳細を入力して水分摂取量を計算します"
+  },
+  "WeeksBetweenDates": {
+    "result": "結果",
+    "selectDatesToCalculate": "計算する日付を選択してください"
+  },
+  "WeightConverter": {},
+  "WordCounter": {
+    "startTypingOrPasteYourTex": "入力を開始するか、ここにテキストを貼り付けてください..."
+  },
+  "WorkHoursCalculator": {
+    "hoursLog": "時間記録",
+    "enterScheduleToCalculateHo": "スケジュールを入力して時間を計算します"
+  },
+  "WorldTimeConverter": {},
+  "XmlFormatter": {},
+  "button": {},
+  "card": {},
+  "CategoryCard": {
+    "tools": "ツール",
+    "viewAllTools": "すべてのツールを表示"
+  },
+  "input": {},
+  "label": {},
+  "textarea": {},
+  "ToolCard": {},
+  "editor": {
+    "copy": "コピー"
+  },
+  "layout": {},
+  "panels": {},
+  "Page": {
+    "whatIs": "{title}とは何ですか?",
+    "howToUse": "{title}の使用方法",
+    "example": "例",
+    "useCases": "一般的な使用例",
+    "howItWorks": "仕組み",
+    "faq": "よくある質問",
+    "readyToStart": "始める準備はできていますか?",
+    "useToolNow": "今すぐツールを使用する"
+  },
+  "Categories": {
+    "developerTools": "開発者ツール",
+    "finance": "ファイナンス",
+    "time": "日付と時刻",
+    "text": "テキストツール",
+    "converters": "コンバーター"
+  },
+  "About": {
+    "title": "About Us & Methodology",
+    "description": "Welcome to 100 Tools, your free resource for premium online calculators and developer utilities.",
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is to provide fast, reliable, and privacy-respecting tools for everyday tasks. Whether you're a developer needing to encode a JWT, a homeowner calculating mulch volume, or just trying to figure out a discount, we've built a robust tool for you.",
+    "methodologyTitle": "Our Methodology",
+    "methodologyIntro": "We believe in transparency and accuracy, particularly for financial and health-related tools (Your Money or Your Life topics). Here is how we ensure our tools are reliable:",
+    "standardizedFormulasTitle": "Standardized Formulas",
+    "standardizedFormulasText": "All financial calculators (like ROI, Mortgages, and Loans) use industry-standard amortization and compound interest formulas.",
+    "medicalGuidelinesTitle": "Medical Guidelines",
+    "medicalGuidelinesText": "Health calculators (like BMI and BMR) use globally recognized equations, such as the Mifflin-St Jeor Equation for metabolic rate, and the standard WHO classifications for BMI.",
+    "privacyFirstTitle": "Privacy First",
+    "privacyFirstText": "Your data never leaves your browser. All calculations, hashing, and conversions happen locally on your device via JavaScript. We do not store or transmit your inputs.",
+    "continuousTestingTitle": "Continuous Testing",
+    "continuousTestingText": "Our toolkit is rigorously tested to ensure edge cases (like zero values or invalid inputs) are handled gracefully without crashing.",
+    "editorialGuidelinesTitle": "Editorial Guidelines",
+    "editorialGuidelinesText": "Every tool page is designed to be self-explanatory. We prioritize usability and clear instructions over cluttered interfaces. If an equation has limitations (like the Navy Body Fat method being an estimation), we clearly note it on the tool page.",
+    "disclaimer": "Disclaimer: The tools and calculators on this website are for informational and educational purposes only. They do not constitute professional financial or medical advice. Always consult with a qualified professional before making significant health or financial decisions."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you. Whether you have a question, a feature request, or found a bug, let us know!",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "Send Message",
+    "emailUs": "Email Us",
+    "emailAddress": "contact@100tools.example.com",
+    "responseTime": "We typically respond within 24-48 hours.",
+    "successMessage": "Thank you! Your message has been sent.",
+    "errorMessage": "Something went wrong. Please try again later."
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "At 100 Tools, your privacy is our top priority. This Privacy Policy outlines how we handle (and explicitly do NOT handle) your personal data.",
+    "dataCollectionTitle": "No Data Collection",
+    "dataCollectionText": "We do not collect, store, or transmit any personal data when you use our calculators and tools. All computations—including formatting, decoding, and calculating—are performed strictly locally within your browser using JavaScript.",
+    "analyticsTitle": "Analytics & Tracking",
+    "analyticsText": "We may use privacy-friendly, anonymized analytics to understand general traffic patterns (like which tools are most popular). This data cannot be traced back to individual users and does not use intrusive tracking cookies.",
+    "thirdPartyTitle": "Third-Party Services",
+    "thirdPartyText": "Our website is hosted on modern edge networks. These infrastructure providers may log basic connection data (like IP addresses) for security and anti-DDoS purposes, which is standard practice for any website.",
+    "contactUs": "If you have any questions about this Privacy Policy, please contact us."
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "By accessing and using 100 Tools, you agree to comply with and be bound by the following terms and conditions of use.",
+    "noWarrantyTitle": "No Warranties (As-Is)",
+    "noWarrantyText": "All tools, calculators, and information on this website are provided \"as-is\" without any representations or warranties, express or implied. We make no guarantees regarding the accuracy, reliability, or completeness of the results generated.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityText": "In no event shall 100 Tools be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever arising out of or in connection with the use of our tools. This includes financial losses or medical decisions made based on our calculators.",
+    "acceptableUseTitle": "Acceptable Use",
+    "acceptableUseText": "You agree to use our tools for lawful purposes only. You must not attempt to scrape, DDoS, or otherwise disrupt the service or networks connected to 100 Tools.",
+    "modificationsTitle": "Modifications",
+    "modificationsText": "We reserve the right to revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then-current version of these terms."
+  },
+  "Cookie": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, or the information we collect using cookies and how that information is used.",
+    "whatAreCookiesTitle": "What are Cookies?",
+    "whatAreCookiesText": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used to make websites work, or work more efficiently, as well as to provide reporting information.",
+    "howWeUseCookiesTitle": "How We Use Cookies",
+    "howWeUseCookiesText": "We use cookies strictly for essential functionality and basic user preferences. For example, we might use local storage or a cookie to remember if you prefer \"Dark Mode\" or \"Light Mode\", or to remember your preferred language.",
+    "noTrackingTitle": "No Invasive Tracking",
+    "noTrackingText": "We do not use advertising cookies, third-party trackers, or cross-site tracking technologies. Your use of our tools remains private.",
+    "managingCookiesTitle": "Managing Cookies",
+    "managingCookiesText": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed."
+  }
+}

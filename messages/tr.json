@@ -1,0 +1,1812 @@
+{
+  "Navigation": {
+    "home": "Ana Sayfa",
+    "tools": "Araçlar",
+    "categories": "Kategoriler",
+    "about": "Hakkında",
+    "contact": "İletişim"
+  },
+  "Common": {
+    "viewIn": "{language} dilinde görüntüle?",
+    "yes": "Evet",
+    "dismiss": "Kapat",
+    "language": "Dil",
+    "theme": "Tema",
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem",
+    "copy": "Kopyala"
+  },
+  "Tools": {
+    "age-calculator": {
+      "title": "Yaş Hesaplayıcı",
+      "description": "Tam yaşınızı yıl, ay ve gün cinsinden hesaplayın.",
+      "ui": {
+        "calculateYourAge": "Yaşınızı Hesaplayın",
+        "dateOfBirth": "Doğum Tarihi",
+        "calculate": "Hesaplamak",
+        "years": "Yıllar",
+        "months": "Aylar",
+        "days": "günler",
+        "nextBirthday": "Sonraki Doğum Günü:",
+        "totalDays": "Toplam Günler:",
+        "yourAgeIs": "Yaşınız:",
+        "copy": "Kopyala",
+        "reset": "Sıfırla",
+        "targetDate": "Hedef Tarih (İsteğe Bağlı)",
+        "selectYourDateOfBirth": "Doğum tarihinizi seçin"
+      }
+    },
+    "percentage-calculator": {
+      "title": "Yüzde Hesaplayıcı",
+      "description": "Yüzdeleri hızlı ve doğru bir şekilde hesaplayın.",
+      "ui": {
+        "percentageCalculator": "Yüzde Hesaplayıcı",
+        "whatIs": "Nedir",
+        "of": "ile ilgili",
+        "amount": "Miktar",
+        "calculate": "Hesaplamak",
+        "result": "Sonuç",
+        "calculatePercentage": "Yüzdeyi Hesapla"
+      }
+    },
+    "json-formatter": {
+      "title": "JSON Biçimlendirici",
+      "description": "JSON verilerini biçimlendirin, doğrulayın ve güzelleştirin.",
+      "ui": {
+        "formatJson": "JSON'u biçimlendir",
+        "inputJSON": "Giriş J S O N",
+        "reset": "Sıfırla"
+      }
+    },
+    "area-converter": {
+      "title": "Alan Dönüştürücü",
+      "description": "",
+      "ui": {
+        "areaConverter": "Alan Dönüştürücü",
+        "from": "İtibaren",
+        "to": "İle"
+      }
+    },
+    "average-calculator": {
+      "title": "Ortalama Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "averageCalculator": "Ortalama Hesaplayıcı",
+        "enterNumbersSeparatedByCommasOrSpaces": "Sayıları girin (virgül veya boşluklarla ayırarak)",
+        "count": "Saymak",
+        "sum": "Toplam",
+        "averageMean": "Ortalama (Ortalama)",
+        "median": "Medyan",
+        "dataSet": "Veri Seti",
+        "eG12345": "örneğin 1, 2, 3, 4, 5",
+        "statistics": "İstatistikler"
+      }
+    },
+    "base64encode-decode": {
+      "title": "Base64EncodeDecode",
+      "description": "",
+      "ui": {
+        "base64EncoderDecoder": "Base64 Kodlayıcı / Kod Çözücü",
+        "encode": "Kodla",
+        "decode": "Kod Çöz",
+        "input": "Giriş (",
+        "output": "Çıkış (",
+        "mode": "Mod"
+      }
+    },
+    "bedtime-calculator": {
+      "title": "Uyku Vakti Hesaplayıcısı",
+      "description": "",
+      "ui": {
+        "bedtimeCalculator": "Uyku Vakti Hesaplayıcısı",
+        "whenDoYouNeedToWakeUp": "Ne zaman uyanmanız gerekiyor?",
+        "calculate": "Hesaplamak",
+        "toWakeUpAt": "uyanmak için",
+        "youShouldTryToBeAsleepBy": ", aşağıdakileri yaparak uykuya dalmayı denemelisiniz:",
+        "6Cycles9h": "6 Döngü (9 saat)",
+        "5Cycles75h": "5 Döngü (7,5 saat)",
+        "calculationsIncludeAnAverage15MinutesToFallAsleep": "Hesaplamalar uykuya dalmak için ortalama 15 dakikayı içermektedir.",
+        "enterYourWakeUpTimeToCal": "Yatma zamanlarını hesaplamak için uyanma saatinizi girin"
+      }
+    },
+    "binary-to-decimal": {
+      "title": "İkiliden Ondalığa",
+      "description": "",
+      "ui": {
+        "binaryToDecimalConverter": "İkiliden Ondalığa Dönüştürücü",
+        "binaryNumber": "İkili Sayı",
+        "decimalResult": "Ondalık Sonuç",
+        "eG1010": "örneğin 1010"
+      }
+    },
+    "bmi-calculator": {
+      "title": "BmiHesap Makinesi",
+      "description": "",
+      "ui": {
+        "bmiCalculator": "BMI Hesaplayıcı",
+        "metric": "Metrik",
+        "imperial": "İmparatorluk",
+        "heightCm": "Yükseklik (cm)",
+        "weightKg": "Ağırlık (kg)",
+        "heightFt": "Yükseklik (ft)",
+        "heightIn": "Yükseklik (inç)",
+        "weightLbs": "Ağırlık (lbs)",
+        "yourBmi": "BMI'ınız",
+        "Lt185": "< 18,5"
+      }
+    },
+    "bmr-calculator": {
+      "title": "BmrHesap Makinesi",
+      "description": "",
+      "ui": {
+        "bmrCalculator": "BMR Hesaplayıcı",
+        "male": "Erkek",
+        "female": "Dişi",
+        "ageYears": "Yaş (yıl)",
+        "heightCm": "Yükseklik (cm)",
+        "weightKg": "Ağırlık (kg)",
+        "basalMetabolicRate": "Bazal Metabolizma Hızı",
+        "caloriesDay": "Kalori / Gün",
+        "thisIsTheAmountOfEnergyYourBodyBurnsAtRestJustToKeepYouAlive": "Bu, dinlenme halindeyken vücudunuzun sizi hayatta tutmak için yaktığı enerji miktarıdır."
+      }
+    },
+    "board-foot-calculator": {
+      "title": "Yönetim KuruluAyakHesap Makinesi",
+      "description": "",
+      "ui": {
+        "boardFootCalculator": "Board Ayak Hesaplayıcısı",
+        "thicknessIn": "Kalınlık (inç)",
+        "widthIn": "Genişlik (inç)",
+        "lengthFt": "Uzunluk (ft)",
+        "quantity": "Miktar",
+        "pricePerBf": "BF başına fiyat ($)",
+        "totalBoardFeet": "Toplam Tahta Ayakları",
+        "totalCost": "Toplam Maliyet: $"
+      }
+    },
+    "body-fat-calculator": {
+      "title": "VücutYağHesaplayıcı",
+      "description": "",
+      "ui": {
+        "bodyFatCalculatorNavyMethod": "Vücut Yağ Hesaplayıcısı (Donanma Yöntemi)",
+        "male": "Erkek",
+        "female": "Dişi",
+        "heightCm": "Yükseklik (cm)",
+        "neckCm": "Boyun (cm)",
+        "waistCmAtNavel": "Göbek deliğindeki bel (cm)",
+        "hipsCm": "Kalçalar (cm)",
+        "estimatedBodyFat": "Tahmini Vücut Yağı"
+      }
+    },
+    "break-even-calculator": {
+      "title": "BreakEvenHesaplayıcı",
+      "description": "",
+      "ui": {
+        "breakevenCalculator": "Başabaş Hesaplayıcısı",
+        "fixedCosts": "Sabit Maliyetler",
+        "variableCostPerUnit": "Birim Başına Değişken Maliyet",
+        "sellingPricePerUnit": "Birim Başına Satış Fiyatı",
+        "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "Başabaş için satış fiyatının değişken maliyetten büyük olması gerekir.",
+        "unitsToSell": "Satılacak Birimler",
+        "breakevenRevenue": "Başabaş Geliri",
+        "costsPricing": "Maliyet Fiyatlandırması",
+        "breakEvenPoint": "Başabaş Noktası"
+      }
+    },
+    "calorie-calculator": {
+      "title": "Kalori Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "dailyCalorieCalculator": "Günlük Kalori Hesaplayıcı",
+        "male": "Erkek",
+        "female": "Dişi",
+        "age": "Yaş",
+        "heightCm": "Yükseklik (cm)",
+        "weightKg": "Ağırlık (kg)",
+        "activityLevel": "Etkinlik Düzeyi",
+        "sedentaryLittleOrNoExercise": "Hareketsiz (çok az veya hiç egzersiz yapmama)",
+        "lightlyActiveLightExercise13Daysweek": "Hafif aktif (haftada 1-3 gün hafif egzersiz)",
+        "moderatelyActiveModerateExercise35Daysweek": "Orta derecede aktif (haftada 3-5 gün orta derecede egzersiz)",
+        "veryActiveHardExercise67Daysweek": "Çok aktif (haftada 6-7 gün ağır egzersiz)",
+        "extraActiveVeryHardExercisephysicalJob": "Ekstra aktif (çok ağır egzersiz/fiziksel iş)",
+        "maintainWeight": "Ağırlığı Koruyun",
+        "kcal": "kcal",
+        "loseWeight05kgweek": "Kilo Verme (-0,5kg/hafta)",
+        "gainWeight05kgweek": "Kilo Alın (+0,5kg/hafta)"
+      }
+    },
+    "character-counter": {
+      "title": "Karakter Sayacı",
+      "description": "",
+      "ui": {
+        "characterCounter": "Karakter Sayacı",
+        "totalCharacters": "Toplam Karakter",
+        "withoutSpaces": "Boşluksuz",
+        "spaces": "Alanlar",
+        "lines": "çizgiler",
+        "startTypingOrPasteYourTex": "Metninizi buraya yazmaya başlayın veya yapıştırın..."
+      }
+    },
+    "compound-interest-calculator": {
+      "title": "BileşikFaizHesap Makinesi",
+      "description": "",
+      "ui": {
+        "compoundInterestCalculator": "Bileşik Faiz Hesaplayıcı",
+        "principalAmount": "Anapara Tutarı",
+        "annualRate": "Yıllık Oran (%)",
+        "timeYears": "Zaman (Yıl)",
+        "compoundFrequency": "Bileşik Frekans",
+        "daily": "Günlük",
+        "monthly": "Aylık",
+        "quarterly": "Üç ayda bir",
+        "semiannually": "Altı Aylık",
+        "annually": "Yıllık",
+        "interestEarned": "Kazanılan Faiz",
+        "finalBalance": "Nihai Bakiye",
+        "interestDetails": "Faiz Detayları",
+        "growthBreakdown": "Büyüme Kırılımı"
+      }
+    },
+    "concrete-calculator": {
+      "title": "Beton Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "concreteCalculator": "Beton Hesaplayıcı",
+        "lengthFt": "Uzunluk (ft)",
+        "widthFt": "Genişlik (ft)",
+        "depthThicknessInches": "Derinlik / Kalınlık (inç)",
+        "volumeRequired": "Gerekli Hacim",
+        "cubicYards": "Metreküp",
+        "80lbBags": "80 lb'lik Çantalar",
+        "60lbBags": "60 lb'lik Çantalar",
+        "40lbBags": "40 lb'lik Çantalar"
+      }
+    },
+    "cost-per-square-foot-calculator": {
+      "title": "Kare Başına MaliyetAyakHesap Makinesi",
+      "description": "",
+      "ui": {
+        "costPerSquareFoot": "Metrekare Başına Maliyet",
+        "totalPriceOrCost": "Toplam Fiyat veya Maliyet ($)",
+        "totalSquareFootage": "Toplam Kare Görüntü",
+        "sqFt": "/ ft2"
+      }
+    },
+    "countdown-timer": {
+      "title": "Geri Sayım Sayacı",
+      "description": "",
+      "ui": {
+        "countdownTimer": "Geri Sayım Sayacı",
+        "minutes": "dakika",
+        "start": "Başlangıç",
+        "pause": "Duraklat",
+        "reset": "Sıfırla"
+      }
+    },
+    "css-minifier": {
+      "title": "CssMinifier",
+      "description": "",
+      "ui": {
+        "cssMinifier": "CSS Küçültücü",
+        "inputCss": "Giriş CSS'si",
+        "bytes": "bayt (-",
+        "minifiedCss": "Küçültülmüş CSS"
+      }
+    },
+    "currency-converter": {
+      "title": "Para Dönüştürücü",
+      "description": "",
+      "ui": {
+        "currencyConverterEstimated": "Döviz Çevirici (Tahmini)",
+        "amount": "Miktar",
+        "from": "İtibaren",
+        "to": "İle",
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Not: Bu oranlar yalnızca gösterim amaçlı statik tahminlerdir."
+      }
+    },
+    "data-storage-converter": {
+      "title": "Veri Depolama Dönüştürücü",
+      "description": "",
+      "ui": {
+        "dataStorageConverter": "Veri Depolama Dönüştürücü",
+        "from": "İtibaren",
+        "to": "İle"
+      }
+    },
+    "date-difference-calculator": {
+      "title": "TarihFarkıHesaplayıcı",
+      "description": "",
+      "ui": {
+        "dateDifferenceCalculator": "Tarih Farkı Hesaplayıcı",
+        "startDate": "Başlangıç ​​Tarihi",
+        "endDate": "Bitiş Tarihi",
+        "calculateDifference": "Farkı Hesapla",
+        "timeDifference": "Zaman Farkı:",
+        "years": "Yıllar",
+        "months": "Aylar",
+        "days": "günler",
+        "totalDaysEquivalent": "Toplam Gün Eşdeğeri:",
+        "totalWeeksEquivalent": "Toplam Hafta Eşdeğeri:",
+        "weeks": "haftalar,",
+        "copy": "Kopyala",
+        "reset": "Sıfırla",
+        "selectDatesToCalculate": "Hesaplanacak Tarihleri ​​Seçin"
+      }
+    },
+    "days-between-dates": {
+      "title": "Tarihler Arasındaki Günler",
+      "description": "",
+      "ui": {
+        "daysBetweenDates": "Tarihler Arasındaki Günler",
+        "startDate": "Başlangıç ​​Tarihi",
+        "endDate": "Bitiş Tarihi",
+        "includeStartDateInCalculation": "Başlangıç ​​tarihini hesaplamaya dahil et",
+        "includeEndDateInCalculation": "Bitiş tarihini hesaplamaya dahil et",
+        "calculateDays": "Günleri Hesapla",
+        "totalResult": "Toplam Sonuç:",
+        "days": "Günler",
+        "copy": "Kopyala",
+        "reset": "Sıfırla",
+        "selectDatesToCalculate": "Hesaplanacak Tarihleri ​​Seçin"
+      }
+    },
+    "days-until-calculator": {
+      "title": "Hesap Makinesine Kalan Gün Sayısı",
+      "description": "",
+      "ui": {
+        "daysUntil": "Gün Kalacak...",
+        "selectFutureDateEventHolidayDeadline": "Gelecek Tarihi Seçin (Etkinlik, Tatil, Son Tarih)",
+        "calculate": "Hesaplamak",
+        "timeRemaining": "Kalan Süre:",
+        "totalDays": "Toplam Günler",
+        "whichIsExactly": "Tam olarak şu:",
+        "days": "günler",
+        "copy": "Kopyala",
+        "reset": "Sıfırla",
+        "selectAFutureDate": "Gelecek Bir Tarih Seçin"
+      }
+    },
+    "decimal-to-binary": {
+      "title": "Ondalıktan İkiliye",
+      "description": "",
+      "ui": {
+        "decimalToBinaryConverter": "Ondalıktan İkiliye Dönüştürücü",
+        "decimalNumber": "Ondalık Sayı",
+        "binaryResult": "İkili Sonuç",
+        "eG10": "örneğin 10"
+      }
+    },
+    "decking-calculator": {
+      "title": "Zemin Kaplaması Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "deckingMaterialCalculator": "Zemin Kaplama Malzemesi Hesaplayıcı",
+        "deckLengthFt": "Güverte Uzunluğu (ft)",
+        "parallelToHouse": "Eve paralel",
+        "deckWidthDepthFt": "Güverte Genişliği / Derinliği (ft)",
+        "awayFromHouse": "Evden uzakta",
+        "boardLengthFt": "Tahta Uzunluğu (ft)",
+        "boardWidthIn": "Kart Genişliği (inç)",
+        "requiredBoards": "Gerekli Kurullar (",
+        "length": "' uzunluk)",
+        "deckArea": "Güverte Alanı",
+        "sqFt": "metrekare",
+        "screwsFasteners": "Vidalar / Bağlantı Elemanları"
+      }
+    },
+    "discount-calculator": {
+      "title": "İndirim Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "discountCalculator": "İndirim Hesaplayıcı",
+        "originalPrice": "Orijinal Fiyat",
+        "discount": "İndirim",
+        "type": "Tip",
+        "off": "% Kapalı",
+        "fixedAmountOff": "Sabit Tutarlı Kapalı",
+        "youSave": "Kazanıyorsun",
+        "finalPrice": "Nihai Fiyat",
+        "discountDetails": "İndirim Detayları",
+        "priceBreakdown": "Fiyat Dağılımı"
+      }
+    },
+    "emi-calculator": {
+      "title": "EmiHesap Makinesi",
+      "description": "",
+      "ui": {
+        "emiCalculator": "EMI Hesaplayıcı",
+        "loanAmountPrincipal": "Kredi Tutarı (Anapara)",
+        "annualRate": "Yıllık Oran (%)",
+        "tenureMonths": "Görev Süresi (Ay)",
+        "monthlyEmi": "Aylık EMI",
+        "totalInterestPayable": "Ödenecek Toplam Faiz",
+        "totalPaymentPrincipalInterest": "Toplam Ödeme (Anapara + Faiz)",
+        "eMIDetails": "E M I Detayları",
+        "paymentSummary": "Ödeme Özeti"
+      }
+    },
+    "fence-calculator": {
+      "title": "Çit Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "fenceMaterialCalculator": "Çit Malzemesi Hesaplayıcı",
+        "totalFenceLengthFt": "Toplam Çit Uzunluğu (ft)",
+        "postSpacingFt": "Direk Aralığı (ft)",
+        "standardIs6Or8": "Standart 6' veya 8'",
+        "horizontalRailsPerPanel": "Panel Başına Yatay Raylar",
+        "usually2Or3": "Genellikle 2 veya 3",
+        "picketWidthIn": "Kazık Genişliği (inç)",
+        "picketSpacingIn": "Kazık Aralığı (inç)",
+        "0ForSolidPrivacy": "Sağlam gizlilik için 0",
+        "posts": "Gönderiler",
+        "rails": "Raylar",
+        "pickets": "Gözcüler"
+      }
+    },
+    "final-grade-calculator": {
+      "title": "Final Notu Hesaplayıcısı",
+      "description": "",
+      "ui": {
+        "finalGradeCalculator": "Final Notu Hesaplayıcı",
+        "currentGrade": "Mevcut Not (%)",
+        "desiredClassGrade": "İstenilen Sınıf Notu (%)",
+        "finalExamWeight": "Final Sınavı Ağırlığı (%)",
+        "youNeedToScore": "Gol atmanız gerekiyor",
+        "onTheFinalExam": "final sınavında",
+        "itLooksLikeScoringThisGradeIsMathematicallyImpossibleUnlessThereIsExtraCreditAvailable": "Fazladan kredi olmadığı sürece bu notu almak matematiksel olarak imkansız gibi görünüyor."
+      }
+    },
+    "fraction-calculator": {
+      "title": "Kesir Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "fractionCalculator": "Kesir Hesaplayıcı",
+        "decimal": "Ondalık:"
+      }
+    },
+    "gpa-calculator": {
+      "title": "GpaHesaplayıcı",
+      "description": "",
+      "ui": {
+        "gpaCalculator": "GPA Hesaplayıcı",
+        "courseName": "Kurs Adı",
+        "credits": "Kredi",
+        "grade": "Seviye",
+        "addCourse": "Kurs Ekle",
+        "totalCredits": "Toplam Kredi",
+        "cumulativeGpa": "Kümülatif not ortalaması",
+        "courseList": "Ders Listesi",
+        "course": "Kurs",
+        "result": "Sonuç"
+      }
+    },
+    "grade-calculator": {
+      "title": "Not Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "gradeCalculator": "Not Hesaplayıcı",
+        "assignmentCategory": "Ödev Kategorisi",
+        "grade": "Seviye (%)",
+        "weight": "Ağırlık (%)",
+        "addCategory": "Kategori Ekle",
+        "totalWeightEntered": "Girilen Toplam Ağırlık",
+        "currentGrade": "Mevcut Not",
+        "assignments": "Atamalar",
+        "eGMidterm": "örneğin Ara sınav",
+        "result": "Sonuç"
+      }
+    },
+    "height-converter": {
+      "title": "Yükseklik Dönüştürücü",
+      "description": "",
+      "ui": {
+        "heightConverter": "Yükseklik Dönüştürücü",
+        "metricCentimeters": "Metrik (Santimetre)",
+        "cm": "santimetre",
+        "imperialFeetInches": "Imperial (Feet ve İnç)",
+        "ft": "ft",
+        "in": "içinde"
+      }
+    },
+    "hex-to-decimal": {
+      "title": "HexToDecimal",
+      "description": "",
+      "ui": {
+        "hexToDecimalConverter": "Hex'ten Ondalık Sayıya Dönüştürücü",
+        "hexadecimalNumber": "Onaltılı Sayı",
+        "decimalResult": "Ondalık Sonuç",
+        "eG1AOrFFFFFF": "örneğin 1A veya FFFFFF"
+      }
+    },
+    "hourly-to-salary-calculator": {
+      "title": "SaatlikMaaşHesaplayıcı",
+      "description": "",
+      "ui": {
+        "hourlyToSalaryCalculator": "Saatlik Maaş Hesaplayıcı",
+        "hourlyWage": "Saatlik Ücret",
+        "hoursWeek": "Saat / Hafta",
+        "weeksYear": "Hafta / Yıl",
+        "daily": "Günlük",
+        "weekly": "Haftalık",
+        "monthly": "Aylık",
+        "yearlySalary": "Yıllık Maaş",
+        "hourlyDetails": "Saatlik Detaylar",
+        "salaryBreakdown": "Maaş Dağılımı"
+      }
+    },
+    "html-encode-decode": {
+      "title": "HtmlEncodeDecode",
+      "description": "",
+      "ui": {
+        "htmlEntityEncoderDecoder": "HTML Varlık Kodlayıcı / Kod Çözücü",
+        "encode": "Kodla",
+        "decode": "Kod Çöz",
+        "input": "Giriş",
+        "output": "Çıkış",
+        "mode": "Mod"
+      }
+    },
+    "html-minifier": {
+      "title": "HtmlMinifier",
+      "description": "",
+      "ui": {
+        "htmlMinifier": "HTML Küçültücü",
+        "inputHtml": "HTML'yi girin",
+        "bytes": "bayt (-",
+        "minifiedHtml": "Küçültülmüş HTML"
+      }
+    },
+    "investment-calculator": {
+      "title": "Yatırım Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "investmentCalculator": "Yatırım Hesaplayıcı",
+        "initialInvestment": "İlk Yatırım",
+        "monthlyContribution": "Aylık Katkı",
+        "expectedReturn": "Beklenen Getiri (%)",
+        "yearsToGrow": "Büyüyecek Yıllar",
+        "totalContributions": "Toplam Katkılar",
+        "interestEarned": "Kazanılan Faiz",
+        "futureValue": "Gelecek Değer",
+        "investmentPlan": "Yatırım Planı",
+        "growthProjection": "Büyüme Tahmini"
+      }
+    },
+    "js-minifier": {
+      "title": "JsMinifier",
+      "description": "",
+      "ui": {
+        "javascriptMinifier": "JavaScript Küçültücü",
+        "inputJs": "JS'yi girin",
+        "bytes": "bayt (-",
+        "minifiedJs": "Küçültülmüş JS"
+      }
+    },
+    "jwt-decoder": {
+      "title": "JwtDekoder",
+      "description": "",
+      "ui": {
+        "jwtDecoder": "JWT Kod Çözücü",
+        "encodedJwtHeaderpayloadsignature": "Kodlanmış JWT (Başlık.Payload.İmza)",
+        "invalidJwtFormat": "Geçersiz JWT biçimi.",
+        "header": "Başlık",
+        "payload": "Yük",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik..."
+      }
+    },
+    "length-converter": {
+      "title": "UzunlukDönüştürücü",
+      "description": "",
+      "ui": {
+        "lengthConverter": "Uzunluk Dönüştürücü",
+        "from": "İtibaren",
+        "to": "İle"
+      }
+    },
+    "loan-calculator": {
+      "title": "Kredi Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "loanCalculator": "Kredi Hesaplayıcı",
+        "loanAmount": "Kredi Tutarı",
+        "interestRate": "Faiz Oranı (%)",
+        "loanTermYears": "Kredi Vadesi (Yıl)",
+        "monthlyPayment": "Aylık Ödeme",
+        "totalInterest": "Toplam Faiz",
+        "totalCostOfLoan": "Toplam Kredi Maliyeti",
+        "loanDetails": "Kredi Detayları",
+        "paymentBreakdown": "Ödeme Dağılımı"
+      }
+    },
+    "lorem-ipsum-generator": {
+      "title": "LoremIpsumJeneratör",
+      "description": "",
+      "ui": {
+        "loremIpsumGenerator": "Lorem Ipsum Jeneratör",
+        "paragraphs": "Paragraflar",
+        "generate": "Oluştur",
+        "copy": "Kopyala",
+        "generatedText": "Oluşturulan Metin"
+      }
+    },
+    "macro-calculator": {
+      "title": "MakroHesap Makinesi",
+      "description": "",
+      "ui": {
+        "macroCalculator": "Makro Hesaplayıcı",
+        "dailyCalories": "Günlük Kaloriler",
+        "dietPlan": "Diyet Planı",
+        "balanced303040": "Dengeli (30/30/40)",
+        "lowCarb404020": "Düşük Karbonhidrat (40/40/20)",
+        "highProtein402535": "Yüksek Protein (40/25/35)",
+        "keto20755": "Keto (20/75/5)",
+        "protein": "Protein",
+        "g": "G",
+        "fats": "Yağlar",
+        "carbs": "Karbonhidratlar",
+        "kcal": "kcal"
+      }
+    },
+    "markup-calculator": {
+      "title": "İşaretleme Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "markupCalculator": "İşaretleme Hesaplayıcı",
+        "cost": "Maliyet",
+        "markup": "İşaretleme (%)",
+        "profit": "Kâr",
+        "sellingPrice": "Satış Fiyatı",
+        "pricingDetails": "Fiyatlandırma Ayrıntıları"
+      }
+    },
+    "md5generator": {
+      "title": "Md5Jeneratör",
+      "description": "",
+      "ui": {
+        "md5HashGenerator": "MD5 Karma Oluşturucu",
+        "inputString": "Giriş Dizesi",
+        "md5Hash": "MD5 Karma",
+        "theDefaultHashShownIsForAnEmptyString": "Gösterilen varsayılan karma boş bir dize içindir."
+      }
+    },
+    "months-between-dates": {
+      "title": "Tarihler Arasındaki Aylar",
+      "description": "",
+      "ui": {
+        "monthsBetweenDates": "Tarihler Arasındaki Aylar",
+        "startDate": "Başlangıç ​​Tarihi",
+        "endDate": "Bitiş Tarihi",
+        "calculateMonths": "Ayları Hesapla",
+        "months": "Aylar",
+        "days": "Günler",
+        "copy": "Kopyala",
+        "reset": "Sıfırla",
+        "selectDatesToCalculate": "Hesaplanacak Tarihleri ​​Seçin"
+      }
+    },
+    "mortgage-calculator": {
+      "title": "İpotek Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "mortgageCalculator": "İpotek Hesaplayıcı",
+        "homePrice": "Ev Fiyatı",
+        "downPayment": "Peşinat",
+        "interestRate": "Faiz Oranı (%)",
+        "loanTermYears": "Kredi Vadesi (Yıl)",
+        "principalLoanAmount": "Ana Kredi Tutarı",
+        "monthlyPayment": "Aylık Ödeme",
+        "propertyDetails": "Emlak Detayları",
+        "mortgageSummary": "İpotek Özeti"
+      }
+    },
+    "mulch-calculator": {
+      "title": "Malç Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "mulchTopsoilCalculator": "Malç ve Üst Toprak Hesaplayıcısı",
+        "lengthFt": "Uzunluk (ft)",
+        "widthFt": "Genişlik (ft)",
+        "depthInches": "Derinlik (inç)",
+        "standardMulchDepthIs24Inches": "Standart malç derinliği 2-4 inçtir.",
+        "youWillNeed": "İhtiyacınız olacak",
+        "cubicYards": "Metreküp",
+        "2CuFtBags": "2 cu. ft. Çantalar",
+        "3CuFtBags": "3 cu. ft. Çantalar"
+      }
+    },
+    "number-base-converter": {
+      "title": "NumberBaseConverter",
+      "description": "",
+      "ui": {
+        "numberBaseConverter": "Sayı Tabanı Dönüştürücü",
+        "from": "İtibaren",
+        "to": "İle",
+        "base": "Temel"
+      }
+    },
+    "overtime-calculator": {
+      "title": "Fazla Mesai Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "overtimeCalculator": "Fazla Mesai Hesaplayıcı",
+        "hourlyRate": "Saatlik Ücret",
+        "otMultiplier": "Uzatma Çarpanı",
+        "timeAndAHalf15x": "Bir buçuk süre (1,5x)",
+        "doubleTime20x": "Çift zaman (2,0x)",
+        "straightTime10x": "Düz süre (1,0x)",
+        "standardWeeklyHours": "Standart Haftalık Çalışma Saatleri",
+        "totalHoursWorked": "Toplam Çalışılan Saat",
+        "regularPay": "Düzenli Ödeme (",
+        "hrs": "saat @",
+        "overtimePay": "Fazla Mesai Ücreti (",
+        "hr": "/saat)",
+        "totalGrossPay": "Toplam Brüt Ücret",
+        "paySummary": "Ödeme Özeti"
+      }
+    },
+    "pace-calculator": {
+      "title": "Hız Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "runningPaceCalculator": "Koşu Hızı Hesaplayıcı",
+        "distance": "Mesafe",
+        "kilometersKm": "Kilometre (km)",
+        "milesMi": "Mil (mil)",
+        "totalTime": "Toplam Süre",
+        "hrs": "saat",
+        "mins": "dakika",
+        "secs": "saniye",
+        "averagePace": "Ortalama Hız",
+        "per": "başına"
+      }
+    },
+    "paint-calculator": {
+      "title": "Boya Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "paintCalculator": "Boya Hesaplayıcı",
+        "totalSurfaceAreaSqFt": "Toplam Yüzey Alanı (ft kare)",
+        "numberOfCoats": "Kat Sayısı",
+        "1Coat": "1 Kat",
+        "2Coats": "2 Kat",
+        "3Coats": "3 Kat",
+        "coverageSqFtGallon": "Kapsama alanı (ft kare / galon)",
+        "youWillNeed": "İhtiyacınız olacak",
+        "gallons": "galon)",
+        "exactCalculation": "(Tam hesaplama:"
+      }
+    },
+    "password-generator": {
+      "title": "Şifre Oluşturucu",
+      "description": "",
+      "ui": {
+        "securePasswordGenerator": "Güvenli Şifre Oluşturucu",
+        "generatePassword": "Şifre Oluştur",
+        "passwordLength": "Şifre Uzunluğu:",
+        "uppercaseAz": "Büyük harf (A'dan Z'ye)",
+        "lowercaseAz": "Küçük harf (a-z)",
+        "numbers09": "Sayılar (0-9)",
+        "symbols": "Semboller (!@#)",
+        "constraints": "Kısıtlamalar",
+        "copyPassword": "Şifreyi Kopyala"
+      }
+    },
+    "percentage-decrease-calculator": {
+      "title": "Yüzde Azalma Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "percentageDecreaseCalculator": "Yüzde Azalış Hesaplayıcı",
+        "initialValue": "Başlangıç ​​Değeri",
+        "finalValue": "Nihai Değer",
+        "absoluteChange": "Mutlak Değişim",
+        "decrease": "Azaltmak",
+        "values": "Değerler",
+        "decreaseBreakdown": "Arızayı Azaltın"
+      }
+    },
+    "percentage-increase-calculator": {
+      "title": "Yüzde Artış Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "percentageIncreaseCalculator": "Yüzde Artış Hesaplayıcı",
+        "initialValue": "Başlangıç ​​Değeri",
+        "finalValue": "Nihai Değer",
+        "absoluteChange": "Mutlak Değişim",
+        "change": "Değiştirmek",
+        "values": "Değerler",
+        "increaseBreakdown": "Arızayı Artırın"
+      }
+    },
+    "plant-spacing-calculator": {
+      "title": "Bitki Aralığı Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "plantSpacingCalculator": "Bitki Aralığı Hesaplayıcı",
+        "squareGrid": "Kare Izgara",
+        "triangularOffset": "Üçgen (Ofset)",
+        "bedLengthFt": "Yatak Uzunluğu (ft)",
+        "bedWidthFt": "Yatak Genişliği (ft)",
+        "plantSpacingInchesBetweenCenters": "Bitki Aralığı (merkezler arasında inç)",
+        "estimatedTotalPlants": "Tahmini Toplam Tesisler"
+      }
+    },
+    "pomodoro-timer": {
+      "title": "PomodoroZamanlayıcı",
+      "description": "",
+      "ui": {
+        "pomodoroTimer": "Pomodoro Zamanlayıcı",
+        "work25m": "Çalışma (25m)",
+        "break5m": "Mola (5m)",
+        "reset": "Sıfırla",
+        "start": "Başlangıç"
+      }
+    },
+    "profit-margin-calculator": {
+      "title": "Kâr Marjı Hesaplayıcısı",
+      "description": "",
+      "ui": {
+        "profitMarginCalculator": "Kâr Marjı Hesaplayıcı",
+        "revenueSellingPrice": "Gelir (Satış Fiyatı)",
+        "costOfGoodsSold": "Satılan Malın Maliyeti",
+        "grossProfit": "Brüt kazanç",
+        "margin": "Marj",
+        "financialDetails": "Finansal Detaylar",
+        "profitability": "karlılık"
+      }
+    },
+    "qr-code-generator": {
+      "title": "QrCodeGenerator",
+      "description": "",
+      "ui": {
+        "qrCodeGenerator": "QR Kod Oluşturucu",
+        "urlOrText": "URL veya Metin",
+        "size": "Boyut",
+        "small150x150": "Küçük (150x150)",
+        "medium250x250": "Orta (250x250)",
+        "large500x500": "Büyük (500x500)",
+        "highres1000x1000": "Yüksek Çözünürlük (1000x1000)",
+        "downloadImage": "Resmi İndir",
+        "enterTextAboveToGenerateAQrCode": "QR kodu oluşturmak için yukarıya metni girin",
+        "contentSettings": "İçerik Ayarları",
+        "enterURLOrTextToEncode": "Kodlanacak URL'yi veya metni girin",
+        "generatedQRCode": "Oluşturulan QR Kodu"
+      }
+    },
+    "random-number-generator": {
+      "title": "Rastgele Sayı Oluşturucu",
+      "description": "",
+      "ui": {
+        "randomNumberGenerator": "Rastgele Sayı Üreteci",
+        "minimum": "Asgari",
+        "maximum": "Maksimum",
+        "generateRandomNumber": "Rastgele Sayı Oluştur",
+        "result": "Sonuç",
+        "rangeSettings": "Aralık Ayarları"
+      }
+    },
+    "ratio-calculator": {
+      "title": "Oran Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "ratioCalculatorAbCd": "Oran Hesaplayıcı (A:B = C:D)",
+        "enter3ValuesToCalculateThe4thMissingValue": "4. eksik değeri hesaplamak için 3 değer girin."
+      }
+    },
+    "roi-calculator": {
+      "title": "ROIHesaplayıcı",
+      "description": "",
+      "ui": {
+        "roiCalculator": "ROI Hesaplayıcı",
+        "initialInvestment": "İlk Yatırım",
+        "finalValueReturned": "Döndürülen Nihai Değer",
+        "profit": "Kâr",
+        "roi": "yatırım getirisi",
+        "investmentDetails": "Yatırım Detayları",
+        "returnOnInvestment": "Yatırım Getirisi"
+      }
+    },
+    "roman-numeral-converter": {
+      "title": "Roma RakamıDönüştürücü",
+      "description": "",
+      "ui": {
+        "romanNumeralConverter": "Romen Rakamıyla Dönüştürücü",
+        "numberRoman": "Sayı → Roma",
+        "romanNumber": "Roma → Sayı",
+        "result": "Sonuç"
+      }
+    },
+    "running-distance-calculator": {
+      "title": "Koşu Mesafe Hesaplayıcısı",
+      "description": "",
+      "ui": {
+        "runningDistanceCalculator": "Koşu Mesafesi Hesaplayıcı",
+        "pacePer": "Hız (başına",
+        "mins": "dakika",
+        "secs": "saniye",
+        "totalTime": "Toplam Süre",
+        "hrs": "saat",
+        "totalDistance": "Toplam Mesafe",
+        "kilometersKm": "Kilometre (km)",
+        "milesMi": "Mil (mil)"
+      }
+    },
+    "salary-calculator": {
+      "title": "Maaş Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "salaryCalculator": "Maaş Hesaplayıcı",
+        "salaryAmount": "Maaş Tutarı",
+        "per": "Başına",
+        "hour": "Saat",
+        "day": "Gün",
+        "week": "Hafta",
+        "month": "Ay",
+        "year": "Yıl",
+        "hoursPerWeek": "Haftalık saat",
+        "calculate": "Hesaplamak",
+        "hourly": "Saatlik",
+        "daily": "Günlük",
+        "weekly": "Haftalık",
+        "monthly": "Aylık",
+        "yearly": "Yıllık",
+        "incomeDetails": "Gelir Detayları",
+        "enterYourIncomeDetailsToS": "Özeti görmek için gelir ayrıntılarınızı girin"
+      }
+    },
+    "salary-to-hourly-calculator": {
+      "title": "Maaş-Saatlik Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "salaryToHourlyCalculator": "Saatlik Hesaplayıcıya Maaş",
+        "annualSalary": "Yıllık Maaş",
+        "hoursWeek": "Saat / Hafta",
+        "weeksYear": "Hafta / Yıl",
+        "hourlyWage": "Saatlik Ücret",
+        "salaryDetails": "Maaş Detayları",
+        "equivalentWage": "Eşdeğer Ücret"
+      }
+    },
+    "sha1generator": {
+      "title": "Sha1Generatör",
+      "description": "",
+      "ui": {
+        "sha1HashGenerator": "SHA-1 Karma Oluşturucu",
+        "inputString": "Giriş Dizesi",
+        "sha1Hash": "SHA-1 Karma",
+        "theDefaultHashShownIsForAnEmptyString": "Gösterilen varsayılan karma boş bir dize içindir."
+      }
+    },
+    "sha256generator": {
+      "title": "Sha256Jeneratör",
+      "description": "",
+      "ui": {
+        "sha256HashGenerator": "SHA-256 Karma Oluşturucu",
+        "inputString": "Giriş Dizesi",
+        "sha256Hash": "SHA-256 Karma",
+        "theDefaultHashShownIsForAnEmptyString": "Gösterilen varsayılan karma boş bir dize içindir."
+      }
+    },
+    "simple-interest-calculator": {
+      "title": "Basit Faiz Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "simpleInterestCalculator": "Basit Faiz Hesaplayıcı",
+        "principalAmount": "Anapara Tutarı",
+        "annualRate": "Yıllık Oran (%)",
+        "time": "Zaman",
+        "years": "Yıllar",
+        "months": "Aylar",
+        "days": "Günler",
+        "interestEarned": "Kazanılan Faiz",
+        "finalBalance": "Nihai Bakiye",
+        "interestDetails": "Faiz Detayları",
+        "growthBreakdown": "Büyüme Kırılımı"
+      }
+    },
+    "sleep-calculator": {
+      "title": "Uyku Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "sleepCalculator": "Uyku Hesaplayıcı",
+        "iWantToWakeUpAt": "Şu saatte uyanmak istiyorum:",
+        "calculate": "Hesaplamak",
+        "toWakeUpRefreshedAt": "Yenilenmiş olarak uyanmak için",
+        "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": "Aşağıdaki zamanlardan birinde uykuya dalmayı denemelisiniz (uykuya dalmak için 15 dakikayı içerir):",
+        "6Cycles9h": "6 Döngü (9 saat)",
+        "5Cycles75h": "5 Döngü (7,5 saat)",
+        "4Cycles6h": "4 Döngü (6 saat)",
+        "3Cycles45h": "3 Döngü (4,5 saat)",
+        "enterWakeTimeToCalculateS": "Uyku sürelerini hesaplamak için uyanma saatini girin"
+      }
+    },
+    "speed-converter": {
+      "title": "Hız Dönüştürücü",
+      "description": "",
+      "ui": {
+        "speedConverter": "Hız Dönüştürücü",
+        "from": "İtibaren",
+        "to": "İle"
+      }
+    },
+    "speed-distance-time-calculator": {
+      "title": "HızMesafeZaman Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "speedDistanceTime": "Hız, Mesafe, Zaman",
+        "solveForSpeed": "Hız için Çözün",
+        "solveForDistance": "Mesafeyi Çöz",
+        "solveForTime": "Zaman İçin Çöz",
+        "distance": "Mesafe",
+        "timeHours": "Zaman (Saat)",
+        "speed": "Hız"
+      }
+    },
+    "sql-formatter": {
+      "title": "SqlFormatter",
+      "description": "",
+      "ui": {
+        "sqlFormatter": "SQL Biçimlendirici",
+        "rawSql": "Ham SQL",
+        "formattedSql": "Biçimlendirilmiş SQL"
+      }
+    },
+    "square-footage-calculator": {
+      "title": "Kare Görüntü Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "squareFootageCalculator": "Kare Görüntü Hesaplayıcı",
+        "lengthFt": "Uzunluk (ft)",
+        "widthFt": "Genişlik (ft)",
+        "addArea": "Alan Ekle",
+        "totalArea": "Toplam Alan",
+        "squareFeetSqFt": "Metrekare (ft kare)"
+      }
+    },
+    "step-calculator": {
+      "title": "Adım Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "stairStepCalculator": "Merdiven / Basamak Hesaplayıcı",
+        "totalRiseHeightInches": "Toplam Yükseliş / Yükseklik (inç)",
+        "totalVerticalDistanceFromLowerFloorToUpperFloor": "Alt kattan üst kata kadar toplam dikey mesafe.",
+        "targetRiserHeightIn": "Hedef Yükseltici Yüksekliği (inç)",
+        "standardMaxIsUsually775": "Standart maksimum genellikle 7,75\"",
+        "targetTreadDepthIn": "Hedef Diş Derinliği (inç)",
+        "standardMinIsUsually10": "Standart minimum genellikle 10\"",
+        "numberOfRisers": "Yükseltici Sayısı",
+        "actualRiserHeight": "Gerçek Yükseltici Yüksekliği",
+        "totalRunHorizontalDistance": "Toplam Koşu (Yatay Mesafe)",
+        "ft": "ft)"
+      }
+    },
+    "stopwatch": {
+      "title": "Kronometre",
+      "description": "",
+      "ui": {
+        "stopwatch": "Kronometre",
+        "start": "Başlangıç",
+        "pause": "Duraklat",
+        "lap": "Kucak",
+        "reset": "Sıfırla",
+        "laps": "Turlar",
+        "noLapsRecordedYet": "Henüz Kaydedilmiş Tur Yok"
+      }
+    },
+    "tax-calculator": {
+      "title": "Vergi Hesaplayıcı",
+      "description": "",
+      "ui": {
+        "salesTaxCalculator": "Satış Vergisi Hesaplayıcı",
+        "price": "Fiyat",
+        "taxRate": "Vergi Oranı (%)",
+        "priceAlreadyIncludesTax": "Fiyata zaten vergi dahildir",
+        "priceBeforeTax": "Vergi Öncesi Fiyat",
+        "taxAmount": "Vergi Tutarı",
+        "totalFinalPrice": "Toplam Nihai Fiyat",
+        "taxDetails": "Vergi Ayrıntıları",
+        "priceBreakdown": "Fiyat Dağılımı"
+      }
+    },
+    "temperature-converter": {
+      "title": "Sıcaklık Dönüştürücü",
+      "description": "",
+      "ui": {
+        "temperatureConverter": "Sıcaklık Dönüştürücü",
+        "from": "İtibaren",
+        "celsius": "santigrat",
+        "fahrenheit": "Fahrenhayt",
+        "kelvin": "Kelvin",
+        "to": "İle"
+      }
+    },
+    "tile-calculator": {
+      "title": "Döşeme Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "tileCalculator": "Fayans Hesaplayıcı",
+        "totalAreaToCoverSqFt": "Kaplanacak Toplam Alan (ft kare)",
+        "tileLengthInches": "Döşeme Uzunluğu (inç)",
+        "tileWidthInches": "Döşeme Genişliği (inç)",
+        "wasteOverage": "Atık / Fazlalık (%)",
+        "standardRecommendationIs10ForStandardLayouts15ForDiagonal": "Standart öneri, standart düzenler için %10, diyagonal için %15'tir.",
+        "totalTilesNeeded": "Gerekli Toplam Fayans",
+        "eachTileCovers": "Her karo kapsar",
+        "sqFt": "metrekare"
+      }
+    },
+    "time-difference-calculator": {
+      "title": "Zaman Farkı Hesaplayıcısı",
+      "description": "",
+      "ui": {
+        "timeDifference": "Saat Farkı",
+        "firstTime": "İlk Kez",
+        "secondTime": "İkinci Kez",
+        "calculateAbsoluteDifference": "Mutlak Farkı Hesapla",
+        "difference": "Fark:",
+        "h": "H",
+        "m": "M",
+        "copy": "Kopyala",
+        "reset": "Sıfırla",
+        "selectTimesToCompare": "Karşılaştırılacak Zamanları Seçin"
+      }
+    },
+    "time-duration-calculator": {
+      "title": "ZamanSüreHesaplayıcı",
+      "description": "",
+      "ui": {
+        "timeDurationCalculator": "Zaman Süresi Hesaplayıcı",
+        "startTime": "Başlangıç ​​Zamanı",
+        "endTime": "Bitiş Zamanı",
+        "endsOnTheNextDayCrossesMidnight": "Ertesi gün biter (gece yarısını geçer)",
+        "calculateDuration": "Süreyi Hesapla",
+        "hours": "Saat",
+        "minutes": "dakika",
+        "totalTimeInMinutes": "Dakika cinsinden toplam süre:",
+        "copy": "Kopyala",
+        "reset": "Sıfırla",
+        "selectStartAndEndTimes": "Başlangıç ​​ve Bitiş Zamanlarını Seçin"
+      }
+    },
+    "time-zone-converter": {
+      "title": "Saat Dilimi Dönüştürücü",
+      "description": "",
+      "ui": {
+        "timeZoneConverter": "Saat Dilimi Dönüştürücü",
+        "dateTime": "Tarih ve Saat",
+        "fromTimeZoneRelative": "Saat Dilimi'nden (Göreceli)",
+        "toTimeZone": "Saat Dilimi'ne",
+        "convert": "Dönüştürmek",
+        "selectDateAndTimeZonesTo": "Karşılaştırılacak tarih ve saat dilimlerini seçin"
+      }
+    },
+    "tip-calculator": {
+      "title": "İpucu Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "tipCalculator": "Bahşiş Hesaplayıcı",
+        "billAmount": "Fatura Tutarı",
+        "tip": "Uç %",
+        "numberOfPeople": "Kişi Sayısı",
+        "tipAmount": "Bahşiş Tutarı",
+        "person": "/ kişi",
+        "total": "Toplam",
+        "totalTip": "Toplam İpucu:",
+        "totalBill": "Toplam Fatura:",
+        "billDetails": "Fatura Detayları",
+        "totalBreakdown": "Toplam Kırılım"
+      }
+    },
+    "unix-timestamp-converter": {
+      "title": "UnixZaman Damgası Dönüştürücü",
+      "description": "",
+      "ui": {
+        "timestampToDate": "Tarihe Kadar Zaman Damgası",
+        "unixTimestamp": "Unix Zaman Damgası",
+        "convert": "Dönüştürmek",
+        "dateToTimestamp": "Zaman Damgasına Tarih",
+        "localDateTime": "Yerel Tarih ve Saat",
+        "eG1700000000": "örneğin 1700000000",
+        "result": "Sonuç"
+      }
+    },
+    "url-encode-decode": {
+      "title": "UrlEncodeDecode",
+      "description": "",
+      "ui": {
+        "urlEncoderDecoder": "URL Kodlayıcı / Kod Çözücü",
+        "encode": "Kodla",
+        "decode": "Kod Çöz",
+        "input": "Giriş",
+        "output": "Çıkış",
+        "mode": "Mod"
+      }
+    },
+    "uuid-generator": {
+      "title": "UuidJeneratör",
+      "description": "",
+      "ui": {
+        "uuidV4Generator": "UUID (v4) Oluşturucu",
+        "howManyUuids": "Kaç tane UUID var?",
+        "generate": "Oluştur",
+        "generatedUuids": "Oluşturulan UUID'ler",
+        "copyAll": "Tümünü Kopyala",
+        "clickGenerateToCreateUUI": "UUID oluşturmak için oluştur'a tıklayın"
+      }
+    },
+    "volume-converter": {
+      "title": "Hacim Dönüştürücü",
+      "description": "",
+      "ui": {
+        "volumeConverter": "Hacim Dönüştürücü",
+        "from": "İtibaren",
+        "to": "İle"
+      }
+    },
+    "wake-up-time-calculator": {
+      "title": "Uyanma Süresi Hesaplayıcısı",
+      "description": "",
+      "ui": {
+        "wakeupTimeCalculator": "Uyanma Süresi Hesaplayıcı",
+        "ifYouHeadToBedRightNowWhenShouldYouWakeUpToFeelRefreshed": "Şu anda yatağa giderseniz, yenilenmiş hissetmek için ne zaman uyanmalısınız?",
+        "imGoingToBedNow": "şimdi yatmaya gidiyorum",
+        "weAdded15MinutesForYouToFallAsleepSetYourAlarmForOneOfTheseTimesToWakeUpBetween90minuteSleepCycles": "Uykuya dalmanız için 15 dakika ekledik. 90 dakikalık uyku döngüleri arasında uyanmak için alarmınızı şu saatlerden birine ayarlayın:",
+        "3Cycles45h": "3 Döngü (4,5 saat)",
+        "4Cycles6h": "4 Döngü (6 saat)",
+        "5Cycles75h": "5 Döngü (7,5 saat)",
+        "6Cycles9h": "6 Döngü (9 saat)",
+        "readyForBed": "Yatmaya Hazır",
+        "clickTheButtonWhenYouReG": "Yatağa gittiğinizde düğmeye tıklayın"
+      }
+    },
+    "water-intake-calculator": {
+      "title": "Su Emme Hesap Makinesi",
+      "description": "",
+      "ui": {
+        "dailyWaterIntakeCalculator": "Günlük Su Alımı Hesaplayıcı",
+        "weightKg": "Ağırlık (kg)",
+        "dailyExerciseMins": "Günlük Egzersiz (dakika)",
+        "recommendedDailyIntake": "Önerilen Günlük Alım Miktarı",
+        "liters": "Litre",
+        "approx": "(yaklaşık.",
+        "ozOr": "oz veya",
+        "cups": "bardaklar)",
+        "or": "Veya"
+      }
+    },
+    "weeks-between-dates": {
+      "title": "Tarihler Arasındaki Haftalar",
+      "description": "",
+      "ui": {
+        "weeksBetweenDates": "Tarihler Arasındaki Haftalar",
+        "startDate": "Başlangıç ​​Tarihi",
+        "endDate": "Bitiş Tarihi",
+        "calculateWeeks": "Haftaları Hesapla",
+        "weeks": "Haftalar",
+        "days": "Günler",
+        "copy": "Kopyala",
+        "reset": "Sıfırla",
+        "selectDatesToCalculate": "Hesaplanacak Tarihleri ​​Seçin"
+      }
+    },
+    "weight-converter": {
+      "title": "Ağırlık Dönüştürücü",
+      "description": "",
+      "ui": {
+        "weightConverter": "Ağırlık Dönüştürücü",
+        "from": "İtibaren",
+        "to": "İle"
+      }
+    },
+    "word-counter": {
+      "title": "Kelime Sayacı",
+      "description": "",
+      "ui": {
+        "wordCounter": "Kelime Sayacı",
+        "words": "Kelimeler",
+        "characters": "Karakterler",
+        "noSpaces": "Boşluk Yok",
+        "paragraphs": "Paragraflar",
+        "startTypingOrPasteYourTex": "Metninizi buraya yazmaya başlayın veya yapıştırın..."
+      }
+    },
+    "work-hours-calculator": {
+      "title": "ÇalışmaSaatiHesaplayıcı",
+      "description": "",
+      "ui": {
+        "workHoursCalculator": "Çalışma Saatleri Hesaplayıcı",
+        "clockIn": "Saat Girişi",
+        "clockOut": "Saat Çıkışı",
+        "breakMinutes": "Mola (Dakika)",
+        "daysPerWeek": "Haftalık Günler",
+        "calculateHours": "Saatleri Hesapla",
+        "dailyWorkHours": "Günlük Çalışma Saatleri",
+        "hrs": "saat",
+        "weeklyTotal": "Haftalık Toplam",
+        "enterScheduleToCalculateHo": "Saatleri hesaplamak için programı girin"
+      }
+    },
+    "world-time-converter": {
+      "title": "Dünya Saati Dönüştürücü",
+      "description": "",
+      "ui": {
+        "worldTimeConverter": "Dünya Saati Dönüştürücü"
+      }
+    },
+    "xml-formatter": {
+      "title": "XmlFormatter",
+      "description": "",
+      "ui": {
+        "xmlFormatter": "XML Biçimlendirici",
+        "rawXml": "Ham XML",
+        "formattedXml": "Biçimlendirilmiş XML"
+      }
+    },
+    "bionic-reading-converter": {
+      "title": "Biyonik Okuma Dönüştürücü",
+      "description": "",
+      "ui": {
+        "inputText": "Giriş Metni",
+        "placeholder": "Metninizi buraya yapıştırın veya yazın...",
+        "clear": "Temizle",
+        "bionicOutput": "Biyonik Çıktı",
+        "copyResult": "Sonucu Kopyala",
+        "emptyOutput": "Biyonik okuma çıktısı burada görünecek...",
+        "howItWorksTitle": "Nasıl çalışır:",
+        "howItWorksDescription": "Bu araç, kelimelerin başlangıç harflerini vurgulayarak bir hızlı okuma tekniği uygular. Bu, gözlerinizi metin üzerinde yönlendirir ve beyniniz kelimeyi tamamlar, böylece daha hızlı ve daha odaklı okumanızı sağlar."
+      }
+    }
+  },
+  "Search": {
+    "placeholder": "Araçlarda ara...",
+    "noResults": "\"{query}\" için araç bulunamadı."
+  },
+  "Home": {
+    "title": "Günlük Görevler İçin Ücretsiz Çevrimiçi Araçlar",
+    "subtitle": "Hızlı, ücretsiz ve kullanımı kolay çevrimiçi araçlarla günlük işlerinizi hesaplayın, dönüştürün, oluşturun ve basitleştirin.",
+    "popularTools": "Popüler Araçlar",
+    "metaTitle": "100 Araç - Premium Ücretsiz Çevrimiçi Araçlar",
+    "metaDescription": "100'den fazla premium çevrimiçi araçtan oluşan paketimizle ihtiyacınız olan her şeyi hesaplayın, dönüştürün, oluşturun ve analiz edin.",
+    "heroBadge": "100+ Ücretsiz Çevrimiçi Araç",
+    "heroTitle1": "Hesapla, dönüştür ve",
+    "heroTitle2": "her şeyi üretir.",
+    "heroDescription": "Geliştiriciler, finans profesyonelleri ve günlük görevler için birinci sınıf üretkenlik platformu. Hızlı, özel ve güzel tasarlanmış.",
+    "popular": "Popüler:",
+    "browseCategories": "Kategorilere Göz Atın",
+    "browseCategoriesDesc": "İş akışına göre düzenlenmiş olarak tam olarak ihtiyacınız olanı bulun.",
+    "mostPopularTools": "En Popüler Araçlar",
+    "mostPopularToolsDesc": "Topluluğumuzun en sık kullandığı araçlar.",
+    "exploreAll": "Tümünü Keşfet",
+    "whyUse": "Neden 100 Araç kullanmalısınız?",
+    "whyUseDesc": "En iyi kullanıcı deneyimini sağlamak için modern teknolojiyle tasarlandı.",
+    "feature1Title": "Yıldırım Hızında",
+    "feature1Desc": "Sayfa yeniden yüklenmeden anında sonuçlar. Hız ve düşük gecikme için optimize edilmiştir.",
+    "feature2Title": "Önce Gizlilik",
+    "feature2Desc": "Hesaplamalar doğrudan tarayıcınızda gerçekleşir. Verileriniz asla cihazınızdan ayrılmaz.",
+    "feature3Title": "Üstün Tasarım",
+    "feature3Desc": "Güzel, sezgisel ve kullanımı kolay, özenle hazırlanmış arayüzler."
+  },
+  "Footer": {
+    "100Tools": "100 Araç",
+    "thePremiumProductivityPlatf": "Tüm günlük hesaplama, dönüştürme ve üretim ihtiyaçlarınız için birinci sınıf üretkenlik platformu.",
+    "categories": "Kategoriler",
+    "developerTools": "Geliştirici Araçları",
+    "finance": "Finans",
+    "dateTime": "Tarih ve Saat",
+    "textTools": "Metin Araçları",
+    "converters": "Dönüştürücüler",
+    "popularTools": "Popüler Araçlar",
+    "ageCalculator": "Yaş Hesaplayıcı",
+    "jSONFormatter": "JSON Biçimlendirici",
+    "percentageCalculator": "Yüzde Hesaplayıcı",
+    "base64Encoder": "Base64 Kodlayıcı",
+    "salaryCalculator": "Maaş Hesaplayıcı",
+    "company": "Şirket",
+    "aboutUs": "Hakkımızda",
+    "contact": "Temas etmek",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Hizmet Şartları",
+    "Copy": "&kopyala;",
+    "100ToolsAllRightsReserved": "100 Araç. Her hakkı saklıdır.",
+    "builtWithNextJs": "Next.js ile oluşturuldu",
+    "madeWith": "❤️ ile yapıldı",
+    "tagline": "Tüm günlük hesaplama, dönüştürme ve üretim ihtiyaçlarınız için birinci sınıf üretkenlik platformu.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları",
+    "allRightsReserved": "Her hakkı saklıdır.",
+    "builtWith": "Next.js ile oluşturuldu",
+    "madeWithHeart": "❤️ ile yapıldı",
+    "cookie": "Cookie Policy"
+  },
+  "Header": {
+    "100Tools": "100 Araç",
+    "developer": "Geliştirici",
+    "finance": "Finans",
+    "time": "Zaman"
+  },
+  "LanguageSwitcher": {},
+  "RelatedTools": {
+    "relatedTools": "İlgili Araçlar",
+    "popular": "Popüler"
+  },
+  "ToolSearch": {
+    "tryADifferentSearchTermOr": "Farklı bir arama terimi deneyin veya kategorilere göz atın."
+  },
+  "index": {
+    "advertisement": "Reklamcılık"
+  },
+  "AgeCalculator": {},
+  "AreaConverter": {},
+  "AverageCalculator": {
+    "dataSet": "Veri Seti",
+    "statistics": "İstatistikler",
+    "eG12345": "örneğin 1 2 3 4 5"
+  },
+  "Base64EncodeDecode": {
+    "mode": "Mod:"
+  },
+  "BedtimeCalculator": {
+    "recommended": "Tavsiye edilen",
+    "enterYourWakeUpTimeToCal": "Hesaplamak için uyanma saatinizi girin"
+  },
+  "BinaryToDecimal": {
+    "eG1010": "örneğin 1010"
+  },
+  "BionicReadingConverter": {},
+  "BmiCalculator": {
+    "Lt185": "< 18.5",
+    "enterYourHeightAndWeight": "Boyunuzu ve kilonuzu girin"
+  },
+  "BmrCalculator": {
+    "enterYourDetailsToCalculat": "BMR'yi hesaplamak için bilgilerinizi girin"
+  },
+  "BoardFootCalculator": {},
+  "BodyFatCalculator": {
+    "enterYourMeasurementsToCal": "Vücut yağını hesaplamak için ölçümlerinizi girin"
+  },
+  "BreakEvenCalculator": {
+    "costsPricing": "Maliyetler ve Fiyatlandırma",
+    "breakEvenPoint": "Başabaş Noktası"
+  },
+  "CalorieCalculator": {
+    "enterYourDetailsToCalculat": "Kalori hesaplamak için bilgilerinizi girin"
+  },
+  "CharacterCounter": {
+    "startTypingOrPasteYourTex": "Metninizi buraya yazmaya başlayın veya yapıştırın..."
+  },
+  "CompoundInterestCalculator": {
+    "interestDetails": "Faiz Detayları",
+    "growthBreakdown": "Büyüme Kırılımı"
+  },
+  "ConcreteCalculator": {},
+  "CostPerSquareFootCalculator": {},
+  "CountdownTimer": {},
+  "CssMinifier": {},
+  "CurrencyConverter": {},
+  "DataStorageConverter": {},
+  "DateDifferenceCalculator": {
+    "selectDatesToCalculate": "Hesaplanacak tarihleri ​​seçin"
+  },
+  "DaysBetweenDates": {
+    "selectDatesToCalculate": "Hesaplanacak tarihleri ​​seçin"
+  },
+  "DaysUntilCalculator": {
+    "selectAFutureDate": "Gelecekteki bir tarihi seçin"
+  },
+  "DecimalToBinary": {
+    "eG10": "örneğin 10"
+  },
+  "DeckingCalculator": {},
+  "DiscountCalculator": {
+    "discountDetails": "İndirim Detayları",
+    "priceBreakdown": "Fiyat Dağılımı"
+  },
+  "EmiCalculator": {
+    "eMIDetails": "EMI Ayrıntıları",
+    "paymentSummary": "Ödeme Özeti"
+  },
+  "FenceCalculator": {},
+  "FinalGradeCalculator": {},
+  "FractionCalculator": {},
+  "GpaCalculator": {
+    "courseList": "Ders Listesi",
+    "result": "Sonuç",
+    "course": "Kurs"
+  },
+  "GradeCalculator": {
+    "assignments": "Atamalar",
+    "result": "Sonuç",
+    "eGMidterm": "örneğin Ara sınav"
+  },
+  "HeightConverter": {},
+  "HexToDecimal": {
+    "eG1AOrFFFFFF": "örneğin 1A veya #FFFFFF"
+  },
+  "HourlyToSalaryCalculator": {
+    "hourlyDetails": "Saatlik Detaylar",
+    "salaryBreakdown": "Maaş Dağılımı"
+  },
+  "HtmlEncodeDecode": {
+    "mode": "Mod:"
+  },
+  "HtmlMinifier": {},
+  "InvestmentCalculator": {
+    "investmentPlan": "Yatırım Planı",
+    "growthProjection": "Büyüme Tahmini"
+  },
+  "JsMinifier": {},
+  "JsonFormatter": {
+    "inputJSON": "JSON'u girin",
+    "reset": "Sıfırla"
+  },
+  "JwtDecoder": {
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+  },
+  "LengthConverter": {},
+  "LoanCalculator": {
+    "loanDetails": "Kredi Detayları",
+    "paymentBreakdown": "Ödeme Dağılımı"
+  },
+  "LoremIpsumGenerator": {
+    "generatedText": "Oluşturulan Metin"
+  },
+  "MacroCalculator": {
+    "kcal": "kcal",
+    "enterCaloriesToCalculateMa": "Makroları hesaplamak için kalori girin"
+  },
+  "MarkupCalculator": {
+    "pricingDetails": "Fiyatlandırma Ayrıntıları",
+    "sellingPrice": "Satış Fiyatı"
+  },
+  "Md5Generator": {},
+  "MonthsBetweenDates": {
+    "result": "Sonuç",
+    "selectDatesToCalculate": "Hesaplanacak tarihleri ​​seçin"
+  },
+  "MortgageCalculator": {
+    "propertyDetails": "Emlak Detayları",
+    "mortgageSummary": "İpotek Özeti"
+  },
+  "MulchCalculator": {},
+  "NumberBaseConverter": {
+    "base": "Temel"
+  },
+  "OvertimeCalculator": {
+    "paySummary": "Ödeme Özeti"
+  },
+  "PaceCalculator": {
+    "enterDistanceAndTimeToCal": "Hızı hesaplamak için mesafeyi ve süreyi girin"
+  },
+  "PaintCalculator": {},
+  "PasswordGenerator": {
+    "constraints": "Kısıtlamalar",
+    "copyPassword": "Şifreyi Kopyala"
+  },
+  "PercentageCalculator": {
+    "calculatePercentage": "Yüzdeyi Hesapla",
+    "result": "Sonuç",
+    "enterValuesToCalculatePerc": "Yüzdeyi hesaplamak için değerleri girin"
+  },
+  "PercentageDecreaseCalculator": {
+    "values": "Değerler",
+    "decreaseBreakdown": "Arızayı Azaltın"
+  },
+  "PercentageIncreaseCalculator": {
+    "values": "Değerler",
+    "increaseBreakdown": "Arızayı Artırın"
+  },
+  "PlantSpacingCalculator": {},
+  "PomodoroTimer": {
+    "pause": "Duraklat",
+    "start": "Başlangıç"
+  },
+  "ProfitMarginCalculator": {
+    "financialDetails": "Finansal Detaylar",
+    "profitability": "karlılık"
+  },
+  "QrCodeGenerator": {
+    "contentSettings": "İçerik ve Ayarlar",
+    "enterURLOrTextToEncode": "Kodlanacak URL'yi veya metni girin...",
+    "generatedQRCode": "Oluşturulan QR Kodu"
+  },
+  "RandomNumberGenerator": {
+    "rangeSettings": "Aralık Ayarları"
+  },
+  "RatioCalculator": {},
+  "RoiCalculator": {
+    "investmentDetails": "Yatırım Detayları",
+    "returnOnInvestment": "Yatırım Getirisi"
+  },
+  "RomanNumeralConverter": {},
+  "RunningDistanceCalculator": {
+    "enterPaceAndTimeToCalcula": "Mesafeyi hesaplamak için tempo ve süreyi girin"
+  },
+  "SalaryCalculator": {
+    "incomeDetails": "Gelir Detayları",
+    "salaryBreakdown": "Maaş Dağılımı",
+    "enterYourIncomeDetailsToS": "Dökümü görmek için gelir ayrıntılarınızı girin"
+  },
+  "SalaryToHourlyCalculator": {
+    "salaryDetails": "Maaş Detayları",
+    "equivalentWage": "Eşdeğer Ücret"
+  },
+  "Sha1Generator": {},
+  "Sha256Generator": {},
+  "SimpleInterestCalculator": {
+    "interestDetails": "Faiz Detayları",
+    "growthBreakdown": "Büyüme Kırılımı"
+  },
+  "SleepCalculator": {
+    "recommended": "Tavsiye edilen",
+    "enterWakeTimeToCalculateS": "Uyku döngülerini hesaplamak için uyanma saatini girin"
+  },
+  "SpeedConverter": {},
+  "SpeedDistanceTimeCalculator": {
+    "enterTheKnownValuesToCalc": "Hesaplanacak bilinen değerleri girin"
+  },
+  "SqlFormatter": {},
+  "SquareFootageCalculator": {},
+  "StepCalculator": {},
+  "Stopwatch": {
+    "laps": "Turlar",
+    "noLapsRecordedYet": "Henüz tur kaydedilmedi"
+  },
+  "TaxCalculator": {
+    "taxDetails": "Vergi Ayrıntıları",
+    "priceBreakdown": "Fiyat Dağılımı"
+  },
+  "TemperatureConverter": {},
+  "TileCalculator": {},
+  "TimeDifferenceCalculator": {
+    "selectTimesToCompare": "Karşılaştırılacak zamanları seçin"
+  },
+  "TimeDurationCalculator": {
+    "durationResult": "Süre Sonucu",
+    "selectStartAndEndTimes": "Başlangıç ​​ve bitiş zamanlarını seçin"
+  },
+  "TimeZoneConverter": {
+    "conversionResult": "Dönüşüm Sonucu",
+    "selectDateAndTimeZonesTo": "Dönüştürülecek tarih ve saat dilimlerini seçin"
+  },
+  "TipCalculator": {
+    "billDetails": "Fatura Detayları",
+    "totalBreakdown": "Toplam Kırılım"
+  },
+  "UnixTimestampConverter": {
+    "result": "Sonuç",
+    "eG1700000000": "örneğin 1700000000"
+  },
+  "UrlEncodeDecode": {
+    "mode": "Mod:"
+  },
+  "UuidGenerator": {
+    "clickGenerateToCreateUUI": "UUID'ler oluşturmak için 'Oluştur'u tıklayın..."
+  },
+  "VolumeConverter": {},
+  "WakeUpTimeCalculator": {
+    "readyForBed": "Yatmaya hazır mısın?",
+    "recommended": "Tavsiye edilen",
+    "clickTheButtonWhenYouReG": "Yatağa gittiğinizde düğmeye tıklayın"
+  },
+  "WaterIntakeCalculator": {
+    "or": "veya",
+    "enterYourDetailsToCalculat": "Su tüketimini hesaplamak için bilgilerinizi girin"
+  },
+  "WeeksBetweenDates": {
+    "result": "Sonuç",
+    "selectDatesToCalculate": "Hesaplanacak tarihleri ​​seçin"
+  },
+  "WeightConverter": {},
+  "WordCounter": {
+    "startTypingOrPasteYourTex": "Metninizi buraya yazmaya başlayın veya yapıştırın..."
+  },
+  "WorkHoursCalculator": {
+    "hoursLog": "Saat Günlüğü",
+    "enterScheduleToCalculateHo": "Saatleri hesaplamak için programı girin"
+  },
+  "WorldTimeConverter": {},
+  "XmlFormatter": {},
+  "button": {},
+  "card": {},
+  "CategoryCard": {
+    "tools": "aletler",
+    "viewAllTools": "Tüm araçları görüntüle"
+  },
+  "input": {},
+  "label": {},
+  "textarea": {},
+  "ToolCard": {},
+  "editor": {
+    "copy": "Kopyala"
+  },
+  "layout": {},
+  "panels": {},
+  "Page": {
+    "whatIs": "{title} nedir?",
+    "howToUse": "{title} nasıl kullanılır?",
+    "example": "Örnek",
+    "useCases": "Yaygın Kullanım Durumları",
+    "howItWorks": "Nasıl Çalışır?",
+    "faq": "Sıkça Sorulan Sorular",
+    "readyToStart": "Başlamaya hazır mısınız?",
+    "useToolNow": "Aracı Şimdi Kullanın"
+  },
+  "Categories": {
+    "developerTools": "Geliştirici Araçları",
+    "finance": "Finans",
+    "time": "Tarih ve Saat",
+    "text": "Metin Araçları",
+    "converters": "Dönüştürücüler"
+  },
+  "About": {
+    "title": "About Us & Methodology",
+    "description": "Welcome to 100 Tools, your free resource for premium online calculators and developer utilities.",
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is to provide fast, reliable, and privacy-respecting tools for everyday tasks. Whether you're a developer needing to encode a JWT, a homeowner calculating mulch volume, or just trying to figure out a discount, we've built a robust tool for you.",
+    "methodologyTitle": "Our Methodology",
+    "methodologyIntro": "We believe in transparency and accuracy, particularly for financial and health-related tools (Your Money or Your Life topics). Here is how we ensure our tools are reliable:",
+    "standardizedFormulasTitle": "Standardized Formulas",
+    "standardizedFormulasText": "All financial calculators (like ROI, Mortgages, and Loans) use industry-standard amortization and compound interest formulas.",
+    "medicalGuidelinesTitle": "Medical Guidelines",
+    "medicalGuidelinesText": "Health calculators (like BMI and BMR) use globally recognized equations, such as the Mifflin-St Jeor Equation for metabolic rate, and the standard WHO classifications for BMI.",
+    "privacyFirstTitle": "Privacy First",
+    "privacyFirstText": "Your data never leaves your browser. All calculations, hashing, and conversions happen locally on your device via JavaScript. We do not store or transmit your inputs.",
+    "continuousTestingTitle": "Continuous Testing",
+    "continuousTestingText": "Our toolkit is rigorously tested to ensure edge cases (like zero values or invalid inputs) are handled gracefully without crashing.",
+    "editorialGuidelinesTitle": "Editorial Guidelines",
+    "editorialGuidelinesText": "Every tool page is designed to be self-explanatory. We prioritize usability and clear instructions over cluttered interfaces. If an equation has limitations (like the Navy Body Fat method being an estimation), we clearly note it on the tool page.",
+    "disclaimer": "Disclaimer: The tools and calculators on this website are for informational and educational purposes only. They do not constitute professional financial or medical advice. Always consult with a qualified professional before making significant health or financial decisions."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you. Whether you have a question, a feature request, or found a bug, let us know!",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "Send Message",
+    "emailUs": "Email Us",
+    "emailAddress": "contact@100tools.example.com",
+    "responseTime": "We typically respond within 24-48 hours.",
+    "successMessage": "Thank you! Your message has been sent.",
+    "errorMessage": "Something went wrong. Please try again later."
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "At 100 Tools, your privacy is our top priority. This Privacy Policy outlines how we handle (and explicitly do NOT handle) your personal data.",
+    "dataCollectionTitle": "No Data Collection",
+    "dataCollectionText": "We do not collect, store, or transmit any personal data when you use our calculators and tools. All computations—including formatting, decoding, and calculating—are performed strictly locally within your browser using JavaScript.",
+    "analyticsTitle": "Analytics & Tracking",
+    "analyticsText": "We may use privacy-friendly, anonymized analytics to understand general traffic patterns (like which tools are most popular). This data cannot be traced back to individual users and does not use intrusive tracking cookies.",
+    "thirdPartyTitle": "Third-Party Services",
+    "thirdPartyText": "Our website is hosted on modern edge networks. These infrastructure providers may log basic connection data (like IP addresses) for security and anti-DDoS purposes, which is standard practice for any website.",
+    "contactUs": "If you have any questions about this Privacy Policy, please contact us."
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "By accessing and using 100 Tools, you agree to comply with and be bound by the following terms and conditions of use.",
+    "noWarrantyTitle": "No Warranties (As-Is)",
+    "noWarrantyText": "All tools, calculators, and information on this website are provided \"as-is\" without any representations or warranties, express or implied. We make no guarantees regarding the accuracy, reliability, or completeness of the results generated.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityText": "In no event shall 100 Tools be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever arising out of or in connection with the use of our tools. This includes financial losses or medical decisions made based on our calculators.",
+    "acceptableUseTitle": "Acceptable Use",
+    "acceptableUseText": "You agree to use our tools for lawful purposes only. You must not attempt to scrape, DDoS, or otherwise disrupt the service or networks connected to 100 Tools.",
+    "modificationsTitle": "Modifications",
+    "modificationsText": "We reserve the right to revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then-current version of these terms."
+  },
+  "Cookie": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, or the information we collect using cookies and how that information is used.",
+    "whatAreCookiesTitle": "What are Cookies?",
+    "whatAreCookiesText": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used to make websites work, or work more efficiently, as well as to provide reporting information.",
+    "howWeUseCookiesTitle": "How We Use Cookies",
+    "howWeUseCookiesText": "We use cookies strictly for essential functionality and basic user preferences. For example, we might use local storage or a cookie to remember if you prefer \"Dark Mode\" or \"Light Mode\", or to remember your preferred language.",
+    "noTrackingTitle": "No Invasive Tracking",
+    "noTrackingText": "We do not use advertising cookies, third-party trackers, or cross-site tracking technologies. Your use of our tools remains private.",
+    "managingCookiesTitle": "Managing Cookies",
+    "managingCookiesText": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed."
+  }
+}

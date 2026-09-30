@@ -1,0 +1,63 @@
+{
+  "age-calculator": {
+    "whatIs": "A tool that determines an exact age or the time elapsed between any two specific dates.",
+    "howToUse": ["Select a starting date (like a date of birth).", "Select an ending date (defaults to today).", "View the exact difference in years, months, and days."],
+    "howItWorks": "It calculates the calendar difference between two dates, accounting for leap years and varying days in months.",
+    "workedExample": "Inputting Jan 1, 1990 to Jan 1, 2024 returns exactly 34 years, 0 months, and 0 days.",
+    "resultInterpretation": "The result shows the chronological age or elapsed time.",
+    "useCases": ["Checking exact age for forms", "Calculating age of historical events", "Finding time elapsed between dates"],
+    "tipsAndLimitations": ["Assumes the Gregorian calendar.", "Does not account for time zones unless specified."],
+    "faq": [
+      { "question": "Does it account for leap years?", "answer": "Yes, it fully accounts for leap years in its calculations." },
+      { "question": "Can I calculate future ages?", "answer": "Yes, you can set the end date to the future to see how old someone will be." }
+    ]
+  },
+  "percentage-calculator": {
+    "whatIs": "A versatile mathematical tool to solve various percentage-related problems instantly.",
+    "howToUse": ["Select the type of percentage problem.", "Enter the known numbers.", "Get the calculated percentage or value immediately."],
+    "howItWorks": "Uses standard percentage formulas like (Part/Whole)*100 to compute the missing variable.",
+    "workedExample": "Calculating 20% of 150 yields 30.",
+    "resultInterpretation": "The result is an exact mathematical percentage or value.",
+    "useCases": ["Calculating discounts", "Determining tax amounts", "Finding percentage changes in statistics"],
+    "tipsAndLimitations": ["Ensure you input numbers in the correct fields.", "Extremely large numbers might lose some precision."],
+    "faq": [
+      { "question": "Can it calculate percentage decrease?", "answer": "Yes, it can calculate both increases and decreases." }
+    ]
+  },
+  "json-formatter": {
+    "whatIs": "A developer tool that parses, validates, and beautifies JSON data to make it readable.",
+    "howToUse": ["Paste your minified or raw JSON string into the editor.", "Click format to beautify it.", "Copy the nicely formatted JSON."],
+    "howItWorks": "It parses the raw string into a JavaScript object and stringifies it with proper indentation.",
+    "workedExample": "Converts `{\"a\":1}` into a multi-line string with spaces or tabs.",
+    "resultInterpretation": "The output is structurally identical but visually formatted.",
+    "useCases": ["Debugging API responses", "Reading configuration files", "Formatting code for documentation"],
+    "tipsAndLimitations": ["Invalid JSON will cause a syntax error.", "Comments are not supported in standard JSON."],
+    "faq": [
+      { "question": "Is my data sent to a server?", "answer": "No, all formatting happens securely in your local browser." }
+    ]
+  },
+  "date-difference-calculator": {
+    "whatIs": "A tool to calculate the exact duration between two calendar dates.",
+    "howToUse": ["Enter a start date.", "Enter an end date.", "View the difference in days, weeks, months, and years."],
+    "howItWorks": "Subtracts the start date from the end date using calendar algorithms.",
+    "workedExample": "Jan 1 to Jan 10 yields 9 days.",
+    "resultInterpretation": "The time elapsed between the two points.",
+    "useCases": ["Project planning", "Tracking days since an event", "Counting days until a deadline"],
+    "tipsAndLimitations": ["End date is generally not included in the count.", "Time of day is ignored."],
+    "faq": [
+      { "question": "Does it include the end date?", "answer": "By default it calculates the duration between, not inclusive of both bounds." }
+    ]
+  },
+  "days-between-dates": {
+    "whatIs": "A specific calculator to find the total number of days separating two dates.",
+    "howToUse": ["Pick date A.", "Pick date B.", "Get the total day count."],
+    "howItWorks": "Converts both dates to timestamps and divides the difference by 86,400,000 milliseconds.",
+    "workedExample": "March 1 to March 31 is exactly 30 days.",
+    "resultInterpretation": "A single integer representing the day count.",
+    "useCases": ["Visa tracking", "Gestation periods", "Contract durations"],
+    "tipsAndLimitations": ["Excludes time zones.", "Only outputs days, not months or years."],
+    "faq": [
+      { "question": "Can I input a past and future date?", "answer": "Yes, any two valid dates will work." }
+    ]
+  }
+}

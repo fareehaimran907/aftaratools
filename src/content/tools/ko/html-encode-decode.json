@@ -1,0 +1,55 @@
+{
+  "seoTitle": "HTML 인코더/디코더",
+  "metaDescription": "무료 온라인 HTML 인코더/디코더. HTML 엔터티를 인코딩하거나 디코딩합니다.",
+  "h1": "HTML 인코더/디코더",
+  "primaryKeyword": "HTML 인코더/디코더",
+  "secondaryKeywords": [
+    "HTML 인코더/디코더 온라인",
+    "무료 HTML 인코더/디코더",
+    "최고의 HTML 인코더/디코더"
+  ],
+  "slug": "HTML-인코드-디코드",
+  "intro": "무료 온라인 HTML 인코더/디코더 도구를 사용해 보세요. 입력 내용을 기반으로 HTML 엔터티를 이스케이프합니다.",
+  "whatIs": "HTML 인코더/디코더는 HTML 엔터티를 이스케이프하는 온라인 유틸리티입니다. 원시 텍스트를 처리하고 DOM에서 렌더링하기에 안전한 텍스트를 제공합니다.",
+  "howToUse": [
+    "지정된 입력 필드에 원시 텍스트를 입력합니다.",
+    "HTML 엔터티와 같은 보조 매개변수를 제공하세요.",
+    "DOM에서 렌더링하기에 안전한 텍스트를 생성하려면 계산 또는 제출 버튼을 클릭하세요.",
+    "필요에 따라 결과 출력을 복사하거나 검토합니다."
+  ],
+  "howItWorks": "이 도구는 원시 텍스트에 표준 알고리즘을 적용하여 브라우저에서 작동합니다. DOM에서 렌더링하기에 안전한 텍스트를 출력하기 위해 데이터를 즉시 처리합니다.",
+  "workedExample": "예를 들어 `<script>`는 `<script>`가 됩니다.",
+  "resultInterpretation": "결과는 DOM에서 렌더링하기에 안전한 텍스트를 나타냅니다. 특정 계산이나 형식 요구 사항에 대해 이 데이터를 사용할 수 있습니다.",
+  "useCases": [
+    "XSS 공격 방지",
+    "블로그에 코드 조각 표시",
+    "이동 중에도 원시 텍스트를 빠르게 처리"
+  ],
+  "tipsAndLimitations": [
+    "페이지에 표시할 사용자 입력을 수락할 때 이를 사용합니다.",
+    "최상의 결과를 얻으려면 입력 형식이 올바른지 확인하세요.",
+    "이 도구는 완전히 클라이언트 측에서 실행되므로 데이터가 비공개로 유지됩니다."
+  ],
+  "faq": [
+    {
+      "question": "What does `<` become?",
+      "answer": "It encodes to `&lt;`."
+    },
+    {
+      "question": "Is the HTML Encoder / Decoder free to use?",
+      "answer": "Yes, our HTML Encoder / Decoder is completely free and requires no registration."
+    },
+    {
+      "question": "Does this work on mobile devices?",
+      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+    }
+  ],
+  "relatedTools": [
+    "json 포맷터",
+    "base64-인코드-디코드",
+    "URL 인코딩 디코딩"
+  ],
+  "lastReviewed": "2026-09-29",
+  "imageAlt": "HTML 인코더/디코더 인터페이스 스크린샷",
+  "ogImageText": "HTML 인코더/디코더"
+}

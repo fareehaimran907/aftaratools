@@ -1,0 +1,55 @@
+{
+  "seoTitle": "JWT-decoder",
+  "metaDescription": "Gratis online JWT-decoder. Decodeer JSON-webtokens.",
+  "h1": "JWT-decoder",
+  "primaryKeyword": "jwt-decoder",
+  "secondaryKeywords": [
+    "jwt-decoder online",
+    "gratis jwt-decoder",
+    "beste jwt-decoder"
+  ],
+  "slug": "jwt-decoder",
+  "intro": "Gebruik onze gratis online JWT-decodertool. Het parseert JSON-webtokens op basis van uw invoer.",
+  "whatIs": "De JWT Decoder is een online hulpprogramma dat JSON-webtokens parseert. Het verwerkt uw JWT-tekenreeks en levert de leesbare JSON-claims.",
+  "howToUse": [
+    "Voer uw JWT-tekenreeks in het daarvoor bestemde invoerveld in.",
+    "Geef eventuele secundaire parameters op, zoals gedecodeerde header/payload.",
+    "Klik op de knop Berekenen of Verzenden om de leesbare JSON-claims te genereren.",
+    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+  ],
+  "howItWorks": "Deze tool werkt in uw browser door standaardalgoritmen toe te passen op uw JWT-string. Het verwerkt de gegevens onmiddellijk om de leesbare JSON-claims uit te voeren.",
+  "workedExample": "Bijvoorbeeld: Decodeert standaard base64Url-claims in `{ \"sub\": \"123\" }`.",
+  "resultInterpretation": "Het resultaat vertegenwoordigt de leesbare JSON-claims. U kunt deze gegevens gebruiken voor uw specifieke berekeningen of opmaakbehoeften.",
+  "useCases": [
+    "Foutopsporing bij authenticatie",
+    "Het verifiëren van de vervaldatum van het token",
+    "Onderweg snel JWT-string verwerken"
+  ],
+  "tipsAndLimitations": [
+    "Decodering verifieert NIET de handtekening. Vertrouw gedecodeerde gegevens niet blindelings.",
+    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
+    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+  ],
+  "faq": [
+    {
+      "question": "Can I edit the JWT?",
+      "answer": "You can, but it will invalidate the cryptographic signature."
+    },
+    {
+      "question": "Is the JWT Decoder free to use?",
+      "answer": "Yes, our JWT Decoder is completely free and requires no registration."
+    },
+    {
+      "question": "Does this work on mobile devices?",
+      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+    }
+  ],
+  "relatedTools": [
+    "json-formatter",
+    "base64-codering-decodering",
+    "url-codering-decodering"
+  ],
+  "lastReviewed": "29-09-2026",
+  "imageAlt": "Schermafbeelding van de JWT-decoderinterface",
+  "ogImageText": "JWT-decoder"
+}

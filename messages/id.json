@@ -1,0 +1,1812 @@
+{
+  "Navigation": {
+    "home": "Beranda",
+    "tools": "Alat",
+    "categories": "Kategori",
+    "about": "Tentang",
+    "contact": "Kontak"
+  },
+  "Common": {
+    "viewIn": "Lihat dalam {language}?",
+    "yes": "Ya",
+    "dismiss": "Tutup",
+    "language": "Bahasa",
+    "theme": "Tema",
+    "light": "Terang",
+    "dark": "Gelap",
+    "system": "Sistem",
+    "copy": "Menyalin"
+  },
+  "Tools": {
+    "age-calculator": {
+      "title": "Kalkulator Usia",
+      "description": "Hitung usia Anda secara tepat dalam tahun, bulan, dan hari.",
+      "ui": {
+        "calculateYourAge": "Hitung usia Anda",
+        "dateOfBirth": "Tanggal lahir",
+        "calculate": "Hitung",
+        "years": "Tahun",
+        "months": "Bulan",
+        "days": "hari",
+        "nextBirthday": "Ulang tahun berikutnya:",
+        "totalDays": "Jumlah hari:",
+        "yourAgeIs": "Usia Anda:",
+        "copy": "Salin",
+        "reset": "Atur ulang",
+        "targetDate": "Tanggal Target (Opsional)",
+        "selectYourDateOfBirth": "Pilih tanggal lahir Anda"
+      }
+    },
+    "percentage-calculator": {
+      "title": "Kalkulator Persentase",
+      "description": "Hitung persentase dengan cepat dan akurat.",
+      "ui": {
+        "percentageCalculator": "Kalkulator Persentase",
+        "whatIs": "Berapa",
+        "of": "dari",
+        "amount": "Jumlah",
+        "calculate": "Hitung",
+        "result": "Hasil",
+        "calculatePercentage": "Hitung Persentase"
+      }
+    },
+    "json-formatter": {
+      "title": "Pemformat JSON",
+      "description": "Format, validasi, dan rapikan data JSON Anda.",
+      "ui": {
+        "formatJson": "Format JSON",
+        "inputJSON": "Masukkan J S O N",
+        "reset": "Mengatur ulang"
+      }
+    },
+    "area-converter": {
+      "title": "Konverter Luas",
+      "description": "",
+      "ui": {
+        "areaConverter": "Konverter Luas",
+        "from": "Dari",
+        "to": "Ke"
+      }
+    },
+    "average-calculator": {
+      "title": "Kalkulator Rata-rata",
+      "description": "",
+      "ui": {
+        "averageCalculator": "Kalkulator Rata-rata",
+        "enterNumbersSeparatedByCommasOrSpaces": "Masukkan angka (dipisahkan dengan koma atau spasi)",
+        "count": "Jumlah",
+        "sum": "Total",
+        "averageMean": "Rata-rata",
+        "median": "median",
+        "dataSet": "Kumpulan Data",
+        "eG12345": "misalnya 1, 2, 3, 4, 5",
+        "statistics": "Statistik"
+      }
+    },
+    "base64encode-decode": {
+      "title": "Encoder/Decoder Base64",
+      "description": "",
+      "ui": {
+        "base64EncoderDecoder": "Encoder / Decoder Base64",
+        "encode": "Menyandi",
+        "decode": "Membaca sandi",
+        "input": "Masukan (",
+        "output": "Keluaran (",
+        "mode": "Mode"
+      }
+    },
+    "bedtime-calculator": {
+      "title": "Kalkulator Waktu Tidur",
+      "description": "",
+      "ui": {
+        "bedtimeCalculator": "Kalkulator Waktu Tidur",
+        "whenDoYouNeedToWakeUp": "Pukul berapa Anda perlu bangun?",
+        "calculate": "Hitung",
+        "toWakeUpAt": "Untuk bangun pada",
+        "youShouldTryToBeAsleepBy": ", Anda sebaiknya mencoba sudah tertidur pada:",
+        "6Cycles9h": "6 siklus (9 jam)",
+        "5Cycles75h": "5 siklus (7,5 jam)",
+        "calculationsIncludeAnAverage15MinutesToFallAsleep": "Perhitungan mencakup rata-rata 15 menit untuk tertidur.",
+        "enterYourWakeUpTimeToCal": "Masukkan waktu bangun Anda untuk menghitung waktu tidur"
+      }
+    },
+    "binary-to-decimal": {
+      "title": "Konverter Biner ke Desimal",
+      "description": "",
+      "ui": {
+        "binaryToDecimalConverter": "Konverter Biner ke Desimal",
+        "binaryNumber": "Angka biner",
+        "decimalResult": "Hasil desimal",
+        "eG1010": "misalnya 1010"
+      }
+    },
+    "bmi-calculator": {
+      "title": "Kalkulator BMI",
+      "description": "",
+      "ui": {
+        "bmiCalculator": "Kalkulator BMI",
+        "metric": "Metrik",
+        "imperial": "Imperial",
+        "heightCm": "Tinggi (cm)",
+        "weightKg": "Berat (kg)",
+        "heightFt": "Tinggi (ft)",
+        "heightIn": "Tinggi (in)",
+        "weightLbs": "Berat (lb)",
+        "yourBmi": "BMI Anda",
+        "Lt185": "< 18.5"
+      }
+    },
+    "bmr-calculator": {
+      "title": "Kalkulator BMR",
+      "description": "",
+      "ui": {
+        "bmrCalculator": "Kalkulator Metabolisme Basal",
+        "male": "Pria",
+        "female": "Wanita",
+        "ageYears": "Usia (tahun)",
+        "heightCm": "Tinggi (cm)",
+        "weightKg": "Berat (kg)",
+        "basalMetabolicRate": "Metabolisme basal",
+        "caloriesDay": "Kalori / hari",
+        "thisIsTheAmountOfEnergyYourBodyBurnsAtRestJustToKeepYouAlive": "Ini adalah jumlah energi yang dibakar tubuh Anda saat beristirahat hanya untuk mempertahankan fungsi hidup."
+      }
+    },
+    "board-foot-calculator": {
+      "title": "Kalkulator Board Foot",
+      "description": "",
+      "ui": {
+        "boardFootCalculator": "Kalkulator Board Foot",
+        "thicknessIn": "Ketebalan (in)",
+        "widthIn": "Lebar (in)",
+        "lengthFt": "Panjang (ft)",
+        "quantity": "Jumlah",
+        "pricePerBf": "Harga per board foot ($)",
+        "totalBoardFeet": "Total board foot",
+        "totalCost": "Total biaya: $"
+      }
+    },
+    "body-fat-calculator": {
+      "title": "Kalkulator Lemak Tubuh",
+      "description": "",
+      "ui": {
+        "bodyFatCalculatorNavyMethod": "Kalkulator Lemak Tubuh (Metode Angkatan Laut AS)",
+        "male": "Pria",
+        "female": "Wanita",
+        "heightCm": "Tinggi (cm)",
+        "neckCm": "Leher (cm)",
+        "waistCmAtNavel": "Lingkar pinggang (cm) di pusar",
+        "hipsCm": "Pinggul (cm)",
+        "estimatedBodyFat": "Perkiraan lemak tubuh"
+      }
+    },
+    "break-even-calculator": {
+      "title": "Kalkulator Titik Impas",
+      "description": "",
+      "ui": {
+        "breakevenCalculator": "Kalkulator Titik Impas",
+        "fixedCosts": "Biaya tetap",
+        "variableCostPerUnit": "Biaya variabel per unit",
+        "sellingPricePerUnit": "Harga jual per unit",
+        "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "Harga jual harus lebih besar daripada biaya variabel untuk mencapai titik impas.",
+        "unitsToSell": "Unit yang harus dijual",
+        "breakevenRevenue": "Pendapatan pada titik impas",
+        "costsPricing": "Penetapan Harga Biaya",
+        "breakEvenPoint": "Titik Impas"
+      }
+    },
+    "calorie-calculator": {
+      "title": "Kalkulator Kalori",
+      "description": "",
+      "ui": {
+        "dailyCalorieCalculator": "Kalkulator Kalori Harian",
+        "male": "Pria",
+        "female": "Wanita",
+        "age": "Usia",
+        "heightCm": "Tinggi (cm)",
+        "weightKg": "Berat (kg)",
+        "activityLevel": "Tingkat aktivitas",
+        "sedentaryLittleOrNoExercise": "Sedentari (sedikit atau tanpa olahraga)",
+        "lightlyActiveLightExercise13Daysweek": "Sedikit aktif (olahraga ringan 1–3 hari/minggu)",
+        "moderatelyActiveModerateExercise35Daysweek": "Cukup aktif (olahraga sedang 3–5 hari/minggu)",
+        "veryActiveHardExercise67Daysweek": "Sangat aktif (olahraga berat 6–7 hari/minggu)",
+        "extraActiveVeryHardExercisephysicalJob": "Sangat aktif (olahraga sangat berat/pekerjaan fisik)",
+        "maintainWeight": "Pertahankan berat badan",
+        "kcal": "kkal",
+        "loseWeight05kgweek": "Turunkan berat badan (-0,5 kg/minggu)",
+        "gainWeight05kgweek": "Naikkan berat badan (+0,5 kg/minggu)"
+      }
+    },
+    "character-counter": {
+      "title": "Penghitung Karakter",
+      "description": "",
+      "ui": {
+        "characterCounter": "Penghitung Karakter",
+        "totalCharacters": "Total karakter",
+        "withoutSpaces": "Tanpa spasi",
+        "spaces": "Spasi",
+        "lines": "Baris",
+        "startTypingOrPasteYourTex": "Mulai ketik atau tempel teks Anda di sini..."
+      }
+    },
+    "compound-interest-calculator": {
+      "title": "Kalkulator Bunga Majemuk",
+      "description": "",
+      "ui": {
+        "compoundInterestCalculator": "Kalkulator Bunga Majemuk",
+        "principalAmount": "Modal awal",
+        "annualRate": "Suku bunga tahunan (%)",
+        "timeYears": "Durasi (tahun)",
+        "compoundFrequency": "Frekuensi peracikan",
+        "daily": "Harian",
+        "monthly": "Bulanan",
+        "quarterly": "Triwulanan",
+        "semiannually": "Semesteran",
+        "annually": "Tahunan",
+        "interestEarned": "Bunga yang diperoleh",
+        "finalBalance": "Saldo akhir",
+        "interestDetails": "Detail Minat",
+        "growthBreakdown": "Perincian Pertumbuhan"
+      }
+    },
+    "concrete-calculator": {
+      "title": "Kalkulator Beton",
+      "description": "",
+      "ui": {
+        "concreteCalculator": "Kalkulator Beton",
+        "lengthFt": "Panjang (ft)",
+        "widthFt": "Lebar (ft)",
+        "depthThicknessInches": "Kedalaman / Ketebalan (inci)",
+        "volumeRequired": "Volume yang diperlukan",
+        "cubicYards": "Yard kubik",
+        "80lbBags": "Kantong 80 lb",
+        "60lbBags": "Kantong 60 lb",
+        "40lbBags": "Kantong 40 lb"
+      }
+    },
+    "cost-per-square-foot-calculator": {
+      "title": "Kalkulator Biaya per Kaki Persegi",
+      "description": "",
+      "ui": {
+        "costPerSquareFoot": "Biaya per kaki persegi",
+        "totalPriceOrCost": "Total harga atau biaya ($)",
+        "totalSquareFootage": "Total luas",
+        "sqFt": "/ kaki²"
+      }
+    },
+    "countdown-timer": {
+      "title": "Timer Hitung Mundur",
+      "description": "",
+      "ui": {
+        "countdownTimer": "Timer Hitung Mundur",
+        "minutes": "Menit",
+        "start": "Mulai",
+        "pause": "Jeda",
+        "reset": "Atur ulang"
+      }
+    },
+    "css-minifier": {
+      "title": "Minifier CSS",
+      "description": "",
+      "ui": {
+        "cssMinifier": "Minifier CSS",
+        "inputCss": "CSS input",
+        "bytes": "byte (-",
+        "minifiedCss": "CSS ter-minify"
+      }
+    },
+    "currency-converter": {
+      "title": "Konverter Mata Uang",
+      "description": "",
+      "ui": {
+        "currencyConverterEstimated": "Konverter Mata Uang (perkiraan)",
+        "amount": "Jumlah",
+        "from": "Dari",
+        "to": "Ke",
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Catatan: nilai tukar ini merupakan perkiraan statis yang hanya disediakan untuk tujuan demonstrasi."
+      }
+    },
+    "data-storage-converter": {
+      "title": "Konverter Penyimpanan Data",
+      "description": "",
+      "ui": {
+        "dataStorageConverter": "Konverter Penyimpanan Data",
+        "from": "Dari",
+        "to": "Ke"
+      }
+    },
+    "date-difference-calculator": {
+      "title": "Kalkulator Selisih Tanggal",
+      "description": "",
+      "ui": {
+        "dateDifferenceCalculator": "Kalkulator Selisih Tanggal",
+        "startDate": "Tanggal mulai",
+        "endDate": "Tanggal akhir",
+        "calculateDifference": "Hitung selisih",
+        "timeDifference": "Selisih waktu:",
+        "years": "Tahun",
+        "months": "Bulan",
+        "days": "hari",
+        "totalDaysEquivalent": "Setara dengan jumlah hari:",
+        "totalWeeksEquivalent": "Setara dengan jumlah minggu:",
+        "weeks": "minggu,",
+        "copy": "Salin",
+        "reset": "Atur ulang",
+        "selectDatesToCalculate": "Pilih Tanggal Untuk Dihitung"
+      }
+    },
+    "days-between-dates": {
+      "title": "Hari antara Dua Tanggal",
+      "description": "",
+      "ui": {
+        "daysBetweenDates": "Hari antara Dua Tanggal",
+        "startDate": "Tanggal mulai",
+        "endDate": "Tanggal akhir",
+        "includeStartDateInCalculation": "Sertakan tanggal mulai dalam perhitungan",
+        "includeEndDateInCalculation": "Sertakan tanggal akhir dalam perhitungan",
+        "calculateDays": "Hitung hari",
+        "totalResult": "Hasil total:",
+        "days": "Hari",
+        "copy": "Salin",
+        "reset": "Atur ulang",
+        "selectDatesToCalculate": "Pilih Tanggal Untuk Dihitung"
+      }
+    },
+    "days-until-calculator": {
+      "title": "Kalkulator Hari yang Tersisa",
+      "description": "",
+      "ui": {
+        "daysUntil": "Hari hingga...",
+        "selectFutureDateEventHolidayDeadline": "Pilih tanggal mendatang (acara, hari libur, tenggat waktu)",
+        "calculate": "Hitung",
+        "timeRemaining": "Waktu tersisa:",
+        "totalDays": "Jumlah hari",
+        "whichIsExactly": "Yang tepatnya sama dengan:",
+        "days": "hari",
+        "copy": "Salin",
+        "reset": "Atur ulang",
+        "selectAFutureDate": "Pilih Tanggal Mendatang"
+      }
+    },
+    "decimal-to-binary": {
+      "title": "Konverter Desimal ke Biner",
+      "description": "",
+      "ui": {
+        "decimalToBinaryConverter": "Konverter Desimal ke Biner",
+        "decimalNumber": "Angka desimal",
+        "binaryResult": "Hasil biner",
+        "eG10": "misalnya 10"
+      }
+    },
+    "decking-calculator": {
+      "title": "Kalkulator Dek",
+      "description": "",
+      "ui": {
+        "deckingMaterialCalculator": "Kalkulator Material Dek",
+        "deckLengthFt": "Panjang dek (ft)",
+        "parallelToHouse": "Sejajar dengan rumah",
+        "deckWidthDepthFt": "Lebar / kedalaman dek (ft)",
+        "awayFromHouse": "Tegak lurus dari rumah",
+        "boardLengthFt": "Panjang papan (ft)",
+        "boardWidthIn": "Lebar papan (in)",
+        "requiredBoards": "Papan yang diperlukan (",
+        "length": "' panjang)",
+        "deckArea": "Luas dek",
+        "sqFt": "kaki²",
+        "screwsFasteners": "Sekrup / pengencang"
+      }
+    },
+    "discount-calculator": {
+      "title": "Kalkulator Diskon",
+      "description": "",
+      "ui": {
+        "discountCalculator": "Kalkulator Diskon",
+        "originalPrice": "Harga asli",
+        "discount": "Diskon",
+        "type": "Jenis",
+        "off": "% diskon",
+        "fixedAmountOff": "Jumlah diskon tetap",
+        "youSave": "Penghematan Anda",
+        "finalPrice": "Harga akhir",
+        "discountDetails": "Detail Diskon",
+        "priceBreakdown": "Rincian Harga"
+      }
+    },
+    "emi-calculator": {
+      "title": "Kalkulator EMI",
+      "description": "",
+      "ui": {
+        "emiCalculator": "Kalkulator EMI",
+        "loanAmountPrincipal": "Jumlah pinjaman (pokok)",
+        "annualRate": "Suku bunga tahunan (%)",
+        "tenureMonths": "Jangka waktu (bulan)",
+        "monthlyEmi": "EMI bulanan",
+        "totalInterestPayable": "Total bunga yang harus dibayar",
+        "totalPaymentPrincipalInterest": "Total pembayaran (pokok + bunga)",
+        "eMIDetails": "Detail E M I",
+        "paymentSummary": "Ringkasan Pembayaran"
+      }
+    },
+    "fence-calculator": {
+      "title": "Kalkulator Pagar",
+      "description": "",
+      "ui": {
+        "fenceMaterialCalculator": "Kalkulator Material Pagar",
+        "totalFenceLengthFt": "Total panjang pagar (ft)",
+        "postSpacingFt": "Jarak antar tiang (ft)",
+        "standardIs6Or8": "Standarnya adalah 6' atau 8'",
+        "horizontalRailsPerPanel": "Rel horizontal per panel",
+        "usually2Or3": "Biasanya 2 atau 3",
+        "picketWidthIn": "Lebar bilah pagar (in)",
+        "picketSpacingIn": "Jarak antar bilah pagar (in)",
+        "0ForSolidPrivacy": "0 untuk pagar privasi tertutup",
+        "posts": "Tiang",
+        "rails": "Rel",
+        "pickets": "Bilah pagar"
+      }
+    },
+    "final-grade-calculator": {
+      "title": "Kalkulator Nilai Akhir",
+      "description": "",
+      "ui": {
+        "finalGradeCalculator": "Kalkulator Nilai Akhir",
+        "currentGrade": "Nilai saat ini (%)",
+        "desiredClassGrade": "Nilai akhir yang diinginkan (%)",
+        "finalExamWeight": "Bobot ujian akhir (%)",
+        "youNeedToScore": "Anda perlu mendapatkan",
+        "onTheFinalExam": "pada ujian akhir",
+        "itLooksLikeScoringThisGradeIsMathematicallyImpossibleUnlessThereIsExtraCreditAvailable": "Tampaknya mendapatkan nilai ini secara matematis tidak mungkin, kecuali tersedia poin tambahan."
+      }
+    },
+    "fraction-calculator": {
+      "title": "Kalkulator Pecahan",
+      "description": "",
+      "ui": {
+        "fractionCalculator": "Kalkulator Pecahan",
+        "decimal": "Desimal:"
+      }
+    },
+    "gpa-calculator": {
+      "title": "Kalkulator GPA",
+      "description": "",
+      "ui": {
+        "gpaCalculator": "Kalkulator GPA",
+        "courseName": "Nama mata kuliah",
+        "credits": "Kredit",
+        "grade": "Nilai",
+        "addCourse": "Tambah mata kuliah",
+        "totalCredits": "Total kredit",
+        "cumulativeGpa": "GPA kumulatif",
+        "courseList": "Daftar Kursus",
+        "course": "Kursus",
+        "result": "Hasil"
+      }
+    },
+    "grade-calculator": {
+      "title": "Kalkulator Nilai",
+      "description": "",
+      "ui": {
+        "gradeCalculator": "Kalkulator Nilai",
+        "assignmentCategory": "Kategori tugas",
+        "grade": "Nilai (%)",
+        "weight": "Bobot (%)",
+        "addCategory": "Tambah kategori",
+        "totalWeightEntered": "Total bobot yang dimasukkan",
+        "currentGrade": "Nilai saat ini",
+        "assignments": "Tugas",
+        "eGMidterm": "misalnya Paruh waktu",
+        "result": "Hasil"
+      }
+    },
+    "height-converter": {
+      "title": "Konverter Tinggi",
+      "description": "",
+      "ui": {
+        "heightConverter": "Konverter Tinggi",
+        "metricCentimeters": "Metrik (sentimeter)",
+        "cm": "cm",
+        "imperialFeetInches": "Imperial (kaki dan inci)",
+        "ft": "kaki",
+        "in": "di dalam"
+      }
+    },
+    "hex-to-decimal": {
+      "title": "Konverter Heksadesimal ke Desimal",
+      "description": "",
+      "ui": {
+        "hexToDecimalConverter": "Konverter Heksadesimal ke Desimal",
+        "hexadecimalNumber": "Angka heksadesimal",
+        "decimalResult": "Hasil desimal",
+        "eG1AOrFFFFFF": "misalnya 1A atau FFFFFF"
+      }
+    },
+    "hourly-to-salary-calculator": {
+      "title": "Kalkulator Gaji per Jam → Gaji Tahunan",
+      "description": "",
+      "ui": {
+        "hourlyToSalaryCalculator": "Kalkulator Gaji per Jam",
+        "hourlyWage": "Upah per jam",
+        "hoursWeek": "Jam / minggu",
+        "weeksYear": "Minggu / tahun",
+        "daily": "Harian",
+        "weekly": "Mingguan",
+        "monthly": "Bulanan",
+        "yearlySalary": "Gaji tahunan",
+        "hourlyDetails": "Detail Setiap Jam",
+        "salaryBreakdown": "Rincian Gaji"
+      }
+    },
+    "html-encode-decode": {
+      "title": "Encoder/Decoder HTML",
+      "description": "",
+      "ui": {
+        "htmlEntityEncoderDecoder": "Encoder / Decoder Entitas HTML",
+        "encode": "Menyandi",
+        "decode": "Membaca sandi",
+        "input": "Masukan",
+        "output": "Keluaran",
+        "mode": "Mode"
+      }
+    },
+    "html-minifier": {
+      "title": "Minifier HTML",
+      "description": "",
+      "ui": {
+        "htmlMinifier": "Minifier HTML",
+        "inputHtml": "HTML input",
+        "bytes": "byte (-",
+        "minifiedHtml": "HTML ter-minify"
+      }
+    },
+    "investment-calculator": {
+      "title": "Kalkulator Investasi",
+      "description": "",
+      "ui": {
+        "investmentCalculator": "Kalkulator Investasi",
+        "initialInvestment": "Investasi awal",
+        "monthlyContribution": "Kontribusi bulanan",
+        "expectedReturn": "Imbal hasil yang diharapkan (%)",
+        "yearsToGrow": "Durasi investasi (tahun)",
+        "totalContributions": "Total kontribusi",
+        "interestEarned": "Bunga yang diperoleh",
+        "futureValue": "Nilai masa depan",
+        "investmentPlan": "Rencana Investasi",
+        "growthProjection": "Proyeksi Pertumbuhan"
+      }
+    },
+    "js-minifier": {
+      "title": "Minifier JavaScript",
+      "description": "",
+      "ui": {
+        "javascriptMinifier": "Minifier JavaScript",
+        "inputJs": "JS input",
+        "bytes": "byte (-",
+        "minifiedJs": "JS ter-minify"
+      }
+    },
+    "jwt-decoder": {
+      "title": "Decoder JWT",
+      "description": "",
+      "ui": {
+        "jwtDecoder": "Decoder JWT",
+        "encodedJwtHeaderpayloadsignature": "JWT terenkripsi (Header.Payload.Signature)",
+        "invalidJwtFormat": "Format JWT tidak valid.",
+        "header": "Tajuk",
+        "payload": "Muatan",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik..."
+      }
+    },
+    "length-converter": {
+      "title": "Konverter Panjang",
+      "description": "",
+      "ui": {
+        "lengthConverter": "Konverter Panjang",
+        "from": "Dari",
+        "to": "Ke"
+      }
+    },
+    "loan-calculator": {
+      "title": "Kalkulator Pinjaman",
+      "description": "",
+      "ui": {
+        "loanCalculator": "Kalkulator Pinjaman",
+        "loanAmount": "Jumlah pinjaman",
+        "interestRate": "Suku bunga (%)",
+        "loanTermYears": "Jangka waktu pinjaman (tahun)",
+        "monthlyPayment": "Pembayaran bulanan",
+        "totalInterest": "Total bunga",
+        "totalCostOfLoan": "Total biaya pinjaman",
+        "loanDetails": "Detail Pinjaman",
+        "paymentBreakdown": "Rincian Pembayaran"
+      }
+    },
+    "lorem-ipsum-generator": {
+      "title": "Generator Lorem Ipsum",
+      "description": "",
+      "ui": {
+        "loremIpsumGenerator": "Generator Lorem Ipsum",
+        "paragraphs": "Paragraf",
+        "generate": "Buat",
+        "copy": "Salin",
+        "generatedText": "Teks yang Dihasilkan"
+      }
+    },
+    "macro-calculator": {
+      "title": "Kalkulator Makronutrien",
+      "description": "",
+      "ui": {
+        "macroCalculator": "Kalkulator Makronutrien",
+        "dailyCalories": "Kalori harian",
+        "dietPlan": "Rencana diet",
+        "balanced303040": "Seimbang (30/30/40)",
+        "lowCarb404020": "Rendah karbohidrat (40/40/20)",
+        "highProtein402535": "Tinggi protein (40/25/35)",
+        "keto20755": "Keto (20/75/5)",
+        "protein": "Protein",
+        "g": "G",
+        "fats": "Lemak",
+        "carbs": "Karbohidrat",
+        "kcal": "kkal"
+      }
+    },
+    "markup-calculator": {
+      "title": "Kalkulator Markup",
+      "description": "",
+      "ui": {
+        "markupCalculator": "Kalkulator Markup",
+        "cost": "Biaya",
+        "markup": "Markup (%)",
+        "profit": "Keuntungan",
+        "sellingPrice": "Harga jual",
+        "pricingDetails": "Detail Harga"
+      }
+    },
+    "md5generator": {
+      "title": "Generator MD5",
+      "description": "",
+      "ui": {
+        "md5HashGenerator": "Generator Hash MD5",
+        "inputString": "String input",
+        "md5Hash": "Hash MD5",
+        "theDefaultHashShownIsForAnEmptyString": "Hash yang ditampilkan secara default adalah untuk string kosong."
+      }
+    },
+    "months-between-dates": {
+      "title": "Bulan antara Dua Tanggal",
+      "description": "",
+      "ui": {
+        "monthsBetweenDates": "Bulan antara Dua Tanggal",
+        "startDate": "Tanggal mulai",
+        "endDate": "Tanggal akhir",
+        "calculateMonths": "Hitung bulan",
+        "months": "Bulan",
+        "days": "Hari",
+        "copy": "Salin",
+        "reset": "Atur ulang",
+        "selectDatesToCalculate": "Pilih Tanggal Untuk Dihitung"
+      }
+    },
+    "mortgage-calculator": {
+      "title": "Kalkulator KPR",
+      "description": "",
+      "ui": {
+        "mortgageCalculator": "Kalkulator KPR",
+        "homePrice": "Harga rumah",
+        "downPayment": "Uang muka",
+        "interestRate": "Suku bunga (%)",
+        "loanTermYears": "Jangka waktu pinjaman (tahun)",
+        "principalLoanAmount": "Pokok pinjaman",
+        "monthlyPayment": "Pembayaran bulanan",
+        "propertyDetails": "Detail Properti",
+        "mortgageSummary": "Ringkasan Hipotek"
+      }
+    },
+    "mulch-calculator": {
+      "title": "Kalkulator Mulsa dan Tanah Lapisan Atas",
+      "description": "",
+      "ui": {
+        "mulchTopsoilCalculator": "Kalkulator Mulsa dan Tanah Lapisan Atas",
+        "lengthFt": "Panjang (ft)",
+        "widthFt": "Lebar (ft)",
+        "depthInches": "Kedalaman (inci)",
+        "standardMulchDepthIs24Inches": "Kedalaman mulsa standar adalah 2–4 inci.",
+        "youWillNeed": "Anda membutuhkan",
+        "cubicYards": "Yard kubik",
+        "2CuFtBags": "Kantong 2 kaki kubik",
+        "3CuFtBags": "Kantong 3 kaki kubik"
+      }
+    },
+    "number-base-converter": {
+      "title": "Konverter Basis Bilangan",
+      "description": "",
+      "ui": {
+        "numberBaseConverter": "Konverter Basis Bilangan",
+        "from": "Dari",
+        "to": "Ke",
+        "base": "Basis"
+      }
+    },
+    "overtime-calculator": {
+      "title": "Kalkulator Lembur",
+      "description": "",
+      "ui": {
+        "overtimeCalculator": "Kalkulator Lembur",
+        "hourlyRate": "Tarif per jam",
+        "otMultiplier": "Pengali lembur",
+        "timeAndAHalf15x": "Satu setengah kali (1,5x)",
+        "doubleTime20x": "Dua kali (2,0x)",
+        "straightTime10x": "Tarif normal (1,0x)",
+        "standardWeeklyHours": "Jam kerja mingguan standar",
+        "totalHoursWorked": "Total jam kerja",
+        "regularPay": "Gaji normal (",
+        "hrs": "jam @",
+        "overtimePay": "Gaji lembur (",
+        "hr": "/jam)",
+        "totalGrossPay": "Total gaji kotor",
+        "paySummary": "Ringkasan Pembayaran"
+      }
+    },
+    "pace-calculator": {
+      "title": "Kalkulator Pace",
+      "description": "",
+      "ui": {
+        "runningPaceCalculator": "Kalkulator Pace Lari",
+        "distance": "Jarak",
+        "kilometersKm": "Kilometer (km)",
+        "milesMi": "Mil (mi)",
+        "totalTime": "Total waktu",
+        "hrs": "jam",
+        "mins": "menit",
+        "secs": "detik",
+        "averagePace": "Pace rata-rata",
+        "per": "per"
+      }
+    },
+    "paint-calculator": {
+      "title": "Kalkulator Cat",
+      "description": "",
+      "ui": {
+        "paintCalculator": "Kalkulator Cat",
+        "totalSurfaceAreaSqFt": "Total luas permukaan (kaki²)",
+        "numberOfCoats": "Jumlah lapisan",
+        "1Coat": "1 lapisan",
+        "2Coats": "2 lapisan",
+        "3Coats": "3 lapisan",
+        "coverageSqFtGallon": "Daya tutup (kaki² / galon)",
+        "youWillNeed": "Anda membutuhkan",
+        "gallons": "galon)",
+        "exactCalculation": "(Perhitungan tepat:"
+      }
+    },
+    "password-generator": {
+      "title": "Generator Kata Sandi",
+      "description": "",
+      "ui": {
+        "securePasswordGenerator": "Generator Kata Sandi Aman",
+        "generatePassword": "Buat kata sandi",
+        "passwordLength": "Panjang kata sandi:",
+        "uppercaseAz": "Huruf besar (A-Z)",
+        "lowercaseAz": "Huruf kecil (a-z)",
+        "numbers09": "Angka (0-9)",
+        "symbols": "Simbol (!@#)",
+        "constraints": "Kendala",
+        "copyPassword": "Salin Kata Sandi"
+      }
+    },
+    "percentage-decrease-calculator": {
+      "title": "Kalkulator Penurunan Persentase",
+      "description": "",
+      "ui": {
+        "percentageDecreaseCalculator": "Kalkulator Penurunan Persentase",
+        "initialValue": "Nilai awal",
+        "finalValue": "Nilai akhir",
+        "absoluteChange": "Perubahan absolut",
+        "decrease": "Penurunan",
+        "values": "Nilai-nilai",
+        "decreaseBreakdown": "Kurangi Kerusakan"
+      }
+    },
+    "percentage-increase-calculator": {
+      "title": "Kalkulator Kenaikan Persentase",
+      "description": "",
+      "ui": {
+        "percentageIncreaseCalculator": "Kalkulator Kenaikan Persentase",
+        "initialValue": "Nilai awal",
+        "finalValue": "Nilai akhir",
+        "absoluteChange": "Perubahan absolut",
+        "change": "Perubahan",
+        "values": "Nilai-nilai",
+        "increaseBreakdown": "Tingkatkan Kerusakan"
+      }
+    },
+    "plant-spacing-calculator": {
+      "title": "Kalkulator Jarak Tanam",
+      "description": "",
+      "ui": {
+        "plantSpacingCalculator": "Kalkulator Jarak Tanam",
+        "squareGrid": "Grid persegi",
+        "triangularOffset": "Segitiga (bergeser)",
+        "bedLengthFt": "Panjang bedeng (ft)",
+        "bedWidthFt": "Lebar bedeng (ft)",
+        "plantSpacingInchesBetweenCenters": "Jarak tanaman (inci antar pusat)",
+        "estimatedTotalPlants": "Perkiraan total tanaman"
+      }
+    },
+    "pomodoro-timer": {
+      "title": "Timer Pomodoro",
+      "description": "",
+      "ui": {
+        "pomodoroTimer": "Timer Pomodoro",
+        "work25m": "Kerja (25 menit)",
+        "break5m": "Istirahat (5 menit)",
+        "reset": "Atur ulang",
+        "start": "Awal"
+      }
+    },
+    "profit-margin-calculator": {
+      "title": "Kalkulator Margin Keuntungan",
+      "description": "",
+      "ui": {
+        "profitMarginCalculator": "Kalkulator Margin Keuntungan",
+        "revenueSellingPrice": "Pendapatan (harga jual)",
+        "costOfGoodsSold": "Harga pokok barang yang terjual",
+        "grossProfit": "Laba kotor",
+        "margin": "Batas",
+        "financialDetails": "Detail Keuangan",
+        "profitability": "Profitabilitas"
+      }
+    },
+    "qr-code-generator": {
+      "title": "Generator Kode QR",
+      "description": "",
+      "ui": {
+        "qrCodeGenerator": "Generator Kode QR",
+        "urlOrText": "URL atau teks",
+        "size": "Ukuran",
+        "small150x150": "Kecil (150x150)",
+        "medium250x250": "Sedang (250x250)",
+        "large500x500": "Besar (500x500)",
+        "highres1000x1000": "Resolusi tinggi (1000x1000)",
+        "downloadImage": "Unduh gambar",
+        "enterTextAboveToGenerateAQrCode": "Masukkan teks di atas untuk membuat kode QR",
+        "contentSettings": "Pengaturan Konten",
+        "enterURLOrTextToEncode": "Masukkan URL atau teks untuk dikodekan",
+        "generatedQRCode": "Kode Q R yang dihasilkan"
+      }
+    },
+    "random-number-generator": {
+      "title": "Generator Angka Acak",
+      "description": "",
+      "ui": {
+        "randomNumberGenerator": "Generator Angka Acak",
+        "minimum": "Minimum",
+        "maximum": "Maksimum",
+        "generateRandomNumber": "Buat angka acak",
+        "result": "Hasil",
+        "rangeSettings": "Pengaturan Jangkauan"
+      }
+    },
+    "ratio-calculator": {
+      "title": "Kalkulator Rasio",
+      "description": "",
+      "ui": {
+        "ratioCalculatorAbCd": "Kalkulator Rasio (A:B = C:D)",
+        "enter3ValuesToCalculateThe4thMissingValue": "Masukkan 3 nilai untuk menghitung nilai ke-4 yang belum diketahui."
+      }
+    },
+    "roi-calculator": {
+      "title": "Kalkulator ROI",
+      "description": "",
+      "ui": {
+        "roiCalculator": "Kalkulator ROI",
+        "initialInvestment": "Investasi awal",
+        "finalValueReturned": "Nilai akhir yang diterima",
+        "profit": "Keuntungan",
+        "roi": "ROI",
+        "investmentDetails": "Detail Investasi",
+        "returnOnInvestment": "Pengembalian Investasi"
+      }
+    },
+    "roman-numeral-converter": {
+      "title": "Konverter Angka Romawi",
+      "description": "",
+      "ui": {
+        "romanNumeralConverter": "Konverter Angka Romawi",
+        "numberRoman": "Angka → Romawi",
+        "romanNumber": "Romawi → Angka",
+        "result": "Hasil"
+      }
+    },
+    "running-distance-calculator": {
+      "title": "Kalkulator Jarak Lari",
+      "description": "",
+      "ui": {
+        "runningDistanceCalculator": "Kalkulator Jarak Lari",
+        "pacePer": "Kecepatan (per",
+        "mins": "menit",
+        "secs": "detik",
+        "totalTime": "Total waktu",
+        "hrs": "jam",
+        "totalDistance": "Total jarak",
+        "kilometersKm": "Kilometer (km)",
+        "milesMi": "Mil (mi)"
+      }
+    },
+    "salary-calculator": {
+      "title": "Kalkulator Gaji",
+      "description": "",
+      "ui": {
+        "salaryCalculator": "Kalkulator Gaji",
+        "salaryAmount": "Jumlah gaji",
+        "per": "Per",
+        "hour": "Jam",
+        "day": "Hari",
+        "week": "Minggu",
+        "month": "Bulan",
+        "year": "Tahun",
+        "hoursPerWeek": "Jam per minggu",
+        "calculate": "Hitung",
+        "hourly": "Per jam",
+        "daily": "Harian",
+        "weekly": "Mingguan",
+        "monthly": "Bulanan",
+        "yearly": "Tahunan",
+        "incomeDetails": "Detail Pendapatan",
+        "enterYourIncomeDetailsToS": "Masukkan detail penghasilan Anda untuk melihat ringkasan"
+      }
+    },
+    "salary-to-hourly-calculator": {
+      "title": "Kalkulator Gaji → Upah per Jam",
+      "description": "",
+      "ui": {
+        "salaryToHourlyCalculator": "Kalkulator Gaji ke Upah per Jam",
+        "annualSalary": "Gaji tahunan",
+        "hoursWeek": "Jam / minggu",
+        "weeksYear": "Minggu / tahun",
+        "hourlyWage": "Upah per jam",
+        "salaryDetails": "Detail Gaji",
+        "equivalentWage": "Upah Setara"
+      }
+    },
+    "sha1generator": {
+      "title": "Generator SHA-1",
+      "description": "",
+      "ui": {
+        "sha1HashGenerator": "Generator Hash SHA-1",
+        "inputString": "String input",
+        "sha1Hash": "Hash SHA-1",
+        "theDefaultHashShownIsForAnEmptyString": "Hash yang ditampilkan secara default adalah untuk string kosong."
+      }
+    },
+    "sha256generator": {
+      "title": "Generator SHA-256",
+      "description": "",
+      "ui": {
+        "sha256HashGenerator": "Generator Hash SHA-256",
+        "inputString": "String input",
+        "sha256Hash": "Hash SHA-256",
+        "theDefaultHashShownIsForAnEmptyString": "Hash yang ditampilkan secara default adalah untuk string kosong."
+      }
+    },
+    "simple-interest-calculator": {
+      "title": "Kalkulator Bunga Sederhana",
+      "description": "",
+      "ui": {
+        "simpleInterestCalculator": "Kalkulator Bunga Sederhana",
+        "principalAmount": "Modal awal",
+        "annualRate": "Suku bunga tahunan (%)",
+        "time": "Durasi",
+        "years": "Tahun",
+        "months": "Bulan",
+        "days": "Hari",
+        "interestEarned": "Bunga yang diperoleh",
+        "finalBalance": "Saldo akhir",
+        "interestDetails": "Detail Minat",
+        "growthBreakdown": "Perincian Pertumbuhan"
+      }
+    },
+    "sleep-calculator": {
+      "title": "Kalkulator Tidur",
+      "description": "",
+      "ui": {
+        "sleepCalculator": "Kalkulator Tidur",
+        "iWantToWakeUpAt": "Saya ingin bangun pada:",
+        "calculate": "Hitung",
+        "toWakeUpRefreshedAt": "Untuk bangun dengan segar pada",
+        "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": ", cobalah tertidur pada salah satu waktu berikut (termasuk 15 menit untuk tertidur):",
+        "6Cycles9h": "6 siklus (9 jam)",
+        "5Cycles75h": "5 siklus (7,5 jam)",
+        "4Cycles6h": "4 siklus (6 jam)",
+        "3Cycles45h": "3 siklus (4,5 jam)",
+        "enterWakeTimeToCalculateS": "Masukkan waktu bangun untuk menghitung waktu tidur"
+      }
+    },
+    "speed-converter": {
+      "title": "Konverter Kecepatan",
+      "description": "",
+      "ui": {
+        "speedConverter": "Konverter Kecepatan",
+        "from": "Dari",
+        "to": "Ke"
+      }
+    },
+    "speed-distance-time-calculator": {
+      "title": "Kalkulator Kecepatan-Jarak-Waktu",
+      "description": "",
+      "ui": {
+        "speedDistanceTime": "Kecepatan, jarak, waktu",
+        "solveForSpeed": "Hitung kecepatan",
+        "solveForDistance": "Hitung jarak",
+        "solveForTime": "Hitung waktu",
+        "distance": "Jarak",
+        "timeHours": "Waktu (jam)",
+        "speed": "Kecepatan"
+      }
+    },
+    "sql-formatter": {
+      "title": "Pemformat SQL",
+      "description": "",
+      "ui": {
+        "sqlFormatter": "Pemformat SQL",
+        "rawSql": "SQL mentah",
+        "formattedSql": "SQL terformat"
+      }
+    },
+    "square-footage-calculator": {
+      "title": "Kalkulator Luas Kaki Persegi",
+      "description": "",
+      "ui": {
+        "squareFootageCalculator": "Kalkulator Luas Kaki Persegi",
+        "lengthFt": "Panjang (ft)",
+        "widthFt": "Lebar (ft)",
+        "addArea": "Tambah luas",
+        "totalArea": "Total luas",
+        "squareFeetSqFt": "Kaki persegi (ft²)"
+      }
+    },
+    "step-calculator": {
+      "title": "Kalkulator Tangga",
+      "description": "",
+      "ui": {
+        "stairStepCalculator": "Kalkulator Tangga / Anak Tangga",
+        "totalRiseHeightInches": "Total tinggi (inci)",
+        "totalVerticalDistanceFromLowerFloorToUpperFloor": "Total jarak vertikal dari lantai bawah ke lantai atas.",
+        "targetRiserHeightIn": "Tinggi riser target (in)",
+        "standardMaxIsUsually775": "Maksimum standar biasanya 7,75\"",
+        "targetTreadDepthIn": "Kedalaman pijakan target (in)",
+        "standardMinIsUsually10": "Minimum standar biasanya 10\"",
+        "numberOfRisers": "Jumlah riser",
+        "actualRiserHeight": "Tinggi riser aktual",
+        "totalRunHorizontalDistance": "Total run (jarak horizontal)",
+        "ft": "kaki)"
+      }
+    },
+    "stopwatch": {
+      "title": "Stopwatch",
+      "description": "",
+      "ui": {
+        "stopwatch": "Stopwatch",
+        "start": "Mulai",
+        "pause": "Jeda",
+        "lap": "Putaran",
+        "reset": "Atur ulang",
+        "laps": "Putaran",
+        "noLapsRecordedYet": "Belum Ada Lap yang Tercatat"
+      }
+    },
+    "tax-calculator": {
+      "title": "Kalkulator Pajak",
+      "description": "",
+      "ui": {
+        "salesTaxCalculator": "Kalkulator Pajak Penjualan",
+        "price": "Harga",
+        "taxRate": "Tarif pajak (%)",
+        "priceAlreadyIncludesTax": "Harga sudah termasuk pajak",
+        "priceBeforeTax": "Harga sebelum pajak",
+        "taxAmount": "Jumlah pajak",
+        "totalFinalPrice": "Total harga akhir",
+        "taxDetails": "Detail Pajak",
+        "priceBreakdown": "Rincian Harga"
+      }
+    },
+    "temperature-converter": {
+      "title": "Konverter Suhu",
+      "description": "",
+      "ui": {
+        "temperatureConverter": "Konverter Suhu",
+        "from": "Dari",
+        "celsius": "Celsius",
+        "fahrenheit": "Fahrenheit",
+        "kelvin": "Kelvin",
+        "to": "Ke"
+      }
+    },
+    "tile-calculator": {
+      "title": "Kalkulator Keramik",
+      "description": "",
+      "ui": {
+        "tileCalculator": "Kalkulator Keramik",
+        "totalAreaToCoverSqFt": "Total luas yang akan ditutup (ft²)",
+        "tileLengthInches": "Panjang keramik (inci)",
+        "tileWidthInches": "Lebar keramik (inci)",
+        "wasteOverage": "Limbah / tambahan (%)",
+        "standardRecommendationIs10ForStandardLayouts15ForDiagonal": "Rekomendasi standar adalah 10% untuk tata letak biasa dan 15% untuk tata letak diagonal.",
+        "totalTilesNeeded": "Total keramik yang diperlukan",
+        "eachTileCovers": "Setiap keramik mencakup",
+        "sqFt": "ft²"
+      }
+    },
+    "time-difference-calculator": {
+      "title": "Kalkulator Selisih Waktu",
+      "description": "",
+      "ui": {
+        "timeDifference": "Selisih waktu",
+        "firstTime": "Waktu pertama",
+        "secondTime": "Waktu kedua",
+        "calculateAbsoluteDifference": "Hitung selisih absolut",
+        "difference": "Selisih:",
+        "h": "j",
+        "m": "mnt",
+        "copy": "Salin",
+        "reset": "Atur ulang",
+        "selectTimesToCompare": "Pilih Waktu Untuk Membandingkan"
+      }
+    },
+    "time-duration-calculator": {
+      "title": "Kalkulator Durasi Waktu",
+      "description": "",
+      "ui": {
+        "timeDurationCalculator": "Kalkulator Durasi Waktu",
+        "startTime": "Waktu mulai",
+        "endTime": "Waktu selesai",
+        "endsOnTheNextDayCrossesMidnight": "Berakhir pada hari berikutnya (melewati tengah malam)",
+        "calculateDuration": "Hitung durasi",
+        "hours": "Jam",
+        "minutes": "menit",
+        "totalTimeInMinutes": "Total durasi dalam menit:",
+        "copy": "Salin",
+        "reset": "Atur ulang",
+        "selectStartAndEndTimes": "Pilih Waktu Mulai dan Berakhir"
+      }
+    },
+    "time-zone-converter": {
+      "title": "Konverter Zona Waktu",
+      "description": "",
+      "ui": {
+        "timeZoneConverter": "Konverter Zona Waktu",
+        "dateTime": "Tanggal & waktu",
+        "fromTimeZoneRelative": "Dari zona waktu (relatif)",
+        "toTimeZone": "Ke zona waktu",
+        "convert": "Konversi",
+        "selectDateAndTimeZonesTo": "Pilih zona tanggal dan waktu untuk dibandingkan"
+      }
+    },
+    "tip-calculator": {
+      "title": "Kalkulator Tip",
+      "description": "",
+      "ui": {
+        "tipCalculator": "Kalkulator Tip",
+        "billAmount": "Jumlah tagihan",
+        "tip": "Kiat %",
+        "numberOfPeople": "Jumlah orang",
+        "tipAmount": "Jumlah tip",
+        "person": "/ orang",
+        "total": "Total",
+        "totalTip": "Total tip:",
+        "totalBill": "Total tagihan:",
+        "billDetails": "Detail Tagihan",
+        "totalBreakdown": "Kerusakan Total"
+      }
+    },
+    "unix-timestamp-converter": {
+      "title": "Konverter Timestamp Unix",
+      "description": "",
+      "ui": {
+        "timestampToDate": "Timestamp ke tanggal",
+        "unixTimestamp": "Timestamp Unix",
+        "convert": "Konversi",
+        "dateToTimestamp": "Tanggal ke timestamp",
+        "localDateTime": "Tanggal & waktu lokal",
+        "eG1700000000": "misalnya 1700000000",
+        "result": "Hasil"
+      }
+    },
+    "url-encode-decode": {
+      "title": "Encoder/Decoder URL",
+      "description": "",
+      "ui": {
+        "urlEncoderDecoder": "Encoder / Decoder URL",
+        "encode": "Menyandi",
+        "decode": "Membaca sandi",
+        "input": "Masukan",
+        "output": "Keluaran",
+        "mode": "Mode"
+      }
+    },
+    "uuid-generator": {
+      "title": "Generator UUID",
+      "description": "",
+      "ui": {
+        "uuidV4Generator": "Generator UUID (v4)",
+        "howManyUuids": "Berapa banyak UUID?",
+        "generate": "Buat",
+        "generatedUuids": "UUID yang dibuat",
+        "copyAll": "Salin semua",
+        "clickGenerateToCreateUUI": "Klik hasilkan untuk membuat UUID"
+      }
+    },
+    "volume-converter": {
+      "title": "Konverter Volume",
+      "description": "",
+      "ui": {
+        "volumeConverter": "Konverter Volume",
+        "from": "Dari",
+        "to": "Ke"
+      }
+    },
+    "wake-up-time-calculator": {
+      "title": "Kalkulator Waktu Bangun",
+      "description": "",
+      "ui": {
+        "wakeupTimeCalculator": "Kalkulator Waktu Bangun",
+        "ifYouHeadToBedRightNowWhenShouldYouWakeUpToFeelRefreshed": "Jika Anda tidur sekarang, pukul berapa Anda sebaiknya bangun agar merasa segar?",
+        "imGoingToBedNow": "Saya akan tidur sekarang",
+        "weAdded15MinutesForYouToFallAsleepSetYourAlarmForOneOfTheseTimesToWakeUpBetween90minuteSleepCycles": "Kami menambahkan 15 menit untuk Anda tertidur. Atur alarm pada salah satu waktu berikut agar bangun di antara siklus tidur 90 menit:",
+        "3Cycles45h": "3 siklus (4,5 jam)",
+        "4Cycles6h": "4 siklus (6 jam)",
+        "5Cycles75h": "5 siklus (7,5 jam)",
+        "6Cycles9h": "6 siklus (9 jam)",
+        "readyForBed": "Siap Untuk Tidur",
+        "clickTheButtonWhenYouReG": "Klik tombol ketika Anda akan tidur"
+      }
+    },
+    "water-intake-calculator": {
+      "title": "Kalkulator Asupan Air",
+      "description": "",
+      "ui": {
+        "dailyWaterIntakeCalculator": "Kalkulator Asupan Air Harian",
+        "weightKg": "Berat (kg)",
+        "dailyExerciseMins": "Olahraga harian (menit)",
+        "recommendedDailyIntake": "Asupan harian yang direkomendasikan",
+        "liters": "Liter",
+        "approx": "(sekitar",
+        "ozOr": "oz atau",
+        "cups": "cangkir)",
+        "or": "Atau"
+      }
+    },
+    "weeks-between-dates": {
+      "title": "Minggu antara Dua Tanggal",
+      "description": "",
+      "ui": {
+        "weeksBetweenDates": "Minggu antara Dua Tanggal",
+        "startDate": "Tanggal mulai",
+        "endDate": "Tanggal akhir",
+        "calculateWeeks": "Hitung minggu",
+        "weeks": "Minggu",
+        "days": "Hari",
+        "copy": "Salin",
+        "reset": "Atur ulang",
+        "selectDatesToCalculate": "Pilih Tanggal Untuk Dihitung"
+      }
+    },
+    "weight-converter": {
+      "title": "Konverter Berat",
+      "description": "",
+      "ui": {
+        "weightConverter": "Konverter Berat",
+        "from": "Dari",
+        "to": "Ke"
+      }
+    },
+    "word-counter": {
+      "title": "Penghitung Kata",
+      "description": "",
+      "ui": {
+        "wordCounter": "Penghitung Kata",
+        "words": "Kata",
+        "characters": "Karakter",
+        "noSpaces": "Tanpa spasi",
+        "paragraphs": "Paragraf",
+        "startTypingOrPasteYourTex": "Mulai ketik atau tempel teks Anda di sini..."
+      }
+    },
+    "work-hours-calculator": {
+      "title": "Kalkulator Jam Kerja",
+      "description": "",
+      "ui": {
+        "workHoursCalculator": "Kalkulator Jam Kerja",
+        "clockIn": "Waktu mulai kerja",
+        "clockOut": "Waktu selesai kerja",
+        "breakMinutes": "Istirahat (menit)",
+        "daysPerWeek": "Hari per minggu",
+        "calculateHours": "Hitung jam",
+        "dailyWorkHours": "Jam kerja harian",
+        "hrs": "j",
+        "weeklyTotal": "Total mingguan",
+        "enterScheduleToCalculateHo": "Masukkan jadwal untuk menghitung jam"
+      }
+    },
+    "world-time-converter": {
+      "title": "Konverter Waktu Dunia",
+      "description": "",
+      "ui": {
+        "worldTimeConverter": "Konverter Waktu Dunia"
+      }
+    },
+    "xml-formatter": {
+      "title": "Pemformat XML",
+      "description": "",
+      "ui": {
+        "xmlFormatter": "Pemformat XML",
+        "rawXml": "XML mentah",
+        "formattedXml": "XML terformat"
+      }
+    },
+    "bionic-reading-converter": {
+      "title": "Konverter Membaca Bionik",
+      "description": "",
+      "ui": {
+        "inputText": "Teks Input",
+        "placeholder": "Tempel atau ketik teks Anda di sini...",
+        "clear": "Bersihkan",
+        "bionicOutput": "Output Bionik",
+        "copyResult": "Salin Hasil",
+        "emptyOutput": "Output membaca bionik akan muncul di sini...",
+        "howItWorksTitle": "Cara kerjanya:",
+        "howItWorksDescription": "Alat ini menerapkan teknik membaca cepat dengan menyoroti huruf awal setiap kata. Ini memandu mata Anda melintasi teks dan otak Anda menyelesaikan kata tersebut, memungkinkan Anda membaca lebih cepat dan dengan lebih fokus."
+      }
+    }
+  },
+  "Search": {
+    "placeholder": "Cari alat...",
+    "noResults": "Tidak ada alat yang ditemukan untuk “{query}”."
+  },
+  "Home": {
+    "title": "Alat Online Gratis untuk Tugas Sehari-hari",
+    "subtitle": "Hitung, konversi, hasilkan, dan sederhanakan pekerjaan sehari-hari Anda dengan alat online yang cepat, gratis, dan mudah digunakan.",
+    "popularTools": "Alat Populer",
+    "metaTitle": "100 Alat - Alat Online Gratis Premium",
+    "metaDescription": "Hitung, konversi, hasilkan, dan analisis semua yang Anda perlukan dengan rangkaian 100+ alat online premium kami.",
+    "heroBadge": "100+ Alat Daring Gratis",
+    "heroTitle1": "Hitung, konversi &",
+    "heroTitle2": "menghasilkan segalanya.",
+    "heroDescription": "Platform produktivitas premium untuk pengembang, profesional keuangan, dan tugas sehari-hari. Cepat, pribadi, dan dirancang dengan indah.",
+    "popular": "Populer:",
+    "browseCategories": "Jelajahi Kategori",
+    "browseCategoriesDesc": "Temukan apa yang Anda perlukan, diatur berdasarkan alur kerja.",
+    "mostPopularTools": "Alat Paling Populer",
+    "mostPopularToolsDesc": "Alat yang paling sering digunakan komunitas kami.",
+    "exploreAll": "Jelajahi Semua",
+    "whyUse": "Mengapa menggunakan 100 Alat?",
+    "whyUseDesc": "Dibangun dengan teknologi modern untuk memberikan pengalaman pengguna terbaik.",
+    "feature1Title": "Secepat Kilat",
+    "feature1Desc": "Hasil instan tanpa memuat ulang halaman. Dioptimalkan untuk kecepatan dan latensi rendah.",
+    "feature2Title": "Privasi Pertama",
+    "feature2Desc": "Perhitungan terjadi langsung di browser Anda. Data Anda tidak pernah meninggalkan perangkat Anda.",
+    "feature3Title": "Desain Premium",
+    "feature3Desc": "Antarmuka yang dibuat dengan cermat, indah, intuitif, dan mudah digunakan."
+  },
+  "Footer": {
+    "100Tools": "100 Alat",
+    "thePremiumProductivityPlatf": "Platform produktivitas premium untuk semua kebutuhan penghitungan, konversi, dan pembuatan harian Anda.",
+    "categories": "Kategori",
+    "developerTools": "Alat Pengembang",
+    "finance": "Keuangan",
+    "dateTime": "Tanggal & Waktu",
+    "textTools": "Alat Teks",
+    "converters": "Pengonversi",
+    "popularTools": "Alat Populer",
+    "ageCalculator": "Kalkulator Usia",
+    "jSONFormatter": "Pemformat JSON",
+    "percentageCalculator": "Kalkulator Persentase",
+    "base64Encoder": "Pembuat Enkode Base64",
+    "salaryCalculator": "Kalkulator Gaji",
+    "company": "Perusahaan",
+    "aboutUs": "Tentang Kami",
+    "contact": "Kontak",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfService": "Ketentuan Layanan",
+    "Copy": "&menyalin;",
+    "100ToolsAllRightsReserved": "100 Alat. Semua hak dilindungi undang-undang.",
+    "builtWithNextJs": "Dibangun dengan Next.js",
+    "madeWith": "Dibuat dengan ❤️",
+    "tagline": "Platform produktivitas premium untuk semua kebutuhan penghitungan, konversi, dan pembuatan harian Anda.",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "allRightsReserved": "Semua hak dilindungi undang-undang.",
+    "builtWith": "Dibangun dengan Next.js",
+    "madeWithHeart": "Dibuat dengan ❤️",
+    "cookie": "Cookie Policy"
+  },
+  "Header": {
+    "100Tools": "100 Alat",
+    "developer": "Pengembang",
+    "finance": "Keuangan",
+    "time": "Waktu"
+  },
+  "LanguageSwitcher": {},
+  "RelatedTools": {
+    "relatedTools": "Alat Terkait",
+    "popular": "Populer"
+  },
+  "ToolSearch": {
+    "tryADifferentSearchTermOr": "Coba istilah pencarian lain atau jelajahi kategori."
+  },
+  "index": {
+    "advertisement": "Iklan"
+  },
+  "AgeCalculator": {},
+  "AreaConverter": {},
+  "AverageCalculator": {
+    "dataSet": "Kumpulan Data",
+    "statistics": "Statistik",
+    "eG12345": "misalnya 1 2 3 4 5"
+  },
+  "Base64EncodeDecode": {
+    "mode": "Mode:"
+  },
+  "BedtimeCalculator": {
+    "recommended": "Direkomendasikan",
+    "enterYourWakeUpTimeToCal": "Masukkan waktu bangun Anda untuk menghitung"
+  },
+  "BinaryToDecimal": {
+    "eG1010": "misalnya 1010"
+  },
+  "BionicReadingConverter": {},
+  "BmiCalculator": {
+    "Lt185": "&lt; 18.5",
+    "enterYourHeightAndWeight": "Masukkan tinggi dan berat badan Anda"
+  },
+  "BmrCalculator": {
+    "enterYourDetailsToCalculat": "Masukkan detail Anda untuk menghitung BMR"
+  },
+  "BoardFootCalculator": {},
+  "BodyFatCalculator": {
+    "enterYourMeasurementsToCal": "Masukkan pengukuran Anda untuk menghitung lemak tubuh"
+  },
+  "BreakEvenCalculator": {
+    "costsPricing": "Biaya & Harga",
+    "breakEvenPoint": "Titik Impas"
+  },
+  "CalorieCalculator": {
+    "enterYourDetailsToCalculat": "Masukkan detail Anda untuk menghitung kalori"
+  },
+  "CharacterCounter": {
+    "startTypingOrPasteYourTex": "Mulai ketik atau tempel teks Anda di sini..."
+  },
+  "CompoundInterestCalculator": {
+    "interestDetails": "Detail Minat",
+    "growthBreakdown": "Perincian Pertumbuhan"
+  },
+  "ConcreteCalculator": {},
+  "CostPerSquareFootCalculator": {},
+  "CountdownTimer": {},
+  "CssMinifier": {},
+  "CurrencyConverter": {},
+  "DataStorageConverter": {},
+  "DateDifferenceCalculator": {
+    "selectDatesToCalculate": "Pilih tanggal untuk dihitung"
+  },
+  "DaysBetweenDates": {
+    "selectDatesToCalculate": "Pilih tanggal untuk dihitung"
+  },
+  "DaysUntilCalculator": {
+    "selectAFutureDate": "Pilih tanggal yang akan datang"
+  },
+  "DecimalToBinary": {
+    "eG10": "misalnya 10"
+  },
+  "DeckingCalculator": {},
+  "DiscountCalculator": {
+    "discountDetails": "Detail Diskon",
+    "priceBreakdown": "Rincian Harga"
+  },
+  "EmiCalculator": {
+    "eMIDetails": "Detail EMI",
+    "paymentSummary": "Ringkasan Pembayaran"
+  },
+  "FenceCalculator": {},
+  "FinalGradeCalculator": {},
+  "FractionCalculator": {},
+  "GpaCalculator": {
+    "courseList": "Daftar Kursus",
+    "result": "Hasil",
+    "course": "Kursus"
+  },
+  "GradeCalculator": {
+    "assignments": "Tugas",
+    "result": "Hasil",
+    "eGMidterm": "misalnya Paruh waktu"
+  },
+  "HeightConverter": {},
+  "HexToDecimal": {
+    "eG1AOrFFFFFF": "misalnya 1A atau #FFFFFF"
+  },
+  "HourlyToSalaryCalculator": {
+    "hourlyDetails": "Detail Setiap Jam",
+    "salaryBreakdown": "Rincian Gaji"
+  },
+  "HtmlEncodeDecode": {
+    "mode": "Mode:"
+  },
+  "HtmlMinifier": {},
+  "InvestmentCalculator": {
+    "investmentPlan": "Rencana Investasi",
+    "growthProjection": "Proyeksi Pertumbuhan"
+  },
+  "JsMinifier": {},
+  "JsonFormatter": {
+    "inputJSON": "Masukkan JSON",
+    "reset": "Mengatur ulang"
+  },
+  "JwtDecoder": {
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+  },
+  "LengthConverter": {},
+  "LoanCalculator": {
+    "loanDetails": "Detail Pinjaman",
+    "paymentBreakdown": "Rincian Pembayaran"
+  },
+  "LoremIpsumGenerator": {
+    "generatedText": "Teks yang Dihasilkan"
+  },
+  "MacroCalculator": {
+    "kcal": "kkal",
+    "enterCaloriesToCalculateMa": "Masukkan kalori untuk menghitung makro"
+  },
+  "MarkupCalculator": {
+    "pricingDetails": "Detail Harga",
+    "sellingPrice": "Harga penjualan"
+  },
+  "Md5Generator": {},
+  "MonthsBetweenDates": {
+    "result": "Hasil",
+    "selectDatesToCalculate": "Pilih tanggal untuk dihitung"
+  },
+  "MortgageCalculator": {
+    "propertyDetails": "Detail Properti",
+    "mortgageSummary": "Ringkasan Hipotek"
+  },
+  "MulchCalculator": {},
+  "NumberBaseConverter": {
+    "base": "Basis"
+  },
+  "OvertimeCalculator": {
+    "paySummary": "Ringkasan Pembayaran"
+  },
+  "PaceCalculator": {
+    "enterDistanceAndTimeToCal": "Masukkan jarak dan waktu untuk menghitung kecepatan"
+  },
+  "PaintCalculator": {},
+  "PasswordGenerator": {
+    "constraints": "Kendala",
+    "copyPassword": "Salin Kata Sandi"
+  },
+  "PercentageCalculator": {
+    "calculatePercentage": "Hitung Persentase",
+    "result": "Hasil",
+    "enterValuesToCalculatePerc": "Masukkan nilai untuk menghitung persentase"
+  },
+  "PercentageDecreaseCalculator": {
+    "values": "Nilai-nilai",
+    "decreaseBreakdown": "Kurangi Kerusakan"
+  },
+  "PercentageIncreaseCalculator": {
+    "values": "Nilai-nilai",
+    "increaseBreakdown": "Tingkatkan Kerusakan"
+  },
+  "PlantSpacingCalculator": {},
+  "PomodoroTimer": {
+    "pause": "Berhenti sebentar",
+    "start": "Awal"
+  },
+  "ProfitMarginCalculator": {
+    "financialDetails": "Detail Keuangan",
+    "profitability": "Profitabilitas"
+  },
+  "QrCodeGenerator": {
+    "contentSettings": "Konten & Pengaturan",
+    "enterURLOrTextToEncode": "Masukkan URL atau teks untuk dikodekan...",
+    "generatedQRCode": "Kode QR yang dihasilkan"
+  },
+  "RandomNumberGenerator": {
+    "rangeSettings": "Pengaturan Jangkauan"
+  },
+  "RatioCalculator": {},
+  "RoiCalculator": {
+    "investmentDetails": "Detail Investasi",
+    "returnOnInvestment": "Pengembalian Investasi"
+  },
+  "RomanNumeralConverter": {},
+  "RunningDistanceCalculator": {
+    "enterPaceAndTimeToCalcula": "Masukkan kecepatan dan waktu untuk menghitung jarak"
+  },
+  "SalaryCalculator": {
+    "incomeDetails": "Detail Pendapatan",
+    "salaryBreakdown": "Rincian Gaji",
+    "enterYourIncomeDetailsToS": "Masukkan rincian penghasilan Anda untuk melihat rinciannya"
+  },
+  "SalaryToHourlyCalculator": {
+    "salaryDetails": "Detail Gaji",
+    "equivalentWage": "Upah Setara"
+  },
+  "Sha1Generator": {},
+  "Sha256Generator": {},
+  "SimpleInterestCalculator": {
+    "interestDetails": "Detail Minat",
+    "growthBreakdown": "Perincian Pertumbuhan"
+  },
+  "SleepCalculator": {
+    "recommended": "Direkomendasikan",
+    "enterWakeTimeToCalculateS": "Masukkan waktu bangun untuk menghitung siklus tidur"
+  },
+  "SpeedConverter": {},
+  "SpeedDistanceTimeCalculator": {
+    "enterTheKnownValuesToCalc": "Masukkan nilai yang diketahui untuk dihitung"
+  },
+  "SqlFormatter": {},
+  "SquareFootageCalculator": {},
+  "StepCalculator": {},
+  "Stopwatch": {
+    "laps": "Putaran",
+    "noLapsRecordedYet": "Belum ada putaran yang tercatat"
+  },
+  "TaxCalculator": {
+    "taxDetails": "Detail Pajak",
+    "priceBreakdown": "Rincian Harga"
+  },
+  "TemperatureConverter": {},
+  "TileCalculator": {},
+  "TimeDifferenceCalculator": {
+    "selectTimesToCompare": "Pilih waktu untuk membandingkan"
+  },
+  "TimeDurationCalculator": {
+    "durationResult": "Hasil Durasi",
+    "selectStartAndEndTimes": "Pilih waktu mulai dan berakhir"
+  },
+  "TimeZoneConverter": {
+    "conversionResult": "Hasil Konversi",
+    "selectDateAndTimeZonesTo": "Pilih zona tanggal dan waktu untuk dikonversi"
+  },
+  "TipCalculator": {
+    "billDetails": "Detail Tagihan",
+    "totalBreakdown": "Kerusakan Total"
+  },
+  "UnixTimestampConverter": {
+    "result": "Hasil",
+    "eG1700000000": "misalnya 1700000000"
+  },
+  "UrlEncodeDecode": {
+    "mode": "Mode:"
+  },
+  "UuidGenerator": {
+    "clickGenerateToCreateUUI": "Klik 'Hasilkan' untuk membuat UUID..."
+  },
+  "VolumeConverter": {},
+  "WakeUpTimeCalculator": {
+    "readyForBed": "Siap untuk tidur?",
+    "recommended": "Direkomendasikan",
+    "clickTheButtonWhenYouReG": "Klik tombol ketika Anda akan tidur"
+  },
+  "WaterIntakeCalculator": {
+    "or": "atau",
+    "enterYourDetailsToCalculat": "Masukkan detail Anda untuk menghitung asupan air"
+  },
+  "WeeksBetweenDates": {
+    "result": "Hasil",
+    "selectDatesToCalculate": "Pilih tanggal untuk dihitung"
+  },
+  "WeightConverter": {},
+  "WordCounter": {
+    "startTypingOrPasteYourTex": "Mulai ketik atau tempel teks Anda di sini..."
+  },
+  "WorkHoursCalculator": {
+    "hoursLog": "Catatan Jam",
+    "enterScheduleToCalculateHo": "Masukkan jadwal untuk menghitung jam"
+  },
+  "WorldTimeConverter": {},
+  "XmlFormatter": {},
+  "button": {},
+  "card": {},
+  "CategoryCard": {
+    "tools": "peralatan",
+    "viewAllTools": "Lihat semua alat"
+  },
+  "input": {},
+  "label": {},
+  "textarea": {},
+  "ToolCard": {},
+  "editor": {
+    "copy": "Menyalin"
+  },
+  "layout": {},
+  "panels": {},
+  "Page": {
+    "whatIs": "Apa judulnya}?",
+    "howToUse": "Cara menggunakan {title}",
+    "example": "Contoh",
+    "useCases": "Kasus Penggunaan Umum",
+    "howItWorks": "Cara Kerjanya",
+    "faq": "Pertanyaan yang Sering Diajukan",
+    "readyToStart": "Siap untuk memulai?",
+    "useToolNow": "Gunakan Alat Sekarang"
+  },
+  "Categories": {
+    "developerTools": "Alat Pengembang",
+    "finance": "Keuangan",
+    "time": "Tanggal & Waktu",
+    "text": "Alat Teks",
+    "converters": "Pengonversi"
+  },
+  "About": {
+    "title": "About Us & Methodology",
+    "description": "Welcome to 100 Tools, your free resource for premium online calculators and developer utilities.",
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is to provide fast, reliable, and privacy-respecting tools for everyday tasks. Whether you're a developer needing to encode a JWT, a homeowner calculating mulch volume, or just trying to figure out a discount, we've built a robust tool for you.",
+    "methodologyTitle": "Our Methodology",
+    "methodologyIntro": "We believe in transparency and accuracy, particularly for financial and health-related tools (Your Money or Your Life topics). Here is how we ensure our tools are reliable:",
+    "standardizedFormulasTitle": "Standardized Formulas",
+    "standardizedFormulasText": "All financial calculators (like ROI, Mortgages, and Loans) use industry-standard amortization and compound interest formulas.",
+    "medicalGuidelinesTitle": "Medical Guidelines",
+    "medicalGuidelinesText": "Health calculators (like BMI and BMR) use globally recognized equations, such as the Mifflin-St Jeor Equation for metabolic rate, and the standard WHO classifications for BMI.",
+    "privacyFirstTitle": "Privacy First",
+    "privacyFirstText": "Your data never leaves your browser. All calculations, hashing, and conversions happen locally on your device via JavaScript. We do not store or transmit your inputs.",
+    "continuousTestingTitle": "Continuous Testing",
+    "continuousTestingText": "Our toolkit is rigorously tested to ensure edge cases (like zero values or invalid inputs) are handled gracefully without crashing.",
+    "editorialGuidelinesTitle": "Editorial Guidelines",
+    "editorialGuidelinesText": "Every tool page is designed to be self-explanatory. We prioritize usability and clear instructions over cluttered interfaces. If an equation has limitations (like the Navy Body Fat method being an estimation), we clearly note it on the tool page.",
+    "disclaimer": "Disclaimer: The tools and calculators on this website are for informational and educational purposes only. They do not constitute professional financial or medical advice. Always consult with a qualified professional before making significant health or financial decisions."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you. Whether you have a question, a feature request, or found a bug, let us know!",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "Send Message",
+    "emailUs": "Email Us",
+    "emailAddress": "contact@100tools.example.com",
+    "responseTime": "We typically respond within 24-48 hours.",
+    "successMessage": "Thank you! Your message has been sent.",
+    "errorMessage": "Something went wrong. Please try again later."
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "At 100 Tools, your privacy is our top priority. This Privacy Policy outlines how we handle (and explicitly do NOT handle) your personal data.",
+    "dataCollectionTitle": "No Data Collection",
+    "dataCollectionText": "We do not collect, store, or transmit any personal data when you use our calculators and tools. All computations—including formatting, decoding, and calculating—are performed strictly locally within your browser using JavaScript.",
+    "analyticsTitle": "Analytics & Tracking",
+    "analyticsText": "We may use privacy-friendly, anonymized analytics to understand general traffic patterns (like which tools are most popular). This data cannot be traced back to individual users and does not use intrusive tracking cookies.",
+    "thirdPartyTitle": "Third-Party Services",
+    "thirdPartyText": "Our website is hosted on modern edge networks. These infrastructure providers may log basic connection data (like IP addresses) for security and anti-DDoS purposes, which is standard practice for any website.",
+    "contactUs": "If you have any questions about this Privacy Policy, please contact us."
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "By accessing and using 100 Tools, you agree to comply with and be bound by the following terms and conditions of use.",
+    "noWarrantyTitle": "No Warranties (As-Is)",
+    "noWarrantyText": "All tools, calculators, and information on this website are provided \"as-is\" without any representations or warranties, express or implied. We make no guarantees regarding the accuracy, reliability, or completeness of the results generated.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityText": "In no event shall 100 Tools be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever arising out of or in connection with the use of our tools. This includes financial losses or medical decisions made based on our calculators.",
+    "acceptableUseTitle": "Acceptable Use",
+    "acceptableUseText": "You agree to use our tools for lawful purposes only. You must not attempt to scrape, DDoS, or otherwise disrupt the service or networks connected to 100 Tools.",
+    "modificationsTitle": "Modifications",
+    "modificationsText": "We reserve the right to revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then-current version of these terms."
+  },
+  "Cookie": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, or the information we collect using cookies and how that information is used.",
+    "whatAreCookiesTitle": "What are Cookies?",
+    "whatAreCookiesText": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used to make websites work, or work more efficiently, as well as to provide reporting information.",
+    "howWeUseCookiesTitle": "How We Use Cookies",
+    "howWeUseCookiesText": "We use cookies strictly for essential functionality and basic user preferences. For example, we might use local storage or a cookie to remember if you prefer \"Dark Mode\" or \"Light Mode\", or to remember your preferred language.",
+    "noTrackingTitle": "No Invasive Tracking",
+    "noTrackingText": "We do not use advertising cookies, third-party trackers, or cross-site tracking technologies. Your use of our tools remains private.",
+    "managingCookiesTitle": "Managing Cookies",
+    "managingCookiesText": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed."
+  }
+}

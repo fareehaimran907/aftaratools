@@ -1,0 +1,1 @@
+const { createTranslator } = require('next-intl'); const messages = require('./messages/it.json'); const t = createTranslator({locale: 'it', messages: messages, namespace: 'Page'}); try { console.log(t('whatIs', { title: 'Calcolatore dell\'età' })); } catch(e) { console.error('Error:', e.message); }

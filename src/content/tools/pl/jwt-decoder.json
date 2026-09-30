@@ -1,0 +1,55 @@
+{
+  "seoTitle": "Dekoder JWT",
+  "metaDescription": "Darmowy dekoder JWT online. Dekoduj tokeny internetowe JSON.",
+  "h1": "Dekoder JWT",
+  "primaryKeyword": "dekoder Jwt",
+  "secondaryKeywords": [
+    "dekoder jwt online",
+    "darmowy dekoder jwt",
+    "najlepszy dekoder jwt"
+  ],
+  "slug": "dekoder jwt",
+  "intro": "Skorzystaj z naszego bezpłatnego internetowego narzędzia JWT Decoder. Analizuje tokeny internetowe JSON na podstawie wprowadzonych danych.",
+  "whatIs": "Dekoder JWT to narzędzie online, które analizuje tokeny sieciowe JSON. Przetwarza ciąg JWT i udostępnia czytelne oświadczenia JSON.",
+  "howToUse": [
+    "Wprowadź ciąg JWT w wyznaczonym polu wejściowym.",
+    "Podaj wszelkie parametry dodatkowe, takie jak zdekodowany nagłówek/ładunek.",
+    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować czytelne oświadczenia JSON.",
+    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
+  ],
+  "howItWorks": "To narzędzie działa w przeglądarce, stosując standardowe algorytmy do ciągu JWT. Natychmiast przetwarza dane, aby wyprowadzić czytelne oświadczenia JSON.",
+  "workedExample": "Na przykład: Dekoduje standardowe oświadczenia base64Url do `{ \"sub\": \"123\" }`.",
+  "resultInterpretation": "Wynik reprezentuje czytelne oświadczenia JSON. Możesz użyć tych danych do konkretnych obliczeń lub potrzeb formatowania.",
+  "useCases": [
+    "Debugowanie uwierzytelniania",
+    "Weryfikacja wygaśnięcia tokena",
+    "Szybkie przetwarzanie ciągu JWT w podróży"
+  ],
+  "tipsAndLimitations": [
+    "Dekodowanie NIE weryfikuje podpisu. Nie ufaj ślepo zdekodowanym danym.",
+    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
+    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
+  ],
+  "faq": [
+    {
+      "question": "Can I edit the JWT?",
+      "answer": "You can, but it will invalidate the cryptographic signature."
+    },
+    {
+      "question": "Is the JWT Decoder free to use?",
+      "answer": "Yes, our JWT Decoder is completely free and requires no registration."
+    },
+    {
+      "question": "Does this work on mobile devices?",
+      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+    }
+  ],
+  "relatedTools": [
+    "formater json",
+    "dekodowanie-kodowanie-base64",
+    "kodowanie-dekodowanie adresu URL"
+  ],
+  "lastReviewed": "2026-09-29",
+  "imageAlt": "Zrzut ekranu interfejsu dekodera JWT",
+  "ogImageText": "Dekoder JWT"
+}

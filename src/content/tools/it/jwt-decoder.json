@@ -1,0 +1,55 @@
+{
+  "seoTitle": "Decodificatore JWT",
+  "metaDescription": "Decodificatore JWT online gratuito. Decodifica token Web JSON.",
+  "h1": "Decodificatore JWT",
+  "primaryKeyword": "decodificatore jwt",
+  "secondaryKeywords": [
+    "decodificatore jwt online",
+    "decodificatore jwt gratuito",
+    "miglior decoder jwt"
+  ],
+  "slug": "jwt-decoder",
+  "intro": "Utilizza il nostro strumento di decodifica JWT online gratuito. Analizza i token Web JSON in base ai tuoi input.",
+  "whatIs": "Il decoder JWT è un'utilità online che analizza i token Web JSON. Elabora la stringa JWT e fornisce le attestazioni JSON leggibili.",
+  "howToUse": [
+    "Inserisci la tua stringa JWT nel campo di input designato.",
+    "Fornire eventuali parametri secondari come intestazione/carico utile decodificato.",
+    "Fare clic sul pulsante Calcola o Invia per generare attestazioni JSON leggibili.",
+    "Copia o rivedi l'output risultante in base alle tue esigenze."
+  ],
+  "howItWorks": "Questo strumento funziona nel tuo browser applicando algoritmi standard alla tua stringa JWT. Elabora istantaneamente i dati per generare attestazioni JSON leggibili.",
+  "workedExample": "Ad esempio: decodifica le attestazioni base64Url standard in `{ \"sub\": \"123\" }`.",
+  "resultInterpretation": "Il risultato rappresenta le attestazioni JSON leggibili. È possibile utilizzare questi dati per calcoli specifici o esigenze di formattazione.",
+  "useCases": [
+    "Autenticazione di debug",
+    "Verifica della scadenza del token",
+    "Elaborazione rapida della stringa JWT in movimento"
+  ],
+  "tipsAndLimitations": [
+    "La decodifica NON verifica la firma. Non fidarti ciecamente dei dati decodificati.",
+    "Assicurati che i tuoi input siano formattati correttamente per ottenere i migliori risultati.",
+    "Lo strumento funziona completamente lato client, garantendo che i tuoi dati rimangano privati."
+  ],
+  "faq": [
+    {
+      "question": "Can I edit the JWT?",
+      "answer": "You can, but it will invalidate the cryptographic signature."
+    },
+    {
+      "question": "Is the JWT Decoder free to use?",
+      "answer": "Yes, our JWT Decoder is completely free and requires no registration."
+    },
+    {
+      "question": "Does this work on mobile devices?",
+      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+    }
+  ],
+  "relatedTools": [
+    "json-formattatore",
+    "base64-codifica-decodifica",
+    "codifica-decodifica url"
+  ],
+  "lastReviewed": "29-09-2026",
+  "imageAlt": "Schermata dell'interfaccia del decodificatore JWT",
+  "ogImageText": "Decodificatore JWT"
+}

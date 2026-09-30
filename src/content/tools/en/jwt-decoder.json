@@ -1,0 +1,55 @@
+{
+  "seoTitle": "JWT Decoder",
+  "metaDescription": "Free online JWT Decoder. Decode JSON Web Tokens.",
+  "h1": "JWT Decoder",
+  "primaryKeyword": "jwt decoder",
+  "secondaryKeywords": [
+    "jwt decoder online",
+    "free jwt decoder",
+    "best jwt decoder"
+  ],
+  "slug": "jwt-decoder",
+  "intro": "Use our free online JWT Decoder tool. It parses JSON Web Tokens based on your inputs.",
+  "whatIs": "The JWT Decoder is an online utility that parses JSON Web Tokens. It processes your JWT string and provides the readable JSON claims.",
+  "howToUse": [
+    "Enter your JWT string into the designated input field.",
+    "Provide any secondary parameters like decoded header/payload.",
+    "Click the calculate or submit button to generate the readable JSON claims.",
+    "Copy or review the resulting output for your needs."
+  ],
+  "howItWorks": "This tool operates in your browser by applying standard algorithms to your JWT string. It instantly processes the data to output the readable JSON claims.",
+  "workedExample": "For example: Decodes standard base64Url claims into `{ \"sub\": \"123\" }`.",
+  "resultInterpretation": "The result represents the readable JSON claims. You can use this data for your specific calculations or formatting needs.",
+  "useCases": [
+    "Debugging authentication",
+    "Verifying token expiry",
+    "Quickly processing JWT string on the go"
+  ],
+  "tipsAndLimitations": [
+    "Decoding does NOT verify the signature. Do not trust decoded data blindly.",
+    "Ensure your inputs are formatted correctly for the best results.",
+    "The tool runs completely client-side, ensuring your data remains private."
+  ],
+  "faq": [
+    {
+      "question": "Can I edit the JWT?",
+      "answer": "You can, but it will invalidate the cryptographic signature."
+    },
+    {
+      "question": "Is the JWT Decoder free to use?",
+      "answer": "Yes, our JWT Decoder is completely free and requires no registration."
+    },
+    {
+      "question": "Does this work on mobile devices?",
+      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+    }
+  ],
+  "relatedTools": [
+    "json-formatter",
+    "base64-encode-decode",
+    "url-encode-decode"
+  ],
+  "lastReviewed": "2026-09-29",
+  "imageAlt": "JWT Decoder interface screenshot",
+  "ogImageText": "JWT Decoder"
+}

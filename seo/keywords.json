@@ -1,0 +1,182 @@
+[
+  {
+    "tool": "age-calculator",
+    "primaryKeyword": "age calculator",
+    "secondaryKeywords": [
+      "how old am i",
+      "age difference calculator",
+      "chronological age calculator",
+      "exact age calculator",
+      "birthday calculator",
+      "age counter",
+      "date of birth calculator"
+    ],
+    "faqs": [
+      "How is my exact age calculated?",
+      "Does this calculator account for leap years?",
+      "Can I calculate my age in hours or days?",
+      "How do I find out someone's age from their birth year?",
+      "What is chronological age?"
+    ],
+    "intent": "Tool-use / Informational. Users want to know their exact age down to the day, or check the age difference between two people.",
+    "competitorFeatures": "Top ranking pages include clear inputs for Date of Birth, output broken down into Years/Months/Days, and a 'Next Birthday' countdown. High word count (800+) explaining calendar math.",
+    "semanticTerms": [
+      "date of birth",
+      "leap year",
+      "chronological age",
+      "Gregorian calendar",
+      "months and days",
+      "next birthday"
+    ],
+    "internalLinks": [
+      "date-difference-calculator",
+      "days-between-dates",
+      "days-until-calculator"
+    ],
+    "note": "Exact search volumes unavailable, but 'age calculator' is known to be extremely high volume globally."
+  },
+  {
+    "tool": "bmi-calculator",
+    "primaryKeyword": "bmi calculator",
+    "secondaryKeywords": [
+      "body mass index calculator",
+      "calculate bmi",
+      "bmi chart",
+      "healthy weight calculator",
+      "bmi for men",
+      "bmi for women",
+      "bmi formula"
+    ],
+    "faqs": [
+      "What is a healthy BMI?",
+      "How accurate is BMI?",
+      "Does BMI apply to bodybuilders or athletes?",
+      "What is the formula for calculating BMI?",
+      "Is BMI different for men and women?"
+    ],
+    "intent": "Tool-use / Health Informational. Users want to know if they fall into healthy, overweight, or underweight categories.",
+    "competitorFeatures": "Top pages include metric/imperial toggles, a visual dial or gauge showing the BMI category, and heavy medical disclaimers. Schema markup for HealthTopic.",
+    "semanticTerms": [
+      "body mass index",
+      "healthy weight",
+      "underweight",
+      "overweight",
+      "obese",
+      "metric system",
+      "imperial system",
+      "kg/m²"
+    ],
+    "internalLinks": [
+      "bmr-calculator",
+      "calorie-calculator",
+      "body-fat-calculator"
+    ],
+    "note": "Extremely high search volume and competition. Requires medical disclaimers to comply with YMYL (Your Money or Your Life) standards."
+  },
+  {
+    "tool": "json-formatter",
+    "primaryKeyword": "json formatter",
+    "secondaryKeywords": [
+      "json validator",
+      "json beautifier",
+      "format json online",
+      "pretty print json",
+      "json parser",
+      "json linter"
+    ],
+    "faqs": [
+      "Why is my JSON invalid?",
+      "How do I format JSON?",
+      "What is JSON used for?",
+      "Does this tool store my JSON data?",
+      "Can I minify JSON with this tool?"
+    ],
+    "intent": "Tool-use / Developer Utility. Developers want a fast, client-side tool to paste unformatted JSON and instantly see it formatted or validated.",
+    "competitorFeatures": "Top pages feature side-by-side or stacked Monaco/CodeMirror editors, instant error highlighting, syntax coloring, and copy/download buttons. Must be fast and secure (client-side only).",
+    "semanticTerms": [
+      "JavaScript Object Notation",
+      "parse JSON",
+      "syntax error",
+      "stringify",
+      "key-value pairs",
+      "developer tools"
+    ],
+    "internalLinks": [
+      "xml-formatter",
+      "base64-encode-decode",
+      "sql-formatter"
+    ],
+    "note": "High volume among developers. Security/privacy is the #1 concern, so emphasizing 'client-side only' is a major conversion factor."
+  },
+  {
+    "tool": "mortgage-calculator",
+    "primaryKeyword": "mortgage calculator",
+    "secondaryKeywords": [
+      "home loan calculator",
+      "monthly mortgage payment calculator",
+      "amortization schedule calculator",
+      "house payment calculator",
+      "mortgage interest calculator"
+    ],
+    "faqs": [
+      "How much house can I afford?",
+      "What is included in a monthly mortgage payment?",
+      "How does the interest rate affect my mortgage?",
+      "What is an amortization schedule?",
+      "Do I need to include property taxes and insurance?"
+    ],
+    "intent": "Tool-use / Financial Planning. Users want to estimate their monthly housing costs based on loan amount, interest rate, and term.",
+    "competitorFeatures": "Top pages include dynamic charts (pie chart of payment breakdown), amortization tables, and inputs for taxes/insurance (PITI). Extensive financial disclaimers required.",
+    "semanticTerms": [
+      "principal and interest",
+      "down payment",
+      "loan term",
+      "amortization",
+      "property tax",
+      "homeowners insurance",
+      "interest rate"
+    ],
+    "internalLinks": [
+      "loan-calculator",
+      "emi-calculator",
+      "simple-interest-calculator"
+    ],
+    "note": "Massive volume, highly competitive YMYL topic. Will require strong financial disclaimers and clear breakdown of principal vs interest."
+  },
+  {
+    "tool": "word-counter",
+    "primaryKeyword": "word counter",
+    "secondaryKeywords": [
+      "character counter",
+      "word count online",
+      "letter counter",
+      "how many words is this",
+      "paragraph counter",
+      "reading time calculator"
+    ],
+    "faqs": [
+      "How many words is a 5-minute read?",
+      "Does punctuation count as a character?",
+      "How many words is a standard novel?",
+      "Are spaces counted in character counts?",
+      "How do I count words in a document?"
+    ],
+    "intent": "Tool-use. Writers, students, and SEOs want to quickly paste text to see word, character, sentence, and paragraph counts.",
+    "competitorFeatures": "Top pages have a large, distraction-free textarea, real-time stats updates, and advanced metrics (reading time, speaking time, keyword density).",
+    "semanticTerms": [
+      "character count",
+      "reading time",
+      "paragraphs",
+      "sentences",
+      "text analysis",
+      "copywriting",
+      "essay length"
+    ],
+    "internalLinks": [
+      "character-counter",
+      "lorem-ipsum-generator",
+      "bionic-reading-converter"
+    ],
+    "note": "High volume. Speed and real-time updating without lagging on large texts are critical."
+  }
+]

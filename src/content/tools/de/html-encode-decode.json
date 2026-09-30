@@ -1,0 +1,55 @@
+{
+  "seoTitle": "HTML-Encoder/Decoder",
+  "metaDescription": "Kostenloser Online-HTML-Encoder/Decoder. Kodieren oder dekodieren Sie HTML-Entitäten.",
+  "h1": "HTML-Encoder/Decoder",
+  "primaryKeyword": "HTML-Encoder/Decoder",
+  "secondaryKeywords": [
+    "HTML-Encoder/Decoder online",
+    "Kostenloser HTML-Encoder/Decoder",
+    "Bester HTML-Encoder/Decoder"
+  ],
+  "slug": "html-encode-decode",
+  "intro": "Nutzen Sie unser kostenloses Online-HTML-Encoder-/Decoder-Tool. Es maskiert HTML-Entitäten basierend auf Ihren Eingaben.",
+  "whatIs": "Der HTML Encoder/Decoder ist ein Online-Dienstprogramm, das HTML-Entitäten maskiert. Es verarbeitet Ihren Rohtext und stellt den Text sicher für die Wiedergabe im DOM bereit.",
+  "howToUse": [
+    "Geben Sie Ihren Rohtext in das dafür vorgesehene Eingabefeld ein.",
+    "Geben Sie alle sekundären Parameter wie HTML-Entitäten an.",
+    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um Text zu generieren, der sicher im DOM wiedergegeben werden kann.",
+    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
+  ],
+  "howItWorks": "Dieses Tool arbeitet in Ihrem Browser, indem es Standardalgorithmen auf Ihren Rohtext anwendet. Die Daten werden sofort verarbeitet, um den Text sicher für die Darstellung im DOM auszugeben.",
+  "workedExample": "Beispiel: „<script>“ wird zu „&lt;script&gt;“.",
+  "resultInterpretation": "Das Ergebnis stellt Text dar, der sicher im DOM gerendert werden kann. Sie können diese Daten für Ihre spezifischen Berechnungen oder Formatierungsanforderungen verwenden.",
+  "useCases": [
+    "XSS-Angriffe verhindern",
+    "Codeausschnitte auf Blogs anzeigen",
+    "Schnelle Verarbeitung von Rohtext unterwegs"
+  ],
+  "tipsAndLimitations": [
+    "Verwenden Sie dies, wenn Sie Benutzereingaben zur Anzeige auf einer Seite akzeptieren.",
+    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
+    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten privat bleiben."
+  ],
+  "faq": [
+    {
+      "question": "What does `<` become?",
+      "answer": "It encodes to `&lt;`."
+    },
+    {
+      "question": "Is the HTML Encoder / Decoder free to use?",
+      "answer": "Yes, our HTML Encoder / Decoder is completely free and requires no registration."
+    },
+    {
+      "question": "Does this work on mobile devices?",
+      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+    }
+  ],
+  "relatedTools": [
+    "JSON-Formatierer",
+    "base64-encode-decode",
+    "URL-Kodierung-Dekodierung"
+  ],
+  "lastReviewed": "29.09.2026",
+  "imageAlt": "Screenshot der HTML-Encoder-/Decoder-Schnittstelle",
+  "ogImageText": "HTML-Encoder/Decoder"
+}

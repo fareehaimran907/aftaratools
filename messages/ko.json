@@ -1,0 +1,1812 @@
+{
+  "Navigation": {
+    "home": "홈",
+    "tools": "도구",
+    "categories": "카테고리",
+    "about": "소개",
+    "contact": "문의"
+  },
+  "Common": {
+    "viewIn": "{language}로 보시겠습니까?",
+    "yes": "예",
+    "dismiss": "닫기",
+    "language": "언어",
+    "theme": "테마",
+    "light": "라이트",
+    "dark": "다크",
+    "system": "시스템",
+    "copy": "복사"
+  },
+  "Tools": {
+    "age-calculator": {
+      "title": "나이 계산기",
+      "description": "년, 월, 일 단위로 정확한 나이를 계산합니다.",
+      "ui": {
+        "calculateYourAge": "나이 계산",
+        "dateOfBirth": "생년월일",
+        "calculate": "계산",
+        "years": "년",
+        "months": "개월",
+        "days": "일",
+        "nextBirthday": "다음 생일:",
+        "totalDays": "총 일수:",
+        "yourAgeIs": "현재 나이:",
+        "copy": "복사",
+        "reset": "초기화",
+        "targetDate": "목표 날짜(선택사항)",
+        "selectYourDateOfBirth": "생년월일을 선택하세요"
+      }
+    },
+    "percentage-calculator": {
+      "title": "백분율 계산기",
+      "description": "백분율을 빠르고 정확하게 계산합니다.",
+      "ui": {
+        "percentageCalculator": "백분율 계산기",
+        "whatIs": "무엇의",
+        "of": "는",
+        "amount": "금액",
+        "calculate": "계산",
+        "result": "결과",
+        "calculatePercentage": "백분율 계산"
+      }
+    },
+    "json-formatter": {
+      "title": "JSON 포맷터",
+      "description": "JSON 데이터를 포맷하고 검증하며 보기 좋게 정리합니다.",
+      "ui": {
+        "formatJson": "JSON 포맷",
+        "inputJSON": "J S O N을 입력하세요.",
+        "reset": "다시 놓기"
+      }
+    },
+    "area-converter": {
+      "title": "면적 변환기",
+      "description": "",
+      "ui": {
+        "areaConverter": "면적 변환기",
+        "from": "변환 전",
+        "to": "변환 후"
+      }
+    },
+    "average-calculator": {
+      "title": "평균 계산기",
+      "description": "",
+      "ui": {
+        "averageCalculator": "평균 계산기",
+        "enterNumbersSeparatedByCommasOrSpaces": "숫자를 입력하세요 (쉼표 또는 공백으로 구분)",
+        "count": "개수",
+        "sum": "합계",
+        "averageMean": "평균",
+        "median": "중앙값",
+        "dataSet": "데이터 세트",
+        "eG12345": "예를 들어 1, 2, 3, 4, 5",
+        "statistics": "통계"
+      }
+    },
+    "base64encode-decode": {
+      "title": "Base64 인코더/디코더",
+      "description": "",
+      "ui": {
+        "base64EncoderDecoder": "Base64 인코더 / 디코더",
+        "encode": "인코드",
+        "decode": "디코드",
+        "input": "입력 (",
+        "output": "출력 (",
+        "mode": "방법"
+      }
+    },
+    "bedtime-calculator": {
+      "title": "취침 시간 계산기",
+      "description": "",
+      "ui": {
+        "bedtimeCalculator": "취침 시간 계산기",
+        "whenDoYouNeedToWakeUp": "몇 시에 일어나야 하나요?",
+        "calculate": "계산",
+        "toWakeUpAt": "일어나야 하는 시간",
+        "youShouldTryToBeAsleepBy": "에 맞추려면 다음 시간까지 잠들도록 해보세요:",
+        "6Cycles9h": "6주기 (9시간)",
+        "5Cycles75h": "5주기 (7.5시간)",
+        "calculationsIncludeAnAverage15MinutesToFallAsleep": "계산에는 잠드는 데 걸리는 평균 15분이 포함됩니다.",
+        "enterYourWakeUpTimeToCal": "기상 시간을 입력하여 취침 시간을 계산하세요."
+      }
+    },
+    "binary-to-decimal": {
+      "title": "2진수 → 10진수",
+      "description": "",
+      "ui": {
+        "binaryToDecimalConverter": "2진수 → 10진수 변환기",
+        "binaryNumber": "2진수",
+        "decimalResult": "10진수 결과",
+        "eG1010": "예를 들어 1010"
+      }
+    },
+    "bmi-calculator": {
+      "title": "BMI 계산기",
+      "description": "",
+      "ui": {
+        "bmiCalculator": "BMI 계산기",
+        "metric": "미터법",
+        "imperial": "야드파운드법",
+        "heightCm": "키 (cm)",
+        "weightKg": "체중 (kg)",
+        "heightFt": "키 (ft)",
+        "heightIn": "키 (in)",
+        "weightLbs": "체중 (lbs)",
+        "yourBmi": "BMI",
+        "Lt185": "< 18.5"
+      }
+    },
+    "bmr-calculator": {
+      "title": "BMR 계산기",
+      "description": "",
+      "ui": {
+        "bmrCalculator": "BMR 계산기",
+        "male": "남성",
+        "female": "여성",
+        "ageYears": "나이 (세)",
+        "heightCm": "키 (cm)",
+        "weightKg": "체중 (kg)",
+        "basalMetabolicRate": "기초대사량",
+        "caloriesDay": "칼로리 / 일",
+        "thisIsTheAmountOfEnergyYourBodyBurnsAtRestJustToKeepYouAlive": "이는 생명 유지를 위해 휴식 상태에서 신체가 소비하는 에너지량입니다."
+      }
+    },
+    "board-foot-calculator": {
+      "title": "보드 피트 계산기",
+      "description": "",
+      "ui": {
+        "boardFootCalculator": "보드 피트 계산기",
+        "thicknessIn": "두께 (in)",
+        "widthIn": "너비 (in)",
+        "lengthFt": "길이 (ft)",
+        "quantity": "수량",
+        "pricePerBf": "보드 피트당 가격 ($)",
+        "totalBoardFeet": "총 보드 피트",
+        "totalCost": "총 비용: $"
+      }
+    },
+    "body-fat-calculator": {
+      "title": "체지방률 계산기",
+      "description": "",
+      "ui": {
+        "bodyFatCalculatorNavyMethod": "체지방률 계산기 (미 해군 방식)",
+        "male": "남성",
+        "female": "여성",
+        "heightCm": "키 (cm)",
+        "neckCm": "목둘레 (cm)",
+        "waistCmAtNavel": "배꼽 기준 허리둘레 (cm)",
+        "hipsCm": "엉덩이둘레 (cm)",
+        "estimatedBodyFat": "추정 체지방률"
+      }
+    },
+    "break-even-calculator": {
+      "title": "손익분기점 계산기",
+      "description": "",
+      "ui": {
+        "breakevenCalculator": "손익분기점 계산기",
+        "fixedCosts": "고정비",
+        "variableCostPerUnit": "단위당 변동비",
+        "sellingPricePerUnit": "단위당 판매 가격",
+        "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "손익분기점에 도달하려면 판매 가격이 변동비보다 높아야 합니다.",
+        "unitsToSell": "판매 수량",
+        "breakevenRevenue": "손익분기점 매출",
+        "costsPricing": "비용 가격",
+        "breakEvenPoint": "손익 분기점"
+      }
+    },
+    "calorie-calculator": {
+      "title": "칼로리 계산기",
+      "description": "",
+      "ui": {
+        "dailyCalorieCalculator": "일일 칼로리 계산기",
+        "male": "남성",
+        "female": "여성",
+        "age": "나이",
+        "heightCm": "키 (cm)",
+        "weightKg": "체중 (kg)",
+        "activityLevel": "활동 수준",
+        "sedentaryLittleOrNoExercise": "좌식 생활 (운동을 거의 하지 않음)",
+        "lightlyActiveLightExercise13Daysweek": "약간 활동적 (가벼운 운동 주 1~3일)",
+        "moderatelyActiveModerateExercise35Daysweek": "보통 활동적 (중간 강도 운동 주 3~5일)",
+        "veryActiveHardExercise67Daysweek": "매우 활동적 (고강도 운동 주 6~7일)",
+        "extraActiveVeryHardExercisephysicalJob": "극도로 활동적 (매우 강한 운동/육체 노동)",
+        "maintainWeight": "체중 유지",
+        "kcal": "칼로리",
+        "loseWeight05kgweek": "체중 감량 (-0.5kg/주)",
+        "gainWeight05kgweek": "체중 증량 (+0.5kg/주)"
+      }
+    },
+    "character-counter": {
+      "title": "문자 수 세기",
+      "description": "",
+      "ui": {
+        "characterCounter": "문자 수 세기",
+        "totalCharacters": "총 문자 수",
+        "withoutSpaces": "공백 제외",
+        "spaces": "공백",
+        "lines": "줄 수",
+        "startTypingOrPasteYourTex": "여기에 텍스트를 입력하거나 붙여넣으세요..."
+      }
+    },
+    "compound-interest-calculator": {
+      "title": "복리 계산기",
+      "description": "",
+      "ui": {
+        "compoundInterestCalculator": "복리 계산기",
+        "principalAmount": "원금",
+        "annualRate": "연이율 (%)",
+        "timeYears": "기간 (년)",
+        "compoundFrequency": "복리 주기",
+        "daily": "매일",
+        "monthly": "매월",
+        "quarterly": "분기별",
+        "semiannually": "반기별",
+        "annually": "매년",
+        "interestEarned": "발생 이자",
+        "finalBalance": "최종 잔액",
+        "interestDetails": "이자 세부정보",
+        "growthBreakdown": "성장 분석"
+      }
+    },
+    "concrete-calculator": {
+      "title": "콘크리트 계산기",
+      "description": "",
+      "ui": {
+        "concreteCalculator": "콘크리트 계산기",
+        "lengthFt": "길이 (ft)",
+        "widthFt": "너비 (ft)",
+        "depthThicknessInches": "깊이 / 두께 (인치)",
+        "volumeRequired": "필요한 부피",
+        "cubicYards": "입방 야드",
+        "80lbBags": "80lb 포대",
+        "60lbBags": "60lb 포대",
+        "40lbBags": "40lb 포대"
+      }
+    },
+    "cost-per-square-foot-calculator": {
+      "title": "제곱피트당 비용 계산기",
+      "description": "",
+      "ui": {
+        "costPerSquareFoot": "제곱피트당 비용",
+        "totalPriceOrCost": "총 가격 또는 비용 ($)",
+        "totalSquareFootage": "총 면적",
+        "sqFt": "/ 제곱피트"
+      }
+    },
+    "countdown-timer": {
+      "title": "카운트다운 타이머",
+      "description": "",
+      "ui": {
+        "countdownTimer": "카운트다운 타이머",
+        "minutes": "분",
+        "start": "시작",
+        "pause": "일시정지",
+        "reset": "초기화"
+      }
+    },
+    "css-minifier": {
+      "title": "CSS 미니파이어",
+      "description": "",
+      "ui": {
+        "cssMinifier": "CSS 미니파이어",
+        "inputCss": "입력 CSS",
+        "bytes": "바이트 (-",
+        "minifiedCss": "최소화된 CSS"
+      }
+    },
+    "currency-converter": {
+      "title": "통화 변환기",
+      "description": "",
+      "ui": {
+        "currencyConverterEstimated": "통화 변환기 (예상)",
+        "amount": "금액",
+        "from": "변환 전",
+        "to": "변환 후",
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "참고: 이 환율은 데모 목적으로만 제공되는 고정된 예상값입니다."
+      }
+    },
+    "data-storage-converter": {
+      "title": "데이터 용량 변환기",
+      "description": "",
+      "ui": {
+        "dataStorageConverter": "데이터 용량 변환기",
+        "from": "변환 전",
+        "to": "변환 후"
+      }
+    },
+    "date-difference-calculator": {
+      "title": "날짜 차이 계산기",
+      "description": "",
+      "ui": {
+        "dateDifferenceCalculator": "날짜 차이 계산기",
+        "startDate": "시작 날짜",
+        "endDate": "종료 날짜",
+        "calculateDifference": "차이 계산",
+        "timeDifference": "시간 차이:",
+        "years": "년",
+        "months": "개월",
+        "days": "일",
+        "totalDaysEquivalent": "총 일수:",
+        "totalWeeksEquivalent": "총 주 수:",
+        "weeks": "주,",
+        "copy": "복사",
+        "reset": "초기화",
+        "selectDatesToCalculate": "계산할 날짜 선택"
+      }
+    },
+    "days-between-dates": {
+      "title": "날짜 사이의 일수",
+      "description": "",
+      "ui": {
+        "daysBetweenDates": "날짜 사이의 일수",
+        "startDate": "시작 날짜",
+        "endDate": "종료 날짜",
+        "includeStartDateInCalculation": "계산에 시작 날짜 포함",
+        "includeEndDateInCalculation": "계산에 종료 날짜 포함",
+        "calculateDays": "일수 계산",
+        "totalResult": "총 결과:",
+        "days": "일",
+        "copy": "복사",
+        "reset": "초기화",
+        "selectDatesToCalculate": "계산할 날짜 선택"
+      }
+    },
+    "days-until-calculator": {
+      "title": "남은 일수 계산기",
+      "description": "",
+      "ui": {
+        "daysUntil": "남은 일수...",
+        "selectFutureDateEventHolidayDeadline": "미래 날짜 선택 (이벤트, 공휴일, 마감일)",
+        "calculate": "계산",
+        "timeRemaining": "남은 시간:",
+        "totalDays": "총 일수",
+        "whichIsExactly": "정확히:",
+        "days": "일",
+        "copy": "복사",
+        "reset": "초기화",
+        "selectAFutureDate": "미래 날짜를 선택하세요"
+      }
+    },
+    "decimal-to-binary": {
+      "title": "10진수 → 2진수",
+      "description": "",
+      "ui": {
+        "decimalToBinaryConverter": "10진수 → 2진수 변환기",
+        "decimalNumber": "10진수",
+        "binaryResult": "2진수 결과",
+        "eG10": "예를 들어 10"
+      }
+    },
+    "decking-calculator": {
+      "title": "데크 계산기",
+      "description": "",
+      "ui": {
+        "deckingMaterialCalculator": "데크 자재 계산기",
+        "deckLengthFt": "데크 길이 (ft)",
+        "parallelToHouse": "집과 평행",
+        "deckWidthDepthFt": "데크 너비 / 깊이 (ft)",
+        "awayFromHouse": "집에서 멀어지는 방향",
+        "boardLengthFt": "보드 길이 (ft)",
+        "boardWidthIn": "보드 너비 (in)",
+        "requiredBoards": "필요한 보드 (",
+        "length": "' 길이)",
+        "deckArea": "데크 면적",
+        "sqFt": "제곱피트",
+        "screwsFasteners": "나사 / 고정장치"
+      }
+    },
+    "discount-calculator": {
+      "title": "할인 계산기",
+      "description": "",
+      "ui": {
+        "discountCalculator": "할인 계산기",
+        "originalPrice": "원래 가격",
+        "discount": "할인",
+        "type": "유형",
+        "off": "% 할인",
+        "fixedAmountOff": "정액 할인",
+        "youSave": "절약 금액",
+        "finalPrice": "최종 가격",
+        "discountDetails": "할인내역",
+        "priceBreakdown": "가격 내역"
+      }
+    },
+    "emi-calculator": {
+      "title": "EMI 계산기",
+      "description": "",
+      "ui": {
+        "emiCalculator": "EMI 계산기",
+        "loanAmountPrincipal": "대출 금액 (원금)",
+        "annualRate": "연이율 (%)",
+        "tenureMonths": "대출 기간 (개월)",
+        "monthlyEmi": "월별 EMI",
+        "totalInterestPayable": "총 납부 이자",
+        "totalPaymentPrincipalInterest": "총 납부액 (원금 + 이자)",
+        "eMIDetails": "EMI 세부사항",
+        "paymentSummary": "결제 요약"
+      }
+    },
+    "fence-calculator": {
+      "title": "울타리 계산기",
+      "description": "",
+      "ui": {
+        "fenceMaterialCalculator": "울타리 자재 계산기",
+        "totalFenceLengthFt": "울타리 총 길이 (ft)",
+        "postSpacingFt": "기둥 간격 (ft)",
+        "standardIs6Or8": "표준은 6' 또는 8'",
+        "horizontalRailsPerPanel": "패널당 가로 레일",
+        "usually2Or3": "보통 2개 또는 3개",
+        "picketWidthIn": "세로 판자 너비 (in)",
+        "picketSpacingIn": "세로 판자 간격 (in)",
+        "0ForSolidPrivacy": "완전한 프라이버시를 위해 0",
+        "posts": "기둥",
+        "rails": "레일",
+        "pickets": "판자"
+      }
+    },
+    "final-grade-calculator": {
+      "title": "최종 성적 계산기",
+      "description": "",
+      "ui": {
+        "finalGradeCalculator": "최종 성적 계산기",
+        "currentGrade": "현재 성적 (%)",
+        "desiredClassGrade": "희망 최종 성적 (%)",
+        "finalExamWeight": "기말고사 반영 비율 (%)",
+        "youNeedToScore": "다음 점수를 받아야 합니다",
+        "onTheFinalExam": "기말고사에서",
+        "itLooksLikeScoringThisGradeIsMathematicallyImpossibleUnlessThereIsExtraCreditAvailable": "추가 점수가 없는 경우 이 성적을 받는 것은 수학적으로 불가능한 것으로 보입니다."
+      }
+    },
+    "fraction-calculator": {
+      "title": "분수 계산기",
+      "description": "",
+      "ui": {
+        "fractionCalculator": "분수 계산기",
+        "decimal": "소수:"
+      }
+    },
+    "gpa-calculator": {
+      "title": "GPA 계산기",
+      "description": "",
+      "ui": {
+        "gpaCalculator": "GPA 계산기",
+        "courseName": "과목명",
+        "credits": "학점",
+        "grade": "성적",
+        "addCourse": "과목 추가",
+        "totalCredits": "총 학점",
+        "cumulativeGpa": "누적 GPA",
+        "courseList": "강좌 목록",
+        "course": "강의",
+        "result": "결과"
+      }
+    },
+    "grade-calculator": {
+      "title": "성적 계산기",
+      "description": "",
+      "ui": {
+        "gradeCalculator": "성적 계산기",
+        "assignmentCategory": "과제 카테고리",
+        "grade": "성적 (%)",
+        "weight": "가중치 (%)",
+        "addCategory": "카테고리 추가",
+        "totalWeightEntered": "입력된 총 가중치",
+        "currentGrade": "현재 성적",
+        "assignments": "과제",
+        "eGMidterm": "예를 들어 중간고사",
+        "result": "결과"
+      }
+    },
+    "height-converter": {
+      "title": "신장 변환기",
+      "description": "",
+      "ui": {
+        "heightConverter": "신장 변환기",
+        "metricCentimeters": "미터법 (센티미터)",
+        "cm": "cm",
+        "imperialFeetInches": "야드파운드법 (피트 및 인치)",
+        "ft": "피트",
+        "in": "~에"
+      }
+    },
+    "hex-to-decimal": {
+      "title": "16진수 → 10진수",
+      "description": "",
+      "ui": {
+        "hexToDecimalConverter": "16진수 → 10진수 변환기",
+        "hexadecimalNumber": "16진수",
+        "decimalResult": "10진수 결과",
+        "eG1AOrFFFFFF": "예를 들어 1A 또는 FFFFFF"
+      }
+    },
+    "hourly-to-salary-calculator": {
+      "title": "시급 → 연봉 계산기",
+      "description": "",
+      "ui": {
+        "hourlyToSalaryCalculator": "시급 → 연봉 계산기",
+        "hourlyWage": "시급",
+        "hoursWeek": "시간 / 주",
+        "weeksYear": "주 / 년",
+        "daily": "일급",
+        "weekly": "주급",
+        "monthly": "월급",
+        "yearlySalary": "연봉",
+        "hourlyDetails": "시간별 세부정보",
+        "salaryBreakdown": "급여 내역"
+      }
+    },
+    "html-encode-decode": {
+      "title": "HTML 인코더/디코더",
+      "description": "",
+      "ui": {
+        "htmlEntityEncoderDecoder": "HTML 엔티티 인코더 / 디코더",
+        "encode": "인코드",
+        "decode": "디코드",
+        "input": "입력",
+        "output": "출력",
+        "mode": "방법"
+      }
+    },
+    "html-minifier": {
+      "title": "HTML 미니파이어",
+      "description": "",
+      "ui": {
+        "htmlMinifier": "HTML 미니파이어",
+        "inputHtml": "입력 HTML",
+        "bytes": "바이트 (-",
+        "minifiedHtml": "최소화된 HTML"
+      }
+    },
+    "investment-calculator": {
+      "title": "투자 계산기",
+      "description": "",
+      "ui": {
+        "investmentCalculator": "투자 계산기",
+        "initialInvestment": "초기 투자금",
+        "monthlyContribution": "월별 납입액",
+        "expectedReturn": "예상 수익률 (%)",
+        "yearsToGrow": "투자 기간 (년)",
+        "totalContributions": "총 납입액",
+        "interestEarned": "발생 이자",
+        "futureValue": "미래 가치",
+        "investmentPlan": "투자 계획",
+        "growthProjection": "성장 예측"
+      }
+    },
+    "js-minifier": {
+      "title": "JS 미니파이어",
+      "description": "",
+      "ui": {
+        "javascriptMinifier": "JavaScript 미니파이어",
+        "inputJs": "입력 JS",
+        "bytes": "바이트 (-",
+        "minifiedJs": "최소화된 JS"
+      }
+    },
+    "jwt-decoder": {
+      "title": "JWT 디코더",
+      "description": "",
+      "ui": {
+        "jwtDecoder": "JWT 디코더",
+        "encodedJwtHeaderpayloadsignature": "인코딩된 JWT (Header.Payload.Signature)",
+        "invalidJwtFormat": "잘못된 JWT 형식입니다.",
+        "header": "헤더",
+        "payload": "유효 탑재량",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik..."
+      }
+    },
+    "length-converter": {
+      "title": "길이 변환기",
+      "description": "",
+      "ui": {
+        "lengthConverter": "길이 변환기",
+        "from": "변환 전",
+        "to": "변환 후"
+      }
+    },
+    "loan-calculator": {
+      "title": "대출 계산기",
+      "description": "",
+      "ui": {
+        "loanCalculator": "대출 계산기",
+        "loanAmount": "대출 금액",
+        "interestRate": "이자율 (%)",
+        "loanTermYears": "대출 기간 (년)",
+        "monthlyPayment": "월 납입액",
+        "totalInterest": "총 이자",
+        "totalCostOfLoan": "총 대출 비용",
+        "loanDetails": "대출내역",
+        "paymentBreakdown": "지불 내역"
+      }
+    },
+    "lorem-ipsum-generator": {
+      "title": "Lorem Ipsum 생성기",
+      "description": "",
+      "ui": {
+        "loremIpsumGenerator": "Lorem Ipsum 생성기",
+        "paragraphs": "단락 수",
+        "generate": "생성",
+        "copy": "복사",
+        "generatedText": "생성된 텍스트"
+      }
+    },
+    "macro-calculator": {
+      "title": "매크로 계산기",
+      "description": "",
+      "ui": {
+        "macroCalculator": "매크로 계산기",
+        "dailyCalories": "일일 칼로리",
+        "dietPlan": "식단 계획",
+        "balanced303040": "균형형 (30/30/40)",
+        "lowCarb404020": "저탄수화물 (40/40/20)",
+        "highProtein402535": "고단백 (40/25/35)",
+        "keto20755": "키토 (20/75/5)",
+        "protein": "단백질",
+        "g": "g",
+        "fats": "지방",
+        "carbs": "탄수화물",
+        "kcal": "칼로리"
+      }
+    },
+    "markup-calculator": {
+      "title": "마크업 계산기",
+      "description": "",
+      "ui": {
+        "markupCalculator": "마크업 계산기",
+        "cost": "원가",
+        "markup": "마크업 (%)",
+        "profit": "이익",
+        "sellingPrice": "판매 가격",
+        "pricingDetails": "가격 세부정보"
+      }
+    },
+    "md5generator": {
+      "title": "MD5 생성기",
+      "description": "",
+      "ui": {
+        "md5HashGenerator": "MD5 해시 생성기",
+        "inputString": "입력 문자열",
+        "md5Hash": "MD5 해시",
+        "theDefaultHashShownIsForAnEmptyString": "기본으로 표시되는 해시는 빈 문자열에 대한 해시입니다."
+      }
+    },
+    "months-between-dates": {
+      "title": "날짜 사이의 개월 수",
+      "description": "",
+      "ui": {
+        "monthsBetweenDates": "날짜 사이의 개월 수",
+        "startDate": "시작 날짜",
+        "endDate": "종료 날짜",
+        "calculateMonths": "개월 수 계산",
+        "months": "개월",
+        "days": "일",
+        "copy": "복사",
+        "reset": "초기화",
+        "selectDatesToCalculate": "계산할 날짜 선택"
+      }
+    },
+    "mortgage-calculator": {
+      "title": "주택담보대출 계산기",
+      "description": "",
+      "ui": {
+        "mortgageCalculator": "주택담보대출 계산기",
+        "homePrice": "주택 가격",
+        "downPayment": "계약금",
+        "interestRate": "이자율 (%)",
+        "loanTermYears": "대출 기간 (년)",
+        "principalLoanAmount": "대출 원금",
+        "monthlyPayment": "월 납입액",
+        "propertyDetails": "부동산 세부정보",
+        "mortgageSummary": "모기지 요약"
+      }
+    },
+    "mulch-calculator": {
+      "title": "멀치 및 표토 계산기",
+      "description": "",
+      "ui": {
+        "mulchTopsoilCalculator": "멀치 및 표토 계산기",
+        "lengthFt": "길이 (ft)",
+        "widthFt": "너비 (ft)",
+        "depthInches": "깊이 (인치)",
+        "standardMulchDepthIs24Inches": "표준 멀치 깊이는 2~4인치입니다.",
+        "youWillNeed": "필요한 양",
+        "cubicYards": "입방 야드",
+        "2CuFtBags": "2 cu. ft. 포대",
+        "3CuFtBags": "3 cu. ft. 포대"
+      }
+    },
+    "number-base-converter": {
+      "title": "진법 변환기",
+      "description": "",
+      "ui": {
+        "numberBaseConverter": "진법 변환기",
+        "from": "변환 전",
+        "to": "변환 후",
+        "base": "베이스"
+      }
+    },
+    "overtime-calculator": {
+      "title": "초과근무 계산기",
+      "description": "",
+      "ui": {
+        "overtimeCalculator": "초과근무 계산기",
+        "hourlyRate": "시급",
+        "otMultiplier": "초과근무 배율",
+        "timeAndAHalf15x": "1.5배 (1.5x)",
+        "doubleTime20x": "2배 (2.0x)",
+        "straightTime10x": "정규 근무 (1.0x)",
+        "standardWeeklyHours": "표준 주간 근무시간",
+        "totalHoursWorked": "총 근무시간",
+        "regularPay": "정규 급여 (",
+        "hrs": "시간 @",
+        "overtimePay": "초과근무 수당 (",
+        "hr": "/시간)",
+        "totalGrossPay": "총 급여",
+        "paySummary": "급여 요약"
+      }
+    },
+    "pace-calculator": {
+      "title": "페이스 계산기",
+      "description": "",
+      "ui": {
+        "runningPaceCalculator": "러닝 페이스 계산기",
+        "distance": "거리",
+        "kilometersKm": "킬로미터 (km)",
+        "milesMi": "마일 (mi)",
+        "totalTime": "총 시간",
+        "hrs": "시간",
+        "mins": "분",
+        "secs": "초",
+        "averagePace": "평균 페이스",
+        "per": "당"
+      }
+    },
+    "paint-calculator": {
+      "title": "페인트 계산기",
+      "description": "",
+      "ui": {
+        "paintCalculator": "페인트 계산기",
+        "totalSurfaceAreaSqFt": "총 표면적 (제곱피트)",
+        "numberOfCoats": "칠 횟수",
+        "1Coat": "1회 칠",
+        "2Coats": "2회 칠",
+        "3Coats": "3회 칠",
+        "coverageSqFtGallon": "도포 면적 (제곱피트 / 갤런)",
+        "youWillNeed": "필요한 양",
+        "gallons": "갤런)",
+        "exactCalculation": "(정확한 계산:"
+      }
+    },
+    "password-generator": {
+      "title": "비밀번호 생성기",
+      "description": "",
+      "ui": {
+        "securePasswordGenerator": "안전한 비밀번호 생성기",
+        "generatePassword": "비밀번호 생성",
+        "passwordLength": "비밀번호 길이:",
+        "uppercaseAz": "대문자 (A-Z)",
+        "lowercaseAz": "소문자 (a-z)",
+        "numbers09": "숫자 (0-9)",
+        "symbols": "기호 (!@#)",
+        "constraints": "제약",
+        "copyPassword": "비밀번호 복사"
+      }
+    },
+    "percentage-decrease-calculator": {
+      "title": "백분율 감소 계산기",
+      "description": "",
+      "ui": {
+        "percentageDecreaseCalculator": "백분율 감소 계산기",
+        "initialValue": "초기값",
+        "finalValue": "최종값",
+        "absoluteChange": "절대 변화량",
+        "decrease": "감소량",
+        "values": "가치",
+        "decreaseBreakdown": "고장 감소"
+      }
+    },
+    "percentage-increase-calculator": {
+      "title": "백분율 증가 계산기",
+      "description": "",
+      "ui": {
+        "percentageIncreaseCalculator": "백분율 증가 계산기",
+        "initialValue": "초기값",
+        "finalValue": "최종값",
+        "absoluteChange": "절대 변화량",
+        "change": "변화량",
+        "values": "가치",
+        "increaseBreakdown": "고장 증가"
+      }
+    },
+    "plant-spacing-calculator": {
+      "title": "식물 간격 계산기",
+      "description": "",
+      "ui": {
+        "plantSpacingCalculator": "식물 간격 계산기",
+        "squareGrid": "정사각형 격자",
+        "triangularOffset": "삼각형 (오프셋)",
+        "bedLengthFt": "화단 길이 (ft)",
+        "bedWidthFt": "화단 너비 (ft)",
+        "plantSpacingInchesBetweenCenters": "식물 간격 (중심 간 인치)",
+        "estimatedTotalPlants": "예상 총 식물 수"
+      }
+    },
+    "pomodoro-timer": {
+      "title": "포모도로 타이머",
+      "description": "",
+      "ui": {
+        "pomodoroTimer": "포모도로 타이머",
+        "work25m": "작업 (25분)",
+        "break5m": "휴식 (5분)",
+        "reset": "초기화",
+        "start": "시작"
+      }
+    },
+    "profit-margin-calculator": {
+      "title": "이익률 계산기",
+      "description": "",
+      "ui": {
+        "profitMarginCalculator": "이익률 계산기",
+        "revenueSellingPrice": "매출 (판매 가격)",
+        "costOfGoodsSold": "매출원가",
+        "grossProfit": "매출총이익",
+        "margin": "이익률",
+        "financialDetails": "재무 세부정보",
+        "profitability": "수익성"
+      }
+    },
+    "qr-code-generator": {
+      "title": "QR 코드 생성기",
+      "description": "",
+      "ui": {
+        "qrCodeGenerator": "QR 코드 생성기",
+        "urlOrText": "URL 또는 텍스트",
+        "size": "크기",
+        "small150x150": "작게 (150x150)",
+        "medium250x250": "중간 (250x250)",
+        "large500x500": "크게 (500x500)",
+        "highres1000x1000": "고해상도 (1000x1000)",
+        "downloadImage": "이미지 다운로드",
+        "enterTextAboveToGenerateAQrCode": "위에 텍스트를 입력하여 QR 코드를 생성하세요",
+        "contentSettings": "콘텐츠 설정",
+        "enterURLOrTextToEncode": "인코딩할 URL이나 텍스트를 입력하세요.",
+        "generatedQRCode": "생성된 QR 코드"
+      }
+    },
+    "random-number-generator": {
+      "title": "난수 생성기",
+      "description": "",
+      "ui": {
+        "randomNumberGenerator": "난수 생성기",
+        "minimum": "최솟값",
+        "maximum": "최댓값",
+        "generateRandomNumber": "난수 생성",
+        "result": "결과",
+        "rangeSettings": "범위 설정"
+      }
+    },
+    "ratio-calculator": {
+      "title": "비율 계산기",
+      "description": "",
+      "ui": {
+        "ratioCalculatorAbCd": "비율 계산기 (A:B = C:D)",
+        "enter3ValuesToCalculateThe4thMissingValue": "3개의 값을 입력하여 누락된 4번째 값을 계산하세요."
+      }
+    },
+    "roi-calculator": {
+      "title": "ROI 계산기",
+      "description": "",
+      "ui": {
+        "roiCalculator": "ROI 계산기",
+        "initialInvestment": "초기 투자금",
+        "finalValueReturned": "최종 회수 금액",
+        "profit": "이익",
+        "roi": "ROI",
+        "investmentDetails": "투자내역",
+        "returnOnInvestment": "투자 수익"
+      }
+    },
+    "roman-numeral-converter": {
+      "title": "로마 숫자 변환기",
+      "description": "",
+      "ui": {
+        "romanNumeralConverter": "로마 숫자 변환기",
+        "numberRoman": "숫자 → 로마 숫자",
+        "romanNumber": "로마 숫자 → 숫자",
+        "result": "결과"
+      }
+    },
+    "running-distance-calculator": {
+      "title": "달리기 거리 계산기",
+      "description": "",
+      "ui": {
+        "runningDistanceCalculator": "달리기 거리 계산기",
+        "pacePer": "페이스 (",
+        "mins": "분",
+        "secs": "초",
+        "totalTime": "총 시간",
+        "hrs": "시간",
+        "totalDistance": "총 거리",
+        "kilometersKm": "킬로미터 (km)",
+        "milesMi": "마일 (mi)"
+      }
+    },
+    "salary-calculator": {
+      "title": "급여 계산기",
+      "description": "",
+      "ui": {
+        "salaryCalculator": "급여 계산기",
+        "salaryAmount": "급여 금액",
+        "per": "단위",
+        "hour": "시간",
+        "day": "일",
+        "week": "주",
+        "month": "개월",
+        "year": "년",
+        "hoursPerWeek": "주당 근무시간",
+        "calculate": "계산",
+        "hourly": "시급",
+        "daily": "일급",
+        "weekly": "주급",
+        "monthly": "월급",
+        "yearly": "연봉",
+        "incomeDetails": "소득 세부정보",
+        "enterYourIncomeDetailsToS": "요약을 보려면 소득 세부정보를 입력하세요."
+      }
+    },
+    "salary-to-hourly-calculator": {
+      "title": "연봉 → 시급 계산기",
+      "description": "",
+      "ui": {
+        "salaryToHourlyCalculator": "연봉 → 시급 계산기",
+        "annualSalary": "연봉",
+        "hoursWeek": "시간 / 주",
+        "weeksYear": "주 / 년",
+        "hourlyWage": "시급",
+        "salaryDetails": "급여 세부사항",
+        "equivalentWage": "동등한 임금"
+      }
+    },
+    "sha1generator": {
+      "title": "SHA-1 생성기",
+      "description": "",
+      "ui": {
+        "sha1HashGenerator": "SHA-1 해시 생성기",
+        "inputString": "입력 문자열",
+        "sha1Hash": "SHA-1 해시",
+        "theDefaultHashShownIsForAnEmptyString": "기본으로 표시되는 해시는 빈 문자열에 대한 해시입니다."
+      }
+    },
+    "sha256generator": {
+      "title": "SHA-256 생성기",
+      "description": "",
+      "ui": {
+        "sha256HashGenerator": "SHA-256 해시 생성기",
+        "inputString": "입력 문자열",
+        "sha256Hash": "SHA-256 해시",
+        "theDefaultHashShownIsForAnEmptyString": "기본으로 표시되는 해시는 빈 문자열에 대한 해시입니다."
+      }
+    },
+    "simple-interest-calculator": {
+      "title": "단리 계산기",
+      "description": "",
+      "ui": {
+        "simpleInterestCalculator": "단리 계산기",
+        "principalAmount": "원금",
+        "annualRate": "연이율 (%)",
+        "time": "기간",
+        "years": "년",
+        "months": "개월",
+        "days": "일",
+        "interestEarned": "발생 이자",
+        "finalBalance": "최종 잔액",
+        "interestDetails": "이자 세부정보",
+        "growthBreakdown": "성장 분석"
+      }
+    },
+    "sleep-calculator": {
+      "title": "수면 계산기",
+      "description": "",
+      "ui": {
+        "sleepCalculator": "수면 계산기",
+        "iWantToWakeUpAt": "다음 시간에 일어나고 싶습니다:",
+        "calculate": "계산",
+        "toWakeUpRefreshedAt": "상쾌하게 일어나려면",
+        "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": "다음 시간 중 하나에 잠들도록 해보세요 (잠드는 데 15분 포함):",
+        "6Cycles9h": "6주기 (9시간)",
+        "5Cycles75h": "5주기 (7.5시간)",
+        "4Cycles6h": "4주기 (6시간)",
+        "3Cycles45h": "3주기 (4.5시간)",
+        "enterWakeTimeToCalculateS": "기상 시간을 입력하여 수면 시간을 계산하세요."
+      }
+    },
+    "speed-converter": {
+      "title": "속도 변환기",
+      "description": "",
+      "ui": {
+        "speedConverter": "속도 변환기",
+        "from": "변환 전",
+        "to": "변환 후"
+      }
+    },
+    "speed-distance-time-calculator": {
+      "title": "속도·거리·시간 계산기",
+      "description": "",
+      "ui": {
+        "speedDistanceTime": "속도, 거리, 시간",
+        "solveForSpeed": "속도 계산",
+        "solveForDistance": "거리 계산",
+        "solveForTime": "시간 계산",
+        "distance": "거리",
+        "timeHours": "시간 (시간)",
+        "speed": "속도"
+      }
+    },
+    "sql-formatter": {
+      "title": "SQL 포맷터",
+      "description": "",
+      "ui": {
+        "sqlFormatter": "SQL 포맷터",
+        "rawSql": "원본 SQL",
+        "formattedSql": "포맷된 SQL"
+      }
+    },
+    "square-footage-calculator": {
+      "title": "면적 계산기",
+      "description": "",
+      "ui": {
+        "squareFootageCalculator": "면적 계산기",
+        "lengthFt": "길이 (ft)",
+        "widthFt": "너비 (ft)",
+        "addArea": "면적 추가",
+        "totalArea": "총 면적",
+        "squareFeetSqFt": "제곱피트 (sq ft)"
+      }
+    },
+    "step-calculator": {
+      "title": "계단 / 단 계산기",
+      "description": "",
+      "ui": {
+        "stairStepCalculator": "계단 / 단 계산기",
+        "totalRiseHeightInches": "총 상승 높이 / 높이 (인치)",
+        "totalVerticalDistanceFromLowerFloorToUpperFloor": "아래층에서 위층까지의 총 수직 거리입니다.",
+        "targetRiserHeightIn": "목표 단높이 (in)",
+        "standardMaxIsUsually775": "일반적인 최대값은 7.75\"입니다",
+        "targetTreadDepthIn": "목표 디딤판 깊이 (in)",
+        "standardMinIsUsually10": "일반적인 최소값은 10\"입니다",
+        "numberOfRisers": "단높이 개수",
+        "actualRiserHeight": "실제 단높이",
+        "totalRunHorizontalDistance": "총 수평 거리",
+        "ft": "피트)"
+      }
+    },
+    "stopwatch": {
+      "title": "스톱워치",
+      "description": "",
+      "ui": {
+        "stopwatch": "스톱워치",
+        "start": "시작",
+        "pause": "일시정지",
+        "lap": "랩",
+        "reset": "초기화",
+        "laps": "랩",
+        "noLapsRecordedYet": "아직 기록된 랩이 없습니다."
+      }
+    },
+    "tax-calculator": {
+      "title": "세금 계산기",
+      "description": "",
+      "ui": {
+        "salesTaxCalculator": "판매세 계산기",
+        "price": "가격",
+        "taxRate": "세율 (%)",
+        "priceAlreadyIncludesTax": "가격에 이미 세금이 포함되어 있습니다",
+        "priceBeforeTax": "세전 가격",
+        "taxAmount": "세금 금액",
+        "totalFinalPrice": "최종 총 가격",
+        "taxDetails": "세금 세부정보",
+        "priceBreakdown": "가격 내역"
+      }
+    },
+    "temperature-converter": {
+      "title": "온도 변환기",
+      "description": "",
+      "ui": {
+        "temperatureConverter": "온도 변환기",
+        "from": "변환 전",
+        "celsius": "섭씨",
+        "fahrenheit": "화씨",
+        "kelvin": "켈빈",
+        "to": "변환 후"
+      }
+    },
+    "tile-calculator": {
+      "title": "타일 계산기",
+      "description": "",
+      "ui": {
+        "tileCalculator": "타일 계산기",
+        "totalAreaToCoverSqFt": "시공할 총 면적 (제곱피트)",
+        "tileLengthInches": "타일 길이 (인치)",
+        "tileWidthInches": "타일 너비 (인치)",
+        "wasteOverage": "폐기 / 여유분 (%)",
+        "standardRecommendationIs10ForStandardLayouts15ForDiagonal": "일반적인 배치는 10%, 대각선 배치는 15%를 권장합니다.",
+        "totalTilesNeeded": "필요한 총 타일 수",
+        "eachTileCovers": "타일 1장의 면적",
+        "sqFt": "제곱피트"
+      }
+    },
+    "time-difference-calculator": {
+      "title": "시간 차이 계산기",
+      "description": "",
+      "ui": {
+        "timeDifference": "시간 차이",
+        "firstTime": "첫 번째 시간",
+        "secondTime": "두 번째 시간",
+        "calculateAbsoluteDifference": "절대 차이 계산",
+        "difference": "차이:",
+        "h": "시간",
+        "m": "분",
+        "copy": "복사",
+        "reset": "초기화",
+        "selectTimesToCompare": "비교할 시간을 선택하세요"
+      }
+    },
+    "time-duration-calculator": {
+      "title": "시간 길이 계산기",
+      "description": "",
+      "ui": {
+        "timeDurationCalculator": "시간 길이 계산기",
+        "startTime": "시작 시간",
+        "endTime": "종료 시간",
+        "endsOnTheNextDayCrossesMidnight": "다음 날 종료 (자정을 넘김)",
+        "calculateDuration": "기간 계산",
+        "hours": "시간",
+        "minutes": "분",
+        "totalTimeInMinutes": "총 시간(분):",
+        "copy": "복사",
+        "reset": "초기화",
+        "selectStartAndEndTimes": "시작 및 종료 시간 선택"
+      }
+    },
+    "time-zone-converter": {
+      "title": "시간대 변환기",
+      "description": "",
+      "ui": {
+        "timeZoneConverter": "시간대 변환기",
+        "dateTime": "날짜 및 시간",
+        "fromTimeZoneRelative": "변환 전 시간대 (상대)",
+        "toTimeZone": "변환 후 시간대",
+        "convert": "변환",
+        "selectDateAndTimeZonesTo": "비교할 날짜 및 시간대를 선택하세요."
+      }
+    },
+    "tip-calculator": {
+      "title": "팁 계산기",
+      "description": "",
+      "ui": {
+        "tipCalculator": "팁 계산기",
+        "billAmount": "청구 금액",
+        "tip": "팁 %",
+        "numberOfPeople": "인원 수",
+        "tipAmount": "팁 금액",
+        "person": "/ 명",
+        "total": "합계",
+        "totalTip": "총 팁:",
+        "totalBill": "총 청구 금액:",
+        "billDetails": "청구서 세부정보",
+        "totalBreakdown": "총 내역"
+      }
+    },
+    "unix-timestamp-converter": {
+      "title": "Unix 타임스탬프 변환기",
+      "description": "",
+      "ui": {
+        "timestampToDate": "타임스탬프 → 날짜",
+        "unixTimestamp": "Unix 타임스탬프",
+        "convert": "변환",
+        "dateToTimestamp": "날짜 → 타임스탬프",
+        "localDateTime": "현지 날짜 및 시간",
+        "eG1700000000": "예를 들어 1700000000",
+        "result": "결과"
+      }
+    },
+    "url-encode-decode": {
+      "title": "URL 인코더/디코더",
+      "description": "",
+      "ui": {
+        "urlEncoderDecoder": "URL 인코더 / 디코더",
+        "encode": "인코드",
+        "decode": "디코드",
+        "input": "입력",
+        "output": "출력",
+        "mode": "방법"
+      }
+    },
+    "uuid-generator": {
+      "title": "UUID 생성기",
+      "description": "",
+      "ui": {
+        "uuidV4Generator": "UUID (v4) 생성기",
+        "howManyUuids": "UUID를 몇 개 생성할까요?",
+        "generate": "생성",
+        "generatedUuids": "생성된 UUID",
+        "copyAll": "모두 복사",
+        "clickGenerateToCreateUUI": "UUID를 생성하려면 생성을 클릭하세요."
+      }
+    },
+    "volume-converter": {
+      "title": "부피 변환기",
+      "description": "",
+      "ui": {
+        "volumeConverter": "부피 변환기",
+        "from": "변환 전",
+        "to": "변환 후"
+      }
+    },
+    "wake-up-time-calculator": {
+      "title": "기상 시간 계산기",
+      "description": "",
+      "ui": {
+        "wakeupTimeCalculator": "기상 시간 계산기",
+        "ifYouHeadToBedRightNowWhenShouldYouWakeUpToFeelRefreshed": "지금 잠자리에 든다면 상쾌하게 일어나려면 몇 시에 일어나야 할까요?",
+        "imGoingToBedNow": "지금 자러 갑니다",
+        "weAdded15MinutesForYouToFallAsleepSetYourAlarmForOneOfTheseTimesToWakeUpBetween90minuteSleepCycles": "잠드는 데 15분을 추가했습니다. 90분 수면 주기 사이에 일어날 수 있도록 다음 시간 중 하나에 알람을 설정하세요:",
+        "3Cycles45h": "3주기 (4.5시간)",
+        "4Cycles6h": "4주기 (6시간)",
+        "5Cycles75h": "5주기 (7.5시간)",
+        "6Cycles9h": "6주기 (9시간)",
+        "readyForBed": "침대 준비",
+        "clickTheButtonWhenYouReG": "잠자리에 들 때 버튼을 클릭하세요."
+      }
+    },
+    "water-intake-calculator": {
+      "title": "수분 섭취량 계산기",
+      "description": "",
+      "ui": {
+        "dailyWaterIntakeCalculator": "일일 수분 섭취량 계산기",
+        "weightKg": "체중 (kg)",
+        "dailyExerciseMins": "일일 운동 시간 (분)",
+        "recommendedDailyIntake": "권장 일일 섭취량",
+        "liters": "리터",
+        "approx": "(약",
+        "ozOr": "oz 또는",
+        "cups": "컵)",
+        "or": "또는"
+      }
+    },
+    "weeks-between-dates": {
+      "title": "날짜 사이의 주 수",
+      "description": "",
+      "ui": {
+        "weeksBetweenDates": "날짜 사이의 주 수",
+        "startDate": "시작 날짜",
+        "endDate": "종료 날짜",
+        "calculateWeeks": "주 수 계산",
+        "weeks": "주",
+        "days": "일",
+        "copy": "복사",
+        "reset": "초기화",
+        "selectDatesToCalculate": "계산할 날짜 선택"
+      }
+    },
+    "weight-converter": {
+      "title": "무게 변환기",
+      "description": "",
+      "ui": {
+        "weightConverter": "무게 변환기",
+        "from": "변환 전",
+        "to": "변환 후"
+      }
+    },
+    "word-counter": {
+      "title": "단어 수 세기",
+      "description": "",
+      "ui": {
+        "wordCounter": "단어 수 세기",
+        "words": "단어",
+        "characters": "문자",
+        "noSpaces": "공백 제외",
+        "paragraphs": "단락",
+        "startTypingOrPasteYourTex": "여기에 텍스트를 입력하거나 붙여넣으세요..."
+      }
+    },
+    "work-hours-calculator": {
+      "title": "근무시간 계산기",
+      "description": "",
+      "ui": {
+        "workHoursCalculator": "근무시간 계산기",
+        "clockIn": "출근 시간",
+        "clockOut": "퇴근 시간",
+        "breakMinutes": "휴식 (분)",
+        "daysPerWeek": "주당 근무일 수",
+        "calculateHours": "근무시간 계산",
+        "dailyWorkHours": "일일 근무시간",
+        "hrs": "시간",
+        "weeklyTotal": "주간 합계",
+        "enterScheduleToCalculateHo": "시간을 계산하려면 일정을 입력하세요."
+      }
+    },
+    "world-time-converter": {
+      "title": "세계 시간 변환기",
+      "description": "",
+      "ui": {
+        "worldTimeConverter": "세계 시간 변환기"
+      }
+    },
+    "xml-formatter": {
+      "title": "XML 포맷터",
+      "description": "",
+      "ui": {
+        "xmlFormatter": "XML 포맷터",
+        "rawXml": "원본 XML",
+        "formattedXml": "포맷된 XML"
+      }
+    },
+    "bionic-reading-converter": {
+      "title": "바이오닉 리딩 변환기",
+      "description": "",
+      "ui": {
+        "inputText": "입력 텍스트",
+        "placeholder": "여기에 텍스트를 붙여넣거나 입력하세요...",
+        "clear": "지우기",
+        "bionicOutput": "바이오닉 출력",
+        "copyResult": "결과 복사",
+        "emptyOutput": "바이오닉 리딩 출력이 여기에 표시됩니다...",
+        "howItWorksTitle": "작동 원리:",
+        "howItWorksDescription": "이 도구는 단어의 첫 글자를 강조 표시하여 속독 기법을 구현합니다. 이것은 텍스트를 통해 시선을 유도하고 뇌가 단어를 완성하게 하여 더 빠르고 집중해서 읽을 수 있게 합니다."
+      }
+    }
+  },
+  "Search": {
+    "placeholder": "도구 검색...",
+    "noResults": "\"{query}\"에 해당하는 도구를 찾을 수 없습니다."
+  },
+  "Home": {
+    "title": "일상적인 작업을 위한 무료 온라인 도구",
+    "subtitle": "빠르고 무료이며 사용하기 쉬운 온라인 도구로 일상 업무를 계산, 변환, 생성 및 단순화하세요.",
+    "popularTools": "인기 있는 도구",
+    "metaTitle": "100가지 도구 - 프리미엄 무료 온라인 도구",
+    "metaDescription": "100개 이상의 프리미엄 온라인 도구 제품군을 사용하여 필요한 모든 것을 계산, 변환, 생성 및 분석하세요.",
+    "heroBadge": "100개 이상의 무료 온라인 도구",
+    "heroTitle1": "계산, 변환 &",
+    "heroTitle2": "모든 것을 생성합니다.",
+    "heroDescription": "개발자, 금융 전문가 및 일상 업무를 위한 프리미엄 생산성 플랫폼입니다. 빠르고, 비공개이며, 아름답게 디자인되었습니다.",
+    "popular": "인기 있는:",
+    "browseCategories": "카테고리 찾아보기",
+    "browseCategoriesDesc": "워크플로별로 정리하여 필요한 항목을 정확하게 찾아보세요.",
+    "mostPopularTools": "가장 인기 있는 도구",
+    "mostPopularToolsDesc": "우리 커뮤니티가 가장 자주 사용하는 도구입니다.",
+    "exploreAll": "모두 탐색",
+    "whyUse": "왜 100 Tools를 사용하나요?",
+    "whyUseDesc": "최고의 사용자 경험을 제공하기 위해 최신 기술로 제작되었습니다.",
+    "feature1Title": "번개처럼 빠른",
+    "feature1Desc": "페이지를 다시 로드하지 않고도 즉각적인 결과를 얻을 수 있습니다. 속도와 낮은 대기 시간에 최적화되었습니다.",
+    "feature2Title": "개인 정보 보호 우선",
+    "feature2Desc": "계산은 브라우저에서 직접 이루어집니다. 귀하의 데이터는 귀하의 장치를 떠나지 않습니다.",
+    "feature3Title": "프리미엄 디자인",
+    "feature3Desc": "아름답고 직관적이며 사용하기 쉬운 세심하게 제작된 인터페이스입니다."
+  },
+  "Footer": {
+    "100Tools": "100가지 도구",
+    "thePremiumProductivityPlatf": "모든 일일 계산, 변환 및 생성 요구 사항을 충족하는 프리미엄 생산성 플랫폼입니다.",
+    "categories": "카테고리",
+    "developerTools": "개발자 도구",
+    "finance": "재원",
+    "dateTime": "날짜 및 시간",
+    "textTools": "텍스트 도구",
+    "converters": "변환기",
+    "popularTools": "인기 도구",
+    "ageCalculator": "나이 계산기",
+    "jSONFormatter": "JSON 포맷터",
+    "percentageCalculator": "백분율 계산기",
+    "base64Encoder": "Base64 인코더",
+    "salaryCalculator": "급여 계산기",
+    "company": "회사",
+    "aboutUs": "회사 소개",
+    "contact": "연락하다",
+    "privacyPolicy": "개인 정보 보호 정책",
+    "termsOfService": "서비스 약관",
+    "Copy": "&복사;",
+    "100ToolsAllRightsReserved": "100개의 도구. 모든 권리 보유.",
+    "builtWithNextJs": "Next.js로 구축",
+    "madeWith": "❤️로 제작되었습니다",
+    "tagline": "모든 일일 계산, 변환 및 생성 요구 사항을 충족하는 프리미엄 생산성 플랫폼입니다.",
+    "privacy": "개인 정보 보호 정책",
+    "terms": "서비스 약관",
+    "allRightsReserved": "모든 권리 보유.",
+    "builtWith": "Next.js로 구축",
+    "madeWithHeart": "❤️로 제작되었습니다",
+    "cookie": "Cookie Policy"
+  },
+  "Header": {
+    "100Tools": "100가지 도구",
+    "developer": "개발자",
+    "finance": "재원",
+    "time": "시간"
+  },
+  "LanguageSwitcher": {},
+  "RelatedTools": {
+    "relatedTools": "관련 도구",
+    "popular": "인기 있는"
+  },
+  "ToolSearch": {
+    "tryADifferentSearchTermOr": "다른 검색어를 사용해 보거나 카테고리를 찾아보세요."
+  },
+  "index": {
+    "advertisement": "광고"
+  },
+  "AgeCalculator": {},
+  "AreaConverter": {},
+  "AverageCalculator": {
+    "dataSet": "데이터 세트",
+    "statistics": "통계",
+    "eG12345": "예를 들어 1 2 3 4 5"
+  },
+  "Base64EncodeDecode": {
+    "mode": "방법:"
+  },
+  "BedtimeCalculator": {
+    "recommended": "추천",
+    "enterYourWakeUpTimeToCal": "기상 시간을 입력하여 계산하세요."
+  },
+  "BinaryToDecimal": {
+    "eG1010": "예를 들어 1010"
+  },
+  "BionicReadingConverter": {},
+  "BmiCalculator": {
+    "Lt185": "&lt; 18.5",
+    "enterYourHeightAndWeight": "키와 몸무게를 입력하세요"
+  },
+  "BmrCalculator": {
+    "enterYourDetailsToCalculat": "BMR을 계산하려면 세부 정보를 입력하세요."
+  },
+  "BoardFootCalculator": {},
+  "BodyFatCalculator": {
+    "enterYourMeasurementsToCal": "체지방을 계산하려면 측정값을 입력하세요."
+  },
+  "BreakEvenCalculator": {
+    "costsPricing": "비용 및 가격",
+    "breakEvenPoint": "손익분기점"
+  },
+  "CalorieCalculator": {
+    "enterYourDetailsToCalculat": "칼로리를 계산하려면 세부 정보를 입력하세요."
+  },
+  "CharacterCounter": {
+    "startTypingOrPasteYourTex": "여기에 텍스트를 입력하거나 붙여넣으세요..."
+  },
+  "CompoundInterestCalculator": {
+    "interestDetails": "이자 세부정보",
+    "growthBreakdown": "성장 분석"
+  },
+  "ConcreteCalculator": {},
+  "CostPerSquareFootCalculator": {},
+  "CountdownTimer": {},
+  "CssMinifier": {},
+  "CurrencyConverter": {},
+  "DataStorageConverter": {},
+  "DateDifferenceCalculator": {
+    "selectDatesToCalculate": "계산할 날짜를 선택하세요."
+  },
+  "DaysBetweenDates": {
+    "selectDatesToCalculate": "계산할 날짜를 선택하세요."
+  },
+  "DaysUntilCalculator": {
+    "selectAFutureDate": "미래의 날짜를 선택하세요"
+  },
+  "DecimalToBinary": {
+    "eG10": "예를 들어 10"
+  },
+  "DeckingCalculator": {},
+  "DiscountCalculator": {
+    "discountDetails": "할인내역",
+    "priceBreakdown": "가격 내역"
+  },
+  "EmiCalculator": {
+    "eMIDetails": "EMI 세부정보",
+    "paymentSummary": "결제 요약"
+  },
+  "FenceCalculator": {},
+  "FinalGradeCalculator": {},
+  "FractionCalculator": {},
+  "GpaCalculator": {
+    "courseList": "강좌 목록",
+    "result": "결과",
+    "course": "강의"
+  },
+  "GradeCalculator": {
+    "assignments": "과제",
+    "result": "결과",
+    "eGMidterm": "예를 들어 중간고사"
+  },
+  "HeightConverter": {},
+  "HexToDecimal": {
+    "eG1AOrFFFFFF": "예를 들어 1A 또는 #FFFFFF"
+  },
+  "HourlyToSalaryCalculator": {
+    "hourlyDetails": "시간별 세부정보",
+    "salaryBreakdown": "급여 내역"
+  },
+  "HtmlEncodeDecode": {
+    "mode": "방법:"
+  },
+  "HtmlMinifier": {},
+  "InvestmentCalculator": {
+    "investmentPlan": "투자 계획",
+    "growthProjection": "성장 예측"
+  },
+  "JsMinifier": {},
+  "JsonFormatter": {
+    "inputJSON": "JSON 입력",
+    "reset": "다시 놓기"
+  },
+  "JwtDecoder": {
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+  },
+  "LengthConverter": {},
+  "LoanCalculator": {
+    "loanDetails": "대출내역",
+    "paymentBreakdown": "지불 내역"
+  },
+  "LoremIpsumGenerator": {
+    "generatedText": "생성된 텍스트"
+  },
+  "MacroCalculator": {
+    "kcal": "칼로리",
+    "enterCaloriesToCalculateMa": "매크로를 계산하려면 칼로리를 입력하세요."
+  },
+  "MarkupCalculator": {
+    "pricingDetails": "가격 세부정보",
+    "sellingPrice": "판매가격"
+  },
+  "Md5Generator": {},
+  "MonthsBetweenDates": {
+    "result": "결과",
+    "selectDatesToCalculate": "계산할 날짜를 선택하세요."
+  },
+  "MortgageCalculator": {
+    "propertyDetails": "부동산 세부정보",
+    "mortgageSummary": "모기지 요약"
+  },
+  "MulchCalculator": {},
+  "NumberBaseConverter": {
+    "base": "베이스"
+  },
+  "OvertimeCalculator": {
+    "paySummary": "급여 요약"
+  },
+  "PaceCalculator": {
+    "enterDistanceAndTimeToCal": "속도를 계산하려면 거리와 시간을 입력하세요."
+  },
+  "PaintCalculator": {},
+  "PasswordGenerator": {
+    "constraints": "제약",
+    "copyPassword": "비밀번호 복사"
+  },
+  "PercentageCalculator": {
+    "calculatePercentage": "백분율 계산",
+    "result": "결과",
+    "enterValuesToCalculatePerc": "백분율을 계산하려면 값을 입력하세요."
+  },
+  "PercentageDecreaseCalculator": {
+    "values": "가치",
+    "decreaseBreakdown": "고장 감소"
+  },
+  "PercentageIncreaseCalculator": {
+    "values": "가치",
+    "increaseBreakdown": "고장 증가"
+  },
+  "PlantSpacingCalculator": {},
+  "PomodoroTimer": {
+    "pause": "정지시키다",
+    "start": "시작"
+  },
+  "ProfitMarginCalculator": {
+    "financialDetails": "재무 세부정보",
+    "profitability": "수익성"
+  },
+  "QrCodeGenerator": {
+    "contentSettings": "콘텐츠 및 설정",
+    "enterURLOrTextToEncode": "인코딩할 URL이나 텍스트를 입력하세요...",
+    "generatedQRCode": "생성된 QR 코드"
+  },
+  "RandomNumberGenerator": {
+    "rangeSettings": "범위 설정"
+  },
+  "RatioCalculator": {},
+  "RoiCalculator": {
+    "investmentDetails": "투자내역",
+    "returnOnInvestment": "투자 수익"
+  },
+  "RomanNumeralConverter": {},
+  "RunningDistanceCalculator": {
+    "enterPaceAndTimeToCalcula": "거리를 계산하려면 속도와 시간을 입력하세요."
+  },
+  "SalaryCalculator": {
+    "incomeDetails": "소득 세부정보",
+    "salaryBreakdown": "급여 내역",
+    "enterYourIncomeDetailsToS": "내역을 보려면 소득 세부정보를 입력하세요."
+  },
+  "SalaryToHourlyCalculator": {
+    "salaryDetails": "급여 세부사항",
+    "equivalentWage": "동등한 임금"
+  },
+  "Sha1Generator": {},
+  "Sha256Generator": {},
+  "SimpleInterestCalculator": {
+    "interestDetails": "이자 세부정보",
+    "growthBreakdown": "성장 분석"
+  },
+  "SleepCalculator": {
+    "recommended": "추천",
+    "enterWakeTimeToCalculateS": "수면 주기를 계산하려면 기상 시간을 입력하세요."
+  },
+  "SpeedConverter": {},
+  "SpeedDistanceTimeCalculator": {
+    "enterTheKnownValuesToCalc": "계산할 알려진 값을 입력하세요."
+  },
+  "SqlFormatter": {},
+  "SquareFootageCalculator": {},
+  "StepCalculator": {},
+  "Stopwatch": {
+    "laps": "랩",
+    "noLapsRecordedYet": "아직 기록된 랩이 없습니다."
+  },
+  "TaxCalculator": {
+    "taxDetails": "세금 세부정보",
+    "priceBreakdown": "가격 내역"
+  },
+  "TemperatureConverter": {},
+  "TileCalculator": {},
+  "TimeDifferenceCalculator": {
+    "selectTimesToCompare": "비교할 시간을 선택하세요."
+  },
+  "TimeDurationCalculator": {
+    "durationResult": "기간 결과",
+    "selectStartAndEndTimes": "시작 및 종료 시간 선택"
+  },
+  "TimeZoneConverter": {
+    "conversionResult": "변환 결과",
+    "selectDateAndTimeZonesTo": "변환할 날짜와 시간대를 선택하세요"
+  },
+  "TipCalculator": {
+    "billDetails": "청구서 세부정보",
+    "totalBreakdown": "총 내역"
+  },
+  "UnixTimestampConverter": {
+    "result": "결과",
+    "eG1700000000": "예를 들어 1700000000"
+  },
+  "UrlEncodeDecode": {
+    "mode": "방법:"
+  },
+  "UuidGenerator": {
+    "clickGenerateToCreateUUI": "UUID를 생성하려면 '생성'을 클릭하세요..."
+  },
+  "VolumeConverter": {},
+  "WakeUpTimeCalculator": {
+    "readyForBed": "잠자리에 들 준비가 되셨나요?",
+    "recommended": "추천",
+    "clickTheButtonWhenYouReG": "잠자리에 들 때 버튼을 클릭하세요."
+  },
+  "WaterIntakeCalculator": {
+    "or": "또는",
+    "enterYourDetailsToCalculat": "수분 섭취량을 계산하려면 세부 정보를 입력하세요."
+  },
+  "WeeksBetweenDates": {
+    "result": "결과",
+    "selectDatesToCalculate": "계산할 날짜를 선택하세요."
+  },
+  "WeightConverter": {},
+  "WordCounter": {
+    "startTypingOrPasteYourTex": "여기에 텍스트를 입력하거나 붙여넣으세요..."
+  },
+  "WorkHoursCalculator": {
+    "hoursLog": "시간 기록",
+    "enterScheduleToCalculateHo": "시간을 계산하려면 일정을 입력하세요."
+  },
+  "WorldTimeConverter": {},
+  "XmlFormatter": {},
+  "button": {},
+  "card": {},
+  "CategoryCard": {
+    "tools": "도구",
+    "viewAllTools": "모든 도구 보기"
+  },
+  "input": {},
+  "label": {},
+  "textarea": {},
+  "ToolCard": {},
+  "editor": {
+    "copy": "복사"
+  },
+  "layout": {},
+  "panels": {},
+  "Page": {
+    "whatIs": "{title}이 무엇인가요?",
+    "howToUse": "{title} 사용 방법",
+    "example": "예",
+    "useCases": "일반적인 사용 사례",
+    "howItWorks": "작동 방식",
+    "faq": "자주 묻는 질문",
+    "readyToStart": "시작할 준비가 되셨나요?",
+    "useToolNow": "지금 도구 사용"
+  },
+  "Categories": {
+    "developerTools": "개발자 도구",
+    "finance": "재원",
+    "time": "날짜 및 시간",
+    "text": "텍스트 도구",
+    "converters": "변환기"
+  },
+  "About": {
+    "title": "About Us & Methodology",
+    "description": "Welcome to 100 Tools, your free resource for premium online calculators and developer utilities.",
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is to provide fast, reliable, and privacy-respecting tools for everyday tasks. Whether you're a developer needing to encode a JWT, a homeowner calculating mulch volume, or just trying to figure out a discount, we've built a robust tool for you.",
+    "methodologyTitle": "Our Methodology",
+    "methodologyIntro": "We believe in transparency and accuracy, particularly for financial and health-related tools (Your Money or Your Life topics). Here is how we ensure our tools are reliable:",
+    "standardizedFormulasTitle": "Standardized Formulas",
+    "standardizedFormulasText": "All financial calculators (like ROI, Mortgages, and Loans) use industry-standard amortization and compound interest formulas.",
+    "medicalGuidelinesTitle": "Medical Guidelines",
+    "medicalGuidelinesText": "Health calculators (like BMI and BMR) use globally recognized equations, such as the Mifflin-St Jeor Equation for metabolic rate, and the standard WHO classifications for BMI.",
+    "privacyFirstTitle": "Privacy First",
+    "privacyFirstText": "Your data never leaves your browser. All calculations, hashing, and conversions happen locally on your device via JavaScript. We do not store or transmit your inputs.",
+    "continuousTestingTitle": "Continuous Testing",
+    "continuousTestingText": "Our toolkit is rigorously tested to ensure edge cases (like zero values or invalid inputs) are handled gracefully without crashing.",
+    "editorialGuidelinesTitle": "Editorial Guidelines",
+    "editorialGuidelinesText": "Every tool page is designed to be self-explanatory. We prioritize usability and clear instructions over cluttered interfaces. If an equation has limitations (like the Navy Body Fat method being an estimation), we clearly note it on the tool page.",
+    "disclaimer": "Disclaimer: The tools and calculators on this website are for informational and educational purposes only. They do not constitute professional financial or medical advice. Always consult with a qualified professional before making significant health or financial decisions."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you. Whether you have a question, a feature request, or found a bug, let us know!",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "Send Message",
+    "emailUs": "Email Us",
+    "emailAddress": "contact@100tools.example.com",
+    "responseTime": "We typically respond within 24-48 hours.",
+    "successMessage": "Thank you! Your message has been sent.",
+    "errorMessage": "Something went wrong. Please try again later."
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "At 100 Tools, your privacy is our top priority. This Privacy Policy outlines how we handle (and explicitly do NOT handle) your personal data.",
+    "dataCollectionTitle": "No Data Collection",
+    "dataCollectionText": "We do not collect, store, or transmit any personal data when you use our calculators and tools. All computations—including formatting, decoding, and calculating—are performed strictly locally within your browser using JavaScript.",
+    "analyticsTitle": "Analytics & Tracking",
+    "analyticsText": "We may use privacy-friendly, anonymized analytics to understand general traffic patterns (like which tools are most popular). This data cannot be traced back to individual users and does not use intrusive tracking cookies.",
+    "thirdPartyTitle": "Third-Party Services",
+    "thirdPartyText": "Our website is hosted on modern edge networks. These infrastructure providers may log basic connection data (like IP addresses) for security and anti-DDoS purposes, which is standard practice for any website.",
+    "contactUs": "If you have any questions about this Privacy Policy, please contact us."
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "By accessing and using 100 Tools, you agree to comply with and be bound by the following terms and conditions of use.",
+    "noWarrantyTitle": "No Warranties (As-Is)",
+    "noWarrantyText": "All tools, calculators, and information on this website are provided \"as-is\" without any representations or warranties, express or implied. We make no guarantees regarding the accuracy, reliability, or completeness of the results generated.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityText": "In no event shall 100 Tools be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever arising out of or in connection with the use of our tools. This includes financial losses or medical decisions made based on our calculators.",
+    "acceptableUseTitle": "Acceptable Use",
+    "acceptableUseText": "You agree to use our tools for lawful purposes only. You must not attempt to scrape, DDoS, or otherwise disrupt the service or networks connected to 100 Tools.",
+    "modificationsTitle": "Modifications",
+    "modificationsText": "We reserve the right to revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then-current version of these terms."
+  },
+  "Cookie": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, or the information we collect using cookies and how that information is used.",
+    "whatAreCookiesTitle": "What are Cookies?",
+    "whatAreCookiesText": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used to make websites work, or work more efficiently, as well as to provide reporting information.",
+    "howWeUseCookiesTitle": "How We Use Cookies",
+    "howWeUseCookiesText": "We use cookies strictly for essential functionality and basic user preferences. For example, we might use local storage or a cookie to remember if you prefer \"Dark Mode\" or \"Light Mode\", or to remember your preferred language.",
+    "noTrackingTitle": "No Invasive Tracking",
+    "noTrackingText": "We do not use advertising cookies, third-party trackers, or cross-site tracking technologies. Your use of our tools remains private.",
+    "managingCookiesTitle": "Managing Cookies",
+    "managingCookiesText": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed."
+  }
+}

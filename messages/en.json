@@ -1,0 +1,1788 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "tools": "Tools",
+    "categories": "Categories",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "Common": {
+    "viewIn": "View in {language}?",
+    "yes": "Yes",
+    "dismiss": "Dismiss",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "copy": "Copy"
+  },
+  "Tools": {
+    "age-calculator": {
+      "title": "Age Calculator",
+      "description": "Calculate your exact age in years, months, and days.",
+      "ui": {
+        "calculateYourAge": "Calculate Your Age",
+        "dateOfBirth": "Date of Birth",
+        "targetDate": "Target Date (Optional)",
+        "calculate": "Calculate",
+        "years": "Years",
+        "months": "Months",
+        "days": "Days",
+        "nextBirthday": "Next Birthday:",
+        "totalDays": "Total Days:",
+        "yourAgeIs": "Your Age Is:",
+        "selectYourDateOfBirth": "Select your date of birth",
+        "copy": "Copy",
+        "reset": "Reset"
+      }
+    },
+    "percentage-calculator": {
+      "title": "Percentage Calculator",
+      "description": "Calculate percentages quickly and accurately.",
+      "ui": {
+        "percentageCalculator": "Percentage Calculator",
+        "whatIs": "What is",
+        "of": "of",
+        "amount": "Amount",
+        "calculate": "Calculate",
+        "result": "Result",
+        "calculatePercentage": "Calculate Percentage"
+      }
+    },
+    "json-formatter": {
+      "title": "JSON Formatter",
+      "description": "Format, validate, and beautify JSON data.",
+      "ui": {
+        "formatJson": "Format JSON",
+        "inputJSON": "Input J S O N",
+        "reset": "Reset"
+      }
+    },
+    "area-converter": {
+      "title": "AreaConverter",
+      "description": "",
+      "ui": {
+        "areaConverter": "Area Converter",
+        "from": "From",
+        "to": "To"
+      }
+    },
+    "average-calculator": {
+      "title": "AverageCalculator",
+      "description": "",
+      "ui": {
+        "averageCalculator": "Average Calculator",
+        "enterNumbersSeparatedByCommasOrSpaces": "Enter numbers (separated by commas or spaces)",
+        "count": "Count",
+        "sum": "Sum",
+        "averageMean": "Average (Mean)",
+        "median": "Median",
+        "dataSet": "Data Set",
+        "eG12345": "e.g. 1, 2, 3, 4, 5",
+        "statistics": "Statistics"
+      }
+    },
+    "base64encode-decode": {
+      "title": "Base64EncodeDecode",
+      "description": "",
+      "ui": {
+        "base64EncoderDecoder": "Base64 Encoder / Decoder",
+        "encode": "Encode",
+        "decode": "Decode",
+        "input": "Input (",
+        "output": "Output (",
+        "mode": "Mode"
+      }
+    },
+    "bedtime-calculator": {
+      "title": "BedtimeCalculator",
+      "description": "",
+      "ui": {
+        "bedtimeCalculator": "Bedtime Calculator",
+        "whenDoYouNeedToWakeUp": "When do you need to wake up?",
+        "calculate": "Calculate",
+        "toWakeUpAt": "To wake up at",
+        "youShouldTryToBeAsleepBy": ", you should try to be asleep by:",
+        "6Cycles9h": "6 Cycles (9h)",
+        "5Cycles75h": "5 Cycles (7.5h)",
+        "calculationsIncludeAnAverage15MinutesToFallAsleep": "Calculations include an average 15 minutes to fall asleep.",
+        "enterYourWakeUpTimeToCal": "Enter your wake up time to calculate bedtimes"
+      }
+    },
+    "binary-to-decimal": {
+      "title": "BinaryToDecimal",
+      "description": "",
+      "ui": {
+        "binaryToDecimalConverter": "Binary to Decimal Converter",
+        "binaryNumber": "Binary Number",
+        "decimalResult": "Decimal Result",
+        "eG1010": "e.g. 1010"
+      }
+    },
+    "bmi-calculator": {
+      "title": "BmiCalculator",
+      "description": "",
+      "ui": {
+        "bmiCalculator": "BMI Calculator",
+        "metric": "Metric",
+        "imperial": "Imperial",
+        "heightCm": "Height (cm)",
+        "weightKg": "Weight (kg)",
+        "heightFt": "Height (ft)",
+        "heightIn": "Height (in)",
+        "weightLbs": "Weight (lbs)",
+        "yourBmi": "Your BMI",
+        "Lt185": "< 18.5"
+      }
+    },
+    "bmr-calculator": {
+      "title": "BmrCalculator",
+      "description": "",
+      "ui": {
+        "bmrCalculator": "BMR Calculator",
+        "male": "Male",
+        "female": "Female",
+        "ageYears": "Age (years)",
+        "heightCm": "Height (cm)",
+        "weightKg": "Weight (kg)",
+        "basalMetabolicRate": "Basal Metabolic Rate",
+        "caloriesDay": "Calories / Day",
+        "thisIsTheAmountOfEnergyYourBodyBurnsAtRestJustToKeepYouAlive": "This is the amount of energy your body burns at rest just to keep you alive."
+      }
+    },
+    "board-foot-calculator": {
+      "title": "BoardFootCalculator",
+      "description": "",
+      "ui": {
+        "boardFootCalculator": "Board Foot Calculator",
+        "thicknessIn": "Thickness (in)",
+        "widthIn": "Width (in)",
+        "lengthFt": "Length (ft)",
+        "quantity": "Quantity",
+        "pricePerBf": "Price per BF ($)",
+        "totalBoardFeet": "Total Board Feet",
+        "totalCost": "Total Cost: $"
+      }
+    },
+    "body-fat-calculator": {
+      "title": "BodyFatCalculator",
+      "description": "",
+      "ui": {
+        "bodyFatCalculatorNavyMethod": "Body Fat Calculator (Navy Method)",
+        "male": "Male",
+        "female": "Female",
+        "heightCm": "Height (cm)",
+        "neckCm": "Neck (cm)",
+        "waistCmAtNavel": "Waist (cm) at navel",
+        "hipsCm": "Hips (cm)",
+        "estimatedBodyFat": "Estimated Body Fat"
+      }
+    },
+    "break-even-calculator": {
+      "title": "BreakEvenCalculator",
+      "description": "",
+      "ui": {
+        "breakevenCalculator": "Break-Even Calculator",
+        "fixedCosts": "Fixed Costs",
+        "variableCostPerUnit": "Variable Cost per Unit",
+        "sellingPricePerUnit": "Selling Price per Unit",
+        "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "Selling price must be greater than variable cost to break even.",
+        "unitsToSell": "Units to Sell",
+        "breakevenRevenue": "Break-Even Revenue",
+        "costsPricing": "Costs Pricing",
+        "breakEvenPoint": "Break Even Point"
+      }
+    },
+    "calorie-calculator": {
+      "title": "CalorieCalculator",
+      "description": "",
+      "ui": {
+        "dailyCalorieCalculator": "Daily Calorie Calculator",
+        "male": "Male",
+        "female": "Female",
+        "age": "Age",
+        "heightCm": "Height (cm)",
+        "weightKg": "Weight (kg)",
+        "activityLevel": "Activity Level",
+        "sedentaryLittleOrNoExercise": "Sedentary (little or no exercise)",
+        "lightlyActiveLightExercise13Daysweek": "Lightly active (light exercise 1-3 days/week)",
+        "moderatelyActiveModerateExercise35Daysweek": "Moderately active (moderate exercise 3-5 days/week)",
+        "veryActiveHardExercise67Daysweek": "Very active (hard exercise 6-7 days/week)",
+        "extraActiveVeryHardExercisephysicalJob": "Extra active (very hard exercise/physical job)",
+        "maintainWeight": "Maintain Weight",
+        "kcal": "kcal",
+        "loseWeight05kgweek": "Lose Weight (-0.5kg/week)",
+        "gainWeight05kgweek": "Gain Weight (+0.5kg/week)"
+      }
+    },
+    "character-counter": {
+      "title": "CharacterCounter",
+      "description": "",
+      "ui": {
+        "characterCounter": "Character Counter",
+        "totalCharacters": "Total Characters",
+        "withoutSpaces": "Without Spaces",
+        "spaces": "Spaces",
+        "lines": "Lines",
+        "startTypingOrPasteYourTex": "Start typing or paste your text here..."
+      }
+    },
+    "compound-interest-calculator": {
+      "title": "CompoundInterestCalculator",
+      "description": "",
+      "ui": {
+        "compoundInterestCalculator": "Compound Interest Calculator",
+        "principalAmount": "Principal Amount",
+        "annualRate": "Annual Rate (%)",
+        "timeYears": "Time (Years)",
+        "compoundFrequency": "Compound Frequency",
+        "daily": "Daily",
+        "monthly": "Monthly",
+        "quarterly": "Quarterly",
+        "semiannually": "Semi-Annually",
+        "annually": "Annually",
+        "interestEarned": "Interest Earned",
+        "finalBalance": "Final Balance",
+        "interestDetails": "Interest Details",
+        "growthBreakdown": "Growth Breakdown"
+      }
+    },
+    "concrete-calculator": {
+      "title": "ConcreteCalculator",
+      "description": "",
+      "ui": {
+        "concreteCalculator": "Concrete Calculator",
+        "lengthFt": "Length (ft)",
+        "widthFt": "Width (ft)",
+        "depthThicknessInches": "Depth / Thickness (inches)",
+        "volumeRequired": "Volume Required",
+        "cubicYards": "Cubic Yards",
+        "80lbBags": "80lb Bags",
+        "60lbBags": "60lb Bags",
+        "40lbBags": "40lb Bags"
+      }
+    },
+    "cost-per-square-foot-calculator": {
+      "title": "CostPerSquareFootCalculator",
+      "description": "",
+      "ui": {
+        "costPerSquareFoot": "Cost Per Square Foot",
+        "totalPriceOrCost": "Total Price or Cost ($)",
+        "totalSquareFootage": "Total Square Footage",
+        "sqFt": "/ sq ft"
+      }
+    },
+    "countdown-timer": {
+      "title": "CountdownTimer",
+      "description": "",
+      "ui": {
+        "countdownTimer": "Countdown Timer",
+        "minutes": "Minutes",
+        "start": "Start",
+        "pause": "Pause",
+        "reset": "Reset"
+      }
+    },
+    "css-minifier": {
+      "title": "CssMinifier",
+      "description": "",
+      "ui": {
+        "cssMinifier": "CSS Minifier",
+        "inputCss": "Input CSS",
+        "bytes": "bytes (-",
+        "minifiedCss": "Minified CSS"
+      }
+    },
+    "currency-converter": {
+      "title": "CurrencyConverter",
+      "description": "",
+      "ui": {
+        "currencyConverterEstimated": "Currency Converter (Estimated)",
+        "amount": "Amount",
+        "from": "From",
+        "to": "To",
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Note: These rates are static estimates for demonstration purposes only."
+      }
+    },
+    "data-storage-converter": {
+      "title": "DataStorageConverter",
+      "description": "",
+      "ui": {
+        "dataStorageConverter": "Data Storage Converter",
+        "from": "From",
+        "to": "To"
+      }
+    },
+    "date-difference-calculator": {
+      "title": "DateDifferenceCalculator",
+      "description": "",
+      "ui": {
+        "dateDifferenceCalculator": "Date Difference Calculator",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "calculateDifference": "Calculate Difference",
+        "timeDifference": "Time Difference:",
+        "years": "Years",
+        "months": "Months",
+        "days": "days",
+        "totalDaysEquivalent": "Total Days Equivalent:",
+        "totalWeeksEquivalent": "Total Weeks Equivalent:",
+        "weeks": "weeks,",
+        "copy": "Copy",
+        "reset": "Reset",
+        "selectDatesToCalculate": "Select Dates To Calculate"
+      }
+    },
+    "days-between-dates": {
+      "title": "DaysBetweenDates",
+      "description": "",
+      "ui": {
+        "daysBetweenDates": "Days Between Dates",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "includeStartDateInCalculation": "Include start date in calculation",
+        "includeEndDateInCalculation": "Include end date in calculation",
+        "calculateDays": "Calculate Days",
+        "totalResult": "Total Result:",
+        "days": "Days",
+        "copy": "Copy",
+        "reset": "Reset",
+        "selectDatesToCalculate": "Select Dates To Calculate"
+      }
+    },
+    "days-until-calculator": {
+      "title": "DaysUntilCalculator",
+      "description": "",
+      "ui": {
+        "daysUntil": "Days Until...",
+        "selectFutureDateEventHolidayDeadline": "Select Future Date (Event, Holiday, Deadline)",
+        "calculate": "Calculate",
+        "timeRemaining": "Time Remaining:",
+        "totalDays": "Total Days",
+        "whichIsExactly": "Which is exactly:",
+        "days": "days",
+        "copy": "Copy",
+        "reset": "Reset",
+        "selectAFutureDate": "Select A Future Date"
+      }
+    },
+    "decimal-to-binary": {
+      "title": "DecimalToBinary",
+      "description": "",
+      "ui": {
+        "decimalToBinaryConverter": "Decimal to Binary Converter",
+        "decimalNumber": "Decimal Number",
+        "binaryResult": "Binary Result",
+        "eG10": "e.g. 10"
+      }
+    },
+    "decking-calculator": {
+      "title": "DeckingCalculator",
+      "description": "",
+      "ui": {
+        "deckingMaterialCalculator": "Decking Material Calculator",
+        "deckLengthFt": "Deck Length (ft)",
+        "parallelToHouse": "Parallel to house",
+        "deckWidthDepthFt": "Deck Width / Depth (ft)",
+        "awayFromHouse": "Away from house",
+        "boardLengthFt": "Board Length (ft)",
+        "boardWidthIn": "Board Width (in)",
+        "requiredBoards": "Required Boards (",
+        "length": "' length)",
+        "deckArea": "Deck Area",
+        "sqFt": "sq ft",
+        "screwsFasteners": "Screws / Fasteners"
+      }
+    },
+    "discount-calculator": {
+      "title": "DiscountCalculator",
+      "description": "",
+      "ui": {
+        "discountCalculator": "Discount Calculator",
+        "originalPrice": "Original Price",
+        "discount": "Discount",
+        "type": "Type",
+        "off": "% Off",
+        "fixedAmountOff": "Fixed Amount Off",
+        "youSave": "You Save",
+        "finalPrice": "Final Price",
+        "discountDetails": "Discount Details",
+        "priceBreakdown": "Price Breakdown"
+      }
+    },
+    "emi-calculator": {
+      "title": "EmiCalculator",
+      "description": "",
+      "ui": {
+        "emiCalculator": "EMI Calculator",
+        "loanAmountPrincipal": "Loan Amount (Principal)",
+        "annualRate": "Annual Rate (%)",
+        "tenureMonths": "Tenure (Months)",
+        "monthlyEmi": "Monthly EMI",
+        "totalInterestPayable": "Total Interest Payable",
+        "totalPaymentPrincipalInterest": "Total Payment (Principal + Interest)",
+        "eMIDetails": "E M I Details",
+        "paymentSummary": "Payment Summary"
+      }
+    },
+    "fence-calculator": {
+      "title": "FenceCalculator",
+      "description": "",
+      "ui": {
+        "fenceMaterialCalculator": "Fence Material Calculator",
+        "totalFenceLengthFt": "Total Fence Length (ft)",
+        "postSpacingFt": "Post Spacing (ft)",
+        "standardIs6Or8": "Standard is 6' or 8'",
+        "horizontalRailsPerPanel": "Horizontal Rails per Panel",
+        "usually2Or3": "Usually 2 or 3",
+        "picketWidthIn": "Picket Width (in)",
+        "picketSpacingIn": "Picket Spacing (in)",
+        "0ForSolidPrivacy": "0 for solid privacy",
+        "posts": "Posts",
+        "rails": "Rails",
+        "pickets": "Pickets"
+      }
+    },
+    "final-grade-calculator": {
+      "title": "FinalGradeCalculator",
+      "description": "",
+      "ui": {
+        "finalGradeCalculator": "Final Grade Calculator",
+        "currentGrade": "Current Grade (%)",
+        "desiredClassGrade": "Desired Class Grade (%)",
+        "finalExamWeight": "Final Exam Weight (%)",
+        "youNeedToScore": "You need to score",
+        "onTheFinalExam": "on the final exam",
+        "itLooksLikeScoringThisGradeIsMathematicallyImpossibleUnlessThereIsExtraCreditAvailable": "It looks like scoring this grade is mathematically impossible unless there is extra credit available."
+      }
+    },
+    "fraction-calculator": {
+      "title": "FractionCalculator",
+      "description": "",
+      "ui": {
+        "fractionCalculator": "Fraction Calculator",
+        "decimal": "Decimal:"
+      }
+    },
+    "gpa-calculator": {
+      "title": "GpaCalculator",
+      "description": "",
+      "ui": {
+        "gpaCalculator": "GPA Calculator",
+        "courseName": "Course Name",
+        "credits": "Credits",
+        "grade": "Grade",
+        "addCourse": "Add Course",
+        "totalCredits": "Total Credits",
+        "cumulativeGpa": "Cumulative GPA",
+        "courseList": "Course List",
+        "course": "Course",
+        "result": "Result"
+      }
+    },
+    "grade-calculator": {
+      "title": "GradeCalculator",
+      "description": "",
+      "ui": {
+        "gradeCalculator": "Grade Calculator",
+        "assignmentCategory": "Assignment Category",
+        "grade": "Grade (%)",
+        "weight": "Weight (%)",
+        "addCategory": "Add Category",
+        "totalWeightEntered": "Total Weight Entered",
+        "currentGrade": "Current Grade",
+        "assignments": "Assignments",
+        "eGMidterm": "e.g. Midterm",
+        "result": "Result"
+      }
+    },
+    "height-converter": {
+      "title": "HeightConverter",
+      "description": "",
+      "ui": {
+        "heightConverter": "Height Converter",
+        "metricCentimeters": "Metric (Centimeters)",
+        "cm": "cm",
+        "imperialFeetInches": "Imperial (Feet & Inches)",
+        "ft": "ft",
+        "in": "in"
+      }
+    },
+    "hex-to-decimal": {
+      "title": "HexToDecimal",
+      "description": "",
+      "ui": {
+        "hexToDecimalConverter": "Hex to Decimal Converter",
+        "hexadecimalNumber": "Hexadecimal Number",
+        "decimalResult": "Decimal Result",
+        "eG1AOrFFFFFF": "e.g. 1A or FFFFFF"
+      }
+    },
+    "hourly-to-salary-calculator": {
+      "title": "HourlyToSalaryCalculator",
+      "description": "",
+      "ui": {
+        "hourlyToSalaryCalculator": "Hourly to Salary Calculator",
+        "hourlyWage": "Hourly Wage",
+        "hoursWeek": "Hours / Week",
+        "weeksYear": "Weeks / Year",
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "yearlySalary": "Yearly Salary",
+        "hourlyDetails": "Hourly Details",
+        "salaryBreakdown": "Salary Breakdown"
+      }
+    },
+    "html-encode-decode": {
+      "title": "HtmlEncodeDecode",
+      "description": "",
+      "ui": {
+        "htmlEntityEncoderDecoder": "HTML Entity Encoder / Decoder",
+        "encode": "Encode",
+        "decode": "Decode",
+        "input": "Input",
+        "output": "Output",
+        "mode": "Mode"
+      }
+    },
+    "html-minifier": {
+      "title": "HtmlMinifier",
+      "description": "",
+      "ui": {
+        "htmlMinifier": "HTML Minifier",
+        "inputHtml": "Input HTML",
+        "bytes": "bytes (-",
+        "minifiedHtml": "Minified HTML"
+      }
+    },
+    "investment-calculator": {
+      "title": "InvestmentCalculator",
+      "description": "",
+      "ui": {
+        "investmentCalculator": "Investment Calculator",
+        "initialInvestment": "Initial Investment",
+        "monthlyContribution": "Monthly Contribution",
+        "expectedReturn": "Expected Return (%)",
+        "yearsToGrow": "Years to Grow",
+        "totalContributions": "Total Contributions",
+        "interestEarned": "Interest Earned",
+        "futureValue": "Future Value",
+        "investmentPlan": "Investment Plan",
+        "growthProjection": "Growth Projection"
+      }
+    },
+    "js-minifier": {
+      "title": "JsMinifier",
+      "description": "",
+      "ui": {
+        "javascriptMinifier": "JavaScript Minifier",
+        "inputJs": "Input JS",
+        "bytes": "bytes (-",
+        "minifiedJs": "Minified JS"
+      }
+    },
+    "jwt-decoder": {
+      "title": "JwtDecoder",
+      "description": "",
+      "ui": {
+        "jwtDecoder": "JWT Decoder",
+        "encodedJwtHeaderpayloadsignature": "Encoded JWT (Header.Payload.Signature)",
+        "invalidJwtFormat": "Invalid JWT format.",
+        "header": "Header",
+        "payload": "Payload",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik..."
+      }
+    },
+    "length-converter": {
+      "title": "LengthConverter",
+      "description": "",
+      "ui": {
+        "lengthConverter": "Length Converter",
+        "from": "From",
+        "to": "To"
+      }
+    },
+    "loan-calculator": {
+      "title": "LoanCalculator",
+      "description": "",
+      "ui": {
+        "loanCalculator": "Loan Calculator",
+        "loanAmount": "Loan Amount",
+        "interestRate": "Interest Rate (%)",
+        "loanTermYears": "Loan Term (Years)",
+        "monthlyPayment": "Monthly Payment",
+        "totalInterest": "Total Interest",
+        "totalCostOfLoan": "Total Cost of Loan",
+        "loanDetails": "Loan Details",
+        "paymentBreakdown": "Payment Breakdown"
+      }
+    },
+    "lorem-ipsum-generator": {
+      "title": "LoremIpsumGenerator",
+      "description": "",
+      "ui": {
+        "loremIpsumGenerator": "Lorem Ipsum Generator",
+        "paragraphs": "Paragraphs",
+        "generate": "Generate",
+        "copy": "Copy",
+        "generatedText": "Generated Text"
+      }
+    },
+    "macro-calculator": {
+      "title": "MacroCalculator",
+      "description": "",
+      "ui": {
+        "macroCalculator": "Macro Calculator",
+        "dailyCalories": "Daily Calories",
+        "dietPlan": "Diet Plan",
+        "balanced303040": "Balanced (30/30/40)",
+        "lowCarb404020": "Low Carb (40/40/20)",
+        "highProtein402535": "High Protein (40/25/35)",
+        "keto20755": "Keto (20/75/5)",
+        "protein": "Protein",
+        "g": "g",
+        "fats": "Fats",
+        "carbs": "Carbs",
+        "kcal": "kcal"
+      }
+    },
+    "markup-calculator": {
+      "title": "MarkupCalculator",
+      "description": "",
+      "ui": {
+        "markupCalculator": "Markup Calculator",
+        "cost": "Cost",
+        "markup": "Markup (%)",
+        "profit": "Profit",
+        "sellingPrice": "Selling Price",
+        "pricingDetails": "Pricing Details"
+      }
+    },
+    "md5generator": {
+      "title": "Md5Generator",
+      "description": "",
+      "ui": {
+        "md5HashGenerator": "MD5 Hash Generator",
+        "inputString": "Input String",
+        "md5Hash": "MD5 Hash",
+        "theDefaultHashShownIsForAnEmptyString": "The default hash shown is for an empty string."
+      }
+    },
+    "months-between-dates": {
+      "title": "MonthsBetweenDates",
+      "description": "",
+      "ui": {
+        "monthsBetweenDates": "Months Between Dates",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "calculateMonths": "Calculate Months",
+        "months": "Months",
+        "days": "Days",
+        "copy": "Copy",
+        "reset": "Reset",
+        "selectDatesToCalculate": "Select Dates To Calculate"
+      }
+    },
+    "mortgage-calculator": {
+      "title": "MortgageCalculator",
+      "description": "",
+      "ui": {
+        "mortgageCalculator": "Mortgage Calculator",
+        "homePrice": "Home Price",
+        "downPayment": "Down Payment",
+        "interestRate": "Interest Rate (%)",
+        "loanTermYears": "Loan Term (Years)",
+        "principalLoanAmount": "Principal Loan Amount",
+        "monthlyPayment": "Monthly Payment",
+        "propertyDetails": "Property Details",
+        "mortgageSummary": "Mortgage Summary"
+      }
+    },
+    "mulch-calculator": {
+      "title": "MulchCalculator",
+      "description": "",
+      "ui": {
+        "mulchTopsoilCalculator": "Mulch & Topsoil Calculator",
+        "lengthFt": "Length (ft)",
+        "widthFt": "Width (ft)",
+        "depthInches": "Depth (inches)",
+        "standardMulchDepthIs24Inches": "Standard mulch depth is 2-4 inches.",
+        "youWillNeed": "You Will Need",
+        "cubicYards": "Cubic Yards",
+        "2CuFtBags": "2 cu. ft. Bags",
+        "3CuFtBags": "3 cu. ft. Bags"
+      }
+    },
+    "number-base-converter": {
+      "title": "NumberBaseConverter",
+      "description": "",
+      "ui": {
+        "numberBaseConverter": "Number Base Converter",
+        "from": "From",
+        "to": "To",
+        "base": "Base"
+      }
+    },
+    "overtime-calculator": {
+      "title": "OvertimeCalculator",
+      "description": "",
+      "ui": {
+        "overtimeCalculator": "Overtime Calculator",
+        "hourlyRate": "Hourly Rate",
+        "otMultiplier": "OT Multiplier",
+        "timeAndAHalf15x": "Time and a half (1.5x)",
+        "doubleTime20x": "Double time (2.0x)",
+        "straightTime10x": "Straight time (1.0x)",
+        "standardWeeklyHours": "Standard Weekly Hours",
+        "totalHoursWorked": "Total Hours Worked",
+        "regularPay": "Regular Pay (",
+        "hrs": "hrs @",
+        "overtimePay": "Overtime Pay (",
+        "hr": "/hr)",
+        "totalGrossPay": "Total Gross Pay",
+        "paySummary": "Pay Summary"
+      }
+    },
+    "pace-calculator": {
+      "title": "PaceCalculator",
+      "description": "",
+      "ui": {
+        "runningPaceCalculator": "Running Pace Calculator",
+        "distance": "Distance",
+        "kilometersKm": "Kilometers (km)",
+        "milesMi": "Miles (mi)",
+        "totalTime": "Total Time",
+        "hrs": "hrs",
+        "mins": "mins",
+        "secs": "secs",
+        "averagePace": "Average Pace",
+        "per": "per"
+      }
+    },
+    "paint-calculator": {
+      "title": "PaintCalculator",
+      "description": "",
+      "ui": {
+        "paintCalculator": "Paint Calculator",
+        "totalSurfaceAreaSqFt": "Total Surface Area (sq ft)",
+        "numberOfCoats": "Number of Coats",
+        "1Coat": "1 Coat",
+        "2Coats": "2 Coats",
+        "3Coats": "3 Coats",
+        "coverageSqFtGallon": "Coverage (sq ft / gallon)",
+        "youWillNeed": "You Will Need",
+        "gallons": "gallons)",
+        "exactCalculation": "(Exact calculation:"
+      }
+    },
+    "password-generator": {
+      "title": "PasswordGenerator",
+      "description": "",
+      "ui": {
+        "securePasswordGenerator": "Secure Password Generator",
+        "generatePassword": "Generate Password",
+        "passwordLength": "Password Length:",
+        "uppercaseAz": "Uppercase (A-Z)",
+        "lowercaseAz": "Lowercase (a-z)",
+        "numbers09": "Numbers (0-9)",
+        "symbols": "Symbols (!@#)",
+        "constraints": "Constraints",
+        "copyPassword": "Copy Password"
+      }
+    },
+    "percentage-decrease-calculator": {
+      "title": "PercentageDecreaseCalculator",
+      "description": "",
+      "ui": {
+        "percentageDecreaseCalculator": "Percentage Decrease Calculator",
+        "initialValue": "Initial Value",
+        "finalValue": "Final Value",
+        "absoluteChange": "Absolute Change",
+        "decrease": "Decrease",
+        "values": "Values",
+        "decreaseBreakdown": "Decrease Breakdown"
+      }
+    },
+    "percentage-increase-calculator": {
+      "title": "PercentageIncreaseCalculator",
+      "description": "",
+      "ui": {
+        "percentageIncreaseCalculator": "Percentage Increase Calculator",
+        "initialValue": "Initial Value",
+        "finalValue": "Final Value",
+        "absoluteChange": "Absolute Change",
+        "change": "Change",
+        "values": "Values",
+        "increaseBreakdown": "Increase Breakdown"
+      }
+    },
+    "plant-spacing-calculator": {
+      "title": "PlantSpacingCalculator",
+      "description": "",
+      "ui": {
+        "plantSpacingCalculator": "Plant Spacing Calculator",
+        "squareGrid": "Square Grid",
+        "triangularOffset": "Triangular (Offset)",
+        "bedLengthFt": "Bed Length (ft)",
+        "bedWidthFt": "Bed Width (ft)",
+        "plantSpacingInchesBetweenCenters": "Plant Spacing (inches between centers)",
+        "estimatedTotalPlants": "Estimated Total Plants"
+      }
+    },
+    "pomodoro-timer": {
+      "title": "PomodoroTimer",
+      "description": "",
+      "ui": {
+        "pomodoroTimer": "Pomodoro Timer",
+        "work25m": "Work (25m)",
+        "break5m": "Break (5m)",
+        "reset": "Reset",
+        "start": "Start"
+      }
+    },
+    "profit-margin-calculator": {
+      "title": "ProfitMarginCalculator",
+      "description": "",
+      "ui": {
+        "profitMarginCalculator": "Profit Margin Calculator",
+        "revenueSellingPrice": "Revenue (Selling Price)",
+        "costOfGoodsSold": "Cost of Goods Sold",
+        "grossProfit": "Gross Profit",
+        "margin": "Margin",
+        "financialDetails": "Financial Details",
+        "profitability": "Profitability"
+      }
+    },
+    "qr-code-generator": {
+      "title": "QrCodeGenerator",
+      "description": "",
+      "ui": {
+        "qrCodeGenerator": "QR Code Generator",
+        "urlOrText": "URL or Text",
+        "size": "Size",
+        "small150x150": "Small (150x150)",
+        "medium250x250": "Medium (250x250)",
+        "large500x500": "Large (500x500)",
+        "highres1000x1000": "High-Res (1000x1000)",
+        "downloadImage": "Download Image",
+        "enterTextAboveToGenerateAQrCode": "Enter text above to generate a QR code",
+        "contentSettings": "Content Settings",
+        "enterURLOrTextToEncode": "Enter URL or text to encode",
+        "generatedQRCode": "Generated Q R Code"
+      }
+    },
+    "random-number-generator": {
+      "title": "RandomNumberGenerator",
+      "description": "",
+      "ui": {
+        "randomNumberGenerator": "Random Number Generator",
+        "minimum": "Minimum",
+        "maximum": "Maximum",
+        "generateRandomNumber": "Generate Random Number",
+        "result": "Result",
+        "rangeSettings": "Range Settings"
+      }
+    },
+    "ratio-calculator": {
+      "title": "RatioCalculator",
+      "description": "",
+      "ui": {
+        "ratioCalculatorAbCd": "Ratio Calculator (A:B = C:D)",
+        "enter3ValuesToCalculateThe4thMissingValue": "Enter 3 values to calculate the 4th missing value."
+      }
+    },
+    "roi-calculator": {
+      "title": "RoiCalculator",
+      "description": "",
+      "ui": {
+        "roiCalculator": "ROI Calculator",
+        "initialInvestment": "Initial Investment",
+        "finalValueReturned": "Final Value Returned",
+        "profit": "Profit",
+        "roi": "ROI",
+        "investmentDetails": "Investment Details",
+        "returnOnInvestment": "Return On Investment"
+      }
+    },
+    "roman-numeral-converter": {
+      "title": "RomanNumeralConverter",
+      "description": "",
+      "ui": {
+        "romanNumeralConverter": "Roman Numeral Converter",
+        "numberRoman": "Number → Roman",
+        "romanNumber": "Roman → Number",
+        "result": "Result"
+      }
+    },
+    "running-distance-calculator": {
+      "title": "RunningDistanceCalculator",
+      "description": "",
+      "ui": {
+        "runningDistanceCalculator": "Running Distance Calculator",
+        "pacePer": "Pace (per",
+        "mins": "mins",
+        "secs": "secs",
+        "totalTime": "Total Time",
+        "hrs": "hrs",
+        "totalDistance": "Total Distance",
+        "kilometersKm": "Kilometers (km)",
+        "milesMi": "Miles (mi)"
+      }
+    },
+    "salary-calculator": {
+      "title": "SalaryCalculator",
+      "description": "",
+      "ui": {
+        "salaryCalculator": "Salary Calculator",
+        "salaryAmount": "Salary Amount",
+        "per": "Per",
+        "hour": "Hour",
+        "day": "Day",
+        "week": "Week",
+        "month": "Month",
+        "year": "Year",
+        "hoursPerWeek": "Hours per week",
+        "calculate": "Calculate",
+        "hourly": "Hourly",
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "incomeDetails": "Income Details",
+        "enterYourIncomeDetailsToS": "Enter your income details to see summary"
+      }
+    },
+    "salary-to-hourly-calculator": {
+      "title": "SalaryToHourlyCalculator",
+      "description": "",
+      "ui": {
+        "salaryToHourlyCalculator": "Salary to Hourly Calculator",
+        "annualSalary": "Annual Salary",
+        "hoursWeek": "Hours / Week",
+        "weeksYear": "Weeks / Year",
+        "hourlyWage": "Hourly Wage",
+        "salaryDetails": "Salary Details",
+        "equivalentWage": "Equivalent Wage"
+      }
+    },
+    "sha1generator": {
+      "title": "Sha1Generator",
+      "description": "",
+      "ui": {
+        "sha1HashGenerator": "SHA-1 Hash Generator",
+        "inputString": "Input String",
+        "sha1Hash": "SHA-1 Hash",
+        "theDefaultHashShownIsForAnEmptyString": "The default hash shown is for an empty string."
+      }
+    },
+    "sha256generator": {
+      "title": "Sha256Generator",
+      "description": "",
+      "ui": {
+        "sha256HashGenerator": "SHA-256 Hash Generator",
+        "inputString": "Input String",
+        "sha256Hash": "SHA-256 Hash",
+        "theDefaultHashShownIsForAnEmptyString": "The default hash shown is for an empty string."
+      }
+    },
+    "simple-interest-calculator": {
+      "title": "SimpleInterestCalculator",
+      "description": "",
+      "ui": {
+        "simpleInterestCalculator": "Simple Interest Calculator",
+        "principalAmount": "Principal Amount",
+        "annualRate": "Annual Rate (%)",
+        "time": "Time",
+        "years": "Years",
+        "months": "Months",
+        "days": "Days",
+        "interestEarned": "Interest Earned",
+        "finalBalance": "Final Balance",
+        "interestDetails": "Interest Details",
+        "growthBreakdown": "Growth Breakdown"
+      }
+    },
+    "sleep-calculator": {
+      "title": "SleepCalculator",
+      "description": "",
+      "ui": {
+        "sleepCalculator": "Sleep Calculator",
+        "iWantToWakeUpAt": "I want to wake up at:",
+        "calculate": "Calculate",
+        "toWakeUpRefreshedAt": "To wake up refreshed at",
+        "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": ", you should try to fall asleep at one of these times (includes 15 mins to fall asleep):",
+        "6Cycles9h": "6 Cycles (9h)",
+        "5Cycles75h": "5 Cycles (7.5h)",
+        "4Cycles6h": "4 Cycles (6h)",
+        "3Cycles45h": "3 Cycles (4.5h)",
+        "enterWakeTimeToCalculateS": "Enter wake time to calculate sleep times"
+      }
+    },
+    "speed-converter": {
+      "title": "SpeedConverter",
+      "description": "",
+      "ui": {
+        "speedConverter": "Speed Converter",
+        "from": "From",
+        "to": "To"
+      }
+    },
+    "speed-distance-time-calculator": {
+      "title": "SpeedDistanceTimeCalculator",
+      "description": "",
+      "ui": {
+        "speedDistanceTime": "Speed, Distance, Time",
+        "solveForSpeed": "Solve for Speed",
+        "solveForDistance": "Solve for Distance",
+        "solveForTime": "Solve for Time",
+        "distance": "Distance",
+        "timeHours": "Time (Hours)",
+        "speed": "Speed"
+      }
+    },
+    "sql-formatter": {
+      "title": "SqlFormatter",
+      "description": "",
+      "ui": {
+        "sqlFormatter": "SQL Formatter",
+        "rawSql": "Raw SQL",
+        "formattedSql": "Formatted SQL"
+      }
+    },
+    "square-footage-calculator": {
+      "title": "SquareFootageCalculator",
+      "description": "",
+      "ui": {
+        "squareFootageCalculator": "Square Footage Calculator",
+        "lengthFt": "Length (ft)",
+        "widthFt": "Width (ft)",
+        "addArea": "Add Area",
+        "totalArea": "Total Area",
+        "squareFeetSqFt": "Square Feet (sq ft)"
+      }
+    },
+    "step-calculator": {
+      "title": "StepCalculator",
+      "description": "",
+      "ui": {
+        "stairStepCalculator": "Stair / Step Calculator",
+        "totalRiseHeightInches": "Total Rise / Height (inches)",
+        "totalVerticalDistanceFromLowerFloorToUpperFloor": "Total vertical distance from lower floor to upper floor.",
+        "targetRiserHeightIn": "Target Riser Height (in)",
+        "standardMaxIsUsually775": "Standard max is usually 7.75\"",
+        "targetTreadDepthIn": "Target Tread Depth (in)",
+        "standardMinIsUsually10": "Standard min is usually 10\"",
+        "numberOfRisers": "Number of Risers",
+        "actualRiserHeight": "Actual Riser Height",
+        "totalRunHorizontalDistance": "Total Run (Horizontal Distance)",
+        "ft": "ft)"
+      }
+    },
+    "stopwatch": {
+      "title": "Stopwatch",
+      "description": "",
+      "ui": {
+        "stopwatch": "Stopwatch",
+        "start": "Start",
+        "pause": "Pause",
+        "lap": "Lap",
+        "reset": "Reset",
+        "laps": "Laps",
+        "noLapsRecordedYet": "No Laps Recorded Yet"
+      }
+    },
+    "tax-calculator": {
+      "title": "TaxCalculator",
+      "description": "",
+      "ui": {
+        "salesTaxCalculator": "Sales Tax Calculator",
+        "price": "Price",
+        "taxRate": "Tax Rate (%)",
+        "priceAlreadyIncludesTax": "Price already includes tax",
+        "priceBeforeTax": "Price Before Tax",
+        "taxAmount": "Tax Amount",
+        "totalFinalPrice": "Total Final Price",
+        "taxDetails": "Tax Details",
+        "priceBreakdown": "Price Breakdown"
+      }
+    },
+    "temperature-converter": {
+      "title": "TemperatureConverter",
+      "description": "",
+      "ui": {
+        "temperatureConverter": "Temperature Converter",
+        "from": "From",
+        "celsius": "Celsius",
+        "fahrenheit": "Fahrenheit",
+        "kelvin": "Kelvin",
+        "to": "To"
+      }
+    },
+    "tile-calculator": {
+      "title": "TileCalculator",
+      "description": "",
+      "ui": {
+        "tileCalculator": "Tile Calculator",
+        "totalAreaToCoverSqFt": "Total Area to Cover (sq ft)",
+        "tileLengthInches": "Tile Length (inches)",
+        "tileWidthInches": "Tile Width (inches)",
+        "wasteOverage": "Waste / Overage (%)",
+        "standardRecommendationIs10ForStandardLayouts15ForDiagonal": "Standard recommendation is 10% for standard layouts, 15% for diagonal.",
+        "totalTilesNeeded": "Total Tiles Needed",
+        "eachTileCovers": "Each tile covers",
+        "sqFt": "sq ft"
+      }
+    },
+    "time-difference-calculator": {
+      "title": "TimeDifferenceCalculator",
+      "description": "",
+      "ui": {
+        "timeDifference": "Time Difference",
+        "firstTime": "First Time",
+        "secondTime": "Second Time",
+        "calculateAbsoluteDifference": "Calculate Absolute Difference",
+        "difference": "Difference:",
+        "h": "h",
+        "m": "m",
+        "copy": "Copy",
+        "reset": "Reset",
+        "selectTimesToCompare": "Select Times To Compare"
+      }
+    },
+    "time-duration-calculator": {
+      "title": "TimeDurationCalculator",
+      "description": "",
+      "ui": {
+        "timeDurationCalculator": "Time Duration Calculator",
+        "startTime": "Start Time",
+        "endTime": "End Time",
+        "endsOnTheNextDayCrossesMidnight": "Ends on the next day (crosses midnight)",
+        "calculateDuration": "Calculate Duration",
+        "hours": "Hours",
+        "minutes": "minutes",
+        "totalTimeInMinutes": "Total time in minutes:",
+        "copy": "Copy",
+        "reset": "Reset",
+        "selectStartAndEndTimes": "Select Start And End Times"
+      }
+    },
+    "time-zone-converter": {
+      "title": "TimeZoneConverter",
+      "description": "",
+      "ui": {
+        "timeZoneConverter": "Time Zone Converter",
+        "dateTime": "Date & Time",
+        "fromTimeZoneRelative": "From Time Zone (Relative)",
+        "toTimeZone": "To Time Zone",
+        "convert": "Convert",
+        "selectDateAndTimeZonesTo": "Select date and time zones to compare"
+      }
+    },
+    "tip-calculator": {
+      "title": "TipCalculator",
+      "description": "",
+      "ui": {
+        "tipCalculator": "Tip Calculator",
+        "billAmount": "Bill Amount",
+        "tip": "Tip %",
+        "numberOfPeople": "Number of People",
+        "tipAmount": "Tip Amount",
+        "person": "/ person",
+        "total": "Total",
+        "totalTip": "Total Tip:",
+        "totalBill": "Total Bill:",
+        "billDetails": "Bill Details",
+        "totalBreakdown": "Total Breakdown"
+      }
+    },
+    "unix-timestamp-converter": {
+      "title": "UnixTimestampConverter",
+      "description": "",
+      "ui": {
+        "timestampToDate": "Timestamp to Date",
+        "unixTimestamp": "Unix Timestamp",
+        "convert": "Convert",
+        "dateToTimestamp": "Date to Timestamp",
+        "localDateTime": "Local Date & Time",
+        "eG1700000000": "e.g. 1700000000",
+        "result": "Result"
+      }
+    },
+    "url-encode-decode": {
+      "title": "UrlEncodeDecode",
+      "description": "",
+      "ui": {
+        "urlEncoderDecoder": "URL Encoder / Decoder",
+        "encode": "Encode",
+        "decode": "Decode",
+        "input": "Input",
+        "output": "Output",
+        "mode": "Mode"
+      }
+    },
+    "uuid-generator": {
+      "title": "UuidGenerator",
+      "description": "",
+      "ui": {
+        "uuidV4Generator": "UUID (v4) Generator",
+        "howManyUuids": "How many UUIDs?",
+        "generate": "Generate",
+        "generatedUuids": "Generated UUIDs",
+        "copyAll": "Copy All",
+        "clickGenerateToCreateUUI": "Click generate to create UUID"
+      }
+    },
+    "volume-converter": {
+      "title": "VolumeConverter",
+      "description": "",
+      "ui": {
+        "volumeConverter": "Volume Converter",
+        "from": "From",
+        "to": "To"
+      }
+    },
+    "wake-up-time-calculator": {
+      "title": "WakeUpTimeCalculator",
+      "description": "",
+      "ui": {
+        "wakeupTimeCalculator": "Wake-Up Time Calculator",
+        "ifYouHeadToBedRightNowWhenShouldYouWakeUpToFeelRefreshed": "If you head to bed right now, when should you wake up to feel refreshed?",
+        "imGoingToBedNow": "I'm going to bed now",
+        "weAdded15MinutesForYouToFallAsleepSetYourAlarmForOneOfTheseTimesToWakeUpBetween90minuteSleepCycles": "We added 15 minutes for you to fall asleep. Set your alarm for one of these times to wake up between 90-minute sleep cycles:",
+        "3Cycles45h": "3 Cycles (4.5h)",
+        "4Cycles6h": "4 Cycles (6h)",
+        "5Cycles75h": "5 Cycles (7.5h)",
+        "6Cycles9h": "6 Cycles (9h)",
+        "readyForBed": "Ready For Bed",
+        "clickTheButtonWhenYouReG": "Click the button when you are going to bed"
+      }
+    },
+    "water-intake-calculator": {
+      "title": "WaterIntakeCalculator",
+      "description": "",
+      "ui": {
+        "dailyWaterIntakeCalculator": "Daily Water Intake Calculator",
+        "weightKg": "Weight (kg)",
+        "dailyExerciseMins": "Daily Exercise (mins)",
+        "recommendedDailyIntake": "Recommended Daily Intake",
+        "liters": "Liters",
+        "approx": "(approx.",
+        "ozOr": "oz or",
+        "cups": "cups)",
+        "or": "Or"
+      }
+    },
+    "weeks-between-dates": {
+      "title": "WeeksBetweenDates",
+      "description": "",
+      "ui": {
+        "weeksBetweenDates": "Weeks Between Dates",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "calculateWeeks": "Calculate Weeks",
+        "weeks": "Weeks",
+        "days": "Days",
+        "copy": "Copy",
+        "reset": "Reset",
+        "selectDatesToCalculate": "Select Dates To Calculate"
+      }
+    },
+    "weight-converter": {
+      "title": "WeightConverter",
+      "description": "",
+      "ui": {
+        "weightConverter": "Weight Converter",
+        "from": "From",
+        "to": "To"
+      }
+    },
+    "word-counter": {
+      "title": "WordCounter",
+      "description": "",
+      "ui": {
+        "wordCounter": "Word Counter",
+        "words": "Words",
+        "characters": "Characters",
+        "noSpaces": "No Spaces",
+        "paragraphs": "Paragraphs",
+        "startTypingOrPasteYourTex": "Start typing or paste your text here..."
+      }
+    },
+    "work-hours-calculator": {
+      "title": "WorkHoursCalculator",
+      "description": "",
+      "ui": {
+        "workHoursCalculator": "Work Hours Calculator",
+        "clockIn": "Clock In",
+        "clockOut": "Clock Out",
+        "breakMinutes": "Break (Minutes)",
+        "daysPerWeek": "Days per Week",
+        "calculateHours": "Calculate Hours",
+        "dailyWorkHours": "Daily Work Hours",
+        "hrs": "hrs",
+        "weeklyTotal": "Weekly Total",
+        "enterScheduleToCalculateHo": "Enter schedule to calculate hours"
+      }
+    },
+    "world-time-converter": {
+      "title": "WorldTimeConverter",
+      "description": "",
+      "ui": {
+        "worldTimeConverter": "World Time Converter"
+      }
+    },
+    "xml-formatter": {
+      "title": "XmlFormatter",
+      "description": "",
+      "ui": {
+        "xmlFormatter": "XML Formatter",
+        "rawXml": "Raw XML",
+        "formattedXml": "Formatted XML"
+      }
+    },
+    "bionic-reading-converter": {
+      "title": "BionicReadingConverter",
+      "description": "",
+      "ui": {
+        "inputText": "Input Text",
+        "placeholder": "Paste or type your text here...",
+        "clear": "Clear",
+        "bionicOutput": "Bionic Output",
+        "copyResult": "Copy Result",
+        "emptyOutput": "Bionic reading output will appear here...",
+        "howItWorksTitle": "How it works:",
+        "howItWorksDescription": "This tool implements a speed-reading technique by highlighting the initial letters of words. This guides your eyes across the text and your brain completes the word, allowing you to read faster and with more focus."
+      }
+    }
+  },
+  "Search": {
+    "placeholder": "Search tools...",
+    "noResults": "No tools found for \"{query}\"."
+  },
+  "Home": {
+    "metaTitle": "100 Tools - Premium Free Online Tools",
+    "metaDescription": "Calculate, convert, generate and analyze everything you need with our suite of 100+ premium online tools.",
+    "heroBadge": "100+ Free Online Tools",
+    "heroTitle1": "Calculate, convert &",
+    "heroTitle2": "generate everything.",
+    "heroDescription": "The premium productivity platform for developers, finance professionals, and everyday tasks. Fast, private, and beautifully designed.",
+    "popular": "Popular:",
+    "browseCategories": "Browse Categories",
+    "browseCategoriesDesc": "Find exactly what you need organized by workflow.",
+    "mostPopularTools": "Most Popular Tools",
+    "mostPopularToolsDesc": "The tools our community uses most frequently.",
+    "exploreAll": "Explore All",
+    "whyUse": "Why use 100 Tools?",
+    "whyUseDesc": "Built with modern technology to provide the best user experience.",
+    "feature1Title": "Lightning Fast",
+    "feature1Desc": "Instant results without page reloads. Optimized for speed and low latency.",
+    "feature2Title": "Privacy First",
+    "feature2Desc": "Calculations happen directly in your browser. Your data never leaves your device.",
+    "feature3Title": "Premium Design",
+    "feature3Desc": "Carefully crafted interfaces that are beautiful, intuitive, and easy to use."
+  },
+  "Footer": {
+    "tagline": "The premium productivity platform for all your daily calculation, conversion, and generation needs.",
+    "popularTools": "Popular Tools",
+    "company": "Company",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "allRightsReserved": "All rights reserved.",
+    "builtWith": "Built with Next.js",
+    "madeWithHeart": "Made with ❤️",
+    "cookie": "Cookie Policy"
+  },
+  "Header": {
+    "100Tools": "100 Tools",
+    "developer": "Developer",
+    "finance": "Finance",
+    "time": "Time"
+  },
+  "LanguageSwitcher": {},
+  "RelatedTools": {
+    "relatedTools": "Related Tools",
+    "popular": "Popular"
+  },
+  "ToolSearch": {
+    "tryADifferentSearchTermOr": "Try a different search term or browse categories."
+  },
+  "index": {
+    "advertisement": "Advertisement"
+  },
+  "AgeCalculator": {},
+  "AreaConverter": {},
+  "AverageCalculator": {
+    "dataSet": "Data Set",
+    "statistics": "Statistics",
+    "eG12345": "e.g. 1 2 3 4 5"
+  },
+  "Base64EncodeDecode": {
+    "mode": "Mode:"
+  },
+  "BedtimeCalculator": {
+    "recommended": "Recommended",
+    "enterYourWakeUpTimeToCal": "Enter your wake up time to calculate"
+  },
+  "BinaryToDecimal": {
+    "eG1010": "e.g. 1010"
+  },
+  "BionicReadingConverter": {},
+  "BmiCalculator": {
+    "Lt185": "&lt; 18.5",
+    "enterYourHeightAndWeight": "Enter your height and weight"
+  },
+  "BmrCalculator": {
+    "enterYourDetailsToCalculat": "Enter your details to calculate BMR"
+  },
+  "BoardFootCalculator": {},
+  "BodyFatCalculator": {
+    "enterYourMeasurementsToCal": "Enter your measurements to calculate body fat"
+  },
+  "BreakEvenCalculator": {
+    "costsPricing": "Costs & Pricing",
+    "breakEvenPoint": "Break-Even Point"
+  },
+  "CalorieCalculator": {
+    "enterYourDetailsToCalculat": "Enter your details to calculate calories"
+  },
+  "CharacterCounter": {
+    "startTypingOrPasteYourTex": "Start typing or paste your text here..."
+  },
+  "CompoundInterestCalculator": {
+    "interestDetails": "Interest Details",
+    "growthBreakdown": "Growth Breakdown"
+  },
+  "ConcreteCalculator": {},
+  "CostPerSquareFootCalculator": {},
+  "CountdownTimer": {},
+  "CssMinifier": {},
+  "CurrencyConverter": {},
+  "DataStorageConverter": {},
+  "DateDifferenceCalculator": {
+    "selectDatesToCalculate": "Select dates to calculate"
+  },
+  "DaysBetweenDates": {
+    "selectDatesToCalculate": "Select dates to calculate"
+  },
+  "DaysUntilCalculator": {
+    "selectAFutureDate": "Select a future date"
+  },
+  "DecimalToBinary": {
+    "eG10": "e.g. 10"
+  },
+  "DeckingCalculator": {},
+  "DiscountCalculator": {
+    "discountDetails": "Discount Details",
+    "priceBreakdown": "Price Breakdown"
+  },
+  "EmiCalculator": {
+    "eMIDetails": "EMI Details",
+    "paymentSummary": "Payment Summary"
+  },
+  "FenceCalculator": {},
+  "FinalGradeCalculator": {},
+  "FractionCalculator": {},
+  "GpaCalculator": {
+    "courseList": "Course List",
+    "result": "Result",
+    "course": "Course"
+  },
+  "GradeCalculator": {
+    "assignments": "Assignments",
+    "result": "Result",
+    "eGMidterm": "e.g. Midterm"
+  },
+  "HeightConverter": {},
+  "HexToDecimal": {
+    "eG1AOrFFFFFF": "e.g. 1A or #FFFFFF"
+  },
+  "HourlyToSalaryCalculator": {
+    "hourlyDetails": "Hourly Details",
+    "salaryBreakdown": "Salary Breakdown"
+  },
+  "HtmlEncodeDecode": {
+    "mode": "Mode:"
+  },
+  "HtmlMinifier": {},
+  "InvestmentCalculator": {
+    "investmentPlan": "Investment Plan",
+    "growthProjection": "Growth Projection"
+  },
+  "JsMinifier": {},
+  "JsonFormatter": {
+    "inputJSON": "Input JSON",
+    "reset": "Reset"
+  },
+  "JwtDecoder": {
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+  },
+  "LengthConverter": {},
+  "LoanCalculator": {
+    "loanDetails": "Loan Details",
+    "paymentBreakdown": "Payment Breakdown"
+  },
+  "LoremIpsumGenerator": {
+    "generatedText": "Generated Text"
+  },
+  "MacroCalculator": {
+    "kcal": "kcal",
+    "enterCaloriesToCalculateMa": "Enter calories to calculate macros"
+  },
+  "MarkupCalculator": {
+    "pricingDetails": "Pricing Details",
+    "sellingPrice": "Selling Price"
+  },
+  "Md5Generator": {},
+  "MonthsBetweenDates": {
+    "result": "Result",
+    "selectDatesToCalculate": "Select dates to calculate"
+  },
+  "MortgageCalculator": {
+    "propertyDetails": "Property Details",
+    "mortgageSummary": "Mortgage Summary"
+  },
+  "MulchCalculator": {},
+  "NumberBaseConverter": {
+    "base": "Base"
+  },
+  "OvertimeCalculator": {
+    "paySummary": "Pay Summary"
+  },
+  "PaceCalculator": {
+    "enterDistanceAndTimeToCal": "Enter distance and time to calculate pace"
+  },
+  "PaintCalculator": {},
+  "PasswordGenerator": {
+    "constraints": "Constraints",
+    "copyPassword": "Copy Password"
+  },
+  "PercentageCalculator": {
+    "calculatePercentage": "Calculate Percentage",
+    "result": "Result",
+    "enterValuesToCalculatePerc": "Enter values to calculate percentage"
+  },
+  "PercentageDecreaseCalculator": {
+    "values": "Values",
+    "decreaseBreakdown": "Decrease Breakdown"
+  },
+  "PercentageIncreaseCalculator": {
+    "values": "Values",
+    "increaseBreakdown": "Increase Breakdown"
+  },
+  "PlantSpacingCalculator": {},
+  "PomodoroTimer": {
+    "pause": "Pause",
+    "start": "Start"
+  },
+  "ProfitMarginCalculator": {
+    "financialDetails": "Financial Details",
+    "profitability": "Profitability"
+  },
+  "QrCodeGenerator": {
+    "contentSettings": "Content & Settings",
+    "enterURLOrTextToEncode": "Enter URL or text to encode...",
+    "generatedQRCode": "Generated QR Code"
+  },
+  "RandomNumberGenerator": {
+    "rangeSettings": "Range Settings"
+  },
+  "RatioCalculator": {},
+  "RoiCalculator": {
+    "investmentDetails": "Investment Details",
+    "returnOnInvestment": "Return on Investment"
+  },
+  "RomanNumeralConverter": {},
+  "RunningDistanceCalculator": {
+    "enterPaceAndTimeToCalcula": "Enter pace and time to calculate distance"
+  },
+  "SalaryCalculator": {
+    "incomeDetails": "Income Details",
+    "salaryBreakdown": "Salary Breakdown",
+    "enterYourIncomeDetailsToS": "Enter your income details to see the breakdown"
+  },
+  "SalaryToHourlyCalculator": {
+    "salaryDetails": "Salary Details",
+    "equivalentWage": "Equivalent Wage"
+  },
+  "Sha1Generator": {},
+  "Sha256Generator": {},
+  "SimpleInterestCalculator": {
+    "interestDetails": "Interest Details",
+    "growthBreakdown": "Growth Breakdown"
+  },
+  "SleepCalculator": {
+    "recommended": "Recommended",
+    "enterWakeTimeToCalculateS": "Enter wake time to calculate sleep cycles"
+  },
+  "SpeedConverter": {},
+  "SpeedDistanceTimeCalculator": {
+    "enterTheKnownValuesToCalc": "Enter the known values to calculate"
+  },
+  "SqlFormatter": {},
+  "SquareFootageCalculator": {},
+  "StepCalculator": {},
+  "Stopwatch": {
+    "laps": "Laps",
+    "noLapsRecordedYet": "No laps recorded yet"
+  },
+  "TaxCalculator": {
+    "taxDetails": "Tax Details",
+    "priceBreakdown": "Price Breakdown"
+  },
+  "TemperatureConverter": {},
+  "TileCalculator": {},
+  "TimeDifferenceCalculator": {
+    "selectTimesToCompare": "Select times to compare"
+  },
+  "TimeDurationCalculator": {
+    "durationResult": "Duration Result",
+    "selectStartAndEndTimes": "Select start and end times"
+  },
+  "TimeZoneConverter": {
+    "conversionResult": "Conversion Result",
+    "selectDateAndTimeZonesTo": "Select date and time zones to convert"
+  },
+  "TipCalculator": {
+    "billDetails": "Bill Details",
+    "totalBreakdown": "Total Breakdown"
+  },
+  "UnixTimestampConverter": {
+    "result": "Result",
+    "eG1700000000": "e.g. 1700000000"
+  },
+  "UrlEncodeDecode": {
+    "mode": "Mode:"
+  },
+  "UuidGenerator": {
+    "clickGenerateToCreateUUI": "Click 'Generate' to create UUIDs..."
+  },
+  "VolumeConverter": {},
+  "WakeUpTimeCalculator": {
+    "readyForBed": "Ready for bed?",
+    "recommended": "Recommended",
+    "clickTheButtonWhenYouReG": "Click the button when you're going to bed"
+  },
+  "WaterIntakeCalculator": {
+    "or": "or",
+    "enterYourDetailsToCalculat": "Enter your details to calculate water intake"
+  },
+  "WeeksBetweenDates": {
+    "result": "Result",
+    "selectDatesToCalculate": "Select dates to calculate"
+  },
+  "WeightConverter": {},
+  "WordCounter": {
+    "startTypingOrPasteYourTex": "Start typing or paste your text here..."
+  },
+  "WorkHoursCalculator": {
+    "hoursLog": "Hours Log",
+    "enterScheduleToCalculateHo": "Enter schedule to calculate hours"
+  },
+  "WorldTimeConverter": {},
+  "XmlFormatter": {},
+  "button": {},
+  "card": {},
+  "CategoryCard": {
+    "tools": "tools",
+    "viewAllTools": "View all tools"
+  },
+  "input": {},
+  "label": {},
+  "textarea": {},
+  "ToolCard": {},
+  "editor": {
+    "copy": "Copy"
+  },
+  "layout": {},
+  "panels": {},
+  "Page": {
+    "whatIs": "What is the {title}?",
+    "howToUse": "How to use the {title}",
+    "example": "Example",
+    "useCases": "Common Use Cases",
+    "howItWorks": "How it Works",
+    "faq": "Frequently Asked Questions",
+    "readyToStart": "Ready to start?",
+    "useToolNow": "Use Tool Now"
+  },
+  "Categories": {
+    "developerTools": "Developer Tools",
+    "finance": "Finance",
+    "time": "Date & Time",
+    "text": "Text Tools",
+    "converters": "Converters"
+  },
+  "About": {
+    "title": "About Us & Methodology",
+    "description": "Welcome to 100 Tools, your free resource for premium online calculators and developer utilities.",
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is to provide fast, reliable, and privacy-respecting tools for everyday tasks. Whether you're a developer needing to encode a JWT, a homeowner calculating mulch volume, or just trying to figure out a discount, we've built a robust tool for you.",
+    "methodologyTitle": "Our Methodology",
+    "methodologyIntro": "We believe in transparency and accuracy, particularly for financial and health-related tools (Your Money or Your Life topics). Here is how we ensure our tools are reliable:",
+    "standardizedFormulasTitle": "Standardized Formulas",
+    "standardizedFormulasText": "All financial calculators (like ROI, Mortgages, and Loans) use industry-standard amortization and compound interest formulas.",
+    "medicalGuidelinesTitle": "Medical Guidelines",
+    "medicalGuidelinesText": "Health calculators (like BMI and BMR) use globally recognized equations, such as the Mifflin-St Jeor Equation for metabolic rate, and the standard WHO classifications for BMI.",
+    "privacyFirstTitle": "Privacy First",
+    "privacyFirstText": "Your data never leaves your browser. All calculations, hashing, and conversions happen locally on your device via JavaScript. We do not store or transmit your inputs.",
+    "continuousTestingTitle": "Continuous Testing",
+    "continuousTestingText": "Our toolkit is rigorously tested to ensure edge cases (like zero values or invalid inputs) are handled gracefully without crashing.",
+    "editorialGuidelinesTitle": "Editorial Guidelines",
+    "editorialGuidelinesText": "Every tool page is designed to be self-explanatory. We prioritize usability and clear instructions over cluttered interfaces. If an equation has limitations (like the Navy Body Fat method being an estimation), we clearly note it on the tool page.",
+    "disclaimer": "Disclaimer: The tools and calculators on this website are for informational and educational purposes only. They do not constitute professional financial or medical advice. Always consult with a qualified professional before making significant health or financial decisions."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you. Whether you have a question, a feature request, or found a bug, let us know!",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "Send Message",
+    "emailUs": "Email Us",
+    "emailAddress": "contact@100tools.example.com",
+    "responseTime": "We typically respond within 24-48 hours.",
+    "successMessage": "Thank you! Your message has been sent.",
+    "errorMessage": "Something went wrong. Please try again later."
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "At 100 Tools, your privacy is our top priority. This Privacy Policy outlines how we handle (and explicitly do NOT handle) your personal data.",
+    "dataCollectionTitle": "No Data Collection",
+    "dataCollectionText": "We do not collect, store, or transmit any personal data when you use our calculators and tools. All computations—including formatting, decoding, and calculating—are performed strictly locally within your browser using JavaScript.",
+    "analyticsTitle": "Analytics & Tracking",
+    "analyticsText": "We may use privacy-friendly, anonymized analytics to understand general traffic patterns (like which tools are most popular). This data cannot be traced back to individual users and does not use intrusive tracking cookies.",
+    "thirdPartyTitle": "Third-Party Services",
+    "thirdPartyText": "Our website is hosted on modern edge networks. These infrastructure providers may log basic connection data (like IP addresses) for security and anti-DDoS purposes, which is standard practice for any website.",
+    "contactUs": "If you have any questions about this Privacy Policy, please contact us."
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "By accessing and using 100 Tools, you agree to comply with and be bound by the following terms and conditions of use.",
+    "noWarrantyTitle": "No Warranties (As-Is)",
+    "noWarrantyText": "All tools, calculators, and information on this website are provided \"as-is\" without any representations or warranties, express or implied. We make no guarantees regarding the accuracy, reliability, or completeness of the results generated.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityText": "In no event shall 100 Tools be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever arising out of or in connection with the use of our tools. This includes financial losses or medical decisions made based on our calculators.",
+    "acceptableUseTitle": "Acceptable Use",
+    "acceptableUseText": "You agree to use our tools for lawful purposes only. You must not attempt to scrape, DDoS, or otherwise disrupt the service or networks connected to 100 Tools.",
+    "modificationsTitle": "Modifications",
+    "modificationsText": "We reserve the right to revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then-current version of these terms."
+  },
+  "Cookie": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, or the information we collect using cookies and how that information is used.",
+    "whatAreCookiesTitle": "What are Cookies?",
+    "whatAreCookiesText": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used to make websites work, or work more efficiently, as well as to provide reporting information.",
+    "howWeUseCookiesTitle": "How We Use Cookies",
+    "howWeUseCookiesText": "We use cookies strictly for essential functionality and basic user preferences. For example, we might use local storage or a cookie to remember if you prefer \"Dark Mode\" or \"Light Mode\", or to remember your preferred language.",
+    "noTrackingTitle": "No Invasive Tracking",
+    "noTrackingText": "We do not use advertising cookies, third-party trackers, or cross-site tracking technologies. Your use of our tools remains private.",
+    "managingCookiesTitle": "Managing Cookies",
+    "managingCookiesText": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed."
+  }
+}

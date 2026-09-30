@@ -1,0 +1,1812 @@
+{
+  "Navigation": {
+    "home": "Главная",
+    "tools": "Инструменты",
+    "categories": "Категории",
+    "about": "О нас",
+    "contact": "Контакты"
+  },
+  "Common": {
+    "viewIn": "Просмотреть на {language}?",
+    "yes": "Да",
+    "dismiss": "Закрыть",
+    "language": "Язык",
+    "theme": "Тема",
+    "light": "Светлая",
+    "dark": "Тёмная",
+    "system": "Системная",
+    "copy": "Копировать"
+  },
+  "Tools": {
+    "age-calculator": {
+      "title": "Калькулятор возраста",
+      "description": "Рассчитайте свой точный возраст в годах, месяцах и днях.",
+      "ui": {
+        "calculateYourAge": "Рассчитайте свой возраст",
+        "dateOfBirth": "Дата рождения",
+        "calculate": "Рассчитать",
+        "years": "Годы",
+        "months": "Месяцы",
+        "days": "дни",
+        "nextBirthday": "Следующий день рождения:",
+        "totalDays": "Всего дней:",
+        "yourAgeIs": "Ваш возраст:",
+        "copy": "Копировать",
+        "reset": "Перезагрузить",
+        "targetDate": "Целевая дата (необязательно)",
+        "selectYourDateOfBirth": "Выберите дату рождения"
+      }
+    },
+    "percentage-calculator": {
+      "title": "Калькулятор процентов",
+      "description": "Рассчитывайте проценты быстро и точно.",
+      "ui": {
+        "percentageCalculator": "Калькулятор процентов",
+        "whatIs": "Что такое",
+        "of": "из",
+        "amount": "Количество",
+        "calculate": "Рассчитать",
+        "result": "Результат",
+        "calculatePercentage": "Рассчитать процент"
+      }
+    },
+    "json-formatter": {
+      "title": "Форматер JSON",
+      "description": "Форматируйте, проверяйте и улучшайте данные JSON.",
+      "ui": {
+        "formatJson": "Формат JSON",
+        "inputJSON": "Ввод J S O N",
+        "reset": "Перезагрузить"
+      }
+    },
+    "area-converter": {
+      "title": "Конвертер площади",
+      "description": "",
+      "ui": {
+        "areaConverter": "Конвертер площади",
+        "from": "От",
+        "to": "К"
+      }
+    },
+    "average-calculator": {
+      "title": "Калькулятор среднего значения",
+      "description": "",
+      "ui": {
+        "averageCalculator": "Калькулятор средних значений",
+        "enterNumbersSeparatedByCommasOrSpaces": "Введите цифры (через запятую или пробелы)",
+        "count": "Считать",
+        "sum": "Сумма",
+        "averageMean": "Среднее (среднее)",
+        "median": "медиана",
+        "dataSet": "Набор данных",
+        "eG12345": "например 1, 2, 3, 4, 5",
+        "statistics": "Статистика"
+      }
+    },
+    "base64encode-decode": {
+      "title": "Base64EncodeDecode",
+      "description": "",
+      "ui": {
+        "base64EncoderDecoder": "Кодер/декодер Base64",
+        "encode": "Кодировать",
+        "decode": "Декодировать",
+        "input": "Вход (",
+        "output": "Выход (",
+        "mode": "Режим"
+      }
+    },
+    "bedtime-calculator": {
+      "title": "Время снаКалькулятор",
+      "description": "",
+      "ui": {
+        "bedtimeCalculator": "Калькулятор времени сна",
+        "whenDoYouNeedToWakeUp": "Когда вам нужно проснуться?",
+        "calculate": "Рассчитать",
+        "toWakeUpAt": "Проснуться в",
+        "youShouldTryToBeAsleepBy": ", вам следует попытаться заснуть:",
+        "6Cycles9h": "6 циклов (9 часов)",
+        "5Cycles75h": "5 циклов (7,5 часов)",
+        "calculationsIncludeAnAverage15MinutesToFallAsleep": "Расчеты включают в среднем 15 минут на засыпание.",
+        "enterYourWakeUpTimeToCal": "Введите время пробуждения, чтобы рассчитать время сна"
+      }
+    },
+    "binary-to-decimal": {
+      "title": "Двоично-десятичный",
+      "description": "",
+      "ui": {
+        "binaryToDecimalConverter": "Конвертер двоичных чисел в десятичные",
+        "binaryNumber": "Двоичное число",
+        "decimalResult": "Десятичный результат",
+        "eG1010": "например 1010"
+      }
+    },
+    "bmi-calculator": {
+      "title": "BmiКалькулятор",
+      "description": "",
+      "ui": {
+        "bmiCalculator": "Калькулятор ИМТ",
+        "metric": "Метрика",
+        "imperial": "Империал",
+        "heightCm": "Высота (см)",
+        "weightKg": "Вес (кг)",
+        "heightFt": "Высота (футы)",
+        "heightIn": "Высота (дюймы)",
+        "weightLbs": "Вес (фунты)",
+        "yourBmi": "Ваш ИМТ",
+        "Lt185": "< 18,5"
+      }
+    },
+    "bmr-calculator": {
+      "title": "БмрКалькулятор",
+      "description": "",
+      "ui": {
+        "bmrCalculator": "Калькулятор BMR",
+        "male": "Мужской",
+        "female": "Женский",
+        "ageYears": "Возраст (лет)",
+        "heightCm": "Высота (см)",
+        "weightKg": "Вес (кг)",
+        "basalMetabolicRate": "Базальный уровень метаболизма",
+        "caloriesDay": "Калорий/день",
+        "thisIsTheAmountOfEnergyYourBodyBurnsAtRestJustToKeepYouAlive": "Это количество энергии, которое ваше тело сжигает в состоянии покоя, чтобы поддерживать вашу жизнь."
+      }
+    },
+    "board-foot-calculator": {
+      "title": "ДоскаФутКалькулятор",
+      "description": "",
+      "ui": {
+        "boardFootCalculator": "Калькулятор фута доски",
+        "thicknessIn": "Толщина (дюймы)",
+        "widthIn": "Ширина (дюймы)",
+        "lengthFt": "Длина (футы)",
+        "quantity": "Количество",
+        "pricePerBf": "Цена за BF ($)",
+        "totalBoardFeet": "Всего футов доски",
+        "totalCost": "Общая стоимость: $"
+      }
+    },
+    "body-fat-calculator": {
+      "title": "ТелоЖирКалькулятор",
+      "description": "",
+      "ui": {
+        "bodyFatCalculatorNavyMethod": "Калькулятор жира в организме (метод ВМФ)",
+        "male": "Мужской",
+        "female": "Женский",
+        "heightCm": "Высота (см)",
+        "neckCm": "Шея (см)",
+        "waistCmAtNavel": "Талия (см) у пупка",
+        "hipsCm": "Бедра (см)",
+        "estimatedBodyFat": "Приблизительное количество жира в организме"
+      }
+    },
+    "break-even-calculator": {
+      "title": "Калькулятор безубыточности",
+      "description": "",
+      "ui": {
+        "breakevenCalculator": "Калькулятор безубыточности",
+        "fixedCosts": "Фиксированные затраты",
+        "variableCostPerUnit": "Переменная стоимость за единицу",
+        "sellingPricePerUnit": "Цена продажи за единицу",
+        "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "Для достижения безубыточности цена продажи должна быть больше переменных издержек.",
+        "unitsToSell": "Единицы на продажу",
+        "breakevenRevenue": "Безубыточный доход",
+        "costsPricing": "Затраты",
+        "breakEvenPoint": "Точка безубыточности"
+      }
+    },
+    "calorie-calculator": {
+      "title": "Калькулятор калорий",
+      "description": "",
+      "ui": {
+        "dailyCalorieCalculator": "Калькулятор ежедневных калорий",
+        "male": "Мужской",
+        "female": "Женский",
+        "age": "Возраст",
+        "heightCm": "Высота (см)",
+        "weightKg": "Вес (кг)",
+        "activityLevel": "Уровень активности",
+        "sedentaryLittleOrNoExercise": "Сидячий образ жизни (мало физических упражнений или их полное отсутствие)",
+        "lightlyActiveLightExercise13Daysweek": "Легкая активность (легкие физические упражнения 1–3 дня в неделю)",
+        "moderatelyActiveModerateExercise35Daysweek": "Умеренно активный (умеренные физические нагрузки 3-5 дней в неделю)",
+        "veryActiveHardExercise67Daysweek": "Очень активный (тяжелые упражнения 6-7 дней в неделю)",
+        "extraActiveVeryHardExercisephysicalJob": "Сверхактивный (очень тяжелые упражнения/физическая работа)",
+        "maintainWeight": "Поддерживать вес",
+        "kcal": "ккал",
+        "loseWeight05kgweek": "Похудеть (-0,5 кг/неделю)",
+        "gainWeight05kgweek": "Прибавка в весе (+0,5 кг/неделю)"
+      }
+    },
+    "character-counter": {
+      "title": "Счетчик персонажей",
+      "description": "",
+      "ui": {
+        "characterCounter": "Счетчик символов",
+        "totalCharacters": "Всего персонажей",
+        "withoutSpaces": "Без пробелов",
+        "spaces": "Пространства",
+        "lines": "Линии",
+        "startTypingOrPasteYourTex": "Начните вводить или вставьте сюда свой текст..."
+      }
+    },
+    "compound-interest-calculator": {
+      "title": "Калькулятор сложных процентов",
+      "description": "",
+      "ui": {
+        "compoundInterestCalculator": "Калькулятор сложных процентов",
+        "principalAmount": "Основная сумма",
+        "annualRate": "Годовая ставка (%)",
+        "timeYears": "Время (лет)",
+        "compoundFrequency": "Сложная частота",
+        "daily": "Ежедневно",
+        "monthly": "Ежемесячно",
+        "quarterly": "Ежеквартальный",
+        "semiannually": "Полугода",
+        "annually": "Ежегодно",
+        "interestEarned": "Заработанные проценты",
+        "finalBalance": "Окончательный баланс",
+        "interestDetails": "Детали интересов",
+        "growthBreakdown": "Структура роста"
+      }
+    },
+    "concrete-calculator": {
+      "title": "БетонКалькулятор",
+      "description": "",
+      "ui": {
+        "concreteCalculator": "Бетонный калькулятор",
+        "lengthFt": "Длина (футы)",
+        "widthFt": "Ширина (футы)",
+        "depthThicknessInches": "Глубина/толщина (дюймы)",
+        "volumeRequired": "Требуемый объем",
+        "cubicYards": "Кубические ярды",
+        "80lbBags": "80-фунтовые сумки",
+        "60lbBags": "60-фунтовые сумки",
+        "40lbBags": "40-фунтовые сумки"
+      }
+    },
+    "cost-per-square-foot-calculator": {
+      "title": "Стоимость за квадратный футКалькулятор",
+      "description": "",
+      "ui": {
+        "costPerSquareFoot": "Стоимость за квадратный фут",
+        "totalPriceOrCost": "Общая цена или стоимость ($)",
+        "totalSquareFootage": "Общая площадь",
+        "sqFt": "/ кв. футов"
+      }
+    },
+    "countdown-timer": {
+      "title": "Таймер обратного отсчета",
+      "description": "",
+      "ui": {
+        "countdownTimer": "Таймер обратного отсчета",
+        "minutes": "Минуты",
+        "start": "Начинать",
+        "pause": "Пауза",
+        "reset": "Перезагрузить"
+      }
+    },
+    "css-minifier": {
+      "title": "CssМинификатор",
+      "description": "",
+      "ui": {
+        "cssMinifier": "CSS-минификатор",
+        "inputCss": "Введите CSS",
+        "bytes": "байты (-",
+        "minifiedCss": "Минимизированный CSS"
+      }
+    },
+    "currency-converter": {
+      "title": "Конвертер валют",
+      "description": "",
+      "ui": {
+        "currencyConverterEstimated": "Конвертер валют (оценочный)",
+        "amount": "Количество",
+        "from": "От",
+        "to": "К",
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Примечание. Эти ставки являются статическими оценками и предназначены только для демонстрационных целей."
+      }
+    },
+    "data-storage-converter": {
+      "title": "Конвертер хранения данных",
+      "description": "",
+      "ui": {
+        "dataStorageConverter": "Конвертер хранения данных",
+        "from": "От",
+        "to": "К"
+      }
+    },
+    "date-difference-calculator": {
+      "title": "Калькулятор разницы дат",
+      "description": "",
+      "ui": {
+        "dateDifferenceCalculator": "Калькулятор разницы дат",
+        "startDate": "Дата начала",
+        "endDate": "Дата окончания",
+        "calculateDifference": "Вычислить разницу",
+        "timeDifference": "Разница во времени:",
+        "years": "Годы",
+        "months": "Месяцы",
+        "days": "дни",
+        "totalDaysEquivalent": "Эквивалент общего количества дней:",
+        "totalWeeksEquivalent": "Общий эквивалент недель:",
+        "weeks": "недели,",
+        "copy": "Копировать",
+        "reset": "Перезагрузить",
+        "selectDatesToCalculate": "Выберите даты для расчета"
+      }
+    },
+    "days-between-dates": {
+      "title": "ДнейМеждуДатами",
+      "description": "",
+      "ui": {
+        "daysBetweenDates": "Дней между датами",
+        "startDate": "Дата начала",
+        "endDate": "Дата окончания",
+        "includeStartDateInCalculation": "Включить дату начала в расчет",
+        "includeEndDateInCalculation": "Включить дату окончания в расчет",
+        "calculateDays": "Рассчитать дни",
+        "totalResult": "Общий результат:",
+        "days": "Дни",
+        "copy": "Копировать",
+        "reset": "Перезагрузить",
+        "selectDatesToCalculate": "Выберите даты для расчета"
+      }
+    },
+    "days-until-calculator": {
+      "title": "ДнейДоКалькулятор",
+      "description": "",
+      "ui": {
+        "daysUntil": "Дни до...",
+        "selectFutureDateEventHolidayDeadline": "Выберите будущую дату (событие, праздник, крайний срок)",
+        "calculate": "Рассчитать",
+        "timeRemaining": "Оставшееся время:",
+        "totalDays": "Всего дней",
+        "whichIsExactly": "Что именно:",
+        "days": "дни",
+        "copy": "Копировать",
+        "reset": "Перезагрузить",
+        "selectAFutureDate": "Выберите будущую дату"
+      }
+    },
+    "decimal-to-binary": {
+      "title": "ДесятичныйДвоичный",
+      "description": "",
+      "ui": {
+        "decimalToBinaryConverter": "Конвертер десятичных чисел в двоичные",
+        "decimalNumber": "Десятичное число",
+        "binaryResult": "Двоичный результат",
+        "eG10": "например 10"
+      }
+    },
+    "decking-calculator": {
+      "title": "ДекингКалькулятор",
+      "description": "",
+      "ui": {
+        "deckingMaterialCalculator": "Калькулятор материала настила",
+        "deckLengthFt": "Длина палубы (футы)",
+        "parallelToHouse": "Параллельно дому",
+        "deckWidthDepthFt": "Ширина/глубина палубы (футы)",
+        "awayFromHouse": "Вдали от дома",
+        "boardLengthFt": "Длина доски (футы)",
+        "boardWidthIn": "Ширина платы (дюймы)",
+        "requiredBoards": "Требуемые доски (",
+        "length": "' длина)",
+        "deckArea": "Площадь палубы",
+        "sqFt": "кв. футы",
+        "screwsFasteners": "Винты/Крепежи"
+      }
+    },
+    "discount-calculator": {
+      "title": "Калькулятор скидок",
+      "description": "",
+      "ui": {
+        "discountCalculator": "Калькулятор скидок",
+        "originalPrice": "Первоначальная цена",
+        "discount": "Скидка",
+        "type": "Тип",
+        "off": "% Выключенный",
+        "fixedAmountOff": "Фиксированная сумма скидки",
+        "youSave": "Вы экономите",
+        "finalPrice": "Окончательная цена",
+        "discountDetails": "Подробности о скидках",
+        "priceBreakdown": "Распределение цен"
+      }
+    },
+    "emi-calculator": {
+      "title": "ЭмиКалькулятор",
+      "description": "",
+      "ui": {
+        "emiCalculator": "Калькулятор электромагнитных помех",
+        "loanAmountPrincipal": "Сумма кредита (основная сумма)",
+        "annualRate": "Годовая ставка (%)",
+        "tenureMonths": "Срок владения (месяцев)",
+        "monthlyEmi": "Ежемесячный EMI",
+        "totalInterestPayable": "Общая сумма процентов к уплате",
+        "totalPaymentPrincipalInterest": "Общая сумма платежа (основная сумма + проценты)",
+        "eMIDetails": "Э М И Подробности",
+        "paymentSummary": "Сводка платежей"
+      }
+    },
+    "fence-calculator": {
+      "title": "ЗаборКалькулятор",
+      "description": "",
+      "ui": {
+        "fenceMaterialCalculator": "Калькулятор материала забора",
+        "totalFenceLengthFt": "Общая длина забора (футы)",
+        "postSpacingFt": "Расстояние между постами (футы)",
+        "standardIs6Or8": "Стандартный размер — 6 или 8 футов.",
+        "horizontalRailsPerPanel": "Горизонтальные рельсы на панель",
+        "usually2Or3": "Обычно 2 или 3",
+        "picketWidthIn": "Ширина пикета (дюймы)",
+        "picketSpacingIn": "Расстояние между пикетами (дюймы)",
+        "0ForSolidPrivacy": "0 для полной конфиденциальности",
+        "posts": "Сообщения",
+        "rails": "Рельсы",
+        "pickets": "Пикеты"
+      }
+    },
+    "final-grade-calculator": {
+      "title": "Калькулятор финальной оценки",
+      "description": "",
+      "ui": {
+        "finalGradeCalculator": "Калькулятор итоговой оценки",
+        "currentGrade": "Текущая оценка (%)",
+        "desiredClassGrade": "Желаемая оценка класса (%)",
+        "finalExamWeight": "Вес итогового экзамена (%)",
+        "youNeedToScore": "Вам нужно забить",
+        "onTheFinalExam": "на выпускном экзамене",
+        "itLooksLikeScoringThisGradeIsMathematicallyImpossibleUnlessThereIsExtraCreditAvailable": "Похоже, что получить эту оценку математически невозможно, если нет дополнительных баллов."
+      }
+    },
+    "fraction-calculator": {
+      "title": "Калькулятор дробей",
+      "description": "",
+      "ui": {
+        "fractionCalculator": "Калькулятор дробей",
+        "decimal": "Десятичный:"
+      }
+    },
+    "gpa-calculator": {
+      "title": "GpaКалькулятор",
+      "description": "",
+      "ui": {
+        "gpaCalculator": "Калькулятор среднего балла",
+        "courseName": "Название курса",
+        "credits": "Кредиты",
+        "grade": "Оценка",
+        "addCourse": "Добавить курс",
+        "totalCredits": "Всего кредитов",
+        "cumulativeGpa": "Совокупный средний балл",
+        "courseList": "Список курсов",
+        "course": "Курс",
+        "result": "Результат"
+      }
+    },
+    "grade-calculator": {
+      "title": "Калькулятор оценок",
+      "description": "",
+      "ui": {
+        "gradeCalculator": "Калькулятор оценок",
+        "assignmentCategory": "Категория назначения",
+        "grade": "Оценка (%)",
+        "weight": "Масса (%)",
+        "addCategory": "Добавить категорию",
+        "totalWeightEntered": "Общий введенный вес",
+        "currentGrade": "Текущая оценка",
+        "assignments": "Задания",
+        "eGMidterm": "например Среднесрочный",
+        "result": "Результат"
+      }
+    },
+    "height-converter": {
+      "title": "Конвертер высоты",
+      "description": "",
+      "ui": {
+        "heightConverter": "Конвертер высот",
+        "metricCentimeters": "Метрическая система (сантиметры)",
+        "cm": "см",
+        "imperialFeetInches": "Имперский (футы и дюймы)",
+        "ft": "футы",
+        "in": "в"
+      }
+    },
+    "hex-to-decimal": {
+      "title": "Шестнадцатеричное",
+      "description": "",
+      "ui": {
+        "hexToDecimalConverter": "Конвертер шестнадцатеричных чисел в десятичные",
+        "hexadecimalNumber": "Шестнадцатеричное число",
+        "decimalResult": "Десятичный результат",
+        "eG1AOrFFFFFF": "например 1А или ФФФФФФ"
+      }
+    },
+    "hourly-to-salary-calculator": {
+      "title": "Калькулятор почасовой зарплаты",
+      "description": "",
+      "ui": {
+        "hourlyToSalaryCalculator": "Калькулятор почасовой зарплаты",
+        "hourlyWage": "Почасовая оплата",
+        "hoursWeek": "Часы / Неделя",
+        "weeksYear": "Недели / Год",
+        "daily": "Ежедневно",
+        "weekly": "Еженедельно",
+        "monthly": "Ежемесячно",
+        "yearlySalary": "Годовая зарплата",
+        "hourlyDetails": "Почасовая информация",
+        "salaryBreakdown": "Распределение зарплат"
+      }
+    },
+    "html-encode-decode": {
+      "title": "Хтмлэнкодедекоде",
+      "description": "",
+      "ui": {
+        "htmlEntityEncoderDecoder": "Кодировщик/декодер HTML-объектов",
+        "encode": "Кодировать",
+        "decode": "Декодировать",
+        "input": "Вход",
+        "output": "Выход",
+        "mode": "Режим"
+      }
+    },
+    "html-minifier": {
+      "title": "HtmlМинификатор",
+      "description": "",
+      "ui": {
+        "htmlMinifier": "Минимификатор HTML",
+        "inputHtml": "Введите HTML",
+        "bytes": "байты (-",
+        "minifiedHtml": "Минимизированный HTML"
+      }
+    },
+    "investment-calculator": {
+      "title": "Инвестиционный Калькулятор",
+      "description": "",
+      "ui": {
+        "investmentCalculator": "Инвестиционный калькулятор",
+        "initialInvestment": "Первоначальные инвестиции",
+        "monthlyContribution": "Ежемесячный взнос",
+        "expectedReturn": "Ожидаемая доходность (%)",
+        "yearsToGrow": "Годы роста",
+        "totalContributions": "Всего взносов",
+        "interestEarned": "Заработанные проценты",
+        "futureValue": "Будущая стоимость",
+        "investmentPlan": "Инвестиционный план",
+        "growthProjection": "Прогноз роста"
+      }
+    },
+    "js-minifier": {
+      "title": "JsМинификатор",
+      "description": "",
+      "ui": {
+        "javascriptMinifier": "Минификатор JavaScript",
+        "inputJs": "Ввод JS",
+        "bytes": "байты (-",
+        "minifiedJs": "Минимизированный JS"
+      }
+    },
+    "jwt-decoder": {
+      "title": "JwtDecoder",
+      "description": "",
+      "ui": {
+        "jwtDecoder": "JWT-декодер",
+        "encodedJwtHeaderpayloadsignature": "Закодированный JWT (Header.Payload.Signature)",
+        "invalidJwtFormat": "Неверный формат JWT.",
+        "header": "Заголовок",
+        "payload": "Полезная нагрузка",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik..."
+      }
+    },
+    "length-converter": {
+      "title": "ДлинаКонвертер",
+      "description": "",
+      "ui": {
+        "lengthConverter": "Конвертер длины",
+        "from": "От",
+        "to": "К"
+      }
+    },
+    "loan-calculator": {
+      "title": "Кредитный калькулятор",
+      "description": "",
+      "ui": {
+        "loanCalculator": "Кредитный калькулятор",
+        "loanAmount": "Сумма кредита",
+        "interestRate": "Процентная ставка (%)",
+        "loanTermYears": "Срок кредита (лет)",
+        "monthlyPayment": "Ежемесячный платеж",
+        "totalInterest": "Общий процент",
+        "totalCostOfLoan": "Общая стоимость кредита",
+        "loanDetails": "Детали кредита",
+        "paymentBreakdown": "Распределение платежей"
+      }
+    },
+    "lorem-ipsum-generator": {
+      "title": "LoremIpsumГенератор",
+      "description": "",
+      "ui": {
+        "loremIpsumGenerator": "Генератор Лорем Ипсум",
+        "paragraphs": "Абзацы",
+        "generate": "Генерировать",
+        "copy": "Копировать",
+        "generatedText": "Сгенерированный текст"
+      }
+    },
+    "macro-calculator": {
+      "title": "Макроскалькулятор",
+      "description": "",
+      "ui": {
+        "macroCalculator": "Макрос калькулятор",
+        "dailyCalories": "Ежедневные калории",
+        "dietPlan": "План диеты",
+        "balanced303040": "Сбалансированный (30/30/40)",
+        "lowCarb404020": "Низкоуглеводная диета (40/40/20)",
+        "highProtein402535": "Высокое содержание белка (40/25/35)",
+        "keto20755": "Кето (20/75/5)",
+        "protein": "Белок",
+        "g": "г",
+        "fats": "Жиры",
+        "carbs": "Углеводы",
+        "kcal": "ккал"
+      }
+    },
+    "markup-calculator": {
+      "title": "Калькулятор разметки",
+      "description": "",
+      "ui": {
+        "markupCalculator": "Калькулятор наценки",
+        "cost": "Расходы",
+        "markup": "Наценка (%)",
+        "profit": "Выгода",
+        "sellingPrice": "Цена продажи",
+        "pricingDetails": "Подробности о ценах"
+      }
+    },
+    "md5generator": {
+      "title": "Md5Генератор",
+      "description": "",
+      "ui": {
+        "md5HashGenerator": "Генератор хэшей MD5",
+        "inputString": "Входная строка",
+        "md5Hash": "MD5-хеш",
+        "theDefaultHashShownIsForAnEmptyString": "Показанный хэш по умолчанию предназначен для пустой строки."
+      }
+    },
+    "months-between-dates": {
+      "title": "МесяцыМеждуДатами",
+      "description": "",
+      "ui": {
+        "monthsBetweenDates": "Месяцы между датами",
+        "startDate": "Дата начала",
+        "endDate": "Дата окончания",
+        "calculateMonths": "Рассчитать месяцы",
+        "months": "Месяцы",
+        "days": "Дни",
+        "copy": "Копировать",
+        "reset": "Перезагрузить",
+        "selectDatesToCalculate": "Выберите даты для расчета"
+      }
+    },
+    "mortgage-calculator": {
+      "title": "ИпотечныйКалькулятор",
+      "description": "",
+      "ui": {
+        "mortgageCalculator": "Ипотечный калькулятор",
+        "homePrice": "Главная Цена",
+        "downPayment": "Авансовый платеж",
+        "interestRate": "Процентная ставка (%)",
+        "loanTermYears": "Срок кредита (лет)",
+        "principalLoanAmount": "Основная сумма кредита",
+        "monthlyPayment": "Ежемесячный платеж",
+        "propertyDetails": "Детали недвижимости",
+        "mortgageSummary": "Резюме по ипотеке"
+      }
+    },
+    "mulch-calculator": {
+      "title": "МульчаКалькулятор",
+      "description": "",
+      "ui": {
+        "mulchTopsoilCalculator": "Калькулятор мульчи и верхнего слоя почвы",
+        "lengthFt": "Длина (футы)",
+        "widthFt": "Ширина (футы)",
+        "depthInches": "Глубина (дюймы)",
+        "standardMulchDepthIs24Inches": "Стандартная глубина мульчи составляет 2-4 дюйма.",
+        "youWillNeed": "Вам понадобится",
+        "cubicYards": "Кубические ярды",
+        "2CuFtBags": "2 куб. футов Сумки",
+        "3CuFtBags": "3 куб. футов Сумки"
+      }
+    },
+    "number-base-converter": {
+      "title": "NumberBaseConverter",
+      "description": "",
+      "ui": {
+        "numberBaseConverter": "Конвертер системы счисления",
+        "from": "От",
+        "to": "К",
+        "base": "База"
+      }
+    },
+    "overtime-calculator": {
+      "title": "Калькулятор сверхурочной работы",
+      "description": "",
+      "ui": {
+        "overtimeCalculator": "Калькулятор сверхурочной работы",
+        "hourlyRate": "Почасовая ставка",
+        "otMultiplier": "Множитель ОТ",
+        "timeAndAHalf15x": "Полтора раза (1,5x)",
+        "doubleTime20x": "Двойное время (2,0x)",
+        "straightTime10x": "Прямое время (1,0x)",
+        "standardWeeklyHours": "Стандартные еженедельные часы",
+        "totalHoursWorked": "Общее количество отработанных часов",
+        "regularPay": "Обычная зарплата (",
+        "hrs": "часы @",
+        "overtimePay": "Оплата сверхурочной работы (",
+        "hr": "/час)",
+        "totalGrossPay": "Общая валовая заработная плата",
+        "paySummary": "Сводка оплаты"
+      }
+    },
+    "pace-calculator": {
+      "title": "Калькулятор темпа",
+      "description": "",
+      "ui": {
+        "runningPaceCalculator": "Калькулятор темпа бега",
+        "distance": "Расстояние",
+        "kilometersKm": "Километры (км)",
+        "milesMi": "Майлз (ми)",
+        "totalTime": "Общее время",
+        "hrs": "часы",
+        "mins": "минут",
+        "secs": "секунды",
+        "averagePace": "Средний темп",
+        "per": "за"
+      }
+    },
+    "paint-calculator": {
+      "title": "КраскаКалькулятор",
+      "description": "",
+      "ui": {
+        "paintCalculator": "Калькулятор краски",
+        "totalSurfaceAreaSqFt": "Общая площадь (кв. футы)",
+        "numberOfCoats": "Количество слоев",
+        "1Coat": "1 пальто",
+        "2Coats": "2 пальто",
+        "3Coats": "3 слоя",
+        "coverageSqFtGallon": "Покрытие (кв. футы/галлон)",
+        "youWillNeed": "Вам понадобится",
+        "gallons": "галлоны)",
+        "exactCalculation": "(Точный расчет:"
+      }
+    },
+    "password-generator": {
+      "title": "Генератор паролей",
+      "description": "",
+      "ui": {
+        "securePasswordGenerator": "Генератор безопасных паролей",
+        "generatePassword": "Создать пароль",
+        "passwordLength": "Длина пароля:",
+        "uppercaseAz": "Прописные буквы (А-Я)",
+        "lowercaseAz": "Строчные буквы (а-я)",
+        "numbers09": "Числа (0-9)",
+        "symbols": "Символы (!@#)",
+        "constraints": "Ограничения",
+        "copyPassword": "Скопировать пароль"
+      }
+    },
+    "percentage-decrease-calculator": {
+      "title": "Калькулятор процентного уменьшения",
+      "description": "",
+      "ui": {
+        "percentageDecreaseCalculator": "Калькулятор процентного уменьшения",
+        "initialValue": "Начальное значение",
+        "finalValue": "Окончательное значение",
+        "absoluteChange": "Абсолютное изменение",
+        "decrease": "Снижаться",
+        "values": "Ценности",
+        "decreaseBreakdown": "Уменьшить разбивку"
+      }
+    },
+    "percentage-increase-calculator": {
+      "title": "Калькулятор процентного увеличения",
+      "description": "",
+      "ui": {
+        "percentageIncreaseCalculator": "Калькулятор процентного увеличения",
+        "initialValue": "Начальное значение",
+        "finalValue": "Окончательное значение",
+        "absoluteChange": "Абсолютное изменение",
+        "change": "Изменять",
+        "values": "Ценности",
+        "increaseBreakdown": "Увеличение разбивки"
+      }
+    },
+    "plant-spacing-calculator": {
+      "title": "РастениеРасстояниеКалькулятор",
+      "description": "",
+      "ui": {
+        "plantSpacingCalculator": "Калькулятор расстояния между растениями",
+        "squareGrid": "Квадратная сетка",
+        "triangularOffset": "Треугольный (Смещенный)",
+        "bedLengthFt": "Длина кровати (футы)",
+        "bedWidthFt": "Ширина кровати (футы)",
+        "plantSpacingInchesBetweenCenters": "Расстояние между растениями (дюймы между центрами)",
+        "estimatedTotalPlants": "Предполагаемое общее количество растений"
+      }
+    },
+    "pomodoro-timer": {
+      "title": "ПомодороТаймер",
+      "description": "",
+      "ui": {
+        "pomodoroTimer": "Таймер Помидора",
+        "work25m": "Работа (25м)",
+        "break5m": "Перерыв (5 м)",
+        "reset": "Перезагрузить",
+        "start": "Начинать"
+      }
+    },
+    "profit-margin-calculator": {
+      "title": "ПрибыльМаржаКалькулятор",
+      "description": "",
+      "ui": {
+        "profitMarginCalculator": "Калькулятор прибыли",
+        "revenueSellingPrice": "Выручка (цена продажи)",
+        "costOfGoodsSold": "Стоимость проданных товаров",
+        "grossProfit": "Валовая прибыль",
+        "margin": "Допуск",
+        "financialDetails": "Финансовые детали",
+        "profitability": "Рентабельность"
+      }
+    },
+    "qr-code-generator": {
+      "title": "QrCodeGenerator",
+      "description": "",
+      "ui": {
+        "qrCodeGenerator": "Генератор QR-кода",
+        "urlOrText": "URL-адрес или текст",
+        "size": "Размер",
+        "small150x150": "Маленький (150х150)",
+        "medium250x250": "Средний (250x250)",
+        "large500x500": "Большой (500x500)",
+        "highres1000x1000": "Высокое разрешение (1000x1000)",
+        "downloadImage": "Загрузить изображение",
+        "enterTextAboveToGenerateAQrCode": "Введите текст выше, чтобы сгенерировать QR-код",
+        "contentSettings": "Настройки контента",
+        "enterURLOrTextToEncode": "Введите URL или текст для кодирования",
+        "generatedQRCode": "Сгенерированный QR-код"
+      }
+    },
+    "random-number-generator": {
+      "title": "Генератор случайных чисел",
+      "description": "",
+      "ui": {
+        "randomNumberGenerator": "Генератор случайных чисел",
+        "minimum": "Минимум",
+        "maximum": "Максимум",
+        "generateRandomNumber": "Создать случайное число",
+        "result": "Результат",
+        "rangeSettings": "Настройки диапазона"
+      }
+    },
+    "ratio-calculator": {
+      "title": "Калькулятор соотношения",
+      "description": "",
+      "ui": {
+        "ratioCalculatorAbCd": "Калькулятор соотношения (A:B = C:D)",
+        "enter3ValuesToCalculateThe4thMissingValue": "Введите 3 значения, чтобы вычислить четвертое недостающее значение."
+      }
+    },
+    "roi-calculator": {
+      "title": "РойКалькулятор",
+      "description": "",
+      "ui": {
+        "roiCalculator": "Калькулятор рентабельности инвестиций",
+        "initialInvestment": "Первоначальные инвестиции",
+        "finalValueReturned": "Возвращено окончательное значение",
+        "profit": "Выгода",
+        "roi": "рентабельность инвестиций",
+        "investmentDetails": "Детали инвестиций",
+        "returnOnInvestment": "Возврат инвестиций"
+      }
+    },
+    "roman-numeral-converter": {
+      "title": "РимскаяЦифраКонвертер",
+      "description": "",
+      "ui": {
+        "romanNumeralConverter": "Конвертер римских цифр",
+        "numberRoman": "Число → Римское",
+        "romanNumber": "Римский → Число",
+        "result": "Результат"
+      }
+    },
+    "running-distance-calculator": {
+      "title": "Калькулятор расстояния бега",
+      "description": "",
+      "ui": {
+        "runningDistanceCalculator": "Калькулятор пробега",
+        "pacePer": "Темп (за",
+        "mins": "минут",
+        "secs": "секунды",
+        "totalTime": "Общее время",
+        "hrs": "часы",
+        "totalDistance": "Общее расстояние",
+        "kilometersKm": "Километры (км)",
+        "milesMi": "Майлз (ми)"
+      }
+    },
+    "salary-calculator": {
+      "title": "Калькулятор зарплаты",
+      "description": "",
+      "ui": {
+        "salaryCalculator": "Калькулятор зарплаты",
+        "salaryAmount": "Сумма зарплаты",
+        "per": "Пер",
+        "hour": "Час",
+        "day": "День",
+        "week": "Неделя",
+        "month": "Месяц",
+        "year": "Год",
+        "hoursPerWeek": "Часов в неделю",
+        "calculate": "Рассчитать",
+        "hourly": "Ежечасно",
+        "daily": "Ежедневно",
+        "weekly": "Еженедельно",
+        "monthly": "Ежемесячно",
+        "yearly": "Ежегодно",
+        "incomeDetails": "Детали дохода",
+        "enterYourIncomeDetailsToS": "Введите данные о своем доходе, чтобы увидеть сводку"
+      }
+    },
+    "salary-to-hourly-calculator": {
+      "title": "Калькулятор зарплаты в час",
+      "description": "",
+      "ui": {
+        "salaryToHourlyCalculator": "Зарплата в почасовой калькулятор",
+        "annualSalary": "Годовая зарплата",
+        "hoursWeek": "Часы / Неделя",
+        "weeksYear": "Недели / Год",
+        "hourlyWage": "Почасовая оплата",
+        "salaryDetails": "Подробности о зарплате",
+        "equivalentWage": "Эквивалентная заработная плата"
+      }
+    },
+    "sha1generator": {
+      "title": "Sha1Генератор",
+      "description": "",
+      "ui": {
+        "sha1HashGenerator": "Генератор хеша SHA-1",
+        "inputString": "Входная строка",
+        "sha1Hash": "SHA-1 Хэш",
+        "theDefaultHashShownIsForAnEmptyString": "Показанный хэш по умолчанию предназначен для пустой строки."
+      }
+    },
+    "sha256generator": {
+      "title": "Sha256Генератор",
+      "description": "",
+      "ui": {
+        "sha256HashGenerator": "Генератор хэшей SHA-256",
+        "inputString": "Входная строка",
+        "sha256Hash": "SHA-256 Хэш",
+        "theDefaultHashShownIsForAnEmptyString": "Показанный хэш по умолчанию предназначен для пустой строки."
+      }
+    },
+    "simple-interest-calculator": {
+      "title": "Простой Калькулятор процентов",
+      "description": "",
+      "ui": {
+        "simpleInterestCalculator": "Простой процентный калькулятор",
+        "principalAmount": "Основная сумма",
+        "annualRate": "Годовая ставка (%)",
+        "time": "Время",
+        "years": "Годы",
+        "months": "Месяцы",
+        "days": "Дни",
+        "interestEarned": "Заработанные проценты",
+        "finalBalance": "Окончательный баланс",
+        "interestDetails": "Детали интересов",
+        "growthBreakdown": "Структура роста"
+      }
+    },
+    "sleep-calculator": {
+      "title": "Калькулятор сна",
+      "description": "",
+      "ui": {
+        "sleepCalculator": "Калькулятор сна",
+        "iWantToWakeUpAt": "Я хочу проснуться в:",
+        "calculate": "Рассчитать",
+        "toWakeUpRefreshedAt": "Чтобы проснуться отдохнувшим в",
+        "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": ", вам следует попытаться заснуть в одно из следующих времен (включая 15 минут на засыпание):",
+        "6Cycles9h": "6 циклов (9 часов)",
+        "5Cycles75h": "5 циклов (7,5 часов)",
+        "4Cycles6h": "4 цикла (6 часов)",
+        "3Cycles45h": "3 цикла (4,5 часа)",
+        "enterWakeTimeToCalculateS": "Введите время пробуждения, чтобы рассчитать время сна"
+      }
+    },
+    "speed-converter": {
+      "title": "Конвертер скорости",
+      "description": "",
+      "ui": {
+        "speedConverter": "Конвертер скорости",
+        "from": "От",
+        "to": "К"
+      }
+    },
+    "speed-distance-time-calculator": {
+      "title": "СкоростьРасстояниеВремяКалькулятор",
+      "description": "",
+      "ui": {
+        "speedDistanceTime": "Скорость, Расстояние, Время",
+        "solveForSpeed": "Решайте скорость",
+        "solveForDistance": "Найдите расстояние",
+        "solveForTime": "Решите на время",
+        "distance": "Расстояние",
+        "timeHours": "Время (часы)",
+        "speed": "Скорость"
+      }
+    },
+    "sql-formatter": {
+      "title": "SqlFormatter",
+      "description": "",
+      "ui": {
+        "sqlFormatter": "SQL форматтер",
+        "rawSql": "Необработанный SQL",
+        "formattedSql": "Форматированный SQL"
+      }
+    },
+    "square-footage-calculator": {
+      "title": "ПлощадьФутажКалькулятор",
+      "description": "",
+      "ui": {
+        "squareFootageCalculator": "Калькулятор квадратных метров",
+        "lengthFt": "Длина (футы)",
+        "widthFt": "Ширина (футы)",
+        "addArea": "Добавить область",
+        "totalArea": "Общая площадь",
+        "squareFeetSqFt": "Квадратные футы (кв. футы)"
+      }
+    },
+    "step-calculator": {
+      "title": "ШагКалькулятор",
+      "description": "",
+      "ui": {
+        "stairStepCalculator": "Калькулятор лестницы/ступеней",
+        "totalRiseHeightInches": "Общий рост/высота (дюймы)",
+        "totalVerticalDistanceFromLowerFloorToUpperFloor": "Общее вертикальное расстояние от нижнего этажа до верхнего этажа.",
+        "targetRiserHeightIn": "Целевая высота стояка (дюймы)",
+        "standardMaxIsUsually775": "Стандартный максимум обычно составляет 7,75 дюйма.",
+        "targetTreadDepthIn": "Целевая глубина протектора (дюймы)",
+        "standardMinIsUsually10": "Стандартный минимум обычно составляет 10 дюймов.",
+        "numberOfRisers": "Количество стояков",
+        "actualRiserHeight": "Фактическая высота подступенка",
+        "totalRunHorizontalDistance": "Общий пробег (горизонтальное расстояние)",
+        "ft": "футов)"
+      }
+    },
+    "stopwatch": {
+      "title": "Секундомер",
+      "description": "",
+      "ui": {
+        "stopwatch": "Секундомер",
+        "start": "Начинать",
+        "pause": "Пауза",
+        "lap": "Колени",
+        "reset": "Перезагрузить",
+        "laps": "Круги",
+        "noLapsRecordedYet": "Кругов еще не записано"
+      }
+    },
+    "tax-calculator": {
+      "title": "Налоговый Калькулятор",
+      "description": "",
+      "ui": {
+        "salesTaxCalculator": "Калькулятор налога с продаж",
+        "price": "Цена",
+        "taxRate": "Налоговая ставка (%)",
+        "priceAlreadyIncludesTax": "Цена уже включает налог",
+        "priceBeforeTax": "Цена до налогообложения",
+        "taxAmount": "Сумма налога",
+        "totalFinalPrice": "Общая окончательная цена",
+        "taxDetails": "Налоговые данные",
+        "priceBreakdown": "Распределение цен"
+      }
+    },
+    "temperature-converter": {
+      "title": "Конвертер температуры",
+      "description": "",
+      "ui": {
+        "temperatureConverter": "Конвертер температуры",
+        "from": "От",
+        "celsius": "Цельсия",
+        "fahrenheit": "Фаренгейт",
+        "kelvin": "Кельвин",
+        "to": "К"
+      }
+    },
+    "tile-calculator": {
+      "title": "Калькулятор плитки",
+      "description": "",
+      "ui": {
+        "tileCalculator": "Калькулятор плитки",
+        "totalAreaToCoverSqFt": "Общая площадь покрытия (кв. футы)",
+        "tileLengthInches": "Длина плитки (дюймы)",
+        "tileWidthInches": "Ширина плитки (дюймы)",
+        "wasteOverage": "Отходы/избыток (%)",
+        "standardRecommendationIs10ForStandardLayouts15ForDiagonal": "Стандартная рекомендация — 10% для стандартной раскладки, 15% для диагональной.",
+        "totalTilesNeeded": "Всего необходимо плиток",
+        "eachTileCovers": "Каждая плитка покрывает",
+        "sqFt": "кв. футы"
+      }
+    },
+    "time-difference-calculator": {
+      "title": "Разница во времениКалькулятор",
+      "description": "",
+      "ui": {
+        "timeDifference": "Разница во времени",
+        "firstTime": "первый раз",
+        "secondTime": "второй раз",
+        "calculateAbsoluteDifference": "Вычислить абсолютную разницу",
+        "difference": "Разница:",
+        "h": "час",
+        "m": "м",
+        "copy": "Копировать",
+        "reset": "Перезагрузить",
+        "selectTimesToCompare": "Выберите время для сравнения"
+      }
+    },
+    "time-duration-calculator": {
+      "title": "ВремяПродолжительностьКалькулятор",
+      "description": "",
+      "ui": {
+        "timeDurationCalculator": "Калькулятор продолжительности времени",
+        "startTime": "Время начала",
+        "endTime": "Конец Времени",
+        "endsOnTheNextDayCrossesMidnight": "Заканчивается на следующий день (пересекает полночь)",
+        "calculateDuration": "Рассчитать продолжительность",
+        "hours": "Часы",
+        "minutes": "минуты",
+        "totalTimeInMinutes": "Общее время в минутах:",
+        "copy": "Копировать",
+        "reset": "Перезагрузить",
+        "selectStartAndEndTimes": "Выберите время начала и окончания"
+      }
+    },
+    "time-zone-converter": {
+      "title": "Конвертер часовых поясов",
+      "description": "",
+      "ui": {
+        "timeZoneConverter": "Конвертер часовых поясов",
+        "dateTime": "Дата и время",
+        "fromTimeZoneRelative": "Из часового пояса (относительного)",
+        "toTimeZone": "В часовой пояс",
+        "convert": "Конвертировать",
+        "selectDateAndTimeZonesTo": "Выберите дату и часовой пояс для сравнения"
+      }
+    },
+    "tip-calculator": {
+      "title": "СоветКалькулятор",
+      "description": "",
+      "ui": {
+        "tipCalculator": "Калькулятор чаевых",
+        "billAmount": "Сумма счета",
+        "tip": "Кончик %",
+        "numberOfPeople": "Количество человек",
+        "tipAmount": "Сумма чаевых",
+        "person": "/ человек",
+        "total": "Общий",
+        "totalTip": "Общий совет:",
+        "totalBill": "Общий счет:",
+        "billDetails": "Детали счета",
+        "totalBreakdown": "Общая разбивка"
+      }
+    },
+    "unix-timestamp-converter": {
+      "title": "UnixTimestampConverter",
+      "description": "",
+      "ui": {
+        "timestampToDate": "Временная метка даты",
+        "unixTimestamp": "Временная метка Unix",
+        "convert": "Конвертировать",
+        "dateToTimestamp": "Дата и временная метка",
+        "localDateTime": "Местная дата и время",
+        "eG1700000000": "например 1700000000",
+        "result": "Результат"
+      }
+    },
+    "url-encode-decode": {
+      "title": "Урлэнкодедекод",
+      "description": "",
+      "ui": {
+        "urlEncoderDecoder": "URL-кодер/декодер",
+        "encode": "Кодировать",
+        "decode": "Декодировать",
+        "input": "Вход",
+        "output": "Выход",
+        "mode": "Режим"
+      }
+    },
+    "uuid-generator": {
+      "title": "UuidGenerator",
+      "description": "",
+      "ui": {
+        "uuidV4Generator": "Генератор UUID (v4)",
+        "howManyUuids": "Сколько UUID?",
+        "generate": "Генерировать",
+        "generatedUuids": "Сгенерированные UUID",
+        "copyAll": "Копировать все",
+        "clickGenerateToCreateUUI": "Нажмите «Создать», чтобы создать UUID."
+      }
+    },
+    "volume-converter": {
+      "title": "Конвертер Объема",
+      "description": "",
+      "ui": {
+        "volumeConverter": "Конвертер объёмов",
+        "from": "От",
+        "to": "К"
+      }
+    },
+    "wake-up-time-calculator": {
+      "title": "ПробуждениеВремяКалькулятор",
+      "description": "",
+      "ui": {
+        "wakeupTimeCalculator": "Калькулятор времени пробуждения",
+        "ifYouHeadToBedRightNowWhenShouldYouWakeUpToFeelRefreshed": "Если вы отправляетесь спать прямо сейчас, когда вам следует проснуться, чтобы почувствовать себя отдохнувшим?",
+        "imGoingToBedNow": "я сейчас пойду спать",
+        "weAdded15MinutesForYouToFallAsleepSetYourAlarmForOneOfTheseTimesToWakeUpBetween90minuteSleepCycles": "Мы добавили вам 15 минут на то, чтобы заснуть. Установите будильник на одно из следующих времен, чтобы проснуться между 90-минутными циклами сна:",
+        "3Cycles45h": "3 цикла (4,5 часа)",
+        "4Cycles6h": "4 цикла (6 часов)",
+        "5Cycles75h": "5 циклов (7,5 часов)",
+        "6Cycles9h": "6 циклов (9 часов)",
+        "readyForBed": "Готов ко сну",
+        "clickTheButtonWhenYouReG": "Нажмите кнопку, когда ложитесь спать"
+      }
+    },
+    "water-intake-calculator": {
+      "title": "ВодозаборКалькулятор",
+      "description": "",
+      "ui": {
+        "dailyWaterIntakeCalculator": "Калькулятор ежедневного потребления воды",
+        "weightKg": "Вес (кг)",
+        "dailyExerciseMins": "Ежедневные упражнения (минуты)",
+        "recommendedDailyIntake": "Рекомендуемая суточная доза",
+        "liters": "Литры",
+        "approx": "(ок.",
+        "ozOr": "унция или",
+        "cups": "чашки)",
+        "or": "Или"
+      }
+    },
+    "weeks-between-dates": {
+      "title": "НеделиМеждуДатами",
+      "description": "",
+      "ui": {
+        "weeksBetweenDates": "Недели между свиданиями",
+        "startDate": "Дата начала",
+        "endDate": "Дата окончания",
+        "calculateWeeks": "Рассчитать недели",
+        "weeks": "Недели",
+        "days": "Дни",
+        "copy": "Копировать",
+        "reset": "Перезагрузить",
+        "selectDatesToCalculate": "Выберите даты для расчета"
+      }
+    },
+    "weight-converter": {
+      "title": "Конвертер веса",
+      "description": "",
+      "ui": {
+        "weightConverter": "Конвертер веса",
+        "from": "От",
+        "to": "К"
+      }
+    },
+    "word-counter": {
+      "title": "WordCounter",
+      "description": "",
+      "ui": {
+        "wordCounter": "Счетчик слов",
+        "words": "Слова",
+        "characters": "Персонажи",
+        "noSpaces": "Нет пробелов",
+        "paragraphs": "Абзацы",
+        "startTypingOrPasteYourTex": "Начните вводить или вставьте сюда свой текст..."
+      }
+    },
+    "work-hours-calculator": {
+      "title": "Рабочие ЧасыКалькулятор",
+      "description": "",
+      "ui": {
+        "workHoursCalculator": "Калькулятор рабочего времени",
+        "clockIn": "Часы входа",
+        "clockOut": "Выходные часы",
+        "breakMinutes": "Перерыв (минуты)",
+        "daysPerWeek": "Дней в неделю",
+        "calculateHours": "Рассчитать часы",
+        "dailyWorkHours": "Ежедневное рабочее время",
+        "hrs": "часы",
+        "weeklyTotal": "Итого за неделю",
+        "enterScheduleToCalculateHo": "Введите расписание для расчета часов"
+      }
+    },
+    "world-time-converter": {
+      "title": "МировоеВремяКонвертер",
+      "description": "",
+      "ui": {
+        "worldTimeConverter": "Конвертер мирового времени"
+      }
+    },
+    "xml-formatter": {
+      "title": "XmlFormatter",
+      "description": "",
+      "ui": {
+        "xmlFormatter": "XML-форматер",
+        "rawXml": "Необработанный XML",
+        "formattedXml": "Форматированный XML"
+      }
+    },
+    "bionic-reading-converter": {
+      "title": "Конвертер Бионического Чтения",
+      "description": "",
+      "ui": {
+        "inputText": "Входной текст",
+        "placeholder": "Вставьте или введите ваш текст здесь...",
+        "clear": "Очистить",
+        "bionicOutput": "Бионический вывод",
+        "copyResult": "Копировать результат",
+        "emptyOutput": "Здесь появится вывод бионического чтения...",
+        "howItWorksTitle": "Как это работает:",
+        "howItWorksDescription": "Этот инструмент реализует метод скорочтения путем выделения начальных букв слов. Это направляет ваши глаза по тексту, а ваш мозг достраивает слово, позволяя вам читать быстрее и с большей концентрацией."
+      }
+    }
+  },
+  "Search": {
+    "placeholder": "Поиск инструментов...",
+    "noResults": "Инструменты для \"{query}\" не найдены."
+  },
+  "Home": {
+    "title": "Бесплатные онлайн-инструменты для повседневных задач",
+    "subtitle": "Вычисляйте, конвертируйте, генерируйте и упрощайте свою повседневную работу с помощью быстрых, бесплатных и удобных онлайн-инструментов.",
+    "popularTools": "Популярные инструменты",
+    "metaTitle": "100 инструментов — бесплатные онлайн-инструменты премиум-класса",
+    "metaDescription": "Рассчитывайте, конвертируйте, генерируйте и анализируйте все, что вам нужно, с помощью нашего набора из более чем 100 онлайн-инструментов премиум-класса.",
+    "heroBadge": "Более 100 бесплатных онлайн-инструментов",
+    "heroTitle1": "Рассчитать, преобразовать и",
+    "heroTitle2": "генерировать все.",
+    "heroDescription": "Платформа премиум-класса для разработчиков, финансовых специалистов и повседневных задач. Быстро, конфиденциально и красиво оформлено.",
+    "popular": "Популярные:",
+    "browseCategories": "Просмотр категорий",
+    "browseCategoriesDesc": "Найдите именно то, что вам нужно, организованное по рабочему процессу.",
+    "mostPopularTools": "Самые популярные инструменты",
+    "mostPopularToolsDesc": "Инструменты, которые наше сообщество использует чаще всего.",
+    "exploreAll": "Исследуйте все",
+    "whyUse": "Зачем использовать 100 инструментов?",
+    "whyUseDesc": "Создан с использованием современных технологий для обеспечения наилучшего пользовательского опыта.",
+    "feature1Title": "Молниеносно",
+    "feature1Desc": "Мгновенные результаты без перезагрузки страницы. Оптимизирован для скорости и низкой задержки.",
+    "feature2Title": "Конфиденциальность прежде всего",
+    "feature2Desc": "Расчеты происходят прямо в вашем браузере. Ваши данные никогда не покидают ваше устройство.",
+    "feature3Title": "Премиум-дизайн",
+    "feature3Desc": "Тщательно продуманные интерфейсы, красивые, интуитивно понятные и простые в использовании."
+  },
+  "Footer": {
+    "100Tools": "100 инструментов",
+    "thePremiumProductivityPlatf": "Платформа производительности премиум-класса для всех ваших ежедневных вычислений, преобразований и генерации данных.",
+    "categories": "Категории",
+    "developerTools": "Инструменты разработчика",
+    "finance": "Финансы",
+    "dateTime": "Дата и время",
+    "textTools": "Текстовые инструменты",
+    "converters": "Конвертеры",
+    "popularTools": "Популярные инструменты",
+    "ageCalculator": "Калькулятор возраста",
+    "jSONFormatter": "Форматер JSON",
+    "percentageCalculator": "Калькулятор процентов",
+    "base64Encoder": "Кодировщик Base64",
+    "salaryCalculator": "Калькулятор зарплаты",
+    "company": "Компания",
+    "aboutUs": "О нас",
+    "contact": "Контакт",
+    "privacyPolicy": "политика конфиденциальности",
+    "termsOfService": "Условия использования",
+    "Copy": "&копировать;",
+    "100ToolsAllRightsReserved": "100 инструментов. Все права защищены.",
+    "builtWithNextJs": "Создано с помощью Next.js",
+    "madeWith": "Сделано с ❤️",
+    "tagline": "Платформа производительности премиум-класса для всех ваших ежедневных вычислений, преобразований и генерации данных.",
+    "privacy": "политика конфиденциальности",
+    "terms": "Условия использования",
+    "allRightsReserved": "Все права защищены.",
+    "builtWith": "Создано с помощью Next.js",
+    "madeWithHeart": "Сделано с ❤️",
+    "cookie": "Cookie Policy"
+  },
+  "Header": {
+    "100Tools": "100 инструментов",
+    "developer": "Разработчик",
+    "finance": "Финансы",
+    "time": "Время"
+  },
+  "LanguageSwitcher": {},
+  "RelatedTools": {
+    "relatedTools": "Сопутствующие инструменты",
+    "popular": "Популярный"
+  },
+  "ToolSearch": {
+    "tryADifferentSearchTermOr": "Попробуйте другой поисковый запрос или просмотрите категории."
+  },
+  "index": {
+    "advertisement": "Реклама"
+  },
+  "AgeCalculator": {},
+  "AreaConverter": {},
+  "AverageCalculator": {
+    "dataSet": "Набор данных",
+    "statistics": "Статистика",
+    "eG12345": "например 1 2 3 4 5"
+  },
+  "Base64EncodeDecode": {
+    "mode": "Режим:"
+  },
+  "BedtimeCalculator": {
+    "recommended": "Рекомендуется",
+    "enterYourWakeUpTimeToCal": "Введите время пробуждения, чтобы рассчитать"
+  },
+  "BinaryToDecimal": {
+    "eG1010": "например 1010"
+  },
+  "BionicReadingConverter": {},
+  "BmiCalculator": {
+    "Lt185": "&lt; 18,5",
+    "enterYourHeightAndWeight": "Введите свой рост и вес"
+  },
+  "BmrCalculator": {
+    "enterYourDetailsToCalculat": "Введите свои данные для расчета BMR"
+  },
+  "BoardFootCalculator": {},
+  "BodyFatCalculator": {
+    "enterYourMeasurementsToCal": "Введите свои измерения, чтобы рассчитать процент жира в организме"
+  },
+  "BreakEvenCalculator": {
+    "costsPricing": "Затраты и цены",
+    "breakEvenPoint": "Точка безубыточности"
+  },
+  "CalorieCalculator": {
+    "enterYourDetailsToCalculat": "Введите свои данные для расчета калорий"
+  },
+  "CharacterCounter": {
+    "startTypingOrPasteYourTex": "Начните вводить или вставьте сюда свой текст..."
+  },
+  "CompoundInterestCalculator": {
+    "interestDetails": "Детали интересов",
+    "growthBreakdown": "Структура роста"
+  },
+  "ConcreteCalculator": {},
+  "CostPerSquareFootCalculator": {},
+  "CountdownTimer": {},
+  "CssMinifier": {},
+  "CurrencyConverter": {},
+  "DataStorageConverter": {},
+  "DateDifferenceCalculator": {
+    "selectDatesToCalculate": "Выберите даты для расчета"
+  },
+  "DaysBetweenDates": {
+    "selectDatesToCalculate": "Выберите даты для расчета"
+  },
+  "DaysUntilCalculator": {
+    "selectAFutureDate": "Выберите будущую дату"
+  },
+  "DecimalToBinary": {
+    "eG10": "например 10"
+  },
+  "DeckingCalculator": {},
+  "DiscountCalculator": {
+    "discountDetails": "Подробности о скидках",
+    "priceBreakdown": "Распределение цен"
+  },
+  "EmiCalculator": {
+    "eMIDetails": "Подробности об ЭМИ",
+    "paymentSummary": "Сводка платежей"
+  },
+  "FenceCalculator": {},
+  "FinalGradeCalculator": {},
+  "FractionCalculator": {},
+  "GpaCalculator": {
+    "courseList": "Список курсов",
+    "result": "Результат",
+    "course": "Курс"
+  },
+  "GradeCalculator": {
+    "assignments": "Задания",
+    "result": "Результат",
+    "eGMidterm": "например Среднесрочный"
+  },
+  "HeightConverter": {},
+  "HexToDecimal": {
+    "eG1AOrFFFFFF": "например 1А или #FFFFFF"
+  },
+  "HourlyToSalaryCalculator": {
+    "hourlyDetails": "Почасовая информация",
+    "salaryBreakdown": "Распределение зарплат"
+  },
+  "HtmlEncodeDecode": {
+    "mode": "Режим:"
+  },
+  "HtmlMinifier": {},
+  "InvestmentCalculator": {
+    "investmentPlan": "Инвестиционный план",
+    "growthProjection": "Прогноз роста"
+  },
+  "JsMinifier": {},
+  "JsonFormatter": {
+    "inputJSON": "Введите JSON",
+    "reset": "Перезагрузить"
+  },
+  "JwtDecoder": {
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+  },
+  "LengthConverter": {},
+  "LoanCalculator": {
+    "loanDetails": "Детали кредита",
+    "paymentBreakdown": "Распределение платежей"
+  },
+  "LoremIpsumGenerator": {
+    "generatedText": "Сгенерированный текст"
+  },
+  "MacroCalculator": {
+    "kcal": "ккал",
+    "enterCaloriesToCalculateMa": "Введите калории для расчета макросов"
+  },
+  "MarkupCalculator": {
+    "pricingDetails": "Подробности о ценах",
+    "sellingPrice": "Цена продажи"
+  },
+  "Md5Generator": {},
+  "MonthsBetweenDates": {
+    "result": "Результат",
+    "selectDatesToCalculate": "Выберите даты для расчета"
+  },
+  "MortgageCalculator": {
+    "propertyDetails": "Детали недвижимости",
+    "mortgageSummary": "Резюме по ипотеке"
+  },
+  "MulchCalculator": {},
+  "NumberBaseConverter": {
+    "base": "База"
+  },
+  "OvertimeCalculator": {
+    "paySummary": "Сводка оплаты"
+  },
+  "PaceCalculator": {
+    "enterDistanceAndTimeToCal": "Введите расстояние и время для расчета темпа"
+  },
+  "PaintCalculator": {},
+  "PasswordGenerator": {
+    "constraints": "Ограничения",
+    "copyPassword": "Скопировать пароль"
+  },
+  "PercentageCalculator": {
+    "calculatePercentage": "Рассчитать процент",
+    "result": "Результат",
+    "enterValuesToCalculatePerc": "Введите значения для расчета процентов"
+  },
+  "PercentageDecreaseCalculator": {
+    "values": "Ценности",
+    "decreaseBreakdown": "Уменьшить разбивку"
+  },
+  "PercentageIncreaseCalculator": {
+    "values": "Ценности",
+    "increaseBreakdown": "Увеличение разбивки"
+  },
+  "PlantSpacingCalculator": {},
+  "PomodoroTimer": {
+    "pause": "Пауза",
+    "start": "Начинать"
+  },
+  "ProfitMarginCalculator": {
+    "financialDetails": "Финансовые детали",
+    "profitability": "Рентабельность"
+  },
+  "QrCodeGenerator": {
+    "contentSettings": "Контент и настройки",
+    "enterURLOrTextToEncode": "Введите URL-адрес или текст для кодирования...",
+    "generatedQRCode": "Сгенерированный QR-код"
+  },
+  "RandomNumberGenerator": {
+    "rangeSettings": "Настройки диапазона"
+  },
+  "RatioCalculator": {},
+  "RoiCalculator": {
+    "investmentDetails": "Детали инвестиций",
+    "returnOnInvestment": "Возврат инвестиций"
+  },
+  "RomanNumeralConverter": {},
+  "RunningDistanceCalculator": {
+    "enterPaceAndTimeToCalcula": "Введите темп и время для расчета расстояния"
+  },
+  "SalaryCalculator": {
+    "incomeDetails": "Детали дохода",
+    "salaryBreakdown": "Распределение зарплат",
+    "enterYourIncomeDetailsToS": "Введите данные о своем доходе, чтобы увидеть разбивку"
+  },
+  "SalaryToHourlyCalculator": {
+    "salaryDetails": "Подробности о зарплате",
+    "equivalentWage": "Эквивалентная заработная плата"
+  },
+  "Sha1Generator": {},
+  "Sha256Generator": {},
+  "SimpleInterestCalculator": {
+    "interestDetails": "Детали интересов",
+    "growthBreakdown": "Структура роста"
+  },
+  "SleepCalculator": {
+    "recommended": "Рекомендуется",
+    "enterWakeTimeToCalculateS": "Введите время пробуждения, чтобы рассчитать циклы сна"
+  },
+  "SpeedConverter": {},
+  "SpeedDistanceTimeCalculator": {
+    "enterTheKnownValuesToCalc": "Введите известные значения для расчета"
+  },
+  "SqlFormatter": {},
+  "SquareFootageCalculator": {},
+  "StepCalculator": {},
+  "Stopwatch": {
+    "laps": "Круги",
+    "noLapsRecordedYet": "Кругов еще не записано"
+  },
+  "TaxCalculator": {
+    "taxDetails": "Налоговые данные",
+    "priceBreakdown": "Распределение цен"
+  },
+  "TemperatureConverter": {},
+  "TileCalculator": {},
+  "TimeDifferenceCalculator": {
+    "selectTimesToCompare": "Выберите время для сравнения"
+  },
+  "TimeDurationCalculator": {
+    "durationResult": "Результат продолжительности",
+    "selectStartAndEndTimes": "Выберите время начала и окончания"
+  },
+  "TimeZoneConverter": {
+    "conversionResult": "Результат преобразования",
+    "selectDateAndTimeZonesTo": "Выберите дату и часовые пояса для конвертации"
+  },
+  "TipCalculator": {
+    "billDetails": "Детали счета",
+    "totalBreakdown": "Общая разбивка"
+  },
+  "UnixTimestampConverter": {
+    "result": "Результат",
+    "eG1700000000": "например 1700000000"
+  },
+  "UrlEncodeDecode": {
+    "mode": "Режим:"
+  },
+  "UuidGenerator": {
+    "clickGenerateToCreateUUI": "Нажмите «Создать», чтобы создать UUID..."
+  },
+  "VolumeConverter": {},
+  "WakeUpTimeCalculator": {
+    "readyForBed": "Готовы ко сну?",
+    "recommended": "Рекомендуется",
+    "clickTheButtonWhenYouReG": "Нажмите кнопку, когда ложитесь спать"
+  },
+  "WaterIntakeCalculator": {
+    "or": "или",
+    "enterYourDetailsToCalculat": "Введите свои данные для расчета потребления воды"
+  },
+  "WeeksBetweenDates": {
+    "result": "Результат",
+    "selectDatesToCalculate": "Выберите даты для расчета"
+  },
+  "WeightConverter": {},
+  "WordCounter": {
+    "startTypingOrPasteYourTex": "Начните вводить или вставьте сюда свой текст..."
+  },
+  "WorkHoursCalculator": {
+    "hoursLog": "Журнал часов",
+    "enterScheduleToCalculateHo": "Введите расписание для расчета часов"
+  },
+  "WorldTimeConverter": {},
+  "XmlFormatter": {},
+  "button": {},
+  "card": {},
+  "CategoryCard": {
+    "tools": "инструменты",
+    "viewAllTools": "Посмотреть все инструменты"
+  },
+  "input": {},
+  "label": {},
+  "textarea": {},
+  "ToolCard": {},
+  "editor": {
+    "copy": "Копировать"
+  },
+  "layout": {},
+  "panels": {},
+  "Page": {
+    "whatIs": "Что такое {title}?",
+    "howToUse": "Как использовать {title}",
+    "example": "Пример",
+    "useCases": "Общие случаи использования",
+    "howItWorks": "Как это работает",
+    "faq": "Часто задаваемые вопросы",
+    "readyToStart": "Готовы начать?",
+    "useToolNow": "Использовать инструмент сейчас"
+  },
+  "Categories": {
+    "developerTools": "Инструменты разработчика",
+    "finance": "Финансы",
+    "time": "Дата и время",
+    "text": "Текстовые инструменты",
+    "converters": "Конвертеры"
+  },
+  "About": {
+    "title": "About Us & Methodology",
+    "description": "Welcome to 100 Tools, your free resource for premium online calculators and developer utilities.",
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is to provide fast, reliable, and privacy-respecting tools for everyday tasks. Whether you're a developer needing to encode a JWT, a homeowner calculating mulch volume, or just trying to figure out a discount, we've built a robust tool for you.",
+    "methodologyTitle": "Our Methodology",
+    "methodologyIntro": "We believe in transparency and accuracy, particularly for financial and health-related tools (Your Money or Your Life topics). Here is how we ensure our tools are reliable:",
+    "standardizedFormulasTitle": "Standardized Formulas",
+    "standardizedFormulasText": "All financial calculators (like ROI, Mortgages, and Loans) use industry-standard amortization and compound interest formulas.",
+    "medicalGuidelinesTitle": "Medical Guidelines",
+    "medicalGuidelinesText": "Health calculators (like BMI and BMR) use globally recognized equations, such as the Mifflin-St Jeor Equation for metabolic rate, and the standard WHO classifications for BMI.",
+    "privacyFirstTitle": "Privacy First",
+    "privacyFirstText": "Your data never leaves your browser. All calculations, hashing, and conversions happen locally on your device via JavaScript. We do not store or transmit your inputs.",
+    "continuousTestingTitle": "Continuous Testing",
+    "continuousTestingText": "Our toolkit is rigorously tested to ensure edge cases (like zero values or invalid inputs) are handled gracefully without crashing.",
+    "editorialGuidelinesTitle": "Editorial Guidelines",
+    "editorialGuidelinesText": "Every tool page is designed to be self-explanatory. We prioritize usability and clear instructions over cluttered interfaces. If an equation has limitations (like the Navy Body Fat method being an estimation), we clearly note it on the tool page.",
+    "disclaimer": "Disclaimer: The tools and calculators on this website are for informational and educational purposes only. They do not constitute professional financial or medical advice. Always consult with a qualified professional before making significant health or financial decisions."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you. Whether you have a question, a feature request, or found a bug, let us know!",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "Send Message",
+    "emailUs": "Email Us",
+    "emailAddress": "contact@100tools.example.com",
+    "responseTime": "We typically respond within 24-48 hours.",
+    "successMessage": "Thank you! Your message has been sent.",
+    "errorMessage": "Something went wrong. Please try again later."
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "At 100 Tools, your privacy is our top priority. This Privacy Policy outlines how we handle (and explicitly do NOT handle) your personal data.",
+    "dataCollectionTitle": "No Data Collection",
+    "dataCollectionText": "We do not collect, store, or transmit any personal data when you use our calculators and tools. All computations—including formatting, decoding, and calculating—are performed strictly locally within your browser using JavaScript.",
+    "analyticsTitle": "Analytics & Tracking",
+    "analyticsText": "We may use privacy-friendly, anonymized analytics to understand general traffic patterns (like which tools are most popular). This data cannot be traced back to individual users and does not use intrusive tracking cookies.",
+    "thirdPartyTitle": "Third-Party Services",
+    "thirdPartyText": "Our website is hosted on modern edge networks. These infrastructure providers may log basic connection data (like IP addresses) for security and anti-DDoS purposes, which is standard practice for any website.",
+    "contactUs": "If you have any questions about this Privacy Policy, please contact us."
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "By accessing and using 100 Tools, you agree to comply with and be bound by the following terms and conditions of use.",
+    "noWarrantyTitle": "No Warranties (As-Is)",
+    "noWarrantyText": "All tools, calculators, and information on this website are provided \"as-is\" without any representations or warranties, express or implied. We make no guarantees regarding the accuracy, reliability, or completeness of the results generated.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityText": "In no event shall 100 Tools be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever arising out of or in connection with the use of our tools. This includes financial losses or medical decisions made based on our calculators.",
+    "acceptableUseTitle": "Acceptable Use",
+    "acceptableUseText": "You agree to use our tools for lawful purposes only. You must not attempt to scrape, DDoS, or otherwise disrupt the service or networks connected to 100 Tools.",
+    "modificationsTitle": "Modifications",
+    "modificationsText": "We reserve the right to revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then-current version of these terms."
+  },
+  "Cookie": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last Updated: September 29, 2026",
+    "intro": "This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, or the information we collect using cookies and how that information is used.",
+    "whatAreCookiesTitle": "What are Cookies?",
+    "whatAreCookiesText": "Cookies are small text files that are placed on your computer or mobile device by websites that you visit. They are widely used to make websites work, or work more efficiently, as well as to provide reporting information.",
+    "howWeUseCookiesTitle": "How We Use Cookies",
+    "howWeUseCookiesText": "We use cookies strictly for essential functionality and basic user preferences. For example, we might use local storage or a cookie to remember if you prefer \"Dark Mode\" or \"Light Mode\", or to remember your preferred language.",
+    "noTrackingTitle": "No Invasive Tracking",
+    "noTrackingText": "We do not use advertising cookies, third-party trackers, or cross-site tracking technologies. Your use of our tools remains private.",
+    "managingCookiesTitle": "Managing Cookies",
+    "managingCookiesText": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed."
+  }
+}

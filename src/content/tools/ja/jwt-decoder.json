@@ -1,0 +1,55 @@
+{
+  "seoTitle": "JWT デコーダ",
+  "metaDescription": "無料のオンライン JWT デコーダ。 JSON Web トークンをデコードします。",
+  "h1": "JWT デコーダ",
+  "primaryKeyword": "jwtデコーダ",
+  "secondaryKeywords": [
+    "jwtデコーダーオンライン",
+    "無料のjwtデコーダ",
+    "最高のJWTデコーダー"
+  ],
+  "slug": "jwt-デコーダー",
+  "intro": "無料のオンライン JWT Decoder ツールを使用してください。 入力に基づいて JSON Web トークンを解析します。",
+  "whatIs": "JWT Decoder は、JSON Web トークンを解析するオンライン ユーティリティです。 JWT 文字列を処理し、読み取り可能な JSON クレームを提供します。",
+  "howToUse": [
+    "指定された入力フィールドに JWT 文字列を入力します。",
+    "デコードされたヘッダー/ペイロードなどの二次パラメーターを指定します。",
+    "[計算] または [送信] ボタンをクリックして、読み取り可能な JSON クレームを生成します。",
+    "必要に応じて、結果の出力をコピーまたは確認します。"
+  ],
+  "howItWorks": "このツールは、標準アルゴリズムを JWT 文字列に適用することにより、ブラウザーで動作します。 データを即座に処理して、読み取り可能な JSON クレームを出力します。",
+  "workedExample": "例: 標準の Base64Url クレームを `{ \"sub\": \"123\" }` にデコードします。",
+  "resultInterpretation": "結果は、読み取り可能な JSON クレームを表します。 このデータは、特定の計算や書式設定のニーズに使用できます。",
+  "useCases": [
+    "認証のデバッグ",
+    "トークンの有効期限の確認",
+    "外出先での JWT 文字列の迅速な処理"
+  ],
+  "tipsAndLimitations": [
+    "デコードでは署名は検証されません。 デコードされたデータを盲目的に信頼しないでください。",
+    "最良の結果を得るために、入力が正しくフォーマットされていることを確認してください。",
+    "このツールは完全にクライアント側で実行され、データのプライバシーが確保されます。"
+  ],
+  "faq": [
+    {
+      "question": "Can I edit the JWT?",
+      "answer": "You can, but it will invalidate the cryptographic signature."
+    },
+    {
+      "question": "Is the JWT Decoder free to use?",
+      "answer": "Yes, our JWT Decoder is completely free and requires no registration."
+    },
+    {
+      "question": "Does this work on mobile devices?",
+      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+    }
+  ],
+  "relatedTools": [
+    "json フォーマッタ",
+    "Base64 エンコード デコード",
+    "URLエンコード-デコード"
+  ],
+  "lastReviewed": "2026-09-29",
+  "imageAlt": "JWT デコーダー インターフェイスのスクリーンショット",
+  "ogImageText": "JWT デコーダ"
+}
