@@ -18,6 +18,10 @@ import { ConsentBanner } from "@/components/ads/ConsentBanner";
 export const metadata: Metadata = {
   title: "Aftara Tools",
   description: "Simple tools for everyday tasks",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export function generateStaticParams() {

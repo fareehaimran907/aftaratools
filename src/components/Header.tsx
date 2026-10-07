@@ -13,9 +13,11 @@ export function Header() {
       <div className="container max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-8">
           <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center text-primary-foreground group-hover:scale-105 transition-transform">
-              <Wrench size={18} strokeWidth={2.5} />
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="Aftara Tools Logo" 
+              className="w-10 h-10 object-contain group-hover:scale-105 transition-transform" 
+            />
             <span className="text-xl font-bold tracking-tight text-foreground group-hover:opacity-80 transition-opacity">
               Aftara Tools
             </span>
