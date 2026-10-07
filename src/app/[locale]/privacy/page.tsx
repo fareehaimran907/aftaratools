@@ -1,16 +1,24 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Shield, EyeOff, Server, HardDrive } from "lucide-react";
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Privacy" });
   return {
-    title: `${t("title")} - 100 Tools`,
-    description: t("intro")
+    title: `${t("title")} - Aftara Tools`,
+    description: t("intro"),
   };
 }
 
-export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function PrivacyPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("Privacy");
@@ -39,7 +47,9 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
               <EyeOff className="w-8 h-8" />
             </div>
             <div>
-              <h2 className="text-2xl font-bold text-foreground mb-3">{t("dataCollectionTitle")}</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-3">
+                {t("dataCollectionTitle")}
+              </h2>
               <p className="text-muted-foreground leading-relaxed text-lg">
                 {t("dataCollectionText")}
               </p>
@@ -51,7 +61,9 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
               <Server className="w-8 h-8" />
             </div>
             <div>
-              <h2 className="text-2xl font-bold text-foreground mb-3">{t("analyticsTitle")}</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-3">
+                {t("analyticsTitle")}
+              </h2>
               <p className="text-muted-foreground leading-relaxed text-lg">
                 {t("analyticsText")}
               </p>
@@ -63,12 +75,16 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
               <HardDrive className="w-8 h-8" />
             </div>
             <div>
-              <h2 className="text-2xl font-bold text-foreground mb-3">{t("thirdPartyTitle")}</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-3">
+                {t("thirdPartyTitle")}
+              </h2>
               <p className="text-muted-foreground leading-relaxed text-lg">
                 {t("thirdPartyText")}
               </p>
-              
-              <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">{t("optOutTitle")}</h3>
+
+              <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">
+                {t("optOutTitle")}
+              </h3>
               <p className="text-muted-foreground leading-relaxed">
                 {t("optOutText")}
               </p>
@@ -80,17 +96,23 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
               <Shield className="w-8 h-8" />
             </div>
             <div>
-              <h2 className="text-2xl font-bold text-foreground mb-3">{t("userRightsTitle")}</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-3">
+                {t("userRightsTitle")}
+              </h2>
               <p className="text-muted-foreground leading-relaxed text-lg">
                 {t("userRightsText")}
               </p>
-              
-              <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">{t("childrenTitle")}</h3>
+
+              <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">
+                {t("childrenTitle")}
+              </h3>
               <p className="text-muted-foreground leading-relaxed">
                 {t("childrenText")}
               </p>
-              
-              <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">{t("dataRetentionTitle")}</h3>
+
+              <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">
+                {t("dataRetentionTitle")}
+              </h3>
               <p className="text-muted-foreground leading-relaxed">
                 {t("dataRetentionText")}
               </p>
@@ -99,9 +121,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
         </div>
 
         <div className="mt-16 pt-8 border-t border-border/50 text-center">
-          <p className="text-muted-foreground">
-            {t("contactUs")}
-          </p>
+          <p className="text-muted-foreground">{t("contactUs")}</p>
         </div>
       </div>
     </main>

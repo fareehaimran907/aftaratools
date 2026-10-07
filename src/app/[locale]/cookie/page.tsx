@@ -1,16 +1,24 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Cookie, Info, Lock, Settings2 } from "lucide-react";
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Cookie" });
   return {
-    title: `${t("title")} - 100 Tools`,
-    description: t("intro")
+    title: `${t("title")} - Aftara Tools`,
+    description: t("intro"),
   };
 }
 
-export default async function CookiePage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function CookiePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("Cookie");
@@ -39,7 +47,9 @@ export default async function CookiePage({ params }: { params: Promise<{ locale:
               <div className="p-3 bg-blue-500/10 text-blue-600 dark:text-blue-400 rounded-2xl">
                 <Info className="w-6 h-6" />
               </div>
-              <h2 className="text-2xl font-bold text-foreground">{t("whatAreCookiesTitle")}</h2>
+              <h2 className="text-2xl font-bold text-foreground">
+                {t("whatAreCookiesTitle")}
+              </h2>
             </div>
             <p className="text-muted-foreground leading-relaxed">
               {t("whatAreCookiesText")}
@@ -51,7 +61,9 @@ export default async function CookiePage({ params }: { params: Promise<{ locale:
               <div className="p-3 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 rounded-2xl">
                 <Settings2 className="w-6 h-6" />
               </div>
-              <h2 className="text-2xl font-bold text-foreground">{t("howWeUseCookiesTitle")}</h2>
+              <h2 className="text-2xl font-bold text-foreground">
+                {t("howWeUseCookiesTitle")}
+              </h2>
             </div>
             <p className="text-muted-foreground leading-relaxed">
               {t("howWeUseCookiesText")}
@@ -63,7 +75,9 @@ export default async function CookiePage({ params }: { params: Promise<{ locale:
               <div className="p-3 bg-purple-500/10 text-purple-600 dark:text-purple-400 rounded-2xl">
                 <Lock className="w-6 h-6" />
               </div>
-              <h2 className="text-2xl font-bold text-foreground">{t("noTrackingTitle")}</h2>
+              <h2 className="text-2xl font-bold text-foreground">
+                {t("noTrackingTitle")}
+              </h2>
             </div>
             <p className="text-muted-foreground leading-relaxed text-lg">
               {t("noTrackingText")}
@@ -72,10 +86,10 @@ export default async function CookiePage({ params }: { params: Promise<{ locale:
         </div>
 
         <div className="mt-12 bg-muted/30 border border-border/50 rounded-2xl p-8 text-center">
-          <h2 className="text-xl font-bold text-foreground mb-3">{t("managingCookiesTitle")}</h2>
-          <p className="text-muted-foreground">
-            {t("managingCookiesText")}
-          </p>
+          <h2 className="text-xl font-bold text-foreground mb-3">
+            {t("managingCookiesTitle")}
+          </h2>
+          <p className="text-muted-foreground">{t("managingCookiesText")}</p>
         </div>
       </div>
     </main>

@@ -3,7 +3,7 @@ import { toolsRegistry } from "@/lib/tools/registry";
 import { categoriesRegistry } from "@/lib/tools/categories";
 import { routing } from "@/i18n/routing";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://example.com";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aftaratools.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];

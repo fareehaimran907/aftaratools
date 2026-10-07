@@ -13,7 +13,7 @@ import Script from 'next/script';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Home' });
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aftaratools.com';
   const localePrefix = locale === 'en' ? '' : `/${locale}`;
   const currentUrl = `${baseUrl}${localePrefix}`;
 
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title: t('metaTitle'),
       description: t('metaDescription'),
       url: currentUrl,
-      siteName: 'Antigravity Tools',
+      siteName: 'Aftara Tools',
       locale: locale,
       type: 'website',
     },
@@ -103,14 +103,14 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     popularTools.push(...moreTools);
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aftaratools.com';
   const currentUrl = `${baseUrl}${locale === 'en' ? '' : `/${locale}`}`;
 
   // Structured Data
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Antigravity Tools",
+    "name": "Aftara Tools",
     "url": baseUrl,
     "potentialAction": {
       "@type": "SearchAction",
@@ -122,7 +122,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Antigravity Tools",
+    "name": "Aftara Tools",
     "url": baseUrl,
     "logo": `${baseUrl}/logo.png`
   };

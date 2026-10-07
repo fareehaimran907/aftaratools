@@ -57,7 +57,7 @@ export async function generateMetadata({
     );
     if (fs.existsSync(checkPath)) {
       alternates[l] =
-        `${process.env.NEXT_PUBLIC_SITE_URL || "https://example.com"}${localePrefix}${s}`;
+        `${process.env.NEXT_PUBLIC_SITE_URL || "https://aftaratools.com"}${localePrefix}${s}`;
     }
   }
   if (alternates["en"]) {
@@ -105,7 +105,7 @@ export async function generateMetadata({
       description: seoDescription,
       url: canonicalUrl,
       type: "website",
-      siteName: "100 Tools",
+      siteName: "Aftara Tools",
       locale: locale,
     },
     twitter: {
@@ -1075,7 +1075,7 @@ export default async function ToolPage({
       (enContent as any)?.benefits,
   };
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://example.com";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aftaratools.com";
   const localePrefix = locale === "en" ? "" : `/${locale}`;
   const pathnames = routing.pathnames as Record<string, any>;
   const pathKey = `/${toolEntry.id}`;

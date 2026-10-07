@@ -17,14 +17,34 @@ export function Header() {
               <Wrench size={18} strokeWidth={2.5} />
             </div>
             <span className="text-xl font-bold tracking-tight text-foreground group-hover:opacity-80 transition-opacity">
-              100 Tools
+              Aftara Tools
             </span>
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-            <Link href="/" className="text-secondary-foreground hover:text-primary transition-colors">{t("home")}</Link>
-            <Link href={"/category/developer-tools" as any} className="text-secondary-foreground hover:text-primary transition-colors">{tCat("developerTools") || "Developer Tools"}</Link>
-            <Link href={"/category/finance" as any} className="text-secondary-foreground hover:text-primary transition-colors">{tCat("finance") || "Finance"}</Link>
-            <Link href={"/category/date-time" as any} className="text-secondary-foreground hover:text-primary transition-colors">{tCat("time") || "Time"}</Link>
+            <Link
+              href="/"
+              className="text-secondary-foreground hover:text-primary transition-colors"
+            >
+              {t("home")}
+            </Link>
+            <Link
+              href={"/category/developer-tools" as any}
+              className="text-secondary-foreground hover:text-primary transition-colors"
+            >
+              {tCat("developerTools") || "Developer Tools"}
+            </Link>
+            <Link
+              href={"/category/finance" as any}
+              className="text-secondary-foreground hover:text-primary transition-colors"
+            >
+              {tCat("finance") || "Finance"}
+            </Link>
+            <Link
+              href={"/category/date-time" as any}
+              className="text-secondary-foreground hover:text-primary transition-colors"
+            >
+              {tCat("time") || "Time"}
+            </Link>
           </nav>
         </div>
         <div className="flex items-center gap-3">

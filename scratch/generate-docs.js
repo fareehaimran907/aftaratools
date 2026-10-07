@@ -1,24 +1,28 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const registryContent = fs.readFileSync('src/lib/tools/registry.ts', 'utf8');
+const registryContent = fs.readFileSync("src/lib/tools/registry.ts", "utf8");
 
 // Parse registry
-const toolsMatches = [...registryContent.matchAll(/"?([^"]+)"?:\s*{\s*id:\s*"([^"]+)",\s*categoryId:\s*"([^"]+)",/g)];
-const tools = toolsMatches.map(m => ({
+const toolsMatches = [
+  ...registryContent.matchAll(
+    /"?([^"]+)"?:\s*{\s*id:\s*"([^"]+)",\s*categoryId:\s*"([^"]+)",/g,
+  ),
+];
+const tools = toolsMatches.map((m) => ({
   id: m[2],
   categoryId: m[3],
 }));
 
 const categories = [
-  { id: 'date-time', title: 'Date & Time' },
-  { id: 'finance', title: 'Finance' },
-  { id: 'developer-tools', title: 'Developer Tools' },
-  { id: 'converters', title: 'Converters' },
-  { id: 'education', title: 'Education' },
-  { id: 'health', title: 'Health' },
-  { id: 'home', title: 'Home' },
-  { id: 'text', title: 'Text Tools' }
+  { id: "date-time", title: "Date & Time" },
+  { id: "finance", title: "Finance" },
+  { id: "developer-tools", title: "Developer Tools" },
+  { id: "converters", title: "Converters" },
+  { id: "education", title: "Education" },
+  { id: "health", title: "Health" },
+  { id: "home", title: "Home" },
+  { id: "text", title: "Text Tools" },
 ];
 
 let md = `# Project Documentation\n\n`;
@@ -92,9 +96,9 @@ The design features a modern SaaS aesthetic with glassmorphism accents.
 ## 10. Categories
 | Category | Description | Route |
 | --- | --- | --- |
-${categories.map(c => `| ${c.title} | Tools for ${c.title} | \`/category/${c.id}\` |`).join('\n')}
+${categories.map((c) => `| ${c.title} | Tools for ${c.title} | \`/category/${c.id}\` |`).join("\n")}
 
-## 11. All 100 Tools
+## 11. All Aftara Tools
 | # | Tool ID | Category |
 | - | ------- | -------- |
 `;
@@ -172,5 +176,5 @@ All 100 tools marked as UI Complete, Functionality Complete, and SEO Complete.
 The Antigravity Tool Website is a highly optimized, fully localized, premium utility platform. It successfully leverages Next.js App Router for optimal SEO while maintaining snappy, client-side execution for 100+ calculators and utilities.
 `;
 
-fs.writeFileSync('Project_Documentation.md', md);
-console.log('Documentation generated successfully.');
+fs.writeFileSync("Project_Documentation.md", md);
+console.log("Documentation generated successfully.");

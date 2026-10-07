@@ -1,4 +1,4 @@
-# 100 Tools Platform
+# Aftara Tools Platform
 
 A fast, fully localized, highly-SEO-optimized platform hosting 100 free online tools.
 
@@ -13,7 +13,8 @@ A fast, fully localized, highly-SEO-optimized platform hosting 100 free online t
 
 ## Project Status
 
-**100 / 100 Tools Implemented:**
+**100 / Aftara Tools Implemented:**
+
 - Date & Time (21)
 - Finance (20)
 - Unit Converters (13)
@@ -46,6 +47,7 @@ npm run start
 ## Localization
 
 Translations are split into:
+
 - Core UI elements (`messages/en.json`, `messages/es.json`, etc.)
 - Tool specific metadata and introductory SEO content (stored directly in `src/lib/tools/registry.ts`).
 

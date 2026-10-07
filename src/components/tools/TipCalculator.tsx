@@ -107,12 +107,12 @@ export function TipCalculator() {
                   {tipOptions.map((tip) => (
                     <Button
                       key={tip}
-                      variant={parseFloat(tipPercentage) === tip ? "default" : "outline"}
+                      variant="outline"
                       onClick={() => setTipPercentage(tip.toString())}
-                      className={`flex-1 min-w-[3rem] ${
+                      className={`flex-1 min-w-[3rem] transition-colors ${
                         parseFloat(tipPercentage) === tip 
-                          ? "bg-emerald-600 hover:bg-emerald-700 text-white" 
-                          : "border-slate-200 dark:border-slate-700 hover:border-emerald-500 hover:text-emerald-600 dark:hover:text-emerald-400"
+                          ? "!bg-emerald-600 hover:!bg-emerald-700 !text-white !border-emerald-600" 
+                          : "border-slate-200 dark:border-slate-700 hover:border-emerald-500 hover:text-emerald-600 dark:hover:border-emerald-500 dark:hover:text-emerald-400"
                       }`}
                     >
                       {tip}%
@@ -159,7 +159,7 @@ export function TipCalculator() {
           </Card>
 
           <div className="md:col-span-6 space-y-6">
-            <Card className="bg-emerald-600 dark:bg-slate-800 p-6 md:p-8 rounded-3xl shadow-xl shadow-slate-200/50 dark:shadow-none border-0 overflow-hidden relative text-white">
+            <div className="bg-emerald-600 dark:bg-slate-800 p-6 md:p-8 rounded-3xl shadow-xl shadow-slate-200/50 dark:shadow-none border-0 overflow-hidden relative text-white">
               
               <div className="absolute top-0 right-0 p-32 bg-emerald-500 dark:bg-emerald-900/20 rounded-full -mr-16 -mt-16 opacity-50 blur-3xl pointer-events-none"></div>
 
@@ -215,7 +215,7 @@ export function TipCalculator() {
                   </div>
                 )}
               </div>
-            </Card>
+            </div>
           </div>
 
         </div>

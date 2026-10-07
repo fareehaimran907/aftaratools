@@ -1,16 +1,31 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
-import { Info, Target, ShieldCheck, Activity, BookOpen, Scale } from "lucide-react";
+import {
+  Info,
+  Target,
+  ShieldCheck,
+  Activity,
+  BookOpen,
+  Scale,
+} from "lucide-react";
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "About" });
   return {
-    title: `${t("title")} - 100 Tools`,
-    description: t("description")
+    title: `${t("title")} - Aftara Tools`,
+    description: t("description"),
   };
 }
 
-export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function AboutPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("About");
@@ -19,23 +34,23 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
     {
       title: t("standardizedFormulasTitle"),
       text: t("standardizedFormulasText"),
-      icon: <Scale className="w-8 h-8 text-blue-500 mb-4" />
+      icon: <Scale className="w-8 h-8 text-blue-500 mb-4" />,
     },
     {
       title: t("medicalGuidelinesTitle"),
       text: t("medicalGuidelinesText"),
-      icon: <Activity className="w-8 h-8 text-rose-500 mb-4" />
+      icon: <Activity className="w-8 h-8 text-rose-500 mb-4" />,
     },
     {
       title: t("privacyFirstTitle"),
       text: t("privacyFirstText"),
-      icon: <ShieldCheck className="w-8 h-8 text-emerald-500 mb-4" />
+      icon: <ShieldCheck className="w-8 h-8 text-emerald-500 mb-4" />,
     },
     {
       title: t("continuousTestingTitle"),
       text: t("continuousTestingText"),
-      icon: <Target className="w-8 h-8 text-purple-500 mb-4" />
-    }
+      icon: <Target className="w-8 h-8 text-purple-500 mb-4" />,
+    },
   ];
 
   return (
@@ -71,18 +86,29 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
 
           <section>
             <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold text-foreground mb-4">{t("methodologyTitle")}</h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto">{t("methodologyIntro")}</p>
+              <h2 className="text-3xl font-bold text-foreground mb-4">
+                {t("methodologyTitle")}
+              </h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                {t("methodologyIntro")}
+              </p>
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {cards.map((card, idx) => (
-                <div key={idx} className="bg-card border border-border/50 rounded-2xl p-6 sm:p-8 hover:shadow-md transition-all duration-300 hover:border-border group">
+                <div
+                  key={idx}
+                  className="bg-card border border-border/50 rounded-2xl p-6 sm:p-8 hover:shadow-md transition-all duration-300 hover:border-border group"
+                >
                   <div className="transform group-hover:scale-110 transition-transform duration-300 origin-left">
                     {card.icon}
                   </div>
-                  <h3 className="text-xl font-semibold text-foreground mb-3">{card.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{card.text}</p>
+                  <h3 className="text-xl font-semibold text-foreground mb-3">
+                    {card.title}
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    {card.text}
+                  </p>
                 </div>
               ))}
             </div>

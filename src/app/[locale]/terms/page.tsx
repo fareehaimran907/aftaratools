@@ -1,16 +1,24 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { FileText, AlertTriangle, Scale, Settings } from "lucide-react";
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Terms" });
   return {
-    title: `${t("title")} - 100 Tools`,
-    description: t("intro")
+    title: `${t("title")} - Aftara Tools`,
+    description: t("intro"),
   };
 }
 
-export default async function TermsPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function TermsPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("Terms");
@@ -37,7 +45,9 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
               <div className="p-3 bg-orange-500/10 text-orange-600 dark:text-orange-400 rounded-xl">
                 <AlertTriangle className="w-6 h-6" />
               </div>
-              <h2 className="text-2xl font-bold text-foreground">{t("noWarrantyTitle")}</h2>
+              <h2 className="text-2xl font-bold text-foreground">
+                {t("noWarrantyTitle")}
+              </h2>
             </div>
             <p className="text-muted-foreground leading-relaxed text-lg ml-2 lg:ml-16">
               {t("noWarrantyText")}
@@ -49,7 +59,9 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
               <div className="p-3 bg-red-500/10 text-red-600 dark:text-red-400 rounded-xl">
                 <Scale className="w-6 h-6" />
               </div>
-              <h2 className="text-2xl font-bold text-foreground">{t("liabilityTitle")}</h2>
+              <h2 className="text-2xl font-bold text-foreground">
+                {t("liabilityTitle")}
+              </h2>
             </div>
             <p className="text-muted-foreground leading-relaxed text-lg ml-2 lg:ml-16">
               {t("liabilityText")}
@@ -61,7 +73,9 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
               <div className="p-3 bg-green-500/10 text-green-600 dark:text-green-400 rounded-xl">
                 <ShieldCheckIcon className="w-6 h-6" />
               </div>
-              <h2 className="text-2xl font-bold text-foreground">{t("acceptableUseTitle")}</h2>
+              <h2 className="text-2xl font-bold text-foreground">
+                {t("acceptableUseTitle")}
+              </h2>
             </div>
             <p className="text-muted-foreground leading-relaxed text-lg ml-2 lg:ml-16">
               {t("acceptableUseText")}
@@ -73,7 +87,9 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
               <div className="p-3 bg-blue-500/10 text-blue-600 dark:text-blue-400 rounded-xl">
                 <Settings className="w-6 h-6" />
               </div>
-              <h2 className="text-2xl font-bold text-foreground">{t("modificationsTitle")}</h2>
+              <h2 className="text-2xl font-bold text-foreground">
+                {t("modificationsTitle")}
+              </h2>
             </div>
             <p className="text-muted-foreground leading-relaxed text-lg ml-2 lg:ml-16">
               {t("modificationsText")}
@@ -102,5 +118,5 @@ function ShieldCheckIcon(props: any) {
       <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
       <path d="m9 12 2 2 4-4" />
     </svg>
-  )
+  );
 }

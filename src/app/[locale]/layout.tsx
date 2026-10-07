@@ -16,8 +16,8 @@ import { AdSenseLoader } from "@/components/ads/AdSenseLoader";
 import { ConsentBanner } from "@/components/ads/ConsentBanner";
 
 export const metadata: Metadata = {
-  title: "100 Tools",
-  description: "Multilingual 100-Tool Website",
+  title: "Aftara Tools",
+  description: "Simple tools for everyday tasks",
 };
 
 export function generateStaticParams() {

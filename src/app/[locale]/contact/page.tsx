@@ -1,16 +1,24 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Mail, MessageSquare, Send } from "lucide-react";
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Contact" });
   return {
-    title: `${t("title")} - 100 Tools`,
-    description: t("description")
+    title: `${t("title")} - Aftara Tools`,
+    description: t("description"),
   };
 }
 
-export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function ContactPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("Contact");
@@ -38,47 +46,67 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           <form className="space-y-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="space-y-2">
-                <label htmlFor="name" className="text-sm font-medium text-foreground">{t("formName")}</label>
-                <input 
-                  type="text" 
-                  id="name" 
+                <label
+                  htmlFor="name"
+                  className="text-sm font-medium text-foreground"
+                >
+                  {t("formName")}
+                </label>
+                <input
+                  type="text"
+                  id="name"
                   className="w-full bg-background border border-input rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                   placeholder={t("formNamePlaceholder")}
                 />
               </div>
               <div className="space-y-2">
-                <label htmlFor="email" className="text-sm font-medium text-foreground">{t("formEmail")}</label>
-                <input 
-                  type="email" 
-                  id="email" 
+                <label
+                  htmlFor="email"
+                  className="text-sm font-medium text-foreground"
+                >
+                  {t("formEmail")}
+                </label>
+                <input
+                  type="email"
+                  id="email"
                   className="w-full bg-background border border-input rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                   placeholder={t("formEmailPlaceholder")}
                 />
               </div>
             </div>
-            
+
             <div className="space-y-2">
-              <label htmlFor="subject" className="text-sm font-medium text-foreground">{t("formSubject")}</label>
-              <input 
-                type="text" 
-                id="subject" 
+              <label
+                htmlFor="subject"
+                className="text-sm font-medium text-foreground"
+              >
+                {t("formSubject")}
+              </label>
+              <input
+                type="text"
+                id="subject"
                 className="w-full bg-background border border-input rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                 placeholder={t("formSubjectPlaceholder")}
               />
             </div>
 
             <div className="space-y-2">
-              <label htmlFor="message" className="text-sm font-medium text-foreground">{t("formMessage")}</label>
-              <textarea 
-                id="message" 
+              <label
+                htmlFor="message"
+                className="text-sm font-medium text-foreground"
+              >
+                {t("formMessage")}
+              </label>
+              <textarea
+                id="message"
                 rows={5}
                 className="w-full bg-background border border-input rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-y"
                 placeholder={t("formMessagePlaceholder")}
               ></textarea>
             </div>
 
-            <button 
-              type="button" 
+            <button
+              type="button"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground font-semibold rounded-xl px-8 py-3.5 hover:bg-primary/90 transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:outline-none"
             >
               <Send className="w-5 h-5" />
@@ -93,13 +121,18 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
               <Mail className="w-6 h-6" />
             </div>
             <div>
-              <h3 className="font-semibold text-foreground mb-1">{t("emailUs")}</h3>
-              <a href="mailto:contact@100tools.example.com" className="text-primary hover:underline text-sm break-all">
+              <h3 className="font-semibold text-foreground mb-1">
+                {t("emailUs")}
+              </h3>
+              <a
+                href="mailto:aftaratech@gmail.com"
+                className="text-primary hover:underline text-sm break-all"
+              >
                 {t("emailAddress")}
               </a>
             </div>
           </div>
-          
+
           <div className="bg-card border border-border/50 rounded-2xl p-6 flex items-center justify-center sm:justify-start">
             <p className="text-muted-foreground text-sm leading-relaxed">
               {t("responseTime")}
