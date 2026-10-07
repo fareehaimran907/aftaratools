@@ -26,9 +26,11 @@ export function Footer() {
               href="/"
               className="flex items-center gap-2.5 mb-4 group inline-flex"
             >
-              <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-primary-foreground group-hover:scale-105 transition-transform">
-                <Wrench size={16} strokeWidth={2.5} />
-              </div>
+              <img 
+                src="/logo.png" 
+                alt="Aftara Tools Logo" 
+                className="w-8 h-8 object-contain group-hover:scale-105 transition-transform" 
+              />
               <span className="text-lg font-bold tracking-tight text-foreground group-hover:opacity-80 transition-opacity">
                 Aftara Tools
               </span>
