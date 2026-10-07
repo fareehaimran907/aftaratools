@@ -42,7 +42,7 @@ const translations = {
       formMessage: "메시지",
       formSubmit: "메시지 보내기",
       emailUs: "이메일 보내기",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "보통 24~48시간 내에 응답하는 것을 목표로 합니다.",
       successMessage:
         "메시지가 성공적으로 전송되었습니다! 곧 연락드리겠습니다.",
@@ -142,7 +142,7 @@ const translations = {
       formMessage: "Twoja Wiadomość",
       formSubmit: "Wyślij Wiadomość",
       emailUs: "Napisz do Nas",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "Staramy się odpowiadać w ciągu 24-48 godzin.",
       successMessage:
         "Twoja wiadomość została pomyślnie wysłana! Wkrótce się z Tobą skontaktujemy.",
@@ -242,7 +242,7 @@ const translations = {
       formMessage: "Sua Mensagem",
       formSubmit: "Enviar Mensagem",
       emailUs: "Envie-nos um E-mail",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "Buscamos responder dentro de 24 a 48 horas.",
       successMessage:
         "Sua mensagem foi enviada com sucesso! Entraremos em contato em breve.",
@@ -342,7 +342,7 @@ const translations = {
       formMessage: "Ваше Сообщение",
       formSubmit: "Отправить Сообщение",
       emailUs: "Напишите нам",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "Мы стараемся отвечать в течение 24-48 часов.",
       successMessage:
         "Ваше сообщение успешно отправлено! Мы свяжемся с вами в ближайшее время.",
@@ -442,7 +442,7 @@ const translations = {
       formMessage: "Mesajınız",
       formSubmit: "Mesajı Gönder",
       emailUs: "Bize e-posta gönderin",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "24-48 saat içinde yanıt vermeyi amaçlıyoruz.",
       successMessage:
         "Mesajınız başarıyla gönderildi! Yakında sizinle iletişime geçeceğiz.",

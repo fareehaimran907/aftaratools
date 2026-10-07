@@ -1326,7 +1326,7 @@ export default async function ToolPage({
                 </section>
               )}
 
-              {localeContent.howToUse && localeContent.howToUse.length > 0 && (
+              {localeContent.howToUse && (Array.isArray(localeContent.howToUse) ? localeContent.howToUse.length > 0 : true) && (
                 <section className="bg-surface border border-border p-8 rounded-2xl shadow-sm">
                   <h2 className="text-2xl font-bold mb-6 text-foreground tracking-tight">
                     {tPage("howToUse", {
@@ -1335,7 +1335,7 @@ export default async function ToolPage({
                     }) || `How to use the ${localeContent.title}`}
                   </h2>
                   <ol className="list-decimal pl-5 space-y-4 text-secondary-foreground marker:text-primary marker:font-medium">
-                    {localeContent.howToUse.map((step: string, idx: number) => (
+                    {(Array.isArray(localeContent.howToUse) ? localeContent.howToUse : [localeContent.howToUse]).map((step: string, idx: number) => (
                       <li key={idx} className="pl-3 leading-relaxed">
                         {step}
                       </li>
@@ -1367,13 +1367,13 @@ export default async function ToolPage({
                 </section>
               )}
 
-              {localeContent.useCases && localeContent.useCases.length > 0 && (
+              {localeContent.useCases && (Array.isArray(localeContent.useCases) ? localeContent.useCases.length > 0 : true) && (
                 <section className="bg-surface border border-border p-8 rounded-2xl shadow-sm">
                   <h2 className="text-2xl font-bold mb-6 text-foreground tracking-tight">
                     {tPage("useCases") || "Common Use Cases"}
                   </h2>
                   <ul className="space-y-4">
-                    {localeContent.useCases.map(
+                    {(Array.isArray(localeContent.useCases) ? localeContent.useCases : [localeContent.useCases]).map(
                       (useCase: string, idx: number) => (
                         <li key={idx} className="flex items-start gap-3">
                           <div
@@ -1423,7 +1423,7 @@ export default async function ToolPage({
               )}
 
               {localeContent.tipsAndLimitations &&
-                localeContent.tipsAndLimitations.length > 0 && (
+                (Array.isArray(localeContent.tipsAndLimitations) ? localeContent.tipsAndLimitations.length > 0 : true) && (
                   <section>
                     <details className="group bg-surface border border-border rounded-2xl shadow-sm overflow-hidden [&_summary::-webkit-details-marker]:hidden">
                       <summary className="flex cursor-pointer items-center justify-between p-6 text-lg font-bold text-foreground hover:bg-secondary/50 transition-colors">
@@ -1450,7 +1450,7 @@ export default async function ToolPage({
                       </summary>
                       <div className="px-6 pb-6 text-secondary-foreground leading-relaxed">
                         <ul className="pt-4 border-t border-border space-y-3">
-                          {localeContent.tipsAndLimitations.map(
+                          {(Array.isArray(localeContent.tipsAndLimitations) ? localeContent.tipsAndLimitations : [localeContent.tipsAndLimitations]).map(
                             (tip: string, idx: number) => (
                               <li key={idx} className="flex gap-2">
                                 <span className="text-primary mt-1">•</span>
@@ -1464,13 +1464,13 @@ export default async function ToolPage({
                   </section>
                 )}
 
-              {localeContent.faq && localeContent.faq.length > 0 && (
+              {localeContent.faq && (Array.isArray(localeContent.faq) ? localeContent.faq.length > 0 : true) && (
                 <section>
                   <h2 className="text-2xl font-bold mb-6 text-foreground tracking-tight">
                     {tPage("faq") || "Frequently Asked Questions"}
                   </h2>
                   <div className="space-y-4">
-                    {localeContent.faq.map((faqItem: any, idx: number) => (
+                    {(Array.isArray(localeContent.faq) ? localeContent.faq : [localeContent.faq]).map((faqItem: any, idx: number) => (
                       <details
                         key={idx}
                         className="group bg-surface border border-border rounded-2xl shadow-sm overflow-hidden [&_summary::-webkit-details-marker]:hidden"

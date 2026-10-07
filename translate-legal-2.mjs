@@ -41,7 +41,7 @@ const translations = {
       formMessage: "رسالتك",
       formSubmit: "إرسال رسالة",
       emailUs: "راسلنا عبر البريد الإلكتروني",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "نهدف للرد خلال 24-48 ساعة.",
       successMessage: "تم إرسال رسالتك بنجاح! سنتواصل معك قريبًا.",
       errorMessage:
@@ -139,7 +139,7 @@ const translations = {
       formMessage: "আপনার বার্তা",
       formSubmit: "বার্তা পাঠান",
       emailUs: "আমাদের ইমেল করুন",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "আমরা ২৪-৪৮ ঘন্টার মধ্যে উত্তর দেওয়ার লক্ষ্য রাখি।",
       successMessage:
         "আপনার বার্তা সফলভাবে পাঠানো হয়েছে! আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।",
@@ -239,7 +239,7 @@ const translations = {
       formMessage: "आपका संदेश",
       formSubmit: "संदेश भेजें",
       emailUs: "हमें ईमेल करें",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "हमारा लक्ष्य 24-48 घंटों के भीतर जवाब देना है।",
       successMessage:
         "आपका संदेश सफलतापूर्वक भेज दिया गया है! हम जल्द ही आपसे संपर्क करेंगे।",
@@ -339,7 +339,7 @@ const translations = {
       formMessage: "Pesan Anda",
       formSubmit: "Kirim Pesan",
       emailUs: "Kirim email kepada kami",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "Kami bertujuan untuk merespons dalam 24-48 jam.",
       successMessage:
         "Pesan Anda berhasil dikirim! Kami akan segera menghubungi Anda.",
@@ -439,7 +439,7 @@ const translations = {
       formMessage: "メッセージ",
       formSubmit: "メッセージを送信",
       emailUs: "メールでお問い合わせ",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "通常、24〜48時間以内に返信いたします。",
       successMessage:
         "メッセージは正常に送信されました！すぐにご連絡いたします。",

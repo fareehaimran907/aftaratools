@@ -43,7 +43,7 @@ const translations = {
       formMessage: "Ihre Nachricht",
       formSubmit: "Nachricht Senden",
       emailUs: "Senden Sie uns eine E-Mail",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime:
         "Wir bemühen uns, innerhalb von 24-48 Stunden zu antworten.",
       successMessage:
@@ -144,7 +144,7 @@ const translations = {
       formMessage: "Tu Mensaje",
       formSubmit: "Enviar Mensaje",
       emailUs: "Envíanos un correo",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "Nuestro objetivo es responder en 24-48 horas.",
       successMessage:
         "¡Tu mensaje ha sido enviado con éxito! Nos pondremos en contacto contigo pronto.",
@@ -244,7 +244,7 @@ const translations = {
       formMessage: "Votre Message",
       formSubmit: "Envoyer le Message",
       emailUs: "Envoyez-nous un e-mail",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "Nous visons à répondre dans les 24 à 48 heures.",
       successMessage:
         "Votre message a été envoyé avec succès ! Nous vous contacterons bientôt.",
@@ -344,7 +344,7 @@ const translations = {
       formMessage: "Il tuo messaggio",
       formSubmit: "Invia Messaggio",
       emailUs: "Inviaci un'e-mail",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "Puntiamo a rispondere entro 24-48 ore.",
       successMessage:
         "Il tuo messaggio è stato inviato con successo! Ti contatteremo presto.",
@@ -444,7 +444,7 @@ const translations = {
       formMessage: "Je Bericht",
       formSubmit: "Bericht Verzenden",
       emailUs: "Stuur ons een E-mail",
-      emailAddress: "support@100tools.example",
+      emailAddress: "aftaratech@gmail.com",
       responseTime: "We streven ernaar binnen 24-48 uur te reageren.",
       successMessage:
         "Je bericht is succesvol verzonden! We nemen spoedig contact met je op.",
