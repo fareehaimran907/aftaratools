@@ -1,55 +1,75 @@
 {
-  "seoTitle": "Bruchrechner",
-  "metaDescription": "Brüche addieren, subtrahieren, multiplizieren und dividieren.",
+  "seoTitle": "Bruchrechner – Brüche addieren, subtrahieren, multiplizieren",
+  "metaDescription": "Kostenloser Online-Bruchrechner. Brüche einfach addieren, subtrahieren, multiplizieren und dividieren. Erhalten Sie sofort Ergebnisse als gekürzter Bruch und Dezimalzahl.",
   "h1": "Bruchrechner",
-  "primaryKeyword": "Bruchrechner",
+  "primaryKeyword": "bruchrechner",
   "secondaryKeywords": [
-    "Bruchrechner online",
-    "Kostenloser Bruchrechner",
-    "Bester Bruchrechner"
+    "brüche addieren",
+    "brüche subtrahieren",
+    "brüche multiplizieren",
+    "brüche dividieren",
+    "bruchrechnen",
+    "mathe brüche rechner",
+    "bruch in dezimalzahl"
   ],
-  "slug": "Bruchrechner",
-  "intro": "Lösen Sie mühelos mathematische Gleichungen mit Brüchen durch schrittweise Vereinfachung.",
-  "whatIs": "Was ist das für ein Werkzeug?",
+  "slug": "bruchrechner",
+  "intro": "Haben Sie Probleme mit komplexer Bruchrechnung? Egal, ob Sie bei den Hausaufgaben helfen, ein Rezept anpassen oder an einem Tischlerprojekt arbeiten – unser kostenloser Online-Bruchrechner macht die Arbeit mit Brüchen einfach. Addieren, subtrahieren, multiplizieren oder dividieren Sie zwei beliebige Brüche im Handumdrehen. Das Tool findet automatisch einen Hauptnenner, führt die Berechnung durch, kürzt das Ergebnis auf den kleinstmöglichen Bruch und liefert sogar den entsprechenden Dezimalwert. Verabschieden Sie sich von manuellen Rechenfehlern und langwierigen Berechnungen – erhalten Sie mathematisch perfekte Antworten in Echtzeit.",
+  "whatIs": "Ein Bruchrechner ist ein spezielles mathematisches Hilfsmittel, das entwickelt wurde, um Standard-Grundrechenarten (Addition, Subtraktion, Multiplikation und Division) speziell mit Brüchen durchzuführen. Ein Bruch stellt einen Teil eines Ganzen dar und besteht aus einem Zähler (der oberen Zahl, die angibt, wie viele Teile man hat) und einem Nenner (der unteren Zahl, die angibt, in wie viele gleiche Teile das Ganze unterteilt ist). Die manuelle Berechnung von Brüchen kann kompliziert sein, insbesondere beim Addieren oder Subtrahieren von Brüchen mit unterschiedlichen Nennern, da hierfür ein kleinstes gemeinsames Vielfaches (Hauptnenner) gefunden werden muss. Dieses Tool automatisiert den gesamten Prozess, einschließlich des abschließenden Schritts, den Bruch durch das Finden des größten gemeinsamen Teilers auf seine einfachste Form zu reduzieren (zu kürzen).",
   "howToUse": [
-    "Geben Sie Ihren Zähler in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie den Nenner an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um das vereinfachte Bruchergebnis zu generieren.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
+    "Suchen Sie die beiden Eingabebereiche für Brüche, getrennt durch ein Dropdown-Menü für den mathematischen Operator.",
+    "Geben Sie den Zähler (obere Zahl) und den Nenner (untere Zahl) für Ihren ersten Bruch auf der linken Seite ein.",
+    "Wählen Sie die gewünschte Rechenoperation: Addition (+), Subtraktion (-), Multiplikation (×) oder Division (÷) aus dem mittleren Dropdown-Menü.",
+    "Geben Sie den Zähler und Nenner für Ihren zweiten Bruch auf der rechten Seite ein.",
+    "Das Tool berechnet das Ergebnis sofort, während Sie tippen, und zeigt es an. Es gibt keine Schaltfläche 'Berechnen', auf die Sie klicken müssen."
   ],
-  "howItWorks": "Wie es funktioniert",
-  "workedExample": "Beispiele",
-  "resultInterpretation": "Interpretation",
+  "howItWorks": "Unser Rechner funktioniert, indem er mathematische Standardalgorithmen in Ihrem Browser ausführt. Für Addition und Subtraktion ermittelt er mathematisch einen gemeinsamen Nenner (durch Multiplikation der beiden Nenner) und passt die Zähler an, bevor er sie addiert oder subtrahiert. Bei der Multiplikation werden die Zähler miteinander und die Nenner miteinander multipliziert. Bei der Division wird der erste Bruch mit dem Kehrwert (der umgedrehten Version) des zweiten Bruchs multipliziert. Sobald ein Rohergebnis berechnet ist, verwendet das Tool den euklidischen Algorithmus, um den größten gemeinsamen Teiler (ggT) von Zähler und Nenner zu ermitteln und so den Bruch auf seine einfachste Form zu kürzen. Schließlich teilt es den Zähler durch den Nenner, um den Dezimalwert anzuzeigen.",
+  "workedExample": "Lassen Sie uns 1/4 und 2/3 manuell addieren. Zuerst brauchen wir einen gemeinsamen Nenner. Das kleinste gemeinsame Vielfache von 4 und 3 ist 12. Wir wandeln 1/4 um, indem wir Zähler und Nenner mit 3 multiplizieren, was 3/12 ergibt. Wir wandeln 2/3 um, indem wir Zähler und Nenner mit 4 multiplizieren, was 8/12 ergibt. Jetzt addieren wir die Zähler: 3 + 8 = 11. Das Ergebnis ist 11/12. \n\nNun multiplizieren wir 2/5 mit 3/4. Wir multiplizieren einfach die Zähler (2 × 3 = 6) und die Nenner (5 × 4 = 20), was uns 6/20 ergibt. Um zu kürzen, finden wir den größten gemeinsamen Teiler von 6 und 20, nämlich 2. Wir teilen Zähler und Nenner durch 2, was zur endgültigen, gekürzten Antwort führt: 3/10 (oder 0,3 als Dezimalzahl).",
+  "resultInterpretation": "Das Endergebnis wird gut sichtbar rechts neben dem Gleichheitszeichen als vollständig gekürzter Bruch angezeigt. Ist das Ergebnis eine ganze Zahl, wird es als einzelne Ziffer ohne Nenner dargestellt. Direkt unter dem Bruch-Feld sehen Sie einen Bereich 'DEZIMAL', der den genauen Dezimalwert Ihres Bruchs anzeigt (bei periodischen Dezimalzahlen auf 6 Nachkommastellen gerundet). Wenn Sie versuchen, eine beliebige Zahl durch Null zu teilen (z. B. indem Sie '0' als Nenner eingeben), zeigt der Rechner sofort die Warnung 'Fehler: Division durch Null' an, um unmögliche mathematische Operationen zu verhindern.",
   "useCases": [
-    "Holzbearbeitungsmessungen",
-    "Backskalierung",
-    "Schnelle Verarbeitung des Zählers unterwegs"
+    "Kochen & Backen: Rezepte einfach nach oben oder unten skalieren (z. B. Halbieren eines Rezepts, das 3/4 Tasse Mehl erfordert).",
+    "Zimmerei & Bauwesen: Messungen in Zoll addieren oder subtrahieren (wie 5/8\" + 3/16\") für präzise Schnitte und Bauarbeiten.",
+    "Bildung & Hausaufgaben: Schüler können ihre manuell berechneten Bruchrechen-Antworten auf Richtigkeit überprüfen.",
+    "Heimwerker-Projekte: Berechnung von Materiallängen, Stoffmetern oder Farbvolumina, die Bruchmessungen beinhalten.",
+    "Finanzen & Buchhaltung: Umgang mit Bruchteilen von Aktien, Aufteilung von Kosten oder Berechnung anteiliger Ausgaben."
   ],
   "tipsAndLimitations": [
-    "Brüche sollten auf ihren niedrigsten Wert reduziert werden.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten vertraulich bleiben."
+    "Der Rechner akzeptiert derzeit nur ganze Zahlen als Eingaben für Zähler und Nenner. Er akzeptiert keine Dezimalzahlen innerhalb eines Bruchs.",
+    "Gemischte Zahlen (wie 1 1/2) müssen in unechte Brüche (wie 3/2) umgewandelt werden, bevor sie in das Tool eingegeben werden.",
+    "Negative Brüche werden vollständig unterstützt. Fügen Sie einfach ein Minuszeichen (-) vor dem Zähler hinzu.",
+    "Die Dezimalausgabe ist aus Gründen der Übersichtlichkeit auf maximal 6 Nachkommastellen gerundet.",
+    "Ein Nenner darf niemals Null sein. Der Versuch, Null als Nenner einzugeben, führt zu einem 'Division durch Null'-Fehler."
   ],
   "faq": [
     {
-      "question": "Wie multipliziert man Brüche?",
-      "answer": "Multiplizieren Sie oben und dann unten."
+      "question": "Kürzt dieser Rechner Brüche automatisch?",
+      "answer": "Ja. Der Rechner verwendet einen mathematischen Algorithmus, um den größten gemeinsamen Teiler (ggT) zu finden, und reduziert (kürzt) automatisch jede Antwort auf ihre einfachste Form."
     },
     {
-      "question": "Ist die Nutzung des Bruchrechners kostenlos?",
-      "answer": "Ja, unser Bruchrechner ist völlig kostenlos und erfordert keine Registrierung."
+      "question": "Wie berechne ich gemischte Zahlen (z. B. 2 3/4)?",
+      "answer": "Um gemischte Zahlen zu berechnen, müssen Sie diese zuerst in unechte Brüche umwandeln. Zum Beispiel wird 2 3/4 zu 11/4 (da 2 × 4 = 8 und 8 + 3 = 11). Geben Sie 11 als Zähler und 4 als Nenner ein."
     },
     {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, das Tool reagiert vollständig und funktioniert auf allen Smartphones und Tablets einwandfrei."
+      "question": "Kann ich negative Brüche verwenden?",
+      "answer": "Ja. Sie können Berechnungen mit negativen Brüchen durchführen, indem Sie ein Minuszeichen (-) vor den Zähler setzen."
+    },
+    {
+      "question": "Was passiert, wenn ich eine 0 in den Nenner setze?",
+      "answer": "In der Mathematik ist die Division durch Null nicht definiert. Der Rechner erkennt dies sofort und zeigt eine Meldung 'Fehler: Division durch Null' an."
+    },
+    {
+      "question": "Wie genau ist die Dezimalumrechnung?",
+      "answer": "Der Dezimalwert ist sehr genau, wird jedoch auf maximal 6 Nachkommastellen begrenzt, um zu verhindern, dass unendlich periodische Dezimalzahlen das Layout stören."
     }
   ],
   "relatedTools": [
-    "Verhältnisrechner",
-    "Durchschnittsrechner",
-    "GPA-Rechner"
+    "average-calculator",
+    "percentage-calculator",
+    "grade-calculator",
+    "final-grade-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Bruchrechner",
+  "cta": "Müssen Sie schnell ein kniffliges Bruchproblem lösen? Geben Sie Ihre Brüche oben ein, um sofort die gekürzte Antwort und den Dezimalwert zu erhalten.",
+  "disclaimer": "Dieses Tool ist für allgemeine mathematische Berechnungen und Bildungszwecke gedacht. Obwohl wir nach absoluter Genauigkeit streben, überprüfen Sie kritische Messungen für Bauwesen, Ingenieurwesen oder finanzielle Anwendungen stets manuell.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Benutzeroberfläche des Bruchrechners mit Eingabefeldern für zwei Brüche und einem Dropdown-Menü für den Operator",
   "ogImageText": "Bruchrechner"
 }

@@ -1,0 +1,53 @@
+{
+  "seoTitle": "SHA1-hashgenerator - Secure Hash Algorithm 1",
+  "metaDescription": "Gratis online SHA1-hashgenerator. Bereken direct de 40-karakter hexadecimale SHA-1-digest voor tekststrings. Ideaal voor Git-commits en checksums.",
+  "h1": "SHA1-hashgenerator",
+  "primaryKeyword": "sha1-hashgenerator",
+  "secondaryKeywords": [
+    "sha1-generator online",
+    "tekst naar sha1",
+    "sha1 berekenen",
+    "sha1-controlegetal"
+  ],
+  "slug": "sha1-hashgenerator",
+  "intro": "Werken met Git-repositories of het verifiëren van verouderde digitale certificaten? Onze gratis SHA1-hashgenerator berekent snel de standaard 160-bits hash voor elke tekststring die u opgeeft.",
+  "whatIs": "De SHA1 Hash Generator is een hulpprogramma dat gebruikmaakt van het Secure Hash Algorithm 1. Het verwerkt invoertekst van elke grootte om een 160-bits hashwaarde te produceren, die doorgaans wordt weergegeven als een 40-tekens lange hexadecimale string.",
+  "howToUse": [
+    "Voer uw doeldtekst in het invoerveld in.",
+    "Het hulpmiddel berekent in realtime de SHA-1-digest.",
+    "De 40-teken hexadecimale tekenreeks wordt weergegeven.",
+    "Kopieer de string voor uw verificatiebehoeften."
+  ],
+  "howItWorks": "Ontwikkeld door de NSA, verwerkt het SHA-1-algoritme tekst in blokken van 512 bits. Het gebruikt een reeks bitgewijze bewerkingen, modulaire optellingen en compressiefuncties over 80 rondes om de uiteindelijke 160-bit berichtsamenvatting te produceren.",
+  "workedExample": "Het invoeren van het woord 'hello'. Het SHA-1-algoritme verwerkt de tekst en geeft als output: `aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d`.",
+  "resultInterpretation": "De 40-karakter output is de digitale vingerafdruk van je tekst. Het veranderen van zelfs één komma in een enorm document zal resulteren in een volledig andere 40-karakter string.",
+  "useCases": [
+    "Versiebeheer (Git): Handmatig genereren of verifiëren van de SHA-1-hashes die Git gebruikt om commits en bestandsstatussen uniek te identificeren.",
+    "Bestandsverificatie: Het controleren van de integriteit van een gedownload ISO-bestand aan de hand van de door de uitgever verstrekte SHA-1 checksum.",
+    "Database-indexering: Het maken van snelle, uniforme database-zoeksleutels van tekststrings met variabele lengte."
+  ],
+  "tipsAndLimitations": [
+    "SHA-1 levert 40 tekens op, waardoor het iets langer en vroeger veiliger was dan MD5 (32 tekens).",
+    "BEVEILIGINGSWAARSCHUWING: Net als MD5 wordt SHA-1 nu als cryptografisch gebroken beschouwd. In 2017 voerde Google met succes een botsingsaanval erop uit. Gebruik SHA-1 niet voor moderne wachtwoordhashing of SSL-certificaten."
+  ],
+  "faq": [
+    {
+      "question": "Waarom gebruikt Git nog steeds SHA-1 als het gebroken is?",
+      "answer": "Git gebruikt SHA-1 voornamelijk om te controleren op toevallige datacorruptie, niet voor beveiliging op hoog niveau. De kans dat een toevallige botsing een Git-repository vernietigt is praktisch nul, hoewel Git langzaam overstapt op SHA-256."
+    },
+    {
+      "answer": "Nee. Door ontwerp is hashing een eenrichtingswiskundetransformatie. Gewone woorden die echter in SHA-1 zijn gehasht, kunnen eenvoudig worden opgezocht in online decryptiedatabases.",
+      "question": "Kan ik een SHA-1-hash omkeren?"
+    }
+  ],
+  "relatedTools": [
+    "sha256-hash-generator",
+    "md5-hash-generator",
+    "hash-generator"
+  ],
+  "cta": "Bereken je SHA-1-hash direct!",
+  "disclaimer": "SHA-1 is cryptografisch verouderd door NIST. Gebruik SHA-256 voor veilige toepassingen die botsingsbestendigheid vereisen.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "SHA1-hashgeneratorinterface",
+  "ogImageText": "SHA1-hashgenerator"
+}

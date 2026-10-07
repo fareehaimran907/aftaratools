@@ -6,20 +6,21 @@
   "secondaryKeywords": [
     "Çevrimiçi Çalışma Saatleri Hesaplayıcı",
     "ücretsiz Çalışma Saatleri Hesaplayıcı",
+    "En iyi Çalışma Saatleri Hesaplayıcı",
     "En iyi Çalışma Saatleri Hesaplayıcı"
   ],
-  "slug": "çalışma saatleri-hesaplayıcı",
-  "intro": "Molalar da dahil olmak üzere zaman çizelgesi saatlerinizi kolayca ekleyin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "calisma-saati-hesaplayici",
+  "intro": "Haftalık maaş çeklerinizi manuel olarak hesaplamak için çok mu zaman harcıyorsunuz veya fazla mesai ücreti alıp almayacağınızı anlamaya mı çalışıyorsunuz? Ücretsiz çevrimiçi çalışma saatleri hesaplayıcımız zaman takibiyle ilgili baş ağrılarını ortadan kaldırır. İster müşterilere saatlik fatura kesen serbest çalışan biri, ister maaş çekini kontrol eden bir çalışan veya vardiya planlayan bir yönetici olun, bu araç toplam çalışma saatlerini ve beklenen ücreti hassas bir şekilde hesaplar. Hesap makinesi, ücretsiz molaların yanı sıra başlangıç ve bitiş saatlerinizi girerek, tam çalışma sürenizi dakikasına kadar anında belirler. Bordronuzu basitleştirin, doğru faturalandırma sağlayın ve kazançlarınız konusunda tam şeffaflık elde edin.",
+  "whatIs": "Çalışma saatleri hesaplayıcısı, işte geçirilen tam zamanı ve bunun sonucunda elde edilen geliri hesaplamak için tasarlanmış kapsamlı bir zaman yönetimi ve bordro aracıdır. Basit saatlerin aksine, bu araç geleneksel olarak bordro için manuel olarak hesaplanması sıkıcı olan karmaşık zaman biçimlendirme (saat ve dakika) matematiğini yönetir. Her gün için başlangıç saatini ve bitiş saatini girersiniz, varsa ücretsiz molaları (öğle yemeği gibi) belirtirsiniz ve sistem anında toplam net çalışılan saati belirler. Bir saatlik ücret sağlarsanız, aynı zamanda bir brüt ödeme tahmincisi olarak da işlev görerek kazançları tahmin etmeyi veya günlük, haftalık veya iki haftalık bir ödeme dönemi için fatura oluşturmayı kolaylaştırır.",
   "howToUse": [
     "Belirlenen giriş alanına saat cinsinden saatinizi girin.",
     "Saat aşımı süresi gibi ikincil parametreleri sağlayın.",
     "Toplam saat eksi ücretsiz molalar oluşturmak için hesapla veya gönder düğmesini tıklayın.",
     "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, 12 saatlik veya 24 saatlik formattaki standart zaman girdilerini maaş hesaplamaları için gereken ondalık zamana çevirerek çalışır. Örneğin, sabah 8:00'de girip akşam 16:30'da çıkış yaparsanız, aradaki 8 saat 30 dakikayı hesaplar. 30 dakikalık ücretsiz bir mola belirtirseniz, bunu çıkararak tam 8 saatlik çalışma süresi elde eder. Daha sonra bu 8 saat, o günkü brüt ücreti tahmin etmek için sağladığınız saatlik ücretle çarpılır. Hesaplayıcı, birden fazla günlük girişler için bu günlük toplamları toplayarak hiçbir dakikanın gözden kaçmamasını sağlayarak haftalık veya ödeme dönemine ait kümülatif saatler ve kazançlar sunar.",
+  "workedExample": "Saatte 25 dolar fatura kesen bir serbest çalışan olduğunuzu varsayalım. Pazartesi günü saat 09:00'da çalışmaya başlıyorsunuz, öğlen 45 dakikalık ücretsiz öğle yemeği molası veriyorsunuz ve saat 17:15'te çalışmayı bitiriyorsunuz. Bu saatleri hesap makinesine giriyorsunuz. Araç, sabah 9:00 ile akşam 5:15 arasındaki toplam süreyi 8 saat 15 dakika olarak hesaplar. Daha sonra 45 dakikalık molayı çıkarır ve geriye tam olarak 7 saat 30 dakikalık faturalandırılabilir süre kalır. Kazanç hesaplaması için 30 dakikayı 0,5 saat ondalık sayıya çevirir. Daha sonra 7,5 saati 25 dolarlık oranınızla çarparak o gün için toplam 187,50 dolarlık bir kazanç elde eder.",
+  "resultInterpretation": "Hesaplayıcı tarafından oluşturulan sonuçlar tipik olarak iki temel ölçümü gösterir: Toplam net çalışma süreniz (saat ve dakika olarak ve ayrıca ondalık biçimde sunulur) ve tahmini brüt kazancınız. Ondalık zaman formatı (ör. 7 saat 30 dakika yerine 7,5 saat) çok önemlidir çünkü bu bordro sistemleri tarafından kullanılan standart formattır. Görüntülenen brüt kazanç, vergi ve kesintiler öncesi ücretinizdir; yalnızca saatlik ücretinize dayanarak ne kazandığınızı temsil eder. Bu veriler müşterilere fatura kesmek, tutarsızlıkları yakalamak için resmi maaş çekinizle çapraz kontrol yapmak veya fazla mesai eşiğini izlemek için doğrudan kullanılabilir.",
   "useCases": [
     "Serbest faturalandırma",
     "Bordro tahmini",
@@ -27,8 +28,7 @@
   ],
   "tipsAndLimitations": [
     "Vergileri otomatik olarak hesaplamaz.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun."
   ],
   "faq": [
     {
@@ -38,17 +38,15 @@
     {
       "question": "Bu mobilde çalışıyor mu?",
       "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
     }
   ],
   "relatedTools": [
-    "yaş hesaplayıcı",
-    "tarih farkı-hesaplayıcı",
-    "tarihler arasındaki günler"
+    "overtime-calculator",
+    "tax-calculator",
+    "roi-calculator"
   ],
+  "cta": "Haftalık çalışma saatlerinizi şimdi hesaplayın!",
+  "disclaimer": "Bu araç, mola süreleri çıkarıldıktan sonraki geçen zamanı kesin olarak hesaplar. Zorunlu ücretli dinlenme molaları ile ücretsiz yemek araları konusunda yerel iş kanunlarına danışın.",
   "lastReviewed": "2026-09-30",
   "imageAlt": "Çalışma Saatleri Hesaplayıcı",
   "ogImageText": "Çalışma Saatleri Hesaplayıcı"

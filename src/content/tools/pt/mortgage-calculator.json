@@ -1,55 +1,65 @@
 {
-  "seoTitle": "Calculadora de hipoteca",
-  "metaDescription": "Calcule os pagamentos mensais da hipoteca.",
-  "h1": "Calculadora de hipoteca",
-  "primaryKeyword": "calculadora de hipoteca",
+  "seoTitle": "Calculadora de Financiamento Imobiliário - Calcule a Prestação Mensal",
+  "metaDescription": "Calculadora de financiamento imobiliário gratuita. Calcule a prestação mensal do financiamento incluindo amortização e juros com base no valor do imóvel e na entrada.",
+  "h1": "Calculadora de Financiamento Imobiliário",
+  "primaryKeyword": "calculadora de financiamento imobiliário",
   "secondaryKeywords": [
-    "Calculadora de hipoteca on-line",
-    "Calculadora de hipoteca grátis",
-    "melhor calculadora de hipoteca"
+    "calculadora de financiamento casa",
+    "prestação mensal financiamento",
+    "calculadora de imóvel",
+    "tabela de amortização"
   ],
-  "slug": "calculadora de hipoteca",
-  "intro": "Calcule seus pagamentos mensais de hipoteca, incluindo principal e juros.",
-  "whatIs": "O que é essa ferramenta?",
+  "slug": "calculadora-de-hipoteca",
+  "intro": "Comprar um imóvel é provavelmente o maior compromisso financeiro da sua vida. Nossa Calculadora de Financiamento Imobiliário gratuita mostra exatamente como esse compromisso se parece mês a mês. Ao inserir o valor do imóvel, a entrada, a taxa de juros e o prazo, você vê instantaneamente a prestação mensal estimada, o total de juros e o custo global do financiamento.",
+  "whatIs": "Uma calculadora de financiamento imobiliário é uma ferramenta financeira especializada que estima a prestação mensal de um empréstimo imobiliário. Usa quatro entradas — preço do imóvel, entrada, taxa de juros anual e prazo — e aplica a fórmula padrão de amortização para calcular a prestação mensal fixa que quita o empréstimo ao final do prazo.",
   "howToUse": [
-    "Insira o preço da sua casa no campo de entrada designado.",
-    "Forneça quaisquer parâmetros secundários, como pagamento inicial.",
-    "Clique no botão calcular ou enviar para gerar pagamentos mensais de principal e juros.",
-    "Copie ou revise a saída resultante de acordo com suas necessidades."
+    "Insira o Valor do Imóvel — o preço total de compra.",
+    "Insira sua Entrada — o valor em dinheiro pago no ato.",
+    "Insira a Taxa de Juros Anual da sua proposta.",
+    "Especifique o Prazo em anos.",
+    "Clique em 'Calcular Financiamento'."
   ],
-  "howItWorks": "Como funciona",
-  "workedExample": "Exemplos",
-  "resultInterpretation": "Interpretação",
+  "howItWorks": "A calculadora subtrai a entrada do valor do imóvel para determinar o valor financiado, depois aplica a fórmula de amortização: M = P[r(1+r)^n] / [(1+r)^n - 1].",
+  "workedExample": "Você quer comprar um imóvel de R$ 300.000 com entrada de R$ 60.000 (20%). O financiamento é de R$ 240.000. Com taxa de 4,5% ao ano em 30 anos, a prestação mensal é R$ 1.216,04. Em 30 anos, paga um total de R$ 437.773,86 — desse total, R$ 197.773,86 são juros.",
+  "resultInterpretation": "A Prestação Mensal inclui apenas amortização e juros. Sua fatura real será maior por conta de taxas e seguro. O Valor Financiado é o que você realmente pede emprestado. Juros Totais é o custo total do financiamento. Custo Total inclui principal e todos os juros.",
   "useCases": [
-    "Caça à casa",
-    "Análise de refinanciamento",
-    "Processando rapidamente o preço da casa em qualquer lugar"
+    "Compra de Imóvel: defina um orçamento realista.",
+    "Refinanciamento: compare sua taxa atual com as do mercado.",
+    "Planejamento da Entrada: experimente diferentes valores de entrada.",
+    "Comparação de Prazos: compare 15 anos vs. 30 anos."
   ],
   "tipsAndLimitations": [
-    "Os impostos sobre a propriedade e as taxas HOA devem ser adicionados separadamente.",
-    "Certifique-se de que suas entradas estejam formatadas corretamente para obter os melhores resultados.",
-    "A ferramenta é totalmente executada no lado do cliente, garantindo que seus dados permaneçam privados."
+    "A calculadora fornece apenas amortização e juros. Sua prestação real incluirá taxas de condomínio, seguro, IPTU etc.",
+    "Se a entrada for inferior a 20%, seguros adicionais podem ser exigidos.",
+    "Prazos menores têm prestações mais altas mas juros totais muito menores."
   ],
   "faq": [
     {
-      "question": "O uso da Calculadora de hipoteca é gratuito?",
-      "answer": "Sim, nossa Calculadora de Hipoteca é totalmente gratuita."
+      "question": "O que é uma tabela de amortização?",
+      "answer": "É uma tabela detalhada mostrando cada prestação ao longo do financiamento, com a divisão entre juros e amortização do saldo devedor."
     },
     {
-      "question": "Isso funciona no celular?",
-      "answer": "Sim, é totalmente responsivo e funciona em todos os dispositivos."
+      "question": "Este cálculo é a minha prestação exata?",
+      "answer": "Calcula com precisão a parte de amortização e juros. Sua fatura real incluirá tributos e seguro, tornando-a mais alta."
     },
     {
-      "question": "Preciso baixar alguma coisa?",
-      "answer": "Não, funciona totalmente no seu navegador sem qualquer instalação."
+      "question": "O que acontece se eu fizer pagamentos antecipados?",
+      "answer": "Amortizações extras reduzem diretamente o saldo devedor, diminuindo os juros dos meses seguintes e podendo encurtar o prazo."
+    },
+    {
+      "question": "Qual a diferença entre taxa fixa e taxa variável?",
+      "answer": "Taxa fixa mantém o mesmo juro e prestação durante todo o prazo. Taxa variável começa menor mas pode mudar periodicamente conforme o mercado."
     }
   ],
   "relatedTools": [
-    "calculadora de porcentagem",
-    "calculadora de salário",
-    "calculadora de descontos"
+    "loan-calculator",
+    "emi-calculator",
+    "compound-interest-calculator",
+    "investment-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calculadora de hipoteca",
-  "ogImageText": "Calculadora de hipoteca"
+  "cta": "Calcule agora sua prestação estimada e planeje a compra do seu imóvel com segurança!",
+  "disclaimer": "Esta ferramenta fornece estimativas apenas para fins educativos. Condições reais do financiamento, taxas, impostos e seguros variarão. Consulte um especialista em crédito imobiliário antes de tomar qualquer decisão.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Calculadora de financiamento imobiliário com prestação mensal, valor financiado, juros totais e custo total",
+  "ogImageText": "Calculadora de Financiamento Imobiliário"
 }

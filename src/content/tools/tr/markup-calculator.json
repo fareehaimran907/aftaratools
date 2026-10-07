@@ -1,55 +1,52 @@
 {
-  "seoTitle": "İşaretleme Hesaplayıcı",
-  "metaDescription": "Maliyet ve kar yüzdesine göre perakende fiyatını hesaplayın.",
-  "h1": "İşaretleme Hesaplayıcı",
-  "primaryKeyword": "biçimlendirme hesaplayıcısı",
+  "seoTitle": "Markup (Fiyat Artışı) Hesaplayıcı - Satış Fiyatı Bulma",
+  "metaDescription": "Ücretsiz markup (fiyat artışı) hesaplayıcı. Maliyetinizi ve hedeflediğiniz fiyat artış yüzdesini girerek satış fiyatını, brüt karı ve marjı hesaplayın.",
+  "h1": "Markup Hesaplayıcı",
+  "primaryKeyword": "markup hesaplayıcı",
   "secondaryKeywords": [
-    "Çevrimiçi İşaretleme Hesaplayıcısı",
-    "ücretsiz İşaretleme Hesaplayıcı",
-    "En iyi İşaretleme Hesaplayıcısı"
+    "satış fiyatı hesaplama",
+    "markup ile marj farkı",
+    "fiyat artış oranı"
   ],
-  "slug": "işaretleme-hesap makinesi",
-  "intro": "Maliyetinize ve istediğiniz kar yüzdesine göre satış fiyatınızı belirleyin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "kar-payi-hesaplama",
+  "intro": "Perakendecilerin satın aldığınız ürünlerin satış fiyatını nasıl belirlediğini hiç merak ettiniz mi? Veya kendi işinizi kuruyor olabilirsiniz ve kârlı kalmak için ürünlerinizden ne kadar ücret almanız gerektiğini bulmakta zorlanıyorsunuz. Doğru fiyatı belirlemek, maliyetleri karşılamak ile pazarda rekabetçi kalmak arasında hassas bir dengedir. Ücretsiz çevrimiçi kâr artışı hesaplayıcımız bu hayati iş kararını basitleştirir. Ürününüzün maliyetini ve istediğiniz kâr artışı yüzdesini veya maliyetinizi ve satış fiyatınızı girerek, bu araç size anında tam kâr artışını, brüt kârı ve kâr marjını gösterir. Fiyatlandırma stratejinizin kontrolünü elinize alın ve işletmenizin finansal olarak sağlıklı kalmasını güvenle sağlayın.",
+  "whatIs": "Kâr Artışı Hesaplayıcısı, ürün fiyatlarını belirlemek ve analiz etmek için işletmeler tarafından kullanılan temel bir finansal araçtır. Yüzde olarak ifade edilen kâr artışı (marjı artırımı), genel giderleri karşılamak ve kâr elde etmek için malların maliyet fiyatına eklenen miktardır. Çoğu zaman kâr marjıyla (kârı satış fiyatının yüzdesi olarak hesaplayan) karıştırılsa da, kâr artışı kârın maliyete göre yüzdesidir. Perakendecilerin ve toptancıların fiyatları belirlemek için kullandığı basit, endüstri standardı bir yöntemdir. Bu araç süreci kolaylaştırarak, hedef artışınıza göre satış fiyatını hesaplamanıza veya önceden fiyatlandırılmış bir ürünün artış yüzdesini tersine mühendislikle bulmanıza olanak tanır.",
   "howToUse": [
-    "Öğe maliyetinizi belirlenen giriş alanına girin.",
-    "İstenilen işaretleme yüzdesi gibi ikincil parametreleri sağlayın.",
-    "Nihai perakende fiyatını oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Ürünün veya hizmetin Maliyetini girin.",
+    "Uygulamak istediğiniz Markup Yüzdesini girin.",
+    "Araç anında hedef Satış Fiyatını gösterecektir.",
+    "Ayrıca Brüt Kar ve Kar Marjı oranını da hesaplar."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, standart perakende muhasebe formüllerini kullanarak çalışır. 'Maliyet' ve 'Kâr Artışı Yüzdesi' girerseniz, hesap makinesi ilk olarak yüzdeyi ondalık sayıya dönüştürür (örneğin %50, 0,50 olur). Daha sonra kârın dolar tutarını bulmak için maliyeti bu ondalık sayıyla çarpar. Son olarak, size nihai 'Satış Fiyatı'nı vermek için bu kârı orijinal maliyete ekler. Alternatif olarak, hem 'Maliyet'i hem de 'Satış Fiyatı'nı girerseniz kârı (satış fiyatı - maliyet) hesaplar ve ardından kâr artışı yüzdenizi göstermek için o kârı maliyete (100 ile çarpılarak) böler. Bu süreç anında gerçekleşir ve hızlı senaryo planlamasına olanak tanır.",
+  "workedExample": "Kahve çekirdekleri sattığınızı düşünün. Toptan olarak 10$'a bir torba çekirdek (maliyetiniz) satın alıyorsunuz. Sektörünüzde %40'lık bir artış, genel giderleri karşılamaya ve kâr elde etmeye yardımcı olan standarttır. Hesap makinesine Maliyet için '10' ve Kâr Artışı Yüzdesi için '40' giriyorsunuz. Araç 10$'ı 0,40 ile çarparak 4$'lık bir kâr hesaplar. Ardından bu 4$'lık kârı 10$'lık maliyete ekler. Göz açıp kapayıncaya kadar, hesap makinesi satış fiyatınızın 14$ olması gerektiğini gösterir. Ayrıca brüt kâr marjınızın (kârın satış fiyatına bölünmesi) yaklaşık %28,5 olduğunu doğrulayarak size mali durumunuzun net bir resmini sunar.",
+  "resultInterpretation": "Hesap makinesinin sonuçları üç temel işletme ölçümü sağlar: 'Satış Fiyatı', 'Brüt Kâr' (dolar cinsinden) ve 'Kâr Marjı'. 'Satış Fiyatı', müşteriden talep etmeniz gereken tutardır. 'Brüt Kâr', ürünün parasını ödedikten sonra her satıştan kazandığınız nakittir; bu para kira, maaşlar ve diğer giderleri ödemek için kullanılır. 'Kâr Marjı', kârınızı nihai satış fiyatının yüzdesi olarak temsil eder. Kâr artışınız (maliyete dayalı) ile marjınız (satış fiyatına dayalı) arasındaki farkı anlamak çok önemlidir. %50'lik bir kâr artışı, %50'lik bir marjınız olduğu anlamına gelmez. Bu sonuçlar fiyatlandırma hatalarından kaçınmanıza ve uzun vadeli kârlılığı sağlamanıza yardımcı olur.",
   "useCases": [
-    "Toptan fiyatlandırma",
-    "Envanter yönetimi",
-    "Hareket halindeyken öğe maliyetini hızlı bir şekilde işleyin"
+    "Perakende: Toptan ürünleri mağaza satışı için fiyatlandırma.",
+    "Müteahhitler: Bir işte kullanılan malzemelere standart bir fiyat artışı (markup) uygulama.",
+    "Müteahhitler: Bir işte kullanılan malzemelere standart bir fiyat artışı (markup) uygulama."
   ],
   "tipsAndLimitations": [
-    "Fiyatlandırma maliyete, marj ise gelire dayalıdır.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "En sık yapılan hata Markup ile Marjı karıştırmaktır. %50 markup, %50 marj demek DEĞİLDİR.",
+    "Hesaplama brüt rakamlara dayanır (vergi, stopaj, dükkan kirası hariçtir)."
   ],
   "faq": [
     {
-      "question": "İşaretleme Hesaplayıcının kullanımı ücretsiz midir?",
-      "answer": "Evet, İşaretleme Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Marj (Margin) neden her zaman Markup'tan düşüktür?",
+      "answer": "Çünkü Marj daha yüksek olan 'satış fiyatı' üzerinden hesaplanırken, Markup daha düşük olan 'maliyet' üzerinden hesaplanır."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Marj (Margin) neden her zaman Markup'tan düşüktür?",
+      "answer": "Çünkü Marj daha yüksek olan 'satış fiyatı' üzerinden hesaplanırken, Markup daha düşük olan 'maliyet' üzerinden hesaplanır."
     }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "maaş-hesaplayıcı",
-    "indirim hesaplayıcı"
+    "profit-margin-calculator",
+    "break-even-calculator",
+    "discount-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "İşaretleme Hesaplayıcı",
-  "ogImageText": "İşaretleme Hesaplayıcı"
+  "cta": "Satış fiyatını hemen hesapla!",
+  "disclaimer": "Bu araç ticari bilgi ve pratik hesaplama amaçlıdır. Muhasebe işlemleri için uzman desteği alın.",
+  "lastReviewed": "2024-03-16",
+  "imageAlt": "Markup Hesaplama Aracı",
+  "ogImageText": "Markup Hesaplama"
 }

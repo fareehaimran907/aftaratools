@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Konwerter temperatury",
-  "metaDescription": "Konwersja stopni Celsjusza, Fahrenheita i Kelvina.",
-  "h1": "Konwerter temperatury",
-  "primaryKeyword": "konwerter temperatury",
+  "seoTitle": "Kalkulator Temperatury - Celsjusz na Fahrenheit",
+  "metaDescription": "Darmowy przelicznik temperatury. Błyskawicznie przeliczaj stopnie między Celsjuszem (°C), Fahrenheitem (°F) i Kelvinem (K).",
+  "h1": "Kalkulator Temperatury",
+  "primaryKeyword": "kalkulator temperatury",
   "secondaryKeywords": [
-    "Przelicznik temperatury online",
-    "darmowy konwerter temperatury",
-    "najlepszy konwerter temperatury"
+    "celsjusz na fahrenheit",
+    "fahrenheit na celsjusz",
+    "przelicznik stopni"
   ],
-  "slug": "konwerter temperatury",
-  "intro": "Szybko przeliczaj temperatury pomiędzy głównymi skalami.",
-  "whatIs": "Co to jest za narzędzie?",
-  "howToUse": [
-    "Wprowadź liczbę stopni Celsjusza w wyznaczonym polu wejściowym.",
-    "Podaj wszelkie parametry drugorzędne, takie jak stopnie Fahrenheita.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować temperaturę równoważną.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
-  ],
-  "howItWorks": "Jak to działa",
-  "workedExample": "Przykłady",
-  "resultInterpretation": "Interpretacja",
-  "useCases": [
-    "Prognozowanie pogody",
-    "Temperatury gotowania",
-    "Szybkie przetwarzanie stopni Celsjusza w podróży"
-  ],
-  "tipsAndLimitations": [
-    "Formuły obejmują zarówno mnożenie, jak i dodawanie/odejmowanie.",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
-  ],
+  "slug": "konwerter-temperatury",
+  "intro": "Sprawdzasz pogodę za granicą lub pieczesz z amerykańskiego przepisu? Różne skale temperatur bywają mylące. Nasze narzędzie przelicza je natychmiast.",
+  "whatIs": "Kalkulator temperatury to narzędzie, które tłumaczy pomiary z jednej skali na inną (Celsjusz, Fahrenheit, Kelvin).",
+  "howToUse": "Wybierz skalę początkową. Wpisz temperaturę. Narzędzie pokaże wartości w innych skalach.",
+  "howItWorks": "Przeliczanie wymaga wzorów. Celsjusz na Fahrenheit: (°C × 9/5) + 32. Fahrenheit na Celsjusz: (°F - 32) × 5/9.",
+  "workedExample": "Przepis wymaga 180°C. W Fahrenheitach to 356°F. Wiesz już, jak ustawić piekarnik.",
+  "resultInterpretation": "Wyniki są precyzyjne matematycznie. Kelvin nie używa symbolu stopnia (°).",
+  "useCases": "Gotowanie: temperatura piekarnika. Pogoda: prognozy za granicą. Nauka: obliczenia termodynamiczne.",
+  "tipsAndLimitations": "Szybki trik (C na F): pomnóż Celsjusze przez 2 i dodaj 30. Przy -40° Celsjusz i Fahrenheit są sobie równe.",
   "faq": [
     {
-      "question": "Czy korzystanie z Konwertera temperatury jest bezpłatne?",
-      "answer": "Tak, nasz konwerter temperatury jest całkowicie darmowy."
+      "question": "Jak przeliczyć stopnie Celsjusza na Fahrenheita?",
+      "answer": "Pomnóż stopnie Celsjusza przez 1,8 i dodaj 32."
     },
     {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, jest w pełni responsywny i działa na wszystkich urządzeniach."
-    },
-    {
-      "question": "Czy muszę coś pobrać?",
-      "answer": "Nie, działa całkowicie w Twojej przeglądarce, bez żadnej instalacji."
+      "question": "Jaka jest normalna temperatura ciała?",
+      "answer": "Przyjmuje się, że to 37°C lub 98,6°F."
     }
   ],
   "relatedTools": [
-    "konwerter długości",
-    "przelicznik wagi",
-    "konwerter wysokości"
+    "length-converter",
+    "weight-converter",
+    "volume-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Konwerter temperatury",
-  "ogImageText": "Konwerter temperatury"
+  "cta": "Przelicz każdą temperaturę już teraz!",
+  "disclaimer": "Do celów informacyjnych.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Kalkulator temperatury Celsjusz na Fahrenheit",
+  "ogImageText": "Kalkulator Temperatury"
 }

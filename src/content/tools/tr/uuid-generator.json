@@ -1,55 +1,53 @@
 {
-  "seoTitle": "UUID / GUID Oluşturucu",
-  "metaDescription": "Ücretsiz çevrimiçi UUID / GUID Oluşturucu. Rastgele UUID'ler oluşturun.",
-  "h1": "UUID / GUID Oluşturucu",
-  "primaryKeyword": "uuid / guid oluşturucu",
+  "seoTitle": "Çevrimiçi UUID Oluşturucu - v4 GUID'ler Oluştur",
+  "metaDescription": "Ücretsiz çevrimiçi UUID Oluşturucu. Veritabanları ve uygulama geliştirme için güvenli, rastgele Sürüm 4 UUID'leri (Evrensel Benzersiz Tanımlayıcılar) veya GUID'leri anında oluşturun.",
+  "h1": "UUID Oluşturucu",
+  "primaryKeyword": "uuid oluşturucu",
   "secondaryKeywords": [
-    "uuid / guid oluşturucu çevrimiçi",
-    "ücretsiz uuid / guid oluşturucu",
-    "en iyi uuid / guid oluşturucu"
+    "guid oluşturucu",
+    "uuid v4 oluştur",
+    "rastgele uuid",
+    "çevrimiçi rehber yapıcı"
   ],
-  "slug": "kullanıcı kimliği oluşturucu",
-  "intro": "Ücretsiz çevrimiçi UUID / GUID Oluşturucu aracımızı kullanın. Girişlerinize göre evrensel olarak benzersiz tanımlayıcılar oluşturur.",
-  "whatIs": "UUID / GUID Oluşturucu, evrensel olarak benzersiz tanımlayıcılar oluşturan çevrimiçi bir yardımcı programdır. Oluşturma düğmenizi işler ve tamamen benzersiz 36 karakterlik bir dize sağlar.",
+  "slug": "uuid-olusturucu",
+  "intro": "Bir veritabanı mı oluşturuyorsunuz ve garantili benzersiz birincil anahtarlara mı ihtiyacınız var? Ücretsiz çevrimiçi UUID Üreticimiz, anında kriptografik olarak güvenli Versiyon 4 Evrensel Benzersiz Tanımlayıcılar oluşturur.",
+  "whatIs": "UUID Üreteci, bilgisayar sistemlerindeki bilgiler için kullanılan 128-bitlik bir etiket üreten bir geliştirici aracıdır. UUID (Microsoft ekosistemlerinde GUID olarak da bilinir), merkezi bir koordinatör olmadan tüm cihazlar ve sistemler arasında pratiğe dayalı olarak benzersiz olması garanti edilen bir etikettir.",
   "howToUse": [
-    "Oluşturma düğmenizi belirlenen giriş alanına girin.",
-    "Sürüm seçici gibi ikincil parametreleri sağlayın.",
-    "Tamamen benzersiz 36 karakterlik bir dize oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Bir kerede oluşturmak istediğiniz UUID sayısını seçin.",
+    "'Oluştur' düğmesine tıklayın.",
+    "Araç, yeni UUID'leri anında listelemektedir.",
+    "Bir UUID'nin yanındaki kopyalama düğmesine tıklayarak onu panonuza kopyalayın."
   ],
-  "howItWorks": "Bu araç, tarayıcınızda oluşturma düğmenize standart algoritmalar uygulayarak çalışır. Tamamen benzersiz 36 karakterlik bir dizenin çıktısını almak için verileri anında işler.",
-  "workedExample": "Örneğin: '123e4567-e89b-12d3-a456-426614174000' gibi bir şey üretir.",
-  "resultInterpretation": "Sonuç tamamen benzersiz 36 karakterlik bir dizeyi temsil eder. Bu verileri özel hesaplamalarınız veya biçimlendirme ihtiyaçlarınız için kullanabilirsiniz.",
+  "howItWorks": "Araç, bir Sürüm 4 UUID oluşturmak için tarayıcının yerel `crypto.randomUUID()` API'sini (veya güvenli bir Math yedeğini) kullanır. Sürüm 4 tamamen rastgele sayılara dayanır ve bunları standart 8-4-4-4-12 onaltılık dize yapısına dönüştürür.",
+  "workedExample": "Oluştur'a tıklarsınız. Araç, kripto API'sini kullanır ve şöyle bir dize üretir: `f47ac10b-58cc-4372-a567-0e02b2c3d479`. Bu dize, zamanın tam bu anına matematiksel olarak özeldir.",
+  "resultInterpretation": "Oluşturulan dize, bir veritabanında birincil anahtar, bir oturum belirteci veya bir dosya adı olarak kullanmak için tamamen güvenlidir; çakışma olasılığı son derece düşüktür.",
   "useCases": [
-    "Veritabanı birincil anahtarları",
-    "Oturum takibi",
-    "Hareket halindeyken oluşturma düğmesini hızlı bir şekilde işleyin"
+    "Veritabanı Mimarisi: Dağıtılmış bir SQL veya NoSQL veritabanında kullanıcı kayıtları için benzersiz Birincil Anahtarlar oluşturma.",
+    "API Geliştirme: Güvenli işlem işleme için benzersiz istek kimlikleri veya idempotentlik anahtarları oluşturma.",
+    "Dosya Depolama: Kullanıcı tarafından yüklenen resimleri veya belgeleri, mevcut bir dosyanın yanlışlıkla üzerine yazılmaması için adlandırmak."
   ],
   "tipsAndLimitations": [
-    "V4 UUID'ler rastgeledir; V1 UUID'ler MAC adresini ve saatini kullanır.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Sürüm 4 UUID'ler tamamen rastgeledir ve kullanıcı veya oluşturulma zamanına dair hiçbir tanımlanabilir bilgi içermez (Sürüm 1'in aksine).",
+    "Bir çarpışma (aynı UUID'nin iki kez üretilmesi) teknik olarak mümkün olsa da, olasılık sıfıra çok yakın olduğu için yazılım mühendisliğinde güvenle göz ardı edilir."
   ],
   "faq": [
     {
-      "question": "What are the chances of a collision?",
-      "answer": "Astronomically low, essentially zero in practical applications."
+      "question": "UUID ile GUID arasındaki fark nedir?",
+      "answer": "Pratik bir fark yoktur. UUID (Evrensel Benzersiz Tanımlayıcı) standart internet mühendisliği terimidir, GUID (Küresel Benzersiz Tanımlayıcı) ise geleneksel olarak Microsoft tarafından kullanılan terimdir. Format aynıdır."
     },
     {
-      "question": "Is the UUID / GUID Generator free to use?",
-      "answer": "Yes, our UUID / GUID Generator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Versiyon 4 kullanmak için en iyi versiyon mu?",
+      "answer": "Evet, neredeyse tüm modern yazılım geliştirme için. Versiyon 4 tamamen rastgele olduğundan, eski sürümlerin bilgisayarınızın MAC adresini gömmesinin aksine güvenli ve öngörülemezdir."
     }
   ],
   "relatedTools": [
-    "json biçimlendirici",
-    "base64-kodlama-kod çözme",
-    "url-kodlama-kod çözme"
+    "password-generator",
+    "hash-generator",
+    "random-number-generator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "UUID / GUID Oluşturucu arayüzü ekran görüntüsü",
-  "ogImageText": "UUID / GUID Oluşturucu"
+  "cta": "Güvenli UUID'leri anında oluşturun!",
+  "disclaimer": "UUID'ler tamamen istemci tarafında, tarayıcı kriptografi API'leri kullanılarak oluşturulur. Hiçbir zaman sunucularımıza iletilmez veya sunucularımızda depolanmazlar.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "UUID Oluşturucu aracı sürüm 4 dizelerini gösteriyor",
+  "ogImageText": "UUID Oluşturucu"
 }

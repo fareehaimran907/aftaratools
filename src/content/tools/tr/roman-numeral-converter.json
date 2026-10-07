@@ -1,55 +1,80 @@
 {
-  "seoTitle": "Romen Rakamıyla Dönüştürücü",
-  "metaDescription": "Sayıları Romen rakamlarına dönüştürün.",
-  "h1": "Romen Rakamıyla Dönüştürücü",
-  "primaryKeyword": "roma rakamı dönüştürücü",
+  "seoTitle": "Roma Rakamı Çevirici – Rakamları Roma Rakamlarına Çevir",
+  "metaDescription": "Ücretsiz çevrimiçi Roma Rakamı Çevirici. Standart sayıları (1-3999) anında Roma rakamlarına dönüştürün veya tam tersini yapın. Kuralları kolayca öğrenin.",
+  "h1": "Roma Rakamı Çevirici",
+  "primaryKeyword": "roma rakamı çevirici",
   "secondaryKeywords": [
-    "Roma rakamı dönüştürücü çevrimiçi",
-    "ücretsiz roma rakamı dönüştürücü",
-    "en iyi romen rakamı dönüştürücü"
+    "sayıyı roma rakamına",
+    "roma rakamını sayıya",
+    "roma rakamı hesaplayıcı",
+    "roma rakamına çevir",
+    "roma rakamı çeviri",
+    "roma rakamları nasıl yazılır",
+    "romen rakamı çevirici"
   ],
-  "slug": "roma rakamı-dönüştürücü",
-  "intro": "Standart sayıları klasik Romen rakamlarına çevirin veya tam tersini yapın.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "roma-rakamlari-cevirici",
+  "intro": "Eski bir anıtın üzerindeki tarihi mi çözmek istiyorsunuz, bir video prodüksiyonu için stilize bir telif hakkı yılı mı yazacaksınız, yoksa anlamlı bir tarihi dövme mi yaptıracaksınız? Ücretsiz çevrimiçi Roma Rakamı Çeviricimiz, standart Arap rakamları (1, 2, 3) ile klasik Roma rakamları (I, II, III) arasında anında, çift yönlü çeviri sağlar. Sadece bir sayı veya Roma rakamı girin; aracımız sayfayı yeniden yüklemeye veya bir hesapla düğmesine tıklamaya gerek kalmadan dönüşümü anında halleder. İster tarihi metinleri deşifre etmeniz, ister yasal belgeleri biçimlendirmeniz veya klasik bir saat kadranı tasarlamanız gereksin, bu araç standart çıkarma gösterimi (subtractive notation) kurallarına göre matematiksel olarak mükemmel ve dilbilgisel olarak doğru Roma rakamı biçimlendirmesi sağlar.",
+  "whatIs": "Roma Rakamı Çevirici, standart Arap rakamlarını (her gün kullandığımız 1, 2, 3 gibi sayılar) Roma rakamlarına (I, V, X, L, C, D, M gibi harfleri kullanan eski Roma sistemi) ve tam tersine dönüştüren özel, çift işlevli bir yardımcı programdır. Roma rakamı sistemi antik Roma'da ortaya çıktı ve Geç Orta Çağ'a kadar Avrupa çapında sayıları yazmanın olağan yolu olarak kaldı. Modern ondalık sistemden farklı olarak, Roma rakamları büyük ölçüde konum tabanlı değildir ve sıfır için bir sembol içermezler. Bunun yerine, değerleri belirtmek için Latin alfabesindeki harflerin kombinasyonlarını kullanırlar. Çıkarma gösterimi kuralları (daha büyük bir değerden önce daha küçük bir değerin yerleştirilmesinin 4 için IV gibi bir çıkarmayı gösterdiği durumlarda) nedeniyle bu rakamları anlamak ve doğru yazmak zor olabilir. Bu dönüştürücü süreci otomatikleştirerek, bu tarihi sembolleri okurken veya yazarken asla hata yapmamanızı sağlar.",
   "howToUse": [
-    "Belirlenen giriş alanına roma rakamınızı girin.",
-    "Ondalık tam sayı gibi ikincil parametreleri sağlayın.",
-    "Eşdeğer arapça veya roma numarasını oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Geçiş düğmelerini kullanarak istediğiniz dönüştürme modunu seçin: 'Sayıdan Roma Rakamına' (Number to Roman) veya 'Roma Rakamından Sayıya' (Roman to Number).",
+    "'Sayıdan Roma Rakamına' modu için, giriş alanına 1 ile 3999 arasında standart bir tam sayı girin.",
+    "'Roma Rakamından Sayıya' modu için, giriş alanına geçerli Roma rakamı karakterlerini (I, V, X, L, C, D, M) yazın. Araç büyük/küçük harfe duyarlı değildir.",
+    "Siz yazarken araç dönüştürülen sonucu anında büyük sonuç panelinde gösterecektir. Tıklamanız gereken bir 'Hesapla' düğmesi yoktur.",
+    "Geçerli aralığın (1-3999) dışında bir sayı veya geçersiz bir Roma karakteri girerseniz, araç anında bir hata mesajı gösterecektir."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Bu dönüştürücü, seçilen moda bağlı olarak iki farklı ayrıştırma (parsing) algoritması kullanarak çalışır. Sayıdan Roma Rakamına dönüştürme için araç, en büyükten en küçüğe doğru sıralanmış önceden tanımlanmış bir sembol arama haritası (M=1000, CM=900, D=500, CD=400, C=100, XC=90, L=50, XL=40, X=10, IX=9, V=5, IV=4, I=1) kullanır. Giriş numarası boyunca yinelenir, mümkün olan en büyük değeri tekrar tekrar çıkarır ve sayı sıfıra ulaşana kadar sonuç dizesine (string) karşılık gelen Roma sembolünü ekler. Roma Rakamından Sayıya dönüştürme için, giriş dizesini soldan sağa tarar. Daha büyük bir rakamdan hemen önce daha küçük bir rakam görünürse, araç daha küçük değeri çıkarır (çıkarma gösterimi); aksi takdirde, değeri çalışan toplama ekler. Tüm işlem anında ve güvenli sonuçlar için yerel olarak tarayıcınızda çalışır.",
+  "workedExample": "Standart 2024 sayısını manuel olarak Roma rakamlarına dönüştürelim. En büyük sembol olan M (1000) ile başlıyoruz. 2024 iki 1000 içerir, bu nedenle 2000'i (MM) alırız ve 24 kalır. Daha sonra, 24'e uyan en büyük sembolü ararız, bu da X'tir (10). İki 10 içerir, bu nedenle 20'yi (XX) alırız ve 4 kalır. Son olarak, 4'ün sembolü IV'tür. Bu parçaları birleştirirsek MM + XX + IV = MMXXIV elde ederiz. Şimdi MCMXCIX Roma rakamını deşifre edelim. M = 1000. CM, daha büyük (M=1000) öncesinde daha küçük bir rakamdır (C=100), bu yüzden 1000 - 100 = 900. XC, C(100) öncesinde X(10) demektir, yani 100 - 10 = 90. IX, X(10) öncesinde I(1) demektir, yani 10 - 1 = 9. Hepsini toplarsak: 1000 + 900 + 90 + 9 = 1999.",
+  "resultInterpretation": "Dönüştürülen sonuç, sonuç panelinde büyük ve okunması kolay bir yazı tipiyle belirgin bir şekilde görüntülenir. Roma rakamlarına dönüştürülürken, çıktı, rakamların tarihi doğasını yansıtmak için klasik bir serif yazı tipi kullanacaktır. Standart sayılara dönüştürülürken ise net, tek aralıklı (monospaced) bir yazı tipi kullanılır. Araç, standart çıkarma gösterimini sıkı bir şekilde uygular, bu da arka arkaya dört aynı karakteri asla göremeyeceğiniz anlamına gelir (örneğin, 4 her zaman IV'tür, bu aracın oluşturmadığı bazı geleneksel saat kadranları dışında asla IIII değildir). Girişiniz geçersiz veya aralık dışındaysa, sonuç paneli, girişinizi düzeltmeniz için size rehberlik edecek kırmızı metinli bir hata mesajını açıkça görüntüleyecektir.",
   "useCases": [
-    "Super Bowl sayılarını okuma",
-    "Dövme tarihleri",
-    "Hareket halindeyken hızla romen rakamını işleme"
+    "Dövmeler ve Vücut Sanatı: Anlamlı bir tarihin (yıl dönümü veya doğum yılı gibi) kalıcı mürekkep haline getirilmeden önce mükemmel bir şekilde çevrildiğinden emin olmak.",
+    "Medya Üretimi: Filmlerin, televizyon şovlarının ve video oyunlarının bitiş jeneriği için telif hakkı yıllarını biçimlendirmek (ör. Telif Hakkı MMXXIV).",
+    "Tarih ve Eğitim: Öğrencilerin ve tarihçilerin tarihi binalar, anıtlar, eski kitaplar ve el yazmalarındaki tarihleri ​​deşifre etmelerine yardımcı olmak.",
+    "Tasarım ve Tipografi: Klasik saat kadranları, saat yüzleri veya romanlar ve raporlar için stilize bölüm başlıkları oluşturmak.",
+    "Etkinlik Planlama: Super Bowl, Olimpiyat Oyunları veya WrestleMania gibi önemli ve tekrarlanan etkinlikler için sayıları biçimlendirmek.",
+    "Yasal ve Resmi Belgeler: Resmi belgelerdeki ana hatları (outlines), ekleri veya maddeleri yapılandırmak için Roma rakamlarını kullanmak."
   ],
   "tipsAndLimitations": [
-    "Standart Roma rakamları genellikle 3.999'u aşmaz.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Standart Roma rakamları sıfır kavramı için bir sembol içermez ve negatif sayıları da desteklemezler.",
+    "Geleneksel Roma rakamı sistemi 3.999'da (MMMCMXCIX) en üst seviyeye çıkar. Daha büyük sayıları dönüştürmek, standart web klavyelerinde desteklenmeyen özel gösterimler (1.000 ile çarpmak için üst çizgi - vinculum çubuğu gibi) gerektirir.",
+    "Roma rakamlarını girerken giriş alanı büyük/küçük harfe duyarlı değildir. 'mcmxcix' veya 'MCMXCIX' yazabilirsiniz ve araç bunu doğru şekilde işleyecektir.",
+    "Bazı tarihi metinler zaman zaman kuralları çiğneseler de (örneğin, 4'ü IV yerine IIII olarak yazmak), bu araç standart çıkarma gösterimine kesinlikle uyar.",
+    "Kesirler desteklenmez; çevirici yalnızca tam sayıları işler."
   ],
   "faq": [
     {
-      "question": "Is there a zero in Roman numerals?",
-      "answer": "No, the concept of zero did not exist in this system."
+      "question": "7 temel Roma rakamı sembolü nelerdir?",
+      "answer": "Yedi temel sembol ve değerleri şunlardır: I (1), V (5), X (10), L (50), C (100), D (500) ve M (1000)."
     },
     {
-      "question": "Is the Roman Numeral Converter free to use?",
-      "answer": "Yes, our Roman Numeral Converter is completely free and requires no registration."
+      "question": "4 neden IIII yerine IV olarak yazılır?",
+      "answer": "Standart Roma rakamları, alandan tasarruf etmek ve tekrarı azaltmak için çıkarma gösterimi adı verilen bir kural kullanır. Daha küçük bir rakamı daha büyük bir rakamın önüne yerleştirmek çıkarma işlemini gösterir. Yani, I'i (1) V'nin (5) önüne koymak 5 - 1 = 4 demektir. Benzer şekilde 9 da IX'dur."
     },
     {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Neden 3999'dan büyük sayıları dönüştüremiyorum?",
+      "answer": "En büyük standart Roma rakamı sembolü M'dir (1000). Standart gösterim, arka arkaya üçten fazla aynı sembolü kullanmamanızı emrettiğinden, standart harflerle yazabileceğiniz en büyük sayı MMMCMXCIX'tir (3999). Daha büyük sayılarda geleneksel olarak üst çizgi (vinculum) kullanılıyordu ki bunu standart klavyelerde yazmak zordur."
+    },
+    {
+      "question": "Bu araç küçük harf Roma rakamlarını destekliyor mu?",
+      "answer": "Evet, Roma'dan Sayıya dönüştürürken giriş alanı büyük/küçük harfe tamamen duyarsızdır. Büyük ve küçük harfleri serbestçe karıştırabilirsiniz."
+    },
+    {
+      "question": "Sıfır için bir Roma rakamı var mı?",
+      "answer": "Hayır, antik Romalıların sıfır kavramını temsil edecek bir rakamı yoktu. Metinde bu fikri ifade etmeleri gerekirse 'nulla' (hiç) gibi kelimeler kullanıyorlardı."
+    },
+    {
+      "question": "Çevirilerim gizli tutuluyor mu?",
+      "answer": "Evet. Tüm dönüştürme işlemleri tamamen yerel olarak web tarayıcınızda gerçekleşir. Giriş verilerinizin hiçbiri sunucularımıza gönderilmez veya buralarda saklanmaz."
     }
   ],
   "relatedTools": [
-    "uzunluk dönüştürücü",
-    "ağırlık dönüştürücü",
-    "yükseklik dönüştürücü"
+    "decimal-to-binary",
+    "binary-to-decimal",
+    "hex-to-decimal",
+    "number-base-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Romen Rakamıyla Dönüştürücü",
-  "ogImageText": "Romen Rakamıyla Dönüştürücü"
+  "cta": "Tarihi bir tarihi hızlı bir şekilde çözmeniz veya şık bir telif hakkı yılı tasarlamanız mı gerekiyor? Anında, matematiksel olarak mükemmel bir çeviri için sayınızı veya Roma rakamınızı yukarıya girin.",
+  "disclaimer": "Bu araç, standart çıkarımlı Roma rakamı kurallarına sıkı sıkıya uyar ve 1 ile 3999 arasındaki sayıları işler. Eğitim, tasarım ve genel kullanım için mükemmel şekilde uygun olsa da, standart olmayan tarihi varyantları (saat kadranlarında yaygın olarak kullanılan 'IIII' gibi) veya 4.000 ve üzeri sayılar için gereken vinculum gösterimini desteklemez.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Bir giriş alanı ve dönüştürülmüş sonucu gösteren Roma Rakamı Çevirici arayüzü",
+  "ogImageText": "Roma Rakamı Çevirici"
 }

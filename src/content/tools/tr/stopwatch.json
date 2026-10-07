@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Kronometre",
-  "metaDescription": "Basit ve doğru bir çevrimiçi kronometre.",
-  "h1": "Kronometre",
+  "seoTitle": "Ücretsiz Çevrimiçi Kronometre - Tur Süreleri ile Hassas Zamanlayıcı",
+  "metaDescription": "Ücretsiz, kullanımı kolay çevrimiçi kronometre. Zamanı hassasiyetle takip edin, tur sürelerini kaydedin ve aktivitelerinizi verimli bir şekilde yönetin.",
+  "h1": "Çevrimiçi Kronometre",
   "primaryKeyword": "çevrimiçi kronometre",
   "secondaryKeywords": [
-    "Kronometre çevrimiçi",
-    "ücretsiz Kronometre",
-    "en iyi Kronometre"
+    "turlu kronometre",
+    "hassas zamanlayıcı",
+    "dijital kronometre",
+    "zaman takipçisi"
   ],
   "slug": "kronometre",
-  "intro": "Tur desteğiyle zamanı milisaniyeye kadar takip edin.",
-  "whatIs": "Bu araç nedir?",
+  "intro": "Herhangi bir aktivite için geçen tam süreyi ölçmek üzere güvenilir bir araca mı ihtiyacınız var? Ücretsiz çevrimiçi kronometremiz, süreyi milisaniyesine kadar izlemek için basit ama güçlü bir çözüm sunar. Egzersiz rutininizi zamanlıyor, bir bulmacayı çözmek için geçen süreyi kaydediyor, bir sürat koşusunu takip ediyor veya çalışma oturumlarınızı izliyor olun, bu kronometre doğrudan tarayıcınızda anında sonuç verir. Kayıt gerekmez ve indirilecek hiçbir yazılım yoktur. Okunması kolay rakamlar ve tek tıklamalı tur (lap) özelliği ile her senaryoda sorunsuz çalışma ve hassas izleme için tasarlanmıştır.",
+  "whatIs": "Kronometre, başlat düğmesine basıldığı andan durdurulduğu ana kadar geçen süreyi ölçmek için tasarlanmış dijital bir saattir. Günün geçerli saatini söyleyen standart bir saatin aksine, kronometre tamamen süreye ve aralıklara odaklanır. Çevrimiçi kronometremiz saatleri, dakikaları, saniyeleri ve milisaniyeleri gösteren yüksek çözünürlüklü bir ekrana sahiptir ve bu da onu aşırı hassasiyet gerektiren etkinlikler için mükemmel hale getirir. Ayrıca genel ölçümü kesintiye uğratmadan ara süreleri kaydetmenize olanak tanıyan ve onu spor, bilim ve üretkenlik takibi için ideal kılan bir tur işlevi de içerir.",
   "howToUse": [
-    "Belirlenen giriş alanına başlat düğmenizi girin.",
-    "Tur düğmesi gibi ikincil parametreleri sağlayın.",
-    "Dakika, saniye ve milisaniyeden oluşan bir sayaç oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Süreyi ölçmeye başlamak için 'Başlat' düğmesine tıklayın.",
+    "Kronometre çalışırken, ara tur sürelerini kaydetmek için 'Tur' düğmesine (Bayrak simgesi) tıklayın.",
+    "Süreyi geçici olarak durdurmak için 'Duraklat' düğmesine tıklayın.",
+    "Süreyi temizlemek ve baştan başlamak için 'Sıfırla' düğmesine tıklayın."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Kronometre, doğru zaman takibini sağlamak için cihazınızın dahili sistem saatini yüksek çözünürlüklü JavaScript zamanlayıcıları (ör. `performance.now()`) ile birlikte kullanır. 'Başlat'a tıkladığınızda kesin bir zaman damgası kaydeder. Saat çalışırken, mevcut saat ile başlangıç zaman damgası arasındaki farkı sürekli olarak hesaplayarak tarayıcı gecikmelerinden kaynaklanan tutarsızlıkları en aza indirir. 'Tur' düğmesine bastığınızda araç, ana sayaç kesintisiz devam ederken geçerli zaman damgasını kaydeder, önceki turdan itibaren süreyi hesaplar ve bunu devam eden bir listeye ekler. Bu yöntem, ara turların işlenmesinden dolayı genel zaman ölçümünüzün tehlikeye atılmamasını garanti eder.",
+  "workedExample": "Bir koşu pistinde antrenman yaptığınızı ve dört turu zamanlamak istediğinizi düşünün. Koşunuza başlarken 'Başlat'a basarsınız. Kronometre 00:00:00.00'dan yukarı saymaya başlar. İlk turu tamamladıktan sonra 'Tur'a dokunursunuz; ana saat işlemeye devam ederken araç 'Tur 1: 01:15.23'ü kaydeder. İkinci turdan sonra tekrar 'Tur'a basarsınız ve bu, yalnızca o ikinci turda harcanan süreyi ve ayrıca o noktaya kadarki toplam süreyi kaydeder. Dört turun tamamını bitirdikten sonra 'Durdur'a basarsınız. Artık koşunuzun tam toplam süresini ve her bir bölümü tamamlamanızın ne kadar sürdüğünün ayrıntılı bir dökümünü görebilirsiniz.",
+  "resultInterpretation": "Ana ekran geçen toplam süreyi gösterir. Tur özelliğini kullandıysanız, aşağıda genellikle tur numarasını, o belirli turun bireysel süresini ve o noktadaki kümülatif toplam süreyi detaylandıran yapılandırılmış bir liste göreceksiniz. Bu, zaman içindeki temponuzdaki veya performansınızdaki dalgalanmaları analiz etmenize olanak tanır. Örneğin, bir koşucu üçüncü turunun ilk turundan önemli ölçüde daha yavaş olduğunu fark edebilir. Bitirdiğinizde 'Sıfırla' düğmesi tüm verileri temizler ve saati sıfıra döndürerek bir sonraki zamanlama göreviniz için anında hazır hale getirir.",
   "useCases": [
-    "Spor zamanlaması",
-    "Görev ölçümü",
-    "Hareket halindeyken hızlı bir şekilde başlat düğmesini işleyin"
+    "Spor ve Atletizm: Sprintlerin, yüzme turlarının veya genel egzersiz süresinin tutulması.",
+    "Sunumlar: Ayrılan süre sınırı içinde kalmanızı sağlamak için bir konuşmanın provasının yapılması.",
+    "Üretkenlik: Belirli bir iş görevinin tamamlanmasının tam olarak ne kadar sürdüğünün takip edilmesi."
   ],
   "tipsAndLimitations": [
-    "Tarayıcı kısıtlaması arka planda milisaniye hassasiyetini etkileyebilir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Maksimum doğruluğu sağlamak için tarayıcı sekmenizi uyku moduna almaktan veya pencereyi uzun süre küçültmekten kaçının.",
+    "Maksimum doğruluğu sağlamak için tarayıcı sekmenizi uyku moduna almaktan veya pencereyi uzun süre küçültmekten kaçının."
   ],
   "faq": [
     {
-      "question": "Kronometrenin kullanımı ücretsiz mi?",
-      "answer": "Evet, Kronometremizin kullanımı tamamen ücretsizdir."
+      "question": "Bu kronometre milisaniyesine kadar doğru mu?",
+      "answer": "Evet, hassasiyet için süreyi saniyenin yüzde birine kadar hesaplamak için cihazın dahili saatini kullanır."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Sekme değiştirirsem kronometre çalışmaya devam eder mi?",
+      "answer": "Evet, süre mutlak zaman damgalarına göre hesaplanır, yani sekme arka plana gitse bile mükemmel derecede doğru kalır."
     }
   ],
   "relatedTools": [
-    "yaş hesaplayıcı",
-    "tarih farkı-hesaplayıcı",
-    "tarihler arasındaki günler"
+    "countdown-timer",
+    "pomodoro-timer",
+    "time-duration-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kronometre",
-  "ogImageText": "Kronometre"
+  "cta": "Kronometreyi başlatın ve sürenizi takip edin!",
+  "disclaimer": "Bu araç, cihazınızın dahili saatine ve tarayıcı performansına dayanır. Çok kritik zamanlama senaryoları için kullanmayın.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Çevrimiçi Kronometre Arayüzü",
+  "ogImageText": "Ücretsiz Çevrimiçi Kronometre"
 }

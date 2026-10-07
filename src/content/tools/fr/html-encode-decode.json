@@ -8,7 +8,7 @@
     "encodeur/décodeur HTML gratuit",
     "meilleur encodeur/décodeur HTML"
   ],
-  "slug": "html-encoder-décoder",
+  "slug": "encodeur-decodeur-html",
   "intro": "Utilisez notre outil d'encodeur/décodeur HTML en ligne gratuit. Il échappe aux entités HTML en fonction de vos entrées.",
   "whatIs": "Le HTML Encoder/Decoder est un utilitaire en ligne qui échappe aux entités HTML. Il traite votre texte brut et fournit du texte sécurisé pour le rendu dans le DOM.",
   "howToUse": [
@@ -45,10 +45,12 @@
     }
   ],
   "relatedTools": [
-    "formateur json",
-    "base64-encoder-décoder",
-    "url-encoder-décoder"
+    "url-encode-decode",
+    "base64-encode-decode",
+    "markdown-editor"
   ],
+  "cta": "Encodez votre HTML en toute sécurité maintenant !",
+  "disclaimer": "Cet outil échappe les cinq principaux caractères HTML (&, <, >, \", '). Pour une sécurité stricte, utilisez des bibliothèques de sanitation complètes côté serveur.",
   "lastReviewed": "2026-09-29",
   "imageAlt": "Capture d'écran de l'interface de l'encodeur/décodeur HTML",
   "ogImageText": "Encodeur/décodeur HTML"

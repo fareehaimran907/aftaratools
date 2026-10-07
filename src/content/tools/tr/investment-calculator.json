@@ -1,55 +1,41 @@
 {
-  "seoTitle": "Yatırım Hesaplayıcı",
-  "metaDescription": "Potansiyel yatırım getirilerini hesaplayın.",
+  "seoTitle": "Yatırım Hesaplayıcı - ROI ve Gelecek Değeri Hesapla",
+  "metaDescription": "Ücretsiz yatırım hesaplayıcı. İlk yatırımlara ve düzenli katkılara göre gelecekteki servetinizi, bileşik faizi ve yatırım getirinizi (ROI) tahmin edin.",
   "h1": "Yatırım Hesaplayıcı",
-  "primaryKeyword": "yatırım hesaplayıcısı",
+  "primaryKeyword": "yatırım hesaplayıcı",
   "secondaryKeywords": [
-    "Çevrimiçi Yatırım Hesaplayıcı",
-    "ücretsiz Yatırım Hesaplayıcı",
-    "En İyi Yatırım Hesaplayıcı"
+    "roi hesaplayıcı",
+    "gelecek değer hesaplama",
+    "yatırım getirisi"
   ],
-  "slug": "yatırım hesaplayıcı",
-  "intro": "Yatırımlarınızın zaman içinde ne kadar büyüyebileceğini tahmin edin.",
-  "whatIs": "Bu araç nedir?",
-  "howToUse": [
-    "Başlangıç ​​bakiyenizi belirlenen giriş alanına girin.",
-    "Aylık katkılar gibi ikincil parametreleri sağlayın.",
-    "Bileşik faizle gelecekteki değeri oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
-  ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
-  "useCases": [
-    "401 bin planlama",
-    "Borsa tahmini",
-    "Hareket halindeyken başlangıç ​​bakiyesini hızla işleyin"
-  ],
-  "tipsAndLimitations": [
-    "Piyasa getirileri dalgalanıyor; oran yalnızca tahmini bir ortalamadır.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
-  ],
+  "slug": "yatirim-hesaplama",
+  "intro": "Geleceği planlamak, paranızın nasıl büyüyebileceğini anlamakla başlar. Hesaplayıcımız, portföyünüzün gelecekteki değerini tahmin etmenize yardımcı olur.",
+  "whatIs": "Yatırım hesaplayıcı, yatırımların gelecekteki değerini tahmin etmek için bileşik faiz kullanan finansal bir araçtır.",
+  "howToUse": "İlk Yatırımınızı girin. Aylık Katkınızı girin. Beklenen Yıllık Getiri Oranını girin. Yıl olarak süreyi girin. 'Hesapla'ya tıklayın.",
+  "howItWorks": "Hesaplayıcı, hem anapara hem de düzenli mevduatlar için bileşik faiz formülünü kullanarak tahmini toplam değeri verir.",
+  "workedExample": "10.000 TL ile başlayıp, 20 yıl boyunca ayda 500 TL yatırıp %7 getiri beklediğinizi varsayalım. Toplam katkı: 130.000 TL. Kazanılan faiz: 171.940 TL. Son bakiye: 301.940 TL.",
+  "resultInterpretation": "Sonuçlar Toplam Gelecek Değeri, Toplam Katkılar ve Toplam Faiz olarak ayrılır.",
+  "useCases": "Emeklilik: tasarruflarınızı tahmin edin. Hedefler: aylık ne kadar tasarruf edeceğinizi bulun.",
+  "tipsAndLimitations": "Getiri oranı bir tahmindir. Enflasyon alım gücünü düşürür. Vergiler ve kesintiler gerçek getiriyi azaltır.",
   "faq": [
     {
-      "question": "Yatırım Hesaplayıcının kullanımı ücretsiz midir?",
-      "answer": "Evet, Yatırım Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Kullanılacak iyi bir getiri oranı nedir?",
+      "answer": "Çeşitlendirilmiş hisse senedi portföyleri için genellikle muhafazakar bir tahmin olarak yıllık %6 ila %8 kullanılır."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
-    }2026-09-30
+      "question": "Bileşik faiz nasıl çalışır?",
+      "answer": "Başlangıç paranız üzerinden getiri kazanırsınız ARTI daha önce kazandığınız getiriler üzerinden de getiri kazanırsınız."
+    }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "maaş-hesaplayıcı",
-    "indirim hesaplayıcı"
+    "compound-interest-calculator",
+    "loan-calculator",
+    "percentage-increase-calculator",
+    "currency-converter"
   ],
-  "lastReviewed": "2023-10-25",
-  "imageAlt": "Yatırım Hesaplayıcı",
+  "cta": "Finansal geleceğinizi bugün planlamaya başlayın!",
+  "disclaimer": "Sadece eğitim amaçlıdır. Finansal tavsiye değildir.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Yatırım hesaplayıcı",
   "ogImageText": "Yatırım Hesaplayıcı"
 }

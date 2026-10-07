@@ -1,55 +1,75 @@
 {
-  "seoTitle": "Kalkulator Pecahan",
-  "metaDescription": "Menambah, mengurangi, mengalikan, dan membagi pecahan.",
+  "seoTitle": "Kalkulator Pecahan – Tambah, Kurang, Kali & Bagi Pecahan",
+  "metaDescription": "Kalkulator pecahan online gratis. Menambah, mengurangi, mengalikan, dan membagi pecahan dengan mudah. Dapatkan hasil instan dalam pecahan yang disederhanakan dan desimal.",
   "h1": "Kalkulator Pecahan",
   "primaryKeyword": "kalkulator pecahan",
   "secondaryKeywords": [
-    "kalkulator pecahan online",
-    "kalkulator pecahan gratis",
-    "kalkulator pecahan terbaik"
+    "tambah pecahan",
+    "kurang pecahan",
+    "kali pecahan",
+    "bagi pecahan",
+    "penyelesai pecahan",
+    "kalkulator matematika pecahan",
+    "pecahan ke desimal"
   ],
-  "slug": "kalkulator pecahan",
-  "intro": "Selesaikan persamaan matematika yang melibatkan pecahan dengan mudah melalui penyederhanaan langkah demi langkah.",
-  "whatIs": "Alat apa ini?",
+  "slug": "kalkulator-pecahan",
+  "intro": "Kesulitan dengan matematika pecahan yang rumit? Baik Anda sedang membantu pekerjaan rumah, menyesuaikan resep, atau mengerjakan proyek pertukangan, Kalkulator Pecahan online gratis kami membuat pekerjaan dengan pecahan menjadi mudah. Tambah, kurang, kali, atau bagi dua pecahan apa pun secara instan. Alat ini secara otomatis mencari penyebut yang sama, melakukan perhitungan, menyederhanakan hasil ke istilah terkecilnya, dan bahkan memberikan nilai desimal yang setara. Ucapkan selamat tinggal pada kesalahan matematika manual dan perhitungan yang membosankan—dapatkan jawaban yang sempurna secara matematis secara real-time.",
+  "whatIs": "Kalkulator pecahan adalah utilitas matematika khusus yang dirancang untuk melakukan operasi aritmatika standar (penjumlahan, pengurangan, perkalian, dan pembagian) secara khusus pada pecahan. Pecahan mewakili bagian dari suatu keseluruhan, yang terdiri dari pembilang (angka atas yang menunjukkan berapa banyak bagian yang Anda miliki) dan penyebut (angka bawah yang menunjukkan menjadi berapa bagian yang sama keseluruhan dibagi). Melakukan aritmatika pada pecahan secara manual bisa rumit, terutama saat menambah atau mengurangi pecahan dengan penyebut yang berbeda, karena memerlukan pencarian kelipatan persekutuan terkecil (KPK). Alat ini mengotomatiskan seluruh proses, termasuk langkah terakhir yaitu mengurangi (atau menyederhanakan) pecahan ke suku terkecil yang mungkin dengan mencari faktor persekutuan terbesar (FPB).",
   "howToUse": [
-    "Masukkan pembilang Anda ke dalam kolom input yang ditentukan.",
-    "Berikan parameter sekunder seperti penyebut.",
-    "Klik tombol hitung atau kirim untuk menghasilkan hasil pecahan yang disederhanakan.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Temukan dua area input pecahan, yang dipisahkan oleh menu tarik-turun (dropdown) untuk operator matematika.",
+    "Masukkan pembilang (angka atas) dan penyebut (angka bawah) untuk pecahan pertama Anda di sebelah kiri.",
+    "Pilih operasi aritmatika yang ingin Anda lakukan: Penjumlahan (+), Pengurangan (-), Perkalian (×), atau Pembagian (÷) dari tarik-turun di tengah.",
+    "Masukkan pembilang dan penyebut untuk pecahan kedua Anda di sebelah kanan.",
+    "Alat ini akan secara instan menghitung dan menampilkan hasil saat Anda mengetik. Tidak ada tombol 'Hitung' yang perlu diklik."
   ],
-  "howItWorks": "Bagaimana cara kerjanya",
-  "workedExample": "Contoh",
-  "resultInterpretation": "Interpretasi",
+  "howItWorks": "Kalkulator kami bekerja dengan menjalankan algoritma matematika standar di browser Anda. Untuk penjumlahan dan pengurangan, alat ini secara matematis menentukan penyebut yang sama (dengan mengalikan kedua penyebut) dan menyesuaikan pembilang sebelum menambah atau menguranginya. Untuk perkalian, alat ini mengalikan pembilang satu sama lain dan penyebut satu sama lain. Untuk pembagian, alat ini mengalikan pecahan pertama dengan kebalikan (versi terbalik) dari pecahan kedua. Setelah hasil mentah dihitung, alat menggunakan algoritma Euclidean untuk menemukan Faktor Persekutuan Terbesar (FPB) dari pembilang dan penyebut, mengurangi pecahan ke bentuk paling sederhana. Terakhir, alat ini membagi pembilang dengan penyebut untuk menampilkan nilai desimal yang setara.",
+  "workedExample": "Mari kita tambahkan 1/4 dan 2/3 secara manual. Pertama, kita butuh penyebut yang sama. Kelipatan persekutuan terkecil dari 4 dan 3 adalah 12. Kita ubah 1/4 dengan mengalikan atas dan bawah dengan 3, menjadi 3/12. Kita ubah 2/3 dengan mengalikan atas dan bawah dengan 4, menjadi 8/12. Sekarang kita tambahkan pembilangnya: 3 + 8 = 11. Hasilnya adalah 11/12. \n\nSekarang mari kita kalikan 2/5 dengan 3/4. Kita cukup mengalikan pembilang (2 × 3 = 6) dan penyebut (5 × 4 = 20), memberi kita 6/20. Untuk menyederhanakan, kita temukan faktor persekutuan terbesar dari 6 dan 20, yaitu 2. Kita bagi atas dan bawah dengan 2, menghasilkan jawaban akhir yang disederhanakan: 3/10 (atau 0.3 dalam desimal).",
+  "resultInterpretation": "Hasil akhir ditampilkan secara menonjol di sebelah kanan tanda sama dengan sebagai pecahan yang disederhanakan sepenuhnya. Jika hasilnya adalah bilangan bulat, hasil akan ditampilkan sebagai angka tunggal tanpa penyebut. Tepat di bawah panel pecahan, Anda akan melihat bagian 'DESIMAL', yang menunjukkan nilai desimal yang sama dari pecahan Anda (dibulatkan menjadi 6 tempat desimal jika itu adalah desimal berulang). Jika Anda mencoba membagi angka apa pun dengan nol (misalnya, memasukkan '0' di penyebut apa pun), kalkulator akan langsung menampilkan peringatan 'Kesalahan: Dibagi nol' untuk mencegah operasi matematika yang tidak mungkin.",
   "useCases": [
-    "Pengukuran pengerjaan kayu",
-    "Penskalaan kue",
-    "Memproses pembilang dengan cepat saat bepergian"
+    "Memasak & Memanggang: Dengan mudah menaikkan atau menurunkan skala resep (misalnya, membagi dua resep yang membutuhkan 3/4 cangkir tepung).",
+    "Pertukangan & Konstruksi: Tambahkan atau kurangi pengukuran dalam inci (seperti 5/8\" + 3/16\") untuk potongan dan bangunan yang presisi.",
+    "Pendidikan & Pekerjaan Rumah: Siswa dapat memeriksa keakuratan jawaban matematika pecahan manual mereka.",
+    "Proyek DIY: Menghitung panjang bahan, ukuran kain, atau volume cat yang melibatkan pengukuran pecahan.",
+    "Keuangan & Akuntansi: Menangani saham pecahan (fractional shares), membagi biaya, atau menghitung pengeluaran pro-rata."
   ],
   "tipsAndLimitations": [
-    "Pecahan harus diturunkan ke tingkat terendahnya.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "Kalkulator saat ini hanya menerima bilangan bulat utuh sebagai input untuk pembilang dan penyebut. Alat ini tidak menerima desimal di dalam pecahan.",
+    "Pecahan campuran (seperti 1 1/2) harus diubah menjadi pecahan biasa (seperti 3/2) sebelum memasukkannya ke dalam alat.",
+    "Pecahan negatif didukung sepenuhnya. Cukup tambahkan tanda minus (-) ke pembilang.",
+    "Output desimal dibulatkan hingga maksimal 6 tempat desimal agar mudah dibaca.",
+    "Penyebut tidak boleh bernilai nol. Mencoba memasukkan nol sebagai penyebut akan menghasilkan kesalahan 'Dibagi nol'."
   ],
   "faq": [
     {
-      "question": "Bagaimana cara mengalikan pecahan?",
-      "answer": "Kalikan di bagian atas, lalu di bagian bawah."
+      "question": "Apakah kalkulator ini menyederhanakan pecahan secara otomatis?",
+      "answer": "Ya. Kalkulator ini menggunakan algoritma matematika untuk menemukan Faktor Persekutuan Terbesar (FPB) dan secara otomatis mengurangi setiap jawaban ke bentuk yang paling sederhana."
     },
     {
-      "question": "Apakah Kalkulator Pecahan gratis untuk digunakan?",
-      "answer": "Ya, Kalkulator Pecahan kami sepenuhnya gratis dan tidak memerlukan registrasi."
+      "question": "Bagaimana cara menghitung pecahan campuran (mis., 2 3/4)?",
+      "answer": "Untuk menghitung pecahan campuran, Anda harus mengubahnya menjadi pecahan biasa terlebih dahulu. Misalnya, 2 3/4 menjadi 11/4 (karena 2 × 4 = 8, dan 8 + 3 = 11). Masukkan 11 sebagai pembilang dan 4 sebagai penyebut."
     },
     {
-      "question": "Apakah ini berfungsi pada perangkat seluler?",
-      "answer": "Ya, alat ini sepenuhnya responsif dan berfungsi sempurna di semua ponsel cerdas dan tablet."
+      "question": "Bisakah saya menggunakan pecahan negatif?",
+      "answer": "Ya. Anda dapat melakukan perhitungan dengan pecahan negatif dengan menempatkan tanda minus (-) di depan pembilang."
+    },
+    {
+      "question": "Apa yang terjadi jika saya memasukkan 0 di penyebut?",
+      "answer": "Dalam matematika, pembagian dengan nol tidak terdefinisi. Kalkulator akan segera mendeteksi hal ini dan menampilkan pesan 'Kesalahan: Dibagi nol'."
+    },
+    {
+      "question": "Seberapa akurat konversi desimal tersebut?",
+      "answer": "Nilai desimal yang setara sangat akurat tetapi dibatasi hingga maksimum 6 tempat desimal untuk mencegah desimal berulang tanpa henti merusak tata letak halaman."
     }
   ],
   "relatedTools": [
-    "kalkulator rasio",
-    "kalkulator rata-rata",
-    "kalkulator gpa"
+    "average-calculator",
+    "percentage-calculator",
+    "grade-calculator",
+    "final-grade-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator Pecahan",
+  "cta": "Perlu menyelesaikan masalah pecahan yang rumit dengan cepat? Masukkan pecahan Anda di atas untuk mendapatkan jawaban yang disederhanakan dan nilai desimal secara instan.",
+  "disclaimer": "Alat ini ditujukan untuk penghitungan matematika umum dan tujuan pendidikan. Meskipun kami mengupayakan keakuratan mutlak, selalu periksa ulang pengukuran kritis secara manual untuk aplikasi konstruksi, teknik, atau keuangan.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka kalkulator pecahan menunjukkan bidang input untuk dua pecahan dan menu drop-down operator",
   "ogImageText": "Kalkulator Pecahan"
 }

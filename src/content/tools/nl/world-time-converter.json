@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Wereldtijdconversie",
-  "metaDescription": "Converteer tijd in verschillende steden over de hele wereld.",
-  "h1": "Wereldtijdconversie",
-  "primaryKeyword": "wereldtijdconvertor",
+  "seoTitle": "Wereldtijd Converter - Tijdzones Wereldwijd Vergelijken",
+  "metaDescription": "Converteer direct tijden tussen meerdere wereldwijde tijdzones. Vergelijk de live tijd of kies een specifieke datum en tijd.",
+  "h1": "Wereldtijd Converter",
+  "primaryKeyword": "wereldtijd converter",
   "secondaryKeywords": [
-    "Wereldtijdconversie online",
-    "gratis Wereldtijdconversie",
-    "beste wereldtijdconverter"
+    "tijdzones vergelijken",
+    "globale tijd",
+    "hoe laat is het in",
+    "wereldtijd converter"
   ],
-  "slug": "wereld-tijd-omzetter",
-  "intro": "Bekijk de huidige tijd in grote steden over de hele wereld.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "slug": "wereldtijd-converter",
+  "intro": "Wilt u de exacte huidige tijd weten in steden over de hele wereld? Of u nu een gesprek plant met collega's in verschillende landen, een livestream plant voor een internationaal publiek of gewoon even wilt kijken hoe het gaat met een familielid in het buitenland, het is essentieel om de exacte lokale tijd overal ter wereld te weten. Onze wereldtijdconverter geeft de huidige live-tijd weer voor elke stad of tijdzone die u selecteert, in realtime bijgewerkt. Het is de snelste manier om te zien hoe laat het is op de planeet zonder handmatig de tijdzones vanaf uw eigen lokale tijd te hoeven berekenen. Alles draait rechtstreeks in uw browser met behulp van de klok van uw apparaat, dus er is geen account nodig en er worden nooit gegevens naar een server gestonden.",
+  "whatIs": "De Wereldtijdconverter is een realtime hulpprogramma dat de huidige lokale tijd weergeeft in elke geselecteerde stad of tijdzone over de hele wereld. In tegenstelling tot een statische tijdzone-offsetgrafiek waarbij u handmatig uren van UTC moet optellen of aftrekken, doet deze tool al het werk voor u door de systeemklok van uw apparaat te gebruiken en de juiste UTC-offset toe te passen voor de geselecteerde locatie. Het ondersteunt alle grote wereldsteden en IANA-tijdzones, en het verwerkt automatisch de zomertijd (DST) zodat u altijd de juiste huidige tijd ziet. Dit maakt het van onschatbare waarde voor externe medewerkers, internationale bedrijven, frequente reizigers en iedereen die regelmatig over tijdzones communiceert.",
   "howToUse": [
-    "Voer de tijd van uw bronstad in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals de doelstad.",
-    "Klik op de knop Berekenen of Verzenden om de lokale tijd op de bestemming te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Bekijk de 'Live Tijd' modus voor gesynchroniseerde klokken.",
+    "Klik op 'Aangepaste Tijd' voor een specifieke datum.",
+    "Gebruik het keuzemenu om tijdzones toe te voegen."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "De tool leest de huidige datum en tijd van uw browser via de JavaScript Date API. Wanneer u een doelstad of tijdzone selecteert, past de converter de overeenkomstige UTC-offset toe—inclusief eventuele actieve zomertijdaanpassingen—om de exacte lokale tijd op die locatie te berekenen. Het display wordt elke seconde bijgewerkt, zodat u altijd naar een live klok kijkt, niet naar een verouderde momentopname. Alle tijdzonegegevens zijn afgeleid van de IANA Time Zone Database, wat de gezaghebbende wereldwijde bron is voor tijdzoneregels, historische wijzigingen en zomertijdschema's. Omdat de berekening volledig in uw browser plaatsvindt, is het resultaat onmiddellijk en is uw privacy volledig beschermd.",
+  "workedExample": "Stel, het is momenteel 14.30 uur op 1 oktober 2026 in New York (EDT, UTC-4). U wilt de huidige tijd weten in Tokio, Japan (JST, UTC+9). Het verschil in offset is +13 uur. De converter voegt 13 uur toe aan 14.30 uur en geeft 3.30 uur op 2 oktober 2026 in Tokio weer. Als u ook Londen controleert (BST, UTC+1 in de zomer), geeft de converter 19.30 uur weer op 1 oktober 2026. Al deze conversies gebeuren automatisch en worden elke seconde bijgewerkt, zodat u altijd de live huidige tijd in elke stad bekijkt.",
+  "resultInterpretation": "De weergegeven tijd is de exacte huidige lokale tijd in de geselecteerde stad of tijdzone, rekening houdend met eventuele actieve aanpassingen aan de zomertijd. De datum wordt ook weergegeven omdat een tijdsverschil in de tijdzone het resultaat naar de volgende of vorige kalenderdag kan verplaatsen. Wanneer het bijvoorbeeld maandag om 23.00 uur is in New York, is het in Londen al dinsdag om 04.00 uur. Let altijd op de volledige datum- en tijdweergave om planningsfouten rond middernacht te voorkomen. Als u meerdere steden tegelijkertijd moet vergelijken, kunt u meerdere tijdzones aan de weergave toevoegen en ze allemaal in realtime zien bijwerken.",
   "useCases": [
-    "Het plannen van internationale bijeenkomsten",
-    "Reisplanning",
-    "Onderweg snel de tijd van de bronstad verwerken"
+    "Internationale Vergaderingen: Overlappende kantooruren vinden.",
+    "Reisplanning: Weten hoe laat u landt.",
+    "Live Evenementen: Globale uitzendingen omrekenen."
   ],
   "tipsAndLimitations": [
-    "De zomertijd verandert automatisch op basis van de huidige regels.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Zomertijd wisselt per land op verschillende datums.",
+    "تأكد دائمًا من تحديد المدينة الصحيحة إذا كان هناك عدة مدن بنفس الاسم."
   ],
   "faq": [
     {
-      "question": "Is de World Time Converter gratis te gebruiken?",
-      "answer": "Ja, onze World Time Converter is volledig gratis te gebruiken."
+      "question": "Houdt het automatisch rekening met zomertijd?",
+      "answer": "Ja, via de native tijdzone-database van uw browser."
     },
     {
-      "question": "Werkt dit op mobiel?",
-      "answer": "Ja, het is volledig responsief en werkt op alle apparaten."
-    },
-    {
-      "question": "Moet ik iets downloaden?",
-      "answer": "Nee, het werkt volledig in uw browser, zonder enige installatie."
+      "question": "هل يتم احتساب التوقيت الصيفي؟",
+      "answer": "نعم، يتم ضبط الوقت تلقائيًا للتوقيت الصيفي عند الاقتضاء بناءً على قواعد المنطقة الزمنية المحددة."
     }
   ],
   "relatedTools": [
-    "leeftijd-calculator",
-    "datumverschil-calculator",
-    "dagen-tussen-data"
+    "time-zone-converter",
+    "unix-timestamp-converter",
+    "time-difference-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Wereldtijdconversie",
-  "ogImageText": "Wereldtijdconversie"
+  "cta": "Begin nu met het vergelijken van wereldtijden!",
+  "disclaimer": "Afhankelijk van de geüpdatete tijdzone-database in uw browser.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Screenshot van de Wereldtijd Converter",
+  "ogImageText": "Wereldtijd Converter"
 }

@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Dünya Saati Dönüştürücü",
-  "metaDescription": "Dünya çapında farklı şehirlerde zamanı dönüştürün.",
-  "h1": "Dünya Saati Dönüştürücü",
-  "primaryKeyword": "dünya saati dönüştürücü",
+  "seoTitle": "Dünya Saatleri Dönüştürücü - Saat Dilimlerini Karşılaştır",
+  "metaDescription": "Birden fazla küresel saat dilimi arasında anında dönüşüm yapın. Canlı saati karşılaştırın veya belirli bir tarih seçin.",
+  "h1": "Dünya Saatleri Dönüştürücü",
+  "primaryKeyword": "dünya saatleri dönüştürücü",
   "secondaryKeywords": [
-    "Dünya Saati Dönüştürücüsü çevrimiçi",
-    "ücretsiz Dünya Saatleri Dönüştürücü",
-    "en iyi Dünya Saati Dönüştürücüsü"
+    "saat dilimlerini karşılaştır",
+    "küresel saat çevirici",
+    "şu an saat kaç",
+    "dünya saati dönüştürücü"
   ],
-  "slug": "dünya saati dönüştürücü",
-  "intro": "Dünyanın her yerindeki büyük şehirlerdeki geçerli saati kontrol edin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "dunya-saati-cevirici",
+  "intro": "Dünyanın dört bir yanındaki şehirlerdeki tam olarak şu anki saati bilmeniz mi gerekiyor? Farklı ülkelerdeki meslektaşlarınızla bir arama planlıyor, uluslararası bir izleyici kitlesi için canlı bir yayın planlıyor veya sadece yurtdışındaki bir aile üyenizi kontrol ediyor olun, dünyanın herhangi bir yerindeki tam yerel saati bilmek çok önemlidir. Dünya Saati Dönüştürücümüz, seçtiğiniz herhangi bir şehir veya saat dilimi için güncel canlı saati gerçek zamanlı olarak güncelleyerek görüntüler. Kendi yerel saatinizden farkları zihninizden hesaplamak zorunda kalmadan gezegenin herhangi bir yerinde saatin kaç olduğunu görmenin en hızlı yoludur. Her şey cihazınızın saatini kullanarak doğrudan tarayıcınızda çalışır, bu nedenle hesap gerekmez ve bir sunucuya hiçbir zaman veri gönderilmez.",
+  "whatIs": "Dünya Saati Dönüştürücü, dünyanın dört bir yanında seçilen herhangi bir şehirde veya saat diliminde geçerli yerel saati gösteren gerçek zamanlı bir yardımcı programdır. UTC'den manuel olarak saat eklemenizi veya çıkarmanızı gerektiren statik bir saat dilimi farkı grafiğinden farklı olarak bu araç, cihazınızın sistem saatine bağlanıp seçilen konum için uygun UTC farkını uygulayarak tüm işi sizin için yapar. Tüm büyük dünya şehirlerini ve IANA saat dilimlerini destekler ve her zaman doğru geçerli saati görebilmeniz için Yaz Saati Uygulaması (DST) geçişlerini otomatik olarak halleder. Bu, onu uzak çalışanlar, uluslararası işletmeler, sık seyahat edenler ve saat dilimleri arasında düzenli olarak iletişim kuran herkes için paha biçilmez kılar.",
   "howToUse": [
-    "Kaynak şehrin saatini belirlenen giriş alanına girin.",
-    "Hedef şehir gibi ikincil parametreleri sağlayın.",
-    "Hedefteki yerel saati oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Senkronize saatler için 'Canlı Saat' modunu kullanın.",
+    "Belirli bir tarih için 'Özel Saat'e tıklayın.",
+    "Açılır menüyü kullanarak daha fazla saat dilimi ekleyin."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, tarayıcınızın geçerli tarihini ve saatini JavaScript Date API aracılığıyla okur. Bir hedef şehir veya saat dilimi seçtiğinizde, dönüştürücü o konumdaki tam yerel saati hesaplamak için herhangi bir aktif DST ayarlaması dahil olmak üzere karşılık gelen UTC farkını uygular. Ekran her saniye güncellenir, böylece her zaman eski bir ana değil canlı bir saate bakarsınız. Tüm saat dilimi verileri, saat dilimi kuralları, tarihsel değişiklikler ve DST programları için yetkili küresel kaynak olan IANA Saat Dilimi Veritabanından (Olson veritabanı olarak da bilinir) türetilmiştir. Hesaplama tamamen tarayıcınızda gerçekleştiğinden sonuç anında alınır ve gizliliğiniz tamamen korunur.",
+  "workedExample": "Diyelim ki şu anda 1 Ekim 2026'da New York'ta (EDT, UTC-4) saat 14:30. Japonya'nın Tokyo kentindeki (JST, UTC+9) geçerli saati bilmek istiyorsunuz. Fark, +13 saattir. Dönüştürücü 14:30'a 13 saat ekler ve Tokyo'da 2 Ekim 2026 saat 03:30'u gösterir. Ayrıca Londra'yı (yaz aylarında BST, UTC+1) kontrol ederseniz dönüştürücü 1 Ekim 2026 saat 19:30'u gösterir. Tüm bu dönüştürmeler otomatik olarak gerçekleşir ve her saniye güncellenir, bu nedenle her şehirdeki canlı geçerli saate her zaman bakarsınız.",
+  "resultInterpretation": "Görüntülenen saat, etkin Yaz Saati Uygulaması ayarlamaları dikkate alınarak seçilen şehir veya saat dilimindeki tam geçerli yerel saattir. Bir saat dilimi farkı sonucu bir sonraki veya önceki takvim gününe itebileceğinden tarih de gösterilir. Örneğin, Pazartesi günü New York'ta saat 23:00 iken Londra'da Salı günü saat 04:00'tür. Gece yarısı sınırlarına yayılan planlama hatalarından kaçınmak için her zaman tam tarih ve saat görünümüne dikkat edin. Birden çok şehri aynı anda karşılaştırmanız gerekirse, ekrana birkaç saat dilimi ekleyebilir ve hepsinin gerçek zamanlı olarak güncellendiğini görebilirsiniz.",
   "useCases": [
-    "Uluslararası toplantıların planlanması",
-    "Seyahat planlaması",
-    "Hareket halindeyken kaynak şehir saatini hızla işleyin"
+    "Uluslararası Toplantılar: Uzak ekipler için uygun saatleri bulmak.",
+    "Seyahat Planlama: Gideceğiniz yere tam olarak saat kaçta ineceğinizi bilmek.",
+    "Canlı Etkinlikler: Küresel yayınları yerel saatinize dönüştürmek."
   ],
   "tipsAndLimitations": [
-    "Yaz saati uygulaması geçerli kurallara göre otomatik olarak değişir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Yaz Saati Uygulaması değişiklikleri her ülkede farklı günlerde olduğundan bu tarihlere dikkat edin.",
+    "تأكد دائمًا من تحديد المدينة الصحيحة إذا كان هناك عدة مدن بنفس الاسم."
   ],
   "faq": [
     {
-      "question": "Dünya Saatleri Dönüştürücüsünü kullanmak ücretsiz midir?",
-      "answer": "Evet, Dünya Saatleri Dönüştürücümüzün kullanımı tamamen ücretsizdir."
+      "question": "Yaz saati uygulamasına (DST) göre otomatik olarak ayarlanıyor mu?",
+      "answer": "Evet, yerel tarayıcı saat dilimi veritabanlarını kullanarak DST kuralları otomatik olarak uygulanır."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "هل يتم احتساب التوقيت الصيفي؟",
+      "answer": "نعم، يتم ضبط الوقت تلقائيًا للتوقيت الصيفي عند الاقتضاء بناءً على قواعد المنطقة الزمنية المحددة."
     }
   ],
   "relatedTools": [
-    "yaş hesaplayıcı",
-    "tarih farkı-hesaplayıcı",
-    "tarihler arasındaki günler"
+    "time-zone-converter",
+    "unix-timestamp-converter",
+    "time-difference-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Dünya Saati Dönüştürücü",
-  "ogImageText": "Dünya Saati Dönüştürücü"
+  "cta": "Dünya saatlerini şimdi karşılaştırmaya başlayın!",
+  "disclaimer": "Bu araç, tarayıcınızın güncel saat dilimi veritabanına güvenir.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Dünya Saatleri Dönüştürücü ekran görüntüsü",
+  "ogImageText": "Dünya Saatleri Dönüştürücü"
 }

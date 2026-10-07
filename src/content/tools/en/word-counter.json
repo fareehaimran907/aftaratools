@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Word Counter",
-  "metaDescription": "Free online Word Counter. Count words and characters.",
+  "seoTitle": "Word Counter - Count Words, Characters & Sentences",
+  "metaDescription": "Free online Word Counter. Instantly count words, characters, sentences, and paragraphs in your text. Perfect for essays, tweets, and SEO.",
   "h1": "Word Counter",
   "primaryKeyword": "word counter",
   "secondaryKeywords": [
-    "word counter online",
-    "free word counter",
-    "best word counter"
+    "count words online",
+    "character counter",
+    "word count tool",
+    "how many words"
   ],
   "slug": "word-counter",
-  "intro": "Use our free online Word Counter tool. It counts words and characters based on your inputs.",
-  "whatIs": "The Word Counter is an online utility that counts words and characters. It processes your text block and provides totals for words, characters, and paragraphs.",
+  "intro": "Writing an essay with a strict word limit, or optimizing a blog post for SEO? Our free Word Counter provides instant, accurate metrics for words, characters, and sentences.",
+  "whatIs": "The Word Counter is a text analysis tool. It processes large blocks of text to provide statistical data including total word count, character count (with and without spaces), sentence count, and paragraph count.",
   "howToUse": [
-    "Enter your text block into the designated input field.",
-    "Provide any secondary parameters like count metrics.",
-    "Click the calculate or submit button to generate totals for words, characters, and paragraphs.",
-    "Copy or review the resulting output for your needs."
+    "Paste or type your text directly into the large input box.",
+    "The metrics at the top of the screen will update instantly.",
+    "Check the detailed breakdown for average word length and reading time."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your text block. It instantly processes the data to output totals for words, characters, and paragraphs.",
-  "workedExample": "For example: 100 words, 550 characters.",
-  "resultInterpretation": "The result represents totals for words, characters, and paragraphs. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "The tool uses JavaScript Regular Expressions (Regex) to parse the text. It counts words by looking for spaces and punctuation boundaries. It counts sentences by identifying terminal punctuation (periods, exclamation marks) followed by spaces.",
+  "workedExample": "You type: 'Hello world. How are you?' The tool calculates: 5 Words, 27 Characters (with spaces), 2 Sentences, and an estimated reading time of 2 seconds.",
+  "resultInterpretation": "The statistics help you perfectly tailor your text length to meet specific publishing guidelines, academic requirements, or social media limits.",
   "useCases": [
-    "Writing essays",
-    "Adhering to Twitter character limits",
-    "Quickly processing text block on the go"
+    "Academia: Ensuring a college essay meets a strict 1,000-word minimum requirement.",
+    "SEO & Marketing: Keeping meta descriptions under 160 characters and blog posts over 1,500 words.",
+    "Social Media: Making sure a tweet or Instagram caption fits within platform limits."
   ],
   "tipsAndLimitations": [
-    "Hyphenated words are usually counted as a single word.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "Hyphenated words (like 'state-of-the-art') are generally counted as a single word by standard algorithms.",
+    "URLs and email addresses are also treated as single words."
   ],
   "faq": [
     {
-      "question": "Does it count spaces?",
-      "answer": "It provides both 'characters with spaces' and 'without spaces'."
+      "question": "What counts as a character?",
+      "answer": "A character is any single letter, number, punctuation mark, or symbol. A space is also technically a character, which is why we provide counts both 'with spaces' and 'without spaces'."
     },
     {
-      "question": "Is the Word Counter free to use?",
-      "answer": "Yes, our Word Counter is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "How is reading time calculated?",
+      "answer": "Reading time is estimated based on the average adult reading speed of about 200 to 250 words per minute."
     }
   ],
   "relatedTools": [
     "character-counter",
-    "lorem-ipsum-generator",
-    "bionic-reading-converter"
+    "text-case-converter",
+    "markdown-editor"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Word Counter interface screenshot",
+  "cta": "Count your words instantly!",
+  "disclaimer": "Analysis happens entirely within your browser. We do not save or store your text.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Word Counter interface showing text statistics",
   "ogImageText": "Word Counter"
 }

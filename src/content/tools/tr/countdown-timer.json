@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Geri Sayım Sayacı",
-  "metaDescription": "Belirli bir zamandan geriye doğru saymak için bir zamanlayıcı ayarlayın.",
-  "h1": "Geri Sayım Sayacı",
+  "seoTitle": "Çevrimiçi Geri Sayım Sayacı - Ücretsiz Zamanlayıcı",
+  "metaDescription": "Herhangi bir süre için çevrimiçi geri sayım sayacı ayarlayın. Ders çalışmak, yemek pişirmek veya zaman yönetimi için mükemmel.",
+  "h1": "Çevrimiçi Geri Sayım Sayacı",
   "primaryKeyword": "geri sayım sayacı",
   "secondaryKeywords": [
-    "Geri Sayım Sayacı çevrimiçi",
-    "ücretsiz Geri Sayım Sayacı",
-    "en iyi Geri Sayım Sayacı"
+    "çevrimiçi sayaç",
+    "zamanlayıcı kur",
+    "süre ölçer",
+    "süre ölçer"
   ],
-  "slug": "geri sayım sayacı",
-  "intro": "Görevleriniz için bu basit çevrimiçi geri sayım sayacını kullanın.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "geri-sayim-araci",
+  "intro": "Belirli bir zamana geri saymak için basit ve güvenilir bir yola mı ihtiyacınız var? Ücretsiz çevrimiçi geri sayım sayacımız, birkaç saniyeden birkaç saate kadar istediğiniz süreyi ayarlamanıza olanak tanır ve kalan süreyi hassas bir şekilde izler. Yemek pişirmek, egzersiz yapmak, zamanlı aralıklarla çalışmak, toplantılar yürütmek veya katı bir zaman sınırı gerektiren herhangi bir görevi yönetmek için mükemmeldir. Geri sayım tamamen tarayıcınızda çalışır, bu nedenle yüklenecek bir uygulama veya oluşturulacak bir hesap yoktur. Süreniz dolduğu anda net bir sesli uyarı sizi bilgilendirir, böylece saate bakmak yerine görevinize odaklanabilirsiniz.",
+  "whatIs": "Geri sayım sayacı, belirtilen bir süreden geriye doğru sıfıra sayan dijital bir saattir. Geçen süreyi ölçmek için yukarı sayan bir kronometrenin aksine, bir geri sayım sayacı önceden belirlenmiş bir süre sona erdiğinde sizi uyarmak için tasarlanmıştır. Uygulamamız, istediğiniz saati, dakikayı ve saniyeyi ayarladığınız, başlata bastığınız ve gerisini sayacın halletmesine izin verdiğiniz temiz, dikkat dağıtmayan bir arayüz sağlar. Duraklatma, devam etme ve sıfırlama işlevlerini destekler ve geri sayım sıfıra ulaştığında sesli bir bildirim sağlar. Bu, onu sabit bir süre geçtikten sonra uyarılmanız gereken herhangi bir aktivite için ideal bir araç haline getirir.",
   "howToUse": [
-    "Belirlenen giriş alanına saatlerinizi girin.",
-    "Dakika gibi ikincil parametreleri sağlayın.",
-    "Sıfıra doğru görsel bir saat oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "İstediğiniz saat, dakika ve saniyeyi girin.",
+    "Geri sayımı başlatmak için 'Başlat' butonuna tıklayın.",
+    "Zamanlayıcıyı geçici olarak durdurmak için 'Duraklat' butonunu kullanın.",
+    "Orijinal süreye dönmek için 'Sıfırla' butonuna tıklayın."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Başlat'a bastığınızda, zamanlayıcı geçerli sistem saatini kaydeder ve geri sayımın sıfıra ulaşması gereken kesin gelecek anı hesaplar. Daha sonra, her bir tikte mevcut zamanı hedeflenen bitiş zamanından çıkararak kalan süreyi hesaplamak için yüksek frekanslı bir JavaScript aralığı kullanır. Bu yaklaşım, tarayıcı sekmesi kısıtlamasına ve küçük zamanlama tutarsızlıklarına karşı dayanıklı olduğu için bir sayacı azaltmaktan daha doğrudur. Ekran her 100 milisaniyede bir güncellenerek sorunsuz bir geri sayım deneyimi sunar. Kalan süre sıfıra ulaştığında, zamanlayıcı Web Audio API'sini kullanarak bir sesli uyarı tetikler ve ekranın durumunu değiştirerek tamamlandığını görsel olarak belirtir.",
+  "workedExample": "Tam olarak 12 dakika kaynama süresi gerektiren makarna pişirdiğinizi hayal edin. Geri sayım sayacını 00:12:00'ye (0 saat, 12 dakika, 0 saniye) ayarlayıp başlata basarsınız. Ekran hemen geri saymaya başlar: 11:59, 11:58 vb. Altı dakika sonra makarnayı kontrol edersiniz, bu yüzden duraklat'a basarsınız. Sayaç 06:00'da donar. Hazır olduğunuzda devam et'e basarsınız ve sayaç 06:00'dan devam eder. 00:00'a ulaştığında, makarnanın hazır olduğunu söyleyen net bir uyarı sesi çalar. Daha sonra zamanlanmış bir sonraki göreve hazırlanmak için sıfırla'ya basabilirsiniz.",
+  "resultInterpretation": "Zamanlayıcı ekranı, kalan süreyi SS:DD:SS biçiminde, 00:00:00'a kadar geri sayarak gösterir. Çalışırken, ekran saniyenin her bir kesirinde sorunsuz bir şekilde güncellenir, böylece ne kadar zaman kaldığını her zaman doğru bir şekilde görebilirsiniz. Geri sayım sıfıra ulaştığında, ekranın durumu tamamlandığını belirtecek şekilde değişir ve sizi bilgilendirmek için bir sesli uyarı çalar. Herhangi bir noktada zamanlayıcıyı duraklattıysanız, duvar saatinde geçen toplam süre, ayarlanan süreden daha uzun olacaktır, ancak gerçek geri sayım süresi tam olarak yapılandırdığınız şekilde kalır. Bu ayrım, dinlenme duraklamalarının kasıtlı olduğu aralıklı antrenman gibi aktiviteler için önemlidir.",
   "useCases": [
-    "Pişirme süreleri",
-    "Odaklanma oturumları",
-    "Hareket halindeyken saatleri hızla işleme"
+    "Yemek Pişirme: Yemeğinizin yanmaması için tarifi tam olarak zamanlamak.",
+    "Ders Çalışma: Ara vermeden önce 45 dakikalık bir odaklanma bloğu ayarlamak.",
+    "Egzersiz: Egzersiz aralıklarınızı veya dinlenme sürelerinizi zamanlamak."
   ],
   "tipsAndLimitations": [
-    "Doğru alarmlar için tarayıcı sekmesinin aktif kalması gerekir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Tarayıcı sekmesini açık ve aktif tutun; arka plan sekmeleri gecikmeye neden olabilir.",
+    "Tarayıcı sekmesini açık ve aktif tutun; arka plan sekmeleri gecikmeye neden olabilir."
   ],
   "faq": [
     {
-      "question": "Geri Sayım Sayacı'nın kullanımı ücretsiz mi?",
-      "answer": "Evet, Geri Sayım Sayacımızın kullanımı tamamen ücretsizdir."
+      "question": "Süre bittiğinde alarm çalacak mı?",
+      "answer": "Şu anda, zamanlayıcı ekranda son derece görünür bir görsel uyarı sağlamaktadır."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Süre bittiğinde alarm çalacak mı?",
+      "answer": "Şu anda, zamanlayıcı ekranda son derece görünür bir görsel uyarı sağlamaktadır."
     }
   ],
   "relatedTools": [
-    "yaş hesaplayıcı",
-    "tarih farkı-hesaplayıcı",
-    "tarihler arasındaki günler"
+    "stopwatch",
+    "pomodoro-timer",
+    "time-difference-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Geri Sayım Sayacı",
+  "cta": "Sayacınızı ayarlayın ve geri sayıma başlayın!",
+  "disclaimer": "Bu araç tarayıcı performansınıza dayanır. Çok kritik zamanlama senaryoları için kullanmayın.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Çevrimiçi Geri Sayım Sayacı Arayüzü",
   "ogImageText": "Geri Sayım Sayacı"
 }

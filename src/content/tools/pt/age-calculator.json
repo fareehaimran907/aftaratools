@@ -1,55 +1,91 @@
 {
-  "seoTitle": "Calculadora de idade",
-  "metaDescription": "Calculadora de idade online gratuita. Calcule sua idade exata em anos, meses e dias.",
-  "h1": "Calculadora de idade",
+  "seoTitle": "Calculadora de Idade – Calcule sua idade exata em anos, meses e dias",
+  "metaDescription": "Calculadora de idade online e gratuita. Insira sua data de nascimento e descubra instantaneamente sua idade exata em anos, meses, dias e total de dias vividos.",
+  "h1": "Calculadora de Idade",
   "primaryKeyword": "calculadora de idade",
   "secondaryKeywords": [
-    "calculadora de idade on-line",
-    "calculadora de idade grátis",
-    "melhor calculadora de idade"
+    "quantos anos eu tenho",
+    "calcular minha idade",
+    "calcular idade exata",
+    "idade em anos meses e dias",
+    "calculadora de aniversário",
+    "idade a partir da data de nascimento",
+    "quantos dias eu vivi",
+    "dias para o próximo aniversário",
+    "calculadora de idade online grátis"
   ],
-  "slug": "calculadora de idade",
-  "intro": "Use nossa ferramenta online gratuita Calculadora de Idade. Ele determina a idade exata com base em suas informações.",
-  "whatIs": "A Calculadora de Idade é um utilitário online que determina a idade exata. Ele processa sua data de nascimento e fornece a diferença exata em anos, meses e dias.",
+  "slug": "calculadora-de-idade",
+  "intro": "Quer saber exatamente quantos anos você tem, até o dia? Nossa calculadora de idade gratuita fornece uma resposta precisa em segundos: anos, meses, dias, o número total de dias vividos e uma contagem regressiva até seu próximo aniversário. Todo o processamento acontece localmente no seu navegador — sua data de nascimento nunca sai do seu dispositivo.",
+  "whatIs": "Uma calculadora de idade é uma ferramenta online que mede o tempo exato transcorrido entre a data de nascimento de uma pessoa e qualquer data-alvo — geralmente hoje. Diferente de uma simples subtração de anos (2026 menos 1990 = 36), uma calculadora de idade precisa considera os anos bissextos, o número variável de dias em cada mês do calendário (28, 29, 30 ou 31) e se o dia do aniversário no mês atual já passou. O resultado é dividido em anos completos, meses completos adicionais e dias restantes, para que você conheça sua idade cronológica exata em vez de uma estimativa aproximada em anos inteiros. Nossa ferramenta também exibe dois dados bônus: o total acumulado de dias vividos (útil em contextos jurídicos, médicos e de marcos pessoais) e o número de dias restantes até o próximo aniversário.",
   "howToUse": [
-    "Insira sua data de nascimento no campo de entrada designado.",
-    "Forneça quaisquer parâmetros secundários, como a data atual.",
-    "Clique no botão calcular ou enviar para gerar a diferença exata em anos, meses e dias.",
-    "Copie ou revise a saída resultante de acordo com suas necessidades."
+    "Insira sua data de nascimento no campo 'Data de Nascimento' usando o seletor de datas ou digitando no formato AAAA-MM-DD.",
+    "Opcionalmente, defina uma 'Data-alvo' se quiser calcular sua idade em uma data passada ou futura específica.",
+    "Clique no botão 'Calcular'.",
+    "Sua idade exata é exibida em anos, meses e dias, junto com a contagem regressiva para o próximo aniversário e o total de dias vividos.",
+    "Use o botão copiar para copiar o resultado para a área de transferência ou pressione Redefinir para recomeçar."
   ],
-  "howItWorks": "Esta ferramenta opera no seu navegador aplicando algoritmos padrão à sua data de nascimento. Ele processa instantaneamente os dados para gerar a diferença exata em anos, meses e dias.",
-  "workedExample": "Por exemplo: 1º de janeiro de 1990 a 1º de janeiro de 2024 retorna exatamente 34 anos.",
-  "resultInterpretation": "O resultado representa a diferença exata em anos, meses e dias. Você pode usar esses dados para cálculos específicos ou necessidades de formatação.",
+  "howItWorks": "O algoritmo resolve (Data-alvo menos Data de nascimento) sequencialmente: primeiro conta quantos anos civis completos cabem entre as duas datas, depois quantos meses civis completos adicionais e, finalmente, os dias restantes. Quando o dia do nascimento é maior que o dia-alvo no mês, o cálculo empresta do mês anterior usando a contagem real de dias daquele mês (28, 29, 30 ou 31). Os anos bissextos — anos divisíveis por 4, exceto séculos não divisíveis por 400 — são tratados nativamente porque o código trabalha com objetos Date do JavaScript, que incorporam as regras do calendário gregoriano. O total de dias vividos é calculado como a parte inteira de (dataAlvo − dataNascimento) dividida por 86 400 000 milissegundos. A contagem regressiva do aniversário encontra a próxima ocorrência no ano atual ou seguinte e subtrai a data de hoje.",
+  "workedExample": "Exemplo: Data de nascimento = 15 de março de 1990. Data-alvo = 1º de outubro de 2026. Passo 1 — anos completos de 15/03/1990 a 15/03/2026 = 36 anos. Passo 2 — meses completos de 15/03/2026 a 15/09/2026 = 6 meses (o próximo mês completo, 15 de outubro, ultrapassa a data-alvo). Passo 3 — dias restantes de 15 de setembro a 1º de outubro = 16 dias. Resultado: 36 anos, 6 meses, 16 dias. Total de dias vividos = floor((01/10/2026 − 15/03/1990) / 86 400 000) = 13.349 dias. Próximo aniversário (15 de março de 2027): a 165 dias de 1º de outubro de 2026.",
+  "resultInterpretation": "O valor 'Anos' é sua idade completa — o número que aparece em documentos oficiais e formulários legais. 'Meses' é a contagem de meses civis completos adicionais desde seu último aniversário. 'Dias' representa os dias restantes do mês parcial após o último mês completo. Juntos, esses três números formam sua idade cronológica exata. 'Próximo Aniversário' indica quantos dias faltam para completar seu próximo ano de vida — perfeito para contagens regressivas e planejamento de marcos. 'Dias Totais' é a contagem absoluta de dias do nascimento até a data-alvo, particularmente útil em contextos médicos (idade neonatal), pesquisa científica, verificações legais de idade e celebrações pessoais como o 10.000º dia de vida.",
   "useCases": [
-    "Verificando a idade exata dos formulários",
-    "Calculando a idade de eventos históricos",
-    "Processando rapidamente a data de nascimento em qualquer lugar"
+    "Preencher campos de idade em formulários e requerimentos oficiais que exigem uma discriminação exata em anos, meses e dias.",
+    "Calcular a idade de desenvolvimento precisa de uma criança para marcos pediátricos ou datas de corte para matrícula escolar.",
+    "Verificar se alguém atende ao requisito de idade mínima para um contrato, carteira de habilitação ou aposentadoria.",
+    "Descobrir a idade de eventos históricos — por exemplo, há quanto tempo um prédio famoso foi construído.",
+    "Curiosidade pessoal: celebrar o 10.000º dia de vida ou planejar um aniversário especial.",
+    "Calcular sua idade em uma data passada específica, como quantos anos você tinha quando começou um emprego ou se casou."
   ],
   "tipsAndLimitations": [
-    "Assume o calendário gregoriano.",
-    "Certifique-se de que suas entradas estejam formatadas corretamente para obter os melhores resultados.",
-    "A ferramenta é totalmente executada no lado do cliente, garantindo que seus dados permaneçam privados."
+    "A calculadora assume o calendário gregoriano. Datas anteriores à reforma gregoriana (15 de outubro de 1582) podem não ser historicamente precisas.",
+    "Para períodos que abrangem a transição do calendário juliano para o gregoriano, consulte uma ferramenta de datas históricas especializada.",
+    "Certifique-se de que a data e hora local do seu navegador estejam corretas; o valor padrão de 'hoje' é obtido do relógio do seu dispositivo.",
+    "Se você inserir uma data de nascimento futura, a calculadora exibirá um erro — não é possível calcular uma idade negativa.",
+    "O campo 'Data-alvo' é opcional e definido por padrão como a data de hoje. Use-o para calcular sua idade em qualquer momento passado ou futuro.",
+    "Todos os cálculos são executados localmente no seu navegador via JavaScript; nenhum dado pessoal é enviado a qualquer servidor."
   ],
   "faq": [
     {
-      "question": "Isso leva em conta anos bissextos?",
-      "answer": "Sim, é totalmente responsável pelos anos bissextos."
+      "question": "Quantos anos eu tenho exatamente agora?",
+      "answer": "Insira sua data de nascimento na calculadora acima e clique em 'Calcular'. Você verá instantaneamente sua idade exata em anos, meses e dias na data de hoje, usando a data local do seu navegador."
     },
     {
-      "question": "O uso da Calculadora de Idade é gratuito?",
-      "answer": "Sim, nossa Calculadora de Idade é totalmente gratuita e não requer registro."
+      "question": "A calculadora leva em conta os anos bissextos?",
+      "answer": "Sim. O algoritmo lida completamente com anos bissextos. Aniversários de 29 de fevereiro são tratados como 1º de março em anos não bissextos para o cálculo de dias, o que é consistente com a maioria dos padrões legais e médicos mundiais."
     },
     {
-      "question": "Isso funciona em dispositivos móveis?",
-      "answer": "Sim, a ferramenta é totalmente responsiva e funciona perfeitamente em todos os smartphones e tablets."
+      "question": "Posso calcular minha idade em uma data passada ou futura?",
+      "answer": "Com certeza. Use o campo opcional 'Data-alvo' para definir qualquer data — passada ou futura. É útil para pesquisa histórica, cálculos de datas de corte legais ou projetar sua idade em um marco futuro."
+    },
+    {
+      "question": "Como os 'Dias Totais' são calculados?",
+      "answer": "Dias Totais é o número absoluto de dias entre sua data de nascimento e a data-alvo, calculado como floor((dataAlvo − dataNascimento) / 86 400 000 milissegundos). As contribuições de dias bissextos são incluídas automaticamente, pois o cálculo usa datas de calendário reais."
+    },
+    {
+      "question": "Por que minha idade aparece com um dia de diferença às vezes?",
+      "answer": "Isso pode acontecer se o relógio local do seu navegador estiver configurado em um fuso horário diferente de onde você está, ou se a meia-noite ainda não passou no seu fuso horário. A calculadora usa a data local do seu dispositivo, então verifique se seu relógio está correto."
+    },
+    {
+      "question": "O que é 'Próximo Aniversário' e como é calculado?",
+      "answer": "Mostra quantos dias faltam até seu próximo aniversário anual. A ferramenta encontra o mês e dia do seu aniversário no ano atual ou seguinte e subtrai a data de hoje. Se hoje for seu aniversário, mostra 0 ou 365/366 dias até o ano seguinte."
+    },
+    {
+      "question": "Esta ferramenta é gratuita e privada?",
+      "answer": "Sim — totalmente gratuita, sem necessidade de conta e completamente privada. Sua data de nascimento nunca sai do seu dispositivo. Todos os cálculos acontecem localmente no seu navegador usando JavaScript."
+    },
+    {
+      "question": "Posso usar esta calculadora no celular ou tablet?",
+      "answer": "Sim. A interface é totalmente responsiva e funciona em todos os smartphones, tablets e navegadores de desktop modernos. O seletor de datas se adapta à entrada por toque em dispositivos móveis."
     }
   ],
   "relatedTools": [
-    "calculadora de diferença de data",
-    "dias entre datas",
-    "dias até a calculadora"
+    "date-difference-calculator",
+    "days-between-dates",
+    "days-until-calculator",
+    "months-between-dates"
   ],
-  "lastReviewed": "29/09/2026",
-  "imageAlt": "Captura de tela da interface da calculadora de idade",
-  "ogImageText": "Calculadora de idade"
+  "cta": "Experimente a calculadora de idade agora — insira sua data de nascimento acima e descubra exatamente quanto tempo você está neste planeta, até o dia.",
+  "disclaimer": "Esta ferramenta é apenas para fins informativos e uso pessoal. Para fins legais, médicos ou oficiais, sempre verifique os cálculos de idade com documentação oficial, como uma certidão de nascimento.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Ferramenta calculadora de idade mostrando um campo de data de nascimento e resultados em anos, meses e dias",
+  "ogImageText": "Calculadora de Idade – Anos, Meses e Dias"
 }

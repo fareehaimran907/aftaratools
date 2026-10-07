@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Generator Hash SHA1 - Algoritma Hash Aman 1",
+  "metaDescription": "Generator SHA1 Hash Online Gratis. Hitung segera digest SHA-1 heksadesimal 40-karakter untuk string teks. Ideal untuk commit Git dan checksum.",
+  "h1": "Generator Hash SHA1",
+  "primaryKeyword": "generator hash sha1",
+  "secondaryKeywords": [
+    "generator sha1 online",
+    "teks ke sha1",
+    "hitung sha1",
+    "jumlah pemeriksaan sha1"
+  ],
+  "slug": "generator-hash-sha1",
+  "intro": "Bekerja dengan repositori Git atau memverifikasi sertifikat digital lama? Generator Hash SHA1 gratis kami dengan cepat menghitung hash standar 160-bit untuk setiap string teks yang Anda sediakan.",
+  "whatIs": "Generator Hash SHA1 adalah utilitas yang menggunakan Secure Hash Algorithm 1. Ini memproses teks input dari ukuran apa pun untuk menghasilkan nilai hash 160-bit, yang biasanya ditampilkan sebagai string heksadesimal 40 karakter.",
+  "howToUse": [
+    "Masukkan teks target Anda ke dalam bidang input.",
+    "Alat ini menghitung digest SHA-1 secara waktu nyata.",
+    "String heksadesimal 40 karakter ditampilkan.",
+    "Salin string untuk kebutuhan verifikasi Anda."
+  ],
+  "howItWorks": "Dikembangkan oleh NSA, algoritma SHA-1 memproses teks dalam blok 512-bit. Algoritma ini menggunakan serangkaian operasi bitwise, penjumlahan modular, dan fungsi kompresi selama 80 putaran untuk menghasilkan digest pesan akhir sebesar 160-bit.",
+  "workedExample": "Memasukkan kata 'hello'. Algoritma SHA-1 memproses teks tersebut dan menghasilkan output: `aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d`.",
+  "resultInterpretation": "Output 40-karakter adalah sidik jari digital dari teks Anda. Mengubah bahkan satu koma dalam dokumen besar akan menghasilkan string 40-karakter yang benar-benar berbeda.",
+  "useCases": [
+    "Kontrol Versi (Git): Secara manual menghasilkan atau memverifikasi hash SHA-1 yang digunakan Git untuk mengidentifikasi secara unik commit dan status file.",
+    "Verifikasi File: Memeriksa integritas file ISO yang diunduh terhadap checksum SHA-1 yang disediakan oleh penerbit.",
+    "Pengindeksan Basis Data: Membuat kunci pencarian basis data dengan panjang seragam yang cepat dari string teks dengan panjang bervariasi."
+  ],
+  "tipsAndLimitations": [
+    "SHA-1 menghasilkan 40 karakter, membuatnya sedikit lebih panjang dan sebelumnya lebih aman daripada MD5 (32 karakter).",
+    "PERINGATAN KEAMANAN: Seperti MD5, SHA-1 sekarang dianggap secara kriptografi telah hancur. Pada tahun 2017, Google berhasil melakukan serangan tabrakan terhadapnya. Jangan gunakan SHA-1 untuk hashing kata sandi modern atau sertifikat SSL."
+  ],
+  "faq": [
+    {
+      "question": "Mengapa Git masih menggunakan SHA-1 jika sudah rusak?",
+      "answer": "Git menggunakan SHA-1 terutama untuk memeriksa kerusakan data yang tidak disengaja, bukan untuk keamanan tingkat tinggi. Kemungkinan terjadinya tabrakan tidak sengaja yang merusak repositori Git hampir nol, meskipun Git secara perlahan beralih ke SHA-256."
+    },
+    {
+      "question": "Bisakah saya membalik hash SHA-1?",
+      "answer": "Tidak. Menurut desain, hashing adalah transformasi matematis satu arah. Namun, kata-kata umum yang di-hash dengan SHA-1 dapat dengan mudah dicari di database dekripsi online."
+    }
+  ],
+  "relatedTools": [
+    "sha256-hash-generator",
+    "md5-hash-generator",
+    "hash-generator"
+  ],
+  "cta": "Hitung hash SHA-1 Anda secara instan!",
+  "disclaimer": "SHA-1 telah secara kriptografis dihentikan oleh NIST. Gunakan SHA-256 untuk aplikasi yang aman yang membutuhkan ketahanan terhadap tabrakan.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka Generator Hash SHA1",
+  "ogImageText": "Generator Hash SHA1"
+}

@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Höhenkonverter",
-  "metaDescription": "Konvertieren Sie die Körpergröße von Fuß und Zoll in cm.",
-  "h1": "Höhenkonverter",
-  "primaryKeyword": "Höhenkonverter",
+  "seoTitle": "Körpergröße Rechner - cm in Fuß & Zoll",
+  "metaDescription": "Kostenloser Rechner für Körpergröße. Rechnen Sie einfach zwischen Zentimetern (cm) und Fuß + Zoll um. Perfekt für Formulare, Pässe und Fitness-Apps.",
+  "h1": "Körpergröße Rechner",
+  "primaryKeyword": "körpergröße rechner",
   "secondaryKeywords": [
-    "Höhenkonverter online",
-    "kostenloser Höhenkonverter",
-    "bester Höhenkonverter"
+    "cm in fuß und zoll",
+    "größe umrechnen",
+    "m in ft und in"
   ],
-  "slug": "Höhenkonverter",
-  "intro": "Konvertieren Sie die Körpergröße einfach zwischen metrischen und imperialen Systemen.",
-  "whatIs": "Was ist das für ein Werkzeug?",
-  "howToUse": [
-    "Geben Sie Ihre cm in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie Fuß und Zoll an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um eine korrekt formatierte Höhe zu generieren.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
-  ],
-  "howItWorks": "Wie es funktioniert",
-  "workedExample": "Beispiele",
-  "resultInterpretation": "Interpretation",
-  "useCases": [
-    "Führerscheinformulare",
-    "Medizinische Profile",
-    "Schnelle Verarbeitung von cm unterwegs"
-  ],
-  "tipsAndLimitations": [
-    "Fuß und Zoll sind keine einfache Dezimalzahl (z. B. 5,5 ist nicht 5'5\").",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten privat bleiben."
-  ],
+  "slug": "hoehen-konverter",
+  "intro": "Das Umrechnen der Körpergröße kann verwirrend sein, da das amerikanische System zwei Einheiten (Fuß und Zoll) verwendet. Unser Körpergröße-Rechner übersetzt Zentimeter sofort in Fuß und Zoll (ft/in) oder umgekehrt.",
+  "whatIs": "Ein Körpergröße-Rechner ist speziell für menschliche Körpermaße konzipiert. Im Gegensatz zu normalen Längenrechnern formatiert er die Ausgabe direkt in Fuß UND Zoll (z. B. 5'10\").",
+  "howToUse": "Von Metrisch: Größe in cm eingeben. Das Tool zeigt Fuß und Zoll an. Von Imperial: Fuß im ersten und Zoll im zweiten Feld eingeben. Das Tool zeigt Zentimeter an.",
+  "howItWorks": "1 Zoll sind 2,54 cm, 1 Fuß sind 12 Zoll. Um cm in ft/in umzurechnen, wird der Wert durch 30,48 geteilt, um die Füße zu erhalten. Der Rest wird in Zoll umgerechnet.",
+  "workedExample": "Sie sind 178 cm groß. Das Tool rechnet: 178 / 2,54 = 70,078 Zoll insgesamt. 70 / 12 = 5 mit Rest 10. Also sind 178 cm genau 5 Fuß und 10 Zoll (5'10\").",
+  "resultInterpretation": "Das Ergebnis wird im Standard-Mensch-Format ausgegeben. Für den Alltag wird bei Zoll meist auf ganze Zahlen gerundet.",
+  "useCases": "Reisedokumente: Visa und US-Formulare ausfüllen. Medizinische Formulare: BMI-Berechnungen. Online-Profile: Dating-Apps oder Fitness-Tracker.",
+  "tipsAndLimitations": "Ein häufiger Fehler: 5,5 Fuß sind NICHT 5 Fuß 5 Zoll. Es sind 5 Fuß und 6 Zoll (da 0,5 Fuß = 6 Zoll). Die Körpergröße schwankt täglich um 1-2 cm.",
   "faq": [
     {
-      "question": "Ist die Nutzung des Höhenkonverters kostenlos?",
-      "answer": "Ja, die Nutzung unseres Höhenkonverters ist völlig kostenlos."
+      "question": "Was sind 180 cm in Fuß und Zoll?",
+      "answer": "180 cm sind etwa 5 Fuß 11 Zoll (5'11\")."
     },
     {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, es reagiert vollständig und funktioniert auf allen Geräten."
-    },
-    {
-      "question": "Muss ich etwas herunterladen?",
-      "answer": "Nein, es funktioniert vollständig in Ihrem Browser und erfordert keine Installation."
+      "question": "Wie rechne ich 5'9\" in cm um?",
+      "answer": "5 Fuß = 60 Zoll. 60 + 9 = 69 Zoll. 69 × 2,54 = 175,26 cm."
     }
   ],
   "relatedTools": [
-    "Längenkonverter",
-    "Gewichtsumrechner",
-    "Temperaturkonverter"
+    "length-converter",
+    "weight-converter",
+    "bmi-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Höhenkonverter",
-  "ogImageText": "Höhenkonverter"
+  "cta": "Rechnen Sie Ihre Körpergröße für jedes Formular sofort um!",
+  "disclaimer": "Für informative Zwecke. Bei medizinischem Bedarf professionelle Messgeräte verwenden.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Körpergröße Rechner zeigt cm in ft/in",
+  "ogImageText": "Körpergröße Rechner"
 }

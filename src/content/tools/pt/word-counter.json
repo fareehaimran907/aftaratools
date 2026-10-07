@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Contador de palavras",
-  "metaDescription": "Contador de palavras online gratuito. Conte palavras e caracteres.",
-  "h1": "Contador de palavras",
+  "seoTitle": "Contador de Palavras - Contar Palavras, Caracteres e Frases",
+  "metaDescription": "Contador de Palavras online gratuito. Conte instantaneamente palavras, caracteres, frases e parágrafos no seu texto. Perfeito para redações, tweets e SEO.",
+  "h1": "Contador de Palavras",
   "primaryKeyword": "contador de palavras",
   "secondaryKeywords": [
-    "contador de palavras on-line",
-    "contador de palavras grátis",
-    "melhor contador de palavras"
+    "contar palavras online",
+    "contador de caracteres",
+    "ferramenta de contagem de palavras",
+    "quantas palavras"
   ],
-  "slug": "contador de palavras",
-  "intro": "Use nossa ferramenta online gratuita de contador de palavras. Ele conta palavras e caracteres com base nas suas entradas.",
-  "whatIs": "O Word Counter é um utilitário online que conta palavras e caracteres. Ele processa seu bloco de texto e fornece totais de palavras, caracteres e parágrafos.",
+  "slug": "contador-de-palavras",
+  "intro": "Escrevendo um ensaio com um limite de palavras rigoroso, ou otimizando uma postagem de blog para SEO? Nosso Contador de Palavras gratuito fornece métricas instantâneas e precisas para palavras, caracteres e frases.",
+  "whatIs": "O Contador de Palavras é uma ferramenta de análise de texto. Ele processa grandes blocos de texto para fornecer dados estatísticos, incluindo contagem total de palavras, contagem de caracteres (com e sem espaços), contagem de frases e contagem de parágrafos.",
   "howToUse": [
-    "Insira seu bloco de texto no campo de entrada designado.",
-    "Forneça quaisquer parâmetros secundários, como métricas de contagem.",
-    "Clique no botão calcular ou enviar para gerar totais de palavras, caracteres e parágrafos.",
-    "Copie ou revise a saída resultante de acordo com suas necessidades."
+    "Cole ou digite seu texto diretamente na grande caixa de entrada.",
+    "As métricas na parte superior da tela serão atualizadas instantaneamente.",
+    "Verifique o detalhamento completo para o comprimento médio das palavras e o tempo de leitura."
   ],
-  "howItWorks": "Esta ferramenta opera em seu navegador aplicando algoritmos padrão ao seu bloco de texto. Ele processa instantaneamente os dados para gerar totais de palavras, caracteres e parágrafos.",
-  "workedExample": "Por exemplo: 100 palavras, 550 caracteres.",
-  "resultInterpretation": "O resultado representa totais de palavras, caracteres e parágrafos. Você pode usar esses dados para cálculos específicos ou necessidades de formatação.",
+  "howItWorks": "A ferramenta usa Expressões Regulares (Regex) em JavaScript para analisar o texto. Ela conta palavras procurando por espaços e limites de pontuação. Ela conta frases identificando pontuação terminal (pontos, pontos de exclamação) seguidos por espaços.",
+  "workedExample": "Você digita: 'Olá mundo. Como você está?' A ferramenta calcula: 5 palavras, 27 caracteres (com espaços), 2 frases e um tempo estimado de leitura de 2 segundos.",
+  "resultInterpretation": "As estatísticas ajudam você a ajustar perfeitamente o comprimento do seu texto para atender a diretrizes específicas de publicação, requisitos acadêmicos ou limites de mídias sociais.",
   "useCases": [
-    "Escrevendo ensaios",
-    "Aderindo aos limites de caracteres do Twitter",
-    "Processando rapidamente blocos de texto em qualquer lugar"
+    "Academia: Garantindo que um ensaio universitário atenda a um requisito mínimo rigoroso de 1.000 palavras.",
+    "SEO & Marketing: Manter meta descrições com menos de 160 caracteres e posts de blog com mais de 1.500 palavras.",
+    "Mídias Sociais: Garantir que um tweet ou legenda do Instagram caiba nos limites da plataforma."
   ],
   "tipsAndLimitations": [
-    "Palavras hifenizadas geralmente são contadas como uma única palavra.",
-    "Certifique-se de que suas entradas estejam formatadas corretamente para obter os melhores resultados.",
-    "A ferramenta é totalmente executada no lado do cliente, garantindo que seus dados permaneçam privados."
+    "Palavras com hífen (como 'state-of-the-art') geralmente são contadas como uma única palavra pelos algoritmos padrão.",
+    "URLs e endereços de e-mail também são tratados como palavras únicas."
   ],
   "faq": [
     {
-      "question": "Conta espaços?",
-      "answer": "Ele fornece 'caracteres com espaços' e 'sem espaços'."
+      "question": "O que conta como um personagem?",
+      "answer": "Um caractere é qualquer letra, número, sinal de pontuação ou símbolo individual. Um espaço também é tecnicamente um caractere, por isso fornecemos contagens tanto 'com espaços' quanto 'sem espaços'."
     },
     {
-      "question": "O uso do contador de palavras é gratuito?",
-      "answer": "Sim, nosso contador de palavras é totalmente gratuito e não requer registro."
-    },
-    {
-      "question": "Isso funciona em dispositivos móveis?",
-      "answer": "Sim, a ferramenta é totalmente responsiva e funciona perfeitamente em todos os smartphones e tablets."
+      "question": "Como o tempo de leitura é calculado?",
+      "answer": "O tempo de leitura é estimado com base na velocidade média de leitura de um adulto, que é de cerca de 200 a 250 palavras por minuto."
     }
   ],
   "relatedTools": [
-    "contador de caracteres",
-    "autogerador de internet",
-    "conversor de leitura biônica"
+    "character-counter",
+    "text-case-converter",
+    "markdown-editor"
   ],
-  "lastReviewed": "29/09/2026",
-  "imageAlt": "Captura de tela da interface do contador de palavras",
-  "ogImageText": "Contador de palavras"
+  "cta": "Conte suas palavras instantaneamente!",
+  "disclaimer": "A análise ocorre inteiramente dentro do seu navegador. Não salvamos nem armazenamos seu texto.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface do contador de palavras mostrando estatísticas de texto",
+  "ogImageText": "Contador de Palavras"
 }

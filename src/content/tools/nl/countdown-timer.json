@@ -1,51 +1,53 @@
 {
-  "seoTitle": "Afteltimer",
-  "metaDescription": "Stel een timer in om af te tellen vanaf een specifiek tijdstip.",
-  "h1": "Afteltimer",
+  "seoTitle": "Online Countdown Timer - Gratis in Gebruik",
+  "metaDescription": "Stel een online countdown timer in. Perfect voor studeren, koken, sporten of beter timemanagement.",
+  "h1": "Online afteltimer",
   "primaryKeyword": "afteltimer",
   "secondaryKeywords": [
-    "Afteltimer online",
-    "gratis afteltimer",
-    "beste afteltimer"
+    "online timer",
+    "timer instellen",
+    "aftelklok",
+    "aftelklok"
   ],
-  "slug": "afteltimer",
-  "intro": "Gebruik deze eenvoudige online afteltimer voor uw taken.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "slug": "aftel-timer",
+  "intro": "Heeft u een eenvoudige en betrouwbare manier nodig om af te tellen naar een specifiek moment in de tijd? Met onze gratis online afteltimer kunt u elke gewenste duur instellen - van een paar seconden tot meerdere uren - en de resterende tijd nauwkeurig bijhouden. Het is perfect voor koken, sporten, studeren met tijdsintervallen, het houden van vergaderingen of het beheren van taken die een strikte tijdslimiet vereisen. De afteltimer wordt volledig in uw browser uitgevoerd, dus u hoeft geen app te installeren en geen account aan te maken. Een duidelijke audiowaarschuwing stelt u op de hoogte op het moment dat uw tijd om is, zodat u zich op uw taak kunt concentreren in plaats van op de klok te letten.",
+  "whatIs": "Een afteltimer is een digitale klok die vanaf een bepaalde duur terugtelt naar nul. In tegenstelling tot een stopwatch die optelt om de verstreken tijd te meten, is een afteltimer ontworpen om u te waarschuwen wanneer een vooraf bepaalde periode is verstreken. Onze implementatie biedt een schone, afleidingsvrije interface waar u de gewenste uren, minuten en seconden instelt, op start drukt en de timer de rest laat doen. Het ondersteunt pauze-, hervat- en resetfuncties en geeft een hoorbare melding wanneer het aftellen nul bereikt. Dit maakt het het ideale hulpmiddel voor elke activiteit waarbij u gewaarschuwd moet worden nadat er een vaste hoeveelheid tijd is verstreken.",
   "howToUse": [
-    "Vul uw uren in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals minuten.",
-    "Klik op de knop Berekenen of Verzenden om een ​​visuele tikkende klok naar nul te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Voer het aantal uren, minuten en seconden in.",
+    "Klik op 'Start' om te beginnen.",
+    "Gebruik 'Pauze' om tijdelijk te stoppen.",
+    "Klik op 'Reset' om terug te keren naar de beginwaarde."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
-  "useCases": ["Kooktijden", "Focussessies", "Onderweg snel uren verwerken"],
+  "howItWorks": "Wanneer u op start drukt, registreert de timer de huidige systeemtijd en berekent hij het exacte toekomstige moment waarop het aftellen nul zou moeten bereiken. Vervolgens gebruikt hij een hoogfrequent JavaScript-interval om de resterende tijd te berekenen door bij elke tik de huidige tijd van de doeltijd af te trekken. Deze aanpak is nauwkeuriger dan het aftrekken van een teller, omdat hij bestand is tegen browser-tab throttling en kleine timing-inconsistenties. Het display wordt elke 100 milliseconden bijgewerkt, wat zorgt voor een soepele aftelervaring. Wanneer de resterende tijd nul bereikt, activeert de timer een audiowaarschuwing met behulp van de Web Audio API en signaleert de voltooiing visueel door de weergavestatus te wijzigen.",
+  "workedExample": "Stel u kookt pasta die precies 12 minuten kooktijd vereist. U stelt de afteltimer in op 00:12:00 (0 uur, 12 minuten, 0 seconden) en drukt op start. Het display begint direct af te tellen: 11:59, 11:58 enzovoort. Na zes minuten controleert u de pasta, dus drukt u op pauze. De timer bevriest op 06:00. Zodra u klaar bent, drukt u op hervatten en gaat de timer verder vanaf 06:00. Wanneer deze op 00:00 staat, klinkt er een duidelijk waarschuwingsgeluid dat u vertelt dat de pasta klaar is. U kunt vervolgens op resetten drukken om u voor te bereiden op de volgende getimede taak.",
+  "resultInterpretation": "Het timerdisplay toont de resterende tijd in UU:MM:SS-formaat, aftellend naar 00:00:00. Terwijl hij loopt, wordt het display elke fractie van een seconde soepel bijgewerkt, zodat u altijd een nauwkeurig beeld heeft van hoeveel tijd er nog rest. Wanneer het aftellen nul bereikt, verandert de weergave van status om de voltooiing aan te geven en klinkt er een audiowaarschuwing om u te informeren. Als u de timer op enig moment heeft gepauzeerd, is de totale verstreken tijd op de wandklok langer dan de ingestelde duur, maar de werkelijke aftelduur blijft precies wat u heeft geconfigureerd. Dit onderscheid is belangrijk voor activiteiten zoals intervaltraining waarbij rustpauzes opzettelijk zijn.",
+  "useCases": [
+    "Koken: Een recept exact timen.",
+    "Studeren: Blokken van 45 minuten instellen.",
+    "Sport: Rustpauzes meten."
+  ],
   "tipsAndLimitations": [
-    "Voor nauwkeurige alarmmeldingen moet het browsertabblad actief blijven.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Houd het browsertabblad actief om vertragingen op de achtergrond te voorkomen.",
+    "Houd het browsertabblad actief om vertragingen op de achtergrond te voorkomen."
   ],
   "faq": [
     {
-      "question": "Is de Countdown Timer gratis te gebruiken?",
-      "answer": "Ja, onze Countdown Timer is volledig gratis te gebruiken."
+      "question": "Klinkt er een alarm als hij klaar is?",
+      "answer": "De timer geeft momenteel een duidelijke visuele waarschuwing op het scherm."
     },
     {
-      "question": "Werkt dit op mobiel?",
-      "answer": "Ja, het is volledig responsief en werkt op alle apparaten."
-    },
-    {
-      "question": "Moet ik iets downloaden?",
-      "answer": "Nee, het werkt volledig in uw browser, zonder enige installatie."
+      "question": "Klinkt er een alarm als hij klaar is?",
+      "answer": "De timer geeft momenteel een duidelijke visuele waarschuwing op het scherm."
     }
   ],
   "relatedTools": [
-    "leeftijd-calculator",
-    "datumverschil-calculator",
-    "dagen-tussen-data"
+    "stopwatch",
+    "pomodoro-timer",
+    "time-difference-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Afteltimer",
-  "ogImageText": "Afteltimer"
+  "cta": "Stel direct uw timer in!",
+  "disclaimer": "De timer is afhankelijk van de prestaties van uw browser.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Online afteltimer interface",
+  "ogImageText": "Online Countdown Timer"
 }

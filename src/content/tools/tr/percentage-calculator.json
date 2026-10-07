@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Yüzde Hesaplayıcı",
-  "metaDescription": "Ücretsiz çevrimiçi Yüzde Hesaplayıcı. Yüzdeleri hızlı ve doğru bir şekilde hesaplayın.",
+  "seoTitle": "Yüzde Hesaplayıcı - Bir Sayının Yüzdesini Bul",
+  "metaDescription": "Ücretsiz çevrimiçi Yüzde Hesaplayıcı. Bir sayının diğerinin yüzde kaçını oluşturduğunu anında hesaplayın veya Y'nin X yüzdesini bulun. Basit ve doğru.",
   "h1": "Yüzde Hesaplayıcı",
   "primaryKeyword": "yüzde hesaplayıcı",
   "secondaryKeywords": [
-    "yüzde hesaplayıcı çevrimiçi",
-    "ücretsiz yüzde hesaplayıcı",
-    "en iyi yüzde hesaplayıcı"
+    "yüzdeyi bul",
+    "bir sayının yüzdesi",
+    "yüzde hesapla",
+    "yüzde kaç"
   ],
-  "slug": "yüzde hesaplayıcı",
-  "intro": "Ücretsiz çevrimiçi Yüzde Hesaplama aracımızı kullanın. Girdilerinize göre yüzde sorunlarını çözer.",
-  "whatIs": "Yüzde Hesaplayıcı, yüzde sorunlarını çözen çevrimiçi bir yardımcı programdır. Orijinal numaranızı işler ve bütünün matematiksel kesrini sağlar.",
+  "slug": "yuzde-hesaplama",
+  "intro": "Yüzde hesaplamalarında zorlanıyor musunuz? Ücretsiz Yüzde Hesaplayıcımız, indirim hesaplamadan vergi hesaplamaya kadar tüm standart yüzde sorularını anında çözer.",
+  "whatIs": "Yüzde Hesaplayıcı, üç temel yüzde problemini çözmek için tasarlanmış çok yönlü bir matematik aracıdır: bir sayının yüzdesini bulmak, bir sayının diğerinin yüzde kaçını oluşturduğunu bulmak ve eğer yüzde biliniyorsa bütünü bulmak.",
   "howToUse": [
-    "Orijinal numaranızı belirlenen giriş alanına girin.",
-    "Yüzde gibi ikincil parametreleri sağlayın.",
-    "Bütünün matematiksel kesirini oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Hangi tür yüzde hesaplamasını yapmak istediğinizi seçin.",
+    "İki bilinen sayınızı giriş alanlarına girin.",
+    "Araç eksik değişkeni anında hesaplayacak ve sonucu gösterecek."
   ],
-  "howItWorks": "Bu araç, orijinal numaranıza standart algoritmalar uygulayarak tarayıcınızda çalışır. Bütünün matematiksel kesrini çıkarmak için verileri anında işler.",
-  "workedExample": "Örneğin: 150'nin %20'si 30 verir.",
-  "resultInterpretation": "Sonuç, bütünün matematiksel kesrini temsil eder. Bu verileri özel hesaplamalarınız veya biçimlendirme ihtiyaçlarınız için kullanabilirsiniz.",
+  "howItWorks": "Araç, Yüzde = (Parça / Bütün) × 100 formülüne dayanan temel cebirsel denklemleri kullanır. Hangi değişkeni çözmeye çalıştığınıza bağlı olarak bu formülü cebirsel olarak işler.",
+  "workedExample": "150'nin %20'sinin ne olduğunu bulmak için: Araç %20'yi ondalık sayı 0,20'ye çevirir, sonra 0,20'yi 150 ile çarpar. Sonuç tam olarak 30'dur.",
+  "resultInterpretation": "Çıktı, yüzde sorunuza dair tam sayısal yanıtı verir ve bunu bütçenize, ödevinize veya iş metriklerinize uygulamaya hazır hale getirir.",
   "useCases": [
-    "İndirimlerin hesaplanması",
-    "Vergi tutarlarının belirlenmesi",
-    "Hareket halindeyken orijinal numarayı hızlı bir şekilde işleme"
+    "Alışveriş: %15 indirimli bir satışın tam dolar miktarını hesaplamak.",
+    "Vergiler ve Bahşişler: Bir restoranda %20 bahşiş hesaplamak veya %7 satış vergisi eklemek.",
+    "İş: Maliyet ve gelire dayalı olarak kâr marjı yüzdesini belirlemek."
   ],
   "tipsAndLimitations": [
-    "Son derece büyük sayılar kesinliğin bir kısmını kaybedebilir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Unutmayın ki bir yüzde basitçe 100 üzerinden bir kesirdir. 'Yüzde 50' kelimenin tam anlamıyla '100'de 50' veya 50/100 demektir.",
+    "100'den büyük yüzdeleri girebilirsiniz. Örneğin, 50'nin %200'ü 100'dür."
   ],
   "faq": [
     {
-      "question": "Yüzdesel azalmayı hesaplayabilir mi?",
-      "answer": "Evet, hem artışları hem de azalışları hesaplıyor."
+      "question": "Bir yüzdeyi nasıl hesaplarsınız?",
+      "answer": "Bir parçanın bir bütünün yüzde kaçını oluşturduğunu bulmak için, parçayı bütüne bölün ve 100 ile çarpın. Örneğin, 20'nin 5'i (5 / 20) * 100 = %25'tir."
     },
     {
-      "question": "Yüzde Hesaplayıcının kullanımı ücretsiz midir?",
-      "answer": "Evet, Yüzde Hesaplayıcımız tamamen ücretsizdir ve kayıt gerektirmez."
-    },
-    {
-      "question": "Bu mobil cihazlarda çalışıyor mu?",
-      "answer": "Evet, araç tamamen duyarlıdır ve tüm akıllı telefonlarda ve tabletlerde mükemmel şekilde çalışır."
+      "question": "Yüzdeler tersine çevrilebilir mi?",
+      "answer": "Evet! Matematiksel bir hile şudur: Y'nin X%'si her zaman X'in Y%'sine eşittir. Yani 50'nin %8'i, 8'in %50'siyle tamamen aynıdır (bu da 4'tür)."
     }
   ],
   "relatedTools": [
-    "maaş-hesaplayıcı",
-    "indirim hesaplayıcı",
-    "bahşiş hesaplayıcı"
+    "percentage-increase-calculator",
+    "percentage-change-calculator",
+    "fraction-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Yüzde Hesaplayıcı arayüzü ekran görüntüsü",
+  "cta": "Herhangi bir yüzde problemini şimdi çöz!",
+  "disclaimer": "Bu araç son derece doğru matematiksel çıktılar sağlar. Uzun tekrar eden sayılara sahip ondalıklar görsel açıklık için yuvarlanabilir.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Yüzde Hesaplayıcı arayüzü",
   "ogImageText": "Yüzde Hesaplayıcı"
 }

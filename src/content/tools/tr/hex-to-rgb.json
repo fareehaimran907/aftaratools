@@ -1,0 +1,52 @@
+{
+  "seoTitle": "HEX'ten RGB'ye Dönüştürücü",
+  "metaDescription": "Ücretsiz çevrimiçi HEX'ten RGB'ye Dönüştürücü. Web renk HEX kodlarını anında RGB formatına çevirin. CSS ve web geliştirme için gereklidir.",
+  "h1": "HEX'ten RGB'ye Dönüştürücü",
+  "primaryKeyword": "hex'ten rgb'ye",
+  "secondaryKeywords": [
+    "hex'i rgb'ye dönüştür",
+    "hex renk kodu to rgb",
+    "onaltılık to rgb hesaplayıcı",
+    "css renk dönüştürücü"
+  ],
+  "slug": "hexten-rgbye-dönüştürücü",
+  "intro": "Bir hex renk kodunuz var ama CSS'te opaklık kanalı eklemek için RGB değerlerine mi ihtiyacınız var? Ücretsiz HEX'ten RGB'ye Dönüştürücümüz, onaltılık renk dizelerini anında standart Kırmızı, Yeşil, Mavi tamsayılarına çevirir.",
+  "whatIs": "HEX to RGB Dönüştürücü, 6 karakterli bir hexadecimal renk kodunu (HTML/CSS'te yoğun şekilde kullanılan) alan ve bunu RGB formatına (tasarım yazılımlarında ve CSS rgba'da kullanılan) çeviren bir tasarım ve geliştirme aracıdır.",
+  "howToUse": [
+    "6 haneli HEX kodunuzu girin (örneğin, FF5733). '#' işareti isteğe bağlıdır.",
+    "Araç, dizgeyi anında çözümler.",
+    "Tam RGB değerleri (0-255), görsel bir renk önizlemesi ile birlikte görüntülenir."
+  ],
+  "howItWorks": "6 haneli bir HEX kodu aslında üç ayrı sayıdan oluşur. Araç, diziyi çiftler halinde böler (örneğin, FF, 57, 33). Daha sonra her çifti 0 ile 255 arasında bir ondalık sayıya dönüştürmek için taban-16'dan taban-10'a matematik kullanır.",
+  "workedExample": "#00FF00 girersiniz. Araç bunu ayırır: Kırmızı 00, Yeşil FF, Mavi 00. Hex '00' ondalık olarak 0'dır. Hex 'FF' ondalık olarak 255'tir. Araç RGB(0, 255, 0) çıktısını verir, bu saf yeşildir.",
+  "resultInterpretation": "Çıktı, bir bilgisayar monitörünün hedef rengi göstermek için yayması gereken Kırmızı, Yeşil ve Mavi ışığın tam oranıdır.",
+  "useCases": [
+    "CSS Şeffaflığı: Bir HEX'i RGB'ye dönüştürmek, böylece %50 şeffaf bir arka plan için `rgba(255, 0, 0, 0.5)` yazabilirsiniz.",
+    "Yazılım Entegrasyonları: Sadece 0-255 RGB girişlerini kabul eden eski yazılım veya oyun motorlarına renk girişi yapmak.",
+    "Tasarım Teslimi: Photoshop'ta RGB kullanan bir grafik tasarımcının, geliştiricinin HEX kullandığında tam olarak aynı renge sahip olmasını sağlamak."
+  ],
+  "tipsAndLimitations": [
+    "Araç, 3 basamaklı kısaltılmış HEX kodlarını (örneğin #F00) destekler. Dönüştürmeden önce bunu otomatik olarak #FF0000 şeklinde genişletir.",
+    "Hex kodları büyük/küçük harf hassasiyeti taşımamaktadır. #ff0000 ve #FF0000 matematiksel olarak aynıdır."
+  ],
+  "faq": [
+    {
+      "question": "8 haneli bir HEX kodunu dönüştürebilir miyim?",
+      "answer": "8 haneli hex kodları bir alfa (saydamlık) kanalı içerir. Standart 6 haneli RGB dönüştürücüler son iki haneyi göz ardı eder. Opaklık değeri için bir HEX to RGBA dönüştürücüsüne ihtiyacınız olacak."
+    },
+    {
+      "question": "Neden HEX yerine RGB kullanılır?",
+      "answer": "HEX yazması daha kısa olmasına rağmen, RGB renkleri programatik olarak manipüle etmeyi çok daha kolay hale getirir; örneğin opaklığı dinamik olarak değiştirmek (RGBA) veya JavaScript'te renk kontrast oranlarını hesaplamak gibi."
+    }
+  ],
+  "relatedTools": [
+    "rgb-to-hex",
+    "color-picker",
+    "hex-to-decimal"
+  ],
+  "cta": "HEX kodlarınızı şimdi RGB'ye dönüştürün!",
+  "disclaimer": "Bu araç, onaltılık (base-16) renk kodlarını tam olarak matematiksel olarak onluk (base-10) değere dönüştürür. Standart sRGB renk uzayını varsayar.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "HEX'ten RGB'ye dönüşüm arayüzü",
+  "ogImageText": "HEX'ten RGB'ye Dönüştürücü"
+}

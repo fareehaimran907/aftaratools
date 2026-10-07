@@ -1,90 +1,187 @@
 "use client";
 
-import { useState } from "react";
-import { Input } from "@/components/ui/input";
+import React, { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { ToolLayout, ToolPanel, ToolPanelContent } from "@/components/tools/ui";
-import { Globe, ArrowRightLeft } from "lucide-react";
+import { Globe, ArrowRightLeft, RefreshCw, Activity } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 
 export function CurrencyConverter() {
   const t = useTranslations("Tools.currency-converter.ui");
-  const [amount, setAmount] = useState("100");
-  const [from, setFrom] = useState("USD");
-  const [to, setTo] = useState("EUR");
+  
+  const [amount, setAmount] = useState<string>("100");
+  const [fromCurrency, setFromCurrency] = useState<string>("USD");
+  const [toCurrency, setToCurrency] = useState<string>("EUR");
+  
+  const [rates, setRates] = useState<Record<string, number>>({});
+  const [isLoading, setIsLoading] = useState(true);
+  const [lastUpdated, setLastUpdated] = useState<string>("");
 
-  // Static mock rates for demonstration since actual live API is not guaranteed
-  const exchangeRates: Record<string, number> = {
-    USD: 1,
-    EUR: 0.92,
-    GBP: 0.79,
-    JPY: 150.1,
-    AUD: 1.53,
-    CAD: 1.35,
-    CHF: 0.88,
-    CNY: 7.19,
-    INR: 82.9
+  const popularCurrencies = [
+    "USD", "EUR", "GBP", "JPY", "AUD", "CAD", "CHF", "CNY", "HKD", "NZD", "INR", "BRL", "ZAR", "MXN", "SGD", "AED"
+  ];
+
+  useEffect(() => {
+    const fetchRates = async () => {
+      setIsLoading(true);
+      try {
+        const response = await fetch("https://open.er-api.com/v6/latest/USD");
+        const data = await response.json();
+        if (data && data.rates) {
+          setRates(data.rates);
+          setLastUpdated(new Date(data.time_last_update_utc).toLocaleDateString());
+        }
+      } catch (error) {
+        console.error("Failed to fetch rates:", error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    fetchRates();
+  }, []);
+
+  const handleSwap = () => {
+    setFromCurrency(toCurrency);
+    setToCurrency(fromCurrency);
   };
 
-  const a = parseFloat(amount) || 0;
-  
-  const rateFrom = exchangeRates[from] || 1;
-  const rateTo = exchangeRates[to] || 1;
-  
-  // Convert to USD first (base), then to target
-  const converted = (a / rateFrom) * rateTo;
+  const calculateConversion = () => {
+    const numAmount = parseFloat(amount);
+    if (isNaN(numAmount) || Object.keys(rates).length === 0) return null;
 
-  const format = (n: number, currency: string) => n.toLocaleString(undefined, { style: 'currency', currency });
+    const fromRate = rates[fromCurrency];
+    const toRate = rates[toCurrency];
+
+    if (!fromRate || !toRate) return null;
+
+    // Convert to USD first, then to target currency
+    const amountInUSD = numAmount / fromRate;
+    const result = amountInUSD * toRate;
+
+    return result;
+  };
+
+  const result = calculateConversion();
+  const exchangeRate = calculateConversion() ? calculateConversion()! / parseFloat(amount || "1") : 0;
+
+  const formatCurrency = (value: number, currency: string) => {
+    return new Intl.NumberFormat(undefined, {
+      style: "currency",
+      currency: currency,
+      maximumFractionDigits: 2
+    }).format(value);
+  }
 
   return (
-    <ToolLayout.Stacked>
-      <ToolPanel>
-        <div className="flex items-center gap-2 mb-6">
-          <Globe className="w-5 h-5 text-primary" />
-          <h3 className="font-bold text-foreground">{t('currencyConverterEstimated')}</h3>
-        </div>
+    <div className="w-[calc(100%+3rem)] md:w-[calc(100%+5rem)] -m-6 md:-m-10 p-6 md:p-10 bg-emerald-50 dark:bg-transparent text-slate-900 dark:text-slate-100">
+      <div className="w-full max-w-4xl mx-auto space-y-8">
         
-        <ToolPanelContent className="space-y-6">
-          <div className="space-y-4">
-            <div className="space-y-2">
-              <label className="text-sm font-medium text-secondary-foreground" htmlFor="amount">{t('amount')}</label>
-              <Input id="amount" type="number" min="0" value={amount} onChange={e => setAmount(e.target.value)} className="h-12 text-lg" />
-            </div>
+        <div className="flex flex-col items-center text-center space-y-4">
+          <div className="p-4 bg-emerald-100 dark:bg-emerald-900/30 rounded-2xl text-emerald-600 dark:text-emerald-400 mb-2">
+            <Globe className="w-8 h-8" />
+          </div>
+          <h2 className="text-3xl font-bold tracking-tight">{t("title")}</h2>
+          <p className="text-slate-500 dark:text-slate-400 max-w-2xl">{t("description")}</p>
+        </div>
+
+        <Card className="bg-white dark:bg-slate-800 p-6 md:p-8 rounded-3xl shadow-xl shadow-slate-200/50 dark:shadow-none border border-slate-200 dark:border-slate-700">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             
-            <div className="flex gap-4 items-center">
-              <div className="space-y-2 flex-1">
-                <label className="text-sm font-medium text-secondary-foreground" htmlFor="from">{t('from')}</label>
-                <select id="from" value={from} onChange={e => setFrom(e.target.value)} className="w-full h-12 px-3 rounded-md border border-input bg-background text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary/20 transition-all">
-                  {Object.keys(exchangeRates).map(c => <option key={c} value={c}>{c}</option>)}
+            {/* Amount & From Currency */}
+            <div className="w-full md:w-2/5 space-y-4">
+              <div>
+                <label className="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">
+                  {t("amount")}
+                </label>
+                <input
+                  type="number"
+                  value={amount}
+                  onChange={(e) => setAmount(e.target.value)}
+                  className="w-full px-4 py-4 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-all font-semibold text-2xl text-center"
+                  placeholder="100"
+                />
+              </div>
+              <div>
+                <select
+                  value={fromCurrency}
+                  onChange={(e) => setFromCurrency(e.target.value)}
+                  className="w-full px-4 py-3 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-emerald-500 outline-none font-medium"
+                >
+                  {popularCurrencies.map(c => (
+                    <option key={c} value={c}>{c}</option>
+                  ))}
+                  <option disabled>──────────</option>
+                  {Object.keys(rates).filter(c => !popularCurrencies.includes(c)).sort().map(c => (
+                    <option key={c} value={c}>{c}</option>
+                  ))}
                 </select>
               </div>
-              
-              <div className="pt-6">
-                <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center">
-                  <ArrowRightLeft className="w-4 h-4 text-secondary-foreground" />
+            </div>
+
+            {/* Swap Button */}
+            <div className="flex justify-center w-full md:w-1/5 pt-6 md:pt-0">
+              <Button
+                variant="outline"
+                className="w-14 h-14 rounded-full bg-emerald-50 dark:bg-emerald-900/20 border-emerald-200 dark:border-emerald-800 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-100 hover:text-emerald-700"
+                onClick={handleSwap}
+              >
+                <ArrowRightLeft className="w-6 h-6" />
+              </Button>
+            </div>
+
+            {/* To Currency & Result */}
+            <div className="w-full md:w-2/5 space-y-4">
+              <div>
+                <label className="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">
+                  {t("convertedAmount")}
+                </label>
+                <div className="w-full px-4 py-4 bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800 rounded-xl font-bold text-2xl text-center text-emerald-700 dark:text-emerald-300 flex items-center justify-center">
+                  {isLoading ? (
+                    <RefreshCw className="w-6 h-6 animate-spin" />
+                  ) : result !== null ? (
+                    formatCurrency(result, toCurrency)
+                  ) : (
+                    "-"
+                  )}
                 </div>
               </div>
-              
-              <div className="space-y-2 flex-1">
-                <label className="text-sm font-medium text-secondary-foreground" htmlFor="to">{t('to')}</label>
-                <select id="to" value={to} onChange={e => setTo(e.target.value)} className="w-full h-12 px-3 rounded-md border border-input bg-background text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary/20 transition-all">
-                  {Object.keys(exchangeRates).map(c => <option key={c} value={c}>{c}</option>)}
+              <div>
+                <select
+                  value={toCurrency}
+                  onChange={(e) => setToCurrency(e.target.value)}
+                  className="w-full px-4 py-3 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-emerald-500 outline-none font-medium"
+                >
+                  {popularCurrencies.map(c => (
+                    <option key={c} value={c}>{c}</option>
+                  ))}
+                  <option disabled>──────────</option>
+                  {Object.keys(rates).filter(c => !popularCurrencies.includes(c)).sort().map(c => (
+                    <option key={c} value={c}>{c}</option>
+                  ))}
                 </select>
               </div>
             </div>
+
           </div>
-          
-          <div className="pt-6 border-t border-border">
-            <div className="p-8 bg-primary/5 border border-primary/20 rounded-xl text-center shadow-sm">
-              <div className="text-secondary-foreground text-sm font-medium mb-3">{format(a, from)} =</div>
-              <div className="text-5xl font-bold text-primary tracking-tight">{format(converted, to)}</div>
+
+          {/* Rate Info */}
+          <div className="mt-8 pt-6 border-t border-slate-100 dark:border-slate-700/50 flex flex-col sm:flex-row items-center justify-between text-sm text-slate-500 dark:text-slate-400">
+            <div className="flex items-center space-x-2">
+              <Activity className="w-4 h-4 text-emerald-500" />
+              <span>
+                1 {fromCurrency} = {exchangeRate.toFixed(4)} {toCurrency}
+              </span>
             </div>
-            <p className="text-xs text-center text-muted-foreground mt-4 flex items-center justify-center gap-1">
-              <span className="w-2 h-2 rounded-full bg-warning/50 inline-block"></span>
-              {t('noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly')}
-            </p>
+            {lastUpdated && (
+              <div className="mt-2 sm:mt-0">
+                {t("lastUpdated")}: {lastUpdated}
+              </div>
+            )}
           </div>
-        </ToolPanelContent>
-      </ToolPanel>
-    </ToolLayout.Stacked>
+
+        </Card>
+
+      </div>
+    </div>
   );
 }

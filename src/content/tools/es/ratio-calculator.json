@@ -1,55 +1,74 @@
 {
-  "seoTitle": "Calculadora de proporciones",
-  "metaDescription": "Calcule los valores de proporción faltantes.",
-  "h1": "Calculadora de proporciones",
+  "seoTitle": "Calculadora de Proporciones – Resuelve y Encuentra Valores (A:B = C:D)",
+  "metaDescription": "Calculadora de proporciones online gratuita. Resuelve fácilmente ecuaciones A:B = C:D, encuentra valores faltantes y calcula razones equivalentes. Perfecta para recetas y matemáticas.",
+  "h1": "Calculadora de Proporciones",
   "primaryKeyword": "calculadora de proporciones",
   "secondaryKeywords": [
-    "calculadora de proporción en línea",
-    "calculadora de proporciones gratuita",
-    "mejor calculadora de proporciones"
+    "resolver proporciones",
+    "razones equivalentes",
+    "valor faltante en proporcion",
+    "calculadora a:b = c:d",
+    "calculadora de regla de tres",
+    "escala calculadora",
+    "calculadora de razones"
   ],
-  "slug": "calculadora de proporciones",
-  "intro": "Resuelva los números que faltan en proporciones equivalentes o escale proporciones hacia arriba y hacia abajo.",
-  "whatIs": "¿Qué es esta herramienta?",
+  "slug": "calculadora-de-proporciones",
+  "intro": "¿Lidias con proporciones complejas o intentas encontrar un valor faltante en una razón? Ya sea que estés ampliando una receta favorita, cambiando el tamaño de una imagen, mezclando productos químicos o resolviendo un problema matemático difícil, nuestra Calculadora de Proporciones online gratuita hace que trabajar con razones sea un esfuerzo mínimo. La herramienta está diseñada para resolver ecuaciones de proporción estándar A:B = C:D al instante. Simplemente introduciendo tres valores conocidos cualesquiera, la calculadora calcula automáticamente el cuarto valor faltante en tiempo real. Se acabó la multiplicación cruzada manual o las conjeturas: obtén respuestas matemáticamente precisas para todas tus necesidades de proporciones equivalentes al instante, sin tener que hacer clic en un botón de 'calcular'.",
+  "whatIs": "Una calculadora de proporciones es una herramienta matemática especializada diseñada para resolver proporciones, específicamente formateada como la ecuación A : B = C : D. Una razón o proporción representa una relación cuantitativa entre dos números, indicando cuántas veces el primer número contiene al segundo. Por ejemplo, si una receta requiere 2 tazas de harina por cada taza de azúcar, la proporción de harina a azúcar es 2:1. Cuando necesitas aumentar la receta manteniendo exactamente el mismo sabor, creas una proporción: una ecuación que establece que dos razones son iguales. Resolver esto manualmente generalmente requiere multiplicación cruzada (regla de tres) (ej., A × D = B × C) y manipulación algebraica. Esta calculadora automatiza ese proceso matemático exacto, calculando instantáneamente cualquier variable faltante cuando se proporcionan las otras tres, asegurando una proporcionalidad perfecta en todo momento.",
   "howToUse": [
-    "Ingrese su proporción A en el campo de entrada designado.",
-    "Proporcione cualquier parámetro secundario como la relación B.",
-    "Haga clic en el botón calcular o enviar para generar la proporción simplificada o el valor faltante.",
-    "Copie o revise el resultado resultante según sus necesidades."
+    "Localiza los cuatro campos de entrada dispuestos en el formato A : B = C : D.",
+    "Introduce los dos valores conocidos para la primera proporción (A y B) en el lado izquierdo del signo igual.",
+    "Introduce el valor conocido ya sea para C o D en el lado derecho.",
+    "Deja en blanco el campo para el valor desconocido.",
+    "Haz clic fuera de la caja de entrada o simplemente espera un momento. La calculadora llenará automáticamente el campo en blanco con el valor faltante correcto."
   ],
-  "howItWorks": "como funciona",
-  "workedExample": "Ejemplos",
-  "resultInterpretation": "Interpretación",
+  "howItWorks": "Nuestra calculadora de proporciones funciona utilizando el principio matemático fundamental de la multiplicación cruzada (regla de tres) para resolver proporciones. La ecuación subyacente es A/B = C/D. Cuando proporcionas tres de las cuatro variables, la herramienta reorganiza instantáneamente la fórmula para resolver la que falta. Por ejemplo, si falta D, la herramienta lo calcula usando la fórmula D = (B × C) / A. Si falta C, calcula C = (A × D) / B. Este cálculo se ejecuta instantáneamente utilizando JavaScript del lado del cliente dentro de tu navegador web, lo que significa que la matemática ocurre localmente en tu dispositivo sin necesidad de enviar datos a un servidor o recargar la página. El resultado es instantáneo, fluido y completamente preciso.",
+  "workedExample": "Digamos que estás ajustando una receta. La receta original requiere 2 tazas de azúcar (A) y 5 tazas de harina (B). La proporción es 2:5. Quieres hacer un lote más grande usando 10 tazas de azúcar (C), y necesitas saber cuánta harina (D) usar para mantener exactamente la misma proporción.\n\nConfiguras la ecuación: 2 : 5 = 10 : D.\nPara resolver manualmente, multiplicas en cruz: 2 × D = 5 × 10.\nEsto se simplifica a: 2D = 50.\nLuego, divides ambos lados por 2: D = 50 / 2 = 25.\nPor lo tanto, necesitas 25 tazas de harina. Cuando introduces 2, 5 y 10 en nuestra calculadora, instantáneamente realiza esta lógica exacta y muestra 25 en el campo D.",
+  "resultInterpretation": "El resultado se interpreta directamente dentro de los propios campos de entrada. A diferencia de las calculadoras que muestran los resultados en una caja separada, esta herramienta completa el valor faltante justo donde pertenece en la ecuación A:B = C:D. Si introdujiste valores para A, B y C, la herramienta poblará automáticamente el campo D con el número calculado. Este número representa el valor exacto requerido para que la proporción de la derecha (C:D) sea matemáticamente equivalente a la proporción de la izquierda (A:B). También puedes sobrescribir un número existente para recalcular en tiempo real, lo que hace que sea increíblemente fácil probar diferentes escenarios.",
   "useCases": [
-    "Relaciones de aspecto de pantalla",
-    "Mezclar pintura u hormigón",
-    "Procesamiento rápido del ratio A mientras viaja"
+    "Cocina y Repostería: Amplía o reduce las recetas con precisión manteniendo el equilibrio perfecto de ingredientes (ej., duplicar una receta).",
+    "Diseño Gráfico y Fotografía: Cambia el tamaño de imágenes o lienzos manteniendo estrictamente la relación de aspecto original para evitar estiramientos o distorsiones.",
+    "Construcción e Ingeniería: Calcula modelos a escala, mezcla hormigón en las proporciones correctas o determina los requisitos de materiales.",
+    "Finanzas y Moneda: Calcula los tipos de cambio o determina las distribuciones proporcionales de fondos, ganancias o costos compartidos.",
+    "Educación y Academia: Los estudiantes pueden comprobar rápidamente sus respuestas al resolver las tareas de álgebra relacionadas con las proporciones y la multiplicación cruzada."
   ],
   "tipsAndLimitations": [
-    "Las razones funcionan matemáticamente de manera similar a las fracciones.",
-    "Asegúrese de que sus entradas tengan el formato correcto para obtener los mejores resultados.",
-    "La herramienta se ejecuta completamente en el lado del cliente, lo que garantiza que sus datos permanezcan privados."
+    "La calculadora requiere que se introduzcan exactamente tres valores para calcular el cuarto. No puede resolver una ecuación con dos o más variables faltantes.",
+    "Puedes introducir números decimales (ej., 1.5, 2.75) para cálculos altamente precisos, no solo números enteros.",
+    "La herramienta se recalculará automáticamente cuando hagas clic fuera de un campo de entrada (onBlur).",
+    "Evita introducir el cero (0) en los campos A o B si estás intentando calcular el otro lado, ya que esto puede dar lugar a errores de división por cero.",
+    "La calculadora actualmente resuelve para C o D. Asegúrate de que tu proporción completa conocida esté introducida en el lado izquierdo (A y B)."
   ],
   "faq": [
     {
-      "question": "¿Qué es la proporción áurea?",
-      "answer": "Aproximadamente 1.618 a 1."
+      "question": "¿Puedo usar decimales o fracciones en la calculadora de proporciones?",
+      "answer": "Puedes usar números decimales (como 2.5 o 0.75) en cualquiera de los campos. Sin embargo, la calculadora no acepta actualmente formatos de fracción (como 1/2) directamente; primero debes convertirlos a decimales (0.5)."
     },
     {
-      "question": "¿La Calculadora de proporciones es de uso gratuito?",
-      "answer": "Sí, nuestra Calculadora de proporciones es completamente gratuita y no requiere registro."
+      "question": "¿Qué sucede si solo introduzco dos números?",
+      "answer": "La calculadora requiere una proporción inicial completa (A y B) y una parte de la proporción objetivo (ya sea C o D). Si solo introduces dos números, no tiene suficiente información para resolver la proporción y no calculará un resultado."
     },
     {
-      "question": "¿Esto funciona en dispositivos móviles?",
-      "answer": "Sí, la herramienta responde completamente y funciona perfectamente en todos los teléfonos inteligentes y tabletas."
+      "question": "¿Puede resolver para A o B en lugar de C o D?",
+      "answer": "La interfaz actual está optimizada para resolver el lado derecho de la ecuación (C o D). Para resolver un valor faltante a la izquierda, simplemente intercambia tus lados conocidos y desconocidos para que la proporción completa esté a la izquierda."
+    },
+    {
+      "question": "¿Es esto lo mismo que calcular una relación de aspecto?",
+      "answer": "¡Sí! Las relaciones de aspecto (como 16:9 para pantallas) funcionan exactamente así. Si tienes una proporción de 16:9 y un ancho de 1920 píxeles (C), puedes usar esta herramienta para encontrar la altura (D) introduciendo 16:9 = 1920:D."
+    },
+    {
+      "question": "¿Por qué el resultado no se actualizó inmediatamente cuando escribí?",
+      "answer": "La calculadora actualiza el resultado tan pronto como terminas de escribir y pasas al siguiente campo o haces clic fuera de la caja. Esto evita que calcule números incompletos mientras aún estás escribiendo."
     }
   ],
   "relatedTools": [
-    "calculadora de fracciones",
-    "calculadora-promedio",
-    "calculadora-gpa"
+    "fraction-calculator",
+    "percentage-calculator",
+    "average-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calculadora de proporciones",
-  "ogImageText": "Calculadora de proporciones"
+  "cta": "¿Necesitas resolver una proporción complicada ahora mismo? Introduce tus tres valores conocidos en los campos de arriba para calcular instantáneamente el número faltante y perfeccionar tu proporción.",
+  "disclaimer": "Esta herramienta está pensada para proporcionar cálculos rápidos y precisos para el uso general educativo, personal y profesional. Siempre vuelve a comprobar los cálculos críticos manualmente, especialmente cuando se trate de mezclas químicas exactas, ingeniería estructural o distribuciones financieras importantes.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfaz de la calculadora de proporciones que muestra cuatro campos de entrada dispuestos en un formato A:B = C:D",
+  "ogImageText": "Calculadora de Proporciones"
 }

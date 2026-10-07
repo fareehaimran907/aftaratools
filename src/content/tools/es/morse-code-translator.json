@@ -1,0 +1,52 @@
+{
+  "seoTitle": "Traductor de Código Morse - Traducir Texto y Audio",
+  "metaDescription": "Traductor de código Morse en línea gratuito. Convierte texto a puntos y rayas del código Morse, o traduce el Morse de vuelta al inglés. Incluye reproducción de audio.",
+  "h1": "Traductor de Código Morse",
+  "primaryKeyword": "traductor de código Morse",
+  "secondaryKeywords": [
+    "texto a código morse",
+    "audio de código morse",
+    "traducir código morse",
+    "decodificador de código Morse"
+  ],
+  "slug": "traductor-de-código-morse",
+  "intro": "Ya sea que seas un aficionado de la radioafición, que estés resolviendo un rompecabezas o simplemente tengas curiosidad, nuestro Traductor de Código Morse gratuito convierte fácilmente texto en puntos y rayas, y lo reproduce en voz alta.",
+  "whatIs": "El Traductor de Código Morse es una utilidad de doble función que codifica texto alfabético estándar en el sistema de Código Morse Internacional (puntos y rayas) y decodifica cadenas Morse de vuelta a texto legible.",
+  "howToUse": [
+    "Para codificar: Escriba texto estándar en el cuadro de entrada. El código Morse se generará al instante.",
+    "Para decodificar: Escriba el código Morse usando puntos (.) y guiones (-), separando las letras con un solo espacio y las palabras con una barra (/).",
+    "Haz clic en el ícono 'Reproducir' para escuchar el código Morse a través del audio."
+  ],
+  "howItWorks": "La herramienta utiliza un diccionario predefinido que asigna cada letra y número en inglés a una secuencia específica de puntos y rayas. Para la traducción, recorre la cadena, intercambiando caracteres según el diccionario. Para el audio, utiliza la API de Web Audio para generar pitidos cortos y largos mediante osciladores.",
+  "workedExample": "Ingresando 'SOS' en el campo de texto. 'S' es '...', y 'O' es '---'. La herramienta muestra '... --- ...'.",
+  "resultInterpretation": "La salida visual es el patrón rítmico exacto requerido para transmitir el mensaje. Un punto (.) representa una unidad de tiempo, y un guion (-) representa tres unidades.",
+  "useCases": [
+    "Radioafición: Practicando habilidades de transmisión y recepción para una licencia de radioaficionado.",
+    "Escape Rooms y Rompecabezas: Decodificando rápidamente un mensaje oculto en un videojuego o ARG.",
+    "Educación sobre supervivencia: Aprender a transmitir una señal de socorro usando una linterna o golpeteando."
+  ],
+  "tipsAndLimitations": [
+    "El código Morse no diferencia entre letras mayúsculas y minúsculas.",
+    "El Código Morse Internacional Estándar no admite la mayoría de los caracteres especiales o alfabetos no latinos."
+  ],
+  "faq": [
+    {
+      "question": "¿Cómo se separan las palabras en el código Morse?",
+      "answer": "En el código Morse escrito, las letras suelen estar separadas por un solo espacio, y las palabras completas están separadas por una barra (/) o tres espacios."
+    },
+    {
+      "question": "¿Puedo escuchar el código Morse?",
+      "answer": "¡Sí! Si tu navegador soporta Web Audio, puedes hacer clic en el botón de reproducir para escuchar la sincronización rítmica exacta de los puntos y las rayas."
+    }
+  ],
+  "relatedTools": [
+    "base64-encode-decode",
+    "binary-to-decimal",
+    "text-case-converter"
+  ],
+  "cta": "¡Traduce tu mensaje a código Morse!",
+  "disclaimer": "La herramienta admite el Código Morse Internacional (estándar ITU). Puede que no traduzca correctamente prosignos especializados o el Código Morse Americano antiguo.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfaz del traductor de código Morse mostrando SOS",
+  "ogImageText": "Traductor de Código Morse"
+}

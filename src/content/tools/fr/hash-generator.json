@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Générateur de hachage en ligne - MD5, SHA1, SHA256",
+  "metaDescription": "Générateur de hachage en ligne gratuit. Calculez instantanément des hachages cryptographiques sécurisés, y compris MD5, SHA-1, SHA-256 et SHA-512, à partir de n'importe quelle chaîne de texte.",
+  "h1": "Générateur de hachage",
+  "primaryKeyword": "générateur de hachage",
+  "secondaryKeywords": [
+    "calculateur de hachage en ligne",
+    "chaîne à hacher",
+    "générer du code de hachage",
+    "hachage cryptographique"
+  ],
+  "slug": "générateur-de-hachage",
+  "intro": "Vérifier l'intégrité des fichiers ou sécuriser les données ? Notre générateur de hachage tout-en-un calcule instantanément les fonctions de hachage cryptographique les plus populaires pour tout texte que vous saisissez.",
+  "whatIs": "Le générateur de hachage est un utilitaire de cybersécurité et pour les développeurs. Il prend une chaîne de caractères en entrée de n'importe quelle longueur et la fait passer par un algorithme mathématique pour produire une chaîne de caractères de taille fixe, connue sous le nom de 'hachage' ou 'digest'.",
+  "howToUse": [
+    "Tapez ou collez votre texte dans le champ de saisie principal.",
+    "Sélectionnez l'algorithme de hachage spécifique que vous souhaitez utiliser (par exemple, SHA-256).",
+    "L'outil traite instantanément le texte et affiche le résultat de hachage hexadécimal.",
+    "Copiez le hash pour vos besoins de vérification."
+  ],
+  "howItWorks": "L'outil utilise l'API Web Crypto pour traiter votre texte d'entrée. L'algorithme divise le texte en blocs et effectue des opérations bit à bit complexes pour brouiller les données. Même le changement d'une seule lettre dans l'entrée modifie complètement le résultat final.",
+  "workedExample": "Vous saisissez le mot 'password'. Vous sélectionnez l'algorithme SHA-256. L'outil produit une chaîne hexadécimale de 64 caractères : `5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8`.",
+  "resultInterpretation": "Le hachage sert de « empreinte digitale » numérique unique pour votre texte. Si quelqu'un d'autre hache exactement le même texte avec exactement le même algorithme, il obtiendra exactement la même empreinte.",
+  "useCases": [
+    "Vérification des données : S'assurer qu'un fichier volumineux téléchargé ou une chaîne de texte n'a pas été corrompu ou modifié lors du transfert en comparant son hachage.",
+    "Conception de base de données : Obfuscation des données sensibles (comme les réponses de sécurité) avant de les stocker dans une base de données.",
+    "Développement d'API : Génération de sommes de contrôle pour des charges utiles de webhook sécurisées afin de vérifier l'authenticité de l'expéditeur."
+  ],
+  "tipsAndLimitations": [
+    "Le hachage est une voie à sens unique. Contrairement au chiffrement, vous ne pouvez pas 'décrypter' un hachage pour revenir au texte original.",
+    "MD5 et SHA-1 sont considérés comme cryptographiquement compromis et vulnérables aux attaques par collision. Ils ne devraient être utilisés que pour la vérification de fichiers de base, pas pour la sécurité."
+  ],
+  "faq": [
+    {
+      "question": "Quelle est la différence entre le hachage et le chiffrement ?",
+      "answer": "Le chiffrement est un processus à double sens ; les données sont brouillées avec une clé et peuvent être débrouillées avec cette même clé. Le hachage est un processus à sens unique ; les données sont brouillées en une chaîne de longueur fixe et ne peuvent pas être inversées mathématiquement."
+    },
+    {
+      "question": "Quel algorithme est le plus sécurisé ?",
+      "answer": "Parmi les algorithmes standard fournis, SHA-256 et SHA-512 sont actuellement considérés comme hautement sécurisés et sont la norme de l'industrie pour la cryptographie et la technologie blockchain."
+    }
+  ],
+  "relatedTools": [
+    "sha256-hash-generator",
+    "md5-hash-generator",
+    "bcrypt-generator"
+  ],
+  "cta": "Générez des hachages cryptographiques instantanément !",
+  "disclaimer": "Les calculs sont effectués localement via l'API Web Crypto. Les algorithmes MD5 et SHA-1 sont fournis pour des raisons de compatibilité avec les anciens systèmes, et non pour des raisons de sécurité moderne.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface du générateur de hachage affichant plusieurs algorithmes",
+  "ogImageText": "Générateur de hachage"
+}

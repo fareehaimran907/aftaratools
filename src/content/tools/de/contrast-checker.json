@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Farbkontrastprüfer - WCAG Barrierefreiheitswerkzeug",
+  "metaDescription": "Kostenloser Online-Farbenkontrast-Prüfer. Berechnen Sie sofort das Kontrastverhältnis zwischen Ihrem Text und den Hintergrundfarben, um die WCAG-Zugänglichkeitsskonformität sicherzustellen.",
+  "h1": "Farbkontrastprüfer",
+  "primaryKeyword": "Farbkontrastprüfer",
+  "secondaryKeywords": [
+    "WCAG-Kontrastprüfer",
+    "Barrierefreiheit Farbkontrast",
+    "Farbkontrast überprüfen",
+    "Textlesbarkeitsrechner"
+  ],
+  "slug": "farbkontrastprüfer",
+  "intro": "Stellen Sie sicher, dass Ihre Website für alle lesbar ist. Unser kostenloser Farbkontrastprüfer berechnet das genaue Verhältnis zwischen Ihrem Text und den Hintergrundfarben und überprüft die Einhaltung der WCAG-Barrierefreiheitsrichtlinien.",
+  "whatIs": "Der Color Contrast Checker ist ein Web-Accessibility-Tool. Er bewertet mathematisch die relative Leuchtdichte einer Vordergrundfarbe (Text) gegenüber einer Hintergrundfarbe, um zu bestimmen, ob genug visueller Unterschied vorhanden ist, damit sehbehinderte Benutzer den Text bequem lesen können.",
+  "howToUse": [
+    "Geben Sie den HEX-Code für Ihre Text-/Vordergrundfarbe ein.",
+    "Geben Sie den HEX-Code für Ihre Hintergrundfarbe ein.",
+    "Das Werkzeug berechnet das Kontrastverhältnis (z. B. 4,5:1).",
+    "Es zeigt eine Bestanden/Nicht bestanden Note für die WCAG AA- und AAA-Standards an."
+  ],
+  "howItWorks": "Das Werkzeug konvertiert beide HEX-Codes in RGB, wendet eine bestimmte mathematische Formel an, um die 'relative Helligkeit' beider Farben zu berechnen, und teilt dann die hellere Helligkeit durch die dunklere Helligkeit. Das Ergebnis ist ein Verhältnis zwischen 1:1 (kein Kontrast) und 21:1 (maximaler Kontrast).",
+  "workedExample": "Sie testen reinen schwarzen Text (#000000) auf einem reinen weißen Hintergrund (#FFFFFF). Das Werkzeug berechnet das maximal mögliche Kontrastverhältnis von genau 21:1 und erfüllt damit problemlos alle AAA-Zugänglichkeitsanforderungen.",
+  "resultInterpretation": "Ein höheres Verhältnis bedeutet, dass der Text leichter zu lesen ist. Die Richtlinien für barrierefreie Webinhalte (Web Content Accessibility Guidelines, WCAG) verlangen ein Mindestverhältnis von 4,5:1 für normalen Text (AA-Standard) und 7:1 für strikte Barrierefreiheit (AAA-Standard).",
+  "useCases": [
+    "Web-Zugänglichkeitsprüfungen: Sicherstellen, dass eine Unternehmenswebsite keine ADA-Konformitätsgesetze in Bezug auf Lesbarkeit verletzt.",
+    "UI/UX-Design: Überprüfung, ob ein hellgrauer Platzhaltertext in einem weißen Eingabefeld zu schwer zu lesen ist.",
+    "Markenrichtlinien: Überprüfung, dass Markenfarben sicher übereinander in Marketinggrafiken gelegt werden können."
+  ],
+  "tipsAndLimitations": [
+    "Großer Text (über 18pt oder 14pt fett) ist leichter zu lesen, daher verlangt WCAG für das Bestehen des AA-Standards nur ein niedriges Verhältnis von 3:1.",
+    "Farbblindheit beeinträchtigt die Farbwahrnehmung, aber der relative Luminanzkontrast bleibt der wichtigste Faktor für die Lesbarkeit."
+  ],
+  "faq": [
+    {
+      "question": "Was passiert, wenn meine Farben die Prüfung nicht bestehen?",
+      "answer": "Wenn sie versagen, wird Ihr Text für Menschen mit schlechtem Sehvermögen oder Farbblindheit sehr schwer zu lesen sein. Sie sollten die Textfarbe verdunkeln oder die Hintergrundfarbe aufhellen, bis das Verhältnis mindestens 4,5:1 erreicht."
+    },
+    {
+      "question": "Ist 21:1 der beste Kontrast?",
+      "answer": "Mathematisch gesehen ja. Reiner schwarzer Text auf reinem weißen Hintergrund (21:1) kann jedoch bei einigen Nutzern mit Legasthenie Augenbelastung oder 'Halation' verursachen. Sehr dunkles Grau (z. B. #222222) auf gebrochenem Weiß wird oft bevorzugt."
+    }
+  ],
+  "relatedTools": [
+    "color-picker",
+    "color-palette-generator",
+    "hex-to-rgb"
+  ],
+  "cta": "Überprüfen Sie jetzt Ihre Farbzugänglichkeit!",
+  "disclaimer": "Dieses Werkzeug berechnet den Kontrast basierend auf dem Standard-WCAG-2.1-Algorithmus für relative Leuchtdichte.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Farbkontrast-Prüfer zeigt ein bestandenes Verhältnis von 4,5",
+  "ogImageText": "Farbkontrastprüfer"
+}

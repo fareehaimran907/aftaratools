@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Selettore di Colori - Trova Codici HEX, RGB e HSL",
+  "metaDescription": "Selettore di colori gratuito online. Seleziona il colore perfetto visivamente e copia istantaneamente i codici HEX, RGB e HSL per i tuoi progetti di web design o grafica.",
+  "h1": "Selettore di colore",
+  "primaryKeyword": "selettore di colore",
+  "secondaryKeywords": [
+    "selettore di colore HTML",
+    "ricerca codice colore",
+    "selettore di colore esadecimale",
+    "selettore di colore RGB"
+  ],
+  "slug": "selettore-di-colore",
+  "intro": "Cerchi la tonalità esatta di blu per lo sfondo del tuo sito web? Il nostro Selettore di Colori online gratuito ti permette di selezionare visivamente i colori e ti fornisce i codici esatti di cui hanno bisogno sviluppatori e designer.",
+  "whatIs": "Il Selettore di Colori è uno strumento visivo per la progettazione web. Fornisce un'interfaccia grafica (una mappa dei gradienti di colore e un cursore tonalità) che permette agli utenti di selezionare un colore specifico e genera automaticamente i suoi valori matematici in HEX, RGB e HSL.",
+  "howToUse": [
+    "Trascina il cursore per selezionare il tuo colore di base (tonalità).",
+    "Fai clic e trascina il cursore all'interno della casella del colore per regolare la luminosità e la saturazione.",
+    "Lo strumento si aggiorna istantaneamente per mostrare il colore selezionato.",
+    "Copia i codici HEX, RGB o HSL forniti per il tuo progetto."
+  ],
+  "howItWorks": "L'interfaccia grafica mappa le coordinate X/Y ai valori di Saturazione e Luminosità, mentre il cursore mappa a una tonalità di 360 gradi. Lo strumento calcola questi valori in interi RGB standard (Rosso, Verde, Blu) e li converte in una stringa HEX in Base-16.",
+  "workedExample": "Trascini il cursore sul rosso puro e il cursore nell'angolo in alto a destra. Lo strumento calcola Rosso Massimo (255), Verde Zero (0), Blu Zero (0). Restituisce RGB(255, 0, 0) e il codice esadecimale #FF0000.",
+  "resultInterpretation": "I codici forniti rappresentano l'istruzione digitale esatta necessaria a un browser web o a un software di design (come Photoshop) per riprodurre il colore preciso che hai selezionato.",
+  "useCases": [
+    "Sviluppo Web: Trovare il codice HEX esatto da usare in un file CSS per lo sfondo di un pulsante.",
+    "Design Grafico: Creare un'identità di marca selezionando e salvando colori primari specifici.",
+    "Arte digitale: trovare la tonalità perfetta per la pittura digitale o gli elementi dell'interfaccia utente."
+  ],
+  "tipsAndLimitations": [
+    "I codici HEX iniziano sempre con un cancelletto (#) e sono composti da 6 caratteri alfanumerici.",
+    "I colori possono apparire leggermente diversi a seconda del monitor fisico che si sta utilizzando e della sua calibrazione del colore."
+  ],
+  "faq": [
+    {
+      "question": "Qual è la differenza tra HEX e RGB?",
+      "answer": "Rappresentano esattamente lo stesso colore. RGB utilizza numeri in base 10 (0-255) per Rosso, Verde e Blu. HEX rappresenta quegli stessi numeri esatti usando la formattazione esadecimale in base 16, che è più corta e preferita nel CSS."
+    },
+    {
+      "question": "Che cos'è HSL?",
+      "answer": "HSL sta per Tonalità, Saturazione, Luminosità. Molti designer lo preferiscono all'RGB perché è più intuitivo: scegli il colore di base (Tonalità), quanto è vivace (Saturazione) e quanto è scuro/chiaro (Luminosità)."
+    }
+  ],
+  "relatedTools": [
+    "hex-to-rgb",
+    "rgb-to-hex",
+    "color-palette-generator"
+  ],
+  "cta": "Scegli ora il tuo codice colore perfetto!",
+  "disclaimer": "La riproduzione del colore digitale dipende fortemente dalla calibrazione del monitor dell'utente (sRGB vs Display P3) e dalle impostazioni di luminosità.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfaccia di selezione del colore visiva con output HEX e RGB",
+  "ogImageText": "Selettore di colore"
+}

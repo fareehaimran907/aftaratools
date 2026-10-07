@@ -1,55 +1,48 @@
 {
-  "seoTitle": "Einfacher Zinsrechner",
-  "metaDescription": "Berechnen Sie einfache Zinsen und den Endsaldo.",
-  "h1": "Einfacher Zinsrechner",
-  "primaryKeyword": "einfacher Zinsrechner",
+  "seoTitle": "Zinsrechner (Einfache Zinsen) - Kredite & Sparen",
+  "metaDescription": "Kostenloser Zinsrechner für einfache Zinsen. Berechnen Sie schnell Zinsertrag und Endkapital für Kredite oder Anlagen.",
+  "h1": "Zinsrechner für Einfache Zinsen",
+  "primaryKeyword": "zinsrechner einfache zinsen",
   "secondaryKeywords": [
-    "Einfacher Zinsrechner online",
-    "kostenloser einfacher Zinsrechner",
-    "bester einfacher Zinsrechner"
+    "einfache zinsen berechnen",
+    "zinseszins",
+    "zinsformel"
   ],
-  "slug": "einfacher Zinsrechner",
-  "intro": "Berechnen Sie die einfachen Zinsen, die im Laufe der Zeit auf einen Kapitalbetrag verdient oder gezahlt werden.",
-  "whatIs": "Was ist das für ein Werkzeug?",
+  "slug": "einfacher-zinsrechner",
+  "intro": "Die Berechnung von Zinsen ist elementar für die Finanzplanung. Unser Zinsrechner hilft Ihnen, Zinserträge oder Zinskosten schnell und präzise zu ermitteln.",
+  "whatIs": "Ein Finanztool zur Berechnung der absoluten Zinsen auf ein Anfangskapital, bei dem ein fester 'einfacher' Zinssatz über eine bestimmte Laufzeit angewendet wird (ohne Zinseszins).",
   "howToUse": [
-    "Geben Sie Ihren Kapitalbetrag in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie den Zinssatz an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um die über einen bestimmten Zeitraum erzielten Gesamtzinsen zu ermitteln.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
+    "Geben Sie das Anfangskapital ein.",
+    "Geben Sie den jährlichen Zinssatz (in %) ein.",
+    "Geben Sie die Laufzeit ein (in Jahren oder Monaten).",
+    "Der Rechner zeigt sofort den Zinsertrag und das Endkapital."
   ],
-  "howItWorks": "Wie es funktioniert",
-  "workedExample": "Beispiele",
-  "resultInterpretation": "Interpretation",
+  "howItWorks": "Das Tool nutzt die klassische Zinsformel: Zinsen = (Kapital × Zinssatz × Zeit) / 100. Monate werden zur Berechnung automatisch in Jahre (Monate/12) umgewandelt.",
+  "workedExample": "Sie investieren 10.000 € zu 5 % p.a. für 5 Jahre: Zinsen = (10.000 × 5 × 5) / 100 = 2.500 €. Gesamtbetrag = 12.500 €.",
+  "resultInterpretation": "Der 'Zinsertrag' zeigt, wie viel Geld zusätzlich generiert oder geschuldet wird. Der 'Gesamtbetrag' ist das Endkapital inklusive Zinsen.",
   "useCases": [
-    "Kurzfristige Privatkredite",
-    "Basis-Sparbriefe",
-    "Schnelle Abwicklung des Kapitalbetrags von unterwegs"
+    "Privatkredite: Zinsen für Darlehen unter Freunden oder in der Familie berechnen.",
+    "Kurzfristige Anlagen: Rendite von Festgeldern ermitteln.",
+    "Schule: Überprüfung von Matheaufgaben zur einfachen Zinsrechnung."
   ],
   "tipsAndLimitations": [
-    "Die meisten modernen Konten verwenden stattdessen Zinseszinsen.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten privat bleiben."
+    "Dieser Rechner berechnet keine Zinseszinsen, die bei langfristigen Bankanlagen oder Krediten üblich sind.",
+    "Geben Sie immer den Jahreszinssatz (p.a.) ein."
   ],
   "faq": [
     {
-      "question": "Ist die Nutzung des einfachen Zinsrechners kostenlos?",
-      "answer": "Ja, die Nutzung unseres einfachen Zinsrechners ist völlig kostenlos."
-    },
-    {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, es reagiert vollständig und funktioniert auf allen Geräten."
-    },
-    {
-      "question": "Muss ich etwas herunterladen?",
-      "answer": "Nein, es funktioniert vollständig in Ihrem Browser und erfordert keine Installation."
+      "question": "Was ist der Unterschied zwischen einfachen Zinsen und Zinseszins?",
+      "answer": "Einfache Zinsen werden immer nur auf das Anfangskapital berechnet. Beim Zinseszins werden die Zinsen der Vorjahre zum Kapital addiert und mitverzinst."
     }
   ],
   "relatedTools": [
-    "Prozentrechner",
-    "Gehaltsrechner",
-    "Rabattrechner"
+    "compound-interest-calculator",
+    "roi-calculator",
+    "investment-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Einfacher Zinsrechner",
-  "ogImageText": "Einfacher Zinsrechner"
+  "cta": "Jetzt einfache Zinsen berechnen!",
+  "disclaimer": "Nur zu Bildungs- und Schätzungszwecken. Banken nutzen oft abweichende Zinsberechnungsmethoden (z.B. taggenau).",
+  "lastReviewed": "2024-03-16",
+  "imageAlt": "Zinsrechner",
+  "ogImageText": "Einfache Zinsen Berechnen"
 }

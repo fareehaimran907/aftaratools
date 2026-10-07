@@ -1,0 +1,52 @@
+{
+  "seoTitle": "Penerjemah Kode Morse - Terjemahkan Teks & Audio",
+  "metaDescription": "Penerjemah Kode Morse online gratis. Ubah teks menjadi kode Morse dengan titik dan garis, atau terjemahkan kode Morse kembali ke bahasa Inggris. Termasuk pemutaran audio.",
+  "h1": "Penerjemah Kode Morse",
+  "primaryKeyword": "penerjemah kode morse",
+  "secondaryKeywords": [
+    "teks ke kode morse",
+    "audio kode morse",
+    "menerjemahkan morse",
+    "penerjemah kode morse"
+  ],
+  "slug": "penerjemah-kode-morse",
+  "intro": "Apakah Anda seorang penggemar radio ham, menyelesaikan teka-teki, atau hanya penasaran, Penerjemah Kode Morse gratis kami dengan mudah mengubah teks menjadi titik dan garis—dan memainkannya secara langsung.",
+  "whatIs": "Penerjemah Kode Morse adalah utilitas dengan fungsi ganda yang mengubah teks alfabet standar menjadi sistem Kode Morse Internasional (titik/dits dan garis/dahs) dan mengubah string Morse kembali menjadi teks yang dapat dibaca.",
+  "howToUse": [
+    "Untuk Mengenkripsi: Ketik teks standar ke dalam kotak input. Kode Morse akan muncul secara instan.",
+    "Untuk Mendekode: Ketik kode Morse menggunakan titik (.) dan tanda hubung (-), pisahkan huruf dengan satu spasi dan kata dengan garis miring (/).",
+    "Klik ikon 'Putar' untuk mendengar kode Morse melalui audio."
+  ],
+  "howItWorks": "Alat ini menggunakan kamus yang telah ditentukan sebelumnya yang memetakan setiap huruf dan angka Inggris ke urutan titik dan garis tertentu. Untuk penerjemahan, alat ini menelusuri string, menukar karakter berdasarkan kamus. Untuk audio, alat ini memanfaatkan Web Audio API untuk menghasilkan bunyi oscillator pendek dan panjang.",
+  "workedExample": "Memasukkan 'SOS' ke dalam kolom teks. 'S' adalah '...', dan 'O' adalah '---'. Alat ini menghasilkan '... --- ...'.",
+  "resultInterpretation": "Keluaran visual adalah pola ritmis yang tepat yang diperlukan untuk mengirim pesan. Titik (.) mewakili satu satuan waktu, dan garis (-) mewakili tiga satuan.",
+  "useCases": [
+    "Radio Amatir: Melatih keterampilan transmisi dan penerimaan untuk lisensi radio amatir.",
+    "Escape Room & Teka-Teki: Dengan cepat menguraikan pesan tersembunyi dalam video game atau ARG.",
+    "Pendidikan Bertahan Hidup: Belajar cara mengirim sinyal bahaya menggunakan senter atau ketukan."
+  ],
+  "tipsAndLimitations": [
+    "Kode Morse tidak membedakan antara huruf besar dan huruf kecil.",
+    "Kode Morse Internasional Standar tidak mendukung sebagian besar karakter khusus atau alfabet non-Latin."
+  ],
+  "faq": [
+    {
+      "question": "Bagaimana cara memisahkan kata-kata dalam kode Morse?",
+      "answer": "Dalam kode Morse tertulis, huruf biasanya dipisahkan oleh satu spasi, dan kata-kata penuh dipisahkan oleh garis miring (/) atau tiga spasi."
+    },
+    {
+      "question": "Bisakah saya mendengar kode Morse?",
+      "answer": "Ya! Jika browser Anda mendukung Web Audio, Anda dapat mengklik tombol putar untuk mendengar ketukan ritmis tepat dari titik-titik dan garis-garis."
+    }
+  ],
+  "relatedTools": [
+    "base64-encode-decode",
+    "binary-to-decimal",
+    "text-case-converter"
+  ],
+  "cta": "Terjemahkan pesan Anda ke kode Morse!",
+  "disclaimer": "Alat mendukung Kode Morse Internasional (standar ITU). Mungkin tidak menerjemahkan prosign khusus atau Kode Morse Amerika lama dengan benar.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka Penerjemah Kode Morse menampilkan SOS",
+  "ogImageText": "Penerjemah Kode Morse"
+}

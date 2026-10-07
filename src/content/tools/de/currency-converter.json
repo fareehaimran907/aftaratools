@@ -1,51 +1,41 @@
 {
-  "seoTitle": "Währungsrechner",
-  "metaDescription": "Konvertieren Sie zwischen globalen Währungen.",
+  "seoTitle": "Währungsrechner - Aktuelle Wechselkurse",
+  "metaDescription": "Kostenloser Währungsrechner. Rechnen Sie mit aktuellen Wechselkursen zwischen Euro, US-Dollar, Schweizer Franken und allen wichtigen Weltwährungen um.",
   "h1": "Währungsrechner",
-  "primaryKeyword": "Währungsumrechner",
+  "primaryKeyword": "währungsrechner",
   "secondaryKeywords": [
-    "Währungsumrechner online",
-    "kostenloser Währungsumrechner",
-    "bester Währungsumrechner"
+    "wechselkurs rechner",
+    "devisenrechner",
+    "währung umrechnen"
   ],
-  "slug": "Währungsumrechner",
-  "intro": "Schätzen Sie schnell Währungsumrechnungen mithilfe von Standard-Wechselkursvorlagen.",
-  "whatIs": "Was ist das für ein Werkzeug?",
-  "howToUse": [
-    "Geben Sie Ihre Basiswährung in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie die Zielwährung an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um den umgetauschten Geldwert zu generieren.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
-  ],
-  "howItWorks": "Wie es funktioniert",
-  "workedExample": "Beispiele",
-  "resultInterpretation": "Interpretation",
-  "useCases": [
-    "Auslandsreisen",
-    "E-Commerce-Shopping",
-    "Schnelle Verarbeitung der Basiswährung von unterwegs"
-  ],
-  "tipsAndLimitations": [
-    "Wechselkurse schwanken ständig und Banken erheben Spread-Gebühren.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten privat bleiben."
-  ],
+  "slug": "waehrungsrechner",
+  "intro": "Ob Sie ins Ausland reisen, online einkaufen oder Geld überweisen — der genaue Wechselkurs ist wichtig. Unser Rechner bietet sofortige, genaue Umrechnungen.",
+  "whatIs": "Ein Währungsrechner ist ein Finanztool, das den Wert einer Währung in den einer anderen übersetzt, basierend auf dem Devisenmarkt (Forex).",
+  "howToUse": "Betrag eingeben. Ausgangswährung auswählen. Zielwährung auswählen. Auf 'Umrechnen' klicken.",
+  "howItWorks": "Das Tool holt den aktuellen Kurs und multipliziert ihn mit dem Betrag. Bei einem Kurs von USD zu EUR von 0,92 ergibt 100$ genau 92€.",
+  "workedExample": "Ein Produkt kostet 150 Britische Pfund (£) und Sie wollen den Preis in Euro (€). Bei einem Kurs von 1,15 rechnet das Tool: 150 × 1,15 = 172,50€.",
+  "resultInterpretation": "Das Ergebnis basiert auf dem Devisenmittelkurs. Banken können bei echten Transaktionen Aufschläge berechnen.",
+  "useCases": "Reisebudget: Berechnen Sie Ihr Urlaubsgeld. Online-Shopping: Echte Kosten ausländischer Artikel ermitteln. Überweisungen: Kurse vor dem Senden prüfen.",
+  "tipsAndLimitations": "Der angezeigte Kurs ist der Mittelkurs. Kurse schwanken ständig. Kreditkarten erheben oft Fremdwährungsgebühren.",
   "faq": [
     {
-      "question": "Ist die Nutzung des Währungsumrechners kostenlos?",
-      "answer": "Ja, die Nutzung unseres Währungsumrechners ist völlig kostenlos."
+      "question": "Was ist der Devisenmittelkurs?",
+      "answer": "Der Mittelpunkt zwischen Kauf- und Verkaufspreis — der fairste, 'echte' Wechselkurs."
     },
     {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, es reagiert vollständig und funktioniert auf allen Geräten."
-    },
-    {
-      "question": "Muss ich etwas herunterladen?",
-      "answer": "Nein, es funktioniert vollständig in Ihrem Browser und erfordert keine Installation."
+      "question": "Warum ist der Kurs bei meiner Bank schlechter?",
+      "answer": "Banken fügen dem Mittelkurs eine Gewinnmarge (Spread) hinzu."
     }
   ],
-  "relatedTools": ["Prozentrechner", "Gehaltsrechner", "Rabattrechner"],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Währungsrechner",
+  "relatedTools": [
+    "percentage-increase-calculator",
+    "percentage-decrease-calculator",
+    "investment-calculator",
+    "compound-interest-calculator"
+  ],
+  "cta": "Prüfen Sie jetzt die aktuellen Wechselkurse!",
+  "disclaimer": "Nur zu Informationszwecken. Tatsächliche Bankkurse weichen ab.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Währungsrechner zeigt Wechselkurse",
   "ogImageText": "Währungsrechner"
 }

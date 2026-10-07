@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Penghitung Kata",
-  "metaDescription": "Penghitung Kata online gratis. Hitung kata dan karakter.",
+  "seoTitle": "Penghitung Kata - Hitung Kata, Karakter & Kalimat",
+  "metaDescription": "Penghitung Kata Online Gratis. Hitung kata, karakter, kalimat, dan paragraf dalam teks Anda secara instan. Sempurna untuk esai, tweet, dan SEO.",
   "h1": "Penghitung Kata",
   "primaryKeyword": "penghitung kata",
   "secondaryKeywords": [
-    "penghitung kata online",
-    "penghitung kata gratis",
-    "penghitung kata terbaik"
+    "menghitung kata secara online",
+    "penghitung karakter",
+    "alat penghitung kata",
+    "berapa kata"
   ],
-  "slug": "penghitung kata",
-  "intro": "Gunakan alat Penghitung Kata online gratis kami. Ini menghitung kata dan karakter berdasarkan masukan Anda.",
-  "whatIs": "Penghitung Kata adalah utilitas online yang menghitung kata dan karakter. Ini memproses blok teks Anda dan memberikan total kata, karakter, dan paragraf.",
+  "slug": "penghitung-kata",
+  "intro": "Menulis esai dengan batas kata yang ketat, atau mengoptimalkan posting blog untuk SEO? Penghitung Kata gratis kami memberikan metrik instan dan akurat untuk kata, karakter, dan kalimat.",
+  "whatIs": "Penghitung Kata adalah alat analisis teks. Alat ini memproses blok teks besar untuk memberikan data statistik termasuk jumlah kata total, jumlah karakter (dengan dan tanpa spasi), jumlah kalimat, dan jumlah paragraf.",
   "howToUse": [
-    "Masukkan blok teks Anda ke dalam kolom input yang ditentukan.",
-    "Berikan parameter sekunder seperti metrik jumlah.",
-    "Klik tombol hitung atau kirim untuk menghasilkan total kata, karakter, dan paragraf.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Tempel atau ketik teks Anda langsung ke dalam kotak input besar.",
+    "Metrik di bagian atas layar akan diperbarui secara instan.",
+    "Periksa rincian terperinci untuk panjang kata rata-rata dan waktu membaca."
   ],
-  "howItWorks": "Alat ini beroperasi di browser Anda dengan menerapkan algoritma standar pada blok teks Anda. Ini langsung memproses data untuk menghasilkan total kata, karakter, dan paragraf.",
-  "workedExample": "Misalnya: 100 kata, 550 karakter.",
-  "resultInterpretation": "Hasilnya mewakili total kata, karakter, dan paragraf. Anda dapat menggunakan data ini untuk perhitungan spesifik atau kebutuhan pemformatan Anda.",
+  "howItWorks": "Alat ini menggunakan Regular Expression (Regex) JavaScript untuk memparsing teks. Alat ini menghitung kata dengan mencari spasi dan batas tanda baca. Alat ini menghitung kalimat dengan mengidentifikasi tanda baca terminal (titik, tanda seru) diikuti oleh spasi.",
+  "workedExample": "Anda mengetik: 'Halo dunia. Apa kabar?' Alat ini menghitung: 5 Kata, 27 Karakter (dengan spasi), 2 Kalimat, dan perkiraan waktu membaca 2 detik.",
+  "resultInterpretation": "Statistik membantu Anda menyesuaikan panjang teks Anda dengan sempurna untuk memenuhi pedoman penerbitan tertentu, persyaratan akademik, atau batasan media sosial.",
   "useCases": [
-    "Menulis esai",
-    "Mematuhi batasan karakter Twitter",
-    "Memproses blok teks dengan cepat saat bepergian"
+    "Akademia: Memastikan esai kuliah memenuhi persyaratan minimum yang ketat yaitu 1.000 kata.",
+    "SEO & Pemasaran: Menjaga deskripsi meta di bawah 160 karakter dan posting blog lebih dari 1.500 kata.",
+    "Media Sosial: Memastikan sebuah tweet atau keterangan Instagram sesuai dengan batasan platform."
   ],
   "tipsAndLimitations": [
-    "Kata-kata yang diberi tanda penghubung biasanya dihitung sebagai satu kata.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "Kata-kata yang dipisahkan dengan tanda hubung (seperti 'state-of-the-art') umumnya dihitung sebagai satu kata oleh algoritma standar.",
+    "URL dan alamat email juga dianggap sebagai satu kata."
   ],
   "faq": [
     {
-      "question": "Apakah ini menghitung spasi?",
-      "answer": "Ini menyediakan 'karakter dengan spasi' dan 'tanpa spasi'."
+      "question": "Apa yang dihitung sebagai karakter?",
+      "answer": "Karakter adalah setiap huruf, angka, tanda baca, atau simbol tunggal. Spasi secara teknis juga merupakan karakter, itulah sebabnya kami menyediakan hitungan baik 'dengan spasi' maupun 'tanpa spasi'."
     },
     {
-      "question": "Apakah Penghitung Kata gratis untuk digunakan?",
-      "answer": "Ya, Penghitung Kata kami sepenuhnya gratis dan tidak memerlukan registrasi."
-    },
-    {
-      "question": "Apakah ini berfungsi pada perangkat seluler?",
-      "answer": "Ya, alat ini sepenuhnya responsif dan berfungsi sempurna di semua ponsel cerdas dan tablet."
+      "question": "Bagaimana waktu membaca dihitung?",
+      "answer": "Waktu membaca diperkirakan berdasarkan kecepatan membaca rata-rata orang dewasa sekitar 200 hingga 250 kata per menit."
     }
   ],
   "relatedTools": [
-    "penghitung karakter",
-    "internet-self-generator",
-    "konverter pembacaan bionik"
+    "character-counter",
+    "text-case-converter",
+    "markdown-editor"
   ],
-  "lastReviewed": "29-09-2026",
-  "imageAlt": "Tangkapan layar antarmuka Penghitung Kata",
+  "cta": "Hitung kata-katamu secara instan!",
+  "disclaimer": "Analisis terjadi sepenuhnya di dalam peramban Anda. Kami tidak menyimpan atau menyimpan teks Anda.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka Penghitung Kata yang menampilkan statistik teks",
   "ogImageText": "Penghitung Kata"
 }

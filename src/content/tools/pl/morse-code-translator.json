@@ -1,0 +1,52 @@
+{
+  "seoTitle": "Tłumacz alfabetu Morse’a - tłumacz tekst i dźwięk",
+  "metaDescription": "Darmowy internetowy tłumacz kodu Morse'a. Konwertuj tekst na kropki i kreski Morse'a lub tłumacz kod Morse'a z powrotem na angielski. Zawiera odtwarzanie dźwięku.",
+  "h1": "Tłumacz kodu Morse’a",
+  "primaryKeyword": "tłumacz kodu Morse’a",
+  "secondaryKeywords": [
+    "tekst na kod Morse'a",
+    "dźwięk kodu Morse’a",
+    "tłumaczyć morse'a",
+    "dekoder kodu Morse'a"
+  ],
+  "slug": "tłumacz-kodu-morse’a",
+  "intro": "Niezależnie od tego, czy jesteś entuzjastą radia amatorskiego, rozwiązujesz zagadkę, czy po prostu jesteś ciekawy, nasz darmowy tłumacz kodu Morse’a łatwo konwertuje tekst na kropki i kreski — i odtwarza go na głos.",
+  "whatIs": "Tłumacz kodu Morse'a to narzędzie o podwójnej funkcji, które koduje standardowy tekst alfabetyczny w systemie Międzynarodowego Kodu Morse'a (kropki/tytki i kreski/dah) oraz dekoduje ciągi Morse'a z powrotem na czytelny tekst.",
+  "howToUse": [
+    "Aby zakodować: Wpisz standardowy tekst w polu wprowadzania. Kod Morse'a wygeneruje się natychmiast.",
+    "Aby odszyfrować: Wpisz kod Morse'a używając kropek (.) i kresek (-), oddzielając litery pojedynczą spacją, a słowa slash (/).",
+    "Kliknij ikonę 'Odtwórz', aby usłyszeć kod Morse'a w formie dźwiękowej."
+  ],
+  "howItWorks": "Narzędzie używa zdefiniowanego słownika mapującego każdą literę i cyfrę w języku angielskim na określoną sekwencję kropek i kresek. Podczas tłumaczenia przechodzi przez ciąg znaków, zamieniając znaki na podstawie słownika. Do generowania dźwięku wykorzystuje Web Audio API do tworzenia krótkich i długich sygnałów oscylatorowych.",
+  "workedExample": "Wprowadzanie 'SOS' w polu tekstowym. 'S' to '...', a 'O' to '---'. Narzędzie wyświetla '... --- ...'.",
+  "resultInterpretation": "Wizualny wynik to dokładny wzór rytmiczny wymagany do przekazania wiadomości. Kropka (.) reprezentuje jedną jednostkę czasu, a kreska (-) reprezentuje trzy jednostki.",
+  "useCases": [
+    "Radioamatorstwo: Ćwiczenie umiejętności nadawania i odbioru w celu uzyskania licencji radioamatora.",
+    "Escape roomy i zagadki: Szybkie rozszyfrowanie ukrytej wiadomości w grze wideo lub ARG.",
+    "Edukacja przetrwania: Nauka wysyłania sygnału ratunkowego za pomocą latarki lub stukania."
+  ],
+  "tipsAndLimitations": [
+    "Kod Morse’a nie rozróżnia liter wielkich i małych.",
+    "Standardowy międzynarodowy kod Morse'a nie obsługuje większości znaków specjalnych ani alfabetów niełacińskich."
+  ],
+  "faq": [
+    {
+      "question": "Jak oddziela się słowa w kodzie Morse’a?",
+      "answer": "W pisemnym kodzie Morse'a litery są zwykle oddzielone pojedynczą spacją, a całe słowa są oddzielone ukośnikiem (/) lub trzema spacjami."
+    },
+    {
+      "question": "Czy mogę usłyszeć kod Morse'a?",
+      "answer": "Tak! Jeśli Twoja przeglądarka obsługuje Web Audio, możesz kliknąć przycisk odtwarzania, aby usłyszeć dokładny rytmiczny czas kropek i kresek."
+    }
+  ],
+  "relatedTools": [
+    "base64-encode-decode",
+    "binary-to-decimal",
+    "text-case-converter"
+  ],
+  "cta": "Przetłumacz swoją wiadomość na alfabet Morse'a!",
+  "disclaimer": "Narzędzie obsługuje międzynarodowy kod Morse’a (standard ITU). Może nieprawidłowo tłumaczyć specjalistyczne znaki skrótowe lub starszy amerykański kod Morse’a.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfejs tłumacza kodu Morse’a pokazujący SOS",
+  "ogImageText": "Tłumacz kodu Morse’a"
+}

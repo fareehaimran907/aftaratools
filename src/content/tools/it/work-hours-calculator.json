@@ -6,20 +6,21 @@
   "secondaryKeywords": [
     "Calcolatore delle ore di lavoro online",
     "Calcolatore gratuito delle ore di lavoro",
+    "miglior calcolatore delle ore di lavoro",
     "miglior calcolatore delle ore di lavoro"
   ],
-  "slug": "calcolatore delle ore di lavoro",
-  "intro": "Aggiungi facilmente le ore della tua scheda attività, comprese le pause.",
-  "whatIs": "Cos'è questo strumento?",
+  "slug": "calcolatore-ore-lavoro",
+  "intro": "Trascorri troppo tempo a calcolare manualmente le tue buste paga settimanali o a cercare di capire se ti spettano gli straordinari? Il nostro calcolatore delle ore lavorative online gratuito elimina i mal di testa legati al monitoraggio del tempo. Che tu sia un libero professionista che fattura i clienti a ore, un dipendente che controlla la busta paga o un manager che programma un turno, questo strumento calcola con precisione le ore totali lavorate e la retribuzione prevista. Semplicemente inserendo l'ora di inizio e di fine, insieme a eventuali pause non retribuite, il calcolatore determina istantaneamente il tempo di lavoro esatto, fino all'ultimo minuto. Semplifica la tua busta paga, assicurati una fatturazione accurata e ottieni la massima trasparenza sui tuoi guadagni.",
+  "whatIs": "Il calcolatore delle ore lavorative è uno strumento completo per la gestione del tempo e delle buste paga, progettato per calcolare l'esatto tempo trascorso al lavoro e il reddito che ne deriva. A differenza dei semplici orologi, questo strumento gestisce la complessa matematica del formato orario (ore e minuti) che tradizionalmente è noiosa da calcolare manualmente per le buste paga. Inserisci l'ora di inizio e l'ora di fine per ogni giorno, specifichi eventuali pause non retribuite (come il pranzo) e il sistema determina istantaneamente le ore nette totali lavorate. Se fornisci una tariffa oraria, funge anche da stimatore della retribuzione lorda, semplificando la proiezione dei guadagni o la creazione di fatture per un periodo di paga giornaliero, settimanale o bisettimanale.",
   "howToUse": [
     "Inserisci l'orario del tuo orologio nel campo di input designato.",
     "Fornire eventuali parametri secondari come l'ora di uscita.",
     "Fare clic sul pulsante Calcola o Invia per generare le ore totali meno le pause non retribuite.",
     "Copia o rivedi l'output risultante in base alle tue esigenze."
   ],
-  "howItWorks": "Come funziona",
-  "workedExample": "Esempi",
-  "resultInterpretation": "Interpretazione",
+  "howItWorks": "Lo strumento funziona traducendo gli input temporali standard in formato 12 o 24 ore nel tempo decimale necessario per i calcoli della retribuzione. Ad esempio, se timbri l'ingresso alle 8:00 e l'uscita alle 16:30, calcola le 8 ore e 30 minuti intercorrenti. Se specifichi una pausa non retribuita di 30 minuti, la sottrae, risultando in esattamente 8 ore di tempo lavorato. Queste 8 ore vengono quindi moltiplicate per la tariffa oraria fornita per stimare la retribuzione lorda per quel giorno. Per gli inserimenti su più giorni, il calcolatore somma questi totali giornalieri per fornire le ore e i guadagni accumulati settimanali o del periodo di paga, assicurando che non venga trascurato nemmeno un minuto.",
+  "workedExample": "Supponiamo che tu sia un libero professionista che fattura 25 USD all'ora. Il lunedì, inizi a lavorare alle 9:00, fai una pausa pranzo non retribuita di 45 minuti a mezzogiorno e finisci di lavorare alle 17:15. Inserisci questi orari nel calcolatore. Lo strumento calcola il tempo totale tra le 9:00 e le 17:15 come 8 ore e 15 minuti. Quindi, sottrae la pausa di 45 minuti, lasciando esattamente 7 ore e 30 minuti di tempo fatturabile. Per il calcolo dei guadagni, converte i 30 minuti nel decimale 0,5 ore. Quindi moltiplica 7,5 ore per la tua tariffa di 25 USD, determinando un guadagno totale di 187,50 USD per quel giorno.",
+  "resultInterpretation": "I risultati generati dal calcolatore in genere visualizzano due parametri chiave: il tempo di lavoro netto totale (presentato come ore e minuti e in formato decimale) e i guadagni lordi stimati. Il formato orario decimale (ad esempio, 7,5 ore invece di 7 ore e 30 minuti) è fondamentale perché è il formato standard utilizzato dai sistemi di calcolo delle buste paga. I guadagni lordi visualizzati sono la tua retribuzione al lordo di tasse e trattenute; rappresenta ciò che hai guadagnato basandoti esclusivamente sulla tua tariffa oraria. Questi dati possono essere utilizzati direttamente per fatturare ai clienti, effettuare controlli incrociati sulla tua busta paga ufficiale per rilevare discrepanze o monitorare la soglia degli straordinari.",
   "useCases": [
     "Fatturazione freelance",
     "Stima del libro paga",
@@ -27,8 +28,7 @@
   ],
   "tipsAndLimitations": [
     "Non calcola automaticamente le tasse.",
-    "Assicurati che i tuoi input siano formattati correttamente per ottenere i migliori risultati.",
-    "Lo strumento funziona completamente lato client, garantendo che i tuoi dati rimangano privati."
+    "Assicurati che i tuoi input siano formattati correttamente per ottenere i migliori risultati."
   ],
   "faq": [
     {
@@ -38,17 +38,15 @@
     {
       "question": "Funziona su dispositivi mobili?",
       "answer": "Sì, è completamente reattivo e funziona su tutti i dispositivi."
-    },
-    {
-      "question": "Devo scaricare qualcosa?",
-      "answer": "No, funziona completamente nel tuo browser senza alcuna installazione."
     }
   ],
   "relatedTools": [
-    "calcolatore dell'età",
-    "calcolatore della differenza di data",
-    "giorni tra le date"
+    "overtime-calculator",
+    "tax-calculator",
+    "roi-calculator"
   ],
+  "cta": "Calcola ora le tue ore di lavoro settimanali!",
+  "disclaimer": "Questo strumento calcola rigorosamente il tempo trascorso al netto delle pause. Consultare le leggi sul lavoro locali riguardanti le pause retribuite obbligatorie rispetto ai periodi di pasto non retribuiti.",
   "lastReviewed": "2026-09-30",
   "imageAlt": "Calcolatore delle ore di lavoro",
   "ogImageText": "Calcolatore delle ore di lavoro"

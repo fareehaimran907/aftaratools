@@ -1,0 +1,52 @@
+{
+  "seoTitle": "Percentage Difference Calculator",
+  "metaDescription": "Free online Percentage Difference Calculator. Calculate the absolute percentage difference between two numbers when neither is clearly the 'original' value.",
+  "h1": "Percentage Difference Calculator",
+  "primaryKeyword": "percentage difference calculator",
+  "secondaryKeywords": [
+    "percent difference",
+    "difference between two percentages",
+    "absolute percentage difference",
+    "compare two numbers"
+  ],
+  "slug": "percentage-difference-calculator",
+  "intro": "Comparing two numbers and want to know how far apart they are? Our free Percentage Difference Calculator gives you the precise absolute percentage difference between any two values.",
+  "whatIs": "The Percentage Difference Calculator is a statistical tool used to compare two values when neither value is distinctly considered the 'starting point' or 'original'. It measures how completely different they are relative to their average.",
+  "howToUse": [
+    "Enter the first value into Value A.",
+    "Enter the second value into Value B.",
+    "The order does not matter. The tool instantly computes the absolute percentage difference."
+  ],
+  "howItWorks": "The tool takes the absolute difference between the two numbers (|A - B|). It then calculates the average of the two numbers ((A + B) / 2). Finally, it divides the absolute difference by the average and multiplies by 100.",
+  "workedExample": "Comparing 40 and 60. Absolute difference is 20. The average is 50. (20 / 50) = 0.40. Multiply by 100. The percentage difference between 40 and 60 is 40%.",
+  "resultInterpretation": "The result is a neutral percentage that tells you how different the two numbers are from each other, regardless of which direction the change happened.",
+  "useCases": [
+    "Science & Engineering: Comparing an experimental test result against a theoretical prediction.",
+    "Quality Control: Measuring the difference between the size of a manufactured part and the design blueprint.",
+    "Opinion Polling: Measuring the spread between two competing election candidates."
+  ],
+  "tipsAndLimitations": [
+    "Percentage Difference is completely different from Percentage Change. Use this tool only when you are comparing two independent things, not one thing changing over time.",
+    "The result will always be a positive number."
+  ],
+  "faq": [
+    {
+      "question": "What is the formula for percentage difference?",
+      "answer": "Formula: (|Value A - Value B| / ((Value A + Value B) / 2)) × 100."
+    },
+    {
+      "question": "Why does order not matter?",
+      "answer": "Because the formula uses the absolute difference (always a positive number) and divides by the average, entering 40 then 60 yields the exact same result as entering 60 then 40."
+    }
+  ],
+  "relatedTools": [
+    "percentage-change-calculator",
+    "percentage-calculator",
+    "percentage-increase-calculator"
+  ],
+  "cta": "Find the percentage difference now!",
+  "disclaimer": "This tool strictly applies the absolute difference divided by the average formula. Ensure you do not actually need Percentage Change.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Percentage Difference Calculator interface",
+  "ogImageText": "Percentage Difference Calculator"
+}

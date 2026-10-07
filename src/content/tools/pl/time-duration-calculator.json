@@ -1,55 +1,60 @@
 {
-  "seoTitle": "Kalkulator czasu trwania",
-  "metaDescription": "Oblicz dokładny czas trwania pomiędzy dwoma momentami.",
-  "h1": "Kalkulator czasu trwania",
+  "seoTitle": "Kalkulator Czasu Trwania - Oblicz Czas, Który Upłynął",
+  "metaDescription": "Łatwo oblicz czas między dwiema godzinami w godzinach i minutach. Obsługuje przejścia przez północ i godziny dziesiętne dla płac.",
+  "h1": "Kalkulator Czasu Trwania",
   "primaryKeyword": "kalkulator czasu trwania",
   "secondaryKeywords": [
-    "Kalkulator czasu trwania online",
-    "darmowy kalkulator czasu trwania",
-    "najlepszy kalkulator czasu trwania"
+    "oblicz czas, który upłynął",
+    "czas między dwiema godzinami",
+    "kalkulator godzin i minut"
   ],
-  "slug": "kalkulator czasu trwania",
-  "intro": "Znajdź dokładne godziny i minuty pomiędzy czasem rozpoczęcia i czasem zakończenia.",
-  "whatIs": "Co to jest za narzędzie?",
+  "slug": "kalkulator-czasu-trwania",
+  "intro": "Musisz szybko obliczyć dokładny czas poświęcony na zadanie? Kalkulator Czasu Trwania natychmiast mierzy godziny i minuty, które upłynęły między czasem rozpoczęcia i zakończenia. Niezależnie od tego, czy śledzisz rozliczane godziny dla klientów, wypełniasz cotygodniową kartę czasu pracy, monitorujesz sesje nauki, czy obliczasz czas podróży, to proste, ale potężne narzędzie zapewnia, że już nigdy nie będziesz musiał wykonywać obliczeń czasowych w pamięci.",
+  "whatIs": "Kalkulator Czasu Trwania to specjalistyczne narzędzie online służące do pomiaru dokładnej długości czasu między określoną godziną rozpoczęcia a godziną zakończenia. W przeciwieństwie do zwykłego dodawania lub odejmowania, matematyka czasu opiera się na systemie sześćdziesiątkowym (60 minut w godzinie, 24 godziny w dobie), przez co obliczenia w pamięci są podatne na błędy. To narzędzie płynnie obsługuje te złożoności, zapewniając precyzyjny czas wyrażony w standardowych godzinach i minutach, a także w formacie dziesiętnym do przetwarzania płac.",
   "howToUse": [
-    "Wprowadź godzinę rozpoczęcia w wyznaczonym polu wejściowym.",
-    "Podaj wszelkie parametry dodatkowe, takie jak czas zakończenia.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować łączną liczbę godzin i minut, które upłynęły.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
+    "Krok 1: Wybierz lub wpisz godzinę rozpoczęcia w pierwszym polu wprowadzania, upewniając się, że oznaczenie AM/PM jest prawidłowe w przypadku korzystania z formatu 12-godzinnego.",
+    "Krok 2: Wybierz godzinę zakończenia w drugim polu wprowadzania.",
+    "Krok 3: Jeśli Twoja aktywność przechodzi przez północ na następny dzień, po prostu wprowadź godzinę zakończenia normalnie. Kalkulator wykryje to automatycznie.",
+    "Krok 4: Kliknij 'Oblicz', aby natychmiast zobaczyć czas trwania.",
+    "Krok 5: Wyświetl wyniki, które zostaną przedstawione w standardowych godzinach i minutach, łącznej liczbie minut oraz w dziesiętnych godzinach dla kart czasu pracy."
   ],
-  "howItWorks": "Jak to działa",
-  "workedExample": "Przykłady",
-  "resultInterpretation": "Interpretacja",
+  "howItWorks": "Narzędzie przelicza zarówno czas rozpoczęcia, jak i zakończenia na całkowitą liczbę minut, które upłynęły od północy. Następnie oblicza matematyczną różnicę między tymi dwiema wartościami minut. Co ważne, algorytm automatycznie uwzględnia okresy nocne; jeśli czas zakończenia jest numerycznie wcześniejszy niż czas rozpoczęcia, narzędzie rozumie, że czas trwania przekroczył północ i inteligentnie dodaje 24 godziny (1440 minut) do obliczeń, aby uzyskać prawidłowy czas, który upłynął.",
+  "workedExample": "Załóżmy, że zaczynasz nocną zmianę o 22:30, a kończysz o 06:15 następnego ranka. Kalkulator najpierw konwertuje obie godziny. Rozpoznając, że 06:15 jest wcześniej niż 22:30, automatycznie dodaje pełny cykl 24-godzinny do godziny zakończenia, aby uwzględnić przejście przez północ. Następnie oblicza różnicę, co daje całkowity czas trwania wynoszący dokładnie 7 godzin i 45 minut.",
+  "resultInterpretation": "Główny ekran wyraźnie pokazuje upływające standardowe godziny i minuty (np. 7h 45m). Ponadto w mniejszych polach uzupełniających wyświetlany jest odpowiednik w godzinach dziesiętnych (7,75 godziny) i całkowita surowa liczba minut (465 minut). Format godzin dziesiętnych jest szczególnie ważny w księgowości i zasobach ludzkich, ponieważ umożliwia bezpośrednie pomnożenie przepracowanego czasu przez stawkę godzinową.",
   "useCases": [
-    "Obliczanie grafiku",
-    "Czas trwania lotu",
-    "Szybkie przetwarzanie czasu rozpoczęcia w podróży"
+    "Karty Czasu Pracy i Płace: Rejestrowanie dokładnych godzin przepracowanych w celu fakturowania jako freelancer, rozliczeń wykonawców lub śledzenia czasu pracy pracowników.",
+    "Śledzenie Nauki lub Treningu: Precyzyjne mierzenie czasu trwania określonej sesji nauki lub treningu na siłowni.",
+    "Lotnictwo i Transport: Obliczanie czasów blokowych, czasu trwania lotów lub długości zmian kierowców w różnych okresach.",
+    "Zarządzanie Projektami: Śledzenie dokładnego czasu poświęconego na konkretne zadania w celu usprawnienia przyszłych szacunków czasu."
   ],
   "tipsAndLimitations": [
-    "Upewnij się, że AM/PM jest ustawiony prawidłowo.",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
+    "Wskazówka: Godziny dziesiętne są niezwykle przydatne przy wypłatach. Jeśli pracujesz 8 godzin i 30 minut za stawkę 20 USD/godz., po prostu mnożysz 8,5 przez 20.",
+    "Ograniczenie: To narzędzie ściśle oblicza upływający czas w oparciu o standardowy, 24-godzinny dzień. Nie uwzględnia ono zmian czasu na letni i zimowy, które mogą wystąpić w mierzonym okresie.",
+    "Wskazówka: Jeśli musisz obliczyć różnicę obejmującą wiele dni lub dat, rozważ skorzystanie z naszego Kalkulatora Różnicy Dat."
   ],
   "faq": [
     {
-      "question": "Czy korzystanie z kalkulatora czasu trwania jest bezpłatne?",
-      "answer": "Tak, korzystanie z naszego kalkulatora czasu trwania jest całkowicie darmowe."
+      "question": "Co się stanie, jeśli moje wydarzenie przekroczy północ i przejdzie na następny dzień?",
+      "answer": "Kalkulator automatycznie wykrywa, czy godzina zakończenia jest wcześniejsza niż godzina rozpoczęcia. W takim przypadku zakłada, że wydarzenie przekroczyło północ i bezproblemowo dodaje 24 godziny do obliczeń, aby podać prawidłowy czas trwania."
     },
     {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, jest w pełni responsywny i działa na wszystkich urządzeniach."
+      "question": "W jaki sposób obliczane są godziny dziesiętne i dlaczego są one przydatne?",
+      "answer": "Godziny dziesiętne oblicza się, dzieląc całkowitą liczbę minut przez 60. Na przykład 30 minut staje się 0,5 godziny, a 45 minut to 0,75 godziny. Format ten ma zasadnicze znaczenie w przypadku wynagrodzeń, ponieważ można z łatwością pomnożyć dziesiętną część godziny przez stawkę godzinową."
     },
     {
-      "question": "Czy muszę coś pobrać?",
-      "answer": "Nie, działa całkowicie w Twojej przeglądarce, bez żadnej instalacji."
+      "question": "Czy obsługuje zarówno formaty 12-godzinne, jak i 24-godzinne?",
+      "answer": "Tak, w zależności od ustawień systemu i przeglądarki pola wprowadzania czasu uwzględniają standardowe 12-godzinne formaty AM/PM lub wojskowe formaty 24-godzinne."
     }
   ],
   "relatedTools": [
-    "kalkulator wieku",
-    "kalkulator różnicy dat",
-    "dni pomiędzy datami"
+    "time-difference-calculator",
+    "months-between-dates",
+    "world-time-converter",
+    "countdown-timer"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator czasu trwania",
-  "ogImageText": "Kalkulator czasu trwania"
+  "cta": "Oblicz swój dokładny czas, który upłynął, błyskawicznie!",
+  "disclaimer": "To narzędzie jest przeznaczone do podstawowych obliczeń czasowych i nie uwzględnia zmian stref czasowych ani przejść na czas letni i zimowy w analizowanym okresie. Weryfikuj wyniki dla rygorystycznych zastosowań kadrowo-płacowych.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Zrzut ekranu kalkulatora czasu trwania wyświetlający godziny, minuty i godziny dziesiętne",
+  "ogImageText": "Kalkulator Czasu Trwania"
 }

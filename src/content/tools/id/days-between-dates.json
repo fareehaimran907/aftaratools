@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Hari Antar Tanggal",
-  "metaDescription": "Hitung jumlah hari yang tepat antara dua tanggal.",
-  "h1": "Hari Antar Tanggal",
-  "primaryKeyword": "hari antar tanggal",
+  "seoTitle": "Kalkulator Hari di Antara Tanggal - Temukan Jumlah Tepatnya",
+  "metaDescription": "Hitung jumlah pastinya hari di antara dua tanggal dengan mudah. Temukan total hari, hari kerja, dan akhir pekan.",
+  "h1": "Kalkulator Hari di Antara Tanggal",
+  "primaryKeyword": "hari di antara tanggal",
   "secondaryKeywords": [
-    "Hari Antar Tanggal online",
-    "Hari bebas Antar Tanggal",
-    "Hari terbaik Antar Tanggal"
+    "berapa hari",
+    "kalkulator hari",
+    "kalkulator hari kerja",
+    "penghitung hari"
   ],
   "slug": "hari-antara-tanggal",
-  "intro": "Hitung secara instan jumlah hari yang tepat antara dua tanggal mana pun.",
-  "whatIs": "Alat apa ini?",
+  "intro": "Apakah Anda sedang mencoba mencari tahu dengan tepat berapa hari yang telah berlalu sejak peristiwa penting, atau berapa hari tersisa hingga tenggat waktu yang akan datang? Kalkulator Hari di Antara Tanggal kami adalah alat yang sangat khusus yang dirancang untuk memberi Anda jumlah pasti hari absolut yang memisahkan dua tanggal kalender mana pun. Baik Anda melacak garis waktu proyek, menghitung hari berturut-turut, atau menghitung bunga keuangan selama periode tertentu, mengetahui jumlah pasti hari sangatlah penting. Kalkulator ini menghilangkan dugaan dan penghitungan manual yang membosankan terkait dengan panjang bulan yang bervariasi dan tahun kabisat, memberikan jawaban yang sangat mudah dan akurat hanya dalam hitungan milidetik.",
+  "whatIs": "Kalkulator Hari di Antara Tanggal adalah utilitas penting yang mengukur durasi mentah yang tidak terputus antara tanggal mulai dan tanggal akhir, yang dinyatakan secara eksklusif dalam hari. Tidak seperti kalkulator usia atau tanggal umum yang memecah waktu menjadi tahun, bulan, dan hari, alat ini berfokus semata-mata pada jumlah hari absolut. Metrik murni ini sangat penting untuk banyak penghitungan teknis, keuangan, dan ilmiah di mana 'bulan' merupakan unit yang terlalu bervariasi (karena bulan dapat memiliki 28, 29, 30, atau 31 hari). Dengan mengandalkan hitungan hari absolut, profesional dapat menghitung suku bunga harian secara akurat, menentukan biaya sewa harian yang tepat, atau melacak rekor berturut-turut tanpa keraguan apa pun.",
   "howToUse": [
-    "Masukkan tanggal pertama Anda ke dalam kolom input yang ditentukan.",
-    "Berikan parameter sekunder seperti tanggal kedua.",
-    "Klik tombol hitung atau kirim untuk menghasilkan jumlah total hari dengan membagi milidetik.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Pilih tanggal mulai Anda.",
+    "Pilih tanggal selesai Anda.",
+    "Opsional centang 'Sertakan tanggal selesai' jika Anda menginginkan hitungan inklusif penuh.",
+    "Lihat jumlah total hari, hari kerja, dan akhir pekan."
   ],
-  "howItWorks": "Bagaimana cara kerjanya",
-  "workedExample": "Contoh",
-  "resultInterpretation": "Interpretasi",
+  "howItWorks": "Pada intinya, kalkulator mengubah tanggal mulai dan tanggal akhir yang Anda pilih menjadi format waktu universal—khususnya, jumlah milidetik yang telah berlalu sejak Unix Epoch (1 Januari 1970). Dengan mengurangkan stempel waktu mulai dari stempel waktu akhir, alat ini menentukan perbedaan waktu yang tepat dalam milidetik. Kemudian ia membagi angka besar ini dengan 86.400.000 (jumlah pasti milidetik dalam standar hari 24 jam) untuk mendapatkan hitungan hari mentah. Pendekatan matematika ini memastikan bahwa anomali seperti tahun kabisat dan panjang bulan yang tidak teratur diperhitungkan secara alami dan sempurna. Alat ini juga menyertakan tuas untuk 'Sertakan tanggal akhir', yang sekadar menambahkan 1 ke hasil akhir, mengubah penghitungan dari perbedaan matematika yang ketat menjadi hitungan durasi inklusif.",
+  "workedExample": "Pertimbangkan skenario di mana Anda perlu menghitung jumlah hari antara 4 Juli 2023 dan 25 Desember 2023. Jika Anda menghitungnya secara manual, Anda harus menambahkan sisa 27 hari di bulan Juli, 31 di bulan Agustus, 30 di bulan September, 31 di bulan Oktober, 30 di bulan November, dan 25 di bulan Desember. Kalkulator kami melakukan operasi ini secara instan. Ia menemukan stempel waktu untuk 25 Desember dan mengurangi stempel waktu untuk 4 Juli. Perbedaan mentahnya adalah tepat 174 hari. Jika Anda menghitung sewa harian yang dimulai pada 4 Juli dan berakhir pada 25 Desember (termasuk kedua hari tersebut), Anda akan mencentang opsi 'Sertakan tanggal akhir', dan kalkulator akan langsung menyesuaikan total menjadi 175 hari.",
+  "resultInterpretation": "Menginterpretasikan hasilnya sangat mudah, tetapi penting untuk memahami konteks perhitungan Anda. Hasil standar mewakili perbedaan matematika yang ketat—pada dasarnya jumlah pertengahan malam yang berlalu di antara dua tanggal. Ini adalah metrik yang benar untuk menghitung usia, waktu yang berlalu, atau tenggat waktu standar. Namun, jika Anda melacak rentetan harian berturut-turut (seperti diet atau belajar bahasa), atau menagih layanan yang diberikan setiap hari yang mencakup kedua tanggal tersebut, Anda memerlukan hitungan inklusif. Penghitungan inklusif menambahkan satu hari pada selisih matematika untuk memastikan bahwa hari mulai dan hari akhir dihitung sepenuhnya dalam total.",
   "useCases": [
-    "Pelacakan visa",
-    "Masa kehamilan",
-    "Memproses kencan pertama dengan cepat saat bepergian"
+    "Perencanaan Bisnis: Menghitung jumlah hari kerja yang tersedia untuk suatu proyek.",
+    "Perhitungan Cuti: Mencari tahu berapa hari kerja yang akan dihabiskan liburan.",
+    "Acara: Menghitung mundur jumlah pasti hari menuju tenggat waktu."
   ],
   "tipsAndLimitations": [
-    "Tidak termasuk zona waktu.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "Hitungan hari kerja mengasumsikan hari kerja Senin-Jumat standar.",
+    "Hari libur nasional tidak dikurangi dari hitungan hari kerja.",
+    "Gunakan sakelar 'Sertakan tanggal selesai' untuk pemesanan hotel inklusif."
   ],
   "faq": [
     {
-      "question": "Apakah Hari Antar Tanggal gratis untuk digunakan?",
-      "answer": "Ya, Hari Antar Tanggal kami sepenuhnya gratis untuk digunakan."
+      "question": "Apakah alat ini menghitung hari libur nasional sebagai hari kerja?",
+      "answer": "Ya, hari libur nasional tetap dihitung sebagai hari kerja jika jatuh antara Senin dan Jumat. Anda harus mengurangi hari libur lokal Anda secara manual."
     },
     {
-      "question": "Apakah ini berfungsi di perangkat seluler?",
-      "answer": "Ya, ini sepenuhnya responsif dan berfungsi di semua perangkat."
-    },
-    {
-      "question": "Apakah saya perlu mengunduh sesuatu?",
-      "answer": "Tidak, ini berfungsi sepenuhnya di browser Anda tanpa instalasi apa pun."
+      "question": "Apa arti 'Sertakan tanggal selesai (+1 hari)'?",
+      "answer": "Selisih antara tanggal 1 dan 2 adalah 1 hari. Namun, jika Anda bekerja pada kedua hari tersebut, Anda bekerja selama 2 hari. Kotak centang menambahkan hari inklusif ini."
     }
   ],
   "relatedTools": [
-    "kalkulator usia",
-    "kalkulator-perbedaan tanggal",
-    "hari-sampai-kalkulator"
+    "date-difference-calculator",
+    "days-until-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Hari Antar Tanggal",
-  "ogImageText": "Hari Antar Tanggal"
+  "cta": "Hitung hari di antara tanggal Anda secara instan!",
+  "disclaimer": "Alat ini untuk tujuan informasi umum. Harap verifikasi secara manual untuk tenggat waktu hukum yang ketat.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Tangkapan layar Kalkulator Hari di Antara Tanggal",
+  "ogImageText": "Hari di Antara Tanggal Kalkulator"
 }

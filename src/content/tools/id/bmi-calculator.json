@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Kalkulator BMI",
-  "metaDescription": "Hitung Indeks Massa Tubuh Anda.",
+  "seoTitle": "Kalkulator BMI - Periksa Indeks Massa Tubuh Anda Secara Online",
+  "metaDescription": "Kalkulator BMI online gratis. Hitung Indeks Massa Tubuh (BMI) Anda secara instan menggunakan tinggi dan berat badan Anda. Temukan apakah Anda berada dalam rentang berat badan yang sehat.",
   "h1": "Kalkulator BMI",
-  "primaryKeyword": "kalkulator bmi",
+  "primaryKeyword": "kalkulator BMI",
   "secondaryKeywords": [
-    "kalkulator bmi online",
-    "kalkulator bmi gratis",
-    "kalkulator bmi terbaik"
+    "hitung bmi",
+    "kalkulator indeks massa tubuh",
+    "pemeriksa BMI",
+    "kalkulator berat badan sehat"
   ],
-  "slug": "bmi-kalkulator",
-  "intro": "Perkirakan indeks massa tubuh Anda berdasarkan tinggi dan berat badan Anda.",
-  "whatIs": "Alat apa ini?",
+  "slug": "kalkulator-bmi",
+  "intro": "Ingin tahu apakah berat badan Anda sehat untuk tinggi badan Anda? Kalkulator BMI gratis kami langsung menghitung Indeks Massa Tubuh Anda menggunakan kategori standar Organisasi Kesehatan Dunia.",
+  "whatIs": "Kalkulator BMI (Indeks Massa Tubuh) adalah alat skrining kesehatan. Alat ini menggunakan rumus matematis berdasarkan tinggi dan berat badan Anda untuk memperkirakan total lemak tubuh Anda dan mengkategorikan risiko kesehatan Anda.",
   "howToUse": [
-    "Masukkan tinggi badan Anda ke dalam kolom input yang ditentukan.",
-    "Berikan parameter sekunder seperti berat.",
-    "Klik tombol hitung atau kirim untuk menghasilkan angka pengklasifikasian berat badan.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Pilih sistem pengukuran yang Anda sukai (Metrik atau Imperial).",
+    "Masukkan tinggi badan Anda (dalam cm atau kaki/inci).",
+    "Masukkan berat badan Anda (dalam kg atau pon).",
+    "Alat ini menghitung BMI Anda secara tepat dan menampilkan kategori kesehatan Anda."
   ],
-  "howItWorks": "Bagaimana cara kerjanya",
-  "workedExample": "Contoh",
-  "resultInterpretation": "Interpretasi",
+  "howItWorks": "Alat ini menggunakan rumus standar: berat dalam kilogram dibagi dengan tinggi dalam meter kuadrat (kg/m²). Untuk input imperialis, alat ini menghitung (pound / inci²) × 703 sebelum mengkategorikan hasilnya.",
+  "workedExample": "Seseorang yang tingginya 1,75 meter dan beratnya 70 kilogram: 70 / (1,75 × 1,75) = 70 / 3,0625 = 22,86. BMI sebesar 22,86 termasuk dalam kategori 'Berat Badan Normal/Sehat'.",
+  "resultInterpretation": "Angka tersebut memberikan indikator umum kesehatan. Di bawah 18,5 adalah Kekurangan Berat Badan; 18,5 hingga 24,9 adalah Normal; 25,0 hingga 29,9 adalah Kelebihan Berat Badan; 30,0 dan di atasnya adalah Obesitas.",
   "useCases": [
-    "Pemeriksaan kesehatan umum",
-    "Formulir penerimaan medis",
-    "Memproses ketinggian dengan cepat saat bepergian"
+    "Kesehatan Pribadi: Melacak BMI Anda dari waktu ke waktu saat Anda memulai diet atau program olahraga baru.",
+    "Skrining Medis: Dokter menggunakan BMI sebagai alat skrining awal cepat untuk mengidentifikasi potensi risiko kesehatan terkait berat badan.",
+    "Perencanaan Kebugaran: Menetapkan target berat badan yang realistis berdasarkan kisaran BMI 'Normal' untuk tinggi badan Anda."
   ],
   "tipsAndLimitations": [
-    "BMI tidak membedakan antara massa otot dan lemak.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "BMI tidak langsung mengukur persentase lemak tubuh. Itu tidak dapat membedakan antara lemak dan otot.",
+    "Atlet yang sangat berotot mungkin dinilai sebagai 'Obesitas' pada skala BMI meskipun memiliki lemak tubuh yang sangat rendah, karena otot lebih padat daripada lemak."
   ],
   "faq": [
     {
-      "question": "Apakah BMI akurat untuk atlet?",
-      "answer": "Tidak, individu berotot sering kali salah digolongkan sebagai kelebihan berat badan."
+      "question": "Apakah BMI akurat untuk semua orang?",
+      "answer": "Tidak. Meskipun ini merupakan panduan umum yang baik untuk populasi rata-rata, ini tidak akurat untuk wanita hamil, atlet dengan otot besar, dan orang tua."
     },
     {
-      "question": "Apakah Kalkulator BMI gratis untuk digunakan?",
-      "answer": "Ya, Kalkulator BMI kami sepenuhnya gratis dan tidak memerlukan registrasi."
-    },
-    {
-      "question": "Apakah ini berfungsi pada perangkat seluler?",
-      "answer": "Ya, alat ini sepenuhnya responsif dan berfungsi sempurna di semua ponsel cerdas dan tablet."
+      "question": "Apakah jenis kelamin memengaruhi BMI?",
+      "answer": "Rumus BMI dewasa standar tidak mempertimbangkan jenis kelamin. Namun, wanita secara alami memiliki persentase lemak tubuh yang sedikit lebih tinggi daripada pria pada BMI yang sama."
     }
   ],
   "relatedTools": [
-    "bmr-kalkulator",
-    "kalkulator kalori",
-    "kalkulator makro"
+    "bmr-calculator",
+    "body-fat-calculator",
+    "calorie-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator BMI",
+  "cta": "Hitung BMI Anda sekarang!",
+  "disclaimer": "Alat ini menyediakan perkiraan kesehatan umum berdasarkan standar WHO. Ini bukan pengganti saran atau diagnosis medis profesional.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka Kalkulator BMI yang menampilkan hasil sehat",
   "ogImageText": "Kalkulator BMI"
 }

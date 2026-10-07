@@ -1,0 +1,53 @@
+{
+  "seoTitle": "PIN-generator - Willekeurige PIN-code maker",
+  "metaDescription": "Gratis online PIN-generator. Maak veilige, willekeurige 4-cijferige, 6-cijferige of op maat gemaakte numerieke PIN-codes voor sloten, telefoons en bankzaken.",
+  "h1": "PIN-generator",
+  "primaryKeyword": "pincodegenerator",
+  "secondaryKeywords": [
+    "willekeurige pincodegenerator",
+    "4-cijferige pincodegenerator",
+    "6-cijferige pincode",
+    "genereer pincode"
+  ],
+  "slug": "pin-generator",
+  "intro": "Een nieuwe voicemail, slimme slot of pinpas instellen? Onze gratis PIN-generator maakt volledig willekeurige, veilige numerieke codes zodat je niet terugvalt op het gebruik van je geboortejaar.",
+  "whatIs": "De PIN (Persoonlijk Identificatienummer) Generator is een gespecialiseerd beveiligingshulpmiddel dat willekeurige reeksen genereert die uitsluitend uit cijfers (0-9) bestaan. Het is ontworpen om gemakkelijk te raden PIN's zoals '1234' of '0000' te vervangen.",
+  "howToUse": [
+    "Selecteer de lengte van de PIN die u nodig hebt (bijv. 4 cijfers, 6 cijfers).",
+    "Klik op de knop 'Genereer PIN'.",
+    "Het gereedschap toont direct een willekeurige numerieke code.",
+    "Onthoud de code of bewaar deze veilig."
+  ],
+  "howItWorks": "Het hulpmiddel gebruikt cryptografische willekeurige getalgeneratie om een geheel getal tussen 0 en 9 te kiezen voor elk opgevraagd cijfer. Vervolgens voegt het deze gehele getallen samen tot een uiteindelijke string, waarbij ervoor wordt gezorgd dat getallen kunnen worden herhaald (zoals '4942'), net zoals ze dat in echte waarschijnlijkheid zouden doen.",
+  "workedExample": "Je hebt een 6-cijferige pincode voor je smartphone nodig. Je stelt de lengte in op 6 en klikt op genereren. Het hulpmiddel geeft een volledig willekeurige reeks: '830517'.",
+  "resultInterpretation": "Het resulterende nummer is je nieuwe, zeer veilige pincode. Omdat het wiskundig willekeurig is, voorkomt het veelvoorkomende menselijke vooroordelen (zoals het kiezen van data of toetsenbordpatronen).",
+  "useCases": [
+    "Fysieke beveiliging: Het instellen van de mastercode voor een digitaal deurslot, kluis of alarmsysteem voor thuis.",
+    "Mobiele apparaten: Een veilige ontgrendelingscode aanmaken voor een iPhone- of Android-apparaat.",
+    "Financiële diensten: Het genereren van een veilige secundaire verificatie-PIN voor bank- of cryptocurrency-handelsapps."
+  ],
+  "tipsAndLimitations": [
+    "Gebruik nooit data (zoals je verjaardag of jubileum) als pincode. Dat is het allereerste wat een hacker of dief zal proberen.",
+    "Een 6-cijferige pincode heeft 1.000.000 mogelijke combinaties, waardoor deze precies 100 keer veiliger is tegen brute-force aanvallen dan een 4-cijferige pincode (10.000 combinaties)."
+  ],
+  "faq": [
+    {
+      "question": "Is het veilig om een pincode online te genereren?",
+      "answer": "Ja, omdat de generatie lokaal in je webbrowser plaatsvindt. De server ziet het gegenereerde nummer nooit, en het wordt onmiddellijk uit het geheugen gewist wanneer je het tabblad sluit."
+    },
+    {
+      "question": "Kan de pincode met een nul beginnen?",
+      "answer": "Ja! In tegenstelling tot standaard rekenmachines die voorloopnullen laten vallen, genereert onze tool PIN's als 'strings', wat betekent dat codes zoals '0042' perfect worden gegenereerd en weergegeven."
+    }
+  ],
+  "relatedTools": [
+    "password-generator",
+    "random-number-generator",
+    "strong-password-generator"
+  ],
+  "cta": "Genereer nu een veilige pincode!",
+  "disclaimer": "De tool verwerkt nummers volledig aan de clientzijde. Zorg ervoor dat je je pincode vergeet of veilig opslaat, aangezien deze niet kan worden hersteld nadat de pagina is gesloten.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "PIN-generatorhulpmiddelinterface",
+  "ogImageText": "PIN-generator"
+}

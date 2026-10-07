@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Color Contrast Checker - WCAG Accessibility Tool",
+  "metaDescription": "Free online Color Contrast Checker. Instantly calculate the contrast ratio between your text and background colors to ensure WCAG accessibility compliance.",
+  "h1": "Color Contrast Checker",
+  "primaryKeyword": "color contrast checker",
+  "secondaryKeywords": [
+    "wcag contrast checker",
+    "accessibility color contrast",
+    "check color contrast",
+    "text readability calculator"
+  ],
+  "slug": "contrast-checker",
+  "intro": "Ensure your website is readable for everyone. Our free Color Contrast Checker calculates the exact ratio between your text and background colors, verifying compliance with WCAG accessibility guidelines.",
+  "whatIs": "The Color Contrast Checker is a web accessibility utility. It mathematically evaluates the relative luminance of a foreground color (text) against a background color to determine if there is enough visual difference for visually impaired users to read the text comfortably.",
+  "howToUse": [
+    "Enter the HEX code for your Text/Foreground color.",
+    "Enter the HEX code for your Background color.",
+    "The tool calculates the contrast ratio (e.g., 4.5:1).",
+    "It displays a Pass/Fail grade for WCAG AA and AAA standards."
+  ],
+  "howItWorks": "The tool converts both HEX codes to RGB, applies a specific mathematical formula to calculate the 'relative luminance' of both colors, and then divides the lighter luminance by the darker luminance. The result is a ratio between 1:1 (no contrast) and 21:1 (maximum contrast).",
+  "workedExample": "You test pure black text (#000000) on a pure white background (#FFFFFF). The tool calculates the maximum possible contrast ratio of exactly 21:1, easily passing all AAA accessibility requirements.",
+  "resultInterpretation": "A higher ratio means the text is easier to read. Web Content Accessibility Guidelines (WCAG) require a minimum ratio of 4.5:1 for normal text (AA standard) and 7:1 for strict accessibility (AAA standard).",
+  "useCases": [
+    "Web Accessibility Audits: Ensuring a corporate website does not violate ADA compliance laws regarding readability.",
+    "UI/UX Design: Checking if a light gray placeholder text inside a white input field is too hard to read.",
+    "Brand Guidelines: Verifying that brand colors can be safely overlaid on top of each other in marketing graphics."
+  ],
+  "tipsAndLimitations": [
+    "Large text (over 18pt or 14pt bold) is easier to read, so WCAG only requires a lower 3:1 ratio for passing the AA standard.",
+    "Color blindness affects hue perception, but relative luminance contrast remains the most important factor for readability."
+  ],
+  "faq": [
+    {
+      "question": "What happens if my colors fail the check?",
+      "answer": "If they fail, your text will be very difficult for people with poor vision or color blindness to read. You should darken the text color or lighten the background color until the ratio hits at least 4.5:1."
+    },
+    {
+      "question": "Is 21:1 the best contrast?",
+      "answer": "Mathematically, yes. However, pure black text on pure white backgrounds (21:1) can cause eye strain or 'halation' for some users with dyslexia. Very dark gray (e.g., #222222) on off-white is often preferred."
+    }
+  ],
+  "relatedTools": [
+    "color-picker",
+    "color-palette-generator",
+    "hex-to-rgb"
+  ],
+  "cta": "Check your color accessibility now!",
+  "disclaimer": "This tool calculates contrast based on the standard WCAG 2.1 algorithm for relative luminance.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Color Contrast Checker showing a passing 4.5 ratio",
+  "ogImageText": "Color Contrast Checker"
+}

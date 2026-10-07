@@ -1,55 +1,91 @@
 {
-  "seoTitle": "Kalkulator wieku",
-  "metaDescription": "Bezpłatny kalkulator wieku online. Oblicz swój dokładny wiek w latach, miesiącach i dniach.",
-  "h1": "Kalkulator wieku",
+  "seoTitle": "Kalkulator Wieku – Oblicz Dokładny Wiek w Latach, Miesiącach i Dniach",
+  "metaDescription": "Darmowy kalkulator wieku online. Podaj datę urodzenia i natychmiast sprawdź swój dokładny wiek w latach, miesiącach, dniach i łącznej liczbie przeżytych dni.",
+  "h1": "Kalkulator Wieku",
   "primaryKeyword": "kalkulator wieku",
   "secondaryKeywords": [
-    "Kalkulator wieku w Internecie",
-    "darmowy kalkulator wieku",
-    "najlepszy kalkulator wieku"
+    "ile mam lat",
+    "oblicz wiek",
+    "kalkulator wieku online darmowy",
+    "dokładny wiek kalkulator",
+    "wiek w latach miesiącach dniach",
+    "ile dni żyję",
+    "kalkulator urodzin",
+    "oblicz wiek z daty urodzenia",
+    "kalkulator wieku online"
   ],
-  "slug": "kalkulator wieku",
-  "intro": "Skorzystaj z naszego bezpłatnego internetowego narzędzia do obliczania wieku. Określa dokładny wiek na podstawie wprowadzonych danych.",
-  "whatIs": "Kalkulator wieku to narzędzie internetowe, które pozwala określić dokładny wiek. Przetwarza Twoją datę urodzenia i podaje dokładną różnicę w latach, miesiącach i dniach.",
+  "slug": "kalkulator-wieku",
+  "intro": "Chcesz wiedzieć, ile masz dokładnie lat? Nasz darmowy kalkulator wieku podaje precyzyjną odpowiedź w kilka sekund — w latach, miesiącach, dniach oraz łącznej liczbie przeżytych dni. Bez rejestracji — wszystkie obliczenia odbywają się lokalnie w Twojej przeglądarce.",
+  "whatIs": "Kalkulator wieku to narzędzie online, które precyzyjnie mierzy czas, jaki upłynął od daty urodzenia osoby do dowolnej daty docelowej — zazwyczaj dzisiejszej. W przeciwieństwie do prostego odejmowania lat, prawdziwy kalkulator uwzględnia lata przestępne, różną liczbę dni w każdym miesiącu oraz to, czy urodziny w bieżącym miesiącu już minęły. Wynik jest rozkładany na lata, miesiące i pozostałe dni, dzięki czemu znasz nie tylko swój wiek w pełnych latach, ale i pełną precyzję czasu spędzonego na tej ziemi. Nasz kalkulator pokazuje też, ile dni pozostało do kolejnych urodzin, oraz skumulowaną łączną liczbę przeżytych dni — obie wartości są zaskakująco przydatne przy planowaniu, dokumentach prawnych i osobistych kamieniach milowych.",
   "howToUse": [
-    "Wpisz swoją datę urodzenia w wyznaczonym polu wejściowym.",
-    "Podaj dowolne parametry dodatkowe, takie jak bieżąca data.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować dokładną różnicę w latach, miesiącach i dniach.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
+    "Wpisz datę urodzenia w polu 'Data urodzenia' za pomocą selektora dat lub wpisując w formacie RRRR-MM-DD.",
+    "Opcjonalnie ustaw 'Datę docelową', jeśli chcesz obliczyć wiek na konkretną datę w przeszłości lub przyszłości zamiast dziś.",
+    "Kliknij 'Oblicz'.",
+    "Odczytaj swój dokładny wiek w latach, miesiącach i dniach wraz z odliczaniem do kolejnych urodzin i łączną liczbą przeżytych dni.",
+    "Użyj przycisku kopiowania, aby skopiować wynik do schowka, lub naciśnij Resetuj, aby zacząć od nowa."
   ],
-  "howItWorks": "Narzędzie to działa w Twojej przeglądarce, stosując standardowe algorytmy do Twojej daty urodzenia. Natychmiast przetwarza dane, aby uzyskać dokładną różnicę w latach, miesiącach i dniach.",
-  "workedExample": "Na przykład: od 1 stycznia 1990 do 1 stycznia 2024 zwraca dokładnie 34 lata.",
-  "resultInterpretation": "Wynik przedstawia dokładną różnicę w latach, miesiącach i dniach. Możesz użyć tych danych do konkretnych obliczeń lub potrzeb formatowania.",
+  "howItWorks": "Wiek = (Data docelowa − Data urodzenia), obliczany kolejno: najpierw pełne lata kalendarzowe, potem pełne miesiące kalendarzowe, a na końcu pozostałe dni. Lata przestępne (podzielne przez 4, z wyjątkiem stuleci niepodzielnych przez 400) dodają jeden dzień w lutym i są w pełni uwzględniane.",
+  "workedExample": "Przykład: Data urodzenia = 15 marca 1990 r. Data docelowa = 1 października 2026 r. Krok 1 — pełne lata od 15 marca 1990 do 15 marca 2026 = 36 lat. Krok 2 — pełne miesiące od 15 marca do 1 października = 6 miesięcy. Krok 3 — pozostałe dni od 15 września do 1 października = 16 dni. Wynik: 36 lat, 6 miesięcy, 16 dni. Łączna liczba przeżytych dni ≈ 13 349.",
+  "resultInterpretation": "Pole 'Lata' to Twój ukończony wiek — liczba widniejąca w dokumentach urzędowych. 'Miesiące' to dodatkowe pełne miesiące od ostatnich urodzin. 'Dni' to pozostałe dni w bieżącym niepełnym miesiącu. 'Kolejne urodziny' informuje, ile dni zostało do ukończenia kolejnego roku życia. 'Łączna liczba dni' jest przydatna w kontekstach prawnych, medycznych i naukowych, gdzie liczy się bezwzględny czas, a nie liczenie według lat kalendarzowych.",
   "useCases": [
-    "Sprawdzanie dokładnego wieku formularzy",
-    "Obliczanie wieku wydarzeń historycznych",
-    "Szybkie przetwarzanie daty urodzenia w podróży"
+    "Uzupełnianie pól dotyczących wieku w podaniach i formularzach urzędowych, wymagających dokładnego podziału na lata, miesiące i dni.",
+    "Obliczanie dokładnego wieku rozwojowego dziecka dla pediatrycznych kamieni milowych lub terminów rejestracji szkolnej.",
+    "Sprawdzanie, czy ktoś spełnia minimalny wymóg wiekowy dla umowy, prawa jazdy lub emerytury.",
+    "Ustalanie wieku wydarzeń historycznych — na przykład ile lat minęło od budowy słynnego budynku.",
+    "Osobista ciekawość: świętowanie 10 000. dnia życia lub planowanie okrągłej rocznicy.",
+    "Obliczanie swojego wieku w konkretnej przeszłej dacie, np. kiedy zaczął się nowy etat lub zawarcie małżeństwa."
   ],
   "tipsAndLimitations": [
-    "Zakłada kalendarz gregoriański.",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
+    "Kalkulator zakłada użycie kalendarza gregoriańskiego. Daty przed reformą gregoriańską (15 października 1582 r.) mogą nie być historycznie dokładne.",
+    "Upewnij się, że lokalna data w przeglądarce jest prawidłowa — wartość 'dziś' jest pobierana z zegara urządzenia.",
+    "Jeśli wpiszesz przyszłą datę urodzenia, pojawi się komunikat o błędzie — ujemnego wieku nie można obliczyć.",
+    "Pole 'Data docelowa' jest opcjonalne i domyślnie ustawione na dzisiejszą datę. Używaj go do obliczania wieku w momencie z przeszłości lub przyszłości.",
+    "Wszystkie obliczenia odbywają się lokalnie w Twojej przeglądarce; żadne dane osobowe nie są wysyłane na serwer.",
+    "Wszystkie obliczenia są wykonywane lokalnie w przeglądarce za pomocą JavaScript; żadne dane osobowe nie są wysyłane na żaden serwer."
   ],
   "faq": [
     {
-      "question": "Czy uwzględnia lata przestępne?",
-      "answer": "Tak, w pełni uwzględnia lata przestępne."
+      "question": "Ile mam dokładnie lat w tej chwili?",
+      "answer": "Wpisz datę urodzenia w kalkulatorze powyżej i kliknij 'Oblicz'. Natychmiast zobaczysz swój dokładny wiek w latach, miesiącach i dniach na dzień dzisiejszy, korzystając z lokalnej daty przeglądarki."
     },
     {
-      "question": "Czy korzystanie z Kalkulatora wieku jest bezpłatne?",
-      "answer": "Tak, nasz Kalkulator Wiek jest całkowicie darmowy i nie wymaga rejestracji."
+      "question": "Czy kalkulator uwzględnia lata przestępne?",
+      "answer": "Tak. Algorytm w pełni obsługuje lata przestępne. Urodziny przypadające 29 lutego są w latach zwykłych traktowane jako 1 marca przy liczeniu dni, co jest zgodne z większością standardów prawnych i medycznych."
     },
     {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, narzędzie jest w pełni responsywne i doskonale działa na wszystkich smartfonach i tabletach."
+      "question": "Czy mogę obliczyć wiek na datę w przeszłości lub przyszłości?",
+      "answer": "Oczywiście. Użyj opcjonalnego pola 'Data docelowa', aby ustawić dowolną datę — z przeszłości lub przyszłości. Jest to bardzo przydatne przy badaniach historycznych i obliczeniach wymagań wiekowych."
+    },
+    {
+      "question": "Jak obliczana jest 'Łączna liczba dni'?",
+      "answer": "Łączna liczba dni to bezwzględna liczba dni między datą urodzenia a datą docelową. Oblicza się ją, dzieląc różnicę w milisekundach przez 86 400 000 i zaokrąglając w dół. Dni przestępne są automatycznie wliczane."
+    },
+    {
+      "question": "Dlaczego mój wiek czasem różni się o jeden dzień?",
+      "answer": "Może to się zdarzyć, jeśli lokalny zegar przeglądarki jest ustawiony na inną strefę czasową niż Twoja, lub jeśli w Twojej strefie nie minęła jeszcze północ. Sprawdź, czy zegar systemowy urządzenia jest prawidłowo ustawiony."
+    },
+    {
+      "question": "Co to jest 'Kolejne urodziny' i jak jest obliczane?",
+      "answer": "To liczba dni pozostałych do kolejnej rocznicowej daty urodzin (Twój miesiąc i dzień w bieżącym lub kolejnym roku). Jeśli dziś są Twoje urodziny, wyświetli się 0 lub 365/366 dni do następnego roku."
+    },
+    {
+      "question": "Czy to narzędzie jest darmowe i prywatne?",
+      "answer": "Tak — całkowicie darmowe, bez konta i w pełni prywatne. Twoja data urodzenia nigdy nie opuszcza urządzenia. Wszystkie obliczenia odbywają się lokalnie w przeglądarce za pomocą JavaScript."
+    },
+    {
+      "question": "Czy mogę korzystać z tego kalkulatora na smartfonie lub tablecie?",
+      "answer": "Tak. Interfejs jest w pełni responsywny i działa na wszystkich nowoczesnych smartfonach, tabletach i przeglądarkach desktopowych. Selektor dat dostosowuje się do sterowania dotykowego na urządzeniach mobilnych."
     }
   ],
   "relatedTools": [
-    "kalkulator różnicy dat",
-    "dni pomiędzy datami",
-    "kalkulator dni do"
+    "date-difference-calculator",
+    "days-between-dates",
+    "days-until-calculator",
+    "months-between-dates"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Zrzut ekranu interfejsu Kalkulatora wieku",
-  "ogImageText": "Kalkulator wieku"
+  "cta": "Wypróbuj kalkulator wieku już teraz — wpisz datę urodzenia powyżej i dowiedz się dokładnie, jak długo jesteś na tej planecie, aż do dnia.",
+  "disclaimer": "Narzędzie służy wyłącznie do celów informacyjnych i osobistych. W celach prawnych, medycznych lub urzędowych zawsze weryfikuj obliczenia wieku na podstawie oficjalnych dokumentów, takich jak akt urodzenia.",
+  "lastReviewed": "2026-10-01",
+  "imageAlt": "Kalkulator wieku z polem do wpisania daty urodzenia i wynikami w latach, miesiącach i dniach",
+  "ogImageText": "Kalkulator Wieku – Lata, Miesiące i Dni"
 }

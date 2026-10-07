@@ -38,15 +38,15 @@
     },
     "percentage-calculator": {
       "title": "حاسبة النسبة المئوية",
-      "description": "احسب النسب المئوية بسرعة ودقة.",
+      "description": "احسب النسب المئوية بسرعة وسهولة.",
       "ui": {
-        "percentageCalculator": "حاسبة النسبة المئوية",
-        "whatIs": "ما هي",
-        "of": "من",
+        "calculatePercentage": "حاسبة النسبة المئوية",
+        "whatIs": "ما هو",
+        "of": "% من",
         "amount": "المبلغ",
         "calculate": "احسب",
         "result": "النتيجة",
-        "calculatePercentage": "حساب النسبة المئوية"
+        "enterValuesToCalculatePerc": "أدخل القيم لحساب النسبة المئوية."
       }
     },
     "json-formatter": {
@@ -55,7 +55,19 @@
       "ui": {
         "formatJson": "تنسيق JSON",
         "inputJSON": "الإدخال J S O N",
-        "reset": "إعادة ضبط"
+        "reset": "إعادة ضبط",
+        "format": "تنسيق",
+        "minify": "تصغير",
+        "copy": "نسخ",
+        "copied": "تم النسخ!",
+        "clear": "مسح",
+        "input": "إدخال JSON",
+        "inputPlaceholder": "ألصق JSON هنا...",
+        "output": "إخراج JSON",
+        "outputPlaceholder": "سيظهر JSON المنسق هنا...",
+        "invalidJson": "JSON غير صالح",
+        "syntaxError": "خطأ في بناء الجملة",
+        "jsonToolkit": "مجموعة أدوات JSON"
       }
     },
     "area-converter": {
@@ -100,13 +112,21 @@
       "ui": {
         "bedtimeCalculator": "حاسبة وقت النوم",
         "whenDoYouNeedToWakeUp": "متى تحتاج إلى الاستيقاظ؟",
-        "calculate": "احسب",
+        "calculate": "احسب الأوقات",
         "toWakeUpAt": "للاستيقاظ في الساعة",
         "youShouldTryToBeAsleepBy": "، يُنصح بأن تكون نائمًا بحلول:",
         "6Cycles9h": "6 دورات (9 ساعات)",
         "5Cycles75h": "5 دورات (7.5 ساعات)",
         "calculationsIncludeAnAverage15MinutesToFallAsleep": "تتضمن الحسابات متوسط 15 دقيقة للاستغراق في النوم.",
-        "enterYourWakeUpTimeToCal": "أدخل وقت استيقاظك لحساب أوقات النوم"
+        "enterYourWakeUpTimeToCal": "أدخل وقت استيقاظك لحساب أوقات النوم",
+        "title": "حاسبة وقت النوم",
+        "description": "اكتشف متى تذهب إلى الفراش بالضبط لتستيقظ وأنت تشعر بالانتعاش.",
+        "iNeedToWakeUpAt": "يجب أن أستيقظ في",
+        "youShouldGoToBedAt": "يجب أن تذهب للنوم في",
+        "resultsDescription": "تعتمد هذه الأوقات على دورات 90 دقيقة وتتضمن 15 دقيقة للخلود إلى النوم.",
+        "cycles": "دورات",
+        "hours": "ساعات",
+        "optimal": "مثالي"
       }
     },
     "binary-to-decimal": {
@@ -116,7 +136,8 @@
         "binaryToDecimalConverter": "محول من النظام الثنائي إلى العشري",
         "binaryNumber": "الرقم الثنائي",
         "decimalResult": "النتيجة العشرية",
-        "eG1010": "على سبيل المثال 1010"
+        "eG1010": "على سبيل المثال 1010",
+        "invalidBinaryNumber": "رقم ثنائي غير صالح"
       }
     },
     "bmi-calculator": {
@@ -184,13 +205,26 @@
       "ui": {
         "breakevenCalculator": "حاسبة نقطة التعادل",
         "fixedCosts": "التكاليف الثابتة",
-        "variableCostPerUnit": "التكلفة المتغيرة لكل وحدة",
-        "sellingPricePerUnit": "سعر البيع لكل وحدة",
+        "variableCostPerUnit": "التكلفة المتغيرة للوحدة",
+        "sellingPricePerUnit": "سعر البيع للوحدة",
         "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "يجب أن يكون سعر البيع أكبر من التكلفة المتغيرة للوحدة للوصول إلى نقطة التعادل.",
         "unitsToSell": "الوحدات المطلوب بيعها",
         "breakevenRevenue": "إيرادات نقطة التعادل",
         "costsPricing": "تسعير التكاليف",
-        "breakEvenPoint": "نقطة التعادل"
+        "breakEvenPoint": "نقطة التعادل",
+        "title": "حاسبة نقطة التعادل",
+        "description": "احسب عدد الوحدات التي تحتاج إلى بيعها لتغطية تكاليفك والوصول إلى نقطة التعادل.",
+        "calculate": "حساب نقطة التعادل",
+        "summary": "ملخص نقطة التعادل",
+        "breakEvenUnits": "وحدات التعادل",
+        "breakEvenRevenue": "إيرادات التعادل",
+        "contributionMargin": "هامش المساهمة (للوحدة)",
+        "neverBreakEvenError": "التكلفة المتغيرة الخاصة بك أعلى من أو تساوي سعر البيع. لن تصل أبدًا إلى نقطة التعادل.",
+        "units": "وحدات",
+        "enterDetails": "أدخل التكاليف وسعر البيع.",
+        "variableCost": "التكلفة المتغيرة للوحدة",
+        "sellingPrice": "سعر بيع الوحدة",
+        "errorImpossible": "يجب أن يكون سعر البيع أكبر من التكلفة المتغيرة."
       }
     },
     "calorie-calculator": {
@@ -235,16 +269,29 @@
         "principalAmount": "المبلغ الأساسي",
         "annualRate": "المعدل السنوي (%)",
         "timeYears": "المدة (بالسنوات)",
-        "compoundFrequency": "تكرار احتساب الفائدة",
-        "daily": "يوميًا",
-        "monthly": "شهريًا",
+        "compoundFrequency": "تواتر الفائدة المركبة",
+        "daily": "يومياً",
+        "monthly": "شهرياً",
         "quarterly": "ربع سنوي",
         "semiannually": "نصف سنوي",
-        "annually": "سنويًا",
+        "annually": "سنوياً",
         "interestEarned": "الفائدة المكتسبة",
         "finalBalance": "الرصيد النهائي",
         "interestDetails": "تفاصيل الفائدة",
-        "growthBreakdown": "انهيار النمو"
+        "growthBreakdown": "انهيار النمو",
+        "title": "حاسبة الفائدة المركبة",
+        "description": "احسب كيف سينمو استثمارك بمرور الوقت مع الفائدة المركبة والمساهمات المنتظمة.",
+        "initialInvestment": "الاستثمار الأولي",
+        "monthlyContribution": "المساهمة الشهرية",
+        "annualInterestRate": "معدل الفائدة السنوي (%)",
+        "yearsToGrow": "سنوات النمو",
+        "semiAnnually": "نصف سنوي",
+        "calculate": "حساب النمو",
+        "summary": "ملخص النمو",
+        "futureValue": "القيمة المستقبلية",
+        "totalContributions": "إجمالي المستثمر",
+        "totalInterestEarned": "إجمالي الفائدة",
+        "enterDetails": "أدخل تفاصيل الاستثمار لرؤية النمو المتوقع."
       }
     },
     "concrete-calculator": {
@@ -277,10 +324,15 @@
       "description": "",
       "ui": {
         "countdownTimer": "مؤقت العد التنازلي",
-        "minutes": "الدقائق",
+        "minutes": "دقائق",
         "start": "بدء",
         "pause": "إيقاف مؤقت",
-        "reset": "إعادة تعيين"
+        "reset": "إعادة تعيين",
+        "title": "مؤقت تنازلي",
+        "description": "مؤقت تنازلي عبر الإنترنت بسيط وسهل الاستخدام. حدد الساعات والدقائق والثواني.",
+        "hours": "ساعات",
+        "seconds": "ثواني",
+        "timeUp": "انتهى الوقت!"
       }
     },
     "css-minifier": {
@@ -301,7 +353,11 @@
         "amount": "المبلغ",
         "from": "من",
         "to": "إلى",
-        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "ملاحظة: هذه الأسعار تقديرات ثابتة لأغراض العرض التوضيحي فقط."
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "ملاحظة: هذه الأسعار تقديرات ثابتة لأغراض العرض التوضيحي فقط.",
+        "title": "محول العملات",
+        "description": "تحويل بين العملات العالمية بأسعار صرف حية.",
+        "convertedAmount": "المبلغ المحول",
+        "lastUpdated": "آخر تحديث"
       }
     },
     "data-storage-converter": {
@@ -321,7 +377,7 @@
         "startDate": "تاريخ البدء",
         "endDate": "تاريخ الانتهاء",
         "calculateDifference": "احسب الفرق",
-        "timeDifference": "الفرق الزمني:",
+        "timeDifference": "الفرق الزمني",
         "years": "سنوات",
         "months": "أشهر",
         "days": "أيام",
@@ -330,7 +386,21 @@
         "weeks": "أسابيع،",
         "copy": "نسخ",
         "reset": "إعادة تعيين",
-        "selectDatesToCalculate": "حدد التواريخ للحساب"
+        "selectDatesToCalculate": "حدد كلا التاريخين لحساب الفرق.",
+        "dateDifferenceTitle": "حاسبة الفرق بين التواريخ",
+        "dateDifferenceDesc": "احسب العدد الدقيق للأيام، الأسابيع، الأشهر، والسنوات بين تاريخين.",
+        "includeEndDay": "تضمين تاريخ الانتهاء (+1 يوم)",
+        "includeEndDayDesc": "يضيف يومًا إضافيًا إلى الحساب.",
+        "exactDifference": "الفرق الدقيق",
+        "yearsLabel": "سنوات",
+        "monthsLabel": "أشهر",
+        "daysLabel": "أيام",
+        "endDateBeforeStart": "ملاحظة: تاريخ الانتهاء يسبق تاريخ البدء.",
+        "totalDays": "إجمالي الأيام",
+        "inWeeks": "بالأسابيع",
+        "weeksShort": "أسابيع",
+        "daysShort": "يوم",
+        "approxMonths": "إجمالي الأشهر"
       }
     },
     "days-between-dates": {
@@ -347,7 +417,16 @@
         "days": "أيام",
         "copy": "نسخ",
         "reset": "إعادة تعيين",
-        "selectDatesToCalculate": "حدد التواريخ للحساب"
+        "selectDatesToCalculate": "حدد كلا التاريخين لحساب الفرق.",
+        "title": "الأيام بين التواريخ",
+        "description": "احسب العدد الدقيق للأيام، أيام العمل، وعطلات نهاية الأسبوع بين تاريخين.",
+        "includeEndDay": "تضمين تاريخ الانتهاء (+1 يوم)",
+        "includeEndDayDesc": "يضيف يومًا إضافيًا إلى الحساب.",
+        "totalDays": "إجمالي الأيام",
+        "daysLabel": "أيام",
+        "endDateBeforeStart": "ملاحظة: تاريخ الانتهاء يسبق تاريخ البدء.",
+        "weekdays": "أيام العمل (الاثنين-الجمعة)",
+        "weekends": "عطلات نهاية الأسبوع"
       }
     },
     "days-until-calculator": {
@@ -363,7 +442,19 @@
         "days": "أيام",
         "copy": "نسخ",
         "reset": "إعادة تعيين",
-        "selectAFutureDate": "حدد تاريخًا مستقبليًا"
+        "selectAFutureDate": "حدد تاريخًا مستقبليًا",
+        "title": "حاسبة الأيام المتبقية",
+        "description": "عد تنازلي للأيام والساعات والدقائق والثواني الدقيقة حتى تاريخ مستقبلي محدد.",
+        "todayIs": "اليوم هو",
+        "targetDate": "التاريخ المستهدف",
+        "timeUntil": "الوقت حتى الهدف",
+        "timeSince": "الوقت منذ الهدف",
+        "dayLabel": "أيام",
+        "dayLabelSingular": "يوم",
+        "hoursLabel": "ساعات",
+        "minutesLabel": "دقائق",
+        "secondsLabel": "ثواني",
+        "selectTargetDate": "حدد تاريخًا مستهدفًا لرؤية العد التنازلي."
       }
     },
     "decimal-to-binary": {
@@ -373,7 +464,8 @@
         "decimalToBinaryConverter": "محول من النظام العشري إلى الثنائي",
         "decimalNumber": "الرقم العشري",
         "binaryResult": "النتيجة الثنائية",
-        "eG10": "على سبيل المثال 10"
+        "eG10": "على سبيل المثال 10",
+        "invalidDecimalNumber": "رقم عشري غير صالح"
       }
     },
     "decking-calculator": {
@@ -404,10 +496,20 @@
         "type": "النوع",
         "off": "% خصم",
         "fixedAmountOff": "خصم بمبلغ ثابت",
-        "youSave": "مقدار التوفير",
+        "youSave": "أنت توفر:",
         "finalPrice": "السعر النهائي",
         "discountDetails": "تفاصيل الخصم",
-        "priceBreakdown": "انهيار الأسعار"
+        "priceBreakdown": "انهيار الأسعار",
+        "title": "حاسبة الخصم",
+        "description": "احسب السعر النهائي لعنصر ما بعد تطبيق الخصم والضريبة الاختيارية.",
+        "discountPercentage": "الخصم (%)",
+        "taxPercentage": "الضريبة (%)",
+        "optional": "اختياري",
+        "calculate": "حساب الخصم",
+        "summary": "ملخص السعر",
+        "discountAmount": "قيمة الخصم",
+        "taxAmount": "قيمة الضريبة",
+        "enterDetails": "أدخل السعر الأصلي والخصم للحساب."
       }
     },
     "emi-calculator": {
@@ -418,11 +520,24 @@
         "loanAmountPrincipal": "مبلغ القرض (الأصل)",
         "annualRate": "المعدل السنوي (%)",
         "tenureMonths": "مدة القرض (بالأشهر)",
-        "monthlyEmi": "القسط الشهري EMI",
+        "monthlyEmi": "القسط الشهري",
         "totalInterestPayable": "إجمالي الفائدة المستحقة",
         "totalPaymentPrincipalInterest": "إجمالي المدفوع (الأصل + الفائدة)",
         "eMIDetails": "تفاصيل E M",
-        "paymentSummary": "ملخص الدفع"
+        "paymentSummary": "ملخص الدفع",
+        "title": "حاسبة الأقساط الشهرية المتساوية (EMI)",
+        "description": "احسب القسط الشهري المتساوي لقروضك الشخصية أو قروض السيارات أو القروض العقارية.",
+        "loanAmount": "مبلغ القرض",
+        "interestRate": "سعر الفائدة (%)",
+        "loanTerm": "مدة القرض",
+        "years": "سنوات",
+        "months": "أشهر",
+        "calculate": "حساب القسط الشهري",
+        "emiSummary": "ملخص القسط الشهري",
+        "principalAmount": "أصل المبلغ",
+        "totalInterest": "إجمالي الفائدة",
+        "totalPayment": "إجمالي الدفع (أصل المبلغ + الفائدة)",
+        "enterDetails": "أدخل تفاصيل القرض لرؤية الملخص."
       }
     },
     "fence-calculator": {
@@ -461,7 +576,9 @@
       "description": "",
       "ui": {
         "fractionCalculator": "حاسبة الكسور",
-        "decimal": "العدد العشري:"
+        "decimal": "العدد العشري:",
+        "error": "خطأ",
+        "divByZero": "القسمة على صفر"
       }
     },
     "gpa-calculator": {
@@ -501,9 +618,9 @@
       "description": "",
       "ui": {
         "heightConverter": "محول الطول",
-        "metricCentimeters": "النظام المتري (سنتيمتر)",
+        "metricCentimeters": "متري (سنتيمتر)",
         "cm": "سم",
-        "imperialFeetInches": "النظام الإمبراطوري (قدم وبوصة)",
+        "imperialFeetInches": "إمبراطوري (قدم وبوصة)",
         "ft": "قدم",
         "in": "بوصة"
       }
@@ -515,7 +632,8 @@
         "hexToDecimalConverter": "محول من النظام السداسي عشري إلى العشري",
         "hexadecimalNumber": "الرقم السداسي عشري",
         "decimalResult": "النتيجة العشرية",
-        "eG1AOrFFFFFF": "على سبيل المثال 1A أو FFFFFF"
+        "eG1AOrFFFFFF": "على سبيل المثال 1A أو FFFFFF",
+        "invalidHexString": "سلسلة سداسية عشرية غير صالحة"
       }
     },
     "hourly-to-salary-calculator": {
@@ -526,12 +644,22 @@
         "hourlyWage": "الأجر بالساعة",
         "hoursWeek": "الساعات / الأسبوع",
         "weeksYear": "الأسابيع / السنة",
-        "daily": "يومي",
-        "weekly": "أسبوعي",
-        "monthly": "شهري",
+        "daily": "يومياً",
+        "weekly": "أسبوعياً",
+        "monthly": "شهرياً",
         "yearlySalary": "الراتب السنوي",
         "hourlyDetails": "تفاصيل كل ساعة",
-        "salaryBreakdown": "توزيع الراتب"
+        "salaryBreakdown": "تفصيل الراتب",
+        "title": "حاسبة الأجر بالساعة إلى راتب",
+        "description": "قم بتحويل أجرك بالساعة إلى ما يعادله يومياً، أسبوعياً، شهرياً، وسنوياً.",
+        "hourlyRate": "الأجر بالساعة",
+        "workSchedule": "جدول العمل",
+        "hoursPerWeek": "ساعات في الأسبوع",
+        "daysPerWeek": "أيام في الأسبوع",
+        "weeksPerYear": "أسابيع في السنة",
+        "annualSalary": "الراتب السنوي",
+        "biWeekly": "كل أسبوعين",
+        "enterDetails": "أدخل الأجر بالساعة لرؤية التفاصيل."
       }
     },
     "html-encode-decode": {
@@ -564,12 +692,19 @@
         "initialInvestment": "الاستثمار الأولي",
         "monthlyContribution": "المساهمة الشهرية",
         "expectedReturn": "العائد المتوقع (%)",
-        "yearsToGrow": "سنوات النمو",
+        "yearsToGrow": "سنوات الاستثمار",
         "totalContributions": "إجمالي المساهمات",
         "interestEarned": "الفائدة المكتسبة",
         "futureValue": "القيمة المستقبلية",
         "investmentPlan": "خطة الاستثمار",
-        "growthProjection": "توقعات النمو"
+        "growthProjection": "توقعات النمو",
+        "title": "حاسبة الاستثمار",
+        "description": "احسب مدى نمو استثمارك بمرور الوقت باستخدام الفائدة المركبة.",
+        "result": "النتيجة",
+        "totalValue": "القيمة الإجمالية",
+        "totalInvested": "إجمالي المستثمر",
+        "totalInterest": "إجمالي الفائدة",
+        "enterDetails": "أدخل التفاصيل لرؤية النمو."
       }
     },
     "js-minifier": {
@@ -600,7 +735,9 @@
       "ui": {
         "lengthConverter": "محول الطول",
         "from": "من",
-        "to": "إلى"
+        "to": "إلى",
+        "title": "محول الطول",
+        "description": "تحويل بين الأمتار، الأقدام، البوصات، ووحدات الطول الأخرى."
       }
     },
     "loan-calculator": {
@@ -609,13 +746,23 @@
       "ui": {
         "loanCalculator": "حاسبة القروض",
         "loanAmount": "مبلغ القرض",
-        "interestRate": "معدل الفائدة (%)",
+        "interestRate": "سعر الفائدة (سنوي)",
         "loanTermYears": "مدة القرض (بالسنوات)",
         "monthlyPayment": "الدفعة الشهرية",
         "totalInterest": "إجمالي الفائدة",
         "totalCostOfLoan": "إجمالي تكلفة القرض",
         "loanDetails": "تفاصيل القرض",
-        "paymentBreakdown": "تفصيل الدفع"
+        "paymentBreakdown": "تفصيل الدفع",
+        "title": "حاسبة القروض",
+        "description": "احسب الدفعات الشهرية وإجمالي الفائدة وتكلفة قرضك.",
+        "loanTerm": "مدة القرض",
+        "years": "سنوات",
+        "months": "أشهر",
+        "calculate": "حساب القرض",
+        "loanSummary": "ملخص القرض",
+        "totalPrincipal": "إجمالي أصل المبلغ",
+        "totalPayment": "إجمالي الدفع",
+        "enterDetails": "أدخل تفاصيل القرض لرؤية الملخص."
       }
     },
     "lorem-ipsum-generator": {
@@ -656,7 +803,16 @@
         "markup": "الزيادة (%)",
         "profit": "الربح",
         "sellingPrice": "سعر البيع",
-        "pricingDetails": "تفاصيل التسعير"
+        "pricingDetails": "تفاصيل التسعير",
+        "title": "حاسبة نسبة الزيادة (Markup)",
+        "description": "احسب سعر البيع وإجمالي الربح وهامش الربح بناءً على التكلفة ونسبة الزيادة.",
+        "markupPercentage": "نسبة الزيادة (Markup %)",
+        "calculate": "حساب التسعير",
+        "summary": "ملخص التسعير",
+        "profitMargin": "هامش الربح",
+        "grossProfit": "إجمالي الربح",
+        "grossLoss": "إجمالي الخسارة",
+        "enterDetails": "أدخل التكلفة ونسبة الزيادة."
       }
     },
     "md5generator": {
@@ -681,7 +837,18 @@
         "days": "أيام",
         "copy": "نسخ",
         "reset": "إعادة تعيين",
-        "selectDatesToCalculate": "حدد التواريخ للحساب"
+        "selectDatesToCalculate": "حدد كلا التاريخين لحساب الفرق.",
+        "title": "الأشهر بين التواريخ",
+        "description": "احسب بالضبط عدد الأشهر الكاملة والأيام المتبقية بين أي تاريخين.",
+        "includeEndDay": "تضمين تاريخ الانتهاء (+1 يوم)",
+        "includeEndDayDesc": "يضيف يومًا إضافيًا إلى الحساب.",
+        "totalMonths": "إجمالي الأشهر",
+        "monthsLabel": "أشهر",
+        "fullMonthsLabel": "أشهر كاملة",
+        "extraDaysLabel": "أيام إضافية",
+        "equivalentTo": "يعادل",
+        "daysLabel": "أيام",
+        "endDateBeforeStart": "ملاحظة: تاريخ الانتهاء يسبق تاريخ البدء."
       }
     },
     "mortgage-calculator": {
@@ -690,13 +857,22 @@
       "ui": {
         "mortgageCalculator": "حاسبة الرهن العقاري",
         "homePrice": "سعر المنزل",
-        "downPayment": "الدفعة المقدمة",
-        "interestRate": "معدل الفائدة (%)",
-        "loanTermYears": "مدة القرض (بالسنوات)",
+        "downPayment": "الدفعة الأولى",
+        "interestRate": "سعر الفائدة (%)",
+        "loanTermYears": "مدة القرض (سنوات)",
         "principalLoanAmount": "مبلغ أصل القرض",
         "monthlyPayment": "الدفعة الشهرية",
         "propertyDetails": "تفاصيل العقار",
-        "mortgageSummary": "ملخص الرهن العقاري"
+        "mortgageSummary": "ملخص الرهن العقاري",
+        "title": "حاسبة الرهن العقاري",
+        "description": "احسب مدفوعاتك الشهرية وإجمالي الفائدة العقارية بسهولة.",
+        "homeValue": "قيمة العقار",
+        "calculate": "حساب الرهن العقاري",
+        "principalAndInterestOnly": "أصل المبلغ والفائدة فقط",
+        "loanAmount": "مبلغ القرض",
+        "totalInterest": "إجمالي الفائدة",
+        "totalCostOfLoan": "التكلفة الإجمالية للقرض",
+        "enterDetails": "أدخل تفاصيل الرهن العقاري لرؤية الملخص."
       }
     },
     "mulch-calculator": {
@@ -801,7 +977,13 @@
         "absoluteChange": "التغير المطلق",
         "decrease": "الانخفاض",
         "values": "قيم",
-        "decreaseBreakdown": "تقليل الانهيار"
+        "decreaseBreakdown": "تقليل الانهيار",
+        "title": "حاسبة النقصان المئوي",
+        "description": "احسب النقصان المئوي من قيمة أولية إلى قيمة نهائية.",
+        "result": "النتيجة",
+        "percentageDecrease": "النقصان المئوي",
+        "absoluteDecrease": "الفرق المطلق",
+        "enterDetails": "أدخل القيم لحساب النقصان."
       }
     },
     "percentage-increase-calculator": {
@@ -814,7 +996,13 @@
         "absoluteChange": "التغير المطلق",
         "change": "التغير",
         "values": "قيم",
-        "increaseBreakdown": "زيادة الانهيار"
+        "increaseBreakdown": "زيادة الانهيار",
+        "title": "حاسبة الزيادة المئوية",
+        "description": "احسب الزيادة المئوية من قيمة أولية إلى قيمة نهائية.",
+        "result": "النتيجة",
+        "percentageIncrease": "الزيادة المئوية",
+        "absoluteIncrease": "الفرق المطلق",
+        "enterDetails": "أدخل القيم لحساب الزيادة."
       }
     },
     "plant-spacing-calculator": {
@@ -837,8 +1025,14 @@
         "pomodoroTimer": "مؤقت بومودورو",
         "work25m": "عمل (25 دقيقة)",
         "break5m": "استراحة (5 دقائق)",
-        "reset": "إعادة تعيين",
-        "start": "يبدأ"
+        "reset": "إعادة ضبط",
+        "start": "يبدأ",
+        "title": "مؤقت بومودورو",
+        "description": "عزز إنتاجيتك باستخدام تقنية بومودورو.",
+        "pomodoro": "بومودورو",
+        "shortBreak": "استراحة قصيرة",
+        "longBreak": "استراحة طويلة",
+        "completed": "مكتمل"
       }
     },
     "profit-margin-calculator": {
@@ -851,7 +1045,17 @@
         "grossProfit": "إجمالي الربح",
         "margin": "الهامش",
         "financialDetails": "التفاصيل المالية",
-        "profitability": "الربحية"
+        "profitability": "الربحية",
+        "title": "حاسبة هامش الربح",
+        "description": "احسب إجمالي الربح وهامش الربح والتسعير بسهولة.",
+        "cost": "تكلفة البضائع المباعة (COGS)",
+        "revenue": "الإيرادات (سعر البيع)",
+        "calculate": "حساب الهامش",
+        "summary": "ملخص الهامش",
+        "profitMargin": "هامش الربح",
+        "grossLoss": "إجمالي الخسارة",
+        "markup": "نسبة الزيادة (Markup)",
+        "enterDetails": "أدخل التكلفة والإيرادات."
       }
     },
     "qr-code-generator": {
@@ -889,7 +1093,7 @@
       "description": "",
       "ui": {
         "ratioCalculatorAbCd": "حاسبة النسبة (A:B = C:D)",
-        "enter3ValuesToCalculateThe4thMissingValue": "أدخل 3 قيم لحساب القيمة الرابعة المفقودة."
+        "enter3ValuesToCalculateThe4thMissingValue": "أدخل 3 قيم لحساب القيمة الرابعة المفقودة"
       }
     },
     "roi-calculator": {
@@ -902,7 +1106,23 @@
         "profit": "الربح",
         "roi": "العائد على الاستثمار",
         "investmentDetails": "تفاصيل الاستثمار",
-        "returnOnInvestment": "العائد على الاستثمار"
+        "returnOnInvestment": "العائد على الاستثمار (ROI)",
+        "title": "حاسبة العائد على الاستثمار (ROI)",
+        "description": "احسب العائد على الاستثمار لتقييم ربحية الاستثمار.",
+        "amountInvested": "المبلغ المستثمر (التكلفة)",
+        "amountReturned": "المبلغ العائد (الإيرادات)",
+        "investmentTimePeriod": "فترة الاستثمار",
+        "optional": "اختياري",
+        "years": "سنوات",
+        "calculate": "حساب العائد",
+        "summary": "ملخص العائد على الاستثمار",
+        "netProfit": "صافي الربح",
+        "netLoss": "صافي الخسارة",
+        "annualizedRoi": "العائد السنوي",
+        "enterDetails": "أدخل مبالغ الاستثمار الخاصة بك.",
+        "investmentAmount": "مبلغ الاستثمار",
+        "returnAmount": "المبلغ المسترد",
+        "investmentGain": "مكسب/خسارة الاستثمار"
       }
     },
     "roman-numeral-converter": {
@@ -912,7 +1132,11 @@
         "romanNumeralConverter": "محول الأرقام الرومانية",
         "numberRoman": "رقم → روماني",
         "romanNumber": "روماني → رقم",
-        "result": "النتيجة"
+        "result": "النتيجة",
+        "rangeError": "يجب أن يكون الرقم بين 1 و 3999",
+        "invalidRoman": "رقم روماني غير صالح",
+        "numberInputLabel": "رقم (1 - 3999)",
+        "romanNumeralLabel": "رقم روماني"
       }
     },
     "running-distance-calculator": {
@@ -942,15 +1166,27 @@
         "week": "أسبوع",
         "month": "شهر",
         "year": "سنة",
-        "hoursPerWeek": "ساعات العمل أسبوعيًا",
+        "hoursPerWeek": "ساعات في الأسبوع",
         "calculate": "احسب",
         "hourly": "بالساعة",
-        "daily": "يومي",
-        "weekly": "أسبوعي",
-        "monthly": "شهري",
+        "daily": "يومياً",
+        "weekly": "أسبوعياً",
+        "monthly": "شهرياً",
         "yearly": "سنوي",
         "incomeDetails": "تفاصيل الدخل",
-        "enterYourIncomeDetailsToS": "أدخل تفاصيل دخلك لرؤية الملخص"
+        "enterYourIncomeDetailsToS": "أدخل تفاصيل دخلك لرؤية الملخص",
+        "title": "حاسبة الراتب",
+        "description": "قم بتحويل راتبك إلى ما يعادله بالساعة، واليوم، والأسبوع، والشهر، والسنة.",
+        "payFrequency": "تكرار الدفع",
+        "biWeekly": "كل أسبوعين",
+        "semiMonthly": "نصف شهري",
+        "quarterly": "ربع سنوي",
+        "annually": "سنوياً",
+        "workSchedule": "جدول العمل",
+        "daysPerWeek": "أيام في الأسبوع",
+        "salaryBreakdown": "تفصيل الراتب",
+        "annualSalary": "الراتب السنوي",
+        "enterDetails": "أدخل التفاصيل لرؤية التقسيم."
       }
     },
     "salary-to-hourly-calculator": {
@@ -963,7 +1199,20 @@
         "weeksYear": "الأسابيع / السنة",
         "hourlyWage": "الأجر بالساعة",
         "salaryDetails": "تفاصيل الراتب",
-        "equivalentWage": "الأجر المعادل"
+        "equivalentWage": "الأجر المعادل",
+        "title": "حاسبة الراتب إلى أجر بالساعة",
+        "description": "قم بتحويل راتبك السنوي إلى ما يعادله بالساعة، واليوم، والأسبوع، والشهر.",
+        "workSchedule": "جدول العمل",
+        "hoursPerWeek": "ساعات في الأسبوع",
+        "daysPerWeek": "أيام في الأسبوع",
+        "weeksPerYear": "أسابيع في السنة",
+        "salaryBreakdown": "تفصيل الراتب",
+        "hourlyRate": "الأجر بالساعة",
+        "monthly": "شهرياً",
+        "biWeekly": "كل أسبوعين",
+        "weekly": "أسبوعياً",
+        "daily": "يومياً",
+        "enterDetails": "أدخل الراتب السنوي لرؤية التفاصيل."
       }
     },
     "sha1generator": {
@@ -991,7 +1240,7 @@
       "description": "",
       "ui": {
         "simpleInterestCalculator": "حاسبة الفائدة البسيطة",
-        "principalAmount": "المبلغ الأساسي",
+        "principalAmount": "المبلغ الأصلي",
         "annualRate": "المعدل السنوي (%)",
         "time": "المدة",
         "years": "سنوات",
@@ -1000,7 +1249,18 @@
         "interestEarned": "الفائدة المكتسبة",
         "finalBalance": "الرصيد النهائي",
         "interestDetails": "تفاصيل الفائدة",
-        "growthBreakdown": "انهيار النمو"
+        "growthBreakdown": "انهيار النمو",
+        "title": "حاسبة الفائدة البسيطة",
+        "description": "احسب الفائدة البسيطة على القروض أو المدخرات بسهولة.",
+        "annualInterestRate": "سعر الفائدة السنوي (%)",
+        "timePeriod": "الفترة الزمنية",
+        "calculate": "حساب الفائدة",
+        "summary": "ملخص الفائدة",
+        "totalInterest": "إجمالي الفائدة",
+        "totalAmount": "المبلغ الإجمالي",
+        "principalPlusInterest": "أصل المبلغ + الفائدة",
+        "enterDetails": "أدخل المبلغ الأصلي والمعدل والوقت.",
+        "interestRate": "معدل الفائدة السنوي (%)"
       }
     },
     "sleep-calculator": {
@@ -1008,7 +1268,7 @@
       "description": "",
       "ui": {
         "sleepCalculator": "حاسبة النوم",
-        "iWantToWakeUpAt": "أريد الاستيقاظ في الساعة:",
+        "iWantToWakeUpAt": "أريد الاستيقاظ في",
         "calculate": "احسب",
         "toWakeUpRefreshedAt": "للاستيقاظ بنشاط في الساعة",
         "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": "، يُنصح بمحاولة النوم في أحد هذه الأوقات (تشمل 15 دقيقة للاستغراق في النوم):",
@@ -1016,7 +1276,18 @@
         "5Cycles75h": "5 دورات (7.5 ساعات)",
         "4Cycles6h": "4 دورات (6 ساعات)",
         "3Cycles45h": "3 دورات (4.5 ساعات)",
-        "enterWakeTimeToCalculateS": "أدخل وقت الاستيقاظ لحساب أوقات النوم"
+        "enterWakeTimeToCalculateS": "أدخل وقت الاستيقاظ لحساب أوقات النوم",
+        "title": "حاسبة النوم",
+        "description": "احسب أوقات النوم المثالية بناءً على دورات نوم مدتها 90 دقيقة.",
+        "wakeAt": "استيقاظ عند",
+        "sleepAt": "نوم عند",
+        "iWillGoToBedAt": "سأذهب للنوم في",
+        "youShouldGoToBedAt": "يجب أن تذهب للنوم في",
+        "youShouldWakeUpAt": "يجب أن تستيقظ في",
+        "resultsDescription": "تعتمد هذه الأوقات على دورات 90 دقيقة وتتضمن 15 دقيقة للخلود إلى النوم.",
+        "cycles": "دورات",
+        "hours": "ساعات",
+        "optimal": "مثالي"
       }
     },
     "speed-converter": {
@@ -1086,10 +1357,13 @@
         "stopwatch": "ساعة إيقاف",
         "start": "بدء",
         "pause": "إيقاف مؤقت",
-        "lap": "لفة",
-        "reset": "إعادة تعيين",
-        "laps": "لفات",
-        "noLapsRecordedYet": "لم يتم تسجيل أي دورات حتى الآن"
+        "lap": "دورة",
+        "reset": "إعادة ضبط",
+        "laps": "الدورات",
+        "noLapsRecordedYet": "لم يتم تسجيل أي دورات حتى الآن",
+        "title": "ساعة إيقاف",
+        "description": "ساعة إيقاف بسيطة ودقيقة عبر الإنترنت مع أوقات دورات.",
+        "clearLaps": "مسح الدورات"
       }
     },
     "tax-calculator": {
@@ -1142,12 +1416,22 @@
         "firstTime": "الوقت الأول",
         "secondTime": "الوقت الثاني",
         "calculateAbsoluteDifference": "احسب الفرق المطلق",
-        "difference": "الفرق:",
+        "difference": "فرق الوقت",
         "h": "س",
         "m": "د",
         "copy": "نسخ",
         "reset": "إعادة تعيين",
-        "selectTimesToCompare": "حدد الأوقات للمقارنة"
+        "selectTimesToCompare": "حدد الأوقات للمقارنة",
+        "title": "حاسبة فرق الوقت",
+        "description": "احسب فرق الوقت الدقيق بين تاريخين ووقتين محددين حتى الثواني.",
+        "startDateTime": "تاريخ ووقت البدء",
+        "endDateTime": "تاريخ ووقت الانتهاء",
+        "daysLabel": "أيام",
+        "hoursLabel": "ساعات",
+        "minutesLabel": "دقائق",
+        "secondsLabel": "ثواني",
+        "reversedNote": "ملاحظة: وقت الانتهاء يسبق وقت البدء. يتم عرض الفرق المطلق.",
+        "selectDatesToCalculate": "حدد كلا التاريخين والأوقات لحساب الفرق."
       }
     },
     "time-duration-calculator": {
@@ -1164,7 +1448,16 @@
         "totalTimeInMinutes": "إجمالي الوقت بالدقائق:",
         "copy": "نسخ",
         "reset": "إعادة تعيين",
-        "selectStartAndEndTimes": "حدد أوقات البدء والانتهاء"
+        "selectStartAndEndTimes": "حدد أوقات البدء والانتهاء",
+        "title": "حاسبة مدة الوقت",
+        "description": "احسب بالضبط عدد الساعات والدقائق التي انقضت بين وقتين.",
+        "duration": "المدة",
+        "hLabel": "س",
+        "mLabel": "د",
+        "decimalHoursLabel": "ساعات عشرية",
+        "totalMinutesLabel": "إجمالي الدقائق",
+        "crossesMidnightNote": "ملاحظة: وقت الانتهاء يسبق وقت البدء (يتجاوز منتصف الليل).",
+        "selectTimesToCalculate": "حدد كلا الوقتين لحساب المدة."
       }
     },
     "time-zone-converter": {
@@ -1176,7 +1469,18 @@
         "fromTimeZoneRelative": "من المنطقة الزمنية",
         "toTimeZone": "إلى المنطقة الزمنية",
         "convert": "تحويل",
-        "selectDateAndTimeZonesTo": "حدد التاريخ والمناطق الزمنية للمقارنة"
+        "selectDateAndTimeZonesTo": "حدد التاريخ والمناطق الزمنية للمقارنة",
+        "title": "محول المنطقة الزمنية",
+        "description": "تحويل الوقت بين المناطق الزمنية المختلفة بدقة.",
+        "fromZone": "من المنطقة الزمنية",
+        "toZone": "إلى المنطقة الزمنية",
+        "dateAndTime": "التاريخ والوقت",
+        "swap": "تبديل",
+        "convertedTime": "الوقت المحول",
+        "hoursAhead": "ساعات متقدمة",
+        "hoursBehind": "ساعات متأخرة",
+        "sameTime": "نفس الوقت",
+        "invalidInput": "أدخل تاريخاً صالحاً."
       }
     },
     "tip-calculator": {
@@ -1187,13 +1491,28 @@
         "billAmount": "قيمة الفاتورة",
         "tip": "الإكرامية %",
         "numberOfPeople": "عدد الأشخاص",
-        "tipAmount": "قيمة الإكرامية",
+        "tipAmount": "قيمة البقشيش",
         "person": "/ شخص",
         "total": "الإجمالي",
         "totalTip": "إجمالي الإكرامية:",
         "totalBill": "إجمالي الفاتورة:",
         "billDetails": "تفاصيل الفاتورة",
-        "totalBreakdown": "الانهيار الكلي"
+        "totalBreakdown": "الانهيار الكلي",
+        "title": "حاسبة البقشيش",
+        "description": "احسب البقشيش وقسم الفاتورة بسهولة بين الأصدقاء.",
+        "selectTip": "اختر البقشيش %",
+        "custom": "مخصص",
+        "totalAmount": "المبلغ الإجمالي",
+        "splitBetween": "مقسمة بين",
+        "people": "أشخاص",
+        "tipPerPerson": "البقشيش / شخص",
+        "totalPerPerson": "الإجمالي / شخص",
+        "payingFullAmount": "أنت تدفع المبلغ كاملاً.",
+        "enterDetails": "أدخل تفاصيل الفاتورة.",
+        "tipPercentage": "نسبة البقشيش",
+        "perPerson": "/ شخص",
+        "totalTipOverall": "إجمالي البقشيش",
+        "totalBillOverall": "إجمالي الفاتورة"
       }
     },
     "unix-timestamp-converter": {
@@ -1206,7 +1525,22 @@
         "dateToTimestamp": "التاريخ إلى الطابع الزمني",
         "localDateTime": "التاريخ والوقت المحلي",
         "eG1700000000": "على سبيل المثال 1700000000",
-        "result": "نتيجة"
+        "result": "نتيجة",
+        "title": "محول الطوابع الزمنية Unix",
+        "description": "تحويل الطوابع الزمنية Unix إلى تواريخ مقروءة والعكس.",
+        "currentEpoch": "وقت Unix الحالي",
+        "copy": "نسخ",
+        "copied": "تم النسخ!",
+        "tsToDate": "طابع زمني إلى تاريخ",
+        "enterTimestamp": "أدخل الطابع الزمني",
+        "gmtTime": "توقيت غرينتش (GMT)",
+        "localTime": "توقيتك المحلي",
+        "invalidTimestamp": "أدخل طابعًا زمنيًا صالحًا.",
+        "dateToTs": "تاريخ إلى طابع زمني",
+        "enterDate": "أدخل التاريخ والوقت",
+        "secondsLabel": "الطابع الزمني (ثواني)",
+        "msLabel": "ميلي ثانية",
+        "invalidDate": "أدخل تاريخًا صالحًا."
       }
     },
     "url-encode-decode": {
@@ -1255,7 +1589,17 @@
         "5Cycles75h": "5 دورات (7.5 ساعات)",
         "6Cycles9h": "6 دورات (9 ساعات)",
         "readyForBed": "جاهز للنوم",
-        "clickTheButtonWhenYouReG": "انقر فوق الزر عندما تذهب للنوم"
+        "clickTheButtonWhenYouReG": "انقر فوق الزر عندما تذهب للنوم",
+        "title": "حاسبة وقت الاستيقاظ",
+        "description": "اكتشف متى تستيقظ بالضبط لتشعر بالانتعاش. يعتمد على دورات نوم مدتها 90 دقيقة.",
+        "sleepNow": "سأذهب للنوم الآن",
+        "sleepAtTime": "أو سأنام في",
+        "calculate": "احسب الأوقات",
+        "youShouldWakeUpAt": "يجب أن تستيقظ في",
+        "resultsDescription": "تعتمد هذه الأوقات على دورات 90 دقيقة وتتضمن 15 دقيقة للخلود إلى النوم.",
+        "cycles": "دورات",
+        "hours": "ساعات",
+        "optimal": "مثالي"
       }
     },
     "water-intake-calculator": {
@@ -1285,7 +1629,18 @@
         "days": "أيام",
         "copy": "نسخ",
         "reset": "إعادة تعيين",
-        "selectDatesToCalculate": "حدد التواريخ للحساب"
+        "selectDatesToCalculate": "حدد كلا التاريخين لحساب الفرق.",
+        "title": "الأسابيع بين التواريخ",
+        "description": "احسب بالضبط عدد الأسابيع الكاملة والأيام المتبقية بين أي تاريخين.",
+        "includeEndDay": "تضمين تاريخ الانتهاء (+1 يوم)",
+        "includeEndDayDesc": "يضيف يومًا إضافيًا إلى الحساب.",
+        "totalWeeks": "إجمالي الأسابيع",
+        "weeksLabel": "أسابيع",
+        "fullWeeksLabel": "أسابيع كاملة",
+        "extraDaysLabel": "أيام إضافية",
+        "equivalentTo": "يعادل",
+        "daysLabel": "أيام",
+        "endDateBeforeStart": "ملاحظة: تاريخ الانتهاء يسبق تاريخ البدء."
       }
     },
     "weight-converter": {
@@ -1294,7 +1649,9 @@
       "ui": {
         "weightConverter": "محول الوزن",
         "from": "من",
-        "to": "إلى"
+        "to": "إلى",
+        "title": "محول الوزن",
+        "description": "تحويل بين الكيلوجرام، الرطل، الأوقية، الجرام، ووحدات الوزن الأخرى."
       }
     },
     "word-counter": {
@@ -1329,7 +1686,14 @@
       "title": "محول التوقيت العالمي",
       "description": "",
       "ui": {
-        "worldTimeConverter": "محول التوقيت العالمي"
+        "worldTimeConverter": "محول التوقيت العالمي",
+        "title": "محول الوقت العالمي",
+        "description": "تحويل الأوقات عبر مناطق زمنية متعددة على الفور. قارن الأوقات الحالية أو اختر وقتًا محددًا.",
+        "liveTime": "الوقت الفعلي",
+        "customTime": "وقت مخصص",
+        "addZone": "إضافة منطقة زمنية",
+        "remove": "إزالة",
+        "allZonesAdded": "تمت إضافة كل المناطق"
       }
     },
     "xml-formatter": {
@@ -1358,7 +1722,8 @@
   },
   "Search": {
     "placeholder": "ابحث عن الأدوات...",
-    "noResults": "لم يتم العثور على أدوات لـ \"{query}\"."
+    "noResults": "لم يتم العثور على أدوات لـ \"{query}\".",
+    "tryADifferentSearchTermOr": "جرب مصطلح بحث مختلف أو تصفح الفئات أدناه."
   },
   "Home": {
     "metaTitle": "أدوات مجانية عبر الإنترنت وحاسبات",
@@ -1735,9 +2100,12 @@
     "example": "مثال",
     "useCases": "حالات الاستخدام الشائعة",
     "howItWorks": "كيف يعمل",
-    "faq": "الأسئلة المتداولة",
+    "faq": "الأسئلة الشائعة",
     "readyToStart": "هل أنت مستعد للبدء؟",
-    "useToolNow": "استخدم الأداة الآن"
+    "useToolNow": "استخدم الأداة الآن",
+    "resultInterpretation": "فهم نتائجك",
+    "tipsAndLimitations": "نصائح وملاحظات حول الدقة",
+    "disclaimer": "إخلاء المسؤولية"
   },
   "Categories": {
     "developerTools": "أدوات المطور",

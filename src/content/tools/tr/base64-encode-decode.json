@@ -8,7 +8,7 @@
     "ücretsiz base64 kodlayıcı / kod çözücü",
     "en iyi base64 kodlayıcı / kod çözücü"
   ],
-  "slug": "base64-kodlama-kod çözme",
+  "slug": "base64-kodlayici",
   "intro": "Ücretsiz çevrimiçi Base64 Kodlayıcı / Kod Çözücü aracımızı kullanın. Girişlerinize göre metni Base64 formatına çevirir.",
   "whatIs": "Base64 Kodlayıcı / Kod Çözücü, metni Base64 formatına çeviren çevrimiçi bir yardımcı programdır. Düz metninizi işler ve kodlanmış veya kodu çözülmüş dizeyi sağlar.",
   "howToUse": [
@@ -45,10 +45,12 @@
     }
   ],
   "relatedTools": [
-    "json biçimlendirici",
-    "url-kodlama-kod çözme",
-    "html-kodlama-kod çözme"
+    "url-encode-decode",
+    "html-encode-decode",
+    "hex-to-decimal"
   ],
+  "cta": "Verilerinizi şimdi şifreleyin veya çözün!",
+  "disclaimer": "Araç, verileri tarayıcıda btoa() ve atob() fonksiyonlarını kullanarak yerel olarak işler. Base64'ü güvenli şifrelemenin yerine kullanmayın.",
   "lastReviewed": "2026-09-29",
   "imageAlt": "Base64 Kodlayıcı / Kod Çözücü arayüzü ekran görüntüsü",
   "ogImageText": "Base64 Kodlayıcı / Kod Çözücü"

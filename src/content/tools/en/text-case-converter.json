@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Text Case Converter - UPPERCASE, lowercase, Title Case",
+  "metaDescription": "Free online Text Case Converter. Quickly change text to UPPERCASE, lowercase, Title Case, or Sentence case with a single click. Fix caps lock mistakes instantly.",
+  "h1": "Text Case Converter",
+  "primaryKeyword": "text case converter",
+  "secondaryKeywords": [
+    "change text case",
+    "uppercase to lowercase",
+    "title case generator",
+    "caps lock converter"
+  ],
+  "slug": "text-case-converter",
+  "intro": "Accidentally left Caps Lock on, or need to format a long list of book titles? Our free Text Case Converter changes the capitalization of your text instantly with a single click.",
+  "whatIs": "The Text Case Converter is a formatting utility that takes a block of text and automatically alters its capitalization structure based on standard linguistic rules (like Sentence case or Title Case).",
+  "howToUse": [
+    "Paste your poorly formatted text into the input box.",
+    "Click the button corresponding to the case you want (e.g., 'UPPERCASE', 'Title Case').",
+    "The text will instantly transform.",
+    "Click 'Copy' to save the corrected text to your clipboard."
+  ],
+  "howItWorks": "The tool uses JavaScript string manipulation. 'UPPERCASE' and 'lowercase' use native browser functions. 'Title Case' uses Regex to capitalize the first letter of every word (often ignoring minor words like 'and' or 'the'). 'Sentence case' capitalizes only the first letter after a terminal punctuation mark.",
+  "workedExample": "Input: 'hELLO wORLD. hOW ARE YOU?' Click 'Sentence case'. Output: 'Hello world. How are you?'",
+  "resultInterpretation": "Your text is perfectly formatted according to the grammatical rules of the selected case, ready to be pasted into a formal document or database.",
+  "useCases": [
+    "Data Cleanup: Normalizing a messy spreadsheet of customer names into clean 'Title Case'.",
+    "Copywriting: Formatting headlines and subheadings perfectly without manually retyping them.",
+    "Mistake Fixing: Instantly recovering a paragraph typed while the Caps Lock key was accidentally engaged."
+  ],
+  "tipsAndLimitations": [
+    "Converting to UPPERCASE or lowercase is a destructive action—it wipes out all original capitalization. Converting back to Sentence Case will not restore proper nouns (like names or cities).",
+    "Title Case algorithms try to ignore minor words (of, the, in) but may not perfectly match specific style guides (like APA or Chicago style) in complex titles."
+  ],
+  "faq": [
+    {
+      "question": "What is Sentence case?",
+      "answer": "Sentence case capitalizes only the very first letter of the sentence, leaving all other words (except 'I') in lowercase, just like a standard book paragraph."
+    },
+    {
+      "question": "What is Title Case?",
+      "answer": "Title Case capitalizes the first letter of almost every word. It is typically used for book titles, movie titles, and article headlines."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "character-counter",
+    "markdown-editor"
+  ],
+  "cta": "Fix your text casing instantly!",
+  "disclaimer": "Automated casing algorithms may not catch every grammatical nuance, particularly regarding proper nouns in Sentence case. Always proofread your final text.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Text Case Converter interface showing title case options",
+  "ogImageText": "Text Case Converter"
+}

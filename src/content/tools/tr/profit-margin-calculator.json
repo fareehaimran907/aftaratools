@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Kâr Marjı Hesaplayıcı",
-  "metaDescription": "Brüt kar ve kar marjını hesaplayın.",
-  "h1": "Kâr Marjı Hesaplayıcı",
+  "seoTitle": "Kar Marjı Hesaplayıcı - Brüt Kar ve Markup (Fiyat Artışı)",
+  "metaDescription": "Ücretsiz kar marjı hesaplama aracı. Maliyet ve satış fiyatı üzerinden brüt karınızı, kar marjınızı ve markup oranınızı anında hesaplayın.",
+  "h1": "Kar Marjı Hesaplayıcı",
   "primaryKeyword": "kar marjı hesaplayıcı",
   "secondaryKeywords": [
-    "Kâr Marjı Hesaplayıcı çevrimiçi",
-    "ücretsiz Kâr Marjı Hesaplayıcı",
-    "en iyi Kar Marjı Hesaplayıcısı"
+    "brüt kar hesaplama",
+    "markup hesaplama",
+    "kar oranı hesaplama"
   ],
-  "slug": "kar marjı hesaplayıcı",
-  "intro": "Maliyet ve gelire göre brüt karınızı ve kar marjı yüzdenizi hesaplayın.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "kar-marji-hesaplama",
+  "intro": "İşletmenizin satış gelirinin ne kadarının gerçekten kâr olarak tutulduğunu hiç merak ettiniz mi? İster bir girişim kurucusu, ister küçük işletme sahibi, ister e-ticaret satıcısı olun, uzun vadeli başarı için kâr marjlarınızı anlamak çok önemlidir. Yalnızca gelir elde etmek yeterli değildir; işletmenizin, maliyetleri hesaba kattıktan sonra bu satışları ne kadar verimli bir şekilde gerçek kâra dönüştürdüğünü bilmeniz gerekir. Ücretsiz çevrimiçi kâr marjı hesaplayıcımız bu hayati finansal analizi basitleştirir. Maliyetlerinizi ve gelirinizi girerek, bu araç size anında brüt kâr marjınızı, net kâr marjınızı ve fiyat artışınızı göstererek işletmenizin finansal sağlığını mutlak bir netlikle değerlendirmenize olanak tanır.",
+  "whatIs": "Kâr Marjı Hesaplayıcısı, kârlılığı ve fiyatlandırma stratejilerini değerlendirmek için tasarlanmış vazgeçilmez bir iş aracıdır. Yüzde olarak ifade edilen kâr marjı, malları üretmek veya hizmetleri sağlamakla ilişkili maliyetler düşüldükten sonra bir şirketin kâr olarak elinde tuttuğu satış gelirinin kısmını temsil eder. Şirketin finansal sağlığının temel bir ölçüsüdür. Ham kâr rakamları (dolar cinsinden) faydalı olmakla birlikte, marjlar, işletme büyüklüğünden bağımsız olarak farklı ürünler, zaman dilimleri ve hatta rakipler arasında kârlılığın oransal karşılaştırmalarına izin verir. Bu araç, bu kritik yüzdeleri anında hesaplayarak, mevcut fiyatlandırmanızın sürdürülebilir olup olmadığını hızlı bir şekilde görmenize yardımcı olur.",
   "howToUse": [
-    "Belirlenen giriş alanına mal maliyetinizi girin.",
-    "Gelir gibi ikincil parametreleri sağlayın.",
-    "Brüt kar marjı yüzdesini oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Maliyeti girin (Ürünün alış veya üretim bedeli).",
+    "Geliri girin (Ürünü sattığınız fiyat).",
+    "Araç, net tutar olarak Brüt Kar'ı hesaplar.",
+    "Aynı zamanda Kar Marjı ve Markup oranlarını yüzde olarak gösterir."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, finansal verilerinize standart ticari muhasebe formülleri uygulayarak çalışır. 'Maliyetinizi' (ürünü yapmanın veya satın almanın maliyeti) ve 'Geliri' (ürünü ne kadara sattığınızı) girdiğinizde, hesap makinesi ilk olarak gelirinizden maliyeti çıkararak ham kârınızı hesaplar. Kâr marjınızı bulmak için, bu ham kârı gelire böler ve size bir yüzde vermek için 100 ile çarpar. Örneğin, bir ürünün maliyeti 50$ ise ve 100$'a satıyorsanız kâr 50$'dır. 100$ gelire bölündüğünde 0,5'tir, bu da size %50'lik bir kâr marjı sağlar.",
+  "workedExample": "El yapımı cüzdan satan bir çevrimiçi mağaza işlettiğinizi düşünün. Her cüzdanı üretmenin maliyeti 40$'dır (malzemeler ve doğrudan işçilik dahil) ve bunları 100$'a satıyorsunuz. Hesap makinesine Maliyet için '40' ve Gelir için '100' giriyorsunuz. Araç ham kârınızı anında hesaplar: 100$ - 40$ = 60$. Ardından, bu kârı (60$) gelire (100$) bölerek ve 100 ile çarparak kâr marjınızı hesaplar. Hesap makinesi size %60'lık sağlam bir kâr marjınız olduğunu gösterir. Bu, kazandığınız her dolar için 60 senti kâr olarak tutacağınız anlamına gelir. Bu hızlı içgörü, fiyatlandırmanızın doğru yolda olduğunu teyit etmenize yardımcı olur.",
+  "resultInterpretation": "Hesap makinesi tarafından oluşturulan sonuçlar kritik ölçümler sunar: 'Kâr' ve 'Kâr Marjı'. 'Kâr', doğrudan maliyetlerinizi karşıladıktan sonra bir satıştan elde ettiğiniz gerçek nakit tutarıdır. 'Kâr Marjı', bu kârın satış fiyatınızın bir yüzdesi olarak ifade edilmesidir. İş planlaması için her ikisini de anlamak önemlidir. Sağlıklı bir kâr marjı, işletme giderlerini (pazarlama, kira ve yazılım abonelikleri gibi) karşılamak, fiyat dalgalanmalarını telafi etmek ve nihayetinde işletmenizi büyütmek için yeterli bir yastığa sahip olmanızı sağlar. Marjınız çok düşükse, bu, ya maliyetleri düşürmeniz, fiyatları artırmanız ya da söz konusu belirli ürünü satmayı yeniden düşünmeniz gerektiğinin açık bir işaretidir.",
   "useCases": [
-    "Perakende fiyatlarının ayarlanması",
-    "İş sağlığının değerlendirilmesi",
-    "Hareket halindeyken malların maliyetini hızla işleyin"
+    "Perakende: Raf fiyatlarını belirlerken karlılığı güvence altına almak.",
+    "E-Ticaret: Kargo ve komisyonlar öncesinde ürün karlılığını test etmek.",
+    "E-Ticaret: Kargo ve komisyonlar öncesinde ürün karlılığını test etmek."
   ],
   "tipsAndLimitations": [
-    "Brüt kar marjı işletme giderlerini hesaba katmaz.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Bu hesaplayıcı 'Brüt' kar marjını bulur. 'Net' marj için sabit giderleri ve vergileri de düşmeniz gerekir.",
+    "Marj ve Markup oranlarını karıştırmamaya dikkat edin."
   ],
   "faq": [
     {
-      "question": "Kâr Marjı Hesaplayıcı'nın kullanımı ücretsiz midir?",
-      "answer": "Evet, Kâr Marjı Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Marj ve Markup (Fiyat artışı) arasındaki fark nedir?",
+      "answer": "Marj satış fiyatı üzerinden, Markup ise maliyet fiyatı üzerinden hesaplanır."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Marj ve Markup (Fiyat artışı) arasındaki fark nedir?",
+      "answer": "Marj satış fiyatı üzerinden, Markup ise maliyet fiyatı üzerinden hesaplanır."
     }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "maaş-hesaplayıcı",
-    "indirim hesaplayıcı"
+    "markup-calculator",
+    "roi-calculator",
+    "discount-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kâr Marjı Hesaplayıcı",
-  "ogImageText": "Kâr Marjı Hesaplayıcı"
+  "cta": "Kar marjını hemen hesapla!",
+  "disclaimer": "Bu araç yalnızca bilgi amaçlı hesaplamalar sunar. Resmi muhasebe işlemleri için uzman görüşü alın.",
+  "lastReviewed": "2024-03-16",
+  "imageAlt": "Kar Marjı Hesaplama",
+  "ogImageText": "Kar Marjı"
 }

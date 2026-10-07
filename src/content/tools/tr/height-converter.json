@@ -1,55 +1,39 @@
 {
-  "seoTitle": "Yükseklik Dönüştürücü",
-  "metaDescription": "Yüksekliği fit ve inçten cm'ye dönüştürün.",
-  "h1": "Yükseklik Dönüştürücü",
-  "primaryKeyword": "yükseklik dönüştürücü",
+  "seoTitle": "Boy Çevirici - cm'yi fit ve inçe çevir",
+  "metaDescription": "Ücretsiz insan boyu çevirici. Santimetre (cm) ile fit + inç arasında kolayca dönüştürme yapın. Vize formları ve uygulamalar için mükemmel.",
+  "h1": "Boy Çevirici",
+  "primaryKeyword": "boy çevirici",
   "secondaryKeywords": [
-    "Yükseklik Dönüştürücü çevrimiçi",
-    "ücretsiz Yükseklik Dönüştürücü",
-    "en iyi Yükseklik Dönüştürücü"
+    "cm fit inç çevirme",
+    "boy hesaplama"
   ],
-  "slug": "yükseklik dönüştürücü",
-  "intro": "İnsan boyunu metrik ve emperyal sistemler arasında kolayca dönüştürün.",
-  "whatIs": "Bu araç nedir?",
-  "howToUse": [
-    "Belirtilen giriş alanına cm'nizi girin.",
-    "Fit ve inç gibi ikincil parametreleri sağlayın.",
-    "Düzgün biçimlendirilmiş bir yükseklik oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
-  ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
-  "useCases": [
-    "Sürücü belgesi formları",
-    "Tıbbi profiller",
-    "Hareket halindeyken hızla cm işleme"
-  ],
-  "tipsAndLimitations": [
-    "Feet ve inç basit bir ondalık sayı değildir (örneğin 5,5, 5'5 değildir).",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
-  ],
+  "slug": "boy-cevirici",
+  "intro": "Emperyal sistem iki birim (fit ve inç) kullandığından, boy uzunluğunu sistemler arasında dönüştürmek kafa karıştırıcı olabilir. Boy Çeviricimiz bunu anında yapar.",
+  "whatIs": "Boy çevirici, insan boyu için tasarlanmış özel bir hesaplayıcıdır. Çıktıyı fit VE inç (ör. 5'10\") olarak biçimlendirir.",
+  "howToUse": "Metrikten: Boyunuzu cm olarak girin. Emperyalden: İlk kutuya fiti, ikinciye inçi girin. Sonuçlar anında güncellenir.",
+  "howItWorks": "1 inç 2,54 cm, 1 fit 12 inçtir. cm'yi fite çevirmek için 30,48'e bölünür, kalan inç olarak hesaplanır.",
+  "workedExample": "Boyunuz 178 cm. Araç hesaplar: 178 / 2,54 = 70,078 inç. 70 / 12 = 5 kalan 10'dur. Yani 178 cm, 5 fit 10 inçtir (5'10\").",
+  "resultInterpretation": "Sonuç standart boy formatında verilir. İnç kısmı genellikle en yakın tam sayıya yuvarlanır.",
+  "useCases": "Vize formları (ABD). Çevrimiçi profiller (fitness veya arkadaşlık uygulamaları).",
+  "tipsAndLimitations": "Yaygın bir hata: 5,5 fit, 5 fit 5 inç DEĞİLDİR. 5 fit 6 inçtir. İnsan boyu gün içinde 1-2 cm değişir.",
   "faq": [
     {
-      "question": "Yükseklik Dönüştürücüyü kullanmak ücretsiz midir?",
-      "answer": "Evet, Yükseklik Dönüştürücümüzün kullanımı tamamen ücretsizdir."
+      "question": "180 cm fit ve inç olarak nedir?",
+      "answer": "180 cm yaklaşık 5 fit 11 inçtir (5'11\")."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "5'9\" cm olarak nasıl hesaplanır?",
+      "answer": "5 fit = 60 inç. 60 + 9 = 69 inç. 69 × 2,54 = 175,26 cm."
     }
   ],
   "relatedTools": [
-    "uzunluk dönüştürücü",
-    "ağırlık dönüştürücü",
-    "sıcaklık dönüştürücü"
+    "length-converter",
+    "weight-converter",
+    "bmi-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Yükseklik Dönüştürücü",
-  "ogImageText": "Yükseklik Dönüştürücü"
+  "cta": "Boyunuzu herhangi bir form için anında dönüştürün!",
+  "disclaimer": "Kolaylık sağlamak içindir. Tıbbi amaçlar için profesyonel ekipman kullanın.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Boy çevirici",
+  "ogImageText": "Boy Çevirici"
 }

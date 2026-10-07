@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Fence Calculator",
-  "metaDescription": "Free online Fence Calculator. Calculate fence materials.",
+  "seoTitle": "Fence Calculator - Estimate Wood & Chain Link Materials",
+  "metaDescription": "Free online Fence Calculator. Easily determine how many posts, pickets, rails, and panels you need to enclose your yard with a new privacy fence.",
   "h1": "Fence Calculator",
   "primaryKeyword": "fence calculator",
   "secondaryKeywords": [
-    "fence calculator online",
-    "free fence calculator",
-    "best fence calculator"
+    "fence material calculator",
+    "how many fence panels do I need",
+    "wood fence estimator",
+    "privacy fence calculator"
   ],
   "slug": "fence-calculator",
-  "intro": "Use our free online Fence Calculator tool. It estimates fencing materials based on your inputs.",
-  "whatIs": "The Fence Calculator is an online utility that estimates fencing materials. It processes your fence length and provides number of posts, pickets, and rails.",
+  "intro": "Securing your backyard for a new dog? Our free Fence Calculator removes the complex math from fence building, telling you exactly how many posts, panels, or individual pickets you need to buy.",
+  "whatIs": "The Fence Calculator is an outdoor construction estimation utility. It takes the linear perimeter of your property and divides it by standard fencing measurements to generate a comprehensive bill of materials.",
   "howToUse": [
-    "Enter your fence length into the designated input field.",
-    "Provide any secondary parameters like post spacing.",
-    "Click the calculate or submit button to generate number of posts, pickets, and rails.",
-    "Copy or review the resulting output for your needs."
+    "Enter the total linear footage of the fence line to be built.",
+    "Select your fence type (Pre-built Panels or 'Stick-built' individual pickets).",
+    "Enter your post spacing (typically 6 or 8 feet).",
+    "The tool calculates the required posts, concrete bags, rails, and pickets."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your fence length. It instantly processes the data to output number of posts, pickets, and rails.",
-  "workedExample": "For example: 100 ft fence needs roughly 14 posts (8ft spacing).",
-  "resultInterpretation": "The result represents number of posts, pickets, and rails. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "The tool divides the total linear length by the post spacing to determine the number of posts (adding 1 for the end post). If stick-building, it multiplies the number of sections by the rails per section (usually 3). It then divides the total length by the width of a single picket to find the picket count.",
+  "workedExample": "You need 100 feet of privacy fence using standard 8-foot pre-built panels. 100 / 8 = 12.5. You will need 13 panels. You will also need 14 posts to hold those 13 panels up, and 14 bags of concrete.",
+  "resultInterpretation": "The output is a precise shopping list. It prevents the common DIY mistake of forgetting the final end post or underestimating the number of 2x4 rails needed to support the pickets.",
   "useCases": [
-    "Property boundary fencing",
-    "Privacy screen building",
-    "Quickly processing fence length on the go"
+    "Home Enclosures: A homeowner estimating the cost difference between an 8-foot spaced panel fence vs a custom 6-foot spaced picket fence.",
+    "Property Lines: Calculating the materials required to replace a single 40-foot span of fence blown down in a storm.",
+    "Budgeting: Taking the exact picket count and multiplying it by the cost of cedar vs pine to determine project affordability."
   ],
   "tipsAndLimitations": [
-    "Gates require special posts and hardware.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "Always add an extra post for every gate you plan to install, as gates require dedicated hinge and latch posts.",
+    "If your property is on a steep hill, 'stepped' fencing requires more posts and shorter panel spans than flat ground."
   ],
   "faq": [
     {
-      "question": "How far apart should fence posts be?",
-      "answer": "Typically 6 to 8 feet."
+      "question": "How deep should fence posts go?",
+      "answer": "A general rule is that 1/3 of the total post length should be buried in the ground. For a 6-foot tall fence, you need an 8-foot post, burying 2 feet of it in concrete."
     },
     {
-      "question": "Is the Fence Calculator free to use?",
-      "answer": "Yes, our Fence Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Should I use panels or individual pickets?",
+      "answer": "Panels are much faster to install but require perfectly flat ground. Stick-building with individual pickets takes longer but allows the fence to perfectly follow the natural slope of your yard."
     }
   ],
   "relatedTools": [
-    "square-footage-calculator",
-    "paint-calculator",
-    "tile-calculator"
+    "concrete-calculator",
+    "decking-calculator",
+    "square-footage-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Fence Calculator interface screenshot",
+  "cta": "Estimate your fencing materials now!",
+  "disclaimer": "Tool estimates assume flat terrain and straight property lines. Local building codes may require specific post depths or wind-load reinforcements not accounted for here.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Fence Calculator interface showing picket and post counts",
   "ogImageText": "Fence Calculator"
 }

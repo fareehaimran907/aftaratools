@@ -38,15 +38,15 @@
     },
     "percentage-calculator": {
       "title": "Percentagecalculator",
-      "description": "Bereken percentages snel en nauwkeurig.",
+      "description": "Bereken percentages snel en gemakkelijk.",
       "ui": {
-        "percentageCalculator": "Percentagecalculator",
+        "calculatePercentage": "Percentagecalculator",
         "whatIs": "Wat is",
-        "of": "van",
+        "of": "% van",
         "amount": "Bedrag",
         "calculate": "Berekenen",
         "result": "Resultaat",
-        "calculatePercentage": "Bereken het percentage"
+        "enterValuesToCalculatePerc": "Voer waarden in om het percentage te berekenen."
       }
     },
     "json-formatter": {
@@ -55,7 +55,19 @@
       "ui": {
         "formatJson": "JSON formatteren",
         "inputJSON": "Voer J S O N in",
-        "reset": "Opnieuw instellen"
+        "reset": "Opnieuw instellen",
+        "format": "Formatteren",
+        "minify": "Verkleinen",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd!",
+        "clear": "Wissen",
+        "input": "Invoer JSON",
+        "inputPlaceholder": "Plak hier je JSON...",
+        "output": "Uitvoer JSON",
+        "outputPlaceholder": "Geformatteerde JSON verschijnt hier...",
+        "invalidJson": "Ongeldige JSON",
+        "syntaxError": "Syntaxisfout",
+        "jsonToolkit": "JSON-toolkit"
       }
     },
     "area-converter": {
@@ -100,13 +112,21 @@
       "ui": {
         "bedtimeCalculator": "Bedtijdcalculator",
         "whenDoYouNeedToWakeUp": "Hoe laat moet je wakker worden?",
-        "calculate": "Berekenen",
+        "calculate": "Tijden berekenen",
         "toWakeUpAt": "Om wakker te worden om",
         "youShouldTryToBeAsleepBy": ", probeer dan uiterlijk om deze tijd te slapen:",
         "6Cycles9h": "6 cycli (9 uur)",
         "5Cycles75h": "5 cycli (7,5 uur)",
         "calculationsIncludeAnAverage15MinutesToFallAsleep": "Bij de berekeningen wordt gemiddeld 15 minuten om in slaap te vallen meegerekend.",
-        "enterYourWakeUpTimeToCal": "Voer uw wektijd in om de bedtijden te berekenen"
+        "enterYourWakeUpTimeToCal": "Voer uw wektijd in om de bedtijden te berekenen",
+        "title": "Bedtijd Calculator",
+        "description": "Ontdek precies hoe laat u naar bed moet om fris wakker te worden.",
+        "iNeedToWakeUpAt": "Ik moet wakker worden om",
+        "youShouldGoToBedAt": "Je zou naar bed moeten gaan om",
+        "resultsDescription": "Deze tijden zijn gebaseerd op 90-minuten cycli, inclusief 15 min om in slaap te vallen.",
+        "cycles": "cycli",
+        "hours": "uur",
+        "optimal": "Optimaal"
       }
     },
     "binary-to-decimal": {
@@ -116,7 +136,8 @@
         "binaryToDecimalConverter": "Binair-naar-decimaalconverter",
         "binaryNumber": "Binair getal",
         "decimalResult": "Decimaal resultaat",
-        "eG1010": "bijv. 1010"
+        "eG1010": "bijv. 1010",
+        "invalidBinaryNumber": "Ongeldig binair getal"
       }
     },
     "bmi-calculator": {
@@ -183,14 +204,27 @@
       "description": "",
       "ui": {
         "breakevenCalculator": "Break-evencalculator",
-        "fixedCosts": "Vaste kosten",
-        "variableCostPerUnit": "Variabele kosten per eenheid",
-        "sellingPricePerUnit": "Verkoopprijs per eenheid",
+        "fixedCosts": "Vaste Kosten",
+        "variableCostPerUnit": "Variabele Kosten per Eenheid",
+        "sellingPricePerUnit": "Verkoopprijs per Eenheid",
         "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "De verkoopprijs moet hoger zijn dan de variabele kosten om het break-evenpunt te bereiken.",
         "unitsToSell": "Te verkopen eenheden",
         "breakevenRevenue": "Break-evenomzet",
         "costsPricing": "Kosten Prijzen",
-        "breakEvenPoint": "Break-even-punt"
+        "breakEvenPoint": "Break-even-punt",
+        "title": "Break-Even Calculator",
+        "description": "Bereken hoeveel eenheden u moet verkopen om uw kosten te dekken (het break-evenpunt).",
+        "calculate": "Break-Even Berekenen",
+        "summary": "Break-Even Overzicht",
+        "breakEvenUnits": "Break-Even Afzet",
+        "breakEvenRevenue": "Break-Even Omzet",
+        "contributionMargin": "Dekkingsbijdrage (per eenheid)",
+        "neverBreakEvenError": "Uw variabele kosten zijn hoger of gelijk aan de verkoopprijs. U zult nooit break-even draaien.",
+        "units": "stuks",
+        "enterDetails": "Voer uw kosten en verkoopprijs in.",
+        "variableCost": "Variabele Kosten per Eenheid",
+        "sellingPrice": "Verkoopprijs per Eenheid",
+        "errorImpossible": "De verkoopprijs moet hoger zijn dan de variabele kosten."
       }
     },
     "calorie-calculator": {
@@ -235,7 +269,7 @@
         "principalAmount": "Hoofdsom",
         "annualRate": "Jaarlijkse rente (%)",
         "timeYears": "Periode (jaar)",
-        "compoundFrequency": "Rente-op-rente frequentie",
+        "compoundFrequency": "Renteperiode",
         "daily": "Dagelijks",
         "monthly": "Maandelijks",
         "quarterly": "Per kwartaal",
@@ -244,7 +278,20 @@
         "interestEarned": "Verdiende rente",
         "finalBalance": "Eindsaldo",
         "interestDetails": "Interessegegevens",
-        "growthBreakdown": "Groei-uitsplitsing"
+        "growthBreakdown": "Groei-uitsplitsing",
+        "title": "Samengestelde Rente Calculator",
+        "description": "Bereken hoe uw investering in de loop van de tijd zal groeien met samengestelde rente (rente op rente) en regelmatige inleg.",
+        "initialInvestment": "Startkapitaal",
+        "monthlyContribution": "Maandelijkse Inleg",
+        "annualInterestRate": "Jaarlijkse Rente (%)",
+        "yearsToGrow": "Looptijd (Jaren)",
+        "semiAnnually": "Halfjaarlijks",
+        "calculate": "Groei Berekenen",
+        "summary": "Groei Overzicht",
+        "futureValue": "Eindkapitaal",
+        "totalContributions": "Totale Inleg",
+        "totalInterestEarned": "Totale Rente",
+        "enterDetails": "Voer gegevens in om de verwachte groei te zien."
       }
     },
     "concrete-calculator": {
@@ -280,7 +327,12 @@
         "minutes": "Minuten",
         "start": "Begin",
         "pause": "Pauzeren",
-        "reset": "Resetten"
+        "reset": "Resetten",
+        "title": "Countdown Timer",
+        "description": "Een eenvoudige, gebruiksvriendelijke online countdown timer. Stel uren, minuten en seconden in.",
+        "hours": "Uren",
+        "seconds": "Seconden",
+        "timeUp": "Tijd is om!"
       }
     },
     "css-minifier": {
@@ -301,7 +353,11 @@
         "amount": "Bedrag",
         "from": "Van",
         "to": "Naar",
-        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Let op: deze wisselkoersen zijn statische schattingen en uitsluitend bedoeld voor demonstratiedoeleinden."
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Let op: deze wisselkoersen zijn statische schattingen en uitsluitend bedoeld voor demonstratiedoeleinden.",
+        "title": "Valutaomzetter",
+        "description": "Reken om tussen wereldwijde valuta's met live wisselkoersen.",
+        "convertedAmount": "Omgerekend Bedrag",
+        "lastUpdated": "Laatst Bijgewerkt"
       }
     },
     "data-storage-converter": {
@@ -321,7 +377,7 @@
         "startDate": "Startdatum",
         "endDate": "Einddatum",
         "calculateDifference": "Verschil berekenen",
-        "timeDifference": "Tijdsverschil:",
+        "timeDifference": "Tijdsverschil",
         "years": "Jaar",
         "months": "Maanden",
         "days": "dagen",
@@ -329,8 +385,22 @@
         "totalWeeksEquivalent": "Totaal aantal weken:",
         "weeks": "weken,",
         "copy": "Kopiëren",
-        "reset": "Resetten",
-        "selectDatesToCalculate": "Selecteer Data om te berekenen"
+        "reset": "Reset",
+        "selectDatesToCalculate": "Selecteer beide datums om het verschil te berekenen.",
+        "dateDifferenceTitle": "Datumverschil Calculator",
+        "dateDifferenceDesc": "Bereken het exacte aantal dagen, weken, maanden en jaren tussen twee datums.",
+        "includeEndDay": "Einddatum opnemen (+1 dag)",
+        "includeEndDayDesc": "Voegt een extra dag toe aan de berekening.",
+        "exactDifference": "Exact Verschil",
+        "yearsLabel": "Jaren",
+        "monthsLabel": "Maanden",
+        "daysLabel": "Dagen",
+        "endDateBeforeStart": "Let op: Einddatum ligt vóór de startdatum.",
+        "totalDays": "Totaal aantal dagen",
+        "inWeeks": "In Weken",
+        "weeksShort": "wkn",
+        "daysShort": "d",
+        "approxMonths": "Totale maanden"
       }
     },
     "days-between-dates": {
@@ -346,8 +416,17 @@
         "totalResult": "Totaal resultaat:",
         "days": "Dagen",
         "copy": "Kopiëren",
-        "reset": "Resetten",
-        "selectDatesToCalculate": "Selecteer Data om te berekenen"
+        "reset": "Reset",
+        "selectDatesToCalculate": "Selecteer beide datums om het verschil te berekenen.",
+        "title": "Dagen Tussen Datums",
+        "description": "Bereken het exacte aantal dagen, werkdagen en weekenddagen tussen twee datums.",
+        "includeEndDay": "Einddatum opnemen (+1 dag)",
+        "includeEndDayDesc": "Voegt een extra dag toe aan de berekening.",
+        "totalDays": "Totaal aantal dagen",
+        "daysLabel": "Dagen",
+        "endDateBeforeStart": "Let op: Einddatum ligt vóór de startdatum.",
+        "weekdays": "Werkdagen (Ma-Vr)",
+        "weekends": "Weekenddagen"
       }
     },
     "days-until-calculator": {
@@ -362,8 +441,20 @@
         "whichIsExactly": "Dat is precies:",
         "days": "dagen",
         "copy": "Kopiëren",
-        "reset": "Resetten",
-        "selectAFutureDate": "Selecteer een toekomstige datum"
+        "reset": "Reset",
+        "selectAFutureDate": "Selecteer een toekomstige datum",
+        "title": "Dagen Tot Calculator",
+        "description": "Tel exact de dagen, uren, minuten en seconden af tot een specifieke datum in de toekomst.",
+        "todayIs": "Vandaag is",
+        "targetDate": "Doeldatum",
+        "timeUntil": "Tijd tot doel",
+        "timeSince": "Tijd sinds doel",
+        "dayLabel": "Dagen",
+        "dayLabelSingular": "Dag",
+        "hoursLabel": "Uren",
+        "minutesLabel": "Minuten",
+        "secondsLabel": "Seconden",
+        "selectTargetDate": "Selecteer een doeldatum om het aftellen te zien."
       }
     },
     "decimal-to-binary": {
@@ -373,7 +464,8 @@
         "decimalToBinaryConverter": "Decimaal-naar-binairconverter",
         "decimalNumber": "Decimaal getal",
         "binaryResult": "Binair resultaat",
-        "eG10": "bijv. 10"
+        "eG10": "bijv. 10",
+        "invalidDecimalNumber": "Ongeldig decimaal getal"
       }
     },
     "decking-calculator": {
@@ -399,15 +491,25 @@
       "description": "",
       "ui": {
         "discountCalculator": "Kortingscalculator",
-        "originalPrice": "Oorspronkelijke prijs",
+        "originalPrice": "Oorspronkelijke Prijs",
         "discount": "Korting",
         "type": "Type​",
         "off": "% korting",
         "fixedAmountOff": "Vaste korting",
-        "youSave": "Je bespaart",
+        "youSave": "U Bespaart:",
         "finalPrice": "Eindprijs",
         "discountDetails": "Kortingsdetails",
-        "priceBreakdown": "Prijsverdeling"
+        "priceBreakdown": "Prijsverdeling",
+        "title": "Korting Calculator",
+        "description": "Bereken de eindprijs van een artikel na toepassing van korting en eventuele belastingen.",
+        "discountPercentage": "Korting (%)",
+        "taxPercentage": "Belasting (%)",
+        "optional": "Optioneel",
+        "calculate": "Korting Berekenen",
+        "summary": "Prijsoverzicht",
+        "discountAmount": "Kortingsbedrag",
+        "taxAmount": "Belastingbedrag",
+        "enterDetails": "Voer oorspronkelijke prijs en korting in om te berekenen."
       }
     },
     "emi-calculator": {
@@ -422,7 +524,20 @@
         "totalInterestPayable": "Totale te betalen rente",
         "totalPaymentPrincipalInterest": "Totale betaling (hoofdsom + rente)",
         "eMIDetails": "E M I-details",
-        "paymentSummary": "Betalingsoverzicht"
+        "paymentSummary": "Betalingsoverzicht",
+        "title": "EMI Calculator",
+        "description": "Bereken uw vast maandelijks termijnbedrag (EMI) voor persoonlijke, auto- of woningleningen.",
+        "loanAmount": "Leenbedrag",
+        "interestRate": "Rentepercentage (%)",
+        "loanTerm": "Looptijd Lening",
+        "years": "Jaren",
+        "months": "Maanden",
+        "calculate": "EMI Berekenen",
+        "emiSummary": "EMI Overzicht",
+        "principalAmount": "Hoofdsom",
+        "totalInterest": "Totale Rente",
+        "totalPayment": "Totale Betaling (Hoofdsom + Rente)",
+        "enterDetails": "Voer leningdetails in om het overzicht te zien."
       }
     },
     "fence-calculator": {
@@ -461,7 +576,9 @@
       "description": "",
       "ui": {
         "fractionCalculator": "Breukencalculator",
-        "decimal": "Decimaal:"
+        "decimal": "Decimaal:",
+        "error": "Fout",
+        "divByZero": "Deling door nul"
       }
     },
     "gpa-calculator": {
@@ -500,10 +617,10 @@
       "title": "Lengteconverter",
       "description": "",
       "ui": {
-        "heightConverter": "Lengteconverter",
-        "metricCentimeters": "Metrisch (centimeters)",
+        "heightConverter": "Lengte Omzetter",
+        "metricCentimeters": "Metrisch (Centimeters)",
         "cm": "cm",
-        "imperialFeetInches": "Imperiaal (voet en inches)",
+        "imperialFeetInches": "Imperiaal (Voeten & Inches)",
         "ft": "ft",
         "in": "in"
       }
@@ -515,7 +632,8 @@
         "hexToDecimalConverter": "Hexadecimaal-naar-decimaalconverter",
         "hexadecimalNumber": "Hexadecimaal getal",
         "decimalResult": "Decimaal resultaat",
-        "eG1AOrFFFFFF": "bijv. 1A of FFFFFF"
+        "eG1AOrFFFFFF": "bijv. 1A of FFFFFF",
+        "invalidHexString": "Ongeldige hexadecimale string"
       }
     },
     "hourly-to-salary-calculator": {
@@ -526,12 +644,22 @@
         "hourlyWage": "Uurloon",
         "hoursWeek": "Uren / week",
         "weeksYear": "Weken / jaar",
-        "daily": "Per dag",
-        "weekly": "Per week",
-        "monthly": "Per maand",
+        "daily": "Dagelijks",
+        "weekly": "Wekelijks",
+        "monthly": "Maandelijks",
         "yearlySalary": "Jaarsalaris",
         "hourlyDetails": "Uurgegevens",
-        "salaryBreakdown": "Salarisverdeling"
+        "salaryBreakdown": "Salarisoverzicht",
+        "title": "Uurloon naar Salaris Calculator",
+        "description": "Zet uw uurloon om naar een dagloon, weekloon, maandloon en jaarsalaris.",
+        "hourlyRate": "Uurloon",
+        "workSchedule": "Werkschema",
+        "hoursPerWeek": "Uren per Week",
+        "daysPerWeek": "Dagen per Week",
+        "weeksPerYear": "Weken per Jaar",
+        "annualSalary": "Jaarsalaris",
+        "biWeekly": "Tweewekelijks",
+        "enterDetails": "Voer het uurloon in voor een overzicht."
       }
     },
     "html-encode-decode": {
@@ -561,15 +689,22 @@
       "description": "",
       "ui": {
         "investmentCalculator": "Investeringscalculator",
-        "initialInvestment": "Initiële investering",
-        "monthlyContribution": "Maandelijkse inleg",
-        "expectedReturn": "Verwacht rendement (%)",
-        "yearsToGrow": "Aantal investeringsjaren",
+        "initialInvestment": "Startinvestering",
+        "monthlyContribution": "Maandelijkse Inleg",
+        "expectedReturn": "Verwacht Rendement (%)",
+        "yearsToGrow": "Looptijd (Jaren)",
         "totalContributions": "Totale inleg",
         "interestEarned": "Verdiende rente",
         "futureValue": "Toekomstige waarde",
         "investmentPlan": "Investeringsplan",
-        "growthProjection": "Groeiprojectie"
+        "growthProjection": "Groeiprojectie",
+        "title": "Investeringscalculator",
+        "description": "Bereken hoeveel uw investering na verloop van tijd zal groeien met samengestelde rente.",
+        "result": "Resultaat",
+        "totalValue": "Totale Waarde",
+        "totalInvested": "Totaal Geïnvesteerd",
+        "totalInterest": "Totale Rente",
+        "enterDetails": "Voer gegevens in om de groei te zien."
       }
     },
     "js-minifier": {
@@ -598,9 +733,11 @@
       "title": "Lengteconverter",
       "description": "",
       "ui": {
-        "lengthConverter": "Lengteconverter",
+        "lengthConverter": "Lengte Omzetter",
         "from": "Van",
-        "to": "Naar"
+        "to": "Naar",
+        "title": "Lengte Omzetter",
+        "description": "Reken om tussen meters, voeten, inches en andere lengte-eenheden."
       }
     },
     "loan-calculator": {
@@ -608,14 +745,24 @@
       "description": "",
       "ui": {
         "loanCalculator": "Leningcalculator",
-        "loanAmount": "Leningbedrag",
-        "interestRate": "Rentepercentage (%)",
+        "loanAmount": "Leenbedrag",
+        "interestRate": "Rentepercentage (Jaarlijks)",
         "loanTermYears": "Looptijd lening (jaar)",
-        "monthlyPayment": "Maandelijkse betaling",
-        "totalInterest": "Totale rente",
+        "monthlyPayment": "Maandelijkse Betaling",
+        "totalInterest": "Totale Rente",
         "totalCostOfLoan": "Totale kosten van de lening",
         "loanDetails": "Leninggegevens",
-        "paymentBreakdown": "Betalingsverdeling"
+        "paymentBreakdown": "Betalingsverdeling",
+        "title": "Lening Calculator",
+        "description": "Bereken maandelijkse betalingen, totale rente en de kosten van uw lening.",
+        "loanTerm": "Looptijd",
+        "years": "Jaren",
+        "months": "Maanden",
+        "calculate": "Lening Berekenen",
+        "loanSummary": "Lening Overzicht",
+        "totalPrincipal": "Totale Hoofdsom",
+        "totalPayment": "Totale Betaling",
+        "enterDetails": "Voer leningdetails in om het overzicht te zien."
       }
     },
     "lorem-ipsum-generator": {
@@ -656,7 +803,16 @@
         "markup": "Opslag (%)",
         "profit": "Winst",
         "sellingPrice": "Verkoopprijs",
-        "pricingDetails": "Prijsdetails"
+        "pricingDetails": "Prijsdetails",
+        "title": "Markup Calculator",
+        "description": "Bereken de verkoopprijs, brutowinst en winstmarge op basis van kosten en opslagpercentage.",
+        "markupPercentage": "Opslagpercentage (Markup)",
+        "calculate": "Markup Berekenen",
+        "summary": "Prijsoverzicht",
+        "profitMargin": "Winstmarge",
+        "grossProfit": "Brutowinst",
+        "grossLoss": "Bruttoverlies",
+        "enterDetails": "Voer kosten en opslag in."
       }
     },
     "md5generator": {
@@ -680,8 +836,19 @@
         "months": "Maanden",
         "days": "Dagen",
         "copy": "Kopiëren",
-        "reset": "Resetten",
-        "selectDatesToCalculate": "Selecteer Data om te berekenen"
+        "reset": "Reset",
+        "selectDatesToCalculate": "Selecteer beide datums om het verschil te berekenen.",
+        "title": "Maanden Tussen Datums",
+        "description": "Bereken precies hoeveel volledige maanden en resterende dagen er tussen twee datums zitten.",
+        "includeEndDay": "Einddatum opnemen (+1 dag)",
+        "includeEndDayDesc": "Voegt een extra dag toe aan de berekening.",
+        "totalMonths": "Totaal maanden",
+        "monthsLabel": "Maanden",
+        "fullMonthsLabel": "Volle maanden",
+        "extraDaysLabel": "Extra dagen",
+        "equivalentTo": "Gelijk aan",
+        "daysLabel": "Dagen",
+        "endDateBeforeStart": "Let op: Einddatum ligt vóór de startdatum."
       }
     },
     "mortgage-calculator": {
@@ -692,11 +859,20 @@
         "homePrice": "Woningprijs",
         "downPayment": "Aanbetaling",
         "interestRate": "Rentepercentage (%)",
-        "loanTermYears": "Looptijd lening (jaar)",
+        "loanTermYears": "Looptijd (Jaren)",
         "principalLoanAmount": "Hoofdsom lening",
-        "monthlyPayment": "Maandelijkse betaling",
+        "monthlyPayment": "Maandlasten",
         "propertyDetails": "Eigenschapsdetails",
-        "mortgageSummary": "Hypotheekoverzicht"
+        "mortgageSummary": "Hypotheek Overzicht",
+        "title": "Hypotheek Calculator",
+        "description": "Bereken eenvoudig uw maandelijkse hypotheeklasten en totale rente.",
+        "homeValue": "Woningwaarde",
+        "calculate": "Hypotheek Berekenen",
+        "principalAndInterestOnly": "Alleen Aflossing en Rente",
+        "loanAmount": "Hypotheekbedrag",
+        "totalInterest": "Totale Rente",
+        "totalCostOfLoan": "Totale Kosten van de Lening",
+        "enterDetails": "Voer hypotheekdetails in om het overzicht te zien."
       }
     },
     "mulch-calculator": {
@@ -801,7 +977,13 @@
         "absoluteChange": "Absolute verandering",
         "decrease": "Afname",
         "values": "Waarden",
-        "decreaseBreakdown": "Verlaag de verdeling"
+        "decreaseBreakdown": "Verlaag de verdeling",
+        "title": "Procentuele Daling Calculator",
+        "description": "Bereken de procentuele daling van een beginwaarde naar een eindwaarde.",
+        "result": "Resultaat",
+        "percentageDecrease": "Procentuele Daling",
+        "absoluteDecrease": "Absoluut Verschil",
+        "enterDetails": "Voer waarden in om de daling te berekenen."
       }
     },
     "percentage-increase-calculator": {
@@ -814,7 +996,13 @@
         "absoluteChange": "Absolute verandering",
         "change": "Verandering",
         "values": "Waarden",
-        "increaseBreakdown": "Vergroot de verdeling"
+        "increaseBreakdown": "Vergroot de verdeling",
+        "title": "Procentuele Stijging Calculator",
+        "description": "Bereken de procentuele stijging van een beginwaarde naar een eindwaarde.",
+        "result": "Resultaat",
+        "percentageIncrease": "Procentuele Stijging",
+        "absoluteIncrease": "Absoluut Verschil",
+        "enterDetails": "Voer waarden in om de stijging te berekenen."
       }
     },
     "plant-spacing-calculator": {
@@ -837,8 +1025,14 @@
         "pomodoroTimer": "Pomodoro-timer",
         "work25m": "Werk (25 min)",
         "break5m": "Pauze (5 min)",
-        "reset": "Resetten",
-        "start": "Begin"
+        "reset": "Reset",
+        "start": "Begin",
+        "title": "Pomodoro Timer",
+        "description": "Verhoog uw productiviteit met de Pomodoro Techniek.",
+        "pomodoro": "Pomodoro",
+        "shortBreak": "Korte Pauze",
+        "longBreak": "Lange Pauze",
+        "completed": "Voltooid"
       }
     },
     "profit-margin-calculator": {
@@ -851,7 +1045,17 @@
         "grossProfit": "Brutowinst",
         "margin": "Marge",
         "financialDetails": "Financiële details",
-        "profitability": "Winstgevendheid"
+        "profitability": "Winstgevendheid",
+        "title": "Winstmarge Calculator",
+        "description": "Bereken eenvoudig uw brutowinst, winstmarge en opslag (markup).",
+        "cost": "Kostprijs van de omzet (COGS)",
+        "revenue": "Omzet (Verkoopprijs)",
+        "calculate": "Marge Berekenen",
+        "summary": "Marge Overzicht",
+        "profitMargin": "Winstmarge",
+        "grossLoss": "Bruttoverlies",
+        "markup": "Opslag (Markup)",
+        "enterDetails": "Voer kosten en omzet in."
       }
     },
     "qr-code-generator": {
@@ -889,7 +1093,7 @@
       "description": "",
       "ui": {
         "ratioCalculatorAbCd": "Verhoudingscalculator (A:B = C:D)",
-        "enter3ValuesToCalculateThe4thMissingValue": "Voer 3 waarden in om de ontbrekende 4e waarde te berekenen."
+        "enter3ValuesToCalculateThe4thMissingValue": "Voer 3 waarden in om de 4e ontbrekende waarde te berekenen"
       }
     },
     "roi-calculator": {
@@ -902,7 +1106,23 @@
         "profit": "Winst",
         "roi": "ROI​",
         "investmentDetails": "Investeringsdetails",
-        "returnOnInvestment": "Rendement op investering"
+        "returnOnInvestment": "Return on Investment (ROI)",
+        "title": "ROI Calculator",
+        "description": "Bereken uw Return on Investment (ROI) om de winstgevendheid van een investering te evalueren.",
+        "amountInvested": "Geïnvesteerd Bedrag (Kosten)",
+        "amountReturned": "Opbrengst (Inkomsten)",
+        "investmentTimePeriod": "Investeringsperiode",
+        "optional": "Optioneel",
+        "years": "Jaren",
+        "calculate": "ROI Berekenen",
+        "summary": "ROI Overzicht",
+        "netProfit": "Nettowinst",
+        "netLoss": "Nettoverlies",
+        "annualizedRoi": "ROI op Jaarbasis",
+        "enterDetails": "Voer uw investeringsbedragen in.",
+        "investmentAmount": "Investeringsbedrag",
+        "returnAmount": "Teruggekregen Bedrag",
+        "investmentGain": "Investeringswinst/-verlies"
       }
     },
     "roman-numeral-converter": {
@@ -912,7 +1132,11 @@
         "romanNumeralConverter": "Romeinse-cijferconverter",
         "numberRoman": "Getal → Romeins",
         "romanNumber": "Romeins → Getal",
-        "result": "Resultaat"
+        "result": "Resultaat",
+        "rangeError": "Getal moet tussen 1 en 3999 liggen",
+        "invalidRoman": "Ongeldig Romeins cijfer",
+        "numberInputLabel": "Getal (1 - 3999)",
+        "romanNumeralLabel": "Romeins cijfer"
       }
     },
     "running-distance-calculator": {
@@ -942,15 +1166,27 @@
         "week": "Week​",
         "month": "Maand",
         "year": "Jaar",
-        "hoursPerWeek": "Uren per week",
+        "hoursPerWeek": "Uren per Week",
         "calculate": "Berekenen",
-        "hourly": "Per uur",
-        "daily": "Per dag",
-        "weekly": "Per week",
-        "monthly": "Per maand",
+        "hourly": "Per Uur",
+        "daily": "Per Dag",
+        "weekly": "Wekelijks",
+        "monthly": "Maandelijks",
         "yearly": "Per jaar",
         "incomeDetails": "Inkomensgegevens",
-        "enterYourIncomeDetailsToS": "Vul uw inkomensgegevens in om het overzicht te zien"
+        "enterYourIncomeDetailsToS": "Vul uw inkomensgegevens in om het overzicht te zien",
+        "title": "Salaris Calculator",
+        "description": "Zet uw salaris om naar een bedrag per uur, dag, week, maand of jaar.",
+        "payFrequency": "Betaalfrequentie",
+        "biWeekly": "Tweewekelijks",
+        "semiMonthly": "Halfmaandelijks",
+        "quarterly": "Per Kwartaal",
+        "annually": "Jaarlijks",
+        "workSchedule": "Werkschema",
+        "daysPerWeek": "Dagen per Week",
+        "salaryBreakdown": "Salarisoverzicht",
+        "annualSalary": "Jaarsalaris",
+        "enterDetails": "Voer gegevens in voor overzicht."
       }
     },
     "salary-to-hourly-calculator": {
@@ -963,7 +1199,20 @@
         "weeksYear": "Weken / jaar",
         "hourlyWage": "Uurloon",
         "salaryDetails": "Salarisgegevens",
-        "equivalentWage": "Gelijkwaardig loon"
+        "equivalentWage": "Gelijkwaardig loon",
+        "title": "Salaris naar Uurloon Calculator",
+        "description": "Zet uw jaarsalaris om naar een uurloon, dagloon, weekloon en maandloon.",
+        "workSchedule": "Werkschema",
+        "hoursPerWeek": "Uren per Week",
+        "daysPerWeek": "Dagen per Week",
+        "weeksPerYear": "Weken per Jaar",
+        "salaryBreakdown": "Salarisoverzicht",
+        "hourlyRate": "Uurloon",
+        "monthly": "Maandelijks",
+        "biWeekly": "Tweewekelijks",
+        "weekly": "Wekelijks",
+        "daily": "Dagelijks",
+        "enterDetails": "Voer het jaarsalaris in voor een overzicht."
       }
     },
     "sha1generator": {
@@ -991,16 +1240,27 @@
       "description": "",
       "ui": {
         "simpleInterestCalculator": "Enkelvoudige-rentecalculator",
-        "principalAmount": "Hoofdsom",
+        "principalAmount": "Startkapitaal",
         "annualRate": "Jaarlijkse rente (%)",
         "time": "Tijd",
-        "years": "Jaar",
+        "years": "Jaren",
         "months": "Maanden",
         "days": "Dagen",
         "interestEarned": "Verdiende rente",
         "finalBalance": "Eindsaldo",
         "interestDetails": "Interessegegevens",
-        "growthBreakdown": "Groei-uitsplitsing"
+        "growthBreakdown": "Groei-uitsplitsing",
+        "title": "Enkelvoudige Rente Calculator",
+        "description": "Bereken eenvoudig enkelvoudige rente over leningen of spaargeld.",
+        "annualInterestRate": "Jaarlijkse Rente (%)",
+        "timePeriod": "Looptijd",
+        "calculate": "Rente Berekenen",
+        "summary": "Rente Overzicht",
+        "totalInterest": "Totale Rente",
+        "totalAmount": "Totaalbedrag",
+        "principalPlusInterest": "Hoofdsom + Rente",
+        "enterDetails": "Voer kapitaal, rente en looptijd in.",
+        "interestRate": "Jaarlijkse Rentevoet (%)"
       }
     },
     "sleep-calculator": {
@@ -1008,15 +1268,26 @@
       "description": "",
       "ui": {
         "sleepCalculator": "Slaapcalculator",
-        "iWantToWakeUpAt": "Ik wil wakker worden om:",
-        "calculate": "Berekenen",
+        "iWantToWakeUpAt": "Ik wil wakker worden om",
+        "calculate": "Bereken",
         "toWakeUpRefreshedAt": "Om uitgerust wakker te worden om",
         "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": ", probeer dan op een van deze tijdstippen in slaap te vallen (inclusief 15 minuten om in slaap te vallen):",
         "6Cycles9h": "6 cycli (9 uur)",
         "5Cycles75h": "5 cycli (7,5 uur)",
         "4Cycles6h": "4 cycli (6 uur)",
         "3Cycles45h": "3 cycli (4,5 uur)",
-        "enterWakeTimeToCalculateS": "Voer de wektijd in om de slaaptijden te berekenen"
+        "enterWakeTimeToCalculateS": "Voer de wektijd in om de slaaptijden te berekenen",
+        "title": "Slaapcalculator",
+        "description": "Bereken optimale slaaptijden gebaseerd op slaapcycli van 90 minuten.",
+        "wakeAt": "Wakker om",
+        "sleepAt": "Slapen om",
+        "iWillGoToBedAt": "Ik ga naar bed om",
+        "youShouldGoToBedAt": "Je zou naar bed moeten gaan om",
+        "youShouldWakeUpAt": "Je zou wakker moeten worden om",
+        "resultsDescription": "Deze tijden zijn gebaseerd op 90-minuten cycli, inclusief 15 min om in slaap te vallen.",
+        "cycles": "cycli",
+        "hours": "uur",
+        "optimal": "Optimaal"
       }
     },
     "speed-converter": {
@@ -1088,8 +1359,11 @@
         "pause": "Pauzeren",
         "lap": "Ronde",
         "reset": "Resetten",
-        "laps": "Ronden",
-        "noLapsRecordedYet": "Nog geen ronden geregistreerd"
+        "laps": "Rondes",
+        "noLapsRecordedYet": "Nog geen ronden geregistreerd",
+        "title": "Online Stopwatch",
+        "description": "Een eenvoudige, nauwkeurige online stopwatch met rondetijden.",
+        "clearLaps": "Rondes Wissen"
       }
     },
     "tax-calculator": {
@@ -1142,12 +1416,22 @@
         "firstTime": "Eerste tijd",
         "secondTime": "Tweede tijd",
         "calculateAbsoluteDifference": "Absoluut verschil berekenen",
-        "difference": "Verschil:",
+        "difference": "Tijdsverschil",
         "h": "u",
         "m": "M",
         "copy": "Kopiëren",
-        "reset": "Resetten",
-        "selectTimesToCompare": "Selecteer Tijden om te vergelijken"
+        "reset": "Reset",
+        "selectTimesToCompare": "Selecteer Tijden om te vergelijken",
+        "title": "Tijdsverschil Calculator",
+        "description": "Bereken het exacte tijdsverschil tussen twee specifieke datums en tijden tot op de seconde.",
+        "startDateTime": "Startdatum & -tijd",
+        "endDateTime": "Einddatum & -tijd",
+        "daysLabel": "Dagen",
+        "hoursLabel": "Uren",
+        "minutesLabel": "Minuten",
+        "secondsLabel": "Seconden",
+        "reversedNote": "Let op: Eindtijd is eerder dan starttijd. Absoluut verschil wordt getoond.",
+        "selectDatesToCalculate": "Selecteer beide datums en tijden om het verschil te berekenen."
       }
     },
     "time-duration-calculator": {
@@ -1163,8 +1447,17 @@
         "minutes": "minuten",
         "totalTimeInMinutes": "Totale tijd in minuten:",
         "copy": "Kopiëren",
-        "reset": "Resetten",
-        "selectStartAndEndTimes": "Selecteer Begin- en eindtijden"
+        "reset": "Reset",
+        "selectStartAndEndTimes": "Selecteer Begin- en eindtijden",
+        "title": "Tijdsduur Calculator",
+        "description": "Bereken precies hoeveel uren en minuten er zijn verstreken tussen twee tijden.",
+        "duration": "Tijdsduur",
+        "hLabel": "u",
+        "mLabel": "m",
+        "decimalHoursLabel": "Decimale uren",
+        "totalMinutesLabel": "Totaal minuten",
+        "crossesMidnightNote": "Let op: Eindtijd is vroeger (kruist middernacht).",
+        "selectTimesToCalculate": "Selecteer beide tijden om de duur te berekenen."
       }
     },
     "time-zone-converter": {
@@ -1176,7 +1469,18 @@
         "fromTimeZoneRelative": "Van tijdzone (relatief)",
         "toTimeZone": "Naar tijdzone",
         "convert": "Converteren",
-        "selectDateAndTimeZonesTo": "Selecteer datum- en tijdzones om te vergelijken"
+        "selectDateAndTimeZonesTo": "Selecteer datum- en tijdzones om te vergelijken",
+        "title": "Tijdzone Converter",
+        "description": "Converteer nauwkeurig tijden tussen verschillende tijdzones.",
+        "fromZone": "Van Tijdzone",
+        "toZone": "Naar Tijdzone",
+        "dateAndTime": "Datum & Tijd",
+        "swap": "Omwisselen",
+        "convertedTime": "Geconverteerde Tijd",
+        "hoursAhead": "uur voor",
+        "hoursBehind": "uur achter",
+        "sameTime": "Zelfde tijd",
+        "invalidInput": "Voer een geldige datum in."
       }
     },
     "tip-calculator": {
@@ -1186,14 +1490,29 @@
         "tipCalculator": "Fooi-calculator",
         "billAmount": "Rekeningbedrag",
         "tip": "Fooi %",
-        "numberOfPeople": "Aantal personen",
-        "tipAmount": "Fooi",
+        "numberOfPeople": "Aantal Personen",
+        "tipAmount": "Fooi Bedrag",
         "person": "/ persoon",
         "total": "Totaal",
         "totalTip": "Totale fooi:",
         "totalBill": "Totale rekening:",
         "billDetails": "Factuurgegevens",
-        "totalBreakdown": "Totale uitsplitsing"
+        "totalBreakdown": "Totale uitsplitsing",
+        "title": "Fooiencalculator",
+        "description": "Bereken de fooi en deel de rekening eenvoudig met vrienden.",
+        "selectTip": "Kies Fooi %",
+        "custom": "Aangepast",
+        "totalAmount": "Totaalbedrag",
+        "splitBetween": "Verdeeld over",
+        "people": "personen",
+        "tipPerPerson": "Fooi / Persoon",
+        "totalPerPerson": "Totaal / Persoon",
+        "payingFullAmount": "U betaalt het volledige bedrag.",
+        "enterDetails": "Voer rekeninggegevens in.",
+        "tipPercentage": "Fooi Percentage",
+        "perPerson": "/ persoon",
+        "totalTipOverall": "Totale Fooi (Geheel)",
+        "totalBillOverall": "Totale Rekening (Geheel)"
       }
     },
     "unix-timestamp-converter": {
@@ -1206,7 +1525,22 @@
         "dateToTimestamp": "Datum naar tijdstempel",
         "localDateTime": "Lokale datum en tijd",
         "eG1700000000": "bijv. 1700000000",
-        "result": "Resultaat"
+        "result": "Resultaat",
+        "title": "Unix Timestamp Converter",
+        "description": "Converteer Unix-timestamps naar leesbare datums en vice versa.",
+        "currentEpoch": "Huidige Unix Tijd",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd!",
+        "tsToDate": "Timestamp naar Datum",
+        "enterTimestamp": "Voer Timestamp In",
+        "gmtTime": "GMT Tijd",
+        "localTime": "Uw Lokale Tijd",
+        "invalidTimestamp": "Voer een geldige timestamp in.",
+        "dateToTs": "Datum naar Timestamp",
+        "enterDate": "Voer Datum & Tijd In",
+        "secondsLabel": "Timestamp (Seconden)",
+        "msLabel": "Milliseconden",
+        "invalidDate": "Voer een geldige datum in."
       }
     },
     "url-encode-decode": {
@@ -1255,7 +1589,17 @@
         "5Cycles75h": "5 cycli (7,5 uur)",
         "6Cycles9h": "6 cycli (9 uur)",
         "readyForBed": "Klaar Voor Bed",
-        "clickTheButtonWhenYouReG": "Klik op de knop als je naar bed gaat"
+        "clickTheButtonWhenYouReG": "Klik op de knop als je naar bed gaat",
+        "title": "Wektijd Calculator",
+        "description": "Ontdek precies wanneer je moet wakker worden om je fris te voelen. Gebaseerd op slaapcycli.",
+        "sleepNow": "Ik ga nu meteen slapen",
+        "sleepAtTime": "Of ik ga slapen om",
+        "calculate": "Tijden berekenen",
+        "youShouldWakeUpAt": "Je zou wakker moeten worden om",
+        "resultsDescription": "Deze tijden zijn gebaseerd op 90-minuten cycli, inclusief 15 min om in slaap te vallen.",
+        "cycles": "cycli",
+        "hours": "uur",
+        "optimal": "Optimaal"
       }
     },
     "water-intake-calculator": {
@@ -1284,17 +1628,30 @@
         "weeks": "Weken",
         "days": "Dagen",
         "copy": "Kopiëren",
-        "reset": "Resetten",
-        "selectDatesToCalculate": "Selecteer Data om te berekenen"
+        "reset": "Reset",
+        "selectDatesToCalculate": "Selecteer beide datums om het verschil te berekenen.",
+        "title": "Weken Tussen Datums",
+        "description": "Bereken precies hoeveel volledige weken en resterende dagen er tussen twee datums zitten.",
+        "includeEndDay": "Einddatum opnemen (+1 dag)",
+        "includeEndDayDesc": "Voegt een extra dag toe aan de berekening.",
+        "totalWeeks": "Totaal weken",
+        "weeksLabel": "Weken",
+        "fullWeeksLabel": "Volle weken",
+        "extraDaysLabel": "Extra dagen",
+        "equivalentTo": "Gelijk aan",
+        "daysLabel": "Dagen",
+        "endDateBeforeStart": "Let op: Einddatum ligt vóór de startdatum."
       }
     },
     "weight-converter": {
       "title": "Gewichtsconverter",
       "description": "",
       "ui": {
-        "weightConverter": "Gewichtsconverter",
+        "weightConverter": "Gewicht Omzetter",
         "from": "Van",
-        "to": "Naar"
+        "to": "Naar",
+        "title": "Gewicht Omzetter",
+        "description": "Reken om tussen kilogrammen, ponden, ounces, grammen en andere gewichtseenheden."
       }
     },
     "word-counter": {
@@ -1329,7 +1686,14 @@
       "title": "Wereldtijdconverter",
       "description": "",
       "ui": {
-        "worldTimeConverter": "Wereldtijdconverter"
+        "worldTimeConverter": "Wereldtijdconverter",
+        "title": "Wereldtijd Converter",
+        "description": "Converteer direct tijden over meerdere tijdzones. Vergelijk huidige tijden of kies een specifieke datum en tijd.",
+        "liveTime": "Live Tijd",
+        "customTime": "Aangepaste Tijd",
+        "addZone": "Tijdzone Toevoegen",
+        "remove": "Verwijderen",
+        "allZonesAdded": "Alle zones toegevoegd"
       }
     },
     "xml-formatter": {
@@ -1358,7 +1722,8 @@
   },
   "Search": {
     "placeholder": "Hulpmiddelen zoeken...",
-    "noResults": "Geen hulpmiddelen gevonden voor \"{query}\"."
+    "noResults": "Geen hulpmiddelen gevonden voor \"{query}\".",
+    "tryADifferentSearchTermOr": "Probeer een andere zoekterm of blader door de onderstaande categorieën."
   },
   "Home": {
     "metaTitle": "Gratis Online Tools & Rekenmachines",
@@ -1731,13 +2096,16 @@
   "panels": {},
   "Page": {
     "whatIs": "Wat is de {title}?",
-    "howToUse": "Hoe de {title} te gebruiken",
+    "howToUse": "Hoe gebruik je de {title}",
     "example": "Voorbeeld",
-    "useCases": "Veelvoorkomende gebruiksscenario's",
+    "useCases": "Veelvoorkomende toepassingen",
     "howItWorks": "Hoe het werkt",
     "faq": "Veelgestelde vragen",
     "readyToStart": "Klaar om te beginnen?",
-    "useToolNow": "Gebruik nu gereedschap"
+    "useToolNow": "Gebruik tool nu",
+    "resultInterpretation": "Uw resultaten begrijpen",
+    "tipsAndLimitations": "Tips en opmerkingen over nauwkeurigheid",
+    "disclaimer": "Disclaimer"
   },
   "Categories": {
     "developerTools": "Ontwikkelaarstools",

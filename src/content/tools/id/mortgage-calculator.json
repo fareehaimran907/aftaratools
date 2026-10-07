@@ -1,55 +1,65 @@
 {
-  "seoTitle": "Kalkulator Hipotek",
-  "metaDescription": "Hitung pembayaran hipotek bulanan.",
-  "h1": "Kalkulator Hipotek",
-  "primaryKeyword": "kalkulator hipotek",
+  "seoTitle": "Kalkulator KPR - Hitung Cicilan Bulanan Kredit Pemilikan Rumah",
+  "metaDescription": "Kalkulator KPR gratis. Hitung cicilan KPR bulanan termasuk pokok dan bunga berdasarkan harga rumah, uang muka, dan suku bunga.",
+  "h1": "Kalkulator KPR",
+  "primaryKeyword": "kalkulator KPR",
   "secondaryKeywords": [
-    "Kalkulator Hipotek online",
-    "Kalkulator Hipotek gratis",
-    "Kalkulator Hipotek terbaik"
+    "kalkulator kredit rumah",
+    "cicilan KPR bulanan",
+    "kalkulator pembayaran rumah",
+    "amortisasi KPR"
   ],
-  "slug": "kalkulator hipotek",
-  "intro": "Hitung pembayaran hipotek bulanan Anda termasuk pokok dan bunga.",
-  "whatIs": "Alat apa ini?",
+  "slug": "kalkulator-hipotek",
+  "intro": "Membeli rumah adalah komitmen keuangan terbesar dalam hidup Anda. Kalkulator KPR gratis kami memberi gambaran jelas tentang kewajiban bulanan tersebut. Masukkan harga properti, uang muka, suku bunga, dan jangka waktu pinjaman — dan langsung lihat estimasi cicilan bulanan pokok dan bunga, total bunga yang dibayarkan, serta biaya keseluruhan KPR.",
+  "whatIs": "Kalkulator KPR adalah alat keuangan khusus yang memperkirakan cicilan bulanan kredit pemilikan rumah. Alat ini mengambil empat input — harga properti, uang muka, suku bunga tahunan, dan jangka waktu — dan menggunakan rumus amortisasi standar untuk menghitung cicilan bulanan tetap yang akan melunasi pinjaman sepenuhnya.",
   "howToUse": [
-    "Masukkan harga rumah Anda ke kolom input yang ditentukan.",
-    "Berikan parameter sekunder seperti uang muka.",
-    "Klik tombol hitung atau kirim untuk menghasilkan pembayaran pokok dan bunga bulanan.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Masukkan Nilai Rumah — harga beli total properti.",
+    "Masukkan Uang Muka — jumlah tunai yang dibayarkan saat akad kredit.",
+    "Masukkan Suku Bunga Tahunan dari penawaran KPR Anda.",
+    "Tentukan Jangka Waktu Pinjaman dalam tahun.",
+    "Klik 'Hitung KPR'."
   ],
-  "howItWorks": "Bagaimana cara kerjanya",
-  "workedExample": "Contoh",
-  "resultInterpretation": "Interpretasi",
+  "howItWorks": "Kalkulator mengurangi uang muka dari nilai rumah untuk menentukan jumlah pinjaman, lalu menerapkan rumus amortisasi: M = P[r(1+r)^n] / [(1+r)^n - 1].",
+  "workedExample": "Anda ingin membeli rumah Rp 300.000.000 dengan uang muka Rp 60.000.000 (20%). Pinjaman Anda Rp 240.000.000. Dengan suku bunga 4,5% per tahun selama 30 tahun, cicilan bulanan adalah Rp 1.216.040. Selama 30 tahun, total pembayaran Rp 437.773.600, dengan bunga Rp 197.773.600.",
+  "resultInterpretation": "Cicilan Bulanan hanya mencakup pokok dan bunga. Tagihan aktual akan lebih tinggi karena pajak dan asuransi. Jumlah Pinjaman adalah yang benar-benar dipinjam. Total Bunga adalah biaya pembiayaan keseluruhan. Biaya Total mencakup pokok dan semua bunga.",
   "useCases": [
-    "Perburuan rumah",
-    "Analisis pembiayaan kembali",
-    "Memproses harga rumah dengan cepat saat bepergian"
+    "Pembelian Rumah: tetapkan anggaran realistis.",
+    "Refinansiasi: bandingkan suku bunga KPR saat ini dengan penawaran terbaru.",
+    "Perencanaan Uang Muka: coba berbagai ukuran uang muka.",
+    "Perbandingan Jangka Waktu: bandingkan KPR 15 tahun vs 30 tahun."
   ],
   "tipsAndLimitations": [
-    "Pajak properti dan biaya HOA harus ditambahkan secara terpisah.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "Kalkulator hanya menyediakan bagian pokok dan bunga. Tagihan bulanan aktual akan lebih tinggi karena pajak dan asuransi.",
+    "Jika uang muka kurang dari 20%, sebagian besar pemberi pinjaman mungkin memerlukan asuransi kredit.",
+    "Jangka waktu lebih pendek memiliki cicilan lebih tinggi tetapi total bunga jauh lebih rendah."
   ],
   "faq": [
     {
-      "question": "Apakah Kalkulator Hipotek gratis untuk digunakan?",
-      "answer": "Ya, Kalkulator Hipotek kami sepenuhnya gratis untuk digunakan."
+      "question": "Apa itu jadwal amortisasi?",
+      "answer": "Jadwal amortisasi adalah tabel rinci yang menunjukkan setiap pembayaran bulanan selama umur pinjaman, memperlihatkan berapa banyak yang masuk ke bunga versus pokok."
     },
     {
-      "question": "Apakah ini berfungsi di perangkat seluler?",
-      "answer": "Ya, ini sepenuhnya responsif dan berfungsi di semua perangkat."
+      "question": "Apakah ini menghitung cicilan bulanan saya dengan tepat?",
+      "answer": "Ini menghitung bagian pokok dan bunga secara akurat. Tagihan aktual Anda kepada pemberi pinjaman biasanya lebih tinggi karena mencakup pajak dan asuransi dalam rekening escrow."
     },
     {
-      "question": "Apakah saya perlu mengunduh sesuatu?",
-      "answer": "Tidak, ini berfungsi sepenuhnya di browser Anda tanpa instalasi apa pun."
+      "question": "Apa yang terjadi jika saya melakukan pembayaran ekstra pada KPR?",
+      "answer": "Pembayaran ekstra langsung mengurangi saldo pokok, mengurangi bunga di bulan berikutnya dan dapat mempersingkat jangka waktu pinjaman secara signifikan."
+    },
+    {
+      "question": "Apa perbedaan antara KPR suku bunga tetap dan mengambang?",
+      "answer": "KPR suku bunga tetap memiliki suku bunga dan cicilan yang sama selama seluruh jangka waktu. KPR suku bunga mengambang dimulai dengan suku bunga lebih rendah yang dapat berubah secara berkala."
     }
   ],
   "relatedTools": [
-    "kalkulator persentase",
-    "kalkulator gaji",
-    "kalkulator diskon"
+    "loan-calculator",
+    "emi-calculator",
+    "compound-interest-calculator",
+    "investment-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator Hipotek",
-  "ogImageText": "Kalkulator Hipotek"
+  "cta": "Hitung estimasi cicilan KPR Anda sekarang dan rencanakan pembelian rumah dengan percaya diri!",
+  "disclaimer": "Alat ini memberikan perkiraan hanya untuk tujuan pendidikan. Ketentuan KPR, suku bunga, pajak, dan biaya asuransi aktual akan bervariasi.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Kalkulator KPR menampilkan cicilan bulanan, jumlah pinjaman, total bunga, dan biaya total",
+  "ogImageText": "Kalkulator KPR"
 }

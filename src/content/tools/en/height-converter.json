@@ -1,55 +1,58 @@
 {
-  "seoTitle": "Height Converter",
-  "metaDescription": "Free online Height Converter. Convert height from feet and inches to cm.",
+  "seoTitle": "Height Converter - Convert cm to feet & inches",
+  "metaDescription": "Free human height converter. Easily convert between centimeters (cm) and feet + inches. Perfect for medical forms, passports, and dating apps.",
   "h1": "Height Converter",
   "primaryKeyword": "height converter",
   "secondaryKeywords": [
-    "height converter online",
-    "free height converter",
-    "best height converter"
+    "cm to feet and inches",
+    "feet and inches to cm",
+    "convert height",
+    "human height calculator"
   ],
   "slug": "height-converter",
-  "intro": "Use our free online Height Converter tool. It translates human height units based on your inputs.",
-  "whatIs": "The Height Converter is an online utility that translates human height units. It processes your cm and provides a properly formatted height.",
+  "intro": "Converting human height between the metric and imperial systems can be surprisingly confusing because the imperial system uses two units (feet and inches) rather than just a decimal. Our free Height Converter specifically handles this quirk. Whether you need to fill out a passport application, a medical form, or just want to set up your profile on a dating app, this tool instantly and accurately translates centimeters to feet and inches, or vice versa.",
+  "whatIs": "A height converter is a specialized calculator designed specifically for measuring human stature. Unlike a standard length converter that translates one unit to one decimal (e.g., cm to total inches), a height converter properly formats the output into the standard human format: feet AND inches (e.g., 5'10\").",
   "howToUse": [
-    "Enter your cm into the designated input field.",
-    "Provide any secondary parameters like feet and inches.",
-    "Click the calculate or submit button to generate a properly formatted height.",
-    "Copy or review the resulting output for your needs."
+    "To convert from Metric: Enter your height in centimeters (cm). The tool will display feet and inches.",
+    "To convert from Imperial: Enter feet in the first box and inches in the second box. The tool will display centimeters.",
+    "The results update instantly as you type."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your cm. It instantly processes the data to output a properly formatted height.",
-  "workedExample": "For example: 170 cm is about 5'7\".",
-  "resultInterpretation": "The result represents a properly formatted height. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "1 inch is exactly 2.54 centimeters, and 1 foot is 12 inches. To convert cm to feet/inches, the calculator divides the cm value by 30.48 to get total feet. The integer part is the 'feet'. The decimal remainder is multiplied by 12 to calculate the remaining 'inches'. To go the other way, it converts feet to inches, adds the extra inches, and multiplies the total by 2.54.",
+  "workedExample": "You know your height is 178 cm, but a form asks for feet and inches. Enter 178 cm. The tool calculates: 178 / 2.54 = 70.078 total inches. 70 divided by 12 is 5 with a remainder of 10. Therefore, 178 cm is exactly 5 feet, 10 inches (5'10\").",
+  "resultInterpretation": "The result is given in standard human measurement formats. In feet and inches, the inch portion is usually rounded to the nearest whole number or half-inch for simplicity. In centimeters, the result is usually rounded to the nearest whole number.",
   "useCases": [
-    "Driver's license forms",
-    "Medical profiles",
-    "Quickly processing cm on the go"
+    "Travel Documents: Filling out visas, passports, or driver's license applications.",
+    "Medical Forms: Providing accurate height for BMI calculations at international clinics.",
+    "Online Profiles: Converting your height for social media, fitness trackers, or dating apps.",
+    "Apparel Shopping: Checking size guides for international clothing brands."
   ],
   "tipsAndLimitations": [
-    "Feet and inches is not a simple decimal (e.g. 5.5 is not 5'5\").",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "A common mistake is thinking that 5.5 feet is 5 feet 5 inches. It is not! 5.5 feet is 5 feet and 6 inches (because 0.5 of a foot is 6 inches).",
+    "Don't worry about being precise to the millimeter. Human height fluctuates by about 1-2 cm throughout the day due to spinal compression.",
+    "When entering inches, values between 0 and 11 are valid. 12 inches is simply 1 foot."
   ],
   "faq": [
     {
-      "question": "How tall is 180cm?",
-      "answer": "Roughly 5 feet 11 inches."
+      "question": "What is 180 cm in feet and inches?",
+      "answer": "180 cm is approximately 5 feet 11 inches (5'11\")."
     },
     {
-      "question": "Is the Height Converter free to use?",
-      "answer": "Yes, our Height Converter is completely free and requires no registration."
+      "question": "How do you calculate 5'9\" in cm?",
+      "answer": "5 feet is 60 inches. 60 + 9 = 69 total inches. 69 × 2.54 = 175.26 cm."
     },
     {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Is 5.10 feet the same as 5 feet 10 inches?",
+      "answer": "No. 5.10 feet is 5 feet and 1.2 inches. 5 feet 10 inches would be mathematically expressed as 5.833 feet."
     }
   ],
   "relatedTools": [
     "length-converter",
     "weight-converter",
-    "temperature-converter"
+    "bmi-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Height Converter interface screenshot",
+  "cta": "Convert your height instantly for any form or application!",
+  "disclaimer": "This tool provides mathematical conversions for convenience. Always use professional measuring equipment for medical purposes.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Height converter tool showing cm to feet and inches",
   "ogImageText": "Height Converter"
 }

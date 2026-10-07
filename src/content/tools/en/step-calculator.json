@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Stair Calculator",
-  "metaDescription": "Free online Stair Calculator. Calculate stair rise and run.",
-  "h1": "Stair Calculator",
-  "primaryKeyword": "stair calculator",
+  "seoTitle": "Steps to Miles Calculator - Convert Steps to Distance",
+  "metaDescription": "Free online Step Calculator. Convert your daily steps into miles or kilometers. Calculate calories burned walking based on your stride length.",
+  "h1": "Step Calculator",
+  "primaryKeyword": "step calculator",
   "secondaryKeywords": [
-    "stair calculator online",
-    "free stair calculator",
-    "best stair calculator"
+    "steps to miles",
+    "convert steps to km",
+    "10000 steps in miles",
+    "walking distance calculator"
   ],
   "slug": "step-calculator",
-  "intro": "Use our free online Stair Calculator tool. It estimates stair stringer dimensions based on your inputs.",
-  "whatIs": "The Stair Calculator is an online utility that estimates stair stringer dimensions. It processes your total rise and provides number of steps and exact riser height.",
+  "intro": "Curious how far your 10,000 steps actually took you? Our free Step Calculator translates your daily pedometer count into miles, kilometers, and calories burned.",
+  "whatIs": "The Step Calculator is a physical activity tracking tool that bridges the gap between raw pedometer data (number of steps) and understandable distance metrics based on human biomechanics.",
   "howToUse": [
-    "Enter your total rise into the designated input field.",
-    "Provide any secondary parameters like tread depth.",
-    "Click the calculate or submit button to generate number of steps and exact riser height.",
-    "Copy or review the resulting output for your needs."
+    "Enter the total number of steps your tracker recorded.",
+    "Enter your height (this helps estimate your stride length).",
+    "The tool calculates the total distance walked and an estimate of calories burned."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your total rise. It instantly processes the data to output number of steps and exact riser height.",
-  "workedExample": "For example: 35 inch total rise requires 5 steps of 7 inches.",
-  "resultInterpretation": "The result represents number of steps and exact riser height. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "The tool uses your height to estimate your stride length (usually Height × 0.413 for women, and Height × 0.415 for men). It multiplies your stride length by your total steps to get total inches moved, then converts that into miles or kilometers.",
+  "workedExample": "A 5'10\" man takes 10,000 steps. The tool estimates his stride at 2.4 feet. 10,000 × 2.4 = 24,000 feet. 24,000 / 5,280 (feet in a mile) = 4.54 miles.",
+  "resultInterpretation": "The output tells you the physical distance your feet covered throughout the day. It also provides a rough estimate of the energy (calories) required to move your body weight that distance.",
   "useCases": [
-    "Deck building",
-    "Carpentry framing",
-    "Quickly processing total rise on the go"
+    "Basic Pedometer Users: Translating a cheap step-counter's raw data into meaningful miles.",
+    "Office Workers: Calculating how far they walked pacing around the office during a busy shift.",
+    "Weight Loss: Setting a daily distance goal (e.g., 3 miles) and figuring out exactly how many steps are needed to reach it."
   ],
   "tipsAndLimitations": [
-    "Building codes strictly dictate maximum riser height.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "Stride length varies wildly based on walking speed. When you run, your stride length increases dramatically, making this calculator inaccurate for running steps.",
+    "You can enter a custom stride length if you have manually measured yours using a tape measure on the floor."
   ],
   "faq": [
     {
-      "question": "What is a standard riser height?",
-      "answer": "Usually between 7 and 7.5 inches."
+      "question": "How far is 10,000 steps?",
+      "answer": "For an average-height adult walking at a normal pace, 10,000 steps is roughly equivalent to 4.5 to 5 miles (7 to 8 kilometers)."
     },
     {
-      "question": "Is the Stair Calculator free to use?",
-      "answer": "Yes, our Stair Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "How do I find my exact stride length?",
+      "answer": "Mark a starting line. Walk 10 steps normally. Measure the distance from the start line to your front toe on the 10th step, then divide that distance by 10."
     }
   ],
   "relatedTools": [
-    "square-footage-calculator",
-    "paint-calculator",
-    "tile-calculator"
+    "running-distance-calculator",
+    "calorie-calculator",
+    "pace-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Stair Calculator interface screenshot",
-  "ogImageText": "Stair Calculator"
+  "cta": "Convert your steps to distance now!",
+  "disclaimer": "This tool relies on average human biomechanical ratios. Stride length and calories burned can vary significantly based on speed, terrain, and individual fitness levels.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Step Calculator showing 10,000 steps to miles conversion",
+  "ogImageText": "Step Calculator"
 }

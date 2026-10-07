@@ -1,55 +1,60 @@
 {
-  "seoTitle": "Calcolatore della durata del tempo",
-  "metaDescription": "Calcolare la durata esatta tra due tempi.",
-  "h1": "Calcolatore della durata del tempo",
-  "primaryKeyword": "calcolatore della durata temporale",
+  "seoTitle": "Calcolatore Durata del Tempo - Calcola il Tempo Trascorso",
+  "metaDescription": "Calcola facilmente la durata tra due orari in ore e minuti. Questo strumento supporta gli incroci di mezzanotte e le ore decimali per le buste paga.",
+  "h1": "Calcolatore Durata del Tempo",
+  "primaryKeyword": "calcolatore durata del tempo",
   "secondaryKeywords": [
-    "Calcolatore della durata del tempo online",
-    "Calcolatore gratuito della durata del tempo",
-    "miglior calcolatore della durata del tempo"
+    "calcolare il tempo trascorso",
+    "tempo trascorso tra due orari",
+    "calcolatore di ore e minuti"
   ],
-  "slug": "calcolatore della durata del tempo",
-  "intro": "Trova le ore e i minuti esatti tra l'ora di inizio e l'ora di fine.",
-  "whatIs": "Cos'è questo strumento?",
+  "slug": "calcolatore-durata-tempo",
+  "intro": "Hai bisogno di calcolare rapidamente il tempo esatto trascorso su un'attività? Il Calcolatore della Durata del Tempo misura istantaneamente le ore e i minuti trascorsi tra un'ora di inizio e una di fine. Sia che tu stia tenendo traccia delle ore fatturabili per i clienti, compilando un foglio presenze settimanale, monitorando sessioni di studio o calcolando la durata dei viaggi, questo strumento semplice ma potente ti assicura di non dover mai più fare calcoli mentali sul tempo.",
+  "whatIs": "Il Calcolatore della Durata del Tempo è un'utilità online specializzata progettata per misurare l'esatta durata di tempo che trascorre tra un orario di inizio e un orario di fine specifici. A differenza di semplici addizioni o sottrazioni, la matematica del tempo opera su un sistema in base 60 (60 minuti in un'ora, 24 ore in un giorno), rendendo i calcoli mentali inclini agli errori. Questo strumento gestisce perfettamente queste complessità, fornendoti una durata precisa espressa in ore e minuti standard, nonché un formato decimale per l'elaborazione delle buste paga.",
   "howToUse": [
-    "Inserisci l'ora di inizio nel campo di input designato.",
-    "Fornisci eventuali parametri secondari come l'ora di fine.",
-    "Fare clic sul pulsante Calcola o Invia per generare il totale delle ore e dei minuti trascorsi.",
-    "Copia o rivedi l'output risultante in base alle tue esigenze."
+    "Passo 1: Seleziona o digita l'ora di inizio nel primo campo di input, assicurandoti che l'indicazione AM/PM sia corretta se utilizzi il formato 12 ore.",
+    "Passo 2: Seleziona l'ora di fine nel secondo campo di input.",
+    "Passo 3: Se l'attività supera la mezzanotte e prosegue nel giorno successivo, inserisci normalmente l'orario di fine. Il calcolatore lo rileva automaticamente.",
+    "Passo 4: Fai clic su 'Calcola' per vedere istantaneamente la durata.",
+    "Passo 5: Visualizza i risultati, che verranno mostrati in ore e minuti standard, minuti totali e ore decimali per i fogli presenze."
   ],
-  "howItWorks": "Come funziona",
-  "workedExample": "Esempi",
-  "resultInterpretation": "Interpretazione",
+  "howItWorks": "Lo strumento converte sia l'ora di inizio che quella di fine in minuti totali trascorsi dalla mezzanotte. Calcola quindi la differenza matematica tra questi due valori in minuti. Fondamentalmente, l'algoritmo tiene conto automaticamente dei periodi notturni; se l'ora di fine è numericamente precedente all'ora di inizio, lo strumento capisce che la durata ha superato la mezzanotte e aggiunge in modo intelligente 24 ore (1440 minuti) al calcolo per fornire il tempo trascorso corretto.",
+  "workedExample": "Supponiamo che tu inizi un turno di notte alle 22:30 (10:30 PM) e timbri l'uscita alle 06:15 (6:15 AM) del mattino successivo. Il calcolatore converte prima entrambi gli orari. Riconoscendo che le 06:15 sono precedenti alle 22:30, aggiunge automaticamente un intero ciclo di 24 ore all'ora di fine per tenere conto dell'incrocio di mezzanotte. Calcola la differenza, determinando una durata totale trascorsa di esattamente 7 ore e 45 minuti.",
+  "resultInterpretation": "Il display principale mostra chiaramente le ore e i minuti standard trascorsi (es. 7h 45m). Inoltre, riquadri supplementari più piccoli mostrano l'equivalente in ore decimali (7,75 ore) e il totale dei minuti grezzi (465 minuti). Il formato in ore decimali è particolarmente vitale per la contabilità e le risorse umane, poiché consente di moltiplicare direttamente il tempo lavorato per una paga oraria.",
   "useCases": [
-    "Calcolo della scheda attività",
-    "Durate dei voli",
-    "Elaborazione rapida dell'ora di inizio in movimento"
+    "Fogli Presenze e Buste Paga: Registrare le ore esatte lavorate per la fatturazione dei freelance, la fatturazione degli appaltatori o il monitoraggio del tempo dei dipendenti.",
+    "Monitoraggio di Studio o Allenamento: Misurare con precisione la durata di una specifica sessione di studio accademico o di un allenamento in palestra.",
+    "Aviazione e Trasporti: Calcolo dei tempi di blocco, durata dei voli o lunghezza dei turni degli autisti in periodi diversi.",
+    "Gestione dei Progetti: Tracciare il tempo esatto speso su attività specifiche per migliorare le stime di tempo future."
   ],
   "tipsAndLimitations": [
-    "Assicurarsi che AM/PM sia impostato correttamente.",
-    "Assicurati che i tuoi input siano formattati correttamente per ottenere i migliori risultati.",
-    "Lo strumento funziona completamente lato client, garantendo che i tuoi dati rimangano privati."
+    "Suggerimento: Le ore decimali sono estremamente utili per le buste paga. Se lavori 8 ore e 30 minuti a $20 l'ora, moltiplichi 8,5 per 20.",
+    "Limitazione: Questo strumento calcola rigorosamente il tempo trascorso in base a una giornata standard di 24 ore. Non tiene conto dei cambiamenti dell'ora legale che potrebbero verificarsi durante il periodo misurato.",
+    "Suggerimento: Se è necessario calcolare la differenza tra più giorni o date, prendere in considerazione l'utilizzo del nostro Calcolatore di Differenza di Date."
   ],
   "faq": [
     {
-      "question": "Il calcolatore della durata temporale è gratuito?",
-      "answer": "Sì, il nostro calcolatore della durata temporale è completamente gratuito."
+      "question": "Cosa succede se il mio evento supera la mezzanotte e prosegue nel giorno successivo?",
+      "answer": "Il calcolatore rileva automaticamente se l'ora di fine è precedente all'ora di inizio. In tal caso, si presume che l'evento abbia superato la mezzanotte e aggiunge senza problemi 24 ore al calcolo per fornirti la durata corretta."
     },
     {
-      "question": "Funziona su dispositivi mobili?",
-      "answer": "Sì, è completamente reattivo e funziona su tutti i dispositivi."
+      "question": "Come vengono calcolate le ore decimali e perché sono utili?",
+      "answer": "Le ore decimali si calcolano dividendo i minuti totali per 60. Ad esempio, 30 minuti diventano 0,5 ore e 45 minuti diventano 0,75 ore. Questo formato è essenziale per le buste paga, poiché puoi facilmente moltiplicare un'ora decimale per una tariffa salariale oraria."
     },
     {
-      "question": "Devo scaricare qualcosa?",
-      "answer": "No, funziona completamente nel tuo browser senza alcuna installazione."
+      "question": "Supporta sia i formati di 12 ore che di 24 ore?",
+      "answer": "Sì, a seconda delle impostazioni del sistema e del browser, gli input dell'ora si adatteranno ai formati standard AM/PM a 12 ore o ai formati orari militari a 24 ore."
     }
   ],
   "relatedTools": [
-    "calcolatore dell'età",
-    "calcolatore della differenza di data",
-    "giorni tra le date"
+    "time-difference-calculator",
+    "months-between-dates",
+    "world-time-converter",
+    "countdown-timer"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calcolatore della durata del tempo",
-  "ogImageText": "Calcolatore della durata del tempo"
+  "cta": "Calcola istantaneamente l'esatta durata del tempo trascorso!",
+  "disclaimer": "Questo strumento è destinato ai calcoli del tempo di base e non tiene conto delle modifiche al fuso orario o dell'ora legale durante il periodo trascorso. Verificare i risultati per applicazioni rigorose di calcolo delle buste paga.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Screenshot del calcolatore della durata del tempo che mostra ore, minuti e ore decimali",
+  "ogImageText": "Calcolatore Durata del Tempo"
 }

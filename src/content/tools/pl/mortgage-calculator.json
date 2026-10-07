@@ -1,55 +1,65 @@
 {
-  "seoTitle": "Kalkulator kredytu hipotecznego",
-  "metaDescription": "Oblicz miesięczne raty kredytu hipotecznego.",
-  "h1": "Kalkulator kredytu hipotecznego",
+  "seoTitle": "Kalkulator Kredytu Hipotecznego - Oblicz Miesięczną Ratę Kredytu na Dom",
+  "metaDescription": "Bezpłatny kalkulator kredytu hipotecznego. Oblicz miesięczne raty kredytu na dom, łączne odsetki i całkowity koszt na podstawie wartości nieruchomości i wkładu własnego.",
+  "h1": "Kalkulator Kredytu Hipotecznego",
   "primaryKeyword": "kalkulator kredytu hipotecznego",
   "secondaryKeywords": [
-    "Kalkulator kredytu hipotecznego online",
-    "darmowy kalkulator kredytu hipotecznego",
-    "najlepszy kalkulator kredytu hipotecznego"
+    "kalkulator kredytu mieszkaniowego",
+    "miesięczna rata hipoteczna",
+    "kalkulator raty kredytu na dom",
+    "amortyzacja kredytu hipotecznego"
   ],
-  "slug": "kalkulator kredytu hipotecznego",
-  "intro": "Oblicz miesięczną spłatę kredytu hipotecznego, w tym kwotę główną i odsetki.",
-  "whatIs": "Co to jest za narzędzie?",
+  "slug": "kalkulator-hipoteczny",
+  "intro": "Zakup domu to prawdopodobnie największe zobowiązanie finansowe w Twoim życiu. Nasz bezpłatny Kalkulator Kredytu Hipotecznego daje Ci jasny obraz tego, jak wygląda to zobowiązanie co miesiąc. Podając cenę nieruchomości, wkład własny, stopę procentową i okres kredytowania, natychmiast widzisz szacowaną miesięczną ratę kapitałowo-odsetkową, łączne odsetki oraz całkowity koszt kredytu hipotecznego.",
+  "whatIs": "Kalkulator kredytu hipotecznego to wyspecjalizowane narzędzie finansowe, które szacuje miesięczną ratę kredytu mieszkaniowego. Przyjmuje cztery dane wejściowe — cenę nieruchomości, wkład własny, roczną stopę procentową i okres spłaty — i używa standardowej formuły annuitetowej do obliczenia stałej raty miesięcznej.",
   "howToUse": [
-    "Wprowadź cenę domu w wyznaczonym polu wejściowym.",
-    "Podaj wszelkie parametry dodatkowe, takie jak zaliczka.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować miesięczne płatności główne i odsetkowe.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
+    "Wprowadź Wartość Nieruchomości — całkowitą cenę zakupu.",
+    "Wprowadź swój Wkład Własny — kwotę gotówki płaconą przy podpisaniu umowy.",
+    "Wprowadź Roczną Stopę Procentową z oferty kredytowej.",
+    "Podaj Okres Kredytowania w latach.",
+    "Kliknij 'Oblicz Kredyt Hipoteczny'."
   ],
-  "howItWorks": "Jak to działa",
-  "workedExample": "Przykłady",
-  "resultInterpretation": "Interpretacja",
+  "howItWorks": "Kalkulator odejmuje wkład własny od wartości nieruchomości, aby określić kwotę kredytu, a następnie stosuje formułę annuitetową: M = P[r(1+r)^n] / [(1+r)^n - 1].",
+  "workedExample": "Chcesz kupić dom za 300 000 zł i możesz wpłacić 60 000 zł wkładu własnego (20%). Kwota kredytu wynosi 240 000 zł. Przy stopie procentowej 4,5% i okresie 30 lat, rata miesięczna wynosi 1 216,04 zł. Przez 30 lat zapłacisz łącznie 437 773,86 zł, z czego 197 773,86 zł to odsetki.",
+  "resultInterpretation": "Rata Miesięczna obejmuje tylko kapitał i odsetki. Twoja rzeczywista faktura będzie wyższa ze względu na podatki i ubezpieczenie. Kwota Kredytu to tyle, ile faktycznie pożyczasz. Łączne Odsetki to całkowity koszt finansowania. Łączny Koszt obejmuje kapitał i wszystkie odsetki.",
   "useCases": [
-    "Polowanie na dom",
-    "Analiza refinansowania",
-    "Szybkie przetwarzanie ceny domu w podróży"
+    "Zakup Domu: ustal realistyczny budżet.",
+    "Refinansowanie: porównaj swój obecny kurs ze współczesnymi ofertami.",
+    "Planowanie Wkładu Własnego: sprawdź, jak różne kwoty wkładu wpływają na ratę.",
+    "Porównanie Okresów: porównaj 15 vs. 30 lat spłaty."
   ],
   "tipsAndLimitations": [
-    "Podatki od nieruchomości i opłaty HOA należy doliczyć osobno.",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
+    "Kalkulator pokazuje tylko część kapitałowo-odsetkową. Twoja rzeczywista rata będzie wyższa ze względu na podatek od nieruchomości i ubezpieczenie.",
+    "Przy wkładzie własnym poniżej 20% wiele banków wymaga dodatkowego ubezpieczenia.",
+    "Krótszy okres (15 lat) oznacza wyższe raty, ale znacznie niższe łączne odsetki."
   ],
   "faq": [
     {
-      "question": "Czy korzystanie z kalkulatora kredytu hipotecznego jest bezpłatne?",
-      "answer": "Tak, korzystanie z naszego kalkulatora kredytu hipotecznego jest całkowicie darmowe."
+      "question": "Co to jest harmonogram spłat?",
+      "answer": "To szczegółowa tabela pokazująca każdą miesięczną ratę przez cały okres kredytowania z podziałem na odsetki i kapitał oraz saldo po każdej racie."
     },
     {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, jest w pełni responsywny i działa na wszystkich urządzeniach."
+      "question": "Czy to wylicza moją dokładną ratę?",
+      "answer": "Oblicza dokładnie część kapitałowo-odsetkową. Twoja rzeczywista faktura od banku będzie zazwyczaj wyższa o podatek i ubezpieczenie."
     },
     {
-      "question": "Czy muszę coś pobrać?",
-      "answer": "Nie, działa całkowicie w Twojej przeglądarce, bez żadnej instalacji."
+      "question": "Co się stanie, gdy nadpłacę kredyt hipoteczny?",
+      "answer": "Nadpłaty trafiają bezpośrednio na spłatę kapitału, zmniejszając odsetki w kolejnych miesiącach i mogąc znacznie skrócić okres kredytowania."
+    },
+    {
+      "question": "Jaka jest różnica między kredytem o stałym i zmiennym oprocentowaniu?",
+      "answer": "Kredyt o stałym oprocentowaniu ma ten sam kurs i ratę przez cały okres. Kredyt o zmiennym oprocentowaniu zaczyna z niższym kursem, który może się periodycznie zmieniać."
     }
   ],
   "relatedTools": [
-    "kalkulator procentowy",
-    "kalkulator wynagrodzeń",
-    "kalkulator rabatów"
+    "loan-calculator",
+    "emi-calculator",
+    "compound-interest-calculator",
+    "investment-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator kredytu hipotecznego",
-  "ogImageText": "Kalkulator kredytu hipotecznego"
+  "cta": "Oblicz teraz szacowaną ratę kredytu hipotecznego i planuj zakup domu z pewnością!",
+  "disclaimer": "Narzędzie dostarcza szacunków wyłącznie w celach edukacyjnych. Rzeczywiste warunki kredytu hipotecznego, stopy, podatki i koszty ubezpieczenia będą różne. Przed zakupem skonsultuj się z licencjonowanym doradcą hipotecznym.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Kalkulator kredytu hipotecznego pokazujący ratę miesięczną, kwotę kredytu, łączne odsetki i łączny koszt",
+  "ogImageText": "Kalkulator Kredytu Hipotecznego"
 }

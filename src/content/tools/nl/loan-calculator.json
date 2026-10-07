@@ -1,55 +1,64 @@
 {
-  "seoTitle": "Leningcalculator",
-  "metaDescription": "Bereken maandelijkse betalingen en rente voor elke lening.",
+  "seoTitle": "Leningcalculator - Bereken Maandelijkse Aflossing en Totale Rente",
+  "metaDescription": "Gratis leningcalculator. Schat uw maandelijkse aflossingen, totale rente en totale kosten van persoonlijke leningen, autoleningen of zakelijke leningen.",
   "h1": "Leningcalculator",
-  "primaryKeyword": "lening rekenmachine",
+  "primaryKeyword": "leningcalculator",
   "secondaryKeywords": [
-    "Leningcalculator online",
-    "gratis leningcalculator",
-    "beste leningcalculator"
+    "persoonlijke lening calculator",
+    "autolening calculator",
+    "maandelijkse aflossing berekenen",
+    "leningrente berekenen"
   ],
   "slug": "lening-calculator",
-  "intro": "Bepaal uw maandelijkse betaling, totale rente en totale kosten van een lening.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "intro": "Bent u van plan geld te lenen? Onze gratis Leningcalculator helpt u uw maandelijkse aflossingen, totale rente en de totale kosten van elke lening te schatten voordat u ondertekent. Of u nu een auto financiert, schulden consolideert of een verbouwing financiert — exacte terugbetalingscijfers stellen u in staat aanbiedingen te vergelijken en de meest betaalbare optie te kiezen.",
+  "whatIs": "Een leningcalculator is een essentieel financieel planningstool dat de vaste maandelijkse aflossing en de totale rentekosten van een lening berekent op basis van drie kernvariabelen: het hoofdbedrag, de jaarlijkse rente en de looptijd. De wiskundige basis is de standaard annuïteitsformule.",
   "howToUse": [
-    "Voer uw leenbedrag in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals de rente.",
-    "Klik op de knop Berekenen of Verzenden om de afgeschreven maandelijkse betaling en de totale rente te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Voer het totale Leningsbedrag in — het hoofdbedrag dat u wilt lenen.",
+    "Voer het Jaarlijkse Rentepercentage in uit uw leningaanbieding.",
+    "Geef de Looptijd op in jaren of maanden.",
+    "Klik op 'Lening Berekenen' om uw maandelijkse vaste aflossing, totale rente en totale kosten te zien."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "De calculator gebruikt de standaard annuïteitsformule: M = P[r(1+r)^n] / [(1+r)^n - 1], waarbij M de vaste maandelijkse aflossing, P het hoofdbedrag, r de maandelijkse rente en n het totale aantal maandelijkse termijnen is.",
+  "workedExample": "Als u € 10.000 leent tegen 5% jaarlijkse rente voor 5 jaar (60 maanden): de maandelijkse aflossing is € 188,71. Over 60 betalingen betaalt u in totaal € 11.322,74. De leningkosten — de totale rente — bedragen € 1.322,74.",
+  "resultInterpretation": "Uw resultaten bevatten drie sleutelcijfers. Maandelijkse Aflossing is het vaste maandelijkse bedrag. Totale Rente zijn de cumulatieve leningkosten. Totale Betaling is de som van al het geld dat u terugbetaalt.",
   "useCases": [
-    "Een auto kopen",
-    "Een persoonlijke lening afsluiten",
-    "Onderweg snel het geleende bedrag verwerken"
+    "Autoleningen: bereken de exacte maandelijkse autorata voordat u een dealer bezoekt.",
+    "Persoonlijke Leningen: plan een budget voor schuldconsolidatie of verbouwingen.",
+    "Zakelijke Leningen: beoordeel de maandelijkse impact op de kasstroom bij financiering van apparatuur.",
+    "Aanbiedingsvergelijking: vergelijk meerdere leningaanbiedingen door rente of looptijd te wijzigen."
   ],
   "tipsAndLimitations": [
-    "Omvat geen verzekering of late kosten.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Deze calculator gaat uit van een vaste rente voor de gehele looptijd.",
+    "Het resultaat toont alleen hoofdsom en rente, zonder extra kosten.",
+    "Extra aflossingen kunnen de totale rente aanzienlijk verlagen."
   ],
   "faq": [
     {
-      "question": "Is de Leningcalculator gratis te gebruiken?",
-      "answer": "Ja, onze Leningcalculator is geheel gratis te gebruiken."
+      "question": "Wat is een goede rente voor een persoonlijke lening?",
+      "answer": "Rentetarieven zijn sterk afhankelijk van uw kredietscore, inkomen en kredietverstrekker. Over het algemeen worden tarieven onder 10% als concurrerend beschouwd voor persoonlijke leningen."
     },
     {
-      "question": "Werkt dit op mobiel?",
-      "answer": "Ja, het is volledig responsief en werkt op alle apparaten."
+      "question": "Kan ik mijn lening eerder aflossen?",
+      "answer": "Ja, en dit bespaart rente. Controleer echter op boeterente bij vervroegde aflossing in uw leningsovereenkomst."
     },
     {
-      "question": "Moet ik iets downloaden?",
-      "answer": "Nee, het werkt volledig in uw browser, zonder enige installatie."
+      "question": "Hoe beïnvloeden extra aflossingen mijn lening?",
+      "answer": "Extra aflossingen gaan direct naar verlaging van het hoofdbedrag, waardoor de rente in de volgende maanden daalt en de looptijd aanzienlijk kan worden verkort."
+    },
+    {
+      "question": "Wat is het verschil tussen effectieve rente en nominale rente?",
+      "answer": "De nominale rente is de kosten voor het lenen van het hoofdbedrag. De effectieve rente is een bredere maatstaf die de rente plus kosten en andere leningkosten omvat."
     }
   ],
   "relatedTools": [
-    "percentage-calculator",
-    "salariscalculator",
-    "kortingscalculator"
+    "mortgage-calculator",
+    "emi-calculator",
+    "compound-interest-calculator",
+    "simple-interest-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Leningcalculator",
+  "cta": "Bereken uw leningaflossingen nu en neem de controle over uw leningbeslissingen!",
+  "disclaimer": "Dit hulpmiddel geeft schattingen voor uitsluitend educatieve doeleinden. Werkelijke leningvoorwaarden, tarieven en kosten variëren per kredietverstrekker en kredietwaardigheid.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Leningcalculator met maandelijkse aflossing, totale rente en totale betalingsoverzicht",
   "ogImageText": "Leningcalculator"
 }

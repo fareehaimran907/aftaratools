@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Kalkulator BMR",
-  "metaDescription": "Hitung Tingkat Metabolisme Basal Anda.",
+  "seoTitle": "Kalkulator BMR - Tingkat Metabolisme Basal",
+  "metaDescription": "Kalkulator BMR online gratis. Temukan dengan tepat berapa banyak kalori yang dibakar tubuh Anda saat istirahat. Penting untuk penurunan berat badan dan perencanaan diet.",
   "h1": "Kalkulator BMR",
-  "primaryKeyword": "kalkulator bmr",
+  "primaryKeyword": "kalkulator BMR",
   "secondaryKeywords": [
-    "kalkulator bmr online",
-    "kalkulator bmr gratis",
-    "kalkulator bmr terbaik"
+    "kalkulator laju metabolisme basal",
+    "kalkulator metabolisme istirahat",
+    "berapa banyak kalori yang saya bakar saat istirahat",
+    "rumus BMR"
   ],
-  "slug": "bmr-kalkulator",
-  "intro": "Cari tahu persis berapa banyak kalori yang dibakar tubuh Anda saat istirahat.",
-  "whatIs": "Alat apa ini?",
+  "slug": "kalkulator-bmr",
+  "intro": "Merencanakan diet dan perlu mengetahui kebutuhan kalori dasar Anda? Kalkulator BMR gratis kami mengungkapkan dengan tepat berapa banyak kalori yang dibakar tubuh Anda setiap hari hanya untuk tetap hidup.",
+  "whatIs": "Kalkulator BMR (Basal Metabolic Rate) adalah alat matematika fisiologis. Ini memperkirakan jumlah kalori minimum yang dibutuhkan tubuh Anda untuk melakukan fungsi dasar yang menopang kehidupan (seperti bernapas dan memompa darah) saat benar-benar dalam keadaan istirahat.",
   "howToUse": [
-    "Masukkan usia, tinggi badan, berat badan Anda ke dalam kolom input yang ditentukan.",
-    "Berikan parameter sekunder seperti gender.",
-    "Klik tombol hitung atau kirim untuk menghasilkan kalori yang terbakar saat istirahat sepenuhnya.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Pilih jenis kelamin biologis Anda.",
+    "Masukkan usia, tinggi, dan berat badan Anda saat ini.",
+    "Klik hitung untuk segera menampilkan Tingkat Metabolisme Basal Anda.",
+    "Gunakan angka dasar ini untuk merencanakan defisit atau surplus diet Anda."
   ],
-  "howItWorks": "Bagaimana cara kerjanya",
-  "workedExample": "Contoh",
-  "resultInterpretation": "Interpretasi",
+  "howItWorks": "Alat ini menggunakan persamaan Mifflin-St Jeor, yang saat ini dianggap sebagai formula standar yang paling akurat. Persamaan ini mempertimbangkan berat badan, tinggi badan, dan usia, serta menerapkan pengali yang berbeda berdasarkan perbedaan jenis kelamin biologis dalam massa otot.",
+  "workedExample": "Seorang pria berusia 30 tahun dengan tinggi 180 cm dan berat 80 kg: (10 × 80) + (6,25 × 180) - (5 × 30) + 5 = 800 + 1125 - 150 + 5 = 1.780. BMR-nya adalah 1.780 kalori per hari.",
+  "resultInterpretation": "BMR Anda adalah 'batas kalori koma' Anda. Jika Anda berbaring di tempat tidur sepanjang hari dan benar-benar tidak melakukan apa-apa, Anda masih akan membakar sebanyak ini kalori. Anda harus makan lebih dari ini untuk mendukung aktivitas sehari-hari.",
   "useCases": [
-    "Perencanaan pola makan",
-    "Memahami metabolisme",
-    "Memproses usia, tinggi badan, berat badan dengan cepat saat bepergian"
+    "Penurunan Berat Badan: Menggunakan BMR sebagai batas terendah absolut dari asupan kalori harian untuk memastikan Anda tidak memperlambat metabolisme Anda.",
+    "Pembentukan Otot: Menghitung kebutuhan dasar sebelum menambahkan surplus kalori dan kalori dari olahraga untuk membangun massa.",
+    "Perencanaan Nutrisi: Ahli gizi menentukan kebutuhan metabolik dasar untuk pasien."
   ],
   "tipsAndLimitations": [
-    "Rumus seperti Mifflin-St Jeor memberikan perkiraan, bukan hasil lab.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "BMR TIDAK termasuk kalori yang Anda bakar saat berjalan-jalan, mencerna makanan, atau berolahraga. Untuk menemukan total pembakaran kalori harian Anda, gunakan Kalkulator TDEE (Total Daily Energy Expenditure).",
+    "Saat Anda menurunkan berat badan, BMR Anda akan menurun. Anda harus menghitungnya kembali secara teratur selama diet."
   ],
   "faq": [
     {
-      "question": "Apakah BMR termasuk olahraga?",
-      "answer": "Tidak, BMR hanyalah energi yang dibutuhkan untuk tetap hidup saat istirahat."
+      "question": "Apa perbedaan antara BMR dan TDEE?",
+      "answer": "BMR adalah kalori yang terbakar sepenuhnya saat istirahat. TDEE menambahkan tingkat aktivitas harian Anda (berjalan, berolahraga, berbicara) di atas BMR Anda untuk menemukan total kalori yang terbakar."
     },
     {
-      "question": "Apakah Kalkulator BMR gratis untuk digunakan?",
-      "answer": "Ya, Kalkulator BMR kami sepenuhnya gratis dan tidak memerlukan registrasi."
-    },
-    {
-      "question": "Apakah ini berfungsi pada perangkat seluler?",
-      "answer": "Ya, alat ini sepenuhnya responsif dan berfungsi sempurna di semua ponsel cerdas dan tablet."
+      "question": "Mengapa usia mempengaruhi BMR?",
+      "answer": "Seiring bertambahnya usia, Anda secara alami kehilangan massa otot dan proses metabolisme Anda melambat, yang berarti tubuh Anda membutuhkan lebih sedikit kalori untuk mempertahankan diri."
     }
   ],
   "relatedTools": [
-    "bmi-kalkulator",
-    "kalkulator kalori",
-    "kalkulator makro"
+    "calorie-calculator",
+    "macro-calculator",
+    "body-fat-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator BMR",
+  "cta": "Hitung metabolisme istirahat Anda sekarang!",
+  "disclaimer": "Perhitungan BMR adalah perkiraan berdasarkan rata-rata populasi. Metabolisme individu dapat bervariasi karena faktor genetik, massa otot, dan kondisi medis.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka Kalkulator BMR yang menampilkan kebutuhan kalori harian",
   "ogImageText": "Kalkulator BMR"
 }

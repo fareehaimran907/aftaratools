@@ -1,55 +1,91 @@
 {
-  "seoTitle": "Kalkulator Usia",
-  "metaDescription": "Kalkulator Usia online gratis. Hitung usia pasti Anda dalam tahun, bulan, dan hari.",
-  "h1": "Kalkulator Usia",
-  "primaryKeyword": "kalkulator usia",
+  "seoTitle": "Kalkulator Umur – Hitung Usia Tepat dalam Tahun, Bulan, dan Hari",
+  "metaDescription": "Kalkulator umur gratis online. Masukkan tanggal lahir dan temukan usia tepat dalam tahun, bulan, hari, serta total hari yang sudah dijalani.",
+  "h1": "Kalkulator Umur",
+  "primaryKeyword": "kalkulator umur",
   "secondaryKeywords": [
-    "kalkulator usia online",
-    "kalkulator usia bebas",
-    "kalkulator usia terbaik"
+    "berapa umur saya",
+    "hitung umur",
+    "kalkulator umur online gratis",
+    "umur tepat tahun bulan hari",
+    "hitung usia dari tanggal lahir",
+    "sudah berapa hari hidup saya",
+    "kalkulator ulang tahun",
+    "hitung usia akurat",
+    "kalkulator usia online"
   ],
-  "slug": "kalkulator usia",
-  "intro": "Gunakan alat Kalkulator Usia online gratis kami. Ini menentukan usia pasti berdasarkan masukan Anda.",
-  "whatIs": "Kalkulator Usia adalah utilitas online yang menentukan usia pasti. Ini memproses tanggal lahir Anda dan memberikan perbedaan pasti dalam tahun, bulan, dan hari.",
+  "slug": "kalkulator-umur",
+  "intro": "Ingin tahu berapa usia Anda secara tepat? Kalkulator umur gratis kami memberikan jawaban presisi dalam hitungan detik — dalam tahun, bulan, hari, dan total hari yang telah Anda jalani. Tanpa pendaftaran, semua proses berjalan lokal di browser Anda.",
+  "whatIs": "Kalkulator umur adalah alat online yang mengukur waktu yang telah berlalu antara tanggal lahir seseorang dan tanggal target mana pun — biasanya hari ini. Tidak seperti pengurangan tahun sederhana, kalkulator sejati mempertimbangkan tahun kabisat, jumlah hari yang berbeda di setiap bulan, dan apakah ulang tahun bulan ini sudah terlewati atau belum. Hasilnya ditampilkan dalam tahun, bulan, dan sisa hari agar Anda mengetahui bukan hanya usia dalam tahun penuh, tetapi juga ketelitian penuh waktu yang telah Anda habiskan di dunia ini. Kalkulator kami juga memberitahu berapa hari tersisa hingga ulang tahun berikutnya dan total kumulatif hari yang telah Anda jalani — keduanya berguna untuk penjadwalan, dokumen hukum, dan pencapaian pribadi.",
   "howToUse": [
-    "Masukkan tanggal lahir Anda ke dalam kolom input yang ditentukan.",
-    "Berikan parameter sekunder apa pun seperti tanggal saat ini.",
-    "Klik tombol hitung atau kirim untuk menghasilkan perbedaan pasti dalam tahun, bulan, dan hari.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Masukkan tanggal lahir Anda di kolom 'Tanggal Lahir' menggunakan pemilih tanggal atau ketik dalam format YYYY-MM-DD.",
+    "Opsional, tetapkan 'Tanggal Target' jika ingin menghitung usia pada tanggal lampau atau mendatang, bukan hari ini.",
+    "Klik tombol 'Hitung'.",
+    "Baca usia tepat Anda yang ditampilkan dalam tahun, bulan, dan hari, beserta hitung mundur hingga ulang tahun berikutnya dan total hari yang telah dijalani.",
+    "Gunakan tombol salin untuk menyalin hasil ke clipboard, atau tekan Atur Ulang untuk memulai dari awal."
   ],
-  "howItWorks": "Alat ini beroperasi di browser Anda dengan menerapkan algoritma standar pada tanggal lahir Anda. Ini langsung memproses data untuk menghasilkan perbedaan yang tepat dalam tahun, bulan, dan hari.",
-  "workedExample": "Misalnya: 1 Januari 1990 hingga 1 Januari 2024 menghasilkan tepat 34 tahun.",
-  "resultInterpretation": "Hasilnya mewakili perbedaan yang tepat dalam tahun, bulan, dan hari. Anda dapat menggunakan data ini untuk perhitungan spesifik atau kebutuhan pemformatan Anda.",
+  "howItWorks": "Umur = (Tanggal Target − Tanggal Lahir), diselesaikan secara berurutan: pertama tahun kalender penuh, lalu bulan kalender penuh, kemudian sisa hari. Tahun kabisat (habis dibagi 4, kecuali abad yang tidak habis dibagi 400) menambah satu hari ekstra di Februari dan diperhitungkan sepenuhnya.",
+  "workedExample": "Contoh: Tanggal lahir = 15 Maret 1990. Tanggal target = 1 Oktober 2026. Langkah 1 — tahun penuh dari 15 Maret 1990 hingga 15 Maret 2026 = 36 tahun. Langkah 2 — bulan penuh dari 15 Maret hingga 1 Oktober = 6 bulan. Langkah 3 — sisa hari dari 15 September hingga 1 Oktober = 16 hari. Hasil: 36 tahun, 6 bulan, 16 hari. Total hari dijalani ≈ 13.349.",
+  "resultInterpretation": "Kolom 'Tahun' adalah usia Anda yang sudah genap — angka yang tertera di dokumen resmi. 'Bulan' adalah bulan penuh tambahan sejak ulang tahun terakhir Anda. 'Hari' adalah sisa hari di bulan yang belum lengkap saat ini. 'Ulang Tahun Berikutnya' memberi tahu berapa hari tersisa hingga tahun kehidupan berikutnya genap. 'Total Hari' berguna dalam konteks hukum, medis, dan ilmiah di mana waktu yang berlalu secara absolut lebih penting daripada hitungan per tahun kalender.",
   "useCases": [
-    "Memeriksa usia pasti untuk formulir",
-    "Menghitung usia peristiwa sejarah",
-    "Memproses tanggal lahir dengan cepat saat bepergian"
+    "Mengisi kolom usia pada formulir dan dokumen resmi yang memerlukan rincian tepat dalam tahun, bulan, dan hari.",
+    "Menghitung usia perkembangan tepat anak untuk tonggak pediatrik atau batas pendaftaran sekolah.",
+    "Menentukan apakah seseorang memenuhi persyaratan usia minimum untuk kontrak, SIM, atau pensiun.",
+    "Menemukan usia peristiwa bersejarah — misalnya, sudah berapa tahun sebuah gedung terkenal berdiri.",
+    "Rasa ingin tahu pribadi: merayakan hari ke-10.000 kehidupan atau merencanakan ulang tahun berkesan.",
+    "Menghitung usia Anda pada tanggal lampau tertentu, misalnya saat pertama kali bekerja atau menikah."
   ],
   "tipsAndLimitations": [
-    "Mengasumsikan kalender Gregorian.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "Kalkulator mengasumsikan kalender Gregorian. Tanggal sebelum reformasi Gregorian (15 Oktober 1582) mungkin tidak akurat secara historis.",
+    "Pastikan tanggal lokal browser Anda sudah benar; nilai 'hari ini' diambil dari jam perangkat Anda.",
+    "Jika Anda memasukkan tanggal lahir di masa depan, akan muncul pesan kesalahan — usia negatif tidak dapat dihitung.",
+    "Kolom 'Tanggal Target' bersifat opsional dan secara default diatur ke hari ini. Gunakan untuk menghitung usia pada waktu lampau atau mendatang.",
+    "Semua perhitungan dilakukan secara lokal di browser Anda; tidak ada data pribadi yang dikirim ke server mana pun.",
+    "Semua perhitungan berjalan secara lokal di browser Anda melalui JavaScript; tidak ada data pribadi yang dikirim ke server mana pun."
   ],
   "faq": [
     {
-      "question": "Apakah ini termasuk tahun kabisat?",
-      "answer": "Ya, ini sepenuhnya memperhitungkan tahun kabisat."
+      "question": "Berapa tepatnya usia saya sekarang?",
+      "answer": "Masukkan tanggal lahir Anda di kalkulator di atas dan klik 'Hitung'. Anda akan langsung melihat usia tepat dalam tahun, bulan, dan hari hingga hari ini, menggunakan tanggal lokal browser Anda."
     },
     {
-      "question": "Apakah Kalkulator Usia gratis untuk digunakan?",
-      "answer": "Ya, Kalkulator Usia kami sepenuhnya gratis dan tidak memerlukan registrasi."
+      "question": "Apakah kalkulator memperhitungkan tahun kabisat?",
+      "answer": "Ya. Algoritma menangani tahun kabisat sepenuhnya. Ulang tahun 29 Februari diperlakukan sebagai 1 Maret pada tahun non-kabisat saat menghitung hari, sesuai dengan standar hukum dan medis di sebagian besar negara."
     },
     {
-      "question": "Apakah ini berfungsi pada perangkat seluler?",
-      "answer": "Ya, alat ini sepenuhnya responsif dan berfungsi sempurna di semua ponsel cerdas dan tablet."
+      "question": "Bisakah saya menghitung usia pada tanggal lampau atau mendatang?",
+      "answer": "Tentu. Gunakan kolom opsional 'Tanggal Target' untuk menetapkan tanggal apa pun — lampau atau mendatang. Ini sangat berguna untuk penelitian sejarah dan perhitungan persyaratan usia hukum."
+    },
+    {
+      "question": "Bagaimana 'Total Hari' dihitung?",
+      "answer": "Total hari adalah jumlah mutlak hari antara tanggal lahir Anda dan tanggal target. Dihitung dengan membagi selisih dalam milidetik dengan 86.400.000 dan dibulatkan ke bawah. Hari kabisat sudah termasuk secara otomatis."
+    },
+    {
+      "question": "Mengapa usia saya kadang beda satu hari?",
+      "answer": "Ini bisa terjadi jika jam lokal browser Anda diatur ke zona waktu berbeda dari lokasi Anda, atau jika tengah malam belum berlalu di zona waktu Anda. Periksa apakah jam sistem sudah diatur dengan benar."
+    },
+    {
+      "question": "Apa itu 'Ulang Tahun Berikutnya' dan bagaimana cara menghitungnya?",
+      "answer": "Ini adalah jumlah hari tersisa hingga peringatan ulang tahun tahunan berikutnya Anda. Jika hari ini adalah ulang tahun Anda, akan menampilkan 0 atau 365/366 hari hingga tahun berikutnya."
+    },
+    {
+      "question": "Apakah alat ini gratis dan privat?",
+      "answer": "Ya — sepenuhnya gratis, tanpa akun, dan sepenuhnya privat. Tanggal lahir Anda tidak pernah meninggalkan perangkat Anda. Semua perhitungan dilakukan secara lokal di browser Anda menggunakan JavaScript."
+    },
+    {
+      "question": "Bisakah saya menggunakan kalkulator ini di smartphone atau tablet?",
+      "answer": "Ya. Antarmuka sepenuhnya responsif dan berfungsi di semua smartphone, tablet, dan browser desktop modern. Pemilih tanggal menyesuaikan diri dengan input sentuh di perangkat mobile."
     }
   ],
   "relatedTools": [
-    "kalkulator-perbedaan tanggal",
-    "hari-antara-tanggal",
-    "hari-sampai-kalkulator"
+    "date-difference-calculator",
+    "days-between-dates",
+    "days-until-calculator",
+    "months-between-dates"
   ],
-  "lastReviewed": "29-09-2026",
-  "imageAlt": "Tangkapan layar antarmuka Kalkulator Usia",
-  "ogImageText": "Kalkulator Usia"
+  "cta": "Coba kalkulator umur sekarang — masukkan tanggal lahir Anda di atas dan temukan sudah berapa lama Anda berada di planet ini, sampai ke harinya.",
+  "disclaimer": "Alat ini hanya untuk penggunaan informasi dan pribadi. Untuk keperluan hukum, medis, atau resmi, selalu verifikasi perhitungan usia terhadap dokumen resmi seperti akta kelahiran.",
+  "lastReviewed": "2026-10-01",
+  "imageAlt": "Alat kalkulator umur menampilkan kolom input tanggal lahir dan hasil dalam tahun, bulan, dan hari",
+  "ogImageText": "Kalkulator Umur – Tahun, Bulan, dan Hari"
 }

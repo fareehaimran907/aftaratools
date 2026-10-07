@@ -6,20 +6,21 @@
   "secondaryKeywords": [
     "Überstundenrechner online",
     "kostenloser Überstundenrechner",
+    "bester Überstundenrechner",
     "bester Überstundenrechner"
   ],
-  "slug": "Überstundenrechner",
-  "intro": "Bestimmen Sie Ihre voraussichtliche Überstundenvergütung auf der Grundlage Ihres regulären Lohns und des Multiplikators.",
-  "whatIs": "Was ist das für ein Werkzeug?",
+  "slug": "ueberstunden-rechner",
+  "intro": "Haben Sie sich jemals gefragt, wie viel Sie genau verdienen, wenn Sie zusätzliche Stunden bei der Arbeit bleiben? Ob Sie an einem geschäftigen Wochenende einspringen, nach Schichtende aushelfen oder an Feiertagen arbeiten, es ist wichtig zu wissen, wie sich Überstunden auf Ihren Gehaltsscheck auswirken. Unser kostenloser Online-Überstundenrechner nimmt Ihnen das Rätselraten bei der Überstundenvergütung ab. Durch Eingabe Ihres regulären Stundensatzes, der gearbeiteten Überstunden und Ihres Überstundenmultiplikators (wie z. B. 'eineinhalb' oder 'doppelt') schätzt dieses Tool sofort Ihren Gesamtverdienst. Stellen Sie sicher, dass Sie fair für Ihre Zeit und harte Arbeit entlohnt werden, und planen Sie Ihr Budget sicherer mit präzisen Gehaltsprognosen.",
+  "whatIs": "Ein Überstundenrechner ist ein unverzichtbares Werkzeug für die Gehaltsabrechnung, das Arbeitnehmern und Arbeitgebern hilft, den durch die Arbeit über die normalen Standardstunden hinaus erzielten Lohn zu berechnen. In vielen Ländern schreibt das Arbeitsrecht vor, dass stundenweise bezahlte Arbeitnehmer für jede Stunde, die sie über eine reguläre Arbeitswoche (oft 40 Stunden) hinaus arbeiten, einen höheren Satz – im Allgemeinen als Überstundenvergütung bezeichnet – erhalten müssen. Dieses Tool berechnet sowohl Ihren Überstundenlohn als auch Ihren erwarteten Gesamtbruttolohn. Es ist darauf ausgelegt, komplexe Berechnungen mit unterschiedlichen Multiplikatoren wie 1,5x, 2x oder speziellen Feiertagssätzen einfach und transparent zu gestalten, unabhängig davon, mit welcher Währung oder welchem Basislohn Sie arbeiten.",
   "howToUse": [
     "Geben Sie Ihre regulären Stunden in das dafür vorgesehene Eingabefeld ein.",
     "Geben Sie alle sekundären Parameter wie den Überstundensatz an.",
     "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um die Gesamtvergütung einschließlich der anderthalb Stunden zu berechnen.",
     "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
   ],
-  "howItWorks": "Wie es funktioniert",
-  "workedExample": "Beispiele",
-  "resultInterpretation": "Interpretation",
+  "howItWorks": "Das Tool funktioniert durch eine einfache, aber hochwirksame mathematische Berechnung. Zunächst ermittelt es Ihren Überstundensatz, indem es Ihren regulären Stundenlohn mit Ihrem Überstundenmultiplikator multipliziert (z. B. wenn Sie 20 USD/Stunde verdienen und der Multiplikator 1,5x beträgt, ist Ihr Überstundensatz 30 USD/Stunde). Anschließend multipliziert es diesen neuen Satz mit der Anzahl der von Ihnen geleisteten Überstunden, um Ihre Gesamtüberstundenvergütung zu ermitteln. Um Ihren Gesamtbruttolohn für den Abrechnungszeitraum zu ermitteln, können Sie optional auch Ihre regulären Stunden eingeben. Der Rechner addiert Ihren regulären Verdienst zu Ihrem Überstundenverdienst und liefert Ihnen eine umfassende Aufschlüsselung dessen, was Sie vor Steuern und Abzügen auf Ihrem Gehaltsscheck erwarten können.",
+  "workedExample": "Nehmen wir an, Ihr normaler Stundensatz beträgt 25 USD, und Ihr Arbeitgeber zahlt für Überstunden 'anderthalb' (einen Multiplikator von 1,5). Diese Woche haben Sie Ihre üblichen 40 Stunden sowie 8 Überstunden gearbeitet. Zunächst berechnet das Tool Ihren regulären Lohn: 40 Stunden x 25 USD = 1.000 USD. Dann ermittelt es Ihren Überstundensatz: 25 USD x 1,5 = 37,50 USD pro Stunde. Anschließend berechnet es Ihre Überstundenvergütung: 8 Stunden x 37,50 USD = 300 USD. Schließlich addiert es diese beiden Beträge (1.000 USD + 300 USD), um Ihnen einen geschätzten Gesamtbruttolohn von 1.300 USD für die Woche zu liefern. Es zeigt auch den Anteil Ihres Gehalts, der allein aus Überstunden stammt.",
+  "resultInterpretation": "Die vom Rechner bereitgestellten Ergebnisse gliedern sich in drei wichtige Erkenntnisse: Ihr regulärer Verdienst (falls Sie reguläre Stunden eingegeben haben), Ihr Verdienst nur aus Überstunden und Ihr geschätzter Gesamtbruttolohn. Der 'Brutto'-Lohn stellt Ihre Einkünfte vor Abzug von Steuern, Versicherungen und anderen Abgaben dar, also bedenken Sie, dass Ihr endgültiger 'Netto'-Lohn (das, was auf Ihr Bankkonto überwiesen wird) geringer ausfallen wird. Diese Zahlen sind jedoch unschätzbar wertvoll. Sie können den Bericht des Tools verwenden, um Ihren tatsächlichen Gehaltsscheck auf Fehler zu überprüfen, zu entscheiden, ob sich die Annahme einer zusätzlichen Schicht finanziell lohnt, und um das Gesamtbudget Ihres Haushalts besser zu verwalten.",
   "useCases": [
     "Überprüfung von Gehaltsschecks",
     "Budgetierung der Gehaltsabrechnung für Unternehmen",
@@ -27,8 +28,7 @@
   ],
   "tipsAndLimitations": [
     "Überstundenregeln (z. B. nach 40 Stunden) variieren je nach Standort.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten privat bleiben."
+    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen."
   ],
   "faq": [
     {
@@ -38,17 +38,15 @@
     {
       "question": "Funktioniert das auf Mobilgeräten?",
       "answer": "Ja, es reagiert vollständig und funktioniert auf allen Geräten."
-    },
-    {
-      "question": "Muss ich etwas herunterladen?",
-      "answer": "Nein, es funktioniert vollständig in Ihrem Browser und erfordert keine Installation."
     }
   ],
   "relatedTools": [
-    "Altersrechner",
-    "Datumsdifferenzrechner",
-    "Tage zwischen Daten"
+    "work-hours-calculator",
+    "tax-calculator",
+    "roi-calculator"
   ],
+  "cta": "Berechnen Sie jetzt Ihr Überstundengehalt!",
+  "disclaimer": "Dieses Tool berechnet den bundesweiten (FLSA) Standard für wöchentliche Überstunden. Es berechnet nicht das Nettoentgelt nach Steuern oder spezifische staatliche tägliche Überstundenregelungen.",
   "lastReviewed": "2026-09-30",
   "imageAlt": "Überstundenrechner",
   "ogImageText": "Überstundenrechner"

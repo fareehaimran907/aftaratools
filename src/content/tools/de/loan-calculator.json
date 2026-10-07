@@ -1,55 +1,64 @@
 {
-  "seoTitle": "Kreditrechner",
-  "metaDescription": "Berechnen Sie die monatlichen Zahlungen und Zinsen für jedes Darlehen.",
+  "seoTitle": "Kreditrechner - Monatliche Raten und Zinsen berechnen",
+  "metaDescription": "Kostenloser Online-Kreditrechner. Berechnen Sie Ihre monatlichen Raten, Gesamtzinsen und Gesamtkosten für Personal-, Auto- oder Geschäftskredite.",
   "h1": "Kreditrechner",
   "primaryKeyword": "Kreditrechner",
   "secondaryKeywords": [
-    "Kreditrechner online",
-    "kostenloser Kreditrechner",
-    "bester Kreditrechner"
+    "Privatkredit Rechner",
+    "Autokredit Rechner",
+    "Monatliche Rate berechnen",
+    "Kreditkosten Rechner"
   ],
-  "slug": "Kreditrechner",
-  "intro": "Bestimmen Sie Ihre monatliche Zahlung, die Gesamtzinsen und die Gesamtkosten eines Kredits.",
-  "whatIs": "Was ist das für ein Werkzeug?",
+  "slug": "kreditrechner",
+  "intro": "Planen Sie eine Kreditaufnahme? Unser kostenloser Kreditrechner hilft Ihnen, Ihre monatlichen Raten, die Gesamtzinsen und die Gesamtkosten eines Kredits zu schätzen, bevor Sie unterschreiben. Ob Sie ein Auto finanzieren, Schulden konsolidieren oder eine Heimrenovierung finanzieren möchten — genaue Rückzahlungsdaten ermöglichen Ihnen, Angebote zu vergleichen und die günstigste Option zu wählen.",
+  "whatIs": "Ein Kreditrechner ist ein unverzichtbares Finanzplanungstool, das die feste Monatsrate und die Gesamtzinskosten eines Kredits basierend auf drei Kernvariablen berechnet: dem Kreditbetrag, dem Jahreszinssatz des Kreditgebers und der Kreditlaufzeit. Die mathematische Grundlage ist die Standard-Tilgungsformel, die sicherstellt, dass jede Zahlung sowohl die anfallenden Zinsen als auch einen Teil des Kapitals abdeckt.",
   "howToUse": [
-    "Geben Sie Ihren Kreditbetrag in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie den Zinssatz an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um die amortisierte monatliche Zahlung und die Gesamtzinsen zu generieren.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
+    "Geben Sie den Kreditbetrag ein — die Hauptsumme, die Sie leihen möchten.",
+    "Geben Sie den Jahreszinssatz aus Ihrem Kreditangebot ein.",
+    "Legen Sie die Kreditlaufzeit in Jahren oder Monaten fest.",
+    "Klicken Sie auf 'Kredit berechnen', um Ihre monatliche Rate, Gesamtzinsen und die Gesamtkosten des Kredits sofort zu sehen."
   ],
-  "howItWorks": "Wie es funktioniert",
-  "workedExample": "Beispiele",
-  "resultInterpretation": "Interpretation",
+  "howItWorks": "Der Rechner verwendet die Standard-Tilgungsformel: M = P[r(1+r)^n] / [(1+r)^n - 1], wobei M die feste Monatsrate, P das Kapital, r der monatliche Zinssatz und n die Gesamtzahl der Monatsraten ist.",
+  "workedExample": "Wenn Sie 10.000 € zu einem jährlichen Zinssatz von 5% für 5 Jahre (60 Monate) leihen: Die Monatsrate beträgt 188,71 €. Über 60 Zahlungen zahlen Sie insgesamt 11.322,74 €. Die Kreditkosten — die Gesamtzinsen — betragen 1.322,74 €.",
+  "resultInterpretation": "Ihre Ergebnisse umfassen drei Schlüsselzahlen: Monatsrate ist der feste monatliche Betrag. Gesamtzinsen sind die kumulativen Kreditkosten. Gesamtzahlung ist die Summe aus Kapital und allen Zinsen.",
   "useCases": [
-    "Ein Auto kaufen",
-    "Einen Privatkredit aufnehmen",
-    "Schnelle Bearbeitung des Kreditbetrags von unterwegs"
+    "Autokredite: Berechnen Sie Ihre genaue monatliche Autoradio, bevor Sie ein Autohaus besuchen.",
+    "Privatkredite: Budgetieren Sie für Schuldenkonsolidierung oder Heimrenovierungen.",
+    "Unternehmenskredite: Bewerten Sie die monatlichen Auswirkungen auf den Cashflow bei der Finanzierung von Ausrüstung.",
+    "Vergleich von Angeboten: Vergleichen Sie mehrere Kreditangebote, indem Sie Zinssatz oder Laufzeit ändern."
   ],
   "tipsAndLimitations": [
-    "Versicherung und Verspätungsgebühren sind nicht inbegriffen.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten vertraulich bleiben."
+    "Dieser Rechner geht von einem festen Zinssatz für die gesamte Kreditlaufzeit aus.",
+    "Das Ergebnis zeigt nur Kapital und Zinsen, keine zusätzlichen Gebühren.",
+    "Zusätzliche Tilgungszahlungen können die Gesamtzinsen erheblich reduzieren."
   ],
   "faq": [
     {
-      "question": "Ist die Nutzung des Kreditrechners kostenlos?",
-      "answer": "Ja, die Nutzung unseres Kreditrechners ist völlig kostenlos."
+      "question": "Was ist ein guter Zinssatz für einen Privatkredit?",
+      "answer": "Die Zinssätze hängen stark von Ihrer Bonität, Ihrem Einkommen und dem Kreditgeber ab. Im Allgemeinen gelten Zinssätze unter 10% als wettbewerbsfähig für Privatkredite."
     },
     {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, es reagiert vollständig und funktioniert auf allen Geräten."
+      "question": "Kann ich meinen Kredit früher tilgen?",
+      "answer": "Ja, und das spart Zinsen. Prüfen Sie jedoch auf Vorfälligkeitsentschädigungen in Ihrem Kreditvertrag."
     },
     {
-      "question": "Muss ich etwas herunterladen?",
-      "answer": "Nein, es funktioniert vollständig in Ihrem Browser und erfordert keine Installation."
+      "question": "Wie wirken sich Sondertilgungen auf meinen Kredit aus?",
+      "answer": "Sondertilgungen reduzieren direkt das Kapital, wodurch die Zinsen in den folgenden Monaten sinken und die Laufzeit verkürzt wird."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Effektivzins und Nominalzins?",
+      "answer": "Der Nominalzins ist die Kosten für die Aufnahme des Kapitals. Der Effektivzins umfasst den Nominalzins plus alle Gebühren und ist daher für den Kostenvergleich besser geeignet."
     }
   ],
   "relatedTools": [
-    "Prozentrechner",
-    "Gehaltsrechner",
-    "Rabattrechner"
+    "mortgage-calculator",
+    "emi-calculator",
+    "compound-interest-calculator",
+    "simple-interest-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kreditrechner",
+  "cta": "Berechnen Sie jetzt Ihre Kreditraten und treffen Sie fundierte Kreditentscheidungen!",
+  "disclaimer": "Dieses Tool liefert Schätzungen nur zu Bildungszwecken. Tatsächliche Kreditkonditionen, Zinssätze und Gebühren variieren je nach Kreditgeber und Kreditwürdigkeit.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Kreditrechner mit monatlicher Rate, Gesamtzinsen und Gesamtzahlungsaufschlüsselung",
   "ogImageText": "Kreditrechner"
 }

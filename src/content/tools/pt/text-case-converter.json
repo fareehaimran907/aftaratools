@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Conversor de Caso de Texto - MAIÚSCULAS, minúsculas, Capitalização de Títulos",
+  "metaDescription": "Conversor de Caixa de Texto Online Gratuito. Altere rapidamente o texto para MAIÚSCULAS, minúsculas, Caixa Alta de Título ou Caixa de Sentença com um único clique. Corrija erros de caps lock instantaneamente.",
+  "h1": "Conversor de Maiúsculas e Minúsculas",
+  "primaryKeyword": "conversor de caixa de texto",
+  "secondaryKeywords": [
+    "alterar maiúsculas e minúsculas do texto",
+    "maiúsculas para minúsculas",
+    "gerador de maiúsculas de título",
+    "conversor de caps lock"
+  ],
+  "slug": "conversor-de-maiúsculas-e-minúsculas",
+  "intro": "Acidentalmente deixou o Caps Lock ativado, ou precisa formatar uma longa lista de títulos de livros? Nosso Conversor de Maiúsculas e Minúsculas gratuito altera a capitalização do seu texto instantaneamente com um único clique.",
+  "whatIs": "O Conversor de Maiúsculas e Minúsculas de Texto é uma ferramenta de formatação que pega um bloco de texto e altera automaticamente sua estrutura de capitalização com base em regras linguísticas padrão (como maiúsculas e minúsculas de frase ou de título).",
+  "howToUse": [
+    "Cole seu texto mal formatado na caixa de entrada.",
+    "Clique no botão correspondente ao caso que você deseja (por exemplo, 'MAIÚSCULAS', 'Caso de Título').",
+    "O texto se transformará instantaneamente.",
+    "Clique em 'Copiar' para salvar o texto corrigido na sua área de transferência."
+  ],
+  "howItWorks": "A ferramenta utiliza manipulação de strings em JavaScript. 'MAIÚSCULAS' e 'minúsculas' usam funções nativas do navegador. 'Capitalizar cada palavra' usa Regex para colocar a primeira letra de cada palavra em maiúscula (geralmente ignorando palavras pequenas como 'e' ou 'o'). 'Primeira letra maiúscula em frase' capitaliza apenas a primeira letra após um sinal de pontuação terminal.",
+  "workedExample": "Entrada: 'hELLO wORLD. hOW ARE YOU?' Clique em 'Maiúscula na frase'. Saída: 'Hello world. How are you?'",
+  "resultInterpretation": "Seu texto está perfeitamente formatado de acordo com as regras gramaticais do caso selecionado, pronto para ser colado em um documento formal ou banco de dados.",
+  "useCases": [
+    "Limpeza de Dados: Normalizando uma planilha desorganizada de nomes de clientes em 'Title Case' limpo.",
+    "Copywriting: Formatando manchetes e subtítulos perfeitamente sem precisar digitá-los manualmente.",
+    "Correção de Erro: Recuperando instantaneamente um parágrafo digitado enquanto a tecla Caps Lock estava acidentalmente ativada."
+  ],
+  "tipsAndLimitations": [
+    "Converter para MAIÚSCULAS ou minúsculas é uma ação destrutiva — apaga toda a capitalização original. Converter de volta para o Estilo de Sentença não restaurará os nomes próprios (como nomes ou cidades).",
+    "Algoritmos de Título Maiúsculo tentam ignorar palavras menores (de, o, na), mas podem não corresponder perfeitamente a guias de estilo específicos (como o estilo APA ou Chicago) em títulos complexos."
+  ],
+  "faq": [
+    {
+      "question": "O que é caixa de frase?",
+      "answer": "A capitalização de frase coloca em maiúscula apenas a primeira letra da frase, deixando todas as outras palavras (exceto 'I') em minúsculas, assim como um parágrafo padrão de livro."
+    },
+    {
+      "question": "O que é Título em Maiúsculas?",
+      "answer": "O Título em Maiúsculas capitaliza a primeira letra de quase todas as palavras. Ele é tipicamente usado para títulos de livros, títulos de filmes e manchetes de artigos."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "character-counter",
+    "markdown-editor"
+  ],
+  "cta": "Corrija a capitalização do seu texto instantaneamente!",
+  "disclaimer": "Algoritmos automatizados de capitalização podem não capturar todos os nuances gramaticais, particularmente em relação a nomes próprios em maiúsculas e minúsculas. Sempre revise seu texto final.",
+  "lastReviewed": "02/10/2026",
+  "imageAlt": "Interface do Conversor de Caixa de Texto mostrando opções de título em maiúsculas",
+  "ogImageText": "Conversor de Maiúsculas e Minúsculas"
+}

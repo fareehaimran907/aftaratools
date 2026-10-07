@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Decking Calculator",
-  "metaDescription": "Free online Decking Calculator. Calculate materials for a deck.",
+  "seoTitle": "Decking Calculator - Estimate Deck Boards & Materials",
+  "metaDescription": "Free online Decking Calculator. Figure out exactly how many deck boards, joists, and screws you need to build your custom wooden or composite deck.",
   "h1": "Decking Calculator",
   "primaryKeyword": "decking calculator",
   "secondaryKeywords": [
-    "decking calculator online",
-    "free decking calculator",
-    "best decking calculator"
+    "how many deck boards do I need",
+    "deck material estimator",
+    "composite decking calculator",
+    "deck framing calculator"
   ],
   "slug": "decking-calculator",
-  "intro": "Use our free online Decking Calculator tool. It estimates deck boards needed based on your inputs.",
-  "whatIs": "The Decking Calculator is an online utility that estimates deck boards needed. It processes your deck area and provides linear feet of decking.",
+  "intro": "Planning to build a beautiful backyard deck? Our free Decking Calculator tells you exactly how many boards, joists, and fasteners you need, preventing mid-project trips to the lumber yard.",
+  "whatIs": "The Decking Calculator is a carpentry estimation tool. It takes the overall dimensions of your planned deck and translates them into a highly accurate shopping list of lumber and hardware required for the build.",
   "howToUse": [
-    "Enter your deck area into the designated input field.",
-    "Provide any secondary parameters like board width.",
-    "Click the calculate or submit button to generate linear feet of decking.",
-    "Copy or review the resulting output for your needs."
+    "Enter the total length and width of your planned deck.",
+    "Select your decking board width (e.g., standard 5.5 inch boards) and length (12ft or 16ft).",
+    "Select your joist spacing (usually 16 inches on center).",
+    "The tool calculates the total boards, joists, and screws required."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your deck area. It instantly processes the data to output linear feet of decking.",
-  "workedExample": "For example: 10x10 deck needs ~220 linear feet of 5.5\" boards.",
-  "resultInterpretation": "The result represents linear feet of decking. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "The tool divides the deck width by the board width (plus a standard 1/8 to 1/4 inch gap for drainage) to determine the number of board rows. It then divides the deck length by the board length to calculate total boards, adding a 10% waste factor. Joists are calculated based on the spacing division.",
+  "workedExample": "A 10x12 foot deck using 12ft boards (5.5in wide). 10 feet = 120 inches. 120 / 5.75 (board + gap) = ~21 boards. Since the boards are exactly the length of the deck, you need exactly 21 boards, plus 2 for waste.",
+  "resultInterpretation": "The final material list can be taken directly to a hardware store. It ensures you have enough wood to complete the surface, the structural sub-frame, and enough screws to lock it all down.",
   "useCases": [
-    "Backyard renovations",
-    "Ordering composite decking",
-    "Quickly processing deck area on the go"
+    "DIY Backyard Decks: A homeowner planning a simple ground-level square deck.",
+    "Contractor Bidding: A builder quickly estimating the total material cost of composite decking to give a client an accurate quote.",
+    "Material Upgrades: Comparing the total board requirement of laying boards straight versus laying them diagonally (which requires more wood and shorter joist spacing)."
   ],
   "tipsAndLimitations": [
-    "Add 10% extra for diagonal layouts.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "Standard 5/4x6 decking boards are actually 5.5 inches wide, not 6 inches. The tool accounts for this 'nominal' vs 'actual' lumber sizing.",
+    "If you are installing boards diagonally (at a 45-degree angle), you must increase your waste factor to at least 15%."
   ],
   "faq": [
     {
-      "question": "Does spacing matter?",
-      "answer": "Yes, 1/8 to 1/4 inch gaps between boards reduce total wood needed."
+      "question": "What is 'on center' joist spacing?",
+      "answer": "It means measuring from the center of one joist to the center of the next. Standard wood decks use 16-inch spacing. Composite decks often require 12-inch spacing to prevent the boards from sagging."
     },
     {
-      "question": "Is the Decking Calculator free to use?",
-      "answer": "Yes, our Decking Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "How much of a gap should I leave between boards?",
+      "answer": "Usually 1/8 to 1/4 inch. This allows water to drain and gives the wood room to naturally expand and contract with the weather."
     }
   ],
   "relatedTools": [
-    "square-footage-calculator",
-    "paint-calculator",
-    "tile-calculator"
+    "concrete-calculator",
+    "fence-calculator",
+    "square-footage-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Decking Calculator interface screenshot",
+  "cta": "Estimate your deck materials now!",
+  "disclaimer": "Tool assumes a standard rectangular layout. Complex decks with multiple levels, stairs, or cutouts will require manual adjustments to the final material list.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Decking Calculator interface showing board counts",
   "ogImageText": "Decking Calculator"
 }

@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Compteur de mots",
-  "metaDescription": "Compteur de mots en ligne gratuit. Comptez les mots et les caractères.",
+  "seoTitle": "Compteur de mots - Comptez les mots, les caractères et les phrases",
+  "metaDescription": "Compteur de mots en ligne gratuit. Comptez instantanément les mots, les caractères, les phrases et les paragraphes de votre texte. Parfait pour les essais, les tweets et le SEO.",
   "h1": "Compteur de mots",
   "primaryKeyword": "compteur de mots",
   "secondaryKeywords": [
-    "compteur de mots en ligne",
-    "compteur de mots gratuit",
-    "meilleur compteur de mots"
+    "compter les mots en ligne",
+    "compteur de caractères",
+    "outil de comptage de mots",
+    "combien de mots"
   ],
-  "slug": "compteur de mots",
-  "intro": "Utilisez notre outil gratuit de compteur de mots en ligne. Il compte les mots et les caractères en fonction de vos saisies.",
-  "whatIs": "Le Word Counter est un utilitaire en ligne qui compte les mots et les caractères. Il traite votre bloc de texte et fournit des totaux pour les mots, les caractères et les paragraphes.",
+  "slug": "compteur-de-mots",
+  "intro": "Rédiger un essai avec une limite stricte de mots, ou optimiser un article de blog pour le SEO ? Notre compteur de mots gratuit fournit des mesures instantanées et précises pour les mots, les caractères et les phrases.",
+  "whatIs": "Le Compteur de Mots est un outil d'analyse de texte. Il traite de grands blocs de texte pour fournir des données statistiques, y compris le nombre total de mots, le nombre de caractères (avec et sans espaces), le nombre de phrases et le nombre de paragraphes.",
   "howToUse": [
-    "Entrez votre bloc de texte dans le champ de saisie désigné.",
-    "Fournissez tous les paramètres secondaires tels que les métriques de comptage.",
-    "Cliquez sur le bouton Calculer ou Soumettre pour générer des totaux pour les mots, les caractères et les paragraphes.",
-    "Copiez ou examinez le résultat obtenu selon vos besoins."
+    "Collez ou tapez votre texte directement dans la grande zone de saisie.",
+    "Les métriques en haut de l'écran se mettront à jour instantanément.",
+    "Vérifiez la répartition détaillée de la longueur moyenne des mots et du temps de lecture."
   ],
-  "howItWorks": "Cet outil fonctionne dans votre navigateur en appliquant des algorithmes standards à votre bloc de texte. Il traite instantanément les données pour générer des totaux pour les mots, les caractères et les paragraphes.",
-  "workedExample": "Par exemple : 100 mots, 550 caractères.",
-  "resultInterpretation": "Le résultat représente les totaux pour les mots, les caractères et les paragraphes. Vous pouvez utiliser ces données pour vos calculs spécifiques ou vos besoins de formatage.",
+  "howItWorks": "L'outil utilise les expressions régulières JavaScript (Regex) pour analyser le texte. Il compte les mots en recherchant les espaces et les limites de ponctuation. Il compte les phrases en identifiant la ponctuation finale (points, points d'exclamation) suivie d'espaces.",
+  "workedExample": "Vous tapez : 'Bonjour le monde. Comment ça va ?' L'outil calcule : 5 mots, 27 caractères (espaces compris), 2 phrases, et un temps de lecture estimé à 2 secondes.",
+  "resultInterpretation": "Les statistiques vous aident à adapter parfaitement la longueur de votre texte pour respecter des directives de publication spécifiques, des exigences académiques ou des limites des réseaux sociaux.",
   "useCases": [
-    "Rédaction d'essais",
-    "Respecter les limites de caractères de Twitter",
-    "Traitement rapide d'un bloc de texte en déplacement"
+    "Académie : S'assurer qu'un essai universitaire respecte une exigence minimale stricte de 1 000 mots.",
+    "SEO & Marketing : Garder les méta-descriptions en dessous de 160 caractères et les articles de blog au-dessus de 1 500 mots.",
+    "Réseaux sociaux : s'assurer qu'un tweet ou une légende Instagram respecte les limites de la plateforme."
   ],
   "tipsAndLimitations": [
-    "Les mots coupés sont généralement comptés comme un seul mot.",
-    "Assurez-vous que vos entrées sont correctement formatées pour obtenir les meilleurs résultats.",
-    "L'outil fonctionne entièrement côté client, garantissant que vos données restent privées."
+    "Les mots composés avec des traits d'union (comme 'à la pointe de la technologie') sont généralement comptés comme un seul mot par les algorithmes standard.",
+    "Les URL et les adresses e-mail sont également considérées comme des mots uniques."
   ],
   "faq": [
     {
-      "question": "Est-ce que ça compte les espaces ?",
-      "answer": "Il fournit à la fois des « caractères avec espaces » et « sans espaces »."
+      "question": "Qu'est-ce qui compte comme un personnage ?",
+      "answer": "Un caractère est n'importe quelle lettre, chiffre, signe de ponctuation ou symbole unique. Un espace est également techniquement un caractère, c'est pourquoi nous fournissons des comptes à la fois « avec espaces » et « sans espaces »."
     },
     {
-      "question": "L'utilisation de Word Counter est-elle gratuite ?",
-      "answer": "Oui, notre compteur de mots est entièrement gratuit et ne nécessite aucune inscription."
-    },
-    {
-      "question": "Est-ce que cela fonctionne sur les appareils mobiles ?",
-      "answer": "Oui, l'outil est entièrement réactif et fonctionne parfaitement sur tous les smartphones et tablettes."
+      "question": "Comment le temps de lecture est-il calculé ?",
+      "answer": "Le temps de lecture est estimé en fonction de la vitesse de lecture moyenne d'un adulte, d'environ 200 à 250 mots par minute."
     }
   ],
   "relatedTools": [
-    "compteur de caractères",
-    "auto-générateur Internet",
-    "convertisseur de lecture bionique"
+    "character-counter",
+    "text-case-converter",
+    "markdown-editor"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Capture d'écran de l'interface du compteur de mots",
+  "cta": "Comptez vos mots instantanément !",
+  "disclaimer": "L'analyse se fait entièrement dans votre navigateur. Nous ne sauvegardons ni n'enregistrons votre texte.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface du compteur de mots affichant les statistiques de texte",
   "ogImageText": "Compteur de mots"
 }

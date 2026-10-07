@@ -6,20 +6,21 @@
   "secondaryKeywords": [
     "Arbeitszeitrechner online",
     "kostenloser Arbeitszeitrechner",
+    "bester Arbeitszeitrechner",
     "bester Arbeitszeitrechner"
   ],
-  "slug": "Arbeitszeitrechner",
-  "intro": "Addieren Sie ganz einfach Ihre Arbeitszeiten inklusive Pausen.",
-  "whatIs": "Was ist das für ein Werkzeug?",
+  "slug": "arbeitsstunden-rechner",
+  "intro": "Verbringen Sie zu viel Zeit damit, Ihre wöchentlichen Gehaltsabrechnungen manuell zu berechnen oder versuchen Sie herauszufinden, ob Ihnen Überstunden zustehen? Unser kostenloser Online-Arbeitszeitrechner nimmt Ihnen die Kopfschmerzen bei der Arbeitszeiterfassung. Egal, ob Sie ein Freiberufler sind, der Kunden stundenweise in Rechnung stellt, ein Angestellter, der seine Gehaltsabrechnung überprüft, oder ein Manager, der eine Schicht plant, dieses Tool berechnet Ihre gesamten Arbeitsstunden und Ihren voraussichtlichen Lohn präzise. Durch die einfache Eingabe Ihrer Start- und Endzeiten sowie unbezahlter Pausen berechnet der Rechner sofort Ihre genaue Arbeitszeit bis auf die Minute genau. Vereinfachen Sie Ihre Gehaltsabrechnung, stellen Sie eine genaue Abrechnung sicher und erlangen Sie vollständige Transparenz über Ihre Einnahmen.",
+  "whatIs": "Der Arbeitszeitrechner ist ein umfassendes Tool für das Zeitmanagement und die Gehaltsabrechnung, das zur Berechnung der genauen am Arbeitsplatz verbrachten Zeit und des daraus resultierenden Einkommens entwickelt wurde. Im Gegensatz zu einfachen Uhren verarbeitet dieses Tool das komplexe Zeitformat (Stunden und Minuten), das traditionell für die Gehaltsabrechnung mühsam manuell zu berechnen ist. Sie geben die Startzeit und die Endzeit für jeden Tag ein, geben alle unbezahlten Pausen (wie das Mittagessen) an, und das System ermittelt sofort die insgesamt geleisteten Arbeitsstunden. Wenn Sie einen Stundensatz eingeben, funktioniert es auch als Bruttolohnschätzer, der es einfach macht, Einnahmen zu projizieren oder Rechnungen für den Zeitraum einer täglichen, wöchentlichen oder zweiwöchentlichen Zahlung zu erstellen.",
   "howToUse": [
     "Geben Sie Ihre Uhrzeit in das dafür vorgesehene Eingabefeld ein.",
     "Geben Sie alle sekundären Parameter wie die Ausstempelzeit an.",
     "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um die Gesamtstundenzahl abzüglich unbezahlter Pausen zu berechnen.",
     "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
   ],
-  "howItWorks": "Wie es funktioniert",
-  "workedExample": "Beispiele",
-  "resultInterpretation": "Interpretation",
+  "howItWorks": "Das Tool übersetzt Standardzeiteneingaben im 12-Stunden- oder 24-Stunden-Format in eine Dezimalzeit, die für Lohnberechnungen erforderlich ist. Wenn Sie sich beispielsweise um 8:00 Uhr eintragen und um 16:30 Uhr austragen, berechnet es die dazwischen liegenden 8 Stunden und 30 Minuten. Wenn Sie eine unbezahlte Pause von 30 Minuten angeben, subtrahiert es diese und ergibt exakt 8 Stunden Arbeitszeit. Diese 8 Stunden werden dann mit dem von Ihnen angegebenen Stundensatz multipliziert, um den Bruttolohn für diesen Tag zu schätzen. Bei Eingaben über mehrere Tage summiert der Rechner diese täglichen Gesamtsummen, um kumulierte wöchentliche oder abrechnungsrelevante Stunden und Einkünfte zu liefern und sicherzustellen, dass keine Minute übersehen wird.",
+  "workedExample": "Nehmen wir an, Sie sind ein Freiberufler, der mit 25 USD pro Stunde abrechnet. Am Montag beginnen Sie um 9:00 Uhr mit der Arbeit, machen um 12:00 Uhr eine 45-minütige unbezahlte Mittagspause und beenden die Arbeit um 17:15 Uhr. Sie geben diese Zeiten in den Rechner ein. Das Tool berechnet die Gesamtzeit zwischen 9:00 Uhr und 17:15 Uhr als 8 Stunden und 15 Minuten. Dann zieht es die 45-minütige Pause ab und berechnet genau 7 Stunden und 30 Minuten fakturierbare Zeit. Zur Berechnung des Verdienstes rechnet es die 30 Minuten in den Dezimalwert 0,5 Stunden um. Es multipliziert dann 7,5 Stunden mit Ihrem Satz von 25 USD, woraus sich ein Gesamtverdienst von 187,50 USD für den Tag ergibt.",
+  "resultInterpretation": "Die vom Rechner generierten Ergebnisse zeigen in der Regel zwei wichtige Kennzahlen: Ihre Gesamtnettoarbeitszeit (als Stunden und Minuten sowie im Dezimalformat) und Ihren geschätzten Bruttoverdienst. Das Dezimalzeitformat (z. B. 7,5 Stunden statt 7 Stunden und 30 Minuten) ist entscheidend, da es das Standardformat ist, das von Abrechnungssystemen verwendet wird. Der angezeigte Bruttoverdienst ist Ihr Lohn vor Steuern und Abzügen; er stellt das dar, was Sie basierend auf Ihrem Stundensatz allein verdient haben. Diese Daten können direkt für die Rechnungsstellung an Kunden, den Abgleich mit Ihrem offiziellen Gehaltsscheck zur Aufdeckung von Unstimmigkeiten oder zur Verfolgung von Überstunden verwendet werden.",
   "useCases": [
     "Freiberufliche Abrechnung",
     "Schätzung der Gehaltsabrechnung",
@@ -27,8 +28,7 @@
   ],
   "tipsAndLimitations": [
     "Berechnet Steuern nicht automatisch.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten privat bleiben."
+    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen."
   ],
   "faq": [
     {
@@ -38,17 +38,15 @@
     {
       "question": "Funktioniert das auf Mobilgeräten?",
       "answer": "Ja, es reagiert vollständig und funktioniert auf allen Geräten."
-    },
-    {
-      "question": "Muss ich etwas herunterladen?",
-      "answer": "Nein, es funktioniert vollständig in Ihrem Browser und erfordert keine Installation."
     }
   ],
   "relatedTools": [
-    "Altersrechner",
-    "Datumsdifferenzrechner",
-    "Tage zwischen Daten"
+    "overtime-calculator",
+    "tax-calculator",
+    "roi-calculator"
   ],
+  "cta": "Berechnen Sie jetzt Ihre wöchentlichen Arbeitsstunden!",
+  "disclaimer": "Dieses Werkzeug berechnet strikt die verstrichene Zeit abzüglich Pausen. Konsultieren Sie Ihre örtlichen Arbeitsgesetze bezüglich obligatorischer bezahlter Ruhepausen im Vergleich zu unbezahlten Essenszeiten.",
   "lastReviewed": "2026-09-30",
   "imageAlt": "Arbeitszeitrechner",
   "ogImageText": "Arbeitszeitrechner"

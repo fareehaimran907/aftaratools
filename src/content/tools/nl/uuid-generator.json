@@ -1,55 +1,53 @@
 {
-  "seoTitle": "UUID / GUID-generator",
-  "metaDescription": "Gratis online UUID / GUID-generator. Genereer willekeurige UUID's.",
-  "h1": "UUID / GUID-generator",
-  "primaryKeyword": "uuid / guid-generator",
+  "seoTitle": "UUID-generator online - Maak v4 GUID's",
+  "metaDescription": "Gratis online UUID-generator. Genereer onmiddellijk veilige, willekeurige Versie 4 UUID's (Universeel Unieke Identifiers) of GUID's voor databases en applicatieontwikkeling.",
+  "h1": "UUID-generator",
+  "primaryKeyword": "uuid-generator",
   "secondaryKeywords": [
-    "uuid / guid-generator online",
-    "gratis uuid / guid-generator",
-    "beste uuid / guid-generator"
+    "guid-generator",
+    "maak uuid v4",
+    "willekeurige uuid",
+    "online gidsmaker"
   ],
   "slug": "uuid-generator",
-  "intro": "Gebruik onze gratis online UUID / GUID Generator-tool. Het creëert universeel unieke identificatiegegevens op basis van uw invoer.",
-  "whatIs": "De UUID/GUID-generator is een online hulpprogramma dat universeel unieke identificatiegegevens creëert. Het verwerkt uw genereerknop en biedt een volledig unieke reeks van 36 tekens.",
+  "intro": "Een database bouwen en gegarandeerd unieke primaire sleutels nodig? Onze gratis online UUID Generator maakt onmiddellijk cryptografisch veilige Versie 4 Universally Unique Identifiers aan.",
+  "whatIs": "De UUID-generator is een ontwikkelaarshulpmiddel dat een 128-bits label produceert dat wordt gebruikt voor informatie in computersystemen. Een UUID (ook bekend als een GUID in Microsoft-ecosystemen) is praktisch gegarandeerd uniek op alle apparaten en systemen zonder een centrale coördinator.",
   "howToUse": [
-    "Voer uw genereerknop in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals de versiekiezer.",
-    "Klik op de knop Berekenen of Verzenden om een ​​volledig unieke reeks van 36 tekens te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Selecteer het aantal UUID's dat u in één keer wilt genereren.",
+    "Klik op de knop 'Genereren'.",
+    "Het gereedschap geeft direct de nieuwe UUID's weer.",
+    "Klik op de kopieerknop naast een UUID om deze naar uw klembord te kopiëren."
   ],
-  "howItWorks": "Deze tool werkt in uw browser door standaardalgoritmen toe te passen op uw knop genereren. Het verwerkt de gegevens onmiddellijk om een ​​volledig unieke reeks van 36 tekens uit te voeren.",
-  "workedExample": "Bijvoorbeeld: Genereert iets als `123e4567-e89b-12d3-a456-426614174000`.",
-  "resultInterpretation": "Het resultaat vertegenwoordigt een volledig unieke reeks van 36 tekens. U kunt deze gegevens gebruiken voor uw specifieke berekeningen of opmaakbehoeften.",
+  "howItWorks": "Het hulpmiddel gebruikt de native `crypto.randomUUID()`-API van de browser (of een veilige Math-terugval) om een UUID van Versie 4 te genereren. Versie 4 is volledig afhankelijk van willekeurige nummers en formatteert deze in de standaard 8-4-4-4-12 hexadecimale stringstructuur.",
+  "workedExample": "Je klikt op genereren. Het hulpmiddel maakt gebruik van de crypto-API en geeft een tekenreeks weer zoals: `f47ac10b-58cc-4372-a567-0e02b2c3d479`. Deze tekenreeks is wiskundig uniek voor dit exacte moment in de tijd.",
+  "resultInterpretation": "De gegenereerde tekenreeks is volledig veilig om te gebruiken als primaire sleutel in een database, een sessietoken of een bestandsnaam, met een verwaarloosbaar kleine kans op botsing.",
   "useCases": [
-    "Primaire sleutels van de database",
-    "Sessie volgen",
-    "Snel verwerken van de knop Genereer onderweg"
+    "Databasearchitectuur: Het genereren van unieke primaire sleutels voor gebruikersrecords in een gedistribueerde SQL- of NoSQL-database.",
+    "API-ontwikkeling: Het creëren van unieke verzoek-ID's of idempotentiesleutels voor veilige transactieverwerking.",
+    "Bestandsopslag: Het benoemen van door gebruikers geüploade afbeeldingen of documenten zodat ze nooit per ongeluk een bestaand bestand overschrijven."
   ],
   "tipsAndLimitations": [
-    "V4 UUID's zijn willekeurig; V1 UUID's gebruiken MAC-adres en tijd.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Versie 4 UUID's zijn volledig willekeurig en bevatten geen identificeerbare informatie over de gebruiker of het moment waarop ze zijn gegenereerd (in tegenstelling tot Versie 1).",
+    "Hoewel een botsing (waarbij twee keer dezelfde UUID wordt gegenereerd) technisch mogelijk is, is de kans hierop zo dicht bij nul dat deze in software-engineering veilig wordt genegeerd."
   ],
   "faq": [
     {
-      "question": "Hoe groot is de kans op een aanrijding?",
-      "answer": "Astronomisch laag, in wezen nul in praktische toepassingen."
+      "question": "Wat is het verschil tussen UUID en GUID?",
+      "answer": "Er is geen praktisch verschil. UUID (Universally Unique Identifier) is de standaardterm in internetengineering, terwijl GUID (Globally Unique Identifier) de term is die traditioneel door Microsoft wordt gebruikt. Het formaat is identiek."
     },
     {
-      "question": "Is de UUID/GUID-generator gratis te gebruiken?",
-      "answer": "Ja, onze UUID/GUID Generator is volledig gratis en vereist geen registratie."
-    },
-    {
-      "question": "Werkt dit op mobiele apparaten?",
-      "answer": "Ja, de tool is volledig responsive en functioneert perfect op alle smartphones en tablets."
+      "question": "Is versie 4 de beste versie om te gebruiken?",
+      "answer": "Ja, voor bijna alle moderne softwareontwikkeling. Omdat versie 4 volledig willekeurig is, is het veilig en onvoorspelbaar, in tegenstelling tot oudere versies die het MAC-adres van je computer bevatten."
     }
   ],
   "relatedTools": [
-    "json-formatter",
-    "base64-codering-decodering",
-    "url-codering-decodering"
+    "password-generator",
+    "hash-generator",
+    "random-number-generator"
   ],
-  "lastReviewed": "29-09-2026",
-  "imageAlt": "Schermafbeelding van de UUID / GUID-generatorinterface",
-  "ogImageText": "UUID / GUID-generator"
+  "cta": "Genereer onmiddellijk veilige UUID's!",
+  "disclaimer": "UUID's worden volledig aan de clientzijde gegenereerd met behulp van browsercryptografie-API's. Ze worden nooit naar onze servers verzonden of daar opgeslagen.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "UUID Generator-tool die versie 4-strings toont",
+  "ogImageText": "UUID-generator"
 }

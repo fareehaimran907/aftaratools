@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Pengubah Teks - HURUF BESAR, huruf kecil, Huruf Judul",
+  "metaDescription": "Konverter Kasus Teks Online Gratis. Ubah teks dengan cepat menjadi HURUF BESAR, huruf kecil, Huruf Kapital di Setiap Kata, atau huruf awal kalimat dengan satu klik. Perbaiki kesalahan tombol caps lock secara instan.",
+  "h1": "Pengubah Kasus Teks",
+  "primaryKeyword": "pengubah format teks",
+  "secondaryKeywords": [
+    "ubah huruf teks",
+    "huruf besar menjadi huruf kecil",
+    "generator huruf kapital judul",
+    "pengubah caps lock"
+  ],
+  "slug": "pengubah-kasus-teks",
+  "intro": "Tidak sengaja menyalakan Caps Lock, atau perlu memformat daftar panjang judul buku? Text Case Converter gratis kami mengubah kapitalisasi teks Anda secara instan dengan satu klik.",
+  "whatIs": "Pengonversi Kasus Teks adalah utilitas pemformatan yang mengambil sebuah blok teks dan secara otomatis mengubah struktur kapitalisasinya berdasarkan aturan linguistik standar (seperti Sentence case atau Title Case).",
+  "howToUse": [
+    "Tempelkan teks Anda yang berformat buruk ke dalam kotak input.",
+    "Klik tombol yang sesuai dengan huruf yang Anda inginkan (misalnya, 'HURUF BESAR', 'Huruf Kapital').",
+    "Teks akan segera berubah.",
+    "Klik 'Salin' untuk menyimpan teks yang telah diperbaiki ke papan klip Anda."
+  ],
+  "howItWorks": "Alat ini menggunakan manipulasi string JavaScript. 'UPPERCASE' dan 'lowercase' menggunakan fungsi bawaan browser. 'Title Case' menggunakan Regex untuk menuliskan huruf pertama dari setiap kata dengan huruf kapital (seringkali mengabaikan kata-kata kecil seperti 'and' atau 'the'). 'Sentence case' hanya menuliskan huruf pertama setelah tanda baca akhir dengan huruf kapital.",
+  "workedExample": "Input: 'hELLO wORLD. hOW ARE YOU?' Klik 'Sentence case'. Output: 'Hello world. How are you?'",
+  "resultInterpretation": "Teks Anda diformat dengan sempurna sesuai dengan aturan tata bahasa dari kasus yang dipilih, siap untuk ditempelkan ke dalam dokumen formal atau basis data.",
+  "useCases": [
+    "Pembersihan Data: Menormalkan spreadsheet berantakan dari nama pelanggan menjadi 'Title Case' yang rapi.",
+    "Copywriting: Memformat judul utama dan subjudul dengan sempurna tanpa mengetiknya ulang secara manual.",
+    "Perbaikan Kesalahan: Memulihkan secara instan paragraf yang diketik saat tombol Caps Lock secara tidak sengaja aktif."
+  ],
+  "tipsAndLimitations": [
+    "Mengubah ke HURUF BESAR atau huruf kecil adalah tindakan yang merusak—ini akan menghapus semua kapitalisasi asli. Mengubah kembali ke Huruf Kalimat tidak akan mengembalikan nama khusus (seperti nama orang atau kota).",
+    "Algoritma Title Case mencoba mengabaikan kata-kata kecil (of, the, in) tetapi mungkin tidak cocok secara sempurna dengan panduan gaya tertentu (seperti gaya APA atau Chicago) dalam judul yang kompleks."
+  ],
+  "faq": [
+    {
+      "answer": "Huruf kapital kalimat hanya memusatkan huruf pertama dari kalimat, meninggalkan semua kata lain (kecuali 'I') dalam huruf kecil, sama seperti paragraf buku standar.",
+      "question": "Apa itu huruf besar di awal kalimat?"
+    },
+    {
+      "question": "Apa itu Huruf Kapital di Judul?",
+      "answer": "Title Case mengkapitalisasi huruf pertama hampir setiap kata. Ini biasanya digunakan untuk judul buku, judul film, dan judul artikel."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "character-counter",
+    "markdown-editor"
+  ],
+  "cta": "Perbaiki huruf teks Anda secara instan!",
+  "disclaimer": "Algoritme pengaturan huruf otomatis mungkin tidak menangkap setiap nuansa tata bahasa, terutama terkait kata benda khusus dalam huruf Sentence. Selalu periksa kembali teks akhir Anda.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka Pengubah Kasus Teks yang menampilkan opsi judul kasus",
+  "ogImageText": "Pengubah Kasus Teks"
+}

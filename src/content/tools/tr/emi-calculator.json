@@ -1,55 +1,58 @@
 {
-  "seoTitle": "EMI Hesaplayıcı",
-  "metaDescription": "Eşit Aylık Taksit (EMI) hesaplayın.",
+  "seoTitle": "EMI Hesaplayıcı - Eşit Aylık Taksit Hesaplama",
+  "metaDescription": "Ücretsiz EMI hesaplayıcı. Konut, araç veya bireysel krediler için tam amortisman planıyla Eşit Aylık Taksit'i (EMI) anında hesaplayın.",
   "h1": "EMI Hesaplayıcı",
-  "primaryKeyword": "emi hesaplayıcı",
+  "primaryKeyword": "EMI hesaplayıcı",
   "secondaryKeywords": [
-    "EMI Hesaplayıcı çevrimiçi",
-    "ücretsiz EMI Hesaplayıcı",
-    "en iyi EMI Hesaplayıcı"
+    "eşit aylık taksit",
+    "kredi EMI hesaplayıcı",
+    "EMI formülü",
+    "aylık taksit hesaplama"
   ],
-  "slug": "emi-hesap makinesi",
-  "intro": "Konut kredileri, taşıt kredileri veya bireysel krediler için Eşit Aylık Taksiti kolayca hesaplayın.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "emi-hesaplama",
+  "intro": "Eşit Aylık Taksit (EMI), kredi borçlularının bir krediyi geri ödemek için her ay ödediği sabit tutardır. Ücretsiz EMI Hesaplayıcımız, konut, araç, bireysel veya eğitim gibi her türlü kredi için tam EMI'yi anında hesaplamanıza olanak tanır.",
+  "whatIs": "EMI, Equated Monthly Installment'ın (Eşit Aylık Taksit) kısaltmasıdır. Neredeyse tüm bireysel kredilerde standart geri ödeme yöntemidir. EMI 'eşit'tir çünkü toplam aylık ödeme tutarı kredi süresi boyunca sabit kalır.",
   "howToUse": [
-    "Belirlenen giriş alanına anaparanızı girin.",
-    "Görev süresi gibi ikincil parametreleri sağlayın.",
-    "Sabit aylık ödeme tutarını oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Kredi Tutarını girin — toplam ödünç alınan anapara.",
+    "Kredi verenin Yıllık Faiz Oranını girin.",
+    "Kredi Vadesini ay veya yıl olarak belirtin.",
+    "'EMI Hesapla'ya tıklayın."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "EMI hesaplama standart formülü kullanır: EMI = P × r × (1 + r)^n / [(1 + r)^n − 1]; burada P anapara, r aylık faiz oranı ve n toplam aylık taksit sayısıdır.",
+  "workedExample": "Yıllık %8,5 faiz oranıyla 5 yıl (60 ay) vadeli 500.000 ₹ konut kredisi aldığınızı varsayalım. EMI ≈ 10.254 ₹. 60 ay boyunca toplam = 615.240 ₹. Toplam faiz = 115.240 ₹.",
+  "resultInterpretation": "EMI sonucunuz üç temel rakam içerir. Aylık EMI, her ay ödenen sabit tutardır. Ödenecek Toplam Faiz, kredi ömrü boyunca biriken faizdir. Ödenecek Toplam Tutar ise anapara ve faiz dahil tam geri ödemedir.",
   "useCases": [
-    "Hindistan/Asya'da bireysel krediler",
-    "Cihaz finansmanı",
-    "Hareket halindeyken anaparayı hızla işleyin"
+    "Konut Kredisi Planlaması: kredi almadan önce aylık EMI'yi hesaplayın.",
+    "Araç Kredisi Karşılaştırması: farklı peşinatlar için EMI'leri karşılaştırın.",
+    "Bireysel Kredi Değerlendirmesi: EMI'nin bütçenizle uyumlu olup olmadığını belirleyin."
   ],
   "tipsAndLimitations": [
-    "İşlem ücretleri genellikle EMI'de değil, önceden tahsil edilir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Daha yüksek peşinat anaparayı ve dolayısıyla EMI ile toplam faizi azaltır.",
+    "Bu hesaplayıcı tüm vade boyunca sabit bir faiz oranı varsayar."
   ],
   "faq": [
     {
-      "question": "EMI Hesaplayıcının kullanımı ücretsiz midir?",
-      "answer": "Evet, EMI Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "EMI ne demektir?",
+      "answer": "EMI, Equated Monthly Installment'ın kısaltmasıdır — bir kredinin sabit aylık geri ödeme tutarıdır."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
+      "question": "EMI'mi azaltabilir miyim?",
+      "answer": "Evet; kredi vadesini uzatarak, daha büyük peşinat ödeyerek veya daha düşük faiz oranı müzakere ederek."
     },
     {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "EMI ödemesini kaçırırsam ne olur?",
+      "answer": "EMI ödemesini kaçırmak genellikle gecikme ücreti doğurur ve kredi notunuzu olumsuz etkileyebilir."
     }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "maaş-hesaplayıcı",
-    "indirim hesaplayıcı"
+    "loan-calculator",
+    "mortgage-calculator",
+    "compound-interest-calculator",
+    "simple-interest-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "EMI Hesaplayıcı",
+  "cta": "Tam EMI'nizi şimdi hesaplayın ve kredi geri ödeme bütçenizi planlamaya başlayın!",
+  "disclaimer": "Bu araç yalnızca eğitim amaçlı EMI tahminleri sağlar. Gerçek kredi koşulları kredi verene göre değişir.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "EMI hesaplayıcı aylık taksit, ödenecek toplam faiz ve ödenecek toplam tutarı gösteriyor",
   "ogImageText": "EMI Hesaplayıcı"
 }

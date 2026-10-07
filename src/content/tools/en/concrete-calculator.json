@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Concrete Calculator",
-  "metaDescription": "Free online Concrete Calculator. Calculate yards of concrete needed.",
+  "seoTitle": "Concrete Calculator - Bags & Yards Needed",
+  "metaDescription": "Free online Concrete Calculator. Accurately calculate how many bags or cubic yards of concrete you need for slabs, footings, and columns. Perfect for DIY projects.",
   "h1": "Concrete Calculator",
   "primaryKeyword": "concrete calculator",
   "secondaryKeywords": [
-    "concrete calculator online",
-    "free concrete calculator",
-    "best concrete calculator"
+    "how much concrete do I need",
+    "concrete yardage calculator",
+    "bags of concrete calculator",
+    "slab volume calculator"
   ],
   "slug": "concrete-calculator",
-  "intro": "Use our free online Concrete Calculator tool. It estimates concrete volume based on your inputs.",
-  "whatIs": "The Concrete Calculator is an online utility that estimates concrete volume. It processes your length/width and provides cubic yards or bags of concrete.",
+  "intro": "Pouring a new patio or setting fence posts? Our free Concrete Calculator tells you exactly how many cubic yards to order or how many premixed bags to buy at the hardware store.",
+  "whatIs": "The Concrete Calculator is a construction estimation tool. It calculates the three-dimensional volume of a planned concrete pour and translates that volume into standard industry purchasing units (Cubic Yards and standard 60lb/80lb bags).",
   "howToUse": [
-    "Enter your length/width into the designated input field.",
-    "Provide any secondary parameters like depth/thickness.",
-    "Click the calculate or submit button to generate cubic yards or bags of concrete.",
-    "Copy or review the resulting output for your needs."
+    "Select the shape of your pour (Slab/Square, Column/Round, or Hole).",
+    "Enter the dimensions (Length, Width, and Thickness/Depth) in feet or inches.",
+    "Click calculate.",
+    "The tool outputs the total cubic yards needed and the equivalent number of premixed bags."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your length/width. It instantly processes the data to output cubic yards or bags of concrete.",
-  "workedExample": "For example: 10x10ft slab at 4 inches thick = ~1.23 cubic yards.",
-  "resultInterpretation": "The result represents cubic yards or bags of concrete. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "For a slab, the tool converts all inputs to feet and multiplies Length × Width × Thickness to get cubic feet. It divides cubic feet by 27 to get cubic yards. It then divides the cubic feet by the known yield of standard premixed bags (e.g., an 80lb bag yields about 0.60 cubic feet).",
+  "workedExample": "A 10ft by 10ft patio slab that is 4 inches (0.33ft) thick: 10 × 10 × 0.33 = 33.3 cubic feet. 33.3 / 27 = 1.23 cubic yards. The tool estimates you need exactly 56 80lb bags.",
+  "resultInterpretation": "The 'Cubic Yards' number is what you use if ordering a delivery truck. The 'Bags' number is what you use if mixing it yourself in a wheelbarrow. The tool usually adds a 5% to 10% safety margin.",
   "useCases": [
-    "Pouring driveways",
-    "Setting fence posts",
-    "Quickly processing length/width on the go"
+    "DIY Patios & Sidewalks: Ensuring you don't run out of concrete halfway through finishing a backyard slab.",
+    "Deck Construction: Calculating exactly how much concrete is needed to fill the sonotubes for deck footings.",
+    "Budgeting: Taking the calculated bags required and multiplying by the hardware store price to estimate the project material cost."
   ],
   "tipsAndLimitations": [
-    "Ensure depth is converted to feet/yards before calculating.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "Always order or buy 10% more than the exact math suggests. Ground is never perfectly level, forms bow outward, and spillage happens.",
+    "Mixing more than 30 bags by hand in a wheelbarrow is exhausting. Consider renting a mixer or ordering a truck for larger projects."
   ],
   "faq": [
     {
-      "question": "How much does a yard of concrete weigh?",
-      "answer": "Roughly 4,000 lbs."
+      "question": "How much does a cubic yard of concrete weigh?",
+      "answer": "A cubic yard of normal-weight concrete weighs roughly 4,000 pounds (2 tons). Ensure your truck or trailer can handle the weight before picking up bags."
     },
     {
-      "question": "Is the Concrete Calculator free to use?",
-      "answer": "Yes, our Concrete Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "What is the difference between concrete and cement?",
+      "answer": "Cement is an ingredient. Concrete is the final product. Cement is the gray powder that acts as the 'glue' to bind sand and gravel (aggregate) together with water to create concrete."
     }
   ],
   "relatedTools": [
-    "square-footage-calculator",
-    "paint-calculator",
-    "tile-calculator"
+    "cost-per-square-foot-calculator",
+    "fence-calculator",
+    "square-footage-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Concrete Calculator interface screenshot",
+  "cta": "Calculate your concrete needs now!",
+  "disclaimer": "This tool provides mathematical estimates. Always consult with a local concrete supplier or structural engineer for exact requirements and load-bearing specifications.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Concrete Calculator interface showing cubic yards and bag count",
   "ogImageText": "Concrete Calculator"
 }

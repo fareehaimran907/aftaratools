@@ -1,0 +1,53 @@
+{
+  "seoTitle": "MD5-hashgenerator - Snelle MD5-codering online",
+  "metaDescription": "Gratis online MD5 Hash Generator. Zet onmiddellijk tekenreeksen om in 32-karakter hexadecimale MD5-hashes voor basiscontrolesommen en bestandsverificatie.",
+  "h1": "MD5-hashgenerator",
+  "primaryKeyword": "md5-hashgenerator",
+  "secondaryKeywords": [
+    "md5-generator online",
+    "tekst naar md5",
+    "md5-coder",
+    "bereken md5-controlegetal"
+  ],
+  "slug": "md5-hashgenerator",
+  "intro": "Moet u een bestand downloaden verifiëren of een legacy-database-invoer controleren? Onze gratis MD5 Hash Generator berekent direct de standaard 32-teken hexadecimale MD5-checksum voor elke tekst.",
+  "whatIs": "De MD5 Hash Generator is een specifieke tool voor de MD5 (Message-Digest algorithm 5) functie. Het neemt een invoer van elke lengte en geeft een vaste 128-bits (32-karakter) hashwaarde terug.",
+  "howToUse": [
+    "Plak of typ uw tekst in het invoerveld.",
+    "Het hulpmiddel berekent de hash in realtime terwijl je typt.",
+    "De uiteindelijke 32-teken MD5-hash wordt weergegeven.",
+    "Klik op kopiëren om de hash voor verificatie te gebruiken."
+  ],
+  "howItWorks": "Het MD5-algoritme vult de invoertekst aan zodat de lengte deelbaar is door 512 bits. Vervolgens verwerkt het de tekst door vier rondes van complexe bitgewijze logische bewerkingen, waardoor een unieke 128-bit digitale handtekening ontstaat.",
+  "workedExample": "Het invoeren van het woord 'admin'. Het hulpmiddel voert het MD5-algoritme uit en geeft als resultaat: `21232f297a57a5a743894a0e4a801fc3`.",
+  "resultInterpretation": "De resulterende 32-tekenreeks is de MD5-vingerafdruk. Als een softwareleverancier een MD5-hash voor een bestand publiceert, kunt u uw gedownloade bestand hashen om te controleren of de reeksen perfect overeenkomen.",
+  "useCases": [
+    "Bestandsintegriteit: Controleren of een gedownloade software-installatie compleet is en niet is beschadigd.",
+    "Legacy-systemen: Integratie met oudere CMS-platforms (zoals vroege versies van WordPress) die nog steeds MD5 gebruiken voor specifieke gegevensidentifiers.",
+    "Gravatar: E-mailadressen omzetten in MD5-hashes, wat het vereiste formaat is om profielfoto's op te halen van de Gravatar API."
+  ],
+  "tipsAndLimitations": [
+    "MD5 is extreem snel, waardoor het geweldig is voor het snel verifiëren van de integriteit van niet-gevoelige gegevens.",
+    "CRITISCHE BEVEILIGINGSWAARSCHUWING: MD5 is wiskundig 'gebroken'. Hackers kunnen gemakkelijk 'botsingen' genereren (twee verschillende bestanden die dezelfde hash produceren). Gebruik NOOIT MD5 om wachtwoorden op te slaan of gevoelige gegevens te beveiligen."
+  ],
+  "faq": [
+    {
+      "answer": "Nee, hashes zijn eenrichtingsfuncties. Omdat MD5 echter oud en snel is, gebruiken hackers enorme 'Rainbow Tables' (vooraf berekende lijsten van woorden en hun hashes) om eenvoudig MD5-hashes direct terug te zoeken.",
+      "question": "Kan een MD5-hash worden ontsleuteld?"
+    },
+    {
+      "question": "Wordt MD5 vandaag de dag nog gebruikt?",
+      "answer": "Ja, maar strikt voor niet-beveiligingsdoeleinden. Het wordt nog steeds veel gebruikt als controlesom om te verifiëren dat bestanden niet per ongeluk beschadigd zijn tijdens downloads of databaseoverdrachten."
+    }
+  ],
+  "relatedTools": [
+    "sha256-hash-generator",
+    "hash-generator",
+    "sha1-hash-generator"
+  ],
+  "cta": "Genereer nu je MD5-hash!",
+  "disclaimer": "MD5 is cryptografisch kwetsbaar voor botsingsaanvallen. Gebruik SHA-256 of bcrypt voor wachtwoordhashing en veilige gegevensbescherming.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "MD5-hashgeneratorinterface",
+  "ogImageText": "MD5-hashgenerator"
+}

@@ -6,20 +6,21 @@
   "secondaryKeywords": [
     "Fazla Mesai Hesaplayıcı çevrimiçi",
     "ücretsiz Fazla Mesai Hesaplayıcı",
+    "En iyi Fazla Mesai Hesaplayıcı",
     "En iyi Fazla Mesai Hesaplayıcı"
   ],
-  "slug": "fazla mesai hesaplayıcı",
-  "intro": "Normal maaşınıza ve çarpanınıza göre beklenen fazla mesai ücretinizi belirleyin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "mesai-hesaplayici",
+  "intro": "İşte fazladan kaldığınızda ne kadar kazandığınızı hiç merak ettiniz mi? İster yoğun bir hafta sonunu kapatıyor olun, ister vardiyanız bittikten sonra yardım ediyor olun, ister tatillerde çalışıyor olun, fazla mesainin maaş çekinizi nasıl etkilediğini bilmek önemlidir. Ücretsiz çevrimiçi fazla mesai hesaplayıcımız, fazla mesai ücreti konusundaki tahminleri ortadan kaldırır. Normal saatlik ücretinizi, çalıştığınız fazla mesai saatlerinizi ve fazla mesai ücreti çarpanınızı (örneğin 'bir buçuk' veya 'iki kat' gibi) girerek, bu araç toplam kazancınızı anında tahmin eder. Zamanınızın ve sıkı çalışmanızın karşılığını adil bir şekilde aldığınızdan emin olun ve hassas maaş tahminleriyle bütçenizi daha güvenli bir şekilde planlayın.",
+  "whatIs": "Fazla mesai hesaplayıcısı, çalışanların ve işverenlerin normal standart saatlerin ötesinde çalışarak elde edilen ücretleri hesaplamasına yardımcı olan önemli bir finansal bordro aracıdır. Birçok yargı bölgesinde iş kanunları, saatlik ücretle çalışanlara standart bir çalışma haftasını (genellikle 40 saat) aşan her bir çalışma saati için yaygın olarak fazla mesai ücreti olarak bilinen artırılmış bir ücret ödenmesini zorunlu kılar. Bu araç hem bireysel fazla mesai ücretinizi hem de beklenen toplam brüt maaşınızı hesaplar. Hangi para birimi veya taban maaşla çalışırsanız çalışın, 1,5x, 2x veya özel tatil oranları gibi çeşitli çarpanları içeren karmaşık hesaplamaları basit ve şeffaf hale getirmek için tasarlanmıştır.",
   "howToUse": [
     "Belirlenen giriş alanına normal çalışma saatlerinizi girin.",
     "Fazla mesai oranı gibi ikincil parametreleri sağlayın.",
     "Bir buçuk zaman dahil toplam tazminatı oluşturmak için hesapla veya gönder düğmesine tıklayın.",
     "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, basit ancak son derece etkili bir matematiksel hesaplama üzerinden çalışır. İlk olarak, normal saatlik ücretinizi fazla mesai çarpanınızla çarparak fazla mesai ücretinizi belirler (örneğin, saatte 250₺ kazanıyorsanız ve çarpan 1,5x ise, fazla mesai ücretiniz saatte 375₺'dir). Daha sonra, toplam fazla mesai ücretinizi bulmak için bu yeni oranı çalıştığınız fazla mesai saati sayısıyla çarpar. Ödeme dönemine ait brüt maaşınızın genel toplamını hesaplamak için isteğe bağlı olarak normal saatlerinizi de girebilirsiniz. Hesap makinesi, normal kazançlarınızı fazla mesai kazançlarınıza ekleyerek vergiler ve kesintiler öncesinde maaş bordronuzda göreceğiniz tutarın kapsamlı bir dökümünü sağlar.",
+  "workedExample": "Normal saatlik ücretinizin 250₺ olduğunu ve işvereninizin fazla mesai için 'bir buçuk kat' (1,5 çarpan) ödediğini varsayalım. Bu hafta olağan 40 saatinizin yanı sıra 8 saat de fazla mesai yaptınız. İlk olarak, araç normal maaşınızı hesaplar: 40 saat x 250₺ = 10.000₺. Ardından, fazla mesai oranınızı belirler: 250₺ x 1,5 = Saatte 375₺. Daha sonra, fazla mesai ücretinizi hesaplar: 8 saat x 375₺ = 3.000₺. Son olarak, size hafta için tahmini toplam 13.000₺ brüt maaş vermek için bu iki tutarı (10.000₺ + 3.000₺) toplar. Ayrıca, maaşınızın yalnızca fazladan çalışılan saatlerden gelen kısmını da açıkça gösterir.",
+  "resultInterpretation": "Hesap makinesinin sağladığı sonuçlar üç temel kavrayışa ayrılır: Normal kazançlarınız (normal saatleri girdiyseniz), yalnızca fazla mesai kazançlarınız ve tahmini toplam brüt maaşınız. 'Brüt' maaş, vergiler, sigorta ve diğer stopajlar düşülmeden önceki kazançlarınızı temsil eder; bu nedenle nihai 'net' maaşınızın (banka hesabınıza yatırılan tutarın) daha düşük olacağını aklınızda bulundurun. Ancak bu rakamlar çok değerlidir. Aracın raporunu, asıl maaş bordronuzda hata olup olmadığını kontrol etmek, o ekstra vardiyayı almanın finansal açıdan mantıklı olup olmadığına karar vermek ve genel ev bütçenizi daha iyi yönetmek için kullanabilirsiniz.",
   "useCases": [
     "Maaş çeklerinin doğrulanması",
     "İşletme bordrosunun bütçelenmesi",
@@ -27,8 +28,7 @@
   ],
   "tipsAndLimitations": [
     "Fazla mesai kuralları (ör. 40 saatten sonra) konuma göre değişir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun."
   ],
   "faq": [
     {
@@ -38,17 +38,15 @@
     {
       "question": "Bu mobilde çalışıyor mu?",
       "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
     }
   ],
   "relatedTools": [
-    "yaş hesaplayıcı",
-    "tarih farkı-hesaplayıcı",
-    "tarihler arasındaki günler"
+    "work-hours-calculator",
+    "tax-calculator",
+    "roi-calculator"
   ],
+  "cta": "Şimdi fazla mesai ücretinizi hesaplayın!",
+  "disclaimer": "Bu araç, federal (FLSA) standart haftalık fazla mesaiyi hesaplar. Vergi sonrası net ücreti veya belirli eyalet düzeyindeki günlük fazla mesai düzenlemelerini hesaplamaz.",
   "lastReviewed": "2026-09-30",
   "imageAlt": "Fazla Mesai Hesaplayıcı",
   "ogImageText": "Fazla Mesai Hesaplayıcı"

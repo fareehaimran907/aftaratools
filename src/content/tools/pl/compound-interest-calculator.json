@@ -1,55 +1,67 @@
 {
-  "seoTitle": "Kalkulator odsetek składanych",
-  "metaDescription": "Oblicz odsetki składane w czasie.",
-  "h1": "Kalkulator odsetek składanych",
-  "primaryKeyword": "kalkulator odsetek składanych",
+  "seoTitle": "Kalkulator Procentu Składanego - Oblicz Przyszłą Wartość Inwestycji",
+  "metaDescription": "Bezpłatny kalkulator procentu składanego. Oblicz, jak Twoje oszczędności i inwestycje rosną w czasie dzięki sile procentu składanego i regularnym miesięcznym wpłatom.",
+  "h1": "Kalkulator Procentu Składanego",
+  "primaryKeyword": "kalkulator procentu składanego",
   "secondaryKeywords": [
-    "Kalkulator odsetek składanych online",
-    "darmowy kalkulator odsetek składanych",
-    "najlepszy kalkulator odsetek składanych"
+    "oblicz procent składany",
+    "kalkulator wzrostu inwestycji",
+    "kalkulator wartości przyszłej",
+    "zasada 72"
   ],
-  "slug": "kalkulator odsetek składanych",
-  "intro": "Oblicz dokładnie, jak Twoje pieniądze będą rosły w czasie, korzystając z odsetek składanych.",
-  "whatIs": "Co to jest za narzędzie?",
+  "slug": "kalkulator-procentu-skladanego",
+  "intro": "Skorzystaj z siły procentu składanego dzięki naszemu bezpłatnemu Kalkulatorowi Procentu Składanego. Niezależnie od tego, czy planujesz emeryturę, budujesz fundusz awaryjny, czy inwestujesz na giełdzie — to narzędzie projektuje przyszłą wartość Twoich oszczędności, łącząc wpłatę początkową, regularne miesięczne składki i wykładniczą siłę procentu składanego. Przekonaj się, jak czas i konsekwentne oszczędzanie mogą pomnożyć Twój majątek znacznie ponad to, co wpłacasz.",
+  "whatIs": "Procent składany to proces, w którym odsetki uzyskane z inwestycji są reinwestowane, dzięki czemu w kolejnych okresach odsetki generują kolejne odsetki. Często opisywany jako 'odsetki od odsetek', jest to fundamentalny mechanizm wzrostu inwestycji długoterminowych. W odróżnieniu od odsetek prostych, naliczanych wyłącznie od kapitału, procent składany przyspiesza akumulację majątku, stosując odsetki do stale rosnącej bazy.",
   "howToUse": [
-    "Wprowadź swojego zleceniodawcę w wyznaczonym polu wejściowym.",
-    "Podaj wszelkie parametry drugorzędne, takie jak częstotliwość mieszania.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować przyszłą wartość inwestycji.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
+    "Wprowadź kwotę Inwestycji Początkowej — jednorazową kwotę, od której zaczynasz dzisiaj.",
+    "Wprowadź Miesięczną Składkę, którą planujesz regularnie dodawać do oszczędności.",
+    "Ustaw Roczną Stopę Procentową, jakiej oczekujesz od swojej inwestycji.",
+    "Podaj Liczbę Lat Wzrostu — całkowity czas trwania Twojego horyzontu inwestycyjnego.",
+    "Wybierz Częstotliwość Kapitalizacji (np. roczna, kwartalna, miesięczna, dzienna).",
+    "Kliknij 'Oblicz Wzrost', aby zobaczyć przewidywaną przyszłą wartość, łączne składki i zarobione odsetki."
   ],
-  "howItWorks": "Jak to działa",
-  "workedExample": "Przykłady",
-  "resultInterpretation": "Interpretacja",
+  "howItWorks": "Kalkulator stosuje wzór na procent składany: A = P(1 + r/n)^(nt), gdzie A to wartość przyszła, P to kapitał, r to roczna stopa procentowa (w postaci dziesiętnej), n to liczba kapitalizacji w roku, a t to czas w latach. Dla regularnych miesięcznych składek używa również wzoru na przyszłą wartość renty obok wzoru na kwotę jednorazową.",
+  "workedExample": "Jeśli zaczynasz z wpłatą początkową 5 000 zł, dodajesz 200 zł co miesiąc i uzyskujesz roczną stopę procentową 7% kapitalizowaną miesięcznie przez 10 lat: łączne wpłaty wyniosą 29 000 zł. Dzięki procentowi składanemu prognozowane saldo po 10 latach wyniesie ok. 44 792 zł, co oznacza, że procent składany wygenerował dodatkowe prawie 15 792 zł majątku.",
+  "resultInterpretation": "Wynik pokazuje trzy kluczowe liczby. Wartość Przyszła to łączne prognozowane saldo na koniec wybranego okresu. Łącznie Zainwestowane to faktycznie wpłacona gotówka. Łącznie Zarobione Odsetki to różnica — majątek wygenerowany wyłącznie dzięki efektowi kapitalizacji.",
   "useCases": [
-    "Planowanie emerytury",
-    "Wycena kont oszczędnościowych",
-    "Szybkie przetwarzanie danych głównych w podróży"
+    "Planowanie Emerytury: Szacowanie wzrostu funduszu emerytalnego przez dziesięciolecia regularnych wpłat.",
+    "Oszczędności na Edukację: Prognozowanie, czy miesięczne wpłaty pokryją przyszłe koszty studiów.",
+    "Budowanie Funduszu Awaryjnego: Sprawdzanie wzrostu konta oszczędnościowego o wysokim oprocentowaniu w ciągu 1–5 lat.",
+    "Porównanie Inwestycji: Porównanie różnych stóp procentowych lub częstotliwości kapitalizacji w celu podejmowania mądrzejszych decyzji."
   ],
   "tipsAndLimitations": [
-    "Wyższe częstotliwości łączenia dają nieco więcej pieniędzy.",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
+    "Zacznij wcześnie: ze względu na wykładniczy charakter procentu składanego, rozpoczęcie 10 lat wcześniej może ponad dwukrotnie zwiększyć końcowe saldo.",
+    "Zasada 72 to szybki skrót — podziel 72 przez roczną stopę procentową, aby oszacować, ile lat zajmie podwojenie pieniędzy.",
+    "Kalkulator zakłada stałą stopę procentową przez cały okres, co rzadko ma miejsce przy inwestycjach giełdowych.",
+    "Nie uwzględnia inflacji, podatku od odsetek ani opłat za zarządzanie inwestycją."
   ],
   "faq": [
     {
-      "question": "Czy korzystanie z kalkulatora odsetek składanych jest bezpłatne?",
-      "answer": "Tak, korzystanie z naszego kalkulatora odsetek składanych jest całkowicie darmowe."
+      "question": "Jaka jest różnica między procentem składanym a prostym?",
+      "answer": "Odsetki proste naliczane są wyłącznie od pierwotnego kapitału. Odsetki składane naliczane są od kapitału powiększonego o wszystkie dotychczas naliczone odsetki. W długim okresie procent składany przynosi znacznie wyższe zyski."
     },
     {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, jest w pełni responsywny i działa na wszystkich urządzeniach."
+      "question": "Co to jest zasada 72?",
+      "answer": "Zasada 72 to skrót do szybkiego obliczenia. Podziel 72 przez roczną stopę procentową, aby szacunkowo wyznaczyć, ile lat potrzeba do podwojenia pieniędzy. Np. przy stopie 6%: 72 ÷ 6 = 12 lat."
     },
     {
-      "question": "Czy muszę coś pobrać?",
-      "answer": "Nie, działa całkowicie w Twojej przeglądarce, bez żadnej instalacji."
+      "question": "Czy częstotliwość kapitalizacji istotnie wpływa na wyniki?",
+      "answer": "Tak, ale wpływ zależy od stopy procentowej. Przy wyższych stopach częstsza kapitalizacja (dzienna vs. roczna) może istotnie zwiększyć końcową kwotę."
+    },
+    {
+      "question": "Czy mogę używać tego kalkulatora do kont oszczędnościowych?",
+      "answer": "Oczywiście. Wprowadź APY konta oszczędnościowego jako roczną stopę procentową, wybierz kapitalizację miesięczną i dodaj regularne miesięczne wpłaty, aby uzyskać dokładną prognozę."
     }
   ],
   "relatedTools": [
-    "kalkulator procentowy",
-    "kalkulator wynagrodzeń",
-    "kalkulator rabatów"
+    "simple-interest-calculator",
+    "roi-calculator",
+    "investment-calculator",
+    "loan-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator odsetek składanych",
-  "ogImageText": "Kalkulator odsetek składanych"
+  "cta": "Oblicz teraz wzrost swojego procentu składanego i sprawdź, jak bardzo Twoje pieniądze mogą dla Ciebie pracować!",
+  "disclaimer": "Prognozy są hipotetyczne i służą wyłącznie celom edukacyjnym. Nie odzwierciedlają zwrotu z żadnej konkretnej inwestycji ani nie gwarantują przyszłych wyników. Przed podjęciem decyzji inwestycyjnych skonsultuj się z wykwalifikowanym doradcą finansowym.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Kalkulator procentu składanego pokazujący wartość przyszłą, łącznie zainwestowane i zarobione odsetki",
+  "ogImageText": "Kalkulator Procentu Składanego"
 }

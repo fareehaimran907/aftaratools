@@ -27,7 +27,7 @@ export function FractionCalculator() {
     let resNum = 0;
     let resDen = 1;
 
-    if (d1 === 0 || d2 === 0) return { num: "Error", den: "Div by zero", decimal: 0 };
+    if (d1 === 0 || d2 === 0) return { num: t('error'), den: t('divByZero'), decimal: 0 };
 
     switch (op) {
       case "+":
@@ -48,7 +48,7 @@ export function FractionCalculator() {
         break;
     }
 
-    if (resDen === 0) return { num: "Error", den: "Div by zero", decimal: 0 };
+    if (resDen === 0) return { num: t('error'), den: t('divByZero'), decimal: 0 };
 
     const divisor = Math.abs(gcd(resNum, resDen));
     resNum /= divisor;
@@ -98,7 +98,7 @@ export function FractionCalculator() {
 
             <div className="flex flex-col w-24 space-y-2 bg-primary/10 p-3 rounded-xl border border-primary/20 shadow-sm">
               <div className="text-center font-bold text-2xl text-primary">{result.num}</div>
-              {result.den !== 1 && result.den !== "Div by zero" && (
+              {result.den !== 1 && result.den !== t('divByZero') && (
                 <>
                   <div className="h-1 bg-primary/20 rounded-full w-full mx-auto" />
                   <div className="text-center font-bold text-2xl text-primary">{result.den}</div>

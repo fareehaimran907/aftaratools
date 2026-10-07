@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Contatore di parole",
-  "metaDescription": "Contatore di parole online gratuito. Contare parole e caratteri.",
+  "seoTitle": "Contatore di Parole - Conta Parole, Caratteri e Frasi",
+  "metaDescription": "Contatore di parole online gratuito. Conta istantaneamente parole, caratteri, frasi e paragrafi nel tuo testo. Perfetto per saggi, tweet e SEO.",
   "h1": "Contatore di parole",
   "primaryKeyword": "contatore di parole",
   "secondaryKeywords": [
-    "contatore di parole online",
-    "contatore di parole gratuito",
-    "miglior contatore di parole"
+    "contare parole online",
+    "contatore di caratteri",
+    "strumento di conteggio parole",
+    "quante parole"
   ],
-  "slug": "contatore di parole",
-  "intro": "Utilizza il nostro strumento Contatore di parole online gratuito. Conta parole e caratteri in base ai tuoi input.",
-  "whatIs": "Il Contatore di parole è un'utilità online che conta parole e caratteri. Elabora il blocco di testo e fornisce i totali di parole, caratteri e paragrafi.",
+  "slug": "contaparole",
+  "intro": "Scrivere un saggio con un limite di parole rigoroso oppure ottimizzare un post sul blog per la SEO? Il nostro Contatore di Parole gratuito fornisce metriche istantanee e accurate su parole, caratteri e frasi.",
+  "whatIs": "Il Contatore di Parole è uno strumento di analisi del testo. Elabora grandi blocchi di testo per fornire dati statistici, inclusi il conteggio totale delle parole, il conteggio dei caratteri (con e senza spazi), il conteggio delle frasi e il conteggio dei paragrafi.",
   "howToUse": [
-    "Inserisci il tuo blocco di testo nel campo di input designato.",
-    "Fornisci eventuali parametri secondari come le metriche di conteggio.",
-    "Fai clic sul pulsante Calcola o Invia per generare totali per parole, caratteri e paragrafi.",
-    "Copia o rivedi l'output risultante in base alle tue esigenze."
+    "Incolla o digita il tuo testo direttamente nella grande casella di input.",
+    "Le metriche in cima allo schermo si aggiorneranno istantaneamente.",
+    "Controlla la suddivisione dettagliata per la lunghezza media delle parole e il tempo di lettura."
   ],
-  "howItWorks": "Questo strumento funziona nel tuo browser applicando algoritmi standard al tuo blocco di testo. Elabora istantaneamente i dati per produrre i totali di parole, caratteri e paragrafi.",
-  "workedExample": "Ad esempio: 100 parole, 550 caratteri.",
-  "resultInterpretation": "Il risultato rappresenta i totali di parole, caratteri e paragrafi. È possibile utilizzare questi dati per calcoli specifici o esigenze di formattazione.",
+  "howItWorks": "Lo strumento utilizza le espressioni regolari JavaScript (Regex) per analizzare il testo. Conta le parole cercando spazi e confini di punteggiatura. Conta le frasi identificando la punteggiatura terminale (punti, punti esclamativi) seguita da spazi.",
+  "workedExample": "Digiti: 'Hello world. How are you?' Lo strumento calcola: 5 parole, 27 caratteri (compresi gli spazi), 2 frasi e un tempo di lettura stimato di 2 secondi.",
+  "resultInterpretation": "Le statistiche ti aiutano a adattare perfettamente la lunghezza del tuo testo per rispettare linee guida editoriali specifiche, requisiti accademici o limiti dei social media.",
   "useCases": [
-    "Scrivere saggi",
-    "Rispettare i limiti di caratteri di Twitter",
-    "Elaborazione rapida di blocchi di testo in movimento"
+    "Accademia: Garantire che un saggio universitario rispetti un rigoroso requisito minimo di 1.000 parole.",
+    "SEO e marketing: Mantenere le meta descrizioni sotto i 160 caratteri e i post del blog sopra i 1.500 parole.",
+    "Social media: Assicurarsi che un tweet o la didascalia di Instagram rientrino nei limiti della piattaforma."
   ],
   "tipsAndLimitations": [
-    "Le parole con trattino vengono solitamente conteggiate come una singola parola.",
-    "Assicurati che i tuoi input siano formattati correttamente per ottenere i migliori risultati.",
-    "Lo strumento funziona completamente lato client, garantendo che i tuoi dati rimangano privati."
+    "Le parole con trattino (come 'all'avanguardia') sono generalmente conteggiate come una sola parola dagli algoritmi standard.",
+    "Gli URL e gli indirizzi email vengono trattati anche come parole singole."
   ],
   "faq": [
     {
-      "question": "Conta gli spazi?",
-      "answer": "Fornisce sia \"caratteri con spazi\" che \"senza spazi\"."
+      "question": "Cosa conta come un carattere?",
+      "answer": "Un carattere è qualsiasi singola lettera, numero, segno di punteggiatura o simbolo. Uno spazio è tecnicamente anche un carattere, motivo per cui forniamo i conteggi sia 'con spazi' sia 'senza spazi'."
     },
     {
-      "question": "Il Contatore di Parole è gratuito?",
-      "answer": "Sì, il nostro Contatore di Parole è completamente gratuito e non richiede registrazione."
-    },
-    {
-      "question": "Funziona sui dispositivi mobili?",
-      "answer": "Sì, lo strumento è completamente reattivo e funziona perfettamente su tutti gli smartphone e tablet."
+      "question": "Come viene calcolato il tempo di lettura?",
+      "answer": "Il tempo di lettura è stimato in base alla velocità di lettura media di un adulto, che è di circa 200-250 parole al minuto."
     }
   ],
   "relatedTools": [
-    "contatore di caratteri",
-    "internet-auto-generatore",
-    "convertitore di lettura bionica"
+    "character-counter",
+    "text-case-converter",
+    "markdown-editor"
   ],
-  "lastReviewed": "29-09-2026",
-  "imageAlt": "Schermata dell'interfaccia di Contatore di parole",
+  "cta": "Conta le tue parole all'istante!",
+  "disclaimer": "L'analisi avviene interamente nel tuo browser. Non salviamo né memorizziamo il tuo testo.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfaccia del contatore di parole che mostra le statistiche del testo",
   "ogImageText": "Contatore di parole"
 }

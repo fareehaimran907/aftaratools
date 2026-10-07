@@ -1,55 +1,61 @@
 {
-  "seoTitle": "Dagen tot rekenmachine",
-  "metaDescription": "Bereken hoeveel dagen er nog resteren tot een geselecteerde datum.",
-  "h1": "Dagen tot rekenmachine",
-  "primaryKeyword": "dagen tot rekenmachine",
+  "seoTitle": "Dagen Tot Calculator - Aftellen naar Elke Datum",
+  "metaDescription": "Bereken exact hoeveel dagen, uren, minuten en seconden er nog over zijn tot een specifieke datum. Perfect voor het aftellen naar vakanties, bruiloften of deadlines.",
+  "h1": "Dagen Tot Calculator",
+  "primaryKeyword": "dagen tot calculator",
   "secondaryKeywords": [
-    "Dagen tot rekenmachine online",
-    "gratis dagen tot rekenmachine",
-    "beste dagen tot rekenmachine"
+    "hoeveel dagen nog tot",
+    "aftel calculator",
+    "dagen resterend tot",
+    "tijd tot datum"
   ],
   "slug": "dagen-tot-calculator",
-  "intro": "Ontdek precies hoeveel dagen er nog zijn tot uw aanstaande evenement, vakantie of deadline.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "intro": "Wacht u vol spanning op een specifieke gebeurtenis? Deze calculator geeft u een exact aftellen — in dagen, uren, minuten en seconden — tot elke door u gekozen doeldatum. Of u nu de dagen aftelt tot een langverwachte vakantie, een bruiloft, een belangrijke feestdag zoals Kerstmis, of een cruciale deadline voor uw werk, onze Dagen Tot Calculator biedt nauwkeurige, real-time tracking.",
+  "whatIs": "De Dagen Tot Calculator is een interactieve, real-time afteltimer die direct berekent hoeveel tijd er exact over is tussen nu en een toekomstige doeldatum. In tegenstelling tot basiskalenders waar u handmatig weken en dagen moet tellen, houdt deze tool de resterende tijd dynamisch tot op de seconde nauwkeurig bij. Het verwerkt alle complexe tijdrekenkunde, inclusief schrikkeljaren en variërende maandlengtes, om u een nauwkeurige live aftelweergave te geven.",
   "howToUse": [
-    "Voer uw streefdatum in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals de datum van vandaag.",
-    "Klik op de knop Berekenen of Verzenden om de resterende dagen tot het evenement te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Stap 1: Klik op het invoerveld 'Doeldatum' om de interactieve kalender te openen.",
+    "Stap 2: Selecteer de datum van uw aankomende evenement in de kalender. U kunt door maanden en jaren navigeren om de exacte dag te vinden.",
+    "Stap 3: Kijk hoe de afteltimer direct wordt bijgewerkt om de resterende tijd weer te geven.",
+    "Stap 4: Het display toont een live tikkende klok, uitgesplitst in dagen, uren, minuten en seconden.",
+    "Stap 5: Als u een datum in het verleden selecteert, schakelt de tool automatisch over naar de 'Tijd Sinds' modus, die laat zien hoe lang geleden het evenement plaatsvond."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "De tool werkt door continu de huidige systeemtijd van uw apparaat af te lezen (tot op de milliseconde nauwkeurig) en deze te vergelijken met exact middernacht (00:00:00) van de door u geselecteerde doeldatum. Het berekent het wiskundige verschil tussen deze twee tijdstippen. Vervolgens gebruikt het een algoritme voor tijdsformattering om dat ruwe verschil in milliseconden soepel om te zetten in een overzichtelijk, live tikkend aftellen van dagen, uren, minuten en seconden.",
+  "workedExample": "Stel dat het vandaag exact 12:00 uur 's middags is op 20 december, en uw doel is Eerste Kerstdag (25 december). De tool richt zich op middernacht aan het begin van 25 december. Het berekent dat er nog 12 uur over zijn in 20 december, plus 4 volledige dagen (21, 22, 23, 24 dec). De calculator toont dus een live verschil van exact 4 dagen, 12 uur, 0 minuten en 0 seconden.",
+  "resultInterpretation": "Het primaire, meest opvallende resultaat toont het totale aantal volledige dagen dat rest tot uw evenement. De kleinere aanvullende vakken eronder bieden gedetailleerde informatie, en tonen de resterende gedeeltelijke uren, minuten en seconden. Met deze weergave op meerdere niveaus krijgt u ofwel een snel overzicht op hoofdlijnen (bijv. 'nog 10 dagen') of kijkt u hoe de exacte seconden wegtikken voor direct naderende evenementen.",
   "useCases": [
-    "Aftellingen voor vakanties",
-    "Het bijhouden van deadlines",
-    "Onderweg snel de streefdatum verwerken"
+    "Aftellen naar Feestdagen en Vakanties: Kijk hoe de exacte seconden wegtikken tot Kerstmis, Halloween, een verjaardag of een geboekte vlucht.",
+    "Evenementenplanning en Bruiloften: Weet exact hoeveel tijd u nog heeft om de voorbereidingen af te ronden voor een grote levensgebeurtenis.",
+    "Project Deadlines: Houd exact de resterende uren en minuten bij om een opdracht, subsidieaanvraag of werkproject in te leveren.",
+    "Product Lanceringen: Creëer een live aftelmonitor voor een software-release, winkelopening of speciaal verkoopevenement."
   ],
   "tipsAndLimitations": [
-    "Afhankelijk van uw lokale systeemtijd.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Tip: Het aftellen richt zich automatisch op middernacht (00:00:00) van de geselecteerde datum in uw lokale tijdzone.",
+    "Tip: U kunt deze pagina open laten staan op een tweede monitor of tabblad op de achtergrond; het werkt perfect als een live tikkende deadline-tracker.",
+    "Beperking: Omdat de tool afhankelijk is van de systeemklok van uw apparaat voor nauwkeurigheid, zal het aftellen iets afwijken als de interne tijd van uw computer niet klopt."
   ],
   "faq": [
     {
-      "question": "Is de Dagen tot Calculator gratis te gebruiken?",
-      "answer": "Ja, onze Dagen Tot Calculator is volledig gratis te gebruiken."
+      "question": "Welke tijdzone gebruikt het aftellen?",
+      "answer": "Het gebruikt de lokale tijdzone van uw apparaat. Het doel is ingesteld op exact middernacht (00:00) op de door u geselecteerde datum, geïnterpreteerd volgens de lokale tijd van de computer of telefoon die u gebruikt."
     },
     {
-      "question": "Werkt dit op mobiel?",
-      "answer": "Ja, het is volledig responsief en werkt op alle apparaten."
+      "question": "Kan ik de tool gebruiken om te zien hoeveel dagen er verstreken zijn sinds een gebeurtenis uit het verleden?",
+      "answer": "Ja! De calculator werkt in twee richtingen. Als u een datum in het verleden selecteert, begint deze automatisch op te tellen en laat u exact zien hoeveel tijd er verstreken is sinds die dag."
     },
     {
-      "question": "Moet ik iets downloaden?",
-      "answer": "Nee, het werkt volledig in uw browser, zonder enige installatie."
+      "question": "Houdt de tool rekening met schrikkeljaren?",
+      "answer": "Ja, de tool maakt gebruik van standaard ingebouwde tijdbibliotheken die automatisch rekening houden met schrikkeljaren, waardoor u ervan verzekerd bent dat uw aftellen perfect nauwkeurig is, ongeacht of het 29 februari passeert."
     }
   ],
   "relatedTools": [
-    "leeftijd-calculator",
-    "datumverschil-calculator",
-    "dagen-tussen-data"
+    "days-between-dates",
+    "weeks-between-dates",
+    "date-difference-calculator",
+    "age-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Dagen tot rekenmachine",
-  "ogImageText": "Dagen tot rekenmachine"
+  "cta": "Start direct uw live aftellen door hierboven een doeldatum te selecteren!",
+  "disclaimer": "Deze tool is voor real-time nauwkeurigheid afhankelijk van de systeemklok van uw apparaat. Als de tijd van uw apparaat handmatig onjuist is ingesteld, zal het aftellen deze fout weergeven.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Screenshot van een tikkende aftelcalculator met weergave van dagen, uren, minuten en seconden",
+  "ogImageText": "Dagen Tot Calculator"
 }

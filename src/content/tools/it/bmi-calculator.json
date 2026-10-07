@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Calcolatore dell'IMC",
-  "metaDescription": "Calcola il tuo indice di massa corporea.",
-  "h1": "Calcolatore dell'IMC",
-  "primaryKeyword": "calcolatore dell'IMC",
+  "seoTitle": "Calcolatore BMI - Verifica il tuo indice di massa corporea online",
+  "metaDescription": "Calcolatore BMI gratuito online. Calcola il tuo Indice di Massa Corporea (BMI) istantaneamente usando la tua altezza e il tuo peso. Scopri se sei in un intervallo di peso sano.",
+  "h1": "Calcolatore BMI",
+  "primaryKeyword": "calcolatore BMI",
   "secondaryKeywords": [
-    "Calcolatore bmi online",
-    "calcolatore bmi gratuito",
-    "miglior calcolatore di indice di massa corporea"
+    "calcolare il BMI",
+    "calcolatore dell'indice di massa corporea",
+    "controllo BMI",
+    "calcolatore del peso sano"
   ],
-  "slug": "bmi-calcolatrice",
-  "intro": "Stima il tuo indice di massa corporea in base alla tua altezza e al tuo peso.",
-  "whatIs": "Cos'è questo strumento?",
+  "slug": "calcolatore-bmi",
+  "intro": "Vuoi sapere se il tuo peso è sano per la tua altezza? Il nostro Calcolatore BMI gratuito calcola istantaneamente il tuo Indice di Massa Corporea utilizzando le categorie standard dell'Organizzazione Mondiale della Sanità.",
+  "whatIs": "Il calcolatore BMI (Indice di Massa Corporea) è uno strumento di controllo della salute. Utilizza una formula matematica basata sulla tua altezza e peso per stimare la tua percentuale di grasso corporeo totale e classificare il tuo rischio per la salute.",
   "howToUse": [
-    "Inserisci la tua altezza nel campo di input designato.",
-    "Fornisci eventuali parametri secondari come il peso.",
-    "Fare clic sul pulsante Calcola o Invia per generare un numero che classifica il peso corporeo.",
-    "Copia o rivedi l'output risultante in base alle tue esigenze."
+    "Seleziona il tuo sistema di misura preferito (Metrico o Imperiale).",
+    "Inserisci la tua altezza (in cm o piedi/pollici).",
+    "Inserisci il tuo peso (in kg o libbre).",
+    "Lo strumento calcola il tuo BMI esatto e mostra la tua categoria di salute."
   ],
-  "howItWorks": "Come funziona",
-  "workedExample": "Esempi",
-  "resultInterpretation": "Interpretazione",
+  "howItWorks": "Lo strumento utilizza la formula standard: peso in chilogrammi diviso per altezza in metri al quadrato (kg/m²). Per input imperiali, calcola (libbre / pollici²) × 703 prima di classificare il risultato.",
+  "workedExample": "Una persona alta 1,75 metri e che pesa 70 chilogrammi: 70 / (1,75 × 1,75) = 70 / 3,0625 = 22,86. Un BMI di 22,86 rientra nella categoria 'Peso Normale/Sano'.",
+  "resultInterpretation": "Il numero fornisce un indicatore generale della salute. Sotto 18,5 è Sottopeso; da 18,5 a 24,9 è Normale; da 25,0 a 29,9 è Sovrappeso; 30,0 e oltre è Obeso.",
   "useCases": [
-    "Screening sanitario generale",
-    "Moduli di assunzione medica",
-    "Elaborazione rapida dell'altezza in movimento"
+    "Salute personale: monitorare il proprio BMI nel tempo quando si inizia una nuova dieta o un nuovo programma di esercizi.",
+    "Screening medici: I medici utilizzano l'IMC come strumento di screening iniziale rapido per identificare potenziali rischi per la salute legati al peso.",
+    "Pianificazione del fitness: Stabilire un peso target realistico basato sulla gamma di BMI 'Normale' per la tua altezza."
   ],
   "tipsAndLimitations": [
-    "Il BMI non distingue tra massa muscolare e massa grassa.",
-    "Assicurati che i tuoi input siano formattati correttamente per ottenere i migliori risultati.",
-    "Lo strumento funziona completamente lato client, garantendo che i tuoi dati rimangano privati."
+    "L'IMC non misura direttamente la percentuale di grasso corporeo. Non può distinguere tra grasso e muscolo.",
+    "Gli atleti altamente muscolosi possono essere classificati come 'Obesi' su una scala BMI nonostante abbiano un grasso corporeo molto basso, perché il muscolo è più denso del grasso."
   ],
   "faq": [
     {
-      "question": "Il BMI è accurato per gli atleti?",
-      "answer": "No, gli individui muscolosi spesso vengono erroneamente classificati come sovrappeso."
+      "question": "Il BMI è accurato per tutti?",
+      "answer": "No. Sebbene sia una buona guida generale per la popolazione media, è imprecisa per le donne in gravidanza, gli atleti molto muscolosi e gli anziani."
     },
     {
-      "question": "Il calcolatore BMI è gratuito?",
-      "answer": "Sì, il nostro calcolatore BMI è completamente gratuito e non richiede registrazione."
-    },
-    {
-      "question": "Funziona sui dispositivi mobili?",
-      "answer": "Sì, lo strumento è completamente reattivo e funziona perfettamente su tutti gli smartphone e tablet."
+      "question": "Il genere influisce sull'IMC?",
+      "answer": "La formula standard del BMI per adulti non tiene conto del sesso. Tuttavia, le donne naturalmente hanno una percentuale di grasso corporeo leggermente più alta rispetto agli uomini con lo stesso BMI."
     }
   ],
   "relatedTools": [
-    "bmr-calcolatrice",
-    "calcolatore di calorie",
-    "macrocalcolatrice"
+    "bmr-calculator",
+    "body-fat-calculator",
+    "calorie-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calcolatore dell'IMC",
-  "ogImageText": "Calcolatore dell'IMC"
+  "cta": "Calcola il tuo BMI ora!",
+  "disclaimer": "Questo strumento fornisce stime generali sulla salute basate sugli standard dell'OMS. Non è un sostituto del consiglio medico professionale o della diagnosi.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfaccia del calcolatore BMI che mostra un risultato sano",
+  "ogImageText": "Calcolatore BMI"
 }

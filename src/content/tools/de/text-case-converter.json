@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Textfall-Konverter - GROSSBUCHSTABEN, kleinbuchstaben, Titel Fall",
+  "metaDescription": "Kostenloser Online-Textfall-Konverter. Ändern Sie den Text schnell in GROSSBUCHSTABEN, Kleinbuchstaben, Titel- oder Satzzeichenfall mit einem Klick. Beheben Sie sofort Fehler durch die Feststelltaste.",
+  "h1": "Textfall-Konverter",
+  "primaryKeyword": "Textfall-Konverter",
+  "secondaryKeywords": [
+    "Textfall ändern",
+    "Großbuchstaben zu Kleinbuchstaben",
+    "Titel-Case-Generator",
+    "Feststelltaste-Konverter"
+  ],
+  "slug": "textfall-konverter",
+  "intro": "Caps Lock versehentlich eingeschaltet gelassen oder müssen Sie eine lange Liste von Buchtiteln formatieren? Unser kostenloser Text-Case-Konverter ändert die Groß- und Kleinschreibung Ihres Textes sofort mit einem einzigen Klick.",
+  "whatIs": "Der Textfall-Konverter ist ein Formatierungswerkzeug, das einen Textblock nimmt und automatisch seine Groß- und Kleinschreibung basierend auf standardmäßigen sprachlichen Regeln (wie Satzfall oder Titelcase) ändert.",
+  "howToUse": [
+    "Fügen Sie Ihren schlecht formatierten Text in das Eingabefeld ein.",
+    "Klicken Sie auf die Schaltfläche, die dem gewünschten Fall entspricht (z. B. 'GROSSBUCHSTABEN', 'Titel-Schreibweise').",
+    "Der Text wird sich sofort verändern.",
+    "Klicken Sie auf 'Kopieren', um den korrigierten Text in Ihre Zwischenablage zu speichern."
+  ],
+  "howItWorks": "Das Werkzeug verwendet JavaScript-Zeichenkettenmanipulation. 'GROSSBUCHSTABEN' und 'kleinschreibung' verwenden native Browserfunktionen. 'Titelcase' verwendet Regex, um den ersten Buchstaben jedes Wortes zu kapitalisieren (oft unter Ignorierung kleiner Wörter wie 'und' oder 'der/die/das'). 'Satzfall' kapitalisiert nur den ersten Buchstaben nach einem Satzzeichen.",
+  "workedExample": "Eingabe: 'hELLO wORLD. hOW ARE YOU?' Klicken Sie auf 'Satzanfang'. Ausgabe: 'Hello world. How are you?'",
+  "resultInterpretation": "Ihr Text ist gemäß den grammatischen Regeln des ausgewählten Falls perfekt formatiert und bereit, in ein formelles Dokument oder eine Datenbank eingefügt zu werden.",
+  "useCases": [
+    "Datenbereinigung: Ein unordentliches Tabellenblatt mit Kundennamen in sauberes 'Titelcase' normalisieren.",
+    "Copywriting: Überschriften und Untertitel perfekt formatieren, ohne sie manuell neu einzutippen.",
+    "Fehlerbehebung: Sofortiges Wiederherstellen eines Absatzes, der getippt wurde, während die Feststelltaste versehentlich aktiviert war."
+  ],
+  "tipsAndLimitations": [
+    "Die Umwandlung in GROSSBUCHSTABEN oder Kleinbuchstaben ist eine zerstörerische Aktion – sie löscht alle ursprünglichen Groß- und Kleinschreibungen. Die Rückumwandlung in Satzschreibung stellt keine Eigennamen (wie Namen oder Städte) wieder her.",
+    "Title-Case-Algorithmen versuchen, kleine Wörter (of, the, in) zu ignorieren, stimmen jedoch möglicherweise nicht perfekt mit speziellen Stilrichtlinien (wie APA oder Chicago-Stil) bei komplexen Titeln überein."
+  ],
+  "faq": [
+    {
+      "question": "Was ist Satzschreibung?",
+      "answer": "Die Satzschreibung kapitalisiert nur den allerersten Buchstaben des Satzes, wobei alle anderen Wörter (außer 'I') in Kleinbuchstaben bleiben, genau wie in einem normalen Buchabsatz."
+    },
+    {
+      "question": "Was ist die Titel-Schreibweise?",
+      "answer": "Die Großschreibung im Titel setzt den ersten Buchstaben fast jedes Wortes groß. Sie wird typischerweise für Buchtitel, Filmtitel und Artikelüberschriften verwendet."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "character-counter",
+    "markdown-editor"
+  ],
+  "cta": "Korrigiere sofort die Groß- und Kleinschreibung deines Textes!",
+  "disclaimer": "Automatisierte Großschreibungsalgorithmen erfassen möglicherweise nicht jedes grammatikalische Detail, insbesondere im Hinblick auf Eigennamen in Satzschrift. Korrigieren Sie immer Ihren endgültigen Text.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Text Case Converter-Oberfläche mit Titelfall-Optionen",
+  "ogImageText": "Textfall-Konverter"
+}

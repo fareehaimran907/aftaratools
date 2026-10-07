@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Macro Calculator",
-  "metaDescription": "Free online Macro Calculator. Calculate your optimal macronutrients.",
+  "seoTitle": "Macro Calculator - Find Your Ideal Macros",
+  "metaDescription": "Free online Macro Calculator. Find the perfect balance of Protein, Carbs, and Fats tailored to your specific fitness goals, diet type, and body weight.",
   "h1": "Macro Calculator",
   "primaryKeyword": "macro calculator",
   "secondaryKeywords": [
-    "macro calculator online",
-    "free macro calculator",
-    "best macro calculator"
+    "calculate macros",
+    "macronutrient calculator",
+    "protein carbs fat ratio",
+    "keto macro calculator"
   ],
   "slug": "macro-calculator",
-  "intro": "Use our free online Macro Calculator tool. It breaks down calories into nutrients based on your inputs.",
-  "whatIs": "The Macro Calculator is an online utility that breaks down calories into nutrients. It processes your caloric goal and provides grams of protein, carbs, and fats.",
+  "intro": "Counting calories isn't enough to change your body composition. Our free Macro Calculator breaks down your daily calories into the optimal grams of Protein, Carbohydrates, and Fats for your goals.",
+  "whatIs": "The Macro (Macronutrient) Calculator is an advanced nutritional planning tool. It takes your total daily calorie target and divides it into specific grammatical targets for the three main food groups needed by the body: proteins, fats, and carbs.",
   "howToUse": [
-    "Enter your caloric goal into the designated input field.",
-    "Provide any secondary parameters like diet type.",
-    "Click the calculate or submit button to generate grams of protein, carbs, and fats.",
-    "Copy or review the resulting output for your needs."
+    "Enter your physical stats (age, weight, height, activity level).",
+    "Select your goal (lose weight, maintain, build muscle).",
+    "Select a preferred diet style (Balanced, Low Carb, High Protein, Keto).",
+    "The tool outputs exactly how many grams of each macro you should eat daily."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your caloric goal. It instantly processes the data to output grams of protein, carbs, and fats.",
-  "workedExample": "For example: 2000 kcal at 30% protein is 150g protein.",
-  "resultInterpretation": "The result represents grams of protein, carbs, and fats. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "The tool first calculates your daily calorie goal. It then applies specific mathematical ratios based on your diet type. It knows that 1 gram of protein = 4 calories, 1 gram of carbs = 4 calories, and 1 gram of fat = 9 calories, dividing the totals accordingly.",
+  "workedExample": "Goal: 2000 calories on a Balanced diet (30% Protein, 35% Fat, 35% Carbs). Protein: 600 cals / 4 = 150g. Fat: 700 cals / 9 = 78g. Carbs: 700 cals / 4 = 175g.",
+  "resultInterpretation": "The generated numbers dictate exactly what your daily meals should consist of. Hitting your protein target preserves muscle, fats regulate hormones, and carbs provide energy.",
   "useCases": [
-    "Keto dieting",
-    "Bodybuilding nutrition",
-    "Quickly processing caloric goal on the go"
+    "Body Recomposition: Eating a high-protein, maintenance-calorie macro split to lose fat and build muscle simultaneously.",
+    "Keto Dieting: Calculating a strict low-carb (under 5%), high-fat macro split to ensure the body enters ketosis.",
+    "Athletic Performance: Generating a high-carb macro profile to fuel marathon training or intense endurance sports."
   ],
   "tipsAndLimitations": [
-    "Protein is essential for muscle retention during weight loss.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "Protein is the most important macro to hit accurately, especially if you are in a caloric deficit, to prevent muscle wasting.",
+    "Alcohol is technically a fourth 'macro' (7 calories per gram) but provides no nutritional value and is not included in standard macro planning."
   ],
   "faq": [
     {
-      "question": "How many calories per gram of fat?",
-      "answer": "Fat has 9 kcal/g, while carbs and protein have 4 kcal/g."
+      "question": "Can I eat whatever I want as long as it fits my macros (IIFYM)?",
+      "answer": "Technically, yes. For pure weight loss/gain, the source of the macros doesn't matter. However, for overall health, digestion, and micronutrients (vitamins), you should get your macros from whole, unprocessed foods."
     },
     {
-      "question": "Is the Macro Calculator free to use?",
-      "answer": "Yes, our Macro Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "What if I miss my fat and carb targets?",
+      "answer": "As long as you hit your total calorie goal and your protein goal, the exact ratio of carbs to fats is mostly personal preference and will not severely impact your progress."
     }
   ],
   "relatedTools": [
-    "bmi-calculator",
-    "bmr-calculator",
-    "calorie-calculator"
+    "calorie-calculator",
+    "body-fat-calculator",
+    "water-intake-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Macro Calculator interface screenshot",
+  "cta": "Calculate your perfect macros now!",
+  "disclaimer": "Macro ratios provided are general recommendations. Individuals with specific medical conditions (like diabetes or kidney issues) should consult a physician before significantly altering their diet.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Macro Calculator showing a pie chart of protein, carbs, and fat",
   "ogImageText": "Macro Calculator"
 }

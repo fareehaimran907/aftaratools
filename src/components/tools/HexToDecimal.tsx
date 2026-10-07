@@ -15,7 +15,7 @@ export function HexToDecimal() {
     if (!value) return "";
     // Remove # if present for hex colors
     const cleanVal = value.replace(/^#/, '');
-    if (!/^[0-9A-Fa-f]+$/.test(cleanVal)) return "Invalid hex string";
+    if (!/^[0-9A-Fa-f]+$/.test(cleanVal)) return t('invalidHexString');
     const dec = parseInt(cleanVal, 16);
     return dec.toString(10);
   };
@@ -56,7 +56,7 @@ export function HexToDecimal() {
               </div>
               <span className="text-sm font-bold text-primary mb-2 uppercase tracking-wider block">{t('decimalResult')}</span>
               <div className="mt-2">
-                <span className={`text-6xl sm:text-7xl font-bold font-mono tracking-tight break-all ${result === 'Invalid hex string' ? 'text-error text-2xl' : 'text-foreground'}`}>
+                <span className={`text-6xl sm:text-7xl font-bold font-mono tracking-tight break-all ${result === t('invalidHexString') ? 'text-error text-2xl' : 'text-foreground'}`}>
                   {result || "0"}
                 </span>
               </div>

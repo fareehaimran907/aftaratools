@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Wybór koloru - znajdź kody HEX, RGB i HSL",
+  "metaDescription": "Darmowy internetowy wybierak kolorów. Wybierz idealny kolor wizualnie i natychmiast skopiuj kody HEX, RGB i HSL do swoich projektów stron internetowych lub grafiki.",
+  "h1": "Wybór koloru",
+  "primaryKeyword": "selektor kolorów",
+  "secondaryKeywords": [
+    "selektor kolorów HTML",
+    "narzędzie do znajdowania kodów kolorów",
+    "selektor koloru szesnastkowego",
+    "wybór koloru RGB"
+  ],
+  "slug": "wybór-koloru",
+  "intro": "Szukasz dokładnego odcienia niebieskiego dla tła swojej strony internetowej? Nasz darmowy internetowy Wybierak Kolorów pozwala wizualnie wybierać kolory i podaje dokładne formaty kodów, których potrzebują deweloperzy i projektanci.",
+  "whatIs": "Wybierak kolorów to wizualne narzędzie do projektowania stron internetowych. Zapewnia graficzny interfejs (mapę gradientu kolorów i suwak odcienia), który pozwala użytkownikom wybrać konkretny kolor i automatycznie wyświetla jego wartości matematyczne w formatach HEX, RGB i HSL.",
+  "howToUse": [
+    "Przeciągnij suwak, aby wybrać swój kolor podstawowy (odcień).",
+    "Kliknij i przeciągnij kursor wewnątrz pola koloru, aby dostosować jasność i nasycenie.",
+    "Narzędzie natychmiast aktualizuje się, aby pokazać wybrany kolor.",
+    "Skopiuj podane kody HEX, RGB lub HSL dla swojego projektu."
+  ],
+  "howItWorks": "Interfejs graficzny mapuje współrzędne X/Y na wartości Nasycenia i Jasności, podczas gdy suwak mapuje na 360-stopniowy Odcień. Narzędzie oblicza te wartości do standardowych liczb całkowitych RGB (Czerwony, Zielony, Niebieski) i konwertuje je na ciąg HEX w systemie szesnastkowym.",
+  "workedExample": "Przeciągasz suwak do czystej czerwieni, a kursor do prawego górnego rogu. Narzędzie oblicza Maksymalną Czerwień (255), Zero Zieleni (0), Zero Niebieskiego (0). Wyświetla RGB(255, 0, 0) oraz kod szesnastkowy #FF0000.",
+  "resultInterpretation": "Podane kody przedstawiają dokładną cyfrową instrukcję potrzebną przeglądarce internetowej lub oprogramowaniu do projektowania (takim jak Photoshop), aby wyświetlić dokładnie wybrany kolor.",
+  "useCases": [
+    "Tworzenie stron internetowych: Znalezienie dokładnego kodu HEX do użycia w pliku CSS dla tła przycisku.",
+    "Projektowanie graficzne: Tworzenie tożsamości marki poprzez wybór i zapisywanie określonych kolorów podstawowych.",
+    "Sztuka cyfrowa: Znalezienie idealnego odcienia do cyfrowego malarstwa lub elementów interfejsu użytkownika."
+  ],
+  "tipsAndLimitations": [
+    "Kody HEX zawsze zaczynają się od hashtaga (#) i składają się z 6 znaków alfanumerycznych.",
+    "Kolory mogą wyglądać nieco inaczej w zależności od używanego monitora i jego kalibracji kolorów."
+  ],
+  "faq": [
+    {
+      "question": "Jaka jest różnica między HEX a RGB?",
+      "answer": "Reprezentują dokładnie ten sam kolor. RGB używa liczb w systemie dziesiętnym (0-255) dla czerwonego, zielonego i niebieskiego. HEX przedstawia te same liczby przy użyciu formatu szesnastkowego w systemie bazowym 16, który jest krótszy i preferowany w CSS."
+    },
+    {
+      "question": "Co to jest HSL?",
+      "answer": "HSL oznacza Odcień, Nasycenie, Jasność. Wielu projektantów woli je od RGB, ponieważ jest bardziej intuicyjne — wybierasz kolor bazowy (Odcień), jak intensywny jest (Nasycenie) i jak jasny/ciemny jest (Jasność)."
+    }
+  ],
+  "relatedTools": [
+    "hex-to-rgb",
+    "rgb-to-hex",
+    "color-palette-generator"
+  ],
+  "cta": "Wybierz teraz swój idealny kod koloru!",
+  "disclaimer": "Cyfrowe odwzorowanie kolorów w dużej mierze zależy od kalibracji monitora użytkownika (sRGB vs Display P3) oraz ustawień jasności.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfejs selektora kolorów wizualnych z wyjściami HEX i RGB",
+  "ogImageText": "Wybór koloru"
+}

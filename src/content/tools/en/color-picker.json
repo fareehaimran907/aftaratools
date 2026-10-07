@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Color Picker - Find HEX, RGB & HSL Codes",
+  "metaDescription": "Free online Color Picker. Select the perfect color visually and instantly copy the HEX, RGB, and HSL codes for your web design or graphic art projects.",
+  "h1": "Color Picker",
+  "primaryKeyword": "color picker",
+  "secondaryKeywords": [
+    "html color picker",
+    "color code finder",
+    "hex color selector",
+    "rgb color picker"
+  ],
+  "slug": "color-picker",
+  "intro": "Looking for the exact shade of blue for your website background? Our free online Color Picker lets you visually select colors and gives you the exact code formats developers and designers need.",
+  "whatIs": "The Color Picker is a visual web design tool. It provides a graphical interface (a color gradient map and hue slider) allowing users to select a specific color and automatically outputs its mathematical values in HEX, RGB, and HSL.",
+  "howToUse": [
+    "Drag the slider to select your base color (hue).",
+    "Click and drag the cursor inside the color box to adjust the brightness and saturation.",
+    "The tool instantly updates to show the selected color.",
+    "Copy the provided HEX, RGB, or HSL codes for your project."
+  ],
+  "howItWorks": "The graphical interface maps X/Y coordinates to Saturation and Lightness values, while the slider maps to a 360-degree Hue. The tool calculates these values into standard RGB (Red, Green, Blue) integers and converts those into a Base-16 HEX string.",
+  "workedExample": "You drag the slider to pure red and the cursor to the top-right corner. The tool calculates Maximum Red (255), Zero Green (0), Zero Blue (0). It outputs RGB(255, 0, 0) and the Hex code #FF0000.",
+  "resultInterpretation": "The codes provided represent the exact digital instruction needed by a web browser or design software (like Photoshop) to render the precise color you selected.",
+  "useCases": [
+    "Web Development: Finding the exact HEX code to use in a CSS file for a button background.",
+    "Graphic Design: Creating a brand identity by selecting and saving specific primary colors.",
+    "Digital Art: Finding the perfect shade for digital painting or UI elements."
+  ],
+  "tipsAndLimitations": [
+    "HEX codes always start with a hashtag (#) and consist of 6 alphanumeric characters.",
+    "Colors may look slightly different depending on the physical monitor you are using and its color calibration."
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between HEX and RGB?",
+      "answer": "They represent the exact same color. RGB uses base-10 numbers (0-255) for Red, Green, and Blue. HEX represents those exact same numbers using base-16 hexadecimal formatting, which is shorter and preferred in CSS."
+    },
+    {
+      "question": "What is HSL?",
+      "answer": "HSL stands for Hue, Saturation, Lightness. Many designers prefer it over RGB because it is more intuitive—you pick the base color (Hue), how vibrant it is (Saturation), and how dark/light it is (Lightness)."
+    }
+  ],
+  "relatedTools": [
+    "hex-to-rgb",
+    "rgb-to-hex",
+    "color-palette-generator"
+  ],
+  "cta": "Pick your perfect color code now!",
+  "disclaimer": "Digital color reproduction depends heavily on the user's monitor calibration (sRGB vs Display P3) and brightness settings.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Visual color picker interface with HEX and RGB outputs",
+  "ogImageText": "Color Picker"
+}

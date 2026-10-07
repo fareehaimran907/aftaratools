@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Jours entre les dates",
-  "metaDescription": "Calculez le nombre exact de jours entre deux dates.",
-  "h1": "Jours entre les dates",
-  "primaryKeyword": "jours entre les dates",
+  "seoTitle": "Calculateur de Jours Entre Deux Dates - Jours Ouvrés & Week-ends",
+  "metaDescription": "Calculez le nombre exact de jours entre deux dates. Découvrez les jours totaux, les jours ouvrés et les week-ends écoulés.",
+  "h1": "Calculateur de Jours Entre Deux Dates",
+  "primaryKeyword": "jours entre deux dates",
   "secondaryKeywords": [
-    "Jours entre les dates en ligne",
-    "Jours gratuits entre les dates",
-    "meilleurs jours entre les dates"
+    "combien de jours",
+    "calculatrice de jours",
+    "calculateur de jours ouvrés",
+    "compteur de jours"
   ],
-  "slug": "jours entre les dates",
-  "intro": "Calculez instantanément le nombre exact de jours entre deux dates.",
-  "whatIs": "Quel est cet outil ?",
+  "slug": "jours-entre-dates",
+  "intro": "Essayez-vous de savoir exactement combien de jours se sont écoulés depuis un événement important, ou combien de jours il reste avant une échéance à venir ? Notre calculatrice Jours entre deux dates est un outil hautement spécialisé conçu pour vous donner le compte précis des jours absolus séparant deux dates du calendrier. Que vous suiviez le calendrier d'un projet, comptiez les jours d'une série ou calculiez des intérêts financiers sur une période spécifique, connaître le nombre exact de jours est essentiel. Cette calculatrice élimine les conjectures et le comptage manuel fastidieux associés aux longueurs variables des mois et aux années bissextiles, fournissant une réponse infaillible en quelques millisecondes seulement.",
+  "whatIs": "Le calculateur Jours entre deux dates est un utilitaire essentiel qui mesure la durée brute et ininterrompue entre une date de début et une date de fin, exprimée exclusivement en jours. Contrairement à un calculateur d'âge ou de date général qui décompose le temps en années, mois et jours, cet outil se concentre uniquement sur le compte absolu en jours. Cette métrique pure est cruciale pour de nombreux calculs techniques, financiers et scientifiques où un « mois » est une unité trop variable (puisque les mois peuvent avoir 28, 29, 30 ou 31 jours). En s'appuyant sur un nombre absolu de jours, les professionnels peuvent calculer des taux d'intérêt quotidiens avec précision, déterminer des frais de location journaliers exacts ou suivre des séries consécutives sans aucune ambiguïté.",
   "howToUse": [
-    "Entrez votre première date dans le champ de saisie désigné.",
-    "Fournissez tous les paramètres secondaires comme la deuxième date.",
-    "Cliquez sur le bouton Calculer ou Soumettre pour générer le nombre total de jours en divisant les millisecondes.",
-    "Copiez ou examinez le résultat obtenu selon vos besoins."
+    "Sélectionnez la date de début.",
+    "Sélectionnez la date de fin.",
+    "Cochez 'Inclure la date de fin' pour un comptage inclusif.",
+    "Consultez le nombre total de jours, de jours ouvrés et de week-ends."
   ],
-  "howItWorks": "Comment ça marche",
-  "workedExample": "Exemples",
-  "resultInterpretation": "Interprétation",
+  "howItWorks": "À la base, la calculatrice convertit les dates de début et de fin que vous sélectionnez dans un format d'heure universel - plus précisément, le nombre de millisecondes écoulées depuis l'époque Unix (1er janvier 1970). En soustrayant l'horodatage de début de l'horodatage de fin, l'outil détermine la différence de temps exacte en millisecondes. Il divise ensuite ce nombre massif par 86 400 000 (le nombre exact de millisecondes dans une journée standard de 24 heures) pour arriver au compte brut des jours. Cette approche mathématique garantit que les anomalies telles que les années bissextiles et les longueurs de mois irrégulières sont naturellement et parfaitement prises en compte. L'outil comprend également un interrupteur pour « Inclure la date de fin », qui ajoute simplement 1 au résultat final, déplaçant le calcul d'une stricte différence mathématique vers un comptage de durée inclusif.",
+  "workedExample": "Envisagez un scénario où vous devez calculer le nombre de jours entre le 4 juillet 2023 et le 25 décembre 2023. Si vous deviez compter manuellement, vous devriez ajouter les 27 jours restants en juillet, 31 en août, 30 en septembre, 31 en octobre, 30 en novembre et 25 en décembre. Notre calculatrice effectue cette opération instantanément. Il trouve l'horodatage du 25 décembre et soustrait l'horodatage du 4 juillet. La différence brute est exactement de 174 jours. Si vous calculez une location à la journée qui a commencé le 4 juillet et s'est terminée le 25 décembre (ces deux jours inclus), vous cochez l'option 'Inclure la date de fin', et la calculatrice ajuste instantanément le total à 175 jours.",
+  "resultInterpretation": "L'interprétation du résultat est simple, mais il est important de comprendre le contexte de votre calcul. Le résultat standard représente la différence mathématique stricte, c'est-à-dire essentiellement le nombre de minuits qui s'écoulent entre les deux dates. C'est la métrique correcte pour calculer l'âge, le temps écoulé ou les échéances standard. Cependant, si vous suivez une série quotidienne consécutive (comme un régime ou l'apprentissage d'une langue), ou si vous facturez des services rendus chaque jour couvrant les deux dates, vous avez besoin du décompte inclusif. Le comptage inclusif ajoute un jour à la différence mathématique pour s'assurer que les jours de début et de fin sont entièrement pris en compte dans le total.",
   "useCases": [
-    "Suivi des visas",
-    "Périodes de gestation",
-    "Traitement rapide du premier rendez-vous en déplacement"
+    "Planification: Compter le nombre de jours ouvrés pour un sprint.",
+    "Congés: Savoir combien de jours de travail des vacances vont consommer.",
+    "Événements: Compter les jours restants avant une date limite."
   ],
   "tipsAndLimitations": [
-    "Exclut les fuseaux horaires.",
-    "Assurez-vous que vos entrées sont correctement formatées pour obtenir les meilleurs résultats.",
-    "L'outil fonctionne entièrement côté client, garantissant que vos données restent privées."
+    "Les jours ouvrés supposent une semaine standard du lundi au vendredi.",
+    "Les jours fériés ne sont pas déduits car ils varient selon les pays.",
+    "L'option 'Inclure la date de fin' est utile pour les réservations inclusives."
   ],
   "faq": [
     {
-      "question": "L'utilisation des jours entre les dates est-elle gratuite ?",
-      "answer": "Oui, notre utilisation de Days Between Dates est entièrement gratuite."
+      "question": "Les jours fériés sont-ils comptés comme jours ouvrés ?",
+      "answer": "Oui, ils sont comptés comme ouvrés s'ils tombent en semaine. Vous devrez les soustraire manuellement."
     },
     {
-      "question": "Est-ce que ça marche sur mobile ?",
-      "answer": "Oui, il est entièrement réactif et fonctionne sur tous les appareils."
-    },
-    {
-      "question": "Dois-je télécharger quelque chose ?",
-      "answer": "Non, cela fonctionne entièrement dans votre navigateur sans aucune installation."
+      "question": "Que signifie 'Inclure la date de fin' ?",
+      "answer": "La différence entre le 1er et le 2 du mois est de 1 jour. Si vous travaillez les deux, cela fait 2 jours. Cette option ajoute ce jour inclusif."
     }
   ],
   "relatedTools": [
-    "calculateur d'âge",
-    "calculateur de différence de date",
-    "jours jusqu'à la calculatrice"
+    "date-difference-calculator",
+    "days-until-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Jours entre les dates",
-  "ogImageText": "Jours entre les dates"
+  "cta": "Calculez instantanément les jours entre vos dates !",
+  "disclaimer": "Cet outil est à but informatif. Vérifiez manuellement pour les délais stricts.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Capture d'écran du calculateur de jours affichant les jours ouvrés",
+  "ogImageText": "Calculateur de Jours Entre Deux Dates"
 }

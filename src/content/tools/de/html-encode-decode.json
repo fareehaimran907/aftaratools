@@ -8,7 +8,7 @@
     "Kostenloser HTML-Encoder/Decoder",
     "Bester HTML-Encoder/Decoder"
   ],
-  "slug": "html-encode-decode",
+  "slug": "html-kodierer",
   "intro": "Nutzen Sie unser kostenloses Online-HTML-Encoder-/Decoder-Tool. Es maskiert HTML-Entitäten basierend auf Ihren Eingaben.",
   "whatIs": "Der HTML Encoder/Decoder ist ein Online-Dienstprogramm, das HTML-Entitäten maskiert. Es verarbeitet Ihren Rohtext und stellt den Text sicher für die Wiedergabe im DOM bereit.",
   "howToUse": [
@@ -45,10 +45,12 @@
     }
   ],
   "relatedTools": [
-    "JSON-Formatierer",
+    "url-encode-decode",
     "base64-encode-decode",
-    "URL-Kodierung-Dekodierung"
+    "markdown-editor"
   ],
+  "cta": "Kodieren Sie jetzt Ihr HTML sicher!",
+  "disclaimer": "Dieses Werkzeug maskiert die fünf primären HTML-Zeichen (&, <, >, \", '). Für strenge Sicherheit verwenden Sie umfassende Backend-Sanitierungsbibliotheken.",
   "lastReviewed": "29.09.2026",
   "imageAlt": "Screenshot der HTML-Encoder-/Decoder-Schnittstelle",
   "ogImageText": "HTML-Encoder/Decoder"

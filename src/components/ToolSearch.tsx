@@ -31,11 +31,13 @@ export function ToolSearch({ tools }: { tools: ToolItem[] }) {
 
   const results = useMemo(() => {
     if (!query.trim()) return [];
-    const lowerQuery = query.toLowerCase();
+    const lowerQuery = query.toLowerCase().replace(/-/g, ' ');
+    const rawQuery = query.toLowerCase();
     return tools.filter(
       (tool) =>
         tool.title.toLowerCase().includes(lowerQuery) ||
-        tool.description.toLowerCase().includes(lowerQuery)
+        tool.description.toLowerCase().includes(lowerQuery) ||
+        tool.slug.toLowerCase().includes(rawQuery)
     ).slice(0, 5);
   }, [query, tools]);
 

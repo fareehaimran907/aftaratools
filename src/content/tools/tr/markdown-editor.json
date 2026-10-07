@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Çevrimiçi Markdown Düzenleyici - Canlı Önizleme ve Dışa Aktarma",
+  "metaDescription": "Ücretsiz çevrimiçi Markdown Düzenleyici. Markdown biçimlendirmesini gerçek zamanlı olarak yazın, düzenleyin ve önizleyin. Biçimlendirilmiş metninizi anında HTML veya PDF olarak dışa aktarın.",
+  "h1": "Markdown Düzenleyici",
+  "primaryKeyword": "markdown düzenleyici",
+  "secondaryKeywords": [
+    "çevrimiçi markdown düzenleyici",
+    "canlı markdown önizlemesi",
+    "markdown'dan html'e",
+    "markdown görüntüleyici"
+  ],
+  "slug": "markdown-düzenleyici",
+  "intro": "Dokümantasyon veya bir README dosyası mı yazıyorsunuz? Ücretsiz çevrimiçi Markdown Editörümüz, gerçek zamanlı görsel önizleme ve anında HTML dışa aktarım ile temiz bir yazma ortamı sunar.",
+  "whatIs": "Markdown Editörü, çift panelli bir metin düzenleme aracıdır. Kullanıcıların, düz metin biçimlendirme sözdizimine sahip hafif bir işaretleme dili olan Markdown ile yazmalarına olanak tanırken, aynı zamanda ekranda canlı, biçimlendirilmiş bir önizleme görüntülemelerini sağlar.",
+  "howToUse": [
+    "Markdown sözdiziminizi sol taraftaki düzenleyici panele yazın veya yapıştırın.",
+    "Sağ taraftaki bölmenin biçimlendirilmiş önizlemeyle anında güncellendiğini izleyin.",
+    "Hızlı biçimlendirme kısayolları (kalın, italik, bağlantılar) için araç çubuğunu kullanın.",
+    "'Çalışmanızı kaydetmek için 'HTML Kopyala' veya 'İndir' tıklayın."
+  ],
+  "howItWorks": "Araç, girdiyi yazdığınız metin alanındaki tuş vuruşlarınızı sürekli izlemek için bir JavaScript ayrıştırıcı (marked.js gibi) kullanır. Markdown sembollerini (başlıklar için # veya kalın için **) standart HTML etiketlerine çevirir ve bunları önizleme paneline ekler.",
+  "workedExample": "Eğer '# Hello World' yazarsanız ve ardından '**Bold Text**' yazarsanız, ayrıştırıcı ilk satırı anında bir `<h1>` HTML etiketi ve ikinci satırı bir `<strong>` etiketi olarak dönüştürür, biçimlendirilmiş metni önizleme panelinde hemen gösterir.",
+  "resultInterpretation": "Önizleme, Markdown'unuzun GitHub, Reddit gibi platformlarda veya bir statik site üreticisinde yayınlandığında tam olarak nasıl görüneceğini gösterir.",
+  "useCases": [
+    "Yazılım Geliştirme: Açık kaynak depo'lar için oldukça okunabilir `README.md` dosyaları hazırlamak.",
+    "Blog Yazarlığı: Karmaşık WYSIWYG editörleri kullanmadan hızlı ve dikkat dağıtmayan blog taslakları yazmak.",
+    "Not Alma: Toplantı notlarını başlıklar, listeler ve kod blokları ile hızlı bir şekilde yapılandırma."
+  ],
+  "tipsAndLimitations": [
+    "Standart Markdown, çok sütunlu tablolar veya metin renklendirme gibi karmaşık düzenleri doğal olarak desteklemez. Bu uç durumlar için ham HTML kullanmanız gerekir.",
+    "Editörümüz GitHub Tarzı Markdown'u (GFM) destekliyor, bu da tablolar ve görev listeleri oluşturabileceğiniz anlamına geliyor."
+  ],
+  "faq": [
+    {
+      "question": "Markdown nedir?",
+      "answer": "Markdown, her cihazda harika görünen metinleri biçimlendirmenin basit bir yoludur. Butonlara tıklamayı gerektirmez; metninizi yazarken biçimlendirmek için sadece standart klavye sembollerini (kalın yapmak için yıldız işaretleri gibi) kullanırsınız."
+    },
+    {
+      "question": "Çalışmamı otomatik olarak kaydediyor mu?",
+      "answer": "Editör, metninizi kazara sayfayı yenilerseniz kaybetmemeniz için tarayıcınızın yerel depolamasında tutar, ancak bulut veritabanına kaydetmez."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "html-encode-decode",
+    "lorem-ipsum-generator"
+  ],
+  "cta": "Şimdi Markdown ile yazmaya başla!",
+  "disclaimer": "Belgeler tarayıcınızda yerel olarak ayrıştırılır. Hassas metinler sunucularımıza yüklenmez, böylece taslaklarınız tamamen gizli kalır.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Markdown düzenleyici bölünmüş ekran arayüzü",
+  "ogImageText": "Markdown Düzenleyici"
+}

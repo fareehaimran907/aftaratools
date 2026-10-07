@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "age-calculator": {
+      "layout": "split-pane",
+      "colorPalette": "azure-blue primary hsl(217 91% 55%) / mint-green accent hsl(142 71% 45%) / warm off-white light surfaces / deep navy dark",
+      "typography": "Inter heading+body; JetBrains Mono for result numbers",
+      "heroComposition": "calendar ring SVG with animated arc sweep showing time-elapsed; floating date-chip overlays on hero",
+      "resultPresentation": "big-number tri-card (Years/Months/Days) + secondary timeline strip (Next Birthday / Total Days)",
+      "microInteractions": "count-up animation 0→final over 800ms on reveal; confetti burst on birthday detection; prefers-reduced-motion respected",
+      "designedOn": "2026-10-01",
+      "designedBy": "Antigravity"
+    },
+    "percentage-calculator": {
+      "layout": "centered single card",
+      "colorPalette": "emerald green primary hsl(150 100% 40%) / amber accent / clean gray surfaces",
+      "typography": "Outfit heading + Roboto body",
+      "heroComposition": "circular pie chart / donut motif with intersecting grid lines",
+      "resultPresentation": "visual progress bar / filled gauge showing proportion",
+      "microInteractions": "drag slider for percentage input, smooth width transition on result bar, prefers-reduced-motion respected",
+      "designedOn": "2026-10-01",
+      "designedBy": "Antigravity"
+    }
+  }
+}

@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Convertisseur de température",
-  "metaDescription": "Convertissez Celsius, Fahrenheit et Kelvin.",
-  "h1": "Convertisseur de température",
+  "seoTitle": "Convertisseur de Température - Celsius en Fahrenheit",
+  "metaDescription": "Convertisseur de température gratuit. Convertissez entre Celsius (°C), Fahrenheit (°F) et Kelvin (K) instantanément.",
+  "h1": "Convertisseur de Température",
   "primaryKeyword": "convertisseur de température",
   "secondaryKeywords": [
-    "Convertisseur de température en ligne",
-    "Convertisseur de température gratuit",
-    "meilleur convertisseur de température"
+    "celsius en fahrenheit",
+    "fahrenheit en celsius",
+    "convertir température"
   ],
-  "slug": "convertisseur de température",
-  "intro": "Traduisez rapidement les températures entre les échelles majeures.",
-  "whatIs": "Quel est cet outil ?",
-  "howToUse": [
-    "Entrez votre Celsius dans le champ de saisie désigné.",
-    "Fournissez tous les paramètres secondaires comme Fahrenheit.",
-    "Cliquez sur le bouton Calculer ou Soumettre pour générer la température équivalente.",
-    "Copiez ou examinez le résultat obtenu selon vos besoins."
-  ],
-  "howItWorks": "Comment ça marche",
-  "workedExample": "Exemples",
-  "resultInterpretation": "Interprétation",
-  "useCases": [
-    "Prévision météo",
-    "Températures de cuisson",
-    "Traitement rapide des degrés Celsius en déplacement"
-  ],
-  "tipsAndLimitations": [
-    "Les formules impliquent à la fois la multiplication et l’addition/soustraction.",
-    "Assurez-vous que vos entrées sont correctement formatées pour obtenir les meilleurs résultats.",
-    "L'outil fonctionne entièrement côté client, garantissant que vos données restent privées."
-  ],
+  "slug": "convertisseur-temperature",
+  "intro": "Météo à l'étranger ou recette américaine ? Les différentes échelles de température peuvent prêter à confusion. Notre outil convertit instantanément.",
+  "whatIs": "Un convertisseur de température traduit les mesures thermiques d'une échelle à l'autre (Celsius, Fahrenheit, Kelvin).",
+  "howToUse": "Sélectionnez l'échelle de départ. Entrez la température. L'outil affiche immédiatement les valeurs converties.",
+  "howItWorks": "Contrairement aux longueurs, la température utilise des formules. Celsius en Fahrenheit : (°C × 9/5) + 32. Fahrenheit en Celsius : (°F - 32) × 5/9.",
+  "workedExample": "Une recette demande 180°C. En Fahrenheit, cela fait 356°F. Vous savez à combien régler le four.",
+  "resultInterpretation": "Les résultats sont mathématiquement exacts. Kelvin n'utilise pas le symbole degré (°).",
+  "useCases": "Cuisine : températures de four. Voyages : prévisions météo. Science : calculs en Kelvin.",
+  "tipsAndLimitations": "Raccourci mental (C vers F) : doublez les Celsius et ajoutez 30. À -40°, Celsius et Fahrenheit sont identiques.",
   "faq": [
     {
-      "question": "L'utilisation du convertisseur de température est-elle gratuite ?",
-      "answer": "Oui, notre convertisseur de température est entièrement gratuit."
+      "question": "Comment convertir Celsius en Fahrenheit ?",
+      "answer": "Multipliez les degrés Celsius par 1,8 puis ajoutez 32."
     },
     {
-      "question": "Est-ce que ça marche sur mobile ?",
-      "answer": "Oui, il est entièrement réactif et fonctionne sur tous les appareils."
-    },
-    {
-      "question": "Dois-je télécharger quelque chose ?",
-      "answer": "Non, cela fonctionne entièrement dans votre navigateur sans aucune installation."
+      "question": "Quelle est la température corporelle normale ?",
+      "answer": "Généralement considérée comme 37°C ou 98,6°F."
     }
   ],
   "relatedTools": [
-    "convertisseur de longueur",
-    "convertisseur de poids",
-    "convertisseur de hauteur"
+    "length-converter",
+    "weight-converter",
+    "volume-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Convertisseur de température",
-  "ogImageText": "Convertisseur de température"
+  "cta": "Convertissez n'importe quelle température maintenant !",
+  "disclaimer": "Informations générales uniquement.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Convertisseur de température Celsius Fahrenheit",
+  "ogImageText": "Convertisseur Température"
 }

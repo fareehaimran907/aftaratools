@@ -1,55 +1,60 @@
 {
-  "seoTitle": "Kalkulator Durasi Waktu",
-  "metaDescription": "Hitung durasi yang tepat antara dua waktu.",
+  "seoTitle": "Kalkulator Durasi Waktu - Hitung Waktu yang Berlalu",
+  "metaDescription": "Hitung durasi antara dua waktu dalam jam dan menit dengan mudah. Alat ini menangani waktu yang melewati tengah malam dan mendukung jam desimal untuk penggajian.",
   "h1": "Kalkulator Durasi Waktu",
   "primaryKeyword": "kalkulator durasi waktu",
   "secondaryKeywords": [
-    "Kalkulator Durasi Waktu online",
-    "Kalkulator Durasi Waktu gratis",
-    "Kalkulator Durasi Waktu terbaik"
+    "hitung waktu yang berlalu",
+    "waktu yang berlalu antara dua waktu",
+    "kalkulator jam dan menit"
   ],
-  "slug": "kalkulator durasi waktu",
-  "intro": "Temukan jam dan menit yang tepat antara waktu mulai dan waktu berakhir.",
-  "whatIs": "Alat apa ini?",
+  "slug": "kalkulator-durasi-waktu",
+  "intro": "Perlu menghitung dengan cepat waktu tepat yang dihabiskan untuk suatu tugas? Kalkulator Durasi Waktu secara instan mengukur jam dan menit yang berlalu antara waktu mulai dan waktu akhir. Baik Anda melacak jam kerja yang dapat ditagih untuk klien, mengisi lembar waktu mingguan, memantau sesi belajar, atau menghitung durasi perjalanan, alat yang sederhana namun canggih ini memastikan Anda tidak perlu lagi melakukan penghitungan waktu di luar kepala.",
+  "whatIs": "Kalkulator Durasi Waktu adalah utilitas online khusus yang dirancang untuk mengukur panjang waktu persis yang berlalu antara waktu mulai tertentu dan waktu akhir. Tidak seperti penjumlahan atau pengurangan sederhana, matematika waktu beroperasi pada sistem basis-60 (60 menit dalam satu jam, 24 jam dalam satu hari), membuat perhitungan mental rentan terhadap kesalahan. Alat ini menangani kerumitan tersebut dengan mulus, memberi Anda durasi presisi yang dinyatakan dalam jam dan menit standar, serta format desimal untuk pemrosesan penggajian.",
   "howToUse": [
-    "Masukkan waktu mulai Anda ke dalam kolom input yang ditentukan.",
-    "Berikan parameter sekunder seperti waktu berakhir.",
-    "Klik tombol hitung atau kirim untuk menghasilkan total jam dan menit yang telah berlalu.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Langkah 1: Pilih atau ketik waktu mulai Anda di bidang input pertama, pastikan penunjukan AM/PM benar jika menggunakan format 12 jam.",
+    "Langkah 2: Pilih waktu akhir Anda di bidang input kedua.",
+    "Langkah 3: Jika aktivitas Anda melewati tengah malam hingga hari berikutnya, cukup masukkan waktu akhir seperti biasa. Kalkulator secara otomatis mendeteksi ini.",
+    "Langkah 4: Klik 'Hitung' untuk melihat durasinya secara instan.",
+    "Langkah 5: Lihat hasilnya, yang akan ditampilkan dalam jam dan menit standar, total menit, dan jam desimal untuk lembar waktu."
   ],
-  "howItWorks": "Bagaimana cara kerjanya",
-  "workedExample": "Contoh",
-  "resultInterpretation": "Interpretasi",
+  "howItWorks": "Alat ini mengubah waktu mulai dan akhir menjadi total menit yang berlalu sejak tengah malam. Alat ini kemudian menghitung selisih matematis antara kedua nilai menit ini. Yang penting, algoritma secara otomatis memperhitungkan periode semalam; jika waktu akhir secara numerik lebih awal dari waktu mulai, alat ini memahami bahwa durasi melewati tengah malam dan secara cerdas menambahkan 24 jam (1440 menit) ke dalam perhitungan untuk menghasilkan waktu berlalu yang benar.",
+  "workedExample": "Katakanlah Anda memulai shift malam pukul 22:30 dan pulang pukul 06:15 keesokan paginya. Kalkulator pertama-tama mengubah kedua waktu tersebut. Mengenali bahwa 06:15 lebih awal dari 22:30, alat ini secara otomatis menambahkan siklus 24 jam penuh ke waktu akhir untuk memperhitungkan persimpangan tengah malam. Alat ini menghitung selisihnya, menghasilkan total durasi yang berlalu tepat 7 jam dan 45 menit.",
+  "resultInterpretation": "Tampilan utama dengan jelas menunjukkan standar jam dan menit yang berlalu (mis., 7j 45m). Selain itu, kotak tambahan yang lebih kecil menunjukkan ekuivalen jam desimal (7,75 jam) dan total menit mentah (465 menit). Format jam desimal sangat penting untuk akuntansi dan sumber daya manusia, karena memungkinkan Anda untuk langsung mengalikan waktu kerja Anda dengan upah per jam.",
   "useCases": [
-    "Perhitungan absensi",
-    "Durasi penerbangan",
-    "Memproses waktu mulai dengan cepat saat bepergian"
+    "Lembar Waktu dan Penggajian: Mencatat jam kerja persis untuk pembuatan faktur lepas, penagihan kontraktor, atau pelacakan waktu karyawan.",
+    "Pelacakan Belajar atau Latihan: Mengukur secara akurat berapa lama sesi belajar akademik atau latihan gym tertentu berlangsung.",
+    "Penerbangan dan Transportasi: Menghitung waktu blok, durasi penerbangan, atau panjang shift pengemudi di berbagai periode.",
+    "Manajemen Proyek: Melacak waktu persis yang dihabiskan untuk tugas tertentu untuk meningkatkan perkiraan waktu di masa mendatang."
   ],
   "tipsAndLimitations": [
-    "Pastikan AM/PM diatur dengan benar.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "Kiat: Jam desimal sangat berguna untuk penggajian. Jika Anda bekerja 8 jam dan 30 menit dengan upah $20/jam, Anda mengalikan 8,5 dengan 20.",
+    "Batasan: Alat ini secara ketat menghitung waktu yang berlalu berdasarkan hari standar 24 jam. Ini tidak memperhitungkan perubahan Waktu Musim Panas yang mungkin terjadi selama periode yang diukur.",
+    "Kiat: Jika Anda perlu menghitung selisih di beberapa hari atau tanggal, pertimbangkan untuk menggunakan Kalkulator Selisih Tanggal kami sebagai gantinya."
   ],
   "faq": [
     {
-      "question": "Apakah Kalkulator Durasi Waktu gratis untuk digunakan?",
-      "answer": "Ya, Kalkulator Durasi Waktu kami sepenuhnya gratis untuk digunakan."
+      "question": "Apa yang terjadi jika acara saya melewati tengah malam ke hari berikutnya?",
+      "answer": "Kalkulator mendeteksi secara otomatis apakah waktu akhir lebih awal dari waktu mulai. Jika ini terjadi, diasumsikan acara melewati tengah malam dan dengan mulus menambahkan 24 jam ke penghitungan untuk memberi Anda durasi yang benar."
     },
     {
-      "question": "Apakah ini berfungsi di perangkat seluler?",
-      "answer": "Ya, ini sepenuhnya responsif dan berfungsi di semua perangkat."
+      "question": "Bagaimana jam desimal dihitung dan mengapa berguna?",
+      "answer": "Jam desimal dihitung dengan membagi total menit dengan 60. Misalnya, 30 menit menjadi 0,5 jam, dan 45 menit menjadi 0,75 jam. Format ini sangat penting untuk penggajian, karena Anda dapat dengan mudah mengalikan jam desimal dengan tingkat upah per jam."
     },
     {
-      "question": "Apakah saya perlu mengunduh sesuatu?",
-      "answer": "Tidak, ini berfungsi sepenuhnya di browser Anda tanpa instalasi apa pun."
+      "question": "Apakah ini mendukung format waktu 12 jam dan 24 jam?",
+      "answer": "Ya, tergantung pada pengaturan sistem dan browser Anda, input waktu akan mengakomodasi format AM/PM standar 12 jam atau format waktu 24 jam militer."
     }
   ],
   "relatedTools": [
-    "kalkulator usia",
-    "kalkulator-perbedaan tanggal",
-    "hari-antara-tanggal"
+    "time-difference-calculator",
+    "months-between-dates",
+    "world-time-converter",
+    "countdown-timer"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator Durasi Waktu",
+  "cta": "Hitung durasi persis waktu yang berlalu secara instan!",
+  "disclaimer": "Alat ini ditujukan untuk penghitungan waktu dasar dan tidak memperhitungkan perubahan zona waktu atau pergeseran waktu musim panas selama periode yang berlalu. Verifikasi hasil untuk aplikasi penggajian yang ketat.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Tangkapan layar kalkulator durasi waktu yang menampilkan jam, menit, dan jam desimal",
   "ogImageText": "Kalkulator Durasi Waktu"
 }

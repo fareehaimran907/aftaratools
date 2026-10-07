@@ -1,0 +1,52 @@
+{
+  "seoTitle": "Morsecode Vertaler - Vertaal Tekst & Audio",
+  "metaDescription": "Gratis online Morse-codevertaler. Zet tekst om in Morse-codepunten en strepen of vertaal Morse terug naar het Engels. Inclusief audioweergave.",
+  "h1": "Morsecodevertaler",
+  "primaryKeyword": "morsecodevertaler",
+  "secondaryKeywords": [
+    "tekst naar morsecode",
+    "morsecode-audio",
+    "vertaal morse",
+    "morsecode-decoder"
+  ],
+  "slug": "morsecodevertaler",
+  "intro": "Of je nu een amateurradio-liefhebber bent, een puzzel oplost, of gewoon nieuwsgierig bent, onze gratis Morsecode-vertaler zet eenvoudig tekst om in stippen en strepen—en speelt het hardop af.",
+  "whatIs": "De Morse Code Translator is een dubbele functiehulpmiddel dat standaard alfabetische tekst omzet in het Internationale Morsecode-systeem (punten/dits en streepjes/dahs) en Morse-tekenreeksen terug decodeert naar leesbare tekst.",
+  "howToUse": [
+    "Om te coderen: Typ standaardtekst in het invoerveld. De morsecode wordt onmiddellijk gegenereerd.",
+    "Om te decoderen: Typ morsecode met punten (.) en koppeltekens (-), waarbij letters gescheiden worden door een enkele spatie en woorden door een schuine streep (/).",
+    "Klik op het 'Afspelen'-pictogram om de Morsecode via audio te horen."
+  ],
+  "howItWorks": "Het hulpmiddel gebruikt een vooraf gedefinieerde woordenboek die elke Engelse letter en cijfer koppelt aan een specifieke reeks van puntjes en streepjes. Voor vertaling doorloopt het de tekenreeks en vervangt het tekens op basis van het woordenboek. Voor audio maakt het gebruik van de Web Audio API om korte en lange oscillatorpiepjes te genereren.",
+  "workedExample": "Het invoeren van 'SOS' in het tekstveld. 'S' is '...', en 'O' is '---'. Het hulpmiddel geeft '... --- ...' als output.",
+  "resultInterpretation": "De visuele output is het exacte ritmische patroon dat nodig is om het bericht te verzenden. Een punt (.) vertegenwoordigt één tijdseenheid, en een streepje (-) vertegenwoordigt drie tijdseenheden.",
+  "useCases": [
+    "Amateur radio: Oefenen van zend- en ontvangstvaardigheden voor een amateurradiovergunning.",
+    "Escape Rooms & Puzzels: Snel een verborgen boodschap in een videospel of ARG ontcijferen.",
+    "Overlevingseducatie: Leren hoe je een noodsignaal kunt uitzenden met een zaklamp of kloppen."
+  ],
+  "tipsAndLimitations": [
+    "Morsecode maakt geen onderscheid tussen hoofdletters en kleine letters.",
+    "De standaard internationale Morsecode ondersteunt de meeste speciale tekens of niet-Latijnse alfabetten niet."
+  ],
+  "faq": [
+    {
+      "answer": "In geschreven Morsecode worden letters meestal gescheiden door een enkele spatie, en volledige woorden worden gescheiden door een schuine streep (/) of drie spaties.",
+      "question": "Hoe scheid je woorden in morsecode?"
+    },
+    {
+      "question": "Kan ik de morsecode horen?",
+      "answer": "Ja! Als uw browser Web Audio ondersteunt, kunt u op de afspeelknop klikken om de exacte ritmische timing van de punten en strepen te horen."
+    }
+  ],
+  "relatedTools": [
+    "base64-encode-decode",
+    "binary-to-decimal",
+    "text-case-converter"
+  ],
+  "cta": "Vertaal je bericht naar morsecode!",
+  "disclaimer": "Het hulpmiddel ondersteunt Internationale Morsecode (ITU-standaard). Het kan gespecialiseerde prosigns of oudere Amerikaanse Morsecode mogelijk niet correct vertalen.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Morsecode-vertalerinterface toont SOS",
+  "ogImageText": "Morsecodevertaler"
+}

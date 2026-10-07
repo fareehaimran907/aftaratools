@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Convertidor de altura",
-  "metaDescription": "Convierta la altura de pies y pulgadas a cm.",
-  "h1": "Convertidor de altura",
-  "primaryKeyword": "convertidor de altura",
+  "seoTitle": "Conversor de Altura - cm a pies y pulgadas",
+  "metaDescription": "Conversor de altura humana gratuito. Convierte entre centímetros (cm) y pies + pulgadas. Perfecto para formularios, pasaportes y apps de citas.",
+  "h1": "Conversor de Altura",
+  "primaryKeyword": "conversor de altura",
   "secondaryKeywords": [
-    "Convertidor de altura en línea",
-    "Convertidor de altura gratuito",
-    "mejor convertidor de altura"
+    "cm a pies y pulgadas",
+    "pies y pulgadas a cm",
+    "calcular estatura"
   ],
-  "slug": "convertidor de altura",
-  "intro": "Convierta fácilmente la altura humana entre sistemas métricos e imperiales.",
-  "whatIs": "¿Qué es esta herramienta?",
-  "howToUse": [
-    "Ingrese sus cm en el campo de entrada designado.",
-    "Proporcione parámetros secundarios como pies y pulgadas.",
-    "Haga clic en el botón calcular o enviar para generar una altura con el formato adecuado.",
-    "Copie o revise el resultado resultante según sus necesidades."
-  ],
-  "howItWorks": "como funciona",
-  "workedExample": "Ejemplos",
-  "resultInterpretation": "Interpretación",
-  "useCases": [
-    "Formularios de licencia de conducir",
-    "Perfiles médicos",
-    "Procesamiento rápido de cm sobre la marcha"
-  ],
-  "tipsAndLimitations": [
-    "Pies y pulgadas no son un decimal simple (por ejemplo, 5,5 no es 5'5\").",
-    "Asegúrese de que sus entradas tengan el formato correcto para obtener los mejores resultados.",
-    "La herramienta se ejecuta completamente en el lado del cliente, lo que garantiza que sus datos permanezcan privados."
-  ],
+  "slug": "convertidor-altura",
+  "intro": "Convertir la estatura entre sistemas puede ser confuso porque el sistema imperial usa dos unidades (pies y pulgadas). Nuestro Conversor de Altura gratuito traduce al instante centímetros a pies y pulgadas, o viceversa.",
+  "whatIs": "Un conversor de altura es una calculadora diseñada para medir la estatura humana. A diferencia de un conversor de longitud estándar, formatea el resultado en pies Y pulgadas (ej. 5'10\").",
+  "howToUse": "Para convertir desde métrico: introduce tu altura en cm. Para convertir desde imperial: introduce pies en una casilla y pulgadas en la otra. Los resultados se actualizan al instante.",
+  "howItWorks": "1 pulgada = 2,54 cm, 1 pie = 12 pulgadas. Para pasar de cm a pies/pulgadas, se dividen los cm por 30,48 para los pies enteros, y el resto decimal se multiplica por 12 para las pulgadas.",
+  "workedExample": "Tu altura es 178 cm. La herramienta calcula: 178 / 2,54 = 70,078 pulgadas. 70 / 12 = 5 con un resto de 10. Por tanto, 178 cm son 5 pies y 10 pulgadas (5'10\").",
+  "resultInterpretation": "El resultado se da en formatos estándar. La porción en pulgadas se suele redondear al número entero más cercano.",
+  "useCases": "Documentos de Viaje: visados o pasaportes de EE. UU. Formularios Médicos: historial clínico internacional. Perfiles Online: apps de fitness o citas.",
+  "tipsAndLimitations": "Un error común es pensar que 5,5 pies son 5 pies y 5 pulgadas. ¡No lo son! Son 5 pies y 6 pulgadas. La estatura humana fluctúa 1-2 cm al día.",
   "faq": [
     {
-      "question": "¿El convertidor de altura es de uso gratuito?",
-      "answer": "Sí, nuestro convertidor de altura es de uso completamente gratuito."
+      "question": "¿Cuánto es 180 cm en pies y pulgadas?",
+      "answer": "180 cm son aproximadamente 5 pies 11 pulgadas (5'11\")."
     },
     {
-      "question": "¿Esto funciona en el móvil?",
-      "answer": "Sí, responde completamente y funciona en todos los dispositivos."
-    },
-    {
-      "question": "¿Necesito descargar algo?",
-      "answer": "No, funciona completamente en tu navegador sin necesidad de instalación."
+      "question": "¿Cómo calculo 5'9\" en cm?",
+      "answer": "5 pies = 60 pulgadas. 60 + 9 = 69 pulgadas. 69 × 2,54 = 175,26 cm."
     }
   ],
   "relatedTools": [
-    "convertidor de longitud",
-    "convertidor de peso",
-    "convertidor de temperatura"
+    "length-converter",
+    "weight-converter",
+    "bmi-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Convertidor de altura",
-  "ogImageText": "Convertidor de altura"
+  "cta": "¡Convierte tu altura al instante para cualquier formulario!",
+  "disclaimer": "Para fines de conveniencia. Usa equipo profesional para fines médicos.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Conversor de altura mostrando cm a pies",
+  "ogImageText": "Conversor Altura"
 }

@@ -1,55 +1,74 @@
 {
-  "seoTitle": "Verhältnisrechner",
-  "metaDescription": "Berechnen Sie fehlende Verhältniswerte.",
+  "seoTitle": "Verhältnisrechner – Verhältnisse berechnen und fehlende Werte finden (A:B = C:D)",
+  "metaDescription": "Kostenloser Online-Verhältnisrechner. Lösen Sie A:B = C:D Gleichungen, finden Sie fehlende Werte und berechnen Sie proportionale Verhältnisse. Ideal für Rezepte und Mathe.",
   "h1": "Verhältnisrechner",
-  "primaryKeyword": "Verhältnisrechner",
+  "primaryKeyword": "verhältnisrechner",
   "secondaryKeywords": [
-    "Verhältnisrechner online",
-    "kostenloser Verhältnisrechner",
-    "Bester Verhältnisrechner"
+    "verhältnisse berechnen",
+    "proportionale verhältnisse",
+    "fehlender wert im verhältnis",
+    "verhältnis lösen",
+    "a:b = c:d rechner",
+    "proportionsrechner",
+    "maßstab rechner"
   ],
-  "slug": "Verhältnisrechner",
-  "intro": "Lösen Sie fehlende Zahlen in äquivalenten Verhältnissen auf oder skalieren Sie Verhältnisse nach oben und unten.",
-  "whatIs": "Was ist das für ein Werkzeug?",
+  "slug": "verhaeltnis-rechner",
+  "intro": "Haben Sie es mit komplexen Proportionen zu tun oder versuchen Sie, einen fehlenden Wert in einem Verhältnis zu finden? Egal, ob Sie ein Lieblingsrezept hochskalieren, die Größe eines Bildes ändern, Chemikalien mischen oder ein schwieriges mathematisches Problem lösen, unser kostenloser Online-Verhältnisrechner macht das Arbeiten mit Proportionen mühelos. Das Tool wurde entwickelt, um Standard-Verhältnisgleichungen (A:B = C:D) sofort zu lösen. Durch die einfache Eingabe von drei beliebigen bekannten Werten berechnet der Rechner automatisch den vierten fehlenden Wert in Echtzeit. Kein manuelles Multiplizieren über Kreuz (Dreisatz) oder Raten mehr – erhalten Sie sofort mathematisch präzise Antworten für alle Ihre Anforderungen an äquivalente Verhältnisse, ohne jemals auf eine Schaltfläche 'Berechnen' klicken zu müssen.",
+  "whatIs": "Ein Verhältnisrechner ist ein spezielles mathematisches Werkzeug zur Lösung von Proportionen, das speziell auf die Gleichung A : B = C : D ausgelegt ist. Ein Verhältnis stellt eine quantitative Beziehung zwischen zwei Zahlen dar und gibt an, wie oft die erste Zahl die zweite enthält. Wenn ein Rezept beispielsweise 2 Tassen Mehl für 1 Tasse Zucker erfordert, beträgt das Verhältnis von Mehl zu Zucker 2:1. Wenn Sie die Rezeptmenge bei exakt gleichem Geschmack erhöhen müssen, erstellen Sie eine Proportion – eine Gleichung, die besagt, dass zwei Verhältnisse gleich sind. Die manuelle Lösung erfordert in der Regel die Überkreuzmultiplikation (Dreisatz) (z. B. A × D = B × C) und algebraische Umformungen. Dieser Rechner automatisiert genau diesen mathematischen Prozess und berechnet sofort jede einzelne fehlende Variable, wenn die anderen drei Variablen angegeben sind. So wird jedes Mal eine perfekte Proportionalität sichergestellt.",
   "howToUse": [
-    "Geben Sie Ihr Verhältnis A in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie Verhältnis B an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um das vereinfachte Verhältnis oder den fehlenden Wert zu generieren.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
+    "Suchen Sie die vier Eingabefelder, die im Format A : B = C : D angeordnet sind.",
+    "Geben Sie die beiden bekannten Werte für das erste Verhältnis (A und B) auf der linken Seite des Gleichheitszeichens ein.",
+    "Geben Sie den bekannten Wert für C oder D auf der rechten Seite ein.",
+    "Lassen Sie das Feld für den unbekannten Wert leer.",
+    "Klicken Sie außerhalb des Eingabefelds oder warten Sie einfach einen Moment. Der Rechner füllt das leere Feld automatisch mit dem korrekten fehlenden Wert aus."
   ],
-  "howItWorks": "Wie es funktioniert",
-  "workedExample": "Beispiele",
-  "resultInterpretation": "Interpretation",
+  "howItWorks": "Unser Verhältnisrechner arbeitet nach dem grundlegenden mathematischen Prinzip der Überkreuzmultiplikation (Dreisatz) zur Lösung von Proportionen. Die zugrunde liegende Gleichung ist A/B = C/D. Wenn Sie drei der vier Variablen angeben, stellt das Tool die Formel sofort um, um nach der fehlenden zu suchen. Wenn beispielsweise D fehlt, berechnet das Tool es mit der Formel D = (B × C) / A. Wenn C fehlt, wird C = (A × D) / B berechnet. Diese Berechnung wird mithilfe von clientseitigem JavaScript in Ihrem Webbrowser sofort ausgeführt. Das bedeutet, dass die mathematischen Operationen lokal auf Ihrem Gerät ablaufen, ohne dass Daten an einen Server gesendet oder die Seite neu geladen werden muss. Das Ergebnis ist sofort da, nahtlos und absolut genau.",
+  "workedExample": "Nehmen wir an, Sie passen ein Rezept an. Das Originalrezept sieht 2 Tassen Zucker (A) und 5 Tassen Mehl (B) vor. Das Verhältnis beträgt 2:5. Sie möchten eine größere Menge mit 10 Tassen Zucker (C) zubereiten und müssen wissen, wie viel Mehl (D) Sie verwenden müssen, um exakt die gleiche Proportion beizubehalten.\n\nSie stellen die Gleichung auf: 2 : 5 = 10 : D.\nUm sie manuell zu lösen, multiplizieren Sie über Kreuz: 2 × D = 5 × 10.\nDas vereinfacht sich zu: 2D = 50.\nDann teilen Sie beide Seiten durch 2: D = 50 / 2 = 25.\nSie benötigen also 25 Tassen Mehl. Wenn Sie 2, 5 und 10 in unseren Rechner eingeben, führt er genau diese Logik sofort aus und zeigt 25 im Feld D an.",
+  "resultInterpretation": "Das Ergebnis wird direkt in den Eingabefeldern selbst interpretiert. Im Gegensatz zu Rechnern, die Ergebnisse in einem separaten Feld anzeigen, füllt dieses Tool den fehlenden Wert genau dort aus, wo er in die Gleichung A:B = C:D hingehört. Wenn Sie Werte für A, B und C eingegeben haben, füllt das Tool das Feld D automatisch mit der berechneten Zahl aus. Diese Zahl stellt den genauen Wert dar, der erforderlich ist, um das Verhältnis auf der rechten Seite (C:D) mathematisch äquivalent zum Verhältnis auf der linken Seite (A:B) zu machen. Sie können auch eine vorhandene Zahl überschreiben, um in Echtzeit neu zu rechnen, wodurch sich verschiedene Szenarien unglaublich einfach testen lassen.",
   "useCases": [
-    "Bildschirmseitenverhältnisse",
-    "Mischen von Farbe oder Beton",
-    "Schnelle Verarbeitung von Ratio A für unterwegs"
+    "Kochen & Backen: Rezepte präzise vergrößern oder verkleinern, wobei die perfekte Ausgewogenheit der Zutaten beibehalten wird (z. B. Verdoppeln eines Rezepts).",
+    "Grafikdesign & Fotografie: Ändern der Größe von Bildern oder Leinwänden unter strikter Beibehaltung des ursprünglichen Seitenverhältnisses, um Verzerrungen zu vermeiden.",
+    "Bauwesen & Ingenieurwesen: Maßstabsmodelle berechnen, Beton in den richtigen Proportionen mischen oder den Materialbedarf bestimmen.",
+    "Finanzen & Währung: Wechselkurse berechnen oder proportionale Verteilungen von Geldern, Gewinnen oder gemeinsamen Kosten ermitteln.",
+    "Bildung & Lehre: Schüler können ihre Antworten schnell überprüfen, wenn sie Algebra-Hausaufgaben im Zusammenhang mit Proportionen und Dreisatz lösen."
   ],
   "tipsAndLimitations": [
-    "Verhältnisse funktionieren mathematisch ähnlich wie Brüche.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten privat bleiben."
+    "Der Rechner benötigt genau drei Werte, um den vierten zu berechnen. Er kann keine Gleichung mit zwei oder mehr fehlenden Variablen lösen.",
+    "Sie können für hochpräzise Berechnungen nicht nur ganze Zahlen, sondern auch Dezimalzahlen (z. B. 1,5; 2,75) eingeben.",
+    "Das Tool berechnet automatisch neu, wenn Sie außerhalb eines Eingabefelds klicken (onBlur).",
+    "Vermeiden Sie die Eingabe von Null (0) in den Feldern A oder B, wenn Sie die andere Seite berechnen möchten, da dies zu Fehlern durch Division durch Null führen kann.",
+    "Der Rechner sucht derzeit nach C oder D. Stellen Sie sicher, dass Ihr bekanntes vollständiges Verhältnis auf der linken Seite (A und B) eingegeben wird."
   ],
   "faq": [
     {
-      "question": "Was ist der Goldene Schnitt?",
-      "answer": "Ungefähr 1,618 zu 1."
+      "question": "Kann ich im Verhältnisrechner Dezimalzahlen oder Brüche verwenden?",
+      "answer": "Sie können in jedem der Felder Dezimalzahlen (wie 2,5 oder 0,75) verwenden. Der Rechner akzeptiert jedoch derzeit keine direkten Bruchformate (wie 1/2); Sie müssen diese zuerst in Dezimalzahlen (0,5) umwandeln."
     },
     {
-      "question": "Ist die Nutzung des Verhältnisrechners kostenlos?",
-      "answer": "Ja, unser Verhältnisrechner ist völlig kostenlos und erfordert keine Registrierung."
+      "question": "Was passiert, wenn ich nur zwei Zahlen eingebe?",
+      "answer": "Der Rechner benötigt ein vollständiges Ausgangsverhältnis (A und B) und einen Teil des Zielverhältnisses (entweder C oder D). Wenn Sie nur zwei Zahlen eingeben, hat er nicht genügend Informationen, um die Proportion zu lösen, und berechnet kein Ergebnis."
     },
     {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, das Tool reagiert vollständig und funktioniert auf allen Smartphones und Tablets einwandfrei."
+      "question": "Kann er anstelle von C oder D auch nach A oder B auflösen?",
+      "answer": "Die aktuelle Schnittstelle ist so optimiert, dass die rechte Seite der Gleichung (C oder D) gelöst wird. Um nach einem fehlenden Wert auf der linken Seite aufzulösen, tauschen Sie einfach Ihre bekannten und unbekannten Seiten aus, sodass das vollständige Verhältnis auf der linken Seite steht."
+    },
+    {
+      "question": "Ist das dasselbe wie die Berechnung eines Seitenverhältnisses?",
+      "answer": "Ja! Seitenverhältnisse (wie 16:9 für Bildschirme) funktionieren genau so. Wenn Sie ein 16:9-Verhältnis und eine Breite von 1920 Pixeln (C) haben, können Sie dieses Tool verwenden, um die Höhe (D) zu ermitteln, indem Sie 16:9 = 1920:D eingeben."
+    },
+    {
+      "question": "Warum wurde das Ergebnis während der Eingabe nicht sofort aktualisiert?",
+      "answer": "Der Rechner aktualisiert das Ergebnis, sobald Sie mit der Eingabe fertig sind und zum nächsten Feld wechseln oder außerhalb des Felds klicken. Dadurch wird verhindert, dass unvollständige Zahlen berechnet werden, während Sie noch tippen."
     }
   ],
   "relatedTools": [
-    "Bruchrechner",
-    "Durchschnittsrechner",
-    "GPA-Rechner"
+    "fraction-calculator",
+    "percentage-calculator",
+    "average-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Verhältnisrechner",
+  "cta": "Müssen Sie jetzt sofort eine knifflige Proportion lösen? Geben Sie Ihre drei bekannten Werte in die obigen Felder ein, um sofort die fehlende Zahl zu berechnen und Ihr Verhältnis zu perfektionieren.",
+  "disclaimer": "Dieses Tool soll schnelle und genaue Berechnungen für allgemeine Bildungs-, Privat- und Berufszwecke ermöglichen. Überprüfen Sie kritische Berechnungen immer manuell, insbesondere bei exakten chemischen Mischungen, im Bauingenieurwesen oder bei wichtigen finanziellen Verteilungen.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Benutzeroberfläche des Verhältnisrechners mit vier Eingabefeldern im Format A:B = C:D",
   "ogImageText": "Verhältnisrechner"
 }

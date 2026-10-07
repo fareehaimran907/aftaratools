@@ -6,20 +6,21 @@
   "secondaryKeywords": [
     "Calculateur d'heures de travail en ligne",
     "Calculateur d'heures de travail gratuit",
+    "meilleur calculateur d'heures de travail",
     "meilleur calculateur d'heures de travail"
   ],
-  "slug": "calculateur d'heures de travail",
-  "intro": "Additionnez facilement les heures de votre feuille de temps, pauses comprises.",
-  "whatIs": "Quel est cet outil ?",
+  "slug": "calculateur-heures-travail",
+  "intro": "Passez-vous trop de temps à calculer manuellement vos chèques de paie hebdomadaires ou à essayer de déterminer si des heures supplémentaires vous sont dues ? Notre calculateur d'heures de travail en ligne gratuit élimine les maux de tête liés au suivi du temps. Que vous soyez un pigiste facturant des clients à l'heure, un employé vérifiant son chèque de paie ou un responsable planifiant un quart de travail, cet outil calcule avec précision le total des heures travaillées et le salaire attendu. En entrant simplement vos heures de début et de fin ainsi que les pauses non rémunérées, la calculatrice détermine instantanément votre temps de travail exact à la minute près. Simplifiez votre paie, assurez une facturation précise et obtenez une transparence totale sur vos revenus.",
+  "whatIs": "Le calculateur d'heures de travail est un outil complet de gestion du temps et de la paie conçu pour calculer le temps exact passé au travail et les revenus qui en résultent. Contrairement aux horloges simples, cet outil gère les mathématiques complexes du format de temps (heures et minutes) qui sont traditionnellement fastidieuses à calculer manuellement pour la paie. Vous entrez l'heure de début et l'heure de fin pour chaque jour, spécifiez les pauses non rémunérées (comme le déjeuner), et le système détermine instantanément le total des heures nettes travaillées. Si vous fournissez un taux horaire, il fonctionne également comme un estimateur de salaire brut, ce qui facilite la projection des revenus ou la création de factures pour une période de paie quotidienne, hebdomadaire ou bihebdomadaire.",
   "howToUse": [
     "Entrez votre horloge dans le champ de saisie désigné.",
     "Fournissez tous les paramètres secondaires tels que l’heure de sortie.",
     "Cliquez sur le bouton Calculer ou Soumettre pour générer le total des heures moins les pauses non rémunérées.",
     "Copiez ou examinez le résultat obtenu selon vos besoins."
   ],
-  "howItWorks": "Comment ça marche",
-  "workedExample": "Exemples",
-  "resultInterpretation": "Interprétation",
+  "howItWorks": "L'outil fonctionne en traduisant les entrées de temps standard au format 12 heures ou 24 heures en temps décimal requis pour les calculs de paie. Par exemple, si vous pointez à 8h00 et pointez à 16h30, il calcule les 8 heures et 30 minutes intermédiaires. Si vous détaillez une pause non rémunérée de 30 minutes, il la soustrait, ce qui donne exactement 8 heures de temps de travail. Ces 8 heures sont ensuite multipliées par le taux horaire que vous avez fourni pour estimer le salaire brut de cette journée. Pour les saisies sur plusieurs jours, la calculatrice additionne ces totaux quotidiens pour fournir des heures et des revenus cumulés à la semaine ou à la période de paie, garantissant qu'aucune minute n'est négligée.",
+  "workedExample": "Supposons que vous soyez un pigiste qui facture 25 USD de l'heure. Le lundi, vous commencez à travailler à 9h00, prenez un déjeuner non rémunéré de 45 minutes à midi et terminez votre travail à 17h15. Vous saisissez ces heures dans la calculatrice. L'outil calcule le temps total entre 9h00 et 17h15 comme étant de 8 heures et 15 minutes. Ensuite, il soustrait la pause de 45 minutes, ce qui donne exactement 7 heures et 30 minutes de temps facturable. Pour le calcul des revenus, il convertit les 30 minutes en une décimale de 0,5 heure. Il multiplie ensuite 7,5 heures par votre taux de 25 USD, ce qui donne un revenu total de 187,50 USD pour cette journée.",
+  "resultInterpretation": "Les résultats générés par le calculateur affichent généralement deux mesures clés : votre temps de travail net total (présenté en heures et en minutes ainsi qu'au format décimal) et vos revenus bruts estimés. Le format d'heure décimale (par exemple, 7,5 heures au lieu de 7 heures et 30 minutes) est crucial car c'est le format standard utilisé par les systèmes de paie. Les revenus bruts affichés correspondent à votre salaire avant impôts et déductions ; ils représentent ce que vous avez gagné sur la seule base de votre taux horaire. Ces données peuvent être utilisées directement pour facturer les clients, vérifier votre chèque de paie officiel pour détecter les écarts ou suivre le seuil des heures supplémentaires.",
   "useCases": [
     "Facturation indépendante",
     "Estimation de la masse salariale",
@@ -27,8 +28,7 @@
   ],
   "tipsAndLimitations": [
     "Ne calcule pas automatiquement les taxes.",
-    "Assurez-vous que vos entrées sont correctement formatées pour obtenir les meilleurs résultats.",
-    "L'outil fonctionne entièrement côté client, garantissant que vos données restent privées."
+    "Assurez-vous que vos entrées sont correctement formatées pour obtenir les meilleurs résultats."
   ],
   "faq": [
     {
@@ -38,17 +38,15 @@
     {
       "question": "Est-ce que ça marche sur mobile ?",
       "answer": "Oui, il est entièrement réactif et fonctionne sur tous les appareils."
-    },
-    {
-      "question": "Dois-je télécharger quelque chose ?",
-      "answer": "Non, cela fonctionne entièrement dans votre navigateur sans aucune installation."
     }
   ],
   "relatedTools": [
-    "calculateur d'âge",
-    "calculateur de différence de date",
-    "jours entre les dates"
+    "overtime-calculator",
+    "tax-calculator",
+    "roi-calculator"
   ],
+  "cta": "Calculez vos heures de travail hebdomadaires maintenant !",
+  "disclaimer": "Cet outil calcule strictement le temps écoulé moins les pauses. Consultez les lois locales du travail concernant les pauses rémunérées obligatoires par rapport aux périodes de repas non rémunérées.",
   "lastReviewed": "2026-09-30",
   "imageAlt": "Calculateur d'heures de travail",
   "ogImageText": "Calculateur d'heures de travail"

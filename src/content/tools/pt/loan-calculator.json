@@ -1,55 +1,64 @@
 {
-  "seoTitle": "Calculadora de Empréstimo",
-  "metaDescription": "Calcule pagamentos mensais e juros para qualquer empréstimo.",
+  "seoTitle": "Calculadora de Empréstimo - Calcule Parcelas Mensais e Juros Totais",
+  "metaDescription": "Calculadora de empréstimo gratuita. Calcule suas parcelas mensais, juros totais e custo geral de empréstimos pessoais, veiculares ou empresariais instantaneamente.",
   "h1": "Calculadora de Empréstimo",
   "primaryKeyword": "calculadora de empréstimo",
   "secondaryKeywords": [
-    "Calculadora de empréstimo on-line",
-    "Calculadora de empréstimo grátis",
-    "melhor calculadora de empréstimo"
+    "calculadora empréstimo pessoal",
+    "calculadora financiamento auto",
+    "calculadora parcela mensal",
+    "calculadora juros empréstimo"
   ],
-  "slug": "calculadora de empréstimo",
-  "intro": "Determine seu pagamento mensal, juros totais e custo total de um empréstimo.",
-  "whatIs": "O que é essa ferramenta?",
+  "slug": "calculadora-de-emprestimo",
+  "intro": "Planeja tomar um empréstimo? Nossa Calculadora de Empréstimo gratuita ajuda você a estimar as parcelas mensais, os juros totais e o custo geral de qualquer empréstimo antes de assinar. Seja para financiar um carro, consolidar dívidas ou reformar a casa, conhecer os números exatos permite comparar ofertas e escolher a opção mais acessível.",
+  "whatIs": "Uma calculadora de empréstimo é uma ferramenta essencial de planejamento financeiro que calcula a parcela mensal fixa e o custo total de juros de um empréstimo com base em três variáveis: o valor principal, a taxa de juros anual do credor e o prazo do empréstimo. A base matemática é a fórmula padrão de amortização.",
   "howToUse": [
-    "Insira o valor do empréstimo no campo de entrada designado.",
-    "Forneça quaisquer parâmetros secundários, como taxa de juros.",
-    "Clique no botão calcular ou enviar para gerar o pagamento mensal amortizado e os juros totais.",
-    "Copie ou revise a saída resultante de acordo com suas necessidades."
+    "Insira o valor total do Empréstimo — o principal que planeja pedir emprestado.",
+    "Digite a Taxa de Juros Anual da sua proposta de empréstimo.",
+    "Especifique o Prazo do Empréstimo em anos ou meses.",
+    "Clique em 'Calcular Empréstimo' para ver a parcela mensal fixa, juros totais e custo total."
   ],
-  "howItWorks": "Como funciona",
-  "workedExample": "Exemplos",
-  "resultInterpretation": "Interpretação",
+  "howItWorks": "A calculadora usa a fórmula padrão de amortização: M = P[r(1+r)^n] / [(1+r)^n - 1], onde M é a parcela mensal fixa, P é o principal, r é a taxa mensal e n é o número total de parcelas.",
+  "workedExample": "Se pegar emprestado R$ 10.000 a 5% de juros anuais por 5 anos (60 meses): a parcela mensal é R$ 188,71. Em 60 pagamentos, você paga um total de R$ 11.322,74. O custo do empréstimo — os juros totais — é de R$ 1.322,74.",
+  "resultInterpretation": "Seus resultados incluem três valores-chave. Parcela Mensal é o valor fixo mensal. Juros Totais é o custo acumulado do empréstimo. Pagamento Total é a soma de tudo que você devolverá.",
   "useCases": [
-    "Comprando um carro",
-    "Contratando um empréstimo pessoal",
-    "Processando rapidamente o valor do empréstimo em qualquer lugar"
+    "Financiamento de Veículo: calcule a parcela mensal exata antes de visitar uma concessionária.",
+    "Empréstimo Pessoal: planeje um orçamento para consolidação de dívidas ou reformas.",
+    "Empréstimo Empresarial: avalie o impacto mensal no fluxo de caixa ao financiar equipamentos.",
+    "Comparação de Ofertas: compare múltiplas ofertas alterando a taxa ou o prazo."
   ],
   "tipsAndLimitations": [
-    "Não inclui seguro ou multas por atraso.",
-    "Certifique-se de que suas entradas estejam formatadas corretamente para obter os melhores resultados.",
-    "A ferramenta é totalmente executada no lado do cliente, garantindo que seus dados permaneçam privados."
+    "Esta calculadora assume taxa de juros fixas para toda a duração do empréstimo.",
+    "O resultado mostra apenas principal e juros, sem taxas adicionais.",
+    "Pagamentos extras ao principal podem reduzir significativamente os juros totais."
   ],
   "faq": [
     {
-      "question": "O uso da Calculadora de Empréstimos é gratuito?",
-      "answer": "Sim, nossa Calculadora de Empréstimos é totalmente gratuita."
+      "question": "Qual é uma boa taxa para empréstimo pessoal?",
+      "answer": "As taxas dependem muito do seu score de crédito, renda e credor. Em geral, taxas abaixo de 10% são consideradas competitivas para empréstimos pessoais no Brasil."
     },
     {
-      "question": "Isso funciona no celular?",
-      "answer": "Sim, é totalmente responsivo e funciona em todos os dispositivos."
+      "question": "Posso quitar o empréstimo antes do prazo?",
+      "answer": "Sim, e isso economiza juros. Verifique, porém, se há multa por liquidação antecipada no contrato."
     },
     {
-      "question": "Preciso baixar alguma coisa?",
-      "answer": "Não, funciona totalmente no seu navegador sem qualquer instalação."
+      "question": "Como pagamentos extras afetam meu empréstimo?",
+      "answer": "Pagamentos extras vão diretamente para reduzir o saldo principal, diminuindo os juros dos meses seguintes e podendo encurtar o prazo total."
+    },
+    {
+      "question": "Qual a diferença entre CET e taxa de juros?",
+      "answer": "A taxa de juros é o custo de pedir o principal emprestado. O CET (Custo Efetivo Total) inclui a taxa mais tarifas e outros custos."
     }
   ],
   "relatedTools": [
-    "calculadora de porcentagem",
-    "calculadora de salário",
-    "calculadora de descontos"
+    "mortgage-calculator",
+    "emi-calculator",
+    "compound-interest-calculator",
+    "simple-interest-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calculadora de Empréstimo",
+  "cta": "Calcule agora as parcelas do seu empréstimo e tome o controle das suas decisões de crédito!",
+  "disclaimer": "Esta ferramenta fornece estimativas apenas para fins educativos. Condições reais de empréstimo, taxas e tarifas variam conforme o credor e a análise de crédito.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Calculadora de empréstimo mostrando parcela mensal, juros totais e resumo do pagamento total",
   "ogImageText": "Calculadora de Empréstimo"
 }

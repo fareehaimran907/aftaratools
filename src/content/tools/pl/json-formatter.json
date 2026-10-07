@@ -1,55 +1,71 @@
 {
-  "seoTitle": "Formater JSON",
-  "metaDescription": "Bezpłatny internetowy formater JSON. Formatuj, sprawdzaj i upiększaj dane JSON.",
-  "h1": "Formater JSON",
-  "primaryKeyword": "formater json",
+  "seoTitle": "Darmowy Formatizer JSON Online | Walidator JSON",
+  "metaDescription": "Łatwo formatuj i waliduj dane JSON za pomocą naszego darmowego formatizera JSON. Szybko poprawiaj błędy składni i minifikuj kod JSON w przeglądarce.",
+  "h1": "Darmowy Formatizer JSON Online",
+  "primaryKeyword": "formatizer json",
   "secondaryKeywords": [
-    "formater json online",
-    "darmowy formater json",
-    "najlepszy formater json"
+    "walidator json",
+    "upiększ json",
+    "parser json",
+    "minifikator json",
+    "formatuj json online"
   ],
-  "slug": "formater json",
-  "intro": "Skorzystaj z naszego bezpłatnego internetowego narzędzia formatującego JSON. Upiększa ciągi JSON w oparciu o Twoje dane wejściowe.",
-  "whatIs": "JSON Formatter to narzędzie online upiększające ciągi JSON. Przetwarza surowy ciąg JSON i zapewnia JSON z odpowiednim wcięciem i podświetloną składnią.",
+  "slug": "formater-json",
+  "intro": "Praca z nieufomatyzowanym JSON bywa frustrująca dla deweloperów. Nasz darmowy Formatizer JSON pozwala błyskawicznie upiększyć, zwalidować i sparsować kod JSON. Narzędzie automatycznie dodaje wcięcia i podświetla błędy, abyś mógł od razu je poprawić.",
+  "whatIs": "Formatizer JSON to niezbędne narzędzie deweloperskie do zamiany surowych danych JSON w bardzo czytelny format z odpowiednimi wcięciami. Ponieważ serwery najczęściej zwracają JSON w jednej długiej linii, by oszczędzać transfer, formatizer przetwarza ten ciąg i nadaje mu czytelną strukturę drzewa.",
   "howToUse": [
-    "Wprowadź surowy ciąg JSON w wyznaczonym polu wejściowym.",
-    "Podaj dowolne parametry dodatkowe, takie jak preferencje wcięcia.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować plik JSON z prawidłowym wcięciem i podświetloną składnią.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
+    "Wklej swój kod JSON w lewym panelu wejściowym.",
+    "Kliknij 'Formatuj', aby błyskawicznie upiększyć kod.",
+    "Jeśli występują błędy składni, zobaczysz ostrzeżenie i informację o błędzie.",
+    "Aby skompresować JSON do jednej linii, kliknij 'Minifikuj'.",
+    "Użyj przycisku 'Kopiuj', by zapisać wynik w schowku."
   ],
-  "howItWorks": "To narzędzie działa w Twojej przeglądarce, stosując standardowe algorytmy do surowego ciągu JSON. Natychmiast przetwarza dane, aby wyprowadzić plik JSON z odpowiednim wcięciem i podświetloną składnią.",
-  "workedExample": "Na przykład: Konwertuje `{\"a\":1}` na ciąg wielowierszowy ze spacjami.",
-  "resultInterpretation": "Wynik reprezentuje JSON z prawidłowym wcięciem i podświetloną składnią. Możesz użyć tych danych do konkretnych obliczeń lub potrzeb formatowania.",
+  "howItWorks": "Narzędzie działa w całości w przeglądarce za pomocą standardowych metod JavaScript. Próbuje przetworzyć ciąg przez `JSON.parse()`. Jeśli się uda, konwertuje go z powrotem funkcją `JSON.stringify()` z wcięciami o szerokości 2 spacji. Twoje dane są w 100% bezpieczne, ponieważ nigdy nie opuszczają Twojego urządzenia.",
+  "workedExample": "Otrzymujesz JSON z API: `{\"user\":{\"id\":101,\"name\":\"John\",\"active\":true}}`. Wklejając to do Formatizera JSON, otrzymasz wieloliniową i łatwą w czytaniu odpowiedź.",
+  "resultInterpretation": "Wynik pokazuje zoptymalizowany kod JSON z 2-spacyjnymi wcięciami. Każdy element tablicy czy obiektu zaczyna się od nowej linii, dzięki czemu łatwo znaleźć brakujące przecinki lub niedomknięte nawiasy.",
   "useCases": [
-    "Debugowanie odpowiedzi API",
-    "Odczyt plików konfiguracyjnych",
-    "Szybkie przetwarzanie surowego ciągu JSON w podróży"
+    "Debugowanie odpowiedzi API: Błyskawicznie sprawdzaj zagnieżdżone obiekty z serwerów REST.",
+    "Pliki konfiguracyjne: Upewnij się, że pliki takie jak package.json nie zawierają błędów przed zrobieniem commita.",
+    "Minifikacja: Zmniejsz rozmiar pakietu JSON przed wysłaniem w sieci.",
+    "Walidacja składni: Szybko namierz niedozwolone znaki lub przecinki."
   ],
   "tipsAndLimitations": [
-    "Nieprawidłowy JSON spowoduje błąd składni.",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
+    "Klucze w JSON zawsze muszą być zamknięte w podwójnych cudzysłowach.",
+    "Przecinek po ostatnim elemencie obiektu/tablicy powoduje błąd.",
+    "Bardzo duże pliki JSON (powyżej 50MB) mogą spowolnić przeglądarkę.",
+    "Komentarze (//) są niedozwolone w specyfikacji JSON."
   ],
   "faq": [
     {
-      "question": "Czy moje dane są wysyłane na serwer?",
-      "answer": "Nie, całe formatowanie odbywa się bezpiecznie w Twojej lokalnej przeglądarce."
+      "question": "Czy moje dane JSON są przesyłane na serwer?",
+      "answer": "Nie, wszystko odbywa się całkowicie po stronie klienta."
     },
     {
-      "question": "Czy korzystanie z narzędzia formatującego JSON jest bezpłatne?",
-      "answer": "Tak, nasz formater JSON jest całkowicie darmowy i nie wymaga rejestracji."
+      "question": "Czym się różni JSON od zwykłych obiektów JS?",
+      "answer": "JSON jest bardziej rygorystyczny - wszystkie klucze muszą być w podwójnych cudzysłowach, a funkcje są niedozwolone."
     },
     {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, narzędzie jest w pełni responsywne i doskonale działa na wszystkich smartfonach i tabletach."
+      "question": "Jak naprawić błąd Nieprawidłowy JSON?",
+      "answer": "Sprawdź, czy brakuje cudzysłowów, albo czy na końcu obiektu jest zbędny przecinek."
+    },
+    {
+      "question": "Czy to narzędzie może zminifikować JSON?",
+      "answer": "Tak, wystarczy użyć opcji 'Minifikuj'."
+    },
+    {
+      "question": "Czy JSON z komentarzami będzie działać?",
+      "answer": "Nie, standardowy JSON nie zezwala na komentarze."
     }
   ],
   "relatedTools": [
-    "dekodowanie-kodowanie-base64",
-    "kodowanie-adres URL-dekodowanie",
-    "kodowanie-dekodowanie HTML"
+    "base64-encode-decode",
+    "url-encode-decode",
+    "html-encode-decode",
+    "character-counter"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Zrzut ekranu interfejsu formatera JSON",
-  "ogImageText": "Formater JSON"
+  "cta": "Zadbaj o porządek w kodzie. Wklej nieczytelny format do naszego Formatizera JSON i ciesz się czystą składnią już teraz.",
+  "disclaimer": "Narzędzie zostało stworzone dla deweloperów do wygodnej pracy na co dzień. Pamiętaj jednak, by z zasady nie wklejać do przeglądarki wrażliwych danych osobowych.",
+  "lastReviewed": "2026-10-01",
+  "imageAlt": "Zrzut ekranu narzędzia Formatizer JSON",
+  "ogImageText": "Formatizer i Walidator JSON"
 }

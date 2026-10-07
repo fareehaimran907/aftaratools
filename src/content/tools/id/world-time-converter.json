@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Konverter Waktu Dunia",
-  "metaDescription": "Konversi waktu di berbagai kota di seluruh dunia.",
+  "seoTitle": "Konverter Waktu Dunia - Bandingkan Zona Waktu Secara Global",
+  "metaDescription": "Ubah waktu antara beberapa zona waktu global secara instan. Bandingkan waktu saat ini atau pilih tanggal dan waktu tertentu untuk melihat waktu yang setara di seluruh dunia.",
   "h1": "Konverter Waktu Dunia",
   "primaryKeyword": "konverter waktu dunia",
   "secondaryKeywords": [
-    "Pengonversi Waktu Dunia online",
-    "Konverter Waktu Dunia gratis",
-    "Konverter Waktu Dunia terbaik"
+    "bandingkan zona waktu",
+    "konverter waktu global",
+    "konversi waktu internasional",
+    "jam berapa sekarang di"
   ],
-  "slug": "konverter waktu dunia",
-  "intro": "Periksa waktu saat ini di kota-kota besar di seluruh dunia.",
-  "whatIs": "Alat apa ini?",
+  "slug": "konverter-waktu-dunia",
+  "intro": "Apakah Anda perlu mengetahui waktu saat ini yang tepat di kota-kota di seluruh dunia? Baik Anda menjadwalkan panggilan dengan rekan kerja di berbagai negara, merencanakan streaming langsung untuk pemirsa internasional, atau sekadar memeriksa anggota keluarga di luar negeri, mengetahui waktu setempat yang tepat di mana saja di dunia adalah hal yang penting. Pengonversi Waktu Dunia kami menampilkan waktu langsung saat ini untuk kota atau zona waktu apa pun yang Anda pilih, diperbarui secara waktu nyata. Ini adalah cara tercepat untuk melihat jam berapa di mana saja di planet ini tanpa harus menghitung perbedaan zona waktu dari waktu lokal Anda sendiri. Semuanya berjalan langsung di browser Anda menggunakan jam perangkat Anda, jadi tidak ada akun yang dibutuhkan dan tidak ada data yang dikirim ke server.",
+  "whatIs": "Pengonversi Waktu Dunia adalah utilitas waktu nyata yang menampilkan waktu setempat saat ini di kota atau zona waktu yang dipilih di seluruh dunia. Tidak seperti bagan perbedaan zona waktu statis yang mengharuskan Anda menambah atau mengurangi jam secara manual dari UTC, alat ini melakukan semua pekerjaan untuk Anda dengan memanfaatkan jam sistem perangkat Anda dan menerapkan penyesuaian UTC yang sesuai untuk lokasi yang dipilih. Alat ini mendukung semua kota besar dunia dan zona waktu IANA, dan secara otomatis menangani transisi Waktu Musim Panas (DST) sehingga Anda selalu melihat waktu saat ini yang benar. Hal ini membuatnya sangat berharga bagi pekerja jarak jauh, bisnis internasional, pelancong yang sering bepergian, dan siapa saja yang secara teratur berkomunikasi melintasi zona waktu.",
   "howToUse": [
-    "Masukkan waktu kota sumber Anda ke dalam kolom input yang ditentukan.",
-    "Berikan parameter sekunder seperti kota target.",
-    "Klik tombol hitung atau kirim untuk menghasilkan waktu lokal di tujuan.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Lihat mode 'Waktu Langsung' untuk melihat jam yang disinkronkan untuk semua kota yang dipilih.",
+    "Klik 'Waktu Khusus' untuk memilih tanggal dan waktu tertentu.",
+    "Gunakan menu tarik-turun di bagian bawah untuk menambahkan lebih banyak zona waktu."
   ],
-  "howItWorks": "Bagaimana cara kerjanya",
-  "workedExample": "Contoh",
-  "resultInterpretation": "Interpretasi",
+  "howItWorks": "Alat ini membaca tanggal dan waktu saat ini pada peramban Anda melalui API Tanggal JavaScript. Bila Anda memilih kota atau zona waktu tujuan, konverter menerapkan penyesuaian UTC yang sesuai—termasuk penyesuaian DST aktif—untuk menghitung waktu setempat yang tepat di lokasi tersebut. Tampilannya diperbarui setiap detik sehingga Anda selalu melihat jam langsung, bukan cuplikan waktu yang sudah lewat. Semua data zona waktu berasal dari Database Zona Waktu IANA, yang merupakan sumber otoritatif global untuk aturan zona waktu, perubahan historis, dan jadwal DST. Karena kalkulasinya dilakukan sepenuhnya di peramban Anda, hasilnya seketika dan privasi Anda terlindungi sepenuhnya.",
+  "workedExample": "Misalkan saat ini pukul 2:30 siang pada tanggal 1 Oktober 2026 di New York (EDT, UTC-4). Anda ingin tahu waktu saat ini di Tokyo, Jepang (JST, UTC+9). Perbedaan penyesuaiannya adalah +13 jam. Konverter ini menambahkan 13 jam ke pukul 2:30 siang dan menampilkan pukul 3:30 pagi pada 2 Oktober 2026 di Tokyo. Jika Anda juga memeriksa London (BST, UTC+1 selama musim panas), konverter ini menunjukkan pukul 7:30 malam pada 1 Oktober 2026. Semua konversi ini terjadi secara otomatis dan diperbarui setiap detik, sehingga Anda selalu melihat waktu saat ini di setiap kota.",
+  "resultInterpretation": "Waktu yang ditampilkan adalah waktu setempat saat ini yang tepat di kota atau zona waktu yang dipilih, dengan memperhitungkan penyesuaian Waktu Musim Panas yang aktif. Tanggal juga ditampilkan karena perbedaan zona waktu dapat mendorong hasil ke hari kalender berikutnya atau sebelumnya. Misalnya, jika di New York pukul 11 ​​malam pada hari Senin, di London sudah pukul 4 pagi pada hari Selasa. Selalu perhatikan tampilan tanggal dan waktu yang lengkap untuk menghindari kesalahan penjadwalan yang melampaui batas tengah malam. Jika Anda perlu membandingkan beberapa kota secara bersamaan, Anda dapat menambahkan beberapa zona waktu ke layar dan melihat semuanya diperbarui secara waktu nyata.",
   "useCases": [
-    "Menjadwalkan pertemuan internasional",
-    "Perencanaan perjalanan",
-    "Memproses waktu kota sumber dengan cepat saat bepergian"
+    "Rapat Internasional: Menemukan jam kerja yang tumpang tindih untuk tim jarak jauh.",
+    "Rencana Perjalanan: Mengetahui dengan pasti jam berapa Anda akan mendarat.",
+    "Acara Langsung: Mengubah waktu siaran global ke zona waktu lokal Anda."
   ],
   "tipsAndLimitations": [
-    "Waktu musim panas berubah secara otomatis berdasarkan aturan saat ini.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "Selalu periksa kembali tanggal di sekitar perubahan Waktu Musim Panas, karena terjadi pada hari yang berbeda untuk negara yang berbeda.",
+    "تأكد دائمًا من تحديد المدينة الصحيحة إذا كان هناك عدة مدن بنفس الاسم."
   ],
   "faq": [
     {
-      "question": "Apakah Pengonversi Waktu Dunia gratis untuk digunakan?",
-      "answer": "Ya, Pengonversi Waktu Dunia kami sepenuhnya gratis untuk digunakan."
+      "question": "Apakah ini menyesuaikan secara otomatis untuk Waktu Musim Panas (DST)?",
+      "answer": "Ya, dengan memanfaatkan basis data zona waktu browser asli, semua aturan DST untuk kota yang dipilih diterapkan secara otomatis."
     },
     {
-      "question": "Apakah ini berfungsi di perangkat seluler?",
-      "answer": "Ya, ini sepenuhnya responsif dan berfungsi di semua perangkat."
-    },
-    {
-      "question": "Apakah saya perlu mengunduh sesuatu?",
-      "answer": "Tidak, ini berfungsi sepenuhnya di browser Anda tanpa instalasi apa pun."
+      "question": "هل يتم احتساب التوقيت الصيفي؟",
+      "answer": "نعم، يتم ضبط الوقت تلقائيًا للتوقيت الصيفي عند الاقتضاء بناءً على قواعد المنطقة الزمنية المحددة."
     }
   ],
   "relatedTools": [
-    "kalkulator usia",
-    "kalkulator-perbedaan tanggal",
-    "hari-antara-tanggal"
+    "time-zone-converter",
+    "unix-timestamp-converter",
+    "time-difference-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Konverter Waktu Dunia",
+  "cta": "Mulai bandingkan waktu dunia sekarang!",
+  "disclaimer": "Alat ini bergantung pada basis data zona waktu yang diperbarui di browser Anda untuk akurasi.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Tangkapan layar Konverter Waktu Dunia",
   "ogImageText": "Konverter Waktu Dunia"
 }

@@ -1,55 +1,61 @@
 {
-  "seoTitle": "Tarihler Arasındaki Aylar",
-  "metaDescription": "İki tarih arasında kalan ayların ve kalan günlerin sayısını hesaplayın.",
-  "h1": "Tarihler Arasındaki Aylar",
-  "primaryKeyword": "tarihler arasındaki aylar",
+  "seoTitle": "Tarihler Arası Ay Hesaplayıcı - Tam Ayları Bulun",
+  "metaDescription": "İki tarih arasında tam olarak kaç ay olduğunu hesaplayın. Bu hesaplayıcı, toplam süreyi anında tam aylara, kalan günlere ve toplam ondalık aylara dönüştürür.",
+  "h1": "Tarihler Arası Ay Hesaplayıcı",
+  "primaryKeyword": "tarihler arası ay",
   "secondaryKeywords": [
-    "Tarihler Arasındaki Aylar çevrimiçi",
-    "Tarihler Arasındaki Ücretsiz Aylar",
-    "Tarihler Arasındaki En İyi Aylar"
+    "iki tarih arasında kaç ay var",
+    "ay hesaplama aracı",
+    "ay olarak zaman",
+    "ay farkını hesapla"
   ],
-  "slug": "tarihler arasındaki aylar",
-  "intro": "Herhangi iki tarih arasında tam ayların ve kalan günlerin tam sayısını hesaplayın.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "tarihler-arasi-ay",
+  "intro": "İki belirli tarih arasında tam olarak kaç ay olduğunu bilmeniz mi gerekiyor? Kesin Tarihler Arası Ay Hesaplayıcımız, tarih hesaplamalarındaki varsayımları ortadan kaldırır. Toplam zaman dilimini anında tam takvim aylarına, kalan ekstra günlere ve toplam ondalık ay değerine ayırarak yasal, kişisel ve finansal hesaplamalar için mükemmel hale getirir.",
+  "whatIs": "Tarihler Arası Ay Hesaplayıcı, belirlenen bir başlangıç tarihi ile bitiş tarihi arasındaki kesin süreyi ölçmek için tasarlanmış ve ortaya çıkan süreyi temel olarak takvim ayları cinsinden ifade eden gelişmiş bir çevrimiçi zaman izleme aracıdır. Toplam gün sayısını sadece 30'a bölen basit tahmin araçlarının aksine, bu hesaplayıcı gerçek takvim yapısına saygı duyar. Farklı ayların değişen uzunluklarını (28, 29, 30 ve 31 gün) dikkate alır ve artık yıllar için otomatik olarak ayarlama yapar. Bu, yıl ne olursa olsun 15 Ocak ile 15 Şubat arasındaki farkı hesaplamanın tam olarak bir ay vermesini garanti eder.",
   "howToUse": [
-    "Belirlenen giriş alanına başlangıç ​​tarihinizi girin.",
-    "Bitiş tarihi gibi ikincil parametreleri sağlayın.",
-    "İki tarihi ayıran takvim aylarını oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Adım 1: Başlangıç tarihinizi etkileşimli takvimden seçin veya verilen biçimde yazın.",
+    "Adım 2: Bitiş tarihinizi seçin. Olumlu bir sonuç için bitiş tarihinin başlangıç tarihinden sonra gerçekleştiğinden emin olun.",
+    "Adım 3: (İsteğe Bağlı) Hesaplamanızın dahil edici bir gün sayımı gerektiriyorsa 'Bitiş tarihini dahil et (+1 gün)' kutusunu işaretleyin.",
+    "Adım 4: Tarih farkını anında işlemek için 'Hesapla' düğmesine tıklayın.",
+    "Adım 5: Sonuçlarınızı inceleyin. Hesaplayıcı, tam aylara ve ekstra kalan günlere net bir şekilde ayırarak toplam ayları gösterecektir."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, iki tarih arasındaki yıl ve ay cinsinden kesin farkı belirleyerek tam takvim aylarını hesaplamak için sıralı bir tarih eşleştirme algoritması kullanır. Başlangıç tarihinden bitiş tarihine kadar olan ayın gününü hizalar. Bitiş tarihini aşmadan tam ayların maksimum sayısını saydıktan sonra, eşleşen takvim günü ile gerçek bitiş tarihi arasında kalan tüm günleri hesaplar. Toplam ondalık aylar için, mutlak toplam gün sayısını 30,436875 günlük ortalama bir ay uzunluğuna böler.",
+  "workedExample": "Diyelim ki başlangıç tarihi olarak 10 Ocak 2023'ü ve bitiş tarihi olarak 25 Mart 2023'ü seçtiniz. Hesaplayıcı önce tam ayları bulur: 10 Ocak'tan 10 Şubat'a kadar bir aydır ve 10 Mart'a kadar ikinci tam aydır. Bu bize 2 tam takvim ayı verir. Ardından, 10 Mart'tan 25 Mart'a kadar olan kalan günleri sayar, ki bu da 15 ekstra gündür. Bu nedenle kesin fark 2 ay 15 gündür.",
+  "resultInterpretation": "Sonuçlarınız çoklu sezgisel formatlarda sunulur. Birincil sayı, toplam ondalık ayları göstererek size hızlı bir kesirli genel bakış sağlar. Ayrıntılı döküm kutuları, bunu 'Tam Aylar' artı kalan 'Ekstra Günler'in net bir sayımına ayırır. Resmi takvime dayalı kilometre taşları için tam ayları ve finansal veya bilimsel formüller için sürekli bir sayısal değişkene ihtiyacınız olduğunda ondalık ayları kullanın.",
   "useCases": [
-    "Kira sözleşmeleri",
-    "Bebeklerin ay cinsinden yaşı",
-    "Hareket halindeyken başlangıç ​​tarihini hızlı bir şekilde işleyin"
+    "Kira Sözleşmeleri: Doğru faturalandırma için bir kiracının mülkü tam olarak kaç ay işgal ettiğini hesaplamak.",
+    "Bebekler İçin Yaş Hesaplaması: Tıbbi veya gelişimsel izleme için bir bebeğin yaşını ay ve gün olarak tam olarak bulmak.",
+    "Proje Planlama ve Yönetimi: Aylık kaynakları tahsis etmek için uzun vadeli bir proje aşamasının uzunluğunu ölçmek.",
+    "Finansal Faiz: Bileşik faiz veya kredi süresi hesaplamaları için tam ay sayısını belirlemek."
   ],
   "tipsAndLimitations": [
-    "Bir aydaki günler farklılık gösterebilir ve bu durum kesirli sonuçları etkileyebilir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "İpucu: Hesaplamanın yasal sözleşmelerde yaygın olarak kullanılan hem başlangıç hem de bitiş günlerini kapsamasını istiyorsanız 'Bitiş tarihini dahil et (+1 gün)' onay kutusunu kullanın.",
+    "Sınırlama: Ondalık ay değeri, yaklaşım için ortalama bir ay uzunluğuna (30,436875 gün) dayanır. Kesin yasal hassasiyet için her zaman 'Tam Aylar ve Ekstra Günler' dökümüne başvurun.",
+    "İpucu: Bugünü başlangıç tarihi, gelecekteki bir kilometre taşını bitiş tarihi olarak ayarlayarak bu aracı gelecek planlaması için kullanabilirsiniz."
   ],
   "faq": [
     {
-      "question": "Tarihler Arasındaki Ayların kullanımı ücretsiz midir?",
-      "answer": "Evet, Tarihler Arasındaki Aylar uygulamamızın kullanımı tamamen ücretsizdir."
+      "question": "Hesaplayıcı farklı uzunluklardaki ayları nasıl işler?",
+      "answer": "Tam aylar kesinlikle takvim tarihleri eşleştirilerek hesaplanır. Örneğin, 15 Ocak - 15 Şubat arası, Ocak ayının 31 gün olup olmadığına bakılmaksızın tam olarak bir ay olarak sayılır. Ekstra günler daha sonra son tam aydan sonra kalan tam süreye göre eklenir."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
+      "question": "Artık yıllarda ne olur?",
+      "answer": "Hesaplayıcı yerel olarak standart takvim mantığını kullanır. Bu, artık yıllar boyunca mükemmel doğruluk sağlayarak, kalan günler belirlenirken 29 Şubat'ın doğru bir şekilde hesaba katıldığı anlamına gelir."
     },
     {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Başlangıç ve bitiş tarihlerini içeriyor mu?",
+      "answer": "Varsayılan olarak araç matematiksel farkı (bir ucun hariç tutulması) hesaplar. Hem başlangıç hem de bitiş tarihlerinin sayılmasını (dahil) istiyorsanız, yalnızca 'Bitiş tarihini dahil et' seçeneğini işaretleyin."
     }
   ],
   "relatedTools": [
-    "yaş hesaplayıcı",
-    "tarih farkı-hesaplayıcı",
-    "tarihler arasındaki günler"
+    "days-between-dates",
+    "weeks-between-dates",
+    "date-difference-calculator",
+    "time-duration-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Tarihler Arasındaki Aylar",
-  "ogImageText": "Tarihler Arasındaki Aylar"
+  "cta": "Tarihleriniz arasındaki tam ayları ve günleri anında hesaplayın!",
+  "disclaimer": "Bu araç, kesin gün sınırlarını belirlemek için cihazınızın yerel saat dilimine dayanır. Sonuçlar, kesin yasal veya finansal uygulamalar için doğrulanmalıdır.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Tam ayların ve ekstra günlerin ayrıntılı dökümünü gösteren tarihler arası ay hesaplayıcının ekran görüntüsü",
+  "ogImageText": "Tarihler Arası Ay Hesaplayıcı"
 }

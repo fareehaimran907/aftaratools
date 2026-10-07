@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Melempar Dadu - Pelempar Dadu Daring Virtual",
+  "metaDescription": "Roller Dadu online gratis. Pelemparkan dadu virtual 6 sisi secara instan (atau pilih sisi khusus) untuk permainan papan, RPG, dan pembuatan angka acak.",
+  "h1": "Melemparkan sebuah dadu",
+  "primaryKeyword": "melempar dadu",
+  "secondaryKeywords": [
+    "rol dadu virtual",
+    "melempar dadu online",
+    "generator dadu acak",
+    "d6 rol"
+  ],
+  "slug": "melemparkan-sebuah-dadu",
+  "intro": "Kehilangan dadu karena permainan papan favorit Anda, atau memerlukan nomor acak cepat untuk Dungeons & Dragons? Roller Dadu virtual gratis kami memberi Anda lemparan yang sempurna dan tidak memihak setiap saat.",
+  "whatIs": "Alat Roll a Die adalah simulator digital yang menciptakan kembali probabilitas matematis pelemparan dadu fisik. Secara default, ini mensimulasikan dadu 6 sisi standar (D6), tetapi dapat disesuaikan.",
+  "howToUse": [
+    "Arahkan ke alat dan pilih jumlah dadu yang ingin Anda lempar.",
+    "Jika memungkinkan, pilih jenis dadu (misalnya, 6 sisi, 20 sisi).",
+    "Klik tombol 'Gulung'.",
+    "Alat ini langsung menghasilkan dan menampilkan hasil acak."
+  ],
+  "howItWorks": "Alat ini bertindak sebagai penghasil nomor acak khusus. Untuk dadu bersisi 6 standar, ia menggunakan fungsi Math.random() JavaScript untuk memilih angka yang terdistribusi sempurna antara 1 dan 6.",
+  "workedExample": "Anda perlu melempar dua dadu bersisi 6 (2d6) untuk Monopoli. Anda mengatur kuantitas menjadi 2 dan klik roll. Algoritme menghasilkan angka 4 dan 5. Alat ini menampilkan masing-masing dadu dan jumlah totalnya (9).",
+  "resultInterpretation": "Angka-angka yang ditampilkan adalah hasil yang benar-benar acak dan independen. Perlakukan gulungan digital persis seperti yang Anda lakukan pada gulungan fisik di atas meja.",
+  "useCases": [
+    "Permainan Papan: Mengganti bagian yang hilang untuk permainan seperti Monopoli atau Yahtzee.",
+    "RPG Meja: Meluncurkan D20 untuk pemeriksaan stat di Dungeons & Dragons atau Pathfinder.",
+    "Pendidikan Kelas: Mengajarkan statistik probabilitas tanpa dadu fisik yang berisik."
+  ],
+  "tipsAndLimitations": [
+    "Dadu digital secara teknis lebih adil daripada dadu fisik plastik murah, karena algoritma digital tidak memiliki ketidakseimbangan berat fisik.",
+    "Menggulung beberapa dadu sekaligus? Jumlah dari dua dadu 6-sisi tidak memiliki probabilitas yang sama. Angka 7 jauh lebih mungkin muncul daripada 2 atau 12."
+  ],
+  "faq": [
+    {
+      "question": "Apakah lemparan dadu benar-benar acak?",
+      "answer": "Gulungan ini menggunakan algoritma angka pseudo-acak. Untuk permainan dan penggunaan santai, secara statistik tidak dapat dibedakan dari dadu fisik yang seimbang sempurna."
+    },
+    {
+      "question": "Bisakah saya melempar beberapa dadu sekaligus?",
+      "answer": "Ya! Anda dapat mengatur pengaturan jumlah untuk melempar beberapa dadu secara bersamaan, dan alat ini akan secara otomatis menghitung jumlah totalnya."
+    }
+  ],
+  "relatedTools": [
+    "random-number-generator",
+    "flip-a-coin",
+    "spin-the-wheel"
+  ],
+  "cta": "Gulung dadu virtual sekarang!",
+  "disclaimer": "Alat ini menggunakan pembuatan angka acak semu berbasis browser. Dirancang untuk hiburan dan tujuan permainan santai.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Dadu virtual yang menunjukkan lemparan acak",
+  "ogImageText": "Roll a Die"
+}

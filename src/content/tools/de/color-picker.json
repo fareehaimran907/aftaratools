@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Farbwähler - Finde HEX-, RGB- & HSL-Codes",
+  "metaDescription": "Kostenloser Online-Farbwähler. Wählen Sie visuell die perfekte Farbe aus und kopieren Sie sofort die HEX-, RGB- und HSL-Codes für Ihre Webdesign- oder Grafikprojekte.",
+  "h1": "Farbauswahl",
+  "primaryKeyword": "Farbauswahl",
+  "secondaryKeywords": [
+    "HTML-Farbwähler",
+    "Farbcode-Finder",
+    "Hex-Farbwähler",
+    "RGB-Farbwähler"
+  ],
+  "slug": "farbauswahl",
+  "intro": "Suchen Sie den genauen Blauton für den Hintergrund Ihrer Website? Unser kostenloser Online-Farbwähler ermöglicht es Ihnen, Farben visuell auszuwählen und liefert Ihnen die genauen Codeformate, die Entwickler und Designer benötigen.",
+  "whatIs": "Der Farbwähler ist ein visuelles Webdesign-Werkzeug. Er bietet eine grafische Benutzeroberfläche (eine Farbverlaufskarte und einen Farbton-Schieberegler), die es den Benutzern ermöglicht, eine bestimmte Farbe auszuwählen, und gibt automatisch ihre mathematischen Werte in HEX, RGB und HSL aus.",
+  "howToUse": [
+    "Ziehen Sie den Schieberegler, um Ihre Basisfarbe (Farbton) auszuwählen.",
+    "Klicken Sie auf das Farbfeld und ziehen Sie den Cursor hinein, um Helligkeit und Sättigung anzupassen.",
+    "Das Werkzeug aktualisiert sich sofort, um die ausgewählte Farbe anzuzeigen.",
+    "Kopiere die bereitgestellten HEX-, RGB- oder HSL-Codes für dein Projekt."
+  ],
+  "howItWorks": "Die grafische Oberfläche ordnet X/Y-Koordinaten den Werten für Sättigung und Helligkeit zu, während der Schieberegler einem 360-Grad-Farbton zugeordnet ist. Das Werkzeug berechnet diese Werte in standardmäßige RGB- (Rot, Grün, Blau-)Ganzzahlen und wandelt diese in einen Base-16-HEX-String um.",
+  "workedExample": "Sie ziehen den Schieberegler auf reines Rot und den Cursor in die obere rechte Ecke. Das Werkzeug berechnet Maximum Rot (255), Null Grün (0), Null Blau (0). Es gibt RGB(255, 0, 0) und den Hex-Code #FF0000 aus.",
+  "resultInterpretation": "Die bereitgestellten Codes stellen die exakten digitalen Anweisungen dar, die ein Webbrowser oder Designprogramm (wie Photoshop) benötigt, um die von Ihnen ausgewählte genaue Farbe darzustellen.",
+  "useCases": [
+    "Webentwicklung: Den genauen HEX-Code zu finden, der in einer CSS-Datei für den Hintergrund eines Buttons verwendet werden soll.",
+    "Grafikdesign: Erstellen einer Markenidentität durch Auswahl und Speicherung spezifischer Primärfarben.",
+    "Digitale Kunst: Den perfekten Farbton für digitale Malerei oder UI-Elemente finden."
+  ],
+  "tipsAndLimitations": [
+    "HEX-Codes beginnen immer mit einem Hashtag (#) und bestehen aus 6 alphanumerischen Zeichen.",
+    "Farben können je nach dem physischen Monitor, den Sie verwenden, und seiner Farbkalibrierung leicht unterschiedlich aussehen."
+  ],
+  "faq": [
+    {
+      "question": "Was ist der Unterschied zwischen HEX und RGB?",
+      "answer": "Sie repräsentieren genau denselben Farbton. RGB verwendet Dezimalzahlen (0-255) für Rot, Grün und Blau. HEX stellt dieselben Zahlen im hexadezimalen Format dar, das kürzer ist und in CSS bevorzugt wird."
+    },
+    {
+      "question": "Was ist HSL?",
+      "answer": "HSL steht für Farbton, Sättigung, Helligkeit. Viele Designer bevorzugen es gegenüber RGB, weil es intuitiver ist – man wählt die Grundfarbe (Farbton), wie kräftig sie ist (Sättigung) und wie dunkel/hell sie ist (Helligkeit)."
+    }
+  ],
+  "relatedTools": [
+    "hex-to-rgb",
+    "rgb-to-hex",
+    "color-palette-generator"
+  ],
+  "cta": "Wähle jetzt deinen perfekten Farbcode!",
+  "disclaimer": "Die digitale Farbwiedergabe hängt stark von der Monitorkalibrierung des Benutzers (sRGB vs. Display P3) und den Helligkeitseinstellungen ab.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Visuelle Farbauswahloberfläche mit HEX- und RGB-Ausgaben",
+  "ogImageText": "Farbwähler"
+}

@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Alan Dönüştürücü",
-  "metaDescription": "Metrekareyi, dönümü, hektarı vb. dönüştürün.",
-  "h1": "Alan Dönüştürücü",
-  "primaryKeyword": "alan dönüştürücü",
+  "seoTitle": "Alan Çevirici - Metrekare, Hektar, Dönüm (Akre)",
+  "metaDescription": "Ücretsiz çevrimiçi alan çevirici. Arazi ve oda alanlarını metrekare, hektar, akre (acre) ve metrekare arasında anında dönüştürün.",
+  "h1": "Alan Çevirici",
+  "primaryKeyword": "alan çevirici",
   "secondaryKeywords": [
-    "alan dönüştürücü çevrimiçi",
-    "serbest alan dönüştürücü",
-    "en iyi alan dönüştürücü"
+    "arazi ölçüm çevirici",
+    "hektar dönüm çevirme",
+    "metrekare hesaplama"
   ],
-  "slug": "alan dönüştürücü",
-  "intro": "Alanları ve arazi boyutlarını metrik ve emperyal birimler arasında çevirin.",
-  "whatIs": "Bu araç nedir?",
-  "howToUse": [
-    "Belirlenen giriş alanına metrekarenizi girin.",
-    "Dönüm gibi ikincil parametreleri sağlayın.",
-    "Eşdeğer alan boyutunu oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
-  ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
-  "useCases": [
-    "Emlak listeleri",
-    "Tarım arazileri",
-    "Hareket halindeyken metrekareleri hızla işleme"
-  ],
-  "tipsAndLimitations": [
-    "Alan dönüşümleri doğrusal dönüşüm faktörünün karesidir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
-  ],
+  "slug": "alan-cevirici",
+  "intro": "Bir arazinin veya odanın boyutunu anlamak için doğru alan ölçümlerine ihtiyaç vardır. Çeviricimiz sizin için karmaşık kare hesaplamalarını halleder.",
+  "whatIs": "Alan çevirici, iki boyutlu alan ölçümünü bir birimden diğerine çeviren bir matematiksel araçtır.",
+  "howToUse": "Alan değerini girin. Orijinal birimi seçin. Hedef birimi seçin. Dönüştürülen alan anında görünür.",
+  "howItWorks": "Araç standart geometrik faktörler kullanır. 1 hektar tam olarak 10.000 metrekaredir. 1 akre 43.560 fit karedir.",
+  "workedExample": "Arazi 2,5 akre ve hektar cinsinden boyutunu bilmek istiyorsunuz. Sonuç 1,0117 hektardır.",
+  "resultInterpretation": "Dönüştürülen değer kesin karşılığı verir. Emlak için iki ondalık basamağa yuvarlamak standarttır.",
+  "useCases": "Emlak: mülk boyutları. Tarım: çiftlik büyüklükleri. Tadilat: döşeme için metrekare hesaplama.",
+  "tipsAndLimitations": "Alan 2 boyutludur. 1 Hektar yaklaşık 2,47 akreye eşittir.",
   "faq": [
     {
-      "question": "How big is an acre?",
-      "answer": "43,560 square feet."
+      "question": "Bir hektarda kaç metrekare vardır?",
+      "answer": "1 hektarda tam olarak 10.000 metrekare vardır."
     },
     {
-      "question": "Is the Area Converter free to use?",
-      "answer": "Yes, our Area Converter is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Bir hektarda kaç akre vardır?",
+      "answer": "1 hektarda yaklaşık 2,47 akre vardır."
     }
   ],
   "relatedTools": [
-    "uzunluk dönüştürücü",
-    "ağırlık dönüştürücü",
-    "yükseklik dönüştürücü"
+    "length-converter",
+    "volume-converter",
+    "weight-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Alan Dönüştürücü",
-  "ogImageText": "Alan Dönüştürücü"
+  "cta": "Ücretsiz hesaplayıcımızla arazi alanlarını şimdi dönüştürün!",
+  "disclaimer": "Genel tahmin amaçlıdır. Yasal sınırlar için profesyonellere danışın.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Alan çevirici hektar akre dönüşümü",
+  "ogImageText": "Alan Çevirici"
 }

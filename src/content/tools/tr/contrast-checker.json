@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Renk Kontrastı Kontrolü - WCAG Erişilebilirlik Aracı",
+  "metaDescription": "Ücretsiz çevrimiçi Renk Kontrast Kontrol Aracı. Metin ve arka plan renkleriniz arasındaki kontrast oranını anında hesaplayarak WCAG erişilebilirlik uyumunu sağlayın.",
+  "h1": "Renk Kontrastı Kontrolü",
+  "primaryKeyword": "renk kontrastı denetleyici",
+  "secondaryKeywords": [
+    "WCAG kontrast denetleyici",
+    "erişilebilirlik renk kontrastı",
+    "renk kontrastını kontrol et",
+    "metin okunabilirlik hesaplayıcısı"
+  ],
+  "slug": "renk-kontrastı-kontrolü",
+  "intro": "Web sitenizin herkes tarafından okunabilir olmasını sağlayın. Ücretsiz Renk Kontrastı Denetleyicimiz, metin ve arka plan renkleriniz arasındaki tam oranı hesaplayarak WCAG erişilebilirlik yönergelerine uyumu doğrular.",
+  "whatIs": "Renk Kontrastı Denetleyicisi bir web erişilebilirlik aracıdır. Bir ön plan renginin (metin) arka plan rengine karşı göreli parlaklığını matematiksel olarak değerlendirir ve görme engelli kullanıcıların metni rahatça okuyabilmesi için yeterli görsel fark olup olmadığını belirler.",
+  "howToUse": [
+    "Metin/Ön plan renginiz için HEX kodunu girin.",
+    "Arka plan renginiz için HEX kodunu girin.",
+    "Araç kontrast oranını hesaplar (ör. 4,5:1).",
+    "WCAG AA ve AAA standartları için Geçti/Kaldı notunu gösterir."
+  ],
+  "howItWorks": "Araç, her iki HEX kodunu RGB'ye dönüştürür, her iki rengin 'göreli aydınlık değerini' hesaplamak için özel bir matematiksel formül uygular ve ardından daha açık aydınlık değerini daha koyu olanın aydınlık değerine böler. Sonuç, 1:1 (kontrast yok) ile 21:1 (maksimum kontrast) arasında bir oran olur.",
+  "workedExample": "Saf siyah metni (#000000) saf beyaz bir arka planda (#FFFFFF) test edersiniz. Araç, tam olarak 21:1 olan maksimum olası kontrast oranını hesaplar ve tüm AAA erişilebilirlik gereksinimlerini kolayca geçer.",
+  "resultInterpretation": "Daha yüksek bir oran, metnin okunmasının daha kolay olduğu anlamına gelir. Web İçerik Erişilebilirlik Yönergeleri (WCAG), normal metin için minimum 4,5:1 oranı (AA standardı) ve sıkı erişilebilirlik için 7:1 oranı (AAA standardı) gerektirir.",
+  "useCases": [
+    "Web Erişilebilirlik Denetimleri: Kurumsal bir web sitesinin okunabilirlik ile ilgili ADA uyumluluk yasalarını ihlal etmediğinden emin olmak.",
+    "UI/UX Tasarımı: Beyaz bir giriş alanındaki açık gri yer tutucu metnin okunmasının çok zor olup olmadığını kontrol etmek.",
+    "Marka Kılavuzları: Marka renklerinin pazarlama görselleri üzerinde birbirinin üstüne güvenli bir şekilde uygulanabileceğini doğrulamak."
+  ],
+  "tipsAndLimitations": [
+    "Büyük metin (18 punto üzeri veya 14 punto kalın) okumak daha kolaydır, bu yüzden WCAG yalnızca AA standardını geçmek için daha düşük bir 3:1 oranı gerektirir.",
+    "Renk körlüğü ton algısını etkiler, ancak göreli parlaklık kontrastı okunabilirlik için en önemli faktör olarak kalır."
+  ],
+  "faq": [
+    {
+      "question": "Renklerim kontrolden geçemezse ne olur?",
+      "answer": "Başarısız olurlarsa, metniniz görme engelli veya renk körü kişiler için okumak çok zor olacaktır. Metin rengini koyulaştırmalı veya arka plan rengini açmalısınız, ta ki oran en az 4,5:1 olana kadar."
+    },
+    {
+      "question": "İs 21:1 en iyi karşıtlık mı?",
+      "answer": "Matematiksel olarak, evet. Ancak, saf siyah metinlerin saf beyaz arka planlarda (21:1) kullanılması, disleksisi olan bazı kullanıcılar için göz yorgunluğuna veya 'halasyon'a neden olabilir. Çok koyu gri (örneğin, #222222) tonlarının kirli beyaz üzerinde kullanılması genellikle tercih edilir."
+    }
+  ],
+  "relatedTools": [
+    "color-picker",
+    "color-palette-generator",
+    "hex-to-rgb"
+  ],
+  "cta": "Renk erişilebilirliğinizi şimdi kontrol edin!",
+  "disclaimer": "Bu araç, göreli parlaklık için standart WCAG 2.1 algoritmasına dayalı kontrastı hesaplar.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Renk Kontrastı Denetleyicisi, 4.5 oranında geçerli olduğunu gösteriyor",
+  "ogImageText": "Renk Kontrastı Kontrolü"
+}

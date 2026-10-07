@@ -37,7 +37,7 @@ export function AgeCalculator() {
 
   const copyResult = () => {
     if (result) {
-      const text = `Age: ${result.years} years, ${result.months} months, ${result.days} days. Total days: ${result.totalDays}`;
+      const text = `${t("yourAgeIs")} ${result.years} ${t("years")}, ${result.months} ${t("months")}, ${result.days} ${t("days")}. ${t("totalDays")} ${result.totalDays}`;
       navigator.clipboard.writeText(text);
     }
   };

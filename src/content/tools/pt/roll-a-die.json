@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Jogue um Dado - Rolador de Dados Virtual Online",
+  "metaDescription": "Rolador de dados online gratuito. Lance instantaneamente um dado virtual de 6 lados (ou escolha lados personalizados) para jogos de tabuleiro, RPGs e geração de números aleatórios.",
+  "h1": "Roll a Die",
+  "primaryKeyword": "roll a die",
+  "secondaryKeywords": [
+    "rolador de dados virtual",
+    "rolar dados online",
+    "gerador de dados aleatórios",
+    "d6 roller"
+  ],
+  "slug": "roll-a-die",
+  "intro": "Perdeu os dados do seu jogo de tabuleiro favorito, ou precisa de um número aleatório rápido para Dungeons & Dragons? Nosso lançador de dados virtual gratuito oferece uma rolagem perfeita e imparcial toda vez.",
+  "whatIs": "A ferramenta Roll a Die é um simulador digital que recria a probabilidade matemática de rolar dados físicos. Por padrão, ela simula um dado padrão de 6 lados (D6), mas pode ser personalizada.",
+  "howToUse": [
+    "Navegue até a ferramenta e selecione o número de dados que você deseja rolar.",
+    "Se aplicável, selecione o tipo de dado (por exemplo, de 6 lados, de 20 lados).",
+    "Clique no botão 'Girar'.",
+    "A ferramenta gera e exibe instantaneamente os resultados aleatórios."
+  ],
+  "howItWorks": "A ferramenta funciona como um gerador de números aleatórios especializado. Para um dado padrão de 6 lados, ela usa a função Math.random() do JavaScript para escolher um número perfeitamente distribuído entre 1 e 6.",
+  "workedExample": "Você precisa rolar dois dados de 6 lados (2d6) para o Monopoly. Você define a quantidade para 2 e clica em rolar. O algoritmo gera um 4 e um 5. A ferramenta exibe os dados individuais e a soma total (9).",
+  "resultInterpretation": "Os números mostrados são resultados completamente aleatórios e independentes. Trate a rolagem digital exatamente como você trataria uma rolagem física numa mesa.",
+  "useCases": [
+    "Jogos de Tabuleiro: Substituindo peças faltantes em jogos como Monopoly ou Yahtzee.",
+    "RPGs de mesa: Jogando um D20 para um teste de atributo em Dungeons & Dragons ou Pathfinder.",
+    "Educação em Sala de Aula: Ensinando estatística de probabilidade sem dados físicos barulhentos."
+  ],
+  "tipsAndLimitations": [
+    "Um dado digital é tecnicamente mais justo do que um dado físico de plástico barato, pois os algoritmos digitais não têm desequilíbrios de peso físicos.",
+    "Jogando vários dados? A soma de dois dados de 6 lados não tem probabilidade igual. Um 7 é muito mais provável do que um 2 ou 12."
+  ],
+  "faq": [
+    {
+      "question": "O lançamento de dados é realmente aleatório?",
+      "answer": "O lançamento usa um algoritmo de número pseudoaleatório. Para jogos e uso casual, ele é estatisticamente indistinguível de um dado físico perfeitamente equilibrado."
+    },
+    {
+      "question": "Posso rolar vários dados de uma vez?",
+      "answer": "Sim! Você pode ajustar as configurações de quantidade para rolar vários dados simultaneamente, e a ferramenta calculará automaticamente a soma total."
+    }
+  ],
+  "relatedTools": [
+    "random-number-generator",
+    "flip-a-coin",
+    "spin-the-wheel"
+  ],
+  "cta": "Jogue os dados virtuais agora!",
+  "disclaimer": "A ferramenta utiliza geração de números pseudoaleatórios baseada em navegador. Projetada para entretenimento e fins de jogos casuais.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Dados virtuais mostrando um resultado aleatório",
+  "ogImageText": "Roll a Die"
+}

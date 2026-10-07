@@ -1,55 +1,88 @@
 {
-  "seoTitle": "Sayı Tabanı Dönüştürücü",
-  "metaDescription": "İkili, sekizli, ondalık, onaltılı arasında dönüştürme.",
-  "h1": "Sayı Tabanı Dönüştürücü",
-  "primaryKeyword": "sayı tabanı dönüştürücü",
+  "seoTitle": "Sayı Tabanı Çevirici – İkili, Onlu, Onaltılı ve Sekizli",
+  "metaDescription": "Ücretsiz çevrimiçi Sayı Tabanı Çevirici (Sayı Sistemi Dönüştürücü). Sayıları onlu (decimal), ikili (binary), onaltılı (hex), sekizli (octal) arasında anında dönüştürün. Programcılar için mükemmeldir.",
+  "h1": "Sayı Tabanı Çevirici",
+  "primaryKeyword": "sayı tabanı çevirici",
   "secondaryKeywords": [
-    "sayı tabanı dönüştürücü çevrimiçi",
-    "ücretsiz numara tabanı dönüştürücü",
-    "en iyi sayı tabanı dönüştürücü"
+    "taban çevirici",
+    "ikilikten onluya",
+    "onaltılıktan ikiliye",
+    "sayı sistemi dönüştürme",
+    "onludan onaltılıya",
+    "sekizlikten ikiliye",
+    "10 tabanından 2 tabanına"
   ],
-  "slug": "sayı tabanı dönüştürücü",
-  "intro": "Sayıları standart matematiksel tabanlar arasında çevirin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "sayi-tabani-cevirici",
+  "intro": "Bilgisayar mimarisi üzerinde mi çalışıyorsunuz, düşük seviyeli (low-level) sistemleri mi programlıyorsunuz veya matematik mi çalışıyorsunuz? Ücretsiz Sayı Tabanı Çeviricimiz, ikili, sekizli, onlu, onaltılı ve diğer çeşitli sayı sistemleri arasındaki değerleri anında dönüştürmek için tasarlanmış güçlü bir araçtır. Tabanlar arasında geçiş yapmak için sıkıcı bölme ve çarpma işlemlerini manuel olarak yapmak yerine, sayınızı giriş alanına yazın, başlangıç tabanınızı seçin ve ardından hedef tabanınızı seçin. Araç, Base-2 (İkili), Base-8 (Sekizli), Base-10 (Onlu) ve Base-16 (Onaltılı) gibi standart geliştirici tabanlarını destekleyerek siz yazarken dönüşümü anında halleder. Hepsinden iyisi, bu dönüştürücü tamamen web tarayıcınızın içinde yerel olarak (local) çalışır, böylece verilerinizi tamamen gizli tutarken yıldırım hızında bir performans sağlar.",
+  "whatIs": "Sayı Tabanı Çevirici, bir sayıyı bir sayı sisteminden (veya 'tabandan') diğerine çeviren özel bir matematiksel araçtır. Günlük hayatımızda, 0'dan 9'a kadar olan on rakama dayanan ondalık sistemi (Base-10) kullanırız. Ancak, bilgisayar dünyası tamamen farklı sayı sistemleri üzerinde çalışır. Donanım düzeyinde, bilgisayarlar yalnızca 0 ve 1'lerden oluşan ikili (Base-2) sistemi anlar. İnsanların uzun ikili sayı dizilerini okuması zor olduğundan, programcılar ikili verileri daha derli toplu ve okunabilir bir biçimde temsil etmek için genellikle onaltılı (Base-16) veya sekizli (Base-8) sistemi kullanırlar. Bir sayıyı Base-10'dan Base-2 veya Base-16'ya çevirmek, yeni tabana sürekli bölmeyi içerirken, ters dönüşüm basamakları tabanın üsleri ile çarpmayı içerir. Sayı Tabanı Çeviricimiz bu karmaşık aritmetiği otomatikleştirerek, manuel hesaplama hataları riski olmadan herhangi bir standart geliştirici sayı sistemi arasında geçiş yapmak için sorunsuz bir arayüz sağlar.",
   "howToUse": [
-    "Ondalık rakamınızı belirlenen giriş alanına girin.",
-    "İkili gibi ikincil parametreleri sağlayın.",
-    "Farklı bir taban tabanında temsil edilen sayıyı oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Dönüştürmek istediğiniz sayısal değeri ana giriş (input) alanına girin.",
+    "İlk açılır menüyü kullanarak az önce girdiğiniz sayının tabanını seçin (ör. Onlu).",
+    "İkinci açılır menüyü kullanarak sayıyı dönüştürmek istediğiniz hedef tabanı seçin (ör. Onaltılı).",
+    "Siz yazdıkça veya tabanları değiştirdikçe sonuç panelinin anında güncellenmesini izleyin. Tıklanacak bir 'Hesapla' (Calculate) düğmesi yoktur.",
+    "Dönüşüm yönünü anında tersine çevirmek için açılır menüler arasındaki değiştirme (swap) düğmesini kullanın."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Bu dönüştürücü, standart JavaScript ayrıştırma (parsing) ve taban dönüştürme işlevlerini kullanarak çalışır. Bir sayı girdiğinizde ve başlangıç tabanını seçtiğinizde, araç önce Base-10'daki mutlak tamsayı değerini belirlemek için o başlangıç tabanının matematiksel kurallarını kullanarak dize girişini ayrıştırır. Örneğin, Base-16'da 'F' girerseniz, araç bunu ondalık tam sayı 15 olarak tanımlar. Mutlak tamsayı değeri bilindiğinde, araç ikinci bir adım gerçekleştirir: bu tamsayıyı, hedef tabana art arda bölerek ve yeni sayı temsilini oluşturmak için kalanları (remainders) kullanarak hedef taban sistemine dönüştürür. Bu sağlam iki adımlı normalleştirme süreci, her olası dönüştürme yolunun (Sekizliden Onaltılıya gibi) matematiksel olarak kusursuz olmasını sağlar. Nihai çıktı (output), net ve okunması kolay bir formatta anında ekranda görüntülenir.",
+  "workedExample": "Onluk (Base-10) sistemdeki 255 sayısını onaltılıya (Base-16) çevirelim. Öncelikle araç 255'i 16'ya böler, sonuç bölüm 15 ve kalan 15 olur. Onaltılık sistemde 10 ile 15 arasındaki sayılar A'dan F'ye kadar olan harflerle temsil edilir. Bu nedenle, 15 kalanı 'F' olarak yazılır. Bölüm (15) de 16'dan küçük olduğu için aynı şekilde 'F' olarak yazılır. Böylece, ondalık sayı 255, onaltılıkta tam olarak 'FF' olarak çevrilir. Şimdi, ikili (Base-2) sayı olan 1010'u onluya (Base-10) dönüştürmeyi deneyelim. Araç, her basamağın değerini konumuna göre (sağdan 2^0'dan başlayarak 2'nin kuvvetleri) hesaplar. Hesaplama şudur: (1 × 2^3) + (0 × 2^2) + (1 × 2^1) + (0 × 2^0), bu da 8 + 0 + 2 + 0'a eşittir. Sonuç, onluk sistemde tam olarak 10'dur. Son olarak, ondalık sayı olan 8'i sekizliye (Base-8) dönüştürelim. Araç 8'i 8'e böler, bölüm 1 ve kalan 0'dır. Bu nedenle, ondalık sayı olan 8, sekizli sistemde '10'a çevrilir.",
+  "resultInterpretation": "Sonuç paneli, dönüştürülen sayınızı büyük, kalın, tek aralıklı (monospace) bir yazı tipinde göstererek her basamağın ve harfin belirgin ve kolay okunabilir olmasını sağlar. Bu, özellikle '0' (sıfır) ve 'O' (harf) veya '1' ve 'l' gibi karakterleri birbirinden ayırmanın programlama için çok önemli olduğu onaltılı çıktılar için önemlidir. Arayüz, özellikle standart sayılara benzeyen çıktılarla (örneğin, ikili çıktı '10'a karşı ondalık çıktı '10') uğraşırken herhangi bir karışıklığı önlemek için son sayının hemen üstünde hedef tabanı açıkça belirtir. Elde edilen sayı, büyük sayıların ikili dönüşümlerinde sıklıkla olduğu gibi son derece uzunsa, metin daha küçük mobil ekranlarda tamamen görünür ve okunabilir kalmasını sağlamak için otomatik olarak alt satıra kaydırılır (text wrap).",
   "useCases": [
-    "Bilgisayar bilimi ödevi",
-    "Düşük seviyeli programlama",
-    "Hareket halindeyken hızla ondalık sayı işleme"
+    "Bilgisayar Bilimi Eğitimi: Öğrencilerin ikili, sekizli ve onaltılı sistemleri öğrenirken el ile yaptıkları ödev hesaplamalarını doğrulamalarına yardımcı olmak.",
+    "Web Geliştirme: RGB ondalık değerlerini (0-255) CSS için standart 6 karakterli onaltılı (hex) renk kodlarına hızla dönüştürmek.",
+    "Ağ Mühendisliği: Ağ aralıklarını ve yayın adreslerini (broadcast) hesaplamak için IP adreslerini ve alt ağ maskelerini ikili formata çevirmek.",
+    "Gömülü Sistemler (Embedded Systems): Hata ayıklama (debugging) ve belgelendirme (documentation) amacıyla bellek adreslerini ve kayıt değerlerini onaltılık sistemden onlu sisteme dönüştürmek.",
+    "Tersine Mühendislik (Reverse Engineering): Derlenmiş kodu ve ham veri dökümlerini (raw data), onaltılık düzenleyici (hex-editor) görünümlerini okunabilir ondalık ofsetlere geri çevirerek analiz etmek.",
+    "Kriptografi: Karma (hash) çıktılarını, şifreleme anahtarlarını ve dijital imzaları doğrulamak için ikili dizileri (binary strings) onaltılı bloklara dönüştürmek."
   ],
   "tipsAndLimitations": [
-    "Onaltılık sistemde 10-15'i temsil etmek için A-F harfleri kullanılır.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Onaltılı (hex) sayılar girerken, A ile F arasındaki harfler büyük veya küçük harfle yazılabilir; araç her ikisini de birbirinin yerine geçebilir şekilde işler.",
+    "Giriş alanına onaltılı için '0x', ikili için '0b' veya sekizli için '0' gibi ön ekleri (prefix) eklemediğinizden emin olun; sadece ham değeri girin.",
+    "Araç, güvenli JavaScript sayı sınırına (2^53 - 1) kadar standart tam sayılar için son derece hassastır. Son derece büyük girdiler hassasiyet kaybına uğrayabilir.",
+    "Kesirleri veya kayan noktalı (floating-point) sayıları dönüştürürken dikkatli olun; bu özel araç öncelikli olarak tam sayı taban dönüşümleri için tasarlanmıştır.",
+    "Tüm hesaplamalar JavaScript aracılığıyla tamamen tarayıcınızda yerel olarak (local) gerçekleştirilir. Harici sunuculara (server) hiçbir veri gönderilmez veya saklanmaz."
   ],
   "faq": [
     {
-      "question": "What is base 2?",
-      "answer": "Binary, using only 0s and 1s."
+      "question": "Base-16 (Onaltılı Sistem) nedir?",
+      "answer": "Onaltılık veya Hexadecimal olarak da bilinen Base-16, 16 farklı sembol kullanan bir numaralandırma sistemidir: 0-9 sayıları ve A-F harfleri. Bir onaltılı basamak tam olarak 4 ikili (binary) biti temsil ettiği ve ikili verileri temsil etmek için çok kompakt bir yol olduğu için bilgisayarda yoğun olarak kullanılır."
     },
     {
-      "question": "Is the Number Base Converter free to use?",
-      "answer": "Yes, our Number Base Converter is completely free and requires no registration."
+      "question": "İkili sayıyı onlu sayıya nasıl dönüştürürsünüz?",
+      "answer": "İkiliyi onluya dönüştürmek için, en sağdaki 0'dan başlayarak her bir ikili basamağı (0 veya 1) bulunduğu konumun gücüne (üssüne) yükseltilmiş 2 ile çarparsınız ve ardından tüm sonuçları birlikte toplarsınız."
     },
     {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Onaltılı (Hex) sistemdeki harfler ne anlama gelir?",
+      "answer": "Onaltılık sistemde A, B, C, D, E ve F harfleri sırasıyla 10, 11, 12, 13, 14 ve 15 ondalık değerlerini temsil etmek için kullanılır."
+    },
+    {
+      "question": "Negatif sayıları dönüştürebilir miyim?",
+      "answer": "Evet, bu dönüştürücü tabanlar arasında negatif işareti koruyarak temel negatif sayı dönüşümünü destekler. Ancak, negatif sayıları tipik olarak bilgisayar donanımı tarafından kullanılan İkiye Tümleyen (Two's Complement) ikili formatta çıkarmaz."
+    },
+    {
+      "question": "Sekizli (Base-8) sistemi neden kullanılır?",
+      "answer": "Sekizli sistem 0-7 arasındaki rakamları kullanır. Her sekizli basamak için tam olarak 3 ikili biti düzenli bir şekilde temsil ettiği için tarihsel olarak bilgi işlemde popülerdi. Günümüzde halen Unix/Linux gibi sistemlerde dosya izinlerini ayarlamak için kullanılmaktadır."
+    },
+    {
+      "question": "Geçersiz bir karakter yazarsam ne olur?",
+      "answer": "Seçtiğiniz başlangıç tabanında bulunmayan bir karakter (örneğin, başlangıç tabanı İkili olarak ayarlıyken '2' yazmak) yazarsanız, araç anında bir 'Geçersiz giriş' (Invalid input) hatası gösterecektir."
+    },
+    {
+      "question": "Dönüştürebileceğim en yüksek sayı kaçtır?",
+      "answer": "Dönüştürücü, standart web tarayıcılarının maksimum güvenli tam sayı sınırı olan 9.007.199.254.740.991'e (2^53 - 1) kadar olan sayıları işleyebilir. Bundan daha büyük girişlerde hassasiyet kaybı yaşanabilir."
+    },
+    {
+      "question": "Bu dönüştürücü cep telefonumda çalışır mı?",
+      "answer": "Evet. Kullanıcı arayüzü tamamen duyarlıdır (responsive) ve akıllı telefonlarda, tabletlerde ve masaüstü bilgisayarlarda kusursuz şekilde çalışır."
     }
   ],
   "relatedTools": [
-    "uzunluk dönüştürücü",
-    "ağırlık dönüştürücü",
-    "yükseklik dönüştürücü"
+    "binary-to-decimal",
+    "decimal-to-binary",
+    "hex-to-decimal",
+    "data-storage-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Sayı Tabanı Dönüştürücü",
-  "ogImageText": "Sayı Tabanı Dönüştürücü"
+  "cta": "Değerleri ikili, onlu, sekizli veya onaltılı arasında hızlıca çevirmeniz mi gerekiyor? Anında ve matematiksel olarak kusursuz bir dönüşüm için sayınızı yukarıya girin.",
+  "disclaimer": "Bu araç, modern web tarayıcılarının (2^53 - 1) güvenli tam sayı sınırına kadar son derece hassas sayı sistemi dönüşümleri sağlar. Genel programlama, web geliştirme ve eğitim amaçları için mükemmel derecede uygun olsa da, devasa tam sayılar için keyfi hassasiyetli (arbitrary-precision) aritmetik gerektiren oldukça uzmanlaşmış bilimsel hesaplama veya kriptografi, özel yazılım kütüphaneleri gerektirebilir.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "İkili, sekizli, onlu ve onaltılı tabanlar için giriş alanını ve açılır menüleri gösteren Sayı Tabanı Çevirici aracı",
+  "ogImageText": "Sayı Tabanı Çevirici – İkili, Onlu ve Onaltılı"
 }

@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Conversor de temperatura",
-  "metaDescription": "Converta Celsius, Fahrenheit e Kelvin.",
-  "h1": "Conversor de temperatura",
+  "seoTitle": "Conversor de Temperatura - Celsius para Fahrenheit",
+  "metaDescription": "Conversor de temperatura grátis. Converta instantaneamente graus entre Celsius (°C), Fahrenheit (°F) e Kelvin (K).",
+  "h1": "Conversor de Temperatura",
   "primaryKeyword": "conversor de temperatura",
   "secondaryKeywords": [
-    "Conversor de temperatura on-line",
-    "Conversor de temperatura grátis",
-    "melhor conversor de temperatura"
+    "celsius para fahrenheit",
+    "fahrenheit para celsius",
+    "converter temperatura"
   ],
-  "slug": "conversor de temperatura",
-  "intro": "Traduza rapidamente as temperaturas entre escalas maiores.",
-  "whatIs": "O que é essa ferramenta?",
-  "howToUse": [
-    "Digite seu Celsius no campo de entrada designado.",
-    "Forneça quaisquer parâmetros secundários, como Fahrenheit.",
-    "Clique no botão calcular ou enviar para gerar a temperatura equivalente.",
-    "Copie ou revise a saída resultante de acordo com suas necessidades."
-  ],
-  "howItWorks": "Como funciona",
-  "workedExample": "Exemplos",
-  "resultInterpretation": "Interpretação",
-  "useCases": [
-    "Previsão do tempo",
-    "Temperaturas de cozimento",
-    "Processando Celsius rapidamente em qualquer lugar"
-  ],
-  "tipsAndLimitations": [
-    "As fórmulas envolvem multiplicação e adição/subtração.",
-    "Certifique-se de que suas entradas estejam formatadas corretamente para obter os melhores resultados.",
-    "A ferramenta é totalmente executada no lado do cliente, garantindo que seus dados permaneçam privados."
-  ],
+  "slug": "conversor-temperatura",
+  "intro": "Checando a previsão do tempo para viajar ou usando uma receita americana? Diferentes escalas térmicas podem confundir. Nossa ferramenta converte instantaneamente.",
+  "whatIs": "Um conversor de temperatura traduz medidas térmicas de uma escala para outra (Celsius, Fahrenheit, Kelvin).",
+  "howToUse": "Selecione a escala inicial. Insira a temperatura. A ferramenta exibe os valores convertidos.",
+  "howItWorks": "Celsius para Fahrenheit: (°C × 9/5) + 32. Fahrenheit para Celsius: (°F - 32) × 5/9. Kelvin é Celsius + 273,15.",
+  "workedExample": "Uma receita pede 180°C. Em Fahrenheit, são 356°F. Agora você sabe como ajustar o forno.",
+  "resultInterpretation": "Os resultados são matematicamente exatos. Kelvin não usa o símbolo de grau (°).",
+  "useCases": "Culinária: fornos estrangeiros. Clima: entender a previsão do tempo lá fora. Ciências: cálculos termodinâmicos.",
+  "tipsAndLimitations": "Truque rápido (C para F): dobre os Celsius e some 30. A -40°, Celsius e Fahrenheit têm o mesmo valor exato.",
   "faq": [
     {
-      "question": "O uso do conversor de temperatura é gratuito?",
-      "answer": "Sim, nosso conversor de temperatura é totalmente gratuito."
+      "question": "Como converter Celsius para Fahrenheit?",
+      "answer": "Multiplique os Celsius por 1,8 e some 32."
     },
     {
-      "question": "Isso funciona no celular?",
-      "answer": "Sim, é totalmente responsivo e funciona em todos os dispositivos."
-    },
-    {
-      "question": "Preciso baixar alguma coisa?",
-      "answer": "Não, funciona totalmente no seu navegador sem qualquer instalação."
+      "question": "Qual a temperatura corporal normal?",
+      "answer": "Geralmente considerada como 37°C ou 98,6°F."
     }
   ],
   "relatedTools": [
-    "conversor de comprimento",
-    "conversor de peso",
-    "conversor de altura"
+    "length-converter",
+    "weight-converter",
+    "volume-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Conversor de temperatura",
-  "ogImageText": "Conversor de temperatura"
+  "cta": "Converta qualquer temperatura agora mesmo!",
+  "disclaimer": "Para informações gerais.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Conversor de temperatura Celsius para Fahrenheit",
+  "ogImageText": "Conversor Temperatura"
 }

@@ -1,55 +1,58 @@
 {
-  "seoTitle": "Kalkulator EMI",
-  "metaDescription": "Hitung Angsuran Bulanan yang Disamakan (EMI).",
+  "seoTitle": "Kalkulator EMI - Hitung Cicilan Bulanan Tetap",
+  "metaDescription": "Kalkulator EMI gratis. Hitung Equated Monthly Installment untuk KPR, kredit kendaraan, atau pinjaman pribadi secara instan dengan rincian amortisasi lengkap.",
   "h1": "Kalkulator EMI",
-  "primaryKeyword": "kalkulator emi",
+  "primaryKeyword": "kalkulator EMI",
   "secondaryKeywords": [
-    "Kalkulator EMI online",
-    "Kalkulator EMI gratis",
-    "Kalkulator EMI terbaik"
+    "cicilan bulanan tetap",
+    "kalkulator angsuran bulanan",
+    "EMI KPR",
+    "rumus EMI"
   ],
-  "slug": "emi-kalkulator",
-  "intro": "Hitung Angsuran Bulanan yang Disamakan dengan mudah untuk kredit rumah, kredit mobil, atau kredit pribadi.",
-  "whatIs": "Alat apa ini?",
+  "slug": "kalkulator-emi",
+  "intro": "Equated Monthly Installment (EMI) adalah pembayaran bulanan tetap yang dilakukan peminjam untuk melunasi pinjaman. Kalkulator EMI gratis kami memungkinkan Anda menghitung EMI yang tepat untuk pinjaman apapun — rumah, kendaraan, pribadi, atau pendidikan — secara instan.",
+  "whatIs": "EMI adalah singkatan dari Equated Monthly Installment (cicilan bulanan tetap). Ini adalah metode pembayaran standar untuk hampir semua pinjaman ritel. EMI bersifat 'setara' karena total pembayaran bulanan tetap konstan sepanjang masa pinjaman.",
   "howToUse": [
-    "Masukkan kepala sekolah Anda ke dalam kolom input yang ditentukan.",
-    "Berikan parameter sekunder seperti kepemilikan.",
-    "Klik tombol hitung atau kirim untuk menghasilkan jumlah pembayaran bulanan tetap.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Masukkan Jumlah Pinjaman — total pokok yang dipinjam.",
+    "Masukkan Tingkat Bunga Tahunan pemberi pinjaman.",
+    "Tentukan Jangka Waktu Pinjaman dalam bulan atau tahun.",
+    "Klik 'Hitung EMI'."
   ],
-  "howItWorks": "Bagaimana cara kerjanya",
-  "workedExample": "Contoh",
-  "resultInterpretation": "Interpretasi",
+  "howItWorks": "Perhitungan EMI menggunakan rumus standar: EMI = P × r × (1 + r)^n / [(1 + r)^n − 1], di mana P adalah pokok, r adalah tingkat bunga bulanan, dan n adalah jumlah total cicilan bulanan.",
+  "workedExample": "Misalkan Anda mengambil pinjaman rumah Rp 500.000.000 dengan tingkat bunga tahunan 8,5% selama 5 tahun (60 bulan). EMI ≈ Rp 10.254.000. Selama 60 bulan, total = Rp 615.240.000. Total bunga = Rp 115.240.000.",
+  "resultInterpretation": "Hasil EMI mencakup tiga angka kunci. EMI Bulanan adalah jumlah tetap per bulan. Total Bunga adalah akumulasi biaya pinjaman. Total Pembayaran adalah pelunasan lengkap termasuk pokok dan bunga.",
   "useCases": [
-    "Pinjaman pribadi di India/Asia",
-    "Pembiayaan peralatan",
-    "Memproses kepala sekolah dengan cepat saat bepergian"
+    "Perencanaan KPR: hitung EMI bulanan sebelum mengambil pinjaman rumah.",
+    "Perbandingan Kredit Kendaraan: bandingkan EMI untuk uang muka berbeda.",
+    "Pinjaman Pribadi: tentukan apakah EMI dapat dikelola sesuai anggaran."
   ],
   "tipsAndLimitations": [
-    "Biaya pemrosesan biasanya dibebankan di muka, bukan di EMI.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "Uang muka lebih besar mengurangi pokok dan karenanya EMI serta total bunga.",
+    "Kalkulator ini mengasumsikan tingkat bunga tetap sepanjang masa pinjaman."
   ],
   "faq": [
     {
-      "question": "Apakah Kalkulator EMI gratis untuk digunakan?",
-      "answer": "Ya, Kalkulator EMI kami sepenuhnya gratis untuk digunakan."
+      "question": "Apa itu EMI?",
+      "answer": "EMI adalah singkatan dari Equated Monthly Installment — jumlah pembayaran bulanan tetap untuk pinjaman."
     },
     {
-      "question": "Apakah ini berfungsi di perangkat seluler?",
-      "answer": "Ya, ini sepenuhnya responsif dan berfungsi di semua perangkat."
+      "question": "Bisakah saya mengurangi EMI saya?",
+      "answer": "Ya, dengan memperpanjang jangka waktu pinjaman, membayar uang muka lebih besar, atau menegosiasikan suku bunga lebih rendah."
     },
     {
-      "question": "Apakah saya perlu mengunduh sesuatu?",
-      "answer": "Tidak, ini berfungsi sepenuhnya di browser Anda tanpa instalasi apa pun."
+      "question": "Apa yang terjadi jika saya melewatkan pembayaran EMI?",
+      "answer": "Melewatkan pembayaran EMI biasanya dikenakan biaya keterlambatan dan dapat berdampak negatif pada skor kredit Anda."
     }
   ],
   "relatedTools": [
-    "kalkulator persentase",
-    "kalkulator gaji",
-    "kalkulator diskon"
+    "loan-calculator",
+    "mortgage-calculator",
+    "compound-interest-calculator",
+    "simple-interest-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator EMI",
+  "cta": "Hitung EMI Anda yang tepat sekarang dan mulai merencanakan anggaran pembayaran pinjaman!",
+  "disclaimer": "Alat ini memberikan perkiraan EMI hanya untuk tujuan pendidikan. Ketentuan pinjaman aktual akan bervariasi menurut pemberi pinjaman.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Kalkulator EMI menampilkan cicilan bulanan, total bunga, dan total pembayaran",
   "ogImageText": "Kalkulator EMI"
 }

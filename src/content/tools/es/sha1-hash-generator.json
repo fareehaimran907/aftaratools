@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Generador de Hash SHA1 - Algoritmo de Hash Seguro 1",
+  "metaDescription": "Generador de hash SHA1 en línea gratis. Calcula al instante el resumen SHA-1 hexadecimal de 40 caracteres para cadenas de texto. Ideal para commits de Git y sumas de verificación.",
+  "h1": "Generador de Hash SHA1",
+  "primaryKeyword": "generador de hash sha1",
+  "secondaryKeywords": [
+    "generador sha1 en línea",
+    "texto a sha1",
+    "calcular sha1",
+    "suma de comprobación sha1"
+  ],
+  "slug": "generador-de-hash-sha1",
+  "intro": "¿Trabajando con repositorios de Git o verificando certificados digitales antiguos? Nuestro Generador de Hash SHA1 gratuito calcula rápidamente el hash estándar de 160 bits para cualquier cadena de texto que proporciones.",
+  "whatIs": "El Generador de Hash SHA1 es una utilidad que utiliza el Algoritmo de Hash Seguro 1. Procesa texto de entrada de cualquier tamaño para producir un valor de hash de 160 bits, normalmente representado como una cadena hexadecimal de 40 caracteres.",
+  "howToUse": [
+    "Introduce tu texto objetivo en el campo de entrada.",
+    "La herramienta calcula el resumen SHA-1 en tiempo real.",
+    "Se muestra la cadena hexadecimal de 40 caracteres.",
+    "Copia la cadena para tus necesidades de verificación."
+  ],
+  "howItWorks": "Desarrollado por la NSA, el algoritmo SHA-1 procesa texto en bloques de 512 bits. Utiliza una serie de operaciones bit a bit, sumas modulares y funciones de compresión durante 80 rondas para producir el resumen de mensaje final de 160 bits.",
+  "workedExample": "Introduciendo la palabra 'hello'. El algoritmo SHA-1 procesa el texto y produce: `aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d`.",
+  "resultInterpretation": "La salida de 40 caracteres es la huella digital de tu texto. Cambiar incluso una sola coma en un documento masivo resultará en una cadena de 40 caracteres completamente diferente.",
+  "useCases": [
+    "Control de versiones (Git): Generar o verificar manualmente los hashes SHA-1 que Git utiliza para identificar de manera única los commits y los estados de los archivos.",
+    "Verificación de archivo: Comprobando la integridad de un archivo ISO descargado contra la suma de verificación SHA-1 proporcionada por el editor.",
+    "Indexación de bases de datos: Crear claves de búsqueda de base de datos rápidas y de longitud uniforme a partir de cadenas de texto de longitud variable."
+  ],
+  "tipsAndLimitations": [
+    "SHA-1 produce 40 caracteres, lo que lo hace un poco más largo y anteriormente más seguro que MD5 (32 caracteres).",
+    "ADVERTENCIA DE SEGURIDAD: Al igual que MD5, SHA-1 ahora se considera criptográficamente comprometido. En 2017, Google ejecutó con éxito un ataque de colisión contra él. No use SHA-1 para el hash de contraseñas moderno ni para certificados SSL."
+  ],
+  "faq": [
+    {
+      "answer": "Git usa SHA-1 principalmente para verificar la corrupción accidental de datos, no para seguridad de alto nivel. La probabilidad de que una colisión accidental arruine un repositorio de Git es prácticamente cero, aunque Git está haciendo una transición gradual a SHA-256.",
+      "question": "¿Por qué Git todavía usa SHA-1 si está roto?"
+    },
+    {
+      "question": "¿Puedo invertir un hash SHA-1?",
+      "answer": "No. Por diseño, el hashing es una transformación matemática unidireccional. Sin embargo, las palabras comunes hasheadas en SHA-1 se pueden buscar fácilmente en bases de datos de descifrado en línea."
+    }
+  ],
+  "relatedTools": [
+    "sha256-hash-generator",
+    "md5-hash-generator",
+    "hash-generator"
+  ],
+  "cta": "¡Calcula tu hash SHA-1 al instante!",
+  "disclaimer": "SHA-1 ha sido criptográficamente obsoleto por NIST. Use SHA-256 para aplicaciones seguras que requieran resistencia a colisiones.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfaz del generador de hash SHA1",
+  "ogImageText": "Generador de Hash SHA1"
+}

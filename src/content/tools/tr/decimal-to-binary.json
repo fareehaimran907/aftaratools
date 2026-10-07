@@ -1,55 +1,88 @@
 {
-  "seoTitle": "Ondalıktan İkiliye Dönüştürücü",
-  "metaDescription": "10 tabanlı ondalık sayıyı 2 tabanlı ikili sayıya dönüştürün.",
-  "h1": "Ondalıktan İkiliye Dönüştürücü",
-  "primaryKeyword": "ondalıktan ikiliye",
+  "seoTitle": "Onlu Sistemden İkili Sisteme Çevirici – Base-10'dan Base-2'ye Dönüştür",
+  "metaDescription": "Ücretsiz çevrimiçi Onludan İkiliye Çevirici. Standart base-10 ondalık sayıları kolayca 0 ve 1'lerden oluşan base-2 ikili dizilere dönüştürün. Programcılar için mükemmel.",
+  "h1": "Onludan İkiliye Çevirici",
+  "primaryKeyword": "onludan ikiliye çevirici",
   "secondaryKeywords": [
-    "Ondalıktan ikiliye dönüştürücü çevrimiçi",
-    "ücretsiz ondalık sayı ikiliye dönüştürücü",
-    "en iyi ondalıktan ikiliye dönüştürücü"
+    "onlu sistemden ikili sisteme",
+    "decimal to binary",
+    "onluk sayı ikilik sayıya çevirme",
+    "base 10'dan base 2'ye",
+    "ikili hesap makinesi",
+    "ondalıktan 01'e",
+    "sayı tabanı dönüştürücü"
   ],
-  "slug": "ondalıktan ikiliye",
-  "intro": "Standart ondalık sayıları ikili koda çevirin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "onluktan-ikiliye",
+  "intro": "Bilgisayar mimarisi üzerinde mi çalışıyorsunuz, ağ yapılandırmalarını (network configurations) mı analiz ediyorsunuz veya düşük seviyeli (low-level) programlamanın temellerini mi öğreniyorsunuz? Ücretsiz Onludan İkiliye Çeviricimiz, standart sayıları (Base-10) anında sıfır ve bir dizilerine (Base-2) çevirmek için tasarlanmış, amaca yönelik, optimize edilmiş bir araçtır. İkiye bölme işlemini manuel olarak tekrarlamak yerine, ondalık tam sayınızı giriş alanına yapıştırmanız yeterlidir. Araç, siz yazarken matematiksel çeviriyi anında halleder ve size tam ikili (binary) karşılığını sağlar. Hepsinden iyisi, bu dönüştürücü tamamen web tarayıcınızın içinde, yerel (local) olarak çalışır. Bu, hiçbir bilginin harici sunuculara (servers) gönderilmediği için verilerinizin tamamen gizli kalmasını sağlarken ışık hızında bir performans sunduğu anlamına gelir.",
+  "whatIs": "Onlu Sistemden İkili Sisteme Çevirici, bir sayıyı ondalık sayı sisteminden (Base-10) ikili sayı sistemine (Base-2) çeviren özel bir matematiksel yardımcı programdır (utility). İnsanların günlük olarak kullandığı ondalık sistemde, sayılar on farklı rakam (0'dan 9'a kadar) kullanılarak gösterilir. Ancak, bilgisayarlar ve dijital elektronik cihazlar yalnızca iki rakamdan oluşan ikili sistemi kullanarak çalışırlar: 0 (bir 'kapalı' veya düşük voltaj durumunu temsil eder) ve 1 (bir 'açık' veya yüksek voltaj durumunu temsil eder). Bilgisayarların talimatları yürütmek için ikili sisteme ihtiyaç duyması nedeniyle, programcılar ve mühendisler sık sık insanların okuyabildiği ondalık tam sayıları bu ikili dizilere dönüştürmeye ihtiyaç duyarlar. Süreç, ondalık sayının sürekli olarak 2'ye bölünmesini ve kalanların ters sırayla kaydedilmesini içerir. Çeviricimiz, bu sıkıcı aritmetik işlemini otomatikleştirerek, günlük sayıları bilgisayar düzeyindeki verilere dönüştürmek için sorunsuz ve hatasız bir yol sunar.",
   "howToUse": [
-    "Ondalık tamsayınızı belirlenen giriş alanına girin.",
-    "İkili dize gibi ikincil parametreleri sağlayın.",
-    "Makine tarafından okunabilen ikili gösterimi oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "'Ondalık Sayı' (Decimal Number) etiketli ana giriş alanını bulun.",
+    "Ondalık tam sayınızı (yalnızca 0-9 arası rakamları içeren bir sayı) giriş alanına yazın veya yapıştırın.",
+    "Girişinizde harf, özel karakter, ondalık (nokta/virgül) veya eksi (-) işareti olmadığından emin olun.",
+    "Siz yazdıkça 'İkili Sonuç' (Binary Result) panelinin anında güncellenmesini izleyin. Tıklamanız gereken bir 'Hesapla' düğmesi yoktur.",
+    "Geçersiz bir karakter (örneğin 'A' veya '.') yazarsanız, araç anında 'Geçersiz ondalık sayı' (Invalid decimal number) hata mesajını gösterecektir."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Bu çevirici, taban (radix) dönüşümü için optimize edilmiş standart JavaScript ayrıştırma (parsing) işlevlerini kullanarak çalışır. Bir ondalık basamak dizisi (string) girdiğinizde, araç diziyi sürekli olarak okur ve standart bir Base-10 tam sayısı olarak ayrıştırır. Daha sonra, söz konusu tam sayıyı Base-2 temsiline dönüştürmek için yüksek düzeyde optimize edilmiş bir algoritma yürüten yerleşik `toString(2)` yöntemini kullanır. Sahne arkasında bu, sayının tekrar tekrar 2'ye bölünmesini, sağdan sola bir sonraki ikili basamak olarak kalanın (her zaman 0 veya 1'dir) alınmasını ve bölüm sıfır olana kadar devam etmesini içerir. Hesaplama, yüksek düzeyde optimize edilmiş JavaScript motorları kullanılarak tarayıcı içinde yerel (natively) olarak gerçekleştirildiğinden, dönüştürme bir milisaniyenin çok küçük bir bölümünde gerçekleşir ve siz girişi değiştirdikçe sonucun gerçek zamanlı olarak mükemmel bir şekilde güncellenmesine olanak tanır.",
+  "workedExample": "13 ondalık sayısını ikili sayıya dönüştürme sürecini adım adım manuel olarak inceleyelim. Sürekli olarak 2'ye bölüyoruz ve kalanları kaydediyoruz. Birincisi: 13 ÷ 2 = 6, kalan 1. İkincisi: 6 ÷ 2 = 3, kalan 0. Üçüncüsü: 3 ÷ 2 = 1, kalan 1. Dördüncüsü: 1 ÷ 2 = 0, kalan 1. Şimdi, kalanları aşağıdan yukarıya (veya sondan başa) doğru okuyoruz. Bu bize 1101'i verir. Dolayısıyla, ondalık sistemdeki 13 sayısı ikili sistemdeki 1101 sayısına tam olarak eşittir. Şimdi 10 ondalık sayısıyla başka bir örnek deneyelim. 10 ÷ 2 = 5 (kalan 0). 5 ÷ 2 = 2 (kalan 1). 2 ÷ 2 = 1 (kalan 0). 1 ÷ 2 = 0 (kalan 1). Sondan başa doğru okuduğumuzda 1010 elde ederiz. Yani ondalık olarak 10, ikili olarak 1010'dur.",
+  "resultInterpretation": "Sonuç paneli, dönüştürülen ikili (binary) dizinizi devasa, kalın (bold), tek aralıklı (monospace) bir yazı tipinde görüntüler. Bu tasarım tercihi, çıktının girişten net bir şekilde ayrılmasını ve bir bakışta okunmasının son derece kolay olmasını sağlar; bu, özellikle çıktıyı bir ders kitabı, ödev veya bir kod hata ayıklayıcısı (debugger) ile karşılaştırdığınızda kullanışlıdır. Arayüz (interface), son sayının hangi sisteme ait olduğu konusunda kafa karışıklığını önlemek için çıktıyı açıkça 'İkili Sonuç' olarak etiketler. İnanılmaz derecede büyük bir ondalık sayı girmeniz durumunda, elde edilen ikili dize oldukça uzun hale gelebilir. Bu durumda, metin, yatay kaydırma gerektirmeden daha küçük mobil ekranlarda tamamen görünür kalmasını sağlamak için otomatik olarak alt satıra geçer (wrap).",
   "useCases": [
-    "IP adreslerini alt ağlara ayırma",
-    "Donanım mantık tasarımı",
-    "Hareket halindeyken ondalık tam sayıyı hızla işleme"
+    "Bilgisayar Bilimleri Eğitimi: Sayı sistemlerini öğrenirken lise ve üniversite öğrencilerinin manuel olarak yaptıkları ev ödevi hesaplamalarını doğrulamalarına yardımcı olmak.",
+    "Ağ Oluşturma (Networking) ve Yönlendirme: İnsan tarafından okunabilen ondalık IP adresi bölümlerini veya alt ağ maskelerini (subnet mask) bit tabanlı (bitwise) analiz için ikili sisteme dönüştürmek.",
+    "Yazılım Mühendisliği: Tam bit durumlarını görselleştirerek C, C++ veya Rust gibi programlama dillerinde düşük seviyeli bit düzeyinde işlemlerde veya bayraklarda (flags) hata ayıklama (debugging).",
+    "Donanım Tasarımı: Mantık kapıları (logic gates), mikro denetleyiciler veya FPGA simülasyonları için ondalık spesifikasyonları ikili girdilere dönüştürmek.",
+    "Kriptografi: Şifreleme algoritmaları uygulanmadan önce verilerin bit düzeyinde nasıl dönüştürüldüğünü anlamak.",
+    "Matematik: Base-2 aritmetiğinin özelliklerini keşfetmek ve konumsal (positional) sayı sistemlerinin temelde nasıl çalıştığını anlamak."
   ],
   "tipsAndLimitations": [
-    "Negatif sayılar ikinin tamamlayıcı gösterimini gerektirir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Yalnızca pozitif tam sayılar (integers) girdiğinizden emin olun. Araç, eksi (-) işaretlerini veya ondalık (nokta/virgül) işaretlerini kabul etmez.",
+    "Giriş alanında boşluk (space) bırakılamaz. Biçimlendirilmiş bir sayınız (örneğin 1 000) varsa, yapıştırmadan önce boşlukları kaldırmanız gerekir.",
+    "Araç, JavaScript'teki güvenli tamsayı (safe integer) sınırına karşılık gelen 9.007.199.254.740.991'e kadar olan ondalık sayılar için son derece hassastır.",
+    "Standart web tarayıcıları bunları kayan noktalı (floating-point) yaklaşımlara (approximations) dönüştüreceğinden, 9.007.199.254.740.991'den büyük ondalık sayılar hassasiyet kaybına uğrayabilir.",
+    "Bu spesifik araç işaretsiz (unsigned) ikili tamsayılar üretmek üzere tasarlanmıştır. Negatif sayılar için İkiye Tümleyen (Two's Complement) temsilleri üretmez."
   ],
   "faq": [
     {
-      "question": "What is the highest 8-bit value?",
-      "answer": "255 (11111111)."
+      "question": "Ondalık (decimal) sayı sistemi nedir?",
+      "answer": "Ondalık sistem, 0'dan 9'a kadar on sembol kullanan bir taban-10 (base-10) numaralandırma sistemidir. İnsanların günlük sayma ve aritmetik için kullandığı standart sistemdir."
     },
     {
-      "question": "Is the Decimal to Binary Converter free to use?",
-      "answer": "Yes, our Decimal to Binary Converter is completely free and requires no registration."
+      "question": "Ondalıktan ikiliye (binary) nasıl dönüştürürsünüz?",
+      "answer": "Ondalıktan ikiliye dönüştürmek için, ondalık sayıyı tekrar tekrar 2'ye böler ve kalanları takip edersiniz. Daha sonra ikili dizeyi elde etmek için kalanları ters sırayla (son bölmeden ilkine doğru) okursunuz."
     },
     {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Bu araçla negatif ondalık sayıları dönüştürebilir miyim?",
+      "answer": "Hayır. Bu hesap makinesi yalnızca işaretsiz (pozitif) ondalık tam sayıları (unsigned decimal integers) işlemek için tasarlanmıştır. İkili sistemde negatif sayıları temsil etmek, bu aracın desteklemediği İkiye Tümleyen (Two's Complement) gibi özel formatlar gerektirir."
+    },
+    {
+      "question": "Bir harf veya ondalık işareti (nokta/virgül) yazarsam ne olur?",
+      "answer": "Araç yalnızca tam tam sayıları (whole integers) beklediğinden, harflerin, ondalık (nokta) işaretlerinin veya özel karakterlerin yazılması sonuç panelinde hemen 'Geçersiz ondalık sayı' (Invalid decimal number) hata mesajını tetikleyecektir."
+    },
+    {
+      "question": "Dönüştürebileceğim maksimum ondalık sayı nedir?",
+      "answer": "Çevirici (converter), standart web tarayıcılarının maksimum güvenli tam sayı sınırına karşılık gelen 9.007.199.254.740.991'e kadar olan ondalık sayıları işleyebilir."
+    },
+    {
+      "question": "Bilgisayarlar neden ondalık yerine ikili sistemi kullanır?",
+      "answer": "Bilgisayarlar ikili sistemi kullanır, çünkü yalnızca iki elektriksel durumu (açık ve kapalı) ayırt etmesi gereken donanımlar üretmek, ondalık (decimal) bir sistem için on durumu ayırt etmesi gereken donanımlara (hardware) kıyasla inanılmaz derecede güvenilir ve ucuzdur."
+    },
+    {
+      "question": "Bu araç mobil cihazlarda çalışıyor mu?",
+      "answer": "Evet, araç tamamen duyarlıdır (responsive) ve akıllı telefonlarda, tabletlerde ve masaüstü bilgisayarlarda sorunsuz çalışacak şekilde tasarlanmıştır."
+    },
+    {
+      "question": "Verilerim bir sunucuya gönderiliyor mu?",
+      "answer": "Hayır. Tüm ayrıştırma (parsing) ve matematiksel dönüştürme işlemleri JavaScript kullanılarak tamamen cihazınızda yerel (local) olarak gerçekleştirilir. Giriş (input) verileriniz asla harici sunuculara (servers) gönderilmez veya buralarda saklanmaz."
     }
   ],
   "relatedTools": [
-    "uzunluk dönüştürücü",
-    "ağırlık dönüştürücü",
-    "yükseklik dönüştürücü"
+    "binary-to-decimal",
+    "hex-to-decimal",
+    "number-base-converter",
+    "data-storage-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Ondalıktan İkiliye Dönüştürücü",
-  "ogImageText": "Ondalıktan İkiliye Dönüştürücü"
+  "cta": "Standart bir ondalık sayıyı hızla ikili bir dizeye kodlamanız mı gerekiyor? Anında, matematiksel olarak kusursuz bir dönüştürme için yukarıya Base-10 tam sayınızı girin.",
+  "disclaimer": "Bu araç, 9.007.199.254.740.991'e (modern web tarayıcılarının güvenli tamsayı sınırı) kadar olan işaretsiz ondalık tam sayılar (unsigned decimal integers) için son derece hassas (accurate) dönüşümler sağlar. Genel programlama, ağ (networking) ve eğitim amaçları için mükemmel derecede uygun olsa da, devasa sayılar için keyfi hassasiyet (arbitrary-precision) aritmetiği gerektiren yüksek düzeyde uzmanlaşmış (highly specialized) bilimsel bilgi işlem (scientific computing) adanmış yazılım kütüphaneleri (software libraries) gerektirebilir.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Bir ondalık sayı için giriş alanı (input field) ve ortaya çıkan ikili dizeyi gösteren Onludan İkiliye Çevirici arayüzü",
+  "ogImageText": "Onludan İkiliye Çevirici"
 }

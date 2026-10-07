@@ -13,7 +13,7 @@ export function RomanNumeralConverter() {
   const [mode, setMode] = useState<"toRoman"|"toNumber">("toRoman");
 
   const toRoman = (num: number) => {
-    if (num < 1 || num > 3999) return "Number must be between 1 and 3999";
+    if (num < 1 || num > 3999) return t('rangeError');
     const lookup: Record<string, number> = {M:1000,CM:900,D:500,CD:400,C:100,XC:90,L:50,XL:40,X:10,IX:9,V:5,IV:4,I:1};
     let roman = '', i;
     for (i in lookup) {
@@ -32,7 +32,7 @@ export function RomanNumeralConverter() {
     for (let i = 0; i < str.length; i++) {
       const current = lookup[str[i]];
       const next = lookup[str[i+1]];
-      if (current === undefined) return "Invalid Roman Numeral";
+      if (current === undefined) return t('invalidRoman');
       if (next && current < next) {
         num -= current;
       } else {
@@ -72,7 +72,7 @@ export function RomanNumeralConverter() {
 
           <div className="space-y-4">
             <div className="space-y-2">
-              <Label className="text-sm font-medium text-secondary-foreground">{mode === "toRoman" ? "Number (1 - 3999)" : "Roman Numeral"}</Label>
+              <Label className="text-sm font-medium text-secondary-foreground">{mode === "toRoman" ? t('numberInputLabel') : t('romanNumeralLabel')}</Label>
               <Input 
                 type={mode === "toRoman" ? "number" : "text"} 
                 value={val} 
@@ -94,7 +94,7 @@ export function RomanNumeralConverter() {
               </div>
               <span className="text-sm font-bold text-primary mb-2 uppercase tracking-wider block">{t('result')}</span>
               <div className="mt-2">
-                <span className={`text-5xl sm:text-7xl font-bold tracking-tight break-all ${result.includes('Invalid') || result.includes('must be') ? 'text-error text-xl sm:text-2xl font-sans' : 'text-foreground'} ${mode === 'toRoman' ? 'font-serif tracking-widest' : 'font-mono'}`}>
+                <span className={`text-5xl sm:text-7xl font-bold tracking-tight break-all ${(result === t('invalidRoman') || result === t('rangeError')) ? 'text-error text-xl sm:text-2xl font-sans' : 'text-foreground'} ${mode === 'toRoman' ? 'font-serif tracking-widest' : 'font-mono'}`}>
                   {result || "0"}
                 </span>
               </div>

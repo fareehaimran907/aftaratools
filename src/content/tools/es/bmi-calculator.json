@@ -1,65 +1,53 @@
 {
-  "title": "Calculadora IMC - Índice de Masa Corporal Online",
-  "metaDescription": "Calcula tu Índice de Masa Corporal (IMC) gratis. Descubre si estás en un peso saludable usando medidas métricas o imperiales al instante.",
-  "h1": "Calculadora de IMC Gratis",
-  "primaryKeyword": "calculadora imc",
-  "hero": "Verifica rápidamente tu Índice de Masa Corporal para saber si estás en un rango de peso saludable.",
-  "whatIs": "El Índice de Masa Corporal (IMC) es una medida numérica simple que usa tu peso y altura para estimar tu grasa corporal total. Es ampliamente usado por profesionales de la salud como una evaluación rápida para identificar posibles categorías de peso que pueden llevar a problemas de salud.",
+  "seoTitle": "Calculadora de IMC - Verifica tu Índice de Masa Corporal en línea",
+  "metaDescription": "Calculadora de IMC en línea gratuita. Calcula tu Índice de Masa Corporal (IMC) al instante usando tu altura y peso. Descubre si estás en un rango de peso saludable.",
+  "h1": "Calculadora de IMC",
+  "primaryKeyword": "calculadora de IMC",
+  "secondaryKeywords": [
+    "calcular el IMC",
+    "calculadora de índice de masa corporal",
+    "verificador de IMC",
+    "calculadora de peso saludable"
+  ],
+  "slug": "calculadora-imc",
+  "intro": "¿Quieres saber si tu peso es saludable para tu altura? Nuestro Calculador de IMC gratuito calcula al instante tu Índice de Masa Corporal utilizando las categorías estándar de la Organización Mundial de la Salud.",
+  "whatIs": "El Calculador de IMC (Índice de Masa Corporal) es una herramienta de evaluación de la salud. Utiliza una fórmula matemática basada en su altura y peso para estimar su grasa corporal total y categorizar su riesgo de salud.",
   "howToUse": [
-    "Ingrese su altura en el campo de entrada designado.",
-    "Proporcione parámetros secundarios como el peso.",
-    "Haga clic en el botón calcular o enviar para generar un número que clasifique el peso corporal.",
-    "Copie o revise el resultado resultante según sus necesidades."
+    "Seleccione su sistema de medición preferido (Métrico o Imperial).",
+    "Introduce tu altura (en cm o pies/pulgadas).",
+    "Introduce tu peso (en kg o libras).",
+    "La herramienta calcula tu IMC exacto y muestra tu categoría de salud."
   ],
-  "formula": "La fórmula métrica estándar para el IMC es tu peso en kilogramos dividido por tu altura en metros al cuadrado (kg/m²). Para medidas imperiales, se usa libras y pulgadas cuadradas multiplicadas por 703.",
-  "example": "Si pesas 70 kg y mides 1.75 metros: IMC = 70 / (1.75 * 1.75) = 22.86 (Peso Normal).",
+  "howItWorks": "La herramienta utiliza la fórmula estándar: peso en kilogramos dividido por la altura en metros al cuadrado (kg/m²). Para entradas imperiales, calcula (libras / pulgadas²) × 703 antes de categorizar el resultado.",
+  "workedExample": "Una persona que mide 1,75 metros y pesa 70 kilogramos: 70 / (1,75 × 1,75) = 70 / 3,0625 = 22,86. Un IMC de 22,86 se encuentra en la categoría de 'Peso Normal/Saludable'.",
+  "resultInterpretation": "El número proporciona un indicador general de la salud. Por debajo de 18,5 es Bajo peso; de 18,5 a 24,9 es Normal; de 25,0 a 29,9 es Sobrepeso; 30,0 y más es Obeso.",
   "useCases": [
-    "Seguimiento general de salud y fitness.",
-    "Establecer metas para perder o ganar peso.",
-    "Monitoreo de la composición corporal."
+    "Salud personal: Seguimiento de tu IMC a lo largo del tiempo mientras comienzas una nueva dieta o régimen de ejercicio.",
+    "Screenings médicos: Los médicos utilizan el IMC como una herramienta de cribado inicial rápida para identificar posibles riesgos de salud relacionados con el peso.",
+    "Planificación de fitness: Establecer un peso objetivo realista basado en el rango de IMC 'Normal' para tu altura."
   ],
-  "benefits": [
-    "Rápido y Gratis: Obtén resultados al instante.",
-    "Soporta Ambos Sistemas: Cambia entre unidades Métricas e Imperiales fácilmente.",
-    "Privado: No guardamos tus datos físicos."
+  "tipsAndLimitations": [
+    "El IMC no mide directamente el porcentaje de grasa corporal. No puede distinguir entre grasa y músculo.",
+    "Los atletas altamente musculosos pueden obtener una calificación de 'Obeso' en una escala de IMC a pesar de tener muy poca grasa corporal, porque el músculo es más denso que la grasa."
   ],
   "faq": [
     {
-      "question": "¿El IMC es exacto para los deportistas?",
-      "answer": "No, las personas musculosas a menudo se clasifican falsamente como con sobrepeso."
+      "question": "¿Es preciso el IMC para todos?",
+      "answer": "No. Aunque es una buena guía general para la población promedio, es inexacta para mujeres embarazadas, atletas con mucha musculatura y ancianos."
     },
     {
-      "question": "¿La Calculadora de IMC es de uso gratuito?",
-      "answer": "Sí, nuestra Calculadora de IMC es completamente gratuita y no requiere registro."
-    },
-    {
-      "question": "¿Esto funciona en dispositivos móviles?",
-      "answer": "Sí, la herramienta responde completamente y funciona perfectamente en todos los teléfonos inteligentes y tabletas."
+      "question": "¿Afecta el género al IMC?",
+      "answer": "La fórmula estándar del IMC para adultos no tiene en cuenta el género. Sin embargo, las mujeres naturalmente tienen un porcentaje de grasa corporal ligeramente mayor que los hombres con el mismo IMC."
     }
   ],
-  "cta": "¡Ingresa tu altura y peso arriba para calcular tu IMC y entender tu estado de salud al instante!",
-  "seoTitle": "Calculadora de IMC",
-  "secondaryKeywords": [
-    "calculadora de IMC en línea",
-    "calculadora de IMC gratis",
-    "mejor calculadora de IMC"
-  ],
-  "slug": "calculadora-imc",
-  "intro": "Utilice nuestra herramienta gratuita Calculadora de IMC en línea. Estima el índice de masa corporal en función de sus aportaciones.",
-  "howItWorks": "Esta herramienta funciona en su navegador aplicando algoritmos estándar a su altura. Procesa instantáneamente los datos para generar un número que clasifica el peso corporal.",
-  "workedExample": "Por ejemplo: altura 180 cm, peso 75 kg produce un IMC 23,1 (normal).",
-  "resultInterpretation": "El resultado representa un número que clasifica el peso corporal. Puede utilizar estos datos para sus cálculos específicos o necesidades de formato.",
-  "tipsAndLimitations": [
-    "El IMC no distingue entre masa muscular y grasa.",
-    "Asegúrese de que sus entradas tengan el formato correcto para obtener los mejores resultados.",
-    "La herramienta se ejecuta completamente en el lado del cliente, lo que garantiza que sus datos permanezcan privados."
-  ],
   "relatedTools": [
-    "calculadora-bmr",
-    "calculadora-de-calorias",
-    "macrocalculadora"
+    "bmr-calculator",
+    "body-fat-calculator",
+    "calorie-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Captura de pantalla de la interfaz de la Calculadora de IMC",
+  "cta": "¡Calcula tu IMC ahora!",
+  "disclaimer": "Esta herramienta proporciona estimaciones generales de salud basadas en los estándares de la OMS. No es un sustituto del consejo o diagnóstico médico profesional.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfaz de la calculadora de IMC mostrando un resultado saludable",
   "ogImageText": "Calculadora de IMC"
 }

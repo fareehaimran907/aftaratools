@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Calculadora de TMB",
-  "metaDescription": "Calcule su tasa metabólica basal.",
-  "h1": "Calculadora de TMB",
-  "primaryKeyword": "calculadora bmr",
+  "seoTitle": "Calculadora de TMB - Tasa Metabólica Basal",
+  "metaDescription": "Calculadora BMR gratuita en línea. Descubre exactamente cuántas calorías quema tu cuerpo en reposo. Esencial para la pérdida de peso y la planificación de dietas.",
+  "h1": "Calculadora de BMR",
+  "primaryKeyword": "calculadora de BMR",
   "secondaryKeywords": [
-    "calculadora bmr en línea",
-    "calculadora bmr gratis",
-    "mejor calculadora bmr"
+    "calculadora de tasa metabólica basal",
+    "calculadora de metabolismo en reposo",
+    "¿Cuántas calorías quemo en reposo?",
+    "fórmula BMR"
   ],
-  "slug": "calculadora-bmr",
-  "intro": "Descubra exactamente cuántas calorías quema su cuerpo en reposo.",
-  "whatIs": "¿Qué es esta herramienta?",
+  "slug": "calculadora-tmb",
+  "intro": "¿Planeando una dieta y necesitas conocer tus necesidades calóricas básicas? Nuestro Calculador de BMR gratuito revela exactamente cuántas calorías quema tu cuerpo cada día solo para mantenerse vivo.",
+  "whatIs": "La calculadora de TMB (Tasa Metabólica Basal) es una herramienta matemática fisiológica. Estima el número mínimo de calorías que tu cuerpo requiere para realizar funciones básicas que sostienen la vida (como respirar y bombear sangre) mientras estás completamente en reposo.",
   "howToUse": [
-    "Ingrese su edad, altura y peso en el campo de entrada designado.",
-    "Proporcione parámetros secundarios como el género.",
-    "Haga clic en el botón calcular o enviar para generar calorías quemadas descansando completamente.",
-    "Copie o revise el resultado resultante según sus necesidades."
+    "Seleccione su sexo biológico.",
+    "Ingrese su edad, estatura y peso actual.",
+    "Haz clic en calcular para revelar instantáneamente tu Tasa Metabólica Basal.",
+    "Usa este número de referencia para planificar tu déficit o superávit dietético."
   ],
-  "howItWorks": "como funciona",
-  "workedExample": "Ejemplos",
-  "resultInterpretation": "Interpretación",
+  "howItWorks": "La herramienta utiliza la ecuación de Mifflin-St Jeor, que actualmente se considera la fórmula estándar más precisa. Tiene en cuenta el peso, la altura y la edad, aplicando diferentes multiplicadores basados en las diferencias biológicas de sexo en la masa muscular.",
+  "workedExample": "Un hombre de 30 años que mide 180 cm y pesa 80 kg: (10 × 80) + (6,25 × 180) - (5 × 30) + 5 = 800 + 1125 - 150 + 5 = 1,780. Su TMB es de 1,780 calorías por día.",
+  "resultInterpretation": "Tu BMR es tu 'límite de calorías en coma'. Si te acostaras en la cama todo el día y no hicieras absolutamente nada, aún así quemarías esta cantidad de calorías. Debes comer más que esto para apoyar las actividades diarias.",
   "useCases": [
-    "Planificación de la dieta",
-    "Entendiendo el metabolismo",
-    "Procesamiento rápido de edad, altura y peso sobre la marcha"
+    "Pérdida de peso: Usar el BMR como el límite más bajo absoluto de ingesta calórica diaria para asegurar que no ralentices tu metabolismo.",
+    "Construcción muscular: Calcular las necesidades básicas antes de añadir un excedente calórico y las calorías del ejercicio para ganar masa.",
+    "Planificación Nutricional: Dietistas determinando las necesidades metabólicas básicas de los pacientes."
   ],
   "tipsAndLimitations": [
-    "Fórmulas como Mifflin-St Jeor proporcionan una estimación, no un resultado de laboratorio.",
-    "Asegúrese de que sus entradas tengan el formato correcto para obtener los mejores resultados.",
-    "La herramienta se ejecuta completamente en el lado del cliente, lo que garantiza que sus datos permanezcan privados."
+    "El BMR NO incluye las calorías que quemas al caminar, digerir alimentos o hacer ejercicio. Para encontrar tu quema total de calorías diaria, utiliza un Calculador de TDEE (Gasto Energético Total Diario).",
+    "A medida que pierdes peso, tu TMB disminuirá. Debes recalcularlo regularmente durante una dieta."
   ],
   "faq": [
     {
-      "question": "¿La TMB incluye ejercicio?",
-      "answer": "No, la TMB es estrictamente la energía necesaria para mantenerse con vida en reposo."
+      "question": "¿Cuál es la diferencia entre BMR y TDEE?",
+      "answer": "El BMR son las calorías quemadas completamente en reposo. El TDEE añade tu nivel de actividad diaria (caminar, hacer ejercicio, hablar) además de tu BMR para encontrar tu total de calorías quemadas."
     },
     {
-      "question": "¿La Calculadora BMR es de uso gratuito?",
-      "answer": "Sí, nuestra Calculadora BMR es completamente gratuita y no requiere registro."
-    },
-    {
-      "question": "¿Esto funciona en dispositivos móviles?",
-      "answer": "Sí, la herramienta responde completamente y funciona perfectamente en todos los teléfonos inteligentes y tabletas."
+      "question": "¿Por qué la edad afecta la TMB?",
+      "answer": "A medida que envejeces, naturalmente pierdes masa muscular y tus procesos metabólicos se ralentizan, lo que significa que tu cuerpo necesita menos calorías para mantenerse."
     }
   ],
   "relatedTools": [
-    "calculadora-imc",
-    "calculadora-de-calorias",
-    "macrocalculadora"
+    "calorie-calculator",
+    "macro-calculator",
+    "body-fat-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calculadora de TMB",
-  "ogImageText": "Calculadora de TMB"
+  "cta": "¡Calcula tu metabolismo en reposo ahora!",
+  "disclaimer": "Los cálculos de BMR son estimaciones basadas en promedios de la población. Los metabolismos individuales pueden variar debido a la genética, la masa muscular y las condiciones médicas.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfaz del calculador de TMB mostrando las necesidades calóricas diarias",
+  "ogImageText": "Calculadora de BMR"
 }

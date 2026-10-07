@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Générateur de codes-barres - Créez des codes-barres personnalisés en ligne",
+  "metaDescription": "Générateur de codes-barres en ligne gratuit. Créez instantanément des codes-barres 1D scannables (Code 128, UPC, EAN). Téléchargez des images de haute qualité pour la vente au détail et l'inventaire.",
+  "h1": "Générateur de codes-barres",
+  "primaryKeyword": "générateur de codes-barres",
+  "secondaryKeywords": [
+    "créer un code-barres en ligne",
+    "générateur de code UPC",
+    "générateur de code 128",
+    "créateur de codes-barres gratuit"
+  ],
+  "slug": "générateur-de-codes-barres",
+  "intro": "Gérer un entrepôt ou lancer un produit de détail ? Notre générateur de codes-barres gratuit crée instantanément des codes-barres 1D de haute qualité et scannables dans des formats standard comme Code 128 et UPC.",
+  "whatIs": "Le générateur de codes-barres est un utilitaire graphique numérique. Il prend des données alphanumériques (comme un SKU de produit ou un numéro de série) et les traduit en un motif lisible par machine de lignes noires et blanches parallèles.",
+  "howToUse": [
+    "Entrez le texte, le numéro ou le SKU que vous souhaitez encoder dans la zone de saisie.",
+    "Sélectionnez le format de code-barres dont vous avez besoin (par exemple, Code 128 est le meilleur pour l'inventaire général).",
+    "L'outil génère l'image du code-barres instantanément.",
+    "Cliquez sur 'Télécharger' pour enregistrer le code-barres en tant que fichier image."
+  ],
+  "howItWorks": "L'outil utilise une bibliothèque de rendu pour mapper les caractères de votre texte aux motifs de largeur de ligne spécifiques dictés par la norme de code-barres que vous avez choisie. Il rend ensuite ces lignes sur un élément Canvas HTML5 pour un téléchargement facile.",
+  "workedExample": "Vous sélectionnez 'Code 128' et entrez 'SKU-5542'. L'outil calcule les caractères de départ, les largeurs spécifiques des barres pour ces lettres et chiffres, ajoute un chiffre de contrôle pour la précision du balayage, et génère le code-barres visuel.",
+  "resultInterpretation": "L'image générée peut être imprimée sur des étiquettes ou des emballages de produits. Tout lecteur de code-barres laser ou optique standard pourra lire les lignes et restituer votre texte original.",
+  "useCases": [
+    "Gestion des stocks : Création d'étiquettes de suivi pour les cartons dans un entrepôt.",
+    "Ventes au détail : Génération de codes-barres UPC-A ou EAN-13 pour les produits physiques à scanner à une caisse enregistreuse (POS).",
+    "Systèmes de bibliothèque : Création d'étiquettes d'identification scannables pour les livres ou les supports multimédias."
+  ],
+  "tipsAndLimitations": [
+    "Le Code 128 est le format le plus polyvalent, car il prend en charge à la fois les lettres et les chiffres de longueur variable.",
+    "Les codes-barres de détail (UPC-A) nécessitent exactement 11 ou 12 chiffres numériques. L'outil générera une erreur si vous essayez d'utiliser des lettres dans un code-barres UPC."
+  ],
+  "faq": [
+    {
+      "question": "Quelle est la différence entre le Code 128 et l'UPC ?",
+      "answer": "Le Code 128 est utilisé pour le suivi général et prend en charge toutes les lettres et tous les chiffres. Le UPC (Code Universel des Produits) est strictement réglementé, uniquement numérique, et requis pour vendre des articles dans les magasins de détail en Amérique du Nord."
+    },
+    {
+      "question": "Ces codes-barres sont-ils légaux pour la vente au détail ?",
+      "answer": "L'image du code-barres générée est mathématiquement parfaite et peut être scannée. Cependant, pour vendre un produit dans un grand magasin de détail, vous devez légalement acheter un numéro UPC enregistré auprès de GS1. Vous ne pouvez pas simplement inventer un numéro."
+    }
+  ],
+  "relatedTools": [
+    "qr-code-generator",
+    "base64-encode-decode",
+    "random-number-generator"
+  ],
+  "cta": "Générez votre code-barres personnalisé maintenant !",
+  "disclaimer": "Les codes-barres sont générés localement. Les utilisateurs sont responsables de s'assurer que les codes générés ne sont pas en conflit avec les systèmes de vente au détail enregistrés auprès de GS1 s'ils sont utilisés commercialement.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface du générateur de codes-barres affichant un code-barres Code 128",
+  "ogImageText": "Générateur de codes-barres"
+}

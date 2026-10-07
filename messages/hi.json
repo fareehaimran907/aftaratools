@@ -38,15 +38,15 @@
     },
     "percentage-calculator": {
       "title": "प्रतिशत कैलकुलेटर",
-      "description": "प्रतिशत की जल्दी और सटीक गणना करें।",
+      "description": "जल्दी और आसानी से प्रतिशत की गणना करें।",
       "ui": {
-        "percentageCalculator": "प्रतिशत कैलकुलेटर",
+        "calculatePercentage": "प्रतिशत कैलकुलेटर",
         "whatIs": "कितना है",
-        "of": "का",
+        "of": "% का",
         "amount": "राशि",
         "calculate": "गणना करें",
         "result": "परिणाम",
-        "calculatePercentage": "प्रतिशत की गणना करें"
+        "enterValuesToCalculatePerc": "प्रतिशत की गणना करने के लिए मान दर्ज करें।"
       }
     },
     "json-formatter": {
@@ -55,7 +55,19 @@
       "ui": {
         "formatJson": "JSON फॉर्मेट करें",
         "inputJSON": "इनपुट जे एस ओ एन",
-        "reset": "रीसेट करें"
+        "reset": "रीसेट करें",
+        "format": "प्रारूपित करें",
+        "minify": "छोटा करें",
+        "copy": "कॉपी",
+        "copied": "कॉपी किया गया!",
+        "clear": "साफ़ करें",
+        "input": "इनपुट JSON",
+        "inputPlaceholder": "अपना JSON यहाँ पेस्ट करें...",
+        "output": "आउटपुट JSON",
+        "outputPlaceholder": "प्रारूपित JSON यहाँ दिखाई देगा...",
+        "invalidJson": "अमान्य JSON",
+        "syntaxError": "सिंटैक्स त्रुटि",
+        "jsonToolkit": "JSON टूलकिट"
       }
     },
     "area-converter": {
@@ -100,13 +112,21 @@
       "ui": {
         "bedtimeCalculator": "सोने का समय कैलकुलेटर",
         "whenDoYouNeedToWakeUp": "आपको कितने बजे उठना है?",
-        "calculate": "गणना करें",
+        "calculate": "समय की गणना करें",
         "toWakeUpAt": "इस समय उठने के लिए",
         "youShouldTryToBeAsleepBy": ", आपको इस समय तक सो जाने की कोशिश करनी चाहिए:",
         "6Cycles9h": "6 चक्र (9 घंटे)",
         "5Cycles75h": "5 चक्र (7.5 घंटे)",
         "calculationsIncludeAnAverage15MinutesToFallAsleep": "गणना में सोने के लिए औसतन 15 मिनट का समय शामिल है।",
-        "enterYourWakeUpTimeToCal": "सोने के समय की गणना करने के लिए अपना जागने का समय दर्ज करें"
+        "enterYourWakeUpTimeToCal": "सोने के समय की गणना करने के लिए अपना जागने का समय दर्ज करें",
+        "title": "सोने के समय का कैलकुलेटर",
+        "description": "तरोताजा होकर जागने के लिए ठीक कब बिस्तर पर जाना है, यह पता करें।",
+        "iNeedToWakeUpAt": "मुझे इस समय जागना है",
+        "youShouldGoToBedAt": "आपको इस समय बिस्तर पर जाना चाहिए",
+        "resultsDescription": "ये समय 90-मिनट के चक्रों पर आधारित हैं, जिसमें सोने के लिए 15 मिनट शामिल हैं।",
+        "cycles": "साइकिल",
+        "hours": "घंटे",
+        "optimal": "इष्टतम"
       }
     },
     "binary-to-decimal": {
@@ -116,7 +136,8 @@
         "binaryToDecimalConverter": "बाइनरी से दशमलव कन्वर्टर",
         "binaryNumber": "बाइनरी संख्या",
         "decimalResult": "दशमलव परिणाम",
-        "eG1010": "जैसे 1010"
+        "eG1010": "जैसे 1010",
+        "invalidBinaryNumber": "अमान्य बाइनरी नंबर"
       }
     },
     "bmi-calculator": {
@@ -183,14 +204,27 @@
       "description": "",
       "ui": {
         "breakevenCalculator": "ब्रेक-ईवन कैलकुलेटर",
-        "fixedCosts": "स्थिर लागत",
-        "variableCostPerUnit": "प्रति इकाई परिवर्ती लागत",
-        "sellingPricePerUnit": "प्रति इकाई बिक्री मूल्य",
+        "fixedCosts": "निश्चित लागत (Fixed Costs)",
+        "variableCostPerUnit": "परिवर्तनीय लागत प्रति इकाई",
+        "sellingPricePerUnit": "बिक्री मूल्य प्रति इकाई",
         "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "ब्रेक-ईवन तक पहुँचने के लिए बिक्री मूल्य परिवर्ती लागत से अधिक होना चाहिए।",
         "unitsToSell": "बेचने वाली इकाइयाँ",
         "breakevenRevenue": "ब्रेक-ईवन राजस्व",
         "costsPricing": "लागत मूल्य निर्धारण",
-        "breakEvenPoint": "लाभ - अलाभ स्थिति"
+        "breakEvenPoint": "लाभ - अलाभ स्थिति",
+        "title": "ब्रेक-ईवन कैलकुलेटर",
+        "description": "अपनी लागतों को कवर करने और ब्रेक-ईवन बिंदु तक पहुंचने के लिए बेची जाने वाली इकाइयों की गणना करें।",
+        "calculate": "ब्रेक-ईवन की गणना करें",
+        "summary": "ब्रेक-ईवन सारांश",
+        "breakEvenUnits": "ब्रेक-ईवन इकाइयाँ",
+        "breakEvenRevenue": "ब्रेक-ईवन राजस्व",
+        "contributionMargin": "अंशदान मार्जिन (प्रति इकाई)",
+        "neverBreakEvenError": "आपकी परिवर्तनीय लागत आपके बिक्री मूल्य से अधिक या उसके बराबर है। आप कभी भी ब्रेक-ईवन नहीं पहुँच पाएंगे।",
+        "units": "इकाइयाँ",
+        "enterDetails": "अपनी लागत और बिक्री मूल्य दर्ज करें।",
+        "variableCost": "प्रति इकाई परिवर्तनीय लागत",
+        "sellingPrice": "प्रति इकाई बिक्री मूल्य",
+        "errorImpossible": "बिक्री मूल्य परिवर्तनीय लागत से अधिक होना चाहिए।"
       }
     },
     "calorie-calculator": {
@@ -244,7 +278,20 @@
         "interestEarned": "अर्जित ब्याज",
         "finalBalance": "अंतिम शेष राशि",
         "interestDetails": "रुचि विवरण",
-        "growthBreakdown": "विकास का टूटना"
+        "growthBreakdown": "विकास का टूटना",
+        "title": "चक्रवृद्धि ब्याज (Compound Interest) कैलकुलेटर",
+        "description": "गणना करें कि चक्रवृद्धि ब्याज और नियमित योगदान के साथ आपका निवेश समय के साथ कैसे बढ़ेगा।",
+        "initialInvestment": "प्रारंभिक निवेश",
+        "monthlyContribution": "मासिक योगदान",
+        "annualInterestRate": "वार्षिक ब्याज दर (%)",
+        "yearsToGrow": "बढ़ने के लिए वर्ष",
+        "semiAnnually": "अर्ध-वार्षिक",
+        "calculate": "वृद्धि की गणना करें",
+        "summary": "वृद्धि सारांश",
+        "futureValue": "भविष्य मूल्य",
+        "totalContributions": "कुल निवेश",
+        "totalInterestEarned": "कुल ब्याज",
+        "enterDetails": "अनुमानित वृद्धि देखने के लिए निवेश विवरण दर्ज करें।"
       }
     },
     "concrete-calculator": {
@@ -280,7 +327,12 @@
         "minutes": "मिनट",
         "start": "शुरू करें",
         "pause": "रोकें",
-        "reset": "रीसेट करें"
+        "reset": "रीसेट करें",
+        "title": "उलटी गिनती टाइमर",
+        "description": "एक सरल, उपयोग में आसान ऑनलाइन उलटी गिनती टाइमर। घंटे, मिनट और सेकंड सेट करें।",
+        "hours": "घंटे",
+        "seconds": "सेकंड",
+        "timeUp": "समय समाप्त!"
       }
     },
     "css-minifier": {
@@ -301,7 +353,11 @@
         "amount": "राशि",
         "from": "से",
         "to": "में",
-        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "नोट: ये दरें केवल प्रदर्शन उद्देश्यों के लिए स्थिर अनुमान हैं।"
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "नोट: ये दरें केवल प्रदर्शन उद्देश्यों के लिए स्थिर अनुमान हैं।",
+        "title": "मुद्रा परिवर्तक",
+        "description": "लाइव विनिमय दरों के साथ वैश्विक मुद्राओं के बीच परिवर्तन करें।",
+        "convertedAmount": "परिवर्तित राशि",
+        "lastUpdated": "अंतिम अपडेट"
       }
     },
     "data-storage-converter": {
@@ -318,10 +374,10 @@
       "description": "",
       "ui": {
         "dateDifferenceCalculator": "तिथियों के बीच अंतर कैलकुलेटर",
-        "startDate": "आरंभ तिथि",
-        "endDate": "समाप्ति तिथि",
+        "startDate": "प्रारंभ तिथि",
+        "endDate": "अंतिम तिथि",
         "calculateDifference": "अंतर की गणना करें",
-        "timeDifference": "समय का अंतर:",
+        "timeDifference": "समय का अंतर",
         "years": "वर्ष",
         "months": "महीने",
         "days": "दिन",
@@ -329,8 +385,22 @@
         "totalWeeksEquivalent": "कुल सप्ताहों के बराबर:",
         "weeks": "सप्ताह,",
         "copy": "कॉपी करें",
-        "reset": "रीसेट करें",
-        "selectDatesToCalculate": "गणना करने के लिए तिथियाँ चुनें"
+        "reset": "रीसेट",
+        "selectDatesToCalculate": "अंतर की गणना करने के लिए दोनों तिथियां चुनें।",
+        "dateDifferenceTitle": "दिनांक अंतर कैलकुलेटर",
+        "dateDifferenceDesc": "दो तिथियों के बीच दिनों, सप्ताहों, महीनों और वर्षों की सटीक संख्या की गणना करें।",
+        "includeEndDay": "अंतिम तिथि शामिल करें (+1 दिन)",
+        "includeEndDayDesc": "गणना में एक अतिरिक्त दिन जोड़ता है।",
+        "exactDifference": "सटीक अंतर",
+        "yearsLabel": "वर्ष",
+        "monthsLabel": "महीने",
+        "daysLabel": "दिन",
+        "endDateBeforeStart": "नोट: अंतिम तिथि प्रारंभ तिथि से पहले है।",
+        "totalDays": "कुल दिन",
+        "inWeeks": "सप्ताहों में",
+        "weeksShort": "सप्ताह",
+        "daysShort": "दिन",
+        "approxMonths": "कुल महीने"
       }
     },
     "days-between-dates": {
@@ -338,16 +408,25 @@
       "description": "",
       "ui": {
         "daysBetweenDates": "दो तिथियों के बीच दिन",
-        "startDate": "आरंभ तिथि",
-        "endDate": "समाप्ति तिथि",
+        "startDate": "प्रारंभ तिथि",
+        "endDate": "अंतिम तिथि",
         "includeStartDateInCalculation": "गणना में आरंभ तिथि शामिल करें",
         "includeEndDateInCalculation": "गणना में समाप्ति तिथि शामिल करें",
         "calculateDays": "दिनों की गणना करें",
         "totalResult": "कुल परिणाम:",
         "days": "दिन",
         "copy": "कॉपी करें",
-        "reset": "रीसेट करें",
-        "selectDatesToCalculate": "गणना करने के लिए तिथियाँ चुनें"
+        "reset": "रीसेट",
+        "selectDatesToCalculate": "अंतर की गणना करने के लिए दोनों तिथियां चुनें।",
+        "title": "तिथियों के बीच के दिन",
+        "description": "दो तिथियों के बीच कैलेंडर दिनों, कार्यदिवसों और सप्ताहांतों की सटीक संख्या की गणना करें।",
+        "includeEndDay": "अंतिम तिथि शामिल करें (+1 दिन)",
+        "includeEndDayDesc": "गणना में एक अतिरिक्त दिन जोड़ता है।",
+        "totalDays": "कुल दिन",
+        "daysLabel": "दिन",
+        "endDateBeforeStart": "नोट: अंतिम तिथि प्रारंभ तिथि से पहले है।",
+        "weekdays": "कार्यदिवस (सोम-शुक्र)",
+        "weekends": "सप्ताहांत"
       }
     },
     "days-until-calculator": {
@@ -362,8 +441,20 @@
         "whichIsExactly": "जो बिल्कुल बराबर है:",
         "days": "दिन",
         "copy": "कॉपी करें",
-        "reset": "रीसेट करें",
-        "selectAFutureDate": "भविष्य की तारीख चुनें"
+        "reset": "रीसेट",
+        "selectAFutureDate": "भविष्य की तारीख चुनें",
+        "title": "दिनों की उलटी गिनती",
+        "description": "भविष्य की किसी विशिष्ट तिथि तक सटीक दिनों, घंटों, मिनटों और सेकंडों की उलटी गिनती करें।",
+        "todayIs": "आज है",
+        "targetDate": "लक्ष्य तिथि",
+        "timeUntil": "लक्ष्य तक का समय",
+        "timeSince": "लक्ष्य के बाद का समय",
+        "dayLabel": "दिन",
+        "dayLabelSingular": "दिन",
+        "hoursLabel": "घंटे",
+        "minutesLabel": "मिनट",
+        "secondsLabel": "सेकंड",
+        "selectTargetDate": "उलटी गिनती देखने के लिए एक लक्ष्य तिथि चुनें।"
       }
     },
     "decimal-to-binary": {
@@ -373,7 +464,8 @@
         "decimalToBinaryConverter": "दशमलव से बाइनरी कन्वर्टर",
         "decimalNumber": "दशमलव संख्या",
         "binaryResult": "बाइनरी परिणाम",
-        "eG10": "जैसे 10"
+        "eG10": "जैसे 10",
+        "invalidDecimalNumber": "अमान्य दशमलव संख्या"
       }
     },
     "decking-calculator": {
@@ -404,10 +496,20 @@
         "type": "प्रकार",
         "off": "% छूट",
         "fixedAmountOff": "निश्चित छूट राशि",
-        "youSave": "आपकी बचत",
-        "finalPrice": "अंतिम कीमत",
+        "youSave": "आपकी बचत:",
+        "finalPrice": "अंतिम मूल्य",
         "discountDetails": "छूट विवरण",
-        "priceBreakdown": "मूल्य विभाजन"
+        "priceBreakdown": "मूल्य विभाजन",
+        "title": "डिस्काउंट (छूट) कैलकुलेटर",
+        "description": "छूट और वैकल्पिक कर (टैक्स) लागू करने के बाद किसी वस्तु के अंतिम मूल्य की गणना करें।",
+        "discountPercentage": "छूट (%)",
+        "taxPercentage": "कर (%)",
+        "optional": "वैकल्पिक",
+        "calculate": "छूट की गणना करें",
+        "summary": "मूल्य सारांश",
+        "discountAmount": "छूट राशि",
+        "taxAmount": "कर राशि",
+        "enterDetails": "गणना करने के लिए मूल कीमत और छूट दर्ज करें।"
       }
     },
     "emi-calculator": {
@@ -422,7 +524,20 @@
         "totalInterestPayable": "कुल देय ब्याज",
         "totalPaymentPrincipalInterest": "कुल भुगतान (मूलधन + ब्याज)",
         "eMIDetails": "ई एम आई विवरण",
-        "paymentSummary": "भुगतान सारांश"
+        "paymentSummary": "भुगतान सारांश",
+        "title": "ईएमआई (EMI) कैलकुलेटर",
+        "description": "होम, कार या पर्सनल लोन के लिए अपनी समान मासिक किस्त (EMI) की गणना करें।",
+        "loanAmount": "ऋण राशि",
+        "interestRate": "ब्याज दर (%)",
+        "loanTerm": "ऋण अवधि",
+        "years": "वर्ष",
+        "months": "महीने",
+        "calculate": "EMI की गणना करें",
+        "emiSummary": "EMI सारांश",
+        "principalAmount": "मूलधन",
+        "totalInterest": "कुल ब्याज",
+        "totalPayment": "कुल भुगतान (मूलधन + ब्याज)",
+        "enterDetails": "सारांश देखने के लिए ऋण विवरण दर्ज करें।"
       }
     },
     "fence-calculator": {
@@ -461,7 +576,9 @@
       "description": "",
       "ui": {
         "fractionCalculator": "भिन्न कैलकुलेटर",
-        "decimal": "दशमलव:"
+        "decimal": "दशमलव:",
+        "error": "त्रुटि",
+        "divByZero": "शून्य से भाग"
       }
     },
     "gpa-calculator": {
@@ -500,8 +617,8 @@
       "title": "ऊँचाई कन्वर्टर",
       "description": "",
       "ui": {
-        "heightConverter": "ऊँचाई कन्वर्टर",
-        "metricCentimeters": "मेट्रिक (सेंटीमीटर)",
+        "heightConverter": "ऊंचाई कनवर्टर",
+        "metricCentimeters": "मीट्रिक (सेंटीमीटर)",
         "cm": "सेमी",
         "imperialFeetInches": "इंपीरियल (फीट और इंच)",
         "ft": "फीट",
@@ -515,7 +632,8 @@
         "hexToDecimalConverter": "हेक्साडेसिमल से दशमलव कन्वर्टर",
         "hexadecimalNumber": "हेक्साडेसिमल संख्या",
         "decimalResult": "दशमलव परिणाम",
-        "eG1AOrFFFFFF": "जैसे 1ए या एफएफएफएफएफएफ"
+        "eG1AOrFFFFFF": "जैसे 1ए या एफएफएफएफएफएफ",
+        "invalidHexString": "अमान्य हेक्स स्ट्रिंग"
       }
     },
     "hourly-to-salary-calculator": {
@@ -531,7 +649,17 @@
         "monthly": "मासिक",
         "yearlySalary": "वार्षिक वेतन",
         "hourlyDetails": "प्रति घंटा विवरण",
-        "salaryBreakdown": "वेतन विच्छेद"
+        "salaryBreakdown": "वेतन का विवरण",
+        "title": "प्रति घंटे से वेतन कैलकुलेटर",
+        "description": "अपने प्रति घंटे की मजदूरी को दैनिक, साप्ताहिक, मासिक और वार्षिक आय में बदलें।",
+        "hourlyRate": "प्रति घंटे की दर",
+        "workSchedule": "काम का समय",
+        "hoursPerWeek": "प्रति सप्ताह घंटे",
+        "daysPerWeek": "प्रति सप्ताह दिन",
+        "weeksPerYear": "प्रति वर्ष सप्ताह",
+        "annualSalary": "वार्षिक वेतन",
+        "biWeekly": "द्वि-साप्ताहिक",
+        "enterDetails": "विवरण देखने के लिए प्रति घंटे की दर दर्ज करें।"
       }
     },
     "html-encode-decode": {
@@ -564,12 +692,19 @@
         "initialInvestment": "प्रारंभिक निवेश",
         "monthlyContribution": "मासिक योगदान",
         "expectedReturn": "अपेक्षित रिटर्न (%)",
-        "yearsToGrow": "निवेश अवधि (वर्ष)",
+        "yearsToGrow": "निवेश के वर्ष",
         "totalContributions": "कुल योगदान",
         "interestEarned": "अर्जित ब्याज",
         "futureValue": "भविष्य का मूल्य",
         "investmentPlan": "निवेश योजना",
-        "growthProjection": "विकास प्रक्षेपण"
+        "growthProjection": "विकास प्रक्षेपण",
+        "title": "निवेश कैलकुलेटर",
+        "description": "गणना करें कि चक्रवृद्धि ब्याज के साथ समय के साथ आपका निवेश कितना बढ़ेगा।",
+        "result": "परिणाम",
+        "totalValue": "कुल मूल्य",
+        "totalInvested": "कुल निवेशित राशि",
+        "totalInterest": "कुल ब्याज",
+        "enterDetails": "विकास देखने के लिए विवरण दर्ज करें।"
       }
     },
     "js-minifier": {
@@ -598,9 +733,11 @@
       "title": "लंबाई कन्वर्टर",
       "description": "",
       "ui": {
-        "lengthConverter": "लंबाई कन्वर्टर",
+        "lengthConverter": "लंबाई कनवर्टर",
         "from": "से",
-        "to": "में"
+        "to": "में",
+        "title": "लंबाई कनवर्टर",
+        "description": "मीटर, फीट, इंच और अन्य लंबाई इकाइयों के बीच कनवर्ट करें।"
       }
     },
     "loan-calculator": {
@@ -609,13 +746,23 @@
       "ui": {
         "loanCalculator": "ऋण कैलकुलेटर",
         "loanAmount": "ऋण राशि",
-        "interestRate": "ब्याज दर (%)",
+        "interestRate": "ब्याज दर (वार्षिक)",
         "loanTermYears": "ऋण अवधि (वर्ष)",
-        "monthlyPayment": "मासिक भुगतान",
+        "monthlyPayment": "मासिक किस्त",
         "totalInterest": "कुल ब्याज",
         "totalCostOfLoan": "ऋण की कुल लागत",
         "loanDetails": "ऋण विवरण",
-        "paymentBreakdown": "भुगतान टूटना"
+        "paymentBreakdown": "भुगतान टूटना",
+        "title": "ऋण कैलकुलेटर",
+        "description": "अपने ऋण की मासिक किस्त, कुल ब्याज और कुल लागत की गणना करें।",
+        "loanTerm": "ऋण अवधि",
+        "years": "वर्ष",
+        "months": "महीने",
+        "calculate": "ऋण की गणना करें",
+        "loanSummary": "ऋण सारांश",
+        "totalPrincipal": "कुल मूलधन",
+        "totalPayment": "कुल भुगतान",
+        "enterDetails": "सारांश देखने के लिए ऋण विवरण दर्ज करें।"
       }
     },
     "lorem-ipsum-generator": {
@@ -656,7 +803,16 @@
         "markup": "मार्कअप (%)",
         "profit": "लाभ",
         "sellingPrice": "बिक्री मूल्य",
-        "pricingDetails": "मूल्य निर्धारण विवरण"
+        "pricingDetails": "मूल्य निर्धारण विवरण",
+        "title": "मार्कअप कैलकुलेटर",
+        "description": "लागत और मार्कअप प्रतिशत के आधार पर बिक्री मूल्य, सकल लाभ और लाभ मार्जिन की गणना करें।",
+        "markupPercentage": "मार्कअप प्रतिशत",
+        "calculate": "मार्कअप की गणना करें",
+        "summary": "मूल्य निर्धारण सारांश",
+        "profitMargin": "लाभ मार्जिन",
+        "grossProfit": "सकल लाभ",
+        "grossLoss": "सकल हानि",
+        "enterDetails": "लागत और मार्कअप दर्ज करें।"
       }
     },
     "md5generator": {
@@ -674,14 +830,25 @@
       "description": "",
       "ui": {
         "monthsBetweenDates": "दो तिथियों के बीच महीने",
-        "startDate": "आरंभ तिथि",
-        "endDate": "समाप्ति तिथि",
+        "startDate": "प्रारंभ तिथि",
+        "endDate": "अंतिम तिथि",
         "calculateMonths": "महीनों की गणना करें",
         "months": "महीने",
         "days": "दिन",
         "copy": "कॉपी करें",
-        "reset": "रीसेट करें",
-        "selectDatesToCalculate": "गणना करने के लिए तिथियाँ चुनें"
+        "reset": "रीसेट",
+        "selectDatesToCalculate": "अंतर की गणना करने के लिए दोनों तिथियां चुनें।",
+        "title": "तिथियों के बीच महीने",
+        "description": "गणना करें कि किन्हीं दो तिथियों के बीच कितने पूरे महीने और शेष दिन हैं।",
+        "includeEndDay": "अंतिम तिथि शामिल करें (+1 दिन)",
+        "includeEndDayDesc": "गणना में एक अतिरिक्त दिन जोड़ता है।",
+        "totalMonths": "कुल महीने",
+        "monthsLabel": "महीने",
+        "fullMonthsLabel": "पूरे महीने",
+        "extraDaysLabel": "अतिरिक्त दिन",
+        "equivalentTo": "के बराबर",
+        "daysLabel": "दिन",
+        "endDateBeforeStart": "नोट: अंतिम तिथि प्रारंभ तिथि से पहले है।"
       }
     },
     "mortgage-calculator": {
@@ -694,9 +861,18 @@
         "interestRate": "ब्याज दर (%)",
         "loanTermYears": "ऋण अवधि (वर्ष)",
         "principalLoanAmount": "ऋण की मूल राशि",
-        "monthlyPayment": "मासिक भुगतान",
+        "monthlyPayment": "मासिक किस्त",
         "propertyDetails": "संपत्ति ब्यौरा",
-        "mortgageSummary": "बंधक सारांश"
+        "mortgageSummary": "मॉर्गेज सारांश",
+        "title": "मॉर्गेज (होम लोन) कैलकुलेटर",
+        "description": "अपने मासिक होम लोन भुगतान और कुल ब्याज की आसानी से गणना करें।",
+        "homeValue": "घर का मूल्य",
+        "calculate": "मॉर्गेज की गणना करें",
+        "principalAndInterestOnly": "केवल मूलधन और ब्याज",
+        "loanAmount": "ऋण राशि",
+        "totalInterest": "कुल ब्याज",
+        "totalCostOfLoan": "ऋण की कुल लागत",
+        "enterDetails": "सारांश देखने के लिए विवरण दर्ज करें।"
       }
     },
     "mulch-calculator": {
@@ -796,12 +972,18 @@
       "description": "",
       "ui": {
         "percentageDecreaseCalculator": "प्रतिशत कमी कैलकुलेटर",
-        "initialValue": "प्रारंभिक मान",
-        "finalValue": "अंतिम मान",
+        "initialValue": "प्रारंभिक मूल्य",
+        "finalValue": "अंतिम मूल्य",
         "absoluteChange": "पूर्ण परिवर्तन",
         "decrease": "कमी",
         "values": "मान",
-        "decreaseBreakdown": "ब्रेकडाउन कम करें"
+        "decreaseBreakdown": "ब्रेकडाउन कम करें",
+        "title": "प्रतिशत कमी कैलकुलेटर",
+        "description": "प्रारंभिक मूल्य से अंतिम मूल्य तक प्रतिशत कमी की गणना करें।",
+        "result": "परिणाम",
+        "percentageDecrease": "प्रतिशत कमी",
+        "absoluteDecrease": "निरपेक्ष अंतर",
+        "enterDetails": "कमी की गणना करने के लिए मान दर्ज करें।"
       }
     },
     "percentage-increase-calculator": {
@@ -809,12 +991,18 @@
       "description": "",
       "ui": {
         "percentageIncreaseCalculator": "प्रतिशत वृद्धि कैलकुलेटर",
-        "initialValue": "प्रारंभिक मान",
-        "finalValue": "अंतिम मान",
+        "initialValue": "प्रारंभिक मूल्य",
+        "finalValue": "अंतिम मूल्य",
         "absoluteChange": "पूर्ण परिवर्तन",
         "change": "परिवर्तन",
         "values": "मान",
-        "increaseBreakdown": "ब्रेकडाउन बढ़ाएँ"
+        "increaseBreakdown": "ब्रेकडाउन बढ़ाएँ",
+        "title": "प्रतिशत वृद्धि कैलकुलेटर",
+        "description": "प्रारंभिक मूल्य से अंतिम मूल्य तक प्रतिशत वृद्धि की गणना करें।",
+        "result": "परिणाम",
+        "percentageIncrease": "प्रतिशत वृद्धि",
+        "absoluteIncrease": "निरपेक्ष अंतर",
+        "enterDetails": "वृद्धि की गणना करने के लिए मान दर्ज करें।"
       }
     },
     "plant-spacing-calculator": {
@@ -837,8 +1025,14 @@
         "pomodoroTimer": "पोमोडोरो टाइमर",
         "work25m": "काम (25 मिनट)",
         "break5m": "ब्रेक (5 मिनट)",
-        "reset": "रीसेट करें",
-        "start": "शुरू"
+        "reset": "रीसेट",
+        "start": "शुरू",
+        "title": "पोमोडोरो टाइमर",
+        "description": "पोमोडोरो तकनीक का उपयोग करके अपनी उत्पादकता बढ़ाएँ।",
+        "pomodoro": "पोमोडोरो",
+        "shortBreak": "छोटा ब्रेक",
+        "longBreak": "लंबा ब्रेक",
+        "completed": "पूरा हुआ"
       }
     },
     "profit-margin-calculator": {
@@ -851,7 +1045,17 @@
         "grossProfit": "सकल लाभ",
         "margin": "मार्जिन",
         "financialDetails": "वित्तीय विवरण",
-        "profitability": "लाभप्रदता"
+        "profitability": "लाभप्रदता",
+        "title": "लाभ मार्जिन कैलकुलेटर",
+        "description": "आसानी से अपने सकल लाभ, लाभ मार्जिन और मार्कअप की गणना करें।",
+        "cost": "बेचे गए माल की लागत (COGS)",
+        "revenue": "राजस्व (बिक्री मूल्य)",
+        "calculate": "मार्जिन की गणना करें",
+        "summary": "मार्जिन सारांश",
+        "profitMargin": "लाभ मार्जिन",
+        "grossLoss": "सकल हानि",
+        "markup": "मार्कअप",
+        "enterDetails": "लागत और राजस्व दर्ज करें।"
       }
     },
     "qr-code-generator": {
@@ -889,7 +1093,7 @@
       "description": "",
       "ui": {
         "ratioCalculatorAbCd": "अनुपात कैलकुलेटर (A:B = C:D)",
-        "enter3ValuesToCalculateThe4thMissingValue": "चौथा अज्ञात मान निकालने के लिए 3 मान दर्ज करें।"
+        "enter3ValuesToCalculateThe4thMissingValue": "4था लुप्त मान निकालने के लिए 3 मान दर्ज करें"
       }
     },
     "roi-calculator": {
@@ -902,7 +1106,23 @@
         "profit": "लाभ",
         "roi": "लागत पर लाभ",
         "investmentDetails": "निवेश विवरण",
-        "returnOnInvestment": "निवेश पर प्रतिफल"
+        "returnOnInvestment": "निवेश पर प्रतिफल (ROI)",
+        "title": "ROI कैलकुलेटर",
+        "description": "निवेश की लाभप्रदता का मूल्यांकन करने के लिए अपने निवेश पर प्रतिफल (ROI) की गणना करें।",
+        "amountInvested": "निवेश की गई राशि (लागत)",
+        "amountReturned": "प्राप्त राशि (राजस्व)",
+        "investmentTimePeriod": "निवेश की समय अवधि",
+        "optional": "वैकल्पिक",
+        "years": "वर्ष",
+        "calculate": "ROI की गणना करें",
+        "summary": "ROI सारांश",
+        "netProfit": "शुद्ध लाभ",
+        "netLoss": "शुद्ध हानि",
+        "annualizedRoi": "वार्षिक ROI",
+        "enterDetails": "अपनी निवेश और प्राप्त राशि दर्ज करें।",
+        "investmentAmount": "निवेश राशि",
+        "returnAmount": "प्राप्त राशि",
+        "investmentGain": "निवेश लाभ/हानि"
       }
     },
     "roman-numeral-converter": {
@@ -912,7 +1132,11 @@
         "romanNumeralConverter": "रोमन अंक कन्वर्टर",
         "numberRoman": "संख्या → रोमन",
         "romanNumber": "रोमन → संख्या",
-        "result": "परिणाम"
+        "result": "परिणाम",
+        "rangeError": "संख्या 1 और 3999 के बीच होनी चाहिए",
+        "invalidRoman": "अमान्य रोमन अंक",
+        "numberInputLabel": "संख्या (1 - 3999)",
+        "romanNumeralLabel": "रोमन अंक"
       }
     },
     "running-distance-calculator": {
@@ -935,7 +1159,7 @@
       "description": "",
       "ui": {
         "salaryCalculator": "वेतन कैलकुलेटर",
-        "salaryAmount": "वेतन राशि",
+        "salaryAmount": "वेतन की राशि",
         "per": "प्रति",
         "hour": "घंटा",
         "day": "दिन",
@@ -944,13 +1168,25 @@
         "year": "वर्ष",
         "hoursPerWeek": "प्रति सप्ताह घंटे",
         "calculate": "गणना करें",
-        "hourly": "प्रति घंटा",
-        "daily": "दैनिक",
+        "hourly": "प्रति घंटे",
+        "daily": "प्रति दिन",
         "weekly": "साप्ताहिक",
         "monthly": "मासिक",
         "yearly": "वार्षिक",
         "incomeDetails": "आय विवरण",
-        "enterYourIncomeDetailsToS": "सारांश देखने के लिए अपनी आय का विवरण दर्ज करें"
+        "enterYourIncomeDetailsToS": "सारांश देखने के लिए अपनी आय का विवरण दर्ज करें",
+        "title": "वेतन (सैलरी) कैलकुलेटर",
+        "description": "अपने वेतन को प्रति घंटे, दैनिक, साप्ताहिक, मासिक और वार्षिक समकक्षों में बदलें।",
+        "payFrequency": "भुगतान की आवृत्ति",
+        "biWeekly": "द्वि-साप्ताहिक",
+        "semiMonthly": "अर्ध-मासिक",
+        "quarterly": "त्रैमासिक",
+        "annually": "वार्षिक",
+        "workSchedule": "काम का समय",
+        "daysPerWeek": "प्रति सप्ताह दिन",
+        "salaryBreakdown": "वेतन का विवरण",
+        "annualSalary": "वार्षिक वेतन",
+        "enterDetails": "विवरण देखने के लिए जानकारी दर्ज करें।"
       }
     },
     "salary-to-hourly-calculator": {
@@ -963,7 +1199,20 @@
         "weeksYear": "सप्ताह / वर्ष",
         "hourlyWage": "प्रति घंटा वेतन",
         "salaryDetails": "वेतन विवरण",
-        "equivalentWage": "समतुल्य वेतन"
+        "equivalentWage": "समतुल्य वेतन",
+        "title": "वेतन से प्रति घंटे कैलकुलेटर",
+        "description": "अपने वार्षिक वेतन को प्रति घंटे, दैनिक, साप्ताहिक और मासिक आय में बदलें।",
+        "workSchedule": "काम का समय",
+        "hoursPerWeek": "प्रति सप्ताह घंटे",
+        "daysPerWeek": "प्रति सप्ताह दिन",
+        "weeksPerYear": "प्रति वर्ष सप्ताह",
+        "salaryBreakdown": "वेतन का विवरण",
+        "hourlyRate": "प्रति घंटे की दर",
+        "monthly": "मासिक",
+        "biWeekly": "द्वि-साप्ताहिक",
+        "weekly": "साप्ताहिक",
+        "daily": "दैनिक",
+        "enterDetails": "विवरण देखने के लिए वार्षिक वेतन दर्ज करें।"
       }
     },
     "sha1generator": {
@@ -1000,7 +1249,18 @@
         "interestEarned": "अर्जित ब्याज",
         "finalBalance": "अंतिम शेष राशि",
         "interestDetails": "रुचि विवरण",
-        "growthBreakdown": "विकास का टूटना"
+        "growthBreakdown": "विकास का टूटना",
+        "title": "साधारण ब्याज कैलकुलेटर",
+        "description": "ऋण या बचत पर साधारण ब्याज की आसानी से गणना करें।",
+        "annualInterestRate": "वार्षिक ब्याज दर (%)",
+        "timePeriod": "समय अवधि",
+        "calculate": "ब्याज की गणना करें",
+        "summary": "ब्याज सारांश",
+        "totalInterest": "कुल ब्याज",
+        "totalAmount": "कुल राशि",
+        "principalPlusInterest": "मूलधन + ब्याज",
+        "enterDetails": "अपना मूलधन, दर और समय दर्ज करें।",
+        "interestRate": "वार्षिक ब्याज दर (%)"
       }
     },
     "sleep-calculator": {
@@ -1008,7 +1268,7 @@
       "description": "",
       "ui": {
         "sleepCalculator": "नींद कैलकुलेटर",
-        "iWantToWakeUpAt": "मैं इस समय उठना चाहता हूँ:",
+        "iWantToWakeUpAt": "मैं इस समय जागना चाहता हूँ",
         "calculate": "गणना करें",
         "toWakeUpRefreshedAt": "इस समय तरोताज़ा होकर उठने के लिए",
         "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": ", इन समयों में से किसी एक पर सोने की कोशिश करें (सोने के लिए 15 मिनट शामिल हैं):",
@@ -1016,7 +1276,18 @@
         "5Cycles75h": "5 चक्र (7.5 घंटे)",
         "4Cycles6h": "4 चक्र (6 घंटे)",
         "3Cycles45h": "3 चक्र (4.5 घंटे)",
-        "enterWakeTimeToCalculateS": "सोने के समय की गणना करने के लिए जागने का समय दर्ज करें"
+        "enterWakeTimeToCalculateS": "सोने के समय की गणना करने के लिए जागने का समय दर्ज करें",
+        "title": "स्लीप कैलकुलेटर",
+        "description": "90-मिनट के स्लीप साइकिल के आधार पर इष्टतम नींद के समय की गणना करें।",
+        "wakeAt": "जागने का समय",
+        "sleepAt": "सोने का समय",
+        "iWillGoToBedAt": "मैं इस समय सोऊंगा",
+        "youShouldGoToBedAt": "आपको इस समय बिस्तर पर जाना चाहिए",
+        "youShouldWakeUpAt": "आपको इस समय जागना चाहिए",
+        "resultsDescription": "ये समय 90-मिनट के चक्रों पर आधारित हैं, जिसमें सोने के लिए 15 मिनट शामिल हैं।",
+        "cycles": "साइकिल",
+        "hours": "घंटे",
+        "optimal": "इष्टतम"
       }
     },
     "speed-converter": {
@@ -1087,9 +1358,12 @@
         "start": "शुरू करें",
         "pause": "रोकें",
         "lap": "लैप",
-        "reset": "रीसेट करें",
-        "laps": "लैप",
-        "noLapsRecordedYet": "अभी तक कोई अंतराल रिकार्ड नहीं किया गया"
+        "reset": "रीसेट",
+        "laps": "लैप्स",
+        "noLapsRecordedYet": "अभी तक कोई अंतराल रिकार्ड नहीं किया गया",
+        "title": "ऑनलाइन स्टॉपवॉच",
+        "description": "लैप टाइम के साथ एक सरल, सटीक ऑनलाइन स्टॉपवॉच।",
+        "clearLaps": "लैप्स साफ़ करें"
       }
     },
     "tax-calculator": {
@@ -1142,12 +1416,22 @@
         "firstTime": "पहला समय",
         "secondTime": "दूसरा समय",
         "calculateAbsoluteDifference": "पूर्ण अंतर की गणना करें",
-        "difference": "अंतर:",
+        "difference": "समय का अंतर",
         "h": "घं.",
         "m": "मि.",
         "copy": "कॉपी करें",
-        "reset": "रीसेट करें",
-        "selectTimesToCompare": "तुलना करने के लिए समय चुनें"
+        "reset": "रीसेट",
+        "selectTimesToCompare": "तुलना करने के लिए समय चुनें",
+        "title": "समय का अंतर कैलकुलेटर",
+        "description": "दो विशिष्ट तिथियों और समय के बीच सेकंड तक सटीक समय के अंतर की गणना करें।",
+        "startDateTime": "प्रारंभ तिथि और समय",
+        "endDateTime": "अंतिम तिथि और समय",
+        "daysLabel": "दिन",
+        "hoursLabel": "घंटे",
+        "minutesLabel": "मिनट",
+        "secondsLabel": "सेकंड",
+        "reversedNote": "नोट: अंतिम समय प्रारंभ समय से पहले है। पूर्ण अंतर दिखा रहा है।",
+        "selectDatesToCalculate": "अंतर की गणना करने के लिए दोनों तिथियां और समय चुनें।"
       }
     },
     "time-duration-calculator": {
@@ -1155,16 +1439,25 @@
       "description": "",
       "ui": {
         "timeDurationCalculator": "समय अवधि कैलकुलेटर",
-        "startTime": "आरंभ समय",
-        "endTime": "समाप्ति समय",
+        "startTime": "प्रारंभ समय",
+        "endTime": "अंतिम समय",
         "endsOnTheNextDayCrossesMidnight": "अगले दिन समाप्त होता है (आधी रात पार करता है)",
         "calculateDuration": "अवधि की गणना करें",
         "hours": "घंटे",
         "minutes": "मिनट",
         "totalTimeInMinutes": "मिनटों में कुल अवधि:",
         "copy": "कॉपी करें",
-        "reset": "रीसेट करें",
-        "selectStartAndEndTimes": "आरंभ और समाप्ति समय चुनें"
+        "reset": "रीसेट",
+        "selectStartAndEndTimes": "आरंभ और समाप्ति समय चुनें",
+        "title": "समय अवधि कैलकुलेटर",
+        "description": "गणना करें कि दो समयों के बीच कितने घंटे और मिनट बीत चुके हैं।",
+        "duration": "अवधि",
+        "hLabel": "घं",
+        "mLabel": "मि",
+        "decimalHoursLabel": "दशमलव घंटे",
+        "totalMinutesLabel": "कुल मिनट",
+        "crossesMidnightNote": "नोट: अंतिम समय प्रारंभ से पहले है (आधी रात को पार करना मानता है)।",
+        "selectTimesToCalculate": "अवधि की गणना करने के लिए दोनों समय चुनें।"
       }
     },
     "time-zone-converter": {
@@ -1176,7 +1469,18 @@
         "fromTimeZoneRelative": "समय क्षेत्र से (सापेक्ष)",
         "toTimeZone": "समय क्षेत्र में",
         "convert": "कन्वर्ट करें",
-        "selectDateAndTimeZonesTo": "तुलना करने के लिए दिनांक और समय क्षेत्र चुनें"
+        "selectDateAndTimeZonesTo": "तुलना करने के लिए दिनांक और समय क्षेत्र चुनें",
+        "title": "समय क्षेत्र कनवर्टर",
+        "description": "विभिन्न समय क्षेत्रों के बीच समय को सटीक रूप से परिवर्तित करें।",
+        "fromZone": "समय क्षेत्र से",
+        "toZone": "समय क्षेत्र में",
+        "dateAndTime": "तिथि और समय",
+        "swap": "स्वैप करें",
+        "convertedTime": "परिवर्तित समय",
+        "hoursAhead": "घंटे आगे",
+        "hoursBehind": "घंटे पीछे",
+        "sameTime": "समान समय",
+        "invalidInput": "एक वैध तिथि दर्ज करें।"
       }
     },
     "tip-calculator": {
@@ -1193,7 +1497,22 @@
         "totalTip": "कुल टिप:",
         "totalBill": "कुल बिल:",
         "billDetails": "बिल विवरण",
-        "totalBreakdown": "कुल टूटना"
+        "totalBreakdown": "कुल टूटना",
+        "title": "टिप कैलकुलेटर",
+        "description": "अपनी टिप की गणना करें और दोस्तों के बीच बिल आसानी से विभाजित करें।",
+        "selectTip": "टिप % चुनें",
+        "custom": "कस्टम (अन्य)",
+        "totalAmount": "कुल राशि",
+        "splitBetween": "में विभाजित",
+        "people": "लोग",
+        "tipPerPerson": "टिप / व्यक्ति",
+        "totalPerPerson": "कुल / व्यक्ति",
+        "payingFullAmount": "आप पूरी राशि का भुगतान कर रहे हैं।",
+        "enterDetails": "टिप देखने के लिए बिल विवरण दर्ज करें।",
+        "tipPercentage": "टिप प्रतिशत",
+        "perPerson": "/ व्यक्ति",
+        "totalTipOverall": "कुल टिप (समग्र)",
+        "totalBillOverall": "कुल बिल (समग्र)"
       }
     },
     "unix-timestamp-converter": {
@@ -1206,7 +1525,22 @@
         "dateToTimestamp": "तिथि से टाइमस्टैम्प",
         "localDateTime": "स्थानीय तिथि और समय",
         "eG1700000000": "जैसे 1700000000",
-        "result": "परिणाम"
+        "result": "परिणाम",
+        "title": "Unix टाइमस्टैम्प कनवर्टर",
+        "description": "Unix टाइमस्टैम्प को पढ़ने योग्य तिथियों में और इसके विपरीत बदलें।",
+        "currentEpoch": "वर्तमान Unix समय",
+        "copy": "कॉपी करें",
+        "copied": "कॉपी किया गया!",
+        "tsToDate": "टाइमस्टैम्प से तिथि",
+        "enterTimestamp": "टाइमस्टैम्प दर्ज करें",
+        "gmtTime": "GMT समय",
+        "localTime": "आपका स्थानीय समय",
+        "invalidTimestamp": "एक वैध टाइमस्टैम्प दर्ज करें।",
+        "dateToTs": "तिथि से टाइमस्टैम्प",
+        "enterDate": "तिथि और समय दर्ज करें",
+        "secondsLabel": "टाइमस्टैम्प (सेकंड)",
+        "msLabel": "मिलीसेकंड",
+        "invalidDate": "एक वैध तिथि दर्ज करें।"
       }
     },
     "url-encode-decode": {
@@ -1255,7 +1589,17 @@
         "5Cycles75h": "5 चक्र (7.5 घंटे)",
         "6Cycles9h": "6 चक्र (9 घंटे)",
         "readyForBed": "बिस्तर के लिए तैयार",
-        "clickTheButtonWhenYouReG": "जब आप सोने जा रहे हों तो बटन क्लिक करें"
+        "clickTheButtonWhenYouReG": "जब आप सोने जा रहे हों तो बटन क्लिक करें",
+        "title": "जागने के समय का कैलकुलेटर",
+        "description": "तरोताजा महसूस करने के लिए ठीक कब उठना है, यह पता करें।",
+        "sleepNow": "मैं अभी सोने जा रहा हूँ",
+        "sleepAtTime": "या मैं इस समय सोऊंगा",
+        "calculate": "समय की गणना करें",
+        "youShouldWakeUpAt": "आपको इस समय जागना चाहिए",
+        "resultsDescription": "ये समय 90-मिनट के चक्रों पर आधारित हैं, जिसमें सोने के लिए 15 मिनट शामिल हैं।",
+        "cycles": "साइकिल",
+        "hours": "घंटे",
+        "optimal": "इष्टतम"
       }
     },
     "water-intake-calculator": {
@@ -1278,23 +1622,36 @@
       "description": "",
       "ui": {
         "weeksBetweenDates": "दो तिथियों के बीच सप्ताह",
-        "startDate": "आरंभ तिथि",
-        "endDate": "समाप्ति तिथि",
+        "startDate": "प्रारंभ तिथि",
+        "endDate": "अंतिम तिथि",
         "calculateWeeks": "सप्ताहों की गणना करें",
         "weeks": "सप्ताह",
         "days": "दिन",
         "copy": "कॉपी करें",
-        "reset": "रीसेट करें",
-        "selectDatesToCalculate": "गणना करने के लिए तिथियाँ चुनें"
+        "reset": "रीसेट",
+        "selectDatesToCalculate": "अंतर की गणना करने के लिए दोनों तिथियां चुनें।",
+        "title": "तिथियों के बीच सप्ताह",
+        "description": "गणना करें कि किन्हीं दो तिथियों के बीच कितने पूरे सप्ताह और शेष दिन हैं।",
+        "includeEndDay": "अंतिम तिथि शामिल करें (+1 दिन)",
+        "includeEndDayDesc": "गणना में एक अतिरिक्त दिन जोड़ता है।",
+        "totalWeeks": "कुल सप्ताह",
+        "weeksLabel": "सप्ताह",
+        "fullWeeksLabel": "पूरे सप्ताह",
+        "extraDaysLabel": "अतिरिक्त दिन",
+        "equivalentTo": "के बराबर",
+        "daysLabel": "दिन",
+        "endDateBeforeStart": "नोट: अंतिम तिथि प्रारंभ तिथि से पहले है।"
       }
     },
     "weight-converter": {
       "title": "वज़न कन्वर्टर",
       "description": "",
       "ui": {
-        "weightConverter": "वज़न कन्वर्टर",
+        "weightConverter": "वजन कनवर्टर",
         "from": "से",
-        "to": "में"
+        "to": "में",
+        "title": "वजन कनवर्टर",
+        "description": "किलोग्राम, पाउंड, औंस, ग्राम और अन्य वजन इकाइयों के बीच कनवर्ट करें।"
       }
     },
     "word-counter": {
@@ -1329,7 +1686,14 @@
       "title": "विश्व समय कन्वर्टर",
       "description": "",
       "ui": {
-        "worldTimeConverter": "विश्व समय कन्वर्टर"
+        "worldTimeConverter": "विश्व समय कन्वर्टर",
+        "title": "विश्व समय कनवर्टर",
+        "description": "कई समय क्षेत्रों में तुरंत समय बदलें। विश्व स्तर पर वर्तमान समय की तुलना करें या एक विशिष्ट समय चुनें।",
+        "liveTime": "लाइव समय",
+        "customTime": "कस्टम समय",
+        "addZone": "समय क्षेत्र जोड़ें",
+        "remove": "हटाएं",
+        "allZonesAdded": "सभी क्षेत्र जोड़े गए"
       }
     },
     "xml-formatter": {
@@ -1358,7 +1722,8 @@
   },
   "Search": {
     "placeholder": "टूल्स खोजें...",
-    "noResults": "“{query}” के लिए कोई टूल नहीं मिला।"
+    "noResults": "“{query}” के लिए कोई टूल नहीं मिला।",
+    "tryADifferentSearchTermOr": "कोई भिन्न खोज शब्द आज़माएँ या नीचे दी गई श्रेणियां ब्राउज़ करें।"
   },
   "Home": {
     "metaTitle": "मुफ़्त ऑनलाइन टूल और कैलकुलेटर - 100 Tools",
@@ -1730,14 +2095,17 @@
   "layout": {},
   "panels": {},
   "Page": {
-    "whatIs": "What is the {title}?​",
+    "whatIs": "{title} क्या है?",
     "howToUse": "{title} का उपयोग कैसे करें",
     "example": "उदाहरण",
     "useCases": "सामान्य उपयोग के मामले",
-    "howItWorks": "यह काम किस प्रकार करता है",
-    "faq": "अक्सर पूछे जाने वाले प्रश्नों",
+    "howItWorks": "यह कैसे काम करता है",
+    "faq": "अक्सर पूछे जाने वाले प्रश्न",
     "readyToStart": "शुरू करने के लिए तैयार हैं?",
-    "useToolNow": "अभी टूल का उपयोग करें"
+    "useToolNow": "अभी टूल का उपयोग करें",
+    "resultInterpretation": "अपने परिणाम समझना",
+    "tipsAndLimitations": "सुझाव और सटीकता नोट्स",
+    "disclaimer": "अस्वीकरण"
   },
   "Categories": {
     "developerTools": "डेवलपर उपकरण",

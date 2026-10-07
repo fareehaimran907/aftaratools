@@ -1,0 +1,53 @@
+{
+  "seoTitle": "SHA1 Hash Üreteci - Güvenli Karma Algoritması 1",
+  "metaDescription": "Ücretsiz çevrimiçi SHA1 Hash Oluşturucu. Metin dizeleri için anında 40 karakterlik onaltılık SHA-1 özetini hesaplayın. Git taahhütleri ve toplamlar için idealdir.",
+  "h1": "SHA1 Hash Üreteci",
+  "primaryKeyword": "sha1 karma üretici",
+  "secondaryKeywords": [
+    "çevrimiçi sha1 oluşturucu",
+    "sha1'e metin",
+    "sha1 hesapla",
+    "sha1 sağlama toplamı"
+  ],
+  "slug": "sha1-hash-üreteci",
+  "intro": "Git depolarıyla mı çalışıyorsunuz yoksa eski dijital sertifikaları mı doğruluyorsunuz? Ücretsiz SHA1 Hash Üretecimiz, verdiğiniz herhangi bir metin dizesi için standart 160-bit hash'i hızlıca hesaplar.",
+  "whatIs": "SHA1 Hash Generator, Güvenli Hash Algoritması 1'i kullanan bir yardımcı programdır. Her boyuttaki girdi metnini işleyerek genellikle 40 karakterlik onaltılık bir dizi olarak gösterilen 160 bitlik bir hash değeri üretir.",
+  "howToUse": [
+    "Hedef metninizi giriş alanına girin.",
+    "Araç, SHA-1 özetini gerçek zamanlı olarak hesaplar.",
+    "40 karakterlik onaltılık dize görüntüleniyor.",
+    "Doğrulama ihtiyaçlarınız için dizgiyi kopyalayın."
+  ],
+  "howItWorks": "NSA tarafından geliştirilen SHA-1 algoritması, metni 512-bit bloklar halinde işler. Son 160-bit mesaj özetini üretmek için 80 tur boyunca bir dizi bit düzeyinde işlem, modüler toplama ve sıkıştırma fonksiyonu kullanır.",
+  "workedExample": "‘hello’ kelimesini girdim. SHA-1 algoritması metni işler ve çıktıyı verir: `aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d`.",
+  "resultInterpretation": "40 karakterlik çıktı, metninizin dijital parmak izidir. Büyük bir belgede tek bir virgülü değiştirmek bile tamamen farklı bir 40 karakterlik dizeyle sonuçlanır.",
+  "useCases": [
+    "Sürüm Kontrolü (Git): Git'in commitleri ve dosya durumlarını benzersiz şekilde tanımlamak için kullandığı SHA-1 karmalarını manuel olarak oluşturma veya doğrulama.",
+    "Dosya Doğrulama: İndirilen bir ISO dosyasının bütünlüğünü yayımlayan tarafından sağlanan SHA-1 özet değeri ile kontrol etme.",
+    "Veritabanı İndeksleme: Değişken uzunluktaki metin dizilerinden hızlı, tek tip uzunlukta veritabanı arama anahtarları oluşturma."
+  ],
+  "tipsAndLimitations": [
+    "SHA-1, 40 karakter üretir ve bu da onu MD5'ten (32 karakter) biraz daha uzun ve önceden daha güvenli hale getirir.",
+    "GÜVENLİK UYARISI: MD5 gibi, SHA-1 artık kriptografik olarak kırılmış kabul edilmektedir. 2017 yılında Google, SHA-1’e karşı başarılı bir çakışma saldırısı gerçekleştirdi. SHA-1’i modern şifreleme veya SSL sertifikaları için kullanmayın."
+  ],
+  "faq": [
+    {
+      "question": "SHA-1 kırılmış olmasına rağmen Git neden hâlâ kullanıyor?",
+      "answer": "Git, SHA-1’i öncelikle yüksek düzeyde güvenlik için değil, kazara veri bozulmalarını kontrol etmek için kullanır. Bir Git deposunu kazara bir çakışmanın bozma olasılığı pratikte sıfırdır, ancak Git yavaş yavaş SHA-256’ya geçiş yapmaktadır."
+    },
+    {
+      "question": "Bir SHA-1 hash'ini tersine çevirebilir miyim?",
+      "answer": "Hayır. Tasarım gereği, hashing tek yönlü bir matematiksel dönüşümdür. Ancak, SHA-1 ile hashlenmiş yaygın kelimeler çevrimiçi şifre çözme veritabanlarında kolayca bulunabilir."
+    }
+  ],
+  "relatedTools": [
+    "sha256-hash-generator",
+    "md5-hash-generator",
+    "hash-generator"
+  ],
+  "cta": "SHA-1 karmasını anında hesaplayın!",
+  "disclaimer": "SHA-1, NIST tarafından kriptografik olarak kullanım dışı bırakılmıştır. Çakışma direnci gerektiren güvenli uygulamalar için SHA-256 kullanın.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "SHA1 Hash Üretici arayüzü",
+  "ogImageText": "SHA1 Hash Üreteci"
+}

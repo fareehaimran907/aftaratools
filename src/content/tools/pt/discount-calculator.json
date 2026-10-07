@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Calculadora de descontos",
-  "metaDescription": "Calcule o preço final após um desconto percentual ou fixo.",
-  "h1": "Calculadora de descontos",
-  "primaryKeyword": "calculadora de desconto",
+  "seoTitle": "Calculadora de Descontos - Calcule Preço Final e Poupança",
+  "metaDescription": "Calculadora de descontos online grátis. Saiba exatamente quanto vai poupar e o preço final de um artigo após aplicar um desconto em percentagem.",
+  "h1": "Calculadora de Descontos",
+  "primaryKeyword": "calculadora de descontos",
   "secondaryKeywords": [
-    "Calculadora de descontos on-line",
-    "Calculadora de desconto grátis",
-    "melhor calculadora de descontos"
+    "calcular desconto",
+    "preço com desconto",
+    "percentagem de desconto"
   ],
-  "slug": "calculadora de descontos",
-  "intro": "Descubra exatamente quanto você economizará durante uma venda.",
-  "whatIs": "O que é essa ferramenta?",
+  "slug": "calculadora-de-desconto",
+  "intro": "Você já olhou para uma etiqueta de preço na loja que dizia '20% de desconto' e se perguntou quanto realmente economizaria? Esteja você em busca de pechinchas durante os feriados de compras, comprando roupas em liquidação ou negociando uma compra em massa para a sua empresa, saber o preço final é essencial para gastos inteligentes. Nossa calculadora de descontos on-line gratuita elimina as suposições das vendas. Ao inserir simplesmente o preço original e a porcentagem de desconto, esta ferramenta diz-lhe instantaneamente o quanto economizará e qual será o preço final. Tome decisões de compra com confiança, compare ofertas facilmente e garanta o melhor valor possível em cada compra.",
+  "whatIs": "Uma calculadora de desconto é uma ferramenta de orçamento financeiro indispensável projetada para calcular rapidamente o preço reduzido de um item após a aplicação de uma queda percentual. No varejo, as promoções costumam ser apresentadas em porcentagens (por exemplo, 15% de desconto, 50% de desconto), o que pode dificultar os cálculos mentais rápidos, especialmente com preços ímpares, como US$ 49,99 ou US$ 199,50. Essa ferramenta faz as contas por você, transformando aquela porcentagem de desconto num valor em dinheiro tangível. Ele exibe o novo preço que você pagará no caixa e a quantia exata em dinheiro que reterá, proporcionando total transparência sobre o verdadeiro valor de qualquer promoção de vendas.",
   "howToUse": [
-    "Insira seu preço original no campo de entrada designado.",
-    "Forneça quaisquer parâmetros secundários, como porcentagem de desconto.",
-    "Clique no botão calcular ou enviar para gerar o valor economizado e o novo preço.",
-    "Copie ou revise a saída resultante de acordo com suas necessidades."
+    "Insira o Preço Original do artigo.",
+    "Insira a Percentagem de Desconto (ex. 20 para 20%).",
+    "Opcionalmente, insira o Imposto (IVA).",
+    "Clique em 'Calcular Desconto'."
   ],
-  "howItWorks": "Como funciona",
-  "workedExample": "Exemplos",
-  "resultInterpretation": "Interpretação",
+  "howItWorks": "A ferramenta funciona usando uma fórmula matemática financeira simples, mas vital. Ao inserir o 'Preço original' e a 'Porcentagem de desconto', a calculadora primeiro converte a porcentagem em decimal (por exemplo, 20% torna-se 0,20). Em seguida, ele multiplica o preço original por esse decimal para calcular o valor total do desconto (a sua economia). Finalmente, ele subtrai o valor da economia do preço original para fornecer o preço final. Esse processo de duas etapas é executado instantaneamente, permitindo que você experimente diferentes taxas de desconto ou preços para ver como os resultados mudam, fornecendo dados em tempo real para as suas escolhas de compra.",
+  "workedExample": "Imagine que você está a ver um portátil com preço de US$ 850. A loja tem uma promoção de volta às aulas que oferece 15% de desconto em todos os eletrônicos. Você insere '850' como preço original e '15' como porcentagem de desconto na calculadora. A ferramenta multiplica esses US$ 850 por 0,15 para calcular a sua economia total: US$ 127,50. Em seguida, subtrai os US$ 127,50 do preço original de US$ 850. Em um segundo, a calculadora mostra que o preço final do portátil é US$ 722,50 e confirma que você reterá US$ 127,50 substanciais com o negócio.",
+  "resultInterpretation": "Os resultados gerados pela calculadora fornecem dois números críticos: o 'Preço Final' e o valor 'A sua economia'. O preço final é o valor real que você deve esperar pagar no caixa (antes da aplicação de quaisquer impostos locais). O valor da economia quantifica o dinheiro que permanece no seu bolso em comparação com o MSRP original. Compreender os dois números é fundamental para um orçamento intencional. Por exemplo, saber que você economizou US$ 50 permite alocar mentalmente esses fundos para outras compras ou poupanças. Além disso, ver o valor real economizado em dólares permite que você avalie se um grande desconto percentual em um item de baixo valor representa uma promoção mais valiosa para você do que um desconto percentual menor num item de alto preço.",
   "useCases": [
-    "Vendas de compras",
-    "Aplicando códigos promocionais",
-    "Processando rapidamente o preço original em qualquer lugar"
+    "Compras: Calcular o preço final em promoções (Saldos, Black Friday).",
+    "Comércio: Determinar o preço faturado ao cliente com descontos comerciais.",
+    "Comércio: Determinar o preço faturado ao cliente com descontos comerciais."
   ],
   "tipsAndLimitations": [
-    "Algumas lojas aplicam descontos antes ou depois dos impostos.",
-    "Certifique-se de que suas entradas estejam formatadas corretamente para obter os melhores resultados.",
-    "A ferramenta é totalmente executada no lado do cliente, garantindo que seus dados permaneçam privados."
+    "Descontos sucessivos ('20% + 10% extra') não se somam (não são 30%). O segundo desconto incide sobre o preço já com o primeiro desconto.",
+    "Descontos sucessivos ('20% + 10% extra') não se somam (não são 30%). O segundo desconto incide sobre o preço já com o primeiro desconto."
   ],
   "faq": [
     {
-      "question": "O uso da Calculadora de Desconto é gratuito?",
-      "answer": "Sim, nossa calculadora de descontos é totalmente gratuita."
+      "question": "O IVA é calculado antes ou depois do desconto?",
+      "answer": "O imposto (como o IVA) é sempre calculado após a aplicação do desconto."
     },
     {
-      "question": "Isso funciona no celular?",
-      "answer": "Sim, é totalmente responsivo e funciona em todos os dispositivos."
-    },
-    {
-      "question": "Preciso baixar alguma coisa?",
-      "answer": "Não, funciona totalmente no seu navegador sem qualquer instalação."
+      "question": "O IVA é calculado antes ou depois do desconto?",
+      "answer": "O imposto (como o IVA) é sempre calculado após a aplicação do desconto."
     }
   ],
   "relatedTools": [
-    "calculadora de porcentagem",
-    "calculadora de salário",
-    "calculadora de gorjetas"
+    "percentage-calculator",
+    "percentage-increase-calculator",
+    "tip-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calculadora de descontos",
-  "ogImageText": "Calculadora de descontos"
+  "cta": "Calcule a sua poupança agora!",
+  "disclaimer": "Ferramenta apenas para fins de estimativa.",
+  "lastReviewed": "2024-03-16",
+  "imageAlt": "Calculadora de Descontos",
+  "ogImageText": "Calculadora de Descontos"
 }

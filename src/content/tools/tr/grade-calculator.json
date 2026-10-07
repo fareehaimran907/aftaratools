@@ -1,55 +1,67 @@
 {
-  "seoTitle": "Not Hesaplayıcı",
-  "metaDescription": "Mevcut sınıf notunuzu hesaplayın.",
+  "seoTitle": "Not Hesaplayıcı - Mevcut Sınav Notunuzu Öğrenin ve Akademik İlerleyişinizi Takip Edin",
+  "metaDescription": "Ücretsiz Çevrimiçi Not Hesaplama Aracısı. Ödevler, testler ve ağırlıklı kategoriler temelinde mevcut sınıf notunuzu kolayca hesaplayın, hangi alanların genel notu etkilediğini görün ve akademik hedeflerinize göre strateji oluşturun.",
   "h1": "Not Hesaplayıcı",
   "primaryKeyword": "not hesaplayıcı",
   "secondaryKeywords": [
-    "not hesaplayıcı çevrimiçi",
-    "ücretsiz not hesaplayıcı",
-    "en iyi not hesaplayıcı"
+    "mevcut not hesaplayıcı",
+    "ağırlıklı not hesaplayıcı",
+    "test notu hesaplayıcı",
+    "notumu hesapla"
   ],
-  "slug": "not hesaplayıcı",
-  "intro": "Ödev notlarınızı girerek akademik performansınızı takip edin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "not-hesaplama",
+  "intro": "Merhaba! Sınıf içindeki performansınızı net bir şekilde anlamak ve akademik ilerleyişinizi optimizasyon yapmak mı istiyorsunuz? Ücretsiz Not Hesaplayıcı aracımız, ödevlerinizin, testlerinizin, participation puanlarının ve diğer aktivitelerin toplamına göre mevcut genel notunuzu hesaplar. Sadece aldığınız puanları girerek, ağırlıklı kategorileri tanımlayarak veya nokta tabanlı bir sistem kullanıyorsanız, anlık olarak notunuzu görebilirsiniz. Bu sayede hangi alanların stronger olduğunu, hangi alanların ise improvement gerektirdiğini net bir şekilde görebilir, buna göre study planı oluşturabilirsiniz. Ayrıca, gelecekteki görevleri planlayarak potansiyel notunuzu da tahmin edebilir ve hedeflerinize ne kadar yaklaştığınızı takip edebilirsiniz.",
+  "whatIs": "Not Hesaplayıcı, bir öğrencinin bir dersdeki genel notunu hesaplamak için tasarlanmış bir eğitim aracısıdır. Öğrencinin her bir ödevden, testten, quiz'ten ve diğer aktivitelerden aldığını puanları toplayarak, bu puanların toplamına veya ağırlıklı kategorilere göre bir sonucu çıkarır. Aracımız hem nokta tabanlı (unweighted) hem de ağırlıklı (weighted) sistemleri destekler, böylece farklı instructors' grading yaklaşımlarına uyum sağlar. Ayrıca, her bir kategorinin ortalama notunu ve genel etkisini görselleştirerek, öğrencinin nerede güçlü olduğu ve nerede iyileşme yapması gerektiği konusunda fikir verir. Bu bilgiler, hem bireysel gelişim hem de teacher'la yapılan görüşmelerde kullanılabilecek değerli bir kaynaktır.",
   "howToUse": [
-    "Ödev puanlarınızı belirlenen giriş alanına girin.",
-    "Atama ağırlıkları gibi ikincil parametreleri sağlayın.",
-    "Geçerli genel sınıf notunu oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "İlk olarak, notlama yöntemini seçin: 'Nokta Tabanlı' (Points Based) veya 'Ağırlıklı' (Weighted). Sisteminiz hangi yöntemi kullanıyor ona göre ilerleyin.",
+    "Daha sonra, her bir görevi, testi veya ödevi ekleyin ve aldığınız notu girin. Her bir satır için görev adı, alınan puan ve maksimum puanı belirtebilirsiniz. Ekstra notlar eklemek isterseniz, ek alanları kullanabilirsiniz.",
+    "Ağırlıklı bir sistem kullanıyorsanız, her bir kategorinin ağırlığını (%) olarak belirtin (örneğin: Sınavlar %50, Ev ödevleri %30, Katılım %20). Ağırlıkların toplamı %100 olmalıdır.",
+    "Hesaplayıcı, girdiğiniz bilgileri anında işleyerek mevcut genel notunuzu gösterir. Sonuç olarak percentage ve harf notu gösterebilir.",
+    "İsteğe bağlı olarak, gelecekteki görevleri de ekleyerek tahmin edilen notunuzu görebilirsiniz. Bu sayede planladığınız testlerin etkisini önceden görebilirsiniz."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Nokta tabanlı sistemde, toplam alınan puanlar, toplam olası puanlara bölünerek percentage elde edilir. Ağırlıklı sistemde ise her bir kategorinin ortalama notu, o kategorinin ağırlığı ile çarpılarak, tüm kategorilerin bu değerleri toplanır. Sonuç, genel notunuzu percentage olarak verir. Aracımız, her bir kategorinin katkısını ayrı ayrı göstererek, hangi alanların genel notu en çok etkilediğini netleştirmenizi sağlar. Ayrıca, ağırlıkları değiştirdiğinizde sonucun nasıl değiştiğini görebilirsiniz.",
+  "workedExample": "Ağırlıklı bir ders için: Ev ödevleri notunuzun %50'sini oluşturur ve ortalama %90; testler ise %50'lik ağırlıkta ve ortalama %80. Hesaplama: (0,90 × 0,50) + (0,80 × 0,50) = 0,45 + 0,40 = 0,85 yani %85 genel not. Bu örnek, ağırlıklı sisteminde nasıl bir sonucun hesaplandığını gösterir. Ayrıca, farklı ağırlıklarla deneyerek nasıl bir etki yaratacağınızı da görebilirsiniz.",
+  "resultInterpretation": "Elde edilen percentage, sınıf içindeki mevcut durumunuzu gösterir. Bu sayı, nerede güçlü olduğunuzu ve nerede iyileşme yapmanız gerektiğini net bir şekilde ortaya koyar. Yüksek bir percentage, genel olarak iyi bir performans olduğunu, düşük bir percentage ise dikkat edilmesi gereken alanlar olduğunu gösterir. Ayrıca, her bir kategorinin katkısını görerek, hangi alanlara daha fazla zaman ayırmak istiyorsanız, bu bilgiyi kullanarak önceliklerinizi belirleyebilirsiniz.",
   "useCases": [
-    "Akademik durumu kontrol etme",
-    "Müfredat planlama",
-    "Hareket halindeyken ödev puanlarını hızla işleme"
+    "Yarıyıl Değerlendirmesi: Yarıyıl sonunda mevcut notunuzu öğrenerek ilerleyişinizi değerlendirebilir, teacher'ı bilgilendirerek destek alabilirsiniz.",
+    "Hedef Belirleme: Gelecekteki testlerden alacağınız notlarla oynayarak, bir quiz'in genel notunuzu nasıl etkilediğini görebilir ve hedeflerinize göre strateji oluşturabilirsiniz.",
+    "Syllabus Planlaması: Kategorilerin ağırlıklarına göre önceliklerinizi belirleyerek study planı oluşturabilirsiniz.",
+    "Not Takibi: Her bir görevden sonra notunuzu更新 ederek, hedeflerinize ne kadar yaklaştığınızı görebilirsiniz.",
+    "Ebeveyn Toplantıları: Velilere sunulan raporlarda mevcut notunuzu göstererek, akademik durumunuzu net bir şekilde aktarabilirsiniz."
   ],
   "tipsAndLimitations": [
-    "Ağırlıklarınızın toplamının tam olarak %100 olduğundan emin olun.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Ağırlıklı sistemde, tüm kategorilerin ağırlıkları toplamı tam olarak %100 olmalıdır; aksi halde hesaplama doğru olmaz.",
+    "Gelecek görevleri boş bırakırsanız, aracınız sadece tamamlanan tasks için notunuzu gösterir.",
+    "Eğer bir kategorideki puanlar eksikse, ortalama hesaplamada sadece mevcut puanlar consider edilir.",
+    "Bu aracın sonuçları, resmi not defteriyle karşılaştırılmadan önce teacher'ın onayını almalıdır.",
+    "Ağırlıkları doğru girmemeniz, sonucunuzda büyük sapmalara yol açabilir."
   ],
   "faq": [
     {
-      "question": "What is a weighted grade?",
-      "answer": "Assignments are worth different percentages of the final grade."
+      "question": "Ağırlıklı ve ağırlık olmayan notlar arasındaki fark nedir?",
+      "answer": "Ağırlık olmayan (nokta tabanlı) sistemde her bir puan eşit değer taşır; toplam puanlar toplam maksimum puana bölünür. Ağırlıklı sistemde ise belirli kategoriler (örneğin testler, ödevler) farklı oranlarda etkilidir; bir testin puanı, ödevden daha yüksek bir ağırlığa sahip olabilir. Bu nedenle, ağırlıklı sistemde belirli alanlar genel notunuza daha çok etki eder."
     },
     {
-      "question": "Is the Grade Calculator free to use?",
-      "answer": "Yes, our Grade Calculator is completely free and requires no registration."
+      "question": "Kategori ağırlıklarını nerede bulabilirim?",
+      "answer": "Kategori ağırlıkları genellikle dersin syllabus'unda, teacher'ın başlangıçta sağladığı belgelerde yer alır. Ayrıca, teacher'ın not defteri veya_course management system'inde de görebilirsiniz. Bazı durumlarda, teacher'ın web sitesinde veya ders içi duyurularda da açıklanır."
     },
     {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Not hesaplayıcı, gelecek testleri tahmin edebilir mi?",
+      "answer": "Evet, isterseniz gelecekteki görevleri manuel olarak ekleyebilir ve alacağınız tahmini puanları girerek potansiyel notunuzu görebilirsiniz. Bu sayede planladığınız testlerin genel notunuza etkisini önceden görebilir, gerekli hazırlıklar yapabilirsiniz. Ancak bu tahminler, gerçek sonuçlardan farklı olabilir."
+    },
+    {
+      "question": "Eğer bir kategorideki puanlar eksikse ne olur?",
+      "answer": "Eksik puanlar, o kategorinin ortalama hesaplamasında dikkate alınmaz; sadece mevcut puanlar kullanılır. Bu durum, o kategorinin genel notunuza etkisini azaltabilir. Ancak, daha sonra puan eklediğinizde hesaplama otomatik olarakgüncellenir."
     }
   ],
   "relatedTools": [
-    "kesir hesaplayıcı",
-    "oran hesaplayıcı",
-    "ortalama-hesaplayıcı"
+    "final-grade-calculator",
+    "gpa-calculator",
+    "average-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Not Hesaplayıcı",
+  "cta": "Hemen notunuzu hesaplayın!",
+  "disclaimer": "Bu aracın sonuçları, girdiğiniz bilgilere dayalı matematiksel hesaplamalardır. Lütfen teacher'ın resmi not defteriyle karşılaştırın.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Not Hesaplayıcı arayüzü, ağırlıklı görevleri gösteriyor",
   "ogImageText": "Not Hesaplayıcı"
 }

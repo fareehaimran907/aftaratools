@@ -8,7 +8,7 @@
     "decodificatore jwt gratuito",
     "miglior decoder jwt"
   ],
-  "slug": "jwt-decoder",
+  "slug": "decodificatore-jwt",
   "intro": "Utilizza il nostro strumento di decodifica JWT online gratuito. Analizza i token Web JSON in base ai tuoi input.",
   "whatIs": "Il decoder JWT è un'utilità online che analizza i token Web JSON. Elabora la stringa JWT e fornisce le attestazioni JSON leggibili.",
   "howToUse": [
@@ -45,10 +45,12 @@
     }
   ],
   "relatedTools": [
-    "json-formattatore",
-    "base64-codifica-decodifica",
-    "codifica-decodifica url"
+    "base64-encode-decode",
+    "hash-generator",
+    "uuid-generator"
   ],
+  "cta": "Decodifica il tuo JSON Web Token ora!",
+  "disclaimer": "La decodifica avviene al 100% lato client tramite JavaScript. Questo strumento non esegue la verifica della firma crittografica.",
   "lastReviewed": "29-09-2026",
   "imageAlt": "Schermata dell'interfaccia del decodificatore JWT",
   "ogImageText": "Decodificatore JWT"

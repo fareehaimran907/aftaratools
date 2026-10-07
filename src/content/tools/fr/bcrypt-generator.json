@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Générateur de Hash Bcrypt - Hachage Sécurisé des Mots de Passe",
+  "metaDescription": "Générateur Bcrypt en ligne gratuit. Hachez les mots de passe en toute sécurité en utilisant l'algorithme bcrypt standard du secteur avec des facteurs de coût personnalisés (tours de travail) pour une sécurité maximale.",
+  "h1": "Générateur de hachage Bcrypt",
+  "primaryKeyword": "générateur bcrypt",
+  "secondaryKeywords": [
+    "hachage de mot de passe bcrypt",
+    "générer bcrypt",
+    "bcrypt en ligne",
+    "outil de hachage de mot de passe"
+  ],
+  "slug": "générateur-de-hachage-bcrypt",
+  "intro": "Vous construisez un système d'authentification utilisateur ? Notre générateur Bcrypt gratuit offre le moyen le plus sûr de hacher les mots de passe, en utilisant un salage automatique et un facteur de coût computationnel personnalisable.",
+  "whatIs": "Le générateur Bcrypt est un utilitaire de sécurité avancé conçu spécifiquement pour le hachage des mots de passe des utilisateurs. Contrairement aux algorithmes rapides (MD5, SHA), bcrypt est intentionnellement lent et génère automatiquement un 'sel' aléatoire unique pour chaque hachage afin de contrer les attaques par table arc-en-ciel.",
+  "howToUse": [
+    "Entrez le mot de passe en texte clair dans le champ de saisie.",
+    "Sélectionnez votre facteur 'Coût' (la valeur par défaut est généralement 10 ou 12). Un coût plus élevé signifie que le calcul prend plus de temps.",
+    "Cliquez sur Générer.",
+    "L'outil génère la chaîne bcrypt complète (qui inclut la version de l'algorithme, le coût, le sel et le hachage)."
+  ],
+  "howItWorks": "Bcrypt est basé sur le chiffrement Blowfish. L'outil génère un sel aléatoire de 128 bits, l'ajoute au mot de passe et le fait passer plusieurs fois par le chiffrement en fonction du facteur de « coût ». Un coût de 10 signifie 2^10 (1 024) itérations. Un coût de 12 signifie 2^12 (4 096) itérations.",
+  "workedExample": "Saisie de 'password123' avec un coût de 10. L'outil génère une chaîne commençant par `$2a$10$`, suivie de 22 caractères de sel aléatoire, puis de 31 caractères du hachage réel.",
+  "resultInterpretation": "La chaîne résultante est exactement ce que vous devez enregistrer dans votre base de données. Lorsque un utilisateur se connecte, votre serveur lit le sel de cette chaîne, hache sa tentative de connexion avec ce même sel, et compare les résultats.",
+  "useCases": [
+    "Développement de logiciels : Génération manuelle d’un hachage de mot de passe administrateur sécurisé à insérer dans une nouvelle base de données.",
+    "Éducation à la sécurité : Comprendre comment les sels et les facteurs de coût modifient la sortie d'une fonction de hachage de mot de passe.",
+    "Récupération du système : Génération d'un hachage de porte dérobée pour retrouver l'accès à un système dont le mot de passe administrateur a été perdu."
+  ],
+  "tipsAndLimitations": [
+    "Parce que bcrypt génère automatiquement un sel aléatoire, le hachage exactement du même mot de passe deux fois donnera deux chaînes de sortie complètement différentes. C'est une fonctionnalité de sécurité délibérée.",
+    "Bcrypt a une longueur maximale de mot de passe de 72 octets. Les caractères dépassant cette limite sont ignorés."
+  ],
+  "faq": [
+    {
+      "question": "Pourquoi bcrypt est-il meilleur que SHA-256 pour les mots de passe ?",
+      "answer": "SHA-256 est conçu pour être extrêmement rapide. Un pirate avec une bonne carte graphique peut deviner des milliards de mots de passe SHA-256 par seconde. Bcrypt est intentionnellement lent. En définissant un facteur de coût élevé, vous limitez le pirate à ne deviner que quelques dizaines de mots de passe par seconde, rendant les attaques par force brute impossibles."
+    },
+    {
+      "question": "Quel est le facteur de coût recommandé ?",
+      "answer": "À mesure que les ordinateurs deviennent plus rapides, le coût recommandé augmente. Un coût de 10 ou 12 est standard aujourd'hui. Il devrait être suffisamment élevé pour dissuader les pirates, mais assez rapide (par exemple, 200 millisecondes) pour ne pas frustrer les utilisateurs légitimes lors de la connexion."
+    }
+  ],
+  "relatedTools": [
+    "password-generator",
+    "strong-password-generator",
+    "sha256-hash-generator"
+  ],
+  "cta": "Hachez vos mots de passe de manière sécurisée avec bcrypt !",
+  "disclaimer": "La génération nécessite un calcul intensif du processeur du navigateur en fonction du facteur de coût sélectionné. Les chaînes sont générées localement et jamais transmises.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface du générateur Bcrypt affichant les paramètres du facteur de coût",
+  "ogImageText": "Générateur Bcrypt"
+}

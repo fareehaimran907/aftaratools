@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Mulch Calculator",
-  "metaDescription": "Free online Mulch Calculator. Calculate cubic yards of mulch.",
+  "seoTitle": "Mulch Calculator - How Much Mulch Do I Need?",
+  "metaDescription": "Free online Mulch Calculator. Accurately estimate how many bags or cubic yards of mulch, soil, or gravel you need for your landscaping project.",
   "h1": "Mulch Calculator",
   "primaryKeyword": "mulch calculator",
   "secondaryKeywords": [
-    "mulch calculator online",
-    "free mulch calculator",
-    "best mulch calculator"
+    "how much mulch do I need",
+    "mulch yardage calculator",
+    "soil calculator",
+    "landscaping calculator"
   ],
   "slug": "mulch-calculator",
-  "intro": "Use our free online Mulch Calculator tool. It estimates landscaping mulch based on your inputs.",
-  "whatIs": "The Mulch Calculator is an online utility that estimates landscaping mulch. It processes your garden area and provides cubic yards or bags of mulch.",
+  "intro": "Refreshing your garden beds for spring? Our free Mulch Calculator ensures you order the exact right amount of mulch, topsoil, or gravel, saving you money and back-breaking return trips.",
+  "whatIs": "The Mulch Calculator is a landscaping volume estimator. Because garden beds are measured in square feet but mulch is sold by volume (cubic yards or cubic foot bags), this tool seamlessly bridges that mathematical gap.",
   "howToUse": [
-    "Enter your garden area into the designated input field.",
-    "Provide any secondary parameters like desired depth.",
-    "Click the calculate or submit button to generate cubic yards or bags of mulch.",
-    "Copy or review the resulting output for your needs."
+    "Select the shape of your garden bed (Rectangle or Circle).",
+    "Enter the dimensions (length and width, or radius).",
+    "Enter your desired mulch depth (usually 2 to 3 inches).",
+    "The tool calculates the total cubic yards needed and the equivalent number of standard 2-cubic-foot bags."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your garden area. It instantly processes the data to output cubic yards or bags of mulch.",
-  "workedExample": "For example: 100 sq ft at 3 inches deep requires ~1 cubic yard.",
-  "resultInterpretation": "The result represents cubic yards or bags of mulch. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "The tool converts all measurements into feet. It multiplies the Area by the Depth to determine the total Cubic Feet. It divides that number by 27 to find Cubic Yards (for bulk delivery) and divides it by 2 to find the bag count (for hardware store purchases).",
+  "workedExample": "A garden bed is 20 feet long and 5 feet wide (100 sq ft). You want 3 inches (0.25 ft) of mulch. 100 × 0.25 = 25 cubic feet. 25 / 27 = 0.92 cubic yards. You need roughly 1 yard, or 13 bags.",
+  "resultInterpretation": "If the result is over 2 cubic yards, it is almost always cheaper and physically easier to have a local landscape company deliver bulk mulch in a truck rather than buying 27 individual bags.",
   "useCases": [
-    "Spring gardening",
-    "Landscaping budgeting",
-    "Quickly processing garden area on the go"
+    "Spring Landscaping: Figuring out how much dyed wood mulch is required to suppress weeds around the foundation of a house.",
+    "Raised Garden Beds: Calculating how many bags of organic topsoil and compost are needed to completely fill a new 4x8 vegetable box.",
+    "Driveway Gravel: Using the exact same math to order crushed stone or pea gravel for a parking area."
   ],
   "tipsAndLimitations": [
-    "Standard depth for weed suppression is 2-3 inches.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "For standard weed suppression and moisture retention, a depth of 2 to 3 inches of mulch is highly recommended. Anything over 4 inches can suffocate plant roots.",
+    "Mulch settles and decomposes over time. You will likely need to order a 'top dress' of 1 inch every spring to maintain the color and depth."
   ],
   "faq": [
     {
-      "question": "How many bags in a cubic yard?",
-      "answer": "Usually 13.5 bags (if bags are 2 cubic feet)."
+      "question": "How many bags are in a cubic yard?",
+      "answer": "A standard bag of mulch holds 2 cubic feet. Since there are 27 cubic feet in a yard, it takes exactly 13.5 bags to equal one cubic yard."
     },
     {
-      "question": "Is the Mulch Calculator free to use?",
-      "answer": "Yes, our Mulch Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Can I use this for dirt and gravel?",
+      "answer": "Yes! The volume math (Area × Depth) is identical whether you are pouring mulch, topsoil, sand, or river rock."
     }
   ],
   "relatedTools": [
+    "plant-spacing-calculator",
     "square-footage-calculator",
-    "paint-calculator",
-    "tile-calculator"
+    "cost-per-square-foot-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Mulch Calculator interface screenshot",
+  "cta": "Calculate your mulch requirements now!",
+  "disclaimer": "Tool provides exact mathematical volume. Bulk materials like fluffy mulch will settle slightly after the first rain, so rounding up slightly is recommended.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Mulch Calculator showing cubic yard conversion",
   "ogImageText": "Mulch Calculator"
 }

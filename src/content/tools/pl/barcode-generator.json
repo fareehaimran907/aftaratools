@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Generator kodów kreskowych - Twórz własne kody kreskowe online",
+  "metaDescription": "Darmowy internetowy generator kodów kreskowych. Twórz natychmiast skanowalne kody kreskowe 1D (Code 128, UPC, EAN). Pobieraj wysokiej jakości obrazy do użytku detalicznego i inwentaryzacyjnego.",
+  "h1": "Generator kodów kreskowych",
+  "primaryKeyword": "generator kodów kreskowych",
+  "secondaryKeywords": [
+    "utwórz kod kreskowy online",
+    "generator UPC",
+    "generator kodu 128",
+    "darmowy kreator kodów kreskowych"
+  ],
+  "slug": "generator-kodów-kreskowych",
+  "intro": "Zarządzasz magazynem lub wprowadzasz produkt detaliczny na rynek? Nasz darmowy Generator Kodów Kreskowych tworzy wysokiej jakości, łatwe do zeskanowania kody kreskowe 1D natychmiast w standardowych formatach, takich jak Code 128 i UPC.",
+  "whatIs": "Generator kodów kreskowych to narzędzie do grafiki cyfrowej. Przyjmuje dane alfanumeryczne (takie jak SKU produktu lub numer seryjny) i przekształca je w maszynowo odczytywalny wzór równoległych czarnych i białych linii.",
+  "howToUse": [
+    "Wprowadź tekst, numer lub SKU, który chcesz zakodować, w polu wprowadzania.",
+    "Wybierz potrzebny format kodu kreskowego (np. Code 128 jest najlepszy do ogólnej inwentaryzacji).",
+    "Narzędzie natychmiast generuje obraz kodu kreskowego.",
+    "Kliknij 'Pobierz', aby zapisać kod kreskowy jako plik graficzny."
+  ],
+  "howItWorks": "Narzędzie używa biblioteki renderującej do mapowania znaków tekstowych na określone wzory szerokości linii zgodnie z wybranym standardem kodu kreskowego. Następnie renderuje te linie na elemencie HTML5 Canvas, aby można je było łatwo pobrać.",
+  "workedExample": "Wybierasz 'Code 128' i wpisujesz 'SKU-5542'. Narzędzie oblicza znaki początkowe, konkretne szerokości pasków dla tych liter i cyfr, dodaje cyfrę kontrolną dla dokładności skanowania i generuje wizualny kod kreskowy.",
+  "resultInterpretation": "Wygenerowany obraz można wydrukować na etykietach lub opakowaniach produktów. Każdy standardowy skaner laserowy lub optyczny kodów kreskowych będzie w stanie odczytać linie i wyświetlić Twój oryginalny tekst.",
+  "useCases": [
+    "Zarządzanie inwentarzem: Tworzenie etykiet śledzących dla pudeł w magazynie.",
+    "Sprzedaż detaliczna: Generowanie kodów kreskowych UPC-A lub EAN-13 dla produktów fizycznych, które mają być skanowane przy kasie (POS).",
+    "Systemy biblioteczne: Tworzenie czytelnych dla skanera identyfikatorów dla książek lub zasobów multimedialnych."
+  ],
+  "tipsAndLimitations": [
+    "Kod 128 jest najbardziej wszechstronnym formatem, ponieważ obsługuje zarówno litery, jak i cyfry o zmiennej długości.",
+    "Kody kreskowe detaliczne (UPC-A) wymagają dokładnie 11 lub 12 cyfr numerycznych. Narzędzie zgłosi błąd, jeśli spróbujesz użyć liter w kodzie UPC."
+  ],
+  "faq": [
+    {
+      "question": "Jaka jest różnica między Code 128 a UPC?",
+      "answer": "Kod 128 jest używany do ogólnego śledzenia i obsługuje wszystkie litery i cyfry. UPC (Uniwersalny Kod Produktu) jest ściśle regulowany, zawiera wyłącznie liczby i jest wymagany do sprzedaży produktów w sklepach detalicznych w Ameryce Północnej."
+    },
+    {
+      "question": "Czy te kody kreskowe są legalne w sprzedaży detalicznej?",
+      "answer": "Obraz kodu kreskowego, który został wygenerowany, jest matematycznie doskonały i możliwy do zeskanowania. Jednak aby sprzedawać produkt w dużym sklepie detalicznym, musisz legalnie zakupić zarejestrowany numer UPC od GS1. Nie możesz po prostu wymyślić numeru."
+    }
+  ],
+  "relatedTools": [
+    "qr-code-generator",
+    "base64-encode-decode",
+    "random-number-generator"
+  ],
+  "cta": "Wygeneruj teraz swój własny kod kreskowy!",
+  "disclaimer": "Kody kreskowe są generowane lokalnie. Użytkownicy są odpowiedzialni za upewnienie się, że wygenerowane kody nie kolidują z systemami detalicznymi zarejestrowanymi w GS1, jeśli są używane komercyjnie.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfejs generatora kodów kreskowych pokazujący kod kreskowy Code 128",
+  "ogImageText": "Generator kodów kreskowych"
+}

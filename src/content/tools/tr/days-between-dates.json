@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Tarihler Arasındaki Günler",
-  "metaDescription": "İki tarih arasındaki tam gün sayısını hesaplayın.",
-  "h1": "Tarihler Arasındaki Günler",
+  "seoTitle": "Tarihler Arasındaki Günler Hesaplayıcı - Tam Gün Sayısı",
+  "metaDescription": "İki tarih arasındaki tam gün sayısını kolayca hesaplayın. Başlangıç ve bitiş tarihi arasında geçen toplam günleri, iş günlerini ve hafta sonlarını keşfedin.",
+  "h1": "Tarihler Arasındaki Günler Hesaplayıcı",
   "primaryKeyword": "tarihler arasındaki günler",
   "secondaryKeywords": [
-    "Tarihler Arasındaki Günler çevrimiçi",
-    "Tarihler Arasındaki Ücretsiz Günler",
-    "Tarihler Arasındaki En İyi Günler"
+    "iki tarih arası kaç gün",
+    "gün hesaplayıcı",
+    "iş günü hesaplayıcı",
+    "gün sayacı"
   ],
-  "slug": "tarihler arasındaki günler",
-  "intro": "Herhangi iki tarih arasındaki tam gün sayısını anında hesaplayın.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "tarihler-arasi-gun",
+  "intro": "Önemli bir olayın üzerinden tam olarak kaç gün geçtiğini veya yaklaşan bir son teslim tarihine kaç gün kaldığını bulmaya mı çalışıyorsunuz? Tarihler Arası Gün hesaplayıcımız, herhangi iki takvim tarihini ayıran mutlak günlerin kesin sayısını vermek için tasarlanmış oldukça uzmanlaşmış bir araçtır. Bir projenin zaman çizelgesini takip ediyor, bir serinin günlerini sayıyor veya belirli bir süre için finansal faizi hesaplıyor olun, kesin gün sayısını bilmek çok önemlidir. Bu hesaplayıcı, değişen ay uzunlukları ve artık yıllarla ilişkili tahmin yürütmeyi ve sıkıcı manuel sayımı ortadan kaldırarak sadece milisaniyeler içinde hatasız bir cevap sağlar.",
+  "whatIs": "Tarihler Arası Gün hesaplayıcısı, bir başlangıç tarihi ile bitiş tarihi arasındaki ham, kesintisiz süreyi yalnızca gün cinsinden ifade eden ölçen temel bir yardımcı programdır. Zamanı yıllara, aylara ve günlere bölen genel bir yaş veya tarih hesaplayıcısının aksine, bu araç yalnızca mutlak gün sayısına odaklanır. Bu saf metrik, bir 'ayın' çok değişken bir birim olduğu (aylar 28, 29, 30 veya 31 gün olabildiğinden) birçok teknik, finansal ve bilimsel hesaplama için çok önemlidir. Kesin bir gün sayısına güvenerek profesyoneller günlük faiz oranlarını doğru bir şekilde hesaplayabilir, tam günlük kira ücretlerini belirleyebilir veya ardışık serileri herhangi bir belirsizlik olmadan takip edebilir.",
   "howToUse": [
-    "Belirlenen giriş alanına ilk tarihinizi girin.",
-    "İkinci tarih gibi ikincil parametreleri sağlayın.",
-    "Milisaniyeye bölerek toplam gün sayısını oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Başlangıç tarihinizi seçin.",
+    "Bitiş tarihinizi seçin.",
+    "Tamamen kapsayıcı bir sayım istiyorsanız 'Bitiş tarihini dahil et'i işaretleyin.",
+    "Toplam gün, iş günü ve hafta sonu sayısını görüntüleyin."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Özünde, hesaplayıcı seçtiğiniz hem başlangıç hem de bitiş tarihlerini evrensel bir zaman biçimine dönüştürür; özellikle Unix Epoch'tan (1 Ocak 1970) bu yana geçen milisaniye sayısına. Başlangıç zaman damgasını bitiş zaman damgasından çıkararak, araç milisaniye cinsinden tam zaman farkını belirler. Ardından bu devasa sayıyı 86.400.000'e (standart 24 saatlik bir gündeki tam milisaniye sayısı) bölerek ham gün sayısına ulaşır. Bu matematiksel yaklaşım, artık yıllar ve düzensiz ay uzunlukları gibi anomalilerin doğal ve kusursuz bir şekilde hesaba katılmasını sağlar. Araç ayrıca, nihai sonuca sadece 1 ekleyen ve hesaplamayı katı bir matematiksel farktan kapsayıcı bir süre sayımına kaydıran 'Bitiş tarihini dahil et' düğmesini içerir.",
+  "workedExample": "4 Temmuz 2023 ile 25 Aralık 2023 arasındaki gün sayısını hesaplamanız gereken bir senaryo düşünün. Manuel olarak saysaydınız, Temmuz'da kalan 27 günü, Ağustos'ta 31, Eylül'de 30, Ekim'de 31, Kasım'da 30 ve Aralık'ta 25 günü eklemeniz gerekirdi. Hesaplayıcımız bu işlemi anında gerçekleştirir. 25 Aralık için zaman damgasını bulur ve 4 Temmuz için zaman damgasını çıkarır. Ham fark tam olarak 174 gündür. 4 Temmuz'da başlayıp 25 Aralık'ta biten günlük bir kiralamayı (her iki gün de dahil) hesaplıyorsanız, 'Bitiş tarihini dahil et' seçeneğini işaretlersiniz ve hesaplayıcı toplamı anında 175 güne ayarlar.",
+  "resultInterpretation": "Sonucu yorumlamak basittir ancak hesaplamanızın bağlamını anlamak önemlidir. Standart sonuç, iki tarih arasında geçen gece yarısı sayısını (özünde katı matematiksel farkı) temsil eder. Yaş, geçen süre veya standart son teslim tarihlerini hesaplamak için doğru ölçüm budur. Ancak ardışık bir günlük seriyi (diyet veya dil öğrenme gibi) izliyorsanız veya iki tarihi kapsayan her günde verilen hizmetler için fatura kesiyorsanız kapsayıcı sayıma ihtiyacınız vardır. Kapsayıcı sayım, hem başlangıç hem de bitiş günlerinin toplama tam olarak dahil edilmesini sağlamak için matematiksel farka bir gün ekler.",
   "useCases": [
-    "Vize takibi",
-    "Gebelik dönemleri",
-    "Hareket halindeyken ilk randevuyu hızlı bir şekilde işleyin"
+    "İş Planlaması: Bir proje için kullanılabilecek iş günü sayısını saymak.",
+    "İzin Hesaplaması: Bir tatilin kaç iş günü tüketeceğini hesaplamak.",
+    "Etkinlik Planlaması: Bir son teslim tarihine veya tatile kalan günleri saymak."
   ],
   "tipsAndLimitations": [
-    "Saat dilimlerini hariç tutar.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "İş günleri sayısı standart bir Pazartesi-Cuma çalışma haftasını varsayar.",
+    "Resmi tatiller, ülkeye göre değiştiği için iş günleri sayısından çıkarılmaz.",
+    "Otel rezervasyonları için 'Bitiş tarihini dahil et' seçeneğini kullanın."
   ],
   "faq": [
     {
-      "question": "Tarihler Arasındaki Günlerin kullanımı ücretsiz midir?",
-      "answer": "Evet, Tarihler Arasındaki Günlerimizin kullanımı tamamen ücretsizdir."
+      "question": "Resmi tatilleri iş günü olarak sayar mı?",
+      "answer": "Evet, resmi tatiller Pazartesi ile Cuma arasına denk geliyorsa iş günü olarak sayılır. Yerel tatillerinizi manuel olarak çıkarmalısınız."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "'Bitiş tarihini dahil et' ne anlama geliyor?",
+      "answer": "Bir etkinlik ayın 1'inde başlayıp 2'sinde bitiyorsa fark 1 gündür. Ancak her iki gün de çalışıyorsanız 2 gün çalıştınız. Onay kutusu bu günü ekler."
     }
   ],
   "relatedTools": [
-    "yaş hesaplayıcı",
-    "tarih farkı-hesaplayıcı",
-    "hesap makinesine kalan gün sayısı"
+    "date-difference-calculator",
+    "days-until-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Tarihler Arasındaki Günler",
-  "ogImageText": "Tarihler Arasındaki Günler"
+  "cta": "Tarihleriniz arasındaki günleri anında hesaplayın!",
+  "disclaimer": "Bu araç genel bilgilendirme amaçlıdır. Kesin yasal veya mali son tarihler için manuel olarak doğrulayın.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Tarihler Arasındaki Günler hesaplayıcısının ekran görüntüsü",
+  "ogImageText": "Tarihler Arasındaki Günler Hesaplayıcı"
 }

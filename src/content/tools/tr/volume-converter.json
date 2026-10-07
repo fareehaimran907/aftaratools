@@ -1,55 +1,88 @@
 {
-  "seoTitle": "Hacim Dönüştürücü",
-  "metaDescription": "Litreleri, galonları, bardakları ve daha fazlasını dönüştürün.",
-  "h1": "Hacim Dönüştürücü",
-  "primaryKeyword": "hacim dönüştürücü",
+  "seoTitle": "Hacim Çevirici – Litre, Galon, Fincan ve Ons Çevirin",
+  "metaDescription": "Ücretsiz çevrimiçi hacim çevirici. Sıvı ve kuru kapasite ölçümlerini litre, ABD/İngiltere galonu, fincan, sıvı ons, mililitre ve metreküp arasında kolayca çevirin.",
+  "h1": "Hacim Çevirici",
+  "primaryKeyword": "hacim çevirici",
   "secondaryKeywords": [
-    "hacim dönüştürücü çevrimiçi",
-    "serbest hacim dönüştürücü",
-    "en iyi ses dönüştürücü"
+    "galonu litreye çevirme",
+    "litreyi galona çevirme",
+    "su bardağını mililitreye çevirme",
+    "mililitreyi onsa çevirme",
+    "sıvı hacim hesaplama",
+    "pinti kuarta çevirme",
+    "metreküp litre çevirici"
   ],
-  "slug": "hacim dönüştürücü",
-  "intro": "Sıvı ve katı hacimleri sistemler arasında kolayca dönüştürün.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "hacim-cevirici",
+  "intro": "Bir tarifi mi büyütüyorsunuz, yakıt kapasitesini mi hesaplıyorsunuz veya uluslararası nakliye ölçümleriyle mi ilgileniyorsunuz? Ücretsiz hacim çeviricimiz, sıvı ve kuru ölçümleri metrik, ABD geleneksel ve Birleşik Krallık emperyal sistemleri arasında gerçek zamanlı olarak sorunsuz bir şekilde çevirerek kapasite hesaplamalarındaki varsayımları ortadan kaldırır. Sadece sayınızı yazın, başlangıç biriminizi seçin ve dönüştürmek istediğiniz birimi seçin — eşdeğer değer, herhangi bir düğmeye tıklamanıza gerek kalmadan ekranınızda anında güncellenir. En güzeli de, bu çeviricinin tamamen web tarayıcınızın içinde yerel olarak çalışmasıdır; bu da ışık hızında performans sağlarken verilerinizi tamamen gizli tutar.",
+  "whatIs": "Hacim çevirici, üç boyutlu uzay ve sıvı kapasitesi ölçümlerini farklı küresel birim sistemleri arasında çevirmek için tasarlanmış uzman bir çevrimiçi hesaplama aracıdır. Hacim hesaplamaları yemek pişirme, kimya, üretim, otomotiv mühendisliği ve uluslararası ticaret için gereklidir. Ancak dünya, kapasiteyi ölçmek için parçalanmış bir sistem kullanır. Çoğu ülke, litre, mililitre ve metreküp kullanan metrik sisteme güvenir. Amerika Birleşik Devletleri; ABD galonu, kuart, pint, fincan (cup) ve sıvı ons (fluid ounce) etrafında oluşturulmuş kendi geleneksel sistemini kullanır. İşleri daha da karmaşık hâle getiren şey, Birleşik Krallık'ın ABD sistemiyle (galon ve pint gibi) isimleri paylaşan ancak farklı gerçek hacimleri temsil eden emperyal sistemi kullanmasıdır. Örneğin, bir ABD galonu yaklaşık 3,785 litreyken, bir Birleşik Krallık galonu 4,546 litredir. Çeviricimiz, arka planda tüm bu karmaşık matematiksel ilişkileri anında hallederek zahmetsiz hacim çevirisi için temiz, çift panelli bir arayüz sağlar ve bu kafa karışıklığını ortadan kaldırır.",
   "howToUse": [
-    "Litrenizi belirlenen giriş alanına girin.",
-    "Galon gibi ikincil parametreleri sağlayın.",
-    "Eşdeğer hacim kapasitesini oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Çevirmek istediğiniz sayısal hacim değerini giriş alanına yazın.",
+    "İlk açılır menüyü kullanarak çevirmek istediğiniz başlangıç birimini seçin (ör. ABD Galonu).",
+    "İkinci açılır menüyü kullanarak çevirmek istediğiniz hedef birimi seçin (ör. Litre).",
+    "Siz yazarken sonuç panelinin anında güncellenmesini izleyin. Basılacak herhangi bir 'Hesapla' düğmesi yoktur.",
+    "Yeni bir çeviri yapmak için sadece sayıyı değiştirin veya seçilen birimleri değiştirin."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Bu çevirici, tüm ölçeklerde mükemmel derecede doğru çeviriler sağlamak için Litre'yi (L) dâhili taban birimi olarak kullanır. Bir hacim girdiğinizde, araç önce başlangıç biriminizi kontrol eder ve litre cinsinden tam karşılığını bulmak için standartlaştırılmış bir çeviri faktörüyle çarpar. Örneğin, 1 ABD Galonu girerseniz, litreyi elde etmek için 3,78541 ile çarpar. 1 Mililitre girerseniz 0,001 ile çarpar. Araç, taban litre değerini elde ettikten sonra, taban değeri hedef birimin çeviri faktörüne bölerek hedef biriminize çevirmek için ikinci bir adım gerçekleştirir. Bu sağlam, iki adımlı normalleştirme süreci, olası her çeviri rotasının (İngiltere Galonundan ABD Sıvı Onsuna gibi) matematiksel olarak kusursuz olmasını garanti eder. Nihai çıktı, hem büyük endüstriyel kapasiteler hem de küçük aşçılık ölçümleri için yüksek hassasiyeti korumak üzere maksimum altı ondalık basamağa yuvarlanmış olarak temiz bir şekilde görüntülenir.",
+  "workedExample": "Standart 5 ABD Galonluk bir kovayı Litreye çevirelim. 1. Adım — ABD galonu değerini taban çeviri faktörüyle (1 ABD Galonu = 3,78541 Litre) çarpın: 5 × 3,78541 = 18,92705. Böylece 5 galonluk bir kova kabaca 18,93 Litre alır. Şimdi bir mutfak örneği deneyelim ve 500 Mililitreyi ABD Fincanına (Cup) çevirelim. Önce mililitreyi dâhili litre tabanına çevirin: 500 × 0,001 = 0,5 Litre. Sonra, ABD Fincanı çeviri faktörüne (1 ABD Fincanı = 0,236588 Litre) bölün: 0,5 / 0,236588 ≈ 2,11337. Yani, 500 ml kabaca 2,11 ABD fincanıdır. Son olarak, 2 Metreküpü Birleşik Krallık Galonuna çevirerek büyük endüstriyel kapasitelere bakalım. Önce metreküpü litreye çevirin: 2 × 1000 = 2000 Litre. Ardından, Birleşik Krallık Galonu faktörüne (4,54609) bölün: 2000 / 4,54609 ≈ 439,938. Bu nedenle 2 metreküp, yaklaşık 440 Birleşik Krallık Galonudur.",
+  "resultInterpretation": "Sonuç paneli, çevrilen hacminizi en fazla altı ondalık basamağa biçimlendirilmiş, okuması kolay, büyük bir yazı tipiyle görüntüler. Bu yüksek hassasiyet seviyesi gereklidir çünkü hacim çevirileri genellikle çok farklı ölçeklerle ilgilenir. Örneğin, metreküpü sıvı onsa çevirmek devasa sayılarla sonuçlanırken, mililitreyi galona çevirmek küçük ondalık sayılarla sonuçlanır. Arayüz bu uç noktaları zarif bir şekilde yönetir. Sonuç paneli, özellikle ABD ve Birleşik Krallık galonu gibi benzer adlara sahip birimlerle uğraşırken herhangi bir karışıklığı önlemek için nihai sayının üzerinde hedef birimi açıkça belirten, dikkat dağıtmayan, temiz bir estetikle tasarlanmıştır. Çıkan sayı son derece büyük veya uzunsa, metin daha küçük mobil ekranlarda görünür kalmasını sağlamak için otomatik olarak alt satıra geçecektir.",
   "useCases": [
-    "Pişirme ölçümleri",
-    "Yakıt kapasitesi",
-    "Hareket halindeyken litreleri hızla işleyin"
+    "Yemek Pişirme ve Fırıncılık: Mililitreyi ABD fincanına (cup), yemek kaşığına veya sıvı onsa çevirerek uluslararası tarifleri ölçeklendirme.",
+    "Otomotiv ve Yakıt: ABD galonunu litreye çevirerek yakıt verimliliğini veya depo kapasitesini hesaplama.",
+    "Kimya ve Bilim: Laboratuvar deneyleri için mililitre, litre ve metreküp arasındaki sıvı ölçümlerini çevirme.",
+    "Havuzlar ve Akvaryumlar: Kübik boyutları galon veya litreye çevirerek su hacmi gereksinimlerini belirleme.",
+    "Bira ve Şarap Yapımı: Büyük partileri ABD galonu, Birleşik Krallık galonu ve litre arasında çevirerek sıvı verimini yönetme.",
+    "Nakliye ve Lojistik: Uluslararası sıvı yük ölçümlerini çevirerek kargo kapasitesini hesaplama."
   ],
   "tipsAndLimitations": [
-    "ABD galonları ve Birleşik Krallık İmparatorluk galonları farklı boyutlardadır.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "ABD ve Birleşik Krallık (Emperyal) ölçümleri arasındaki farkın farkında olun. Birleşik Krallık galonu, ABD galonundan yaklaşık %20 daha büyüktür.",
+    "Bu araç sıvı ve kuru hacim kapasitesine odaklanır. ABD Sıvı Onsunu (hacim), standart Ons (ağırlık/kütle) ile karıştırmayın.",
+    "Sonuçlar altı ondalık basamağa yuvarlanır. Son derece hassas farmasötik veya kimyasal üretim için özel laboratuvar ekipmanları gereklidir.",
+    "1 Metreküp tam olarak 1.000 Litreye eşittir. 1 Litre tam olarak 1.000 Mililitreye eşittir.",
+    "Tüm hesaplamalar JavaScript aracılığıyla tamamen tarayıcınızda yerel olarak gerçekleştirilir. Dış sunuculara hiçbir veri gönderilmez veya buralarda depolanmaz."
   ],
   "faq": [
     {
-      "question": "How many cups in a quart?",
-      "answer": "4 cups make a quart."
+      "question": "Bir ABD galonunda kaç litre vardır?",
+      "answer": "Bir ABD galonunda yaklaşık 3,785 litre vardır."
     },
     {
-      "question": "Is the Volume Converter free to use?",
-      "answer": "Yes, our Volume Converter is completely free and requires no registration."
+      "question": "ABD galonu ile Birleşik Krallık galonu arasındaki fark nedir?",
+      "answer": "Birleşik Krallık (Emperyal) galonu, ABD galonundan daha büyüktür. Birleşik Krallık galonu 4,546 litreye eşitken, bir ABD galonu 3,785 litreye eşittir."
     },
     {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Bir kuartta (quart) kaç fincan (cup) vardır?",
+      "answer": "ABD geleneksel sisteminde, 1 kuartta tam olarak 4 fincan vardır (ve 1 galonda 4 kuart vardır)."
+    },
+    {
+      "question": "Sıvı ons ile ons aynı şey midir?",
+      "answer": "Hayır. Sıvı ons (fl oz) hacmi (bir maddenin ne kadar yer kapladığını) ölçerken, standart ons (oz) ağırlığı veya kütleyi (ne kadar ağır olduğunu) ölçer."
+    },
+    {
+      "question": "Bir ABD fincanında (cup) kaç mililitre vardır?",
+      "answer": "Standart bir ABD fincanında yaklaşık 236,59 mililitre vardır."
+    },
+    {
+      "question": "Bir metreküpte kaç litre vardır?",
+      "answer": "Bir metreküpte tam olarak 1.000 litre vardır."
+    },
+    {
+      "question": "Pinti galona nasıl çevirebilirim?",
+      "answer": "ABD sisteminde bir galonda 8 pint vardır. Bu nedenle, pinti galona çevirmek için pint sayısını 8'e bölmeniz yeterlidir."
+    },
+    {
+      "question": "Bu çevirici cep telefonumda çalışacak mı?",
+      "answer": "Evet. Kullanıcı arayüzü tamamen duyarlıdır ve akıllı telefonlarda, tabletlerde ve masaüstü bilgisayarlarda kusursuz bir şekilde çalışır."
     }
   ],
   "relatedTools": [
-    "uzunluk dönüştürücü",
-    "ağırlık dönüştürücü",
-    "yükseklik dönüştürücü"
+    "length-converter",
+    "area-converter",
+    "weight-converter",
+    "temperature-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Hacim Dönüştürücü",
-  "ogImageText": "Hacim Dönüştürücü"
+  "cta": "Sıvı veya kuru kapasiteleri farklı ölçekler arasında hızlıca çevirmeniz mi gerekiyor? Anında ve doğru bir hacim çevirisi elde etmek için değerinizi yukarıya girin.",
+  "disclaimer": "Bu araç, standart matematiksel formüllere dayalı olarak doğru hacim çevirileri sağlar. Sonuçlar, okunmasını kolaylaştırmak ve pratiklik amacıyla altı ondalık basamağa yuvarlanır. Yemek pişirme, ev projeleri ve genel eğitim için mükemmel şekilde uygun olsa da; son derece uzmanlaşmış kimyasal, farmasötik veya yasal ticari uygulamalar yuvarlanmamış rakamlar ve sertifikalı profesyonel ölçüm araçları gerektirebilir.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Litre, galon, fincan ve sıvı ons seçmek için bir giriş alanı ve açılır menüler içeren hacim çevirici aracı",
+  "ogImageText": "Hacim Çevirici – Litre, Galon, Fincan ve Daha Fazlasını Çevirin"
 }

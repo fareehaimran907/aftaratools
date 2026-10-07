@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Éditeur Markdown en ligne - Aperçu et exportation en direct",
+  "metaDescription": "Éditeur Markdown en ligne gratuit. Écrivez, modifiez et prévisualisez le formatage Markdown en temps réel. Exportez instantanément votre texte formaté au format HTML ou PDF.",
+  "h1": "Éditeur de démarques",
+  "primaryKeyword": "éditeur de démarques",
+  "secondaryKeywords": [
+    "éditeur de démarques en ligne",
+    "aperçu de la démarque en direct",
+    "markdown en html",
+    "visionneuse Markdown"
+  ],
+  "slug": "éditeur-de-démarques",
+  "intro": "Rédigez-vous de la documentation ou un fichier README ? Notre éditeur Markdown en ligne gratuit offre un environnement d'écriture propre avec un aperçu visuel en temps réel et une exportation HTML instantanée.",
+  "whatIs": "L'éditeur Markdown est un utilitaire d'édition de texte à double volet. Il permet aux utilisateurs d'écrire en Markdown — un langage de balisage léger avec une syntaxe de formatage en texte brut — tout en affichant simultanément un aperçu formaté en direct à l'écran.",
+  "howToUse": [
+    "Tapez ou collez votre syntaxe Markdown dans le volet de l'éditeur à gauche.",
+    "Regardez le volet de droite se mettre à jour instantanément avec l'aperçu formaté.",
+    "Utilisez la barre d'outils pour des raccourcis de mise en forme rapides (gras, italique, liens).",
+    "Cliquez sur 'Copier le HTML' ou 'Télécharger' pour enregistrer votre travail."
+  ],
+  "howItWorks": "L'outil utilise un analyseur JavaScript (comme marked.js) pour surveiller en permanence vos frappes dans la zone de texte de saisie. Il traduit vos symboles Markdown (comme # pour les titres ou ** pour le gras) en balises HTML standard et les injecte dans le panneau de prévisualisation.",
+  "workedExample": "Si vous tapez '# Hello World' puis '**Texte en gras**', le parseur convertit instantanément la première ligne en une balise HTML `<h1>` et la deuxième ligne en une balise `<strong>`, affichant immédiatement le texte stylisé dans le panneau de prévisualisation.",
+  "resultInterpretation": "L'aperçu montre exactement à quoi ressemblera votre Markdown lorsqu'il sera publié sur des plateformes comme GitHub, Reddit ou un générateur de site statique.",
+  "useCases": [
+    "Développement logiciel : Rédaction de fichiers `README.md` très lisibles pour les dépôts open-source.",
+    "Blogging : Écrire rapidement des brouillons de blog sans distraction, sans utiliser d'éditeurs WYSIWYG complexes.",
+    "Prise de notes : Structurer rapidement les notes de réunion avec des en-têtes, des listes et des blocs de code."
+  ],
+  "tipsAndLimitations": [
+    "Le Markdown standard ne prend pas en charge nativement les mises en page complexes comme les tableaux à plusieurs colonnes ou la coloration du texte. Vous devez utiliser du HTML brut pour ces cas particuliers.",
+    "Notre éditeur prend en charge GitHub Flavored Markdown (GFM), ce qui signifie que vous pouvez créer facilement des tableaux et des listes de tâches."
+  ],
+  "faq": [
+    {
+      "question": "Qu'est-ce que Markdown ?",
+      "answer": "Markdown est une manière simple de formater du texte qui a fière allure sur n'importe quel appareil. Il ne nécessite pas de cliquer sur des boutons ; vous utilisez simplement des symboles standard du clavier (comme des astérisques pour mettre en gras) pour formater votre texte au fur et à mesure que vous tapez."
+    },
+    {
+      "question": "Est-ce que cela enregistre mon travail automatiquement ?",
+      "answer": "L'éditeur conserve votre texte dans le stockage local de votre navigateur afin que vous ne le perdiez pas si vous actualisez accidentellement, mais il ne l'enregistre pas dans une base de données cloud."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "html-encode-decode",
+    "lorem-ipsum-generator"
+  ],
+  "cta": "Commencez à écrire en Markdown maintenant !",
+  "disclaimer": "Les documents sont analysés localement dans votre navigateur. Les textes sensibles ne sont pas téléchargés sur nos serveurs, garantissant que vos brouillons restent entièrement privés.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface de l'éditeur Markdown à écran partagé",
+  "ogImageText": "Éditeur Markdown"
+}

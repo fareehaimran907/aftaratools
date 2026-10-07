@@ -1,0 +1,52 @@
+{
+  "seoTitle": "Yüzde Farkı Hesaplayıcı",
+  "metaDescription": "Ücretsiz çevrimiçi Yüzde Farkı Hesaplayıcı. İkisinden hangisi 'orijinal' değer olarak açıkça belli değilse, iki sayı arasındaki mutlak yüzde farkını hesaplayın.",
+  "h1": "Yüzde Farkı Hesaplayıcı",
+  "primaryKeyword": "yüzde farkı hesaplayıcı",
+  "secondaryKeywords": [
+    "yüzde fark",
+    "iki yüzde arasındaki fark",
+    "mutlak yüzde farkı",
+    "iki sayıyı karşılaştır"
+  ],
+  "slug": "yüzde-farkı-hesaplayıcı",
+  "intro": "İki sayıyı karşılaştırıyor ve aralarındaki farkı bilmek mi istiyorsunuz? Ücretsiz Yüzde Farkı Hesaplayıcımız, herhangi iki değer arasındaki kesin mutlak yüzde farkını size verir.",
+  "whatIs": "Yüzde Farkı Hesaplayıcı, hiçbir değerin belirgin şekilde 'başlangıç noktası' veya 'orijinal' olarak kabul edilmediği durumlarda iki değeri karşılaştırmak için kullanılan bir istatistik aracıdır. Bunların ortalamalarına göre ne kadar tamamen farklı olduklarını ölçer.",
+  "howToUse": [
+    "İlk değeri Değer A'ya girin.",
+    "İkinci değeri Değer B'ye girin.",
+    "Sıralamanın önemi yoktur. Araç, mutlak yüzdelik farkı anında hesaplar."
+  ],
+  "howItWorks": "Araç, iki sayı arasındaki mutlak farkı alır (|A - B|). Daha sonra iki sayının ortalamasını hesaplar ((A + B) / 2). Son olarak, mutlak farkı ortalamaya böler ve 100 ile çarpar.",
+  "workedExample": "40 ve 60'ı karşılaştırmak. Mutlak fark 20'dir. Ortalama 50'dir. (20 / 50) = 0,40. 100 ile çarpın. 40 ile 60 arasındaki yüzde fark %40'tır.",
+  "resultInterpretation": "Sonuç, değişikliğin hangi yönde gerçekleştiğine bakılmaksızın iki sayının birbirinden ne kadar farklı olduğunu söyleyen nötr bir yüzdedir.",
+  "useCases": [
+    "Bilim ve Mühendislik: Deneysel bir test sonucunu teorik bir tahminle karşılaştırmak.",
+    "Kalite Kontrolü: Üretilmiş bir parçanın boyutu ile tasarım planı arasındaki farkı ölçmek.",
+    "Kamuoyu Yoklaması: İki rakip seçim adayı arasındaki farkı ölçmek."
+  ],
+  "tipsAndLimitations": [
+    "Yüzde Fark, Yüzde Değişimden tamamen farklıdır. Bu aracı yalnızca iki bağımsız şeyi karşılaştırırken kullanın, zamanı içinde bir şeyin değişmesini değil.",
+    "Sonuç her zaman pozitif bir sayı olacaktır."
+  ],
+  "faq": [
+    {
+      "question": "Yüzde farkının formülü nedir?",
+      "answer": "Formül: (|Değer A - Değer B| / ((Değer A + Değer B) / 2)) × 100."
+    },
+    {
+      "question": "Neden sıra önemli değil?",
+      "answer": "Formül mutlak farkı (her zaman pozitif bir sayı) kullanıp ortalamaya böldüğünden, önce 40 sonra 60 girmek, önce 60 sonra 40 girmekle tam olarak aynı sonucu verir."
+    }
+  ],
+  "relatedTools": [
+    "percentage-change-calculator",
+    "percentage-calculator",
+    "percentage-increase-calculator"
+  ],
+  "cta": "Şimdi yüzde farkını bulun!",
+  "disclaimer": "Bu araç, mutlak farkın ortalamaya bölünmesi formülünü kesin olarak uygular. Gerçekten Yüzde Değişimi ihtiyacınız olmadığından emin olun.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Yüzde Farkı Hesaplayıcı arayüzü",
+  "ogImageText": "Yüzde Farkı Hesaplayıcı"
+}

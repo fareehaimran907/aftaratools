@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Wortzähler",
-  "metaDescription": "Kostenloser Online-Wortzähler. Zählen Sie Wörter und Zeichen.",
+  "seoTitle": "Wortzähler - Wörter, Zeichen & Sätze zählen",
+  "metaDescription": "Kostenloser Online-Wortzähler. Zählen Sie sofort Wörter, Zeichen, Sätze und Absätze in Ihrem Text. Perfekt für Aufsätze, Tweets und SEO.",
   "h1": "Wortzähler",
   "primaryKeyword": "Wortzähler",
   "secondaryKeywords": [
-    "Wortzähler online",
-    "kostenloser Wortzähler",
-    "bester Wortzähler"
+    "Wörter online zählen",
+    "Zeichenzähler",
+    "Wortzählwerkzeug",
+    "wie viele Wörter"
   ],
-  "slug": "Wortzähler",
-  "intro": "Nutzen Sie unser kostenloses Online-Wortzähler-Tool. Es zählt Wörter und Zeichen basierend auf Ihren Eingaben.",
-  "whatIs": "Der Wortzähler ist ein Online-Dienstprogramm, das Wörter und Zeichen zählt. Es verarbeitet Ihren Textblock und liefert Summen für Wörter, Zeichen und Absätze.",
+  "slug": "wortzaehler",
+  "intro": "Einen Aufsatz mit einer strengen Wortbegrenzung schreiben oder einen Blogbeitrag für SEO optimieren? Unser kostenloser Wortzähler liefert sofort genaue Metriken für Wörter, Zeichen und Sätze.",
+  "whatIs": "Der Wortzähler ist ein Textanalysetool. Er verarbeitet große Textblöcke, um statistische Daten bereitzustellen, einschließlich der Gesamtanzahl der Wörter, der Anzahl der Zeichen (mit und ohne Leerzeichen), der Anzahl der Sätze und der Anzahl der Absätze.",
   "howToUse": [
-    "Geben Sie Ihren Textblock in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie Zählmetriken an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um Summen für Wörter, Zeichen und Absätze zu generieren.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
+    "Fügen Sie Ihren Text in das große Eingabefeld ein oder geben Sie ihn direkt ein.",
+    "Die Metriken oben auf dem Bildschirm werden sich sofort aktualisieren.",
+    "Überprüfen Sie die detaillierte Aufschlüsselung der durchschnittlichen Wortlänge und Lesezeit."
   ],
-  "howItWorks": "Dieses Tool arbeitet in Ihrem Browser, indem es Standardalgorithmen auf Ihren Textblock anwendet. Die Daten werden sofort verarbeitet, um Summen für Wörter, Zeichen und Absätze auszugeben.",
-  "workedExample": "Beispiel: 100 Wörter, 550 Zeichen.",
-  "resultInterpretation": "Das Ergebnis stellt Gesamtsummen für Wörter, Zeichen und Absätze dar. Sie können diese Daten für Ihre spezifischen Berechnungen oder Formatierungsanforderungen verwenden.",
+  "howItWorks": "Das Werkzeug verwendet JavaScript Regular Expressions (Regex), um den Text zu analysieren. Es zählt Wörter, indem es nach Leerzeichen und Interpunktionsgrenzen sucht. Es zählt Sätze, indem es terminale Satzzeichen (Punkte, Ausrufezeichen) gefolgt von Leerzeichen identifiziert.",
+  "workedExample": "Sie tippen: 'Hallo Welt. Wie geht es dir?' Das Tool berechnet: 5 Wörter, 27 Zeichen (mit Leerzeichen), 2 Sätze und eine geschätzte Lesezeit von 2 Sekunden.",
+  "resultInterpretation": "Die Statistiken helfen Ihnen, die Länge Ihres Textes perfekt an spezifische Veröffentlichungsrichtlinien, akademische Anforderungen oder soziale Medienbeschränkungen anzupassen.",
   "useCases": [
-    "Essays schreiben",
-    "Einhaltung der Twitter-Zeichenbeschränkungen",
-    "Schnelle Bearbeitung von Textblöcken unterwegs"
+    "Akademia: Sicherstellen, dass ein College-Aufsatz eine strenge Mindestanforderung von 1.000 Wörtern erfüllt.",
+    "SEO & Marketing: Meta-Beschreibungen unter 160 Zeichen halten und Blogbeiträge über 1.500 Wörter.",
+    "Soziale Medien: Sicherstellen, dass ein Tweet oder eine Instagram-Beschriftung innerhalb der Plattformgrenzen passt."
   ],
   "tipsAndLimitations": [
-    "Getrennte Wörter werden normalerweise als einzelnes Wort gezählt.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten privat bleiben."
+    "Wörter mit Bindestrichen (wie 'state-of-the-art') werden von Standardalgorithmen im Allgemeinen als ein einzelnes Wort gezählt.",
+    "URLs und E-Mail-Adressen werden ebenfalls als einzelne Wörter behandelt."
   ],
   "faq": [
     {
-      "question": "Zählt es Leerzeichen?",
-      "answer": "Es bietet sowohl „Zeichen mit Leerzeichen“ als auch „ohne Leerzeichen“."
+      "question": "Was zählt als ein Zeichen?",
+      "answer": "Ein Zeichen ist jeder einzelne Buchstabe, jede Zahl, jedes Satzzeichen oder Symbol. Ein Leerzeichen ist technisch gesehen ebenfalls ein Zeichen, weshalb wir Zählungen sowohl 'mit Leerzeichen' als auch 'ohne Leerzeichen' angeben."
     },
     {
-      "question": "Ist die Nutzung des Wortzählers kostenlos?",
-      "answer": "Ja, unser Wortzähler ist völlig kostenlos und erfordert keine Registrierung."
-    },
-    {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, das Tool reagiert vollständig und funktioniert auf allen Smartphones und Tablets einwandfrei."
+      "question": "Wie wird die Lesezeit berechnet?",
+      "answer": "Die Lesezeit wird auf der Grundlage der durchschnittlichen Lesegeschwindigkeit eines Erwachsenen von etwa 200 bis 250 Wörtern pro Minute geschätzt."
     }
   ],
   "relatedTools": [
-    "Zeichenzähler",
-    "Internet-Selbstgenerator",
-    "Bionischer Lesekonverter"
+    "character-counter",
+    "text-case-converter",
+    "markdown-editor"
   ],
-  "lastReviewed": "29.09.2026",
-  "imageAlt": "Screenshot der Word Counter-Schnittstelle",
+  "cta": "Zähle deine Wörter sofort!",
+  "disclaimer": "Die Analyse erfolgt vollständig in Ihrem Browser. Wir speichern oder sichern Ihren Text nicht.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Word-Counter-Oberfläche zeigt Textstatistiken",
   "ogImageText": "Wortzähler"
 }

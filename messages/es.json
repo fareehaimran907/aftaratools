@@ -38,15 +38,15 @@
     },
     "percentage-calculator": {
       "title": "Calculadora de Porcentajes",
-      "description": "Calcula porcentajes de forma rápida y precisa.",
+      "description": "Calcula porcentajes rápida y fácilmente.",
       "ui": {
-        "percentageCalculator": "Calculadora de porcentajes",
-        "whatIs": "¿Cuánto es",
-        "of": "de",
+        "calculatePercentage": "Calculadora de Porcentajes",
+        "whatIs": "Cuánto es el",
+        "of": "% de",
         "amount": "Cantidad",
         "calculate": "Calcular",
         "result": "Resultado",
-        "calculatePercentage": "Calcular porcentaje"
+        "enterValuesToCalculatePerc": "Introduce valores para calcular el porcentaje."
       }
     },
     "json-formatter": {
@@ -55,7 +55,19 @@
       "ui": {
         "formatJson": "Formatear JSON",
         "inputJSON": "Entrada J S O N",
-        "reset": "Reiniciar"
+        "reset": "Reiniciar",
+        "format": "Formatear",
+        "minify": "Minificar",
+        "copy": "Copiar",
+        "copied": "¡Copiado!",
+        "clear": "Limpiar",
+        "input": "Entrada JSON",
+        "inputPlaceholder": "Pega tu JSON aquí...",
+        "output": "Salida JSON",
+        "outputPlaceholder": "El JSON formateado aparecerá aquí...",
+        "invalidJson": "JSON Inválido",
+        "syntaxError": "Error de Sintaxis",
+        "jsonToolkit": "Kit JSON"
       }
     },
     "area-converter": {
@@ -100,13 +112,21 @@
       "ui": {
         "bedtimeCalculator": "Calculadora de hora de dormir",
         "whenDoYouNeedToWakeUp": "¿A qué hora necesitas despertarte?",
-        "calculate": "Calcular",
+        "calculate": "Calcular Horas",
         "toWakeUpAt": "Para despertarte a las",
         "youShouldTryToBeAsleepBy": ", deberías intentar estar dormido a las:",
         "6Cycles9h": "6 ciclos (9 h)",
         "5Cycles75h": "5 ciclos (7,5 h)",
         "calculationsIncludeAnAverage15MinutesToFallAsleep": "Los cálculos incluyen un promedio de 15 minutos para conciliar el sueño.",
-        "enterYourWakeUpTimeToCal": "Ingrese su hora de despertarse para calcular la hora de acostarse"
+        "enterYourWakeUpTimeToCal": "Ingrese su hora de despertarse para calcular la hora de acostarse",
+        "title": "Calculadora de Hora de Dormir",
+        "description": "Descubre exactamente a qué hora irte a la cama para despertar renovado.",
+        "iNeedToWakeUpAt": "Necesito despertarme a las",
+        "youShouldGoToBedAt": "Deberías irte a la cama a las",
+        "resultsDescription": "Estos tiempos se basan en ciclos de 90 minutos, incluyendo 15 minutos para quedarse dormido.",
+        "cycles": "ciclos",
+        "hours": "horas",
+        "optimal": "Óptimo"
       }
     },
     "binary-to-decimal": {
@@ -116,7 +136,8 @@
         "binaryToDecimalConverter": "Conversor de binario a decimal",
         "binaryNumber": "Número binario",
         "decimalResult": "Resultado decimal",
-        "eG1010": "p.ej. 1010"
+        "eG1010": "p.ej. 1010",
+        "invalidBinaryNumber": "Número binario no válido"
       }
     },
     "bmi-calculator": {
@@ -183,14 +204,27 @@
       "description": "",
       "ui": {
         "breakevenCalculator": "Calculadora de punto de equilibrio",
-        "fixedCosts": "Costos fijos",
-        "variableCostPerUnit": "Costo variable por unidad",
-        "sellingPricePerUnit": "Precio de venta por unidad",
+        "fixedCosts": "Costes Fijos",
+        "variableCostPerUnit": "Coste Variable por Unidad",
+        "sellingPricePerUnit": "Precio de Venta por Unidad",
         "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "El precio de venta debe ser mayor que el costo variable para alcanzar el punto de equilibrio.",
         "unitsToSell": "Unidades a vender",
         "breakevenRevenue": "Ingresos del punto de equilibrio",
         "costsPricing": "Precios de costos",
-        "breakEvenPoint": "Punto de equilibrio"
+        "breakEvenPoint": "Punto de equilibrio",
+        "title": "Calculadora de Punto de Equilibrio",
+        "description": "Calcula cuántas unidades debes vender para cubrir los costes y no tener pérdidas.",
+        "calculate": "Calcular Punto de Equilibrio",
+        "summary": "Resumen de Punto de Equilibrio",
+        "breakEvenUnits": "Unidades para el Equilibrio",
+        "breakEvenRevenue": "Ingresos de Equilibrio",
+        "contributionMargin": "Margen de Contribución (por unidad)",
+        "neverBreakEvenError": "Tu coste variable es mayor o igual al precio de venta. Nunca alcanzarás el punto de equilibrio.",
+        "units": "unidades",
+        "enterDetails": "Introduce tus costes y precios.",
+        "variableCost": "Coste Variable por Unidad",
+        "sellingPrice": "Precio de Venta por Unidad",
+        "errorImpossible": "El precio de venta debe ser mayor al coste variable para llegar al equilibrio."
       }
     },
     "calorie-calculator": {
@@ -235,7 +269,7 @@
         "principalAmount": "Capital inicial",
         "annualRate": "Tasa anual (%)",
         "timeYears": "Tiempo (años)",
-        "compoundFrequency": "Frecuencia de capitalización",
+        "compoundFrequency": "Frecuencia de Capitalización",
         "daily": "Diaria",
         "monthly": "Mensual",
         "quarterly": "Trimestral",
@@ -244,7 +278,20 @@
         "interestEarned": "Intereses generados",
         "finalBalance": "Saldo final",
         "interestDetails": "Detalles de interés",
-        "growthBreakdown": "Desglose del crecimiento"
+        "growthBreakdown": "Desglose del crecimiento",
+        "title": "Calculadora de Interés Compuesto",
+        "description": "Calcula cómo crecerá tu inversión con el tiempo gracias al interés compuesto y aportaciones periódicas.",
+        "initialInvestment": "Inversión Inicial",
+        "monthlyContribution": "Aportación Mensual",
+        "annualInterestRate": "Tasa de Interés Anual (%)",
+        "yearsToGrow": "Años de Inversión",
+        "semiAnnually": "Semestral",
+        "calculate": "Calcular Crecimiento",
+        "summary": "Resumen de Crecimiento",
+        "futureValue": "Valor Futuro",
+        "totalContributions": "Total Invertido",
+        "totalInterestEarned": "Interés Total",
+        "enterDetails": "Introduce los detalles para ver el crecimiento proyectado."
       }
     },
     "concrete-calculator": {
@@ -280,7 +327,12 @@
         "minutes": "Minutos",
         "start": "Iniciar",
         "pause": "Pausar",
-        "reset": "Restablecer"
+        "reset": "Restablecer",
+        "title": "Temporizador",
+        "description": "Un temporizador online sencillo y fácil de usar. Establece horas, minutos y segundos, y sigue el tiempo visualmente.",
+        "hours": "Horas",
+        "seconds": "Segundos",
+        "timeUp": "¡Tiempo!"
       }
     },
     "css-minifier": {
@@ -301,7 +353,11 @@
         "amount": "Cantidad",
         "from": "De",
         "to": "A",
-        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Nota: Estas tasas son estimaciones estáticas solo para fines demostrativos."
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Nota: Estas tasas son estimaciones estáticas solo para fines demostrativos.",
+        "title": "Conversor de Moneda",
+        "description": "Convierte entre divisas globales con tipos de cambio en vivo.",
+        "convertedAmount": "Cantidad Convertida",
+        "lastUpdated": "Última Actualización"
       }
     },
     "data-storage-converter": {
@@ -319,9 +375,9 @@
       "ui": {
         "dateDifferenceCalculator": "Calculadora de diferencia de fechas",
         "startDate": "Fecha de inicio",
-        "endDate": "Fecha de finalización",
+        "endDate": "Fecha de fin",
         "calculateDifference": "Calcular diferencia",
-        "timeDifference": "Diferencia de tiempo:",
+        "timeDifference": "Diferencia de tiempo",
         "years": "Años",
         "months": "Meses",
         "days": "días",
@@ -330,7 +386,21 @@
         "weeks": "semanas,",
         "copy": "Copiar",
         "reset": "Restablecer",
-        "selectDatesToCalculate": "Seleccione fechas para calcular"
+        "selectDatesToCalculate": "Selecciona ambas fechas para calcular la diferencia.",
+        "dateDifferenceTitle": "Calculadora de Diferencia de Fechas",
+        "dateDifferenceDesc": "Calcula el número exacto de días, semanas, meses y años entre dos fechas.",
+        "includeEndDay": "Incluir fecha de fin (+1 día)",
+        "includeEndDayDesc": "Agrega un día extra al cálculo.",
+        "exactDifference": "Diferencia exacta",
+        "yearsLabel": "Años",
+        "monthsLabel": "Meses",
+        "daysLabel": "Días",
+        "endDateBeforeStart": "Nota: La fecha de fin es anterior a la fecha de inicio.",
+        "totalDays": "Total de días",
+        "inWeeks": "En semanas",
+        "weeksShort": "sems",
+        "daysShort": "d",
+        "approxMonths": "Total de meses"
       }
     },
     "days-between-dates": {
@@ -339,7 +409,7 @@
       "ui": {
         "daysBetweenDates": "Días entre fechas",
         "startDate": "Fecha de inicio",
-        "endDate": "Fecha de finalización",
+        "endDate": "Fecha de fin",
         "includeStartDateInCalculation": "Incluir la fecha de inicio en el cálculo",
         "includeEndDateInCalculation": "Incluir la fecha de finalización en el cálculo",
         "calculateDays": "Calcular días",
@@ -347,7 +417,16 @@
         "days": "Días",
         "copy": "Copiar",
         "reset": "Restablecer",
-        "selectDatesToCalculate": "Seleccione fechas para calcular"
+        "selectDatesToCalculate": "Selecciona ambas fechas para calcular la diferencia.",
+        "title": "Días Entre Fechas",
+        "description": "Calcula el número exacto de días, días laborables y fines de semana entre dos fechas.",
+        "includeEndDay": "Incluir fecha de fin (+1 día)",
+        "includeEndDayDesc": "Agrega un día extra al cálculo.",
+        "totalDays": "Total de días",
+        "daysLabel": "Días",
+        "endDateBeforeStart": "Nota: La fecha de fin es anterior a la fecha de inicio.",
+        "weekdays": "Días laborables (Lun-Vie)",
+        "weekends": "Fines de semana"
       }
     },
     "days-until-calculator": {
@@ -363,7 +442,19 @@
         "days": "días",
         "copy": "Copiar",
         "reset": "Restablecer",
-        "selectAFutureDate": "Seleccione una fecha futura"
+        "selectAFutureDate": "Seleccione una fecha futura",
+        "title": "Calculadora de Días Restantes",
+        "description": "Cuenta regresiva exacta de días, horas, minutos y segundos hasta una fecha futura.",
+        "todayIs": "Hoy es",
+        "targetDate": "Fecha objetivo",
+        "timeUntil": "Tiempo hasta el objetivo",
+        "timeSince": "Tiempo desde el objetivo",
+        "dayLabel": "Días",
+        "dayLabelSingular": "Día",
+        "hoursLabel": "Horas",
+        "minutesLabel": "Minutos",
+        "secondsLabel": "Segundos",
+        "selectTargetDate": "Selecciona una fecha objetivo para ver la cuenta regresiva."
       }
     },
     "decimal-to-binary": {
@@ -373,7 +464,8 @@
         "decimalToBinaryConverter": "Conversor de decimal a binario",
         "decimalNumber": "Número decimal",
         "binaryResult": "Resultado binario",
-        "eG10": "p.ej. 10"
+        "eG10": "p.ej. 10",
+        "invalidDecimalNumber": "Número decimal no válido"
       }
     },
     "decking-calculator": {
@@ -399,15 +491,25 @@
       "description": "",
       "ui": {
         "discountCalculator": "Calculadora de descuentos",
-        "originalPrice": "Precio original",
+        "originalPrice": "Precio Original",
         "discount": "Descuento",
         "type": "Tipo",
         "off": "% de descuento",
         "fixedAmountOff": "Descuento de cantidad fija",
-        "youSave": "Ahorras",
-        "finalPrice": "Precio final",
+        "youSave": "Ahorras:",
+        "finalPrice": "Precio Final",
         "discountDetails": "Detalles del descuento",
-        "priceBreakdown": "Desglose de precios"
+        "priceBreakdown": "Desglose de precios",
+        "title": "Calculadora de Descuentos",
+        "description": "Calcula el precio final de un artículo tras aplicar un descuento y, opcionalmente, impuestos.",
+        "discountPercentage": "Descuento (%)",
+        "taxPercentage": "Impuesto (%)",
+        "optional": "Opcional",
+        "calculate": "Calcular Descuento",
+        "summary": "Resumen de Precios",
+        "discountAmount": "Cantidad Descontada",
+        "taxAmount": "Cantidad de Impuestos",
+        "enterDetails": "Introduce el precio original y el descuento para calcular."
       }
     },
     "emi-calculator": {
@@ -418,11 +520,24 @@
         "loanAmountPrincipal": "Monto del préstamo (capital)",
         "annualRate": "Tasa anual (%)",
         "tenureMonths": "Plazo (meses)",
-        "monthlyEmi": "EMI mensual",
+        "monthlyEmi": "EMI Mensual",
         "totalInterestPayable": "Intereses totales a pagar",
         "totalPaymentPrincipalInterest": "Pago total (capital + intereses)",
         "eMIDetails": "Detalles de EMI",
-        "paymentSummary": "Resumen de pago"
+        "paymentSummary": "Resumen de pago",
+        "title": "Calculadora de EMI",
+        "description": "Calcula tu Cuota Mensual Equivalente (EMI) para préstamos personales, de coche o hipotecas.",
+        "loanAmount": "Importe del Préstamo",
+        "interestRate": "Tipo de Interés (%)",
+        "loanTerm": "Plazo del Préstamo",
+        "years": "Años",
+        "months": "Meses",
+        "calculate": "Calcular EMI",
+        "emiSummary": "Resumen de EMI",
+        "principalAmount": "Capital Principal",
+        "totalInterest": "Interés Total",
+        "totalPayment": "Pago Total (Capital + Intereses)",
+        "enterDetails": "Introduce los detalles del préstamo para ver el resumen."
       }
     },
     "fence-calculator": {
@@ -461,7 +576,9 @@
       "description": "",
       "ui": {
         "fractionCalculator": "Calculadora de fracciones",
-        "decimal": "Decimal:​"
+        "decimal": "Decimal:​",
+        "error": "Error",
+        "divByZero": "Div por cero"
       }
     },
     "gpa-calculator": {
@@ -500,12 +617,12 @@
       "title": "Conversor de Altura",
       "description": "",
       "ui": {
-        "heightConverter": "Conversor de altura",
-        "metricCentimeters": "Métrico (centímetros)",
-        "cm": "centímetro",
-        "imperialFeetInches": "Imperial (pies y pulgadas)",
+        "heightConverter": "Conversor de Altura",
+        "metricCentimeters": "Métrico (Centímetros)",
+        "cm": "cm",
+        "imperialFeetInches": "Imperial (Pies y Pulgadas)",
         "ft": "pies",
-        "in": "pulg."
+        "in": "pulg"
       }
     },
     "hex-to-decimal": {
@@ -515,7 +632,8 @@
         "hexToDecimalConverter": "Conversor de hexadecimal a decimal",
         "hexadecimalNumber": "Número hexadecimal",
         "decimalResult": "Resultado decimal",
-        "eG1AOrFFFFFF": "p.ej. 1A o FFFFFF"
+        "eG1AOrFFFFFF": "p.ej. 1A o FFFFFF",
+        "invalidHexString": "Cadena hexadecimal no válida"
       }
     },
     "hourly-to-salary-calculator": {
@@ -531,7 +649,17 @@
         "monthly": "Mensual",
         "yearlySalary": "Salario anual",
         "hourlyDetails": "Detalles por hora",
-        "salaryBreakdown": "Desglose salarial"
+        "salaryBreakdown": "Desglose del Salario",
+        "title": "Calculadora de Salario por Hora a Anual",
+        "description": "Convierte tu salario por hora a su equivalente diario, semanal, mensual y anual.",
+        "hourlyRate": "Tarifa por Hora",
+        "workSchedule": "Horario de Trabajo",
+        "hoursPerWeek": "Horas por Semana",
+        "daysPerWeek": "Días por Semana",
+        "weeksPerYear": "Semanas por Año",
+        "annualSalary": "Salario Anual",
+        "biWeekly": "Quincenal",
+        "enterDetails": "Ingresa la tarifa por hora para ver el desglose."
       }
     },
     "html-encode-decode": {
@@ -561,15 +689,22 @@
       "description": "",
       "ui": {
         "investmentCalculator": "Calculadora de inversiones",
-        "initialInvestment": "Inversión inicial",
-        "monthlyContribution": "Aporte mensual",
-        "expectedReturn": "Rendimiento esperado (%)",
-        "yearsToGrow": "Años de crecimiento",
+        "initialInvestment": "Inversión Inicial",
+        "monthlyContribution": "Aportación Mensual",
+        "expectedReturn": "Retorno Esperado (%)",
+        "yearsToGrow": "Años de Inversión",
         "totalContributions": "Aportes totales",
         "interestEarned": "Intereses generados",
         "futureValue": "Valor futuro",
         "investmentPlan": "Plan de Inversión",
-        "growthProjection": "Proyección de crecimiento"
+        "growthProjection": "Proyección de crecimiento",
+        "title": "Calculadora de Inversiones",
+        "description": "Calcula cuánto crecerá tu inversión a lo largo del tiempo con interés compuesto.",
+        "result": "Resultado",
+        "totalValue": "Valor Total",
+        "totalInvested": "Total Invertido",
+        "totalInterest": "Interés Total",
+        "enterDetails": "Introduce los detalles de la inversión."
       }
     },
     "js-minifier": {
@@ -598,9 +733,11 @@
       "title": "Conversor de Longitud",
       "description": "",
       "ui": {
-        "lengthConverter": "Conversor de longitud",
+        "lengthConverter": "Conversor de Longitud",
         "from": "De",
-        "to": "A"
+        "to": "A",
+        "title": "Conversor de Longitud",
+        "description": "Convierte entre metros, pies, pulgadas y otras unidades de longitud."
       }
     },
     "loan-calculator": {
@@ -608,14 +745,24 @@
       "description": "",
       "ui": {
         "loanCalculator": "Calculadora de préstamos",
-        "loanAmount": "Monto del préstamo",
-        "interestRate": "Tasa de interés (%)",
+        "loanAmount": "Importe del Préstamo",
+        "interestRate": "Tipo de Interés (Anual)",
         "loanTermYears": "Plazo del préstamo (años)",
-        "monthlyPayment": "Pago mensual",
-        "totalInterest": "Intereses totales",
+        "monthlyPayment": "Pago Mensual",
+        "totalInterest": "Interés Total",
         "totalCostOfLoan": "Costo total del préstamo",
         "loanDetails": "Detalles del préstamo",
-        "paymentBreakdown": "Desglose de pagos"
+        "paymentBreakdown": "Desglose de pagos",
+        "title": "Calculadora de Préstamos",
+        "description": "Calcula los pagos mensuales, el interés total y el coste de tu préstamo.",
+        "loanTerm": "Plazo",
+        "years": "Años",
+        "months": "Meses",
+        "calculate": "Calcular Préstamo",
+        "loanSummary": "Resumen del Préstamo",
+        "totalPrincipal": "Principal Total",
+        "totalPayment": "Pago Total",
+        "enterDetails": "Introduce los detalles del préstamo para ver el resumen."
       }
     },
     "lorem-ipsum-generator": {
@@ -652,11 +799,20 @@
       "description": "",
       "ui": {
         "markupCalculator": "Calculadora de margen",
-        "cost": "Costo",
+        "cost": "Coste (COGS)",
         "markup": "Margen (%)",
         "profit": "Beneficio",
-        "sellingPrice": "Precio de venta",
-        "pricingDetails": "Detalles de precios"
+        "sellingPrice": "Precio de Venta",
+        "pricingDetails": "Detalles de precios",
+        "title": "Calculadora de Recargo (Markup)",
+        "description": "Calcula el precio de venta, la ganancia bruta y el margen basados en el coste y el porcentaje de recargo.",
+        "markupPercentage": "Porcentaje de Recargo (Markup)",
+        "calculate": "Calcular Markup",
+        "summary": "Resumen de Precios",
+        "profitMargin": "Margen de Beneficio",
+        "grossProfit": "Beneficio Bruto",
+        "grossLoss": "Pérdida Bruta",
+        "enterDetails": "Introduce el coste y el recargo."
       }
     },
     "md5generator": {
@@ -675,13 +831,24 @@
       "ui": {
         "monthsBetweenDates": "Meses entre fechas",
         "startDate": "Fecha de inicio",
-        "endDate": "Fecha de finalización",
+        "endDate": "Fecha de fin",
         "calculateMonths": "Calcular meses",
         "months": "Meses",
         "days": "Días",
         "copy": "Copiar",
         "reset": "Restablecer",
-        "selectDatesToCalculate": "Seleccione fechas para calcular"
+        "selectDatesToCalculate": "Selecciona ambas fechas para calcular la diferencia.",
+        "title": "Meses Entre Fechas",
+        "description": "Calcula exactamente cuántos meses completos y días restantes hay entre dos fechas.",
+        "includeEndDay": "Incluir fecha de fin (+1 día)",
+        "includeEndDayDesc": "Agrega un día extra al cálculo.",
+        "totalMonths": "Total de meses",
+        "monthsLabel": "Meses",
+        "fullMonthsLabel": "Meses completos",
+        "extraDaysLabel": "Días extra",
+        "equivalentTo": "Equivale a",
+        "daysLabel": "Días",
+        "endDateBeforeStart": "Nota: La fecha de fin es anterior a la fecha de inicio."
       }
     },
     "mortgage-calculator": {
@@ -690,13 +857,22 @@
       "ui": {
         "mortgageCalculator": "Calculadora de hipotecas",
         "homePrice": "Precio de la vivienda",
-        "downPayment": "Pago inicial",
-        "interestRate": "Tasa de interés (%)",
-        "loanTermYears": "Plazo del préstamo (años)",
+        "downPayment": "Pago Inicial / Entrada",
+        "interestRate": "Tipo de Interés (%)",
+        "loanTermYears": "Plazo del Préstamo (Años)",
         "principalLoanAmount": "Monto principal del préstamo",
-        "monthlyPayment": "Pago mensual",
+        "monthlyPayment": "Cuota Mensual",
         "propertyDetails": "Detalles de la propiedad",
-        "mortgageSummary": "Resumen de hipoteca"
+        "mortgageSummary": "Resumen de la Hipoteca",
+        "title": "Calculadora de Hipotecas",
+        "description": "Calcula fácilmente tus cuotas hipotecarias mensuales y el interés total.",
+        "homeValue": "Valor de la Vivienda",
+        "calculate": "Calcular Hipoteca",
+        "principalAndInterestOnly": "Solo Capital e Intereses",
+        "loanAmount": "Importe del Préstamo",
+        "totalInterest": "Interés Total",
+        "totalCostOfLoan": "Coste Total del Préstamo",
+        "enterDetails": "Introduce los detalles de la hipoteca para ver el resumen."
       }
     },
     "mulch-calculator": {
@@ -796,12 +972,18 @@
       "description": "",
       "ui": {
         "percentageDecreaseCalculator": "Calculadora de disminución porcentual",
-        "initialValue": "Valor inicial",
-        "finalValue": "Valor final",
+        "initialValue": "Valor Inicial",
+        "finalValue": "Valor Final",
         "absoluteChange": "Cambio absoluto",
         "decrease": "Disminución",
         "values": "Valores",
-        "decreaseBreakdown": "Desglose de disminución"
+        "decreaseBreakdown": "Desglose de disminución",
+        "title": "Calculadora de Decremento Porcentual",
+        "description": "Calcula el decremento porcentual desde un valor inicial a un valor final.",
+        "result": "Resultado",
+        "percentageDecrease": "Decremento Porcentual",
+        "absoluteDecrease": "Diferencia Absoluta",
+        "enterDetails": "Ingresa los valores para calcular la reducción."
       }
     },
     "percentage-increase-calculator": {
@@ -809,12 +991,18 @@
       "description": "",
       "ui": {
         "percentageIncreaseCalculator": "Calculadora de aumento porcentual",
-        "initialValue": "Valor inicial",
-        "finalValue": "Valor final",
+        "initialValue": "Valor Inicial",
+        "finalValue": "Valor Final",
         "absoluteChange": "Cambio absoluto",
         "change": "Cambio",
         "values": "Valores",
-        "increaseBreakdown": "Aumentar el desglose"
+        "increaseBreakdown": "Aumentar el desglose",
+        "title": "Calculadora de Incremento Porcentual",
+        "description": "Calcula el incremento porcentual desde un valor inicial a un valor final.",
+        "result": "Resultado",
+        "percentageIncrease": "Incremento Porcentual",
+        "absoluteIncrease": "Diferencia Absoluta",
+        "enterDetails": "Ingresa los valores para calcular el incremento."
       }
     },
     "plant-spacing-calculator": {
@@ -837,8 +1025,14 @@
         "pomodoroTimer": "Temporizador Pomodoro",
         "work25m": "Trabajo (25 min)",
         "break5m": "Descanso (5 min)",
-        "reset": "Restablecer",
-        "start": "Comenzar"
+        "reset": "Reiniciar",
+        "start": "Comenzar",
+        "title": "Temporizador Pomodoro",
+        "description": "Aumenta tu productividad usando la Técnica Pomodoro.",
+        "pomodoro": "Pomodoro",
+        "shortBreak": "Descanso Corto",
+        "longBreak": "Descanso Largo",
+        "completed": "Completado"
       }
     },
     "profit-margin-calculator": {
@@ -848,10 +1042,20 @@
         "profitMarginCalculator": "Calculadora de margen de beneficio",
         "revenueSellingPrice": "Ingresos (precio de venta)",
         "costOfGoodsSold": "Costo de los bienes vendidos",
-        "grossProfit": "Beneficio bruto",
+        "grossProfit": "Beneficio Bruto",
         "margin": "Margen",
         "financialDetails": "Detalles financieros",
-        "profitability": "Rentabilidad"
+        "profitability": "Rentabilidad",
+        "title": "Calculadora de Margen de Beneficio",
+        "description": "Calcula fácilmente tu beneficio bruto, margen de beneficio y recargo.",
+        "cost": "Costo de los Bienes Vendidos (COGS)",
+        "revenue": "Ingresos (Precio de Venta)",
+        "calculate": "Calcular Margen",
+        "summary": "Resumen de Margen",
+        "profitMargin": "Margen de Beneficio",
+        "grossLoss": "Pérdida Bruta",
+        "markup": "Recargo (Markup)",
+        "enterDetails": "Introduce el costo y los ingresos."
       }
     },
     "qr-code-generator": {
@@ -888,8 +1092,8 @@
       "title": "Calculadora de Proporciones",
       "description": "",
       "ui": {
-        "ratioCalculatorAbCd": "Calculadora de proporciones (A:B = C:D)",
-        "enter3ValuesToCalculateThe4thMissingValue": "Introduce 3 valores para calcular el cuarto valor que falta."
+        "ratioCalculatorAbCd": "Calculadora de Proporciones (A:B = C:D)",
+        "enter3ValuesToCalculateThe4thMissingValue": "Ingresa 3 valores para calcular el cuarto valor faltante"
       }
     },
     "roi-calculator": {
@@ -902,7 +1106,23 @@
         "profit": "Beneficio",
         "roi": "retorno de la inversión",
         "investmentDetails": "Detalles de la inversión",
-        "returnOnInvestment": "Retorno de la inversión"
+        "returnOnInvestment": "Retorno de Inversión (ROI)",
+        "title": "Calculadora de ROI",
+        "description": "Calcula el Retorno de Inversión (ROI) para evaluar la rentabilidad de una inversión.",
+        "amountInvested": "Cantidad Invertida (Coste)",
+        "amountReturned": "Cantidad Obtenida (Ingresos)",
+        "investmentTimePeriod": "Período de Inversión",
+        "optional": "Opcional",
+        "years": "Años",
+        "calculate": "Calcular ROI",
+        "summary": "Resumen de ROI",
+        "netProfit": "Beneficio Neto",
+        "netLoss": "Pérdida Neta",
+        "annualizedRoi": "ROI Anualizado",
+        "enterDetails": "Introduce las cantidades de tu inversión.",
+        "investmentAmount": "Cantidad Invertida",
+        "returnAmount": "Cantidad Obtenida",
+        "investmentGain": "Ganancia/Pérdida de la Inversión"
       }
     },
     "roman-numeral-converter": {
@@ -912,7 +1132,11 @@
         "romanNumeralConverter": "Conversor de números romanos",
         "numberRoman": "Número → Romano",
         "romanNumber": "Romano → Número",
-        "result": "Resultado"
+        "result": "Resultado",
+        "rangeError": "El número debe estar entre 1 y 3999",
+        "invalidRoman": "Número romano no válido",
+        "numberInputLabel": "Número (1 - 3999)",
+        "romanNumeralLabel": "Número romano"
       }
     },
     "running-distance-calculator": {
@@ -935,22 +1159,34 @@
       "description": "",
       "ui": {
         "salaryCalculator": "Calculadora de salario",
-        "salaryAmount": "Monto del salario",
+        "salaryAmount": "Cantidad del Salario",
         "per": "Por",
         "hour": "Hora",
         "day": "Día",
         "week": "Semana",
         "month": "Mes",
         "year": "Año",
-        "hoursPerWeek": "Horas por semana",
+        "hoursPerWeek": "Horas por Semana",
         "calculate": "Calcular",
-        "hourly": "Por hora",
+        "hourly": "Por Hora",
         "daily": "Diario",
         "weekly": "Semanal",
         "monthly": "Mensual",
         "yearly": "Anual",
         "incomeDetails": "Detalles de ingresos",
-        "enterYourIncomeDetailsToS": "Ingrese los detalles de sus ingresos para ver el resumen"
+        "enterYourIncomeDetailsToS": "Ingrese los detalles de sus ingresos para ver el resumen",
+        "title": "Calculadora de Salario",
+        "description": "Convierte tu salario a su equivalente por hora, diario, semanal, mensual y anual.",
+        "payFrequency": "Frecuencia de Pago",
+        "biWeekly": "Quincenal",
+        "semiMonthly": "Dos veces al mes",
+        "quarterly": "Trimestral",
+        "annually": "Anual",
+        "workSchedule": "Horario de Trabajo",
+        "daysPerWeek": "Días por Semana",
+        "salaryBreakdown": "Desglose del Salario",
+        "annualSalary": "Salario Anual",
+        "enterDetails": "Ingresa los detalles para ver el desglose."
       }
     },
     "salary-to-hourly-calculator": {
@@ -958,12 +1194,25 @@
       "description": "",
       "ui": {
         "salaryToHourlyCalculator": "Calculadora de salario a tarifa por hora",
-        "annualSalary": "Salario anual",
+        "annualSalary": "Salario Anual",
         "hoursWeek": "Horas / Semana",
         "weeksYear": "Semanas / Año",
         "hourlyWage": "Salario por hora",
         "salaryDetails": "Detalles salariales",
-        "equivalentWage": "Salario equivalente"
+        "equivalentWage": "Salario equivalente",
+        "title": "Calculadora de Salario a Hora",
+        "description": "Convierte tu salario anual a su equivalente por hora, diario, semanal y mensual.",
+        "workSchedule": "Horario de Trabajo",
+        "hoursPerWeek": "Horas por Semana",
+        "daysPerWeek": "Días por Semana",
+        "weeksPerYear": "Semanas por Año",
+        "salaryBreakdown": "Desglose del Salario",
+        "hourlyRate": "Tarifa por Hora",
+        "monthly": "Mensual",
+        "biWeekly": "Quincenal",
+        "weekly": "Semanal",
+        "daily": "Diario",
+        "enterDetails": "Ingresa tu salario anual para ver el desglose."
       }
     },
     "sha1generator": {
@@ -991,7 +1240,7 @@
       "description": "",
       "ui": {
         "simpleInterestCalculator": "Calculadora de interés simple",
-        "principalAmount": "Capital inicial",
+        "principalAmount": "Capital Inicial",
         "annualRate": "Tasa anual (%)",
         "time": "Tiempo",
         "years": "Años",
@@ -1000,7 +1249,18 @@
         "interestEarned": "Intereses generados",
         "finalBalance": "Saldo final",
         "interestDetails": "Detalles de interés",
-        "growthBreakdown": "Desglose del crecimiento"
+        "growthBreakdown": "Desglose del crecimiento",
+        "title": "Calculadora de Interés Simple",
+        "description": "Calcula fácilmente el interés simple en préstamos o ahorros.",
+        "annualInterestRate": "Tipo de Interés Anual (%)",
+        "timePeriod": "Período de Tiempo",
+        "calculate": "Calcular Interés",
+        "summary": "Resumen de Intereses",
+        "totalInterest": "Interés Total",
+        "totalAmount": "Cantidad Total",
+        "principalPlusInterest": "Capital + Intereses",
+        "enterDetails": "Introduce capital, tasa y tiempo.",
+        "interestRate": "Tasa de Interés Anual (%)"
       }
     },
     "sleep-calculator": {
@@ -1008,7 +1268,7 @@
       "description": "",
       "ui": {
         "sleepCalculator": "Calculadora de sueño",
-        "iWantToWakeUpAt": "Quiero despertarme a las:",
+        "iWantToWakeUpAt": "Quiero despertarme a las",
         "calculate": "Calcular",
         "toWakeUpRefreshedAt": "Para despertarte descansado a las",
         "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": ", deberías intentar dormirte a una de estas horas (incluye 15 min para conciliar el sueño):",
@@ -1016,7 +1276,18 @@
         "5Cycles75h": "5 ciclos (7,5 h)",
         "4Cycles6h": "4 ciclos (6 h)",
         "3Cycles45h": "3 ciclos (4,5 h)",
-        "enterWakeTimeToCalculateS": "Ingrese la hora de despertarse para calcular los tiempos de sueño"
+        "enterWakeTimeToCalculateS": "Ingrese la hora de despertarse para calcular los tiempos de sueño",
+        "title": "Calculadora de Sueño",
+        "description": "Calcula los mejores momentos para dormir basados en ciclos de sueño de 90 minutos.",
+        "wakeAt": "Despertar a las",
+        "sleepAt": "Dormir a las",
+        "iWillGoToBedAt": "Me iré a dormir a las",
+        "youShouldGoToBedAt": "Deberías irte a la cama a las",
+        "youShouldWakeUpAt": "Deberías despertarte a las",
+        "resultsDescription": "Estos tiempos se basan en ciclos de 90 minutos, incluyendo 15 minutos para quedarse dormido.",
+        "cycles": "ciclos",
+        "hours": "horas",
+        "optimal": "Óptimo"
       }
     },
     "speed-converter": {
@@ -1087,9 +1358,12 @@
         "start": "Iniciar",
         "pause": "Pausar",
         "lap": "Vuelta",
-        "reset": "Restablecer",
+        "reset": "Reiniciar",
         "laps": "Vueltas",
-        "noLapsRecordedYet": "Aún no se han registrado vueltas"
+        "noLapsRecordedYet": "Aún no se han registrado vueltas",
+        "title": "Cronómetro Online",
+        "description": "Un cronómetro online simple y preciso con tiempos de vuelta.",
+        "clearLaps": "Borrar Vueltas"
       }
     },
     "tax-calculator": {
@@ -1142,12 +1416,22 @@
         "firstTime": "Primera hora",
         "secondTime": "Segunda hora",
         "calculateAbsoluteDifference": "Calcular diferencia absoluta",
-        "difference": "Diferencia:",
+        "difference": "Diferencia de Tiempo",
         "h": "h",
         "m": "min",
         "copy": "Copiar",
         "reset": "Restablecer",
-        "selectTimesToCompare": "Seleccione horarios para comparar"
+        "selectTimesToCompare": "Seleccione horarios para comparar",
+        "title": "Calculadora de Diferencia de Tiempo",
+        "description": "Calcula la diferencia de tiempo exacta entre dos fechas y horas específicas hasta el segundo.",
+        "startDateTime": "Fecha y hora de inicio",
+        "endDateTime": "Fecha y hora de fin",
+        "daysLabel": "Días",
+        "hoursLabel": "Horas",
+        "minutesLabel": "Minutos",
+        "secondsLabel": "Segundos",
+        "reversedNote": "Nota: La hora de fin es anterior a la de inicio. Mostrando diferencia absoluta.",
+        "selectDatesToCalculate": "Selecciona ambas fechas y horas para calcular la diferencia."
       }
     },
     "time-duration-calculator": {
@@ -1156,7 +1440,7 @@
       "ui": {
         "timeDurationCalculator": "Calculadora de duración de tiempo",
         "startTime": "Hora de inicio",
-        "endTime": "Hora de finalización",
+        "endTime": "Hora de fin",
         "endsOnTheNextDayCrossesMidnight": "Termina al día siguiente (pasa la medianoche)",
         "calculateDuration": "Calcular duración",
         "hours": "Horas",
@@ -1164,7 +1448,16 @@
         "totalTimeInMinutes": "Tiempo total en minutos:",
         "copy": "Copiar",
         "reset": "Restablecer",
-        "selectStartAndEndTimes": "Seleccione horas de inicio y finalización"
+        "selectStartAndEndTimes": "Seleccione horas de inicio y finalización",
+        "title": "Calculadora de Duración",
+        "description": "Calcula exactamente cuántas horas y minutos han transcurrido entre dos horas.",
+        "duration": "Duración",
+        "hLabel": "h",
+        "mLabel": "m",
+        "decimalHoursLabel": "Horas decimales",
+        "totalMinutesLabel": "Minutos totales",
+        "crossesMidnightNote": "Nota: La hora de fin es anterior (asume que cruza la medianoche).",
+        "selectTimesToCalculate": "Selecciona ambas horas para calcular la duración."
       }
     },
     "time-zone-converter": {
@@ -1176,7 +1469,18 @@
         "fromTimeZoneRelative": "Desde zona horaria (relativa)",
         "toTimeZone": "A zona horaria",
         "convert": "Convertir",
-        "selectDateAndTimeZonesTo": "Seleccione fecha y zonas horarias para comparar"
+        "selectDateAndTimeZonesTo": "Seleccione fecha y zonas horarias para comparar",
+        "title": "Conversor de Zona Horaria",
+        "description": "Convierte horas entre diferentes zonas horarias con precisión.",
+        "fromZone": "De Zona Horaria",
+        "toZone": "A Zona Horaria",
+        "dateAndTime": "Fecha y Hora",
+        "swap": "Intercambiar",
+        "convertedTime": "Hora Convertida",
+        "hoursAhead": "horas adelantadas",
+        "hoursBehind": "horas atrasadas",
+        "sameTime": "Misma hora",
+        "invalidInput": "Introduce una fecha válida."
       }
     },
     "tip-calculator": {
@@ -1184,16 +1488,31 @@
       "description": "",
       "ui": {
         "tipCalculator": "Calculadora de propinas",
-        "billAmount": "Importe de la cuenta",
+        "billAmount": "Importe de la Cuenta",
         "tip": "Propina %",
-        "numberOfPeople": "Número de personas",
-        "tipAmount": "Importe de la propina",
+        "numberOfPeople": "Número de Personas",
+        "tipAmount": "Propina",
         "person": "/ persona",
         "total": "Total​",
         "totalTip": "Propina total:",
         "totalBill": "Cuenta total:",
         "billDetails": "Detalles de la factura",
-        "totalBreakdown": "Desglose total"
+        "totalBreakdown": "Desglose total",
+        "title": "Calculadora de Propinas",
+        "description": "Calcula tu propina y divide la cuenta fácilmente entre amigos.",
+        "selectTip": "Seleccionar Propina %",
+        "custom": "Personalizado",
+        "totalAmount": "Total a Pagar",
+        "splitBetween": "Dividido entre",
+        "people": "personas",
+        "tipPerPerson": "Propina / Persona",
+        "totalPerPerson": "Total / Persona",
+        "payingFullAmount": "Estás pagando el monto total.",
+        "enterDetails": "Introduce los detalles de la cuenta.",
+        "tipPercentage": "Porcentaje de Propina",
+        "perPerson": "/ persona",
+        "totalTipOverall": "Propina Total (Global)",
+        "totalBillOverall": "Cuenta Total (Global)"
       }
     },
     "unix-timestamp-converter": {
@@ -1206,7 +1525,22 @@
         "dateToTimestamp": "Fecha a marca de tiempo",
         "localDateTime": "Fecha y hora local",
         "eG1700000000": "p.ej. 1700000000",
-        "result": "Resultado"
+        "result": "Resultado",
+        "title": "Conversor de Timestamp Unix",
+        "description": "Convierte marcas de tiempo Unix a fechas legibles por humanos y viceversa.",
+        "currentEpoch": "Tiempo Unix Epoch Actual",
+        "copy": "Copiar",
+        "copied": "¡Copiado!",
+        "tsToDate": "Timestamp a Fecha",
+        "enterTimestamp": "Ingresar Timestamp",
+        "gmtTime": "Hora GMT",
+        "localTime": "Tu Hora Local",
+        "invalidTimestamp": "Ingresa un timestamp válido.",
+        "dateToTs": "Fecha a Timestamp",
+        "enterDate": "Ingresar Fecha y Hora",
+        "secondsLabel": "Timestamp (Segundos)",
+        "msLabel": "Milisegundos",
+        "invalidDate": "Ingresa una fecha válida."
       }
     },
     "url-encode-decode": {
@@ -1255,7 +1589,17 @@
         "5Cycles75h": "5 ciclos (7,5 h)",
         "6Cycles9h": "6 ciclos (9 h)",
         "readyForBed": "Listo para dormir",
-        "clickTheButtonWhenYouReG": "Haz clic en el botón cuando te vayas a dormir."
+        "clickTheButtonWhenYouReG": "Haz clic en el botón cuando te vayas a dormir.",
+        "title": "Calculadora de Hora de Despertar",
+        "description": "Descubre exactamente a qué hora despertar para sentirte renovado, basado en ciclos de sueño de 90 minutos.",
+        "sleepNow": "Me voy a dormir ahora mismo",
+        "sleepAtTime": "O me dormiré a las",
+        "calculate": "Calcular Horas",
+        "youShouldWakeUpAt": "Deberías despertarte a las",
+        "resultsDescription": "Estos tiempos se basan en ciclos de 90 minutos, incluyendo 15 minutos para quedarse dormido.",
+        "cycles": "ciclos",
+        "hours": "horas",
+        "optimal": "Óptimo"
       }
     },
     "water-intake-calculator": {
@@ -1279,22 +1623,35 @@
       "ui": {
         "weeksBetweenDates": "Semanas entre fechas",
         "startDate": "Fecha de inicio",
-        "endDate": "Fecha de finalización",
+        "endDate": "Fecha de fin",
         "calculateWeeks": "Calcular semanas",
         "weeks": "Semanas",
         "days": "Días",
         "copy": "Copiar",
         "reset": "Restablecer",
-        "selectDatesToCalculate": "Seleccione fechas para calcular"
+        "selectDatesToCalculate": "Selecciona ambas fechas para calcular la diferencia.",
+        "title": "Semanas Entre Fechas",
+        "description": "Calcula exactamente cuántas semanas completas y días restantes hay entre dos fechas.",
+        "includeEndDay": "Incluir fecha de fin (+1 día)",
+        "includeEndDayDesc": "Agrega un día extra al cálculo.",
+        "totalWeeks": "Total de semanas",
+        "weeksLabel": "Semanas",
+        "fullWeeksLabel": "Semanas completas",
+        "extraDaysLabel": "Días extra",
+        "equivalentTo": "Equivale a",
+        "daysLabel": "Días",
+        "endDateBeforeStart": "Nota: La fecha de fin es anterior a la fecha de inicio."
       }
     },
     "weight-converter": {
       "title": "Conversor de Peso",
       "description": "",
       "ui": {
-        "weightConverter": "Conversor de peso",
+        "weightConverter": "Conversor de Peso",
         "from": "De",
-        "to": "A"
+        "to": "A",
+        "title": "Conversor de Peso",
+        "description": "Convierte entre kilogramos, libras, onzas, gramos y otras unidades de peso."
       }
     },
     "word-counter": {
@@ -1329,7 +1686,14 @@
       "title": "Conversor de Hora Mundial",
       "description": "",
       "ui": {
-        "worldTimeConverter": "Conversor de hora mundial"
+        "worldTimeConverter": "Conversor de hora mundial",
+        "title": "Conversor de Hora Mundial",
+        "description": "Convierte horas entre diferentes zonas horarias al instante. Compara las horas actuales o elige una fecha específica.",
+        "liveTime": "Hora en Vivo",
+        "customTime": "Hora Personalizada",
+        "addZone": "Añadir Zona",
+        "remove": "Eliminar",
+        "allZonesAdded": "Todas las zonas añadidas"
       }
     },
     "xml-formatter": {
@@ -1358,7 +1722,8 @@
   },
   "Search": {
     "placeholder": "Buscar herramientas...",
-    "noResults": "No se encontraron herramientas para \"{query}\"."
+    "noResults": "No se encontraron herramientas para \"{query}\".",
+    "tryADifferentSearchTermOr": "Prueba con un término de búsqueda diferente o explora las categorías a continuación."
   },
   "Home": {
     "metaTitle": "Herramientas Online Gratis y Calculadoras",
@@ -1731,13 +2096,16 @@
   "panels": {},
   "Page": {
     "whatIs": "¿Qué es el {title}?",
-    "howToUse": "Cómo usar la {title}",
+    "howToUse": "Cómo usar el {title}",
     "example": "Ejemplo",
     "useCases": "Casos de uso comunes",
     "howItWorks": "Cómo funciona",
     "faq": "Preguntas frecuentes",
     "readyToStart": "¿Listo para empezar?",
-    "useToolNow": "Utilice la herramienta ahora"
+    "useToolNow": "Usar herramienta ahora",
+    "resultInterpretation": "Entendiendo sus resultados",
+    "tipsAndLimitations": "Consejos y notas de precisión",
+    "disclaimer": "Descargo de responsabilidad"
   },
   "Categories": {
     "developerTools": "Herramientas para desarrolladores",

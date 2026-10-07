@@ -1,84 +1,221 @@
 "use client";
 
-import { useState } from "react";
-import { Input } from "@/components/ui/input";
+import React, { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { ToolLayout, ToolPanel, ToolPanelContent, ToolResultItem } from "@/components/tools/ui";
-import { Banknote, CreditCard } from "lucide-react";
+import { Calculator, Info, Wallet } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 
 export function EmiCalculator() {
   const t = useTranslations("Tools.emi-calculator.ui");
-  const [amount, setAmount] = useState("500000");
-  const [rate, setRate] = useState("8");
-  const [months, setMonths] = useState("60");
-
-  const p = parseFloat(amount) || 0;
-  const r = (parseFloat(rate) || 0) / 100 / 12; // monthly interest
-  const n = parseFloat(months) || 0;
   
-  let emi = 0;
-  if (r === 0) {
-    emi = n > 0 ? p / n : 0;
-  } else if (n > 0) {
-    emi = (p * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
-  }
+  const [loanAmount, setLoanAmount] = useState<string>("1000000");
+  const [interestRate, setInterestRate] = useState<string>("10");
+  const [loanTerm, setLoanTerm] = useState<string>("5");
+  const [termUnit, setTermUnit] = useState<'years' | 'months'>('years');
+  
+  const [results, setResults] = useState<{
+    emi: number;
+    totalInterest: number;
+    totalPayment: number;
+  } | null>(null);
 
-  const totalAmount = emi * n;
-  const totalInterest = Math.max(0, totalAmount - p);
+  const calculateEmi = () => {
+    const P = parseFloat(loanAmount);
+    const annualRate = parseFloat(interestRate);
+    const time = parseFloat(loanTerm);
 
-  const format = (num: number) => num.toLocaleString();
+    if (isNaN(P) || isNaN(annualRate) || isNaN(time) || P <= 0 || time <= 0) {
+      setResults(null);
+      return;
+    }
+
+    const r = (annualRate / 100) / 12; // Monthly interest rate
+    const n = termUnit === 'years' ? time * 12 : time; // Total number of months
+
+    let emiValue;
+    let totalPaid;
+    let totalInt;
+
+    if (r === 0) {
+      emiValue = P / n;
+      totalPaid = P;
+      totalInt = 0;
+    } else {
+      emiValue = (P * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+      totalPaid = emiValue * n;
+      totalInt = totalPaid - P;
+    }
+
+    setResults({
+      emi: emiValue,
+      totalInterest: totalInt,
+      totalPayment: totalPaid,
+    });
+  };
+
+  useEffect(() => {
+    calculateEmi();
+  }, [loanAmount, interestRate, loanTerm, termUnit]);
+
+  // Use a generic number formatter instead of a specific currency, since EMI is global but often used without currency symbols.
+  const formatNumber = (value: number) => {
+    return new Intl.NumberFormat(undefined, {
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 2
+    }).format(value);
+  };
 
   return (
-    <ToolLayout.Split>
-      <ToolPanel className="flex flex-col h-full bg-surface">
-        <div className="flex items-center gap-2 mb-6">
-          <Banknote className="w-5 h-5 text-primary" />
-          <h3 className="font-bold text-foreground">{t("eMIDetails")}</h3>
-        </div>
+    <div className="w-[calc(100%+3rem)] md:w-[calc(100%+5rem)] -m-6 md:-m-10 p-6 md:p-10 bg-indigo-50 dark:bg-transparent text-slate-900 dark:text-slate-100">
+      <div className="w-full max-w-4xl mx-auto space-y-8">
         
-        <ToolPanelContent className="flex-1 space-y-6">
-          <div className="space-y-4">
-            <div className="space-y-2">
-              <label className="text-sm font-medium text-secondary-foreground" htmlFor="amount">{t('loanAmountPrincipal')}</label>
-              <Input id="amount" type="number" min="0" value={amount} onChange={e => setAmount(e.target.value)} className="h-12 text-lg" />
-            </div>
-            
-            <div className="flex gap-4">
-              <div className="space-y-2 flex-1">
-                <label className="text-sm font-medium text-secondary-foreground" htmlFor="rate">{t('annualRate')} (%)</label>
-                <Input id="rate" type="number" min="0" step="0.1" value={rate} onChange={e => setRate(e.target.value)} className="h-12 text-lg" />
-              </div>
-              <div className="space-y-2 flex-1">
-                <label className="text-sm font-medium text-secondary-foreground" htmlFor="months">{t('tenureMonths')}</label>
-                <Input id="months" type="number" min="0" value={months} onChange={e => setMonths(e.target.value)} className="h-12 text-lg" />
-              </div>
-            </div>
+        <div className="flex flex-col items-center text-center space-y-4">
+          <div className="p-4 bg-indigo-100 dark:bg-indigo-900/30 rounded-2xl text-indigo-600 dark:text-indigo-400 mb-2">
+            <Calculator className="w-8 h-8" />
           </div>
-        </ToolPanelContent>
-      </ToolPanel>
-
-      <ToolPanel className="bg-primary/5 border-primary/20 flex flex-col justify-center">
-        <h3 className="text-lg font-bold text-foreground flex items-center gap-2 mb-6">
-          <CreditCard className="w-5 h-5 text-primary" />
-          {t("paymentSummary")}</h3>
-        
-        <div className="space-y-4">
-          <ToolResultItem 
-            label={t('monthlyEmi')}
-            value={format(emi)}
-            highlight={true}
-          />
-          <ToolResultItem 
-            label={t('totalInterestPayable')}
-            value={format(totalInterest)}
-            valueClassName="text-error"
-          />
-          <ToolResultItem 
-            label={t('totalPaymentPrincipalInterest')}
-            value={format(totalAmount)}
-          />
+          <h2 className="text-3xl font-bold tracking-tight">{t("title")}</h2>
+          <p className="text-slate-500 dark:text-slate-400 max-w-2xl">{t("description")}</p>
         </div>
-      </ToolPanel>
-    </ToolLayout.Split>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+          <Card className="bg-white dark:bg-slate-800 p-6 md:p-8 rounded-3xl shadow-xl shadow-slate-200/50 dark:shadow-none border border-slate-200 dark:border-slate-700">
+            <div className="space-y-6">
+              
+              <div>
+                <label className="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">
+                  {t("loanAmount")}
+                </label>
+                <div className="relative">
+                  <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                    <Wallet className="w-5 h-5 text-slate-400" />
+                  </div>
+                  <input
+                    type="number"
+                    value={loanAmount}
+                    onChange={(e) => setLoanAmount(e.target.value)}
+                    className="w-full pl-12 pr-4 py-3 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all"
+                    placeholder="1000000"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">
+                  {t("interestRate")}
+                </label>
+                <div className="relative">
+                  <input
+                    type="number"
+                    value={interestRate}
+                    onChange={(e) => setInterestRate(e.target.value)}
+                    className="w-full pl-4 pr-10 py-3 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all"
+                    placeholder="10"
+                    step="0.1"
+                  />
+                  <div className="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none">
+                    <span className="text-slate-400 font-semibold">%</span>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">
+                  {t("loanTerm")}
+                </label>
+                <div className="flex gap-2">
+                  <input
+                    type="number"
+                    value={loanTerm}
+                    onChange={(e) => setLoanTerm(e.target.value)}
+                    className="flex-1 pl-4 pr-4 py-3 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all"
+                    placeholder="5"
+                  />
+                  <select
+                    value={termUnit}
+                    onChange={(e) => setTermUnit(e.target.value as 'years' | 'months')}
+                    className="w-32 px-4 py-3 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all text-slate-700 dark:text-slate-300"
+                  >
+                    <option value="years">{t("years")}</option>
+                    <option value="months">{t("months")}</option>
+                  </select>
+                </div>
+              </div>
+
+              <Button
+                onClick={calculateEmi}
+                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl py-6 text-lg font-semibold shadow-lg shadow-indigo-600/20"
+              >
+                <Calculator className="w-5 h-5 mr-2" />
+                {t("calculate")}
+              </Button>
+
+            </div>
+          </Card>
+
+          <div className="space-y-6">
+            <Card className="bg-white dark:bg-slate-800 p-6 md:p-8 rounded-3xl shadow-xl shadow-slate-200/50 dark:shadow-none border border-indigo-100 dark:border-indigo-900/30 overflow-hidden relative">
+              
+              <div className="absolute top-0 right-0 p-32 bg-indigo-50 dark:bg-indigo-900/10 rounded-full -mr-16 -mt-16 opacity-50 blur-3xl pointer-events-none"></div>
+
+              <div className="relative z-10">
+                <h3 className="text-xl font-bold text-slate-800 dark:text-slate-100 mb-6">
+                  {t("emiSummary")}
+                </h3>
+                
+                {results ? (
+                  <div className="space-y-6">
+                    <div className="p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-2xl border border-indigo-100 dark:border-indigo-800/50 text-center">
+                      <div className="text-sm font-semibold text-indigo-600 dark:text-indigo-400 mb-1 uppercase tracking-wider">
+                        {t("monthlyEmi")}
+                      </div>
+                      <div className="text-4xl font-black text-indigo-700 dark:text-indigo-300">
+                        {formatNumber(results.emi)}
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="p-5 bg-slate-50 dark:bg-slate-900/50 rounded-2xl border border-slate-100 dark:border-slate-700">
+                        <div className="text-xs font-semibold text-slate-500 dark:text-slate-400 mb-1 uppercase tracking-wider">
+                          {t("principalAmount")}
+                        </div>
+                        <div className="text-xl font-bold text-slate-800 dark:text-slate-200">
+                          {formatNumber(parseFloat(loanAmount) || 0)}
+                        </div>
+                      </div>
+                      
+                      <div className="p-5 bg-orange-50 dark:bg-orange-900/20 rounded-2xl border border-orange-100 dark:border-orange-800/50">
+                        <div className="text-xs font-semibold text-orange-600 dark:text-orange-400 mb-1 uppercase tracking-wider">
+                          {t("totalInterest")}
+                        </div>
+                        <div className="text-xl font-bold text-orange-700 dark:text-orange-300">
+                          {formatNumber(results.totalInterest)}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="p-5 bg-slate-50 dark:bg-slate-900/50 rounded-2xl border border-slate-100 dark:border-slate-700 flex justify-between items-center">
+                      <div className="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+                        {t("totalPayment")}
+                      </div>
+                      <div className="text-xl font-bold text-slate-800 dark:text-slate-200">
+                        {formatNumber(results.totalPayment)}
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="py-12 flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 text-center">
+                    <Info className="w-12 h-12 mb-4 opacity-50" />
+                    <p>{t("enterDetails")}</p>
+                  </div>
+                )}
+              </div>
+            </Card>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
   );
 }

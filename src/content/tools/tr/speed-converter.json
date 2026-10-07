@@ -1,55 +1,88 @@
 {
-  "seoTitle": "Hız Dönüştürücü",
-  "metaDescription": "Km/saat, mph, knot ve m/s'yi dönüştürün.",
-  "h1": "Hız Dönüştürücü",
-  "primaryKeyword": "hız dönüştürücü",
+  "seoTitle": "Hız Çevirici – km/s, mph, Knot ve m/s Çevirin",
+  "metaDescription": "Ücretsiz çevrimiçi hız çevirici. Saatteki kilometre (km/s), saatteki mil (mph), knot ve saniyedeki metre arasındaki hız ölçümlerini anında çevirin.",
+  "h1": "Hız Çevirici",
+  "primaryKeyword": "hız çevirici",
   "secondaryKeywords": [
-    "hız dönüştürücü çevrimiçi",
-    "serbest hız dönüştürücü",
-    "en iyi hız dönüştürücü"
+    "kmh mph cevirme",
+    "mph kmh cevirme",
+    "knot kmh cevirme",
+    "saniyedeki metre kmh cevirme",
+    "hız hesaplama",
+    "knot mph cevir",
+    "saniyedeki fit kmh cevirme"
   ],
-  "slug": "hız dönüştürücü",
-  "intro": "Hızları farklı ölçüm sistemleri arasında anında çevirin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "hiz-cevirici",
+  "intro": "Uluslararası bir yolculuk mu planlıyorsunuz, spor verilerini mi analiz ediyorsunuz veya denizcilik üzerine mi çalışıyorsunuz? Ücretsiz hız çeviricimiz, hız ölçümlerini metrik, emperyal ve denizcilik sistemleri arasında gerçek zamanlı olarak sorunsuz bir şekilde çevirerek hız hesaplamalarındaki varsayımları ortadan kaldırır. Sadece sayınızı yazın, başlangıç biriminizi seçin ve dönüştürmek istediğiniz birimi seçin — eşdeğer değer, herhangi bir düğmeye tıklamanıza gerek kalmadan ekranınızda anında güncellenir. En güzeli de, bu çeviricinin tamamen web tarayıcınızın içinde yerel olarak çalışmasıdır; bu da ışık hızında performans sağlarken verilerinizi tamamen gizli tutar.",
+  "whatIs": "Hız çevirici, hız ölçümlerini (bir nesnenin belirli bir mesafeyi belirli bir sürede ne kadar hızlı kat ettiğini) farklı küresel birim sistemleri arasında çevirmek için tasarlanmış uzman bir çevrimiçi hesaplama aracıdır. Hız hesaplamaları araç kullanma, havacılık, yelken, atletizm ve fizik için gereklidir. Ancak dünya, nesnelerin ne kadar hızlı hareket ettiğini ölçmek için çeşitli sistemler kullanır. Çoğu ülke, araçlar için saatteki kilometreyi (km/s) ve bilimsel amaçlar için saniyedeki metreyi (m/s) kullanan metrik sisteme güvenir. Amerika Birleşik Devletleri ve Birleşik Krallık karayolu hızları için temel olarak saatteki mili (mph) kullanır. Bu arada, havacılık ve denizcilik sektörleri küresel olarak knot'a (saatteki deniz mili) güvenir. Bu birimler farklı mesafe ölçümlerine (mile karşı kilometreye karşı deniz mili) dayandığından, dönüşümleri zihinden yapmak büyük ölçüde hataya açıktır. Çeviricimiz, arka planda tüm bu karmaşık matematiksel ilişkileri anında hallederek zahmetsiz hız çevirisi için temiz, çift panelli bir arayüz sağlar ve bu kafa karışıklığını ortadan kaldırır.",
   "howToUse": [
-    "Belirlenen giriş alanına km/saat'inizi girin.",
-    "Mil/saat gibi ikincil parametreleri sağlayın.",
-    "Eşdeğer hızı oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Çevirmek istediğiniz sayısal hız değerini giriş alanına yazın.",
+    "İlk açılır menüyü kullanarak çevirmek istediğiniz başlangıç birimini seçin (ör. Saatteki mil).",
+    "İkinci açılır menüyü kullanarak çevirmek istediğiniz hedef birimini seçin (ör. Saatteki kilometre).",
+    "Siz yazarken sonuç panelinin anında güncellenmesini izleyin. Basılacak herhangi bir 'Hesapla' düğmesi yoktur.",
+    "Yeni bir çeviri yapmak için sadece sayıyı değiştirin veya seçilen birimleri değiştirin."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Bu çevirici, tüm ölçeklerde mükemmel derecede doğru çeviriler sağlamak için Saniyedeki metreyi (m/s) dâhili taban birimi olarak kullanır. Bir hız girdiğinizde, araç önce başlangıç biriminizi kontrol eder ve standartlaştırılmış bir çeviri faktörü kullanarak m/s'ye çevirir. Örneğin, 1 Saatteki Kilometre (km/s) girerseniz m/s'yi elde etmek için 3,6'ya böler. 1 Saatteki Mil (mph) girerseniz 0,44704 ile çarpar. Araç taban m/s değerini elde ettikten sonra, hedef birimin çeviri faktörünü kullanarak hedef biriminize çevirmek için ikinci bir adım gerçekleştirir. Bu sağlam, iki adımlı normalleştirme süreci, olası her çeviri rotasının (Knot'tan Saniyedeki fite gibi) matematiksel olarak kusursuz olmasını garanti eder. Nihai çıktı, hem yüksek hızlı aerodinamik hem de yavaş yürüyüş hızları için yüksek hassasiyeti korumak üzere maksimum altı ondalık basamağa yuvarlanmış olarak temiz bir şekilde görüntülenir.",
+  "workedExample": "Standart bir ABD otoyolu hız sınırı olan 65 Saatteki mili (mph), Saatteki kilometreye (km/s) çevirelim. 1. Adım — mph'yi saniyedeki metrenin taban birimine çevirin (1 mph = 0,44704 m/s): 65 × 0,44704 = 29,0576 m/s. Ardından, 3,6 ile çarparak m/s'yi km/s'ye çevirin: 29,0576 × 3,6 = 104,60736. Böylece 65 mph yaklaşık olarak 104,6 km/s'dir. Şimdi denizcilikle ilgili bir örneği deneyelim ve 20 Knot'u Saatteki mile çevirelim. Önce knot'u m/s'ye çevirin: 20 / 1,94384 ≈ 10,2889 m/s. Ardından, 0,44704'e bölerek m/s'yi mph'ye çevirin: 10,2889 / 0,44704 ≈ 23,015. Yani 20 knot yaklaşık olarak 23 mph'dir. Son olarak, 10 Saniyedeki metre hızla koşan bir sprinterin hızını mph'ye çevirerek atletizme bakalım. m/s değerini 0,44704'e bölmemiz yeterlidir: 10 / 0,44704 ≈ 22,369. Bu nedenle 10 m/s ile koşan bir sprinter, yaklaşık olarak 22,37 mph hızla hareket etmektedir.",
+  "resultInterpretation": "Sonuç paneli, çevrilen hızınızı en fazla altı ondalık basamağa biçimlendirilmiş, okuması kolay, büyük bir yazı tipiyle görüntüler. Bu yüksek hassasiyet seviyesi gereklidir çünkü hız çevirileri genellikle değişken bilimsel ve pratik gereksinimlerle ilgilenir. Arayüz devasa sayılardan (ışık hızı gibi) küçük ondalık sayılara (salyangoz hızı gibi) kadar her şeyi zarif bir şekilde yönetir. Sonuç paneli, özellikle sınırlar ötesi benzer sayılarla (ör. 100 mph'ye karşı 100 km/s) uğraşırken herhangi bir karışıklığı önlemek için nihai sayının üzerinde hedef birimi açıkça belirten, dikkat dağıtmayan, temiz bir estetikle tasarlanmıştır. Çıkan sayı son derece büyük veya uzunsa, metin daha küçük mobil ekranlarda görünür kalmasını sağlamak için otomatik olarak alt satıra geçecektir.",
   "useCases": [
-    "Yurtdışında sürüş",
-    "Koşu bantlarını çalıştırma",
-    "Hareket halindeyken km/saat'i hızla işleme"
+    "Seyahat ve Sürüş: Uluslararası sınırları geçerken hız sınırlarını saatteki kilometreden (km/s) saatteki mile (mph) çevirme.",
+    "Teknecilik ve Havacılık: Daha kolay anlaşılması için denizcilik veya hava aracı hızlarını knot'tan mph veya km/s'ye çevirme.",
+    "Atletizm ve Spor: Sprint hızlarını saniyedeki metreden mph'ye çevirerek atletizm performansını analiz etme.",
+    "Fizik ve Bilim: Hız verilerini laboratuvar denklemleri için standart SI birimlerine (saniyedeki metre) çevirme.",
+    "Rüzgâr Hızı İzleme: Hava durumu tahminlerini knot veya saniyedeki metreden bilindik yerel birimlere çevirme.",
+    "Sinematografi: Hassas kaydırma çekimleri için kamera teçhizatı hareket hızlarını saniyedeki fit cinsinden hesaplama."
   ],
   "tipsAndLimitations": [
-    "Rüzgar hızı genellikle bunun yerine deniz mili cinsinden ölçülür.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Her zaman yerel trafik işaretlerine dikkat edin. Kanada'daki '100'lük bir hız sınırı 100 mph değil, 100 km/s (62 mph) anlamına gelir.",
+    "1 Knot, saatteki 1 Deniz Miline eşittir. Bir deniz mili, standart bir kara milinden biraz daha uzundur.",
+    "Sonuçlar altı ondalık basamağa yuvarlanır. Yüksek hassasiyetli havacılık veya astrofizik mühendisliği için özel hesaplama araçları gerekir.",
+    "Kuru havada ve 20°C sıcaklıkta sesin hızı saniyede yaklaşık 343 metredir (yaklaşık 1.235 km/s veya 767 mph).",
+    "Tüm hesaplamalar JavaScript aracılığıyla tamamen tarayıcınızda yerel olarak gerçekleştirilir. Dış sunuculara hiçbir veri gönderilmez veya buralarda depolanmaz."
   ],
   "faq": [
     {
-      "question": "How fast is 100 km/h in mph?",
-      "answer": "Roughly 62 miles per hour."
+      "question": "Mph'yi km/s'ye nasıl çevirirsiniz?",
+      "answer": "Saatteki mili saatteki kilometreye çevirmek için mph değerini 1,60934 ile çarparsınız. Hızlı bir zihinsel tahmin için 1,6 ile çarpabilirsiniz."
     },
     {
-      "question": "Is the Speed Converter free to use?",
-      "answer": "Yes, our Speed Converter is completely free and requires no registration."
+      "question": "Hızdaki knot nedir?",
+      "answer": "Knot, saatte bir deniz miline eşit olan bir hız birimidir. Denizcilik ve havacılık bağlamlarında standarttır. Bir knot kabaca 1,85 km/s veya 1,15 mph'ye eşittir."
     },
     {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Saniyedeki metre (m/s) mph'den daha mı hızlı?",
+      "answer": "Evet. Saniyedeki bir metre tam olarak 2,23694 saatteki mile eşittir. Yani m/s cinsinden bir sayı, mph cinsinden aynı sayıdan daha yüksek bir hızı temsil eder."
+    },
+    {
+      "question": "100 km/s mph cinsinden ne kadar hızlıdır?",
+      "answer": "Saatteki 100 kilometre, saatteki yaklaşık 62,14 mile eşittir."
+    },
+    {
+      "question": "Gemiler ve uçaklar neden knot kullanır?",
+      "answer": "Knot, doğrudan Dünya'nın çevresine (bir deniz mili bir dakikalık enleme eşittir) bağlı olan deniz millerine dayanır. Bu, haritalar ve çizelgeler üzerinde gezinmeyi önemli ölçüde kolaylaştırır."
+    },
+    {
+      "question": "Saniyedeki fiti mph'ye nasıl çeviririm?",
+      "answer": "Saniyedeki fiti (ft/s) saatteki mile (mph) çevirmek için ft/s değerini kabaca 0,681818 ile çarparsınız. Alternatif olarak 3600 ile çarpıp 5280'e bölebilirsiniz."
+    },
+    {
+      "question": "Km/s cinsinden Mach 1 nedir?",
+      "answer": "Mach 1, sıcaklık ve hava basıncına göre değişen ses hızıdır. Deniz seviyesinde ve 20°C (68°F) sıcaklıkta, Mach 1 yaklaşık 1.235 km/s'dir (767 mph)."
+    },
+    {
+      "question": "Bu çevirici cep telefonumda çalışacak mı?",
+      "answer": "Evet. Kullanıcı arayüzü tamamen duyarlıdır ve akıllı telefonlarda, tabletlerde ve masaüstü bilgisayarlarda kusursuz bir şekilde çalışır."
     }
   ],
   "relatedTools": [
-    "uzunluk dönüştürücü",
-    "ağırlık dönüştürücü",
-    "yükseklik dönüştürücü"
+    "length-converter",
+    "volume-converter",
+    "weight-converter",
+    "temperature-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Hız Dönüştürücü",
-  "ogImageText": "Hız Dönüştürücü"
+  "cta": "Hız ölçümlerini farklı sistemler arasında hızlıca çevirmeniz mi gerekiyor? Anında, doğru bir çeviri elde etmek için hız değerinizi yukarıya girin.",
+  "disclaimer": "Bu araç, standart matematiksel formüllere dayalı olarak doğru hız çevirileri sağlar. Sonuçlar, okuma kolaylığı ve pratiklik sağlamak amacıyla altı ondalık basamağa yuvarlanmıştır. Araç kullanmak, genel eğitim ve temel denizcilik için tamamen uygun olsa da yüksek derecede uzmanlık gerektiren havacılık, askeri veya hukuki trafik uygulamaları için yuvarlanmamış sayılar ve onaylı profesyonel araçlar gerekebilir.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "mph, km/s, knot ve m/s'yi seçmek için bir giriş alanı ve açılır menüler içeren hız çevirici aracı",
+  "ogImageText": "Hız Çevirici – km/s, mph, Knot ve m/s Çevirin"
 }

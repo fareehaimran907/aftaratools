@@ -1,55 +1,71 @@
 {
-  "seoTitle": "JSON Biçimlendirici",
-  "metaDescription": "Ücretsiz çevrimiçi JSON Formatlayıcı. JSON verilerini biçimlendirin, doğrulayın ve güzelleştirin.",
-  "h1": "JSON Biçimlendirici",
+  "seoTitle": "Ücretsiz Çevrimiçi JSON Biçimlendirici | JSON'u Doğrula ve Güzelleştir",
+  "metaDescription": "Ücretsiz çevrimiçi JSON Biçimlendiricimiz ile JSON verilerinizi kolayca biçimlendirin, doğrulayın ve güzelleştirin. Tarayıcınızda sözdizimi hatalarını düzeltin.",
+  "h1": "Ücretsiz Çevrimiçi JSON Biçimlendirici",
   "primaryKeyword": "json biçimlendirici",
   "secondaryKeywords": [
-    "json biçimlendirici çevrimiçi",
-    "ücretsiz json formatlayıcı",
-    "en iyi json formatlayıcı"
+    "json doğrulayıcı",
+    "json güzelleştir",
+    "json ayrıştırıcı",
+    "json küçültücü",
+    "çevrimiçi json biçimlendir"
   ],
-  "slug": "json biçimlendirici",
-  "intro": "Ücretsiz çevrimiçi JSON Formatlayıcı aracımızı kullanın. Girişlerinize göre JSON dizelerini güzelleştirir.",
-  "whatIs": "JSON Formatlayıcı, JSON dizelerini güzelleştiren çevrimiçi bir yardımcı programdır. Ham JSON dizenizi işler ve düzgün girintili ve sözdizimi vurgulanmış JSON sağlar.",
+  "slug": "json-bicimlendirici",
+  "intro": "Dağınık ve biçimlendirilmemiş JSON verileriyle çalışmak geliştiriciler için baş ağrıtıcı olabilir. Ücretsiz JSON Biçimlendiricimiz, JSON dizelerinizi anında güzelleştirmeyi ve doğrulamayı kolaylaştırır. Bir API yanıtında hata ayıklıyor olun veya yapılandırma dosyaları yazıyor olun, bu araç verilerinizi girintiler ve satır sonlarıyla okunabilir hale getirir.",
+  "whatIs": "Bir JSON Biçimlendirici, ham ve sıkıştırılmış JSON (JavaScript Object Notation) verilerini alıp son derece okunabilir bir formata dönüştürmek için tasarlanmış temel bir geliştirici aracıdır. Makineler bant genişliğinden tasarruf etmek için genellikle JSON'u tek bir sürekli dize olarak verir. Bir JSON biçimlendirici, bu sürekli dizeyi ayrıştırır ve standart girintiler uygulayarak insanların okuyabileceği bir yapı oluşturur.",
   "howToUse": [
-    "Ham JSON dizenizi belirlenen giriş alanına girin.",
-    "Girinti tercihi gibi ikincil parametreleri sağlayın.",
-    "Düzgün girintili ve söz dizimi ile vurgulanmış JSON oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Ham veya küçültülmüş JSON dizenizi sol taraftaki giriş paneline yapıştırın.",
+    "Kodu anında güzelleştirmek için 'Biçimlendir' düğmesine tıklayın.",
+    "JSON'unuzda herhangi bir sözdizimi hatası varsa, araç bunları vurgular.",
+    "JSON'unuzu tek bir satıra sıkıştırmak için 'Küçült' düğmesine tıklayın.",
+    "Biçimlendirildikten sonra sonucu panoya kopyalamak için 'Kopyala' düğmesini kullanın."
   ],
-  "howItWorks": "Bu araç, ham JSON dizenize standart algoritmalar uygulayarak tarayıcınızda çalışır. Düzgün girintili ve sözdizimi vurgulanmış JSON çıktısı almak için verileri anında işler.",
-  "workedExample": "Örneğin: `{\"a\":1}` değerini boşluk içeren çok satırlı bir dizeye dönüştürür.",
-  "resultInterpretation": "Sonuç, düzgün girintili ve söz dizimi ile vurgulanmış JSON'u temsil eder. Bu verileri özel hesaplamalarınız veya biçimlendirme ihtiyaçlarınız için kullanabilirsiniz.",
+  "howItWorks": "Araç tamamen standart JavaScript JSON ayrıştırma API'lerini kullanarak yerel tarayıcınızda çalışır. Biçimlendir'e tıkladığınızda, dizenizi `JSON.parse()` kullanarak ayrıştırmaya çalışır. Başarılı olursa, 2 boşluklu bir girinti parametresiyle nesneyi tekrar bir dizeye dönüştürür. Tüm işlemler istemci tarafında olduğu için verileriniz güvendedir.",
+  "workedExample": "Şöyle bir API yanıtı aldığınızı düşünün: `{\"user\":{\"id\":101,\"name\":\"John\",\"active\":true}}`. Okuması zordur. JSON Biçimlendirici'ye yapıştırdığınızda hiyerarşik bir görünüm elde edersiniz.",
+  "resultInterpretation": "Biçimlendirilmiş çıktı, JSON verilerinizi standart 2 boşluklu girintiyle gösterir. Anahtarlar ve değerler kendi satırlarında ayrılmıştır, bu da eksik virgülleri tespit etmeyi kolaylaştırır.",
   "useCases": [
-    "API yanıtlarında hata ayıklama",
-    "Yapılandırma dosyalarını okuma",
-    "Hareket halindeyken ham JSON dizesini hızla işleme"
+    "API Yanıtlarında Hata Ayıklama: Veri yapısını anlamak için karmaşık JSON yüklerini hızlıca biçimlendirin.",
+    "Yapılandırma Dosyaları: Dosyaların mükemmel şekilde biçimlendirildiğinden emin olun.",
+    "Veri Küçültme: Gecikmeyi azaltmak için ağ üzerinden göndermeden önce JSON yüklerinizi sıkıştırın.",
+    "Sözdizimi Doğrulama: Büyük bir JSON bloğundaki eksik bir tırnağın tam yerini bulun."
   ],
   "tipsAndLimitations": [
-    "Geçersiz JSON sözdizimi hatasına neden olur.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "JSON anahtarları daima çift tırnak içine alınmalıdır. Tek tırnaklar hataya neden olur.",
+    "Bir dizinin veya nesnenin sonundaki sondaki virgüller standart JSON'da geçerli değildir.",
+    "Araç çok büyük dosyaları işleyebilir ancak aşırı devasa dosyalar tarayıcınızı yavaşlatabilir.",
+    "Yorumlar standart JSON'da desteklenmez."
   ],
   "faq": [
     {
-      "question": "Verilerim bir sunucuya mı gönderiliyor?",
-      "answer": "Hayır, tüm biçimlendirme işlemleri yerel tarayıcınızda güvenli bir şekilde gerçekleşir."
+      "question": "JSON verilerim bir sunucuya gönderiliyor mu?",
+      "answer": "Hayır, kesinlikle hayır. Tüm biçimlendirme ve doğrulama yerel olarak tarayıcınızda gerçekleşir."
     },
     {
-      "question": "JSON Formatlayıcının kullanımı ücretsiz mi?",
-      "answer": "Evet, JSON Formatlayıcımız tamamen ücretsizdir ve kayıt gerektirmez."
+      "question": "JSON ile JavaScript nesneleri arasındaki fark nedir?",
+      "answer": "JSON JavaScript nesne sözdiziminden türetilmiş olsa da çok daha katıdır. Tüm anahtarlar çift tırnaklı olmalıdır."
     },
     {
-      "question": "Bu mobil cihazlarda çalışıyor mu?",
-      "answer": "Evet, araç tamamen duyarlıdır ve tüm akıllı telefonlarda ve tabletlerde mükemmel şekilde çalışır."
+      "question": "Geçersiz JSON hatasını nasıl düzeltirim?",
+      "answer": "Eksik çift tırnakları veya sondaki fazladan virgülleri kontrol edin."
+    },
+    {
+      "question": "Bu araç JSON'u küçültebilir mi?",
+      "answer": "Evet! JSON'unuzu yapıştırın ve boşlukları kaldırmak için 'Küçült' düğmesine tıklayın."
+    },
+    {
+      "question": "Yorum içeren JSON destekleniyor mu?",
+      "answer": "Hayır. Standart JSON özelliği yorumları desteklemez."
     }
   ],
   "relatedTools": [
-    "base64-kodlama-kod çözme",
-    "url-kodlama-kod çözme",
-    "html-kodlama-kod çözme"
+    "base64-encode-decode",
+    "url-encode-decode",
+    "html-encode-decode",
+    "character-counter"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "JSON Formatlayıcı arayüzü ekran görüntüsü",
-  "ogImageText": "JSON Biçimlendirici"
+  "cta": "Okunamaz verilerle uğraşmayı bırakın. JSON dizelerinizi anında güzelleştirmek için kodunuzu şimdi JSON Biçimlendiricimize yapıştırın.",
+  "disclaimer": "Bu araç geliştirici kolaylığı için sağlanmıştır. Web tabanlı araçlara hassas üretim verileri yapıştırmamaya her zaman özen gösterin.",
+  "lastReviewed": "2026-10-01",
+  "imageAlt": "JSON Biçimlendirici arayüzü",
+  "ogImageText": "JSON Biçimlendirici ve Doğrulayıcı"
 }

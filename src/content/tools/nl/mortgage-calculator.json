@@ -1,55 +1,65 @@
 {
-  "seoTitle": "Hypotheekcalculator",
-  "metaDescription": "Bereken de maandelijkse hypotheeklasten.",
+  "seoTitle": "Hypotheekcalculator - Bereken Maandelijkse Hypotheeklasten",
+  "metaDescription": "Gratis hypotheekcalculator. Schat uw maandelijkse hypotheeklasten inclusief aflossing en rente op basis van woningwaarde, aanbetaling en rentepercentage.",
   "h1": "Hypotheekcalculator",
-  "primaryKeyword": "hypotheek rekenmachine",
+  "primaryKeyword": "hypotheekcalculator",
   "secondaryKeywords": [
-    "Hypotheekcalculator online",
-    "gratis hypotheekcalculator",
-    "beste hypotheekcalculator"
+    "woonlening calculator",
+    "maandelijkse hypotheek",
+    "huis betaling berekenen",
+    "lineaire hypotheek"
   ],
   "slug": "hypotheek-calculator",
-  "intro": "Bereken uw maandelijkse hypotheeklasten inclusief hoofdsom en rente.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "intro": "Een huis kopen is waarschijnlijk de grootste financiële verplichting van uw leven. Onze gratis Hypotheekcalculator geeft u een duidelijk beeld van wat die verplichting maandelijks inhoudt. Door woningwaarde, aanbetaling, rentepercentage en looptijd in te voeren, ziet u meteen uw geschatte maandlast van aflossing en rente, de totale rente over de looptijd en de totale kosten van uw hypotheek.",
+  "whatIs": "Een hypotheekcalculator is een gespecialiseerd financieel planningtool dat de maandlast van een woninghypotheeek schat. Het gebruikt vier inputs — de aankoopprijs, uw aanbetaling, het jaarlijkse rentepercentage en de looptijd — en past de standaard annuïteitsformule toe om de vaste maandlast te berekenen.",
   "howToUse": [
-    "Voer uw woningprijs in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals aanbetaling.",
-    "Klik op de knop Berekenen of Verzenden om maandelijkse hoofdsom- en rentebetalingen te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Voer de Woningwaarde in — de totale aankoopprijs.",
+    "Voer uw Aanbetaling in — het bedrag dat u contant betaalt bij de overdracht.",
+    "Voer het Jaarlijkse Rentepercentage in van uw hypotheekaanbieding.",
+    "Geef de Looptijd op in jaren (meestal 20 of 30 jaar).",
+    "Klik op 'Hypotheek Berekenen'."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "De calculator trekt de aanbetaling af van de woningwaarde om het hypotheekbedrag te bepalen en past dan de annuïteitsformule toe: M = P[r(1+r)^n] / [(1+r)^n - 1].",
+  "workedExample": "U wilt een woning van € 300.000 kopen met een aanbetaling van € 60.000 (20%). Uw hypotheek is € 240.000. Bij een rente van 4,5% over 30 jaar is de maandlast € 1.216,04. Over 30 jaar betaalt u in totaal € 437.773,86, waarvan € 197.773,86 rente.",
+  "resultInterpretation": "De Maandlast toont alleen aflossing en rente. Uw werkelijke maandelijkse rekening is hoger door belastingen en verzekeringen. Het Hypotheekbedrag is wat u werkelijk leent. Totale Rente zijn de financieringskosten. Totale Kosten bevatten kapitaal en alle rente.",
   "useCases": [
-    "Huizenjacht",
-    "Herfinancieringsanalyse",
-    "Onderweg snel de huizenprijs verwerken"
+    "Woningaankoop: stel een realistisch budget in.",
+    "Oversluiten: vergelijk uw huidige rente met actuele tarieven.",
+    "Aanbetalingsplanning: test verschillende aanbetalingsbedragen.",
+    "Looptijdvergelijking: vergelijk 15 jaar versus 30 jaar."
   ],
   "tipsAndLimitations": [
-    "Onroerendgoedbelasting en VvE-kosten moeten afzonderlijk worden toegevoegd.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "De calculator levert alleen het aflossings- en rentedeel. Uw werkelijke maandlast is hoger door belasting en verzekering.",
+    "Als uw aanbetaling minder dan 20% is, kunnen aanvullende verzekeringen vereist zijn.",
+    "Kortere looptijden hebben hogere maandlasten maar aanzienlijk lagere totale rente."
   ],
   "faq": [
     {
-      "question": "Is de Hypotheekcalculator gratis te gebruiken?",
-      "answer": "Ja, onze Hypotheekcalculator is geheel gratis te gebruiken."
+      "question": "Wat is een aflossingsschema?",
+      "answer": "Een aflossingsschema is een gedetailleerde tabel die elke maandelijkse betaling over de looptijd toont, met de verdeling tussen rente en aflossing."
     },
     {
-      "question": "Werkt dit op mobiel?",
-      "answer": "Ja, het is volledig responsief en werkt op alle apparaten."
+      "question": "Berekent dit mijn exacte maandlast?",
+      "answer": "Het berekent nauwkeurig het aflossings- en rentedeel. Uw werkelijke rekening van de geldverstrekker bevat doorgaans ook belasting en verzekering."
     },
     {
-      "question": "Moet ik iets downloaden?",
-      "answer": "Nee, het werkt volledig in uw browser, zonder enige installatie."
+      "question": "Wat gebeurt er als ik extra aflossingen doe?",
+      "answer": "Extra aflossingen gaan direct naar verlaging van het resterende kapitaal, waardoor de rente daalt en de looptijd aanzienlijk kan worden verkort."
+    },
+    {
+      "question": "Wat is het verschil tussen een vaste en variabele rente?",
+      "answer": "Een hypotheek met vaste rente heeft dezelfde rente en betaling voor de gehele looptijd. Een variabele rente begint lager maar kan periodiek veranderen op basis van marktomstandigheden."
     }
   ],
   "relatedTools": [
-    "percentage-calculator",
-    "salariscalculator",
-    "kortingscalculator"
+    "loan-calculator",
+    "emi-calculator",
+    "compound-interest-calculator",
+    "investment-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Hypotheekcalculator",
+  "cta": "Bereken nu uw geschatte maandlast en plan uw woningaankoop met vertrouwen!",
+  "disclaimer": "Dit hulpmiddel geeft schattingen uitsluitend voor educatieve doeleinden. Werkelijke hypotheekvoorwaarden, rente, belastingen en verzekering variëren. Raadpleeg een erkend hypotheekadviseur voor een definitief besluit.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Hypotheekcalculator met maandlast, hypotheekbedrag, totale rente en totale kosten",
   "ogImageText": "Hypotheekcalculator"
 }

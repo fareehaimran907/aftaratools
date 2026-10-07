@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Barkod Oluşturucu - Çevrimiçi Özel Barkodlar Yarat",
+  "metaDescription": "Ücretsiz çevrimiçi Barkod Oluşturucu. Anında taranabilir 1D barkodlar (Code 128, UPC, EAN) oluşturun. Perakende ve envanter için yüksek kaliteli görselleri indirin.",
+  "h1": "Barkod Oluşturucu",
+  "primaryKeyword": "barkod oluşturucu",
+  "secondaryKeywords": [
+    "çevrimiçi barkod oluştur",
+    "UPC oluşturucu",
+    "kod 128 üretici",
+    "ücretsiz barkod oluşturucu"
+  ],
+  "slug": "barkod-oluşturucu",
+  "intro": "Bir depo yönetiyor veya perakende ürünü mü başlatıyorsunuz? Ücretsiz Barkod Oluşturucumuz, Code 128 ve UPC gibi standart formatlarda yüksek kaliteli, taranabilir 1D barkodları anında oluşturur.",
+  "whatIs": "Barkod Oluşturucu, dijital bir grafik aracıdır. Alfa-nümerik verileri (örneğin bir ürün SKU'su veya seri numarası) alır ve bunları paralel siyah ve beyaz çizgilerden oluşan makine tarafından okunabilir bir desene çevirir.",
+  "howToUse": [
+    "Şifrelemek istediğiniz metni, numarayı veya SKU'yu giriş kutusuna girin.",
+    "İhtiyacınız olan barkod formatını seçin (örneğin, genel envanter için en iyi olan Code 128'dir).",
+    "Araç, barkod görüntüsünü anında oluşturur.",
+    "'İndir'e tıklayarak barkodu bir resim dosyası olarak kaydedin."
+  ],
+  "howItWorks": "Araç, metin karakterlerinizi seçtiğiniz barkod standardı tarafından belirlenen belirli çizgi genişliği desenlerine eşlemek için bir görüntüleme kütüphanesi kullanır. Ardından, bu çizgileri kolay indirme için bir HTML5 Canvas öğesine işler.",
+  "workedExample": "'Code 128'i seçersiniz ve 'SKU-5542'yi girersiniz. Araç, başlangıç karakterlerini, bu harf ve sayılar için özel barkod genişliklerini hesaplar, tarama doğruluğu için bir kontrol basamağı ekler ve görsel barkodu oluşturur.",
+  "resultInterpretation": "Oluşturulan görüntü etiketlere veya ürün ambalajına basılabilir. Herhangi bir standart lazer veya optik barkod tarayıcı, çizgileri okuyabilir ve orijinal metninizi çıktılar olarak verebilir.",
+  "useCases": [
+    "Stok Yönetimi: Bir depodaki kutular için takip etiketleri oluşturmak.",
+    "Perakende Satış: Bir satış noktası (POS) kasasında taranmak üzere fiziksel ürünler için UPC-A veya EAN-13 barkodları oluşturma.",
+    "Kütüphane Sistemleri: Kitaplar veya medya varlıkları için taranabilir kimlik etiketleri oluşturma."
+  ],
+  "tipsAndLimitations": [
+    "Kod 128, hem harfleri hem de değişken uzunluktaki sayıları desteklediği için en çok yönlü formattır.",
+    "Perakende barkodları (UPC-A) tam olarak 11 veya 12 sayısal basamak gerektirir. Bir UPC barkodunda harf kullanmaya çalışırsanız araç bir hata verecektir."
+  ],
+  "faq": [
+    {
+      "question": "Code 128 ile UPC arasındaki fark nedir?",
+      "answer": "Code 128 genel takip için kullanılır ve tüm harfleri ve sayıları destekler. UPC (Evrensel Ürün Kodu) sıkı bir şekilde düzenlenmiştir, sadece sayılardan oluşur ve Kuzey Amerika'daki perakende mağazalarında ürün satışı için gereklidir."
+    },
+    {
+      "question": "Bu barkodlar perakende satış için yasal mı?",
+      "answer": "Oluşturulan barkod resmi matematiksel olarak mükemmel ve taranabilir. Ancak, büyük bir perakende mağazasında bir ürünü satmak için yasal olarak GS1'den kayıtlı bir UPC numarası satın almanız gerekir. Sadece bir numara uyduramazsınız."
+    }
+  ],
+  "relatedTools": [
+    "qr-code-generator",
+    "base64-encode-decode",
+    "random-number-generator"
+  ],
+  "cta": "Özel barkodunuzu şimdi oluşturun!",
+  "disclaimer": "Barkodlar yerel olarak oluşturulur. Kullanıcılar, oluşturulan kodların ticari olarak kullanıldığında GS1 kayıtlı perakende sistemleri ile çakışmamasını sağlamakla sorumludur.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Barkod oluşturucu arayüzü, bir Kod 128 barkodunu gösteriyor",
+  "ogImageText": "Barkod Oluşturucu"
+}

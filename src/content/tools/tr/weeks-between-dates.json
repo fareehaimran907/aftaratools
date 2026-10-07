@@ -1,55 +1,61 @@
 {
-  "seoTitle": "Tarihler Arasındaki Haftalar",
-  "metaDescription": "İki tarih arasındaki hafta sayısını ve kalan gün sayısını hesaplayın.",
-  "h1": "Tarihler Arasındaki Haftalar",
-  "primaryKeyword": "tarihler arasındaki haftalar",
+  "seoTitle": "İki Tarih Arasındaki Haftalar Hesaplayıcı - Tam Haftaları Bulun",
+  "metaDescription": "İki tarih arasında tam olarak kaç hafta olduğunu hesaplayın. Toplam süreyi tam haftalara, kalan günlere ve toplam ondalık haftalara anında dönüştürür.",
+  "h1": "İki Tarih Arasındaki Haftalar Hesaplayıcı",
+  "primaryKeyword": "iki tarih arasındaki haftalar",
   "secondaryKeywords": [
-    "Tarihler Arasındaki Haftalar çevrimiçi",
-    "Tarihler Arasındaki Ücretsiz Haftalar",
-    "Tarihler Arasındaki En İyi Haftalar"
+    "iki tarih arasında kaç hafta var",
+    "hafta hesaplayıcı",
+    "hafta cinsinden zaman",
+    "hafta farkını hesapla"
   ],
-  "slug": "tarihler arasındaki haftalar",
-  "intro": "Herhangi iki tarih arasındaki haftaların ve kalan günlerin tam sayısını hesaplayın.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "tarihler-arasi-hafta",
+  "intro": "Belirli iki tarih arasında tam olarak kaç haftalık bir süre olduğunu bilmeniz mi gerekiyor? Bu hesap makinesi toplam süreyi sizin için anında tam haftalara ve fazladan günlere böler. İster hamileliğin ilerlemesini takip ediyor olun, ister çok haftalık bir proje sprinti planlıyor olun, bir eğitim programının süresini hesaplıyor olun veya haftalık ödeme dönemlerinizi hesaplıyor olun, İki Tarih Arasındaki Haftalar Hesaplayıcı tahmine dayalı çalışmayı ortadan kaldırır ve takvim zamanının kesin, matematiksel bir dökümünü sağlar.",
+  "whatIs": "İki Tarih Arasındaki Haftalar Hesaplayıcı, belirlenmiş bir başlangıç tarihi ile bir bitiş tarihi arasındaki kesin süreyi ölçmek ve sonucu öncelikli olarak hafta cinsinden ifade etmek için özel olarak tasarlanmış etkileşimli bir çevrimiçi araçtır. Takvimde günleri saymak kolay olsa da, değişen ay uzunluklarını ve artık yılları zihinsel olarak kesin hafta sayısına ve kalan günlere dönüştürmek hataya açıktır. Bu araç tüm takvim karmaşıklıklarını sorunsuz bir şekilde ele alarak süreyi tam haftalar, kalan takvim günleri ve profesyonel kullanım için kesin ondalık gösterimle sunar.",
   "howToUse": [
-    "Belirlenen giriş alanına başlangıç ​​tarihinizi girin.",
-    "Bitiş tarihi gibi ikincil parametreleri sağlayın.",
-    "Günleri 7'ye bölerek toplam haftaları oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Adım 1: Etkileşimli takvimi görüntülemek için 'Başlangıç Tarihi' giriş alanına tıklayın ve başlangıç tarihinizi seçin.",
+    "Adım 2: 'Bitiş Tarihi' giriş alanına tıklayın ve zaman diliminiz için sonuç tarihini seçin.",
+    "Adım 3: Hem başlangıç gününü hem de bitiş gününü tam gün olarak saymanız gerekiyorsa, 'Bitiş tarihini dahil et (+1 gün)' seçeneğini işaretleyin.",
+    "Adım 4: Hesap makinesi tarihleri anında işler ve toplam hafta sayısını gösterir.",
+    "Adım 5: Toplam zamanı 'Tam Haftalar' ve 'Ekstra Günler'in yanı sıra toplam ham günlere ayıran ayrıntılı dökümü inceleyin."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, aralarındaki mutlak gün sayısını hesaplamak için seçtiğiniz her iki tarihi de evrensel olarak tanınan zaman damgalarına dönüştürerek çalışır. Aydaki değişen gün sayısını ve artık yılları da dâhil olmak üzere tüm takvim varyasyonlarını hesaba katar. Toplam ham gün sayısına ulaştığında, o sayıyı 7'ye böler. Tam sayı bölümü tam 7 günlük haftaların kesin sayısını gösterirken, matematiksel kalan fazladan kalan günleri temsil eder.",
+  "workedExample": "Diyelim ki 1 Ocak'ta başlayan ve 20 Ocak'ta biten bir projeyi takip ediyorsunuz. Hesap makinesi öncelikle toplam sürenin 19 gün olduğunu belirler. Sonra 19'u 7'ye böler, bu da 5 kalanıyla 2'ye eşittir. Bu nedenle hesap makinesi sürenin 2 Tam Hafta ve 5 Ekstra Gün olduğunu açıkça gösterecektir. Ayrıca İK ve muhasebe departmanları tarafından genellikle ihtiyaç duyulan bir biçim olan yaklaşık 2,71 haftalık ondalık eşdeğerini de sağlayacaktır.",
+  "resultInterpretation": "Ekrandaki birincil, en büyük rakam ondalık hafta cinsinden ifade edilen toplam süreyi (örneğin 2,71 hafta) göstermektedir. Bunun altında, daha küçük, net bir şekilde etiketlenmiş yardımcı kutular bu sayıyı oldukça okunabilir bir forma dönüştürmektedir: Kalan 'Ekstra Günler' ile birlikte tam 'Tam Haftalar' sayımı. Üçüncü bir kutu, tam bir netlik için toplam ham günleri gösterir. Çok formatlı bu yaklaşım, ister günlük hayata dair ister idari olsun her uygulama için doğru rakama sahip olmanızı sağlar.",
   "useCases": [
-    "Hamilelik takibi",
-    "Maraton antrenman planları",
-    "Hareket halindeyken başlangıç ​​tarihini hızlı bir şekilde işleyin"
+    "Hamilelik Takibi: Gebe kalma tarihine veya son adete bağlı olarak hamileliğin tam olarak kaçıncı haftasında olunduğunu kesin bir şekilde hesaplama.",
+    "Proje Yönetimi ve Sprintler: Çok aşamalı bir projenin, çevik sprint döngüsünün veya geliştirme penceresinin tam uzunluğunu ölçme.",
+    "Bordro ve Faturalandırma: Yüklenici faturalandırması veya çalışan ödemesi için belirli bir tarih aralığındaki haftalık ödeme dönemlerinin kesin sayısını belirleme.",
+    "Akademik ve Eğitim Takvimleri: Bir üniversite döneminin, temel eğitimin veya bir fitness eğitim rejiminin uzunluğunu haftalar cinsinden hesaplama."
   ],
   "tipsAndLimitations": [
-    "Kısmi haftalar genellikle ondalık sayı veya kalan olarak ifade edilir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "İpucu: Kapsayıcı tarih sayımı için 'Bitiş tarihini dahil et (+1 gün)' onay kutusu kritik öneme sahiptir. Bitiş tarihiniz tam bir çalışma veya etkinlik gününü temsil ediyorsa bunu kullanın.",
+    "İpucu: Ondalık hafta formatı, toplam haftaları haftalık bir oranla çarpmanız gereken bordro hesaplamaları için son derece yararlıdır.",
+    "Sınırlama: Bu hesap makinesi katı bir şekilde 7 günlük takvim haftalarını sayar. İş günleri ve hafta sonları arasında ayrım yapmaz."
   ],
   "faq": [
     {
-      "question": "Tarihler Arasındaki Haftaların kullanımı ücretsiz midir?",
-      "answer": "Evet, Tarihler Arasındaki Haftaların kullanımı tamamen ücretsizdir."
+      "question": "Bir hafta her zaman 7 gün olarak mı kabul edilir?",
+      "answer": "Evet, bu özel hesap makinesi bağlamında, hafta sonlarının ne zaman olduğuna bakılmaksızın matematiksel olarak ardışık 7 takvim günü olarak katı bir şekilde tanımlanmıştır."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
+      "question": "Bu araç çalışma haftalarını mı yoksa takvim haftalarını mı sayıyor?",
+      "answer": "Toplam takvim haftalarını (7 günlük bloklar) sayar. Sadece Pazartesi'den Cuma'ya kadar olan iş günlerini özellikle saymanız gerekiyorsa bunun yerine özel İş Günleri Hesaplayıcımızı kullanmalısınız."
     },
     {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Başlangıç tarihinden önce bir bitiş tarihi girersem ne olur?",
+      "answer": "Hesap makinesi kullanıcı dostu olacak şekilde tasarlanmıştır; iki tarih arasındaki mutlak matematiksel farkı yine hesaplayacaktır, ancak tarihlerin ters kronolojik sırada olduğunu belirtmek için bir uyarı simgesi görüntüleyebilir."
     }
   ],
   "relatedTools": [
-    "yaş hesaplayıcı",
-    "tarih farkı-hesaplayıcı",
-    "tarihler arasındaki günler"
+    "days-between-dates",
+    "date-difference-calculator",
+    "months-between-dates",
+    "time-duration-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Tarihler Arasındaki Haftalar",
-  "ogImageText": "Tarihler Arasındaki Haftalar"
+  "cta": "Tarihleriniz arasındaki tam hafta sayısını hemen şimdi hesaplayın!",
+  "disclaimer": "Bu araç, kesin gün sınırlarını belirlemek için cihazınızın yerel saat dilimi ayarlarına güvenir. Genel planlama için son derece doğru olsa da, kesin bordro uygulamaları için sonuçları yerel iş yasalarınıza göre doğrulayın.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Tam haftaları, fazladan günleri ve ondalık haftaları gösteren iki tarih arasındaki haftalar hesaplayıcısının ekran görüntüsü",
+  "ogImageText": "İki Tarih Arasındaki Haftalar"
 }

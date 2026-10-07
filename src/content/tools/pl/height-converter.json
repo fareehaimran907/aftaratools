@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Przelicznik wysokości",
-  "metaDescription": "Zamień wysokość ze stóp i cali na cm.",
-  "h1": "Przelicznik wysokości",
-  "primaryKeyword": "konwerter wysokości",
+  "seoTitle": "Kalkulator Wzrostu - cm na stopy i cale",
+  "metaDescription": "Darmowy kalkulator wzrostu. Łatwo przeliczaj centymetry (cm) na stopy i cale. Idealny do formularzy wizowych i aplikacji.",
+  "h1": "Kalkulator Wzrostu",
+  "primaryKeyword": "kalkulator wzrostu",
   "secondaryKeywords": [
-    "Przelicznik wzrostu online",
-    "darmowy konwerter wysokości",
-    "najlepszy konwerter wysokości"
+    "cm na stopy i cale",
+    "stopy i cale na cm",
+    "przelicznik wzrostu"
   ],
-  "slug": "konwerter wysokości",
-  "intro": "Z łatwością konwertuj wzrost człowieka między systemami metrycznymi i imperialnymi.",
-  "whatIs": "Co to jest za narzędzie?",
-  "howToUse": [
-    "Wpisz swoje cm w wyznaczonym polu wejściowym.",
-    "Podaj wszelkie parametry dodatkowe, takie jak stopy i cale.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować prawidłowo sformatowaną wysokość.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
-  ],
-  "howItWorks": "Jak to działa",
-  "workedExample": "Przykłady",
-  "resultInterpretation": "Interpretacja",
-  "useCases": [
-    "Formularze prawa jazdy",
-    "Profile medyczne",
-    "Szybkie przetwarzanie cm w podróży"
-  ],
-  "tipsAndLimitations": [
-    "Stopy i cale nie są zwykłymi liczbami dziesiętnymi (np. 5,5 to nie 5'5\").",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
-  ],
+  "slug": "konwerter-wzrostu",
+  "intro": "Przeliczanie wzrostu może być mylące, bo system imperialny używa dwóch jednostek (stóp i cali). Nasz darmowy kalkulator radzi sobie z tym natychmiast.",
+  "whatIs": "Kalkulator wzrostu jest zaprojektowany specjalnie dla wzrostu człowieka. Formatuje wynik jako stopy I cale (np. 5'10\").",
+  "howToUse": "Z Metrycznego: wpisz wzrost w cm. Z Imperialnego: wpisz stopy w pierwsze pole, cale w drugie.",
+  "howItWorks": "1 cal = 2,54 cm, 1 stopa = 12 cali. Aby przeliczyć cm, dzieli się je przez 30,48 (stopy), a resztę zamienia na cale.",
+  "workedExample": "Twój wzrost to 178 cm. 178 / 2,54 = 70,078 cali. 70 / 12 = 5, reszta 10. Zatem 178 cm to 5 stóp 10 cali (5'10\").",
+  "resultInterpretation": "Wynik jest podany w standardowym formacie. Cale są zwykle zaokrąglane do liczby całkowitej.",
+  "useCases": "Wizy do USA: formularze. Profile online: aplikacje randkowe. Medycyna: BMI w zagranicznych klinikach.",
+  "tipsAndLimitations": "Częsty błąd: 5,5 stopy to NIE jest 5 stóp 5 cali, lecz 5 stóp i 6 cali. Wzrost człowieka waha się o 1-2 cm w ciągu dnia.",
   "faq": [
     {
-      "question": "Czy korzystanie z Konwertera wysokości jest bezpłatne?",
-      "answer": "Tak, nasz konwerter wysokości jest całkowicie darmowy."
+      "question": "Ile to 180 cm w stopach i calach?",
+      "answer": "180 cm to około 5 stóp i 11 cali (5'11\")."
     },
     {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, jest w pełni responsywny i działa na wszystkich urządzeniach."
-    },
-    {
-      "question": "Czy muszę coś pobrać?",
-      "answer": "Nie, działa całkowicie w Twojej przeglądarce, bez żadnej instalacji."
+      "question": "Ile cm to 5'9\"?",
+      "answer": "5 stóp = 60 cali. 60 + 9 = 69 cali. 69 × 2,54 = 175,26 cm."
     }
   ],
   "relatedTools": [
-    "konwerter długości",
-    "przelicznik wagi",
-    "konwerter temperatury"
+    "length-converter",
+    "weight-converter",
+    "bmi-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Przelicznik wysokości",
-  "ogImageText": "Przelicznik wysokości"
+  "cta": "Przelicz swój wzrost natychmiast!",
+  "disclaimer": "Dla wygody. Do celów medycznych używaj sprzętu profesjonalnego.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Kalkulator wzrostu cm na stopy",
+  "ogImageText": "Kalkulator Wzrostu"
 }

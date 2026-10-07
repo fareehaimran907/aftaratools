@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Pemilih Warna - Temukan Kode HEX, RGB & HSL",
+  "metaDescription": "Pemilih Warna online gratis. Pilih warna yang sempurna secara visual dan salin kode HEX, RGB, dan HSL secara instan untuk desain web atau proyek seni grafis Anda.",
+  "h1": "Pemilih Warna",
+  "primaryKeyword": "pemilih warna",
+  "secondaryKeywords": [
+    "pemilih warna HTML",
+    "pencari kode warna",
+    "pemilih warna heksadesimal",
+    "pemilih warna RGB"
+  ],
+  "slug": "pemilih-warna",
+  "intro": "Mencari nuansa biru yang tepat untuk latar belakang situs web Anda? Alat Pemilih Warna online gratis kami memungkinkan Anda memilih warna secara visual dan memberi Anda format kode tepat yang dibutuhkan pengembang dan desainer.",
+  "whatIs": "Pemilih Warna adalah alat desain web visual. Ini menyediakan antarmuka grafis (peta gradasi warna dan slider hue) yang memungkinkan pengguna memilih warna tertentu dan secara otomatis mengeluarkan nilai matematisnya dalam HEX, RGB, dan HSL.",
+  "howToUse": [
+    "Geser penggeser untuk memilih warna dasar Anda (nada).",
+    "Klik dan seret kursor di dalam kotak warna untuk mengatur kecerahan dan kejenuhan.",
+    "Alat ini langsung diperbarui untuk menampilkan warna yang dipilih.",
+    "Salin kode HEX, RGB, atau HSL yang disediakan untuk proyek Anda."
+  ],
+  "howItWorks": "Antarmuka grafis memetakan koordinat X/Y ke nilai Saturasi dan Kecerahan, sementara penggeser memetakan ke Hue 360 derajat. Alat ini menghitung nilai-nilai tersebut menjadi bilangan bulat RGB (Merah, Hijau, Biru) standar dan mengubahnya menjadi string HEX Basis-16.",
+  "workedExample": "Anda menggeser penggeser ke merah murni dan kursor ke sudut kanan atas. Alat tersebut menghitung Merah Maksimum (255), Hijau Nol (0), Biru Nol (0). Alat ini menghasilkan RGB(255, 0, 0) dan kode Hex #FF0000.",
+  "resultInterpretation": "Kode yang diberikan mewakili instruksi digital yang tepat yang dibutuhkan oleh browser web atau perangkat lunak desain (seperti Photoshop) untuk menampilkan warna tepat yang Anda pilih.",
+  "useCases": [
+    "Pengembangan Web: Menemukan kode HEX yang tepat untuk digunakan dalam file CSS untuk latar belakang tombol.",
+    "Desain Grafis: Menciptakan identitas merek dengan memilih dan menyimpan warna primer tertentu.",
+    "Seni Digital: Menemukan nuansa yang sempurna untuk lukisan digital atau elemen UI."
+  ],
+  "tipsAndLimitations": [
+    "Kode HEX selalu dimulai dengan tanda pagar (#) dan terdiri dari 6 karakter alfanumerik.",
+    "Warna mungkin terlihat sedikit berbeda tergantung pada monitor fisik yang Anda gunakan dan kalibrasi warnanya."
+  ],
+  "faq": [
+    {
+      "question": "Apa perbedaan antara HEX dan RGB?",
+      "answer": "Mereka mewakili warna yang persis sama. RGB menggunakan angka basis-10 (0-255) untuk Merah, Hijau, dan Biru. HEX mewakili angka yang persis sama ini menggunakan format heksadesimal basis-16, yang lebih singkat dan lebih disukai dalam CSS."
+    },
+    {
+      "question": "Apa itu HSL?",
+      "answer": "HSL singkatan dari Hue, Saturation, Lightness. Banyak desainer lebih memilihnya daripada RGB karena lebih intuitif—Anda memilih warna dasar (Hue), seberapa cerah warnanya (Saturation), dan seberapa gelap/terangnya warnanya (Lightness)."
+    }
+  ],
+  "relatedTools": [
+    "hex-to-rgb",
+    "rgb-to-hex",
+    "color-palette-generator"
+  ],
+  "cta": "Pilih kode warna sempurna Anda sekarang!",
+  "disclaimer": "Reproduksi warna digital sangat bergantung pada kalibrasi monitor pengguna (sRGB vs Display P3) dan pengaturan kecerahan.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka pemilih warna visual dengan output HEX dan RGB",
+  "ogImageText": "Pemilih Warna"
+}

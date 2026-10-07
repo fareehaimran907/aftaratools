@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Controllo del Contrasto dei Colori - Strumento di Accessibilità WCAG",
+  "metaDescription": "Controllo del Contrasto dei Colori gratuito online. Calcola istantaneamente il rapporto di contrasto tra il tuo testo e i colori di sfondo per garantire la conformità all'accessibilità WCAG.",
+  "h1": "Controllo del Contrasto dei Colori",
+  "primaryKeyword": "verificatore di contrasto dei colori",
+  "secondaryKeywords": [
+    "controllo del contrasto WCAG",
+    "contrasto dei colori per l'accessibilità",
+    "verifica il contrasto dei colori",
+    "calcolatore di leggibilità del testo"
+  ],
+  "slug": "controllo-del-contrasto-dei-colori",
+  "intro": "Assicurati che il tuo sito web sia leggibile da tutti. Il nostro Controllo del Contrasto di Colore gratuito calcola il rapporto esatto tra i colori del tuo testo e dello sfondo, verificando la conformità alle linee guida di accessibilità WCAG.",
+  "whatIs": "Il Controllore del Contrasto di Colore è un'utilità per l'accessibilità web. Valuta matematicamente la luminanza relativa di un colore di primo piano (testo) rispetto a un colore di sfondo per determinare se vi è una differenza visiva sufficiente affinché gli utenti ipovedenti possano leggere comodamente il testo.",
+  "howToUse": [
+    "Inserisci il codice HEX per il colore del tuo testo/prima pagina.",
+    "Inserisci il codice HEX per il colore di sfondo.",
+    "Lo strumento calcola il rapporto di contrasto (ad esempio, 4,5:1).",
+    "Mostra un punteggio di Pass/Fail per gli standard WCAG AA e AAA."
+  ],
+  "howItWorks": "Lo strumento converte entrambi i codici HEX in RGB, applica una formula matematica specifica per calcolare la 'luminanza relativa' di entrambi i colori, e poi divide la luminanza più chiara per quella più scura. Il risultato è un rapporto compreso tra 1:1 (nessun contrasto) e 21:1 (massimo contrasto).",
+  "workedExample": "Testi un testo nero puro (#000000) su uno sfondo bianco puro (#FFFFFF). Lo strumento calcola il massimo rapporto di contrasto possibile di esattamente 21:1, superando facilmente tutti i requisiti di accessibilità AAA.",
+  "resultInterpretation": "Un rapporto più alto significa che il testo è più facile da leggere. Le Linee guida per l'accessibilità dei contenuti Web (WCAG) richiedono un rapporto minimo di 4,5:1 per il testo normale (standard AA) e di 7:1 per un'accessibilità rigorosa (standard AAA).",
+  "useCases": [
+    "Audit di accessibilità web: garantire che un sito web aziendale non violi le leggi sulla conformità ADA riguardanti la leggibilità.",
+    "Design UI/UX: Verificare se un testo segnaposto grigio chiaro all'interno di un campo di input bianco è troppo difficile da leggere.",
+    "Linee guida del marchio: Verificare che i colori del marchio possano essere sovrapposti in sicurezza l'uno sull'altro nelle grafiche di marketing."
+  ],
+  "tipsAndLimitations": [
+    "Il testo grande (oltre 18pt o 14pt in grassetto) è più facile da leggere, quindi le WCAG richiedono solo un rapporto minimo di 3:1 per superare lo standard AA.",
+    "Il daltonismo influisce sulla percezione dei colori, ma il contrasto di luminanza relativa rimane il fattore più importante per la leggibilità."
+  ],
+  "faq": [
+    {
+      "question": "Cosa succede se i miei colori non superano il controllo?",
+      "answer": "Se falliscono, il tuo testo sarà molto difficile da leggere per le persone con problemi di vista o daltonismo. Dovresti scurire il colore del testo o schiarire il colore dello sfondo finché il rapporto non raggiunge almeno 4,5:1."
+    },
+    {
+      "question": "È 21:1 il miglior contrasto?",
+      "answer": "Matematicamente, sì. Tuttavia, testo nero puro su sfondi bianchi puri (21:1) può causare affaticamento visivo o 'alone' per alcuni utenti con dislessia. Il grigio molto scuro (ad esempio, #222222) su bianco sporco è spesso preferito."
+    }
+  ],
+  "relatedTools": [
+    "color-picker",
+    "color-palette-generator",
+    "hex-to-rgb"
+  ],
+  "cta": "Controlla ora l'accessibilità dei tuoi colori!",
+  "disclaimer": "Questo strumento calcola il contrasto basato sull'algoritmo standard WCAG 2.1 per la luminanza relativa.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Controllo del Contrasto dei Colori che mostra un rapporto di 4,5 superato",
+  "ogImageText": "Controllo del Contrasto dei Colori"
+}

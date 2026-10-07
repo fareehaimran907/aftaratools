@@ -8,7 +8,7 @@
     "무료 base64 인코더/디코더",
     "최고의 base64 인코더/디코더"
   ],
-  "slug": "base64-인코드-디코드",
+  "slug": "base64-ingoding-dikoding",
   "intro": "무료 온라인 Base64 인코더/디코더 도구를 사용해 보세요. 입력 내용을 기반으로 텍스트를 Base64 형식으로 변환합니다.",
   "whatIs": "Base64 인코더/디코더는 텍스트를 Base64 형식으로 변환하는 온라인 유틸리티입니다. 일반 텍스트를 처리하고 인코딩되거나 디코딩된 문자열을 제공합니다.",
   "howToUse": [
@@ -45,10 +45,12 @@
     }
   ],
   "relatedTools": [
-    "json 포맷터",
-    "URL 인코딩 디코딩",
-    "HTML-인코드-디코드"
+    "url-encode-decode",
+    "html-encode-decode",
+    "hex-to-decimal"
   ],
+  "cta": "지금 데이터를 인코딩하거나 디코딩하세요!",
+  "disclaimer": "이 도구는 btoa() 및 atob() 함수를 사용하여 브라우저에서 데이터를 로컬로 처리합니다. Base64를 안전한 암호화를 대체하는 수단으로 사용하지 마십시오.",
   "lastReviewed": "2026-09-29",
   "imageAlt": "Base64 인코더/디코더 인터페이스 스크린샷",
   "ogImageText": "Base64 인코더/디코더"

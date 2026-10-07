@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Tile Calculator",
-  "metaDescription": "Free online Tile Calculator. Calculate tiles needed for a floor or wall.",
+  "seoTitle": "Tile Calculator - Floor & Wall Tile Estimator",
+  "metaDescription": "Free online Tile Calculator. Calculate exactly how many tiles and boxes you need for your bathroom floor, kitchen backsplash, or shower walls.",
   "h1": "Tile Calculator",
   "primaryKeyword": "tile calculator",
   "secondaryKeywords": [
-    "tile calculator online",
-    "free tile calculator",
-    "best tile calculator"
+    "how many tiles do I need",
+    "bathroom tile calculator",
+    "floor tile estimator",
+    "backsplash calculator"
   ],
   "slug": "tile-calculator",
-  "intro": "Use our free online Tile Calculator tool. It estimates tiles needed based on your inputs.",
-  "whatIs": "The Tile Calculator is an online utility that estimates tiles needed. It processes your floor area and provides number of tiles and boxes.",
+  "intro": "Redoing a bathroom or kitchen backsplash? Our free Tile Calculator tells you exactly how many individual tiles and boxes you need, ensuring your pattern aligns perfectly without running out of material.",
+  "whatIs": "The Tile Calculator is a specific masonry estimation tool. It compares the surface area of a room against the surface area of a single tile (plus the grout joint) to generate an exact bill of materials.",
   "howToUse": [
-    "Enter your floor area into the designated input field.",
-    "Provide any secondary parameters like tile size.",
-    "Click the calculate or submit button to generate number of tiles and boxes.",
-    "Copy or review the resulting output for your needs."
+    "Enter the length and width of the floor or wall you are tiling.",
+    "Enter the dimensions of your chosen tile (e.g., 12x12 or 3x6 subway tile).",
+    "Enter the width of the grout line (e.g., 1/8 inch).",
+    "The tool calculates the total area and the exact number of tiles required."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your floor area. It instantly processes the data to output number of tiles and boxes.",
-  "workedExample": "For example: 100 sq ft with 12x12 tiles requires ~110 tiles (with waste).",
-  "resultInterpretation": "The result represents number of tiles and boxes. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "The tool converts the room dimensions into square inches. It then calculates the area of a single tile, adding the grout line width to the tile's dimensions. Finally, it divides the room's square inches by the tile's square inches to find the exact piece count.",
+  "workedExample": "A 5x5 foot bathroom floor (3,600 sq inches). You are using 12x12 inch tiles with a 1/4 inch grout joint (Area = 150 sq inches). 3600 / 150 = 24. You need exactly 24 tiles, plus a waste percentage.",
+  "resultInterpretation": "The tool outputs both the individual tile count and the number of boxes to buy (if you know the box yield). It is critical to buy all your boxes at once so they come from the same manufacturing 'dye lot' to ensure color matching.",
   "useCases": [
-    "Bathroom remodeling",
-    "Kitchen backsplashes",
-    "Quickly processing floor area on the go"
+    "Kitchen Backsplashes: Calculating the number of tiny 3x6 subway tiles needed to cover the space between the countertops and upper cabinets.",
+    "Bathroom Floors: Estimating large format 24x24 porcelain tiles for a modern master bathroom renovation.",
+    "Shower Surrounds: Measuring the three vertical walls of a shower pan to determine waterproof wall tile requirements."
   ],
   "tipsAndLimitations": [
-    "Always order 10% extra for cuts and breakage.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "Tile jobs require a massive amount of cutting around toilets, cabinets, and corners. You MUST add a minimum 10% to 15% waste factor, or you will run out of tile.",
+    "If you are installing tile diagonally (on a 45-degree diamond pattern), increase your waste factor to 20% due to the complex corner cuts."
   ],
   "faq": [
     {
-      "question": "Does grout line size matter?",
-      "answer": "Yes, thick grout lines slightly reduce the tiles needed."
+      "question": "Should I include the grout line in my calculation?",
+      "answer": "Yes. Over a large floor, 1/4 inch grout lines add up significantly. If you ignore the grout lines, you will over-calculate and buy more tile than you actually need."
     },
     {
-      "question": "Is the Tile Calculator free to use?",
-      "answer": "Yes, our Tile Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "What is a dye lot?",
+      "answer": "Tiles baked in different batches at the factory have slight color variations. Buying all your calculated boxes at the exact same time ensures they all come from the same perfectly matched dye lot."
     }
   ],
   "relatedTools": [
     "square-footage-calculator",
-    "paint-calculator",
-    "concrete-calculator"
+    "cost-per-square-foot-calculator",
+    "paint-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Tile Calculator interface screenshot",
+  "cta": "Estimate your tile needs now!",
+  "disclaimer": "Tool provides a mathematical grid estimate. Always physically measure your space twice and confirm your box's coverage area before purchasing non-refundable tile.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Tile Calculator showing bathroom floor layout",
   "ogImageText": "Tile Calculator"
 }

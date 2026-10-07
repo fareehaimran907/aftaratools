@@ -1,55 +1,64 @@
 {
-  "seoTitle": "Kalkulator pożyczki",
-  "metaDescription": "Oblicz miesięczne płatności i odsetki dla dowolnej pożyczki.",
-  "h1": "Kalkulator pożyczki",
+  "seoTitle": "Kalkulator Kredytu - Oblicz Miesięczną Ratę i Łączne Odsetki",
+  "metaDescription": "Bezpłatny kalkulator kredytu. Oblicz miesięczne raty, łączne odsetki i całkowity koszt kredytu gotówkowego, samochodowego lub firmowego natychmiast.",
+  "h1": "Kalkulator Kredytu",
   "primaryKeyword": "kalkulator kredytu",
   "secondaryKeywords": [
-    "Kalkulator pożyczki online",
-    "darmowy kalkulator kredytowy",
-    "najlepszy kalkulator kredytowy"
+    "kalkulator kredytu gotówkowego",
+    "kalkulator kredytu samochodowego",
+    "kalkulator raty miesięcznej",
+    "kalkulator odsetek kredytu"
   ],
-  "slug": "kalkulator kredytowy",
-  "intro": "Określ miesięczną ratę, całkowite odsetki i całkowity koszt pożyczki.",
-  "whatIs": "Co to jest za narzędzie?",
+  "slug": "kalkulator-kredytowy",
+  "intro": "Planujesz zaciągnąć kredyt? Nasz bezpłatny Kalkulator Kredytu pomaga oszacować miesięczne raty, łączne odsetki i całkowity koszt dowolnego kredytu przed podpisaniem umowy. Bez względu na to, czy finansujesz zakup samochodu, konsolidujesz długi czy remontujesz dom — znajomość dokładnych kwot spłaty pozwala porównać oferty i wybrać najtańszą opcję.",
+  "whatIs": "Kalkulator kredytu to niezbędne narzędzie do planowania finansowego, które oblicza stałą miesięczną ratę i łączny koszt odsetek kredytu na podstawie trzech zmiennych: kwoty głównej, rocznej stopy procentowej i okresu spłaty. Podstawą matematyczną jest standardowa formuła annuitetowa (równe raty).",
   "howToUse": [
-    "Wpisz kwotę pożyczki w wyznaczonym polu wejściowym.",
-    "Podaj wszelkie parametry drugorzędne, takie jak stopa procentowa.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować zamortyzowaną miesięczną opłatę i łączne odsetki.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
+    "Wprowadź łączną Kwotę Kredytu — główną sumę, którą planujesz pożyczyć.",
+    "Podaj Roczną Stopę Procentową podaną w ofercie kredytowej.",
+    "Określ Okres Kredytowania w latach lub miesiącach.",
+    "Kliknij 'Oblicz Kredyt', aby natychmiast zobaczyć stałą ratę miesięczną, łączne odsetki i całkowity koszt."
   ],
-  "howItWorks": "Jak to działa",
-  "workedExample": "Przykłady",
-  "resultInterpretation": "Interpretacja",
+  "howItWorks": "Kalkulator używa standardowej formuły annuitetowej: M = P[r(1+r)^n] / [(1+r)^n - 1], gdzie M to stała rata miesięczna, P to kwota główna, r to miesięczna stopa procentowa, a n to łączna liczba rat miesięcznych.",
+  "workedExample": "Jeśli pożyczasz 10 000 zł przy rocznej stopie procentowej 5% na 5 lat (60 miesięcy): rata miesięczna wynosi 188,71 zł. Przez 60 rat zapłacisz łącznie 11 322,74 zł. Koszt pożyczki — łączne odsetki — wynosi 1 322,74 zł.",
+  "resultInterpretation": "Wyniki zawierają trzy kluczowe liczby. Rata Miesięczna to stała kwota płatna co miesiąc. Łączne Odsetki to skumulowany koszt pożyczki. Łączna Płatność to suma wszystkiego, co zwrócisz.",
   "useCases": [
-    "Kupno samochodu",
-    "Zaciągnięcie pożyczki prywatnej",
-    "Szybkie przetwarzanie kwoty pożyczki w podróży"
+    "Kredyty Samochodowe: oblicz dokładną miesięczną ratę przed wizytą w salonie.",
+    "Kredyty Gotówkowe: zaplanuj budżet na konsolidację długów lub remont domu.",
+    "Kredyty Firmowe: oceń miesięczny wpływ na przepływy pieniężne przy finansowaniu sprzętu.",
+    "Porównanie Ofert: porównaj wiele ofert, zmieniając stopę procentową lub okres spłaty."
   ],
   "tipsAndLimitations": [
-    "Nie obejmuje ubezpieczenia ani opłat za zwłokę.",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
+    "Kalkulator zakłada stałą stopę procentową przez cały okres kredytowania.",
+    "Wynik pokazuje tylko kapitał i odsetki, bez dodatkowych opłat.",
+    "Dodatkowe wpłaty na kapitał mogą znacznie obniżyć łączne odsetki."
   ],
   "faq": [
     {
-      "question": "Czy korzystanie z Kalkulatora Kredytowego jest bezpłatne?",
-      "answer": "Tak, korzystanie z naszego Kalkulatora Kredytowego jest całkowicie darmowe."
+      "question": "Jaka jest dobra stopa procentowa dla kredytu gotówkowego?",
+      "answer": "Stopy procentowe zależą w dużej mierze od zdolności kredytowej, dochodów i pożyczkodawcy. Ogólnie stawki poniżej 10% są uważane za konkurencyjne w przypadku kredytów gotówkowych."
     },
     {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, jest w pełni responsywny i działa na wszystkich urządzeniach."
+      "question": "Czy mogę spłacić kredyt wcześniej?",
+      "answer": "Tak, a to pozwala zaoszczędzić na odsetkach. Sprawdź jednak w umowie kredytowej, czy nie ma prowizji za wcześniejszą spłatę."
     },
     {
-      "question": "Czy muszę coś pobrać?",
-      "answer": "Nie, działa całkowicie w Twojej przeglądarce, bez żadnej instalacji."
+      "question": "Jak dodatkowe wpłaty wpływają na mój kredyt?",
+      "answer": "Dodatkowe wpłaty trafiają bezpośrednio na spłatę kapitału, zmniejszając odsetki w kolejnych miesiącach i mogąc skrócić okres kredytowania."
+    },
+    {
+      "question": "Jaka jest różnica między RRSO a stopą procentową?",
+      "answer": "Stopa procentowa to koszt pożyczki kapitału. RRSO (Rzeczywista Roczna Stopa Oprocentowania) to szerszy wskaźnik obejmujący stopę procentową plus opłaty i inne koszty."
     }
   ],
   "relatedTools": [
-    "kalkulator procentowy",
-    "kalkulator wynagrodzeń",
-    "kalkulator rabatów"
+    "mortgage-calculator",
+    "emi-calculator",
+    "compound-interest-calculator",
+    "simple-interest-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator pożyczki",
-  "ogImageText": "Kalkulator pożyczki"
+  "cta": "Oblicz teraz raty kredytu i przejmij kontrolę nad swoimi decyzjami finansowymi!",
+  "disclaimer": "Narzędzie dostarcza szacunków wyłącznie w celach edukacyjnych. Rzeczywiste warunki kredytu, stopy i opłaty różnią się w zależności od pożyczkodawcy i zdolności kredytowej.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Kalkulator kredytu pokazujący miesięczną ratę, łączne odsetki i zestawienie łącznej płatności",
+  "ogImageText": "Kalkulator Kredytu"
 }

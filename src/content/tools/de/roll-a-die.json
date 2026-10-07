@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Roll a Die – Virtueller Online-Würfelwurf",
+  "metaDescription": "Kostenloser Online-Würfelroller. Werfen Sie sofort einen virtuellen 6-seitigen Würfel (oder wählen Sie benutzerdefinierte Seiten) für Brettspiele, Rollenspiele und die Generierung von Zufallszahlen.",
+  "h1": "Wirf einen Würfel",
+  "primaryKeyword": "einen Würfel werfen",
+  "secondaryKeywords": [
+    "virtueller Würfelroller",
+    "Online würfeln",
+    "Zufallsgenerator für Würfel",
+    "d6 Walze"
+  ],
+  "slug": "wirf-einen-würfel",
+  "intro": "Haben Sie die Würfel für Ihr Lieblingsbrettspiel verloren oder benötigen Sie eine schnelle Zufallszahl für Dungeons & Dragons? Unser kostenloser virtueller Würfelwurf ermöglicht Ihnen jedes Mal einen perfekten, unvoreingenommenen Wurf.",
+  "whatIs": "Das Roll a Die-Tool ist ein digitaler Simulator, der die mathematische Wahrscheinlichkeit des Würfelns mit physischen Würfeln nachbildet. Standardmäßig simuliert es einen standardmäßigen 6-seitigen Würfel (D6), kann jedoch angepasst werden.",
+  "howToUse": [
+    "Navigieren Sie zum Werkzeug und wählen Sie die Anzahl der Würfel aus, die Sie würfeln möchten.",
+    "Wählen Sie ggf. den Matrizentyp aus (z. B. 6-seitig, 20-seitig).",
+    "Klicken Sie auf die Schaltfläche „Rollen“.",
+    "Das Tool generiert sofort die zufälligen Ergebnisse und zeigt sie an."
+  ],
+  "howItWorks": "Das Tool fungiert als spezialisierter Zufallszahlengenerator. Für einen standardmäßigen 6-seitigen Würfel wird die Funktion Math.random() von JavaScript verwendet, um eine Zahl auszuwählen, die perfekt zwischen 1 und 6 verteilt ist.",
+  "workedExample": "Für Monopoly müssen Sie zwei 6-seitige Würfel (2W6) werfen. Sie stellen die Menge auf 2 ein und klicken auf „Rollen“. Der Algorithmus generiert eine 4 und eine 5. Das Tool zeigt die einzelnen Würfel und die Gesamtsumme (9) an.",
+  "resultInterpretation": "Die angezeigten Zahlen sind völlig zufällige, unabhängige Ergebnisse. Behandeln Sie die digitale Rolle genauso wie eine physische Rolle auf einem Tisch.",
+  "useCases": [
+    "Brettspiele: Ersetzen fehlender Teile für Spiele wie Monopoly oder Yahtzee.",
+    "Tabletop-RPGs: Würfeln Sie einen W20 für einen Statuscheck in Dungeons & Dragons oder Pathfinder.",
+    "Unterricht im Klassenzimmer: Unterrichten von Wahrscheinlichkeitsstatistiken ohne laute physische Würfel."
+  ],
+  "tipsAndLimitations": [
+    "Ein digitaler Würfel ist technisch gesehen fairer als ein billiger physischer Würfel aus Kunststoff, da digitale Algorithmen keine Ungleichgewichte beim physischen Gewicht aufweisen.",
+    "Mehrere Würfel werfen? Die Summe zweier 6-seitiger Würfel ist keine gleiche Wahrscheinlichkeit. Eine 7 ist viel wahrscheinlicher als eine 2 oder 12."
+  ],
+  "faq": [
+    {
+      "question": "Ist der Würfelwurf wirklich zufällig?",
+      "answer": "Der Wurf verwendet einen Pseudozufallszahlenalgorithmus. Für Spiele und den gelegentlichen Gebrauch ist er statistisch gesehen nicht von einem perfekt ausbalancierten physischen Würfel zu unterscheiden."
+    },
+    {
+      "question": "Kann ich mehrere Würfel gleichzeitig werfen?",
+      "answer": "Ja! Sie können die Mengeneinstellungen anpassen, um mehrere Würfel gleichzeitig zu würfeln, und das Tool berechnet automatisch die Gesamtsumme."
+    }
+  ],
+  "relatedTools": [
+    "random-number-generator",
+    "flip-a-coin",
+    "spin-the-wheel"
+  ],
+  "cta": "Lassen Sie jetzt den virtuellen Würfel rollen!",
+  "disclaimer": "Das Tool nutzt die browserbasierte Pseudozufallszahlengenerierung. Entwickelt für Unterhaltungs- und Gelegenheitsspielzwecke.",
+  "lastReviewed": "02.10.2026",
+  "imageAlt": "Virtuelle Würfel, die einen zufälligen Wurf zeigen",
+  "ogImageText": "Wirf einen Würfel"
+}

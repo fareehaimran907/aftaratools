@@ -8,7 +8,7 @@
     "kostenloser Base64-Encoder/Decoder",
     "bester Base64-Encoder/Decoder"
   ],
-  "slug": "base64-encode-decode",
+  "slug": "base64-kodierer",
   "intro": "Nutzen Sie unser kostenloses Online-Base64-Encoder-/Decoder-Tool. Es übersetzt Text basierend auf Ihren Eingaben in das Base64-Format.",
   "whatIs": "Der Base64 Encoder/Decoder ist ein Online-Dienstprogramm, das Text in das Base64-Format übersetzt. Es verarbeitet Ihren Klartext und stellt die kodierte oder dekodierte Zeichenfolge bereit.",
   "howToUse": [
@@ -45,10 +45,12 @@
     }
   ],
   "relatedTools": [
-    "JSON-Formatierer",
-    "URL-Kodierung-Dekodierung",
-    "html-encode-decode"
+    "url-encode-decode",
+    "html-encode-decode",
+    "hex-to-decimal"
   ],
+  "cta": "Kodieren oder dekodieren Sie jetzt Ihre Daten!",
+  "disclaimer": "Das Tool verarbeitet Daten lokal im Browser unter Verwendung der Funktionen btoa() und atob(). Verwenden Sie Base64 nicht als Ersatz für sichere Verschlüsselung.",
   "lastReviewed": "29.09.2026",
   "imageAlt": "Screenshot der Base64-Encoder-/Decoder-Schnittstelle",
   "ogImageText": "Base64-Encoder/Decoder"

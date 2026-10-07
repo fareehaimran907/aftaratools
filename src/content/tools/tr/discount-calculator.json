@@ -1,55 +1,52 @@
 {
-  "seoTitle": "İndirim Hesaplayıcı",
-  "metaDescription": "Yüzde veya sabit indirimden sonra nihai fiyatı hesaplayın.",
+  "seoTitle": "İndirim Hesaplayıcı - Satış Fiyatı ve Tasarruf Hesaplama",
+  "metaDescription": "Ücretsiz çevrimiçi indirim hesaplayıcı. Bir yüzde indirimi ve isteğe bağlı vergi uygulandıktan sonra bir ürünün nihai fiyatını ve ne kadar tasarruf edeceğinizi öğrenin.",
   "h1": "İndirim Hesaplayıcı",
-  "primaryKeyword": "indirim hesaplayıcı",
+  "primaryKeyword": "indirim hesaplama",
   "secondaryKeywords": [
-    "İndirim Hesaplayıcı çevrimiçi",
-    "ücretsiz İndirim Hesaplayıcı",
-    "en iyi İndirim Hesaplayıcı"
+    "yüzde indirim hesaplama",
+    "indirimli fiyat hesaplama",
+    "iskonto hesaplama"
   ],
-  "slug": "indirim hesaplayıcı",
-  "intro": "Bir indirim sırasında tam olarak ne kadar tasarruf edeceğinizi öğrenin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "indirim-hesaplama",
+  "intro": "Mağazada '%20 İndirim' yazan bir fiyat etiketine bakıp gerçekte ne kadar tasarruf edeceğinizi hiç merak ettiniz mi? Tatil alışverişlerinizde pazarlık peşinde koşarken, indirimli giysiler satın alırken veya işletmeniz için toplu alım pazarlığı yaparken akıllı harcama için son fiyatı bilmek şarttır. Ücretsiz çevrimiçi indirim hesaplayıcımız satışlarda tahmini ortadan kaldırır. Bu araç, sadece orijinal fiyatı ve indirim yüzdesini girerek ne kadar tasarruf edeceğinizi ve son fiyatın ne olacağını anında söyler. Kendinden emin satın alma kararları alın, teklifleri kolayca karşılaştırın ve her satın alımda mümkün olan en iyi değeri elde ettiğinizden emin olun.",
+  "whatIs": "İndirim hesaplayıcısı, yüzdelik bir düşüş uygulandıktan sonra bir ürünün indirimli fiyatını hızlı bir şekilde hesaplamak için tasarlanmış vazgeçilmez bir finansal bütçeleme aracıdır. Perakendede, promosyonlar genellikle yüzde olarak sunulur (örneğin %15 indirim, %50 indirim), bu da özellikle 49,99$ veya 199,50$ gibi garip fiyatlarla zihinden hızlı hesap yapmayı zorlaştırabilir. Bu araç hesaplamaları sizin için yaparak indirim yüzdesini somut bir nakit değerine dönüştürür. Kasada ödeyeceğiniz yeni fiyatı ve elde tutacağınız tam nakit tutarı görüntüleyerek, herhangi bir satış promosyonunun gerçek değeri konusunda tam bir şeffaflık sağlar.",
   "howToUse": [
-    "Belirlenen giriş alanına orijinal fiyatınızı girin.",
-    "İndirim yüzdesi gibi ikincil parametreleri sağlayın.",
-    "Kaydedilen tutarı ve yeni fiyatı oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Ürünün Orijinal Fiyatını girin.",
+    "İndirim Yüzdesini (örneğin %20 indirim için 20) girin.",
+    "Gerekirse Vergi (KDV) yüzdesini girin.",
+    "'İndirimi Hesapla' butonuna tıklayın."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, basit ama hayati bir finansal matematik formülü kullanarak çalışır. 'Orijinal Fiyat'ı ve 'İndirim Yüzdesi'ni girdiğinizde hesap makinesi ilk olarak yüzdeyi ondalık sayıya dönüştürür (örneğin %20, 0,20 olur). Toplam indirim tutarını (tasarruflarınızı) hesaplamak için orijinal fiyatı bu ondalık sayıyla çarpar. Son olarak, size nihai fiyatı vermek için söz konusu tasarruf tutarını orijinal fiyattan çıkarır. Bu iki adımlı işlem anında gerçekleştirilir ve sonuçların nasıl değiştiğini görmek için farklı indirim oranlarını veya fiyatları denemenize olanak tanıyarak alışveriş tercihleriniz için size gerçek zamanlı veriler sağlar.",
+  "workedExample": "Fiyatı 850$ olan bir dizüstü bilgisayara baktığınızı hayal edin. Mağazada tüm elektronik ürünlerde %15 indirim sağlayan bir okula dönüş indirimi vardır. Hesap makinesine orijinal fiyat olarak '850', indirim yüzdesi olarak '15' giriyorsunuz. Araç toplam tasarrufunuzu hesaplamak için 850$'ı 0,15 ile çarpar: 127,50$. Daha sonra 850$'lık orijinal fiyattan 127,50$'ı çıkarır. Sadece bir saniye içinde hesap makinesi dizüstü bilgisayar için ödeyeceğiniz son fiyatın 722,50$ olduğunu gösterir ve bu anlaşmadan cebinizde 127,50$ kalacağını doğrular.",
+  "resultInterpretation": "Hesap makinesi tarafından oluşturulan sonuçlar size iki kritik rakam sunar: 'Son Fiyat' ve 'Tasarruflarınız' tutarı. Nihai fiyat, kasada (herhangi bir yerel vergi uygulanmadan önce) ödemeyi beklemeniz gereken gerçek cebinizden çıkan miktardır. Tasarruf tutarı, orijinal üreticinin tavsiye ettiği perakende fiyatıyla karşılaştırıldığında cebinizde kalan parayı nicelendirir. Her iki rakamı da anlamak, kasıtlı bütçelemenin anahtarıdır. Örneğin, 50$ tasarruf ettiğinizi bilmek, bu fonları zihinsel olarak diğer satın alımlara veya tasarruflara ayırmanızı sağlar. Dahası, tasarruf edilen gerçek dolar miktarını görmek, değeri düşük bir üründeki büyük bir yüzdelik indirimin, pahalı bir üründeki daha küçük bir indirim yüzdesinden daha değerli bir promosyon olup olmadığını değerlendirmenize olanak tanır.",
   "useCases": [
-    "Alışveriş satışları",
-    "Promosyon kodlarını uygulama",
-    "Hareket halindeyken orijinal fiyatı hızlı bir şekilde işleyin"
+    "Alışveriş: Kara Cuma (Black Friday) indirimlerinde net tutarı hesaplama.",
+    "Ticaret: B2B faturalandırmasında müşteriye uygulanan iskonto sonrası KDV hesaplama.",
+    "Ticaret: B2B faturalandırmasında müşteriye uygulanan iskonto sonrası KDV hesaplama."
   ],
   "tipsAndLimitations": [
-    "Bazı mağazalar vergi öncesi veya sonrası indirim uygular.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "KDV gibi vergilerin indirimli fiyat üzerinden hesaplandığını unutmayın.",
+    "'%20 + ekstra %10' gibi çifte indirimlerde yüzdeler toplanmaz (toplam %30 etmez). Önce %20 düşülür, sonra kalan tutar üzerinden %10 düşülür."
   ],
   "faq": [
     {
-      "question": "İndirim Hesaplayıcının kullanımı ücretsiz midir?",
-      "answer": "Evet, İndirim Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Vergi (KDV) indirimden önce mi sonra mı hesaplanır?",
+      "answer": "Fatura kesilirken genellikle önce indirim (iskonto) düşülür, KDV indirimli tutar üzerinden hesaplanır."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Vergi (KDV) indirimden önce mi sonra mı hesaplanır?",
+      "answer": "Fatura kesilirken genellikle önce indirim (iskonto) düşülür, KDV indirimli tutar üzerinden hesaplanır."
     }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "maaş-hesaplayıcı",
-    "bahşiş hesaplayıcı"
+    "percentage-calculator",
+    "percentage-increase-calculator",
+    "tip-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "İndirim Hesaplayıcı",
-  "ogImageText": "İndirim Hesaplayıcı"
+  "cta": "Alışveriş tasarrufunuzu şimdi hesaplayın!",
+  "disclaimer": "Eğitim ve tahmin amaçlı hesaplamalar sağlar. Gerçek fatura değerleri küçük küsurat farkları içerebilir.",
+  "lastReviewed": "2024-03-16",
+  "imageAlt": "İndirim Hesaplama Aracı",
+  "ogImageText": "İndirim Hesaplama"
 }

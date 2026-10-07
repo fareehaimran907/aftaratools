@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Generator Hash Bcrypt - Hash Kata Sandi Aman",
+  "metaDescription": "Generator Bcrypt online gratis. Hash kata sandi dengan aman menggunakan algoritma bcrypt standar industri dengan faktor biaya kustom (putaran kerja) untuk keamanan maksimum.",
+  "h1": "Generator Hash Bcrypt",
+  "primaryKeyword": "generator bcrypt",
+  "secondaryKeywords": [
+    "hash kata sandi bcrypt",
+    "hasilkan bcrypt",
+    "bcrypt daring",
+    "alat pengacak kata sandi"
+  ],
+  "slug": "generator-hash-bcrypt",
+  "intro": "Membangun sistem otentikasi pengguna? Generator Bcrypt gratis kami menyediakan cara paling aman untuk melakukan hash kata sandi, menggunakan salting otomatis dan faktor biaya komputasi yang dapat disesuaikan.",
+  "whatIs": "Generator Bcrypt adalah utilitas keamanan canggih yang dirancang khusus untuk meng-hash kata sandi pengguna. Tidak seperti algoritma cepat (MD5, SHA), bcrypt sengaja dibuat lambat dan secara otomatis menghasilkan 'salt' acak unik untuk setiap hash guna mengalahkan serangan tabel pelangi.",
+  "howToUse": [
+    "Masukkan kata sandi teks biasa ke dalam bidang input.",
+    "Pilih faktor 'Biaya' Anda (default biasanya 10 atau 12). Biaya yang lebih tinggi berarti memerlukan waktu lebih lama untuk menghitung.",
+    "Klik Hasilkan.",
+    "Alat ini menghasilkan string bcrypt lengkap (yang mencakup versi algoritma, biaya, salt, dan hash)."
+  ],
+  "howItWorks": "Bcrypt didasarkan pada cipher Blowfish. Alat ini menghasilkan garam 128-bit acak, menambahkannya ke kata sandi, dan menjalankannya melalui cipher beberapa kali berdasarkan faktor 'Cost'. Biaya 10 berarti 2^10 (1.024) iterasi. Biaya 12 berarti 2^12 (4.096) iterasi.",
+  "workedExample": "Memasukkan 'password123' dengan biaya 10. Alat ini menghasilkan string yang diawali dengan `$2a$10$`, diikuti oleh 22 karakter garam acak, dan diikuti oleh 31 karakter hash yang sebenarnya.",
+  "resultInterpretation": "String yang dihasilkan persis seperti yang harus Anda simpan di basis data Anda. Ketika seorang pengguna masuk, server Anda membaca salt dari string ini, mengenkripsi upaya masuk mereka dengan salt yang sama, dan membandingkan hasilnya.",
+  "useCases": [
+    "Pengembangan Perangkat Lunak: Secara manual menghasilkan hash kata sandi admin yang aman untuk dimasukkan ke dalam database baru.",
+    "Pendidikan Keamanan: Memahami bagaimana salt dan faktor biaya mengubah keluaran dari fungsi hashing kata sandi.",
+    "Pemulihan Sistem: Menghasilkan hash backdoor untuk mendapatkan kembali akses ke sistem di mana kata sandi admin hilang."
+  ],
+  "tipsAndLimitations": [
+    "Karena bcrypt secara otomatis menghasilkan salt acak, melakukan hash pada kata sandi yang sama persis dua kali akan menghasilkan dua string output yang benar-benar berbeda. Ini adalah fitur keamanan yang sengaja dibuat.",
+    "Bcrypt memiliki panjang input kata sandi maksimum sebesar 72 byte. Karakter di luar batas ini diabaikan."
+  ],
+  "faq": [
+    {
+      "question": "Mengapa bcrypt lebih baik daripada SHA-256 untuk kata sandi?",
+      "answer": "SHA-256 dirancang untuk sangat cepat. Seorang peretas dengan kartu grafis yang baik dapat menebak miliaran kata sandi SHA-256 per detik. Bcrypt sengaja dibuat lambat. Dengan menetapkan faktor biaya yang tinggi, Anda membatasi peretas hanya dapat menebak beberapa lusin kata sandi per detik, sehingga serangan brute-force menjadi mustahil."
+    },
+    {
+      "question": "Berapa faktor biaya yang direkomendasikan?",
+      "answer": "Seiring komputer menjadi lebih cepat, biaya yang disarankan naik. Biaya 10 atau 12 adalah standar saat ini. Biaya tersebut seharusnya cukup tinggi untuk menghalangi peretas, tetapi cukup cepat (misalnya, 200 milidetik) sehingga tidak membuat pengguna sah frustrasi saat masuk."
+    }
+  ],
+  "relatedTools": [
+    "password-generator",
+    "strong-password-generator",
+    "sha256-hash-generator"
+  ],
+  "cta": "Hash kata sandi Anda dengan aman menggunakan bcrypt!",
+  "disclaimer": "Generasi memerlukan perhitungan CPU browser yang intensif tergantung pada faktor biaya yang dipilih. String dihasilkan secara lokal dan tidak pernah dikirimkan.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka Generator Bcrypt yang menunjukkan pengaturan faktor biaya",
+  "ogImageText": "Generator Bcrypt"
+}

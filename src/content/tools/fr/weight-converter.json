@@ -1,55 +1,42 @@
 {
-  "seoTitle": "Convertisseur de poids",
-  "metaDescription": "Convertissez entre kilogrammes, livres, onces, etc.",
-  "h1": "Convertisseur de poids",
+  "seoTitle": "Convertisseur de Poids - Kilos, Livres, Grammes",
+  "metaDescription": "Convertisseur de poids en ligne gratuit. Convertissez facilement entre les unités métriques et impériales : kilogrammes, livres (lbs), grammes et onces.",
+  "h1": "Convertisseur de Poids",
   "primaryKeyword": "convertisseur de poids",
   "secondaryKeywords": [
-    "Convertisseur de poids en ligne",
-    "Convertisseur de poids gratuit",
-    "meilleur convertisseur de poids"
+    "convertir poids",
+    "kilos en livres",
+    "livres en kilos",
+    "grammes en onces"
   ],
-  "slug": "convertisseur de poids",
-  "intro": "Convertissez instantanément la masse et le poids entre différentes unités de mesure.",
-  "whatIs": "Quel est cet outil ?",
-  "howToUse": [
-    "Entrez vos kilogrammes dans le champ de saisie désigné.",
-    "Fournissez tous les paramètres secondaires tels que les livres.",
-    "Cliquez sur le bouton Calculer ou Soumettre pour générer le poids équivalent dans l'unité cible.",
-    "Copiez ou examinez le résultat obtenu selon vos besoins."
-  ],
-  "howItWorks": "Comment ça marche",
-  "workedExample": "Exemples",
-  "resultInterpretation": "Interprétation",
-  "useCases": [
-    "Recettes de pâtisserie",
-    "Haltérophilie en salle de sport",
-    "Traitement rapide des kilos en déplacement"
-  ],
-  "tipsAndLimitations": [
-    "La masse et le poids sont techniquement différents mais utilisés ici de manière interchangeable.",
-    "Assurez-vous que vos entrées sont correctement formatées pour obtenir les meilleurs résultats.",
-    "L'outil fonctionne entièrement côté client, garantissant que vos données restent privées."
-  ],
+  "slug": "convertisseur-poids",
+  "intro": "Que vous suiviez votre poids, calculiez des frais de port ou cuisiniez une recette étrangère, obtenir le poids exact est crucial. Notre convertisseur offre des traductions instantanées et précises.",
+  "whatIs": "Un convertisseur de poids (ou de masse) est un outil qui change une mesure d'une unité à son équivalent exact dans une autre, servant de pont entre le système métrique et impérial.",
+  "howToUse": "Entrez le poids numérique. Sélectionnez l'unité de départ. Sélectionnez l'unité cible. Le poids converti s'affiche instantanément.",
+  "howItWorks": "Le convertisseur utilise des facteurs standards. Une livre vaut exactement 0,45359237 kg. Pour convertir des kg en livres, on multiplie par environ 2,20462.",
+  "workedExample": "Une recette demande 500 grammes de farine, votre balance est en onces. Vous entrez 500 (grammes vers onces). Le résultat est 17,637 onces.",
+  "resultInterpretation": "L'outil produit une conversion mathématique précise. Pour la cuisine, un arrondi à une décimale suffit généralement.",
+  "useCases": "Cuisine : convertir des recettes (grammes en onces). Fitness : poids corporel (kg en lbs). Voyages : bagages (23 kg = 50 lbs).",
+  "tipsAndLimitations": "1 Kilo équivaut à environ 2,2 livres. Une once (poids) est différente d'une once liquide (volume).",
   "faq": [
     {
-      "question": "L'utilisation du convertisseur de poids est-elle gratuite ?",
-      "answer": "Oui, notre convertisseur de poids est entièrement gratuit."
+      "question": "Combien de livres y a-t-il dans un kilo ?",
+      "answer": "Il y a environ 2,20462 livres dans 1 kilogramme."
     },
     {
-      "question": "Est-ce que ça marche sur mobile ?",
-      "answer": "Oui, il est entièrement réactif et fonctionne sur tous les appareils."
-    },
-    {
-      "question": "Dois-je télécharger quelque chose ?",
-      "answer": "Non, cela fonctionne entièrement dans votre navigateur sans aucune installation."
+      "question": "Combien de grammes dans une once ?",
+      "answer": "Il y a exactement 28,349 grammes dans une once standard."
     }
   ],
   "relatedTools": [
-    "convertisseur de longueur",
-    "convertisseur de hauteur",
-    "convertisseur de température"
+    "length-converter",
+    "height-converter",
+    "volume-converter",
+    "temperature-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Convertisseur de poids",
-  "ogImageText": "Convertisseur de poids"
+  "cta": "Convertissez vos poids avec précision dès maintenant !",
+  "disclaimer": "À des fins informatives. Utilisez des balances certifiées pour les usages commerciaux ou médicaux.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Convertisseur de poids affichant kg vers lbs",
+  "ogImageText": "Convertisseur Poids"
 }

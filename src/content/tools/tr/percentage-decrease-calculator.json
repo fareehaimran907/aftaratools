@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Yüzde Azalış Hesaplayıcı",
-  "metaDescription": "İki sayı arasındaki azalma yüzdesini hesaplayın.",
+  "seoTitle": "Yüzde Azalış Hesaplayıcı - İndirimleri Hesapla",
+  "metaDescription": "Ücretsiz yüzde azalış hesaplayıcı. Bir sayıdan diğerine yüzde düşüşünü kolayca bulun.",
   "h1": "Yüzde Azalış Hesaplayıcı",
-  "primaryKeyword": "yüzde azalma hesaplayıcısı",
+  "primaryKeyword": "yüzde azalış hesaplayıcı",
   "secondaryKeywords": [
-    "Yüzde Azalış Hesaplayıcı çevrimiçi",
-    "ücretsiz Yüzde Azalış Hesaplayıcı",
-    "En İyi Yüzde Azalış Hesaplayıcı"
+    "yüzde düşüş hesaplama",
+    "indirim hesaplayıcı"
   ],
-  "slug": "yüzde-azalış-hesaplayıcı",
-  "intro": "Yüzde cinsinden bir değerin tam olarak ne kadar azaldığını öğrenin.",
-  "whatIs": "Bu araç nedir?",
-  "howToUse": [
-    "Başlangıç ​​değerinizi belirlenen giriş alanına girin.",
-    "Nihai değer gibi ikincil parametreleri sağlayın.",
-    "Göreceli yüzde düşüşünü oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
-  ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
-  "useCases": [
-    "Fiyat düşüşlerinin hesaplanması",
-    "Kilo kaybının ölçülmesi",
-    "Hareket halindeyken başlangıç ​​değerini hızla işleme"
-  ],
-  "tipsAndLimitations": [
-    "Değerler negatife gitmediği sürece düşüş %100'ü geçemez.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
-  ],
+  "slug": "yuzde-dusus-hesaplama",
+  "intro": "Sayılar düştüğünde, ne kadar düştüğünü bilmeniz gerekir. Hesaplayıcımız yüzde düşüşü anında bulmanıza yardımcı olur.",
+  "whatIs": "Yüzde azalış hesaplayıcı, başlangıç değerinden daha düşük bir bitiş değerine olan nispi düşüşü ölçer.",
+  "howToUse": "İlk Değeri girin. Son Değeri girin. 'Hesapla'ya tıklayın.",
+  "howItWorks": "Formül: Yüzde Azalış = [(İlk Değer - Son Değer) / İlk Değer] × 100.",
+  "workedExample": "Bir TV 500 TL idi, 400 TL'ye düştü. Düşüş 100 TL'dir. 100 / 500 = 0,20 × 100 = %20.",
+  "resultInterpretation": "Sonucunuz Mutlak Fark ve Yüzde Azalışı içerir. %100 azalış, değerin sıfır olması demektir.",
+  "useCases": "İndirimler: indirim yüzdesini hesaplayın. Kayıplar: portföy düşüşünü belirleyin. Amortisman: değer kaybını hesaplayın.",
+  "tipsAndLimitations": "Her zaman ilk değere bölün. Bir değer (negatif olmadığı sürece) %100'den fazla azalmaz.",
   "faq": [
     {
-      "question": "Yüzde Azalış Hesaplayıcının kullanımı ücretsiz midir?",
-      "answer": "Evet, Yüzde Azalma Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Yüzde azalışın formülü nedir?",
+      "answer": "[(Eski Değer - Yeni Değer) / Eski Değer] × 100."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Bir sayıdan %20'yi nasıl çıkarırım?",
+      "answer": "Sayıyı 0,80 ile çarpın."
     }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "maaş-hesaplayıcı",
-    "indirim hesaplayıcı"
+    "percentage-increase-calculator",
+    "compound-interest-calculator",
+    "investment-calculator",
+    "salary-to-hourly-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Yüzde Azalış Hesaplayıcı",
+  "cta": "Kesin yüzde azalışınızı şimdi hesaplayın!",
+  "disclaimer": "Eğitim amaçlıdır.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Yüzde azalış hesaplayıcı",
   "ogImageText": "Yüzde Azalış Hesaplayıcı"
 }

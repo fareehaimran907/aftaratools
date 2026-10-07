@@ -1,55 +1,53 @@
 {
-  "seoTitle": "BMR-Rechner",
-  "metaDescription": "Berechnen Sie Ihren Grundumsatz.",
+  "seoTitle": "BMR-Rechner - Grundumsatz",
+  "metaDescription": "Kostenloser Online-BMR-Rechner. Finden Sie genau heraus, wie viele Kalorien Ihr Körper im Ruhezustand verbrennt. Unverzichtbar für Gewichtsverlust und Ernährungsplanung.",
   "h1": "BMR-Rechner",
   "primaryKeyword": "BMR-Rechner",
   "secondaryKeywords": [
-    "BMR-Rechner online",
-    "Kostenloser BMR-Rechner",
-    "Bester BMR-Rechner"
+    "Grundumsatzrechner",
+    "Ruhemetabolismus-Rechner",
+    "wie viele Kalorien verbrenne ich im Ruhezustand",
+    "BMR-Formel"
   ],
-  "slug": "BMR-Rechner",
-  "intro": "Finden Sie genau heraus, wie viele Kalorien Ihr Körper im Ruhezustand verbrennt.",
-  "whatIs": "Was ist das für ein Werkzeug?",
+  "slug": "bmr-rechner",
+  "intro": "Planen Sie eine Diät und müssen Ihre grundlegenden Kalorienbedürfnisse kennen? Unser kostenloser BMR-Rechner zeigt genau, wie viele Kalorien Ihr Körper jeden Tag nur zum Überleben verbraucht.",
+  "whatIs": "Der BMR (Basal Metabolic Rate) Rechner ist ein physiologisches mathematisches Werkzeug. Er schätzt die minimale Anzahl an Kalorien, die Ihr Körper benötigt, um grundlegende, das Leben erhaltende Funktionen (wie Atmen und Blut pumpen) vollständig in Ruhe auszuführen.",
   "howToUse": [
-    "Geben Sie Ihr Alter, Ihre Größe und Ihr Gewicht in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie das Geschlecht an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um den Kalorienverbrauch im Ruhezustand zu berechnen.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
+    "Wählen Sie Ihr biologisches Geschlecht.",
+    "Geben Sie Ihr Alter, Ihre Körpergröße und Ihr aktuelles Gewicht ein.",
+    "Klicken Sie auf Berechnen, um Ihre Grundumsatzrate sofort anzuzeigen.",
+    "Verwenden Sie diese Basiszahl, um Ihr diätetisches Defizit oder Überschuss zu planen."
   ],
-  "howItWorks": "Wie es funktioniert",
-  "workedExample": "Beispiele",
-  "resultInterpretation": "Interpretation",
+  "howItWorks": "Das Werkzeug verwendet die Mifflin-St Jeor-Gleichung, die derzeit als die genaueste Standardformel gilt. Sie berücksichtigt Gewicht, Größe und Alter und wendet unterschiedliche Multiplikatoren basierend auf biologischen Geschlechtsunterschieden in der Muskelmasse an.",
+  "workedExample": "Ein 30-jähriger Mann, der 180 cm groß ist und 80 kg wiegt: (10 × 80) + (6,25 × 180) - (5 × 30) + 5 = 800 + 1125 - 150 + 5 = 1.780. Sein Grundumsatz beträgt 1.780 Kalorien pro Tag.",
+  "resultInterpretation": "Ihr Grundumsatz ist Ihr 'Koma-Kalorien-Limit'. Wenn Sie den ganzen Tag im Bett liegen und absolut nichts tun würden, würden Sie trotzdem diese Menge an Kalorien verbrennen. Sie müssen mehr als dies essen, um alltägliche Aktivitäten zu unterstützen.",
   "useCases": [
-    "Diätplanung",
-    "Stoffwechsel verstehen",
-    "Schnelle Verarbeitung von Alter, Größe und Gewicht unterwegs"
+    "Gewichtsverlust: Verwendung des BMR als absolute Untergrenze der täglichen Kalorienaufnahme, um sicherzustellen, dass sich der Stoffwechsel nicht verlangsamt.",
+    "Muskelaufbau: Berechnung des Grundbedarfs, bevor ein Kalorienüberschuss und Trainingskalorien hinzugefügt werden, um Masse aufzubauen.",
+    "Ernährungsplanung: Ernährungsberater bestimmen die grundlegenden metabolischen Bedürfnisse der Patienten."
   ],
   "tipsAndLimitations": [
-    "Formeln wie Mifflin-St Jeor liefern eine Schätzung, kein Laborergebnis.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten privat bleiben."
+    "BMR beinhaltet NICHT die Kalorien, die Sie beim Herumlaufen, bei der Verdauung von Nahrung oder beim Sport verbrennen. Um Ihren gesamten täglichen Kalorienverbrauch zu ermitteln, verwenden Sie einen TDEE (Total Daily Energy Expenditure) Rechner.",
+    "Wenn Sie Gewicht verlieren, wird Ihr Grundumsatz sinken. Sie müssen ihn während einer Diät regelmäßig neu berechnen."
   ],
   "faq": [
     {
-      "question": "Beinhaltet der BMR Bewegung?",
-      "answer": "Nein, BMR ist ausschließlich die Energie, die benötigt wird, um im Ruhezustand am Leben zu bleiben."
+      "question": "Was ist der Unterschied zwischen BMR und TDEE?",
+      "answer": "BMR sind die Kalorien, die vollständig im Ruhezustand verbrannt werden. TDEE fügt dein tägliches Aktivitätsniveau (Gehen, Sport treiben, Reden) zu deinem BMR hinzu, um deine insgesamt verbrannten Kalorien zu berechnen."
     },
     {
-      "question": "Ist die Nutzung des BMR-Rechners kostenlos?",
-      "answer": "Ja, unser BMR-Rechner ist völlig kostenlos und erfordert keine Registrierung."
-    },
-    {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, das Tool reagiert vollständig und funktioniert auf allen Smartphones und Tablets einwandfrei."
+      "question": "Warum beeinflusst das Alter den Grundumsatz?",
+      "answer": "Wenn man älter wird, verliert man natürlich Muskelmasse und die Stoffwechselprozesse verlangsamen sich, was bedeutet, dass der Körper weniger Kalorien benötigt, um sich zu erhalten."
     }
   ],
   "relatedTools": [
-    "BMI-Rechner",
-    "Kalorienrechner",
-    "Makrorechner"
+    "calorie-calculator",
+    "macro-calculator",
+    "body-fat-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "BMR-Rechner",
+  "cta": "Berechnen Sie jetzt Ihren Ruhemetabolismus!",
+  "disclaimer": "BMR-Berechnungen sind Schätzungen, die auf dem Durchschnitt der Bevölkerung basieren. Der individuelle Stoffwechsel kann aufgrund von Genetik, Muskelmasse und gesundheitlichen Bedingungen variieren.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "BMR-Rechner-Oberfläche zeigt den täglichen Kalorienbedarf",
   "ogImageText": "BMR-Rechner"
 }

@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Verificador de Contraste de Cores - Ferramenta de Acessibilidade WCAG",
+  "metaDescription": "Verificador de Contraste de Cores online gratuito. Calcule instantaneamente a relação de contraste entre suas cores de texto e de fundo para garantir conformidade com a acessibilidade WCAG.",
+  "h1": "Verificador de Contraste de Cores",
+  "primaryKeyword": "verificador de contraste de cores",
+  "secondaryKeywords": [
+    "verificador de contraste WCAG",
+    "contraste de cores de acessibilidade",
+    "verificar contraste de cor",
+    "calculadora de legibilidade de texto"
+  ],
+  "slug": "verificador-de-contraste-de-cores",
+  "intro": "Garanta que seu site seja legível para todos. Nosso Verificador de Contraste de Cores gratuito calcula a proporção exata entre as cores do seu texto e do fundo, verificando a conformidade com as diretrizes de acessibilidade WCAG.",
+  "whatIs": "O Verificador de Contraste de Cores é uma ferramenta de acessibilidade na web. Ele avalia matematicamente a luminância relativa de uma cor de primeiro plano (texto) em relação a uma cor de fundo para determinar se há diferença visual suficiente para que usuários com deficiência visual consigam ler o texto confortavelmente.",
+  "howToUse": [
+    "Digite o código HEX para a cor do seu texto/primeiro plano.",
+    "Digite o código HEX para a cor de fundo.",
+    "A ferramenta calcula a taxa de contraste (por exemplo, 4,5:1).",
+    "Ele exibe uma nota de Aprovação/Reprovação para os padrões WCAG AA e AAA."
+  ],
+  "howItWorks": "A ferramenta converte ambos os códigos HEX para RGB, aplica uma fórmula matemática específica para calcular a 'luminância relativa' de ambas as cores e, em seguida, divide a luminância mais clara pela luminância mais escura. O resultado é uma proporção entre 1:1 (sem contraste) e 21:1 (contraste máximo).",
+  "workedExample": "Você testa texto preto puro (#000000) em um fundo branco puro (#FFFFFF). A ferramenta calcula a razão de contraste máxima possível de exatamente 21:1, passando facilmente por todos os requisitos de acessibilidade AAA.",
+  "resultInterpretation": "Uma proporção mais alta significa que o texto é mais fácil de ler. As Diretrizes de Acessibilidade para Conteúdo da Web (WCAG) exigem uma proporção mínima de 4,5:1 para texto normal (padrão AA) e 7:1 para acessibilidade rigorosa (padrão AAA).",
+  "useCases": [
+    "Auditorias de Acessibilidade na Web: Garantindo que um site corporativo não viole as leis de conformidade com a ADA relacionadas à legibilidade.",
+    "Design de UI/UX: Verificando se um texto de espaço reservado cinza claro dentro de um campo de entrada branco é muito difícil de ler.",
+    "Diretrizes da Marca: Verificando se as cores da marca podem ser sobrepostas com segurança umas sobre as outras em gráficos de marketing."
+  ],
+  "tipsAndLimitations": [
+    "Texto grande (acima de 18pt ou 14pt em negrito) é mais fácil de ler, então o WCAG exige apenas uma razão mínima de 3:1 para passar o padrão AA.",
+    "O daltonismo afeta a percepção de tonalidades, mas o contraste de luminância relativa continua sendo o fator mais importante para a legibilidade."
+  ],
+  "faq": [
+    {
+      "question": "O que acontece se minhas cores falharem na verificação?",
+      "answer": "Se eles falharem, seu texto será muito difícil de ler para pessoas com baixa visão ou daltonismo. Você deve escurecer a cor do texto ou clarear a cor do fundo até que a proporção atinja pelo menos 4,5:1."
+    },
+    {
+      "question": "21:1 é o melhor contraste?",
+      "answer": "Matematicamente, sim. No entanto, texto preto puro em fundos brancos puros (21:1) pode causar cansaço visual ou 'halation' para alguns usuários com dislexia. Cinza muito escuro (por exemplo, #222222) sobre branco off-white é frequentemente preferido."
+    }
+  ],
+  "relatedTools": [
+    "color-picker",
+    "color-palette-generator",
+    "hex-to-rgb"
+  ],
+  "cta": "Verifique a acessibilidade das suas cores agora!",
+  "disclaimer": "Esta ferramenta calcula o contraste com base no algoritmo padrão WCAG 2.1 para luminância relativa.",
+  "lastReviewed": "02/10/2026",
+  "imageAlt": "Verificador de Contraste de Cores mostrando uma proporção de 4,5 aprovada",
+  "ogImageText": "Verificador de Contraste de Cores"
+}

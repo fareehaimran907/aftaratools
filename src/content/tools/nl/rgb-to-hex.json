@@ -1,0 +1,53 @@
+{
+  "seoTitle": "RGB naar HEX Converter",
+  "metaDescription": "Gratis online RGB naar HEX-converter. Vertaal snel Rood, Groen en Blauw waarden naar CSS-klare hexadecimale kleurcodes.",
+  "h1": "RGB naar HEX Converter",
+  "primaryKeyword": "rgb naar hex",
+  "secondaryKeywords": [
+    "converteer rgb naar hex",
+    "rgb naar hexadecimaal",
+    "rgb-kleurenconverter",
+    "kleurcode vertaler"
+  ],
+  "slug": "rgb-naar-hex-converter",
+  "intro": "Kleuren uit Photoshop halen om op je website te gebruiken? Onze gratis RGB-naar-HEX-converter zet perfect 0-255 Rood-, Groen- en Blauwwaarden om in het standaard HTML/CSS-hexadecimale formaat.",
+  "whatIs": "De RGB-naar-HEX-converter is een ontwikkelaarshulpmiddel dat drie decimale gehele getallen vertegenwoordigt voor Rood, Groen en Blauw (variërend van 0 tot 255) en deze omzet in een enkele 6-teken Base-16 hexadecimale tekenreeks.",
+  "howToUse": [
+    "Voer de rode waarde in (0-255).",
+    "Voer de groene waarde in (0-255).",
+    "Voer de blauwe waarde in (0-255).",
+    "Het hulpmiddel berekent de equivalente HEX-code en biedt een kleurvoorbeeld."
+  ],
+  "howItWorks": "Het hulpmiddel neemt elk decimaal getal en voert een wiskundige basisconversie uit naar basis 16. Als de resulterende hexadecimale waarde uit één cijfer bestaat (zoals 'A'), wordt deze opgevuld met een voorloopnul ('0A'). Vervolgens voegt het de drie paren samen en voegt een '#' voorvoegsel toe.",
+  "workedExample": "Je voert R: 255, G: 255, B: 255 in. Het hulpmiddel zet 255 om naar hex, wat FF is. Het voegt ze samen: FF + FF + FF. De uitvoer is #FFFFFF, wat puur wit vertegenwoordigt.",
+  "resultInterpretation": "De resulterende 6-tekenreeks is de exacte webklare code die je in je CSS-bestand of HTML-attributen moet plakken om de kleur weer te geven.",
+  "useCases": [
+    "Webdesign: Het nemen van kleuren die in een merkdocument zijn geïdentificeerd (vaak vermeld in RGB) en deze voorbereiden voor frontend-codering.",
+    "Afbeeldingsbewerking: Het gebruik van de pipettool in een afbeeldingeditor om de RGB te vinden, en deze vervolgens omzetten om een webknop van exact dezelfde kleur te maken.",
+    "Gegevensvisualisatie: Programma-matig genereren van HTML-kleuren op basis van numerieke gegevensarrays."
+  ],
+  "tipsAndLimitations": [
+    "RGB-waarden moeten tussen 0 en 255 liggen. Het invoeren van hogere cijfers wordt meestal begrensd tot 255 (FF) of resulteert in een ongeldige kleur.",
+    "Het '#' symbool is technisch vereist in CSS, maar veel grafische ontwerptools accepteren de 6 tekens zonder het hekje."
+  ],
+  "faq": [
+    {
+      "question": "Wat is de HEX-code voor zwart en wit?",
+      "answer": "Puur zwart is RGB(0,0,0), wat wordt omgezet naar #000000. Puur wit is RGB(255,255,255), wat wordt omgezet naar #FFFFFF."
+    },
+    {
+      "question": "Verliest RGB naar HEX conversie kwaliteit?",
+      "answer": "Nee. De conversie is puur wiskundig en verliesvrij. Beide systemen kunnen exact dezelfde 16.777.216 unieke kleuren weergeven in de standaard sRGB-ruimte."
+    }
+  ],
+  "relatedTools": [
+    "hex-to-rgb",
+    "color-picker",
+    "decimal-to-binary"
+  ],
+  "cta": "Zet je RGB-waarden direct om naar HEX!",
+  "disclaimer": "Geeft standaard 6-cijferige HTML-hexadecimale codes weer. Zorg ervoor dat je invoerwaarden de maximale limiet van 255 niet overschrijden.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "RGB naar HEX conversie-interface",
+  "ogImageText": "RGB naar HEX Converter"
+}

@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Terrassenrechner",
-  "metaDescription": "Kostenloser Online-Terrassenrechner. Berechnen Sie Materialien für eine Terrasse.",
+  "seoTitle": "Terrassenrechner - Schätzen Sie Terrassendielen und Materialien",
+  "metaDescription": "Kostenloser Online-Terrassenrechner. Ermitteln Sie genau, wie viele Terrassendielen, Tragbalken und Schrauben Sie benötigen, um Ihre maßgeschneiderte Holz- oder Verbundterrasse zu bauen.",
   "h1": "Terrassenrechner",
   "primaryKeyword": "Terrassenrechner",
   "secondaryKeywords": [
-    "Terrassenrechner online",
-    "Kostenloser Terrassenrechner",
-    "Rechner für den besten Terrassenbelag"
+    "Wie viele Terrassendielen brauche ich",
+    "Deckmaterial-Schätzer",
+    "Verbunddielen-Rechner",
+    "Terrassenrahmen Rechner"
   ],
-  "slug": "Terrassenrechner",
-  "intro": "Nutzen Sie unseren kostenlosen Online-Terrassenrechner. Basierend auf Ihren Eingaben schätzt es die benötigten Terrassendielen.",
-  "whatIs": "Der Terrassenrechner ist ein Online-Dienstprogramm, das die benötigten Terrassendielen schätzt. Es bearbeitet Ihre Terrassenfläche und sorgt für lineare Fußlänge der Terrassendiele.",
+  "slug": "terrassenrechner",
+  "intro": "Planen Sie, ein schönes Garten-Deck zu bauen? Unser kostenloser Decking-Rechner sagt Ihnen genau, wie viele Bretter, Träger und Befestigungselemente Sie benötigen, und verhindert so Zwischenstopps im Holzfachhandel während des Projekts.",
+  "whatIs": "Der Terrassenrechner ist ein Werkzeug zur Kalkulation im Tischlerhandwerk. Er nimmt die Gesamtabmessungen Ihrer geplanten Terrasse und übersetzt sie in eine äußerst genaue Einkaufsliste für das benötigte Holz und die Hardware für den Bau.",
   "howToUse": [
-    "Geben Sie Ihre Deckfläche in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie die Platinenbreite an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um lineare Fuß für Terrassendielen zu generieren.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
+    "Geben Sie die Gesamtlänge und -breite Ihres geplanten Decks ein.",
+    "Wählen Sie die Breite Ihrer Terrassendiele (z. B. Standarddielen von 5,5 Zoll) und die Länge (12 ft oder 16 ft).",
+    "Wählen Sie Ihren Balkenabstand (normalerweise 16 Zoll von Mitte zu Mitte).",
+    "Das Werkzeug berechnet die insgesamt benötigten Bretter, Balken und Schrauben."
   ],
-  "howItWorks": "Dieses Tool arbeitet in Ihrem Browser, indem es Standardalgorithmen auf Ihren Terrassenbereich anwendet. Die Daten werden sofort verarbeitet, um lineare Fuß des Terrassenbelags auszugeben.",
-  "workedExample": "Beispiel: Für ein 10x10-Deck sind ca. 220 Fuß 5,5-Zoll-Bretter erforderlich.",
-  "resultInterpretation": "Das Ergebnis stellt lineare Fuß des Terrassenbelags dar. Sie können diese Daten für Ihre spezifischen Berechnungen oder Formatierungsanforderungen verwenden.",
+  "howItWorks": "Das Werkzeug teilt die Deckbreite durch die Brettbreite (plus einen Standardabstand von 1/8 bis 1/4 Zoll für die Entwässerung), um die Anzahl der Brettreihen zu bestimmen. Anschließend wird die Decklänge durch die Brettlänge geteilt, um die Gesamtanzahl der Bretter zu berechnen, wobei ein 10%-iger Verschnittfaktor hinzugefügt wird. Die Träger werden basierend auf der Abstandsaufteilung berechnet.",
+  "workedExample": "Ein 10x12 Fuß hohes Deck, das 12 Fuß lange Bretter (5,5 Zoll breit) verwendet. 10 Fuß = 120 Zoll. 120 / 5,75 (Brett + Spalt) = ~21 Bretter. Da die Bretter genau die Länge des Decks haben, benötigt man genau 21 Bretter, plus 2 für Abfall.",
+  "resultInterpretation": "Die endgültige Materialliste kann direkt in einen Baumarkt mitgenommen werden. Sie stellt sicher, dass Sie genug Holz haben, um die Oberfläche, das tragende Untergestell und genügend Schrauben zu vervollständigen, um alles zu befestigen.",
   "useCases": [
-    "Renovierungen im Hinterhof",
-    "Bestellung von Terrassendielen aus Verbundwerkstoff",
-    "Schnelle Bearbeitung der Deckfläche unterwegs"
+    "DIY-Hinterhofdecks: Ein Hausbesitzer plant ein einfaches, ebenerdiges quadratisches Deck.",
+    "Auftragsvergabe durch Auftragnehmer: Ein Bauunternehmer schätzt schnell die Gesamtkosten für Material von Verbundholz-Terrassendielen, um einem Kunden ein genaues Angebot zu machen.",
+    "Material-Upgrades: Vergleich des gesamten Brettbedarfs beim Verlegen der Bretter gerade im Vergleich zum diagonal Verlegen (was mehr Holz und kürzeren Balkenabstand erfordert)."
   ],
   "tipsAndLimitations": [
-    "Bei diagonaler Anordnung 10 % extra hinzufügen.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten privat bleiben."
+    "Standardmäßige 5/4x6 Dielenbretter sind tatsächlich 5,5 Zoll breit, nicht 6 Zoll. Das Werkzeug berücksichtigt diese ‚nominale‘ vs. ‚tatsächliche‘ Holzabmessung.",
+    "Wenn Sie Bretter diagonal (im 45-Grad-Winkel) verlegen, müssen Sie den Verschnittfaktor auf mindestens 15 % erhöhen."
   ],
   "faq": [
     {
-      "question": "Ist der Abstand wichtig?",
-      "answer": "Ja, Abstände von 1/8 bis 1/4 Zoll zwischen den Brettern verringern den Gesamtholzbedarf."
+      "question": "Was ist 'on center' Balkenabstand?",
+      "answer": "Es bedeutet, vom Zentrum eines Balkens bis zum Zentrum des nächsten zu messen. Standard-Holzdecks verwenden einen Abstand von 16 Zoll. Verbunddecks erfordern oft einen Abstand von 12 Zoll, um ein Durchhängen der Bretter zu verhindern."
     },
     {
-      "question": "Ist die Nutzung des Terrassenrechners kostenlos?",
-      "answer": "Ja, unser Terrassenrechner ist völlig kostenlos und erfordert keine Registrierung."
-    },
-    {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, das Tool reagiert vollständig und funktioniert auf allen Smartphones und Tablets einwandfrei."
+      "question": "Wie viel Abstand sollte ich zwischen den Brettern lassen?",
+      "answer": "Normalerweise 1/8 bis 1/4 Zoll. Dies ermöglicht das Ablaufen von Wasser und gibt dem Holz Raum, sich bei wechselndem Wetter natürlich auszudehnen und zusammenzuziehen."
     }
   ],
   "relatedTools": [
-    "Quadratmeterrechner",
-    "Farbrechner",
-    "Fliesenrechner"
+    "concrete-calculator",
+    "fence-calculator",
+    "square-footage-calculator"
   ],
-  "lastReviewed": "29.09.2026",
-  "imageAlt": "Screenshot der Benutzeroberfläche des Terrassenrechners",
+  "cta": "Schätzen Sie jetzt Ihre Terrassenmaterialien!",
+  "disclaimer": "Das Werkzeug geht von einem standardmäßigen rechteckigen Layout aus. Komplexe Decks mit mehreren Ebenen, Treppen oder Ausschnitten erfordern manuelle Anpassungen in der endgültigen Materialliste.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Oberflächenrechner-Oberfläche zeigt die Anzahl der Bretter",
   "ogImageText": "Terrassenrechner"
 }

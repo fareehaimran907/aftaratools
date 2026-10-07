@@ -1,0 +1,52 @@
+{
+  "seoTitle": "Convertitore da HEX a RGB",
+  "metaDescription": "Convertitore HEX in RGB gratuito online. Trasforma istantaneamente i codici colore HEX del web in formati RGB. Essenziale per CSS e sviluppo web.",
+  "h1": "Convertitore da HEX a RGB",
+  "primaryKeyword": "esadecimale a RGB",
+  "secondaryKeywords": [
+    "convertire esadecimale in RGB",
+    "colore esadecimale in RGB",
+    "calcolatore da esadecimale a RGB",
+    "convertitore di colori CSS"
+  ],
+  "slug": "convertitore-da-hex-a-rgb",
+  "intro": "Hai un codice colore esadecimale ma hai bisogno dei valori RGB per aggiungere un canale di opacità in CSS? Il nostro convertitore HEX in RGB gratuito traduce istantaneamente le stringhe di colore esadecimale in valori interi standard di Rosso, Verde, Blu.",
+  "whatIs": "Il convertitore HEX in RGB è uno strumento di progettazione e sviluppo che prende un codice colore esadecimale di 6 caratteri (ampiamente utilizzato in HTML/CSS) e lo traduce in un formato RGB (utilizzato nei software di design e in CSS rgba).",
+  "howToUse": [
+    "Inserisci il tuo codice HEX a 6 cifre (es. FF5733). Il '#' è facoltativo.",
+    "Lo strumento analizza istantaneamente la stringa.",
+    "I valori RGB esatti (0-255) sono visualizzati accanto a un'anteprima del colore."
+  ],
+  "howItWorks": "Un codice HEX a 6 cifre è in realtà composto da tre numeri separati. Lo strumento divide la stringa in coppie (ad esempio, FF, 57, 33). Successivamente utilizza la matematica da base-16 a base-10 per convertire ciascuna coppia in un numero decimale compreso tra 0 e 255.",
+  "workedExample": "Inserisci #00FF00. Lo strumento lo divide: Rosso è 00, Verde è FF, Blu è 00. L'esadecimale '00' è decimale 0. L'esadecimale 'FF' è decimale 255. Lo strumento produce RGB(0, 255, 0), che è verde puro.",
+  "resultInterpretation": "L'output è il rapporto esatto di luce rossa, verde e blu che un monitor del computer deve emettere per mostrare il colore target.",
+  "useCases": [
+    "Trasparenza CSS: Convertire un HEX in RGB così puoi scrivere `rgba(255, 0, 0, 0.5)` per uno sfondo trasparente al 50%.",
+    "Integrazioni Software: Inserimento dei colori in software legacy o motori di gioco che accettano solo input RGB da 0 a 255.",
+    "Consegna del design: Assicurarsi che un grafico che utilizza RGB in Photoshop abbia lo stesso identico colore dello sviluppatore che utilizza HEX."
+  ],
+  "tipsAndLimitations": [
+    "Lo strumento supporta codici HEX abbreviati a 3 cifre (come #F00). Li espande automaticamente in #FF0000 prima della conversione.",
+    "I codici esadecimali non fanno distinzione tra maiuscole e minuscole. #ff0000 e #FF0000 sono matematicamente identici."
+  ],
+  "faq": [
+    {
+      "question": "Posso convertire un codice HEX a 8 cifre?",
+      "answer": "I codici esadecimali a 8 cifre includono un canale alfa (trasparenza). I convertitori standard da 6 cifre a RGB ignoreranno le ultime due cifre. Avresti bisogno di un convertitore da HEX a RGBA per il valore di opacità."
+    },
+    {
+      "question": "Perché usare RGB invece di HEX?",
+      "answer": "Mentre HEX è più breve da digitare, RGB rende molto più facile manipolare i colori programmaticamente, come cambiare dinamicamente l'opacità (RGBA) o calcolare i rapporti di contrasto dei colori in JavaScript."
+    }
+  ],
+  "relatedTools": [
+    "rgb-to-hex",
+    "color-picker",
+    "hex-to-decimal"
+  ],
+  "cta": "Converti subito i tuoi codici HEX in RGB!",
+  "disclaimer": "Questo strumento converte rigorosamente in modo matematico i codici colore esadecimali in base 10. Presuppone lo spazio colore sRGB standard.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfaccia di conversione da HEX a RGB",
+  "ogImageText": "Convertitore da HEX a RGB"
+}

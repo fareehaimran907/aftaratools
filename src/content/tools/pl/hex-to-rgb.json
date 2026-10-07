@@ -1,0 +1,52 @@
+{
+  "seoTitle": "Konwerter HEX na RGB",
+  "metaDescription": "Darmowy internetowy konwerter HEX na RGB. Natychmiast przekształcaj kody kolorów HEX na formaty RGB. Niezbędne do CSS i tworzenia stron internetowych.",
+  "h1": "Konwerter HEX na RGB",
+  "primaryKeyword": "hex na rgb",
+  "secondaryKeywords": [
+    "konwertuj hex na rgb",
+    "kolor szesnastkowy na rgb",
+    "kalkulator z szesnastkowego na RGB",
+    "konwerter kolorów CSS"
+  ],
+  "slug": "konwerter-hex-na-rgb",
+  "intro": "Masz kod koloru w formacie heksadecymalnym, ale potrzebujesz wartości RGB, aby dodać kanał przezroczystości w CSS? Nasz darmowy konwerter HEX na RGB natychmiast przekształca ciągi kolorów szesnastkowych na standardowe liczby całkowite Red, Green, Blue.",
+  "whatIs": "Konwerter HEX na RGB to narzędzie do projektowania i tworzenia, które przekształca 6-znakowy kod koloru szesnastkowego (często używany w HTML/CSS) na format RGB (używany w oprogramowaniu do projektowania i w CSS rgba).",
+  "howToUse": [
+    "Wprowadź swój 6-cyfrowy kod HEX (np. FF5733). '#' jest opcjonalny.",
+    "Narzędzie natychmiast parsuje ciąg.",
+    "Dokładne wartości RGB (0-255) są wyświetlane obok wizualnego podglądu koloru."
+  ],
+  "howItWorks": "Sześciocyfrowy kod HEX to w rzeczywistości trzy oddzielne liczby. Narzędzie dzieli ciąg na pary (np. FF, 57, 33). Następnie używa matematyki z podstawy 16 na podstawę 10, aby przekształcić każdą parę w liczbę dziesiętną między 0 a 255.",
+  "workedExample": "Wprowadzasz #00FF00. Narzędzie dzieli go: czerwony to 00, zielony to FF, niebieski to 00. Szesnastkowe '00' to dziesiętnie 0. Szesnastkowe 'FF' to dziesiętnie 255. Narzędzie zwraca RGB(0, 255, 0), co jest czystą zielenią.",
+  "resultInterpretation": "Wyjście to dokładny stosunek światła czerwonego, zielonego i niebieskiego, który monitor komputerowy musi emitować, aby wyświetlić docelowy kolor.",
+  "useCases": [
+    "Przezroczystość CSS: Konwertowanie HEX na RGB, aby móc napisać `rgba(255, 0, 0, 0.5)` dla tła o 50% przezroczystości.",
+    "Integracje oprogramowania: Wprowadzanie kolorów do starszego oprogramowania lub silników gier, które akceptują jedynie wartości RGB w zakresie 0-255.",
+    "Przekazanie projektu: Zapewnienie, że grafik korzystający z RGB w Photoshopie ma dokładnie ten sam kolor, co deweloper używający HEX."
+  ],
+  "tipsAndLimitations": [
+    "Narzędzie obsługuje skrótowe kody HEX składające się z 3 cyfr (takie jak #F00). Automatycznie rozszerza je do #FF0000 przed konwersją.",
+    "Kody szesnastkowe nie rozróżniają wielkości liter. #ff0000 i #FF0000 są matematycznie identyczne."
+  ],
+  "faq": [
+    {
+      "question": "Czy mogę przekonwertować 8-cyfrowy kod HEX?",
+      "answer": "8-cyfrowe kody szesnastkowe zawierają kanał alfa (przezroczystość). Standardowe konwertery z 6-cyfrowych kodów do RGB zignorują ostatnie dwie cyfry. Potrzebny byłby konwerter HEX na RGBA dla wartości przezroczystości."
+    },
+    {
+      "question": "Dlaczego używać RGB zamiast HEX?",
+      "answer": "Chociaż HEX jest krótszy do wpisania, RGB znacznie ułatwia programowe manipulowanie kolorami, takie jak dynamiczna zmiana przezroczystości (RGBA) czy obliczanie współczynników kontrastu kolorów w JavaScript."
+    }
+  ],
+  "relatedTools": [
+    "rgb-to-hex",
+    "color-picker",
+    "hex-to-decimal"
+  ],
+  "cta": "Konwertuj swoje kody HEX na RGB teraz!",
+  "disclaimer": "To narzędzie ściśle matematycznie konwertuje kody kolorów w systemie szesnastkowym na dziesiętny. Zakłada standardową przestrzeń kolorów sRGB.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfejs konwersji HEX na RGB",
+  "ogImageText": "Konwerter HEX na RGB"
+}

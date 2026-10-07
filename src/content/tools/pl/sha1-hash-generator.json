@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Generator skrótów SHA1 - Bezpieczny algorytm skrótu 1",
+  "metaDescription": "Darmowy internetowy generator skrótów SHA1. Natychmiast oblicz 40-znakowy szesnastkowy skrót SHA-1 dla ciągów tekstowych. Idealny dla commitów Git i sum kontrolnych.",
+  "h1": "Generator skrótów SHA1",
+  "primaryKeyword": "generator skrótów SHA1",
+  "secondaryKeywords": [
+    "generator sha1 online",
+    "tekst do sha1",
+    "oblicz sha1",
+    "sumy kontrolnej SHA1"
+  ],
+  "slug": "generator-skrótów-sha1",
+  "intro": "Pracujesz z repozytoriami Git lub weryfikujesz stare cyfrowe certyfikaty? Nasz darmowy Generator Hashy SHA1 szybko oblicza standardowy 160-bitowy hash dla dowolnego wprowadzonego ciągu tekstowego.",
+  "whatIs": "Generator skrótów SHA1 to narzędzie, które wykorzystuje Algorytm Bezpiecznego Skrótu 1. Przetwarza dane wejściowe dowolnej wielkości, aby wygenerować 160-bitową wartość skrótu, zwykle przedstawianą jako 40-znakowy ciąg szesnastkowy.",
+  "howToUse": [
+    "Wprowadź tekst docelowy w polu wprowadzania.",
+    "Narzędzie oblicza skrót SHA-1 w czasie rzeczywistym.",
+    "Wyświetlany jest 40-znakowy ciąg szesnastkowy.",
+    "Skopiuj ciąg znaków do swoich potrzeb weryfikacyjnych."
+  ],
+  "howItWorks": "Opracowany przez NSA, algorytm SHA-1 przetwarza tekst w blokach o rozmiarze 512 bitów. Wykorzystuje serię operacji bitowych, dodawania modularnego i funkcji kompresji przez 80 rund, aby wygenerować końcowy 160-bitowy skrót wiadomości.",
+  "workedExample": "Wpisując słowo 'hello'. Algorytm SHA-1 przetwarza tekst i zwraca: `aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d`.",
+  "resultInterpretation": "40-znakowy wynik jest cyfrowym odciskiem palca twojego tekstu. Zmiana nawet jednej przecinka w ogromnym dokumencie spowoduje powstanie całkowicie innego 40-znakowego ciągu.",
+  "useCases": [
+    "Kontrola wersji (Git): Ręczne generowanie lub weryfikowanie skrótów SHA-1, których Git używa do unikalnej identyfikacji commitów i stanów plików.",
+    "Weryfikacja pliku: Sprawdzanie integralności pobranego pliku ISO względem udostępnionego przez wydawcę sumy kontrolnej SHA-1.",
+    "Indeksowanie baz danych: Tworzenie szybkich kluczy wyszukiwania w bazie danych o jednolitej długości z ciągów tekstowych o zmiennej długości."
+  ],
+  "tipsAndLimitations": [
+    "SHA-1 generuje 40 znaków, co czyni go nieco dłuższym i wcześniej bardziej bezpiecznym niż MD5 (32 znaki).",
+    "OSTRZEŻENIE BEZPIECZEŃSTWA: Podobnie jak MD5, SHA-1 jest obecnie uważany za kryptograficznie złamany. W 2017 roku Google skutecznie przeprowadziło atak kolizyjny na niego. Nie używaj SHA-1 do współczesnego haszowania haseł ani certyfikatów SSL."
+  ],
+  "faq": [
+    {
+      "question": "Dlaczego Git nadal używa SHA-1, skoro jest złamany?",
+      "answer": "Git używa SHA-1 głównie do sprawdzania przypadkowej korupcji danych, a nie do wysokiego poziomu bezpieczeństwa. Szansa na przypadkową kolizję, która zniszczyłaby repozytorium Git, jest praktycznie zerowa, chociaż Git powoli przechodzi na SHA-256."
+    },
+    {
+      "question": "Czy mogę odwrócić skrót SHA-1?",
+      "answer": "Nie. Z założenia, haszowanie jest jednoetapową transformacją matematyczną. Jednak powszechne słowa haszowane w SHA-1 mogą być łatwo wyszukane w internetowych bazach danych do deszyfrowania."
+    }
+  ],
+  "relatedTools": [
+    "sha256-hash-generator",
+    "md5-hash-generator",
+    "hash-generator"
+  ],
+  "cta": "Oblicz swój hash SHA-1 natychmiast!",
+  "disclaimer": "SHA-1 zostało kryptograficznie wycofane przez NIST. Do bezpiecznych aplikacji wymagających odporności na kolizje używaj SHA-256.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfejs generatora skrótów SHA1",
+  "ogImageText": "Generator skrótów SHA1"
+}

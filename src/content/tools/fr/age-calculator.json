@@ -1,55 +1,91 @@
 {
-  "seoTitle": "Calculateur d'âge",
-  "metaDescription": "Calculateur d'âge en ligne gratuit. Calculez votre âge exact en années, mois et jours.",
+  "seoTitle": "Calculateur d'âge – Calculez votre âge exact en années, mois et jours",
+  "metaDescription": "Calculateur d'âge en ligne gratuit. Entrez votre date de naissance et découvrez instantanément votre âge exact en années, mois, jours et nombre total de jours vécus.",
   "h1": "Calculateur d'âge",
   "primaryKeyword": "calculateur d'âge",
   "secondaryKeywords": [
-    "calculateur d'âge en ligne",
-    "calculateur d'âge gratuit",
-    "meilleur calculateur d'âge"
+    "quel âge ai-je",
+    "calculer mon âge",
+    "calculer âge exact",
+    "âge en années mois jours",
+    "calculer âge à partir date de naissance",
+    "combien de jours ai-je vécu",
+    "âge exact en ligne",
+    "prochain anniversaire combien de jours",
+    "calculateur âge gratuit"
   ],
-  "slug": "calculateur d'âge",
-  "intro": "Utilisez notre outil de calcul d’âge en ligne gratuit. Il détermine l'âge exact en fonction de vos entrées.",
-  "whatIs": "Le calculateur d'âge est un utilitaire en ligne qui détermine l'âge exact. Il traite votre date de naissance et indique la différence exacte en années, mois et jours.",
+  "slug": "calculateur-d-age",
+  "intro": "Vous voulez savoir exactement quel âge vous avez, au jour près ? Notre calculateur d'âge gratuit vous donne une réponse précise en quelques secondes : années, mois, jours, le nombre total de jours vécus et un compte à rebours jusqu'à votre prochain anniversaire. Tout le traitement s'effectue localement dans votre navigateur — votre date de naissance ne quitte jamais votre appareil.",
+  "whatIs": "Un calculateur d'âge est un outil en ligne qui mesure le temps exact écoulé entre la date de naissance d'une personne et une date cible quelconque — généralement aujourd'hui. Contrairement à une simple soustraction d'années (2026 moins 1990 = 36), un véritable calculateur d'âge prend en compte les années bissextiles, le nombre variable de jours dans chaque mois calendaire (28, 29, 30 ou 31) et si le jour d'anniversaire du mois en cours est déjà passé. Le résultat est décomposé en années révolues, mois complets supplémentaires et jours restants, afin que vous connaissiez votre âge chronologique précis plutôt qu'une estimation approximative en années entières. Notre outil affiche également deux données bonus : le total cumulé des jours vécus (utile dans les contextes juridiques, médicaux et personnels) et le nombre de jours restants avant votre prochain anniversaire.",
   "howToUse": [
-    "Entrez votre date de naissance dans le champ de saisie désigné.",
-    "Fournissez tous les paramètres secondaires comme la date actuelle.",
-    "Cliquez sur le bouton Calculer ou Soumettre pour générer la différence exacte en années, mois et jours.",
-    "Copiez ou examinez le résultat obtenu selon vos besoins."
+    "Entrez votre date de naissance dans le champ « Date de naissance » à l'aide du sélecteur de date ou en tapant au format AAAA-MM-JJ.",
+    "Facultativement, définissez une « Date cible » si vous souhaitez calculer votre âge à une date passée ou future spécifique.",
+    "Cliquez sur le bouton « Calculer ».",
+    "Votre âge exact s'affiche en années, mois et jours, accompagné du compte à rebours jusqu'au prochain anniversaire et du total de jours vécus.",
+    "Utilisez le bouton copier pour copier le résultat dans le presse-papiers, ou appuyez sur Réinitialiser pour recommencer."
   ],
-  "howItWorks": "Cet outil fonctionne dans votre navigateur en appliquant des algorithmes standards à votre date de naissance. Il traite instantanément les données pour afficher la différence exacte en années, mois et jours.",
-  "workedExample": "Par exemple : du 1er janvier 1990 au 1er janvier 2024 renvoie exactement 34 ans.",
-  "resultInterpretation": "Le résultat représente la différence exacte en années, mois et jours. Vous pouvez utiliser ces données pour vos calculs spécifiques ou vos besoins de formatage.",
+  "howItWorks": "L'algorithme résout (Date cible moins Date de naissance) de manière séquentielle : d'abord le nombre d'années calendaires complètes entre les deux dates, puis le nombre de mois calendaires complets supplémentaires et enfin les jours restants. Lorsque le jour de naissance est supérieur au jour cible du mois, le calcul emprunte au mois précédent en utilisant le nombre réel de jours de ce mois (28, 29, 30 ou 31). Les années bissextiles — années divisibles par 4, sauf les siècles non divisibles par 400 — sont gérées nativement car le code utilise des objets Date de JavaScript qui intègrent les règles du calendrier grégorien. Le total de jours vécus est calculé comme la partie entière de (dateCible − dateNaissance) divisée par 86 400 000 millisecondes. Le compte à rebours d'anniversaire trouve la prochaine occurrence dans l'année en cours ou suivante et soustrait la date d'aujourd'hui.",
+  "workedExample": "Exemple : Date de naissance = 15 mars 1990. Date cible = 1er octobre 2026. Étape 1 — années complètes du 15/03/1990 au 15/03/2026 = 36 ans. Étape 2 — mois complets du 15/03/2026 au 15/09/2026 = 6 mois (le mois complet suivant, le 15 octobre, dépasse la date cible). Étape 3 — jours restants du 15 septembre au 1er octobre = 16 jours. Résultat : 36 ans, 6 mois, 16 jours. Total de jours vécus = floor((01/10/2026 − 15/03/1990) / 86 400 000) = 13 349 jours. Prochain anniversaire (15 mars 2027) : dans 165 jours à partir du 1er octobre 2026.",
+  "resultInterpretation": "La valeur « Années » correspond à votre âge révolu — le chiffre qui figure sur les documents officiels et les formulaires juridiques. « Mois » est le nombre de mois calendaires complets supplémentaires depuis votre dernier anniversaire. « Jours » représente les jours restants du mois partiel après le dernier mois complet. Ensemble, ces trois nombres forment votre âge chronologique exact. « Prochain Anniversaire » indique le nombre de jours restants avant de compléter votre prochaine année de vie — idéal pour les comptes à rebours et la planification de jalons. « Jours Totaux » est le décompte absolu de jours depuis la naissance jusqu'à la date cible, particulièrement utile en contexte médical (âge néonatal), en recherche scientifique, en vérification juridique d'âge et pour célébrer des étapes personnelles comme le 10 000e jour de vie.",
   "useCases": [
-    "Vérification de l'âge exact pour les formulaires",
-    "Calculer l'âge des événements historiques",
-    "Traitement rapide de la date de naissance en déplacement"
+    "Remplir les champs d'âge dans les formulaires officiels nécessitant une répartition exacte en années, mois et jours.",
+    "Calculer l'âge de développement précis d'un enfant pour les étapes pédiatriques ou les dates limites d'inscription scolaire.",
+    "Vérifier si une personne satisfait l'exigence d'âge minimum pour un contrat, un permis de conduire ou une retraite.",
+    "Déterminer l'ancienneté d'événements historiques — par exemple, depuis combien de temps un monument célèbre a été construit.",
+    "Curiosité personnelle : fêter le 10 000e jour de sa vie ou planifier un anniversaire important.",
+    "Calculer son âge à une date passée précise, comme le jour où l'on a commencé un emploi ou célébré son mariage."
   ],
   "tipsAndLimitations": [
-    "Suppose le calendrier grégorien.",
-    "Assurez-vous que vos entrées sont correctement formatées pour obtenir les meilleurs résultats.",
-    "L'outil fonctionne entièrement côté client, garantissant que vos données restent privées."
+    "Le calculateur suppose le calendrier grégorien. Les dates antérieures à la réforme grégorienne (15 octobre 1582) peuvent ne pas être historiquement exactes.",
+    "Pour les périodes couvrant la transition du calendrier julien au grégorien, consultez un outil de dates historiques spécialisé.",
+    "Assurez-vous que la date et l'heure locales de votre navigateur sont correctes ; la valeur « aujourd'hui » est prise depuis l'horloge de votre appareil.",
+    "Si vous entrez une date de naissance dans le futur, le calculateur affichera une erreur — il ne peut pas calculer un âge négatif.",
+    "Le champ « Date cible » est facultatif et défini par défaut à aujourd'hui. Utilisez-le pour calculer votre âge à n'importe quel moment passé ou futur.",
+    "Tous les calculs s'exécutent localement dans votre navigateur via JavaScript ; aucune donnée personnelle n'est envoyée à un serveur."
   ],
   "faq": [
     {
-      "question": "Est-ce que cela tient compte des années bissextiles ?",
-      "answer": "Oui, cela prend pleinement en compte les années bissextiles."
+      "question": "Quel âge ai-je exactement en ce moment ?",
+      "answer": "Entrez votre date de naissance dans le calculateur ci-dessus et cliquez sur « Calculer ». Vous verrez instantanément votre âge exact en années, mois et jours à la date d'aujourd'hui, en utilisant la date locale de votre navigateur."
     },
     {
-      "question": "L'utilisation du calculateur d'âge est-elle gratuite ?",
-      "answer": "Oui, notre calculateur d’âge est entièrement gratuit et ne nécessite aucune inscription."
+      "question": "Le calculateur prend-il en compte les années bissextiles ?",
+      "answer": "Oui. L'algorithme gère entièrement les années bissextiles. Les anniversaires du 29 février sont traités comme le 1er mars les années non bissextiles pour le calcul des jours, ce qui est cohérent avec la plupart des normes juridiques et médicales internationales."
     },
     {
-      "question": "Est-ce que cela fonctionne sur les appareils mobiles ?",
-      "answer": "Oui, l'outil est entièrement réactif et fonctionne parfaitement sur tous les smartphones et tablettes."
+      "question": "Puis-je calculer mon âge à une date passée ou future ?",
+      "answer": "Absolument. Utilisez le champ optionnel « Date cible » pour définir n'importe quelle date — passée ou future. C'est utile pour la recherche historique, les calculs de dates limites légales ou la projection de votre âge à un jalon futur."
+    },
+    {
+      "question": "Comment les « Jours Totaux » sont-ils calculés ?",
+      "answer": "Les Jours Totaux correspondent au nombre absolu de jours entre votre date de naissance et la date cible, calculé comme floor((dateCible − dateNaissance) / 86 400 000 millisecondes). Les contributions des jours bissextiles sont incluses automatiquement car le calcul utilise des dates calendaires réelles."
+    },
+    {
+      "question": "Pourquoi mon âge affiché est-il parfois décalé d'un jour ?",
+      "answer": "Cela peut se produire si l'horloge locale de votre navigateur est réglée sur un fuseau horaire différent de votre emplacement, ou si minuit n'est pas encore passé dans votre fuseau. Le calculateur utilise la date locale de votre appareil, vérifiez donc que votre horloge système est correcte."
+    },
+    {
+      "question": "Qu'est-ce que « Prochain Anniversaire » et comment est-il calculé ?",
+      "answer": "Il montre le nombre de jours restants jusqu'à votre prochain anniversaire annuel. L'outil trouve votre mois et jour de naissance dans l'année en cours ou suivante et soustrait la date d'aujourd'hui. Si c'est votre anniversaire, il affiche 0 ou 365/366 jours jusqu'à l'année suivante."
+    },
+    {
+      "question": "Cet outil est-il gratuit et respectueux de la vie privée ?",
+      "answer": "Oui — entièrement gratuit, sans compte requis et totalement privé. Votre date de naissance ne quitte jamais votre appareil. Tous les calculs se font localement dans votre navigateur en JavaScript."
+    },
+    {
+      "question": "Puis-je utiliser ce calculateur sur smartphone ou tablette ?",
+      "answer": "Oui. L'interface est entièrement responsive et fonctionne sur tous les smartphones, tablettes et navigateurs de bureau modernes. Le sélecteur de date s'adapte aux entrées tactiles sur les appareils mobiles."
     }
   ],
   "relatedTools": [
-    "calculateur de différence de date",
-    "jours entre les dates",
-    "jours jusqu'à la calculatrice"
+    "date-difference-calculator",
+    "days-between-dates",
+    "days-until-calculator",
+    "months-between-dates"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Capture d'écran de l'interface du calculateur d'âge",
-  "ogImageText": "Calculateur d'âge"
+  "cta": "Essayez le calculateur d'âge maintenant — entrez votre date de naissance ci-dessus et découvrez exactement combien de temps vous avez passé sur cette planète, au jour près.",
+  "disclaimer": "Cet outil est uniquement destiné à un usage informatif et personnel. Pour des besoins juridiques, médicaux ou officiels, vérifiez toujours les calculs d'âge avec une documentation officielle telle qu'un acte de naissance.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Outil calculateur d'âge affichant un champ de date de naissance et des résultats en années, mois et jours",
+  "ogImageText": "Calculateur d'âge – Années, Mois & Jours"
 }

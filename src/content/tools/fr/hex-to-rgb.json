@@ -1,0 +1,52 @@
+{
+  "seoTitle": "Convertisseur HEX en RGB",
+  "metaDescription": "Convertisseur HEX en RGB gratuit en ligne. Traduisez instantanément les codes de couleur HEX du web en formats RGB. Essentiel pour le CSS et le développement web.",
+  "h1": "Convertisseur HEX en RGB",
+  "primaryKeyword": "hex en rgb",
+  "secondaryKeywords": [
+    "convertir l'hex en RVB",
+    "couleur hexadécimale en rvb",
+    "calculateur hexadécimal en rvb",
+    "convertisseur de couleur CSS"
+  ],
+  "slug": "convertisseur-hex-en-rgb",
+  "intro": "Vous avez un code couleur hexadécimal mais vous avez besoin des valeurs RVB pour ajouter un canal d'opacité en CSS ? Notre convertisseur HEX en RVB gratuit traduit instantanément les chaînes de couleurs hexadécimales en entiers standards Rouge, Vert, Bleu.",
+  "whatIs": "Le convertisseur HEX vers RGB est un outil de conception et de développement qui prend un code couleur hexadécimal à 6 caractères (utilisé massivement dans HTML/CSS) et le traduit en format RGB (utilisé dans les logiciels de conception et le CSS rgba).",
+  "howToUse": [
+    "Entrez votre code HEX à 6 chiffres (par exemple, FF5733). Le '#' est optionnel.",
+    "L'outil analyse instantanément la chaîne.",
+    "Les valeurs RGB exactes (0-255) sont affichées à côté d’un aperçu visuel de la couleur."
+  ],
+  "howItWorks": "Un code HEX à 6 chiffres est en réalité trois nombres séparés. L'outil divise la chaîne en paires (par exemple, FF, 57, 33). Il utilise ensuite des calculs en base 16 vers base 10 pour convertir chaque paire en un nombre décimal compris entre 0 et 255.",
+  "workedExample": "Vous saisissez #00FF00. L'outil le divise : le rouge est 00, le vert est FF, le bleu est 00. L'hex '00' est décimal 0. L'hex 'FF' est décimal 255. L'outil produit RGB(0, 255, 0), ce qui est vert pur.",
+  "resultInterpretation": "La sortie est le rapport exact de lumière rouge, verte et bleue qu'un écran d'ordinateur doit émettre pour afficher la couleur cible.",
+  "useCases": [
+    "Transparence CSS : Conversion d'un HEX en RGB afin que vous puissiez écrire `rgba(255, 0, 0, 0.5)` pour un arrière-plan à 50 % transparent.",
+    "Intégrations logicielles : Saisie de couleurs dans des logiciels ou moteurs de jeu anciens qui n'acceptent que des entrées RVB 0-255.",
+    "Transfert de conception : s'assurer qu'un graphiste utilisant le RGB dans Photoshop a exactement la même couleur que le développeur utilisant le HEX."
+  ],
+  "tipsAndLimitations": [
+    "L'outil prend en charge les codes HEX abrégés à 3 chiffres (comme #F00). Il les développe automatiquement en #FF0000 avant de les convertir.",
+    "Les codes hexadécimaux ne sont pas sensibles à la casse. #ff0000 et #FF0000 sont mathématiquement identiques."
+  ],
+  "faq": [
+    {
+      "question": "Puis-je convertir un code HEX à 8 chiffres ?",
+      "answer": "Les codes hexadécimaux à 8 chiffres incluent un canal alpha (transparence). Les convertisseurs standard de 6 chiffres vers RGB ignoreront les deux derniers chiffres. Vous auriez besoin d'un convertisseur HEX en RGBA pour la valeur d'opacité."
+    },
+    {
+      "question": "Pourquoi utiliser RVB au lieu de HEX ?",
+      "answer": "Bien que HEX soit plus court à taper, RGB facilite beaucoup la manipulation des couleurs de manière programmatique, comme changer dynamiquement l'opacité (RGBA) ou calculer les ratios de contraste des couleurs en JavaScript."
+    }
+  ],
+  "relatedTools": [
+    "rgb-to-hex",
+    "color-picker",
+    "hex-to-decimal"
+  ],
+  "cta": "Convertissez vos codes HEX en RGB maintenant !",
+  "disclaimer": "Cet outil convertit strictement de manière mathématique les codes couleur en base 16 en base 10. Suppose l'espace colorimétrique sRGB standard.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface de conversion HEX en RGB",
+  "ogImageText": "Convertisseur HEX en RGB"
+}

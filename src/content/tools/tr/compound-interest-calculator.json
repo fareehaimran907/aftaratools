@@ -1,55 +1,67 @@
 {
-  "seoTitle": "Bileşik Faiz Hesaplayıcı",
-  "metaDescription": "Zamana göre bileşik faizi hesaplayın.",
+  "seoTitle": "Bileşik Faiz Hesaplayıcı - Yatırımın Gelecekteki Değerini Hesapla",
+  "metaDescription": "Ücretsiz bileşik faiz hesaplayıcı. Düzenli aylık katkılar ve bileşik faizin gücüyle birikimlerinizin ve yatırımlarınızın zaman içinde nasıl büyüdüğünü hesaplayın.",
   "h1": "Bileşik Faiz Hesaplayıcı",
-  "primaryKeyword": "bileşik faiz hesaplama",
+  "primaryKeyword": "bileşik faiz hesaplayıcı",
   "secondaryKeywords": [
-    "Çevrimiçi Bileşik Faiz Hesaplayıcı",
-    "ücretsiz Bileşik Faiz Hesaplayıcı",
-    "En iyi Bileşik Faiz Hesaplayıcı"
+    "bileşik faiz hesapla",
+    "yatırım büyümesi hesaplayıcı",
+    "gelecek değer hesaplayıcı",
+    "72 kuralı"
   ],
-  "slug": "bileşik-faiz-hesaplayıcı",
-  "intro": "Bileşik faizle paranızın zaman içinde nasıl büyüyeceğini tam olarak hesaplayın.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "bilesik-faiz-hesaplama",
+  "intro": "Ücretsiz Bileşik Faiz Hesaplayıcımızla bileşik faizin gücünden yararlanın. Emeklilik planlaması, acil fon oluşturma veya borsaya yatırım yapma ne olursa olsun, bu araç başlangıç mevduatınızı, aylık düzenli katkılarınızı ve bileşik faizin üssel gücünü birleştirerek birikimlerinizin gelecekteki değerini projekte eder. Zamanın ve tutarlı tasarrufun servetinizi yatırdığınızın çok ötesine taşıyabileceğini keşfedin.",
+  "whatIs": "Bileşik faiz, bir yatırımdan elde edilen faizin yeniden yatırıldığı, böylece sonraki dönemlerde faizin faiz kazandığı bir süreçtir. Genellikle 'faizin faizi' olarak tanımlanır ve uzun vadeli yatırımların büyümesinin temel mekanizmasıdır. Yalnızca anapara üzerinden hesaplanan basit faizin aksine bileşik faiz, sürekli büyüyen bir tabana faiz uygulayarak servet birikimini hızlandırır. Faiz hesaplama sıklığı (günlük, aylık, üç aylık veya yıllık) ne kadar yüksekse, paranız o kadar hızlı büyür.",
   "howToUse": [
-    "Belirlenen giriş alanına anaparanızı girin.",
-    "Bileşik frekansı gibi ikincil parametreleri sağlayın.",
-    "Bir yatırımın gelecekteki değerini oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Başlangıç Yatırım tutarınızı girin — bugün başladığınız toplu miktar.",
+    "Birikiminize düzenli olarak eklemeyi planladığınız Aylık Katkı miktarını girin.",
+    "Yatırımınızdan kazanmayı beklediğiniz Yıllık Faiz Oranını belirleyin.",
+    "Büyüme Yılı sayısını belirtin — yatırım ufkunuzun toplam süresi.",
+    "Bileşik Sıklığı seçin (örn. yıllık, üç aylık, aylık, günlük).",
+    "Projekte edilen gelecekteki değerinizi, toplam katkılarınızı ve toplam kazanılan faizi görmek için 'Büyümeyi Hesapla'ya tıklayın."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Hesaplayıcı bileşik faiz formülünü uygular: A = P(1 + r/n)^(nt); burada A gelecekteki değer, P anapara, r yıllık faiz oranı (ondalık), n yılda kaç kez bileşik hesaplandığı ve t yıl cinsinden süredir. Aylık düzenli katkılar için, tek seferlik formülün yanı sıra anuitenin gelecekteki değer formülü de kullanılarak toplam projekte edilen bakiye elde edilir.",
+  "workedExample": "5.000 TL başlangıç mevduatıyla başlayıp her ay 200 TL ekliyor ve 10 yıl için aylık bileşen %7 yıllık faiz oranı kazanıyorsanız: toplam katkılarınız 29.000 TL (5.000 TL başlangıç + 200 × 120 ay) olacaktır. Bileşik faiz sayesinde 10 yıl sonunda projekte edilen bakiyeniz yaklaşık 44.792 TL olacak; bu da bileşik faizin yaklaşık 15.792 TL ek servet yarattığı anlamına gelir.",
+  "resultInterpretation": "Sonuçta üç temel rakam görüntülenir. Gelecekteki Değer, seçilen dönem sonundaki toplam projekte edilen bakiyedir. Toplam Yatırım, gerçekte yatırdığınız nakittir. Toplam Kazanılan Faiz ise farktır — yalnızca bileşik faiz etkisiyle oluşturulan servettir.",
   "useCases": [
-    "Emeklilik planlaması",
-    "Tasarruf hesaplarının değerlendirilmesi",
-    "Hareket halindeyken anaparayı hızla işleyin"
+    "Emeklilik Planlaması: Düzenli katkılarla emeklilik fonunun onlarca yılda ne kadar büyüyeceğini tahmin etmek.",
+    "Eğitim Tasarrufu: Aylık yatırımların gelecekteki okul masraflarını karşılayıp karşılamayacağını projekte etmek.",
+    "Acil Fon Büyümesi: Yüksek getirili bir tasarruf hesabının bir ila beş yılda nasıl büyüdüğünü görmek.",
+    "Yatırım Karşılaştırması: Daha akıllı kararlar için farklı faiz oranlarını veya bileşik sıklıklarını karşılaştırmak."
   ],
   "tipsAndLimitations": [
-    "Daha yüksek bileşik frekansları biraz daha fazla para kazandırır.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Erken başlayın: bileşik faizin üssel niteliği nedeniyle 10 yıl önce başlamak nihai bakiyenizi ikiye katlayabilir.",
+    "72 Kuralı hızlı bir kestirme yoldur — paranızın iki katına çıkması için kaç yıl gerektiğini tahmin etmek için 72'yi yıllık faiz oranına bölün.",
+    "Bu hesaplayıcı, tüm dönem boyunca sabit bir faiz oranı varsayar; bu durum hisse senedi yatırımlarında nadiren gerçekleşir.",
+    "Enflasyon, kazanılan faiz üzerindeki gelir vergileri veya yatırım yönetim ücretleri dikkate alınmaz."
   ],
   "faq": [
     {
-      "question": "Bileşik Faiz Hesaplayıcının kullanımı ücretsiz midir?",
-      "answer": "Evet, Bileşik Faiz Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Bileşik faiz ile basit faiz arasındaki fark nedir?",
+      "answer": "Basit faiz yalnızca orijinal anapara üzerinden hesaplanır. Bileşik faiz, anapara ve önceden birikmiş tüm faizler üzerinden hesaplanır. Uzun dönemlerde bileşik faiz belirgin biçimde daha yüksek getiriler sağlar."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
+      "question": "72 Kuralı nedir?",
+      "answer": "72 Kuralı zihinsel hesaplama için kısa bir yoldur. Paranızın iki katına çıkması için kaç yıl gerektiğini tahmin etmek için 72'yi yıllık faiz oranınıza bölün. Örneğin yıllık %6'da: 72 ÷ 6 = 12 yıl."
     },
     {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Bileşik sıklığı sonuçlarımı önemli ölçüde etkiler mi?",
+      "answer": "Evet, ancak etki faiz oranına bağlıdır. Daha yüksek oranlarda, daha sık bileşim (günlük ile yıllık) toplamınızı anlamlı ölçüde artırabilir."
+    },
+    {
+      "question": "Bu hesaplayıcıyı tasarruf hesapları için kullanabilir miyim?",
+      "answer": "Kesinlikle. Tasarruf hesabının yıllık getirisini yıllık faiz oranı olarak girin, aylık bileşimi seçin ve doğru bir projeksiyon için düzenli aylık mevduatınızı ekleyin."
     }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "maaş-hesaplayıcı",
-    "indirim hesaplayıcı"
+    "simple-interest-calculator",
+    "roi-calculator",
+    "investment-calculator",
+    "loan-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Bileşik Faiz Hesaplayıcı",
+  "cta": "Bileşik faiz büyümenizi şimdi hesaplayın ve paranızın sizin için ne kadar çalışabileceğini görün!",
+  "disclaimer": "Projeksiyonlar varsayımsaldır ve yalnızca eğitim amaçlıdır. Herhangi bir yatırımın getirisini temsil etmez ve gelecekteki sonuçları garanti etmez. Yatırım kararları almadan önce nitelikli bir finansal danışmana başvurun.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Bileşik faiz hesaplayıcı gelecekteki değeri, toplam yatırımı ve kazanılan toplam faizi gösteriyor",
   "ogImageText": "Bileşik Faiz Hesaplayıcı"
 }

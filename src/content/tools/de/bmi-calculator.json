@@ -1,55 +1,53 @@
 {
-  "seoTitle": "BMI-Rechner",
-  "metaDescription": "Berechnen Sie Ihren Body-Mass-Index.",
+  "seoTitle": "BMI-Rechner - Überprüfen Sie Ihren Body-Mass-Index online",
+  "metaDescription": "Kostenloser Online-BMI-Rechner. Berechnen Sie Ihren Body-Mass-Index (BMI) sofort anhand Ihrer Größe und Ihres Gewichts. Finden Sie heraus, ob Sie sich in einem gesunden Gewichtsbereich befinden.",
   "h1": "BMI-Rechner",
   "primaryKeyword": "BMI-Rechner",
   "secondaryKeywords": [
-    "BMI-Rechner online",
-    "Kostenloser BMI-Rechner",
-    "Bester BMI-Rechner"
+    "BMI berechnen",
+    "Body-Mass-Index-Rechner",
+    "BMI-Prüfer",
+    "Gesundheitsgewicht Rechner"
   ],
-  "slug": "BMI-Rechner",
-  "intro": "Schätzen Sie Ihren Body-Mass-Index anhand Ihrer Größe und Ihres Gewichts.",
-  "whatIs": "Was ist das für ein Werkzeug?",
+  "slug": "bmi-rechner",
+  "intro": "Möchten Sie wissen, ob Ihr Gewicht für Ihre Körpergröße gesund ist? Unser kostenloser BMI-Rechner berechnet sofort Ihren Body-Mass-Index anhand der standardmäßigen Kategorien der Weltgesundheitsorganisation.",
+  "whatIs": "Der BMI (Body-Mass-Index) Rechner ist ein Gesundheits-Check-Instrument. Er verwendet eine mathematische Formel basierend auf Ihrer Größe und Ihrem Gewicht, um Ihren gesamten Körperfettanteil zu schätzen und Ihr Gesundheitsrisiko einzustufen.",
   "howToUse": [
-    "Geben Sie Ihre Körpergröße in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie das Gewicht an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um eine Zahl zur Klassifizierung des Körpergewichts zu generieren.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
+    "Wählen Sie Ihr bevorzugtes Messsystem (metrisch oder imperial).",
+    "Geben Sie Ihre Körpergröße ein (in cm oder Fuß/Zoll).",
+    "Geben Sie Ihr Gewicht ein (in kg oder Pfund).",
+    "Das Werkzeug berechnet Ihren genauen BMI und zeigt Ihre Gesundheitskategorie an."
   ],
-  "howItWorks": "Wie es funktioniert",
-  "workedExample": "Beispiele",
-  "resultInterpretation": "Interpretation",
+  "howItWorks": "Das Werkzeug verwendet die Standardformel: Gewicht in Kilogramm geteilt durch die Körpergröße in Metern zum Quadrat (kg/m²). Bei Eingaben im imperialen System wird (Pfund / Zoll²) × 703 berechnet, bevor das Ergebnis kategorisiert wird.",
+  "workedExample": "Eine Person, die 1,75 Meter groß ist und 70 Kilogramm wiegt: 70 / (1,75 × 1,75) = 70 / 3,0625 = 22,86. Ein BMI von 22,86 fällt in die Kategorie 'Normal/Gesundes Gewicht'.",
+  "resultInterpretation": "Die Zahl liefert einen allgemeinen Indikator für die Gesundheit. Unter 18,5 ist Untergewicht; 18,5 bis 24,9 ist Normal; 25,0 bis 29,9 ist Übergewicht; 30,0 und darüber ist fettleibig.",
   "useCases": [
-    "Allgemeine Gesundheitsuntersuchung",
-    "Medizinische Aufnahmeformulare",
-    "Schnelle Bearbeitung der Höhe unterwegs"
+    "Persönliche Gesundheit: Verfolgen Sie Ihren BMI im Laufe der Zeit, wenn Sie eine neue Diät oder ein neues Trainingsprogramm beginnen.",
+    "Medizinische Untersuchungen: Ärzte verwenden den BMI als schnelles erstes Screening-Instrument, um potenzielle gesundheitliche Risiken im Zusammenhang mit Gewicht zu erkennen.",
+    "Fitnessplanung: Festlegung eines realistischen Zielgewichts basierend auf dem 'normalen' BMI-Bereich für Ihre Körpergröße."
   ],
   "tipsAndLimitations": [
-    "Der BMI unterscheidet nicht zwischen Muskel- und Fettmasse.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten privat bleiben."
+    "BMI misst nicht direkt den Körperfettanteil. Es kann nicht zwischen Fett und Muskeln unterscheiden.",
+    "Sehr muskulöse Sportler können auf einer BMI-Skala als 'fettleibig' eingestuft werden, obwohl sie einen sehr geringen Körperfettanteil haben, weil Muskelgewebe dichter als Fett ist."
   ],
   "faq": [
     {
-      "question": "Ist der BMI für Sportler korrekt?",
-      "answer": "Nein, muskulöse Menschen werden oft fälschlicherweise als übergewichtig eingestuft."
+      "question": "Ist der BMI für jeden genau?",
+      "answer": "Nein. Obwohl es ein guter allgemeiner Leitfaden für die Durchschnittsbevölkerung ist, ist er für schwangere Frauen, stark muskulöse Sportler und ältere Menschen ungenau."
     },
     {
-      "question": "Ist die Nutzung des BMI-Rechners kostenlos?",
-      "answer": "Ja, unser BMI-Rechner ist völlig kostenlos und erfordert keine Registrierung."
-    },
-    {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, das Tool reagiert vollständig und funktioniert auf allen Smartphones und Tablets einwandfrei."
+      "question": "Beeinflusst das Geschlecht den BMI?",
+      "answer": "Die Standard-Formel für den BMI bei Erwachsenen berücksichtigt das Geschlecht nicht. Frauen haben jedoch von Natur aus einen etwas höheren Körperfettanteil als Männer beim gleichen BMI."
     }
   ],
   "relatedTools": [
-    "BMR-Rechner",
-    "Kalorienrechner",
-    "Makrorechner"
+    "bmr-calculator",
+    "body-fat-calculator",
+    "calorie-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "BMI-Rechner",
+  "cta": "Berechne jetzt deinen BMI!",
+  "disclaimer": "Dieses Tool liefert allgemeine Gesundheitsschätzungen basierend auf den WHO-Standards. Es ist kein Ersatz für professionelle medizinische Beratung oder Diagnose.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "BMI-Rechner-Oberfläche zeigt ein gesundes Ergebnis",
   "ogImageText": "BMI-Rechner"
 }

@@ -1,55 +1,48 @@
 {
-  "seoTitle": "Calculadora de interés simple",
-  "metaDescription": "Calcular el interés simple y el saldo final.",
-  "h1": "Calculadora de interés simple",
-  "primaryKeyword": "calculadora de interés simple",
+  "seoTitle": "Calculadora de Interés Simple - Préstamos y Ahorros",
+  "metaDescription": "Calculadora de interés simple gratuita. Determina rápidamente el interés total y la cantidad final en préstamos o inversiones con capital, tasa y tiempo.",
+  "h1": "Calculadora de Interés Simple",
+  "primaryKeyword": "calculadora de interes simple",
   "secondaryKeywords": [
-    "Calculadora de interés simple en línea",
-    "Calculadora de interés simple gratuita",
-    "mejor calculadora de interés simple"
+    "calcular interes simple",
+    "fórmula de interés simple",
+    "calculadora de prestamos"
   ],
-  "slug": "calculadora-de-interes-simple",
-  "intro": "Calcule el interés simple ganado o pagado sobre un monto principal a lo largo del tiempo.",
-  "whatIs": "¿Qué es esta herramienta?",
+  "slug": "calculadora-interes-simple",
+  "intro": "Calcular los intereses es fundamental para gestionar tus finanzas. Nuestra calculadora te ayuda a determinar al instante los intereses generados o pagados sobre un capital.",
+  "whatIs": "Es una herramienta financiera que calcula los intereses totales acumulados sobre un capital inicial utilizando una tasa de interés 'simple' y fija durante un tiempo determinado.",
   "howToUse": [
-    "Ingrese su monto principal en el campo de entrada designado.",
-    "Proporcione parámetros secundarios como la tasa de interés.",
-    "Haga clic en el botón calcular o enviar para generar el interés total ganado durante un período.",
-    "Copie o revise el resultado resultante según sus necesidades."
+    "Introduce el Capital Inicial.",
+    "Introduce la Tasa de Interés Anual (%).",
+    "Introduce el Período de Tiempo y selecciona si son Años o Meses.",
+    "La calculadora mostrará el Interés Total y la Cantidad Total final."
   ],
-  "howItWorks": "como funciona",
-  "workedExample": "Ejemplos",
-  "resultInterpretation": "Interpretación",
+  "howItWorks": "Utiliza la fórmula clásica: Interés = (Capital × Tasa × Tiempo) / 100. Si el tiempo se introduce en meses, se convierte automáticamente a años (meses/12).",
+  "workedExample": "Si inviertes 10.000€ a un 5% anual durante 5 años: Interés Simple = (10.000 × 5 × 5) / 100 = 2.500€. Cantidad Total = 12.500€.",
+  "resultInterpretation": "El 'Interés Total' muestra cuánto dinero extra se ha generado o se debe. La 'Cantidad Total' es el valor final (capital + intereses).",
   "useCases": [
-    "Préstamos personales a corto plazo",
-    "Bonos de ahorro básicos",
-    "Procesamiento rápido del monto principal sobre la marcha"
+    "Finanzas Personales: Calcular préstamos entre particulares.",
+    "Ahorros: Estimar ganancias en depósitos a corto plazo no compuestos.",
+    "Estudiantes: Comprobar problemas matemáticos de economía."
   ],
   "tipsAndLimitations": [
-    "La mayoría de las cuentas modernas utilizan en su lugar interés compuesto.",
-    "Asegúrese de que sus entradas tengan el formato correcto para obtener los mejores resultados.",
-    "La herramienta se ejecuta completamente en el lado del cliente, lo que garantiza que sus datos permanezcan privados."
+    "Calcula únicamente interés 'simple'. La mayoría de los bancos y tarjetas de crédito usan interés 'compuesto'.",
+    "Asegúrate de que la tasa introducida es anual."
   ],
   "faq": [
     {
-      "question": "¿La Calculadora de interés simple es de uso gratuito?",
-      "answer": "Sí, nuestra Calculadora de interés simple es de uso completamente gratuito."
-    },
-    {
-      "question": "¿Esto funciona en el móvil?",
-      "answer": "Sí, responde completamente y funciona en todos los dispositivos."
-    },
-    {
-      "question": "¿Necesito descargar algo?",
-      "answer": "No, funciona completamente en tu navegador sin necesidad de instalación."
+      "question": "¿Cuál es la diferencia entre interés simple y compuesto?",
+      "answer": "El interés simple se calcula siempre sobre el capital inicial. El compuesto se calcula sobre el capital inicial MÁS los intereses acumulados previamente."
     }
   ],
   "relatedTools": [
-    "calculadora-de-porcentaje",
-    "calculadora-de-salarios",
-    "calculadora-de-descuentos"
+    "compound-interest-calculator",
+    "roi-calculator",
+    "investment-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calculadora de interés simple",
-  "ogImageText": "Calculadora de interés simple"
+  "cta": "¡Calcula tu interés simple ahora!",
+  "disclaimer": "Herramienta con fines educativos. Los bancos utilizan fórmulas más complejas (capitalización compuesta).",
+  "lastReviewed": "2024-03-16",
+  "imageAlt": "Calculadora de Interés Simple",
+  "ogImageText": "Interés Simple"
 }

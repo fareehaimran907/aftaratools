@@ -1,55 +1,61 @@
 {
-  "seoTitle": "Vücut Yağ Hesaplayıcı",
-  "metaDescription": "Vücut yağ yüzdenizi tahmin edin.",
-  "h1": "Vücut Yağ Hesaplayıcı",
-  "primaryKeyword": "vücut yağ hesaplama",
+  "seoTitle": "Vücut Yağ Oranı Hesaplayıcı - Vücut Yağ Yüzdesi Tahmini",
+  "metaDescription": "Ücretsiz çevrimiçi Vücut Yağ Oranı Hesaplayıcı. Pahalı tıbbi ekipmanlara ihtiyaç duymadan standart bir şerit ölçümü (Deniz Kuvvetleri yöntemi) kullanarak vücut yağ yüzdesinizi tahmin edin.",
+  "h1": "Vücut Yağ Oranı Hesaplayıcı",
+  "primaryKeyword": "vücut yağ oranı hesaplayıcı",
   "secondaryKeywords": [
-    "vücut yağ hesaplayıcısı çevrimiçi",
-    "ücretsiz vücut yağ hesaplama",
-    "en iyi vücut yağ hesaplayıcısı"
+    "vücut yağ yüzdesi hesaplama",
+    "deniz kuvvetleri vücut yağ hesaplayıcı",
+    "vücut yağ tahminci",
+    "vücut kompozisyonu hesaplayıcı"
   ],
-  "slug": "vücut-yağ-hesaplayıcı",
-  "intro": "Standart vücut ölçümlerini kullanarak tahmini vücut yağ yüzdenizi hesaplayın.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "vucut-yag-hesaplama",
+  "intro": "Basit bir tartı aletinin sağlayamayacağı daha doğru bir sağlık resmi mi istiyorsunuz? Ücretsiz Vücut Yağ Oranı Hesaplayıcı basit bir şerit ölçümü kullanarak vücut yağ yüzdesinizi tahmin eder. Sadece kilonuz değil, aynı zamanda kas kütleinizin ve vücut yağınızın nispi bileşimi olan vücut kompozisyonunuzu da anlamak, sağlık ve fitlik hedefleriniz için çok daha önemli bilgiler sunar. Bu hesaplayıcı, spor yapmaya başladığınızda veya diyet yaparken kilo kaybının yağ mı, kas mı kaybettiğinizi anlamak için idealdir. Vücut yağ yüzdesi, genel metabolik sağlığı ve kalp damar sağlığını değerlendirmek için kritik bir gösterge olduğundan, sadece boy ve kiloyu değil, vücut yapısını da hesaba katmak çok önemli bir adımıdır.",
+  "whatIs": "Vücut Yağ Oranı Hesaplayıcı, toplam vücut kütlenizin ne kadarının yağ dokusundan oluştuğunu tahmin eden bir sağlık takip aracıdır. Bu hesaplayıcı, özellikle sporcular, askeri personel ve sağlık bilincine sahip bireyler tarafından yaygın olarak kabul gören ABD Deniz Kuvvetleri (Navy) şerit ölçümü metodolojisini kullanır. Vücut yağ oranı, vütunuzun genel sağlığı, metabolik sağlığı ve fiziksel kondisyon seviyesi için çok kritik bir göstergedir. Kas kütlesi ile yağ kütlesini ayırt etmek, sadece kilonuza bakmak yerine gerçek ilerlemeyi ölçmek için en güvenilir yollardan biridir. Özellikle vücut yeniden kompozisyonu (body recomposition) sürecinde kas kütlesini korurken yağ kaybı olup olmadığına dair net bilgiler sunar.",
   "howToUse": [
-    "Bant ölçümlerinizi belirlenen giriş alanına girin.",
-    "Cinsiyet gibi ikincil parametreleri sağlayın.",
-    "Donanma formülü aracılığıyla tahmini bir yağ yüzdesi oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Cinsiyetinizi seçin: Hesaplama algoritması erkek ve kadınlar için farklı biyolojik formüllere sahip olduğu için öncelikle biyolojik cinsiyetinizi seçmeniz gerekir. Cinsiyet seçimi, vücut yağ depolama kalıplarındaki biyolojik farklılıkların formüle edilmesini sağlar.",
+    "Boyunuzun boyunu ve boynunuzun çevresini girin: Boyun çevresi, genellikle kas ve tendonların dominant olduğu bir bölgeyi ölçer. Ölçümü yaparken şeridi boynunuzun en dar noktasına, genellikle boğazın hemen altında, adalelerin üzerinde yerleştirmeye dikkat edin. Şerit cilde sıfırda durmalı ama cildi sıkmamalıdır. Bu değer, referans olarak使用的 birinden az yağ içeren bir bölgeyi temsil eder.",
+    "Karnınızın çevresini (göbek çevresi) girin: Karnınızın en geniş noktasına, genellikle göbek deliğinin hemen üstüne veya göbek deliğinin seviyesine denk gelecek şekilde ölçüm yapın. Bu bölge karın içi yağı (visceral fat) için çok kritik bir gösterge sunar. Şeridi rahat bir şekilde, nefesinizin sonunda ve kasılmamış bir şekilde uygulayın. Derin bir nefes alıp vermek measurements'i yapay olarak uzatabilir.",
+    "Kadınlarda kalça çevresini girin (isteğe bağlı): Kadınlar için biyolojik farklılıklar nedeniyle kalça çevresi (en geniş nokta) hesaplamaya eklenir. Kalçanızın en noktasından, genellikle kalça kemiklerinin en dışarı taşan noktasından ölçüm yapın. Bu değer, alt vücutta birikik gluteal-femoral yağı hesaplamada kullanılır.",
+    "Hesaplayıcı otomatik olarak vücut yağ yüzdesini hesaplar: Girilen veriler ABD Deniz Kuvvetleri formülünü kullanarak vücut yağ yüzdesini tahmin eder ve ekranınızda sonuçları gösterir. Elde edilen değer, vücut kütlenizin ne kadarının yağ olduğunu gösterir."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Bu araç, ABD Deniz Kuvvetleri tarafından geliştirilen karmaşık logaritmik denklemleri temel alır. Vücut kompozisyonunu tahmin ederken genellikle yağ birikintilerinin oluştuğu bölgelerin (karın, kalça) çevrelerini, nispeten kas ve kemik yapıların baskın olduğu bölgelerin (boyun) çevreleri ile karşılaştırır. Ayrıca bu oran, toplam boyunuzla normalize edilerek vücut yağ yüzdesi çıkarılır. Boyun çevresi genellikle referans bir değer olarak kullanılır çünkü boyun bölgesi vücut yağ birikintilerinden çok daha az etkilenir. Karın ve kalçanın boyunaoranı, vücuttaki toplam yağ miktarı ile doğru orantılıdır. Bu nispi oranlar, yüksek matematiksel formüller aracılığıyla vücut yağ yüzdesine dönüştürülür. Deniz Kuvvetleri formülü, özellikle askeri standartlarda ve spor biliminde uzun yıllar boyunca doğrulanmış ve optimize edilmiş bir metodolojiye sahiptir.",
+  "workedExample": "Örneğin, boyu 180 cm, boyun çevresi 40 cm ve karın çevresi 100 cm olan bir erkek: Algoritma bu ölçüm arasındaki oranı ve boyunu dikkate alarak vücut yağ yüzdesini yaklaşık %22 olarak tahmin eder. Bu değer, orta düzeyde bir vücut kompozisyonuna işaret eder ve genellikle düzenli egzersiz yapan bireyler için hedef bir seviyedir. Bu tahmin, o bireyin kas kütlesinin ve yağ kütlesinin dengeli bir şekilde dağıldığını gösterir.",
+  "resultInterpretation": "Elde edilen yüzdesi, sizin vücut kütlenizin ne kadarının yağ versus kas, kemik ve sudan oluşan temiz kütleden (lean mass) olduğunu gösterir. Daha düşük yüzdesi genellikle daha sleek ve kaslı bir fizyonomiye işaret eder. Ancak, çok düşük vücut yağ oranları (örneğin erkeklerde %5'in altında veya kadınlarda %15'in altında) health açısından riskli olabilir ve tıbbi danışmanlık gerektirebilir. Hesaplama sonuçlarını kendi yaş, cinsiyet ve aktivite seviyeniz bağlamında yorumlamak en doğru yorum budur. Orta yaş gruplarında biraz daha yüksek bir yağ metabolik sağlığı korumak için doğal ve gereklidir.",
   "useCases": [
-    "Fitness takibi",
-    "Sağlık değerlendirmeleri",
-    "Hareket halindeyken bant ölçümlerini hızlı bir şekilde işleme"
+    "Fitness ve Egzersiz Takibi: Tartı ağırlığınız hareketsiz kalırken (örneğin kas kütlesi artarken yağ kaybederken) gerçek ilerlemeyi ölçmek için bu hesaplayıcıyi kullanın. Tartı aleti sadece ağırlığı gösterir, ancak vücut yağ oranı kas artışı ve yağ kaybını net bir şekilde ortaya koyar. Örneğin 80 kilo olan biri 78 kilo olabilir ama kas kütlesi artmış ve yağ azalmış olabilir.",
+    "Askeri ve Emniyet Testleri: Askeri akademiye, polislik müsabakalarına veya diğer disiplinli kurumlara başvuruda bulunan adayların katı vücut yağ maksimum limitlerini karşılayıp karşılamadıklarını doğrulamak için kullanılır. Bu testler genellikle şerit ölçümü yöntemini resmi olarak benimser ve adayın fiziksel uygunluğunu değerlendirir.",
+    "Diyet ve Beslenme Planları: Kaybettiğiniz kilonun aslında yağ mı, yoksa değerli kas kütlesi mi kaybettiğini anlamak için dietisyenler ve beslenme uzmanları tarafından kullanılır. Diyet programlarında kas kaybını en aza indirmek için vücut yağ oranı takibi çok önemlidir. Ayrıca, kas kütlesini korurken sadece yağ kaybı hedefleyen bir beslenme stratejisi izlerken buna göre ayarlama yapmanıza yardımcı olur.",
+    "Kişisel sağlık ve wellness yolculuğu: Genel sağınızı değerlendirmek ve kronik riskleri (kalp damar hastalıkları, diyabet riski) azaltmak için vücut yağ yüzdesi takibi yapmak, sadece kiloyu takip etmekten çok daha健康 bir yaklaşım sunar. Vücut yağ yüzdesi, visceral yağ seviyeleriyle doğrudan ilgilendiği için kalp sağlığı için önemli bir risk göstergedir."
   ],
   "tipsAndLimitations": [
-    "Kumpaslar veya DEXA taramaları şerit ölçümlerinden daha doğrudur.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Doğru Ölçüm Tekniği: Şerit ölçümü yaparken cilde tamamen yapışık olacak şekilde yerleştirmelisiniz, ancak cildi sıkmayacek kadar sıkı çekmemelisiniz. Aşırı sıkıştırma alttaki dokuyu sıkıştırarak okumalarda hata yapmanıza neden olur. Ölçümü her zaman sade ve ıslak olmayan bir ortamda, terlemeden yapın.",
+    "Nefes Alma Durumu: Karın çevresi ölçümü yaparken sakin bir nefesin sonunda, kasılmamış ve rahat bir pozisyonda olmanıza dikkat edin. Derin bir nefes alıp vermek karın çevresini yapay olarak genişletebilir. Ölçümü sabah aç karnına yapmak en stabil sonuçları verir.",
+    "Sınırlılıklar ve Doğruluk: Bu yöntem bir tahmin_aracıdır ve genellikle gerçek değerlerle +/- %3-4 arasında bir sapma gösterir. Daha kesin ve tıbbi düzeyde vücut kompozisyonu analizi istiyorsanız, DEXA (Dual-energy X-ray Absorptiometry) taraması, hidrostatik tartım (su altında tartım) veya bioelektrik impedans analizi (BIA) gibi daha gelişmiş tıbbi yöntemleri kullanmalısınız.",
+    "Düzenli Aralıklarla Ölçüm: Vücut yağ oranı zamanla değişir. Değişiklikleri net görebilmek için aynı saat dilimi, aynı koşullar altında (örneğin sabah aç karnına) düzenli aralıklarla (ayda bir veya iki haftada bir) ölçüm yapınız. Vücuttaki su tutulumu değişiklikleri de briefly etkileyebilir, bu yüzden aynı koşulları korumak çok önemlidir."
   ],
   "faq": [
     {
-      "question": "What is a healthy body fat %?",
-      "answer": "Typically 10-20% for men and 20-30% for women."
+      "question": "Sağlık açısından ideal vücut yağ oranı nedir? Erkekler ve kadınlar için farklı mıdır?",
+      "answer": "Evet, vücut yağ oranı cinsiyet, yaş ve genetik yapıya göre büyük farklılıklar gösterir. Genel olarak, erkekler için %10-%20 arası optimal kabul edilirken, %25'in üzerindeki değerler obezite ve ilgili kronik hastalıklar için risk faktörü olarakilanilir. Kadınlar için ise %20-%30 arası healthy bir aralıktır ve %32'nin üzerindeki değerler tıbbi olarak obezite sınıflandırılır. Ancak yaşla birlikte bu oranlar doğal olarak artar; 65 yaş üstü bireyler için hedef biraz daha genişletilebilir. Sporcular için daha düşük bir oran (%6-%13 arası erkeklerde) fiziksel performans için ideal olabilirken, hamilelik öncesi ve sonrası kadınlar için farklı referans değerler uygulanır."
     },
     {
-      "question": "Is the Body Fat Calculator free to use?",
-      "answer": "Yes, our Body Fat Calculator is completely free and requires no registration."
+      "question": "Kadınlarda kalça ölçümü neden gereklidir? Sadece karın çevresi yeterli değil mi?",
+      "answer": "Kadınların vücut yapısı biyolojik olarak erkeklerden farklıdır. Doğum kontrolü, hormonel dengeler ve üreme sağlığı nedeniyle kadınlar genellikle kalça, uyluk ve gluteal bölgeye (alt vücut) daha çok yağ biriktirirler. Bu gluteal-femoral yağ birikintisi, bebeğin beslenmesi için önemli enerji kaynakları sağlar. Ancak sadece karın çevresi ölçümü yapıldığında, alt vücuttaki yağ depoları tam olarak hesaplanmaz ve sonuçlar yanlış olabilir. Bu nedenle Navy formülü, kadınlarda karın çevresinin yanına kalça çevresini de ekleyerek daha dengeli ve doğru bir vücut kompozisyonu tahmini yapar. Karın içi yağ (visceral fat) ve alt vücut yağı (subcutaneous fat) birlikte değerlendirildiğinde gerçek sağlık riski daha net ortaya çıkar."
     },
     {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Vücut yağ oranı hesaplayıcı ile kilo kaybı takibi nasıl yapılır?",
+      "answer": "Vücut yağ oranı hesaplayıcı, kilo verme sürecinde en büyük Yardımcıınız olur. Örneğin, diyet yaparken tartıda 2 kilo kaybettiğinizi görebilirsiniz, ancak bu kaybın 1 kilo yağ ve 1 kilo kas kaybından oluştuğu da olabilir. Kas kaybı metabolik hızınızı düşürür ve uzun vadede kilo almanıza neden olur. Hesaplayıcı kullanarak, kaybettiğiniz kütlenin ne kadarının yağ olduğunu görebilir ve beslenme planınızı buna göre ayarlayabilirsiniz. Ayrıca, kas kütlesi artırmaya çalışırken (body recomposition) tartıda değişiklik olmasa bile yağ kaybı olduğuna dair net kanıt elde edebilirsiniz. Bu da motivasyonuzu artıracak ve hedeflerinize daha hızlı ulaşmanıza yardımcı olacak."
     }
   ],
   "relatedTools": [
-    "BMI-hesaplayıcı",
-    "bmr-hesap makinesi",
-    "kalori hesaplayıcı"
+    "bmi-calculator",
+    "bmr-calculator",
+    "macro-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Vücut Yağ Hesaplayıcı",
-  "ogImageText": "Vücut Yağ Hesaplayıcı"
+  "cta": "Vücut yağ yüzdesini hemen tahmin edin!",
+  "disclaimer": "Bu araç, ABD Deniz Kuvvetleri çevre ölçümü yöntemini kullanarak bir tahmin sunar. Klinik bir teşhis aracısı değildir ve tıbbi teşhis için kullanılmamalıdır.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Şerit ölçümü girdilerini gösteren vücut yağ oranı hesaplayıcı",
+  "ogImageText": "Vücut Yağ Oranı Hesaplayıcı"
 }

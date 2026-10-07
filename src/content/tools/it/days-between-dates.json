@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Giorni tra le date",
-  "metaDescription": "Calcola il numero esatto di giorni tra due date.",
-  "h1": "Giorni tra le date",
-  "primaryKeyword": "giorni tra le date",
+  "seoTitle": "Calcolatore Giorni Tra Due Date - Calcola i Giorni Esatti",
+  "metaDescription": "Calcola facilmente il numero esatto di giorni tra due date. Scopri i giorni totali, i giorni feriali e i fine settimana trascorsi.",
+  "h1": "Calcolatore Giorni Tra Due Date",
+  "primaryKeyword": "giorni tra due date",
   "secondaryKeywords": [
-    "Giorni tra le date online",
-    "Giorni gratuiti tra le date",
-    "i migliori giorni tra le date"
+    "quanti giorni",
+    "calcolatore giorni",
+    "calcolatore giorni lavorativi",
+    "contatore giorni"
   ],
-  "slug": "giorni tra le date",
-  "intro": "Calcola istantaneamente il numero esatto di giorni tra due date qualsiasi.",
-  "whatIs": "Cos'è questo strumento?",
+  "slug": "giorni-tra-date",
+  "intro": "Stai cercando di capire esattamente quanti giorni sono passati da un evento significativo, o quanti giorni mancano a una scadenza imminente? Il nostro calcolatore di Giorni tra Date è uno strumento altamente specializzato progettato per darti il conteggio preciso dei giorni assoluti che separano due date di calendario qualsiasi. Che tu stia monitorando la sequenza temporale di un progetto, contando i giorni di una serie o calcolando gli interessi finanziari in un periodo specifico, conoscere il numero esatto di giorni è fondamentale. Questa calcolatrice elimina le congetture e il noioso conteggio manuale associato alle variazioni di lunghezza dei mesi e agli anni bisestili, fornendo una risposta infallibile in pochi millisecondi.",
+  "whatIs": "Il calcolatore di Giorni tra Date è un'utilità essenziale che misura la durata pura e ininterrotta tra una data di inizio e una data di fine, espressa esclusivamente in giorni. A differenza di un calcolatore generale dell'età o della data che scompone il tempo in anni, mesi e giorni, questo strumento si concentra esclusivamente sul conteggio assoluto dei giorni. Questa metrica pura è fondamentale per molti calcoli tecnici, finanziari e scientifici in cui un 'mese' è un'unità troppo variabile (poiché i mesi possono avere 28, 29, 30 o 31 giorni). Affidandosi a un conteggio assoluto dei giorni, i professionisti possono calcolare i tassi di interesse giornalieri in modo accurato, determinare con esattezza le tariffe di noleggio giornaliere o tracciare serie consecutive senza alcuna ambiguità.",
   "howToUse": [
-    "Inserisci la tua prima data nel campo di input designato.",
-    "Fornisci eventuali parametri secondari come la seconda data.",
-    "Fare clic sul pulsante Calcola o Invia per generare il conteggio totale dei giorni dividendo i millisecondi.",
-    "Copia o rivedi l'output risultante in base alle tue esigenze."
+    "Seleziona la data di inizio.",
+    "Seleziona la data di fine.",
+    "Spunta 'Includi data di fine' per un conteggio inclusivo.",
+    "Visualizza il numero totale di giorni, feriali e fine settimana."
   ],
-  "howItWorks": "Come funziona",
-  "workedExample": "Esempi",
-  "resultInterpretation": "Interpretazione",
+  "howItWorks": "Fondamentalmente, la calcolatrice converte sia la data di inizio che quella di fine che selezioni in un formato orario universale, in particolare, il numero di millisecondi trascorsi dall'Epoca Unix (1° gennaio 1970). Sottraendo il timestamp di inizio dal timestamp di fine, lo strumento determina l'esatta differenza di tempo in millisecondi. Quindi divide questo numero enorme per 86.400.000 (il numero esatto di millisecondi in un giorno standard di 24 ore) per arrivare al conteggio grezzo dei giorni. Questo approccio matematico garantisce che le anomalie come gli anni bisestili e le lunghezze irregolari dei mesi vengano prese in considerazione in modo naturale e senza difetti. Lo strumento include anche un interruttore per 'Includere la data di fine', che aggiunge semplicemente 1 al risultato finale, spostando il calcolo da una rigorosa differenza matematica a un conteggio della durata inclusiva.",
+  "workedExample": "Considera uno scenario in cui devi calcolare il numero di giorni tra il 4 luglio 2023 e il 25 dicembre 2023. Se dovessi contare manualmente, dovresti aggiungere 27 giorni rimanenti in luglio, 31 in agosto, 30 in settembre, 31 in ottobre, 30 in novembre e 25 in dicembre. La nostra calcolatrice esegue questa operazione all'istante. Trova il timestamp per il 25 dicembre e sottrae il timestamp per il 4 luglio. La differenza cruda è esattamente di 174 giorni. Se stai calcolando un noleggio giornaliero iniziato il 4 luglio e terminato il 25 dicembre (inclusi entrambi i giorni), dovresti selezionare l'opzione 'Includi data di fine' e il calcolatore regolerebbe istantaneamente il totale a 175 giorni.",
+  "resultInterpretation": "Interpretare il risultato è semplice, ma è importante comprendere il contesto del tuo calcolo. Il risultato standard rappresenta la rigorosa differenza matematica, essenzialmente il numero di mezzenotti che passano tra le due date. Questa è la metrica corretta per calcolare l'età, il tempo trascorso o le scadenze standard. Tuttavia, se stai tenendo traccia di una serie giornaliera consecutiva (come una dieta o l'apprendimento di una lingua) o fatturando i servizi resi ogni giorno per l'intervallo delle due date, hai bisogno del conteggio inclusivo. Il conteggio inclusivo aggiunge un giorno alla differenza matematica per garantire che sia il giorno di inizio che quello di fine vengano presi in considerazione per intero nel totale.",
   "useCases": [
-    "Monitoraggio del visto",
-    "Periodi di gestazione",
-    "Elaborazione rapida del primo appuntamento in movimento"
+    "Pianificazione Aziendale: Contare i giorni lavorativi per un progetto.",
+    "Calcolo Ferie: Capire quanti giorni lavorativi consumerà una vacanza.",
+    "Eventi: Contare esattamente i giorni che mancano a una scadenza."
   ],
   "tipsAndLimitations": [
-    "Esclude i fusi orari.",
-    "Assicurati che i tuoi input siano formattati correttamente per ottenere i migliori risultati.",
-    "Lo strumento funziona completamente lato client, garantendo che i tuoi dati rimangano privati."
+    "Il conteggio feriale presuppone una settimana lavorativa standard da lunedì a venerdì.",
+    "Le festività non vengono sottratte perché variano per paese.",
+    "Usa l'opzione 'Includi data di fine' per le prenotazioni alberghiere."
   ],
   "faq": [
     {
-      "question": "L'uso di Days Between Dates è gratuito?",
-      "answer": "Sì, il nostro Days Between Dates è completamente gratuito."
+      "question": "Conta le festività come giorni lavorativi?",
+      "answer": "Sì, se cadono tra lunedì e venerdì. Dovrai sottrarre manualmente le festività locali."
     },
     {
-      "question": "Funziona su dispositivi mobili?",
-      "answer": "Sì, è completamente reattivo e funziona su tutti i dispositivi."
-    },
-    {
-      "question": "Devo scaricare qualcosa?",
-      "answer": "No, funziona completamente nel tuo browser senza alcuna installazione."
+      "question": "Cosa significa 'Includi data di fine'?",
+      "answer": "La differenza tra il 1° e il 2 del mese è di 1 giorno. Ma se lavori entrambi i giorni, hai lavorato 2 giorni. La spunta aggiunge questo giorno."
     }
   ],
   "relatedTools": [
-    "calcolatore dell'età",
-    "calcolatore della differenza di data",
-    "giorni-fino-al-calcolatrice"
+    "date-difference-calculator",
+    "days-until-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Giorni tra le date",
-  "ogImageText": "Giorni tra le date"
+  "cta": "Calcola istantaneamente i giorni tra le tue date!",
+  "disclaimer": "Questo strumento è a scopo informativo. Verifica manualmente per scadenze legali.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Screenshot del Calcolatore di Giorni",
+  "ogImageText": "Giorni Tra Due Date"
 }

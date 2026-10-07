@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Biyonik Okuma Dönüştürücü",
-  "metaDescription": "Ücretsiz çevrimiçi Biyonik Okuma Dönüştürücü. Metni Biyonik Okuma formatına dönüştürün.",
+  "seoTitle": "Biyonik Okuma Dönüştürücü - Çevrimiçi Olarak Daha Hızlı Okuyun",
+  "metaDescription": "Ücretsiz çevrimiçi Biyonik Okuma Dönüştürücü. Okuma hızını, odaklanmayı ve anlamayı anında geliştirmek için herhangi bir metni biyonik okuma formatına dönüştürün.",
   "h1": "Biyonik Okuma Dönüştürücü",
   "primaryKeyword": "biyonik okuma dönüştürücü",
   "secondaryKeywords": [
-    "biyonik okuma dönüştürücü çevrimiçi",
-    "ücretsiz biyonik okuma dönüştürücü",
-    "en iyi biyonik okuma dönüştürücü"
+    "daha hızlı oku",
+    "biyonik metin oluşturucu",
+    "hızlı okuma aracı",
+    "DEHB okuma aracı"
   ],
-  "slug": "biyonik-okuma-dönüştürücü",
-  "intro": "Ücretsiz çevrimiçi Biyonik Okuma Dönüştürücü aracımızı kullanın. Girişlerinize göre sözcük başlangıçlarını vurgular.",
-  "whatIs": "Bionic Reading Converter, sözcük başlangıçlarını vurgulayan çevrimiçi bir yardımcı programdır. Düz metninizi işler ve gözlere rehberlik edecek şekilde kalın ön ek harflerle metin sağlar.",
+  "slug": "biyonik-okuma-cevirici",
+  "intro": "Uzun makalelere odaklanmakta zorlanıyor musunuz? Ücretsiz Biyonik Okuma Dönüştürücümüz, metninizi kelimelerin başlangıcını kalınlaştırarak biçimlendirir, beyninizin metni daha hızlı işlemesine yardımcı olur ve odaklanmayı geliştirir.",
+  "whatIs": "Bionic Reading Converter, gözlerinizi metin boyunca yönlendirmek için tipografik ilkeleri uygulayan bir metin biçimlendirme aracıdır. 'Yapay sabitleme noktaları' oluşturmak için her kelimenin ilk birkaç harfini kalın harflerle yazar.",
   "howToUse": [
-    "Düz metninizi belirlenen giriş alanına girin.",
-    "Biçimlendirilmiş metin gibi ikincil parametreleri sağlayın.",
-    "Gözlere rehberlik edecek kalın harflerle yazılmış önek harfleri içeren metin oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Standart metninizi giriş kutusuna yapıştırın.",
+    "Araç, biyonik biçimlendirmeyi anında uygular.",
+    "Doğrudan ekrandan okuyun veya biçimlendirilmiş metni kendi kullanımınız için kopyalayın."
   ],
-  "howItWorks": "Bu araç, tarayıcınızda düz metninize standart algoritmalar uygulayarak çalışır. Gözlere rehberlik edecek kalın ön ek harflerle metin çıktısı almak için verileri anında işler.",
-  "workedExample": "Örneğin: 'Merhaba dünya'yı '**Merhaba **dünya'ya dönüştürür.",
-  "resultInterpretation": "Sonuç, gözlere rehberlik edecek kalın harflerle yazılmış ön ek harfleri içeren metni temsil eder. Bu verileri özel hesaplamalarınız veya biçimlendirme ihtiyaçlarınız için kullanabilirsiniz.",
+  "howItWorks": "Araç, metninizdeki her kelimeyi ayrıştırmak için bir algoritma kullanır. Kelime uzunluğuna (genellikle ilk %30-50) göre vurgulanacak en uygun karakter sayısını hesaplar ve bu karakterleri HTML kalın etiketleriyle (`<b>`) sarar.",
+  "workedExample": "'Okumak eğlencelidir' girerseniz, araç '**Okuma**ding **i**s **fu**n' çıktısını verebilir. Beyninizin kelimenin tamamını anında tanıyabilmesi için yalnızca koyu harflerle yazılmış harfleri görmesi yeterlidir.",
+  "resultInterpretation": "Çıktı görsel olarak belirgindir. Birçok kullanıcı, tüm kelimenin dahili olarak seslendirilmesi ihtiyacını atlayarak, gözlerinin kalın noktadan kalın noktaya yumuşak bir şekilde atladığını fark eder.",
   "useCases": [
-    "DEHB okuma yardımı",
-    "Hızlı okuma",
-    "Hareket halindeyken düz metni hızla işleme"
+    "Akademik Çalışma: Uzun araştırma makalelerinin ve ders kitaplarının, kavrama kaybı olmadan daha hızlı işlenmesi.",
+    "Nöroçeşitlilik: DEHB veya Disleksisi olan bireylerin büyük metin bloklarına odaklanmalarına yardımcı olmak.",
+    "Metin Yazarlığı: Meşgul yöneticilerin ana mesajı anında gözden geçirebilmesi için e-postaları veya haber bültenlerini biçimlendirmek."
   ],
   "tipsAndLimitations": [
-    "Etki, bireysel tercihlere göre büyük ölçüde değişir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Biyonik okumanın herkes için okuma hızını arttırdığı bilimsel olarak kanıtlanmamıştır; bazı insanlar bunu dikkat dağıtıcı buluyor. Beyniniz için işe yarayıp yaramadığını görmek için deneyin.",
+    "Metnin düz metin düzenleyicilere (Not Defteri gibi) kopyalanması, kalın biçimlendirmeyi kaldıracaktır. Zengin metin düzenleyicisine (Word gibi) kopyalanması gerekir."
   ],
   "faq": [
     {
-      "question": "How does it work?",
-      "answer": "It creates artificial fixation points for your eyes."
+      "question": "Biyonik okuma nasıl çalışır?",
+      "answer": "Beyninizin gözlerinizden daha hızlı okuduğu gerçeğine dayanır. Kelimenin başlangıcını kalın harflerle işaretlediğinizde gözünüz onu anında tanır ve beyniniz kelimenin geri kalanını otomatik olarak hafızasından tamamlar."
     },
     {
-      "question": "Is the Bionic Reading Converter free to use?",
-      "answer": "Yes, our Bionic Reading Converter is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Diğer dillerde çalışıyor mu?",
+      "answer": "Evet, Latin alfabesini kullanan ve sözcük şekli tanımaya dayanan hemen hemen her dilde etkili bir şekilde çalışır."
     }
   ],
   "relatedTools": [
-    "kelime sayacı",
-    "karakter sayacı",
-    "kendi kendine internet oluşturucu"
+    "word-counter",
+    "text-case-converter",
+    "markdown-editor"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Biyonik Okuma Dönüştürücü arayüzünün ekran görüntüsü",
+  "cta": "Şimdi daha hızlı okumaya başlayın!",
+  "disclaimer": "Bu araç, biyonik okuma konseptinin resmi olmayan bir uygulamasıdır. Sonuçlar okuyucunun temel bilişsel işlem hızına bağlı olarak değişir.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Kalın metni gösteren biyonik okuma dönüştürücüsü",
   "ogImageText": "Biyonik Okuma Dönüştürücü"
 }

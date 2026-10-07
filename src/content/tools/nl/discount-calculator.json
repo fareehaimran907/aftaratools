@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Kortingscalculator",
-  "metaDescription": "Bereken de uiteindelijke prijs na een percentage of vaste korting.",
-  "h1": "Kortingscalculator",
-  "primaryKeyword": "kortingscalculator",
+  "seoTitle": "Korting Calculator - Eindprijs & Besparing Berekenen",
+  "metaDescription": "Gratis online korting calculator. Ontdek precies hoeveel u bespaart en wat de eindprijs is na toepassing van een kortingspercentage en optionele belasting.",
+  "h1": "Korting Calculator",
+  "primaryKeyword": "korting berekenen",
   "secondaryKeywords": [
-    "Kortingscalculator online",
-    "gratis kortingscalculator",
-    "beste kortingscalculator"
+    "korting calculator",
+    "percentage korting berekenen",
+    "eindprijs berekenen"
   ],
-  "slug": "kortingscalculator",
-  "intro": "Ontdek precies hoeveel u bespaart tijdens een uitverkoop.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "slug": "korting-calculator",
+  "intro": "Heeft u in de winkel wel eens naar een prijskaartje gekeken met de tekst '20% korting' en u afgevraagd hoeveel u daadwerkelijk zou besparen? Of u nu op koopjesjacht bent tijdens het winkelen voor de feestdagen, uitverkoopkleding koopt of over een bulkaankoop voor uw bedrijf onderhandelt, het kennen van de uiteindelijke prijs is essentieel voor slimme uitgaven. Onze gratis online kortingscalculator neemt het giswerk weg bij verkopen. Door simpelweg de oorspronkelijke prijs en het kortingspercentage in te voeren, vertelt deze tool u direct hoeveel u bespaart en wat de uiteindelijke prijs zal zijn. Neem vol vertrouwen aankoopbeslissingen, vergelijk aanbiedingen eenvoudig en zorg ervoor dat u bij elke aankoop de best mogelijke waarde krijgt.",
+  "whatIs": "Een kortingscalculator is een onmisbaar hulpmiddel voor financiële budgettering dat is ontworpen om snel de gereduceerde prijs van een artikel te berekenen nadat een procentuele daling is toegepast. In de detailhandel worden promoties vaak gepresenteerd als percentages (bijv. 15% korting, 50% korting), wat snelle hoofdrekenen een uitdaging kan maken, vooral bij oneven prijzen zoals $ 49,99 of $ 199,50. Deze tool doet het rekenwerk voor u en zet dat kortingspercentage om in een tastbare geldwaarde. Het toont zowel de nieuwe prijs die u aan de kassa zult betalen, als het exacte bedrag in contanten dat u zult behouden, waardoor u volledige transparantie krijgt over de werkelijke waarde van elke verkooppromotie.",
   "howToUse": [
-    "Voer uw oorspronkelijke prijs in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals kortingspercentage.",
-    "Klik op de knop Berekenen of Verzenden om het bespaarde bedrag en de nieuwe prijs te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Voer de oorspronkelijke prijs in.",
+    "Voer het kortingspercentage in (bijv. 20 voor 20%).",
+    "Voer (optioneel) de btw in.",
+    "Klik op 'Korting Berekenen'."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "De tool werkt aan de hand van een eenvoudige maar vitale financieel-wiskundige formule. Wanneer u de 'Oorspronkelijke prijs' en het 'Kortingspercentage' invoert, zet de rekenmachine het percentage eerst om in een decimaal getal (bijvoorbeeld 20% wordt 0,20). Vervolgens wordt de oorspronkelijke prijs vermenigvuldigd met dit decimaal getal om het totale kortingsbedrag (uw besparing) te berekenen. Ten slotte trekt het dat besparingsbedrag af van de oorspronkelijke prijs om u de uiteindelijke prijs te geven. Dit tweestapsproces wordt direct uitgevoerd, zodat u kunt experimenteren met verschillende kortingspercentages of prijzen om te zien hoe de resultaten veranderen, waardoor u realtime gegevens krijgt voor uw aankoopkeuzes.",
+  "workedExample": "Stel u voor dat u naar een laptop kijkt met een prijs van $ 850. De winkel heeft een back-to-school-uitverkoop met 15% korting op alle elektronica. U voert '850' als oorspronkelijke prijs en '15' als kortingspercentage in de rekenmachine in. De tool vermenigvuldigt die $ 850 met 0,15 om uw totale besparing te berekenen: $ 127,50. Vervolgens trekt het die $ 127,50 af van de oorspronkelijke prijs van $ 850. In een seconde laat de calculator u zien dat uw uiteindelijke prijs voor de laptop $ 722,50 is en bevestigt dat u een aanzienlijke $ 127,50 aan de deal overhoudt.",
+  "resultInterpretation": "De resultaten die door de rekenmachine worden gegenereerd, leveren u twee belangrijke cijfers op: de 'Uiteindelijke prijs' en het bedrag van 'Uw besparingen'. De uiteindelijke prijs is het daadwerkelijke bedrag dat u naar verwachting aan de kassa betaalt (voordat er eventuele lokale belastingen worden toegepast). Het besparingsbedrag kwantificeert het geld dat in uw zak blijft in vergelijking met de oorspronkelijke MSRP. Het begrijpen van beide cijfers is essentieel voor opzettelijk budgetteren. Als u bijvoorbeeld weet dat u $ 50 hebt bespaard, kunt u dat geld in gedachten toewijzen aan andere aankopen of spaargelden. Bovendien kunt u door het daadwerkelijke bespaarde dollarbedrag te zien, evalueren of een groot kortingspercentage op een artikel met een lage waarde voor u een waardevollere promotie is dan een kleiner kortingspercentage op een duur artikel.",
   "useCases": [
-    "Winkelverkoop",
-    "Promotiecodes toepassen",
-    "Onderweg snel de originele prijs verwerken"
+    "Winkelen: Exacte prijzen berekenen tijdens Black Friday of de uitverkoop.",
+    "Zakelijk: Facturen opstellen waarbij korting voor btw wordt verleend.",
+    "Zakelijk: Facturen opstellen waarbij korting voor btw wordt verleend."
   ],
   "tipsAndLimitations": [
-    "Sommige winkels passen kortingen vóór of na belasting toe.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Stapelkortingen (bijv. '20% + extra 10%') mag u niet zomaar optellen tot 30%. U berekent eerst 20% korting, en haalt over de restwaarde nog eens 10% af.",
+    "Stapelkortingen (bijv. '20% + extra 10%') mag u niet zomaar optellen tot 30%. U berekent eerst 20% korting, en haalt over de restwaarde nog eens 10% af."
   ],
   "faq": [
     {
-      "question": "Is de Kortingscalculator gratis te gebruiken?",
-      "answer": "Ja, onze Kortingscalculator is volledig gratis te gebruiken."
+      "question": "Wordt btw vóór of na de korting berekend?",
+      "answer": "Btw wordt berekend over het bedrag ná aftrek van de korting."
     },
     {
-      "question": "Werkt dit op mobiel?",
-      "answer": "Ja, het is volledig responsief en werkt op alle apparaten."
-    },
-    {
-      "question": "Moet ik iets downloaden?",
-      "answer": "Nee, het werkt volledig in uw browser, zonder enige installatie."
+      "question": "Wordt btw vóór of na de korting berekend?",
+      "answer": "Btw wordt berekend over het bedrag ná aftrek van de korting."
     }
   ],
   "relatedTools": [
     "percentage-calculator",
-    "salariscalculator",
-    "fooi-calculator"
+    "percentage-increase-calculator",
+    "tip-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kortingscalculator",
-  "ogImageText": "Kortingscalculator"
+  "cta": "Bereken direct uw voordeel!",
+  "disclaimer": "Deze tool is uitsluitend bedoeld voor informatieve doeleinden.",
+  "lastReviewed": "2024-03-16",
+  "imageAlt": "Korting Calculator",
+  "ogImageText": "Korting Calculator"
 }

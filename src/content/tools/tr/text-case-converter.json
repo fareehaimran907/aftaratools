@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Metin Durumu Dönüştürücü - BÜYÜK HARF, küçük harf, Başlık Harfi",
+  "metaDescription": "Ücretsiz çevrimiçi Metin Büyük Harf Dönüştürücü. Tek bir tıklamayla metni BÜYÜK HARF, küçük harf, Başlık Harfi veya Cümle Harfi biçimine hızlıca değiştirin. Caps lock hatalarını anında düzeltin.",
+  "h1": "Metin Harfi Dönüştürücü",
+  "primaryKeyword": "metin büyük küçük harf dönüştürücü",
+  "secondaryKeywords": [
+    "metin harf durumunu değiştir",
+    "büyük harfi küçük harfe",
+    "başlık harfi üretici",
+    "caps lock dönüştürücü"
+  ],
+  "slug": "metin-harfi-dönüştürücü",
+  "intro": "Caps Lock'u kazara açık mı bıraktınız, yoksa uzun bir kitap başlığı listesini mi biçimlendirmeniz gerekiyor? Ücretsiz Metin Harfi Dönüştürücümüz, metninizin büyük/küçük harflerini tek bir tıklamayla anında değiştirir.",
+  "whatIs": "Metin Harfi Dönüştürücü, bir metin bloğunu alan ve standart dilbilim kurallarına göre (Cümle biçimi veya Başlık biçimi gibi) büyük/küçük harf yapısını otomatik olarak değiştiren bir biçimlendirme aracıdır.",
+  "howToUse": [
+    "Kötü formatlanmış metninizi giriş kutusuna yapıştırın.",
+    "İstediğiniz duruma karşılık gelen düğmeye tıklayın (örneğin, 'BÜYÜKHARF', 'Başlık Harfleri').",
+    "Metin anında dönüşecek.",
+    "'Kopyala'ya tıklayarak düzeltilmiş metni panonuza kaydedin."
+  ],
+  "howItWorks": "Araç, JavaScript dizi (string) manipülasyonu kullanır. 'UPPERCASE' ve 'lowercase', yerel tarayıcı fonksiyonlarını kullanır. 'Title Case', her kelimenin ilk harfini büyük yapmak için Regex kullanır (genellikle 'and' veya 'the' gibi küçük kelimeleri görmezden gelir). 'Sentence case', sadece cümlenin sonlandırıcı noktalama işaretinden sonraki ilk harfi büyük yapar.",
+  "workedExample": "Girdi: 'hELLO wORLD. hOW ARE YOU?' 'Cümle biçimi'ne tıklayın. Çıktı: 'Hello world. How are you?'",
+  "resultInterpretation": "Metniniz, seçilen duruma göre dilbilgisi kurallarına tamamen uygun şekilde biçimlendirilmiş olup, resmi bir belgeye veya veri tabanına yapıştırılmaya hazırdır.",
+  "useCases": [
+    "Veri Temizliği: Karışık bir müşteri isimleri tablosunu temiz 'Başlık Harfi Büyük' hâline getirme.",
+    "Metin Yazarlığı: Başlıkları ve alt başlıkları manuel olarak tekrar yazmadan mükemmel şekilde biçimlendirmek.",
+    "Hata Düzeltme: Caps Lock tuşu yanlışlıkla etkinleştirilmişken yazılmış bir paragrafı anında geri getirme."
+  ],
+  "tipsAndLimitations": [
+    "BÜYÜK HARFE veya küçük harfe dönüştürme yıkıcı bir işlemdir—tüm orijinal büyük-küçük harf kullanımlarını siler. Cümle Başlığına geri dönüştürmek özel isimleri (isimler veya şehirler gibi) geri getirmez.",
+    "Başlık Harfi algoritmaları küçük kelimeleri (of, the, in) görmezden gelmeye çalışır, ancak karmaşık başlıklarda belirli stil rehberleriyle (APA veya Chicago stili gibi) mükemmel şekilde uyuşmayabilir."
+  ],
+  "faq": [
+    {
+      "question": "Cümle biçimi nedir?",
+      "answer": "Cümle biçimi sadece cümlenin ilk harfini büyük yapar, diğer tüm kelimeleri ('I' hariç) küçük harfle bırakır, tıpkı standart bir kitap paragrafı gibi."
+    },
+    {
+      "question": "Başlık Harfleri Nedir?",
+      "answer": "Başlık Harfleri neredeyse her kelimenin ilk harfini büyük yapar. Genellikle kitap başlıkları, film başlıkları ve makale başlıkları için kullanılır."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "character-counter",
+    "markdown-editor"
+  ],
+  "cta": "Metin biçiminizi anında düzeltin!",
+  "disclaimer": "Otomatik büyük-küçük harf algoritmaları, özellikle Cümle başı büyük harf kullanılan özel isimlerle ilgili her dilbilgisi nüansını yakalamayabilir. Son metninizi her zaman düzeltip kontrol edin.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Başlık biçimi seçeneklerini gösteren Metin Durumu Dönüştürücü arayüzü",
+  "ogImageText": "Metin Harfi Dönüştürücü"
+}

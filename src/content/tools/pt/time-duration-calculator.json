@@ -1,55 +1,60 @@
 {
-  "seoTitle": "Calculadora de duração de tempo",
-  "metaDescription": "Calcule a duração exata entre dois tempos.",
-  "h1": "Calculadora de duração de tempo",
+  "seoTitle": "Calculadora de Duração de Tempo - Calcule o Tempo Decorrido",
+  "metaDescription": "Calcule facilmente a duração entre dois horários em horas e minutos. Esta calculadora suporta passagens pela meia-noite e horas decimais para a folha de pagamento.",
+  "h1": "Calculadora de Duração de Tempo",
   "primaryKeyword": "calculadora de duração de tempo",
   "secondaryKeywords": [
-    "Calculadora de duração de tempo on-line",
-    "Calculadora de duração de tempo grátis",
-    "melhor calculadora de duração de tempo"
+    "calcular o tempo decorrido",
+    "tempo decorrido entre dois horários",
+    "calculadora de horas e minutos"
   ],
-  "slug": "calculadora de tempo-duração",
-  "intro": "Encontre as horas e minutos exatos entre a hora de início e a hora de término.",
-  "whatIs": "O que é essa ferramenta?",
+  "slug": "calculadora-duracao-tempo",
+  "intro": "Precisa calcular rapidamente o tempo exato gasto em uma tarefa? A Calculadora de Duração de Tempo mede instantaneamente as horas e minutos decorridos entre um horário de início e um de término. Se você está controlando horas faturáveis para clientes, preenchendo uma planilha de horas semanal, monitorando sessões de estudo ou calculando durações de viagens, esta ferramenta simples, mas poderosa, garante que você nunca mais precisará fazer cálculos mentais com o tempo.",
+  "whatIs": "A Calculadora de Duração de Tempo é um utilitário online especializado projetado para medir o tempo exato que se passa entre um horário de início e um horário de término específicos. Ao contrário da adição ou subtração simples, a matemática do tempo opera em um sistema de base 60 (60 minutos em uma hora, 24 horas em um dia), o que torna os cálculos mentais propensos a erros. Esta ferramenta lida perfeitamente com essas complexidades, fornecendo a você uma duração precisa expressa em horas e minutos padrão, bem como um formato decimal para processamento de folha de pagamento.",
   "howToUse": [
-    "Insira sua hora de início no campo de entrada designado.",
-    "Forneça quaisquer parâmetros secundários, como horário de término.",
-    "Clique no botão calcular ou enviar para gerar o total de horas e minutos decorridos.",
-    "Copie ou revise a saída resultante de acordo com suas necessidades."
+    "Passo 1: Selecione ou digite seu horário de início no primeiro campo, certificando-se de que a designação AM/PM esteja correta se estiver usando um formato de 12 horas.",
+    "Passo 2: Selecione seu horário de término no segundo campo.",
+    "Passo 3: Se sua atividade cruzar a meia-noite para o dia seguinte, basta inserir o horário de término normalmente. A calculadora detecta isso automaticamente.",
+    "Passo 4: Clique em 'Calcular' para ver a duração instantaneamente.",
+    "Passo 5: Veja os resultados, que serão exibidos em horas e minutos padrão, total de minutos e horas decimais para planilhas de horas."
   ],
-  "howItWorks": "Como funciona",
-  "workedExample": "Exemplos",
-  "resultInterpretation": "Interpretação",
+  "howItWorks": "A ferramenta converte os horários de início e término em minutos totais decorridos desde a meia-noite. Em seguida, calcula a diferença matemática entre esses dois valores em minutos. Crucialmente, o algoritmo contabiliza automaticamente os períodos noturnos; se o horário de término for numericamente anterior ao horário de início, a ferramenta entende que a duração passou da meia-noite e adiciona inteligentemente 24 horas (1440 minutos) ao cálculo para produzir o tempo decorrido correto.",
+  "workedExample": "Digamos que você comece um turno noturno às 22h30 (10:30 PM) e bata o ponto às 6h15 (06:15 AM) da manhã seguinte. A calculadora primeiro converte os dois horários. Reconhecendo que as 06:15 são anteriores às 22:30, ela adiciona automaticamente um ciclo completo de 24 horas ao horário de término para compensar a passagem da meia-noite. Ela calcula a diferença, resultando em uma duração total decorrida de exatamente 7 horas e 45 minutos.",
+  "resultInterpretation": "O visor principal mostra claramente as horas e minutos padrão decorridos (ex: 7h 45m). Além disso, caixas suplementares menores mostram o equivalente em hora decimal (7,75 horas) e os minutos brutos totais (465 minutos). O formato de hora decimal é particularmente vital para contabilidade e recursos humanos, pois permite que você multiplique diretamente o tempo trabalhado por um salário por hora.",
   "useCases": [
-    "Cálculo do quadro de horários",
-    "Durações de voo",
-    "Processando rapidamente a hora de início em qualquer lugar"
+    "Planilhas de Horas e Folha de Pagamento: Registrar horas exatas trabalhadas para faturamento de freelancers, faturamento de prestadores de serviço ou controle de tempo de funcionários.",
+    "Monitoramento de Estudo ou Treino: Medir com precisão a duração de uma sessão de estudo acadêmico específica ou de um treino de ginástica.",
+    "Aviação e Transporte: Calcular tempos de bloqueio, durações de voos ou a extensão do turno dos motoristas em diferentes períodos.",
+    "Gerenciamento de Projetos: Monitorar o tempo exato gasto em tarefas específicas para melhorar estimativas de tempo futuras."
   ],
   "tipsAndLimitations": [
-    "Certifique-se de que AM/PM esteja configurado corretamente.",
-    "Certifique-se de que suas entradas estejam formatadas corretamente para obter os melhores resultados.",
-    "A ferramenta é totalmente executada no lado do cliente, garantindo que seus dados permaneçam privados."
+    "Dica: As horas decimais são extremamente úteis para a folha de pagamento. Se você trabalhar 8 horas e 30 minutos a $ 20/hora, você multiplica 8,5 por 20.",
+    "Limitação: Esta ferramenta calcula estritamente o tempo decorrido com base em um dia padrão de 24 horas. Ela não contabiliza mudanças de horário de verão que possam ocorrer durante o período medido.",
+    "Dica: Se você precisar calcular a diferença entre vários dias ou datas, considere usar nossa Calculadora de Diferença de Datas."
   ],
   "faq": [
     {
-      "question": "O uso da Calculadora de Duração de Tempo é gratuito?",
-      "answer": "Sim, nossa calculadora de duração de tempo é totalmente gratuita."
+      "question": "O que acontece se o meu evento passar da meia-noite para o dia seguinte?",
+      "answer": "A calculadora detecta automaticamente se o horário de término é anterior ao horário de início. Quando isso acontece, ela presume que o evento cruzou a meia-noite e adiciona 24 horas ao cálculo sem problemas para lhe fornecer a duração correta."
     },
     {
-      "question": "Isso funciona no celular?",
-      "answer": "Sim, é totalmente responsivo e funciona em todos os dispositivos."
+      "question": "Como são calculadas as horas decimais e por que elas são úteis?",
+      "answer": "As horas decimais são calculadas dividindo o total de minutos por 60. Por exemplo, 30 minutos tornam-se 0,5 horas e 45 minutos tornam-se 0,75 horas. Este formato é essencial para a folha de pagamento, pois você pode facilmente multiplicar uma hora decimal por uma taxa salarial horária."
     },
     {
-      "question": "Preciso baixar alguma coisa?",
-      "answer": "Não, funciona totalmente no seu navegador sem qualquer instalação."
+      "question": "Ela é compatível com os formatos de 12 horas e 24 horas?",
+      "answer": "Sim, dependendo das configurações do seu sistema e do navegador, as entradas de horário irão se adaptar aos formatos padrão de 12 horas AM/PM ou aos formatos de hora militar de 24 horas."
     }
   ],
   "relatedTools": [
-    "calculadora de idade",
-    "calculadora de diferença de data",
-    "dias entre datas"
+    "time-difference-calculator",
+    "months-between-dates",
+    "world-time-converter",
+    "countdown-timer"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calculadora de duração de tempo",
-  "ogImageText": "Calculadora de duração de tempo"
+  "cta": "Calcule a duração exata do seu tempo decorrido instantaneamente!",
+  "disclaimer": "Esta ferramenta destina-se a cálculos de tempo básicos e não leva em conta mudanças de fuso horário ou mudanças de horário de verão durante o período decorrido. Verifique os resultados para aplicações rigorosas de folha de pagamento.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Captura de tela da calculadora de duração de tempo mostrando horas, minutos e horas decimais",
+  "ogImageText": "Calculadora de Duração de Tempo"
 }

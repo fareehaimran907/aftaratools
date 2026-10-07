@@ -38,15 +38,15 @@
     },
     "percentage-calculator": {
       "title": "パーセント計算機",
-      "description": "パーセンテージをすばやく正確に計算します。",
+      "description": "パーセンテージを素早く簡単に計算します。",
       "ui": {
-        "percentageCalculator": "パーセント計算機",
-        "whatIs": "いくらですか",
-        "of": "の",
-        "amount": "金額",
-        "calculate": "計算",
+        "calculatePercentage": "パーセント計算機",
+        "whatIs": "何ですか",
+        "of": "% の",
+        "amount": "量",
+        "calculate": "計算する",
         "result": "結果",
-        "calculatePercentage": "パーセンテージを計算する"
+        "enterValuesToCalculatePerc": "パーセンテージを計算するには値を入力してください。"
       }
     },
     "json-formatter": {
@@ -55,7 +55,19 @@
       "ui": {
         "formatJson": "JSONを整形",
         "inputJSON": "入力 J S O N",
-        "reset": "リセット"
+        "reset": "リセット",
+        "format": "フォーマット",
+        "minify": "最小化",
+        "copy": "コピー",
+        "copied": "コピーしました！",
+        "clear": "クリア",
+        "input": "入力 JSON",
+        "inputPlaceholder": "ここにJSONを貼り付けてください...",
+        "output": "出力 JSON",
+        "outputPlaceholder": "フォーマットされたJSONがここに表示されます...",
+        "invalidJson": "無効なJSON",
+        "syntaxError": "構文エラー",
+        "jsonToolkit": "JSONツールキット"
       }
     },
     "area-converter": {
@@ -100,13 +112,21 @@
       "ui": {
         "bedtimeCalculator": "就寝時間計算機",
         "whenDoYouNeedToWakeUp": "何時に起きる必要がありますか？",
-        "calculate": "計算",
+        "calculate": "時間を計算する",
         "toWakeUpAt": "起床時刻を",
         "youShouldTryToBeAsleepBy": "にする場合、次の時刻までに眠るようにしましょう：",
         "6Cycles9h": "6サイクル（9時間）",
         "5Cycles75h": "5サイクル（7.5時間）",
         "calculationsIncludeAnAverage15MinutesToFallAsleep": "計算には、眠りにつくまでの平均15分が含まれています。",
-        "enterYourWakeUpTimeToCal": "起床時間を入力して就寝時間を計算します"
+        "enterYourWakeUpTimeToCal": "起床時間を入力して就寝時間を計算します",
+        "title": "就寝時間計算機",
+        "description": "すっきりと目覚めるために正確にいつ寝るべきかを見つけましょう。",
+        "iNeedToWakeUpAt": "起きる必要がある時間",
+        "youShouldGoToBedAt": "寝るべき時間",
+        "resultsDescription": "これらの時間は、入眠の15分を含め、90分のサイクルに基づいています。",
+        "cycles": "サイクル",
+        "hours": "時間",
+        "optimal": "最適"
       }
     },
     "binary-to-decimal": {
@@ -116,7 +136,8 @@
         "binaryToDecimalConverter": "2進数から10進数への変換",
         "binaryNumber": "2進数",
         "decimalResult": "10進数の結果",
-        "eG1010": "例えば 1010"
+        "eG1010": "例えば 1010",
+        "invalidBinaryNumber": "無効な2進数"
       }
     },
     "bmi-calculator": {
@@ -190,7 +211,20 @@
         "unitsToSell": "販売数量",
         "breakevenRevenue": "損益分岐点売上高",
         "costsPricing": "コストの価格設定",
-        "breakEvenPoint": "損益分岐点"
+        "breakEvenPoint": "損益分岐点",
+        "title": "損益分岐点計算機",
+        "description": "コストをカバーし損益分岐点に達するために販売すべき数量を計算します。",
+        "calculate": "損益分岐点を計算する",
+        "summary": "損益分岐点の概要",
+        "breakEvenUnits": "損益分岐点（販売数量）",
+        "breakEvenRevenue": "損益分岐点売上高",
+        "contributionMargin": "限界利益（単位あたり）",
+        "neverBreakEvenError": "変動費が販売価格以上になっています。これでは永遠に黒字になりません（損益分岐点に到達しません）。",
+        "units": "個/単位",
+        "enterDetails": "費用と販売価格を入力してください。",
+        "variableCost": "単位あたりの変動費",
+        "sellingPrice": "単位あたりの販売価格",
+        "errorImpossible": "販売価格は変動費よりも高くなければなりません。"
       }
     },
     "calorie-calculator": {
@@ -235,16 +269,29 @@
         "principalAmount": "元金",
         "annualRate": "年利（%）",
         "timeYears": "期間（年）",
-        "compoundFrequency": "複利計算頻度",
+        "compoundFrequency": "複利の頻度",
         "daily": "毎日",
         "monthly": "毎月",
         "quarterly": "四半期ごと",
         "semiannually": "半年ごと",
-        "annually": "毎年",
+        "annually": "年1回",
         "interestEarned": "獲得利息",
         "finalBalance": "最終残高",
         "interestDetails": "興味の詳細",
-        "growthBreakdown": "成長の内訳"
+        "growthBreakdown": "成長の内訳",
+        "title": "複利計算機",
+        "description": "複利と定期的な積立によって、投資が時間とともにどのように成長するかを計算します。",
+        "initialInvestment": "初期投資額",
+        "monthlyContribution": "毎月の積立額",
+        "annualInterestRate": "年利 (%)",
+        "yearsToGrow": "投資期間 (年)",
+        "semiAnnually": "半年ごと",
+        "calculate": "成長を計算する",
+        "summary": "成長の概要",
+        "futureValue": "将来価値",
+        "totalContributions": "投資総額",
+        "totalInterestEarned": "獲得利息合計",
+        "enterDetails": "予測される成長を確認するには、投資の詳細を入力してください。"
       }
     },
     "concrete-calculator": {
@@ -280,7 +327,12 @@
         "minutes": "分",
         "start": "開始",
         "pause": "一時停止",
-        "reset": "リセット"
+        "reset": "リセット",
+        "title": "カウントダウンタイマー",
+        "description": "シンプルで使いやすいオンラインカウントダウンタイマー。時間、分、秒を設定します。",
+        "hours": "時間",
+        "seconds": "秒",
+        "timeUp": "時間終了！"
       }
     },
     "css-minifier": {
@@ -301,7 +353,11 @@
         "amount": "金額",
         "from": "変換元",
         "to": "変換先",
-        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "注：これらの為替レートはデモ目的のみの静的な推定値です。"
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "注：これらの為替レートはデモ目的のみの静的な推定値です。",
+        "title": "通貨換算機",
+        "description": "リアルタイムの為替レートで世界の通貨を計算します。",
+        "convertedAmount": "換算後の金額",
+        "lastUpdated": "最終更新"
       }
     },
     "data-storage-converter": {
@@ -321,7 +377,7 @@
         "startDate": "開始日",
         "endDate": "終了日",
         "calculateDifference": "差を計算",
-        "timeDifference": "時間差：",
+        "timeDifference": "時間の差",
         "years": "年",
         "months": "か月",
         "days": "日",
@@ -330,7 +386,21 @@
         "weeks": "週間、",
         "copy": "コピー",
         "reset": "リセット",
-        "selectDatesToCalculate": "計算する日付を選択してください"
+        "selectDatesToCalculate": "差を計算するには両方の日付を選択してください。",
+        "dateDifferenceTitle": "日付差分計算ツール",
+        "dateDifferenceDesc": "2つの日付間の正確な日数、週数、月数、年数を計算します。",
+        "includeEndDay": "終了日を含める (+1日)",
+        "includeEndDayDesc": "計算に1日追加します。",
+        "exactDifference": "正確な差",
+        "yearsLabel": "年",
+        "monthsLabel": "ヶ月",
+        "daysLabel": "日",
+        "endDateBeforeStart": "注: 終了日が開始日より前です。",
+        "totalDays": "合計日数",
+        "inWeeks": "週換算",
+        "weeksShort": "週",
+        "daysShort": "日",
+        "approxMonths": "合計月数"
       }
     },
     "days-between-dates": {
@@ -347,7 +417,16 @@
         "days": "日",
         "copy": "コピー",
         "reset": "リセット",
-        "selectDatesToCalculate": "計算する日付を選択してください"
+        "selectDatesToCalculate": "差を計算するには両方の日付を選択してください。",
+        "title": "日付間の日数",
+        "description": "2つの日付の間の正確な日数、平日数、週末数を計算します。",
+        "includeEndDay": "終了日を含める (+1日)",
+        "includeEndDayDesc": "計算に1日追加します。",
+        "totalDays": "合計日数",
+        "daysLabel": "日",
+        "endDateBeforeStart": "注: 終了日が開始日より前です。",
+        "weekdays": "平日 (月〜金)",
+        "weekends": "週末"
       }
     },
     "days-until-calculator": {
@@ -363,7 +442,19 @@
         "days": "日",
         "copy": "コピー",
         "reset": "リセット",
-        "selectAFutureDate": "将来の日付を選択してください"
+        "selectAFutureDate": "将来の日付を選択してください",
+        "title": "残り日数計算ツール",
+        "description": "特定の将来の日付までの正確な日数、時間、分、秒をカウントダウンします。",
+        "todayIs": "今日は",
+        "targetDate": "目標日",
+        "timeUntil": "目標までの時間",
+        "timeSince": "目標からの経過時間",
+        "dayLabel": "日",
+        "dayLabelSingular": "日",
+        "hoursLabel": "時間",
+        "minutesLabel": "分",
+        "secondsLabel": "秒",
+        "selectTargetDate": "目標日を選択してカウントダウンを表示します。"
       }
     },
     "decimal-to-binary": {
@@ -373,7 +464,8 @@
         "decimalToBinaryConverter": "10進数から2進数への変換",
         "decimalNumber": "10進数",
         "binaryResult": "2進数の結果",
-        "eG10": "例えば 10"
+        "eG10": "例えば 10",
+        "invalidDecimalNumber": "無効な10進数"
       }
     },
     "decking-calculator": {
@@ -404,10 +496,20 @@
         "type": "種類",
         "off": "%割引",
         "fixedAmountOff": "固定額割引",
-        "youSave": "節約額",
+        "youSave": "お得になる金額:",
         "finalPrice": "最終価格",
         "discountDetails": "割引詳細",
-        "priceBreakdown": "価格の内訳"
+        "priceBreakdown": "価格の内訳",
+        "title": "割引計算機",
+        "description": "割引と任意の税金を適用した後の最終的な価格を計算します。",
+        "discountPercentage": "割引率（%）",
+        "taxPercentage": "税率（%）",
+        "optional": "任意",
+        "calculate": "割引を計算する",
+        "summary": "価格の概要",
+        "discountAmount": "割引額",
+        "taxAmount": "税額",
+        "enterDetails": "計算するには元の価格と割引率を入力してください。"
       }
     },
     "emi-calculator": {
@@ -422,7 +524,20 @@
         "totalInterestPayable": "支払利息合計",
         "totalPaymentPrincipalInterest": "総支払額（元金 + 利息）",
         "eMIDetails": "EMI詳細",
-        "paymentSummary": "お支払い概要"
+        "paymentSummary": "お支払い概要",
+        "title": "EMI計算機",
+        "description": "住宅、自動車、個人ローンなどの均等月々返済額（EMI）を計算します。",
+        "loanAmount": "借入金額",
+        "interestRate": "金利 (%)",
+        "loanTerm": "借入期間",
+        "years": "年",
+        "months": "ヶ月",
+        "calculate": "EMIを計算する",
+        "emiSummary": "EMIの概要",
+        "principalAmount": "元金",
+        "totalInterest": "利息合計",
+        "totalPayment": "支払総額（元金＋利息）",
+        "enterDetails": "概要を表示するには、ローンの詳細を入力してください。"
       }
     },
     "fence-calculator": {
@@ -461,7 +576,9 @@
       "description": "",
       "ui": {
         "fractionCalculator": "分数計算機",
-        "decimal": "小数："
+        "decimal": "小数：",
+        "error": "エラー",
+        "divByZero": "ゼロ除算"
       }
     },
     "gpa-calculator": {
@@ -501,11 +618,11 @@
       "description": "",
       "ui": {
         "heightConverter": "身長変換",
-        "metricCentimeters": "メートル法（センチメートル）",
+        "metricCentimeters": "メートル法 (センチメートル)",
         "cm": "cm",
-        "imperialFeetInches": "ヤード・ポンド法（フィート・インチ）",
-        "ft": "フィート",
-        "in": "で"
+        "imperialFeetInches": "ヤード・ポンド法 (フィートとインチ)",
+        "ft": "ft",
+        "in": "in"
       }
     },
     "hex-to-decimal": {
@@ -515,7 +632,8 @@
         "hexToDecimalConverter": "16進数から10進数への変換",
         "hexadecimalNumber": "16進数",
         "decimalResult": "10進数の結果",
-        "eG1AOrFFFFFF": "例えば 1AまたはFFFFFF"
+        "eG1AOrFFFFFF": "例えば 1AまたはFFFFFF",
+        "invalidHexString": "無効な16進数文字列"
       }
     },
     "hourly-to-salary-calculator": {
@@ -531,7 +649,17 @@
         "monthly": "月給",
         "yearlySalary": "年収",
         "hourlyDetails": "時間ごとの詳細",
-        "salaryBreakdown": "給与の内訳"
+        "salaryBreakdown": "給与の内訳",
+        "title": "時給から年収への計算機",
+        "description": "時給を日給、週給、月給、年収に換算します。",
+        "hourlyRate": "時給",
+        "workSchedule": "勤務スケジュール",
+        "hoursPerWeek": "週の勤務時間",
+        "daysPerWeek": "週の勤務日数",
+        "weeksPerYear": "年間の稼働週数",
+        "annualSalary": "年間給与（年収）",
+        "biWeekly": "隔週",
+        "enterDetails": "内訳を確認するには時給を入力してください。"
       }
     },
     "html-encode-decode": {
@@ -563,13 +691,20 @@
         "investmentCalculator": "投資計算機",
         "initialInvestment": "初期投資額",
         "monthlyContribution": "毎月の積立額",
-        "expectedReturn": "期待収益率（%）",
-        "yearsToGrow": "運用期間（年）",
+        "expectedReturn": "期待リターン（％）",
+        "yearsToGrow": "投資期間（年）",
         "totalContributions": "積立総額",
         "interestEarned": "獲得利息",
         "futureValue": "将来価値",
         "investmentPlan": "投資計画",
-        "growthProjection": "成長予測"
+        "growthProjection": "成長予測",
+        "title": "投資計算機",
+        "description": "複利を用いて時間の経過とともに投資がどれくらい成長するかを計算します。",
+        "result": "結果",
+        "totalValue": "総資産額",
+        "totalInvested": "総投資額",
+        "totalInterest": "総利息",
+        "enterDetails": "投資の詳細を入力して成長を確認してください。"
       }
     },
     "js-minifier": {
@@ -600,7 +735,9 @@
       "ui": {
         "lengthConverter": "長さ変換",
         "from": "変換元",
-        "to": "変換先"
+        "to": "変換先",
+        "title": "長さ変換",
+        "description": "メートル、フィート、インチ、その他の長さの単位を変換します。"
       }
     },
     "loan-calculator": {
@@ -608,14 +745,24 @@
       "description": "",
       "ui": {
         "loanCalculator": "ローン計算機",
-        "loanAmount": "ローン金額",
-        "interestRate": "金利（%）",
+        "loanAmount": "借入金額",
+        "interestRate": "金利（年利）",
         "loanTermYears": "ローン期間（年）",
-        "monthlyPayment": "月々の支払い",
-        "totalInterest": "支払利息合計",
+        "monthlyPayment": "月々の支払額",
+        "totalInterest": "利息合計",
         "totalCostOfLoan": "ローン総費用",
         "loanDetails": "ローンの詳細",
-        "paymentBreakdown": "お支払いの内訳"
+        "paymentBreakdown": "お支払いの内訳",
+        "title": "ローン計算機",
+        "description": "月々の支払額、総利息、ローンの総コストを計算します。",
+        "loanTerm": "借入期間",
+        "years": "年",
+        "months": "ヶ月",
+        "calculate": "ローンを計算",
+        "loanSummary": "ローンの概要",
+        "totalPrincipal": "元金合計",
+        "totalPayment": "支払総額",
+        "enterDetails": "概要を表示するには、ローンの詳細を入力してください。"
       }
     },
     "lorem-ipsum-generator": {
@@ -652,11 +799,20 @@
       "description": "",
       "ui": {
         "markupCalculator": "マークアップ計算機",
-        "cost": "コスト",
+        "cost": "原価",
         "markup": "マークアップ（%）",
         "profit": "利益",
         "sellingPrice": "販売価格",
-        "pricingDetails": "価格の詳細"
+        "pricingDetails": "価格の詳細",
+        "title": "マークアップ計算機",
+        "description": "原価とマークアップ率から、販売価格、粗利益、利益率を計算します。",
+        "markupPercentage": "マークアップ率（％）",
+        "calculate": "計算する",
+        "summary": "価格の概要",
+        "profitMargin": "利益率",
+        "grossProfit": "粗利益",
+        "grossLoss": "売上総損失",
+        "enterDetails": "原価とマークアップを入力してください。"
       }
     },
     "md5generator": {
@@ -681,7 +837,18 @@
         "days": "日",
         "copy": "コピー",
         "reset": "リセット",
-        "selectDatesToCalculate": "計算する日付を選択してください"
+        "selectDatesToCalculate": "差を計算するには両方の日付を選択してください。",
+        "title": "日付間の月数",
+        "description": "2つの日付の間に何ヶ月（完全な月と残りの日数）あるかを正確に計算します。",
+        "includeEndDay": "終了日を含める (+1日)",
+        "includeEndDayDesc": "計算に1日追加します。",
+        "totalMonths": "合計月数",
+        "monthsLabel": "ヶ月",
+        "fullMonthsLabel": "完全な月",
+        "extraDaysLabel": "残りの日数",
+        "equivalentTo": "日数換算",
+        "daysLabel": "日",
+        "endDateBeforeStart": "注: 終了日が開始日より前です。"
       }
     },
     "mortgage-calculator": {
@@ -691,12 +858,21 @@
         "mortgageCalculator": "住宅ローン計算機",
         "homePrice": "住宅価格",
         "downPayment": "頭金",
-        "interestRate": "金利（%）",
-        "loanTermYears": "ローン期間（年）",
+        "interestRate": "金利 (%)",
+        "loanTermYears": "借入期間（年）",
         "principalLoanAmount": "ローン元金",
-        "monthlyPayment": "月々の支払い",
+        "monthlyPayment": "月々の返済額",
         "propertyDetails": "物件詳細",
-        "mortgageSummary": "住宅ローンの概要"
+        "mortgageSummary": "住宅ローンの概要",
+        "title": "住宅ローン計算機",
+        "description": "毎月の住宅ローン返済額と総利息を簡単に計算します。",
+        "homeValue": "物件価格",
+        "calculate": "ローンを計算する",
+        "principalAndInterestOnly": "元金と利息のみ",
+        "loanAmount": "借入金額",
+        "totalInterest": "利息合計",
+        "totalCostOfLoan": "ローンの総コスト",
+        "enterDetails": "概要を表示するには、ローンの詳細を入力してください。"
       }
     },
     "mulch-calculator": {
@@ -801,7 +977,13 @@
         "absoluteChange": "絶対変化量",
         "decrease": "減少",
         "values": "価値観",
-        "decreaseBreakdown": "減少の内訳"
+        "decreaseBreakdown": "減少の内訳",
+        "title": "減少率（パーセント）計算機",
+        "description": "初期値から最終値への減少率（パーセンテージ）を計算します。",
+        "result": "結果",
+        "percentageDecrease": "減少率",
+        "absoluteDecrease": "絶対差",
+        "enterDetails": "減少率を計算するには数値を入力してください。"
       }
     },
     "percentage-increase-calculator": {
@@ -814,7 +996,13 @@
         "absoluteChange": "絶対変化量",
         "change": "変化",
         "values": "価値観",
-        "increaseBreakdown": "内訳の増加"
+        "increaseBreakdown": "内訳の増加",
+        "title": "増加率（パーセント）計算機",
+        "description": "初期値から最終値への増加率（パーセンテージ）を計算します。",
+        "result": "結果",
+        "percentageIncrease": "増加率",
+        "absoluteIncrease": "絶対差",
+        "enterDetails": "増加率を計算するには数値を入力してください。"
       }
     },
     "plant-spacing-calculator": {
@@ -838,7 +1026,13 @@
         "work25m": "作業（25分）",
         "break5m": "休憩（5分）",
         "reset": "リセット",
-        "start": "始める"
+        "start": "始める",
+        "title": "ポモドーロタイマー",
+        "description": "ポモドーロテクニックを使用して生産性を向上させます。",
+        "pomodoro": "ポモドーロ",
+        "shortBreak": "小休憩",
+        "longBreak": "長休憩",
+        "completed": "完了"
       }
     },
     "profit-margin-calculator": {
@@ -851,7 +1045,17 @@
         "grossProfit": "粗利益",
         "margin": "利益率",
         "financialDetails": "財務詳細",
-        "profitability": "収益性"
+        "profitability": "収益性",
+        "title": "利益率計算機",
+        "description": "粗利益、利益率、マークアップを簡単に計算します。",
+        "cost": "売上原価 (COGS)",
+        "revenue": "売上高 (販売価格)",
+        "calculate": "利益率を計算する",
+        "summary": "利益の概要",
+        "profitMargin": "利益率（マージン）",
+        "grossLoss": "売上総損失",
+        "markup": "マークアップ",
+        "enterDetails": "原価と売上を入力してください。"
       }
     },
     "qr-code-generator": {
@@ -888,8 +1092,8 @@
       "title": "比率計算機",
       "description": "",
       "ui": {
-        "ratioCalculatorAbCd": "比率計算機（A:B = C:D）",
-        "enter3ValuesToCalculateThe4thMissingValue": "3つの値を入力して、4つ目の不足している値を計算します。"
+        "ratioCalculatorAbCd": "比率計算機 (A:B = C:D)",
+        "enter3ValuesToCalculateThe4thMissingValue": "3つの値を入力して4つ目の欠損値を計算します"
       }
     },
     "roi-calculator": {
@@ -902,7 +1106,23 @@
         "profit": "利益",
         "roi": "ROI​",
         "investmentDetails": "投資内容",
-        "returnOnInvestment": "投資収益率"
+        "returnOnInvestment": "投資利益率 (ROI)",
+        "title": "ROI計算機",
+        "description": "投資利益率（ROI）を計算して、投資の収益性を評価します。",
+        "amountInvested": "投資額（コスト）",
+        "amountReturned": "回収額（収益）",
+        "investmentTimePeriod": "投資期間",
+        "optional": "任意",
+        "years": "年",
+        "calculate": "ROIを計算する",
+        "summary": "ROIの概要",
+        "netProfit": "純利益",
+        "netLoss": "純損失",
+        "annualizedRoi": "年換算ROI",
+        "enterDetails": "投資額と回収額を入力してください。",
+        "investmentAmount": "投資額",
+        "returnAmount": "回収額",
+        "investmentGain": "投資損益"
       }
     },
     "roman-numeral-converter": {
@@ -912,7 +1132,11 @@
         "romanNumeralConverter": "ローマ数字変換",
         "numberRoman": "数字 → ローマ数字",
         "romanNumber": "ローマ数字 → 数字",
-        "result": "結果"
+        "result": "結果",
+        "rangeError": "数字は1〜3999の間である必要があります",
+        "invalidRoman": "無効なローマ数字",
+        "numberInputLabel": "数字（1〜3999）",
+        "romanNumeralLabel": "ローマ数字"
       }
     },
     "running-distance-calculator": {
@@ -942,7 +1166,7 @@
         "week": "週",
         "month": "月",
         "year": "年",
-        "hoursPerWeek": "週あたりの時間",
+        "hoursPerWeek": "週の勤務時間",
         "calculate": "計算",
         "hourly": "時給",
         "daily": "日給",
@@ -950,7 +1174,19 @@
         "monthly": "月給",
         "yearly": "年給",
         "incomeDetails": "収入の詳細",
-        "enterYourIncomeDetailsToS": "収入の詳細を入力すると概要が表示されます"
+        "enterYourIncomeDetailsToS": "収入の詳細を入力すると概要が表示されます",
+        "title": "給与計算機",
+        "description": "給与を時給、日給、週給、月給、年収に換算します。",
+        "payFrequency": "支払いの頻度",
+        "biWeekly": "隔週",
+        "semiMonthly": "月2回",
+        "quarterly": "四半期ごと",
+        "annually": "年収",
+        "workSchedule": "勤務スケジュール",
+        "daysPerWeek": "週の勤務日数",
+        "salaryBreakdown": "給与の内訳",
+        "annualSalary": "年間給与（年収）",
+        "enterDetails": "内訳を確認するには給与の詳細を入力してください。"
       }
     },
     "salary-to-hourly-calculator": {
@@ -958,12 +1194,25 @@
       "description": "",
       "ui": {
         "salaryToHourlyCalculator": "年収から時給への計算機",
-        "annualSalary": "年収",
+        "annualSalary": "年間給与（年収）",
         "hoursWeek": "時間 / 週",
         "weeksYear": "週 / 年",
         "hourlyWage": "時給",
         "salaryDetails": "給与詳細",
-        "equivalentWage": "相当賃金"
+        "equivalentWage": "相当賃金",
+        "title": "年収から時給への計算機",
+        "description": "年収を時給、日給、週給、月給に換算します。",
+        "workSchedule": "勤務スケジュール",
+        "hoursPerWeek": "週の勤務時間",
+        "daysPerWeek": "週の勤務日数",
+        "weeksPerYear": "年間の稼働週数",
+        "salaryBreakdown": "給与の内訳",
+        "hourlyRate": "時給",
+        "monthly": "月給",
+        "biWeekly": "隔週",
+        "weekly": "週給",
+        "daily": "日給",
+        "enterDetails": "内訳を確認するには年収を入力してください。"
       }
     },
     "sha1generator": {
@@ -991,16 +1240,27 @@
       "description": "",
       "ui": {
         "simpleInterestCalculator": "単利計算機",
-        "principalAmount": "元金",
+        "principalAmount": "元本",
         "annualRate": "年利（%）",
         "time": "期間",
         "years": "年",
-        "months": "か月",
+        "months": "ヶ月",
         "days": "日",
         "interestEarned": "獲得利息",
         "finalBalance": "最終残高",
         "interestDetails": "興味の詳細",
-        "growthBreakdown": "成長の内訳"
+        "growthBreakdown": "成長の内訳",
+        "title": "単利計算機",
+        "description": "ローンや貯蓄の単利を簡単に計算します。",
+        "annualInterestRate": "年利 (%)",
+        "timePeriod": "期間",
+        "calculate": "利息を計算する",
+        "summary": "利息の概要",
+        "totalInterest": "受取利息（合計）",
+        "totalAmount": "元利合計",
+        "principalPlusInterest": "元金＋利息",
+        "enterDetails": "元本、利率、期間を入力してください。",
+        "interestRate": "年利率 (%)"
       }
     },
     "sleep-calculator": {
@@ -1008,15 +1268,26 @@
       "description": "",
       "ui": {
         "sleepCalculator": "睡眠計算機",
-        "iWantToWakeUpAt": "起床したい時刻：",
-        "calculate": "計算",
+        "iWantToWakeUpAt": "起きたい時間",
+        "calculate": "計算する",
         "toWakeUpRefreshedAt": "すっきり目覚めるには",
         "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": "、次のいずれかの時刻に眠りにつくようにしましょう（入眠までの15分を含む）：",
         "6Cycles9h": "6サイクル（9時間）",
         "5Cycles75h": "5サイクル（7.5時間）",
         "4Cycles6h": "4サイクル（6時間）",
         "3Cycles45h": "3サイクル（4.5時間）",
-        "enterWakeTimeToCalculateS": "起床時間を入力して睡眠時間を計算します"
+        "enterWakeTimeToCalculateS": "起床時間を入力して睡眠時間を計算します",
+        "title": "睡眠計算機",
+        "description": "90分の睡眠サイクルに基づいて最適な睡眠時間を計算します。",
+        "wakeAt": "起きる時間",
+        "sleepAt": "寝る時間",
+        "iWillGoToBedAt": "寝る時間",
+        "youShouldGoToBedAt": "寝るべき時間",
+        "youShouldWakeUpAt": "起きるべき時間",
+        "resultsDescription": "これらの時間は、入眠の15分を含め、90分のサイクルに基づいています。",
+        "cycles": "サイクル",
+        "hours": "時間",
+        "optimal": "最適"
       }
     },
     "speed-converter": {
@@ -1089,7 +1360,10 @@
         "lap": "ラップ",
         "reset": "リセット",
         "laps": "ラップ",
-        "noLapsRecordedYet": "ラップはまだ記録されていません"
+        "noLapsRecordedYet": "ラップはまだ記録されていません",
+        "title": "オンライン ストップウォッチ",
+        "description": "ラップタイム機能付きのシンプルで正確なオンラインストップウォッチ。",
+        "clearLaps": "ラップをクリア"
       }
     },
     "tax-calculator": {
@@ -1142,12 +1416,22 @@
         "firstTime": "1つ目の時刻",
         "secondTime": "2つ目の時刻",
         "calculateAbsoluteDifference": "絶対差を計算",
-        "difference": "差：",
+        "difference": "時間差",
         "h": "時間",
         "m": "分",
         "copy": "コピー",
         "reset": "リセット",
-        "selectTimesToCompare": "比較する時間を選択してください"
+        "selectTimesToCompare": "比較する時間を選択してください",
+        "title": "時間差計算ツール",
+        "description": "2つの特定の日付と時間の間の正確な時間差を秒単位で計算します。",
+        "startDateTime": "開始日時",
+        "endDateTime": "終了日時",
+        "daysLabel": "日",
+        "hoursLabel": "時間",
+        "minutesLabel": "分",
+        "secondsLabel": "秒",
+        "reversedNote": "注: 終了時間が開始時間より前です。絶対差を表示しています。",
+        "selectDatesToCalculate": "差を計算するには、両方の日付と時間を選択してください。"
       }
     },
     "time-duration-calculator": {
@@ -1155,8 +1439,8 @@
       "description": "",
       "ui": {
         "timeDurationCalculator": "時間差計算機",
-        "startTime": "開始時刻",
-        "endTime": "終了時刻",
+        "startTime": "開始時間",
+        "endTime": "終了時間",
         "endsOnTheNextDayCrossesMidnight": "翌日に終了（深夜をまたぐ）",
         "calculateDuration": "時間を計算",
         "hours": "時間",
@@ -1164,7 +1448,16 @@
         "totalTimeInMinutes": "合計時間（分）：",
         "copy": "コピー",
         "reset": "リセット",
-        "selectStartAndEndTimes": "開始時間と終了時間を選択してください"
+        "selectStartAndEndTimes": "開始時間と終了時間を選択してください",
+        "title": "経過時間計算ツール",
+        "description": "2つの時間の間に何時間何分経過したかを正確に計算します。",
+        "duration": "経過時間",
+        "hLabel": "時間",
+        "mLabel": "分",
+        "decimalHoursLabel": "小数時間",
+        "totalMinutesLabel": "合計分数",
+        "crossesMidnightNote": "注: 終了時間が開始時間より前です（日またぎを想定）。",
+        "selectTimesToCalculate": "期間を計算するには両方の時間を選択してください。"
       }
     },
     "time-zone-converter": {
@@ -1176,7 +1469,18 @@
         "fromTimeZoneRelative": "変換元タイムゾーン（相対）",
         "toTimeZone": "変換先タイムゾーン",
         "convert": "変換",
-        "selectDateAndTimeZonesTo": "比較する日付とタイムゾーンを選択してください"
+        "selectDateAndTimeZonesTo": "比較する日付とタイムゾーンを選択してください",
+        "title": "タイムゾーン変換ツール",
+        "description": "異なるタイムゾーン間の時間を正確に変換します。",
+        "fromZone": "変換元のタイムゾーン",
+        "toZone": "変換先のタイムゾーン",
+        "dateAndTime": "日時",
+        "swap": "入れ替え",
+        "convertedTime": "変換された時間",
+        "hoursAhead": "時間進んでいる",
+        "hoursBehind": "時間遅れている",
+        "sameTime": "同じ時間",
+        "invalidInput": "有効な日付を入力してください。"
       }
     },
     "tip-calculator": {
@@ -1184,16 +1488,31 @@
       "description": "",
       "ui": {
         "tipCalculator": "チップ計算機",
-        "billAmount": "請求額",
+        "billAmount": "請求金額",
         "tip": "チップ %",
         "numberOfPeople": "人数",
-        "tipAmount": "チップ額",
+        "tipAmount": "チップ金額",
         "person": "/ 人",
         "total": "合計",
         "totalTip": "チップ合計：",
         "totalBill": "請求額合計：",
         "billDetails": "請求書の詳細",
-        "totalBreakdown": "合計の内訳"
+        "totalBreakdown": "合計の内訳",
+        "title": "チップ計算機",
+        "description": "チップを計算し、友人と簡単に割り勘できます。",
+        "selectTip": "チップ % を選択",
+        "custom": "カスタム",
+        "totalAmount": "合計金額",
+        "splitBetween": "分割人数:",
+        "people": "人",
+        "tipPerPerson": "チップ / 人",
+        "totalPerPerson": "合計 / 人",
+        "payingFullAmount": "全額ご負担です。",
+        "enterDetails": "請求の詳細を入力してください。",
+        "tipPercentage": "チップの割合（％）",
+        "perPerson": "／人",
+        "totalTipOverall": "チップ合計",
+        "totalBillOverall": "請求合計"
       }
     },
     "unix-timestamp-converter": {
@@ -1206,7 +1525,22 @@
         "dateToTimestamp": "日付 → タイムスタンプ",
         "localDateTime": "現地日時",
         "eG1700000000": "例えば 1700000000",
-        "result": "結果"
+        "result": "結果",
+        "title": "Unix タイムスタンプ変換ツール",
+        "description": "Unix タイムスタンプを人間が読める日付に、またはその逆に変換します。",
+        "currentEpoch": "現在の Unix タイムスタンプ",
+        "copy": "コピー",
+        "copied": "コピーしました！",
+        "tsToDate": "タイムスタンプから日付へ",
+        "enterTimestamp": "タイムスタンプを入力",
+        "gmtTime": "GMT時間",
+        "localTime": "現地時間",
+        "invalidTimestamp": "有効なタイムスタンプを入力してください。",
+        "dateToTs": "日付からタイムスタンプへ",
+        "enterDate": "日時を入力",
+        "secondsLabel": "タイムスタンプ (秒)",
+        "msLabel": "ミリ秒",
+        "invalidDate": "有効な日付を入力してください。"
       }
     },
     "url-encode-decode": {
@@ -1255,7 +1589,17 @@
         "5Cycles75h": "5サイクル（7.5時間）",
         "6Cycles9h": "6サイクル（9時間）",
         "readyForBed": "レディ・フォー・ベッド",
-        "clickTheButtonWhenYouReG": "寝るときにボタンをクリックしてください"
+        "clickTheButtonWhenYouReG": "寝るときにボタンをクリックしてください",
+        "title": "起床時間計算機",
+        "description": "すっきり目覚めるための正確な起床時間を見つけましょう。90分のサイクルに基づいています。",
+        "sleepNow": "今すぐ寝ます",
+        "sleepAtTime": "またはこの時間に寝ます",
+        "calculate": "時間を計算する",
+        "youShouldWakeUpAt": "起きるべき時間",
+        "resultsDescription": "これらの時間は、入眠の15分を含め、90分のサイクルに基づいています。",
+        "cycles": "サイクル",
+        "hours": "時間",
+        "optimal": "最適"
       }
     },
     "water-intake-calculator": {
@@ -1285,7 +1629,18 @@
         "days": "日",
         "copy": "コピー",
         "reset": "リセット",
-        "selectDatesToCalculate": "計算する日付を選択してください"
+        "selectDatesToCalculate": "差を計算するには両方の日付を選択してください。",
+        "title": "日付間の週数",
+        "description": "2つの日付の間に何週間（完全な週と残りの日数）あるかを正確に計算します。",
+        "includeEndDay": "終了日を含める (+1日)",
+        "includeEndDayDesc": "計算に1日追加します。",
+        "totalWeeks": "合計週数",
+        "weeksLabel": "週間",
+        "fullWeeksLabel": "完全な週",
+        "extraDaysLabel": "残りの日数",
+        "equivalentTo": "日数換算",
+        "daysLabel": "日",
+        "endDateBeforeStart": "注: 終了日が開始日より前です。"
       }
     },
     "weight-converter": {
@@ -1294,7 +1649,9 @@
       "ui": {
         "weightConverter": "重量変換",
         "from": "変換元",
-        "to": "変換先"
+        "to": "変換先",
+        "title": "重量変換",
+        "description": "キログラム、ポンド、オンス、グラム、その他の重量単位を変換します。"
       }
     },
     "word-counter": {
@@ -1329,7 +1686,14 @@
       "title": "世界時計変換",
       "description": "",
       "ui": {
-        "worldTimeConverter": "世界時計変換"
+        "worldTimeConverter": "世界時計変換",
+        "title": "世界時計変換ツール",
+        "description": "複数のタイムゾーンの時間を即座に変換します。現在の時間を世界規模で比較したり、特定の日時を選択したりできます。",
+        "liveTime": "現在時刻",
+        "customTime": "カスタム時刻",
+        "addZone": "タイムゾーンを追加",
+        "remove": "削除",
+        "allZonesAdded": "全てのタイムゾーンを追加済み"
       }
     },
     "xml-formatter": {
@@ -1358,7 +1722,8 @@
   },
   "Search": {
     "placeholder": "ツールを検索...",
-    "noResults": "\"{query}\" に一致するツールが見つかりません。"
+    "noResults": "\"{query}\" に一致するツールが見つかりません。",
+    "tryADifferentSearchTermOr": "別の検索用語を試すか、下のカテゴリをブラウズしてください。"
   },
   "Home": {
     "metaTitle": "無料オンラインツールと電卓",
@@ -1730,14 +2095,17 @@
   "layout": {},
   "panels": {},
   "Page": {
-    "whatIs": "{title}とは何ですか?",
-    "howToUse": "{title}の使用方法",
+    "whatIs": "{title}とは？",
+    "howToUse": "{title}の使い方",
     "example": "例",
-    "useCases": "一般的な使用例",
+    "useCases": "一般的な用途",
     "howItWorks": "仕組み",
     "faq": "よくある質問",
-    "readyToStart": "始める準備はできていますか?",
-    "useToolNow": "今すぐツールを使用する"
+    "readyToStart": "始める準備はできましたか？",
+    "useToolNow": "今すぐツールを使用する",
+    "resultInterpretation": "結果の見方",
+    "tipsAndLimitations": "ヒントと精度の注意事項",
+    "disclaimer": "免責事項"
   },
   "Categories": {
     "developerTools": "開発者ツール",

@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Dagen tussen data",
-  "metaDescription": "Bereken het exacte aantal dagen tussen twee datums.",
-  "h1": "Dagen tussen data",
-  "primaryKeyword": "dagen tussen data",
+  "seoTitle": "Dagen Tussen Datums Calculator - Vind de Exacte Telling",
+  "metaDescription": "Bereken eenvoudig het exacte aantal dagen tussen twee datums. Ontdek totale dagen, werkdagen en weekenden.",
+  "h1": "Dagen Tussen Datums Calculator",
+  "primaryKeyword": "dagen tussen datums",
   "secondaryKeywords": [
-    "Dagen tussen data online",
-    "gratis dagen tussen data",
-    "beste dagen tussen data"
+    "hoeveel dagen tussen",
+    "dagen calculator",
+    "werkdagen calculator",
+    "dagen teller"
   ],
-  "slug": "dagen-tussen-data",
-  "intro": "Bereken direct het exacte aantal dagen tussen twee datums.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "slug": "dagen-tussen-datums",
+  "intro": "Probeert u er precies achter te komen hoeveel dagen er zijn verstreken sinds een belangrijke gebeurtenis, of hoeveel dagen er nog over zijn tot een naderende deadline? Onze Dagen Tussen Datums-calculator is een zeer gespecialiseerde tool die is ontworpen om u de precieze telling te geven van absolute dagen die twee willekeurige kalenderdatums van elkaar scheiden. Of u nu de tijdlijn van een project bijhoudt, de dagen van een reeks telt of financiële rente over een specifieke periode berekent, het exacte aantal dagen weten is cruciaal. Deze calculator neemt het giswerk en het vervelende handmatige tellen in verband met wisselende maandlengtes en schrikkeljaren weg, en biedt in slechts enkele milliseconden een onfeilbaar antwoord.",
+  "whatIs": "De Dagen Tussen Datums-calculator is een essentieel hulpprogramma dat de onbewerkte, ononderbroken duur tussen een startdatum en een einddatum meet, uitsluitend uitgedrukt in dagen. In tegenstelling tot een algemene leeftijds- of datumcalculator die de tijd opdeelt in jaren, maanden en dagen, richt deze tool zich uitsluitend op het absolute aantal dagen. Deze zuivere metriek is cruciaal voor veel technische, financiële en wetenschappelijke berekeningen waarbij een 'maand' een te variabele eenheid is (aangezien maanden 28, 29, 30 of 31 dagen kunnen hebben). Door te vertrouwen op een absoluut aantal dagen, kunnen professionals dagelijkse rentetarieven nauwkeurig berekenen, exacte dagelijkse huurprijzen bepalen of opeenvolgende reeksen zonder enige dubbelzinnigheid volgen.",
   "howToUse": [
-    "Voer uw eerste date in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals de tweede datum.",
-    "Klik op de knop Berekenen of Verzenden om het totale aantal dagen te genereren door milliseconden te delen.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Selecteer de startdatum.",
+    "Selecteer de einddatum.",
+    "Vink eventueel 'Einddatum opnemen' aan voor een inclusieve telling.",
+    "Bekijk het totale aantal dagen, werkdagen en weekenden."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "In de kern converteert de calculator zowel de start- als de einddatum die u selecteert in een universeel tijdformaat - specifiek het aantal milliseconden dat is verstreken sinds het Unix-tijdperk (1 januari 1970). Door de start-timestamp af te trekken van de eind-timestamp, bepaalt de tool het exacte tijdsverschil in milliseconden. Het deelt dit enorme getal vervolgens door 86.400.000 (het exacte aantal milliseconden in een standaard dag van 24 uur) om bij het ruwe aantal dagen uit te komen. Deze wiskundige benadering zorgt ervoor dat anomalieën zoals schrikkeljaren en onregelmatige maandlengtes op een natuurlijke en feilloze manier worden meegerekend. De tool bevat ook een schakelaar naar 'Einddatum opnemen', die eenvoudig 1 aan het eindresultaat toevoegt, waardoor de berekening verschuift van een strikt wiskundig verschil naar een inclusieve duurtelling.",
+  "workedExample": "Overweeg een scenario waarin u het aantal dagen tussen 4 juli 2023 en 25 december 2023 moet berekenen. Als u handmatig zou tellen, zou u 27 resterende dagen in juli moeten optellen, 31 in augustus, 30 in september, 31 in oktober, 30 in november en 25 in december. Onze calculator voert deze bewerking onmiddellijk uit. Hij vindt de timestamp voor 25 december en trekt de timestamp voor 4 juli hiervan af. Het ruwe verschil is exact 174 dagen. Als u een dagelijkse huur berekent die begon op 4 juli en eindigde op 25 december (inclusief beide dagen), zou u de optie 'Einddatum opnemen' aanvinken en zou de calculator het totaal onmiddellijk aanpassen naar 175 dagen.",
+  "resultInterpretation": "Het interpreteren van het resultaat is eenvoudig, maar het is belangrijk om de context van uw berekening te begrijpen. Het standaardresultaat vertegenwoordigt het strikte wiskundige verschil - in wezen het aantal middernachten dat verstrijkt tussen de twee datums. Dit is de juiste metriek voor het berekenen van leeftijd, verstreken tijd of standaard deadlines. Als u echter een opeenvolgende dagelijkse reeks bijhoudt (zoals een dieet of het leren van een taal), of als u diensten factureert die zijn verleend op elke dag die de twee datums omvat, heeft u de inclusieve telling nodig. De inclusieve telling voegt één dag toe aan het wiskundige verschil om ervoor te zorgen dat zowel de start- als de einddag volledig in het totaal worden meegerekend.",
   "useCases": [
-    "Visa volgen",
-    "Drachtperiodes",
-    "Onderweg snel de eerste date verwerken"
+    "Zakelijke planning: Werkdagen tellen voor een project.",
+    "Verlofberekening: Bepalen hoeveel werkdagen een vakantie kost.",
+    "Evenementen: Precies aftellen naar een deadline."
   ],
   "tipsAndLimitations": [
-    "Exclusief tijdzones.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Werkdagen zijn standaard van maandag t/m vrijdag.",
+    "Feestdagen worden niet afgetrokken, deze variëren per land.",
+    "Gebruik 'Einddatum opnemen' voor inclusieve boekingen."
   ],
   "faq": [
     {
-      "question": "Is de Days Between Dates gratis te gebruiken?",
-      "answer": "Ja, onze Days Between Dates is volledig gratis te gebruiken."
+      "question": "Worden feestdagen geteld als werkdagen?",
+      "answer": "Ja, feestdagen gelden als werkdagen als ze doordeweeks vallen. Deze moet u handmatig aftrekken."
     },
     {
-      "question": "Werkt dit op mobiel?",
-      "answer": "Ja, het is volledig responsief en werkt op alle apparaten."
-    },
-    {
-      "question": "Moet ik iets downloaden?",
-      "answer": "Nee, het werkt volledig in uw browser, zonder enige installatie."
+      "question": "Wat betekent 'Einddatum opnemen (+1 dag)'?",
+      "answer": "Het verschil tussen de 1e en 2e van de maand is 1 dag. Als u beide dagen werkt, werkte u 2 dagen. Dit vinkje voegt die dag toe."
     }
   ],
   "relatedTools": [
-    "leeftijd-calculator",
-    "datumverschil-calculator",
-    "dagen-tot-calculator"
+    "date-difference-calculator",
+    "days-until-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Dagen tussen data",
-  "ogImageText": "Dagen tussen data"
+  "cta": "Bereken direct het aantal dagen tussen uw datums!",
+  "disclaimer": "Deze tool is voor informatieve doeleinden. Bij strikte termijnen dient u handmatig te controleren.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Screenshot van de Dagen Tussen Datums Calculator",
+  "ogImageText": "Dagen Tussen Datums"
 }

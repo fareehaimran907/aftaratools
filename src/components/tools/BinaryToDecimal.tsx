@@ -13,7 +13,7 @@ export function BinaryToDecimal() {
 
   const convert = (value: string) => {
     if (!value) return "";
-    if (!/^[01]+$/.test(value)) return "Invalid binary number";
+    if (!/^[01]+$/.test(value)) return t('invalidBinaryNumber');
     const dec = parseInt(value, 2);
     return dec.toString(10);
   };
@@ -54,7 +54,7 @@ export function BinaryToDecimal() {
               </div>
               <span className="text-sm font-bold text-primary mb-2 uppercase tracking-wider block">{t('decimalResult')}</span>
               <div className="mt-2">
-                <span className={`text-6xl sm:text-7xl font-bold font-mono tracking-tight break-all ${result === 'Invalid binary number' ? 'text-error text-2xl' : 'text-foreground'}`}>
+                <span className={`text-6xl sm:text-7xl font-bold font-mono tracking-tight break-all ${result === t('invalidBinaryNumber') ? 'text-error text-2xl' : 'text-foreground'}`}>
                   {result || "0"}
                 </span>
               </div>

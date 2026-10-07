@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Kleurcontrastchecker - WCAG Toegankelijkheidstool",
+  "metaDescription": "Gratis online kleurcontrastchecker. Bereken direct de contrastverhouding tussen uw tekst- en achtergrondkleuren om te zorgen voor WCAG-toegankelijkheidsnaleving.",
+  "h1": "Kleurcontrastcontrole",
+  "primaryKeyword": "kleurcontrastchecker",
+  "secondaryKeywords": [
+    "wcag-contrasteringschecker",
+    "toegankelijkheid kleurcontrast",
+    "kleurcontrast controleren",
+    "tekst leesbaarheid calculator"
+  ],
+  "slug": "kleurcontrastcontrole",
+  "intro": "Zorg ervoor dat uw website voor iedereen leesbaar is. Onze gratis Color Contrast Checker berekent de exacte verhouding tussen uw tekst- en achtergrondkleuren en controleert de naleving van de WCAG-toegankelijkheidsrichtlijnen.",
+  "whatIs": "De Color Contrast Checker is een webtoegankelijkheidshulpmiddel. Het evalueert wiskundig de relatieve luminantie van een voorgrondkleur (tekst) ten opzichte van een achtergrondkleur om te bepalen of er voldoende visueel verschil is zodat slechtziende gebruikers de tekst comfortabel kunnen lezen.",
+  "howToUse": [
+    "Voer de HEX-code in voor uw tekst-/voorgrondkleur.",
+    "Voer de HEX-code in voor uw achtergrondkleur.",
+    "De tool berekent de contrastverhouding (bijv. 4,5:1).",
+    "Het geeft een Pass/Fail-cijfer weer voor WCAG AA- en AAA-normen."
+  ],
+  "howItWorks": "Het hulpmiddel zet zowel HEX-codes om naar RGB, past een specifieke wiskundige formule toe om de 'relatieve luminantie' van beide kleuren te berekenen, en deelt vervolgens de lichtere luminantie door de donkerdere luminantie. Het resultaat is een verhouding tussen 1:1 (geen contrast) en 21:1 (maximaal contrast).",
+  "workedExample": "Je test puur zwarte tekst (#000000) op een puur witte achtergrond (#FFFFFF). Het hulpmiddel berekent de maximale mogelijke contrastverhouding van precies 21:1, wat gemakkelijk aan alle AAA-toegankelijkheidseisen voldoet.",
+  "resultInterpretation": "Een hogere verhouding betekent dat de tekst gemakkelijker te lezen is. De Web Content Accessibility Guidelines (WCAG) vereisen een minimumverhouding van 4,5:1 voor gewone tekst (AA-norm) en 7:1 voor strikte toegankelijkheid (AAA-norm).",
+  "useCases": [
+    "Webtoegankelijkheidsaudits: ervoor zorgen dat een bedrijfswebsite de ADA-nalevingswetten met betrekking tot leesbaarheid niet schendt.",
+    "UI/UX-ontwerp: Controleren of een lichtgrijze plaatstekst in een wit invoerveld te moeilijk leesbaar is.",
+    "Merkrichtlijnen: Controleren of merkkleuren veilig over elkaar heen kunnen worden gelegd in marketinggrafieken."
+  ],
+  "tipsAndLimitations": [
+    "Grote tekst (meer dan 18pt of 14pt vet) is gemakkelijker te lezen, dus vereist WCAG alleen een lagere ratio van 3:1 om te voldoen aan de AA-norm.",
+    "Kleurblindheid beïnvloedt de waarneming van tinten, maar het relatieve luminantiecontrast blijft de belangrijkste factor voor leesbaarheid."
+  ],
+  "faq": [
+    {
+      "question": "Wat gebeurt er als mijn kleuren de controle niet doorstaan?",
+      "answer": "Als ze falen, zal je tekst erg moeilijk te lezen zijn voor mensen met slecht zicht of kleurenblindheid. Je zou de tekstkleur moeten donkerder maken of de achtergrondkleur lichter totdat de verhouding minimaal 4,5:1 bereikt."
+    },
+    {
+      "question": "Is 21:1 het beste contrast?",
+      "answer": "Wiskundig gezien, ja. Echter, zuiver zwarte tekst op zuiver witte achtergronden (21:1) kan oogvermoeidheid of 'halatie' veroorzaken bij sommige gebruikers met dyslexie. Zeer donkergrijs (bijv. #222222) op gebroken wit wordt vaak verkozen."
+    }
+  ],
+  "relatedTools": [
+    "color-picker",
+    "color-palette-generator",
+    "hex-to-rgb"
+  ],
+  "cta": "Controleer nu uw kleurtoegankelijkheid!",
+  "disclaimer": "Deze tool berekent het contrast op basis van het standaard WCAG 2.1-algoritme voor relatieve luminantie.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Kleurcontrastchecker toont een doorlopende ratio van 4,5",
+  "ogImageText": "Kleurcontrastcontrole"
+}

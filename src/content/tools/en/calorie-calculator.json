@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Calorie Calculator",
-  "metaDescription": "Free online Calorie Calculator. Calculate your daily calorie needs.",
+  "seoTitle": "Calorie Calculator - Daily Calorie Intake to Lose Weight",
+  "metaDescription": "Free online Calorie Calculator. Find out exactly how many calories you need to eat every day to maintain, lose, or gain weight based on your activity level.",
   "h1": "Calorie Calculator",
   "primaryKeyword": "calorie calculator",
   "secondaryKeywords": [
-    "calorie calculator online",
-    "free calorie calculator",
-    "best calorie calculator"
+    "how many calories to lose weight",
+    "tdee calculator",
+    "daily calorie intake calculator",
+    "weight loss calculator"
   ],
   "slug": "calorie-calculator",
-  "intro": "Use our free online Calorie Calculator tool. It estimates daily caloric needs based on your inputs.",
-  "whatIs": "The Calorie Calculator is an online utility that estimates daily caloric needs. It processes your BMR and provides the TDEE (Total Daily Energy Expenditure).",
+  "intro": "Starting a new diet? Our free Calorie Calculator removes the guesswork by telling you exactly how many calories you should eat daily to reach your specific weight loss or muscle gain goals.",
+  "whatIs": "The Calorie Calculator (also known as a TDEE Calculator) is a comprehensive dietary tool. It calculates your Total Daily Energy Expenditure (the calories you burn living and exercising) and adjusts that number to help you safely change your weight.",
   "howToUse": [
-    "Enter your BMR into the designated input field.",
-    "Provide any secondary parameters like activity level.",
-    "Click the calculate or submit button to generate the TDEE (Total Daily Energy Expenditure).",
-    "Copy or review the resulting output for your needs."
+    "Enter your age, sex, height, and weight.",
+    "Select your weekly activity level (from sedentary to highly active).",
+    "The tool calculates your maintenance calories.",
+    "Review the suggested caloric targets for safe weight loss or muscle gain."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your BMR. It instantly processes the data to output the TDEE (Total Daily Energy Expenditure).",
-  "workedExample": "For example: TDEE 2500 - 500 deficit = 2000 kcal/day target.",
-  "resultInterpretation": "The result represents the TDEE (Total Daily Energy Expenditure). You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "First, the tool calculates your Basal Metabolic Rate (BMR) using the Mifflin-St Jeor equation. Then, it multiplies your BMR by an Activity Multiplier (from 1.2 for sedentary to 1.9 for athletes) to find your maintenance calories. Finally, it subtracts or adds calories (e.g., -500/day) to create weight change goals.",
+  "workedExample": "Your BMR is 1600. You exercise moderately (multiplier 1.55). Your TDEE is 2480 calories. To lose 1 pound per week (a 3500 calorie weekly deficit), the tool suggests eating 1980 calories per day (2480 - 500).",
+  "resultInterpretation": "The primary number is your 'Maintenance' target. Eating exactly this amount will keep your weight perfectly stable. The 'Weight Loss' targets provide safe, sustainable daily calorie goals.",
   "useCases": [
-    "Weight loss tracking",
-    "Bulking diets",
-    "Quickly processing BMR on the go"
+    "Dieting: Figuring out a scientifically sound daily calorie limit to log in apps like MyFitnessPal.",
+    "Bodybuilding: Calculating the required 'caloric surplus' needed to gain muscle mass during a bulking phase.",
+    "Maintenance: Figuring out how much to eat to simply stay healthy after finishing a diet."
   ],
   "tipsAndLimitations": [
-    "Track your actual weight for two weeks to adjust the estimate.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "Do not overestimate your activity level. Most people with desk jobs should choose 'Sedentary', even if they walk the dog for 20 minutes a day.",
+    "Never drop your calories below your BMR without medical supervision, as this can severely damage your metabolism and cause muscle loss."
   ],
   "faq": [
     {
-      "question": "How many calories to lose a pound?",
-      "answer": "A deficit of roughly 3,500 calories equals one pound of fat."
+      "question": "What is a safe rate of weight loss?",
+      "answer": "Medical professionals generally recommend aiming for 1 to 2 pounds of weight loss per week. This requires a daily caloric deficit of 500 to 1,000 calories."
     },
     {
-      "question": "Is the Calorie Calculator free to use?",
-      "answer": "Yes, our Calorie Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Do I need to eat back the calories I burn working out?",
+      "answer": "No. The calculator already factored your workouts into the 'Activity Level' multiplier. If you eat back your exercise calories, you will be double-counting them and will not lose weight."
     }
   ],
   "relatedTools": [
-    "bmi-calculator",
+    "macro-calculator",
     "bmr-calculator",
-    "macro-calculator"
+    "water-intake-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Calorie Calculator interface screenshot",
+  "cta": "Calculate your daily calorie needs!",
+  "disclaimer": "Calculations are based on statistical population averages. If you have metabolic disorders or medical conditions, consult a registered dietitian.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Calorie Calculator showing maintenance and weight loss targets",
   "ogImageText": "Calorie Calculator"
 }

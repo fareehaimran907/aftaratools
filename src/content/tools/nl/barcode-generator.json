@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Barcode Generator - Maak aangepaste barcodes online",
+  "metaDescription": "Gratis online Barcode Generator. Maak direct scanbare 1D-barcodes (Code 128, UPC, EAN). Download afbeeldingen van hoge kwaliteit voor detailhandel en voorraad.",
+  "h1": "Barcodegenerator",
+  "primaryKeyword": "streepjescodesgenerator",
+  "secondaryKeywords": [
+    "maak online barcode",
+    "UPC-generator",
+    "code 128-generator",
+    "gratis streepjescodemaker"
+  ],
+  "slug": "barcodegenerator",
+  "intro": "Beheer je een magazijn of lanceer je een detailhandelproduct? Onze gratis Barcode Generator maakt direct hoogwaardige, scanbare 1D-barcodes in standaardformaten zoals Code 128 en UPC.",
+  "whatIs": "De Barcode Generator is een digitale grafische tool. Het neemt alfanumerieke gegevens (zoals een product-SKU of serienummer) en zet deze om in een machineleesbaar patroon van parallelle zwarte en witte lijnen.",
+  "howToUse": [
+    "Voer de tekst, het nummer of de SKU die u wilt coderen in het invoerveld in.",
+    "Selecteer het barcodetype dat u nodig hebt (bijv. Code 128 is het beste voor algemene inventaris).",
+    "Het hulpmiddel genereert onmiddellijk de streepjescode-afbeelding.",
+    "Klik op 'Download' om de barcode op te slaan als een afbeeldingsbestand."
+  ],
+  "howItWorks": "Het hulpmiddel gebruikt een renderbibliotheek om je tekstkarakters te koppelen aan de specifieke lijnbreedtepatronen die worden voorgeschreven door de door jou gekozen barcode-standaard. Vervolgens rendert het die lijnen op een HTML5 Canvas-element voor eenvoudig downloaden.",
+  "workedExample": "Je selecteert 'Code 128' en voert 'SKU-5542' in. De tool berekent de starttekens, de specifieke balkbreedtes voor die letters en cijfers, voegt een controlecijfer toe voor scannauwkeurigheid en rendert de visuele barcode.",
+  "resultInterpretation": "De gegenereerde afbeelding kan worden afgedrukt op labels of productverpakkingen. Elke standaard laser- of optische streepjescodescanner kan de lijnen lezen en uw oorspronkelijke tekst weergeven.",
+  "useCases": [
+    "Voorraadbeheer: Het maken van traceringlabels voor dozen in een magazijn.",
+    "Detailhandelverkopen: Het genereren van UPC-A of EAN-13 streepjescodes voor fysieke producten die gescand worden bij een kassa (POS).",
+    "Bibliotheeksystemen: Scannbare ID-tags maken voor boeken of mediabestanden."
+  ],
+  "tipsAndLimitations": [
+    "Code 128 is het meest veelzijdige formaat, omdat het zowel letters als cijfers van variabele lengte ondersteunt.",
+    "Retailbarcodes (UPC-A) vereisen precies 11 of 12 numerieke cijfers. Het hulpmiddel zal een foutmelding geven als je probeert letters in een UPC-barcode te gebruiken."
+  ],
+  "faq": [
+    {
+      "question": "Wat is het verschil tussen Code 128 en UPC?",
+      "answer": "Code 128 wordt gebruikt voor algemene tracking en ondersteunt alle letters en cijfers. UPC (Universal Product Code) is strikt gereguleerd, alleen numeriek en vereist voor het verkopen van artikelen in winkels in Noord-Amerika."
+    },
+    {
+      "question": "Zijn deze streepjescodes legaal voor detailhandel?",
+      "answer": "De gegenereerde streepjescode-afbeelding is wiskundig perfect en scanbaar. Om echter een product in een grote winkelketen te verkopen, moet u wettelijk een geregistreerd UPC-nummer bij GS1 kopen. U kunt niet zomaar een nummer verzinnen."
+    }
+  ],
+  "relatedTools": [
+    "qr-code-generator",
+    "base64-encode-decode",
+    "random-number-generator"
+  ],
+  "cta": "Genereer nu je eigen barcode!",
+  "disclaimer": "Barcodes worden lokaal gegenereerd. Gebruikers zijn verantwoordelijk voor het ervoor zorgen dat de gegenereerde codes niet conflicteren met GS1-geregistreerde retaile systemen indien commercieel gebruikt.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Barcodegenerator-interface die een Code 128-streepjescode toont",
+  "ogImageText": "Barcodegenerator"
+}

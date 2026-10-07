@@ -1,55 +1,80 @@
 {
-  "seoTitle": "Romeinse cijferomzetter",
-  "metaDescription": "Converteer getallen naar Romeinse cijfers.",
-  "h1": "Romeinse cijferomzetter",
-  "primaryKeyword": "Romeinse cijfers converter",
+  "seoTitle": "Romeinse Cijfers Converter – Getallen naar Romeinse Cijfers Online",
+  "metaDescription": "Gratis online Romeinse Cijfers Converter. Vertaal standaard getallen (1-3999) direct naar Romeinse cijfers en vice versa. Leer de regels eenvoudig.",
+  "h1": "Romeinse Cijfers Converter",
+  "primaryKeyword": "romeinse cijfers converter",
   "secondaryKeywords": [
-    "Romeinse cijfers converter online",
-    "gratis Romeinse cijfers converter",
-    "beste Romeinse cijferconvertor"
+    "getal naar romeinse cijfers",
+    "romeinse cijfers naar getallen",
+    "romeinse cijfers rekenmachine",
+    "omzetten naar romeinse cijfers",
+    "romeinse cijfers vertaler",
+    "hoe schrijf je romeinse cijfers",
+    "romeinse nummers omrekenen"
   ],
-  "slug": "Romeinse cijfers-omzetter",
-  "intro": "Vertaal standaardnummers naar klassieke Romeinse cijfers en omgekeerd.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "slug": "romeinse-cijfers-converter",
+  "intro": "Wil je de datum op een oud monument achterhalen, een gestileerd copyrightjaar voor een videoproductie schrijven, of een tatoeage laten zetten met een betekenisvolle datum? Onze gratis online Romeinse Cijfers Converter biedt directe, tweerichtingsvertaling tussen standaard Arabische cijfers (1, 2, 3) en klassieke Romeinse cijfers (I, II, III). Voer eenvoudig een getal of Romeins cijfer in, en onze tool handelt de conversie direct af zonder dat de pagina opnieuw geladen hoeft te worden of dat je op een bereken-knop hoeft te klikken. Of je nu historische teksten moet decoderen, juridische documenten moet opmaken of een klassieke wijzerplaat wilt ontwerpen, deze tool zorgt voor een wiskundig perfecte en grammaticaal correcte opmaak van Romeinse cijfers volgens de standaardregels van de subtractieve notatie.",
+  "whatIs": "De Romeinse Cijfers Converter is een gespecialiseerde tool met een dubbele functie die standaard Arabische cijfers (de getallen die we elke dag gebruiken, zoals 1, 2, 3) vertaalt naar Romeinse cijfers (het oude Romeinse systeem met letters zoals I, V, X, L, C, D, M) en vice versa. Het systeem van Romeinse cijfers ontstond in het oude Rome en bleef tot ver in de late Middeleeuwen de gebruikelijke manier om getallen in heel Europa te schrijven. In tegenstelling tot het moderne decimale stelsel, zijn Romeinse cijfers grotendeels niet-positioneel en bevatten ze geen symbool voor het getal nul. In plaats daarvan gebruiken ze combinaties van letters uit het Latijnse alfabet om waarden aan te duiden. Het correct begrijpen en schrijven van deze cijfers kan lastig zijn vanwege de subtractieve notatie regels (waarbij het plaatsen van een kleinere waarde vóór een grotere waarde een aftrekking aangeeft, zoals IV voor 4). Deze converter automatiseert het proces, zodat je nooit meer een fout maakt bij het lezen of schrijven van deze historische symbolen.",
   "howToUse": [
-    "Voer uw Romeinse cijfer in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals een decimaal geheel getal.",
-    "Klik op de knop Berekenen of Verzenden om het equivalente Arabische of Romeinse getal te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Selecteer de gewenste conversiemodus met behulp van de wisselkoppen: 'Getal naar Romeins' of 'Romeins naar Getal'.",
+    "Voer voor de modus 'Getal naar Romeins' een willekeurig standaard geheel getal tussen 1 en 3999 in het invoerveld in.",
+    "Typ voor de modus 'Romeins naar Getal' geldige Romeinse cijfers (I, V, X, L, C, D, M) in het invoerveld. De tool is niet hoofdlettergevoelig.",
+    "De tool geeft het geconverteerde resultaat direct weer in het grote resultatenpaneel terwijl je typt. Er is geen 'Berekenen' knop waarop je hoeft te klikken.",
+    "Als je een getal buiten het geldige bereik (1-3999) of een ongeldig Romeins teken invoert, toont de tool direct een foutmelding."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "Deze converter werkt met twee verschillende parseeralgoritmen, afhankelijk van de gekozen modus. Voor de conversie van Getal naar Romeins gebruikt de tool een vooraf gedefinieerde opzoektabel van symbolen, gesorteerd van groot naar klein (M=1000, CM=900, D=500, CD=400, C=100, XC=90, L=50, XL=40, X=10, IX=9, V=5, IV=4, I=1). Het loopt door het ingevoerde getal, trekt herhaaldelijk de grootst mogelijke waarde af en voegt het bijbehorende Romeinse symbool toe aan de resultaatreeks totdat het getal nul bereikt. Voor de conversie van Romeins naar Getal scant het de invoerreeks van links naar rechts. Als een kleiner cijfer direct voor een groter cijfer staat, trekt de tool de kleinere waarde af (subtractieve notatie); anders voegt het de waarde toe aan het lopende totaal. Het hele proces draait lokaal in je browser voor directe, veilige resultaten.",
+  "workedExample": "Laten we het standaardgetal 2024 handmatig omzetten in Romeinse cijfers. We beginnen met het grootste symbool, M (1000). 2024 bevat twee 1000-en, dus we nemen 2000 (MM) en houden 24 over. Vervolgens zoeken we naar het grootste symbool dat in 24 past, dat is X (10). Er passen twee 10-en in, dus we nemen 20 (XX) en houden 4 over. Tot slot is het symbool voor 4 IV. Als we deze stukken samenvoegen, krijgen we MM + XX + IV = MMXXIV. Laten we nu het Romeinse cijfer MCMXCIX decoderen. M = 1000. CM is een kleiner cijfer (C=100) voor een groter cijfer (M=1000), dus dat is 1000 - 100 = 900. XC is X(10) voor C(100), wat 100 - 10 = 90 betekent. IX is I(1) voor X(10), wat 10 - 1 = 9 betekent. Alles bij elkaar opgeteld: 1000 + 900 + 90 + 9 = 1999.",
+  "resultInterpretation": "Het geconverteerde resultaat wordt duidelijk weergegeven in een groot, gemakkelijk te lezen lettertype in het resultatenpaneel. Bij het converteren naar Romeinse cijfers gebruikt de uitvoer een klassiek schreeflettertype (serif) om de historische aard van de cijfers te weerspiegelen. Bij het converteren naar standaardgetallen wordt een helder, niet-proportioneel (monospaced) lettertype gebruikt. De tool handhaaft strikt de standaard subtractieve notatie, wat betekent dat je nooit vier identieke tekens op een rij zult zien (bijv. 4 is altijd IV, nooit IIII, behalve op sommige traditionele wijzerplaten die deze tool niet genereert). Als je invoer ongeldig is of buiten het bereik valt, toont het resultatenpaneel duidelijk een foutmelding in rode tekst, om je te begeleiden bij het corrigeren van je invoer.",
   "useCases": [
-    "Super Bowl-nummers lezen",
-    "Datums van tatoeages",
-    "Onderweg snel Romeinse cijfers verwerken"
+    "Tatoeages & Body Art: Ervoor zorgen dat een belangrijke datum (zoals een jubileum of geboortejaar) perfect vertaald is voordat deze in permanente inkt wordt vastgelegd.",
+    "Mediaproductie: Het opmaken van copyrightjaren voor de aftiteling van films, televisieprogramma's en videogames (bijv. Copyright MMXXIV).",
+    "Geschiedenis & Educatie: Studenten en historici helpen bij het ontcijferen van datums op historische gebouwen, monumenten, oude boeken en manuscripten.",
+    "Design & Typografie: Het ontwerpen van klassieke wijzerplaten of gestileerde hoofdstuktitels voor romans en rapporten.",
+    "Evenementenplanning: Het opmaken van nummers voor grote terugkerende evenementen zoals de Super Bowl, Olympische Spelen of WrestleMania.",
+    "Juridische & Officiële Documenten: Het gebruik van Romeinse cijfers voor het structureren van overzichten, bijlagen of clausules in formele documentatie."
   ],
   "tipsAndLimitations": [
-    "Standaard Romeinse cijfers zijn over het algemeen niet hoger dan 3.999.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Standaard Romeinse cijfers hebben geen symbool voor het concept nul en ze ondersteunen geen negatieve getallen.",
+    "Het traditionele Romeinse cijfersysteem stopt bij 3.999 (MMMCMXCIX). Het converteren van grotere getallen vereist een speciale notatie (zoals een vinculum-streep erboven om met 1.000 te vermenigvuldigen) die niet wordt ondersteund door standaard webtoetsenborden.",
+    "Bij het invoeren van Romeinse cijfers is het invoerveld niet hoofdlettergevoelig. Je kunt 'mcmxcix' of 'MCMXCIX' typen en de tool zal het correct verwerken.",
+    "Hoewel sommige historische teksten de regels wel eens breken (bijv. door 4 als IIII te schrijven in plaats van IV), houdt deze tool zich strikt aan de standaard subtractieve notatie.",
+    "Breuken worden niet ondersteund; de converter verwerkt alleen gehele getallen."
   ],
   "faq": [
     {
-      "question": "Zit er een nul in Romeinse cijfers?",
-      "answer": "Nee, het concept van nul bestond niet in dit systeem."
+      "question": "Wat zijn de 7 basis Romeinse cijfer symbolen?",
+      "answer": "De zeven basissymbolen en hun waarden zijn: I (1), V (5), X (10), L (50), C (100), D (500) en M (1000)."
     },
     {
-      "question": "Is de Romeinse cijferconverter gratis te gebruiken?",
-      "answer": "Ja, onze Romeinse Cijfer Converter is volledig gratis en vereist geen registratie."
+      "question": "Waarom wordt 4 als IV geschreven in plaats van IIII?",
+      "answer": "Standaard Romeinse cijfers gebruiken een regel genaamd subtractieve notatie om ruimte te besparen en herhaling te verminderen. Het plaatsen van een kleiner cijfer voor een groter cijfer duidt op een aftrekking. Dus, het plaatsen van een I (1) voor een V (5) betekent 5 - 1 = 4. Evenzo is 9 IX."
     },
     {
-      "question": "Werkt dit op mobiele apparaten?",
-      "answer": "Ja, de tool is volledig responsive en functioneert perfect op alle smartphones en tablets."
+      "question": "Waarom kan ik geen getallen groter dan 3999 converteren?",
+      "answer": "Het grootste standaard Romeinse symbool is M (1000). Omdat de standaardnotatie voorschrijft dat je niet meer dan drie identieke symbolen op een rij mag gebruiken, is het grootste getal dat je met standaardletters kunt schrijven MMMCMXCIX (3999). Voor grotere getallen werd traditioneel een overlijn (vinculum) gebruikt, wat moeilijk te typen is op standaardtoetsenborden."
+    },
+    {
+      "question": "Ondersteunt deze tool Romeinse cijfers in kleine letters?",
+      "answer": "Ja, bij het converteren van Romeins naar Getal is het invoerveld volledig ongevoelig voor hoofdletters/kleine letters. Je kunt hoofdletters en kleine letters vrijelijk door elkaar gebruiken."
+    },
+    {
+      "question": "Is er een Romeins cijfer voor nul?",
+      "answer": "Nee, de oude Romeinen hadden geen cijfer om het concept nul weer te geven. Ze gebruikten woorden als 'nulla' (geen) als ze het idee in een tekst moesten uitdrukken."
+    },
+    {
+      "question": "Worden mijn conversies privé gehouden?",
+      "answer": "Ja. Alle conversies vinden volledig lokaal in je webbrowser plaats. Geen van je ingevoerde gegevens wordt ooit naar onze servers gestuurd of daar opgeslagen."
     }
   ],
   "relatedTools": [
-    "lengte-omzetter",
-    "gewicht-omzetter",
-    "hoogte-omzetter"
+    "decimal-to-binary",
+    "binary-to-decimal",
+    "hex-to-decimal",
+    "number-base-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Romeinse cijferomzetter",
-  "ogImageText": "Romeinse cijferomzetter"
+  "cta": "Snel een historische datum ontcijferen of een stijlvol copyrightjaar ontwerpen? Voer je getal of Romeinse cijfer hierboven in voor een directe, wiskundig perfecte vertaling.",
+  "disclaimer": "Deze tool volgt strikt de standaard regels voor subtractieve Romeinse cijfers en verwerkt getallen tussen 1 en 3999. Hoewel perfect geschikt voor onderwijs, ontwerp en algemeen gebruik, ondersteunt het geen niet-standaard historische varianten (zoals de 'IIII' die vaak op wijzerplaten wordt gebruikt) of de vinculum-notatie die nodig is voor getallen van 4.000 en hoger.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface van de Romeinse Cijfers Converter met een invoerveld en het geconverteerde resultaat",
+  "ogImageText": "Romeinse Cijfers Converter"
 }

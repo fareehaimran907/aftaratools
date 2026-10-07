@@ -1,55 +1,53 @@
 {
-  "seoTitle": "BMR Calculator",
-  "metaDescription": "Free online BMR Calculator. Calculate your Basal Metabolic Rate.",
+  "seoTitle": "BMR Calculator - Basal Metabolic Rate",
+  "metaDescription": "Free online BMR Calculator. Find out exactly how many calories your body burns at rest. Essential for weight loss and diet planning.",
   "h1": "BMR Calculator",
   "primaryKeyword": "bmr calculator",
   "secondaryKeywords": [
-    "bmr calculator online",
-    "free bmr calculator",
-    "best bmr calculator"
+    "basal metabolic rate calculator",
+    "resting metabolism calculator",
+    "how many calories do I burn at rest",
+    "bmr formula"
   ],
   "slug": "bmr-calculator",
-  "intro": "Use our free online BMR Calculator tool. It estimates basal metabolic rate based on your inputs.",
-  "whatIs": "The BMR Calculator is an online utility that estimates basal metabolic rate. It processes your age, height, weight and provides calories burned resting completely.",
+  "intro": "Planning a diet and need to know your baseline calorie needs? Our free BMR Calculator reveals exactly how many calories your body burns every day just to stay alive.",
+  "whatIs": "The BMR (Basal Metabolic Rate) Calculator is a physiological math tool. It estimates the minimum number of calories your body requires to perform basic, life-sustaining functions (like breathing and pumping blood) while completely at rest.",
   "howToUse": [
-    "Enter your age, height, weight into the designated input field.",
-    "Provide any secondary parameters like gender.",
-    "Click the calculate or submit button to generate calories burned resting completely.",
-    "Copy or review the resulting output for your needs."
+    "Select your biological sex.",
+    "Enter your age, height, and current weight.",
+    "Click calculate to instantly reveal your Basal Metabolic Rate.",
+    "Use this baseline number to plan your dietary deficit or surplus."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your age, height, weight. It instantly processes the data to output calories burned resting completely.",
-  "workedExample": "For example: A 30yr old male might have a BMR of ~1800 kcal.",
-  "resultInterpretation": "The result represents calories burned resting completely. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "The tool uses the Mifflin-St Jeor equation, which is currently considered the most accurate standard formula. It factors in weight, height, and age, applying different multipliers based on biological sex differences in muscle mass.",
+  "workedExample": "A 30-year-old male who is 180cm tall and weighs 80kg: (10 × 80) + (6.25 × 180) - (5 × 30) + 5 = 800 + 1125 - 150 + 5 = 1,780. His BMR is 1,780 calories per day.",
+  "resultInterpretation": "Your BMR is your 'coma calorie limit'. If you lay in bed all day and did absolutely nothing, you would still burn this many calories. You must eat more than this to support daily activities.",
   "useCases": [
-    "Diet planning",
-    "Understanding metabolism",
-    "Quickly processing age, height, weight on the go"
+    "Weight Loss: Using BMR as the absolute lowest limit of daily caloric intake to ensure you don't slow down your metabolism.",
+    "Muscle Building: Calculating baseline needs before adding a caloric surplus and exercise calories to build mass.",
+    "Nutritional Planning: Dietitians determining baseline metabolic needs for patients."
   ],
   "tipsAndLimitations": [
-    "Formulas like Mifflin-St Jeor provide an estimate, not a lab result.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "BMR does NOT include the calories you burn walking around, digesting food, or exercising. To find your total daily calorie burn, use a TDEE (Total Daily Energy Expenditure) Calculator.",
+    "As you lose weight, your BMR will decrease. You must recalculate it regularly during a diet."
   ],
   "faq": [
     {
-      "question": "Does BMR include exercise?",
-      "answer": "No, BMR is strictly the energy needed to stay alive at rest."
+      "question": "What is the difference between BMR and TDEE?",
+      "answer": "BMR is the calories burned completely at rest. TDEE adds your daily activity level (walking, exercising, talking) on top of your BMR to find your total calories burned."
     },
     {
-      "question": "Is the BMR Calculator free to use?",
-      "answer": "Yes, our BMR Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Why does age affect BMR?",
+      "answer": "As you get older, you naturally lose muscle mass and your metabolic processes slow down, which means your body requires fewer calories to sustain itself."
     }
   ],
   "relatedTools": [
-    "bmi-calculator",
     "calorie-calculator",
-    "macro-calculator"
+    "macro-calculator",
+    "body-fat-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "BMR Calculator interface screenshot",
+  "cta": "Calculate your resting metabolism now!",
+  "disclaimer": "BMR calculations are estimates based on population averages. Individual metabolisms can vary due to genetics, muscle mass, and medical conditions.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "BMR Calculator interface showing daily calorie needs",
   "ogImageText": "BMR Calculator"
 }

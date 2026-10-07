@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Dias entre datas",
-  "metaDescription": "Calcule o número exato de dias entre duas datas.",
-  "h1": "Dias entre datas",
+  "seoTitle": "Calculadora de Dias Entre Datas - Contagem Exata",
+  "metaDescription": "Calcule facilmente o número exato de dias entre duas datas. Descubra dias totais, dias úteis e finais de semana decorridos.",
+  "h1": "Calculadora de Dias Entre Datas",
   "primaryKeyword": "dias entre datas",
   "secondaryKeywords": [
-    "Dias entre datas on-line",
-    "dias grátis entre datas",
-    "melhores dias entre datas"
+    "quantos dias",
+    "calculadora de dias",
+    "calculadora de dias úteis",
+    "contador de dias"
   ],
-  "slug": "dias entre datas",
-  "intro": "Calcule instantaneamente o número exato de dias entre duas datas.",
-  "whatIs": "O que é essa ferramenta?",
+  "slug": "dias-entre-datas",
+  "intro": "Você está tentando descobrir exatamente quantos dias se passaram desde um evento significativo, ou quantos dias faltam para um prazo final iminente? Nossa calculadora de Dias entre Datas é uma ferramenta altamente especializada projetada para lhe dar a contagem precisa de dias absolutos que separam quaisquer duas datas do calendário. Quer você esteja rastreando o cronograma de um projeto, contando os dias de uma sequência ou calculando juros financeiros durante um período específico, saber o número exato de dias é fundamental. Esta calculadora elimina as adivinhações e a tediosa contagem manual associada à variação do número de dias dos meses e anos bissextos, fornecendo uma resposta infalível em apenas alguns milissegundos.",
+  "whatIs": "A calculadora de Dias entre Datas é uma utilidade essencial que mede a duração bruta e ininterrupta entre uma data de início e uma data de término, expressa exclusivamente em dias. Ao contrário de uma calculadora geral de idade ou de datas, que divide o tempo em anos, meses e dias, esta ferramenta se concentra apenas na contagem absoluta de dias. Esta métrica pura é crucial para muitos cálculos técnicos, financeiros e científicos em que um 'mês' é uma unidade muito variável (uma vez que os meses podem ter 28, 29, 30 ou 31 dias). Baseando-se em uma contagem absoluta de dias, os profissionais podem calcular as taxas de juros diárias com precisão, determinar as taxas de aluguel diárias exatas ou rastrear sequências consecutivas sem qualquer ambiguidade.",
   "howToUse": [
-    "Insira sua primeira data no campo de entrada designado.",
-    "Forneça quaisquer parâmetros secundários, como segunda data.",
-    "Clique no botão calcular ou enviar para gerar a contagem total de dias dividindo milissegundos.",
-    "Copie ou revise a saída resultante de acordo com suas necessidades."
+    "Selecione sua data de início.",
+    "Selecione sua data de término.",
+    "Opcionalmente, marque 'Incluir data final' se quiser uma contagem inclusiva.",
+    "Veja o número total de dias, dias úteis e de fim de semana."
   ],
-  "howItWorks": "Como funciona",
-  "workedExample": "Exemplos",
-  "resultInterpretation": "Interpretação",
+  "howItWorks": "Em sua essência, a calculadora converte as datas de início e de término que você seleciona em um formato de tempo universal — especificamente, o número de milissegundos decorridos desde a Era Unix (1º de janeiro de 1970). Subtraindo o carimbo de data e hora de início do carimbo de data e hora final, a ferramenta determina a diferença exata de tempo em milissegundos. Em seguida, divide esse número enorme por 86.400.000 (o número exato de milissegundos em um dia padrão de 24 horas) para chegar à contagem bruta de dias. Esta abordagem matemática assegura que anomalias como anos bissextos e meses com tamanhos irregulares sejam naturalmente e perfeitamente contabilizadas. A ferramenta também inclui uma opção para 'Incluir data de término', que simplesmente adiciona 1 ao resultado final, mudando o cálculo de uma diferença matemática rigorosa para uma contagem de duração inclusiva.",
+  "workedExample": "Considere um cenário em que você precisa calcular o número de dias entre 4 de julho de 2023 e 25 de dezembro de 2023. Se fosse contar manualmente, teria de adicionar 27 dias restantes em julho, 31 em agosto, 30 em setembro, 31 em outubro, 30 em novembro e 25 em dezembro. A nossa calculadora realiza esta operação instantaneamente. Ela encontra o carimbo de data/hora para 25 de dezembro e subtrai o carimbo de data/hora para 4 de julho. A diferença bruta é exatamente de 174 dias. Se estiver calculando um aluguel diário que começou no dia 4 de julho e terminou no dia 25 de dezembro (incluindo ambos os dias), deverá marcar a opção 'Incluir data de término', e a calculadora ajustaria instantaneamente o total para 175 dias.",
+  "resultInterpretation": "A interpretação do resultado é direta, mas é importante compreender o contexto de seu cálculo. O resultado padrão representa a diferença matemática rigorosa - essencialmente o número de meias-noites que passam entre as duas datas. Esta é a métrica correta para calcular a idade, o tempo decorrido ou os prazos padrão. No entanto, se você estiver controlando uma sequência diária consecutiva (como uma dieta ou aprendizagem de um idioma), ou se estiver cobrando por serviços prestados em todos os dias que abrangem as duas datas, você precisa da contagem inclusiva. A contagem inclusiva adiciona um dia à diferença matemática para assegurar que tanto o dia de início quanto o dia de término sejam totalmente contabilizados no total.",
   "useCases": [
-    "Rastreamento de visto",
-    "Períodos de gestação",
-    "Processando rapidamente o primeiro encontro em qualquer lugar"
+    "Planejamento de Negócios: Contagem de dias úteis para um projeto.",
+    "Cálculo de Férias: Descobrir quantos dias de trabalho as férias consumirão.",
+    "Eventos: Contagem regressiva até um prazo final."
   ],
   "tipsAndLimitations": [
-    "Exclui fusos horários.",
-    "Certifique-se de que suas entradas estejam formatadas corretamente para obter os melhores resultados.",
-    "A ferramenta é totalmente executada no lado do cliente, garantindo que seus dados permaneçam privados."
+    "A contagem de dias úteis assume a semana de trabalho padrão (segunda a sexta).",
+    "Feriados não são subtraídos automaticamente.",
+    "Use 'Incluir data final' para reservas de hotel inclusivas."
   ],
   "faq": [
     {
-      "question": "O uso do Days Between Dates é gratuito?",
-      "answer": "Sim, nosso uso de Days Between Dates é totalmente gratuito."
+      "question": "Feriados contam como dias úteis?",
+      "answer": "Sim, feriados são contados como úteis se caírem de segunda a sexta. Você deve subtrai-los manualmente."
     },
     {
-      "question": "Isso funciona no celular?",
-      "answer": "Sim, é totalmente responsivo e funciona em todos os dispositivos."
-    },
-    {
-      "question": "Preciso baixar alguma coisa?",
-      "answer": "Não, funciona totalmente no seu navegador sem qualquer instalação."
+      "question": "O que significa 'Incluir data final'?",
+      "answer": "A diferença entre os dias 1 e 2 é de 1 dia. Se você trabalha nos dois, são 2 dias. Esta caixa de seleção adiciona esse dia extra."
     }
   ],
   "relatedTools": [
-    "calculadora de idade",
-    "calculadora de diferença de data",
-    "dias até a calculadora"
+    "date-difference-calculator",
+    "days-until-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Dias entre datas",
-  "ogImageText": "Dias entre datas"
+  "cta": "Calcule os dias entre suas datas agora mesmo!",
+  "disclaimer": "Esta ferramenta é apenas informativa. Verifique manualmente prazos legais rigorosos.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Captura de tela da Calculadora de Dias",
+  "ogImageText": "Dias Entre Datas"
 }

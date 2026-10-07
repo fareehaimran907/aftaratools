@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Convertitore di altezza",
-  "metaDescription": "Convertire l'altezza da piedi e pollici a cm.",
-  "h1": "Convertitore di altezza",
+  "seoTitle": "Convertitore di Altezza - cm in piedi e pollici",
+  "metaDescription": "Convertitore di altezza umana gratuito. Converti tra centimetri (cm) e piedi + pollici. Perfetto per documenti e app di fitness.",
+  "h1": "Convertitore di Altezza",
   "primaryKeyword": "convertitore di altezza",
   "secondaryKeywords": [
-    "Convertitore di altezza online",
-    "Convertitore di altezza gratuito",
-    "miglior convertitore di altezza"
+    "cm in piedi e pollici",
+    "piedi e pollici in cm",
+    "convertire statura"
   ],
-  "slug": "convertitore di altezza",
-  "intro": "Converti facilmente l'altezza umana tra il sistema metrico e quello imperiale.",
-  "whatIs": "Cos'è questo strumento?",
-  "howToUse": [
-    "Inserisci i tuoi cm nel campo di input designato.",
-    "Fornisci eventuali parametri secondari come piedi e pollici.",
-    "Fare clic sul pulsante Calcola o Invia per generare un'altezza formattata correttamente.",
-    "Copia o rivedi l'output risultante in base alle tue esigenze."
-  ],
-  "howItWorks": "Come funziona",
-  "workedExample": "Esempi",
-  "resultInterpretation": "Interpretazione",
-  "useCases": [
-    "Moduli patente di guida",
-    "Profili medici",
-    "Elaborazione rapida cm in movimento"
-  ],
-  "tipsAndLimitations": [
-    "Piedi e pollici non sono semplici decimali (ad esempio 5,5 non è 5'5\").",
-    "Assicurati che i tuoi input siano formattati correttamente per ottenere i migliori risultati.",
-    "Lo strumento funziona completamente lato client, garantendo che i tuoi dati rimangano privati."
-  ],
+  "slug": "convertitore-altezza",
+  "intro": "Convertire l'altezza umana può essere confuso perché il sistema imperiale usa due unità (piedi e pollici). Il nostro strumento gestisce questa particolarità all'istante.",
+  "whatIs": "Un convertitore di altezza è una calcolatrice progettata per la statura umana. Formatta l'output in piedi E pollici (es. 5'10\").",
+  "howToUse": "Da Metrico: inserisci l'altezza in cm. Da Imperiale: inserisci piedi nella prima casella e pollici nella seconda. I risultati si aggiornano subito.",
+  "howItWorks": "1 pollice = 2,54 cm, 1 piede = 12 pollici. Per convertire cm in piedi/pollici, divide i cm per 30,48 per ottenere i piedi interi e calcola il resto in pollici.",
+  "workedExample": "Sei alto 178 cm. Lo strumento calcola: 178 / 2,54 = 70,078 pollici totali. 70 / 12 = 5 col resto di 10. Quindi 178 cm è 5 piedi e 10 pollici (5'10\").",
+  "resultInterpretation": "Il risultato è nel formato standard umano. La parte in pollici è solitamente arrotondata al numero intero.",
+  "useCases": "Viaggi: moduli per visti USA. Medicina: calcoli BMI. App: profili online e fitness tracker.",
+  "tipsAndLimitations": "Un errore comune: 5,5 piedi NON sono 5 piedi e 5 pollici. Sono 5 piedi e 6 pollici. L'altezza umana fluttua di 1-2 cm al giorno.",
   "faq": [
     {
-      "question": "Il convertitore di altezza è gratuito?",
-      "answer": "Sì, il nostro convertitore di altezza è completamente gratuito."
+      "question": "Quanto è 180 cm in piedi e pollici?",
+      "answer": "180 cm è circa 5 piedi 11 pollici (5'11\")."
     },
     {
-      "question": "Funziona su dispositivi mobili?",
-      "answer": "Sì, è completamente reattivo e funziona su tutti i dispositivi."
-    },
-    {
-      "question": "Devo scaricare qualcosa?",
-      "answer": "No, funziona completamente nel tuo browser senza alcuna installazione."
+      "question": "Come si calcola 5'9\" in cm?",
+      "answer": "5 piedi = 60 pollici. 60 + 9 = 69 pollici. 69 × 2,54 = 175,26 cm."
     }
   ],
   "relatedTools": [
-    "convertitore di lunghezza",
-    "convertitore di peso",
-    "convertitore di temperatura"
+    "length-converter",
+    "weight-converter",
+    "bmi-calculator"
   ],
-  "lastReviewed": "2026-09-30",
+  "cta": "Converti la tua altezza istantaneamente!",
+  "disclaimer": "Per comodità. Usa attrezzature professionali per scopi medici.",
+  "lastReviewed": "2024-03-15",
   "imageAlt": "Convertitore di altezza",
-  "ogImageText": "Convertitore di altezza"
+  "ogImageText": "Convertitore Altezza"
 }

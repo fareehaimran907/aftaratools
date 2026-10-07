@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@variant dark (&:where(.dark, .dark *));
 :root {
   /* Core Colors - Light Mode */
   --background: #fafafa;

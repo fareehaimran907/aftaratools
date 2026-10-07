@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Generator Hash Online - MD5, SHA1, SHA256",
+  "metaDescription": "Generator Hash Online Gratis. Menghitung hash kriptografi yang aman secara instan termasuk MD5, SHA-1, SHA-256, dan SHA-512 dari setiap string teks.",
+  "h1": "Generator Hash",
+  "primaryKeyword": "generator hash",
+  "secondaryKeywords": [
+    "kalkulator hash online",
+    "string untuk di-hash",
+    "hasilkan kode hash",
+    "hash kriptografi"
+  ],
+  "slug": "generator-hash",
+  "intro": "Memverifikasi integritas file atau mengamankan data? Generator Hash all-in-one kami langsung menghitung fungsi hash kriptografi paling populer untuk teks apa pun yang Anda masukkan.",
+  "whatIs": "Hash Generator adalah utilitas keamanan siber dan pengembang. Ini mengambil string input dengan panjang berapa pun dan melewatinya melalui algoritma matematis untuk menghasilkan string karakter berukuran tetap, yang dikenal sebagai 'hash' atau 'digest'.",
+  "howToUse": [
+    "Ketik atau tempel teks Anda ke dalam kolom input utama.",
+    "Pilih algoritma hashing spesifik yang ingin Anda gunakan (misalnya, SHA-256).",
+    "Alat ini langsung memproses teks dan menampilkan output hash heksadesimal.",
+    "Salin hash untuk kebutuhan verifikasi Anda."
+  ],
+  "howItWorks": "Alat ini menggunakan Web Crypto API untuk memproses teks masukan Anda. Algoritma memecah teks menjadi blok-blok dan melakukan operasi bitwise yang kompleks untuk mengacak data. Bahkan mengubah satu huruf saja dalam masukan akan sepenuhnya mengubah output akhir.",
+  "workedExample": "Anda memasukkan kata 'password'. Anda memilih algoritma SHA-256. Alat tersebut menghasilkan string heksadesimal 64 karakter: `5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8`.",
+  "resultInterpretation": "Hash berfungsi sebagai 'sidik jari' digital yang unik untuk teks Anda. Jika orang lain melakukan hashing pada teks yang persis sama dengan algoritma yang persis sama, mereka akan mendapatkan sidik jari yang persis sama.",
+  "useCases": [
+    "Verifikasi Data: Memastikan bahwa file besar yang diunduh atau string teks tidak rusak atau diubah selama pengiriman dengan membandingkan hash-nya.",
+    "Desain Basis Data: Menyembunyikan data sensitif (seperti jawaban keamanan) sebelum menyimpannya dalam basis data.",
+    "Pengembangan API: Menghasilkan checksum untuk payload webhook yang aman guna memverifikasi keaslian pengirim."
+  ],
+  "tipsAndLimitations": [
+    "Hashing adalah jalan satu arah. Berbeda dengan enkripsi, Anda tidak dapat 'mendekripsi' hash kembali ke teks asli.",
+    "MD5 dan SHA-1 dianggap rusak secara kriptografi dan rentan terhadap serangan tabrakan. Mereka seharusnya hanya digunakan untuk verifikasi file dasar, bukan untuk keamanan."
+  ],
+  "faq": [
+    {
+      "question": "Apa perbedaan antara hashing dan enkripsi?",
+      "answer": "Enkripsi adalah proses dua arah; data diacak dengan kunci dan dapat diuraikan dengan kunci yang sama. Hashing adalah proses satu arah; data diacak menjadi string dengan panjang tetap dan secara matematis tidak dapat dibalik."
+    },
+    {
+      "question": "Algoritma mana yang paling aman?",
+      "answer": "Dari algoritma standar yang disediakan, SHA-256 dan SHA-512 saat ini dianggap sangat aman dan merupakan standar industri untuk kriptografi dan teknologi blockchain."
+    }
+  ],
+  "relatedTools": [
+    "sha256-hash-generator",
+    "md5-hash-generator",
+    "bcrypt-generator"
+  ],
+  "cta": "Hasilkan hash kriptografi secara instan!",
+  "disclaimer": "Perhitungan dilakukan secara lokal melalui Web Crypto API. Algoritma MD5 dan SHA-1 disediakan untuk kompatibilitas lama, bukan untuk tujuan keamanan modern.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka Generator Hash menampilkan beberapa algoritma",
+  "ogImageText": "Generator Hash"
+}

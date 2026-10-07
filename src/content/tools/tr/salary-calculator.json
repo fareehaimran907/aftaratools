@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Maaş Hesaplayıcı",
-  "metaDescription": "Net eve dönüş ücretinizi hesaplayın.",
+  "seoTitle": "Maaş Hesaplayıcı - Saatlik Ücret ve Yıllık Maaş Çevirici",
+  "metaDescription": "Ücretsiz maaş hesaplama aracı. Gelirinizi saatlik, günlük, haftalık, aylık ve yıllık brüt tutarlara anında dönüştürün.",
   "h1": "Maaş Hesaplayıcı",
   "primaryKeyword": "maaş hesaplayıcı",
   "secondaryKeywords": [
-    "Çevrimiçi Maaş Hesaplayıcı",
-    "ücretsiz Maaş Hesaplayıcı",
-    "en iyi Maaş Hesaplayıcı"
+    "saatlik ücret hesaplama",
+    "aylık maaşı yıllığa çevirme",
+    "brüt maaş hesaplama",
+    "brüt maaş hesaplama"
   ],
-  "slug": "maaş-hesaplayıcı",
-  "intro": "Saatlik, günlük, haftalık veya yıllık maaşınızı anında eşdeğer oranlara dönüştürün.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "maas-hesaplama",
+  "intro": "Saatlik ücrete bölünen yıllık maaşınızın ne anlama geldiğini mi merak ediyorsunuz, yoksa belirli bir saatlik ücretle yılda ne kadar kazanacağınızı mı öğrenmek istiyorsunuz? Ücretsiz çevrimiçi maaş hesaplayıcımız, maaş dönüştürme karmaşıklığını ortadan kaldırır. İster yeni bir iş teklifini müzakere ediyor olun, ister tam zamanlı bir göreve geçiş yapan bir serbest çalışan olun, isterseniz de sadece evinizin mali durumunu planlıyor olun, bu araç anında ve doğru dökümler sunar. Maaş hesaplayıcısı, mevcut veya beklenen maaşınızı girerek gelirinizi anında saatlik, günlük, haftalık, aylık ve yıllık gibi çeşitli dönemlere göre belirler ve gerçek kazanç potansiyelinizi net bir şekilde görmenizi sağlar.",
+  "whatIs": "Maaş hesaplayıcısı, farklı ödeme dönemleri arasında tazminat rakamlarını sorunsuz bir şekilde dönüştürmek için tasarlanmış vazgeçilmez bir finansal planlama aracıdır. Maaşlar genellikle iş görüşmelerinde yıllık toplam olarak belirtilir, ancak günlük bütçeleme için bunun aylık veya saatlik olarak ne anlama geldiğini bilmek daha pratiktir. Tersine, saatlik çalışanlar ücretlerini biliyor olabilir ancak kiralama veya kredi başvuruları için yıllık gelirlerini yansıtmakta zorluk çekebilirler. Bu araç evrensel bir maaş çevirmeni görevi görür. Yıllık maaşınız, aylık maaşınız, haftalık maaşınız veya saatlik ücretiniz gibi herhangi bir ücret değerini alıp standart çalışma saatlerinizi hesaba katarak, bunu diğer tüm zaman dilimlerindeki eşdeğerini hesaplayarak eksiksiz bir mali netlik sağlar.",
   "howToUse": [
-    "Belirlenen giriş alanına saatlik ücretinizi girin.",
-    "Yıllık maaş gibi ikincil parametreleri sağlayın.",
-    "Eşdeğer günlük, haftalık ve aylık ödeme oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Maaş Tutarınızı girin (örn. 30000).",
+    "Ödeme Sıklığını seçin (örn. Aylık, Saatlik).",
+    "Haftalık çalışma saatlerinizi ayarlayın (genelde 40 veya 45 saat).",
+    "Tüm zaman dilimlerindeki maaş dağılımınızı görün."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, genel kabul görmüş çalışma normlarına dayalı bir dizi standartlaştırılmış matematiksel formül kullanarak çalışır. Varsayılan olarak haftada 40 saatlik çalışma süresi ve yılda 52 çalışma haftası (2.080 yıllık saate eşittir) olduğu varsayılır. Yıllık maaş gibi bir değer girdiğinizde aylık maaşı bulmak için o sayıyı 12'ye, haftalık maaşı bulmak için 52'ye ve saatlik ücreti belirlemek için 2.080'e böler. Saatlik bir oranla başlarsanız, bu oran yukarı doğru çarpılır: hafta için 40, yıl için 2.080 ile çarpılır, vb. Ayrıca hesaplamaların özel çalışma durumunuzu doğru şekilde yansıtmasını sağlamak için bu varsayılan parametreleri (haftalık çalışma saati sayısı gibi) ayarlayabilirsiniz.",
+  "workedExample": "Yıllık 60.000$ maaşlı yeni bir iş teklifi aldığınızı varsayalım. Bunun aylık veya saatlik olarak ne kadar olduğunu merak ediyorsunuz. Hesap makinesinin yıllık maaş alanına '60.000' yazıp haftalık 40 saat varsayılan ayarını korursunuz. Araç anında geri kalanını hesaplar. Yıllık 60.000$'ın aylık brüt 5.000$ gelire (60.000 / 12), haftalık brüt gelirin yaklaşık 1.153,85$ (60.000 / 52), günlük gelirin (haftada 5 iş günü olduğu varsayılarak) yaklaşık 230,77$ ve saatlik ücretin 28,85$ (60.000 / 2.080) eşit olduğunu gösterir. Bu ayrıntılı görünüm, teklifin günlük yaşam giderlerinizi karşılayıp karşılamayacağını kolayca değerlendirmenize olanak tanır.",
+  "resultInterpretation": "Hesap makinesi tarafından oluşturulan sonuçlar, farklı zaman dilimleri boyunca kazanç potansiyelinizin ayrıntılı bir matrisini sağlar: Saatlik, günlük, haftalık, iki haftalık, aylık ve yıllık. Bu rakamların brüt geliri (vergiler, sigorta primleri, emeklilik katkı payları ve diğer kesintiler yapılmadan önceki maaşınız) temsil ettiğini anlamak çok önemlidir. Bu bireyselleştirilmiş faktörlerden dolayı gerçek eve götürülen maaşınız (net gelir) her zaman daha düşük olacaktır. Bununla birlikte, bu brüt rakamlar, bir ipotek sağlamak, bir zam pazarlığı yapmak veya farklı ödeme yapıları (saatlik - maaş) kullanabilecek iş tekliflerini karşılaştırmak gibi büyük finansal kararlar için paha biçilmezdir.",
   "useCases": [
-    "İş teklifi karşılaştırması",
-    "Kişisel bütçeleme",
-    "Hareket halindeyken saatlik ücreti hızlı bir şekilde işleyin"
+    "İş Görüşmeleri: Yıllık brüt maaş teklifinin aylık değerini bulma.",
+    "Yarı Zamanlı (Part-time): Belirli bir saat çalışarak ayda ne kadar kazanılacağını hesaplama.",
+    "Yarı Zamanlı (Part-time): Belirli bir saat çalışarak ayda ne kadar kazanılacağını hesaplama."
   ],
   "tipsAndLimitations": [
-    "Değiştirilmedikçe standart 40 saatlik haftaları varsayar.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Elinize geçecek 'Net' maaş vergi dilimleri ve sigorta kesintileri nedeniyle daha düşük olacaktır.",
+    "Hesaplama yılda tam 52 hafta ücretli çalışıldığını (ücretli izinler dahil) varsayar."
   ],
   "faq": [
     {
-      "question": "Maaş Hesaplayıcının kullanımı ücretsiz midir?",
-      "answer": "Evet, Maaş Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Bir yılda kaç çalışma saati vardır?",
+      "answer": "Haftalık çalışma saatinize göre değişir. Haftada 45 saat çalışan biri için yılda ortalama 2.340 saat vardır."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Bir yılda kaç çalışma saati vardır?",
+      "answer": "Haftalık çalışma saatinize göre değişir. Haftada 45 saat çalışan biri için yılda ortalama 2.340 saat vardır."
     }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "indirim hesaplayıcı",
-    "bahşiş hesaplayıcı"
+    "hourly-to-salary-calculator",
+    "tax-calculator",
+    "profit-margin-calculator"
   ],
-  "lastReviewed": "2026-09-30",
+  "cta": "Maaş dağılımınızı şimdi hesaplayın!",
+  "disclaimer": "Bu araç yalnızca brüt hesaplamalar içindir. Yerel vergi kesintilerini içermez.",
+  "lastReviewed": "2024-03-16",
   "imageAlt": "Maaş Hesaplayıcı",
-  "ogImageText": "Maaş Hesaplayıcı"
+  "ogImageText": "Maaş Hesaplama"
 }

@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Lancia un Dado - Lanciatore di Dadi Virtuale Online",
+  "metaDescription": "Lanciatore di dadi online gratuito. Lancia istantaneamente un dado virtuale a 6 facce (o scegli un numero di facce personalizzato) per giochi da tavolo, giochi di ruolo e generazione di numeri casuali.",
+  "h1": "Roll a Die",
+  "primaryKeyword": "roll a die",
+  "secondaryKeywords": [
+    "lanciatore di dadi virtuale",
+    "lanciare i dadi online",
+    "generatore di dadi casuale",
+    "d6 roller"
+  ],
+  "slug": "roll-a-die",
+  "intro": "Hai perso i dadi del tuo gioco da tavolo preferito, o hai bisogno di un numero casuale veloce per Dungeons & Dragons? Il nostro lanciatore di dadi virtuale gratuito ti offre un tiro perfetto e imparziale ogni volta.",
+  "whatIs": "Lo strumento Lancia un Dado è un simulatore digitale che ricrea la probabilità matematica di lanciare dadi fisici. Per impostazione predefinita, simula un dado standard a 6 facce (D6), ma può essere personalizzato.",
+  "howToUse": [
+    "Vai allo strumento e seleziona il numero di dadi che vuoi lanciare.",
+    "Se applicabile, seleziona il tipo di dado (ad esempio, a 6 facce, a 20 facce).",
+    "Clicca il pulsante 'Lancia'.",
+    "Lo strumento genera e visualizza immediatamente i risultati casuali."
+  ],
+  "howItWorks": "Lo strumento agisce come un generatore di numeri casuali specializzato. Per un dado standard a 6 facce, utilizza la funzione Math.random() di JavaScript per scegliere un numero perfettamente distribuito tra 1 e 6.",
+  "workedExample": "Devi tirare due dadi a sei facce (2d6) per Monopoli. Imposti la quantità su 2 e clicchi su tira. L'algoritmo genera un 4 e un 5. Lo strumento mostra i singoli dadi e la somma totale (9).",
+  "resultInterpretation": "I numeri mostrati sono risultati completamente casuali e indipendenti. Tratta il lancio digitale esattamente come faresti con un lancio fisico su un tavolo.",
+  "useCases": [
+    "Giochi da tavolo: Sostituire i pezzi mancanti per giochi come Monopoly o Yahtzee.",
+    "Giochi di ruolo da tavolo: Tirare un D20 per un controllo delle statistiche in Dungeons & Dragons o Pathfinder.",
+    "Educazione in classe: Insegnare la statistica della probabilità senza dadi fisici rumorosi."
+  ],
+  "tipsAndLimitations": [
+    "Un dado digitale è tecnicamente più equo di un dado fisico di plastica economica, poiché gli algoritmi digitali non hanno squilibri di peso fisici.",
+    "Lanciare più dadi? La somma di due dadi a 6 facce non ha una probabilità uguale. Un 7 è molto più probabile di un 2 o un 12."
+  ],
+  "faq": [
+    {
+      "question": "Il lancio del dado è davvero casuale?",
+      "answer": "Il tiro utilizza un algoritmo di numeri pseudo-casuali. Per il gioco e l'uso occasionale, è statisticamente indistinguibile da un dado fisico perfettamente bilanciato."
+    },
+    {
+      "question": "Posso tirare più dadi contemporaneamente?",
+      "answer": "Sì! Puoi regolare le impostazioni della quantità per lanciare più dadi contemporaneamente e lo strumento calcolerà automaticamente la somma totale."
+    }
+  ],
+  "relatedTools": [
+    "random-number-generator",
+    "flip-a-coin",
+    "spin-the-wheel"
+  ],
+  "cta": "Lancia il dado virtuale adesso!",
+  "disclaimer": "Lo strumento utilizza la generazione di numeri pseudo-casuali basata sul browser. Progettato per scopi di intrattenimento e giochi casuali.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Dadi virtuali che mostrano un lancio casuale",
+  "ogImageText": "Roll a Die"
+}

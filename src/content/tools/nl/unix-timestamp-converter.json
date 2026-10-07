@@ -1,55 +1,61 @@
 {
-  "seoTitle": "Unix-tijdstempelconverter",
-  "metaDescription": "Converteer Unix-tijdstempels naar leesbare datums en omgekeerd.",
-  "h1": "Unix-tijdstempelconverter",
-  "primaryKeyword": "Unix-tijdstempelconverter",
+  "seoTitle": "Unix Timestamp Converter - Epoch naar Datum",
+  "metaDescription": "Converteer eenvoudig Unix timestamps naar leesbare datums en vice versa. Bekijk direct de huidige Epoch tijd.",
+  "h1": "Unix-tijdstempelomzetter",
+  "primaryKeyword": "unix-tijdstempelomzetter",
   "secondaryKeywords": [
-    "Unix-tijdstempelconverter online",
-    "gratis Unix-tijdstempelconverter",
-    "beste Unix-tijdstempelconverter"
+    "epoch naar datum",
+    "timestamp naar datum converteren",
+    "huidige unix tijd",
+    "online tijdstempel converter"
   ],
-  "slug": "unix-tijdstempel-converter",
-  "intro": "Converteer seconden of milliseconden sinds het Unix-tijdperk onmiddellijk naar een voor mensen leesbaar formaat.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "slug": "unix-timestamp-converter",
+  "intro": "Heeft u te maken met systeemlogboeken, databases of API's die lange numerieke waarden weergeven in plaats van datums? Deze waarden zijn hoogstwaarschijnlijk Unix-tijdstempels. Met onze Unix Timestamp Converter kunt u deze cryptische cijfers onmiddellijk vertalen naar voor mensen leesbare datums en tijden, of omgekeerd. Of u nu een ontwikkelaar bent die logboeken debugt, een data-analist die datasets opschoont, of een systeembeheerder die gebeurtenissen bijhoudt, deze tool elimineert de noodzaak van complexe handmatige berekeningen en biedt gegarandeerde nauwkeurigheid in milliseconden. Met de eenvoudige en ongecompliceerde interface kunt u moeiteloos elke tijd omzetten in een tijdstempel of elk tijdstempel in lokale tijd.",
+  "whatIs": "De Unix Timestamp Converter is een digitale tool die is ontworpen om te vertalen tussen Unix-tijdstempels—een veelgebruikte methode om tijd weer te geven in de informatica—en standaard, voor mensen leesbare datum- en tijdnotaties. Een Unix-tijdstempel (ook bekend als Epoch-tijd of POSIX-tijd) is simpelweg het aantal seconden dat is verstreken sinds 1 januari 1970 om middernacht Coordinated Universal Time (UTC), schrikkelseconden niet meegerekend. Omdat computers getallen veel efficiënter verwerken dan complexe tekenreeksen, wordt dit formaat veel gebruikt in besturingssystemen (zoals Linux en macOS), programmeertalen en databaseopslag. Onze tool fungeert als een brug, waarmee u deze ruwe getallen kunt decoderen naar alledaagse datums of datums kunt coderen naar tijdstempels voor gebruik in technische systemen.",
   "howToUse": [
-    "Voer uw UNIX-tijdstempel in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals voor mensen leesbare datum.",
-    "Klik op de knop Berekenen of Verzenden om lokale en UTC-datetime-equivalenten te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Typ of plak het nummer in het vak 'Timestamp naar Datum'.",
+    "Of gebruik de kalender bij 'Datum naar Timestamp'.",
+    "De tool detecteert automatisch of het seconden of milliseconden zijn.",
+    "Voer uw tijdstempel in het invoerveld in of gebruik de huidige tijd.",
+    "Druk op de knop Converteren om het directe resultaat te zien."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "De tool werkt door de ingebouwde datum- en tijdmanipulatiefuncties van uw browser te gebruiken om nauwkeurige wiskundige berekeningen uit te voeren op basis van het standaard startpunt (1 januari 1970). Wanneer u een tijdstempel invoert, vermenigvuldigt de converter dit met 1000 (om seconden om te zetten in milliseconden, de standaard voor de meeste moderne programmeertalen zoals JavaScript) en berekent vervolgens de exacte datum en tijd die overeenkomen met die waarde. Omgekeerd, wanneer u een voor mensen leesbare datum en tijd invoert, berekent het het aantal verstreken seconden sinds de Epoch om een tijdstempel te genereren. Al deze bewerkingen worden lokaal in uw browser uitgevoerd, wat zorgt voor totale privacy en onmiddellijke conversiesnelheid zonder de noodzaak om gegevens naar een server te verzenden.",
+  "workedExample": "Stel dat u naar een logbestand kijkt en de tijdstempel '1672531200' tegenkomt. Om erachter te komen wanneer deze gebeurtenis plaatsvond, voert u het getal in onze converter in. De tool verwerkt de waarde onmiddellijk en geeft het resultaat weer: '1 januari 2023, 12:00:00 AM UTC'. Als uw browser is ingesteld op Eastern Standard Time (UTC-5), toont het ook uw lokale tijd: '31 december 2022, 7:00:00 PM'. In een omgekeerd scenario, als u een database moet bevragen naar gebeurtenissen die na 15 april 2024 plaatsvinden, kunt u die datum in de tool invoeren om de tijdstempel '1713139200' te ontvangen, die u vervolgens in uw databasequery kunt gebruiken.",
+  "resultInterpretation": "Het interpreteren van de resultaten is eenvoudig, maar vereist wel aandacht voor de tijdzone. De converter geeft de geconverteerde datum en tijd altijd weer in UTC (Coordinated Universal Time), de absolute standaard voor alle Unix-tijdstempels. Daarnaast geeft het de geconverteerde tijd in uw lokale tijdzone weer, zoals gedetecteerd door uw browser. Dit voorkomt verwarring bij het coördineren met servers of collega's in verschillende delen van de wereld. Bij het converteren van een datum naar een tijdstempel is het resultaat een geheel getal dat seconden vertegenwoordigt. Houd er rekening mee dat 32-bits systemen tijdstempels slechts tot januari 2038 kunnen verwerken; voor tijdstempels na deze datum zijn moderne 64-bits systemen nodig om ze correct te verwerken.",
   "useCases": [
-    "Foutopsporing in databases",
-    "API-integratie",
-    "Onderweg snel UNIX-tijdstempel verwerken"
+    "Database Debugging: Timestamps in MySQL/PostgreSQL lezen.",
+    "API Development: JSON payloads met Epoch tijd verifiëren.",
+    "Log Analyse: Serverlogs met seconden-timestamps lezen.",
+    "Server log debugging: converteer snel tijdstempels in logbestanden naar leesbare datums."
   ],
   "tipsAndLimitations": [
-    "Zorg ervoor dat de tijdstempel in seconden is, en niet in milliseconden.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Ondersteunt naadloos zowel seconden (10 cijfers) als milliseconden (13 cijfers).",
+    "Deze tool verwerkt Unix-tijdstempels in seconden. Als uw tijdstempel in milliseconden is, deel het dan eerst door 1000.",
+    "Het ondersteunde bereik is doorgaans van 1 januari 1970 tot 19 januari 2038 (voor 32-bit systemen). Moderne systemen ondersteunen een veel groter bereik."
   ],
   "faq": [
     {
-      "question": "Is de Unix Timestamp Converter gratis te gebruiken?",
-      "answer": "Ja, onze Unix Timestamp Converter is volledig gratis te gebruiken."
+      "question": "Wat is het Jaar 2038 Probleem?",
+      "answer": "In 2038 hebben 32-bit systemen geen ruimte meer voor de timestamp. Deze tool gebruikt 64-bit getallen en is er dus immuun voor."
     },
     {
-      "question": "Werkt dit op mobiel?",
-      "answer": "Ja, het is volledig responsief en werkt op alle apparaten."
+      "question": "Wat is de maximale waarde van een Unix-tijdstempel?",
+      "answer": "Op 32-bit systemen is het maximum 2.147.483.647 (19 januari 2038). Op 64-bit systemen strekt het bereik zich uit tot miljarden jaren in de toekomst."
     },
     {
-      "question": "Moet ik iets downloaden?",
-      "answer": "Nee, het werkt volledig in uw browser, zonder enige installatie."
+      "question": "Houdt deze tool rekening met tijdzones?",
+      "answer": "Unix-tijdstempels zijn altijd in UTC. De tool geeft standaard de geconverteerde datum en tijd in UTC weer en u kunt de tijdzone naar behoefte aanpassen."
     }
   ],
   "relatedTools": [
-    "leeftijd-calculator",
-    "datumverschil-calculator",
-    "dagen-tussen-data"
+    "world-time-converter",
+    "time-zone-converter",
+    "time-difference-calculator",
+    "base64-encode-decode"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Unix-tijdstempelconverter",
-  "ogImageText": "Unix-tijdstempelconverter"
+  "cta": "Converteer uw Unix timestamps nu!",
+  "disclaimer": "Lokale tijdconversies zijn afhankelijk van de tijdzoneconfiguratie van uw apparaat.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Screenshot van de Unix Timestamp Converter",
+  "ogImageText": "Unix-tijdstempelomzetter"
 }

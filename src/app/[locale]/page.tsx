@@ -158,7 +158,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <Script id="schema-itemlist" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden pt-24 pb-20 px-4 border-b border-border bg-surface">
+      <section className="relative pt-24 pb-20 px-4 border-b border-border bg-surface">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-background to-background" />
         
         <div className="max-w-4xl mx-auto relative z-10 text-center">

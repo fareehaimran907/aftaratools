@@ -38,15 +38,15 @@
     },
     "percentage-calculator": {
       "title": "Калькулятор процентов",
-      "description": "Рассчитывайте проценты быстро и точно.",
+      "description": "Быстро и легко вычисляйте проценты.",
       "ui": {
-        "percentageCalculator": "Калькулятор процентов",
-        "whatIs": "Что такое",
-        "of": "из",
-        "amount": "Количество",
-        "calculate": "Рассчитать",
+        "calculatePercentage": "Калькулятор процентов",
+        "whatIs": "Сколько будет",
+        "of": "% от",
+        "amount": "Сумма",
+        "calculate": "Вычислить",
         "result": "Результат",
-        "calculatePercentage": "Рассчитать процент"
+        "enterValuesToCalculatePerc": "Введите значения для расчета процента."
       }
     },
     "json-formatter": {
@@ -55,7 +55,19 @@
       "ui": {
         "formatJson": "Формат JSON",
         "inputJSON": "Ввод J S O N",
-        "reset": "Перезагрузить"
+        "reset": "Перезагрузить",
+        "format": "Форматировать",
+        "minify": "Сжать",
+        "copy": "Копировать",
+        "copied": "Скопировано!",
+        "clear": "Очистить",
+        "input": "Ввод JSON",
+        "inputPlaceholder": "Вставьте ваш JSON здесь...",
+        "output": "Вывод JSON",
+        "outputPlaceholder": "Отформатированный JSON появится здесь...",
+        "invalidJson": "Неверный JSON",
+        "syntaxError": "Синтаксическая ошибка",
+        "jsonToolkit": "Набор JSON"
       }
     },
     "area-converter": {
@@ -100,13 +112,21 @@
       "ui": {
         "bedtimeCalculator": "Калькулятор времени сна",
         "whenDoYouNeedToWakeUp": "Когда вам нужно проснуться?",
-        "calculate": "Рассчитать",
+        "calculate": "Рассчитать время",
         "toWakeUpAt": "Проснуться в",
         "youShouldTryToBeAsleepBy": ", вам следует попытаться заснуть:",
         "6Cycles9h": "6 циклов (9 часов)",
         "5Cycles75h": "5 циклов (7,5 часов)",
         "calculationsIncludeAnAverage15MinutesToFallAsleep": "Расчеты включают в среднем 15 минут на засыпание.",
-        "enterYourWakeUpTimeToCal": "Введите время пробуждения, чтобы рассчитать время сна"
+        "enterYourWakeUpTimeToCal": "Введите время пробуждения, чтобы рассчитать время сна",
+        "title": "Калькулятор Времени Сна",
+        "description": "Узнайте, во сколько точно лечь спать, чтобы проснуться бодрым.",
+        "iNeedToWakeUpAt": "Мне нужно проснуться в",
+        "youShouldGoToBedAt": "Вам следует лечь спать в",
+        "resultsDescription": "Время рассчитано на основе 90-минутных циклов + 15 минут на засыпание.",
+        "cycles": "циклов",
+        "hours": "часов",
+        "optimal": "Оптимально"
       }
     },
     "binary-to-decimal": {
@@ -116,7 +136,8 @@
         "binaryToDecimalConverter": "Конвертер двоичных чисел в десятичные",
         "binaryNumber": "Двоичное число",
         "decimalResult": "Десятичный результат",
-        "eG1010": "например 1010"
+        "eG1010": "например 1010",
+        "invalidBinaryNumber": "Неверное двоичное число"
       }
     },
     "bmi-calculator": {
@@ -183,14 +204,27 @@
       "description": "",
       "ui": {
         "breakevenCalculator": "Калькулятор безубыточности",
-        "fixedCosts": "Фиксированные затраты",
-        "variableCostPerUnit": "Переменная стоимость за единицу",
-        "sellingPricePerUnit": "Цена продажи за единицу",
+        "fixedCosts": "Постоянные Расходы",
+        "variableCostPerUnit": "Переменные Затраты на Единицу",
+        "sellingPricePerUnit": "Цена Продажи за Единицу",
         "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "Для достижения безубыточности цена продажи должна быть больше переменных издержек.",
         "unitsToSell": "Единицы на продажу",
         "breakevenRevenue": "Безубыточный доход",
         "costsPricing": "Затраты",
-        "breakEvenPoint": "Точка безубыточности"
+        "breakEvenPoint": "Точка безубыточности",
+        "title": "Калькулятор Точки Безубыточности",
+        "description": "Рассчитайте, сколько единиц товара нужно продать, чтобы покрыть расходы.",
+        "calculate": "Рассчитать Точку Безубыточности",
+        "summary": "Сводка Точки Безубыточности",
+        "breakEvenUnits": "Точка Безубыточности (Единицы)",
+        "breakEvenRevenue": "Безубыточная Выручка",
+        "contributionMargin": "Маржинальная Прибыль (на единицу)",
+        "neverBreakEvenError": "Ваши переменные затраты больше или равны цене продажи. Вы никогда не достигнете безубыточности.",
+        "units": "шт.",
+        "enterDetails": "Введите расходы и цену продажи.",
+        "variableCost": "Переменные Расходы на Единицу",
+        "sellingPrice": "Цена Продажи за Единицу",
+        "errorImpossible": "Цена продажи должна быть больше переменных расходов."
       }
     },
     "calorie-calculator": {
@@ -235,16 +269,29 @@
         "principalAmount": "Основная сумма",
         "annualRate": "Годовая ставка (%)",
         "timeYears": "Время (лет)",
-        "compoundFrequency": "Сложная частота",
+        "compoundFrequency": "Периодичность Капитализации",
         "daily": "Ежедневно",
         "monthly": "Ежемесячно",
-        "quarterly": "Ежеквартальный",
+        "quarterly": "Ежеквартально",
         "semiannually": "Полугода",
         "annually": "Ежегодно",
         "interestEarned": "Заработанные проценты",
         "finalBalance": "Окончательный баланс",
         "interestDetails": "Детали интересов",
-        "growthBreakdown": "Структура роста"
+        "growthBreakdown": "Структура роста",
+        "title": "Калькулятор Сложных Процентов",
+        "description": "Рассчитайте, как будут расти ваши инвестиции с учетом сложных процентов (капитализации) и регулярных пополнений.",
+        "initialInvestment": "Начальная Сумма",
+        "monthlyContribution": "Ежемесячное Пополнение",
+        "annualInterestRate": "Годовая Процентная Ставка (%)",
+        "yearsToGrow": "Срок (Лет)",
+        "semiAnnually": "Раз в полгода",
+        "calculate": "Рассчитать Рост",
+        "summary": "Сводка Роста",
+        "futureValue": "Итоговая Сумма",
+        "totalContributions": "Всего Вложено",
+        "totalInterestEarned": "Сумма Процентов",
+        "enterDetails": "Введите данные, чтобы увидеть прогнозируемый рост."
       }
     },
     "concrete-calculator": {
@@ -280,7 +327,12 @@
         "minutes": "Минуты",
         "start": "Начинать",
         "pause": "Пауза",
-        "reset": "Перезагрузить"
+        "reset": "Перезагрузить",
+        "title": "Таймер Обратного Отсчета",
+        "description": "Простой и удобный онлайн-таймер. Установите часы, минуты и секунды.",
+        "hours": "Часы",
+        "seconds": "Секунды",
+        "timeUp": "Время вышло!"
       }
     },
     "css-minifier": {
@@ -298,10 +350,14 @@
       "description": "",
       "ui": {
         "currencyConverterEstimated": "Конвертер валют (оценочный)",
-        "amount": "Количество",
+        "amount": "Сумма",
         "from": "От",
         "to": "К",
-        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Примечание. Эти ставки являются статическими оценками и предназначены только для демонстрационных целей."
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Примечание. Эти ставки являются статическими оценками и предназначены только для демонстрационных целей.",
+        "title": "Конвертер Валют",
+        "description": "Конвертируйте мировые валюты по актуальным обменным курсам.",
+        "convertedAmount": "Сумма После Конвертации",
+        "lastUpdated": "Последнее Обновление"
       }
     },
     "data-storage-converter": {
@@ -318,10 +374,10 @@
       "description": "",
       "ui": {
         "dateDifferenceCalculator": "Калькулятор разницы дат",
-        "startDate": "Дата начала",
-        "endDate": "Дата окончания",
+        "startDate": "Начальная дата",
+        "endDate": "Конечная дата",
         "calculateDifference": "Вычислить разницу",
-        "timeDifference": "Разница во времени:",
+        "timeDifference": "Разница во времени",
         "years": "Годы",
         "months": "Месяцы",
         "days": "дни",
@@ -329,8 +385,22 @@
         "totalWeeksEquivalent": "Общий эквивалент недель:",
         "weeks": "недели,",
         "copy": "Копировать",
-        "reset": "Перезагрузить",
-        "selectDatesToCalculate": "Выберите даты для расчета"
+        "reset": "Сброс",
+        "selectDatesToCalculate": "Выберите обе даты для расчета разницы.",
+        "dateDifferenceTitle": "Калькулятор Разницы Дат",
+        "dateDifferenceDesc": "Рассчитайте точное количество дней, недель, месяцев и лет между двумя датами.",
+        "includeEndDay": "Включить конечную дату (+1 день)",
+        "includeEndDayDesc": "Добавляет один дополнительный день к расчету.",
+        "exactDifference": "Точная разница",
+        "yearsLabel": "Года",
+        "monthsLabel": "Месяцы",
+        "daysLabel": "Дни",
+        "endDateBeforeStart": "Примечание: Конечная дата раньше начальной даты.",
+        "totalDays": "Всего дней",
+        "inWeeks": "В неделях",
+        "weeksShort": "нед",
+        "daysShort": "д",
+        "approxMonths": "Всего месяцев"
       }
     },
     "days-between-dates": {
@@ -338,16 +408,25 @@
       "description": "",
       "ui": {
         "daysBetweenDates": "Дней между датами",
-        "startDate": "Дата начала",
-        "endDate": "Дата окончания",
+        "startDate": "Начальная дата",
+        "endDate": "Конечная дата",
         "includeStartDateInCalculation": "Включить дату начала в расчет",
         "includeEndDateInCalculation": "Включить дату окончания в расчет",
         "calculateDays": "Рассчитать дни",
         "totalResult": "Общий результат:",
         "days": "Дни",
         "copy": "Копировать",
-        "reset": "Перезагрузить",
-        "selectDatesToCalculate": "Выберите даты для расчета"
+        "reset": "Сброс",
+        "selectDatesToCalculate": "Выберите обе даты для расчета разницы.",
+        "title": "Дни Между Датами",
+        "description": "Рассчитайте точное количество дней, рабочих дней и выходных между двумя датами.",
+        "includeEndDay": "Включить конечную дату (+1 день)",
+        "includeEndDayDesc": "Добавляет один дополнительный день к расчету.",
+        "totalDays": "Всего дней",
+        "daysLabel": "Дни",
+        "endDateBeforeStart": "Примечание: Конечная дата раньше начальной даты.",
+        "weekdays": "Рабочие дни (Пн-Пт)",
+        "weekends": "Выходные дни"
       }
     },
     "days-until-calculator": {
@@ -362,8 +441,20 @@
         "whichIsExactly": "Что именно:",
         "days": "дни",
         "copy": "Копировать",
-        "reset": "Перезагрузить",
-        "selectAFutureDate": "Выберите будущую дату"
+        "reset": "Сброс",
+        "selectAFutureDate": "Выберите будущую дату",
+        "title": "Калькулятор Оставшихся Дней",
+        "description": "Обратный отсчет точных дней, часов, минут и секунд до определенной даты в будущем.",
+        "todayIs": "Сегодня",
+        "targetDate": "Целевая дата",
+        "timeUntil": "Время до цели",
+        "timeSince": "Время после цели",
+        "dayLabel": "Дней",
+        "dayLabelSingular": "День",
+        "hoursLabel": "Часов",
+        "minutesLabel": "Минут",
+        "secondsLabel": "Секунд",
+        "selectTargetDate": "Выберите целевую дату, чтобы увидеть обратный отсчет."
       }
     },
     "decimal-to-binary": {
@@ -373,7 +464,8 @@
         "decimalToBinaryConverter": "Конвертер десятичных чисел в двоичные",
         "decimalNumber": "Десятичное число",
         "binaryResult": "Двоичный результат",
-        "eG10": "например 10"
+        "eG10": "например 10",
+        "invalidDecimalNumber": "Неверное десятичное число"
       }
     },
     "decking-calculator": {
@@ -399,15 +491,25 @@
       "description": "",
       "ui": {
         "discountCalculator": "Калькулятор скидок",
-        "originalPrice": "Первоначальная цена",
+        "originalPrice": "Первоначальная Цена",
         "discount": "Скидка",
         "type": "Тип",
         "off": "% Выключенный",
         "fixedAmountOff": "Фиксированная сумма скидки",
-        "youSave": "Вы экономите",
-        "finalPrice": "Окончательная цена",
+        "youSave": "Вы Экономите:",
+        "finalPrice": "Итоговая Цена",
         "discountDetails": "Подробности о скидках",
-        "priceBreakdown": "Распределение цен"
+        "priceBreakdown": "Распределение цен",
+        "title": "Калькулятор Скидок",
+        "description": "Рассчитайте итоговую цену товара после применения скидки и опционального налога.",
+        "discountPercentage": "Скидка (%)",
+        "taxPercentage": "Налог (%)",
+        "optional": "Необязательно",
+        "calculate": "Рассчитать Скидку",
+        "summary": "Сводка Цен",
+        "discountAmount": "Сумма Скидки",
+        "taxAmount": "Сумма Налога",
+        "enterDetails": "Введите первоначальную цену и скидку для расчета."
       }
     },
     "emi-calculator": {
@@ -422,7 +524,20 @@
         "totalInterestPayable": "Общая сумма процентов к уплате",
         "totalPaymentPrincipalInterest": "Общая сумма платежа (основная сумма + проценты)",
         "eMIDetails": "Э М И Подробности",
-        "paymentSummary": "Сводка платежей"
+        "paymentSummary": "Сводка платежей",
+        "title": "Калькулятор EMI",
+        "description": "Рассчитайте ваш аннуитетный платеж (EMI) по потребительским, авто и ипотечным кредитам.",
+        "loanAmount": "Сумма Кредита",
+        "interestRate": "Процентная Ставка (%)",
+        "loanTerm": "Срок Кредита",
+        "years": "Лет",
+        "months": "Месяцев",
+        "calculate": "Рассчитать EMI",
+        "emiSummary": "Сводка EMI",
+        "principalAmount": "Сумма Основного Долга",
+        "totalInterest": "Общая Сумма Процентов",
+        "totalPayment": "Общая Выплата (Долг + Проценты)",
+        "enterDetails": "Введите данные кредита, чтобы увидеть сводку."
       }
     },
     "fence-calculator": {
@@ -461,7 +576,9 @@
       "description": "",
       "ui": {
         "fractionCalculator": "Калькулятор дробей",
-        "decimal": "Десятичный:"
+        "decimal": "Десятичный:",
+        "error": "Ошибка",
+        "divByZero": "Дел на ноль"
       }
     },
     "gpa-calculator": {
@@ -500,12 +617,12 @@
       "title": "Конвертер высоты",
       "description": "",
       "ui": {
-        "heightConverter": "Конвертер высот",
-        "metricCentimeters": "Метрическая система (сантиметры)",
+        "heightConverter": "Конвертер Роста",
+        "metricCentimeters": "Метрическая (Сантиметры)",
         "cm": "см",
-        "imperialFeetInches": "Имперский (футы и дюймы)",
-        "ft": "футы",
-        "in": "в"
+        "imperialFeetInches": "Имперская (Футы и Дюймы)",
+        "ft": "фут",
+        "in": "дюйм"
       }
     },
     "hex-to-decimal": {
@@ -515,7 +632,8 @@
         "hexToDecimalConverter": "Конвертер шестнадцатеричных чисел в десятичные",
         "hexadecimalNumber": "Шестнадцатеричное число",
         "decimalResult": "Десятичный результат",
-        "eG1AOrFFFFFF": "например 1А или ФФФФФФ"
+        "eG1AOrFFFFFF": "например 1А или ФФФФФФ",
+        "invalidHexString": "Неверная шестнадцатеричная строка"
       }
     },
     "hourly-to-salary-calculator": {
@@ -526,12 +644,22 @@
         "hourlyWage": "Почасовая оплата",
         "hoursWeek": "Часы / Неделя",
         "weeksYear": "Недели / Год",
-        "daily": "Ежедневно",
-        "weekly": "Еженедельно",
-        "monthly": "Ежемесячно",
+        "daily": "В день",
+        "weekly": "В неделю",
+        "monthly": "В месяц",
         "yearlySalary": "Годовая зарплата",
         "hourlyDetails": "Почасовая информация",
-        "salaryBreakdown": "Распределение зарплат"
+        "salaryBreakdown": "Разбивка Зарплаты",
+        "title": "Из Часовой Ставки в Оклад",
+        "description": "Переведите свою часовую ставку в эквивалент за день, неделю, месяц и год.",
+        "hourlyRate": "Часовая Ставка",
+        "workSchedule": "График Работы",
+        "hoursPerWeek": "Часов в неделю",
+        "daysPerWeek": "Дней в неделю",
+        "weeksPerYear": "Недель в году",
+        "annualSalary": "Годовая Зарплата",
+        "biWeekly": "Раз в 2 недели",
+        "enterDetails": "Введите ставку для расчета."
       }
     },
     "html-encode-decode": {
@@ -561,15 +689,22 @@
       "description": "",
       "ui": {
         "investmentCalculator": "Инвестиционный калькулятор",
-        "initialInvestment": "Первоначальные инвестиции",
-        "monthlyContribution": "Ежемесячный взнос",
-        "expectedReturn": "Ожидаемая доходность (%)",
-        "yearsToGrow": "Годы роста",
+        "initialInvestment": "Начальные Инвестиции",
+        "monthlyContribution": "Ежемесячный Взнос",
+        "expectedReturn": "Ожидаемая Доходность (%)",
+        "yearsToGrow": "Срок (Лет)",
         "totalContributions": "Всего взносов",
         "interestEarned": "Заработанные проценты",
         "futureValue": "Будущая стоимость",
         "investmentPlan": "Инвестиционный план",
-        "growthProjection": "Прогноз роста"
+        "growthProjection": "Прогноз роста",
+        "title": "Инвестиционный Калькулятор",
+        "description": "Рассчитайте, насколько вырастут ваши инвестиции со временем благодаря сложным процентам.",
+        "result": "Результат",
+        "totalValue": "Общая Стоимость",
+        "totalInvested": "Всего Инвестировано",
+        "totalInterest": "Общий Процент",
+        "enterDetails": "Введите данные для расчета роста."
       }
     },
     "js-minifier": {
@@ -598,9 +733,11 @@
       "title": "ДлинаКонвертер",
       "description": "",
       "ui": {
-        "lengthConverter": "Конвертер длины",
+        "lengthConverter": "Конвертер Длины",
         "from": "От",
-        "to": "К"
+        "to": "До",
+        "title": "Конвертер Длины",
+        "description": "Конвертируйте между метрами, футами, дюймами и другими единицами длины."
       }
     },
     "loan-calculator": {
@@ -608,14 +745,24 @@
       "description": "",
       "ui": {
         "loanCalculator": "Кредитный калькулятор",
-        "loanAmount": "Сумма кредита",
-        "interestRate": "Процентная ставка (%)",
+        "loanAmount": "Сумма Кредита",
+        "interestRate": "Процентная Ставка (Годовая)",
         "loanTermYears": "Срок кредита (лет)",
-        "monthlyPayment": "Ежемесячный платеж",
-        "totalInterest": "Общий процент",
+        "monthlyPayment": "Ежемесячный Платеж",
+        "totalInterest": "Общая Сумма Процентов",
         "totalCostOfLoan": "Общая стоимость кредита",
         "loanDetails": "Детали кредита",
-        "paymentBreakdown": "Распределение платежей"
+        "paymentBreakdown": "Распределение платежей",
+        "title": "Кредитный Калькулятор",
+        "description": "Рассчитайте ежемесячные платежи, общую сумму процентов и стоимость кредита.",
+        "loanTerm": "Срок Кредита",
+        "years": "Лет",
+        "months": "Месяцев",
+        "calculate": "Рассчитать Кредит",
+        "loanSummary": "Сводка по Кредиту",
+        "totalPrincipal": "Общая Сумма Основного Долга",
+        "totalPayment": "Общая Выплата",
+        "enterDetails": "Введите данные кредита, чтобы увидеть сводку."
       }
     },
     "lorem-ipsum-generator": {
@@ -652,11 +799,20 @@
       "description": "",
       "ui": {
         "markupCalculator": "Калькулятор наценки",
-        "cost": "Расходы",
+        "cost": "Себестоимость",
         "markup": "Наценка (%)",
         "profit": "Выгода",
-        "sellingPrice": "Цена продажи",
-        "pricingDetails": "Подробности о ценах"
+        "sellingPrice": "Цена Продажи",
+        "pricingDetails": "Подробности о ценах",
+        "title": "Калькулятор Наценки (Markup)",
+        "description": "Рассчитайте цену продажи, валовую прибыль и маржу на основе себестоимости и процента наценки.",
+        "markupPercentage": "Процент Наценки",
+        "calculate": "Рассчитать Наценку",
+        "summary": "Сводка Цен",
+        "profitMargin": "Маржа",
+        "grossProfit": "Валовая Прибыль",
+        "grossLoss": "Валовой Убыток",
+        "enterDetails": "Введите стоимость и наценку."
       }
     },
     "md5generator": {
@@ -674,14 +830,25 @@
       "description": "",
       "ui": {
         "monthsBetweenDates": "Месяцы между датами",
-        "startDate": "Дата начала",
-        "endDate": "Дата окончания",
+        "startDate": "Начальная дата",
+        "endDate": "Конечная дата",
         "calculateMonths": "Рассчитать месяцы",
         "months": "Месяцы",
         "days": "Дни",
         "copy": "Копировать",
-        "reset": "Перезагрузить",
-        "selectDatesToCalculate": "Выберите даты для расчета"
+        "reset": "Сброс",
+        "selectDatesToCalculate": "Выберите обе даты для расчета разницы.",
+        "title": "Месяцы Между Датами",
+        "description": "Рассчитайте точное количество полных месяцев и оставшихся дней между двумя датами.",
+        "includeEndDay": "Включить конечную дату (+1 день)",
+        "includeEndDayDesc": "Добавляет один дополнительный день к расчету.",
+        "totalMonths": "Всего месяцев",
+        "monthsLabel": "Месяцев",
+        "fullMonthsLabel": "Полных месяцев",
+        "extraDaysLabel": "Дополнительных дней",
+        "equivalentTo": "Эквивалентно",
+        "daysLabel": "Дням",
+        "endDateBeforeStart": "Примечание: Конечная дата раньше начальной даты."
       }
     },
     "mortgage-calculator": {
@@ -690,13 +857,22 @@
       "ui": {
         "mortgageCalculator": "Ипотечный калькулятор",
         "homePrice": "Главная Цена",
-        "downPayment": "Авансовый платеж",
-        "interestRate": "Процентная ставка (%)",
-        "loanTermYears": "Срок кредита (лет)",
+        "downPayment": "Первоначальный Взнос",
+        "interestRate": "Процентная Ставка (%)",
+        "loanTermYears": "Срок Ипотеки (Лет)",
         "principalLoanAmount": "Основная сумма кредита",
-        "monthlyPayment": "Ежемесячный платеж",
+        "monthlyPayment": "Ежемесячный Платеж",
         "propertyDetails": "Детали недвижимости",
-        "mortgageSummary": "Резюме по ипотеке"
+        "mortgageSummary": "Сводка по Ипотеке",
+        "title": "Ипотечный Калькулятор",
+        "description": "Легко рассчитайте свои ежемесячные платежи по ипотеке и общую сумму процентов.",
+        "homeValue": "Стоимость Недвижимости",
+        "calculate": "Рассчитать Ипотеку",
+        "principalAndInterestOnly": "Только основной долг и проценты",
+        "loanAmount": "Сумма Кредита",
+        "totalInterest": "Общая Сумма Процентов",
+        "totalCostOfLoan": "Общая Стоимость Кредита",
+        "enterDetails": "Введите данные ипотеки, чтобы увидеть сводку."
       }
     },
     "mulch-calculator": {
@@ -796,12 +972,18 @@
       "description": "",
       "ui": {
         "percentageDecreaseCalculator": "Калькулятор процентного уменьшения",
-        "initialValue": "Начальное значение",
-        "finalValue": "Окончательное значение",
+        "initialValue": "Начальное Значение",
+        "finalValue": "Конечное Значение",
         "absoluteChange": "Абсолютное изменение",
         "decrease": "Снижаться",
         "values": "Ценности",
-        "decreaseBreakdown": "Уменьшить разбивку"
+        "decreaseBreakdown": "Уменьшить разбивку",
+        "title": "Калькулятор Процентного Снижения",
+        "description": "Рассчитайте процентное снижение от начального значения к конечному.",
+        "result": "Результат",
+        "percentageDecrease": "Процентное Снижение",
+        "absoluteDecrease": "Абсолютная Разница",
+        "enterDetails": "Введите значения для расчета снижения."
       }
     },
     "percentage-increase-calculator": {
@@ -809,12 +991,18 @@
       "description": "",
       "ui": {
         "percentageIncreaseCalculator": "Калькулятор процентного увеличения",
-        "initialValue": "Начальное значение",
-        "finalValue": "Окончательное значение",
+        "initialValue": "Начальное Значение",
+        "finalValue": "Конечное Значение",
         "absoluteChange": "Абсолютное изменение",
         "change": "Изменять",
         "values": "Ценности",
-        "increaseBreakdown": "Увеличение разбивки"
+        "increaseBreakdown": "Увеличение разбивки",
+        "title": "Калькулятор Процентного Роста",
+        "description": "Рассчитайте процентный рост от начального значения к конечному.",
+        "result": "Результат",
+        "percentageIncrease": "Процентный Рост",
+        "absoluteIncrease": "Абсолютная Разница",
+        "enterDetails": "Введите значения для расчета роста."
       }
     },
     "plant-spacing-calculator": {
@@ -837,8 +1025,14 @@
         "pomodoroTimer": "Таймер Помидора",
         "work25m": "Работа (25м)",
         "break5m": "Перерыв (5 м)",
-        "reset": "Перезагрузить",
-        "start": "Начинать"
+        "reset": "Сброс",
+        "start": "Начинать",
+        "title": "Таймер Помодоро",
+        "description": "Повысьте продуктивность с помощью техники Pomodoro.",
+        "pomodoro": "Помодоро",
+        "shortBreak": "Короткий Перерыв",
+        "longBreak": "Длинный Перерыв",
+        "completed": "Завершено"
       }
     },
     "profit-margin-calculator": {
@@ -848,10 +1042,20 @@
         "profitMarginCalculator": "Калькулятор прибыли",
         "revenueSellingPrice": "Выручка (цена продажи)",
         "costOfGoodsSold": "Стоимость проданных товаров",
-        "grossProfit": "Валовая прибыль",
+        "grossProfit": "Валовая Прибыль",
         "margin": "Допуск",
         "financialDetails": "Финансовые детали",
-        "profitability": "Рентабельность"
+        "profitability": "Рентабельность",
+        "title": "Калькулятор Маржи и Прибыли",
+        "description": "Легко рассчитайте валовую прибыль, рентабельность и наценку.",
+        "cost": "Себестоимость (COGS)",
+        "revenue": "Выручка (Цена продажи)",
+        "calculate": "Рассчитать Маржу",
+        "summary": "Сводка по Марже",
+        "profitMargin": "Маржа Прибыли",
+        "grossLoss": "Валовой Убыток",
+        "markup": "Наценка (Markup)",
+        "enterDetails": "Введите себестоимость и выручку."
       }
     },
     "qr-code-generator": {
@@ -888,8 +1092,8 @@
       "title": "Калькулятор соотношения",
       "description": "",
       "ui": {
-        "ratioCalculatorAbCd": "Калькулятор соотношения (A:B = C:D)",
-        "enter3ValuesToCalculateThe4thMissingValue": "Введите 3 значения, чтобы вычислить четвертое недостающее значение."
+        "ratioCalculatorAbCd": "Калькулятор пропорций (A:B = C:D)",
+        "enter3ValuesToCalculateThe4thMissingValue": "Введите 3 значения, чтобы вычислить 4-е недостающее значение"
       }
     },
     "roi-calculator": {
@@ -902,7 +1106,23 @@
         "profit": "Выгода",
         "roi": "рентабельность инвестиций",
         "investmentDetails": "Детали инвестиций",
-        "returnOnInvestment": "Возврат инвестиций"
+        "returnOnInvestment": "Окупаемость Инвестиций (ROI)",
+        "title": "Калькулятор ROI",
+        "description": "Рассчитайте окупаемость инвестиций (ROI), чтобы оценить прибыльность вложений.",
+        "amountInvested": "Вложенная Сумма (Затраты)",
+        "amountReturned": "Полученная Сумма (Доход)",
+        "investmentTimePeriod": "Период Инвестирования",
+        "optional": "Необязательно",
+        "years": "Лет",
+        "calculate": "Рассчитать ROI",
+        "summary": "Сводка ROI",
+        "netProfit": "Чистая Прибыль",
+        "netLoss": "Чистый Убыток",
+        "annualizedRoi": "Годовой ROI",
+        "enterDetails": "Введите суммы инвестиций.",
+        "investmentAmount": "Сумма Инвестиций",
+        "returnAmount": "Полученная Сумма",
+        "investmentGain": "Прибыль/Убыток от Инвестиций"
       }
     },
     "roman-numeral-converter": {
@@ -912,7 +1132,11 @@
         "romanNumeralConverter": "Конвертер римских цифр",
         "numberRoman": "Число → Римское",
         "romanNumber": "Римский → Число",
-        "result": "Результат"
+        "result": "Результат",
+        "rangeError": "Число должно быть от 1 до 3999",
+        "invalidRoman": "Недействительная римская цифра",
+        "numberInputLabel": "Число (1 - 3999)",
+        "romanNumeralLabel": "Римская цифра"
       }
     },
     "running-distance-calculator": {
@@ -935,7 +1159,7 @@
       "description": "",
       "ui": {
         "salaryCalculator": "Калькулятор зарплаты",
-        "salaryAmount": "Сумма зарплаты",
+        "salaryAmount": "Сумма Зарплаты",
         "per": "Пер",
         "hour": "Час",
         "day": "День",
@@ -944,13 +1168,25 @@
         "year": "Год",
         "hoursPerWeek": "Часов в неделю",
         "calculate": "Рассчитать",
-        "hourly": "Ежечасно",
-        "daily": "Ежедневно",
-        "weekly": "Еженедельно",
-        "monthly": "Ежемесячно",
+        "hourly": "В час",
+        "daily": "В день",
+        "weekly": "В неделю",
+        "monthly": "В месяц",
         "yearly": "Ежегодно",
         "incomeDetails": "Детали дохода",
-        "enterYourIncomeDetailsToS": "Введите данные о своем доходе, чтобы увидеть сводку"
+        "enterYourIncomeDetailsToS": "Введите данные о своем доходе, чтобы увидеть сводку",
+        "title": "Калькулятор Зарплаты",
+        "description": "Переведите свою зарплату в эквивалент за час, день, неделю, месяц и год.",
+        "payFrequency": "Частота Выплат",
+        "biWeekly": "Раз в 2 недели",
+        "semiMonthly": "Дважды в месяц",
+        "quarterly": "В квартал",
+        "annually": "В год",
+        "workSchedule": "График Работы",
+        "daysPerWeek": "Дней в неделю",
+        "salaryBreakdown": "Разбивка Зарплаты",
+        "annualSalary": "Годовая Зарплата",
+        "enterDetails": "Введите данные для расчета."
       }
     },
     "salary-to-hourly-calculator": {
@@ -958,12 +1194,25 @@
       "description": "",
       "ui": {
         "salaryToHourlyCalculator": "Зарплата в почасовой калькулятор",
-        "annualSalary": "Годовая зарплата",
+        "annualSalary": "Годовая Зарплата",
         "hoursWeek": "Часы / Неделя",
         "weeksYear": "Недели / Год",
         "hourlyWage": "Почасовая оплата",
         "salaryDetails": "Подробности о зарплате",
-        "equivalentWage": "Эквивалентная заработная плата"
+        "equivalentWage": "Эквивалентная заработная плата",
+        "title": "Из Оклада в Часовую Ставку",
+        "description": "Переведите свою годовую зарплату в эквивалент за час, день, неделю и месяц.",
+        "workSchedule": "График Работы",
+        "hoursPerWeek": "Часов в неделю",
+        "daysPerWeek": "Дней в неделю",
+        "weeksPerYear": "Недель в году",
+        "salaryBreakdown": "Разбивка Зарплаты",
+        "hourlyRate": "Часовая Ставка",
+        "monthly": "В месяц",
+        "biWeekly": "Раз в 2 недели",
+        "weekly": "В неделю",
+        "daily": "В день",
+        "enterDetails": "Введите оклад для расчета."
       }
     },
     "sha1generator": {
@@ -991,16 +1240,27 @@
       "description": "",
       "ui": {
         "simpleInterestCalculator": "Простой процентный калькулятор",
-        "principalAmount": "Основная сумма",
+        "principalAmount": "Начальный Капитал",
         "annualRate": "Годовая ставка (%)",
         "time": "Время",
         "years": "Годы",
         "months": "Месяцы",
-        "days": "Дни",
+        "days": "Дней",
         "interestEarned": "Заработанные проценты",
         "finalBalance": "Окончательный баланс",
         "interestDetails": "Детали интересов",
-        "growthBreakdown": "Структура роста"
+        "growthBreakdown": "Структура роста",
+        "title": "Калькулятор Простых Процентов",
+        "description": "Легко рассчитывайте простые проценты по кредитам или сбережениям.",
+        "annualInterestRate": "Годовая Процентная Ставка (%)",
+        "timePeriod": "Период Времени",
+        "calculate": "Рассчитать Проценты",
+        "summary": "Сводка Процентов",
+        "totalInterest": "Общая Сумма Процентов",
+        "totalAmount": "Итоговая Сумма",
+        "principalPlusInterest": "Капитал + Проценты",
+        "enterDetails": "Введите капитал, ставку и время.",
+        "interestRate": "Годовая Процентная Ставка (%)"
       }
     },
     "sleep-calculator": {
@@ -1008,7 +1268,7 @@
       "description": "",
       "ui": {
         "sleepCalculator": "Калькулятор сна",
-        "iWantToWakeUpAt": "Я хочу проснуться в:",
+        "iWantToWakeUpAt": "Я хочу проснуться в",
         "calculate": "Рассчитать",
         "toWakeUpRefreshedAt": "Чтобы проснуться отдохнувшим в",
         "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": ", вам следует попытаться заснуть в одно из следующих времен (включая 15 минут на засыпание):",
@@ -1016,7 +1276,18 @@
         "5Cycles75h": "5 циклов (7,5 часов)",
         "4Cycles6h": "4 цикла (6 часов)",
         "3Cycles45h": "3 цикла (4,5 часа)",
-        "enterWakeTimeToCalculateS": "Введите время пробуждения, чтобы рассчитать время сна"
+        "enterWakeTimeToCalculateS": "Введите время пробуждения, чтобы рассчитать время сна",
+        "title": "Калькулятор Сна",
+        "description": "Рассчитайте оптимальное время сна на основе 90-минутных циклов.",
+        "wakeAt": "Проснуться в",
+        "sleepAt": "Уснуть в",
+        "iWillGoToBedAt": "Я ложусь спать в",
+        "youShouldGoToBedAt": "Вам следует лечь спать в",
+        "youShouldWakeUpAt": "Вам следует проснуться в",
+        "resultsDescription": "Время рассчитано на основе 90-минутных циклов + 15 минут на засыпание.",
+        "cycles": "циклов",
+        "hours": "часов",
+        "optimal": "Оптимально"
       }
     },
     "speed-converter": {
@@ -1086,10 +1357,13 @@
         "stopwatch": "Секундомер",
         "start": "Начинать",
         "pause": "Пауза",
-        "lap": "Колени",
-        "reset": "Перезагрузить",
+        "lap": "Круг",
+        "reset": "Сброс",
         "laps": "Круги",
-        "noLapsRecordedYet": "Кругов еще не записано"
+        "noLapsRecordedYet": "Кругов еще не записано",
+        "title": "Онлайн Секундомер",
+        "description": "Простой и точный онлайн-секундомер с кругами.",
+        "clearLaps": "Очистить Круги"
       }
     },
     "tax-calculator": {
@@ -1142,12 +1416,22 @@
         "firstTime": "первый раз",
         "secondTime": "второй раз",
         "calculateAbsoluteDifference": "Вычислить абсолютную разницу",
-        "difference": "Разница:",
+        "difference": "Разница во времени",
         "h": "час",
         "m": "м",
         "copy": "Копировать",
-        "reset": "Перезагрузить",
-        "selectTimesToCompare": "Выберите время для сравнения"
+        "reset": "Сброс",
+        "selectTimesToCompare": "Выберите время для сравнения",
+        "title": "Калькулятор Разницы во Времени",
+        "description": "Рассчитайте точную разницу во времени между двумя конкретными датами и временем с точностью до секунды.",
+        "startDateTime": "Дата и время начала",
+        "endDateTime": "Дата и время окончания",
+        "daysLabel": "Дни",
+        "hoursLabel": "Часы",
+        "minutesLabel": "Минуты",
+        "secondsLabel": "Секунды",
+        "reversedNote": "Примечание: Время окончания раньше времени начала. Показана абсолютная разница.",
+        "selectDatesToCalculate": "Выберите обе даты и время для расчета разницы."
       }
     },
     "time-duration-calculator": {
@@ -1156,15 +1440,24 @@
       "ui": {
         "timeDurationCalculator": "Калькулятор продолжительности времени",
         "startTime": "Время начала",
-        "endTime": "Конец Времени",
+        "endTime": "Время окончания",
         "endsOnTheNextDayCrossesMidnight": "Заканчивается на следующий день (пересекает полночь)",
         "calculateDuration": "Рассчитать продолжительность",
         "hours": "Часы",
         "minutes": "минуты",
         "totalTimeInMinutes": "Общее время в минутах:",
         "copy": "Копировать",
-        "reset": "Перезагрузить",
-        "selectStartAndEndTimes": "Выберите время начала и окончания"
+        "reset": "Сброс",
+        "selectStartAndEndTimes": "Выберите время начала и окончания",
+        "title": "Калькулятор Продолжительности",
+        "description": "Точно рассчитайте, сколько часов и минут прошло между двумя значениями времени.",
+        "duration": "Продолжительность",
+        "hLabel": "ч",
+        "mLabel": "м",
+        "decimalHoursLabel": "Десятичные часы",
+        "totalMinutesLabel": "Всего минут",
+        "crossesMidnightNote": "Примечание: Время окончания раньше (переход через полночь).",
+        "selectTimesToCalculate": "Выберите оба значения времени для расчета."
       }
     },
     "time-zone-converter": {
@@ -1176,7 +1469,18 @@
         "fromTimeZoneRelative": "Из часового пояса (относительного)",
         "toTimeZone": "В часовой пояс",
         "convert": "Конвертировать",
-        "selectDateAndTimeZonesTo": "Выберите дату и часовой пояс для сравнения"
+        "selectDateAndTimeZonesTo": "Выберите дату и часовой пояс для сравнения",
+        "title": "Конвертер Часовых Поясов",
+        "description": "Точно переводите время между часовыми поясами.",
+        "fromZone": "Из часового пояса",
+        "toZone": "В часовой пояс",
+        "dateAndTime": "Дата и Время",
+        "swap": "Поменять",
+        "convertedTime": "Переведенное время",
+        "hoursAhead": "ч. вперед",
+        "hoursBehind": "ч. назад",
+        "sameTime": "То же время",
+        "invalidInput": "Введите корректную дату."
       }
     },
     "tip-calculator": {
@@ -1184,16 +1488,31 @@
       "description": "",
       "ui": {
         "tipCalculator": "Калькулятор чаевых",
-        "billAmount": "Сумма счета",
+        "billAmount": "Сумма Счета",
         "tip": "Кончик %",
-        "numberOfPeople": "Количество человек",
-        "tipAmount": "Сумма чаевых",
+        "numberOfPeople": "Количество Человек",
+        "tipAmount": "Сумма Чаевых",
         "person": "/ человек",
         "total": "Общий",
         "totalTip": "Общий совет:",
         "totalBill": "Общий счет:",
         "billDetails": "Детали счета",
-        "totalBreakdown": "Общая разбивка"
+        "totalBreakdown": "Общая разбивка",
+        "title": "Калькулятор Чаевых",
+        "description": "Рассчитайте чаевые и легко разделите счет между друзьями.",
+        "selectTip": "Выберите Чаевые %",
+        "custom": "Другой %",
+        "totalAmount": "Итоговая Сумма",
+        "splitBetween": "Разделено на",
+        "people": "человек",
+        "tipPerPerson": "Чаевые / Чел.",
+        "totalPerPerson": "Итого / Чел.",
+        "payingFullAmount": "Вы оплачиваете счет полностью.",
+        "enterDetails": "Введите данные счета.",
+        "tipPercentage": "Процент Чаевых",
+        "perPerson": "/ чел.",
+        "totalTipOverall": "Всего Чаевых (Общее)",
+        "totalBillOverall": "Итого по Счету (Общее)"
       }
     },
     "unix-timestamp-converter": {
@@ -1206,7 +1525,22 @@
         "dateToTimestamp": "Дата и временная метка",
         "localDateTime": "Местная дата и время",
         "eG1700000000": "например 1700000000",
-        "result": "Результат"
+        "result": "Результат",
+        "title": "Конвертер Unix Timestamp",
+        "description": "Преобразуйте метки времени Unix в понятные даты и наоборот.",
+        "currentEpoch": "Текущее Время Unix",
+        "copy": "Копировать",
+        "copied": "Скопировано!",
+        "tsToDate": "Метка времени в Дату",
+        "enterTimestamp": "Введите Timestamp",
+        "gmtTime": "Время GMT",
+        "localTime": "Ваше Местное Время",
+        "invalidTimestamp": "Введите корректную метку времени.",
+        "dateToTs": "Дата в Метку Времени",
+        "enterDate": "Введите Дату и Время",
+        "secondsLabel": "Метка Времени (Секунды)",
+        "msLabel": "Миллисекунды",
+        "invalidDate": "Введите корректную дату."
       }
     },
     "url-encode-decode": {
@@ -1255,7 +1589,17 @@
         "5Cycles75h": "5 циклов (7,5 часов)",
         "6Cycles9h": "6 циклов (9 часов)",
         "readyForBed": "Готов ко сну",
-        "clickTheButtonWhenYouReG": "Нажмите кнопку, когда ложитесь спать"
+        "clickTheButtonWhenYouReG": "Нажмите кнопку, когда ложитесь спать",
+        "title": "Калькулятор Времени Пробуждения",
+        "description": "Узнайте, во сколько точно проснуться, чтобы чувствовать себя бодрым.",
+        "sleepNow": "Я иду спать прямо сейчас",
+        "sleepAtTime": "Или я лягу спать в",
+        "calculate": "Рассчитать время",
+        "youShouldWakeUpAt": "Вам следует проснуться в",
+        "resultsDescription": "Время рассчитано на основе 90-минутных циклов + 15 минут на засыпание.",
+        "cycles": "циклов",
+        "hours": "часов",
+        "optimal": "Оптимально"
       }
     },
     "water-intake-calculator": {
@@ -1278,23 +1622,36 @@
       "description": "",
       "ui": {
         "weeksBetweenDates": "Недели между свиданиями",
-        "startDate": "Дата начала",
-        "endDate": "Дата окончания",
+        "startDate": "Начальная дата",
+        "endDate": "Конечная дата",
         "calculateWeeks": "Рассчитать недели",
         "weeks": "Недели",
         "days": "Дни",
         "copy": "Копировать",
-        "reset": "Перезагрузить",
-        "selectDatesToCalculate": "Выберите даты для расчета"
+        "reset": "Сброс",
+        "selectDatesToCalculate": "Выберите обе даты для расчета разницы.",
+        "title": "Недели Между Датами",
+        "description": "Рассчитайте точное количество полных недель и оставшихся дней между двумя датами.",
+        "includeEndDay": "Включить конечную дату (+1 день)",
+        "includeEndDayDesc": "Добавляет один дополнительный день к расчету.",
+        "totalWeeks": "Всего недель",
+        "weeksLabel": "Недель",
+        "fullWeeksLabel": "Полных недель",
+        "extraDaysLabel": "Дополнительных дней",
+        "equivalentTo": "Эквивалентно",
+        "daysLabel": "Дням",
+        "endDateBeforeStart": "Примечание: Конечная дата раньше начальной даты."
       }
     },
     "weight-converter": {
       "title": "Конвертер веса",
       "description": "",
       "ui": {
-        "weightConverter": "Конвертер веса",
+        "weightConverter": "Конвертер Веса",
         "from": "От",
-        "to": "К"
+        "to": "До",
+        "title": "Конвертер Веса",
+        "description": "Конвертируйте между килограммами, фунтами, унциями, граммами и другими единицами веса."
       }
     },
     "word-counter": {
@@ -1329,7 +1686,14 @@
       "title": "МировоеВремяКонвертер",
       "description": "",
       "ui": {
-        "worldTimeConverter": "Конвертер мирового времени"
+        "worldTimeConverter": "Конвертер мирового времени",
+        "title": "Конвертер Мирового Времени",
+        "description": "Мгновенно переводите время в разных часовых поясах. Сравнивайте текущее время по всему миру.",
+        "liveTime": "Текущее Время",
+        "customTime": "Указать Время",
+        "addZone": "Добавить Часовой Пояс",
+        "remove": "Удалить",
+        "allZonesAdded": "Все пояса добавлены"
       }
     },
     "xml-formatter": {
@@ -1358,7 +1722,8 @@
   },
   "Search": {
     "placeholder": "Поиск инструментов...",
-    "noResults": "Инструменты для \"{query}\" не найдены."
+    "noResults": "Инструменты для \"{query}\" не найдены.",
+    "tryADifferentSearchTermOr": "Попробуйте другой поисковый запрос или просмотрите категории ниже."
   },
   "Home": {
     "metaTitle": "Бесплатные Онлайн Инструменты и Калькуляторы",
@@ -1733,11 +2098,14 @@
     "whatIs": "Что такое {title}?",
     "howToUse": "Как использовать {title}",
     "example": "Пример",
-    "useCases": "Общие случаи использования",
+    "useCases": "Частые случаи использования",
     "howItWorks": "Как это работает",
     "faq": "Часто задаваемые вопросы",
     "readyToStart": "Готовы начать?",
-    "useToolNow": "Использовать инструмент сейчас"
+    "useToolNow": "Использовать инструмент",
+    "resultInterpretation": "Понимание ваших результатов",
+    "tipsAndLimitations": "Советы и примечания к точности",
+    "disclaimer": "Отказ от ответственности"
   },
   "Categories": {
     "developerTools": "Инструменты разработчика",

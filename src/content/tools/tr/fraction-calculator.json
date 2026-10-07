@@ -1,55 +1,75 @@
 {
-  "seoTitle": "Kesir Hesaplayıcı",
-  "metaDescription": "Kesirleri toplama, çıkarma, çarpma ve bölme.",
+  "seoTitle": "Kesir Hesaplayıcı – Kesirleri Topla, Çıkar, Çarp ve Böl",
+  "metaDescription": "Ücretsiz çevrimiçi kesir hesaplayıcı. Kesirleri kolayca toplayın, çıkarın, çarpın ve bölün. Sadeleştirilmiş kesir ve ondalık karşılığı olarak anında sonuç alın.",
   "h1": "Kesir Hesaplayıcı",
   "primaryKeyword": "kesir hesaplayıcı",
   "secondaryKeywords": [
-    "kesir hesaplayıcı çevrimiçi",
-    "ücretsiz kesir hesaplayıcı",
-    "en iyi kesir hesaplayıcı"
+    "kesir toplama",
+    "kesir çıkarma",
+    "kesir çarpma",
+    "kesir bölme",
+    "kesir çözücü",
+    "matematik kesir hesaplama",
+    "kesirden ondalığa"
   ],
-  "slug": "kesir hesaplayıcı",
-  "intro": "Kesirleri içeren matematiksel denklemleri adım adım basitleştirmeyle kolayca çözün.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "kesir-hesaplama",
+  "intro": "Karmaşık kesir matematiği ile mi boğuşuyorsunuz? Ödevlere yardım ediyor, bir yemek tarifini ayarlıyor veya bir marangozluk projesi üzerinde çalışıyor olun, ücretsiz çevrimiçi Kesir Hesaplayıcımız kesirlerle çalışmayı basitleştirir. Herhangi iki kesri anında toplayın, çıkarın, çarpın veya bölün. Araç otomatik olarak ortak bir payda bulur, hesaplamayı gerçekleştirir, sonucu en küçük terimlerine sadeleştirir ve hatta ondalık karşılığını sağlar. Manuel matematik hatalarına ve sıkıcı hesaplamalara veda edin — gerçek zamanlı olarak matematiksel açıdan mükemmel cevaplar alın.",
+  "whatIs": "Kesir hesaplayıcı, özellikle kesirler üzerinde standart aritmetik işlemleri (toplama, çıkarma, çarpma ve bölme) gerçekleştirmek için tasarlanmış özel bir matematiksel araçtır. Bir kesir, bir bütünün parçasını temsil eder ve bir pay (kaç parçaya sahip olduğunuzu gösteren üstteki sayı) ile bir paydadan (bütünün kaç eşit parçaya bölündüğünü gösteren alttaki sayı) oluşur. Kesirler üzerinde manuel olarak aritmetik yapmak, özellikle paydaları farklı kesirleri toplarken veya çıkarırken karmaşık olabilir, çünkü en küçük ortak katı bulmayı gerektirir. Bu araç, en büyük ortak böleni bularak kesri mümkün olan en küçük terimlerine indirgeme (veya sadeleştirme) olan son adım da dahil olmak üzere tüm süreci otomatikleştirir.",
   "howToUse": [
-    "Belirlenen giriş alanına payınızı girin.",
-    "Payda gibi ikincil parametreleri sağlayın.",
-    "Basitleştirilmiş kesir sonucunu oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Matematiksel operatör için bir açılır menü ile ayrılmış iki kesir giriş alanını bulun.",
+    "Soldaki ilk kesriniz için payı (üst sayı) ve paydayı (alt sayı) girin.",
+    "Gerçekleştirmek istediğiniz aritmetik işlemi merkezdeki açılır menüden seçin: Toplama (+), Çıkarma (-), Çarpma (×) veya Bölme (÷).",
+    "Sağdaki ikinci kesriniz için payı ve paydayı girin.",
+    "Araç, siz yazarken sonucu anında hesaplar ve görüntüler. Tıklanacak bir 'Hesapla' düğmesi yoktur."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Hesaplayıcımız, tarayıcınızda standart matematiksel algoritmalar çalıştırarak işler. Toplama ve çıkarma için matematiksel olarak ortak bir payda belirler (iki paydayı çarparak) ve bunları toplamadan veya çıkarmadan önce payları ayarlar. Çarpma için, payları birbiriyle ve paydaları birbiriyle çarpar. Bölme için, ilk kesri ikinci kesrin tersiyle (ters çevrilmiş versiyonu) çarpar. Ham bir sonuç hesaplandıktan sonra, araç, pay ve paydanın En Büyük Ortak Bölenini (EBOB) bulmak için Öklid algoritmasını kullanır ve kesri en basit biçimine indirger. Son olarak, ondalık eşdeğerini görüntülemek için payı paydaya böler.",
+  "workedExample": "1/4 ve 2/3'ü manuel olarak toplayalım. İlk olarak, ortak bir paydaya ihtiyacımız var. 4 ve 3'ün en küçük ortak katı 12'dir. 1/4'ü alt ve üst kısmı 3 ile çarparak 3/12'ye dönüştürüyoruz. 2/3'ü alt ve üst kısmı 4 ile çarparak 8/12'ye dönüştürüyoruz. Şimdi payları topluyoruz: 3 + 8 = 11. Sonuç 11/12'dir. \n\nŞimdi 2/5'i 3/4 ile çarpalım. Sadece payları (2 × 3 = 6) ve paydaları (5 × 4 = 20) çarpıyoruz, bu da bize 6/20 veriyor. Sadeleştirmek için 6 ve 20'nin en büyük ortak bölenini buluyoruz, o da 2'dir. Altı ve üstü 2'ye bölüyoruz, bu da son sadeleştirilmiş cevabı veriyor: 3/10 (veya ondalık sayı olarak 0.3).",
+  "resultInterpretation": "Son sonuç, eşittir işaretinin sağ tarafında tamamen sadeleştirilmiş bir kesir olarak belirgin bir şekilde görüntülenir. Sonuç tam bir sayıysa, paydası olmayan tek bir rakam olarak görüntülenecektir. Kesir panelinin hemen altında, kesrinizin tam ondalık eşdeğerini (devirli bir ondalık sayı ise 6 ondalık basamağa yuvarlanmış olarak) gösteren bir 'ONDALIK' (DECIMAL) bölümü göreceksiniz. Herhangi bir sayıyı sıfıra bölmeye çalışırsanız (örneğin herhangi bir paydaya '0' girmek), hesap makinesi imkansız matematiksel işlemleri önlemek için anında bir 'Hata: Sıfıra bölme' uyarısı gösterecektir.",
   "useCases": [
-    "Ağaç işleme ölçümleri",
-    "Pişirme ölçeklendirmesi",
-    "Hareket halindeyken payın hızla işlenmesi"
+    "Yemek Pişirme ve Fırıncılık: Tarifleri kolayca ölçeklendirin (örneğin, 3/4 bardak un gerektiren bir tarifi yarıya indirmek).",
+    "Marangozluk ve İnşaat: Hassas kesimler ve yapı için inç cinsinden ölçümleri (örneğin 5/8\" + 3/16\") toplayın veya çıkarın.",
+    "Eğitim ve Ödev: Öğrenciler manuel olarak yaptıkları kesir matematiği cevaplarının doğruluğunu kontrol edebilirler.",
+    "Kendin Yap (DIY) Projeleri: Kesirli ölçümler içeren malzeme uzunluklarını, kumaş yardalarını veya boya hacimlerini hesaplamak.",
+    "Finans ve Muhasebe: Hisse senetlerinin kesirli paylarını (fractional shares) işlemek, maliyetleri bölmek veya orantılı harcamaları hesaplamak."
   ],
   "tipsAndLimitations": [
-    "Kesirler en düşük terimlerine indirilmelidir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Hesaplayıcı şu anda paylar ve paydalar için girdi olarak yalnızca tam sayıları kabul etmektedir. Kesir içinde ondalık sayıları kabul etmez.",
+    "Tam sayılı kesirler (1 1/2 gibi) araca girilmeden önce bileşik kesirlere (3/2 gibi) dönüştürülmelidir.",
+    "Negatif kesirler tam olarak desteklenmektedir. Paya sadece bir eksi işareti (-) ekleyin.",
+    "Ondalık çıktı, okunabilirlik açısından maksimum 6 ondalık basamağa yuvarlanmıştır.",
+    "Bir payda asla sıfır olamaz. Payda olarak sıfır girmeye çalışmak 'Sıfıra bölme' hatasına yol açacaktır."
   ],
   "faq": [
     {
-      "question": "How do you multiply fractions?",
-      "answer": "Multiply across the top, then across the bottom."
+      "question": "Bu hesaplayıcı kesirleri otomatik olarak sadeleştirir mi?",
+      "answer": "Evet. Hesaplayıcı, En Büyük Ortak Böleni (EBOB) bulmak için matematiksel bir algoritma kullanır ve her yanıtı otomatik olarak en basit formuna indirger."
     },
     {
-      "question": "Is the Fraction Calculator free to use?",
-      "answer": "Yes, our Fraction Calculator is completely free and requires no registration."
+      "question": "Tam sayılı kesirleri (ör. 2 3/4) nasıl hesaplarım?",
+      "answer": "Tam sayılı kesirleri hesaplamak için öncelikle onları bileşik kesirlere dönüştürmelisiniz. Örneğin, 2 3/4, 11/4 olur (çünkü 2 × 4 = 8 ve 8 + 3 = 11'dir). Paya 11, paydaya 4 girin."
     },
     {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Negatif kesirleri kullanabilir miyim?",
+      "answer": "Evet. Payın önüne eksi işareti (-) koyarak negatif kesirlerle hesaplamalar yapabilirsiniz."
+    },
+    {
+      "question": "Paydaya 0 koyarsam ne olur?",
+      "answer": "Matematikte sıfıra bölme tanımsızdır. Hesap makinesi bunu hemen algılayacak ve 'Hata: Sıfıra bölme' mesajı gösterecektir."
+    },
+    {
+      "question": "Ondalık dönüşüm ne kadar doğru?",
+      "answer": "Ondalık eşdeğeri son derece doğrudur, ancak sonsuz tekrarlayan ondalık sayıların düzeni bozmasını önlemek için en fazla 6 ondalık basamakla sınırlandırılmıştır."
     }
   ],
   "relatedTools": [
-    "oran hesaplayıcı",
-    "ortalama-hesaplayıcı",
-    "gpa-hesaplayıcı"
+    "average-calculator",
+    "percentage-calculator",
+    "grade-calculator",
+    "final-grade-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kesir Hesaplayıcı",
+  "cta": "Zor bir kesir problemini hızlı bir şekilde çözmeniz mi gerekiyor? Sadeleştirilmiş cevabı ve ondalık karşılığını anında almak için kesirlerinizi yukarıya girin.",
+  "disclaimer": "Bu araç genel matematiksel hesaplamalar ve eğitim amaçları için tasarlanmıştır. Mutlak doğruluk için çabalasak da, inşaat, mühendislik veya finansal uygulamalar için kritik ölçümleri daima manuel olarak iki kez kontrol edin.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "İki kesir için giriş alanları ve bir operatör açılır menüsü gösteren kesir hesaplayıcı arayüzü",
   "ogImageText": "Kesir Hesaplayıcı"
 }

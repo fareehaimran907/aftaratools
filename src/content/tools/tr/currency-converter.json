@@ -1,55 +1,41 @@
 {
-  "seoTitle": "Döviz Çevirici",
-  "metaDescription": "Küresel para birimleri arasında dönüştürme yapın.",
+  "seoTitle": "Döviz Çevirici - Canlı Döviz Kurları",
+  "metaDescription": "Ücretsiz döviz çevirici. Canlı döviz kurlarını kullanarak USD, EUR, TRY ve tüm küresel para birimleri arasında dönüştürme yapın.",
   "h1": "Döviz Çevirici",
-  "primaryKeyword": "para birimi dönüştürücü",
+  "primaryKeyword": "döviz çevirici",
   "secondaryKeywords": [
-    "Çevrimiçi Para Dönüştürücü",
-    "ücretsiz Döviz Çevirici",
-    "en iyi Döviz Çevirici"
+    "döviz hesaplayıcı",
+    "kur çevirici",
+    "para çevirici"
   ],
-  "slug": "para birimi dönüştürücü",
-  "intro": "Standart döviz kuru şablonlarını kullanarak para birimi dönüşümlerini hızla tahmin edin.",
-  "whatIs": "Bu araç nedir?",
-  "howToUse": [
-    "Belirlenen giriş alanına temel para biriminizi girin.",
-    "Hedef para birimi gibi ikincil parametreleri sağlayın.",
-    "Değiştirilen parasal değeri oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
-  ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
-  "useCases": [
-    "Uluslararası seyahat",
-    "E-ticaret alışverişi",
-    "Hareket halindeyken temel para birimini hızla işleme"
-  ],
-  "tipsAndLimitations": [
-    "Döviz kurları sürekli dalgalanıyor ve bankalar spread ücreti talep ediyor.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
-  ],
+  "slug": "doviz-cevirici",
+  "intro": "Yurt dışına seyahat ederken, alışveriş yaparken veya para gönderirken kesin kuru bilmek önemlidir. Çeviricimiz anında sonuç verir.",
+  "whatIs": "Döviz çevirici, döviz piyasasına (Forex) dayalı olarak bir para biriminin değerini diğerine çevirir.",
+  "howToUse": "Tutarı girin. Baz Para Birimini seçin. Hedef Para Birimini seçin. 'Çevir'e tıklayın.",
+  "howItWorks": "Araç tutarı kur ile çarpar. USD/TRY kuru 30 ise, 100$ 3000 TL olur.",
+  "workedExample": "150$ değerinde bir ürünün TL fiyatını öğrenmek istiyorsunuz. Kur 30 ise, 150 × 30 = 4500 TL.",
+  "resultInterpretation": "Sonuç, piyasa orta kuruna dayanmaktadır. Bankalar gerçek işlemlerde kâr marjı (spread) ekler.",
+  "useCases": "Seyahat Bütçesi: tatil paranızı hesaplayın. Alışveriş: gerçek maliyeti bilin. Havale: göndermeden önce kuru kontrol edin.",
+  "tipsAndLimitations": "Gösterilen oran piyasa orta kurudur. Kurlar sürekli dalgalanır. Kredi kartları ek komisyon alabilir.",
   "faq": [
     {
-      "question": "Döviz Dönüştürücüyü kullanmak ücretsiz mi?",
-      "answer": "Evet, Döviz Çeviricimizin kullanımı tamamen ücretsizdir."
+      "question": "Piyasa orta kuru nedir?",
+      "answer": "Alış ve satış fiyatları arasındaki orta noktadır. En adil, 'gerçek' kur olarak kabul edilir."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Bankadaki kur neden farklı?",
+      "answer": "Bankalar ve döviz büroları orta kura kendi kâr marjlarını eklerler."
     }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "maaş-hesaplayıcı",
-    "indirim hesaplayıcı"
+    "percentage-increase-calculator",
+    "percentage-decrease-calculator",
+    "investment-calculator",
+    "compound-interest-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Döviz Çevirici",
+  "cta": "Canlı döviz kurlarını kontrol edin ve paranızı şimdi çevirin!",
+  "disclaimer": "Sadece bilgi amaçlıdır. Bankaların uygulayacağı gerçek kurlar farklılık gösterebilir.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Döviz çevirici",
   "ogImageText": "Döviz Çevirici"
 }

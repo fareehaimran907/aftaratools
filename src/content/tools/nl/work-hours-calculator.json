@@ -6,20 +6,21 @@
   "secondaryKeywords": [
     "Werktijdencalculator online",
     "gratis werkurencalculator",
+    "beste werkurencalculator",
     "beste werkurencalculator"
   ],
-  "slug": "werkurencalculator",
-  "intro": "Tel eenvoudig uw urenstaat inclusief pauzes op.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "slug": "werkuren-calculator",
+  "intro": "Besteedt u te veel tijd aan het handmatig berekenen van uw wekelijkse salarisstroken of probeert u uit te zoeken of u recht heeft op overuren? Onze gratis online werkurencalculator neemt u de hoofdpijn van tijdregistratie uit handen. Of u nu een freelancer bent die klanten per uur factureert, een werknemer die zijn salarisstrook controleert of een manager die een dienst plant, deze tool berekent nauwkeurig de totale gewerkte uren en de verwachte beloning. Door simpelweg uw start- en eindtijden in te voeren, samen met onbetaalde pauzes, bepaalt de calculator direct uw exacte werktijd tot op de minuut. Vereenvoudig uw salarisadministratie, zorg voor nauwkeurige facturering en krijg volledige transparantie over uw inkomsten.",
+  "whatIs": "De werkurencalculator is een uitgebreide tool voor urenregistratie en salarisadministratie die is ontworpen om de exacte tijd die op het werk wordt doorgebracht en het resulterende inkomen te berekenen. In tegenstelling tot eenvoudige klokken, verwerkt deze tool de complexe wiskunde van de tijdopmaak (uren en minuten) die traditioneel vervelend is om handmatig te berekenen voor de salarisadministratie. U voert de starttijd en de eindtijd voor elke dag in, specificeert eventuele onbetaalde pauzes (zoals de lunch) en het systeem bepaalt onmiddellijk het totale aantal netto gewerkte uren. Als u een uurtarief opgeeft, functioneert het ook als een bruto-inkomensschatter, waardoor u eenvoudig uw verdiensten kunt projecteren of facturen kunt maken voor een dagelijkse, wekelijkse of tweewekelijkse betalingsperiode.",
   "howToUse": [
     "Voer uw klok op tijd in het daarvoor bestemde invoerveld in.",
     "Geef eventuele secundaire parameters op, zoals de uitkloktijd.",
     "Klik op de knop Berekenen of Verzenden om het totaal aantal uren minus onbetaalde pauzes te genereren.",
     "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "De tool werkt door standaard tijdsinvoer in 12-uurs of 24-uurs notatie te vertalen naar decimale tijd die vereist is voor loonberekeningen. Als u bijvoorbeeld om 8:00 uur inklokt en om 16:30 uur uitklokt, berekent de tool de tussenliggende 8 uur en 30 minuten. Als u een onbetaalde pauze van 30 minuten specificeert, trekt de tool deze af, wat resulteert in precies 8 uur werktijd. Deze 8 uur worden vervolgens vermenigvuldigd met het door u opgegeven uurtarief om het brutoloon van die dag te schatten. Voor invoer over meerdere dagen telt de calculator deze dagtotalen bij elkaar op om een wekelijks of per betalingsperiode gecumuleerd aantal uren en verdiensten te geven, zodat er geen minuut over het hoofd wordt gezien.",
+  "workedExample": "Stel dat u een freelancer bent die $ 25 per uur in rekening brengt. Op maandag begint u om 9:00 uur met werken, neemt u om 12:00 uur een onbetaalde lunch van 45 minuten en stopt u om 17:15 uur met werken. U voert deze tijden in de calculator in. De tool berekent de totale tijd tussen 9:00 uur en 17:15 uur als 8 uur en 15 minuten. Vervolgens trekt het de pauze van 45 minuten af, wat precies 7 uur en 30 minuten factureerbare tijd oplevert. Voor de berekening van de inkomsten converteert het de 30 minuten naar het decimale 0,5 uur. Vervolgens vermenigvuldigt het 7,5 uur met uw tarief van $ 25, wat resulteert in een totale verdienste van $ 187,50 voor die dag.",
+  "resultInterpretation": "De resultaten die door de calculator worden gegenereerd, geven doorgaans twee belangrijke meetgegevens weer: uw totale netto-werktijd (weergegeven in uren en minuten en in decimale notatie) en uw geschatte bruto-inkomsten. De decimale tijdnotatie (bijvoorbeeld 7,5 uur in plaats van 7 uur en 30 minuten) is cruciaal, omdat dit de standaardnotatie is die door salarisadministratiesystemen wordt gebruikt. De weergegeven bruto-inkomsten zijn uw loon vóór belastingen en inhoudingen; het vertegenwoordigt wat u alleen op basis van uw uurtarief hebt verdiend. Deze gegevens kunnen direct worden gebruikt voor het factureren van klanten, het vergelijken met uw officiële salarisstrook om discrepanties te ontdekken of het bijhouden van de grens voor overwerk.",
   "useCases": [
     "Freelance facturatie",
     "Salarisschatting",
@@ -27,8 +28,7 @@
   ],
   "tipsAndLimitations": [
     "Berekent niet automatisch belastingen.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten."
   ],
   "faq": [
     {
@@ -38,17 +38,15 @@
     {
       "question": "Werkt dit op mobiel?",
       "answer": "Ja, het is volledig responsief en werkt op alle apparaten."
-    },
-    {
-      "question": "Moet ik iets downloaden?",
-      "answer": "Nee, het werkt volledig in uw browser, zonder enige installatie."
     }
   ],
   "relatedTools": [
-    "leeftijd-calculator",
-    "datumverschil-calculator",
-    "dagen-tussen-data"
+    "overtime-calculator",
+    "tax-calculator",
+    "roi-calculator"
   ],
+  "cta": "Bereken nu je wekelijkse werkuren!",
+  "disclaimer": "Deze tool berekent strikt de verstreken tijd minus pauzes. Raadpleeg uw lokale arbeidswetten met betrekking tot verplichte betaalde rustpauzes versus onbetaalde maaltijdpauzes.",
   "lastReviewed": "2026-09-30",
   "imageAlt": "Werktijdencalculator",
   "ogImageText": "Werktijdencalculator"

@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Pemeriksa Kontras Warna - Alat Aksesibilitas WCAG",
+  "metaDescription": "Pemeriksa Kontras Warna Online Gratis. Hitung rasio kontras antara teks dan warna latar belakang Anda secara instan untuk memastikan kepatuhan aksesibilitas WCAG.",
+  "h1": "Pemeriksa Kontras Warna",
+  "primaryKeyword": "pemeriksa kontras warna",
+  "secondaryKeywords": [
+    "pemeriksa kontras WCAG",
+    "kontras warna aksesibilitas",
+    "periksa kontras warna",
+    "kalkulator keterbacaan teks"
+  ],
+  "slug": "pemeriksa-kontras-warna",
+  "intro": "Pastikan situs web Anda dapat dibaca oleh semua orang. Alat Pemeriksa Kontras Warna gratis kami menghitung rasio tepat antara warna teks dan latar belakang Anda, memverifikasi kepatuhan terhadap pedoman aksesibilitas WCAG.",
+  "whatIs": "Pemeriksa Kontras Warna adalah utilitas aksesibilitas web. Alat ini secara matematis mengevaluasi luminansi relatif dari warna latar depan (teks) terhadap warna latar belakang untuk menentukan apakah ada perbedaan visual yang cukup agar pengguna dengan gangguan penglihatan dapat membaca teks dengan nyaman.",
+  "howToUse": [
+    "Masukkan kode HEX untuk warna Teks/Latar depan Anda.",
+    "Masukkan kode HEX untuk warna Latar belakang Anda.",
+    "Alat ini menghitung rasio kontras (misalnya, 4,5:1).",
+    "Ini menampilkan nilai Lulus/Gagal untuk standar WCAG AA dan AAA."
+  ],
+  "howItWorks": "Alat ini mengubah kedua kode HEX menjadi RGB, menerapkan formula matematis tertentu untuk menghitung 'luminansi relatif' dari kedua warna tersebut, dan kemudian membagi luminansi yang lebih terang dengan luminansi yang lebih gelap. Hasilnya adalah rasio antara 1:1 (tidak ada kontras) dan 21:1 (kontras maksimum).",
+  "workedExample": "Anda menguji teks hitam murni (#000000) di latar belakang putih murni (#FFFFFF). Alat ini menghitung rasio kontras maksimum yang mungkin sebesar 21:1, dengan mudah memenuhi semua persyaratan aksesibilitas AAA.",
+  "resultInterpretation": "Rasio yang lebih tinggi berarti teks lebih mudah dibaca. Pedoman Aksesibilitas Konten Web (WCAG) mengharuskan rasio minimum 4,5:1 untuk teks normal (standar AA) dan 7:1 untuk aksesibilitas yang ketat (standar AAA).",
+  "useCases": [
+    "Audit Aksesibilitas Web: Memastikan situs web perusahaan tidak melanggar undang-undang kepatuhan ADA terkait keterbacaan.",
+    "Desain UI/UX: Memeriksa apakah teks placeholder abu-abu terang di dalam kolom input putih terlalu sulit dibaca.",
+    "Panduan Merek: Memverifikasi bahwa warna merek dapat ditumpuk di atas satu sama lain dengan aman dalam grafik pemasaran."
+  ],
+  "tipsAndLimitations": [
+    "Teks besar (lebih dari 18pt atau 14pt tebal) lebih mudah dibaca, jadi WCAG hanya mensyaratkan rasio 3:1 yang lebih rendah untuk lolos standar AA.",
+    "Buta warna memengaruhi persepsi warna, tetapi kontras luminansi relatif tetap menjadi faktor terpenting untuk keterbacaan."
+  ],
+  "faq": [
+    {
+      "question": "Apa yang terjadi jika warna saya gagal pemeriksaan?",
+      "answer": "Jika mereka gagal, teks Anda akan sangat sulit dibaca oleh orang dengan penglihatan buruk atau buta warna. Anda harus menggelapkan warna teks atau mencerahkan warna latar hingga rasio mencapai setidaknya 4,5:1."
+    },
+    {
+      "question": "Apakah 21:1 merupakan kontras terbaik?",
+      "answer": "Secara matematis, ya. Namun, teks hitam murni di latar belakang putih murni (21:1) dapat menyebabkan ketegangan mata atau 'halation' bagi beberapa pengguna dengan disleksia. Abu-abu sangat gelap (misalnya, #222222) di atas putih keabu-abuan sering lebih disukai."
+    }
+  ],
+  "relatedTools": [
+    "color-picker",
+    "color-palette-generator",
+    "hex-to-rgb"
+  ],
+  "cta": "Periksa aksesibilitas warna Anda sekarang!",
+  "disclaimer": "Alat ini menghitung kontras berdasarkan algoritma WCAG 2.1 standar untuk luminansi relatif.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Pemeriksa Kontras Warna menunjukkan rasio 4,5 yang lulus",
+  "ogImageText": "Pemeriksa Kontras Warna"
+}

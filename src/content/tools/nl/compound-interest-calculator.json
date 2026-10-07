@@ -1,55 +1,67 @@
 {
-  "seoTitle": "Samengestelde rentecalculator",
-  "metaDescription": "Bereken samengestelde rente in de loop van de tijd.",
-  "h1": "Samengestelde rentecalculator",
-  "primaryKeyword": "samengestelde rente rekenmachine",
+  "seoTitle": "Samengestelde Interest Calculator - Berekening Toekomstige Waarde Investering",
+  "metaDescription": "Gratis samengestelde interest calculator. Voorspel hoe uw spaargeld en investeringen groeien met de kracht van samengestelde interest en maandelijkse bijdragen.",
+  "h1": "Samengestelde Interest Calculator",
+  "primaryKeyword": "samengestelde interest calculator",
   "secondaryKeywords": [
-    "Samengestelde rentecalculator online",
-    "gratis samengestelde rentecalculator",
-    "beste samengestelde rentecalculator"
+    "samengestelde rente berekenen",
+    "investering groei calculator",
+    "toekomstige waarde calculator",
+    "regel van 72"
   ],
-  "slug": "samengestelde rentecalculator",
-  "intro": "Bereken precies hoe uw geld in de loop van de tijd zal groeien met samengestelde rente.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "slug": "samengestelde-rente-calculator",
+  "intro": "Benut de kracht van samengestelde interest met onze gratis Samengestelde Interest Calculator. Of u nu plant voor uw pensioen, een noodfonds opbouwt of belegt in aandelen — dit hulpmiddel projecteert de toekomstige waarde van uw spaargeld door uw startkapitaal, maandelijkse bijdragen en de exponentiële kracht van samengestelde interest te combineren. Zie precies hoe tijd en consequent sparen uw vermogen ver boven uw inleg kunnen laten groeien.",
+  "whatIs": "Samengestelde interest is het proces waarbij de rente op een belegging wordt herbelegd, zodat rente rente oplevert in volgende perioden. Vaak omschreven als 'rente op rente', is het het fundamentele mechanisme achter de groei van langetermijninvesteringen. In tegenstelling tot enkelvoudige rente, berekend op alleen het kapitaal, versnelt samengestelde interest vermogensopbouw door rente toe te passen op een steeds grotere basis.",
   "howToUse": [
-    "Voer uw opdrachtgever in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals de samengestelde frequentie.",
-    "Klik op de knop Berekenen of Verzenden om de toekomstige waarde van een investering te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Voer uw Startinvestering in — het bedrag waarmee u vandaag begint.",
+    "Voer een Maandelijkse Bijdrage in die u regelmatig aan uw spaargeld wilt toevoegen.",
+    "Stel de Jaarlijkse Rente in die u verwacht te verdienen op uw investering.",
+    "Geef het Aantal Groeijaren op — de totale duur van uw investeringshorizon.",
+    "Kies de Samenstellingsfrequentie (bijv. jaarlijks, kwartaal, maandelijks, dagelijks).",
+    "Klik op 'Groei Berekenen' om uw geprojecteerde toekomstige waarde, totale bijdragen en totale rente te zien."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "De calculator past de samengestelde interestformule toe: A = P(1 + r/n)^(nt), waarbij A de toekomstige waarde is, P het kapitaal, r de jaarlijkse rente (als decimaal), n het aantal keren dat rente per jaar wordt samengesteld en t de tijd in jaren. Voor maandelijkse bijdragen gebruikt de formule ook de toekomstige waarde van een annuïteit naast de eenmalige kapitaalformule.",
+  "workedExample": "Als u begint met een startkapitaal van €5.000, elke maand €200 toevoegt en een jaarlijkse rente van 7% (maandelijks samengesteld) verdient gedurende 10 jaar: uw totale bijdragen bedragen €29.000. Dankzij de samengestelde interest bedraagt uw geprojecteerd saldo na 10 jaar ongeveer €44.792, wat betekent dat de samengestelde interest bijna €15.792 aan extra vermogen heeft gegenereerd.",
+  "resultInterpretation": "Het resultaat toont drie sleutelcijfers. Toekomstige Waarde is het totale geprojecteerde saldo aan het einde van de gekozen periode. Totaal Geïnvesteerd is het werkelijk gestorte geld. Totale Rente Verdiend is het verschil — het vermogen dat puur door het samenstellingseffect is gegenereerd.",
   "useCases": [
-    "Pensioenplanning",
-    "Beoordelen van spaarrekeningen",
-    "Onderweg snel de hoofdsom verwerken"
+    "Pensioenplanning: Schatting hoeveel een pensioenfonds groeit over decennia van regelmatige bijdragen.",
+    "Onderwijssparen: Projecteren of maandelijkse stortingen toekomstige studiekosten zullen dekken.",
+    "Noodfondsgroei: Zien hoe een hoogrentende spaarrekening groeit over één tot vijf jaar.",
+    "Investeringsvergelijking: Vergelijken van verschillende rentetarieven of samenstellingsfrequenties voor slimmere beslissingen."
   ],
   "tipsAndLimitations": [
-    "Hogere samengestelde frequenties leveren iets meer geld op.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Begin vroeg: door de exponentiële aard van samengestelde interest kan 10 jaar eerder beginnen uw eindsaldo meer dan verdubbelen.",
+    "De Regel van 72 is een snelle vuistregel — deel 72 door uw jaarlijkse rente om te schatten hoeveel jaar het duurt om uw geld te verdubbelen.",
+    "Deze calculator gaat uit van een constante rente gedurende de gehele periode, wat zelden het geval is bij aandelenbeleggingen.",
+    "Er wordt geen rekening gehouden met inflatie, belasting over renteopbrengsten of beleggingsbeheerkosten."
   ],
   "faq": [
     {
-      "question": "Is de samengestelde rentecalculator gratis te gebruiken?",
-      "answer": "Ja, onze samengestelde rentecalculator is volledig gratis te gebruiken."
+      "question": "Wat is het verschil tussen samengestelde en enkelvoudige rente?",
+      "answer": "Enkelvoudige rente wordt alleen berekend over het oorspronkelijke kapitaal. Samengestelde rente wordt berekend over het kapitaal plus alle eerder opgebouwde rente. Over lange perioden levert samengestelde rente aanzienlijk hogere rendementen op."
     },
     {
-      "question": "Werkt dit op mobiel?",
-      "answer": "Ja, het is volledig responsief en werkt op alle apparaten."
+      "question": "Wat is de Regel van 72?",
+      "answer": "De Regel van 72 is een snelle vuistregel. Deel 72 door uw jaarlijkse rente om te schatten hoeveel jaar het duurt om uw geld te verdubbelen. Bij 6% per jaar: 72 ÷ 6 = 12 jaar."
     },
     {
-      "question": "Moet ik iets downloaden?",
-      "answer": "Nee, het werkt volledig in uw browser, zonder enige installatie."
+      "question": "Beïnvloedt de samenstellingsfrequentie mijn resultaten significant?",
+      "answer": "Ja, maar de impact hangt af van de rente. Bij hogere rentetarieven kan vaker samenstellen (dagelijks vs. jaarlijks) uw totaal merkbaar verhogen."
+    },
+    {
+      "question": "Kan ik deze calculator gebruiken voor spaarrekeningen?",
+      "answer": "Absoluut. Voer de APY van de spaarrekening in als jaarlijkse rente, kies maandelijkse samenstelling en voeg uw reguliere maandelijkse storting toe voor een nauwkeurige projectie."
     }
   ],
   "relatedTools": [
-    "percentage-calculator",
-    "salariscalculator",
-    "kortingscalculator"
+    "simple-interest-calculator",
+    "roi-calculator",
+    "investment-calculator",
+    "loan-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Samengestelde rentecalculator",
-  "ogImageText": "Samengestelde rentecalculator"
+  "cta": "Bereken nu uw samengestelde interestgroei en zie hoeveel uw geld voor u kan werken!",
+  "disclaimer": "Projecties zijn hypothetisch en uitsluitend voor educatieve doeleinden. Ze vertegenwoordigen niet het rendement van een specifieke investering en garanderen geen toekomstige resultaten. Raadpleeg een gekwalificeerd financieel adviseur voordat u beleggingsbeslissingen neemt.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Samengestelde interest calculator met toekomstige waarde, totaal geïnvesteerd en totale rente",
+  "ogImageText": "Samengestelde Interest Calculator"
 }

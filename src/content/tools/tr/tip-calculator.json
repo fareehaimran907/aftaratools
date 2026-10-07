@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Bahşiş Hesaplayıcı",
-  "metaDescription": "İpuçlarını hesaplayın ve faturayı arkadaşlarınız arasında paylaştırın.",
+  "seoTitle": "Bahşiş Hesaplayıcı - Hesabı Böl ve Bahşişi Hesapla",
+  "metaDescription": "Ücretsiz bahşiş hesaplayıcı (Tip Calculator). Restoranlarda bahşiş oranını hesaplayın ve toplam hesabı arkadaşlarınız arasında kolayca bölüştürün.",
   "h1": "Bahşiş Hesaplayıcı",
   "primaryKeyword": "bahşiş hesaplayıcı",
   "secondaryKeywords": [
-    "Bahşiş Hesaplayıcı çevrimiçi",
-    "ücretsiz Bahşiş Hesaplayıcı",
-    "en iyi Bahşiş Hesaplayıcı"
+    "hesap bölüştürme",
+    "bahşiş hesaplama",
+    "restoran hesap paylaştırma"
   ],
-  "slug": "bahşiş hesaplayıcı",
-  "intro": "Uygun bahşişi ve her kişinin tam olarak ne kadar borcu olduğunu kolayca hesaplayın.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "bahsis-hesaplama",
+  "intro": "Harika bir yemeğin sonunda hesaba bakıp ne kadar bahşiş bırakacağınız veya maliyeti arkadaşlarınız arasında nasıl adil bir şekilde böleceğiniz konusunda kararsız kaldığınız oldu mu? İster bir restoranda yemek yiyin, ister saçınızı kestirin veya yemek siparişi verin, doğru bahşişi hesaplamak deneyiminizi strese dönüştürmemelidir. Ücretsiz çevrimiçi bahşiş hesaplayıcımız, yemek sonrası hesaplama zahmetini ortadan kaldırır. Bu araç sadece hesap tutarınızı ve istediğiniz bahşiş yüzdesini girerek, tam bahşiş miktarını ve toplam fiyatı size anında söyler. Hatta bir hesap bölme özelliğine bile sahip olup bir grupla dışarı çıkmanın sorunsuz ve zahmetsiz kalmasını sağlar.",
+  "whatIs": "Bahşiş hesaplayıcısı, bahşiş verme ve hesap bölmeyle ilgili matematiği basitleştirmek için tasarlanmış kullanışlı bir günlük araçtır. Hizmet sektörlerinde bahşiş (ikramiye), çalışanlar için maaşın çok önemli bir parçasıdır ancak akıldan, özellikle vergilerden sonra %15, %18 veya %20'yi hızla hesaplamak utanç verici hatalara yol açabilir. Bu araç, ilk hesap tutarınızı alır, seçtiğiniz bahşiş yüzdesini uygular ve bilmeniz gereken kesin sayıları çıkarır. Size sadece servis görevlisine tam olarak ne kadar bırakacağınızı söylemekle kalmaz, aynı zamanda bir gruplaysanız, toplam hesabı istenen sayıda kişi arasında eşit olarak bölebilir.",
   "howToUse": [
-    "Belirlenen giriş alanına fatura tutarınızı girin.",
-    "Bahşiş yüzdesi gibi ikincil parametreleri sağlayın.",
-    "Bahşiş dahil kişi başı toplam oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Bahşiş hariç toplam Hesap Tutarını girin.",
+    "Bırakmak istediğiniz Bahşiş Yüzdesini seçin.",
+    "Hesabı paylaşacak Kişi Sayısını girin.",
+    "Araç anında kişi başı düşen bahşişi ve toplam ödemeyi gösterecektir."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç basit yüzde matematiği ilkeleri üzerinde çalışır. 'Hesap Tutarı'nı girip bir 'Bahşiş Yüzdesi' seçtiğinizde, hesap makinesi yüzdeyi ondalık sayıya dönüştürür (%20, 0,20 olur). Daha sonra kesin nakit bahşişini hesaplamak için hesap tutarınızı bu ondalık sayıyla çarpar. Toplam ödeme tutarınızı bulmak için, hesaplanan o bahşişi orijinal hesabınıza geri ekler. Başkalarıyla birlikte yemek yiyorsanız, gruptaki 'Kişi Sayısı'nı girebilirsiniz; ardından hesap makinesi genel toplamı (hesap + bahşiş) bu sayıya bölerek, bakiyeyi kapatmak için her bir kişinin ne kadar katkıda bulunması gerektiğini size tam olarak gösterir.",
+  "workedExample": "Siz ve üç arkadaşınızın akşam yemeğini yeni bitirdiğini ve hesabın 850₺ geldiğini düşünün. Hizmet mükemmeldi, bu yüzden %20 bahşiş bırakmaya karar veriyorsunuz. Hesap tutarı için '850' yazıyorsunuz ve bahşiş yüzdesi olarak '20'yi seçiyorsunuz. Araç, 850₺'yi 0,20 ile çarparak bahşişi anında hesaplıyor ve 170₺ çıkıyor. Ardından, genel toplam olarak 1.020₺ için o 170₺'yi orijinal 850₺ hesabına ekliyor. Hesabı 4'e (kendiniz dahil) böleceğiniz için, kişi alanına '4' giriyorsunuz. Hesap makinesi 1.020₺'yi 4'e böler ve herkesin tam olarak 255₺ borcu olduğunu gösterir.",
+  "resultInterpretation": "Hesap makinesi tarafından oluşturulan sonuçlar üç temel sayı sunar: 'Bahşiş Tutarı', 'Genel Toplam' ve (bölüşüyorsanız) 'Kişi Başına Düşen Tutar'. Bahşiş tutarı tam olarak kredi kartı fişinizin bahşiş satırına yazmanız veya masada nakit olarak bırakmanız gereken tutardır. Genel toplam, banka hesabınızdan nihai olarak düşülecek olan, orijinal faturayı ve bahşişi temsil eden tutardır. Son olarak, kişi başı miktar, yemeğin sonundaki o garip anı ortadan kaldırarak grubun tam ve adil bir şekilde ödeme yapması için herkesin tam olarak ne kadar Venmo, nakit katkıda bulunması veya talep etmesi gerektiğini belirler.",
   "useCases": [
-    "Arkadaşlarla dışarıda yemek yemek",
-    "Teslimat sürücülerine bahşiş vermek",
-    "Hareket halindeyken fatura tutarını hızlı bir şekilde işleyin"
+    "Restoranlar: Garsona bırakılacak uygun bahşişi (%10) belirlemek.",
+    "Grup Yemekleri: Kalabalık masalarda hesabı (Alman usulü) kolayca bölmek.",
+    "Grup Yemekleri: Kalabalık masalarda hesabı (Alman usulü) kolayca bölmek."
   ],
   "tipsAndLimitations": [
-    "Makbuzda bahşişin zaten yer alıp almadığını kontrol edin.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Bahşiş kültürü ülkeye göre değişir. Türkiye'de genellikle %10 civarı kabul görürken, ABD'de bu oran %15-20 arasındadır.",
+    "Araç, hesabı tam olarak eşit parçalara böler (kimin ne yediğine bakmaz)."
   ],
   "faq": [
     {
-      "question": "Bahşiş Hesaplayıcı'nın kullanımı ücretsiz mi?",
-      "answer": "Evet, Bahşiş Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Kuver veya servis ücreti dahilse yine de bahşiş verilir mi?",
+      "answer": "Bazı restoranlar hesaba %10 'Servis Bedeli' ekler. Bu durumda ekstra bahşiş bırakmak tamamen sizin takdirinize kalmıştır."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Kuver veya servis ücreti dahilse yine de bahşiş verilir mi?",
+      "answer": "Bazı restoranlar hesaba %10 'Servis Bedeli' ekler. Bu durumda ekstra bahşiş bırakmak tamamen sizin takdirinize kalmıştır."
     }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "maaş-hesaplayıcı",
-    "indirim hesaplayıcı"
+    "discount-calculator",
+    "percentage-calculator",
+    "tax-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Bahşiş Hesaplayıcı",
-  "ogImageText": "Bahşiş Hesaplayıcı"
+  "cta": "Hemen bahşişi hesapla ve hesabı böl!",
+  "disclaimer": "Bu araç, gündelik hesaplamaları hızlandırmak amacıyla tasarlanmıştır.",
+  "lastReviewed": "2024-03-16",
+  "imageAlt": "Bahşiş Hesaplama Aracı",
+  "ogImageText": "Bahşiş ve Hesap"
 }

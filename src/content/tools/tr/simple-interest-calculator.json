@@ -1,55 +1,48 @@
 {
-  "seoTitle": "Basit Faiz Hesaplayıcı",
-  "metaDescription": "Basit faiz ve nihai bakiyeyi hesaplayın.",
+  "seoTitle": "Basit Faiz Hesaplayıcı - Kredi ve Mevduat Hesaplama",
+  "metaDescription": "Ücretsiz basit faiz hesaplama aracı. Ana para, faiz oranı ve vadeyi kullanarak kredi veya birikimleriniz için toplam faiz ve son bakiyeyi kolayca hesaplayın.",
   "h1": "Basit Faiz Hesaplayıcı",
-  "primaryKeyword": "basit faiz hesaplayıcı",
+  "primaryKeyword": "basit faiz hesaplama",
   "secondaryKeywords": [
-    "Çevrimiçi Basit Faiz Hesaplayıcı",
-    "ücretsiz Basit Faiz Hesaplayıcı",
-    "En iyi Basit Faiz Hesaplayıcı"
+    "basit faiz formülü",
+    "faiz hesaplama",
+    "kredi faiz hesaplayıcı"
   ],
-  "slug": "basit-faiz-hesaplayıcı",
-  "intro": "Zaman içinde anapara tutarı üzerinden kazanılan veya ödenen basit faizi hesaplayın.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "basit-faiz-hesaplama",
+  "intro": "Faiz hesaplamak, finansal yönetimin temel bir parçasıdır. Basit Faiz Hesaplayıcımız, belirli bir süre zarfında kazanılan veya ödenen faizi anında bulmanıza yardımcı olur.",
+  "whatIs": "Bu finansal araç, belirli bir yıl veya ay süresince, sabit bir 'basit' faiz oranı kullanılarak ana para üzerinden biriken toplam faizi hesaplar.",
   "howToUse": [
-    "Anapara tutarınızı belirlenen giriş alanına girin.",
-    "Faiz oranı gibi ikincil parametreleri sağlayın.",
-    "Bir dönem boyunca kazanılan toplam faizi oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Ana Parayı (başlangıçtaki para miktarını) girin.",
+    "Yıllık Faiz Oranını (yüzde olarak) girin.",
+    "Zaman Periyodunu girip Yıl veya Ay seçeneğini belirleyin.",
+    "Hesaplayıcı anında Toplam Faiz ve Toplam Miktarı gösterecektir."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç klasik formülü kullanır: Basit Faiz = (Ana Para × Oran × Zaman) / 100. Süre ay olarak girilirse, hesaplama öncesi otomatik olarak yıla (Ay / 12) çevrilir.",
+  "workedExample": "10.000₺'yi %5 yıllık faizle 5 yıllığına yatırırsanız: Basit Faiz = (10.000 × 5 × 5) / 100 = 2.500₺. Toplam Miktar = 12.500₺.",
+  "resultInterpretation": "'Toplam Faiz' orijinal tutarın üzerine ne kadar eklendiğini/kaldığını gösterir. 'Toplam Miktar' ise faizin ana paraya eklenmesiyle oluşan nihai değerdir.",
   "useCases": [
-    "Kısa vadeli bireysel krediler",
-    "Temel tasarruf tahvilleri",
-    "Hareket halindeyken anapara tutarını hızlı bir şekilde işleyin"
+    "Kişisel Finans: Aile veya arkadaşlardan alınan/verilen borçların faizini hesaplamak.",
+    "Birikimler: Bileşik (katlamalı) faiz kullanmayan kısa vadeli getirileri ölçmek.",
+    "Eğitim: Ekonomi ve matematik ödevlerini kontrol etmek."
   ],
   "tipsAndLimitations": [
-    "Çoğu modern hesap bunun yerine bileşik faiz kullanır.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Bu araç sadece 'basit' faiz hesaplar. Günümüzde çoğu banka mevduatı ve konut kredisi 'bileşik' (katlamalı) faiz kullanır.",
+    "Faiz oranını daima Yıllık (%) olarak girmeniz gerekir."
   ],
   "faq": [
     {
-      "question": "Basit Faiz Hesaplayıcının kullanımı ücretsiz midir?",
-      "answer": "Evet, Basit Faiz Hesaplayıcımızın kullanımı tamamen ücretsizdir."
-    },
-    {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Basit faiz ile bileşik faiz arasındaki fark nedir?",
+      "answer": "Basit faiz her zaman sadece ilk yatırılan (veya borç alınan) ana para üzerinden hesaplanır. Bileşik faizde ise faiz, ana para ARTI geçmiş dönemlerde biriken faiz üzerinden hesaplanır."
     }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "maaş-hesaplayıcı",
-    "indirim hesaplayıcı"
+    "compound-interest-calculator",
+    "roi-calculator",
+    "investment-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Basit Faiz Hesaplayıcı",
-  "ogImageText": "Basit Faiz Hesaplayıcı"
+  "cta": "Basit faizi hemen hesaplayın!",
+  "disclaimer": "Bu araç sadece eğitim amaçlıdır. Bankalar gün/ay sayımı veya vergi kesintileri gibi ek değişkenler kullanabilir.",
+  "lastReviewed": "2024-03-16",
+  "imageAlt": "Basit Faiz Hesaplama Aracı",
+  "ogImageText": "Basit Faiz Hesaplama"
 }

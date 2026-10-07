@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Dni pomiędzy datami",
-  "metaDescription": "Oblicz dokładną liczbę dni pomiędzy dwiema datami.",
-  "h1": "Dni pomiędzy datami",
-  "primaryKeyword": "dni pomiędzy datami",
+  "seoTitle": "Kalkulator Dni Między Datami - Dokładna Liczba Dni",
+  "metaDescription": "Łatwo oblicz dokładną liczbę dni między dwiema datami. Odkryj całkowitą liczbę dni, dni roboczych i weekendów.",
+  "h1": "Kalkulator Dni Między Datami",
+  "primaryKeyword": "dni między datami",
   "secondaryKeywords": [
-    "Dni pomiędzy datami online",
-    "darmowe dni pomiędzy datami",
-    "najlepsze dni pomiędzy datami"
+    "ile dni między",
+    "kalkulator dni",
+    "kalkulator dni roboczych",
+    "licznik dni"
   ],
-  "slug": "dni pomiędzy datami",
-  "intro": "Natychmiast oblicz dokładną liczbę dni pomiędzy dowolnymi dwiema datami.",
-  "whatIs": "Co to jest za narzędzie?",
+  "slug": "dni-miedzy-datami",
+  "intro": "Czy próbujesz dowiedzieć się dokładnie, ile dni minęło od ważnego wydarzenia lub ile dni zostało do zbliżającego się terminu? Nasz kalkulator Dni Między Datami to wysoce specjalistyczne narzędzie zaprojektowane, aby podać dokładną liczbę absolutnych dni dzielących dowolne dwie daty kalendarzowe. Niezależnie od tego, czy śledzisz harmonogram projektu, liczysz dni serii, czy obliczasz odsetki finansowe w określonym okresie, znajomość dokładnej liczby dni jest kluczowa. Ten kalkulator eliminuje zgadywanie i żmudne ręczne liczenie związane z różną długością miesięcy i latami przestępnymi, zapewniając bezbłędną odpowiedź w zaledwie ułamek sekundy.",
+  "whatIs": "Kalkulator Dni Między Datami to podstawowe narzędzie mierzące surowy, nieprzerwany czas trwania między datą początkową a końcową, wyrażony wyłącznie w dniach. W przeciwieństwie do ogólnego kalkulatora wieku lub dat, który rozbija czas na lata, miesiące i dni, to narzędzie skupia się wyłącznie na absolutnej liczbie dni. Ten czysty wskaźnik ma kluczowe znaczenie w wielu technicznych, finansowych i naukowych obliczeniach, w których 'miesiąc' jest jednostką zbyt zmienną (ponieważ miesiące mogą mieć 28, 29, 30 lub 31 dni). Opierając się na absolutnej liczbie dni, profesjonaliści mogą dokładnie obliczać dzienne stopy procentowe, określać dokładne dzienne opłaty za wynajem lub śledzić kolejne serie bez żadnych niejasności.",
   "howToUse": [
-    "Wpisz swoją pierwszą datę w wyznaczonym polu wejściowym.",
-    "Podaj wszelkie parametry dodatkowe, takie jak druga data.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować całkowitą liczbę dni poprzez podzielenie milisekund.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
+    "Wybierz datę początkową.",
+    "Wybierz datę końcową.",
+    "Opcjonalnie zaznacz 'Uwzględnij datę końcową' dla pełnego uwzględnienia.",
+    "Wyświetl całkowitą liczbę dni roboczych i weekendowych."
   ],
-  "howItWorks": "Jak to działa",
-  "workedExample": "Przykłady",
-  "resultInterpretation": "Interpretacja",
+  "howItWorks": "U swej podstawy kalkulator przekształca zarówno wybraną datę początkową, jak i końcową w uniwersalny format czasu — a dokładniej w liczbę milisekund, które upłynęły od epoki Unix (1 stycznia 1970 r.). Odejmując początkowy znacznik czasu od końcowego, narzędzie określa dokładną różnicę czasu w milisekundach. Następnie dzieli tę ogromną liczbę przez 86 400 000 (dokładna liczba milisekund w standardowym 24-godzinnym dniu), aby uzyskać surową liczbę dni. To matematyczne podejście gwarantuje, że anomalie, takie jak lata przestępne i nieregularna długość miesięcy, są w naturalny i bezbłędny sposób uwzględniane. Narzędzie zawiera również przełącznik 'Uwzględnij datę końcową', który po prostu dodaje 1 do ostatecznego wyniku, zmieniając obliczenia z surowej matematycznej różnicy na całkowity (łączny) czas trwania.",
+  "workedExample": "Rozważmy scenariusz, w którym musisz obliczyć liczbę dni między 4 lipca 2023 r. a 25 grudnia 2023 r. Gdybyś miał liczyć ręcznie, musiałbyś dodać 27 dni pozostałych w lipcu, 31 w sierpniu, 30 we wrześniu, 31 w październiku, 30 w listopadzie i 25 w grudniu. Nasz kalkulator wykonuje tę operację natychmiast. Znajduje on znacznik czasu dla 25 grudnia i odejmuje od niego znacznik czasu dla 4 lipca. Surowa różnica wynosi dokładnie 174 dni. Jeśli obliczasz dzienny wynajem, który rozpoczął się 4 lipca, a zakończył 25 grudnia (włącznie z obydwoma dniami), zaznaczysz opcję 'Uwzględnij datę końcową', a kalkulator natychmiast skoryguje sumę do 175 dni.",
+  "resultInterpretation": "Interpretacja wyniku jest prosta, ale ważne jest, aby zrozumieć kontekst obliczeń. Standardowy wynik reprezentuje ścisłą różnicę matematyczną — zasadniczo liczbę północy, które mijają między dwiema datami. Jest to właściwy wskaźnik do obliczania wieku, czasu, jaki upłynął, lub standardowych terminów. Jeśli jednak śledzisz nieprzerwaną codzienną serię (jak dieta lub nauka języka) lub wystawiasz rachunki za usługi świadczone każdego dnia obejmującego dwie daty, potrzebujesz pełnego, włączającego (inclusive) obliczenia. Owo włączające liczenie dodaje jeden dzień do matematycznej różnicy, aby upewnić się, że zarówno dzień początkowy, jak i końcowy zostały w pełni uwzględnione w całkowitej sumie.",
   "useCases": [
-    "Śledzenie wiz",
-    "Okresy ciąży",
-    "Szybkie przetwarzanie pierwszej randki w podróży"
+    "Planowanie biznesowe: Liczenie dni roboczych dostępnych na projekt.",
+    "Obliczanie urlopu: Obliczanie ile dni roboczych zajmie urlop.",
+    "Wydarzenia: Odliczanie dni do ważnego terminu."
   ],
   "tipsAndLimitations": [
-    "Nie obejmuje stref czasowych.",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
+    "Dni robocze zakładają standardowy tydzień od poniedziałku do piątku.",
+    "Święta nie są odliczane, ponieważ różnią się w zależności od kraju.",
+    "Zaznacz 'Uwzględnij datę końcową' dla rezerwacji hotelowych."
   ],
   "faq": [
     {
-      "question": "Czy korzystanie z funkcji Days Between Dates jest bezpłatne?",
-      "answer": "Tak, korzystanie z naszych Days Between Dates jest całkowicie bezpłatne."
+      "question": "Czy święta są liczone jako dni robocze?",
+      "answer": "Tak, święta są liczone jako robocze, jeśli wypadają między poniedziałkiem a piątkiem. Należy je odjąć ręcznie."
     },
     {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, jest w pełni responsywny i działa na wszystkich urządzeniach."
-    },
-    {
-      "question": "Czy muszę coś pobrać?",
-      "answer": "Nie, działa całkowicie w Twojej przeglądarce, bez żadnej instalacji."
+      "question": "Co oznacza 'Uwzględnij datę końcową'?",
+      "answer": "Różnica między 1. a 2. dniem miesiąca wynosi 1 dzień. Jednak jeśli pracujesz w oba dni, przepracowałeś 2. Opcja ta dodaje ten dzień."
     }
   ],
   "relatedTools": [
-    "kalkulator wieku",
-    "kalkulator różnicy dat",
-    "kalkulator dni do"
+    "date-difference-calculator",
+    "days-until-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Dni pomiędzy datami",
-  "ogImageText": "Dni pomiędzy datami"
+  "cta": "Oblicz dni między datami natychmiast!",
+  "disclaimer": "Narzędzie służy wyłącznie do celów informacyjnych. Terminy prawne należy weryfikować ręcznie.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Zrzut ekranu kalkulatora Dni Między Datami",
+  "ogImageText": "Dni Między Datami"
 }

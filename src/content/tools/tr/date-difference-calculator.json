@@ -1,55 +1,54 @@
 {
-  "seoTitle": "Tarih Farkı Hesaplayıcı",
-  "metaDescription": "İki tarih arasındaki tam zaman farkını hesaplayın.",
+  "seoTitle": "Tarih Farkı Hesaplayıcı - Kesin Gün, Hafta ve Ay Sayısı",
+  "metaDescription": "İki tarih arasındaki kesin farkı hesaplayın. Başlangıç ve bitiş tarihi arasında kaç gün, hafta, ay ve yıl olduğunu öğrenin.",
   "h1": "Tarih Farkı Hesaplayıcı",
-  "primaryKeyword": "tarih farkı hesaplama",
+  "primaryKeyword": "tarih farkı hesaplayıcı",
   "secondaryKeywords": [
-    "Tarih Farkı Hesaplayıcı çevrimiçi",
-    "ücretsiz Tarih Farkı Hesaplayıcı",
-    "en iyi Tarih Farkı Hesaplayıcı"
+    "tarihler arasındaki günler",
+    "zaman farkı",
+    "tarih hesaplama",
+    "gün hesaplama"
   ],
-  "slug": "tarih farkı-hesaplayıcı",
-  "intro": "Herhangi iki tarih arasındaki yıl, ay, hafta, gün ve saat cinsinden tam farkı bulun.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "tarih-farki-hesaplayici",
+  "intro": "İki belirli tarih arasında ne kadar zaman olduğunu tam olarak güne kadar bilmeniz mi gerekiyor? Projeleri planlamak, yaşı takip etmek veya etkinlikleri düzenlemek genellikle hassasiyet gerektirir. Bu hesaplayıcı yıl, ay ve gün cinsinden tam farkın yanı sıra toplam hafta veya toplam mutlak gün cinsinden alternatif dökümler sunar. Takvim sayfalarını manuel olarak çevirme veya günleri tahmin etme zahmetini ortadan kaldırır ve saniyenin çok küçük bir bölümünde tamamen doğru bir hesaplama sağlar. İster yasal sözleşmelerle, ister kira anlaşmalarıyla veya kişisel dönüm noktalarıyla ilgileniyor olun, aracımız önemli tarihleri ​​bir daha asla yanlış hesaplamamanızı sağlar.",
+  "whatIs": "Tarih Farkı Hesaplayıcı, bir başlangıç ​​tarihi ile bir bitiş tarihi arasında geçen tam süreyi hesaplamak için tasarlanmış gelişmiş bir dijital yardımcı programdır. Saat farklarını manuel olarak hesaplamak, özellikle artık yılları, değişen ay uzunluklarını (28, 29, 30 veya 31 gün) ve yıl sonu sınırlarını hesaba katmanız gerektiğinde hatalara açıktır. Bu araç, tüm bu karmaşık takvim mekaniklerini arka planda sorunsuz bir şekilde halleder. Toplam sürenin açık ve çok yönlü bir dökümünü sağlayarak, farkı yalnızca standart bir yıl-ay-gün biçiminde değil, aynı zamanda toplam günlerin veya toplam haftaların ham bir sayısı olarak görmenizi sağlar. Bu esneklik, onu katı zaman çizelgelerine güvenen İK, muhasebe ve proje yönetimi profesyonelleri için vazgeçilmez kılar.",
   "howToUse": [
-    "Belirlenen giriş alanına başlangıç ​​tarihinizi girin.",
-    "Bitiş tarihi gibi ikincil parametreleri sağlayın.",
-    "Geçen süreyi gün ve hafta cinsinden tam olarak oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "İlk girişten başlangıç tarihinizi seçin.",
+    "İkinci girişten bitiş tarihinizi seçin.",
+    "Hem ilk hem de son günü saymak istiyorsanız isteğe bağlı olarak 'Bitiş tarihini dahil et' seçeneğini işaretleyin.",
+    "Kesin farkın anında görüntülenmesini sağlayın."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, sağladığınız iki tarihin zaman damgalarını karşılaştırmak için son derece hassas standart takvim matematiği kullanarak çalışır. İlk olarak, mutlak ham farkı belirlemek için hem başlangıç ​​hem de bitiş tarihlerini ham milisaniye zaman damgalarına dönüştürür. Ardından, bu farkı tekrar günlere dönüştürür ve bu günleri, seçilen tarihlerin belirli takvim kısıtlamalarına göre takvim yıllarına, aylarına ve günlerine ayırır. En önemlisi, Miladi takvim kurallarına saygı duyar, yani artık yılları ve tarihlerinizin kapsadığı belirli aylardaki kesin gün sayısını doğal olarak hesaba katar. Algoritma ayrıca, hesaplamaya hem başlangıç ​​hem de bitiş tarihlerini dahil etmeyi seçerseniz son toplama tam olarak bir gün ekleyen kapsayıcı bir sayım moduna sahiptir.",
+  "workedExample": "Hesap makinesinin nasıl çalıştığını anlamak için pratik bir örneğe bakalım. 15 Ocak 2023 ile 20 Nisan 2024 arasındaki tam farkı bulmak istediğinizi varsayalım. Hesap makinesi önce tam yılları belirler: 15 Ocak 2023'ten 15 Ocak 2024'e tam olarak 1 yıldır. Ardından, 15 Ocak 2024'ten 15 Nisan 2024'e kadar olan tam ayları sayar; bu tam olarak 3 aydır. Son olarak, 15 Nisan'dan 20 Nisan'a kadar kalan günleri sayar ki bu da 5 gündür. Birincil çıktı anında 1 Yıl, 3 Ay ve 5 Gün görüntüleyecektir. Ayrıca, geçen sürenin eksiksiz bir resmini size sunmak için toplam gün sayısını (461 gün) da sağlayacaktır.",
+  "resultInterpretation": "Sonuçlar birkaç farklı biçimde görüntülenir, böylece ihtiyaçlarınıza en uygun olanı seçebilirsiniz. Birincil sonuç, birinin yaşını belirtmek veya uzun bir kiranın süresini açıklamak için ideal olan en doğal, insan tarafından okunabilen biçimi (Yıllar, Aylar, Günler) gösterir. Alternatif biçimler Toplam Gün, Toplam Hafta ve Toplam Ayı içerir. Toplam Gün metriği, özellikle katı faturalama amaçları, günlük faiz oranlarının hesaplanması veya her bir günün önemli olduğu proje yönetimi izlemesi için faydalıdır. 'Bitiş tarihini dahil et' seçeneğini seçtiyseniz, sonuçlarınız, otel konaklamaları rezervasyonu yaparken, ekipman kiralarken veya arka arkaya gelen bir etkinliğin süresini hesaplarken standart uygulama olan kapsayıcı bir sayımı yansıtacaktır.",
   "useCases": [
-    "Proje planlama",
-    "Bir etkinlikten bu yana geçen günleri izleme",
-    "Hareket halindeyken başlangıç ​​tarihini hızlı bir şekilde işleyin"
+    "Proje Yönetimi: Bir proje aşamasının tam süresini hesaplama.",
+    "Bordro ve İK: İstihdam veya izin süresinin tam uzunluğunu belirleme.",
+    "Kişisel Kilometre Taşları: Tam olarak kaç günlük olduğunuzu öğrenme."
   ],
   "tipsAndLimitations": [
-    "Günün saati göz ardı edilir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Hesaplayıcı standart takvim günlerini varsayar ve hafta sonlarını veya resmi tatilleri atlamaz.",
+    "Saat dilimleri dikkate alınmaz.",
+    "'Bitiş tarihini dahil et' kutusunu işaretlemek otel rezervasyonları için kullanışlıdır."
   ],
   "faq": [
     {
-      "question": "Tarih Farkı Hesaplayıcı'nın kullanımı ücretsiz midir?",
-      "answer": "Evet, Tarih Farkı Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Bu hesaplayıcı artık yılları hesaba katıyor mu?",
+      "answer": "Evet, yerel takvim tarihlerini kullandığından, tüm artık yıllar ve değişen ay uzunlukları otomatik olarak mükemmel bir şekilde hesaba katılır."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Neden 'Bitiş tarihini dahil et' seçeneğine ihtiyacım var?",
+      "answer": "Varsayılan olarak Pazartesi ile Salı arasındaki matematiksel fark 1 gündür. Ancak, çalıştığınız günleri (Pazartesi ve Salı) sayıyorsanız, 2 gün çalışmışsınızdır. İki farklı sayım arasında geçiş yapmak içindir."
     }
   ],
   "relatedTools": [
-    "yaş hesaplayıcı",
-    "tarihler arasındaki günler",
-    "hesap makinesine kalan gün sayısı"
+    "age-calculator",
+    "days-between-dates",
+    "days-until-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Tarih Farkı Hesaplayıcı",
+  "cta": "Tarih farklarınızı anında hesaplamaya yukarıdan başlayın!",
+  "disclaimer": "Bu hesaplayıcı yalnızca bilgilendirme amaçlıdır. Kritik yasal veya mali sözleşmeler için sonuçları manuel olarak doğrulamanız gerekir.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Tarih Farkı Hesaplayıcı arayüzünün ekran görüntüsü",
   "ogImageText": "Tarih Farkı Hesaplayıcı"
 }

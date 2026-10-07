@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Licznik słów",
-  "metaDescription": "Bezpłatny licznik słów online. Policz słowa i znaki.",
+  "seoTitle": "Licznik słów - Licz liczbę słów, znaków i zdań",
+  "metaDescription": "Darmowy licznik słów online. Natychmiastowo zliczaj słowa, znaki, zdania i akapity w swoim tekście. Idealny do esejów, tweetów i SEO.",
   "h1": "Licznik słów",
   "primaryKeyword": "licznik słów",
   "secondaryKeywords": [
-    "licznik słów w Internecie",
-    "darmowy licznik słów",
-    "najlepszy licznik słów"
+    "liczyć słowa online",
+    "licznik znaków",
+    "narzędzie do liczenia słów",
+    "ile słów"
   ],
-  "slug": "licznik słów",
-  "intro": "Skorzystaj z naszego bezpłatnego internetowego narzędzia do liczenia słów. Zlicza słowa i znaki na podstawie wprowadzonych danych.",
-  "whatIs": "Licznik słów to narzędzie internetowe, które liczy słowa i znaki. Przetwarza blok tekstu i podaje sumy słów, znaków i akapitów.",
+  "slug": "licznik-slow",
+  "intro": "Pisanie eseju z określonym limitem słów lub optymalizacja posta na blogu pod kątem SEO? Nasz darmowy licznik słów zapewnia natychmiastowe, dokładne dane dotyczące słów, znaków i zdań.",
+  "whatIs": "Licznik słów to narzędzie do analizy tekstu. Przetwarza duże bloky tekstu, aby dostarczyć dane statystyczne, w tym całkowitą liczbę słów, liczbę znaków (ze spacjami i bez nich), liczbę zdań oraz liczbę akapitów.",
   "howToUse": [
-    "Wprowadź blok tekstowy w wyznaczonym polu wejściowym.",
-    "Podaj wszelkie parametry dodatkowe, takie jak metryki liczby.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować sumy słów, znaków i akapitów.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
+    "Wklej lub wpisz swój tekst bezpośrednio w dużym polu wprowadzania.",
+    "Metryki na górze ekranu będą się aktualizować natychmiast.",
+    "Sprawdź szczegółowy podział pod kątem średniej długości słów i czasu czytania."
   ],
-  "howItWorks": "To narzędzie działa w Twojej przeglądarce, stosując standardowe algorytmy do bloku tekstowego. Natychmiast przetwarza dane, aby wygenerować sumy słów, znaków i akapitów.",
-  "workedExample": "Na przykład: 100 słów, 550 znaków.",
-  "resultInterpretation": "Wynik przedstawia sumę słów, znaków i akapitów. Możesz użyć tych danych do konkretnych obliczeń lub potrzeb formatowania.",
+  "howItWorks": "Narzędzie używa wyrażeń regularnych JavaScript (Regex) do analizowania tekstu. Liczy słowa, szukając spacji i granic interpunkcyjnych. Liczy zdania, identyfikując końcową interpunkcję (kropki, wykrzykniki) następującą po spacjach.",
+  "workedExample": "Piszesz: 'Witaj świecie. Jak się masz?' Narzędzie oblicza: 5 słów, 27 znaków (ze spacjami), 2 zdania oraz szacowany czas czytania 2 sekundy.",
+  "resultInterpretation": "Statystyki pomagają idealnie dopasować długość tekstu do określonych wytycznych wydawniczych, wymagań akademickich lub limitów w mediach społecznościowych.",
   "useCases": [
-    "Pisanie esejów",
-    "Przestrzeganie limitów znaków na Twitterze",
-    "Szybkie przetwarzanie bloku tekstu w podróży"
+    "Akademia: Zapewnienie, że esej na studia spełnia surowe wymaganie minimalnej liczby 1000 słów.",
+    "SEO i marketing: Utrzymywanie meta opisów poniżej 160 znaków i postów na blogu powyżej 1 500 słów.",
+    "Media społecznościowe: Upewnianie się, że tweet lub podpis na Instagramie mieści się w ograniczeniach platformy."
   ],
   "tipsAndLimitations": [
-    "Słowa łączone są zwykle liczone jako pojedyncze słowo.",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
+    "Wyrazy z myślnikami (takie jak 'state-of-the-art') są zazwyczaj liczone jako jedno słowo przez standardowe algorytmy.",
+    "Adresy URL i adresy e-mail są również traktowane jako pojedyncze słowa."
   ],
   "faq": [
     {
-      "question": "Czy liczy spacje?",
-      "answer": "Zapewnia zarówno „znaki ze spacjami”, jak i „bez spacji”."
+      "question": "Co liczy się jako znak?",
+      "answer": "Znak to każda pojedyncza litera, cyfra, znak interpunkcyjny lub symbol. Spacja jest również technicznie znakiem, dlatego podajemy liczbę zarówno 'ze spacjami', jak i 'bez spacji'."
     },
     {
-      "question": "Czy korzystanie z Licznika słów jest bezpłatne?",
-      "answer": "Tak, nasz licznik słów jest całkowicie darmowy i nie wymaga rejestracji."
-    },
-    {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, narzędzie jest w pełni responsywne i doskonale działa na wszystkich smartfonach i tabletach."
+      "question": "Jak oblicza się czas czytania?",
+      "answer": "Czas czytania szacuje się na podstawie średniej prędkości czytania dorosłych, wynoszącej około 200 do 250 słów na minutę."
     }
   ],
   "relatedTools": [
-    "licznik znaków",
-    "Internetowy generator",
-    "bioniczny konwerter odczytu"
+    "character-counter",
+    "text-case-converter",
+    "markdown-editor"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Zrzut ekranu interfejsu licznika słów",
+  "cta": "Liczy swoje słowa natychmiast!",
+  "disclaimer": "Analiza odbywa się całkowicie w Twojej przeglądarce. Nie zapisujemy ani nie przechowujemy Twojego tekstu.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfejs licznika słów pokazujący statystyki tekstu",
   "ogImageText": "Licznik słów"
 }

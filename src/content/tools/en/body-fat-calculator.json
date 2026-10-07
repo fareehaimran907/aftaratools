@@ -1,55 +1,54 @@
 {
-  "seoTitle": "Body Fat Calculator",
-  "metaDescription": "Free online Body Fat Calculator. Estimate your body fat percentage.",
+  "seoTitle": "Body Fat Calculator - Estimate Body Fat Percentage",
+  "metaDescription": "Free online Body Fat Calculator. Estimate your body fat percentage using standard tape measurements (Navy method) without expensive medical equipment.",
   "h1": "Body Fat Calculator",
   "primaryKeyword": "body fat calculator",
   "secondaryKeywords": [
-    "body fat calculator online",
-    "free body fat calculator",
-    "best body fat calculator"
+    "calculate body fat percentage",
+    "navy body fat calculator",
+    "body fat estimator",
+    "body composition calculator"
   ],
   "slug": "body-fat-calculator",
-  "intro": "Use our free online Body Fat Calculator tool. It estimates body fat percentage based on your inputs.",
-  "whatIs": "The Body Fat Calculator is an online utility that estimates body fat percentage. It processes your tape measurements and provides an estimated fat percentage via Navy formula.",
+  "intro": "Want a more accurate picture of your health than a simple scale can provide? Our free Body Fat Calculator estimates your body fat percentage using simple tape measurements.",
+  "whatIs": "The Body Fat Calculator is a health tracking utility that estimates the percentage of your total body mass that consists of fat tissue. It uses the widely accepted U.S. Navy tape measure method.",
   "howToUse": [
-    "Enter your tape measurements into the designated input field.",
-    "Provide any secondary parameters like gender.",
-    "Click the calculate or submit button to generate an estimated fat percentage via Navy formula.",
-    "Copy or review the resulting output for your needs."
+    "Select your biological sex.",
+    "Enter your height and neck circumference.",
+    "Enter your waist circumference (at the navel).",
+    "For females, also enter your hip circumference (at the widest point).",
+    "The tool calculates your estimated body fat percentage."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your tape measurements. It instantly processes the data to output an estimated fat percentage via Navy formula.",
-  "workedExample": "For example: Waist 32, Neck 15 yields ~15% body fat.",
-  "resultInterpretation": "The result represents an estimated fat percentage via Navy formula. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "The tool uses complex logarithmic equations developed by the U.S. Navy. It compares the circumference of areas that typically store fat (waist, hips) against areas that don't (neck) relative to overall height to estimate body composition.",
+  "workedExample": "A man with a 100cm waist and a 40cm neck: The algorithm factors the ratio between these measurements and his height, estimating his body fat at roughly 22%.",
+  "resultInterpretation": "The percentage represents how much of you is fat vs lean mass (muscle, bone, water). Lower percentages generally indicate a leaner physique, though extremely low percentages can be dangerous.",
   "useCases": [
-    "Fitness tracking",
-    "Health assessments",
-    "Quickly processing tape measurements on the go"
+    "Fitness Tracking: Measuring real progress when the scale isn't moving because you are simultaneously losing fat and gaining muscle.",
+    "Military/Police Testing: Verifying that an applicant meets strict maximum body fat requirements.",
+    "Dieting: Ensuring that the weight you are losing is actually fat and not vital muscle mass."
   ],
   "tipsAndLimitations": [
-    "Calipers or DEXA scans are more accurate than tape measurements.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "Tape measurements must be taken flush against the skin, but not pulled tight enough to compress the skin.",
+    "This method is an estimate (usually within 3-4% accuracy). For exact measurements, you would need a DEXA scan or hydrostatic weighing."
   ],
   "faq": [
     {
-      "question": "What is a healthy body fat %?",
-      "answer": "Typically 10-20% for men and 20-30% for women."
+      "question": "What is a healthy body fat percentage?",
+      "answer": "It varies by gender and age. Generally, for men, 10-20% is healthy, while above 25% is considered obese. For women, 20-30% is healthy, while above 32% is considered obese."
     },
     {
-      "question": "Is the Body Fat Calculator free to use?",
-      "answer": "Yes, our Body Fat Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Why do women need to measure their hips?",
+      "answer": "Biologically, women naturally store more body fat in the gluteal-femoral region (hips and thighs) for reproductive health, so the formula must account for this."
     }
   ],
   "relatedTools": [
     "bmi-calculator",
     "bmr-calculator",
-    "calorie-calculator"
+    "macro-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Body Fat Calculator interface screenshot",
+  "cta": "Estimate your body fat percentage now!",
+  "disclaimer": "This tool provides an estimate using the U.S. Navy circumferences method. It is not a clinical diagnostic tool.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Body fat calculator showing tape measurement inputs",
   "ogImageText": "Body Fat Calculator"
 }

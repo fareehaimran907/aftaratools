@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Bcrypt Karma Üreteci - Güvenli Parola Karma",
+  "metaDescription": "Ücretsiz çevrimiçi Bcrypt Üretici. Maksimum güvenlik için özel maliyet faktörleri (çalışma turları) kullanarak endüstri standardı bcrypt algoritması ile parolaları güvenli bir şekilde karma yapın.",
+  "h1": "Bcrypt Hash Üreteci",
+  "primaryKeyword": "bcrypt oluşturucu",
+  "secondaryKeywords": [
+    "bcrypt şifre karması",
+    "bcrypt oluştur",
+    "bcrypt çevrimiçi",
+    "şifre karma aracı"
+  ],
+  "slug": "bcrypt-hash-üreteci",
+  "intro": "Bir kullanıcı kimlik doğrulama sistemi mi kuruyorsunuz? Ücretsiz Bcrypt Üreticimiz, otomatik tuzlama ve özelleştirilebilir hesaplama maliyet faktörü kullanarak parolaları şifrelemenin en güvenli yolunu sunar.",
+  "whatIs": "Bcrypt Üretici, kullanıcı parolalarını hashlemek için özel olarak tasarlanmış gelişmiş bir güvenlik aracıdır. Hızlı algoritmaların (MD5, SHA) aksine, bcrypt kasıtlı olarak yavaştır ve rainbow table saldırılarını önlemek için her hash için otomatik olarak benzersiz bir rastgele 'salt' oluşturur.",
+  "howToUse": [
+    "Düz metin şifresini giriş alanına girin.",
+    "'Maliyet' faktörünüzü seçin (varsayılan genellikle 10 veya 12'dir). Daha yüksek maliyet, hesaplamanın daha uzun süreceği anlamına gelir.",
+    "Oluştur'a tıkla.",
+    "Araç, algoritma sürümü, maliyet, tuz ve hash'i içeren tam bcrypt dizgisini çıktılar."
+  ],
+  "howItWorks": "Bcrypt, Blowfish şifresine dayanır. Araç, rastgele 128-bitlik bir tuz oluşturur, bunu şifreye ekler ve 'Cost' faktörüne bağlı olarak şifreyi şifreleme mekanizmasından birden fazla kez geçer. 10'luk bir maliyet 2^10 (1.024) iterasyon anlamına gelir. 12'lik bir maliyet 2^12 (4.096) iterasyon anlamına gelir.",
+  "workedExample": "'password123' giriliyor ve maliyeti 10 olarak ayarlanıyor. Araç, `$2a$10$` ile başlayan, ardından 22 karakterlik rastgele tuz ve ardından gerçek hash'i içeren 31 karakteri takip eden bir dize üretir.",
+  "resultInterpretation": "Ortaya çıkan dize, veritabanınıza kaydetmeniz gereken tam olarak budur. Bir kullanıcı giriş yaptığında, sunucunuz bu diziden tuzu okur, giriş denemesini aynı tuzla karma hale getirir ve sonuçları karşılaştırır.",
+  "useCases": [
+    "Yazılım Geliştirme: Yeni bir veritabanına eklemek için güvenli bir yönetici şifre karmasını manuel olarak oluşturmak.",
+    "Güvenlik Eğitimi: Tuzlar ve maliyet faktörlerinin bir şifreleme işlevinin çıktısını nasıl değiştirdiğini anlamak.",
+    "Sistem Kurtarma: Yönetici şifresinin kaybedildiği bir sisteme yeniden erişim sağlamak için bir arka kapı hash’i oluşturma."
+  ],
+  "tipsAndLimitations": [
+    "Çünkü bcrypt otomatik olarak rastgele bir tuz ürettiği için, tamamen aynı parolayı iki kez karma yapmak iki tamamen farklı çıktı dizisi ile sonuçlanacaktır. Bu kasıtlı bir güvenlik özelliğidir.",
+    "Bcrypt'in maksimum parola girişi uzunluğu 72 bayttır. Bu sınırın ötesindeki karakterler dikkate alınmaz."
+  ],
+  "faq": [
+    {
+      "question": "Şifreler için bcrypt neden SHA-256'dan daha iyidir?",
+      "answer": "SHA-256 son derece hızlı olacak şekilde tasarlanmıştır. İyi bir grafik kartına sahip bir bilgisayar korsanı, saniyede milyarlarca SHA-256 şifresini tahmin edebilir. Bcrypt kasıtlı olarak yavaştır. Yüksek bir maliyet faktörü belirleyerek, bilgisayar korsanının saniyede sadece birkaç düzine şifreyi tahmin etmesine izin verirsiniz, böylece kaba kuvvet saldırılarını imkansız hale getirirsiniz."
+    },
+    {
+      "question": "Önerilen maliyet faktörü nedir?",
+      "answer": "Bilgisayarlar daha hızlı hale geldikçe, önerilen maliyet artar. Bugün 10 veya 12 maliyet standarttır. Bu, bilgisayar korsanlarını caydıracak kadar yüksek, ancak giriş yapan meşru kullanıcıları sinirlendirmeyecek kadar hızlı (örneğin, 200 milisaniye) olmalıdır."
+    }
+  ],
+  "relatedTools": [
+    "password-generator",
+    "strong-password-generator",
+    "sha256-hash-generator"
+  ],
+  "cta": "Parolalarınızı güvenli bir şekilde bcrypt ile karmalayın!",
+  "disclaimer": "Oluşturma, seçilen maliyet faktörüne bağlı olarak yoğun tarayıcı CPU hesaplaması gerektirir. Diziler yerel olarak oluşturulur ve asla iletilmez.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Bcrypt Üreteci arayüzü, maliyet faktörü ayarlarını gösteriyor",
+  "ogImageText": "Bcrypt Üreteci"
+}

@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Générateur de Hash MD5 - Encodage MD5 Rapide en Ligne",
+  "metaDescription": "Générateur MD5 en ligne gratuit. Convertissez instantanément des chaînes en hachages MD5 hexadécimaux de 32 caractères pour des sommes de contrôle de base et la vérification de fichiers.",
+  "h1": "Générateur de hachage MD5",
+  "primaryKeyword": "générateur de hachage md5",
+  "secondaryKeywords": [
+    "générateur md5 en ligne",
+    "texte en md5",
+    "encodeur md5",
+    "calculer la somme de contrôle md5"
+  ],
+  "slug": "générateur-de-hachage-md5",
+  "intro": "Besoin de vérifier le téléchargement d'un fichier ou de consulter une entrée de base de données héritée ? Notre générateur de hachage MD5 gratuit calcule instantanément le contrôle MD5 standard de 32 caractères hexadécimaux pour tout texte.",
+  "whatIs": "Le générateur de hachage MD5 est un utilitaire spécifique pour la fonction MD5 (algorithme de résumé de message 5). Il prend une entrée de n'importe quelle longueur et produit une valeur de hachage fixe de 128 bits (32 caractères).",
+  "howToUse": [
+    "Collez ou tapez votre texte dans le champ de saisie.",
+    "L'outil calcule le hachage en temps réel pendant que vous tapez.",
+    "Le hachage MD5 final de 32 caractères est affiché.",
+    "Cliquez sur copier pour utiliser le hash pour la vérification."
+  ],
+  "howItWorks": "L'algorithme MD5 complète le texte d'entrée afin que sa longueur soit divisible par 512 bits. Il traite ensuite le texte à travers quatre tours d'opérations logiques bit à bit complexes, produisant une signature numérique unique de 128 bits.",
+  "workedExample": "Saisie du mot 'admin'. L'outil exécute l'algorithme MD5 et produit : `21232f297a57a5a743894a0e4a801fc3`.",
+  "resultInterpretation": "La chaîne de 32 caractères résultante est l'empreinte MD5. Si un fournisseur de logiciels publie un hachage MD5 pour un fichier, vous pouvez hacher votre fichier téléchargé pour vous assurer que les chaînes correspondent parfaitement.",
+  "useCases": [
+    "Intégrité des fichiers : Vérifier qu'un programme d'installation de logiciel téléchargé est complet et n'a pas été corrompu.",
+    "Systèmes hérités : Intégration avec des plateformes CMS plus anciennes (comme les premières versions de WordPress) qui utilisent encore MD5 pour certains identifiants de données.",
+    "Gravatar : Conversion des adresses e-mail en hachages MD5, ce qui est le format requis pour récupérer les images de profil depuis l'API Gravatar."
+  ],
+  "tipsAndLimitations": [
+    "MD5 est extrêmement rapide, ce qui le rend idéal pour vérifier rapidement l'intégrité des données non sensibles.",
+    "AVERTISSEMENT DE SÉCURITÉ CRITIQUE : MD5 est mathématiquement 'cassé'. Les pirates peuvent facilement générer des 'collisions' (deux fichiers différents produisant le même hash). N'UTILISEZ JAMAIS MD5 pour stocker des mots de passe ou sécuriser des données sensibles."
+  ],
+  "faq": [
+    {
+      "question": "Un hachage MD5 peut-il être décrypté ?",
+      "answer": "Non, les hachages sont des fonctions à sens unique. Cependant, comme MD5 est ancien et rapide, les pirates utilisent d'énormes « tables arc-en-ciel » (listes pré-calculées de mots et de leurs hachages) pour retrouver instantanément les hachages MD5 simples."
+    },
+    {
+      "question": "Le MD5 est-il encore utilisé aujourd'hui ?",
+      "answer": "Oui, mais strictement à des fins non sécuritaires. Il est encore largement utilisé comme somme de contrôle pour vérifier que les fichiers n'ont pas été accidentellement corrompus lors du téléchargement ou des transferts de bases de données."
+    }
+  ],
+  "relatedTools": [
+    "sha256-hash-generator",
+    "hash-generator",
+    "sha1-hash-generator"
+  ],
+  "cta": "Générez votre hash MD5 maintenant !",
+  "disclaimer": "MD5 est cryptographiquement vulnérable aux attaques par collision. Utilisez SHA-256 ou bcrypt pour le hachage des mots de passe et la protection sécurisée des données.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface du générateur de hash MD5",
+  "ogImageText": "Générateur de hachage MD5"
+}

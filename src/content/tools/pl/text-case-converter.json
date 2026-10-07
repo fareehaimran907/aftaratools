@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Konwerter Wielkości Liter - WIELKIE LITERY, małe litery, Wielkość Tytułu",
+  "metaDescription": "Darmowy internetowy konwerter wielkości liter w tekście. Szybko zmieniaj tekst na WIELKIE LITERY, małe litery, Wielkie Litery w Tytule lub zdanie z wielką literą jednym kliknięciem. Natychmiast naprawiaj błędy spowodowane włączeniem Caps Lock.",
+  "h1": "Konwerter wielkości liter",
+  "primaryKeyword": "konwerter wielkości liter",
+  "secondaryKeywords": [
+    "zmień wielkość liter",
+    "wielkie litery na małe litery",
+    "generator wielkich liter w tytule",
+    "konwerter caps lock"
+  ],
+  "slug": "konwerter-wielkości-liter",
+  "intro": "Przez przypadek włączyłeś klawisz Caps Lock lub musisz sformatować długą listę tytułów książek? Nasz darmowy Konwerter Wielkości Liter zmienia kapitalizację Twojego tekstu natychmiast jednym kliknięciem.",
+  "whatIs": "Konwerter wielkości liter w tekście to narzędzie do formatowania, które bierze blok tekstu i automatycznie zmienia jego strukturę kapitalizacji na podstawie standardowych zasad językowych (takich jak wielkość liter w zdaniu czy wielkość liter w tytule).",
+  "howToUse": [
+    "Wklej swój źle sformatowany tekst do pola wprowadzania.",
+    "Kliknij przycisk odpowiadający wersji, którą chcesz (np. 'WIELKIE LITERY', 'Wersja tytułowa').",
+    "Tekst natychmiast się przekształci.",
+    "Kliknij 'Kopiuj', aby zapisać poprawiony tekst w schowku."
+  ],
+  "howItWorks": "Narzędzie używa manipulacji ciągami znaków w JavaScript. 'UPPERCASE' i 'lowercase' używają natywnych funkcji przeglądarki. 'Title Case' używa wyrażeń regularnych (Regex) do kapitalizacji pierwszej litery każdego słowa (często pomijając małe słowa, takie jak 'and' lub 'the'). 'Sentence case' kapitalizuje tylko pierwszą literę po znaku końcowym interpunkcji.",
+  "workedExample": "Wejście: 'hELLO wORLD. hOW ARE YOU?' Kliknij 'Rozpocznij zdanie od wielkiej litery'. Wyjście: 'Hello world. How are you?'",
+  "resultInterpretation": "Twój tekst jest perfekcyjnie sformatowany zgodnie z zasadami gramatycznymi wybranego przypadku, gotowy do wklejenia do formalnego dokumentu lub bazy danych.",
+  "useCases": [
+    "Czyszczenie danych: Normalizacja chaotycznego arkusza kalkulacyjnego z nazwiskami klientów do czystego 'Tytułowego formatowania liter'.",
+    "Copywriting: Perfekcyjne formatowanie nagłówków i podtytułów bez ręcznego przepisywania ich.",
+    "Poprawianie błędów: Natychmiastowe odzyskiwanie akapitu napisanego podczas przypadkowego włączenia klawisza Caps Lock."
+  ],
+  "tipsAndLimitations": [
+    "Konwertowanie na WIELKIE LITERY lub małe litery jest działaniem destrukcyjnym — usuwa całe oryginalne użycie wielkich liter. Konwertowanie z powrotem do stylu zdaniowego nie przywróci nazw własnych (takich jak imiona czy miasta).",
+    "Algorytmy stosujące wielkie litery w tytułach próbują ignorować drobne słowa (of, the, in), ale mogą nie pasować idealnie do konkretnych wytycznych stylu (takich jak APA czy Chicago) w przypadku złożonych tytułów."
+  ],
+  "faq": [
+    {
+      "question": "Co to jest zapis zdaniowy?",
+      "answer": "W zapisie zdaniowym wielką literą piszemy tylko pierwszą literę zdania, pozostawiając wszystkie pozostałe słowa (oprócz 'I') małymi literami, tak jak w standardowym akapicie książki."
+    },
+    {
+      "question": "Co to jest zapis wielkimi literami w tytule?",
+      "answer": "Wielkie litery w tytule kapitalizują pierwszą literę prawie każdego słowa. Zwykle stosuje się je w tytułach książek, tytułach filmów i nagłówkach artykułów."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "character-counter",
+    "markdown-editor"
+  ],
+  "cta": "Natychmiast napraw wielkość liter w swoim tekście!",
+  "disclaimer": "Zautomatyzowane algorytmy zmiany wielkości liter mogą nie wychwycić każdego niuansu gramatycznego, szczególnie w odniesieniu do nazw własnych w zdaniu. Zawsze sprawdzaj ostateczny tekst.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfejs konwertera wielkości liter pokazujący opcje kapitalizacji tytułów",
+  "ogImageText": "Konwerter wielkości liter"
+}

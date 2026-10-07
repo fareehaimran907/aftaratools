@@ -1,55 +1,88 @@
 {
-  "seoTitle": "Hex'ten Ondalık Sayıya Dönüştürücü",
-  "metaDescription": "Onaltılık dizeleri ondalık sayıya dönüştürün.",
-  "h1": "Hex'ten Ondalık Sayıya Dönüştürücü",
-  "primaryKeyword": "onaltılıdan ondalığa",
+  "seoTitle": "Hex - Onluk Çevirici – Base-16'yı Base-10'a Çevir (Hex to Decimal)",
+  "metaDescription": "Ücretsiz çevrimiçi Hex - Onluk (Onaltılık - Onlu) Çevirici. Onaltılık dizeleri (base-16) kolayca standart onlu tam sayılara (base-10) dönüştürün.",
+  "h1": "Hex - Onluk Çevirici",
+  "primaryKeyword": "hex to decimal",
   "secondaryKeywords": [
-    "Hex'ten ondalık sayıya dönüştürücü çevrimiçi",
-    "ücretsiz hex'ten ondalık sayıya dönüştürücü",
-    "en iyi hex'ten ondalık sayıya dönüştürücü"
+    "onaltılık onluk çevirme",
+    "hex onluk çevirici",
+    "hex'ten dec'e",
+    "base 16 base 10",
+    "hexadecimal to decimal",
+    "sayı tabanı çevirici",
+    "onaltılık onluk çevirme 123"
   ],
-  "slug": "onaltılıdan ondalığa",
-  "intro": "Onaltılık renkleri veya bellek adreslerini anında standart ondalık sayılara çevirin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "heksadesimal-onluk",
+  "intro": "Bellek adreslerinde hata ayıklama (debugging) mı yapıyorsunuz, HTML renk kodlarını mı yorumluyorsunuz yoksa düşük seviyeli programlama görevleri üzerinde mi çalışıyorsunuz? Ücretsiz Hex - Onluk (Onaltılık - Onlu) Çeviricimiz, onaltılık dizeleri (Base-16) anında standart sayılara (Base-10) dönüştürmek için tasarlanmış, amaca yönelik, kullanımı kolay bir araçtır. Rakamları manuel olarak 16'nın kuvvetleriyle çarpmak yerine, hex dizenizi (string) giriş alanına yapıştırmanız yeterlidir. Araç, siz yazarken matematiksel çeviriyi anında gerçekleştirerek size tam ondalık karşılığını verir. Hepsinden iyisi, bu dönüştürücü tamamen web tarayıcınızın içinde yerel olarak çalışır. Bu, hiçbir bilgi harici sunuculara gönderilmediğinden verilerinizin tamamen gizli kalmasını sağlarken ışık hızında performans sunduğu anlamına gelir.",
+  "whatIs": "Hex - Onluk Çevirici, onaltılık (Base-16) numaralandırma sistemindeki bir dizeyi onlu (Base-10) numaralandırma sistemine dönüştüren özel bir matematiksel yardımcı programdır. İnsanların günlük olarak kullandığı ondalık sistemde, sayılar on farklı rakam (0'dan 9'a) kullanılarak temsil edilir. Ancak, bilgisayar sistemleri genellikle ikili (binary) verileri daha kompakt, insanların okuyabileceği bir formatta temsil etmek için onaltılık sistemi kullanır. Onaltılık sistem on altı sembol kullanır: sıfırdan dokuza kadar olan değerleri temsil etmek için 0-9 ve ondan on beşe kadar olan değerleri temsil etmek için A-F. Programcılar ve mühendisler bellek adresleri, MAC adresleri veya renk kodlarıyla uğraşırken sıklıkla hex değerleriyle karşılaştıkları için, gerçek sayısal değeri anlamak amacıyla genellikle bu dizeleri standart ondalık tam sayılara dönüştürmeleri gerekir. Dönüştürücümüz bu sıkıcı aritmetik işlemleri otomatikleştirerek, bilgisayar düzeyindeki verileri günlük sayılara çevirmek için sorunsuz ve hatasız bir yol sunar.",
   "howToUse": [
-    "Onaltılı dizenizi belirlenen giriş alanına girin.",
-    "Ondalık sayı gibi ikincil parametreleri sağlayın.",
-    "Standart tam sayı değerini oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "'Onaltılık Sayı' (Hexadecimal Number) etiketli ana giriş alanını bulun.",
+    "Hex dizenizi (0-9 rakamları ve A-F harflerini içeren) giriş alanına yazın veya yapıştırın. Bir renk kodunu dönüştürüyorsanız, başa bir '#' ekleyebilirsiniz.",
+    "Girişinizde boşluk veya (isteğe bağlı '#' dışında) özel karakter olmadığından emin olun.",
+    "Siz yazarken 'Onluk Sonuç' (Decimal Result) panelinin anında güncellenmesini izleyin. Tıklamanız gereken bir 'Hesapla' düğmesi yoktur.",
+    "Geçersiz bir karakter (örneğin 'G' veya '.') yazarsanız, araç hemen 'Geçersiz onaltılık dize' (Invalid hex string) hata mesajını görüntüler."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Bu dönüştürücü, taban (radix) dönüşümü için optimize edilmiş standart JavaScript ayrıştırma (parsing) işlevlerini kullanarak çalışır. Bir onaltılık karakter dizesi girdiğinizde, araç önce baştaki '#' sembolünü çıkarır. Ardından diziyi sürekli olarak okur ve yalnızca geçerli hex karakterleri (0-9, A-F, büyük/küçük harf duyarsız) içerdiğinden emin olur. Son olarak, bu diziyi Base-16 gösteriminden standart Base-10 tam sayısına dönüştürmek için oldukça optimize edilmiş bir algoritma yürüten yerleşik `parseInt(value, 16)` yöntemini kullanır. Hesaplama, son derece optimize edilmiş JavaScript motorları kullanılarak tarayıcı içinde yerel olarak gerçekleştirildiğinden, dönüştürme bir milisaniyenin çok küçük bir bölümünde gerçekleşir ve siz girişi değiştirirken sonucun mükemmel bir şekilde gerçek zamanlı olarak güncellenmesine olanak tanır.",
+  "workedExample": "1A onaltılık sayısını onlu sayıya dönüştürmenin manuel sürecini inceleyelim. Onaltılık sistemde 'A', 10 ondalık değerini temsil eder. Her basamağı, sağdan 0'dan başlayarak, konumunun 16 kuvveti ile çarparız. Önce en sağdaki basamak: A (10) × 16^0 = 10 × 1 = 10. Sonra onun solundaki basamak: 1 × 16^1 = 1 × 16 = 16. Son olarak, bu çarpımları toplarız: 16 + 10 = 26. Bu nedenle, 1A onaltılık dizesi tam olarak 26 ondalık sayısına eşittir. FF hex renk koduyla başka bir örnek deneyelim. F, 15'i temsil eder. Sağ basamak: F (15) × 16^0 = 15. Sol basamak: F (15) × 16^1 = 15 × 16 = 240. Toplam: 240 + 15 = 255. Yani, hex'teki FF, onluk sistemde 255'tir.",
+  "resultInterpretation": "Sonuç paneli, dönüştürülmüş ondalık sayınızı devasa, kalın, tek aralıklı (monospace) bir yazı tipiyle görüntüler. Bu tasarım tercihi, çıktının girişten net bir şekilde ayrılmasını ve bir bakışta okunmasının son derece kolay olmasını sağlar; bu da özellikle çıktıyı bir ders kitabı, ev ödevi veya kod hata ayıklayıcı (debugger) ile karşılaştırdığınızda çok kullanışlıdır. Arayüz, son sayının hangi sisteme ait olduğu konusunda herhangi bir karışıklığı önlemek için çıktıyı açıkça 'Onluk Sonuç' (Decimal Result) olarak etiketler. İnanılmaz derecede uzun bir hex dizesi girerseniz, ortaya çıkan ondalık sayı oldukça büyüyebilir. Bu durumda metin, yatay kaydırma gerektirmeden daha küçük mobil ekranlarda tamamen görünür kalmasını sağlamak için otomatik olarak alt satıra geçer (wrap).",
   "useCases": [
-    "Web renk kodları",
-    "MAC adresleri",
-    "Hareket halindeyken altıgen dizeyi hızlı bir şekilde işleme"
+    "Web Geliştirme: Dinamik stillendirme veya kanvas (canvas) manipülasyonu için HTML/CSS hex renk kodlarını (#FF0000 gibi) RGB ondalık değerlerine (255, 0, 0 gibi) dönüştürme.",
+    "Bilgisayar Bilimleri Eğitimi: Lise ve üniversite öğrencilerinin sayı sistemlerini öğrenirken yaptıkları manuel ev ödevi hesaplamalarını doğrulamalarına yardımcı olma.",
+    "Yazılım Mühendisliği: Hata ayıklama (debugging) sırasında karşılaşılan onaltılık bellek adreslerinin veya hata kodlarının standart sayısal değerlere dönüştürülmesi.",
+    "Ağ ve Yönlendirme (Routing): Hex olarak temsil edilen IPv6 adreslerini veya MAC adreslerini analiz için ondalık biçimlere geri çevirme.",
+    "Donanım Tasarımı: Hex kodlu sensör verilerini veya mikro denetleyici kayıt değerlerini anlaşılır ondalık sayılara dönüştürme.",
+    "Kriptografi: Temel sayısal kalıpları analiz etmek için hex kodlu hash'leri, anahtarları veya şifreli metinleri (ciphertext) yorumlama."
   ],
   "tipsAndLimitations": [
-    "Giriş 0-9 arasındaki sayıları ve A-F harflerini içerebilir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Giriş alanı büyük/küçük harfe duyarlı (case-insensitive) değildir. 'ff', 'FF' veya 'Ff' yazabilirsiniz; hepsi aynı sonucu verecektir.",
+    "Başa isteğe bağlı olarak bir '#' sembolü ekleyebilirsiniz; bu, CSS renk kodlarından doğrudan kopyalama yaparken kullanışlıdır. Araç bunu otomatik olarak yok sayacaktır.",
+    "Giriş alanında boşluklara izin verilmez. Biçimlendirilmiş bir hex dizeniz varsa (ör. 1A 2B 3C), her bloğu ayrı ayrı dönüştürmeli veya boşlukları kaldırmalısınız.",
+    "Bu araç, JavaScript'teki güvenli tamsayı sınırına (safe integer limit) karşılık gelen 9.007.199.254.740.991'e kadar olan ondalık sonuç sayıları için son derece hassastır.",
+    "Standart web tarayıcıları 9.007.199.254.740.991'den büyük ondalık sayılara dönüşen onaltılık dizeleri kayan nokta yaklaşımlarına (floating-point approximations) dönüştüreceğinden, bu dizeler hassasiyet kaybı yaşayabilir."
   ],
   "faq": [
     {
-      "question": "Is case important in Hex?",
-      "answer": "No, 'a' and 'A' both represent 10."
+      "question": "Onaltılık numaralandırma sistemi nedir?",
+      "answer": "Onaltılık sistem, on altı sembol kullanan 16 tabanlı bir numaralandırma sistemidir: sıfırdan dokuza kadar olan değerleri temsil etmek için 0-9 ve ondan on beşe kadar olan değerleri temsil etmek için A-F. İkili (binary) verileri kompakt bir şekilde temsil etmek için bilişimde yaygın olarak kullanılır."
     },
     {
-      "question": "Is the Hex to Decimal Converter free to use?",
-      "answer": "Yes, our Hex to Decimal Converter is completely free and requires no registration."
+      "question": "Hex'ten onluğa nasıl çevrilir?",
+      "answer": "Hex'ten onluğa çevirmek için, her basamağı (sağdan 0'dan başlayarak) konumunun 16 kuvveti ile çarpar ve sonuçları toplarsınız. Örneğin, hex '2B' şöyledir: (2 × 16^1) + (11 × 16^0) = 32 + 11 = 43."
     },
     {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Büyük veya küçük harf kullanmam fark eder mi?",
+      "answer": "Hayır. Çevirici büyük ve küçük harflere tamamen duyarsızdır. 'abc', 'ABC' veya 'aBc' yazmanız tam olarak aynı ondalık sonucu üretecektir."
+    },
+    {
+      "question": "'H' veya 'Z' yazarsam ne olur?",
+      "answer": "Araç yalnızca geçerli onaltılık karakterler (0-9 ve A-F) beklediğinden, başka bir harf veya özel karakter yazmak, sonuç panelinde hemen bir 'Geçersiz onaltılık dize' hata mesajını tetikleyecektir."
+    },
+    {
+      "question": "#FFFFFF gibi hex renk kodlarını dönüştürebilir miyim?",
+      "answer": "Evet. Araç, baştaki '#' sembolünü otomatik olarak algılar ve yok sayar; bu, standart HTML/CSS renk kodlarını doğrudan giriş alanına yapıştırmanıza olanak tanır."
+    },
+    {
+      "question": "Bilgisayarlar neden ondalık (decimal) yerine hex (onaltılık) kullanır?",
+      "answer": "Bilgisayarlar yerel olarak hex kullanmazlar; ikili (binary) kullanırlar. Ancak, tek bir hex basamağı tam olarak dört ikili basamağı (biti) temsil ettiği için hex, insanlar için inanılmaz derecede kullanışlıdır; bu da onu uzun ikili dizileri (sequences) okumanın çok kompakt ve kolay bir yolu haline getirir."
+    },
+    {
+      "question": "Bu araç mobil cihazlarda çalışıyor mu?",
+      "answer": "Evet, araç tamamen duyarlıdır (responsive) ve akıllı telefonlar, tabletler ve masaüstü bilgisayarlarda sorunsuz çalışacak şekilde tasarlanmıştır."
+    },
+    {
+      "question": "Verilerim bir sunucuya gönderiliyor mu?",
+      "answer": "Hayır. Tüm ayrıştırma (parsing) ve matematiksel dönüştürmeler, JavaScript kullanılarak tamamen cihazınızda yerel olarak gerçekleştirilir. Giriş verileriniz hiçbir harici sunucuya gönderilmez veya buralarda saklanmaz."
     }
   ],
   "relatedTools": [
-    "uzunluk dönüştürücü",
-    "ağırlık dönüştürücü",
-    "yükseklik dönüştürücü"
+    "binary-to-decimal",
+    "number-base-converter",
+    "decimal-to-binary",
+    "base64-encode-decode"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Hex'ten Ondalık Sayıya Dönüştürücü",
-  "ogImageText": "Hex'ten Ondalık Sayıya Dönüştürücü"
+  "cta": "Onaltılık bir dizeyi hızlı bir şekilde standart ondalık sayıya kodunu çözmeniz mi gerekiyor? Anında, matematiksel olarak mükemmel bir dönüştürme için yukarıya Base-16 değerinizi girin.",
+  "disclaimer": "Bu araç, 9.007.199.254.740.991'e (modern web tarayıcılarının güvenli tam sayı sınırı) kadar ondalık tamsayılarla sonuçlanan hex dizeleri için son derece doğru dönüştürmeler sağlar. Genel programlama, web geliştirme ve eğitim amaçları için mükemmel derecede uygun olsa da, çok büyük sayılar için keyfi hassasiyetli (arbitrary-precision) aritmetik gerektiren oldukça uzmanlaşmış bilimsel hesaplamalar, özel yazılım kütüphaneleri gerektirebilir.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Onaltılık dize için bir giriş alanı ve ortaya çıkan ondalık sayıyı gösteren Hex - Onluk Çevirici arayüzü",
+  "ogImageText": "Hex - Onluk Çevirici"
 }

@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Przelicznik walut",
-  "metaDescription": "Konwersja między walutami światowymi.",
-  "h1": "Przelicznik walut",
-  "primaryKeyword": "przelicznik walut",
+  "seoTitle": "Kalkulator Walut - Aktualne Kursy Wymiany",
+  "metaDescription": "Bezpłatny kalkulator walut. Przeliczaj między PLN, EUR, USD, GBP i innymi walutami po aktualnych kursach wymiany.",
+  "h1": "Kalkulator Walut",
+  "primaryKeyword": "kalkulator walut",
   "secondaryKeywords": [
-    "Przelicznik walut online",
-    "darmowy przelicznik walut",
-    "najlepszy przelicznik walut"
+    "przelicznik walut",
+    "kursy wymiany walut"
   ],
-  "slug": "przelicznik walut",
-  "intro": "Szybko oszacuj przeliczenia walut, korzystając ze standardowych szablonów kursów wymiany.",
-  "whatIs": "Co to jest za narzędzie?",
-  "howToUse": [
-    "Wprowadź walutę bazową w wyznaczonym polu wejściowym.",
-    "Podaj wszelkie parametry dodatkowe, takie jak waluta docelowa.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować wymienioną wartość pieniężną.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
-  ],
-  "howItWorks": "Jak to działa",
-  "workedExample": "Przykłady",
-  "resultInterpretation": "Interpretacja",
-  "useCases": [
-    "Podróż zagraniczna",
-    "Zakupy w handlu elektronicznym",
-    "Szybkie przetwarzanie waluty bazowej w podróży"
-  ],
-  "tipsAndLimitations": [
-    "Kursy wymiany walut stale się zmieniają, a banki pobierają opłaty za spread.",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
-  ],
+  "slug": "konwerter-walut",
+  "intro": "Niezależnie od tego, czy podróżujesz, robisz zakupy w sieci, czy wysyłasz pieniądze, dokładny kurs jest niezbędny.",
+  "whatIs": "Kalkulator walut przelicza wartość jednej waluty na inną w oparciu o rynek walutowy (Forex).",
+  "howToUse": "Wpisz Kwotę. Wybierz Walutę Bazową. Wybierz Walutę Docelową. Kliknij 'Przelicz'.",
+  "howItWorks": "Narzędzie mnoży kwotę przez aktualny kurs. Jeśli kurs EUR/PLN wynosi 4,30, to 100€ daje 430 zł.",
+  "workedExample": "Chcesz kupić coś za 150$ i płacisz w PLN. Przy kursie 4,00 narzędzie obliczy: 150 × 4,00 = 600 zł.",
+  "resultInterpretation": "Wynik to średni kurs rynkowy. Banki i kantory dodają własną marżę przy prawdziwej wymianie.",
+  "useCases": "Podróże: oblicz budżet. Zakupy: poznaj prawdziwy koszt. Przelewy: sprawdź kurs przed wysłaniem.",
+  "tipsAndLimitations": "Pokazany kurs to kurs średni. Kursy ciągle się zmieniają. Karty płatnicze mogą pobierać prowizje.",
   "faq": [
     {
-      "question": "Czy korzystanie z przelicznika walut jest bezpłatne?",
-      "answer": "Tak, korzystanie z naszego przelicznika walut jest całkowicie darmowe."
+      "question": "Co to jest średni kurs rynkowy?",
+      "answer": "To punkt środkowy między ceną kupna i sprzedaży. Uważany za najbardziej sprawiedliwy kurs."
     },
     {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, jest w pełni responsywny i działa na wszystkich urządzeniach."
-    },
-    {
-      "question": "Czy muszę coś pobrać?",
-      "answer": "Nie, działa całkowicie w Twojej przeglądarce, bez żadnej instalacji."
+      "question": "Dlaczego kurs w moim banku jest inny?",
+      "answer": "Banki i kantory dodają do kursu swoją marżę zysku (spread)."
     }
   ],
   "relatedTools": [
-    "kalkulator procentowy",
-    "kalkulator wynagrodzeń",
-    "kalkulator rabatów"
+    "percentage-increase-calculator",
+    "percentage-decrease-calculator",
+    "investment-calculator",
+    "compound-interest-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Przelicznik walut",
-  "ogImageText": "Przelicznik walut"
+  "cta": "Sprawdź aktualne kursy wymiany już teraz!",
+  "disclaimer": "Tylko w celach informacyjnych. Rzeczywiste kursy bankowe mogą się różnić.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Kalkulator walut",
+  "ogImageText": "Kalkulator Walut"
 }

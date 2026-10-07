@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Renk Seçici - HEX, RGB ve HSL Kodlarını Bul",
+  "metaDescription": "Ücretsiz çevrimiçi Renk Seçici. Web tasarımınız veya grafik sanat projeleriniz için mükemmel rengi görsel olarak seçin ve HEX, RGB ve HSL kodlarını anında kopyalayın.",
+  "h1": "Renk Seçici",
+  "primaryKeyword": "renk seçici",
+  "secondaryKeywords": [
+    "html renk seçici",
+    "renk kodu bulucu",
+    "hex renk seçici",
+    "rgb renk seçici"
+  ],
+  "slug": "renk-seçici",
+  "intro": "Web sitenizin arka planı için tam mavi tonu mu arıyorsunuz? Ücretsiz çevrimiçi Renk Seçicimiz, renkleri görsel olarak seçmenizi sağlar ve geliştiriciler ve tasarımcıların ihtiyaç duyduğu tam kod formatlarını verir.",
+  "whatIs": "Renk Seçici, görsel bir web tasarım aracıdır. Kullanıcılara belirli bir renk seçmelerine olanak tanıyan bir grafik arayüzü (bir renk gradyan haritası ve ton kaydırıcısı) sağlar ve otomatik olarak bu rengin HEX, RGB ve HSL cinsinden matematiksel değerlerini çıktı olarak verir.",
+  "howToUse": [
+    "Temel renginizi (tonunu) seçmek için kaydırıcıyı sürükleyin.",
+    "Parlaklığı ve doygunluğu ayarlamak için imleci renk kutusu içinde tıklayıp sürükleyin.",
+    "Araç, seçilen rengi göstermek için anında güncellenir.",
+    "Projeniz için sağlanan HEX, RGB veya HSL kodlarını kopyalayın."
+  ],
+  "howItWorks": "Grafik arayüz, X/Y koordinatlarını Doygunluk ve Işık değeriyle eşlerken, kaydırıcı 360 derecelik bir Renk Tonuna (Hue) eşler. Araç, bu değerleri standart RGB (Kırmızı, Yeşil, Mavi) tam sayılarına hesaplar ve bunları Base-16 HEX stringine dönüştürür.",
+  "workedExample": "Kaydırıcıyı saf kırmızıya ve imleci sağ üst köşeye sürüklersiniz. Araç, Maksimum Kırmızıyı (255), Sıfır Yeşili (0), Sıfır Maviyi (0) hesaplar. RGB(255, 0, 0) ve Hex kodu #FF0000 çıktısını verir.",
+  "resultInterpretation": "Sağlanan kodlar, seçtiğiniz kesin rengi görüntülemek için bir web tarayıcısı veya tasarım yazılımı (Photoshop gibi) tarafından gereken tam dijital talimatları temsil eder.",
+  "useCases": [
+    "Web Geliştirme: Bir düğme arka planı için CSS dosyasında kullanılacak tam HEX kodunu bulma.",
+    "Grafik Tasarım: Belirli birincil renkleri seçerek ve kaydederek bir marka kimliği oluşturma.",
+    "Dijital Sanat: Dijital resim veya kullanıcı arayüzü öğeleri için mükemmel rengi bulmak."
+  ],
+  "tipsAndLimitations": [
+    "HEX kodları her zaman bir diyez (#) ile başlar ve 6 alfasayısal karakterden oluşur.",
+    "Renkler, kullandığınız fiziksel monitöre ve onun renk kalibrasyonuna bağlı olarak biraz farklı görünebilir."
+  ],
+  "faq": [
+    {
+      "question": "HEX ile RGB arasındaki fark nedir?",
+      "answer": "Onlar tam olarak aynı rengi temsil eder. RGB, Kırmızı, Yeşil ve Mavi için 0-255 arası onluk (base-10) sayılar kullanır. HEX, CSS'te tercih edilen daha kısa olan bu aynı sayıları onaltılık (base-16) biçimde temsil eder."
+    },
+    {
+      "question": "HSL nedir?",
+      "answer": "HSL, Renk Tonu (Hue), Doygunluk (Saturation), Açıklık (Lightness) anlamına gelir. Birçok tasarımcı, RGB yerine HSL'i tercih eder çünkü daha sezgiseldir—temel rengi (Renk Tonu), ne kadar canlı olduğunu (Doygunluk) ve ne kadar açık/kapalı olduğunu (Açıklık) seçersiniz."
+    }
+  ],
+  "relatedTools": [
+    "hex-to-rgb",
+    "rgb-to-hex",
+    "color-palette-generator"
+  ],
+  "cta": "Şimdi mükemmel renk kodunuzu seçin!",
+  "disclaimer": "Dijital renk üretimi, büyük ölçüde kullanıcının monitör kalibrasyonuna (sRGB ve Display P3) ve parlaklık ayarlarına bağlıdır.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "HEX ve RGB çıktıları ile görsel renk seçici arayüz",
+  "ogImageText": "Renk Seçici"
+}

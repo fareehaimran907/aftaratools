@@ -45,10 +45,12 @@
     }
   ],
   "relatedTools": [
-    "json-formatter",
-    "base64-codering-decodering",
-    "url-codering-decodering"
+    "base64-encode-decode",
+    "hash-generator",
+    "uuid-generator"
   ],
+  "cta": "Decodeer nu je JSON Web Token!",
+  "disclaimer": "Decodering vindt 100% aan de clientzijde plaats via JavaScript. Dit hulpmiddel voert geen cryptografische handtekeningvalidatie uit.",
   "lastReviewed": "29-09-2026",
   "imageAlt": "Schermafbeelding van de JWT-decoderinterface",
   "ogImageText": "JWT-decoder"

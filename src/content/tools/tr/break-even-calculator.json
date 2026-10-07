@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Başabaş Hesaplayıcısı",
-  "metaDescription": "İşletmenizin başabaş noktasını hesaplayın.",
-  "h1": "Başabaş Hesaplayıcısı",
-  "primaryKeyword": "başa baş hesaplayıcı",
+  "seoTitle": "Başa Baş Noktası Hesaplayıcı - Break Even Hesaplama",
+  "metaDescription": "Ücretsiz başa baş noktası (break-even) hesaplama aracı. Maliyetlerinizi karşılayıp kara geçmek için tam olarak kaç adet ürün satmanız gerektiğini bulun.",
+  "h1": "Başa Baş Noktası Hesaplayıcı",
+  "primaryKeyword": "başa baş noktası hesaplayıcı",
   "secondaryKeywords": [
-    "Başabaş Hesaplayıcı çevrimiçi",
-    "ücretsiz Başabaş Hesaplayıcı",
-    "en iyi Başabaş Hesaplayıcısı"
+    "break even hesaplama",
+    "başa baş noktası formülü",
+    "zararsızlık noktası"
   ],
-  "slug": "başabaş hesaplayıcı",
-  "intro": "Sabit ve değişken maliyetlerinizi karşılamak için kaç birim satmanız gerektiğini belirleyin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "basa-bas-hesaplama",
+  "intro": "Yeni bir iş girişimi mi başlatıyorsunuz veya piyasaya yeni bir ürün mü sürüyorsunuz? Cevaplamanız gereken en acil sorulardan biri şudur: 'Maliyetlerimi karşılamak için ne kadar satmam gerekiyor?' İşletmenizin ne zaman kâr etmeye başlayacağını bilmek, iş planlaması, satış hedefleri belirleme ve yatırımları güvence altına alma açısından hayati önem taşır. Ücretsiz çevrimiçi Başabaş Noktası Hesaplayıcımız, finansal tahminlerdeki varsayımları ortadan kaldırır. Sabit maliyetlerinizi, değişken maliyetlerinizi ve birim başına satış fiyatınızı girerek, bu araç toplam gelirinizin toplam maliyetlerinize eşit olduğu tam noktayı anında belirler. Kârlılığa ulaşmak için ne gerektiğine dair net, veri odaklı içgörülerle iş stratejinizi güçlendirin.",
+  "whatIs": "Başabaş Noktası Hesaplayıcısı, işletmelerin şirketin kâr da etmediği zarar da etmediği 'başabaş noktasını' belirlemesine yardımcı olan temel bir finansal analiz aracıdır. Basit bir ifadeyle, tüm işletme giderlerini tamamen karşılamak için gereken satış hacmidir. Bu metriği anlamak, yeni bir ürün yelpazesi veya girişimle ilişkili riski değerlendirmek, fiyatlandırma stratejilerini test etmek ve gerçekçi satış kotaları oluşturmak için önemlidir. İçgüdülere güvenmek yerine, bu hesaplayıcı temel finansal verilerinizi işleyerek, gerçek anlamda kâr etmeye başlamadan önce tam olarak kaç birim satmanız gerektiğini (veya ne kadar gelir elde etmeniz gerektiğini) söyler.",
   "howToUse": [
-    "Sabit maliyetlerinizi belirlenen giriş alanına girin.",
-    "Değişken maliyetler gibi ikincil parametreleri sağlayın.",
-    "Maliyetleri karşılamak için gereken birim sayısını oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Sabit Maliyetlerinizi (kira, maaş, aidat vb.) girin.",
+    "Birim Değişken Maliyeti (ürünü üretmek veya almak için gereken maliyet) girin.",
+    "Birim Satış Fiyatını girin.",
+    "Zarar etmemek için satmanız gereken minimum miktarı anında görün."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, başabaş analizi için endüstri standardı formülünü uygulayarak çalışır. Üç temel veri gerektirir: 'Sabit Maliyetler' (kira ve sigorta gibi satışlardan bağımsız olarak değişmeyen giderler), 'Birim Başına Değişken Maliyet' (malzemeler gibi doğrudan bir ürünün üretimiyle bağlantılı maliyetler) ve 'Birim Başına Fiyat' (ürünü ne kadara sattığınız). Hesap makinesi öncelikle birim başına 'katkı payını' (her satışın sabit maliyetleri ödemeye yardımcı olan kısmı) bulmak için fiyattan değişken maliyeti çıkarır. Daha sonra toplam sabit maliyetleri bu katkı payına böler. Sonuç, başabaş noktasına ulaşmak için satmanız gereken kesin birim sayısıdır.",
+  "workedExample": "Artizan turtalar satan küçük bir fırın açtığınızı düşünün. Aylık 'Sabit Maliyetleriniz' (kira, kamu hizmetleri, ekipman kredi ödemeleri) toplam 2.000$'dır. Her bir turta için malzemelerin ve ambalajın ('Değişken Maliyet') 5$'a mal olduğunu hesaplıyorsunuz. Her bir turtayı 25$'a ('Birim Fiyatı') satmayı planlıyorsunuz. Bu üç rakamı hesap makinesine girersiniz. Araç öncelikle katkı payınızı belirler: turta başına 25$ - 5$ = 20$. Ardından sabit maliyetlerinizi (2.000$) bu katkı payına (20$) böler. Hesap makinesi Başabaş Noktanızın 100 birim olduğunu ortaya koyar. Bu, maliyetlerinizi karşılamak için ayda 100 turta satmanız gerektiği anlamına gelir; 101. turta kâr etmeye başladığınız andır.",
+  "resultInterpretation": "Hesap makinesinin sonuçları işletmeniz için kritik metrikler sağlar, öncelikle 'Başabaş Noktası' (birim cinsinden) ve 'Başabaş Geliri' (dolar cinsinden). 'Başabaş Noktası' size sıfıra ulaşmak için tam olarak kaç ürün satmanız gerektiğini söyler. Bu sayıyı bilmek, iş modelinizin gerçekçi olup olmadığını değerlendirmenize yardımcı olur: Mağazanız için ayda 100 satış yapılabilir mi? 'Başabaş Geliri' bu birimleri toplam satışlara çevirir. Başabaş noktanız çok yüksekse (yani o kadar satmanız pek olası değilse), araç girdileri denemenizi sağlar. Sabit maliyetleri düşürmek (ör. daha ucuz bir kira bulmak), değişken maliyetleri azaltmak (ör. tedarikçilerle pazarlık yapmak) veya sürdürülebilir bir iş modeli bulana kadar satış fiyatını artırmak gibi senaryoları test edebilirsiniz.",
   "useCases": [
-    "Başlangıç ​​planlaması",
-    "Ürün lansmanı analizi",
-    "Hareket halindeyken sabit maliyetleri hızlı bir şekilde işleme alın"
+    "Yeni Girişimler: İş fikrinin veya ürünün finansal olarak mantıklı olup olmadığını test etmek.",
+    "Perakende: Ayı zararsız kapatmak için gereken günlük/aylık satış hedeflerini belirlemek.",
+    "Perakende: Ayı zararsız kapatmak için gereken günlük/aylık satış hedeflerini belirlemek."
   ],
   "tipsAndLimitations": [
-    "Üretilen tüm birimlerin aynı fiyattan satıldığını varsayarız.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Satış fiyatınız, ürünün değişken maliyetinden düşükse, hesaplama 'imkansız' hatası verir (her satışta zarar edersiniz).",
+    "Toptan alım/satım iskontoları hesaplamaya dahil değildir."
   ],
   "faq": [
     {
-      "question": "Başabaş Hesaplayıcısının kullanımı ücretsiz midir?",
-      "answer": "Evet, Başabaş Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Sabit maliyet ile değişken maliyet arasındaki fark nedir?",
+      "answer": "Sabit maliyetler siz hiç satış yapmasanız da ödemeniz gereken giderlerdir (kira). Değişken maliyetler ise sadece ürün sattıkça/ürettikçe oluşan giderlerdir (hammadde, kargo)."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Sabit maliyet ile değişken maliyet arasındaki fark nedir?",
+      "answer": "Sabit maliyetler siz hiç satış yapmasanız da ödemeniz gereken giderlerdir (kira). Değişken maliyetler ise sadece ürün sattıkça/ürettikçe oluşan giderlerdir (hammadde, kargo)."
     }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "maaş-hesaplayıcı",
-    "indirim hesaplayıcı"
+    "profit-margin-calculator",
+    "roi-calculator",
+    "markup-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Başabaş Hesaplayıcısı",
-  "ogImageText": "Başabaş Hesaplayıcısı"
+  "cta": "Başa baş noktanızı hemen hesaplayın!",
+  "disclaimer": "Bu araç eğitim ve ön planlama amaçlıdır. Gerçek işletme planlaması vergi, enflasyon ve diğer pazar dinamiklerini içerir.",
+  "lastReviewed": "2024-03-16",
+  "imageAlt": "Başa Baş Noktası Hesaplama",
+  "ogImageText": "Başa Baş Noktası"
 }

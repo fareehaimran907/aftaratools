@@ -38,15 +38,15 @@
     },
     "percentage-calculator": {
       "title": "Yüzde Hesaplayıcı",
-      "description": "Yüzdeleri hızlı ve doğru bir şekilde hesaplayın.",
+      "description": "Yüzdeleri hızlı ve kolayca hesaplayın.",
       "ui": {
-        "percentageCalculator": "Yüzde Hesaplayıcı",
+        "calculatePercentage": "Yüzde Hesaplayıcı",
         "whatIs": "Nedir",
-        "of": "ile ilgili",
-        "amount": "Miktar",
-        "calculate": "Hesaplamak",
+        "of": "% i",
+        "amount": "Tutar",
+        "calculate": "Hesapla",
         "result": "Sonuç",
-        "calculatePercentage": "Yüzdeyi Hesapla"
+        "enterValuesToCalculatePerc": "Yüzdeyi hesaplamak için değerleri girin."
       }
     },
     "json-formatter": {
@@ -55,7 +55,19 @@
       "ui": {
         "formatJson": "JSON'u biçimlendir",
         "inputJSON": "Giriş J S O N",
-        "reset": "Sıfırla"
+        "reset": "Sıfırla",
+        "format": "Biçimlendir",
+        "minify": "Küçült",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı!",
+        "clear": "Temizle",
+        "input": "JSON Girdisi",
+        "inputPlaceholder": "JSON'unuzu buraya yapıştırın...",
+        "output": "JSON Çıktısı",
+        "outputPlaceholder": "Biçimlendirilmiş JSON burada görünecek...",
+        "invalidJson": "Geçersiz JSON",
+        "syntaxError": "Sözdizimi Hatası",
+        "jsonToolkit": "JSON Araçları"
       }
     },
     "area-converter": {
@@ -100,13 +112,21 @@
       "ui": {
         "bedtimeCalculator": "Uyku Vakti Hesaplayıcısı",
         "whenDoYouNeedToWakeUp": "Ne zaman uyanmanız gerekiyor?",
-        "calculate": "Hesaplamak",
+        "calculate": "Saatleri Hesapla",
         "toWakeUpAt": "uyanmak için",
         "youShouldTryToBeAsleepBy": ", aşağıdakileri yaparak uykuya dalmayı denemelisiniz:",
         "6Cycles9h": "6 Döngü (9 saat)",
         "5Cycles75h": "5 Döngü (7,5 saat)",
         "calculationsIncludeAnAverage15MinutesToFallAsleep": "Hesaplamalar uykuya dalmak için ortalama 15 dakikayı içermektedir.",
-        "enterYourWakeUpTimeToCal": "Yatma zamanlarını hesaplamak için uyanma saatinizi girin"
+        "enterYourWakeUpTimeToCal": "Yatma zamanlarını hesaplamak için uyanma saatinizi girin",
+        "title": "Yatma Saati Hesaplayıcı",
+        "description": "Dinç uyanmak için tam olarak ne zaman uyumanız gerektiğini öğrenin.",
+        "iNeedToWakeUpAt": "Şu saatte uyanmam lazım",
+        "youShouldGoToBedAt": "Şu saatte uyumalısın:",
+        "resultsDescription": "Bu süreler, uykuya dalmak için 15 dk dahil 90 dakikalık döngülere dayanmaktadır.",
+        "cycles": "döngü",
+        "hours": "saat",
+        "optimal": "Optimal"
       }
     },
     "binary-to-decimal": {
@@ -116,7 +136,8 @@
         "binaryToDecimalConverter": "İkiliden Ondalığa Dönüştürücü",
         "binaryNumber": "İkili Sayı",
         "decimalResult": "Ondalık Sonuç",
-        "eG1010": "örneğin 1010"
+        "eG1010": "örneğin 1010",
+        "invalidBinaryNumber": "Geçersiz ikili sayı"
       }
     },
     "bmi-calculator": {
@@ -185,12 +206,25 @@
         "breakevenCalculator": "Başabaş Hesaplayıcısı",
         "fixedCosts": "Sabit Maliyetler",
         "variableCostPerUnit": "Birim Başına Değişken Maliyet",
-        "sellingPricePerUnit": "Birim Başına Satış Fiyatı",
+        "sellingPricePerUnit": "Birim Satış Fiyatı",
         "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "Başabaş için satış fiyatının değişken maliyetten büyük olması gerekir.",
         "unitsToSell": "Satılacak Birimler",
         "breakevenRevenue": "Başabaş Geliri",
         "costsPricing": "Maliyet Fiyatlandırması",
-        "breakEvenPoint": "Başabaş Noktası"
+        "breakEvenPoint": "Başabaş Noktası",
+        "title": "Başa Baş Noktası Hesaplayıcı",
+        "description": "Maliyetlerinizi karşılamak ve kara geçmek için kaç ürün satmanız gerektiğini hesaplayın.",
+        "calculate": "Başabaş Noktasını Hesapla",
+        "summary": "Başabaş Noktası Özeti",
+        "breakEvenUnits": "Başa Baş Miktarı (Adet)",
+        "breakEvenRevenue": "Başa Baş Geliri",
+        "contributionMargin": "Katkı Payı (Birim Başına)",
+        "neverBreakEvenError": "Değişken maliyetiniz satış fiyatınızdan yüksek veya ona eşit. Hiçbir zaman başabaş noktasına ulaşamazsınız.",
+        "units": "birim",
+        "enterDetails": "Maliyetlerinizi ve satış fiyatını girin.",
+        "variableCost": "Birim Başına Değişken Maliyet",
+        "sellingPrice": "Birim Satış Fiyatı",
+        "errorImpossible": "Başa baş noktasına ulaşmak için satış fiyatı değişken maliyetten büyük olmalıdır."
       }
     },
     "calorie-calculator": {
@@ -235,16 +269,29 @@
         "principalAmount": "Anapara Tutarı",
         "annualRate": "Yıllık Oran (%)",
         "timeYears": "Zaman (Yıl)",
-        "compoundFrequency": "Bileşik Frekans",
+        "compoundFrequency": "Bileşik Faiz Sıklığı",
         "daily": "Günlük",
         "monthly": "Aylık",
-        "quarterly": "Üç ayda bir",
+        "quarterly": "Üç Aylık",
         "semiannually": "Altı Aylık",
         "annually": "Yıllık",
         "interestEarned": "Kazanılan Faiz",
         "finalBalance": "Nihai Bakiye",
         "interestDetails": "Faiz Detayları",
-        "growthBreakdown": "Büyüme Kırılımı"
+        "growthBreakdown": "Büyüme Kırılımı",
+        "title": "Bileşik Faiz Hesaplayıcı",
+        "description": "Yatırımınızın bileşik faiz ve düzenli katkılarla zaman içinde nasıl büyüyeceğini hesaplayın.",
+        "initialInvestment": "Başlangıç Yatırımı",
+        "monthlyContribution": "Aylık Katkı",
+        "annualInterestRate": "Yıllık Faiz Oranı (%)",
+        "yearsToGrow": "Yatırım Süresi (Yıl)",
+        "semiAnnually": "Altı Aylık",
+        "calculate": "Büyümeyi Hesapla",
+        "summary": "Büyüme Özeti",
+        "futureValue": "Gelecekteki Değer",
+        "totalContributions": "Toplam Yatırılan",
+        "totalInterestEarned": "Kazanılan Toplam Faiz",
+        "enterDetails": "Öngörülen büyümeyi görmek için yatırım ayrıntılarını girin."
       }
     },
     "concrete-calculator": {
@@ -277,10 +324,15 @@
       "description": "",
       "ui": {
         "countdownTimer": "Geri Sayım Sayacı",
-        "minutes": "dakika",
+        "minutes": "Dakika",
         "start": "Başlangıç",
         "pause": "Duraklat",
-        "reset": "Sıfırla"
+        "reset": "Sıfırla",
+        "title": "Geri Sayım Sayacı",
+        "description": "Basit ve kullanımı kolay bir çevrimiçi geri sayım sayacı. Saat, dakika ve saniye ayarlayın.",
+        "hours": "Saat",
+        "seconds": "Saniye",
+        "timeUp": "Süre Doldu!"
       }
     },
     "css-minifier": {
@@ -301,7 +353,11 @@
         "amount": "Miktar",
         "from": "İtibaren",
         "to": "İle",
-        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Not: Bu oranlar yalnızca gösterim amaçlı statik tahminlerdir."
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Not: Bu oranlar yalnızca gösterim amaçlı statik tahminlerdir.",
+        "title": "Döviz Çevirici",
+        "description": "Canlı döviz kurları ile küresel para birimleri arasında çeviri yapın.",
+        "convertedAmount": "Çevrilen Miktar",
+        "lastUpdated": "Son Güncelleme"
       }
     },
     "data-storage-converter": {
@@ -318,10 +374,10 @@
       "description": "",
       "ui": {
         "dateDifferenceCalculator": "Tarih Farkı Hesaplayıcı",
-        "startDate": "Başlangıç ​​Tarihi",
+        "startDate": "Başlangıç Tarihi",
         "endDate": "Bitiş Tarihi",
         "calculateDifference": "Farkı Hesapla",
-        "timeDifference": "Zaman Farkı:",
+        "timeDifference": "Zaman Farkı",
         "years": "Yıllar",
         "months": "Aylar",
         "days": "günler",
@@ -330,7 +386,21 @@
         "weeks": "haftalar,",
         "copy": "Kopyala",
         "reset": "Sıfırla",
-        "selectDatesToCalculate": "Hesaplanacak Tarihleri ​​Seçin"
+        "selectDatesToCalculate": "Farkı hesaplamak için her iki tarihi de seçin.",
+        "dateDifferenceTitle": "Tarih Farkı Hesaplayıcı",
+        "dateDifferenceDesc": "İki tarih arasındaki tam gün, hafta, ay ve yıl sayısını hesaplayın.",
+        "includeEndDay": "Bitiş tarihini dahil et (+1 gün)",
+        "includeEndDayDesc": "Hesaplamaya fazladan bir gün ekler.",
+        "exactDifference": "Tam Fark",
+        "yearsLabel": "Yıllar",
+        "monthsLabel": "Aylar",
+        "daysLabel": "Günler",
+        "endDateBeforeStart": "Not: Bitiş tarihi, başlangıç tarihinden önce.",
+        "totalDays": "Toplam Gün",
+        "inWeeks": "Hafta Cinsinden",
+        "weeksShort": "hft",
+        "daysShort": "g",
+        "approxMonths": "Toplam Ay"
       }
     },
     "days-between-dates": {
@@ -338,7 +408,7 @@
       "description": "",
       "ui": {
         "daysBetweenDates": "Tarihler Arasındaki Günler",
-        "startDate": "Başlangıç ​​Tarihi",
+        "startDate": "Başlangıç Tarihi",
         "endDate": "Bitiş Tarihi",
         "includeStartDateInCalculation": "Başlangıç ​​tarihini hesaplamaya dahil et",
         "includeEndDateInCalculation": "Bitiş tarihini hesaplamaya dahil et",
@@ -347,7 +417,16 @@
         "days": "Günler",
         "copy": "Kopyala",
         "reset": "Sıfırla",
-        "selectDatesToCalculate": "Hesaplanacak Tarihleri ​​Seçin"
+        "selectDatesToCalculate": "Farkı hesaplamak için her iki tarihi de seçin.",
+        "title": "Tarihler Arasındaki Günler",
+        "description": "İki tarih arasındaki tam gün, iş günü ve hafta sonu sayısını hesaplayın.",
+        "includeEndDay": "Bitiş tarihini dahil et (+1 gün)",
+        "includeEndDayDesc": "Hesaplamaya fazladan bir gün ekler.",
+        "totalDays": "Toplam Gün",
+        "daysLabel": "Gün",
+        "endDateBeforeStart": "Not: Bitiş tarihi, başlangıç tarihinden önce.",
+        "weekdays": "İş Günleri (Pzt-Cum)",
+        "weekends": "Hafta Sonları"
       }
     },
     "days-until-calculator": {
@@ -363,7 +442,19 @@
         "days": "günler",
         "copy": "Kopyala",
         "reset": "Sıfırla",
-        "selectAFutureDate": "Gelecek Bir Tarih Seçin"
+        "selectAFutureDate": "Gelecek Bir Tarih Seçin",
+        "title": "Kalan Gün Hesaplayıcı",
+        "description": "Belirli bir gelecekteki tarihe kadar tam günleri, saatleri, dakikaları ve saniyeleri geri sayın.",
+        "todayIs": "Bugün",
+        "targetDate": "Hedef Tarih",
+        "timeUntil": "Hedefe Kalan Zaman",
+        "timeSince": "Hedeften Beri Geçen Zaman",
+        "dayLabel": "Gün",
+        "dayLabelSingular": "Gün",
+        "hoursLabel": "Saat",
+        "minutesLabel": "Dakika",
+        "secondsLabel": "Saniye",
+        "selectTargetDate": "Geri sayımı görmek için bir hedef tarih seçin."
       }
     },
     "decimal-to-binary": {
@@ -373,7 +464,8 @@
         "decimalToBinaryConverter": "Ondalıktan İkiliye Dönüştürücü",
         "decimalNumber": "Ondalık Sayı",
         "binaryResult": "İkili Sonuç",
-        "eG10": "örneğin 10"
+        "eG10": "örneğin 10",
+        "invalidDecimalNumber": "Geçersiz ondalık sayı"
       }
     },
     "decking-calculator": {
@@ -404,10 +496,20 @@
         "type": "Tip",
         "off": "% Kapalı",
         "fixedAmountOff": "Sabit Tutarlı Kapalı",
-        "youSave": "Kazanıyorsun",
+        "youSave": "Tasarrufunuz:",
         "finalPrice": "Nihai Fiyat",
         "discountDetails": "İndirim Detayları",
-        "priceBreakdown": "Fiyat Dağılımı"
+        "priceBreakdown": "Fiyat Dağılımı",
+        "title": "İndirim Hesaplayıcı",
+        "description": "Bir indirimin ve isteğe bağlı verginin uygulanmasından sonra bir ürünün nihai fiyatını hesaplayın.",
+        "discountPercentage": "İndirim (%)",
+        "taxPercentage": "Vergi (%)",
+        "optional": "İsteğe Bağlı",
+        "calculate": "İndirimi Hesapla",
+        "summary": "Fiyat Özeti",
+        "discountAmount": "İndirim Tutarı",
+        "taxAmount": "Vergi Tutarı",
+        "enterDetails": "Hesaplamak için orijinal fiyatı ve indirimi girin."
       }
     },
     "emi-calculator": {
@@ -422,7 +524,20 @@
         "totalInterestPayable": "Ödenecek Toplam Faiz",
         "totalPaymentPrincipalInterest": "Toplam Ödeme (Anapara + Faiz)",
         "eMIDetails": "E M I Detayları",
-        "paymentSummary": "Ödeme Özeti"
+        "paymentSummary": "Ödeme Özeti",
+        "title": "EMI Hesaplayıcı",
+        "description": "İhtiyaç, taşıt veya konut kredileriniz için Eşit Aylık Taksitinizi (EMI) hesaplayın.",
+        "loanAmount": "Kredi Tutarı",
+        "interestRate": "Faiz Oranı (%)",
+        "loanTerm": "Vade",
+        "years": "Yıl",
+        "months": "Ay",
+        "calculate": "EMI Hesapla",
+        "emiSummary": "EMI Özeti",
+        "principalAmount": "Anapara Tutarı",
+        "totalInterest": "Toplam Faiz",
+        "totalPayment": "Toplam Ödeme (Anapara + Faiz)",
+        "enterDetails": "Özeti görmek için kredi detaylarını girin."
       }
     },
     "fence-calculator": {
@@ -461,7 +576,9 @@
       "description": "",
       "ui": {
         "fractionCalculator": "Kesir Hesaplayıcı",
-        "decimal": "Ondalık:"
+        "decimal": "Ondalık:",
+        "error": "Hata",
+        "divByZero": "Sıfıra bölme"
       }
     },
     "gpa-calculator": {
@@ -500,12 +617,12 @@
       "title": "Yükseklik Dönüştürücü",
       "description": "",
       "ui": {
-        "heightConverter": "Yükseklik Dönüştürücü",
+        "heightConverter": "Boy Çevirici",
         "metricCentimeters": "Metrik (Santimetre)",
-        "cm": "santimetre",
-        "imperialFeetInches": "Imperial (Feet ve İnç)",
-        "ft": "ft",
-        "in": "içinde"
+        "cm": "cm",
+        "imperialFeetInches": "İmparatorluk (Fit & İnç)",
+        "ft": "fit",
+        "in": "inç"
       }
     },
     "hex-to-decimal": {
@@ -515,7 +632,8 @@
         "hexToDecimalConverter": "Hex'ten Ondalık Sayıya Dönüştürücü",
         "hexadecimalNumber": "Onaltılı Sayı",
         "decimalResult": "Ondalık Sonuç",
-        "eG1AOrFFFFFF": "örneğin 1A veya FFFFFF"
+        "eG1AOrFFFFFF": "örneğin 1A veya FFFFFF",
+        "invalidHexString": "Geçersiz onaltılık dize"
       }
     },
     "hourly-to-salary-calculator": {
@@ -531,7 +649,17 @@
         "monthly": "Aylık",
         "yearlySalary": "Yıllık Maaş",
         "hourlyDetails": "Saatlik Detaylar",
-        "salaryBreakdown": "Maaş Dağılımı"
+        "salaryBreakdown": "Maaş Dağılımı",
+        "title": "Saatlikten Yıllık Maaş Hesaplayıcı",
+        "description": "Saatlik ücretinizi günlük, haftalık, aylık ve yıllık eşdeğerlerine dönüştürün.",
+        "hourlyRate": "Saatlik Ücret",
+        "workSchedule": "Çalışma Programı",
+        "hoursPerWeek": "Haftalık Saat",
+        "daysPerWeek": "Haftalık Gün",
+        "weeksPerYear": "Yıllık Hafta",
+        "annualSalary": "Yıllık Maaş",
+        "biWeekly": "İki Haftada Bir",
+        "enterDetails": "Dağılımı görmek için saatlik ücreti girin."
       }
     },
     "html-encode-decode": {
@@ -564,12 +692,19 @@
         "initialInvestment": "İlk Yatırım",
         "monthlyContribution": "Aylık Katkı",
         "expectedReturn": "Beklenen Getiri (%)",
-        "yearsToGrow": "Büyüyecek Yıllar",
+        "yearsToGrow": "Büyüme Süresi (Yıl)",
         "totalContributions": "Toplam Katkılar",
         "interestEarned": "Kazanılan Faiz",
         "futureValue": "Gelecek Değer",
         "investmentPlan": "Yatırım Planı",
-        "growthProjection": "Büyüme Tahmini"
+        "growthProjection": "Büyüme Tahmini",
+        "title": "Yatırım Hesaplayıcı",
+        "description": "Bileşik faiz ile yatırımınızın zaman içinde ne kadar büyüyeceğini hesaplayın.",
+        "result": "Sonuç",
+        "totalValue": "Toplam Değer",
+        "totalInvested": "Toplam Yatırılan",
+        "totalInterest": "Toplam Faiz",
+        "enterDetails": "Büyümeyi görmek için detayları girin."
       }
     },
     "js-minifier": {
@@ -598,9 +733,11 @@
       "title": "UzunlukDönüştürücü",
       "description": "",
       "ui": {
-        "lengthConverter": "Uzunluk Dönüştürücü",
-        "from": "İtibaren",
-        "to": "İle"
+        "lengthConverter": "Uzunluk Çevirici",
+        "from": "Birimden",
+        "to": "Birime",
+        "title": "Uzunluk Çevirici",
+        "description": "Metre, fit, inç ve diğer uzunluk birimleri arasında çeviri yapın."
       }
     },
     "loan-calculator": {
@@ -609,13 +746,23 @@
       "ui": {
         "loanCalculator": "Kredi Hesaplayıcı",
         "loanAmount": "Kredi Tutarı",
-        "interestRate": "Faiz Oranı (%)",
+        "interestRate": "Faiz Oranı (Yıllık)",
         "loanTermYears": "Kredi Vadesi (Yıl)",
         "monthlyPayment": "Aylık Ödeme",
         "totalInterest": "Toplam Faiz",
         "totalCostOfLoan": "Toplam Kredi Maliyeti",
         "loanDetails": "Kredi Detayları",
-        "paymentBreakdown": "Ödeme Dağılımı"
+        "paymentBreakdown": "Ödeme Dağılımı",
+        "title": "Kredi Hesaplayıcı",
+        "description": "Aylık ödemeleri, toplam faizi ve kredinizin maliyetini hesaplayın.",
+        "loanTerm": "Vade",
+        "years": "Yıl",
+        "months": "Ay",
+        "calculate": "Kredi Hesapla",
+        "loanSummary": "Kredi Özeti",
+        "totalPrincipal": "Toplam Anapara",
+        "totalPayment": "Toplam Ödeme",
+        "enterDetails": "Özeti görmek için kredi detaylarını girin."
       }
     },
     "lorem-ipsum-generator": {
@@ -656,7 +803,16 @@
         "markup": "İşaretleme (%)",
         "profit": "Kâr",
         "sellingPrice": "Satış Fiyatı",
-        "pricingDetails": "Fiyatlandırma Ayrıntıları"
+        "pricingDetails": "Fiyatlandırma Ayrıntıları",
+        "title": "Markup (Fiyat Artışı) Hesaplayıcı",
+        "description": "Maliyet ve fiyat artış yüzdesine göre satış fiyatını, brüt karı ve kar marjını hesaplayın.",
+        "markupPercentage": "Fiyat Artış Yüzdesi (Markup)",
+        "calculate": "Hesapla",
+        "summary": "Fiyatlandırma Özeti",
+        "profitMargin": "Kar Marjı",
+        "grossProfit": "Brüt Kar",
+        "grossLoss": "Brüt Zarar",
+        "enterDetails": "Maliyet ve markup oranını girin."
       }
     },
     "md5generator": {
@@ -674,14 +830,25 @@
       "description": "",
       "ui": {
         "monthsBetweenDates": "Tarihler Arasındaki Aylar",
-        "startDate": "Başlangıç ​​Tarihi",
+        "startDate": "Başlangıç Tarihi",
         "endDate": "Bitiş Tarihi",
         "calculateMonths": "Ayları Hesapla",
         "months": "Aylar",
         "days": "Günler",
         "copy": "Kopyala",
         "reset": "Sıfırla",
-        "selectDatesToCalculate": "Hesaplanacak Tarihleri ​​Seçin"
+        "selectDatesToCalculate": "Farkı hesaplamak için her iki tarihi de seçin.",
+        "title": "Tarihler Arasındaki Aylar",
+        "description": "İki tarih arasında tam olarak kaç tam ay ve kalan gün olduğunu hesaplayın.",
+        "includeEndDay": "Bitiş tarihini dahil et (+1 gün)",
+        "includeEndDayDesc": "Hesaplamaya fazladan bir gün ekler.",
+        "totalMonths": "Toplam Ay",
+        "monthsLabel": "Ay",
+        "fullMonthsLabel": "Tam Ay",
+        "extraDaysLabel": "Ekstra Günler",
+        "equivalentTo": "Eşdeğeri",
+        "daysLabel": "Gün",
+        "endDateBeforeStart": "Not: Bitiş tarihi, başlangıç tarihinden önce."
       }
     },
     "mortgage-calculator": {
@@ -692,11 +859,20 @@
         "homePrice": "Ev Fiyatı",
         "downPayment": "Peşinat",
         "interestRate": "Faiz Oranı (%)",
-        "loanTermYears": "Kredi Vadesi (Yıl)",
+        "loanTermYears": "Vade (Yıl)",
         "principalLoanAmount": "Ana Kredi Tutarı",
         "monthlyPayment": "Aylık Ödeme",
         "propertyDetails": "Emlak Detayları",
-        "mortgageSummary": "İpotek Özeti"
+        "mortgageSummary": "Kredi Özeti",
+        "title": "Mortgage (Konut Kredisi) Hesaplayıcı",
+        "description": "Aylık taksitlerinizi ve toplam faizinizi kolayca hesaplayın.",
+        "homeValue": "Ev Değeri",
+        "calculate": "Krediyi Hesapla",
+        "principalAndInterestOnly": "Sadece Anapara ve Faiz",
+        "loanAmount": "Kredi Tutarı",
+        "totalInterest": "Toplam Faiz",
+        "totalCostOfLoan": "Kredinin Toplam Maliyeti",
+        "enterDetails": "Özeti görmek için kredi detaylarını girin."
       }
     },
     "mulch-calculator": {
@@ -796,12 +972,18 @@
       "description": "",
       "ui": {
         "percentageDecreaseCalculator": "Yüzde Azalış Hesaplayıcı",
-        "initialValue": "Başlangıç ​​Değeri",
-        "finalValue": "Nihai Değer",
+        "initialValue": "İlk Değer",
+        "finalValue": "Son Değer",
         "absoluteChange": "Mutlak Değişim",
         "decrease": "Azaltmak",
         "values": "Değerler",
-        "decreaseBreakdown": "Arızayı Azaltın"
+        "decreaseBreakdown": "Arızayı Azaltın",
+        "title": "Yüzde Azalma Hesaplayıcı",
+        "description": "İlk değerden son değere olan yüzde azalmasını hesaplayın.",
+        "result": "Sonuç",
+        "percentageDecrease": "Yüzde Azalma",
+        "absoluteDecrease": "Mutlak Fark",
+        "enterDetails": "Azalmayı hesaplamak için değerleri girin."
       }
     },
     "percentage-increase-calculator": {
@@ -809,12 +991,18 @@
       "description": "",
       "ui": {
         "percentageIncreaseCalculator": "Yüzde Artış Hesaplayıcı",
-        "initialValue": "Başlangıç ​​Değeri",
-        "finalValue": "Nihai Değer",
+        "initialValue": "İlk Değer",
+        "finalValue": "Son Değer",
         "absoluteChange": "Mutlak Değişim",
         "change": "Değiştirmek",
         "values": "Değerler",
-        "increaseBreakdown": "Arızayı Artırın"
+        "increaseBreakdown": "Arızayı Artırın",
+        "title": "Yüzde Artış Hesaplayıcı",
+        "description": "İlk değerden son değere olan yüzde artışını hesaplayın.",
+        "result": "Sonuç",
+        "percentageIncrease": "Yüzde Artış",
+        "absoluteIncrease": "Mutlak Fark",
+        "enterDetails": "Artışı hesaplamak için değerleri girin."
       }
     },
     "plant-spacing-calculator": {
@@ -838,7 +1026,13 @@
         "work25m": "Çalışma (25m)",
         "break5m": "Mola (5m)",
         "reset": "Sıfırla",
-        "start": "Başlangıç"
+        "start": "Başlangıç",
+        "title": "Pomodoro Zamanlayıcı",
+        "description": "Pomodoro Tekniğini kullanarak üretkenliğinizi artırın.",
+        "pomodoro": "Pomodoro",
+        "shortBreak": "Kısa Mola",
+        "longBreak": "Uzun Mola",
+        "completed": "Tamamlandı"
       }
     },
     "profit-margin-calculator": {
@@ -848,10 +1042,20 @@
         "profitMarginCalculator": "Kâr Marjı Hesaplayıcı",
         "revenueSellingPrice": "Gelir (Satış Fiyatı)",
         "costOfGoodsSold": "Satılan Malın Maliyeti",
-        "grossProfit": "Brüt kazanç",
+        "grossProfit": "Brüt Kar",
         "margin": "Marj",
         "financialDetails": "Finansal Detaylar",
-        "profitability": "karlılık"
+        "profitability": "karlılık",
+        "title": "Kar Marjı Hesaplayıcı",
+        "description": "Brüt karınızı, kar marjınızı ve fiyat artışınızı (markup) kolayca hesaplayın.",
+        "cost": "Satılan Malların Maliyeti (COGS)",
+        "revenue": "Gelir (Satış Fiyatı)",
+        "calculate": "Marjı Hesapla",
+        "summary": "Marj Özeti",
+        "profitMargin": "Kar Marjı",
+        "grossLoss": "Brüt Zarar",
+        "markup": "Fiyat Artışı (Markup)",
+        "enterDetails": "Maliyet ve geliri girin."
       }
     },
     "qr-code-generator": {
@@ -889,7 +1093,7 @@
       "description": "",
       "ui": {
         "ratioCalculatorAbCd": "Oran Hesaplayıcı (A:B = C:D)",
-        "enter3ValuesToCalculateThe4thMissingValue": "4. eksik değeri hesaplamak için 3 değer girin."
+        "enter3ValuesToCalculateThe4thMissingValue": "Eksik olan 4. değeri hesaplamak için 3 değer girin"
       }
     },
     "roi-calculator": {
@@ -902,7 +1106,23 @@
         "profit": "Kâr",
         "roi": "yatırım getirisi",
         "investmentDetails": "Yatırım Detayları",
-        "returnOnInvestment": "Yatırım Getirisi"
+        "returnOnInvestment": "Yatırım Getirisi (ROI)",
+        "title": "ROI Hesaplayıcı",
+        "description": "Bir yatırımın karlılığını değerlendirmek için Yatırım Getirinizi (ROI) hesaplayın.",
+        "amountInvested": "Yatırılan Tutar (Maliyet)",
+        "amountReturned": "Elde Edilen Tutar (Gelir)",
+        "investmentTimePeriod": "Yatırım Süresi",
+        "optional": "İsteğe Bağlı",
+        "years": "Yıl",
+        "calculate": "ROI Hesapla",
+        "summary": "ROI Özeti",
+        "netProfit": "Net Kar",
+        "netLoss": "Net Zarar",
+        "annualizedRoi": "Yıllıklandırılmış ROI",
+        "enterDetails": "Yatırım ve getiri miktarlarınızı girin.",
+        "investmentAmount": "Yatırım Miktarı",
+        "returnAmount": "Elde Edilen Miktar",
+        "investmentGain": "Yatırım Kazancı/Kaybı"
       }
     },
     "roman-numeral-converter": {
@@ -912,7 +1132,11 @@
         "romanNumeralConverter": "Romen Rakamıyla Dönüştürücü",
         "numberRoman": "Sayı → Roma",
         "romanNumber": "Roma → Sayı",
-        "result": "Sonuç"
+        "result": "Sonuç",
+        "rangeError": "Sayı 1 ile 3999 arasında olmalıdır",
+        "invalidRoman": "Geçersiz Roma Rakamı",
+        "numberInputLabel": "Sayı (1 - 3999)",
+        "romanNumeralLabel": "Roma Rakamı"
       }
     },
     "running-distance-calculator": {
@@ -942,7 +1166,7 @@
         "week": "Hafta",
         "month": "Ay",
         "year": "Yıl",
-        "hoursPerWeek": "Haftalık saat",
+        "hoursPerWeek": "Haftalık Saat",
         "calculate": "Hesaplamak",
         "hourly": "Saatlik",
         "daily": "Günlük",
@@ -950,7 +1174,19 @@
         "monthly": "Aylık",
         "yearly": "Yıllık",
         "incomeDetails": "Gelir Detayları",
-        "enterYourIncomeDetailsToS": "Özeti görmek için gelir ayrıntılarınızı girin"
+        "enterYourIncomeDetailsToS": "Özeti görmek için gelir ayrıntılarınızı girin",
+        "title": "Maaş Hesaplayıcı",
+        "description": "Maaşınızı saatlik, günlük, haftalık, aylık ve yıllık eşdeğerlerine dönüştürün.",
+        "payFrequency": "Ödeme Sıklığı",
+        "biWeekly": "İki Haftada Bir",
+        "semiMonthly": "Ayda İki Kez",
+        "quarterly": "Üç Aylık",
+        "annually": "Yıllık",
+        "workSchedule": "Çalışma Programı",
+        "daysPerWeek": "Haftalık Gün",
+        "salaryBreakdown": "Maaş Dağılımı",
+        "annualSalary": "Yıllık Maaş",
+        "enterDetails": "Dağılımı görmek için maaş detaylarını girin."
       }
     },
     "salary-to-hourly-calculator": {
@@ -963,7 +1199,20 @@
         "weeksYear": "Hafta / Yıl",
         "hourlyWage": "Saatlik Ücret",
         "salaryDetails": "Maaş Detayları",
-        "equivalentWage": "Eşdeğer Ücret"
+        "equivalentWage": "Eşdeğer Ücret",
+        "title": "Yıllık Maaştan Saatlik Ücret Hesaplayıcı",
+        "description": "Yıllık maaşınızı saatlik, günlük, haftalık ve aylık eşdeğerlerine dönüştürün.",
+        "workSchedule": "Çalışma Programı",
+        "hoursPerWeek": "Haftalık Saat",
+        "daysPerWeek": "Haftalık Gün",
+        "weeksPerYear": "Yıllık Hafta",
+        "salaryBreakdown": "Maaş Dağılımı",
+        "hourlyRate": "Saatlik Ücret",
+        "monthly": "Aylık",
+        "biWeekly": "İki Haftada Bir",
+        "weekly": "Haftalık",
+        "daily": "Günlük",
+        "enterDetails": "Dağılımı görmek için yıllık maaşı girin."
       }
     },
     "sha1generator": {
@@ -991,16 +1240,27 @@
       "description": "",
       "ui": {
         "simpleInterestCalculator": "Basit Faiz Hesaplayıcı",
-        "principalAmount": "Anapara Tutarı",
+        "principalAmount": "Ana Para",
         "annualRate": "Yıllık Oran (%)",
         "time": "Zaman",
-        "years": "Yıllar",
-        "months": "Aylar",
-        "days": "Günler",
+        "years": "Yıl",
+        "months": "Ay",
+        "days": "Gün",
         "interestEarned": "Kazanılan Faiz",
         "finalBalance": "Nihai Bakiye",
         "interestDetails": "Faiz Detayları",
-        "growthBreakdown": "Büyüme Kırılımı"
+        "growthBreakdown": "Büyüme Kırılımı",
+        "title": "Basit Faiz Hesaplayıcı",
+        "description": "Krediler veya birikimler için basit faizi kolayca hesaplayın.",
+        "annualInterestRate": "Yıllık Faiz Oranı (%)",
+        "timePeriod": "Zaman Periyodu",
+        "calculate": "Faizi Hesapla",
+        "summary": "Faiz Özeti",
+        "totalInterest": "Toplam Faiz",
+        "totalAmount": "Toplam Miktar",
+        "principalPlusInterest": "Anapara + Faiz",
+        "enterDetails": "Ana para, oran ve süreyi girin.",
+        "interestRate": "Yıllık Faiz Oranı (%)"
       }
     },
     "sleep-calculator": {
@@ -1008,15 +1268,26 @@
       "description": "",
       "ui": {
         "sleepCalculator": "Uyku Hesaplayıcı",
-        "iWantToWakeUpAt": "Şu saatte uyanmak istiyorum:",
-        "calculate": "Hesaplamak",
+        "iWantToWakeUpAt": "Uyanmak istediğim saat",
+        "calculate": "Hesapla",
         "toWakeUpRefreshedAt": "Yenilenmiş olarak uyanmak için",
         "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": "Aşağıdaki zamanlardan birinde uykuya dalmayı denemelisiniz (uykuya dalmak için 15 dakikayı içerir):",
         "6Cycles9h": "6 Döngü (9 saat)",
         "5Cycles75h": "5 Döngü (7,5 saat)",
         "4Cycles6h": "4 Döngü (6 saat)",
         "3Cycles45h": "3 Döngü (4,5 saat)",
-        "enterWakeTimeToCalculateS": "Uyku sürelerini hesaplamak için uyanma saatini girin"
+        "enterWakeTimeToCalculateS": "Uyku sürelerini hesaplamak için uyanma saatini girin",
+        "title": "Uyku Hesaplayıcı",
+        "description": "90 dakikalık uyku döngülerine dayalı optimal uyku sürelerini hesaplayın.",
+        "wakeAt": "Uyanma",
+        "sleepAt": "Uyuma",
+        "iWillGoToBedAt": "Uyuyacağım saat",
+        "youShouldGoToBedAt": "Şu saatte uyumalısın:",
+        "youShouldWakeUpAt": "Şu saatte uyanmalısın:",
+        "resultsDescription": "Bu süreler, uykuya dalmak için 15 dk dahil 90 dakikalık döngülere dayanmaktadır.",
+        "cycles": "döngü",
+        "hours": "saat",
+        "optimal": "Optimal"
       }
     },
     "speed-converter": {
@@ -1086,10 +1357,13 @@
         "stopwatch": "Kronometre",
         "start": "Başlangıç",
         "pause": "Duraklat",
-        "lap": "Kucak",
+        "lap": "Tur",
         "reset": "Sıfırla",
         "laps": "Turlar",
-        "noLapsRecordedYet": "Henüz Kaydedilmiş Tur Yok"
+        "noLapsRecordedYet": "Henüz Kaydedilmiş Tur Yok",
+        "title": "Çevrimiçi Kronometre",
+        "description": "Tur süreleri olan basit, hassas çevrimiçi kronometre.",
+        "clearLaps": "Turları Temizle"
       }
     },
     "tax-calculator": {
@@ -1142,12 +1416,22 @@
         "firstTime": "İlk Kez",
         "secondTime": "İkinci Kez",
         "calculateAbsoluteDifference": "Mutlak Farkı Hesapla",
-        "difference": "Fark:",
+        "difference": "Zaman Farkı",
         "h": "H",
         "m": "M",
         "copy": "Kopyala",
         "reset": "Sıfırla",
-        "selectTimesToCompare": "Karşılaştırılacak Zamanları Seçin"
+        "selectTimesToCompare": "Karşılaştırılacak Zamanları Seçin",
+        "title": "Zaman Farkı Hesaplayıcı",
+        "description": "İki belirli tarih ve saat arasındaki tam zaman farkını saniyesine kadar hesaplayın.",
+        "startDateTime": "Başlangıç Tarihi ve Saati",
+        "endDateTime": "Bitiş Tarihi ve Saati",
+        "daysLabel": "Gün",
+        "hoursLabel": "Saat",
+        "minutesLabel": "Dakika",
+        "secondsLabel": "Saniye",
+        "reversedNote": "Not: Bitiş zamanı başlangıç zamanından önce. Mutlak fark gösteriliyor.",
+        "selectDatesToCalculate": "Farkı hesaplamak için her iki tarihi ve saati seçin."
       }
     },
     "time-duration-calculator": {
@@ -1155,8 +1439,8 @@
       "description": "",
       "ui": {
         "timeDurationCalculator": "Zaman Süresi Hesaplayıcı",
-        "startTime": "Başlangıç ​​Zamanı",
-        "endTime": "Bitiş Zamanı",
+        "startTime": "Başlangıç Saati",
+        "endTime": "Bitiş Saati",
         "endsOnTheNextDayCrossesMidnight": "Ertesi gün biter (gece yarısını geçer)",
         "calculateDuration": "Süreyi Hesapla",
         "hours": "Saat",
@@ -1164,7 +1448,16 @@
         "totalTimeInMinutes": "Dakika cinsinden toplam süre:",
         "copy": "Kopyala",
         "reset": "Sıfırla",
-        "selectStartAndEndTimes": "Başlangıç ​​ve Bitiş Zamanlarını Seçin"
+        "selectStartAndEndTimes": "Başlangıç ​​ve Bitiş Zamanlarını Seçin",
+        "title": "Süre Hesaplayıcı",
+        "description": "İki saat arasında tam olarak kaç saat ve dakika geçtiğini hesaplayın.",
+        "duration": "Süre",
+        "hLabel": "s",
+        "mLabel": "d",
+        "decimalHoursLabel": "Ondalık Saat",
+        "totalMinutesLabel": "Toplam Dakika",
+        "crossesMidnightNote": "Not: Bitiş saati daha erken (gece yarısını geçtiği varsayılır).",
+        "selectTimesToCalculate": "Süreyi hesaplamak için her iki saati de seçin."
       }
     },
     "time-zone-converter": {
@@ -1176,7 +1469,18 @@
         "fromTimeZoneRelative": "Saat Dilimi'nden (Göreceli)",
         "toTimeZone": "Saat Dilimi'ne",
         "convert": "Dönüştürmek",
-        "selectDateAndTimeZonesTo": "Karşılaştırılacak tarih ve saat dilimlerini seçin"
+        "selectDateAndTimeZonesTo": "Karşılaştırılacak tarih ve saat dilimlerini seçin",
+        "title": "Saat Dilimi Dönüştürücü",
+        "description": "Farklı saat dilimleri arasında saatleri doğru bir şekilde dönüştürün.",
+        "fromZone": "Şu Saat Diliminden",
+        "toZone": "Şu Saat Dilimine",
+        "dateAndTime": "Tarih ve Saat",
+        "swap": "Değiştir",
+        "convertedTime": "Dönüştürülmüş Saat",
+        "hoursAhead": "saat ileri",
+        "hoursBehind": "saat geri",
+        "sameTime": "Aynı saat",
+        "invalidInput": "Geçerli bir tarih girin."
       }
     },
     "tip-calculator": {
@@ -1184,7 +1488,7 @@
       "description": "",
       "ui": {
         "tipCalculator": "Bahşiş Hesaplayıcı",
-        "billAmount": "Fatura Tutarı",
+        "billAmount": "Hesap Tutarı",
         "tip": "Uç %",
         "numberOfPeople": "Kişi Sayısı",
         "tipAmount": "Bahşiş Tutarı",
@@ -1193,7 +1497,22 @@
         "totalTip": "Toplam İpucu:",
         "totalBill": "Toplam Fatura:",
         "billDetails": "Fatura Detayları",
-        "totalBreakdown": "Toplam Kırılım"
+        "totalBreakdown": "Toplam Kırılım",
+        "title": "Bahşiş Hesaplayıcı",
+        "description": "Bahşişinizi hesaplayın ve hesabı arkadaşlarınız arasında kolayca bölüştürün.",
+        "selectTip": "Bahşiş % Seçin",
+        "custom": "Özel",
+        "totalAmount": "Toplam Tutar",
+        "splitBetween": "Bölünen kişi:",
+        "people": "kişi",
+        "tipPerPerson": "Kişi Başı Bahşiş",
+        "totalPerPerson": "Kişi Başı Toplam",
+        "payingFullAmount": "Tüm hesabı siz ödüyorsunuz.",
+        "enterDetails": "Hesap detaylarını girin.",
+        "tipPercentage": "Bahşiş Yüzdesi",
+        "perPerson": "/ kişi",
+        "totalTipOverall": "Toplam Bahşiş (Genel)",
+        "totalBillOverall": "Toplam Hesap (Genel)"
       }
     },
     "unix-timestamp-converter": {
@@ -1206,7 +1525,22 @@
         "dateToTimestamp": "Zaman Damgasına Tarih",
         "localDateTime": "Yerel Tarih ve Saat",
         "eG1700000000": "örneğin 1700000000",
-        "result": "Sonuç"
+        "result": "Sonuç",
+        "title": "Unix Zaman Damgası Dönüştürücü",
+        "description": "Unix zaman damgalarını okunabilir tarihlere dönüştürün veya tam tersini yapın.",
+        "currentEpoch": "Mevcut Unix Zamanı",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı!",
+        "tsToDate": "Zaman Damgasından Tarihe",
+        "enterTimestamp": "Zaman Damgası Girin",
+        "gmtTime": "GMT Saati",
+        "localTime": "Yerel Saatiniz",
+        "invalidTimestamp": "Geçerli bir zaman damgası girin.",
+        "dateToTs": "Tarihten Zaman Damgasına",
+        "enterDate": "Tarih ve Saat Girin",
+        "secondsLabel": "Zaman Damgası (Saniye)",
+        "msLabel": "Milisaniye",
+        "invalidDate": "Geçerli bir tarih girin."
       }
     },
     "url-encode-decode": {
@@ -1255,7 +1589,17 @@
         "5Cycles75h": "5 Döngü (7,5 saat)",
         "6Cycles9h": "6 Döngü (9 saat)",
         "readyForBed": "Yatmaya Hazır",
-        "clickTheButtonWhenYouReG": "Yatağa gittiğinizde düğmeye tıklayın"
+        "clickTheButtonWhenYouReG": "Yatağa gittiğinizde düğmeye tıklayın",
+        "title": "Uyanma Saati Hesaplayıcı",
+        "description": "Dinç hissetmek için tam olarak ne zaman uyanmanız gerektiğini öğrenin.",
+        "sleepNow": "Şu an uyumaya gidiyorum",
+        "sleepAtTime": "Veya şu saatte uyuyacağım",
+        "calculate": "Saatleri Hesapla",
+        "youShouldWakeUpAt": "Şu saatte uyanmalısın:",
+        "resultsDescription": "Bu süreler, uykuya dalmak için 15 dk dahil 90 dakikalık döngülere dayanmaktadır.",
+        "cycles": "döngü",
+        "hours": "saat",
+        "optimal": "Optimal"
       }
     },
     "water-intake-calculator": {
@@ -1278,23 +1622,36 @@
       "description": "",
       "ui": {
         "weeksBetweenDates": "Tarihler Arasındaki Haftalar",
-        "startDate": "Başlangıç ​​Tarihi",
+        "startDate": "Başlangıç Tarihi",
         "endDate": "Bitiş Tarihi",
         "calculateWeeks": "Haftaları Hesapla",
         "weeks": "Haftalar",
         "days": "Günler",
         "copy": "Kopyala",
         "reset": "Sıfırla",
-        "selectDatesToCalculate": "Hesaplanacak Tarihleri ​​Seçin"
+        "selectDatesToCalculate": "Farkı hesaplamak için her iki tarihi de seçin.",
+        "title": "Tarihler Arasındaki Haftalar",
+        "description": "İki tarih arasında tam olarak kaç tam hafta ve kalan gün olduğunu hesaplayın.",
+        "includeEndDay": "Bitiş tarihini dahil et (+1 gün)",
+        "includeEndDayDesc": "Hesaplamaya fazladan bir gün ekler.",
+        "totalWeeks": "Toplam Hafta",
+        "weeksLabel": "Hafta",
+        "fullWeeksLabel": "Tam Hafta",
+        "extraDaysLabel": "Ekstra Günler",
+        "equivalentTo": "Eşdeğeri",
+        "daysLabel": "Gün",
+        "endDateBeforeStart": "Not: Bitiş tarihi, başlangıç tarihinden önce."
       }
     },
     "weight-converter": {
       "title": "Ağırlık Dönüştürücü",
       "description": "",
       "ui": {
-        "weightConverter": "Ağırlık Dönüştürücü",
-        "from": "İtibaren",
-        "to": "İle"
+        "weightConverter": "Ağırlık Çevirici",
+        "from": "Birimden",
+        "to": "Birime",
+        "title": "Ağırlık Çevirici",
+        "description": "Kilogram, libre, ons, gram ve diğer ağırlık birimleri arasında çeviri yapın."
       }
     },
     "word-counter": {
@@ -1329,7 +1686,14 @@
       "title": "Dünya Saati Dönüştürücü",
       "description": "",
       "ui": {
-        "worldTimeConverter": "Dünya Saati Dönüştürücü"
+        "worldTimeConverter": "Dünya Saati Dönüştürücü",
+        "title": "Dünya Saatleri Dönüştürücü",
+        "description": "Farklı saat dilimleri arasındaki saatleri anında dönüştürün. Dünya genelindeki mevcut saatleri karşılaştırın.",
+        "liveTime": "Canlı Saat",
+        "customTime": "Özel Saat",
+        "addZone": "Saat Dilimi Ekle",
+        "remove": "Kaldır",
+        "allZonesAdded": "Tüm dilimler eklendi"
       }
     },
     "xml-formatter": {
@@ -1358,7 +1722,8 @@
   },
   "Search": {
     "placeholder": "Araçlarda ara...",
-    "noResults": "\"{query}\" için araç bulunamadı."
+    "noResults": "\"{query}\" için araç bulunamadı.",
+    "tryADifferentSearchTermOr": "Farklı bir arama terimi deneyin veya aşağıdaki kategorilere göz atın."
   },
   "Home": {
     "metaTitle": "Ücretsiz Çevrimiçi Araçlar ve Hesap Makineleri",
@@ -1733,11 +2098,14 @@
     "whatIs": "{title} nedir?",
     "howToUse": "{title} nasıl kullanılır?",
     "example": "Örnek",
-    "useCases": "Yaygın Kullanım Durumları",
-    "howItWorks": "Nasıl Çalışır?",
+    "useCases": "Yaygın Kullanım Senaryoları",
+    "howItWorks": "Nasıl Çalışır",
     "faq": "Sıkça Sorulan Sorular",
     "readyToStart": "Başlamaya hazır mısınız?",
-    "useToolNow": "Aracı Şimdi Kullanın"
+    "useToolNow": "Aracı Şimdi Kullan",
+    "resultInterpretation": "Sonuçlarınızı Anlamak",
+    "tipsAndLimitations": "İpuçları ve Doğruluk Notları",
+    "disclaimer": "Sorumluluk Reddi"
   },
   "Categories": {
     "developerTools": "Geliştirici Araçları",

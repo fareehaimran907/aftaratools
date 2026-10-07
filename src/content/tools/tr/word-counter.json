@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Kelime Sayacı",
-  "metaDescription": "Ücretsiz çevrimiçi Kelime Sayacı. Kelimeleri ve karakterleri sayın.",
+  "seoTitle": "Kelime Sayacı - Kelimeleri, Karakterleri ve Cümleleri Say",
+  "metaDescription": "Ücretsiz çevrimiçi Kelime Sayacı. Metninizdeki kelimeleri, karakterleri, cümleleri ve paragrafları anında sayın. Makaleler, tweetler ve SEO için mükemmeldir.",
   "h1": "Kelime Sayacı",
   "primaryKeyword": "kelime sayacı",
   "secondaryKeywords": [
-    "çevrimiçi kelime sayacı",
-    "ücretsiz kelime sayacı",
-    "en iyi kelime sayacı"
+    "çevrimiçi kelime sayısı",
+    "karakter sayacı",
+    "kelime sayacı aracı",
+    "kaç kelime"
   ],
-  "slug": "kelime sayacı",
-  "intro": "Ücretsiz çevrimiçi Kelime Sayacı aracımızı kullanın. Girişlerinize göre kelimeleri ve karakterleri sayar.",
-  "whatIs": "Kelime Sayacı, kelimeleri ve karakterleri sayan çevrimiçi bir yardımcı programdır. Metin bloğunuzu işler ve kelimelerin, karakterlerin ve paragrafların toplamlarını sağlar.",
+  "slug": "kelime-sayaci",
+  "intro": "Katı bir kelime sınırıyla makale mi yazıyorsunuz, yoksa bir blog gönderisini SEO için mi optimize ediyorsunuz? Ücretsiz Kelime Sayacı'mız, kelimeler, karakterler ve cümleler için anında ve doğru ölçümler sağlar.",
+  "whatIs": "Kelime Sayacı bir metin analiz aracıdır. Toplam kelime sayısı, karakter sayısı (boşluklu ve boşluksuz), cümle sayısı ve paragraf sayısı dahil olmak üzere istatistiksel veriler sağlamak için büyük metin bloklarını işler.",
   "howToUse": [
-    "Metin bloğunuzu belirlenen giriş alanına girin.",
-    "Sayım metrikleri gibi ikincil parametreleri sağlayın.",
-    "Kelimelerin, karakterlerin ve paragrafların toplamlarını oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Metninizi büyük giriş kutusuna yapıştırın veya doğrudan yazın.",
+    "Ekranın üstündeki metrikler anında güncellenecektir.",
+    "Ortalama kelime uzunluğu ve okuma süresi için ayrıntılı dökümü kontrol edin."
   ],
-  "howItWorks": "Bu araç, tarayıcınızda metin bloğunuza standart algoritmalar uygulayarak çalışır. Kelimelerin, karakterlerin ve paragrafların toplamlarını çıkarmak için verileri anında işler.",
-  "workedExample": "Örneğin: 100 kelime, 550 karakter.",
-  "resultInterpretation": "Sonuç, kelimelerin, karakterlerin ve paragrafların toplamlarını temsil eder. Bu verileri özel hesaplamalarınız veya biçimlendirme ihtiyaçlarınız için kullanabilirsiniz.",
+  "howItWorks": "Araç, metni çözümlemek için JavaScript Düzenli İfadeleri (Regex) kullanır. Boşluklar ve noktalama işaretleri sınırlarını arayarak kelimeleri sayar. Nokta veya ünlem işaretleri gibi son noktalama işaretlerini ve ardından boşlukları tespit ederek cümleleri sayar.",
+  "workedExample": "Şunu yazıyorsunuz: 'Merhaba dünya. Nasılsın?' Araç hesaplar: 5 Kelime, 27 Karakter (boşluklarla birlikte), 2 Cümle ve tahmini okuma süresi 2 saniye.",
+  "resultInterpretation": "İstatistikler, metin uzunluğunuzu belirli yayın yönergelerine, akademik gereksinimlere veya sosyal medya sınırlarına uygun şekilde mükemmel bir şekilde uyarlamanıza yardımcı olur.",
   "useCases": [
-    "Makale yazma",
-    "Twitter karakter sınırlamalarına uyma",
-    "Hareket halindeyken metin bloğunu hızla işleme"
+    "Akademi: Bir üniversite denemesinin sıkı bir 1.000 kelime asgari gereksinimini karşılamasını sağlamak.",
+    "SEO ve Pazarlama: Meta açıklamaları 160 karakterin altında tutmak ve blog yazılarını 1.500 kelimenin üzerinde yazmak.",
+    "Sosyal Medya: Bir tweetin veya Instagram açıklamasının platform sınırları içinde olmasını sağlamak."
   ],
   "tipsAndLimitations": [
-    "Tireli kelimeler genellikle tek bir kelime olarak sayılır.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Tireli kelimeler (örneğin 'state-of-the-art') genellikle standart algoritmalar tarafından tek bir kelime olarak sayılır.",
+    "URL'ler ve e-posta adresleri de tek kelime olarak kabul edilir."
   ],
   "faq": [
     {
-      "question": "Does it count spaces?",
-      "answer": "It provides both 'characters with spaces' and 'without spaces'."
+      "question": "Karakter olarak ne sayılır?",
+      "answer": "Bir karakter herhangi bir tek harf, sayı, noktalama işareti veya semboldür. Teknik olarak bir boşluk da bir karakterdir, bu nedenle 'boşluklarla' ve 'boşluksuz' olarak sayıları sağlıyoruz."
     },
     {
-      "question": "Is the Word Counter free to use?",
-      "answer": "Yes, our Word Counter is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Okuma zamanı nasıl hesaplanır?",
+      "answer": "Okuma süresi, ortalama bir yetişkinin dakikada yaklaşık 200 ila 250 kelime okuma hızı baz alınarak tahmin edilmektedir."
     }
   ],
   "relatedTools": [
-    "karakter sayacı",
-    "kendi kendine internet oluşturucu",
-    "biyonik-okuma-dönüştürücü"
+    "character-counter",
+    "text-case-converter",
+    "markdown-editor"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Kelime Sayacı arayüzü ekran görüntüsü",
+  "cta": "Kelime sayınızı anında öğrenin!",
+  "disclaimer": "Analiz tamamen tarayıcınızda gerçekleşir. Metninizi kaydetmiyor veya depolamıyoruz.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Kelime Sayacı arayüzü metin istatistiklerini gösteriyor",
   "ogImageText": "Kelime Sayacı"
 }

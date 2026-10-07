@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Yüzde Artış Hesaplayıcı",
-  "metaDescription": "İki sayı arasındaki yüzde artışını hesaplayın.",
+  "seoTitle": "Yüzde Artış Hesaplayıcı - Büyümeyi Hesapla",
+  "metaDescription": "Ücretsiz yüzde artış hesaplayıcı. Bir sayıdan diğerine yüzde büyümeyi kolayca bulun. Satış büyümesi ve fiyat artışlarını hesaplamak için mükemmel.",
   "h1": "Yüzde Artış Hesaplayıcı",
   "primaryKeyword": "yüzde artış hesaplayıcı",
   "secondaryKeywords": [
-    "Yüzde Artış Hesaplayıcı çevrimiçi",
-    "Ücretsiz Yüzde Artış Hesaplayıcı",
-    "En iyi Yüzde Artış Hesaplayıcı"
+    "yüzde büyüme hesaplama",
+    "yüzde artış bulma"
   ],
-  "slug": "yüzde artış hesaplayıcı",
-  "intro": "Yüzde cinsinden bir değerin tam olarak ne kadar arttığını öğrenin.",
-  "whatIs": "Bu araç nedir?",
-  "howToUse": [
-    "Başlangıç ​​değerinizi belirlenen giriş alanına girin.",
-    "Nihai değer gibi ikincil parametreleri sağlayın.",
-    "Göreceli yüzde artışını oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
-  ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
-  "useCases": [
-    "Hisse senedi kazançlarının takibi",
-    "Satış büyümesini ölçme",
-    "Hareket halindeyken başlangıç ​​değerini hızla işleme"
-  ],
-  "tipsAndLimitations": [
-    "Sıfırdan artıramazsınız (sıfıra bölmeyle sonuçlanır).",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
-  ],
+  "slug": "yuzde-artis-hesaplama",
+  "intro": "Bir değerin ne kadar arttığını hesaplamak formülü bilmediğinizde zor olabilir. İster satış büyümesini, ister maaş zammını hesaplıyor olun, ücretsiz Yüzde Artış Hesaplayıcımız size anında doğru cevabı verir.",
+  "whatIs": "Yüzde artış hesaplayıcısı, iki sayı arasındaki nispi büyümeyi bulan matematiksel bir araçtır. Yüzde artış, bir değerin artışının orijinal miktarına oranıdır.",
+  "howToUse": "İlk Değeri girin (başlangıç sayısı). Son Değeri girin (yeni sayı). 'Hesapla'ya tıklayın. Araç yüzde artışı ve mutlak farkı gösterecektir.",
+  "howItWorks": "Formül şöyledir: Yüzde Artış = [(Son Değer - İlk Değer) / İlk Değer] × 100.",
+  "workedExample": "Ayakkabıların başlangıçta 80 TL olduğunu ve fiyatın 100 TL'ye çıktığını varsayalım. Mutlak artış 20 TL'dir. 20 / 80 = 0,25. 100 ile çarpın: %25.",
+  "resultInterpretation": "Sonucunuz iki sayıyı içerir: Mutlak Fark (artışın miktarı) ve Yüzde Artış. %100'lük bir artış, değerin tam olarak iki katına çıktığı anlamına gelir.",
+  "useCases": "Satış Büyümesi: gelirdeki yüzde artışını hesaplayın. Maaş Zammı: maaş zammınızın kesin yüzdesini belirleyin. Fiyat Artışları: bir ürünün fiyatının yüzde olarak ne kadar arttığını bulun.",
+  "tipsAndLimitations": "Her zaman SON değere değil, İLK değere bölün. Son değer daha küçükse, yüzde azalışınız vardır.",
   "faq": [
     {
-      "question": "Yüzde Artış Hesaplayıcı'nın kullanımı ücretsiz midir?",
-      "answer": "Evet, Yüzde Artış Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Yüzde artışın formülü nedir?",
+      "answer": "Yüzde Artış = [(Yeni Değer - Eski Değer) / Eski Değer] × 100."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "%100 artış ne anlama gelir?",
+      "answer": "%100 artış, değerin tam olarak iki katına çıktığı anlamına gelir."
     }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "maaş-hesaplayıcı",
-    "indirim hesaplayıcı"
+    "percentage-decrease-calculator",
+    "compound-interest-calculator",
+    "investment-calculator",
+    "salary-to-hourly-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Yüzde Artış Hesaplayıcı",
+  "cta": "Kesin yüzde artışınızı şimdi hesaplayın ve büyümenizi doğru ölçün!",
+  "disclaimer": "Bu araç eğitim amaçlı sağlanmıştır.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Yüzde artış hesaplayıcı ilk değerden son değere büyümeyi gösteriyor",
   "ogImageText": "Yüzde Artış Hesaplayıcı"
 }

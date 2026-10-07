@@ -1,55 +1,91 @@
 {
-  "seoTitle": "Altersrechner",
-  "metaDescription": "Kostenloser Online-Altersrechner. Berechnen Sie Ihr genaues Alter in Jahren, Monaten und Tagen.",
+  "seoTitle": "Altersrechner – Genaues Alter in Jahren, Monaten & Tagen berechnen",
+  "metaDescription": "Kostenloser Online-Altersrechner. Geben Sie Ihr Geburtsdatum ein und erfahren Sie sofort Ihr exaktes Alter in Jahren, Monaten, Tagen und gelebten Gesamttagen.",
   "h1": "Altersrechner",
   "primaryKeyword": "Altersrechner",
   "secondaryKeywords": [
-    "Altersrechner online",
-    "Kostenloser Altersrechner",
-    "Bester Altersrechner"
+    "wie alt bin ich",
+    "Alter berechnen",
+    "genaues Alter berechnen",
+    "Alter in Jahren Monaten Tagen",
+    "Geburtstag berechnen",
+    "Alter aus Geburtsdatum",
+    "wie viele Tage bin ich alt",
+    "nächster Geburtstag berechnen",
+    "Online Altersrechner kostenlos"
   ],
-  "slug": "Altersrechner",
-  "intro": "Nutzen Sie unseren kostenlosen Online-Altersrechner. Es ermittelt anhand Ihrer Eingaben das genaue Alter.",
-  "whatIs": "Der Altersrechner ist ein Online-Dienstprogramm, das das genaue Alter ermittelt. Es verarbeitet Ihr Geburtsdatum und liefert die genaue Differenz in Jahren, Monaten und Tagen.",
+  "slug": "altersrechner",
+  "intro": "Möchten Sie wissen, wie alt Sie genau sind — auf den Tag genau? Unser kostenloser Altersrechner liefert Ihnen in Sekundenschnelle eine präzise Antwort: Jahre, Monate, Tage, die Gesamtanzahl Ihrer gelebten Tage und einen Countdown bis zum nächsten Geburtstag. Die gesamte Berechnung findet lokal in Ihrem Browser statt, Ihr Geburtsdatum verlässt niemals Ihr Gerät.",
+  "whatIs": "Ein Altersrechner ist ein Online-Werkzeug, das die exakt vergangene Zeit zwischen dem Geburtsdatum einer Person und einem beliebigen Zieldatum — üblicherweise dem heutigen Tag — misst. Im Gegensatz zu einer einfachen Jahressubtraktion (2026 minus 1990 = 36) berücksichtigt ein präziser Altersrechner Schaltjahre, die unterschiedliche Anzahl von Tagen pro Kalendermonat (28, 29, 30 oder 31) und ob der Geburtstag im laufenden Monat bereits vergangen ist. Das Ergebnis wird in vollendete Jahre, zusätzliche vollständige Monate und verbleibende Tage aufgeschlüsselt, sodass Sie Ihr genaues chronologisches Alter kennen statt nur einer groben Schätzung in ganzen Jahren. Unser Tool zeigt darüber hinaus zwei Bonuswerte an: die kumulative Gesamtzahl der gelebten Tage (nützlich in rechtlichen, medizinischen und persönlichen Kontexten) sowie die Anzahl der verbleibenden Tage bis zu Ihrem nächsten Geburtstag.",
   "howToUse": [
-    "Geben Sie Ihr Geburtsdatum in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie das aktuelle Datum an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um die genaue Differenz in Jahren, Monaten und Tagen zu generieren.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
+    "Geben Sie Ihr Geburtsdatum in das Feld „Geburtsdatum\" ein — entweder über den Datumsauswähler oder im Format JJJJ-MM-TT.",
+    "Optional: Legen Sie ein „Zieldatum\" fest, wenn Sie Ihr Alter zu einem bestimmten vergangenen oder zukünftigen Zeitpunkt berechnen möchten.",
+    "Klicken Sie auf die Schaltfläche „Berechnen\".",
+    "Ihr genaues Alter wird in Jahren, Monaten und Tagen angezeigt, zusammen mit dem Countdown bis zum nächsten Geburtstag und der Gesamtzahl der gelebten Tage.",
+    "Nutzen Sie die Kopierschaltfläche, um das Ergebnis in die Zwischenablage zu kopieren, oder klicken Sie auf Zurücksetzen."
   ],
-  "howItWorks": "Dieses Tool arbeitet in Ihrem Browser, indem es Standardalgorithmen auf Ihr Geburtsdatum anwendet. Die Daten werden sofort verarbeitet, um die genaue Differenz in Jahren, Monaten und Tagen auszugeben.",
-  "workedExample": "Beispiel: 1. Januar 1990 bis 1. Januar 2024 ergibt genau 34 Jahre.",
-  "resultInterpretation": "Das Ergebnis stellt die genaue Differenz in Jahren, Monaten und Tagen dar. Sie können diese Daten für Ihre spezifischen Berechnungen oder Formatierungsanforderungen verwenden.",
+  "howItWorks": "Der Algorithmus löst die Gleichung (Zieldatum minus Geburtsdatum) sequenziell auf: Zunächst werden die vollen Kalenderjahre gezählt, dann die zusätzlichen vollen Kalendermonate und schließlich die verbleibenden Tage. Ist der Geburtstag-Tag größer als der Zieltag im Monat, wird vom vorhergehenden Monat „geborgt\" — unter Verwendung der tatsächlichen Tagesanzahl dieses Monats (28, 29, 30 oder 31). Schaltjahre — durch 4 teilbare Jahre, mit Ausnahme von Jahrhundertjahren, die nicht durch 400 teilbar sind — werden nativ berücksichtigt, da der Code mit JavaScript-Date-Objekten arbeitet, welche die Schaltjahr-Regeln des gregorianischen Kalenders eingebaut haben. Die Gesamttage ergeben sich aus dem ganzzahligen Teil von (Zieldatum − Geburtsdatum) geteilt durch 86.400.000 Millisekunden. Der Geburtstags-Countdown findet den nächsten Geburtstag im aktuellen oder folgenden Jahr und subtrahiert das heutige Datum.",
+  "workedExample": "Beispiel: Geburtsdatum = 15. März 1990. Zieldatum = 1. Oktober 2026. Schritt 1 — volle Jahre vom 15.03.1990 bis 15.03.2026 = 36 Jahre. Schritt 2 — volle Monate vom 15.03.2026 bis 15.09.2026 = 6 Monate (der nächste volle Monat, 15. Oktober, überschreitet das Ziel). Schritt 3 — verbleibende Tage vom 15. September bis 1. Oktober = 16 Tage. Ergebnis: 36 Jahre, 6 Monate, 16 Tage. Gelebte Gesamttage = floor((01.10.2026 − 15.03.1990) / 86.400.000) = 13.349 Tage. Nächster Geburtstag (15. März 2027) liegt 165 Tage vom 1. Oktober 2026 entfernt.",
+  "resultInterpretation": "Der Wert „Jahre\" ist Ihr vollendetes Alter — die Zahl, die auf offiziellen Dokumenten und Formularen steht. „Monate\" gibt die Anzahl der zusätzlichen vollständigen Kalendermonate seit Ihrem letzten Geburtstag an. „Tage\" sind die verbleibenden Tage des aktuellen, noch unvollständigen Monats. Zusammen bilden diese drei Zahlen Ihr exaktes chronologisches Alter. „Nächster Geburtstag\" zeigt, wie viele Tage bis zu Ihrem nächsten Lebensjahr verbleiben — ideal für Countdowns und Meilenstein-Planung. „Gesamttage\" ist die absolute Tageszählung von der Geburt bis zum Zieldatum und besonders nützlich in medizinischen Kontexten (Neugeborenenalter), wissenschaftlichen Studien, rechtlichen Altersüberprüfungen und persönlichen Meilensteinen wie dem 10.000. Lebenstag.",
   "useCases": [
-    "Überprüfen Sie das genaue Alter der Formulare",
-    "Berechnung des Alters historischer Ereignisse",
-    "Schnelle Verarbeitung des Geburtsdatums von unterwegs"
+    "Ausfüllen von Altersangaben in Formularen und Anträgen, die eine genaue Aufschlüsselung in Jahre, Monate und Tage verlangen.",
+    "Berechnung des genauen Entwicklungsalters eines Kindes für pädiatrische Meilensteine oder Stichtage der Schuleinschreibung.",
+    "Prüfung, ob eine Person die Mindestaltersanforderung für Verträge, Führerschein oder Rente erfüllt.",
+    "Ermittlung des Alters historischer Ereignisse — z. B. seit wann ein berühmtes Gebäude steht.",
+    "Persönliche Neugier: den 10.000. Lebenstag feiern oder einen runden Geburtstag planen.",
+    "Berechnung des eigenen Alters zu einem bestimmten vergangenen Datum, etwa beim Jobbeginn oder der Hochzeit."
   ],
   "tipsAndLimitations": [
-    "Geht vom gregorianischen Kalender aus.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten vertraulich bleiben."
+    "Der Rechner setzt den gregorianischen Kalender voraus. Daten vor der gregorianischen Reform (15. Oktober 1582) können historisch ungenau sein.",
+    "Für Zeitspannen, die den Wechsel vom julianischen zum gregorianischen Kalender umfassen, verwenden Sie ein spezialisiertes historisches Datumstool.",
+    "Stellen Sie sicher, dass Datum und Uhrzeit Ihres Browsers korrekt eingestellt sind; der Standardwert „heute\" stammt von Ihrer Geräteuhr.",
+    "Bei Eingabe eines zukünftigen Geburtsdatums zeigt der Rechner einen Fehler an — ein negatives Alter kann nicht berechnet werden.",
+    "Das Feld „Zieldatum\" ist optional und steht standardmäßig auf dem heutigen Datum. Verwenden Sie es, um Ihr Alter zu einem vergangenen oder zukünftigen Zeitpunkt zu ermitteln.",
+    "Alle Berechnungen erfolgen lokal in Ihrem Browser per JavaScript; es werden keinerlei persönliche Daten an einen Server übertragen."
   ],
   "faq": [
     {
-      "question": "Berücksichtigt es Schaltjahre?",
-      "answer": "Ja, Schaltjahre werden vollständig berücksichtigt."
+      "question": "Wie alt bin ich genau — jetzt gerade?",
+      "answer": "Geben Sie Ihr Geburtsdatum in den Rechner oben ein und klicken Sie auf „Berechnen\". Sofort wird Ihr exaktes Alter in Jahren, Monaten und Tagen angezeigt, basierend auf dem lokalen Datum Ihres Browsers."
     },
     {
-      "question": "Ist die Nutzung des Altersrechners kostenlos?",
-      "answer": "Ja, unser Altersrechner ist völlig kostenlos und erfordert keine Registrierung."
+      "question": "Berücksichtigt der Rechner Schaltjahre?",
+      "answer": "Ja. Der Algorithmus verarbeitet Schaltjahre vollständig. Geburtstage am 29. Februar werden in Nicht-Schaltjahren als 1. März behandelt, was den gängigen rechtlichen und medizinischen Standards entspricht."
     },
     {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, das Tool reagiert vollständig und funktioniert auf allen Smartphones und Tablets einwandfrei."
+      "question": "Kann ich mein Alter zu einem vergangenen oder zukünftigen Datum berechnen?",
+      "answer": "Selbstverständlich. Nutzen Sie das optionale Feld „Zieldatum\", um ein beliebiges Datum — vergangen oder zukünftig — einzustellen. Ideal für historische Recherchen, rechtliche Stichtagsberechnungen oder die Planung eines zukünftigen Meilensteins."
+    },
+    {
+      "question": "Wie werden die „Gesamttage\" berechnet?",
+      "answer": "Gesamttage ist die absolute Anzahl von Tagen zwischen Geburtsdatum und Zieldatum, berechnet als floor((Zieldatum − Geburtsdatum) / 86.400.000 Millisekunden). Schalttage werden automatisch berücksichtigt, da die Berechnung auf echten Kalenderdaten basiert."
+    },
+    {
+      "question": "Warum weicht mein angezeigtes Alter manchmal um einen Tag ab?",
+      "answer": "Das kann vorkommen, wenn Ihre Browser-Uhr auf eine andere Zeitzone eingestellt ist als Ihr tatsächlicher Standort, oder wenn Mitternacht in Ihrer Zeitzone noch nicht vergangen ist. Überprüfen Sie die Systemuhr Ihres Geräts."
+    },
+    {
+      "question": "Was bedeutet „Nächster Geburtstag\" und wie wird er berechnet?",
+      "answer": "„Nächster Geburtstag\" zeigt die Anzahl der verbleibenden Tage bis zu Ihrem nächsten Jahrestag an. Das Tool sucht Ihren Geburtsmonat und -tag im aktuellen oder folgenden Kalenderjahr und subtrahiert das heutige Datum. Wenn heute Ihr Geburtstag ist, werden 0 oder 365/366 Tage bis zum Folgejahr angezeigt."
+    },
+    {
+      "question": "Ist dieses Tool wirklich kostenlos und datenschutzkonform?",
+      "answer": "Ja — vollständig kostenlos, ohne Account und komplett privat. Ihr Geburtsdatum verlässt Ihr Gerät zu keinem Zeitpunkt. Alle Berechnungen laufen lokal in Ihrem Browser per JavaScript."
+    },
+    {
+      "question": "Funktioniert der Rechner auf dem Smartphone oder Tablet?",
+      "answer": "Ja. Die Oberfläche ist vollständig responsiv und funktioniert auf allen modernen Smartphones, Tablets und Desktop-Browsern. Der Datumsauswähler passt sich auf Mobilgeräten an Touch-Eingaben an."
     }
   ],
   "relatedTools": [
-    "Datumsdifferenzrechner",
-    "Tage zwischen Daten",
-    "Tage-bis-Rechner"
+    "date-difference-calculator",
+    "days-between-dates",
+    "days-until-calculator",
+    "months-between-dates"
   ],
-  "lastReviewed": "29.09.2026",
-  "imageAlt": "Screenshot der Benutzeroberfläche des Altersrechners",
-  "ogImageText": "Altersrechner"
+  "cta": "Probieren Sie den Altersrechner jetzt aus — geben Sie oben Ihr Geburtsdatum ein und entdecken Sie, wie lange Sie bereits auf diesem Planeten leben, auf den Tag genau.",
+  "disclaimer": "Dieses Tool dient ausschließlich zu Informations- und persönlichen Zwecken. Für rechtliche, medizinische oder amtliche Zwecke überprüfen Sie Altersberechnungen stets anhand offizieller Dokumente wie einer Geburtsurkunde.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Altersrechner-Tool mit Geburtsdatumseingabe und Ergebnissen in Jahren, Monaten und Tagen",
+  "ogImageText": "Altersrechner – Jahre, Monate & Tage"
 }

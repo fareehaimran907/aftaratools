@@ -1,55 +1,53 @@
 {
-  "seoTitle": "BMI Hesaplayıcı",
-  "metaDescription": "Beden Kitle İndeksinizi hesaplayın.",
-  "h1": "BMI Hesaplayıcı",
-  "primaryKeyword": "BMI hesaplayıcı",
+  "seoTitle": "BMI Hesaplayıcı - Vücut Kitle İndeksinizi Çevrimiçi Kontrol Edin",
+  "metaDescription": "Ücretsiz çevrimiçi VKİ Hesaplayıcısı. Boy ve kilonuzu kullanarak Vücut Kitle İndeksinizi (VKİ) anında hesaplayın. Sağlıklı bir kilo aralığında olup olmadığınızı keşfedin.",
+  "h1": "Vücut Kitle İndeksi Hesaplayıcı",
+  "primaryKeyword": "vücut kitle indeksi hesaplayıcı",
   "secondaryKeywords": [
-    "BMI hesaplayıcı çevrimiçi",
-    "ücretsiz bmi hesaplayıcı",
-    "en iyi BMI hesaplayıcısı"
+    "vücut kitle indeksini hesapla",
+    "vücut kitle indeksi hesaplayıcısı",
+    "vücut kitle indeksi kontrolü",
+    "sağlıklı kilo hesaplayıcı"
   ],
-  "slug": "BMI-hesaplayıcı",
-  "intro": "Boyunuza ve kilonuza göre vücut kitle indeksinizi tahmin edin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "vki-hesaplama",
+  "intro": "Boyunuza göre kilonuzun sağlıklı olup olmadığını mı merak ediyorsunuz? Ücretsiz VKİ Hesaplayıcımız, Vücut Kitle İndeksinizi standart Dünya Sağlığı Örgütü kategorilerini kullanarak anında hesaplar.",
+  "whatIs": "VKİ (Vücut Kitle İndeksi) Hesaplayıcısı bir sağlık tarama aracıdır. Boyunuza ve kilonuza dayalı matematiksel bir formül kullanarak toplam vücut yağınızı tahmin eder ve sağlık riskinizi kategorize eder.",
   "howToUse": [
-    "Belirlenen giriş alanına boyunuzu girin.",
-    "Ağırlık gibi ikincil parametreleri sağlayın.",
-    "Vücut ağırlığını sınıflandıran bir sayı oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Tercih ettiğiniz ölçüm sistemini seçin (Metrik veya İmparatorluk).",
+    "Boyunuzu girin (cm veya feet/inç cinsinden).",
+    "Kilonuzu girin (kg veya pound cinsinden).",
+    "Araç, tam vücut kitle indeksinizi hesaplar ve sağlık kategorinizi gösterir."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, standart formülü kullanır: kilogram cinsinden ağırlık, metre cinsinden boyun karesine bölünür (kg/m²). İmperyal ölçümler için, sonucu kategorize etmeden önce (pound / inç²) × 703 olarak hesaplar.",
+  "workedExample": "Boyu 1,75 metre ve kilosu 70 kilogram olan bir kişi: 70 / (1,75 × 1,75) = 70 / 3,0625 = 22,86. 22,86 vücut kitle indeksi 'Normal/Sağlıklı Kilo' kategorisine girer.",
+  "resultInterpretation": "Bu sayı sağlık için genel bir gösterge sağlar. 18,5'in altında Zayıf; 18,5 ile 24,9 arasındaysa Normal; 25,0 ile 29,9 arasındaysa Fazla kilolu; 30,0 ve üzerindeyse Obez olarak kabul edilir.",
   "useCases": [
-    "Genel sağlık taraması",
-    "Tıbbi alım formları",
-    "Hareket halindeyken yüksekliği hızla işleyin"
+    "Kişisel Sağlık: Yeni bir diyet veya egzersiz programına başladığınızda, zaman içinde BMI’nizi takip etmek.",
+    "Tıbbi Tarama: Doktorlar, potansiyel kilo ile ilgili sağlık risklerini belirlemek için hızlı bir ilk tarama aracı olarak VKİ kullanıyor.",
+    "Fitness Planlaması: Boyunuza göre 'Normal' VKİ aralığına dayalı gerçekçi bir hedef kilo belirlemek."
   ],
   "tipsAndLimitations": [
-    "BMI kas ve yağ kütlesi arasında ayrım yapmaz.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "VKİ doğrudan vücut yağ yüzdesini ölçmez. Yağı ve kası ayırt edemez.",
+    "Oldukça kaslı sporcular, çok düşük vücut yağına sahip olmalarına rağmen, kas yağdan daha yoğun olduğu için BKI (BMI) ölçeğinde 'Obez' olarak değerlendirilebilir."
   ],
   "faq": [
     {
-      "question": "Is BMI accurate for athletes?",
-      "answer": "No, muscular individuals often classify as overweight falsely."
+      "question": "BKI herkes için doğru mudur?",
+      "answer": "Hayır. Ortalama nüfus için iyi bir genel kılavuz olmasına rağmen, hamile kadınlar, yoğun kaslı sporcular ve yaşlılar için yanıltıcıdır."
     },
     {
-      "question": "Is the BMI Calculator free to use?",
-      "answer": "Yes, our BMI Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Cinsiyet BKİ'yi etkiler mi?",
+      "answer": "Standart yetişkin VKİ formülü cinsiyeti hesaba katmaz. Ancak, kadınlar aynı VKİ'ye sahip olduğunda, erkeklerden doğal olarak biraz daha yüksek bir vücut yağ yüzdesine sahiptir."
     }
   ],
   "relatedTools": [
-    "bmr-hesap makinesi",
-    "kalori hesaplayıcı",
-    "makro-hesap makinesi"
+    "bmr-calculator",
+    "body-fat-calculator",
+    "calorie-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "BMI Hesaplayıcı",
-  "ogImageText": "BMI Hesaplayıcı"
+  "cta": "Şimdi BKI'nizi hesaplayın!",
+  "disclaimer": "Bu araç, WHO standartlarına dayalı genel sağlık tahminleri sağlar. Profesyonel tıbbi tavsiye veya tanı yerine geçmez.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Vücut Kitle İndeksi Hesaplayıcısı arayüzü sağlıklı bir sonucu gösteriyor",
+  "ogImageText": "VKİ Hesaplayıcı"
 }

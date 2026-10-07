@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Generator Kode Batang - Buat Kode Batang Kustom Secara Online",
+  "metaDescription": "Generator Barcode Online Gratis. Buat barcode 1D yang dapat dipindai (Code 128, UPC, EAN) secara instan. Unduh gambar berkualitas tinggi untuk ritel dan inventaris.",
+  "h1": "Pembuat Kode Batang",
+  "primaryKeyword": "generator kode batang",
+  "secondaryKeywords": [
+    "buat kode batang secara online",
+    "generator UPC",
+    "generator kode 128",
+    "pembuat kode batang gratis"
+  ],
+  "slug": "pembuat-kode-batang",
+  "intro": "Mengelola gudang atau meluncurkan produk ritel? Generator Kode Batang gratis kami membuat kode batang 1D berkualitas tinggi yang dapat dipindai secara instan dalam format standar seperti Code 128 dan UPC.",
+  "whatIs": "Generator Barcode adalah utilitas grafis digital. Ini mengambil data alfanumerik (seperti SKU produk atau nomor seri) dan menerjemahkannya menjadi pola garis hitam dan putih paralel yang dapat dibaca mesin.",
+  "howToUse": [
+    "Masukkan teks, angka, atau SKU yang ingin Anda kodekan ke dalam kotak input.",
+    "Pilih format barcode yang Anda butuhkan (misalnya, Code 128 paling baik untuk inventaris umum).",
+    "Alat ini menghasilkan gambar kode batang secara instan.",
+    "Klik 'Download' untuk menyimpan kode batang sebagai file gambar."
+  ],
+  "howItWorks": "Alat ini menggunakan perpustakaan rendering untuk memetakan karakter teks Anda ke pola lebar garis spesifik yang ditentukan oleh standar barcode yang Anda pilih. Kemudian alat ini merender garis-garis tersebut ke elemen HTML5 Canvas untuk memudahkan pengunduhan.",
+  "workedExample": "Anda memilih 'Code 128' dan memasukkan 'SKU-5542'. Alat tersebut menghitung karakter awal, lebar batang spesifik untuk huruf dan angka tersebut, menambahkan digit cek untuk akurasi pemindaian, dan menampilkan kode batang secara visual.",
+  "resultInterpretation": "Gambar yang dihasilkan dapat dicetak pada label atau kemasan produk. Setiap pemindai kode batang laser atau optik standar akan dapat membaca garis-garis tersebut dan menampilkan teks asli Anda.",
+  "useCases": [
+    "Manajemen Inventaris: Membuat label pelacakan untuk kotak di gudang.",
+    "Penjualan Ritel: Membuat kode batang UPC-A atau EAN-13 untuk produk fisik agar dapat dipindai di kasir (POS).",
+    "Sistem Perpustakaan: Membuat tag ID yang dapat dipindai untuk buku atau aset media."
+  ],
+  "tipsAndLimitations": [
+    "Kode 128 adalah format yang paling serbaguna, karena mendukung huruf dan angka dengan panjang yang bervariasi.",
+    "Kode batang ritel (UPC-A) memerlukan tepat 11 atau 12 digit angka. Alat ini akan menampilkan kesalahan jika Anda mencoba menggunakan huruf dalam kode batang UPC."
+  ],
+  "faq": [
+    {
+      "question": "Apa perbedaan antara Code 128 dan UPC?",
+      "answer": "Code 128 digunakan untuk pelacakan umum dan mendukung semua huruf dan angka. UPC (Universal Product Code) diatur secara ketat, hanya angka, dan diwajibkan untuk menjual barang di toko ritel di Amerika Utara."
+    },
+    {
+      "question": "Apakah barcode ini legal untuk dijual eceran?",
+      "answer": "Gambar barcode yang dihasilkan secara matematis sempurna dan dapat dipindai. Namun, untuk menjual produk di toko ritel besar, Anda harus secara legal membeli nomor UPC yang terdaftar dari GS1. Anda tidak bisa hanya menciptakan nomor sendiri."
+    }
+  ],
+  "relatedTools": [
+    "qr-code-generator",
+    "base64-encode-decode",
+    "random-number-generator"
+  ],
+  "cta": "Buat kode batang kustom Anda sekarang!",
+  "disclaimer": "Barcode dibuat secara lokal. Pengguna bertanggung jawab untuk memastikan kode yang dihasilkan tidak bertentangan dengan sistem ritel yang terdaftar di GS1 jika digunakan secara komersial.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka pembuat kode batang yang menampilkan kode batang Code 128",
+  "ogImageText": "Pembuat Kode Batang"
+}

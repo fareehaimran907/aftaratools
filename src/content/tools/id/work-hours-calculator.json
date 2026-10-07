@@ -6,20 +6,21 @@
   "secondaryKeywords": [
     "Kalkulator Jam Kerja online",
     "Kalkulator Jam Kerja gratis",
+    "Kalkulator Jam Kerja terbaik",
     "Kalkulator Jam Kerja terbaik"
   ],
-  "slug": "kalkulator jam kerja",
-  "intro": "Tambahkan jam absen Anda dengan mudah termasuk waktu istirahat.",
-  "whatIs": "Alat apa ini?",
+  "slug": "kalkulator-jam-kerja",
+  "intro": "Apakah Anda menghabiskan terlalu banyak waktu untuk menghitung gaji mingguan Anda secara manual atau mencoba mencari tahu apakah Anda berhak atas upah lembur? Kalkulator jam kerja online kami yang bebas biaya menghilangkan sakit kepala akibat pelacakan waktu. Entah Anda adalah pekerja lepas yang menagih klien per jam, karyawan yang memeriksa gaji, atau manajer yang menjadwalkan pergantian jam kerja, alat ini menghitung secara tepat total jam kerja dan gaji yang diharapkan. Hanya dengan menginput waktu mulai dan berakhir Anda, serta waktu istirahat yang tidak dibayar, kalkulator ini secara seketika akan menentukan waktu kerja Anda yang sebenarnya hingga ke menit-menit terakhir. Sederhanakan daftar gaji Anda, pastikan penagihan yang akurat, dan dapatkan transparansi penuh atas pendapatan Anda.",
+  "whatIs": "Kalkulator jam kerja merupakan alat bantu penggajian dan manajemen waktu yang komprehensif, yang didesain untuk menghitung waktu pasti yang dihabiskan dalam pekerjaan dan penghasilan yang didapat. Berbeda dengan jam sederhana, alat ini menangani matematika format waktu yang rumit (jam dan menit) yang pada umumnya terasa membosankan untuk dihitung secara manual untuk penggajian. Anda menginput waktu mulai dan waktu selesai untuk setiap hari, menentukan waktu istirahat yang tidak dibayar (misalnya makan siang), dan sistem akan secara otomatis menentukan total jam kerja bersih. Jika Anda memberikan tarif per jam, alat ini juga berfungsi sebagai pengestimasi gaji kotor, sehingga memudahkan Anda untuk memproyeksikan pendapatan atau membuat tagihan (invoice) untuk periode pembayaran harian, mingguan, atau dwi mingguan.",
   "howToUse": [
     "Masukkan jam Anda tepat waktu ke dalam kolom input yang ditentukan.",
     "Berikan parameter sekunder seperti waktu keluar.",
     "Klik tombol hitung atau kirim untuk menghasilkan total jam dikurangi istirahat yang belum dibayar.",
     "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
   ],
-  "howItWorks": "Bagaimana cara kerjanya",
-  "workedExample": "Contoh",
-  "resultInterpretation": "Interpretasi",
+  "howItWorks": "Alat ini bekerja dengan menerjemahkan input waktu standar dalam format 12 jam atau 24 jam ke dalam waktu desimal yang diperlukan untuk penghitungan upah. Misalnya, jika Anda masuk kerja pada pukul 08.00 pagi dan keluar kerja pada pukul 16.30 sore, alat ini akan menghitung 8 jam 30 menit. Jika Anda merinci waktu istirahat 30 menit yang tidak dibayar, alat ini akan menguranginya, sehingga menghasilkan waktu kerja tepat 8 jam. Waktu 8 jam ini lalu dikalikan dengan tarif per jam yang Anda masukkan untuk mengestimasi gaji kotor di hari tersebut. Untuk masukan (input) dalam beberapa hari, kalkulator akan menjumlahkan angka-angka harian ini untuk menyajikan jumlah jam dan pendapatan kumulatif mingguan atau periode penggajian, memastikan tak ada satu menit pun yang terlewatkan.",
+  "workedExample": "Misalkan Anda adalah pekerja lepas yang menagih 25 USD per jam. Pada hari Senin, Anda mulai bekerja pada pukul 09.00 pagi, beristirahat makan siang selama 45 menit tanpa dibayar pada siang hari, dan selesai bekerja pada pukul 17.15 sore. Anda memasukkan waktu-waktu ini ke dalam kalkulator. Alat ini menghitung waktu total di antara jam 09.00 dan 17.15 yaitu 8 jam 15 menit. Alat ini kemudian mengurangi waktu istirahat 45 menit, menyisakan waktu tepat 7 jam dan 30 menit sebagai waktu yang dapat ditagihkan. Untuk penghitungan penghasilan, alat ini mengubah 30 menit menjadi desimal 0,5 jam. Kemudian, dikalikan 7,5 jam dengan tarif 25 USD Anda, yang menghasilkan total pendapatan 187,50 USD untuk hari itu.",
+  "resultInterpretation": "Hasil yang dibuat oleh kalkulator ini biasanya menampilkan dua metrik utama: total waktu kerja bersih Anda (disajikan dalam jam dan menit maupun format desimal) dan estimasi pendapatan kotor Anda. Format waktu desimal (misalnya, 7,5 jam, bukan 7 jam 30 menit) sangatlah penting karena itu adalah format standar yang digunakan oleh sistem penggajian. Pendapatan kotor yang ditampilkan adalah gaji Anda sebelum pajak dan potongan; hal ini mewakili apa yang telah Anda peroleh berdasarkan tarif per jam Anda saja. Data ini bisa secara langsung dipergunakan untuk menagih klien, mengecek silang cek gaji resmi Anda demi mengetahui adanya ketidaksesuaian, atau melacak ambang batas waktu lembur.",
   "useCases": [
     "Penagihan lepas",
     "Estimasi penggajian",
@@ -27,8 +28,7 @@
   ],
   "tipsAndLimitations": [
     "Tidak secara otomatis menghitung pajak.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik."
   ],
   "faq": [
     {
@@ -38,17 +38,15 @@
     {
       "question": "Apakah ini berfungsi di perangkat seluler?",
       "answer": "Ya, ini sepenuhnya responsif dan berfungsi di semua perangkat."
-    },
-    {
-      "question": "Apakah saya perlu mengunduh sesuatu?",
-      "answer": "Tidak, ini berfungsi sepenuhnya di browser Anda tanpa instalasi apa pun."
     }
   ],
   "relatedTools": [
-    "kalkulator usia",
-    "kalkulator-perbedaan tanggal",
-    "hari-antara-tanggal"
+    "overtime-calculator",
+    "tax-calculator",
+    "roi-calculator"
   ],
+  "cta": "Hitung jam kerja mingguan Anda sekarang!",
+  "disclaimer": "Alat ini secara ketat menghitung waktu yang telah berlalu dikurangi istirahat. Konsultasikan undang-undang ketenagakerjaan setempat mengenai istirahat berbayar wajib dibandingkan dengan periode makan tanpa dibayar.",
   "lastReviewed": "2026-09-30",
   "imageAlt": "Kalkulator Jam Kerja",
   "ogImageText": "Kalkulator Jam Kerja"

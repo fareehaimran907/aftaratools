@@ -1,55 +1,60 @@
 {
-  "seoTitle": "Tijdsduurcalculator",
-  "metaDescription": "Bereken de exacte duur tussen twee keer.",
-  "h1": "Tijdsduurcalculator",
-  "primaryKeyword": "tijdsduur rekenmachine",
+  "seoTitle": "Tijdsduur Calculator - Bereken Verstreken Tijd",
+  "metaDescription": "Bereken eenvoudig de duur tussen twee tijden in uren en minuten. Ondersteunt overgangen rond middernacht en decimale uren voor salarisadministratie.",
+  "h1": "Tijdsduur Calculator",
+  "primaryKeyword": "tijdsduur calculator",
   "secondaryKeywords": [
-    "Tijdsduurcalculator online",
-    "gratis tijdsduurcalculator",
-    "beste tijdsduurcalculator"
+    "verstreken tijd berekenen",
+    "verstreken tijd tussen twee tijden",
+    "uren en minuten calculator"
   ],
   "slug": "tijdsduur-calculator",
-  "intro": "Vind de exacte uren en minuten tussen een starttijd en een eindtijd.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "intro": "Snel de exacte tijd berekenen die aan een taak is besteed? De Tijdsduur Calculator meet direct de verstreken uren en minuten tussen een start- en eindtijd. Of u nu factureerbare uren voor klanten bijhoudt, een wekelijkse urenstaat invult, studiesessies controleert of reisduren berekent, deze eenvoudige maar krachtige tool zorgt ervoor dat u nooit meer tijdrekenen uit het hoofd hoeft te doen.",
+  "whatIs": "De Tijdsduur Calculator is een gespecialiseerd online hulpprogramma dat is ontworpen om de exacte tijdsduur te meten die verstrijkt tussen een specifieke starttijd en eindtijd. In tegenstelling tot eenvoudig optellen of aftrekken, werkt tijdrekenen op een basis-60 systeem (60 minuten in een uur, 24 uur in een dag), waardoor hoofdrekenen gevoelig is voor fouten. Deze tool gaat naadloos om met deze complexiteiten en biedt u een nauwkeurige duur uitgedrukt in standaarduren en minuten, evenals een decimaal formaat voor salarisverwerking.",
   "howToUse": [
-    "Voer uw starttijd in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals de eindtijd.",
-    "Klik op de knop Berekenen of Verzenden om het totaal aantal verstreken uren en minuten te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Stap 1: Selecteer of typ uw starttijd in het eerste invoerveld en zorg ervoor dat de AM/PM-aanduiding correct is als u een 12-uursformaat gebruikt.",
+    "Stap 2: Selecteer uw eindtijd in het tweede invoerveld.",
+    "Stap 3: Als uw activiteit na middernacht doorgaat tot de volgende dag, voert u gewoon normaal de eindtijd in. De calculator detecteert dit automatisch.",
+    "Stap 4: Klik op 'Berekenen' om direct de duur te zien.",
+    "Stap 5: Bekijk de resultaten, die worden weergegeven in standaarduren en minuten, totale minuten en decimale uren voor urenstaten."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "De tool converteert zowel de start- als de eindtijd naar het totale aantal minuten dat is verstreken sinds middernacht. Vervolgens berekent het het wiskundige verschil tussen deze twee minuutwaarden. Cruciaal is dat het algoritme automatisch rekening houdt met nachtelijke perioden; als de eindtijd numeriek eerder is dan de starttijd, begrijpt de tool dat de duur middernacht is gepasseerd en voegt het intelligent 24 uur (1440 minuten) toe aan de berekening om de correcte verstreken tijd op te leveren.",
+  "workedExample": "Stel, u begint een nachtdienst om 22:30 uur (10:30 PM) en klokt de volgende ochtend om 06:15 uur (6:15 AM) uit. De calculator converteert eerst beide tijden. Omdat hij herkent dat 06:15 eerder is dan 22:30, voegt hij automatisch een volledige cyclus van 24 uur toe aan de eindtijd om rekening te houden met de overgang van middernacht. Hij berekent het verschil, wat resulteert in een totale verstreken duur van precies 7 uur en 45 minuten.",
+  "resultInterpretation": "Het hoofddisplay toont duidelijk de verstreken standaarduren en minuten (bijv. 7u 45m). Bovendien tonen kleinere aanvullende vakken het decimale uurequivalent (7,75 uur) en het totale aantal onbewerkte minuten (465 minuten). Het decimale uurformaat is bijzonder essentieel voor de boekhouding en human resources, omdat het u in staat stelt uw gewerkte tijd rechtstreeks te vermenigvuldigen met een uurloon.",
   "useCases": [
-    "Berekening van urenstaten",
-    "Vluchtduur",
-    "Onderweg snel de starttijd verwerken"
+    "Urenstaten en Salarisadministratie: Registreren van exacte gewerkte uren voor freelance facturering, facturering van aannemers of tijdregistratie van werknemers.",
+    "Studie- of Trainingsregistratie: Precies meten hoelang een specifieke academische studiesessie of sportschooltraining duurde.",
+    "Luchtvaart en Transport: Berekenen van bloktijden, vluchtduren of de lengte van chauffeursdiensten over verschillende perioden.",
+    "Projectbeheer: De exacte tijd bijhouden die aan specifieke taken is besteed om toekomstige tijdschattingen te verbeteren."
   ],
   "tipsAndLimitations": [
-    "Zorg ervoor dat AM/PM correct is ingesteld.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Tip: Decimale uren zijn buitengewoon handig voor salarisadministratie. Als u 8 uur en 30 minuten werkt tegen $ 20/uur, vermenigvuldigt u 8,5 met 20.",
+    "Beperking: Deze tool berekent strikt de verstreken tijd op basis van een standaarddag van 24 uur. Er wordt geen rekening gehouden met wijzigingen in de zomertijd die kunnen optreden tijdens de gemeten periode.",
+    "Tip: Als u het verschil over meerdere dagen of datums moet berekenen, overweeg dan om in plaats daarvan onze Datumverschil Calculator te gebruiken."
   ],
   "faq": [
     {
-      "question": "Is de tijdsduurcalculator gratis te gebruiken?",
-      "answer": "Ja, onze tijdsduurcalculator is volledig gratis te gebruiken."
+      "question": "Wat gebeurt er als mijn evenement middernacht passeert naar de volgende dag?",
+      "answer": "De calculator detecteert automatisch of de eindtijd eerder is dan de starttijd. Wanneer dit gebeurt, gaat het ervan uit dat de gebeurtenis middernacht is gepasseerd en voegt naadloos 24 uur toe aan de berekening om u de juiste duur te geven."
     },
     {
-      "question": "Werkt dit op mobiel?",
-      "answer": "Ja, het is volledig responsief en werkt op alle apparaten."
+      "question": "Hoe worden decimale uren berekend en waarom zijn ze nuttig?",
+      "answer": "Decimale uren worden berekend door de totale minuten door 60 te delen. 30 minuten wordt bijvoorbeeld 0,5 uur en 45 minuten wordt 0,75 uur. Dit formaat is essentieel voor salarisadministratie, omdat u eenvoudig een decimaal uur kunt vermenigvuldigen met een uurloon."
     },
     {
-      "question": "Moet ik iets downloaden?",
-      "answer": "Nee, het werkt volledig in uw browser, zonder enige installatie."
+      "question": "Ondersteunt het zowel 12-uurs als 24-uurs tijdformaten?",
+      "answer": "Ja, afhankelijk van uw systeeminstellingen en browser, passen de tijdinvoer zich aan de standaard 12-uurs AM/PM-formaten of militaire 24-uurs tijdformaten aan."
     }
   ],
   "relatedTools": [
-    "leeftijd-calculator",
-    "datumverschil-calculator",
-    "dagen-tussen-data"
+    "time-difference-calculator",
+    "months-between-dates",
+    "world-time-converter",
+    "countdown-timer"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Tijdsduurcalculator",
-  "ogImageText": "Tijdsduurcalculator"
+  "cta": "Bereken uw exacte verstreken tijdsduur onmiddellijk!",
+  "disclaimer": "Deze tool is bedoeld voor basis tijdsberekeningen en houdt geen rekening met wijzigingen in tijdzones of zomertijdverschuivingen tijdens de verstreken periode. Controleer de resultaten voor strikte salaristoepassingen.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Screenshot van de tijdsduur calculator met uren, minuten en decimale uren",
+  "ogImageText": "Tijdsduur Calculator"
 }

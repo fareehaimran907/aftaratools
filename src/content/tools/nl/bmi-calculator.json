@@ -1,55 +1,53 @@
 {
-  "seoTitle": "BMI-calculator",
-  "metaDescription": "Bereken uw Body Mass Index.",
+  "seoTitle": "BMI Calculator - Controleer Uw Body Mass Index Online",
+  "metaDescription": "Gratis online BMI-calculator. Bereken direct uw Body Mass Index (BMI) met uw lengte en gewicht. Ontdek of u zich in een gezond gewichtbereik bevindt.",
   "h1": "BMI-calculator",
-  "primaryKeyword": "bmi rekenmachine",
+  "primaryKeyword": "bmi-calculator",
   "secondaryKeywords": [
-    "bmi-calculator online",
-    "gratis bmi-calculator",
-    "beste bmi-calculator"
+    "BMI berekenen",
+    "Bodymassindexcalculator",
+    "bmi checker",
+    "gezond gewicht calculator"
   ],
-  "slug": "bmi-rekenmachine",
-  "intro": "Schat uw body mass index op basis van uw lengte en gewicht.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "slug": "bmi-calculator",
+  "intro": "Wilt u weten of uw gewicht gezond is voor uw lengte? Onze gratis BMI Calculator berekent direct uw Body Mass Index aan de hand van de standaardcategorieën van de Wereldgezondheidsorganisatie.",
+  "whatIs": "De BMI (Body Mass Index) Calculator is een gezondheidsscreeningtool. Het gebruikt een wiskundige formule gebaseerd op je lengte en gewicht om je totale lichaamsvet te schatten en je gezondheidsrisico te categoriseren.",
   "howToUse": [
-    "Voer uw lengte in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals gewicht.",
-    "Klik op de knop Berekenen of Verzenden om een ​​getal te genereren dat het lichaamsgewicht classificeert.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Selecteer uw voorkeursmeetsysteem (Metrisch of Imperial).",
+    "Voer uw lengte in (in cm of voet/inches).",
+    "Voer uw gewicht in (in kg of pond).",
+    "Het hulpmiddel berekent je exacte BMI en toont je gezondheidscategorie."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "Het hulpmiddel gebruikt de standaardformule: gewicht in kilogram gedeeld door lengte in meters in het kwadraat (kg/m²). Voor imperiale invoer berekent het (ponden / inches²) × 703 voordat het het resultaat categoriseert.",
+  "workedExample": "Een persoon die 1,75 meter lang is en 70 kilogram weegt: 70 / (1,75 × 1,75) = 70 / 3,0625 = 22,86. Een BMI van 22,86 valt in de categorie 'Normaal/Gezond gewicht'.",
+  "resultInterpretation": "Het getal geeft een algemene indicator van de gezondheid. Lager dan 18,5 is Ondergewicht; 18,5 tot 24,9 is Normaal; 25,0 tot 29,9 is Overgewicht; 30,0 en hoger is Obesitas.",
   "useCases": [
-    "Algemene gezondheidsscreening",
-    "Medische intakeformulieren",
-    "Onderweg snel hoogte verwerken"
+    "Persoonlijke gezondheid: Het volgen van je BMI in de loop van de tijd terwijl je aan een nieuw dieet of oefenprogramma begint.",
+    "Medische screenings: Artsen gebruiken BMI als een snelle initiële screeningsmethode om mogelijke gezondheidsrisico's gerelateerd aan gewicht te identificeren.",
+    "Fitnessplanning: Het stellen van een realistisch streefgewicht op basis van het 'Normale' BMI-bereik voor je lengte."
   ],
   "tipsAndLimitations": [
-    "BMI maakt geen onderscheid tussen spier- en vetmassa.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "BMI meet niet direct het lichaamsvetpercentage. Het kan niet onderscheid maken tussen vet en spier.",
+    "Zeer gespierde atleten kunnen op een BMI-schaal als 'Obees' worden beoordeeld, ondanks dat ze een zeer laag lichaamsvet hebben, omdat spiermassa dichter is dan vet."
   ],
   "faq": [
     {
-      "question": "Is BMI accuraat voor atleten?",
-      "answer": "Nee, gespierde individuen classificeren vaak ten onrechte als overgewicht."
+      "question": "Is BMI nauwkeurig voor iedereen?",
+      "answer": "Nee. Hoewel het een goede algemene richtlijn is voor de gemiddelde bevolking, is het onnauwkeurig voor zwangere vrouwen, zwaar gespierde atleten en ouderen."
     },
     {
-      "question": "Is de BMI-calculator gratis te gebruiken?",
-      "answer": "Ja, onze BMI-calculator is volledig gratis en vereist geen registratie."
-    },
-    {
-      "question": "Werkt dit op mobiele apparaten?",
-      "answer": "Ja, de tool is volledig responsive en functioneert perfect op alle smartphones en tablets."
+      "question": "Beïnvloedt geslacht de BMI?",
+      "answer": "De standaard BMI-formule voor volwassenen houdt geen rekening met geslacht. Vrouwen hebben echter van nature een iets hoger lichaamsvetpercentage dan mannen bij dezelfde BMI."
     }
   ],
   "relatedTools": [
-    "bmr-rekenmachine",
-    "calorie-calculator",
-    "macro-rekenmachine"
+    "bmr-calculator",
+    "body-fat-calculator",
+    "calorie-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "BMI-calculator",
-  "ogImageText": "BMI-calculator"
+  "cta": "Bereken nu je BMI!",
+  "disclaimer": "Dit hulpmiddel biedt algemene gezondheidsramingen op basis van de normen van de WHO. Het is geen vervanging voor professioneel medisch advies of diagnose.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "BMI-calculatorinterface die een gezond resultaat toont",
+  "ogImageText": "BMI Calculator"
 }

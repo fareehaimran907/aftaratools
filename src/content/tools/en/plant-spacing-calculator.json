@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Plant Spacing Calculator",
-  "metaDescription": "Free online Plant Spacing Calculator. Calculate how many plants you need.",
+  "seoTitle": "Plant Spacing Calculator - Garden Layout Tool",
+  "metaDescription": "Free online Plant Spacing Calculator. Calculate exactly how many plants, shrubs, or trees you can fit in your garden bed based on grid or triangular spacing.",
   "h1": "Plant Spacing Calculator",
   "primaryKeyword": "plant spacing calculator",
   "secondaryKeywords": [
-    "plant spacing calculator online",
-    "free plant spacing calculator",
-    "best plant spacing calculator"
+    "how many plants do I need",
+    "garden layout calculator",
+    "triangular spacing calculator",
+    "shrub spacing calculator"
   ],
   "slug": "plant-spacing-calculator",
-  "intro": "Use our free online Plant Spacing Calculator tool. It finds how many plants fit based on your inputs.",
-  "whatIs": "The Plant Spacing Calculator is an online utility that finds how many plants fit. It processes your garden area and provides number of plants required.",
+  "intro": "Planning a new hedge or a vegetable garden? Our free Plant Spacing Calculator ensures you don't over-purchase at the nursery by determining exactly how many plants will fit in your space.",
+  "whatIs": "The Plant Spacing Calculator is an agricultural and landscaping layout tool. It calculates the maximum capacity of a designated planting area based on the required physical distance between each plant's root system.",
   "howToUse": [
-    "Enter your garden area into the designated input field.",
-    "Provide any secondary parameters like spacing distance.",
-    "Click the calculate or submit button to generate number of plants required.",
-    "Copy or review the resulting output for your needs."
+    "Enter the length and width of your garden bed.",
+    "Enter the required spacing distance between plants (e.g., 12 inches).",
+    "Select your layout pattern (Square/Grid or Triangular/Hexagonal).",
+    "The tool instantly outputs the maximum number of plants you can fit."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your garden area. It instantly processes the data to output number of plants required.",
-  "workedExample": "For example: 100 sq ft with 1ft spacing holds ~100 plants.",
-  "resultInterpretation": "The result represents number of plants required. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "For a Square layout, the tool divides the area's length by the spacing distance, then the width by the spacing, and multiplies the two numbers. For a Triangular layout (which staggers the rows like a honeycomb), the tool applies a multiplier (usually 1.15) to calculate the denser packing capacity.",
+  "workedExample": "A 10ft by 10ft garden bed (120x120 inches). You want to plant tomatoes that require 24 inches of space. 120 / 24 = 5 plants per row. 5 rows × 5 columns = 25 total plants in a square grid.",
+  "resultInterpretation": "The result is your exact nursery shopping list. Sticking to this number prevents overcrowding, which can lead to stunted growth, fungal diseases due to poor airflow, and root competition.",
   "useCases": [
-    "Farming plots",
-    "Flower bed design",
-    "Quickly processing garden area on the go"
+    "Vegetable Gardening: Figuring out how many pepper or tomato plants can safely fit in a new raised wooden planter box.",
+    "Landscaping: Calculating how many Boxwood shrubs are required to form a dense, continuous privacy hedge along a 50-foot property line.",
+    "Farming: Agricultural planning to determine seed purchasing requirements for a one-acre cash crop."
   ],
   "tipsAndLimitations": [
-    "Account for mature plant spread, not seedling size.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "Triangular (staggered) spacing is more efficient and allows you to fit up to 15% more plants in the exact same area without violating the root spacing requirements.",
+    "Always leave a 'border gap' of at least half the spacing distance between the edge of your bed and the first row of plants so they don't spill out."
   ],
   "faq": [
     {
-      "question": "What is hexagonal spacing?",
-      "answer": "A staggered layout that fits roughly 15% more plants."
+      "question": "What is triangular spacing?",
+      "answer": "Instead of planting in a perfect square grid like a chessboard, triangular spacing shifts every other row so the plants sit in the empty gaps of the previous row, forming a honeycomb pattern."
     },
     {
-      "question": "Is the Plant Spacing Calculator free to use?",
-      "answer": "Yes, our Plant Spacing Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "How do I know what the spacing should be?",
+      "answer": "Every seed packet or nursery plant tag will list a 'Spacing' requirement (e.g., 18 inches). This is the distance required for the mature plant to be healthy."
     }
   ],
   "relatedTools": [
+    "mulch-calculator",
     "square-footage-calculator",
-    "paint-calculator",
-    "tile-calculator"
+    "fence-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Plant Spacing Calculator interface screenshot",
+  "cta": "Calculate your garden layout now!",
+  "disclaimer": "The calculator provides strict geometric capacities. Always refer to specific plant tags for unique growth habits and sunlight requirements.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Plant Spacing Calculator showing triangular layout",
   "ogImageText": "Plant Spacing Calculator"
 }

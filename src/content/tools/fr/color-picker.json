@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Sélecteur de couleur - Trouver les codes HEX, RVB et HSL",
+  "metaDescription": "Sélecteur de couleur en ligne gratuit. Sélectionnez visuellement la couleur parfaite et copiez instantanément les codes HEX, RGB et HSL pour vos projets de conception web ou d'art graphique.",
+  "h1": "Sélecteur de couleur",
+  "primaryKeyword": "sélecteur de couleur",
+  "secondaryKeywords": [
+    "sélecteur de couleur HTML",
+    "chercheur de code couleur",
+    "sélecteur de couleur hex",
+    "sélecteur de couleur RVB"
+  ],
+  "slug": "sélecteur-de-couleur",
+  "intro": "Vous cherchez la teinte exacte de bleu pour l'arrière-plan de votre site web ? Notre sélecteur de couleurs en ligne gratuit vous permet de choisir visuellement les couleurs et vous fournit les formats de code exacts dont les développeurs et les designers ont besoin.",
+  "whatIs": "Le Sélecteur de Couleurs est un outil visuel de conception web. Il fournit une interface graphique (une carte de dégradé de couleurs et un curseur de teinte) permettant aux utilisateurs de sélectionner une couleur spécifique et affiche automatiquement ses valeurs mathématiques en HEX, RGB et HSL.",
+  "howToUse": [
+    "Faites glisser le curseur pour sélectionner votre couleur de base (teinte).",
+    "Cliquez et faites glisser le curseur à l'intérieur de la boîte de couleur pour ajuster la luminosité et la saturation.",
+    "L'outil se met instantanément à jour pour afficher la couleur sélectionnée.",
+    "Copiez les codes HEX, RGB ou HSL fournis pour votre projet."
+  ],
+  "howItWorks": "L'interface graphique mappe les coordonnées X/Y sur les valeurs de Saturation et de Luminosité, tandis que le curseur correspond à une Teinte de 360 degrés. L'outil calcule ces valeurs en entiers RVB standard (Rouge, Vert, Bleu) et les convertit en une chaîne HEX en base 16.",
+  "workedExample": "Vous faites glisser le curseur vers le rouge pur et le curseur dans le coin supérieur droit. L'outil calcule Rouge Maximum (255), Vert Zéro (0), Bleu Zéro (0). Il affiche RGB(255, 0, 0) et le code Hex #FF0000.",
+  "resultInterpretation": "Les codes fournis représentent l'instruction numérique exacte nécessaire à un navigateur web ou à un logiciel de conception (comme Photoshop) pour afficher la couleur précise que vous avez sélectionnée.",
+  "useCases": [
+    "Développement Web : Trouver le code HEX exact à utiliser dans un fichier CSS pour l'arrière-plan d'un bouton.",
+    "Design graphique : Créer une identité de marque en sélectionnant et en enregistrant des couleurs primaires spécifiques.",
+    "Art numérique : Trouver la teinte parfaite pour la peinture numérique ou les éléments d'interface utilisateur."
+  ],
+  "tipsAndLimitations": [
+    "Les codes HEX commencent toujours par un hashtag (#) et se composent de 6 caractères alphanumériques.",
+    "Les couleurs peuvent sembler légèrement différentes selon le moniteur physique que vous utilisez et sa calibration des couleurs."
+  ],
+  "faq": [
+    {
+      "question": "Quelle est la différence entre HEX et RGB ?",
+      "answer": "Ils représentent exactement la même couleur. RGB utilise des nombres en base 10 (0-255) pour le rouge, le vert et le bleu. HEX représente ces mêmes nombres en utilisant le format hexadécimal en base 16, ce qui est plus court et préféré en CSS."
+    },
+    {
+      "question": "Qu'est-ce que HSL ?",
+      "answer": "HSL signifie Teinte, Saturation, Luminosité. De nombreux designers le préfèrent au RVB car il est plus intuitif : on choisit la couleur de base (Teinte), son intensité (Saturation) et son niveau de clarté/obscurité (Luminosité)."
+    }
+  ],
+  "relatedTools": [
+    "hex-to-rgb",
+    "rgb-to-hex",
+    "color-palette-generator"
+  ],
+  "cta": "Choisissez votre code couleur parfait maintenant !",
+  "disclaimer": "La reproduction des couleurs numériques dépend fortement de l'étalonnage du moniteur de l'utilisateur (sRGB vs Display P3) et des réglages de luminosité.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface de sélection de couleur visuelle avec sorties HEX et RGB",
+  "ogImageText": "Sélecteur de couleur"
+}

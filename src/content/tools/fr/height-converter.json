@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Convertisseur de hauteur",
-  "metaDescription": "Convertissez la hauteur des pieds et des pouces en cm.",
-  "h1": "Convertisseur de hauteur",
-  "primaryKeyword": "convertisseur de hauteur",
+  "seoTitle": "Convertisseur de Taille - cm en pieds et pouces",
+  "metaDescription": "Convertisseur de taille humaine gratuit. Convertissez facilement entre centimètres (cm) et pieds + pouces. Parfait pour les passeports et applications.",
+  "h1": "Convertisseur de Taille",
+  "primaryKeyword": "convertisseur de taille",
   "secondaryKeywords": [
-    "Convertisseur de hauteur en ligne",
-    "Convertisseur de hauteur gratuit",
-    "meilleur convertisseur de hauteur"
+    "cm en pieds et pouces",
+    "pieds et pouces en cm",
+    "convertir taille humaine"
   ],
-  "slug": "convertisseur de hauteur",
-  "intro": "Convertissez facilement la taille humaine entre les systèmes métriques et impériaux.",
-  "whatIs": "Quel est cet outil ?",
-  "howToUse": [
-    "Entrez votre cm dans le champ de saisie désigné.",
-    "Fournissez tous les paramètres secondaires tels que les pieds et les pouces.",
-    "Cliquez sur le bouton Calculer ou Soumettre pour générer une hauteur correctement formatée.",
-    "Copiez ou examinez le résultat obtenu selon vos besoins."
-  ],
-  "howItWorks": "Comment ça marche",
-  "workedExample": "Exemples",
-  "resultInterpretation": "Interprétation",
-  "useCases": [
-    "Formulaires de permis de conduire",
-    "Profils médicaux",
-    "Traitement rapide des cm en déplacement"
-  ],
-  "tipsAndLimitations": [
-    "Les pieds et les pouces ne sont pas une simple décimale (par exemple, 5,5 n'est pas 5'5\").",
-    "Assurez-vous que vos entrées sont correctement formatées pour obtenir les meilleurs résultats.",
-    "L'outil fonctionne entièrement côté client, garantissant que vos données restent privées."
-  ],
+  "slug": "convertisseur-hauteur",
+  "intro": "Convertir la taille humaine entre les systèmes peut être confus car le système impérial utilise deux unités (pieds et pouces). Notre convertisseur gratuit gère cette spécificité instantanément.",
+  "whatIs": "Un convertisseur de taille est une calculatrice conçue pour la stature humaine. Il formate correctement la sortie en pieds ET pouces (ex. 5'10\").",
+  "howToUse": "De métrique : entrez la taille en cm. L'outil affiche les pieds/pouces. D'impérial : entrez les pieds et les pouces dans les cases. L'outil affiche les cm.",
+  "howItWorks": "1 pouce = 2,54 cm, 1 pied = 12 pouces. Pour convertir des cm en pieds/pouces, l'outil divise par 30,48 pour les pieds, et calcule le reste en pouces.",
+  "workedExample": "Votre taille est 178 cm. L'outil calcule : 178 / 2,54 = 70,078 pouces. 70 / 12 = 5 reste 10. Donc, 178 cm = 5 pieds 10 pouces (5'10\").",
+  "resultInterpretation": "Le résultat est donné au format humain standard, généralement arrondi au pouce le plus proche.",
+  "useCases": "Passeports : formulaires de visa (États-Unis). Formulaires médicaux : calculs IMC. Profils en ligne : applications de rencontre.",
+  "tipsAndLimitations": "Une erreur courante : 5,5 pieds n'est PAS 5 pieds 5 pouces. C'est 5 pieds 6 pouces. La taille humaine varie de 1 à 2 cm au cours de la journée.",
   "faq": [
     {
-      "question": "L'utilisation du convertisseur de hauteur est-elle gratuite ?",
-      "answer": "Oui, notre convertisseur de hauteur est totalement gratuit."
+      "question": "Que fait 180 cm en pieds et pouces ?",
+      "answer": "180 cm fait environ 5 pieds 11 pouces (5'11\")."
     },
     {
-      "question": "Est-ce que ça marche sur mobile ?",
-      "answer": "Oui, il est entièrement réactif et fonctionne sur tous les appareils."
-    },
-    {
-      "question": "Dois-je télécharger quelque chose ?",
-      "answer": "Non, cela fonctionne entièrement dans votre navigateur sans aucune installation."
+      "question": "Comment calculer 5'9\" en cm ?",
+      "answer": "5 pieds = 60 pouces. 60 + 9 = 69 pouces. 69 × 2,54 = 175,26 cm."
     }
   ],
   "relatedTools": [
-    "convertisseur de longueur",
-    "convertisseur de poids",
-    "convertisseur de température"
+    "length-converter",
+    "weight-converter",
+    "bmi-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Convertisseur de hauteur",
-  "ogImageText": "Convertisseur de hauteur"
+  "cta": "Convertissez votre taille instantanément !",
+  "disclaimer": "À des fins de commodité. Utilisez un équipement professionnel pour des besoins médicaux.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Convertisseur de taille affichant cm vers pieds",
+  "ogImageText": "Convertisseur Taille"
 }

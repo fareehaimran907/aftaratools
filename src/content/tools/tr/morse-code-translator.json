@@ -1,0 +1,52 @@
+{
+  "seoTitle": "Morse Kodu Çevirici - Metni ve Sesi Çevir",
+  "metaDescription": "Ücretsiz çevrimiçi Morse Kodu Çevirici. Metni Morse kodu noktalarına ve çizgilerine dönüştürün veya Morse kodunu tekrar İngilizceye çevirin. Sesli oynatma içerir.",
+  "h1": "Mors Kod Çevirici",
+  "primaryKeyword": "mors kodu çevirici",
+  "secondaryKeywords": [
+    "metni mors koduna",
+    "mors kodu sesi",
+    "mors kodunu çevir",
+    "mors kod çözücü"
+  ],
+  "slug": "mors-kod-çevirici",
+  "intro": "İster bir amatör radyo tutkunu olun, bir bulmacayı çözün, ister sadece merak ediyor olun, ücretsiz Morse Kodu Çeviricimiz metni kolayca nokta ve çizgilere dönüştürür ve sesli olarak çalar.",
+  "whatIs": "Mors Kodu Çevirici, standart alfabetik metni Uluslararası Mors Kodu sistemine (nokta/dit ve kısa çizgi/dah) dönüştüren ve Mors dizelerini tekrar okunabilir metne çözen çift işlevli bir araçtır.",
+  "howToUse": [
+    "Kodlamak için: Standart metni giriş kutusuna yazın. Morse kodu anında oluşturulacaktır.",
+    "Çözmek için: Harfleri tek boşlukla ve kelimeleri eğik çizgi (/) ile ayırarak noktalar (.) ve tireler (-) kullanarak Morse kodu yazın.",
+    "'Oynat' simgesine tıklayarak Mors kodunu sesli olarak duyabilirsiniz."
+  ],
+  "howItWorks": "Araç, her İngilizce harfi ve sayıyı belirli bir nokta ve çizgi dizisine eşleyen önceden tanımlanmış bir sözlük kullanır. Çeviri için, sözlüğe göre karakterleri değiştirerek dizi boyunca yineleme yapar. Ses için ise, kısa ve uzun osilatör bipleri üretmek üzere Web Audio API'sini kullanır.",
+  "workedExample": "Metin alanına 'SOS' giriliyor. 'S', '...' ve 'O', '---' şeklindedir. Araç '... --- ...' çıktısını veriyor.",
+  "resultInterpretation": "Görsel çıktı, mesajı iletmek için gereken tam ritmik desendir. Bir nokta (.) bir zaman birimini, bir çizgi (-) ise üç zaman birimini temsil eder.",
+  "useCases": [
+    "Amatör Radyo: Bir ham radyo lisansı için iletim ve alım becerilerini pratik yapmak.",
+    "Kaçış Odaları ve Bulmacalar: Bir video oyununda veya ARG'de gizli bir mesajı hızlıca çözmek.",
+    "Hayatta Kalma Eğitimi: Bir el feneri kullanarak veya tıklayarak bir yardım sinyali göndermeyi öğrenmek."
+  ],
+  "tipsAndLimitations": [
+    "Morse kodu büyük ve küçük harfleri ayırt etmez.",
+    "Standart Uluslararası Morse Kodu, çoğu özel karakteri veya Latin dışı alfabeleri desteklemez."
+  ],
+  "faq": [
+    {
+      "answer": "Yazılı Morse kodunda, harfler genellikle tek bir boşlukla ayrılır ve tam kelimeler bir eğik çizgi (/) veya üç boşlukla ayrılır.",
+      "question": "Mors kodunda kelimeleri nasıl ayırırsınız?"
+    },
+    {
+      "question": "Mors kodunu duyabilir miyim?",
+      "answer": "Evet! Tarayıcınız Web Audio desteğine sahipse, noktaların ve çizgilerin tam ritmik zamanlamasını duymak için oynat düğmesine tıklayabilirsiniz."
+    }
+  ],
+  "relatedTools": [
+    "base64-encode-decode",
+    "binary-to-decimal",
+    "text-case-converter"
+  ],
+  "cta": "Mesajınızı Morse koduna çevirin!",
+  "disclaimer": "Araç, Uluslararası Morse Kodunu (ITU standardı) destekler. Özel işaretler veya eski Amerikan Morse Kodunu doğru çeviremeyebilir.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "SOS gösteren Morse Kodu Çevirici arayüzü",
+  "ogImageText": "Mors Kod Çevirmeni"
+}

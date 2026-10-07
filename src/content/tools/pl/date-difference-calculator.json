@@ -1,55 +1,54 @@
 {
-  "seoTitle": "Kalkulator różnicy dat",
-  "metaDescription": "Bezpłatny kalkulator różnicy dat online. Oblicz dokładną różnicę czasu między dwiema datami.",
-  "h1": "Kalkulator różnicy dat",
+  "seoTitle": "Kalkulator Różnicy Dat - Dokładne Dni, Tygodnie i Miesiące",
+  "metaDescription": "Oblicz dokładną różnicę między dwiema datami. Sprawdź, ile dni, tygodni, miesięcy i lat dzieli datę początkową i końcową.",
+  "h1": "Kalkulator Różnicy Dat",
   "primaryKeyword": "kalkulator różnicy dat",
   "secondaryKeywords": [
-    "Kalkulator różnicy dat online",
-    "darmowy kalkulator różnicy dat",
-    "najlepszy kalkulator różnicy dat"
+    "dni między datami",
+    "różnica czasu",
+    "kalkulator dat",
+    "obliczanie dni"
   ],
-  "slug": "kalkulator różnicy dat",
-  "intro": "Skorzystaj z naszego bezpłatnego internetowego narzędzia do obliczania różnic dat. Oblicza czas między datami na podstawie wprowadzonych danych.",
-  "whatIs": "Kalkulator różnicy dat to narzędzie internetowe, które oblicza czas między datami. Przetwarza datę rozpoczęcia i podaje dokładny czas, który upłynął w dniach i tygodniach.",
+  "slug": "kalkulator-roznicy-dat",
+  "intro": "Czy musisz dokładnie wiedzieć, ile czasu upłynęło między dwiema konkretnymi datami, co do jednego dnia? Planowanie projektów, śledzenie wieku lub organizowanie wydarzeń często wymaga precyzji. Ten kalkulator podaje dokładną różnicę w latach, miesiącach i dniach, a także alternatywne podziały na sumę tygodni lub bezwzględną sumę dni. Eliminuje on kłopoty z ręcznym wertowaniem stron kalendarza lub szacowaniem dni i zapewnia całkowicie dokładne obliczenia w zaledwie ułamek sekundy. Niezależnie od tego, czy masz do czynienia z umowami prawnymi, umowami najmu czy osobistymi kamieniami milowymi, nasze narzędzie gwarantuje, że już nigdy więcej nie pomylisz się w obliczeniach ważnych dat.",
+  "whatIs": "Kalkulator Różnicy Dat to zaawansowane narzędzie cyfrowe zaprojektowane do obliczania dokładnego czasu, jaki upłynął między datą początkową a datą końcową. Ręczne obliczanie różnic w czasie jest podatne na błędy, zwłaszcza gdy musisz wziąć pod uwagę lata przestępne, różną długość miesięcy (28, 29, 30 lub 31 dni) oraz granice końca roku. To narzędzie płynnie obsługuje w tle całą tę złożoną mechanikę kalendarza. Zapewnia przejrzysty, wieloaspektowy podział całkowitego czasu trwania, co pozwala zobaczyć różnicę nie tylko w standardowym formacie rok-miesiąc-dzień, ale także jako surową liczbę wszystkich dni lub wszystkich tygodni. Ta elastyczność sprawia, że jest niezastąpiony dla specjalistów w dziale kadr, księgowości i zarządzania projektami, którzy polegają na ścisłych ramach czasowych.",
   "howToUse": [
-    "Wpisz datę rozpoczęcia w wyznaczonym polu wejściowym.",
-    "Podaj wszelkie parametry dodatkowe, takie jak data zakończenia.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować dokładny czas w dniach i tygodniach.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
+    "Wybierz datę początkową w pierwszym polu kalendarza.",
+    "Wybierz datę końcową w drugim polu.",
+    "Opcjonalnie zaznacz 'Uwzględnij datę końcową', jeśli chcesz policzyć zarówno pierwszy, jak i ostatni dzień.",
+    "Zobacz dokładną różnicę wyświetloną natychmiast."
   ],
-  "howItWorks": "Narzędzie to działa w Twojej przeglądarce, stosując standardowe algorytmy do Twojej daty początkowej. Natychmiast przetwarza dane i podaje dokładny czas, który upłynął w dniach i tygodniach.",
-  "workedExample": "Na przykład: od 1 stycznia do 10 stycznia daje 9 dni.",
-  "resultInterpretation": "Wynik przedstawia dokładny czas, który upłynął w dniach i tygodniach. Możesz użyć tych danych do konkretnych obliczeń lub potrzeb formatowania.",
+  "howItWorks": "Narzędzie działa z wykorzystaniem bardzo precyzyjnej standardowej matematyki kalendarzowej, aby porównać znaczniki czasu dwóch podanych dat. Po pierwsze, konwertuje zarówno datę początkową, jak i datę końcową na surowe znaczniki czasu w milisekundach, aby określić bezwzględną, surową różnicę. Następnie przelicza tę różnicę z powrotem na dni i dzieli te dni na kalendarzowe lata, miesiące i dni w oparciu o określone ograniczenia kalendarzowe wybranych dat. Co ważne, przestrzega ono reguł kalendarza gregoriańskiego, co oznacza, że naturalnie uwzględnia lata przestępne i dokładną liczbę dni w określonych miesiącach, które obejmują podane daty. Algorytm zawiera również tryb obliczania łącznego (włączającego), który dodaje dokładnie jeden dzień do końcowej sumy, jeśli zdecydujesz się uwzględnić zarówno datę początkową, jak i datę końcową w obliczeniach.",
+  "workedExample": "Przyjrzyjmy się praktycznemu przykładowi, aby zrozumieć, jak działa ten kalkulator. Załóżmy, że chcesz znaleźć dokładną różnicę między 15 stycznia 2023 r. a 20 kwietnia 2024 r. Kalkulator najpierw określa pełne lata: od 15 stycznia 2023 r. do 15 stycznia 2024 r. mija dokładnie 1 rok. Następnie zlicza pełne miesiące od 15 stycznia 2024 r. do 15 kwietnia 2024 r., czyli dokładnie 3 miesiące. Na koniec zlicza pozostałe dni od 15 kwietnia do 20 kwietnia, czyli 5 dni. Główny wynik natychmiast wyświetli 1 rok, 3 miesiące i 5 dni. Podaje on również całkowitą liczbę dni (461 dni), aby dać pełny obraz minionego czasu.",
+  "resultInterpretation": "Wyniki są wyświetlane w kilku różnych formatach, więc możesz wybrać ten, który najlepiej odpowiada Twoim potrzebom. Główny wynik pokazuje najbardziej naturalny, czytelny dla człowieka format (Lata, Miesiące, Dni), co jest idealne do podania czyjegoś wieku lub opisania długoterminowej umowy najmu. Alternatywne formaty to Całkowita Liczba Dni, Całkowita Liczba Tygodni i Całkowita Liczba Miesięcy. Wskaźnik Całkowita Liczba Dni jest szczególnie przydatny w ściśle określonych celach rozliczeniowych, przy obliczaniu dziennych stawek oprocentowania lub w śledzeniu zarządzania projektami, w których liczy się każdy dzień. Jeśli wybrałeś opcję 'Uwzględnij datę końcową', Twoje wyniki będą odzwierciedlały łączne zliczenie, co jest standardową praktyką przy rezerwacji noclegów w hotelach, wypożyczaniu sprzętu lub obliczaniu czasu trwania kolejnych po sobie następujących wydarzeń.",
   "useCases": [
-    "Planowanie projektu",
-    "Śledzenie dni od wydarzenia",
-    "Szybkie przetwarzanie daty rozpoczęcia w podróży"
+    "Zarządzanie projektami: Obliczanie dokładnego czasu trwania fazy projektu.",
+    "HR i Płace: Ustalanie dokładnego czasu zatrudnienia.",
+    "Kamienie milowe: Sprawdzanie dokładnie ile masz dni."
   ],
   "tipsAndLimitations": [
-    "Pora dnia jest ignorowana.",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
+    "Kalkulator przyjmuje standardowe dni kalendarzowe i nie pomija weekendów.",
+    "Strefy czasowe nie są brane pod uwagę.",
+    "Zaznaczenie opcji 'Uwzględnij datę końcową' jest przydatne przy rezerwacji hoteli."
   ],
   "faq": [
     {
-      "question": "Czy zawiera datę końcową?",
-      "answer": "Domyślnie oblicza czas trwania pomiędzy, nie włącznie."
+      "question": "Czy ten kalkulator uwzględnia lata przestępne?",
+      "answer": "Tak, ponieważ korzysta z natywnych dat kalendarza, wszystkie lata przestępne są automatycznie idealnie uwzględniane."
     },
     {
-      "question": "Czy korzystanie z kalkulatora różnic dat jest bezpłatne?",
-      "answer": "Tak, nasz kalkulator różnic dat jest całkowicie darmowy i nie wymaga rejestracji."
-    },
-    {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, narzędzie jest w pełni responsywne i doskonale działa na wszystkich smartfonach i tabletach."
+      "question": "Dlaczego potrzebuję opcji 'Uwzględnij datę końcową'?",
+      "answer": "Domyślnie matematyczna różnica między poniedziałkiem a wtorkiem wynosi 1 dzień. Jednak jeśli liczysz dni przepracowane (poniedziałek i wtorek), pracowałeś 2 dni. Opcja ta pozwala na włączenie tego zliczania."
     }
   ],
   "relatedTools": [
-    "kalkulator wieku",
-    "dni pomiędzy datami",
-    "kalkulator dni do"
+    "age-calculator",
+    "days-between-dates",
+    "days-until-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Zrzut ekranu interfejsu kalkulatora różnic dat",
-  "ogImageText": "Kalkulator różnicy dat"
+  "cta": "Rozpocznij obliczanie różnicy dat już teraz!",
+  "disclaimer": "Kalkulator ten służy wyłącznie do celów informacyjnych. Powinieneś ręcznie weryfikować wyniki w przypadku ważnych umów prawnych.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Zrzut ekranu Kalkulatora Różnicy Dat",
+  "ogImageText": "Kalkulator Różnicy Dat"
 }

@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Rzuć Kostką - Wirtualny Internetowy Rzut Kostką",
+  "metaDescription": "Darmowy internetowy rzucacz kością. Natychmiast rzuć wirtualną sześciościenną kością (lub wybierz niestandardową liczbę ścian) do gier planszowych, RPG i generowania losowych liczb.",
+  "h1": "Roll a Die",
+  "primaryKeyword": "roll a die",
+  "secondaryKeywords": [
+    "wirtualny rzucacz kości",
+    "rzucać kośćmi online",
+    "losowy generator kości",
+    "d6 roller"
+  ],
+  "slug": "roll-a-die",
+  "intro": "Zgubiłeś kostki do swojej ulubionej gry planszowej albo potrzebujesz szybkiej losowej liczby do Dungeons & Dragons? Nasza darmowa wirtualna Kostka Rzutów daje Ci idealny, nieobciążony wynik za każdym razem.",
+  "whatIs": "Narzędzie Rzucanie Kostką to cyfrowy symulator, który odtwarza matematyczne prawdopodobieństwo wyrzucenia fizycznej kostki. Domyślnie symuluje standardową 6-ścienną kostkę (D6), ale można je dostosować.",
+  "howToUse": [
+    "Przejdź do narzędzia i wybierz liczbę kości, które chcesz rzucić.",
+    "Jeśli dotyczy, wybierz rodzaj kości (np. sześciościenna, dwudziestościenna).",
+    "Kliknij przycisk 'Rzuć'.",
+    "Narzędzie natychmiast generuje i wyświetla losowe wyniki."
+  ],
+  "howItWorks": "Narzędzie działa jako specjalistyczny generator liczb losowych. Dla standardowej sześciennej kostki do gry używa funkcji Math.random() w JavaScripcie, aby wybrać liczbę idealnie rozłożoną pomiędzy 1 a 6.",
+  "workedExample": "Musisz rzucić dwoma sześciennymi kośćmi do gry w Monopoly (2d6). Ustawiasz ilość na 2 i klikasz rzuć. Algorytm generuje 4 i 5. Narzędzie pokazuje poszczególne kości i całkowitą sumę (9).",
+  "resultInterpretation": "Pokazane liczby są całkowicie losowe, niezależne od siebie. Traktuj cyfrowe rzuty dokładnie tak, jak traktowałbyś fizyczny rzut na stole.",
+  "useCases": [
+    "Gry planszowe: wymiana brakujących elementów w grach takich jak Monopoly czy Yahtzee.",
+    "RPG stołowe: Rzucanie D20 w celu sprawdzenia statystyki w Dungeons & Dragons lub Pathfinder.",
+    "Edukacja w klasie: Nauczanie statystyki prawdopodobieństwa bez hałaśliwych fizycznych kości."
+  ],
+  "tipsAndLimitations": [
+    "Cyfrowa kość do gry jest technicznie sprawiedliwsza niż tania plastikowa kość fizyczna, ponieważ cyfrowe algorytmy nie mają fizycznych nierówności wagi.",
+    "Rzucanie wieloma kostkami? Suma dwóch sześciennych kostek nie ma równego prawdopodobieństwa. 7 jest znacznie bardziej prawdopodobne niż 2 lub 12."
+  ],
+  "faq": [
+    {
+      "question": "Czy rzut kostką jest naprawdę losowy?",
+      "answer": "Rzut korzysta z algorytmu pseudolosowego. Do gier i użytku rekreacyjnego jest statystycznie nie do odróżnienia od idealnie wyważonej fizycznej kostki."
+    },
+    {
+      "question": "Czy mogę rzucić kilkoma kostkami naraz?",
+      "answer": "Tak! Możesz dostosować ustawienia ilości, aby rzucać wieloma kośćmi jednocześnie, a narzędzie automatycznie obliczy sumę całkowitą."
+    }
+  ],
+  "relatedTools": [
+    "random-number-generator",
+    "flip-a-coin",
+    "spin-the-wheel"
+  ],
+  "cta": "Rzuć teraz wirtualnymi kośćmi!",
+  "disclaimer": "Narzędzie wykorzystuje pseudolosowe generowanie liczb w przeglądarce. Zaprojektowane do celów rozrywkowych i do okazjonalnej gry.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Wirtualne kostki pokazujące losowy rzut",
+  "ogImageText": "Roll a Die"
+}

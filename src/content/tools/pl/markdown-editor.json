@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Edytor Markdown Online - Podgląd na żywo i Eksport",
+  "metaDescription": "Darmowy internetowy edytor Markdown. Pisz, edytuj i oglądaj podgląd formatowania Markdown w czasie rzeczywistym. Eksportuj sformatowany tekst do HTML lub PDF natychmiast.",
+  "h1": "Edytor Markdown",
+  "primaryKeyword": "edytor markdown",
+  "secondaryKeywords": [
+    "internetowy edytor Markdown",
+    "podgląd na żywo markdown",
+    "markdown do html",
+    "przeglądarka markdown"
+  ],
+  "slug": "edytor-markdown",
+  "intro": "Piszesz dokumentację lub plik README? Nasz darmowy internetowy edytor Markdown zapewnia czyste środowisko do pisania z podglądem wizualnym w czasie rzeczywistym i natychmiastowym eksportem do HTML.",
+  "whatIs": "Edytor Markdown to narzędzie do edycji tekstu z dwoma panelami. Umożliwia użytkownikom pisanie w Markdown — lekkim języku znaczników z prostą składnią formatowania tekstu — jednocześnie wyświetlając na ekranie podgląd w czasie rzeczywistym, sformatowany.",
+  "howToUse": [
+    "Wpisz lub wklej swoją składnię Markdown w lewym panelu edytora.",
+    "Obserwuj, jak panel po prawej stronie aktualizuje się natychmiast z sformatowanym podglądem.",
+    "Użyj paska narzędzi, aby szybko korzystać ze skrótów formatowania (pogrubienie, kursywa, linki).",
+    "Kliknij 'Kopiuj HTML' lub 'Pobierz', aby zapisać swoją pracę."
+  ],
+  "howItWorks": "Narzędzie używa parsera JavaScript (takiego jak marked.js), aby nieustannie monitorować twoje naciśnięcia klawiszy w polu tekstowym. Tłumaczy twoje symbole Markdown (takie jak # dla nagłówków lub ** dla pogrubienia) na standardowe tagi HTML i wstrzykuje je do panelu podglądu.",
+  "workedExample": "Jeśli wpiszesz '# Hello World', a następnie '**Bold Text**', parser natychmiast zamieni pierwszą linię na tag HTML `<h1>` a drugą na tag `<strong>`, wyświetlając sformatowany tekst od razu w panelu podglądu.",
+  "resultInterpretation": "Podgląd pokazuje dokładnie, jak Twój Markdown będzie wyglądał po opublikowaniu na platformach takich jak GitHub, Reddit czy generatorze stron statycznych.",
+  "useCases": [
+    "Tworzenie oprogramowania: Pisanie wysoce czytelnych plików `README.md` dla repozytoriów open-source.",
+    "Blogowanie: Szybkie pisanie szkiców bloga bez rozproszeń, bez używania zaawansowanych edytorów WYSIWYG.",
+    "Notowanie: Szybkie strukturyzowanie notatek ze spotkań za pomocą nagłówków, list i bloków kodu."
+  ],
+  "tipsAndLimitations": [
+    "Standardowy Markdown nie obsługuje natywnie skomplikowanych układów, takich jak tabele wielokolumnowe czy kolorowanie tekstu. W takich przypadkach należy użyć surowego HTML.",
+    "Nasz edytor obsługuje GitHub Flavored Markdown (GFM), co oznacza, że możesz łatwo tworzyć tabele i listy zadań."
+  ],
+  "faq": [
+    {
+      "question": "Czym jest Markdown?",
+      "answer": "Markdown to prosty sposób formatowania tekstu, który wygląda świetnie na każdym urządzeniu. Nie wymaga klikania przycisków; po prostu używasz standardowych symboli na klawiaturze (takich jak gwiazdki do pogrubiania), aby formatować tekst podczas pisania."
+    },
+    {
+      "question": "Czy to zapisuje moją pracę automatycznie?",
+      "answer": "Edytor przechowuje Twój tekst w lokalnej pamięci przeglądarki, abyś go nie stracił w przypadku przypadkowego odświeżenia, ale nie zapisuje go w bazie danych w chmurze."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "html-encode-decode",
+    "lorem-ipsum-generator"
+  ],
+  "cta": "Zacznij pisać w Markdown teraz!",
+  "disclaimer": "Dokumenty są przetwarzane lokalnie w Twojej przeglądarce. Wrażliwy tekst nie jest przesyłany na nasze serwery, dzięki czemu Twoje szkice pozostają w pełni prywatne.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfejs edytora Markdown z podziałem ekranu",
+  "ogImageText": "Edytor Markdown"
+}

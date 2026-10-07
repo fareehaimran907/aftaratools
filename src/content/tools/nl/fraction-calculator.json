@@ -1,55 +1,75 @@
 {
-  "seoTitle": "Breukcalculator",
-  "metaDescription": "Breuken optellen, aftrekken, vermenigvuldigen en delen.",
-  "h1": "Breukcalculator",
-  "primaryKeyword": "breuk rekenmachine",
+  "seoTitle": "Breuken Calculator – Breuken Optellen, Aftrekken, Vermenigvuldigen",
+  "metaDescription": "Gratis online breuken calculator. Breuken optellen, aftrekken, vermenigvuldigen en delen doe je eenvoudig. Krijg direct de vereenvoudigde breuk en decimale waarde.",
+  "h1": "Breuken Calculator",
+  "primaryKeyword": "breuken calculator",
   "secondaryKeywords": [
-    "breukcalculator online",
-    "gratis breukcalculator",
-    "beste breukcalculator"
+    "breuken optellen",
+    "breuken aftrekken",
+    "breuken vermenigvuldigen",
+    "breuken delen",
+    "breuken oplossen",
+    "wiskunde breuken rekenmachine",
+    "breuken naar kommagetallen"
   ],
-  "slug": "breuk-calculator",
-  "intro": "Los eenvoudig wiskundige vergelijkingen met breuken op met stapsgewijze vereenvoudiging.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "slug": "breuken-calculator",
+  "intro": "Worstel je met complexe breukenberekeningen? Of je nu helpt met huiswerk, een recept aanpast of aan een timmerproject werkt, onze gratis online Breuken Calculator maakt het werken met breuken eenvoudig. Tel direct twee breuken op, trek ze van elkaar af, vermenigvuldig ze of deel ze door elkaar. De tool vindt automatisch een gemeenschappelijke noemer, voert de berekening uit, vereenvoudigt het resultaat en geeft zelfs het equivalente kommagetal. Zeg vaarwel tegen handmatige rekenfouten en vervelende berekeningen — krijg real-time wiskundig perfecte antwoorden.",
+  "whatIs": "Een breuken calculator is een gespecialiseerd wiskundig hulpmiddel dat is ontworpen om standaard rekenkundige bewerkingen (optellen, aftrekken, vermenigvuldigen en delen) specifiek op breuken uit te voeren. Een breuk vertegenwoordigt een deel van een geheel en bestaat uit een teller (het bovenste getal dat aangeeft hoeveel delen je hebt) en een noemer (het onderste getal dat aangeeft in hoeveel gelijke delen het geheel is verdeeld). Handmatig rekenen met breuken kan ingewikkeld zijn, vooral bij het optellen of aftrekken van breuken met verschillende noemers, omdat er een kleinste gemene veelvoud gevonden moet worden. Deze tool automatiseert het hele proces, inclusief de laatste stap van het vereenvoudigen van de breuk tot de kleinste termen door de grootste gemene deler te vinden.",
   "howToUse": [
-    "Voer uw teller in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals de noemer.",
-    "Klik op de knop Berekenen of Verzenden om het vereenvoudigde breukresultaat te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Zoek de twee invoervelden voor breuken, gescheiden door een keuzemenu voor de rekenkundige bewerking.",
+    "Voer de teller (bovenste getal) en de noemer (onderste getal) in voor je eerste breuk aan de linkerkant.",
+    "Selecteer de rekenkundige bewerking die je wilt uitvoeren: Optellen (+), Aftrekken (-), Vermenigvuldigen (×) of Delen (÷) uit het middelste keuzemenu.",
+    "Voer de teller en de noemer in voor je tweede breuk aan de rechterkant.",
+    "De tool berekent en toont het resultaat direct terwijl je typt. Je hoeft niet op een 'Bereken' knop te klikken."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "Onze rekenmachine werkt door standaard wiskundige algoritmen in je browser uit te voeren. Voor optellen en aftrekken bepaalt de tool wiskundig een gemeenschappelijke noemer (door de twee noemers te vermenigvuldigen) en past de tellers aan voordat ze worden opgeteld of afgetrokken. Voor vermenigvuldigen worden de tellers met elkaar vermenigvuldigd en de noemers met elkaar. Voor delen wordt de eerste breuk vermenigvuldigd met het omgekeerde van de tweede breuk. Zodra een ruw resultaat is berekend, gebruikt de tool het algoritme van Euclides om de Grootste Gemene Deler (GGD) van de teller en de noemer te vinden, waardoor de breuk tot zijn eenvoudigste vorm wordt gereduceerd. Ten slotte deelt de tool de teller door de noemer om de decimale waarde (kommagetal) weer te geven.",
+  "workedExample": "Laten we 1/4 en 2/3 handmatig bij elkaar optellen. Eerst hebben we een gemeenschappelijke noemer nodig. Het kleinste gemene veelvoud van 4 en 3 is 12. We zetten 1/4 om door boven en onder met 3 te vermenigvuldigen, wat 3/12 oplevert. We zetten 2/3 om door boven en onder met 4 te vermenigvuldigen, wat 8/12 oplevert. Nu tellen we de tellers op: 3 + 8 = 11. Het resultaat is 11/12. \n\nLaten we nu 2/5 vermenigvuldigen met 3/4. We vermenigvuldigen simpelweg de tellers (2 × 3 = 6) en de noemers (5 × 4 = 20), wat ons 6/20 geeft. Om te vereenvoudigen, zoeken we de grootste gemene deler van 6 en 20, wat 2 is. We delen boven en onder door 2, resulterend in het uiteindelijke vereenvoudigde antwoord: 3/10 (of 0,3 als kommagetal).",
+  "resultInterpretation": "Het eindresultaat wordt duidelijk weergegeven aan de rechterkant van het gelijkteken als een volledig vereenvoudigde breuk. Als het resultaat een heel getal is, wordt het weergegeven als een enkel cijfer zonder noemer. Direct onder het breukenpaneel zie je een sectie 'DECIMAAL', die de exacte decimale waarde van je breuk toont (afgerond op 6 decimalen als het een repeterende breuk is). Als je probeert een getal door nul te delen (bijv. door '0' in te voeren bij een noemer), toont de rekenmachine direct een 'Fout: Deling door nul' waarschuwing om onmogelijke wiskundige bewerkingen te voorkomen.",
   "useCases": [
-    "Afmetingen houtbewerking",
-    "Schaal bij het bakken",
-    "Snel de teller onderweg verwerken"
+    "Koken & Bakken: Recepten eenvoudig opschalen of afschalen (bijv. een recept halveren dat 3/4 kopje bloem vereist).",
+    "Timmerwerk & Bouw: Metingen in inches optellen of aftrekken (zoals 5/8\" + 3/16\") voor nauwkeurige sneden en constructies.",
+    "Onderwijs & Huiswerk: Studenten kunnen de nauwkeurigheid van hun handmatige berekeningen met breuken controleren.",
+    "DIY Projecten: Het berekenen van materiaallengtes, stofhoeveelheden of verfvolumes waarbij fractionele metingen betrokken zijn.",
+    "Financiën & Boekhouding: Omgaan met fractionele aandelen, het verdelen van kosten of het berekenen van pro-rata uitgaven."
   ],
   "tipsAndLimitations": [
-    "Breuken moeten tot hun laagste waarden worden teruggebracht.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "De rekenmachine accepteert momenteel alleen hele getallen als invoer voor tellers en noemers. Het accepteert geen kommagetallen binnen een breuk.",
+    "Gemengde getallen (zoals 1 1/2) moeten worden omgezet in onechte breuken (zoals 3/2) voordat ze in de tool worden ingevoerd.",
+    "Negatieve breuken worden volledig ondersteund. Voeg eenvoudig een minteken (-) toe aan de teller.",
+    "De decimale uitvoer wordt afgerond op maximaal 6 decimalen voor de leesbaarheid.",
+    "Een noemer mag nooit nul zijn. Proberen om nul als noemer in te voeren resulteert in een 'Deling door nul' fout."
   ],
   "faq": [
     {
-      "question": "Hoe vermenigvuldig je breuken?",
-      "answer": "Vermenigvuldig eerst over de bovenkant en vervolgens over de onderkant."
+      "question": "Vereenvoudigt deze rekenmachine breuken automatisch?",
+      "answer": "Ja. De rekenmachine gebruikt een wiskundig algoritme om de Grootste Gemene Deler (GGD) te vinden en vereenvoudigt automatisch elk antwoord tot zijn eenvoudigste vorm."
     },
     {
-      "question": "Is de breukcalculator gratis te gebruiken?",
-      "answer": "Ja, onze breukcalculator is volledig gratis en vereist geen registratie."
+      "question": "Hoe bereken ik gemengde getallen (bijv. 2 3/4)?",
+      "answer": "Om gemengde getallen te berekenen, moet je ze eerst omzetten naar onechte breuken. Bijvoorbeeld, 2 3/4 wordt 11/4 (want 2 × 4 = 8, en 8 + 3 = 11). Voer 11 in als teller en 4 als noemer."
     },
     {
-      "question": "Werkt dit op mobiele apparaten?",
-      "answer": "Ja, de tool is volledig responsive en functioneert perfect op alle smartphones en tablets."
+      "question": "Kan ik negatieve breuken gebruiken?",
+      "answer": "Ja. Je kunt berekeningen uitvoeren met negatieve breuken door een minteken (-) voor de teller te plaatsen."
+    },
+    {
+      "question": "Wat gebeurt er als ik een 0 in de noemer zet?",
+      "answer": "In de wiskunde is delen door nul ongedefinieerd. De rekenmachine detecteert dit onmiddellijk en toont de melding 'Fout: Deling door nul'."
+    },
+    {
+      "question": "Hoe nauwkeurig is de decimale conversie?",
+      "answer": "De decimale waarde is zeer nauwkeurig, maar wordt beperkt tot maximaal 6 decimalen om te voorkomen dat eindeloos repeterende decimalen de opmaak breken."
     }
   ],
   "relatedTools": [
-    "verhoudingscalculator",
-    "gemiddelde rekenmachine",
-    "gpa-rekenmachine"
+    "average-calculator",
+    "percentage-calculator",
+    "grade-calculator",
+    "final-grade-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Breukcalculator",
-  "ogImageText": "Breukcalculator"
+  "cta": "Snel een lastig breukenprobleem oplossen? Voer je breuken hierboven in om direct het vereenvoudigde antwoord en de decimale waarde te krijgen.",
+  "disclaimer": "Deze tool is bedoeld voor algemene wiskundige berekeningen en educatieve doeleinden. Hoewel we streven naar absolute nauwkeurigheid, dien je kritische metingen voor bouw-, engineering- of financiële toepassingen altijd handmatig te controleren.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface van de breuken calculator met invoervelden voor twee breuken en een keuzemenu voor operatoren",
+  "ogImageText": "Breuken Calculator"
 }

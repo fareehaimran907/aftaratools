@@ -1,0 +1,52 @@
+{
+  "seoTitle": "Konverter HEX ke RGB",
+  "metaDescription": "Konverter HEX ke RGB online gratis. Secara instan mengubah kode warna HEX web menjadi format RGB. Penting untuk CSS dan pengembangan web.",
+  "h1": "Konverter HEX ke RGB",
+  "primaryKeyword": "heksadesimal ke rgb",
+  "secondaryKeywords": [
+    "konversi hex ke rgb",
+    "warna heksadesimal ke rgb",
+    "kalkulator heksadesimal ke rgb",
+    "pengonversi warna CSS"
+  ],
+  "slug": "konverter-hex-ke-rgb",
+  "intro": "Punya kode warna hex tapi perlu nilai RGB untuk menambahkan saluran opasitas di CSS? Konverter HEX ke RGB gratis kami langsung mengubah string warna heksadesimal menjadi bilangan bulat Merah, Hijau, Biru standar.",
+  "whatIs": "Konverter HEX ke RGB adalah alat desain dan pengembangan yang mengambil kode warna heksadesimal 6 karakter (yang banyak digunakan dalam HTML/CSS) dan mengubahnya menjadi format RGB (yang digunakan dalam perangkat lunak desain dan CSS rgba).",
+  "howToUse": [
+    "Masukkan kode HEX 6 digit Anda (misalnya, FF5733). '#' bersifat opsional.",
+    "Alat itu langsung mengurai string tersebut.",
+    "Nilai RGB yang tepat (0-255) ditampilkan bersamaan dengan pratinjau warna visual."
+  ],
+  "howItWorks": "Kode HEX 6 digit sebenarnya adalah tiga angka terpisah. Alat ini memisahkan string menjadi pasangan (misalnya, FF, 57, 33). Kemudian menggunakan matematika basis-16 ke basis-10 untuk mengubah setiap pasangan menjadi angka desimal antara 0 dan 255.",
+  "workedExample": "Anda memasukkan #00FF00. Alat ini memecahnya: Merah adalah 00, Hijau adalah FF, Biru adalah 00. Hex '00' adalah desimal 0. Hex 'FF' adalah desimal 255. Alat ini menghasilkan RGB(0, 255, 0), yang merupakan hijau murni.",
+  "resultInterpretation": "Keluaran adalah rasio tepat dari cahaya Merah, Hijau, dan Biru yang harus dipancarkan monitor komputer untuk menampilkan warna target.",
+  "useCases": [
+    "Transparansi CSS: Mengonversi HEX ke RGB sehingga Anda dapat menulis `rgba(255, 0, 0, 0.5)` untuk latar belakang yang transparan 50%.",
+    "Integrasi Perangkat Lunak: Memasukkan warna ke dalam perangkat lunak lama atau mesin game yang hanya menerima input RGB 0-255.",
+    "Serah Terima Desain: Memastikan seorang desainer grafis yang menggunakan RGB di Photoshop memiliki warna yang persis sama dengan pengembang yang menggunakan HEX."
+  ],
+  "tipsAndLimitations": [
+    "Alat ini mendukung kode HEX singkat 3 digit (seperti #F00). Ini secara otomatis memperluasnya menjadi #FF0000 sebelum dikonversi.",
+    "Kode heksadesimal tidak sensitif terhadap huruf besar atau kecil. #ff0000 dan #FF0000 secara matematis identik."
+  ],
+  "faq": [
+    {
+      "question": "Bisakah saya mengonversi kode HEX 8-digit?",
+      "answer": "Kode heksadesimal 8-digit mencakup saluran alpha (transparansi). Konverter RGB standar 6-digit akan mengabaikan dua digit terakhir. Anda akan memerlukan konverter HEX ke RGBA untuk nilai opasitas."
+    },
+    {
+      "question": "Mengapa menggunakan RGB daripada HEX?",
+      "answer": "Meskipun HEX lebih singkat untuk diketik, RGB membuat manipulasi warna secara programatis menjadi lebih mudah, seperti mengubah opasitas secara dinamis (RGBA) atau menghitung rasio kontras warna di JavaScript."
+    }
+  ],
+  "relatedTools": [
+    "rgb-to-hex",
+    "color-picker",
+    "hex-to-decimal"
+  ],
+  "cta": "Ubah kode HEX Anda menjadi RGB sekarang!",
+  "disclaimer": "Alat ini secara ketat mengubah kode warna basis-16 menjadi basis-10 secara matematis. Mengasumsikan ruang warna sRGB standar.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka konversi HEX ke RGB",
+  "ogImageText": "Konverter HEX ke RGB"
+}

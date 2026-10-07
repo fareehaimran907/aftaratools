@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Vérificateur de contraste de couleurs - Outil d'accessibilité WCAG",
+  "metaDescription": "Vérificateur de contraste des couleurs en ligne gratuit. Calculez instantanément le ratio de contraste entre vos couleurs de texte et de fond pour garantir la conformité à l'accessibilité WCAG.",
+  "h1": "Vérificateur de contraste des couleurs",
+  "primaryKeyword": "vérificateur de contraste des couleurs",
+  "secondaryKeywords": [
+    "vérificateur de contraste WCAG",
+    "contraste de couleur pour l'accessibilité",
+    "vérifier le contraste des couleurs",
+    "calculateur de lisibilité de texte"
+  ],
+  "slug": "vérificateur-de-contraste-des-couleurs",
+  "intro": "Assurez-vous que votre site web est lisible pour tout le monde. Notre vérificateur gratuit de contraste des couleurs calcule le ratio exact entre les couleurs de votre texte et de votre arrière-plan, en vérifiant la conformité avec les directives d'accessibilité WCAG.",
+  "whatIs": "Le vérificateur de contraste des couleurs est un utilitaire d'accessibilité web. Il évalue mathématiquement la luminance relative d'une couleur de premier plan (texte) par rapport à une couleur de fond pour déterminer s'il existe une différence visuelle suffisante pour que les utilisateurs malvoyants puissent lire le texte confortablement.",
+  "howToUse": [
+    "Entrez le code HEX pour la couleur de votre texte/avant-plan.",
+    "Entrez le code HEX de votre couleur de fond.",
+    "L'outil calcule le ratio de contraste (par exemple, 4,5:1).",
+    "Il affiche une note de Réussite/Échec pour les normes WCAG AA et AAA."
+  ],
+  "howItWorks": "L'outil convertit les deux codes HEX en RGB, applique une formule mathématique spécifique pour calculer la 'luminance relative' des deux couleurs, puis divise la luminance la plus claire par la luminance la plus foncée. Le résultat est un ratio compris entre 1:1 (aucun contraste) et 21:1 (contraste maximum).",
+  "workedExample": "Vous testez du texte noir pur (#000000) sur un fond blanc pur (#FFFFFF). L'outil calcule le contraste maximal possible de exactement 21:1, répondant facilement à toutes les exigences d'accessibilité AAA.",
+  "resultInterpretation": "Un ratio plus élevé signifie que le texte est plus facile à lire. Les directives pour l'accessibilité des contenus Web (WCAG) exigent un ratio minimum de 4,5:1 pour le texte normal (norme AA) et de 7:1 pour une accessibilité stricte (norme AAA).",
+  "useCases": [
+    "Audits d'accessibilité Web : S'assurer qu'un site web corporatif ne viole pas les lois sur la conformité ADA concernant la lisibilité.",
+    "Conception UI/UX : Vérification si un texte d'espace réservé gris clair dans un champ de saisie blanc est trop difficile à lire.",
+    "Lignes directrices de la marque : Vérifier que les couleurs de la marque peuvent être superposées en toute sécurité dans les graphiques marketing."
+  ],
+  "tipsAndLimitations": [
+    "Le texte large (plus de 18 pt ou 14 pt en gras) est plus facile à lire, donc les WCAG ne nécessitent qu'un ratio minimum de 3:1 pour respecter la norme AA.",
+    "Le daltonisme affecte la perception des teintes, mais le contraste de luminance relative reste le facteur le plus important pour la lisibilité."
+  ],
+  "faq": [
+    {
+      "question": "Que se passe-t-il si mes couleurs échouent au contrôle ?",
+      "answer": "S'ils échouent, votre texte sera très difficile à lire pour les personnes ayant une faible vision ou un daltonisme. Vous devriez assombrir la couleur du texte ou éclaircir la couleur de l'arrière-plan jusqu'à ce que le ratio atteigne au moins 4,5:1."
+    },
+    {
+      "question": "Est-ce que 21:1 est le meilleur contraste ?",
+      "answer": "Mathématiquement, oui. Cependant, le texte noir pur sur des arrière-plans blancs purs (21:1) peut provoquer une fatigue oculaire ou une « halation » chez certains utilisateurs dyslexiques. Un gris très foncé (par exemple, #222222) sur du blanc cassé est souvent préféré."
+    }
+  ],
+  "relatedTools": [
+    "color-picker",
+    "color-palette-generator",
+    "hex-to-rgb"
+  ],
+  "cta": "Vérifiez dès maintenant l'accessibilité de vos couleurs !",
+  "disclaimer": "Cet outil calcule le contraste en se basant sur l'algorithme standard WCAG 2.1 pour la luminance relative.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Vérificateur de contraste des couleurs affichant un ratio réussi de 4,5",
+  "ogImageText": "Vérificateur de contraste des couleurs"
+}

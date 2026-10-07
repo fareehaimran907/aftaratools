@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Convertidor de Texto - MAYÚSCULAS, minúsculas, Título",
+  "metaDescription": "Convertidor de Mayúsculas y Minúsculas de texto gratuito en línea. Cambia rápidamente el texto a MAYÚSCULAS, minúsculas, Formato de Título o Formato de Oración con un solo clic. Corrige errores de bloqueo de mayúsculas al instante.",
+  "h1": "Convertidor de mayúsculas y minúsculas",
+  "primaryKeyword": "convertidor de mayúsculas y minúsculas",
+  "secondaryKeywords": [
+    "cambiar el caso del texto",
+    "mayúsculas a minúsculas",
+    "generador de mayúsculas de título",
+    "convertidor de mayúsculas"
+  ],
+  "slug": "convertidor-de-mayúsculas-y-minúsculas",
+  "intro": "¿Dejaste accidentalmente la tecla de Mayúsculas activada, o necesitas dar formato a una larga lista de títulos de libros? Nuestro Convertidor de Texto Gratis cambia la capitalización de tu texto al instante con un solo clic.",
+  "whatIs": "El Convertidor de Mayúsculas y Minúsculas de Texto es una utilidad de formato que toma un bloque de texto y altera automáticamente su estructura de mayúsculas y minúsculas según las reglas lingüísticas estándar (como mayúscula al inicio de oración o mayúscula en los títulos).",
+  "howToUse": [
+    "Pega tu texto mal formateado en el cuadro de entrada.",
+    "Haz clic en el botón correspondiente al caso que desees (por ejemplo, 'MAYÚSCULAS', 'Título').",
+    "El texto se transformará instantáneamente.",
+    "Haga clic en 'Copiar' para guardar el texto corregido en su portapapeles."
+  ],
+  "howItWorks": "La herramienta utiliza manipulación de cadenas en JavaScript. 'MAYÚSCULAS' y 'minúsculas' usan funciones nativas del navegador. 'Mayúsculas en cada palabra' utiliza Regex para capitalizar la primera letra de cada palabra (a menudo ignorando palabras menores como 'y' o 'el'). 'Oración' capitaliza solo la primera letra después de un signo de puntuación terminal.",
+  "workedExample": "Entrada: 'hELLO wORLD. hOW ARE YOU?' Haga clic en 'Mayúscula inicial'. Salida: 'Hello world. How are you?'",
+  "resultInterpretation": "Tu texto está perfectamente formateado según las reglas gramaticales del caso seleccionado, listo para ser pegado en un documento formal o base de datos.",
+  "useCases": [
+    "Limpieza de datos: Normalizando una hoja de cálculo desordenada de nombres de clientes en 'Título en mayúsculas' limpio.",
+    "Redacción publicitaria: Formatear titulares y subtítulos a la perfección sin tener que volver a escribirlos manualmente.",
+    "Corrección de errores: Recuperar instantáneamente un párrafo escrito mientras la tecla de Bloq Mayús estaba activada por accidente."
+  ],
+  "tipsAndLimitations": [
+    "Convertir a MAYÚSCULAS o minúsculas es una acción destructiva: borra toda la capitalización original. Convertir de nuevo a formato de oración no restaurará los nombres propios (como nombres o ciudades).",
+    "Los algoritmos de Mayúsculas de Título intentan ignorar palabras menores (de, el, en), pero pueden no coincidir perfectamente con guías de estilo específicas (como APA o estilo Chicago) en títulos complejos."
+  ],
+  "faq": [
+    {
+      "question": "¿Qué es mayúscula inicial?",
+      "answer": "El uso de mayúscula inicial en una oración solo capitaliza la primera letra de la oración, dejando todas las demás palabras (excepto 'I') en minúscula, tal como un párrafo estándar de un libro."
+    },
+    {
+      "question": "¿Qué es el estilo de título?",
+      "answer": "El uso de mayúsculas en el estilo Title Case capitaliza la primera letra de casi todas las palabras. Generalmente se usa para títulos de libros, títulos de películas y encabezados de artículos."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "character-counter",
+    "markdown-editor"
+  ],
+  "cta": "¡Corrige la capitalización de tu texto al instante!",
+  "disclaimer": "Los algoritmos de cambio de mayúsculas automatizados pueden no captar todos los matices gramaticales, particularmente con respecto a los nombres propios en mayúsculas de oración. Siempre revise su texto final.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfaz del convertidor de mayúsculas y minúsculas mostrando opciones de título",
+  "ogImageText": "Convertidor de mayúsculas y minúsculas"
+}

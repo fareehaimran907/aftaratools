@@ -8,7 +8,7 @@
     "무료 sha-256 해시 생성기",
     "최고의 sha-256 해시 생성기"
   ],
-  "slug": "sha256 발전기",
+  "slug": "sha256-saengseonggi",
   "intro": "무료 온라인 SHA-256 해시 생성기 도구를 사용해 보세요. 입력 내용을 기반으로 보안 SHA-256 해시를 생성합니다.",
   "whatIs": "SHA-256 해시 생성기는 보안 SHA-256 해시를 생성하는 온라인 유틸리티입니다. 입력 텍스트를 처리하고 64자의 16진수 문자열을 제공합니다.",
   "howToUse": [
@@ -45,10 +45,12 @@
     }
   ],
   "relatedTools": [
-    "json 포맷터",
-    "base64-인코드-디코드",
-    "URL 인코딩 디코딩"
+    "sha1-generator",
+    "md5-generator",
+    "hash-generator"
   ],
+  "cta": "안전한 SHA-256 해시를 생성하세요!",
+  "disclaimer": "계산은 Web Crypto API를 사용하여 로컬 브라우저에서 안전하게 수행됩니다. 우리는 민감한 입력 데이터를 전송하거나 기록하지 않습니다.",
   "lastReviewed": "2026-09-29",
   "imageAlt": "SHA-256 해시 생성기 인터페이스 스크린샷",
   "ogImageText": "SHA-256 해시 생성기"

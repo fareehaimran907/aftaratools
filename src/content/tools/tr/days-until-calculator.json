@@ -1,55 +1,61 @@
 {
-  "seoTitle": "Hesaplayıcıya Kalan Günler",
-  "metaDescription": "Seçilen tarihe kaç gün kaldığını hesaplayın.",
-  "h1": "Hesap Makinesine Kalan Günler",
-  "primaryKeyword": "hesap makinesine kalan günler",
+  "seoTitle": "Kalan Gün Hesaplayıcı - Herhangi Bir Tarihe Geri Sayım",
+  "metaDescription": "Belirli bir tarihe tam olarak kaç gün, saat, dakika ve saniye kaldığını hesaplayın. Tatillere, düğünlere veya teslim tarihlerine geri sayım yapmak için mükemmel.",
+  "h1": "Kalan Gün Hesaplayıcı",
+  "primaryKeyword": "kalan gün hesaplayıcı",
   "secondaryKeywords": [
-    "Çevrimiçi Hesap Makinesine Kalan Günler",
-    "Hesaplayıcıya Kadar Ücretsiz Gün Sayısı",
-    "Hesaplayıcıya Kalan En İyi Günler"
+    "kaç gün kaldı",
+    "geri sayım hesaplayıcı",
+    "tarihe kalan gün",
+    "tarihe kadar olan süre"
   ],
-  "slug": "hesap makinesine kalan gün sayısı",
-  "intro": "Yaklaşan etkinliğinize, tatilinize veya son teslim tarihinize tam olarak kaç gün kaldığını öğrenin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "kalan-gun-hesaplayici",
+  "intro": "Belirli bir olayı hevesle mi bekliyorsunuz? Bu hesaplayıcı size, seçtiğiniz herhangi bir hedef tarihe kadar gün, saat, dakika ve saniye cinsinden tam bir geri sayım sağlar. İster çok beklenen bir tatile, ister bir düğüne, Noel gibi önemli bir bayrama veya kritik bir iş teslim tarihine kadar kalan günleri sayıyor olun, Kalan Gün Hesaplayıcımız hassas ve gerçek zamanlı takip sağlar.",
+  "whatIs": "Kalan Gün Hesaplayıcı, şu an ile gelecekteki bir hedef tarih arasında tam olarak ne kadar zaman kaldığını anında hesaplayan interaktif, gerçek zamanlı bir geri sayım sayacıdır. Haftaları ve günleri manuel olarak saymanız gereken temel takvimlerin aksine, bu araç kalan süreyi saniyesine kadar dinamik olarak takip eder. Size doğru bir canlı geri sayım ekranı sağlamak için artık yıllar ve değişen ay uzunlukları da dahil olmak üzere tüm karmaşık zaman matematiği ile ilgilenir.",
   "howToUse": [
-    "Belirlenen giriş alanına hedef tarihinizi girin.",
-    "Bugünün tarihi gibi ikincil parametreleri sağlayın.",
-    "Etkinliğe kalan günleri oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Adım 1: Etkileşimli takvimi açmak için 'Hedef Tarih' giriş alanına tıklayın.",
+    "Adım 2: Takvimden yaklaşan etkinlik tarihinizi seçin. Tam günü bulmak için aylar ve yıllar arasında gezinebilirsiniz.",
+    "Adım 3: Kalan süreyi göstermek için geri sayım sayacının anında güncellenmesini izleyin.",
+    "Adım 4: Ekranda günlere, saatlere, dakikalara ve saniyelere ayrılmış canlı, çalışan bir saat görüntülenecektir.",
+    "Adım 5: Geçmişte bir tarih seçerseniz araç otomatik olarak 'Geçen Süre' moduna geçerek etkinliğin ne kadar zaman önce gerçekleştiğini gösterir."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, sisteminizin o anki saatini (milisaniyesine kadar) sürekli olarak okur ve bunu seçtiğiniz hedef tarihin tam gece yarısıyla (00:00:00) karşılaştırır. Bu iki zaman noktası arasındaki matematiksel farkı hesaplar. Daha sonra, söz konusu ham milisaniye farkını gün, saat, dakika ve saniyeden oluşan temiz, canlı, çalışan bir geri sayıma dönüştürmek için bir zaman formatlama algoritması kullanır.",
+  "workedExample": "Diyelim ki bugün 20 Aralık tam öğlen (12:00) ve hedefiniz Noel Günü (25 Aralık). Araç, 25 Aralık'ın başındaki gece yarısını hedefler. 20 Aralık'ta 12 saat ve 4 tam gün (21, 22, 23, 24 Aralık) kaldığını hesaplar. Hesap makinesi böylece tam 4 gün, 12 saat, 0 dakika ve 0 saniyelik canlı bir fark gösterecektir.",
+  "resultInterpretation": "Birincil ve en göze çarpan sonuç, etkinliğinize kadar kalan tam günlerin toplam sayısını gösterir. Aşağıdaki daha küçük tamamlayıcı kutular ayrıntılı ayrıntıları sağlayarak kalan kesirli saatleri, dakikaları ve saniyeleri gösterir. Bu çok seviyeli ekran, hızlı bir üst düzey genel bakış ('kalan 10 gün' gibi) elde etmenize veya yakın etkinlikler için kesin saniyelerin geçişini izlemenize olanak tanır.",
   "useCases": [
-    "Tatil geri sayımları",
-    "Son tarih takibi",
-    "Hareket halindeyken hedef tarihi hızlı bir şekilde işleyin"
+    "Tatil ve İzin Geri Sayımı: Noel, Cadılar Bayramı, doğum günü veya rezerve edilmiş bir uçuşa kadar olan kesin saniyelerin geçişini izleme.",
+    "Etkinlik Planlaması ve Düğünler: Hayattaki önemli bir olaydan önce hazırlıkları tamamlamak için tam olarak ne kadar zamanınız kaldığını bilme.",
+    "Proje Teslim Tarihleri: Bir ödevi, hibe teklifini veya iş projesini teslim etmek için kalan kesin saat ve dakikaların kaydını tutma.",
+    "Ürün Lansmanları: Bir yazılım sürümü, mağaza açılışı veya özel bir satış etkinliği için canlı bir geri sayım ekranı oluşturma."
   ],
   "tipsAndLimitations": [
-    "Yerel sistem saatinize bağlıdır.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "İpucu: Geri sayım, yerel saat diliminizde seçilen tarihin gece yarısını (00:00:00) otomatik olarak hedefler.",
+    "İpucu: Bu sayfayı ikinci bir monitörde veya arka plan sekmesinde açık bırakabilirsiniz; çalışan, canlı bir teslim tarihi izleyici olarak mükemmel bir şekilde işlev görür.",
+    "Sınırlama: Kesinlik açısından cihazınızın sistem saatine güvendiğinden, bilgisayarınızın dâhili saati yanlışsa geri sayım da biraz yanlış olacaktır."
   ],
   "faq": [
     {
-      "question": "Days Until Calculator'ın kullanımı ücretsiz mi?",
-      "answer": "Evet, Days Until Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Geri sayım hangi zaman dilimini kullanıyor?",
+      "answer": "Cihazınızın yerel saat dilimini kullanır. Hedef, seçtiğiniz tarihte gece yarısına (00:00) ayarlanır ve kullandığınız bilgisayarın veya telefonun yerel saatine göre yorumlanır."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
+      "question": "Geçmişteki bir olaydan bu yana kaç gün geçtiğini görmek için kullanabilir miyim?",
+      "answer": "Evet! Hesap makinesi çift yönlüdür. Geçmişte bir tarih seçerseniz otomatik olarak ileri doğru saymaya başlar ve o günden bu yana tam olarak ne kadar zaman geçtiğini gösterir."
     },
     {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Artık yılları hesaba katıyor mu?",
+      "answer": "Evet, araç artık yılları otomatik olarak hesaba katan standart yerel zaman kitaplıklarını kullanarak 29 Şubat'tan geçip geçmediğine bakılmaksızın geri sayımınızın tamamen doğru olmasını sağlar."
     }
   ],
   "relatedTools": [
-    "yaş hesaplayıcı",
-    "tarih farkı-hesaplayıcı",
-    "tarihler arasındaki günler"
+    "days-between-dates",
+    "weeks-between-dates",
+    "date-difference-calculator",
+    "age-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Hesaplayıcıya Kalan Günler",
-  "ogImageText": "Hesaplayıcıya Kalan Günler"
+  "cta": "Hemen şimdi yukarıdan bir hedef tarih seçerek canlı geri sayımınızı başlatın!",
+  "disclaimer": "Bu araç, canlı doğruluk için cihazınızın sistem saatine güvenir. Cihazınızın saati manuel olarak yanlış ayarlanmışsa geri sayım da bu hatayı yansıtacaktır.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Günleri, saatleri, dakikaları ve saniyeleri gösteren çalışan bir geri sayım hesaplayıcısını gösteren ekran görüntüsü",
+  "ogImageText": "Kalan Gün Hesaplayıcı"
 }

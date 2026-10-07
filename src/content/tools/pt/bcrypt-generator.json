@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Gerador de Hash Bcrypt - Hash de Senha Seguro",
+  "metaDescription": "Gerador Bcrypt online gratuito. Criptografe senhas de forma segura usando o algoritmo bcrypt padrão da indústria com fatores de custo personalizados (rodadas de trabalho) para máxima segurança.",
+  "h1": "Gerador de Hash Bcrypt",
+  "primaryKeyword": "gerador bcrypt",
+  "secondaryKeywords": [
+    "hash de senha bcrypt",
+    "gerar bcrypt",
+    "bcrypt on-line",
+    "ferramenta de hash de senha"
+  ],
+  "slug": "gerador-de-hash-bcrypt",
+  "intro": "Construindo um sistema de autenticação de usuários? Nosso Gerador Bcrypt gratuito oferece a maneira mais segura de hash de senhas, usando salting automático e um fator de custo computacional personalizável.",
+  "whatIs": "O Gerador Bcrypt é uma ferramenta de segurança avançada projetada especificamente para hash de senhas de usuários. Ao contrário de algoritmos rápidos (MD5, SHA), o bcrypt é intencionalmente lento e gera automaticamente um 'sal' único e aleatório para cada hash, a fim de impedir ataques de tabelas rainbow.",
+  "howToUse": [
+    "Digite a senha em texto simples no campo de entrada.",
+    "Selecione seu fator 'Custo' (o padrão geralmente é 10 ou 12). Custo maior significa que leva mais tempo para calcular.",
+    "Clique em Gerar.",
+    "A ferramenta gera a string completa do bcrypt (que inclui a versão do algoritmo, custo, salt e hash)."
+  ],
+  "howItWorks": "Bcrypt é baseado no cifrador Blowfish. A ferramenta gera um sal aleatório de 128 bits, o acrescenta à senha e a passa pelo cifrador várias vezes com base no fator 'Custo'. Um custo de 10 significa 2^10 (1.024) iterações. Um custo de 12 significa 2^12 (4.096) iterações.",
+  "workedExample": "Inserindo 'password123' com um custo de 10. A ferramenta gera uma string começando com `$2a$10$`, seguida por 22 caracteres de sal aleatório, seguida por 31 caracteres do hash real.",
+  "resultInterpretation": "A string result é exatamente o que você deve salvar em seu banco de dados. Quando um usuário faz login, seu servidor lê o sal dessa string, faz o hash da tentativa de login com o mesmo sal e compara os resultados.",
+  "useCases": [
+    "Desenvolvimento de Software: Gerar manualmente um hash de senha de administrador seguro para inserir em um novo banco de dados.",
+    "Educação em Segurança: Compreendendo como sais e fatores de custo alteram a saída de uma função de hash de senha.",
+    "Recuperação do Sistema: Gerando um hash de backdoor para recuperar o acesso a um sistema onde a senha do administrador foi perdida."
+  ],
+  "tipsAndLimitations": [
+    "Porque o bcrypt gera automaticamente um sal aleatório, hashear a mesma senha duas vezes resultará em duas strings de saída completamente diferentes. Esta é uma característica de segurança deliberada.",
+    "O Bcrypt possui um comprimento máximo de entrada de senha de 72 bytes. Caracteres além desse limite são ignorados."
+  ],
+  "faq": [
+    {
+      "question": "Por que o bcrypt é melhor que o SHA-256 para senhas?",
+      "answer": "SHA-256 é projetado para ser extremamente rápido. Um hacker com uma boa placa de vídeo pode adivinhar bilhões de senhas SHA-256 por segundo. Bcrypt é intencionalmente lento. Ao definir um fator de custo alto, você limita o hacker a adivinhar apenas algumas dezenas de senhas por segundo, tornando os ataques de força bruta impossíveis."
+    },
+    {
+      "question": "Qual é o fator de custo recomendado?",
+      "answer": "À medida que os computadores ficam mais rápidos, o custo recomendado aumenta. Um custo de 10 ou 12 é padrão hoje. Deve ser alto o suficiente para desestimular hackers, mas rápido o bastante (por exemplo, 200 milissegundos) para que não frustre usuários legítimos ao fazer login."
+    }
+  ],
+  "relatedTools": [
+    "password-generator",
+    "strong-password-generator",
+    "sha256-hash-generator"
+  ],
+  "cta": "Criptografe suas senhas com segurança usando bcrypt!",
+  "disclaimer": "A geração requer cálculos intensivos da CPU do navegador dependendo do fator de custo selecionado. As strings são geradas localmente e nunca transmitidas.",
+  "lastReviewed": "02/10/2026",
+  "imageAlt": "Interface do gerador Bcrypt mostrando as configurações do fator de custo",
+  "ogImageText": "Gerador de Bcrypt"
+}

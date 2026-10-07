@@ -1,55 +1,67 @@
 {
-  "seoTitle": "Percentage Decrease Calculator",
-  "metaDescription": "Free online Percentage Decrease Calculator. Calculate the percentage decrease between two numbers.",
+  "seoTitle": "Percentage Decrease Calculator - Calculate Discounts & Drops",
+  "metaDescription": "Free percentage decrease calculator. Easily calculate the percentage drop from one number to another. Perfect for finding discounts and depreciation.",
   "h1": "Percentage Decrease Calculator",
   "primaryKeyword": "percentage decrease calculator",
   "secondaryKeywords": [
-    "percentage decrease calculator online",
-    "free percentage decrease calculator",
-    "best percentage decrease calculator"
+    "calculate percentage decrease",
+    "percent decrease",
+    "discount calculator",
+    "depreciation calculator",
+    "percentage drop"
   ],
   "slug": "percentage-decrease-calculator",
-  "intro": "Use our free online Percentage Decrease Calculator tool. It finds the reduction percentage based on your inputs.",
-  "whatIs": "The Percentage Decrease Calculator is an online utility that finds the reduction percentage. It processes your initial value and provides the relative percentage drop.",
+  "intro": "When numbers go down, you need to know exactly how much they fell in relative terms. Our free Percentage Decrease Calculator helps you instantly find the percentage drop between any two numbers. Whether you are calculating a retail discount, evaluating stock market losses, measuring weight loss, or figuring out asset depreciation, this tool gives you the precise percentage decrease and the absolute difference in seconds.",
+  "whatIs": "A percentage decrease calculator is a mathematical tool that measures the relative decline from a starting value to a lower ending value. Percentage decrease is the ratio of a value's decline to its original amount, expressed as a percentage. It is widely used in retail (for discounts), finance (for losses and depreciation), and science to quantify how much a quantity has shrunk.",
   "howToUse": [
-    "Enter your initial value into the designated input field.",
-    "Provide any secondary parameters like final value.",
-    "Click the calculate or submit button to generate the relative percentage drop.",
-    "Copy or review the resulting output for your needs."
+    "Enter the Initial Value (the higher starting number).",
+    "Enter the Final Value (the new, lower number).",
+    "Click 'Calculate'.",
+    "The tool will instantly display the percentage decrease and the absolute numerical difference."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your initial value. It instantly processes the data to output the relative percentage drop.",
-  "workedExample": "For example: 100 down to 80 is a 20% decrease.",
-  "resultInterpretation": "The result represents the relative percentage drop. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "The mathematical formula for percentage decrease is: Percentage Decrease = [(Initial Value - Final Value) / Initial Value] × 100. First, subtract the final value from the initial value to find the absolute decrease. Then, divide that drop by the initial starting value. Finally, multiply by 100 to convert the decimal into a percentage.",
+  "workedExample": "Suppose a TV originally costs $500, and it goes on sale for $400. The absolute decrease is $500 - $400 = $100. Now, divide the decrease by the original price: $100 / $500 = 0.20. Multiply by 100 to get the percentage: 0.20 × 100 = 20%. The price of the TV decreased by 20%.",
+  "resultInterpretation": "Your result includes two numbers: the Absolute Difference (the actual numerical amount lost or reduced) and the Percentage Decrease (the drop relative to the starting point). A percentage decrease of 50% means the value has been cut exactly in half. A percentage decrease of 100% means the value has dropped to zero.",
   "useCases": [
-    "Calculating price drops",
-    "Measuring weight loss",
-    "Quickly processing initial value on the go"
+    "Retail Discounts: Calculate the exact percentage off an item during a sale.",
+    "Investment Losses: Determine the percentage drop in a stock portfolio's value.",
+    "Depreciation: Calculate how much a car or piece of equipment has depreciated over a year.",
+    "Weight Loss: Track the percentage of body weight you have lost over time.",
+    "Budget Reductions: Measure the percentage cut to a department's budget compared to last year."
   ],
   "tipsAndLimitations": [
-    "A decrease cannot exceed 100% unless values go negative.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "Always divide by the INITIAL value, not the final value. This is the most common mistake in percentage calculations.",
+    "If the final value is larger than the initial value, you have a percentage increase, not a decrease. (Use our Percentage Increase Calculator instead).",
+    "A value cannot decrease by more than 100% unless it becomes negative. A 100% decrease means the value is now zero.",
+    "Percentage drops are not symmetrical to percentage gains. If a stock drops 50% from $100 to $50, it needs a 100% increase to get back to $100."
   ],
   "faq": [
     {
-      "question": "Is a 50% decrease halving?",
-      "answer": "Yes, decreasing by 50% cuts the value in half."
+      "question": "What is the formula for percentage decrease?",
+      "answer": "Percentage Decrease = [(Old Value - New Value) / Old Value] × 100."
     },
     {
-      "question": "Is the Percentage Decrease Calculator free to use?",
-      "answer": "Yes, our Percentage Decrease Calculator is completely free and requires no registration."
+      "question": "Can a percentage decrease be more than 100%?",
+      "answer": "Only if the final value goes into the negatives (e.g., dropping from $10 to -$5 is a 150% decrease). If the lowest possible value is zero, the maximum decrease is 100%."
     },
     {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "How do I take 20% off a number?",
+      "answer": "Multiply the number by 0.80 (which is 100% - 20%). For example, 20% off $50 is $50 × 0.80 = $40."
+    },
+    {
+      "question": "Why divide by the old number?",
+      "answer": "Because change is always measured relative to the starting point."
     }
   ],
   "relatedTools": [
-    "percentage-calculator",
-    "salary-calculator",
-    "discount-calculator"
+    "percentage-increase-calculator",
+    "compound-interest-calculator",
+    "investment-calculator",
+    "salary-to-hourly-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Percentage Decrease Calculator interface screenshot",
+  "cta": "Calculate your exact percentage decrease now and measure drops accurately!",
+  "disclaimer": "This tool is provided for educational and informational purposes. Always double-check calculations for financial or business reporting.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Percentage decrease calculator showing the drop from an initial to a final value",
   "ogImageText": "Percentage Decrease Calculator"
 }

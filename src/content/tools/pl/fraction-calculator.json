@@ -1,55 +1,75 @@
 {
-  "seoTitle": "Kalkulator ułamków",
-  "metaDescription": "Dodawaj, odejmij, mnóż i dziel ułamki zwykłe.",
-  "h1": "Kalkulator ułamków",
+  "seoTitle": "Kalkulator Ułamków – Dodawaj, Odejmuj, Mnóż i Dziel Ułamki",
+  "metaDescription": "Darmowy kalkulator ułamków online. Łatwo dodawaj, odejmuj, mnóż i dziel ułamki. Otrzymuj natychmiastowe wyniki w postaci ułamków nieskracalnych i dziesiętnych.",
+  "h1": "Kalkulator Ułamków",
   "primaryKeyword": "kalkulator ułamków",
   "secondaryKeywords": [
-    "Kalkulator ułamków online",
-    "darmowy kalkulator ułamków",
-    "najlepszy kalkulator ułamków"
+    "dodawanie ułamków",
+    "odejmowanie ułamków",
+    "mnożenie ułamków",
+    "dzielenie ułamków",
+    "rozwiązywanie ułamków",
+    "kalkulator matematyczny ułamki",
+    "ułamki na dziesiętne"
   ],
-  "slug": "kalkulator ułamków",
-  "intro": "Z łatwością rozwiązuj równania matematyczne obejmujące ułamki, stosując uproszczenia krok po kroku.",
-  "whatIs": "Co to jest za narzędzie?",
+  "slug": "kalkulator-ulamkow",
+  "intro": "Masz problemy ze skomplikowanymi obliczeniami na ułamkach? Niezależnie od tego, czy pomagasz w pracy domowej, dostosowujesz przepis kulinarny, czy pracujesz nad projektem stolarskim, nasz darmowy internetowy Kalkulator Ułamków sprawia, że praca z ułamkami jest prosta. Błyskawicznie dodawaj, odejmuj, mnóż lub dziel dowolne dwa ułamki. Narzędzie automatycznie znajduje wspólny mianownik, wykonuje obliczenia, upraszcza wynik do postaci nieskracalnej, a nawet podaje jego odpowiednik w postaci ułamka dziesiętnego. Pożegnaj się z błędami w ręcznych obliczeniach i żmudnym liczeniem — uzyskuj matematycznie doskonałe odpowiedzi w czasie rzeczywistym.",
+  "whatIs": "Kalkulator ułamków to specjalistyczne narzędzie matematyczne przeznaczone do wykonywania standardowych operacji arytmetycznych (dodawania, odejmowania, mnożenia i dzielenia) specjalnie na ułamkach zwykłych. Ułamek reprezentuje część całości, składającą się z licznika (górnej liczby wskazującej, ile części posiadasz) i mianownika (dolnej liczby wskazującej, na ile równych części podzielona jest całość). Ręczne wykonywanie działań arytmetycznych na ułamkach może być skomplikowane, zwłaszcza przy dodawaniu lub odejmowaniu ułamków o różnych mianownikach, ponieważ wymaga znalezienia najmniejszej wspólnej wielokrotności. To narzędzie automatyzuje cały proces, łącznie z końcowym etapem skracania (lub upraszczania) ułamka do najprostszej możliwej postaci poprzez znalezienie największego wspólnego dzielnika.",
   "howToUse": [
-    "Wprowadź licznik w wyznaczonym polu wejściowym.",
-    "Podaj dowolne parametry dodatkowe, takie jak mianownik.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować wynik uproszczonego ułamka.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
+    "Zlokalizuj dwa obszary wprowadzania ułamków, rozdzielone menu rozwijanym dla operatora matematycznego.",
+    "Wprowadź licznik (górna liczba) i mianownik (dolna liczba) dla pierwszego ułamka po lewej stronie.",
+    "Wybierz operację arytmetyczną, którą chcesz wykonać: Dodawanie (+), Odejmowanie (-), Mnożenie (×) lub Dzielenie (÷) ze środkowego menu rozwijanego.",
+    "Wprowadź licznik i mianownik dla drugiego ułamka po prawej stronie.",
+    "Narzędzie błyskawicznie oblicza i wyświetla wynik w trakcie pisania. Nie ma przycisku 'Oblicz', który trzeba kliknąć."
   ],
-  "howItWorks": "Jak to działa",
-  "workedExample": "Przykłady",
-  "resultInterpretation": "Interpretacja",
+  "howItWorks": "Nasz kalkulator działa poprzez uruchamianie standardowych algorytmów matematycznych w Twojej przeglądarce. W przypadku dodawania i odejmowania matematycznie określa on wspólny mianownik (mnożąc przez siebie oba mianowniki) i dostosowuje liczniki przed ich dodaniem lub odjęciem. W przypadku mnożenia mnoży on liczniki przez siebie oraz mianowniki przez siebie. W przypadku dzielenia mnoży on pierwszy ułamek przez odwrotność (odwróconą wersję) drugiego ułamka. Po obliczeniu surowego wyniku narzędzie wykorzystuje algorytm Euklidesa w celu znalezienia największego wspólnego dzielnika (NWD) licznika i mianownika, redukując ułamek do najprostszej postaci. Na koniec dzieli licznik przez mianownik, aby wyświetlić odpowiednik w postaci dziesiętnej.",
+  "workedExample": "Dodajmy ręcznie 1/4 i 2/3. Najpierw potrzebujemy wspólnego mianownika. Najmniejsza wspólna wielokrotność dla 4 i 3 to 12. Przekształcamy 1/4, mnożąc licznik i mianownik przez 3, uzyskując 3/12. Przekształcamy 2/3, mnożąc licznik i mianownik przez 4, uzyskując 8/12. Teraz dodajemy liczniki: 3 + 8 = 11. Wynik to 11/12. \n\nTeraz pomnóżmy 2/5 przez 3/4. Po prostu mnożymy liczniki (2 × 3 = 6) i mianowniki (5 × 4 = 20), co daje nam 6/20. Aby uprościć, znajdujemy największy wspólny dzielnik dla 6 i 20, którym jest 2. Dzielimy licznik i mianownik przez 2, co daje końcową, uproszczoną odpowiedź: 3/10 (lub 0,3 w ułamku dziesiętnym).",
+  "resultInterpretation": "Ostateczny wynik jest wyświetlany w widocznym miejscu po prawej stronie znaku równości jako w pełni uproszczony (nieskracalny) ułamek. Jeśli wynik jest liczbą całkowitą, zostanie wyświetlony jako pojedyncza cyfra bez mianownika. Bezpośrednio pod panelem ułamków zobaczysz sekcję 'DZIESIĘTNY' (DECIMAL), która pokazuje dokładny odpowiednik dziesiętny Twojego ułamka (zaokrąglony do 6 miejsc po przecinku, jeśli jest to ułamek okresowy). Jeśli spróbujesz podzielić jakąkolwiek liczbę przez zero (np. wprowadzając '0' w dowolnym mianowniku), kalkulator natychmiast wyświetli ostrzeżenie 'Błąd: Dziel. przez zero', aby zapobiec niemożliwym operacjom matematycznym.",
   "useCases": [
-    "Pomiary obróbki drewna",
-    "Skalowanie pieczenia",
-    "Szybkie przetwarzanie licznika w podróży"
+    "Gotowanie i Pieczenie: Łatwe skalowanie przepisów w górę lub w dół (np. dzielenie na pół przepisu wymagającego 3/4 szklanki mąki).",
+    "Stolarstwo i Budownictwo: Dodawanie lub odejmowanie wymiarów w calach (np. 5/8\" + 3/16\") w celu precyzyjnego cięcia i budowania.",
+    "Edukacja i Praca domowa: Uczniowie mogą sprawdzać poprawność swoich ręcznych obliczeń na ułamkach.",
+    "Projekty DIY: Obliczanie długości materiałów, jardów tkaniny lub objętości farby, które obejmują pomiary ułamkowe.",
+    "Finanse i Księgowość: Obsługa ułamkowych akcji, podział kosztów lub obliczanie wydatków proporcjonalnych (pro-rata)."
   ],
   "tipsAndLimitations": [
-    "Ułamki należy sprowadzić do najniższych wyrazów.",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
+    "Kalkulator obecnie akceptuje tylko liczby całkowite jako dane wejściowe dla liczników i mianowników. Nie akceptuje liczb dziesiętnych w obrębie ułamka.",
+    "Liczby mieszane (np. 1 1/2) przed wprowadzeniem do narzędzia należy zamienić na ułamki niewłaściwe (np. 3/2).",
+    "Ułamki ujemne są w pełni obsługiwane. Po prostu dodaj znak minus (-) do licznika.",
+    "Wynik dziesiętny jest zaokrąglany maksymalnie do 6 miejsc po przecinku w celu zwiększenia czytelności.",
+    "Mianownik nigdy nie może wynosić zero. Próba wprowadzenia zera jako mianownika spowoduje błąd 'Dziel. przez zero'."
   ],
   "faq": [
     {
-      "question": "Jak mnoży się ułamki zwykłe?",
-      "answer": "Pomnóż w górę, a następnie w dół."
+      "question": "Czy ten kalkulator automatycznie skraca (upraszcza) ułamki?",
+      "answer": "Tak. Kalkulator używa algorytmu matematycznego, aby znaleźć największy wspólny dzielnik (NWD) i automatycznie redukuje każdą odpowiedź do najprostszej postaci (ułamka nieskracalnego)."
     },
     {
-      "question": "Czy korzystanie z kalkulatora ułamków jest bezpłatne?",
-      "answer": "Tak, nasz Kalkulator Ułamków jest całkowicie darmowy i nie wymaga rejestracji."
+      "question": "Jak obliczyć liczby mieszane (np. 2 3/4)?",
+      "answer": "Aby obliczyć liczby mieszane, musisz najpierw zamienić je na ułamki niewłaściwe. Na przykład 2 3/4 staje się 11/4 (ponieważ 2 × 4 = 8, a 8 + 3 = 11). Wpisz 11 jako licznik i 4 jako mianownik."
     },
     {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, narzędzie jest w pełni responsywne i doskonale działa na wszystkich smartfonach i tabletach."
+      "question": "Czy mogę używać ułamków ujemnych?",
+      "answer": "Tak. Możesz wykonywać obliczenia z ułamkami ujemnymi, umieszczając znak minus (-) przed licznikiem."
+    },
+    {
+      "question": "Co się stanie, jeśli w mianowniku wpiszę 0?",
+      "answer": "W matematyce dzielenie przez zero jest niezdefiniowane. Kalkulator natychmiast to wykryje i wyświetli komunikat 'Błąd: Dziel. przez zero'."
+    },
+    {
+      "question": "Jak dokładna jest konwersja na ułamek dziesiętny?",
+      "answer": "Odpowiednik dziesiętny jest bardzo dokładny, ale jest ograniczony do maksymalnie 6 miejsc po przecinku, aby zapobiec psuciu układu strony przez ułamki okresowe nieskończone."
     }
   ],
   "relatedTools": [
-    "kalkulator proporcji",
-    "kalkulator średniej",
-    "kalkulator gpa"
+    "average-calculator",
+    "percentage-calculator",
+    "grade-calculator",
+    "final-grade-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator ułamków",
-  "ogImageText": "Kalkulator ułamków"
+  "cta": "Musisz szybko rozwiązać trudny problem z ułamkami? Wprowadź swoje ułamki powyżej, aby natychmiast uzyskać uproszczoną odpowiedź i jej dziesiętny odpowiednik.",
+  "disclaimer": "To narzędzie jest przeznaczone do ogólnych obliczeń matematycznych i celów edukacyjnych. Chociaż dążymy do absolutnej dokładności, zawsze należy ręcznie sprawdzać krytyczne pomiary do zastosowań budowlanych, inżynieryjnych lub finansowych.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfejs kalkulatora ułamków pokazujący pola wprowadzania dla dwóch ułamków i menu rozwijane operatora",
+  "ogImageText": "Kalkulator Ułamków"
 }

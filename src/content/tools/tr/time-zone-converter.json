@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Saat Dilimi Dönüştürücü",
-  "metaDescription": "Belirli saat dilimleri arasındaki saatleri dönüştürün.",
+  "seoTitle": "Saat Dilimi Dönüştürücü - Şehirler Arası Saat Çevirici",
+  "metaDescription": "Farklı saat dilimleri arasındaki saati kolayca dönüştürün. Kesin saat farkını öğrenin ve programlarınızı dünya genelinde koordine edin.",
   "h1": "Saat Dilimi Dönüştürücü",
   "primaryKeyword": "saat dilimi dönüştürücü",
   "secondaryKeywords": [
-    "Çevrimiçi Saat Dilimi Dönüştürücü",
-    "ücretsiz Saat Dilimi Dönüştürücü",
-    "en iyi Saat Dilimi Dönüştürücü"
+    "şehirler arası saat çevirici",
+    "saat farkı",
+    "saat dilimi hesaplayıcı"
   ],
-  "slug": "saat dilimi dönüştürücü",
-  "intro": "Belirli bir zamanı bir zaman diliminden diğerine kolayca çevirin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "saat-dilimi-cevirici",
+  "intro": "Tokyo'daki sabah 9:00'un Londra'daki sabah programınız için ne anlama geldiğini mi anlamaya çalışıyorsunuz? Özellikle yaz saati uygulaması kuralları ülkeden ülkeye değiştiğinde, küresel saat dilimleri arasında koordinasyon sağlamak matematiksel bir baş ağrısı olabilir. Ücretsiz çevrimiçi Saat Dilimi Dönüştürücümüz, herhangi bir belirli tarihi ve saati bir saat diliminden diğerine anında çevirmenize izin vererek uluslararası programlamadaki varsayımları ortadan kaldırır. Çok uluslu bir konferans görüşmesi organize ediyor, bir uçuş rezervasyonu yapıyor veya uzak bir ekip için bir son teslim tarihi belirliyor olun, bu araç nokta atışı doğruluk sağlar. Saat dilimi karışıklığından kaynaklanan yanlış iletişim riskini tamamen ortadan kaldırarak herkesin tam da olması gerektiği zaman ortaya çıkmasını sağlar.",
+  "whatIs": "Saat Dilimi Dönüştürücü, belirli bir tarih ve saati herhangi iki küresel saat dilimi veya şehir arasında çeviren hassas bir yardımcı programdır. Yalnızca geçerli canlı saati gösteren bir dünya saatinin aksine, bir saat dilimi dönüştürücü, dünyanın farklı bir yerinde belirli bir gelecekteki veya geçmiş andaki durumun nasıl göründüğünü belirlemek için takvimde ileriye veya geriye doğru yansıtmanıza olanak tanır. Dünyadaki her bölge için geçmiş ve güncel saat dilimi kurallarını içeren kapsamlı IANA Saat Dilimi Veritabanına (Olson veritabanı) dayanır. Bu, dönüştürücünün herhangi bir manuel matematik yapmanıza gerek kalmadan Yaz Saati Uygulaması geçişleri, bölgesel sapma değişiklikleri ve yarım küre farklılıkları gibi karmaşık anormallikleri otomatik olarak hesaba kattığı anlamına gelir.",
   "howToUse": [
-    "Belirlenen giriş alanına saat dilimi 1'inizi girin.",
-    "Saat dilimi 2 gibi ikincil parametreleri sağlayın.",
-    "UTC farklarına göre kaydırılan zamanı oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "İlk menüden başlangıç saat diliminizi seçin.",
+    "Dönüştürmek istediğiniz tarih ve saati girin.",
+    "İkinci menüden hedef saat diliminizi seçin.",
+    "İkinci menüden hedef saat diliminizi seçin."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Bir başlangıç tarihi ve saati, bir kaynak saat dilimi ve bir hedef saat dilimi seçtiğinizde, dönüştürücü iki adımlı bir hesaplama gerçekleştirir. İlk olarak, giriş saatinizi belirli takvim tarihinde kaynak konuma uygulanan kesin sapma kurallarına göre Koordinatlı Evrensel Saate (UTC) çevirir. İkinci olarak, o UTC anını alır ve tam olarak aynı tarihte hedef konum için sapma kurallarını uygular. Bu ikili dönüştürme yaklaşımı, bir konum Yaz Saati Uygulaması yapıp diğeri yapmasa veya iki konum tamamen farklı tarihlerde DST'ye geçiş yapsa bile mutlak doğruluğu garanti eder. Hesaplama tarayıcınızda anında gerçekleşir.",
+  "workedExample": "San Francisco'da (PST/PDT) yaşadığınızı ve yerel saatle 10:00'da 15 Mart için sanal bir toplantı planlamanız gerektiğini düşünün. Sidney, Avustralya'daki (AEST/AEDT) meslektaşınızın saat kaçta katılması gerektiğini bilmek istiyorsunuz. '15 Mart, 10:00' yazıp kaynak olarak 'San Francisco' ve hedef olarak 'Sydney' seçiyorsunuz. Dönüştürücü farkı hesaplar ve sonucu gösterir: '16 Mart, Sidney'de sabah 4:00'. Saatin tamamen farklı olmasının yanı sıra, toplantının aslında meslektaşınız için bir sonraki takvim gününe denk geldiğine dikkat edin. Bu doğru bilgilerle donanmış olarak, toplantıyı her iki taraf için de daha makul bir saate ertelemeye karar verebilirsiniz.",
+  "resultInterpretation": "Sonuç, seçtiğiniz hedef bölgedeki dönüştürülmüş tarih ve saati açıkça gösterir. Büyük saat dilimi boşlukları olayları genellikle uluslararası tarih çizgisinin ötesine veya gece yarısını geçip farklı bir takvim gününe ittiğinden, hem saate hem de tarihe dikkat etmek çok önemlidir. Araç ayrıca, o belirli andaki (örneğin UTC-7'ye karşı UTC+11) hem kaynak hem de hedef için kesin UTC sapmasını gösterir. Yinelenen bir olay planlıyorsanız, iki konum arasındaki saat farkının yılın ilerleyen aylarında bölgelerden biri veya her ikisi de Yaz Saati Uygulamasına girdiğinde veya çıktığında değişebileceğini unutmayın.",
   "useCases": [
-    "Uzaktan çalışma koordinasyonu",
-    "Web semineri planlama",
-    "Hareket halindeyken saat dilimi 1'i hızla işleme"
+    "Röportaj Planlama: Aynı anda çevrimiçi olmayı garantilemek.",
+    "Uçuş Bağlantıları: Aktarma süresini tam olarak anlamak.",
+    "Uzaktan Çalışma: Senkronize teslim tarihleri belirlemek."
   ],
   "tipsAndLimitations": [
-    "Ofsetler yıl boyunca değişebilir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Yaz saati uygulaması (DST) değişiklikleri nedeniyle bahar ve sonbahar aylarında dikkatli olun.",
+    "Yaz saati uygulaması (DST) değişiklikleri nedeniyle bahar ve sonbahar aylarında dikkatli olun."
   ],
   "faq": [
     {
-      "question": "Saat Dilimi Dönüştürücüsünün kullanımı ücretsiz midir?",
-      "answer": "Evet, Saat Dilimi Dönüştürücümüzün kullanımı tamamen ücretsizdir."
+      "question": "Yaz saati uygulamasını otomatik olarak hallediyor mu?",
+      "answer": "Evet, girdiğiniz belirli tarihi kontrol ettiği için her iki konum için doğru yaz saati kurallarını uygular."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Yaz saati uygulamasını otomatik olarak hallediyor mu?",
+      "answer": "Evet, girdiğiniz belirli tarihi kontrol ettiği için her iki konum için doğru yaz saati kurallarını uygular."
     }
   ],
   "relatedTools": [
-    "yaş hesaplayıcı",
-    "tarih farkı-hesaplayıcı",
-    "tarihler arasındaki günler"
+    "world-time-converter",
+    "time-difference-calculator",
+    "unix-timestamp-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Saat Dilimi Dönüştürücü",
+  "cta": "Saat dilimlerinizi anında dönüştürün!",
+  "disclaimer": "Bu araç tarayıcınızın dahili saat dilimi veritabanına dayanmaktadır.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Saat Dilimi Dönüştürücü Arayüzü",
   "ogImageText": "Saat Dilimi Dönüştürücü"
 }

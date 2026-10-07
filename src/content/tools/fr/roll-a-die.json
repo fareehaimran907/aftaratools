@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Lancez un dé - Lanceur de dés virtuel en ligne",
+  "metaDescription": "Lanceur de dés en ligne gratuit. Lancez instantanément un dé virtuel à 6 faces (ou choisissez des faces personnalisées) pour les jeux de société, les RPG et la génération de nombres aléatoires.",
+  "h1": "Lancez un dé",
+  "primaryKeyword": "lancer un dé",
+  "secondaryKeywords": [
+    "rouleau de dés virtuel",
+    "lancer les dés en ligne",
+    "générateur de dés aléatoires",
+    "rouleau d6"
+  ],
+  "slug": "lancez-un-dé",
+  "intro": "Vous avez perdu les dés de votre jeu de société préféré ou avez besoin d'un numéro aléatoire rapide pour Donjons & Dragons ? Notre rouleau de dés virtuel gratuit vous offre un lancer parfait et impartial à chaque fois.",
+  "whatIs": "L'outil Roll a Die est un simulateur numérique qui recrée la probabilité mathématique de lancer des dés physiques. Par défaut, il simule un dé standard à 6 faces (D6), mais peut être personnalisé.",
+  "howToUse": [
+    "Accédez à l'outil et sélectionnez le nombre de dés que vous souhaitez lancer.",
+    "Le cas échéant, sélectionnez le type de dé (par exemple, 6 faces, 20 faces).",
+    "Cliquez sur le bouton « Lancer ».",
+    "L'outil génère et affiche instantanément les résultats aléatoires."
+  ],
+  "howItWorks": "L'outil agit comme un générateur de nombres aléatoires spécialisé. Pour un dé standard à 6 faces, il utilise la fonction Math.random() de JavaScript pour choisir un nombre parfaitement réparti entre 1 et 6.",
+  "workedExample": "Vous devez lancer deux dés à 6 faces (2d6) pour le Monopoly. Vous définissez la quantité sur 2 et cliquez sur rouler. L'algorithme génère un 4 et un 5. L'outil affiche les dés individuels et la somme totale (9).",
+  "resultInterpretation": "Les nombres indiqués sont des résultats complètement aléatoires et indépendants. Traitez le rouleau numérique exactement comme vous le feriez pour un rouleau physique sur une table.",
+  "useCases": [
+    "Jeux de société : Remplacement des pièces manquantes pour des jeux comme Monopoly ou Yahtzee.",
+    "Jeux de rôle sur table : lancer un D20 pour une vérification des statistiques dans Dungeons & Dragons ou Pathfinder.",
+    "Éducation en classe : Enseigner les statistiques de probabilité sans dés physiques bruyants."
+  ],
+  "tipsAndLimitations": [
+    "Un dé numérique est techniquement plus équitable qu’un dé physique en plastique bon marché, car les algorithmes numériques ne présentent pas de déséquilibre de poids physique.",
+    "Lancer plusieurs dés ? La somme de deux dés à 6 faces n’est pas une probabilité égale. Un 7 est beaucoup plus probable qu’un 2 ou un 12."
+  ],
+  "faq": [
+    {
+      "question": "Le lancer de dés est-il vraiment aléatoire ?",
+      "answer": "Le lancer utilise un algorithme de nombres pseudo-aléatoires. Pour les jeux et une utilisation occasionnelle, il est statistiquement impossible à distinguer d'un dé physique parfaitement équilibré."
+    },
+    {
+      "question": "Puis-je lancer plusieurs dés à la fois ?",
+      "answer": "Oui! Vous pouvez ajuster les paramètres de quantité pour lancer plusieurs dés simultanément, et l'outil calculera automatiquement la somme totale."
+    }
+  ],
+  "relatedTools": [
+    "random-number-generator",
+    "flip-a-coin",
+    "spin-the-wheel"
+  ],
+  "cta": "Lancez les dés virtuels maintenant !",
+  "disclaimer": "L'outil utilise la génération de nombres pseudo-aléatoires basée sur un navigateur. Conçu à des fins de divertissement et de jeux occasionnels.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Dés virtuel montrant un lancer aléatoire",
+  "ogImageText": "Lancez un dé"
+}

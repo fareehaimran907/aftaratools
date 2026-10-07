@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Tira un dado: rodillo de dados virtual en línea",
+  "metaDescription": "Rodillo de dados online gratis. Lanza instantáneamente un dado virtual de 6 caras (o elige caras personalizadas) para juegos de mesa, juegos de rol y generación de números aleatorios.",
+  "h1": "Tirar un dado",
+  "primaryKeyword": "tirar un dado",
+  "secondaryKeywords": [
+    "rodillo de dados virtual",
+    "tirar dados",
+    "generador de dados aleatorios",
+    "rodillo d6"
+  ],
+  "slug": "tirar-un-dado",
+  "intro": "¿Perdiste los dados de tu juego de mesa favorito o necesitas un número aleatorio rápido para Dungeons & Dragons? Nuestro Dice Roller virtual gratuito te ofrece una tirada perfecta e imparcial en todo momento.",
+  "whatIs": "La herramienta Roll a Die es un simulador digital que recrea la probabilidad matemática de lanzar dados físicos. De forma predeterminada, simula un troquel estándar de 6 caras (D6), pero se puede personalizar.",
+  "howToUse": [
+    "Navega hasta la herramienta y selecciona la cantidad de dados que deseas lanzar.",
+    "Si corresponde, seleccione el tipo de matriz (por ejemplo, 6 caras, 20 caras).",
+    "Haga clic en el botón 'Rodar'.",
+    "La herramienta genera y muestra instantáneamente los resultados aleatorios."
+  ],
+  "howItWorks": "La herramienta actúa como un generador de números aleatorios especializado. Para un dado estándar de 6 caras, utiliza la función Math.random() de JavaScript para elegir un número perfectamente distribuido entre 1 y 6.",
+  "workedExample": "Debes tirar dos dados de 6 caras (2d6) para Monopoly. Estableces la cantidad en 2 y haces clic en rodar. El algoritmo genera un 4 y un 5. La herramienta muestra los dados individuales y la suma total (9).",
+  "resultInterpretation": "Los números mostrados son resultados independientes y completamente aleatorios. Trate el rollo digital exactamente como lo haría con un rollo físico sobre una mesa.",
+  "useCases": [
+    "Juegos de mesa: Reemplazo de piezas faltantes para juegos como Monopoly o Yahtzee.",
+    "Juegos de rol de mesa: tira un D20 para verificar las estadísticas en Dungeons & Dragons o Pathfinder.",
+    "Educación en el aula: enseñanza de estadísticas de probabilidad sin dados físicos ruidosos."
+  ],
+  "tipsAndLimitations": [
+    "Un troquel digital es técnicamente más justo que un troquel físico de plástico barato, ya que los algoritmos digitales no tienen desequilibrios de peso físico.",
+    "¿Lanzar varios dados? La suma de dos dados de 6 caras no tiene la misma probabilidad. Es mucho más probable un 7 que un 2 o un 12."
+  ],
+  "faq": [
+    {
+      "question": "¿La tirada de dados es realmente aleatoria?",
+      "answer": "La tirada utiliza un algoritmo de números pseudoaleatorios. Para juegos y uso casual, es estadísticamente indistinguible de un dado físico perfectamente equilibrado."
+    },
+    {
+      "question": "¿Puedo tirar varios dados a la vez?",
+      "answer": "¡Sí! Puedes ajustar la configuración de cantidad para lanzar varios dados simultáneamente y la herramienta calculará automáticamente la suma total."
+    }
+  ],
+  "relatedTools": [
+    "random-number-generator",
+    "flip-a-coin",
+    "spin-the-wheel"
+  ],
+  "cta": "¡Tira los dados virtuales ahora!",
+  "disclaimer": "La herramienta utiliza la generación de números pseudoaleatorios basada en navegador. Diseñado para fines de entretenimiento y juegos casuales.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Dados virtuales que muestran una tirada aleatoria.",
+  "ogImageText": "Tirar un dado"
+}

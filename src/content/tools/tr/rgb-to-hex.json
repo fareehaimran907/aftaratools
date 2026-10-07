@@ -1,0 +1,53 @@
+{
+  "seoTitle": "RGB'den HEX'e Dönüştürücü",
+  "metaDescription": "Ücretsiz çevrimiçi RGB'den HEX'e dönüştürücü. Kırmızı, Yeşil ve Mavi değerlerini hızlı bir şekilde CSS uyumlu hexadecimal renk kodlarına çevirin.",
+  "h1": "RGB'den HEX'e Dönüştürücü",
+  "primaryKeyword": "rgb'den hex'e",
+  "secondaryKeywords": [
+    "rgb'yi hex'e dönüştür",
+    "rgb'den onaltılıya",
+    "rgb renk dönüştürücü",
+    "renk kodu çevirmeni"
+  ],
+  "slug": "rgbden-hexe-dönüştürücü",
+  "intro": "Renkleri Photoshop'tan alıp web sitenizde mi kullanıyorsunuz? Ücretsiz RGB'den HEX'e Dönüştürücümüz, 0-255 Kırmızı, Yeşil ve Mavi değerlerini standart HTML/CSS onaltılık formatına mükemmel şekilde çevirir.",
+  "whatIs": "RGB'den HEX'e Dönüştürücü, Kırmızı, Yeşil ve Mavi'yi temsil eden üç ondalık tamsayıyı (0 ile 255 arasında değişen) alan ve bunları tek bir 6 karakterlik Onaltılık (Base-16) dizeye dönüştüren bir geliştirici aracıdır.",
+  "howToUse": [
+    "Kırmızı değerini girin (0-255).",
+    "Yeşil değerini girin (0-255).",
+    "Mavi değerini girin (0-255).",
+    "Araç, eşdeğer HEX kodunu hesaplar ve bir renk önizlemesi sağlar."
+  ],
+  "howItWorks": "Araç, her onluk tabanlı tam sayıyı alır ve onaltılık tabana matematiksel bir taban dönüşümü gerçekleştirir. Ortaya çıkan onaltılık değer tek haneliyse (örneğin 'A'), başına sıfır ekler ('0A'). Daha sonra üç çifti birleştirir ve başına '#' ekler.",
+  "workedExample": "R: 255, G: 255, B: 255 girersiniz. Araç 255'i onaltılıya çevirir, bu da FF'tir. Bunları birleştirir: FF + FF + FF. Çıktı #FFFFFF olur, bu saf beyazı temsil eder.",
+  "resultInterpretation": "Ortaya çıkan 6 karakterli dize, rengi görüntülemek için CSS dosyanıza veya HTML özniteliklerinize yapıştırmanız gereken tam olarak web-ready koddur.",
+  "useCases": [
+    "Web Tasarımı: Bir marka belgelerinde belirtilen renkleri (genellikle RGB olarak listelenir) alıp ön yüz kodlaması için hazırlamak.",
+    "Görüntü Düzenleme: Bir görüntü düzenleyicide damlalık aracını kullanarak RGB'yi bulmak, ardından tam aynı renkte bir web düğmesi oluşturmak için dönüştürmek.",
+    "Veri Görselleştirme: Sayısal veri dizilerine dayalı olarak programlı bir şekilde HTML renkleri oluşturma."
+  ],
+  "tipsAndLimitations": [
+    "RGB değerleri 0 ile 255 arasında olmalıdır. Daha yüksek sayılar girilmesi genellikle 255 (FF) ile sınırlanır veya geçersiz bir renkle sonuçlanır.",
+    "CSS'de teknik olarak '#' sembolü gereklidir, ancak birçok grafik tasarım aracı 6 karakteri hashtag olmadan kabul eder."
+  ],
+  "faq": [
+    {
+      "question": "Siyah ve beyaz için HEX kodu nedir?",
+      "answer": "Saf siyah RGB(0,0,0) olup, #000000'a dönüşür. Saf beyaz RGB(255,255,255) olup, #FFFFFF'e dönüşür."
+    },
+    {
+      "question": "RGB'den HEX'e dönüşüm kalite kaybına yol açar mı?",
+      "answer": "Hayır. Dönüşüm tamamen matematiksel ve kayıpsızdır. Her iki sistem de standart sRGB alanında tam olarak aynı 16.777.216 benzersiz rengi temsil edebilir."
+    }
+  ],
+  "relatedTools": [
+    "hex-to-rgb",
+    "color-picker",
+    "decimal-to-binary"
+  ],
+  "cta": "RGB değerlerinizi anında HEX'e dönüştürün!",
+  "disclaimer": "Standart 6 haneli HTML onaltılık kodlarını çıktılar. Girdi değerlerinizin 255 maksimum sınırını aşmamasını sağlayın.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "RGB'den HEX'e dönüştürme arayüzü",
+  "ogImageText": "RGB'den HEX'e Dönüştürücü"
+}

@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Kalkulator BMI",
-  "metaDescription": "Oblicz swój wskaźnik masy ciała.",
+  "seoTitle": "Kalkulator BMI - Sprawdź swoje BMI online",
+  "metaDescription": "Darmowy internetowy kalkulator BMI. Oblicz swój Wskaźnik Masy Ciała (BMI) natychmiast, używając swojego wzrostu i wagi. Sprawdź, czy jesteś w zdrowym zakresie wagi.",
   "h1": "Kalkulator BMI",
-  "primaryKeyword": "kalkulator bmi",
+  "primaryKeyword": "kalkulator BMI",
   "secondaryKeywords": [
-    "Kalkulator BMI w Internecie",
-    "darmowy kalkulator bmi",
-    "najlepszy kalkulator BMI"
+    "oblicz BMI",
+    "kalkulator wskaźnika masy ciała",
+    "sprawdzacz BMI",
+    "kalkulator zdrowej wagi"
   ],
-  "slug": "kalkulator bmi",
-  "intro": "Oszacuj swój wskaźnik masy ciała na podstawie wzrostu i masy ciała.",
-  "whatIs": "Co to jest za narzędzie?",
+  "slug": "kalkulator-bmi",
+  "intro": "Chcesz wiedzieć, czy Twoja waga jest zdrowa w stosunku do wzrostu? Nasz darmowy Kalkulator BMI natychmiast oblicza Twój Wskaźnik Masy Ciała, korzystając ze standardowych kategorii Światowej Organizacji Zdrowia.",
+  "whatIs": "Kalkulator BMI (wskaźnika masy ciała) jest narzędziem do oceny stanu zdrowia. Używa wzoru matematycznego opartego na Twoim wzroście i wadze, aby oszacować całkowitą ilość tkanki tłuszczowej w organizmie i zakwalifikować ryzyko zdrowotne.",
   "howToUse": [
-    "Wpisz swój wzrost w wyznaczonym polu wejściowym.",
-    "Podaj wszelkie parametry drugorzędne, takie jak waga.",
-    "Kliknij przycisk Oblicz lub prześlij, aby wygenerować liczbę klasyfikującą masę ciała.",
-    "Skopiuj lub przejrzyj wynikowy wynik pod kątem swoich potrzeb."
+    "Wybierz preferowany system miar (metryczny lub imperialny).",
+    "Wprowadź swój wzrost (w cm lub stopach/calach).",
+    "Wprowadź swoją wagę (w kg lub funtach).",
+    "Narzędzie oblicza Twój dokładny BMI i wyświetla kategorię zdrowotną."
   ],
-  "howItWorks": "Jak to działa",
-  "workedExample": "Przykłady",
-  "resultInterpretation": "Interpretacja",
+  "howItWorks": "Narzędzie używa standardowego wzoru: waga w kilogramach podzielona przez wysokość w metrach do kwadratu (kg/m²). Dla danych w jednostkach imperialnych oblicza (funty / cale²) × 703 przed sklasyfikowaniem wyniku.",
+  "workedExample": "Osoba, która ma 1,75 metra wzrostu i waży 70 kilogramów: 70 / (1,75 × 1,75) = 70 / 3,0625 = 22,86. BMI wynoszące 22,86 mieści się w kategorii 'Waga normalna/zdrowa'.",
+  "resultInterpretation": "Liczba ta stanowi ogólny wskaźnik zdrowia. Poniżej 18,5 oznacza niedowagę; od 18,5 do 24,9 oznacza normalną wagę; od 25,0 do 29,9 oznacza nadwagę; 30,0 i powyżej oznacza otyłość.",
   "useCases": [
-    "Ogólne badanie stanu zdrowia",
-    "Formularze przyjmowania leków",
-    "Szybkie przetwarzanie wysokości w podróży"
+    "Zdrowie osobiste: Śledzenie swojego BMI w czasie, gdy zaczynasz nową dietę lub plan ćwiczeń.",
+    "Badania medyczne: Lekarze używają BMI jako szybkiego narzędzia wstępnego przesiewowego do identyfikacji potencjalnych zagrożeń zdrowotnych związanych z wagą.",
+    "Planowanie fitness: Ustalanie realistycznej docelowej wagi w oparciu o zakres 'Normalny' BMI dla twojego wzrostu."
   ],
   "tipsAndLimitations": [
-    "BMI nie rozróżnia masy mięśniowej od masy tłuszczowej.",
-    "Aby uzyskać najlepsze wyniki, upewnij się, że dane wejściowe są poprawnie sformatowane.",
-    "Narzędzie działa całkowicie po stronie klienta, zapewniając prywatność Twoich danych."
+    "BMI nie mierzy bezpośrednio procentu tkanki tłuszczowej. Nie potrafi rozróżnić tłuszczu od mięśni.",
+    "Wysoce umięśnieni sportowcy mogą uzyskać wynik 'Otyły' w skali BMI, mimo bardzo niskiej zawartości tkanki tłuszczowej, ponieważ mięśnie są gęstsze niż tłuszcz."
   ],
   "faq": [
     {
-      "question": "Czy BMI jest prawidłowe dla sportowców?",
-      "answer": "Nie, umięśnione osoby często błędnie klasyfikują je jako nadwagę."
+      "question": "Czy BMI jest dokładne dla wszystkich?",
+      "answer": "Nie. Chociaż jest to dobry ogólny przewodnik dla przeciętnej populacji, jest niedokładny dla kobiet w ciąży, osób silnie umięśnionych oraz osób starszych."
     },
     {
-      "question": "Czy korzystanie z kalkulatora BMI jest bezpłatne?",
-      "answer": "Tak, nasz kalkulator BMI jest całkowicie darmowy i nie wymaga rejestracji."
-    },
-    {
-      "question": "Czy to działa na urządzeniach mobilnych?",
-      "answer": "Tak, narzędzie jest w pełni responsywne i doskonale działa na wszystkich smartfonach i tabletach."
+      "question": "Czy płeć wpływa na BMI?",
+      "answer": "Standardowy wzór BMI dla dorosłych nie uwzględnia płci. Jednak kobiety naturalnie mają nieco wyższy procent tkanki tłuszczowej niż mężczyźni przy tym samym BMI."
     }
   ],
   "relatedTools": [
-    "kalkulator bmr",
-    "kalkulator kalorii",
-    "makrokalkulator"
+    "bmr-calculator",
+    "body-fat-calculator",
+    "calorie-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator BMI",
+  "cta": "Oblicz teraz swoje BMI!",
+  "disclaimer": "To narzędzie dostarcza ogólnych szacunków dotyczących zdrowia na podstawie standardów WHO. Nie jest ono substytutem profesjonalnej porady medycznej ani diagnozy.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfejs kalkulatora BMI pokazujący zdrowy wynik",
   "ogImageText": "Kalkulator BMI"
 }

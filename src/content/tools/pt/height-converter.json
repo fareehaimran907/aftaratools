@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Conversor de altura",
-  "metaDescription": "Converta a altura de pés e polegadas em cm.",
-  "h1": "Conversor de altura",
+  "seoTitle": "Conversor de Altura - cm para pés e polegadas",
+  "metaDescription": "Conversor de altura humana grátis. Converta entre centímetros (cm) e pés + polegadas. Perfeito para formulários, vistos e apps.",
+  "h1": "Conversor de Altura",
   "primaryKeyword": "conversor de altura",
   "secondaryKeywords": [
-    "Conversor de altura on-line",
-    "conversor de altura grátis",
-    "melhor conversor de altura"
+    "cm para pés e polegadas",
+    "pés e polegadas para cm",
+    "converter estatura"
   ],
-  "slug": "conversor de altura",
-  "intro": "Converta facilmente a altura humana entre os sistemas métrico e imperial.",
-  "whatIs": "O que é essa ferramenta?",
-  "howToUse": [
-    "Digite seu cm no campo de entrada designado.",
-    "Forneça quaisquer parâmetros secundários, como pés e polegadas.",
-    "Clique no botão calcular ou enviar para gerar uma altura formatada corretamente.",
-    "Copie ou revise a saída resultante de acordo com suas necessidades."
-  ],
-  "howItWorks": "Como funciona",
-  "workedExample": "Exemplos",
-  "resultInterpretation": "Interpretação",
-  "useCases": [
-    "Formulários de carteira de motorista",
-    "Perfis médicos",
-    "Processando cm rapidamente em qualquer lugar"
-  ],
-  "tipsAndLimitations": [
-    "Pés e polegadas não são um decimal simples (por exemplo, 5,5 não é 5'5\").",
-    "Certifique-se de que suas entradas estejam formatadas corretamente para obter os melhores resultados.",
-    "A ferramenta é totalmente executada no lado do cliente, garantindo que seus dados permaneçam privados."
-  ],
+  "slug": "conversor-altura",
+  "intro": "Converter altura humana pode ser confuso porque o sistema imperial usa duas unidades (pés e polegadas). Nossa ferramenta faz isso instantaneamente.",
+  "whatIs": "Um conversor de altura formata a saída no padrão humano: pés E polegadas (ex. 5'10\").",
+  "howToUse": "Do Métrico: insira a altura em cm. Do Imperial: insira pés na primeira caixa e polegadas na segunda.",
+  "howItWorks": "1 polegada = 2,54 cm, 1 pé = 12 polegadas. Divide-se os cm por 30,48 para obter os pés, e o restante vira polegadas.",
+  "workedExample": "Você tem 178 cm. 178 / 2,54 = 70,078 polegadas totais. 70 / 12 = 5 com resto 10. Logo, 178 cm é 5 pés 10 polegadas (5'10\").",
+  "resultInterpretation": "O resultado é dado no formato padrão humano. A parte em polegadas costuma ser arredondada.",
+  "useCases": "Documentos: vistos americanos. Perfis online: apps de relacionamento ou fitness.",
+  "tipsAndLimitations": "Erro comum: 5,5 pés NÃO é 5 pés 5 polegadas. É 5 pés e 6 polegadas. A altura humana varia 1-2 cm por dia.",
   "faq": [
     {
-      "question": "O uso do conversor de altura é gratuito?",
-      "answer": "Sim, nosso conversor de altura é totalmente gratuito."
+      "question": "Quanto é 180 cm em pés e polegadas?",
+      "answer": "180 cm é aproximadamente 5 pés 11 polegadas (5'11\")."
     },
     {
-      "question": "Isso funciona no celular?",
-      "answer": "Sim, é totalmente responsivo e funciona em todos os dispositivos."
-    },
-    {
-      "question": "Preciso baixar alguma coisa?",
-      "answer": "Não, funciona totalmente no seu navegador sem qualquer instalação."
+      "question": "Como calculo 5'9\" em cm?",
+      "answer": "5 pés = 60 polegadas. 60 + 9 = 69. 69 × 2,54 = 175,26 cm."
     }
   ],
   "relatedTools": [
-    "conversor de comprimento",
-    "conversor de peso",
-    "conversor de temperatura"
+    "length-converter",
+    "weight-converter",
+    "bmi-calculator"
   ],
-  "lastReviewed": "2026-09-30",
+  "cta": "Converta sua altura instantaneamente agora!",
+  "disclaimer": "Para fins práticos. Use equipamentos médicos para saúde.",
+  "lastReviewed": "2024-03-15",
   "imageAlt": "Conversor de altura",
-  "ogImageText": "Conversor de altura"
+  "ogImageText": "Conversor Altura"
 }

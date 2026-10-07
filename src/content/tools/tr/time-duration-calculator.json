@@ -1,55 +1,60 @@
 {
-  "seoTitle": "Zaman Süresi Hesaplayıcı",
-  "metaDescription": "İki zaman arasındaki kesin süreyi hesaplayın.",
-  "h1": "Zaman Süresi Hesaplayıcı",
+  "seoTitle": "Süre Hesaplayıcı - Geçen Süreyi Hesaplayın",
+  "metaDescription": "İki saat arasındaki süreyi saat ve dakika olarak kolayca hesaplayın. Bordro için gece yarısı geçişlerini ve ondalık saatleri destekler.",
+  "h1": "Süre Hesaplayıcı",
   "primaryKeyword": "süre hesaplayıcı",
   "secondaryKeywords": [
-    "Çevrimiçi Süre Hesaplayıcı",
-    "Ücretsiz Süre Hesaplayıcı",
-    "en iyi Zaman Süresi Hesaplayıcı"
+    "geçen süreyi hesapla",
+    "iki saat arasında geçen süre",
+    "saat ve dakika hesaplayıcı"
   ],
-  "slug": "zaman-süre-hesaplayıcı",
-  "intro": "Başlangıç ​​zamanı ile bitiş zamanı arasındaki tam saati ve dakikayı bulun.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "sure-hesaplayici",
+  "intro": "Bir göreve harcanan tam zamanı hızlı bir şekilde hesaplamanız mı gerekiyor? Süre Hesaplayıcı, bir başlangıç ve bitiş saati arasında geçen saatleri ve dakikaları anında ölçer. İster müşteriler için faturalandırılabilir saatleri takip edin, ister haftalık bir zaman çizelgesi doldurun, çalışma seanslarını izleyin veya seyahat sürelerini hesaplayın, bu basit ama güçlü araç, bir daha asla zihinsel zaman hesaplamaları yapmak zorunda kalmamanızı sağlar.",
+  "whatIs": "Süre Hesaplayıcı, belirli bir başlangıç saati ve bitiş saati arasında geçen sürenin tam uzunluğunu ölçmek için tasarlanmış özel bir çevrimiçi yardımcı programdır. Basit toplama veya çıkarmanın aksine, zaman matematiği 60 tabanlı bir sistemde çalışır (bir saatte 60 dakika, bir günde 24 saat), bu da zihinsel hesaplamaları hatalara eğilimli hale getirir. Bu araç bu karmaşıklıkları sorunsuz bir şekilde ele alarak size standart saatler ve dakikalar cinsinden ifade edilen kesin bir sürenin yanı sıra bordro işlemleri için ondalık bir biçim sunar.",
   "howToUse": [
-    "Belirlenen giriş alanına başlangıç ​​saatinizi girin.",
-    "Bitiş zamanı gibi ikincil parametreleri sağlayın.",
-    "Geçen toplam saat ve dakikayı oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Adım 1: İlk giriş alanına başlangıç saatinizi seçin veya yazın; 12 saatlik bir format kullanıyorsanız AM/PM atamasının doğru olduğundan emin olun.",
+    "Adım 2: İkinci giriş alanında bitiş saatinizi seçin.",
+    "Adım 3: Etkinliğiniz gece yarısını geçip ertesi güne uzuyorsa bitiş saatini normal şekilde girmeniz yeterlidir. Hesap makinesi bunu otomatik olarak algılar.",
+    "Adım 4: Süreyi anında görmek için 'Hesapla'ya tıklayın.",
+    "Adım 5: Zaman çizelgeleri için standart saat ve dakika, toplam dakika ve ondalık saat cinsinden görüntülenecek sonuçları görüntüleyin."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç hem başlangıç hem de bitiş zamanlarını gece yarısından bu yana geçen toplam dakikaya dönüştürür. Daha sonra bu iki dakika değeri arasındaki matematiksel farkı hesaplar. En önemlisi, algoritma bir gecelik dönemleri otomatik olarak hesaba katar; bitiş saati sayısal olarak başlangıç saatinden daha erkense, araç sürenin gece yarısını geçtiğini anlar ve doğru geçen süreyi elde etmek için hesaplamaya akıllıca 24 saat (1440 dakika) ekler.",
+  "workedExample": "Diyelim ki gece vardiyasına saat 22:30'da (10:30 PM) başlıyorsunuz ve ertesi sabah saat 06:15'te (6:15 AM) çıkış yapıyorsunuz. Hesap makinesi ilk olarak her iki zamanı da dönüştürür. 06:15'in 22:30'dan daha erken olduğunu anlayarak gece yarısı geçişini hesaba katmak için bitiş saatine otomatik olarak tam bir 24 saatlik döngü ekler. Farkı hesaplar ve tam olarak 7 saat 45 dakikalık toplam geçen süre ile sonuçlanır.",
+  "resultInterpretation": "Ana ekran, geçen standart saatleri ve dakikaları net bir şekilde gösterir (ör. 7sa 45dk). Ayrıca, daha küçük ek kutular, ondalık saat karşılığını (7,75 saat) ve toplam ham dakikayı (465 dakika) gösterir. Ondalık saat biçimi, çalıştığınız zamanı doğrudan saatlik ücretle çarpmanıza izin verdiği için muhasebe ve insan kaynakları için özellikle hayati önem taşır.",
   "useCases": [
-    "Zaman çizelgesi hesaplaması",
-    "Uçuş süreleri",
-    "Hareket halindeyken başlangıç ​​zamanını hızlı bir şekilde işleyin"
+    "Zaman Çizelgeleri ve Bordro: Serbest çalışan faturalandırma, yüklenici faturalandırması veya personel zaman takibi için tam çalışılan saatlerin günlüğe kaydedilmesi.",
+    "Çalışma veya Egzersiz Takibi: Belirli bir akademik çalışma oturumunun veya spor salonu antrenmanının tam olarak ne kadar sürdüğünü ölçme.",
+    "Havacılık ve Taşımacılık: Farklı dönemlerde blok sürelerini, uçuş sürelerini veya sürücü vardiya uzunluklarını hesaplama.",
+    "Proje Yönetimi: Gelecekteki zaman tahminlerini iyileştirmek için belirli görevlerde harcanan tam zamanı izleme."
   ],
   "tipsAndLimitations": [
-    "AM/PM'nin doğru ayarlandığından emin olun.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "İpucu: Ondalık saatler bordro için son derece faydalıdır. 20$/saat üzerinden 8 saat 30 dakika çalışıyorsanız 8,5'i 20 ile çarparsınız.",
+    "Sınırlama: Bu araç, geçen süreyi kesinlikle standart 24 saatlik bir güne göre hesaplar. Ölçülen süre boyunca oluşabilecek Yaz Saati Uygulaması değişikliklerini hesaba katmaz.",
+    "İpucu: Birden fazla gün veya tarihteki farkı hesaplamanız gerekirse bunun yerine Tarih Farkı Hesaplayıcımızı kullanmayı düşünün."
   ],
   "faq": [
     {
-      "question": "Zaman Süresi Hesaplayıcının kullanımı ücretsiz midir?",
-      "answer": "Evet, Zaman Süresi Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Etkinliğim gece yarısını geçip ertesi güne sarkarsa ne olur?",
+      "answer": "Hesap makinesi, bitiş saatinin başlangıç saatinden daha erken olup olmadığını otomatik olarak algılar. Bu gerçekleştiğinde, olayın gece yarısını geçtiğini varsayar ve size doğru süreyi vermek için hesaplamaya sorunsuz bir şekilde 24 saat ekler."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
+      "question": "Ondalık saatler nasıl hesaplanır ve neden faydalıdırlar?",
+      "answer": "Ondalık saatler, toplam dakikanın 60'a bölünmesiyle hesaplanır. Örneğin 30 dakika 0,5 saate ve 45 dakika 0,75 saate dönüşür. Ondalık bir saati saatlik bir ücretle kolayca çarpabildiğiniz için bu format bordro için çok önemlidir."
     },
     {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Hem 12 saatlik hem de 24 saatlik zaman formatlarını destekliyor mu?",
+      "answer": "Evet, sistem ayarlarınıza ve tarayıcınıza bağlı olarak zaman girişleri standart 12 saatlik AM/PM formatlarını veya askeri 24 saatlik zaman formatlarını barındıracaktır."
     }
   ],
   "relatedTools": [
-    "yaş hesaplayıcı",
-    "tarih farkı-hesaplayıcı",
-    "tarihler arasındaki günler"
+    "time-difference-calculator",
+    "months-between-dates",
+    "world-time-converter",
+    "countdown-timer"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Zaman Süresi Hesaplayıcı",
-  "ogImageText": "Zaman Süresi Hesaplayıcı"
+  "cta": "Kesin geçen sürenizi anında hesaplayın!",
+  "disclaimer": "Bu araç temel zaman hesaplamaları için tasarlanmıştır ve geçen süre zarfındaki saat dilimi değişikliklerini veya yaz saati uygulaması değişikliklerini hesaba katmaz. Kesin bordro uygulamaları için sonuçları doğrulayın.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Saatleri, dakikaları ve ondalık saatleri gösteren süre hesaplayıcının ekran görüntüsü",
+  "ogImageText": "Süre Hesaplayıcı"
 }

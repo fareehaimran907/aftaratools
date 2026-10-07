@@ -1,55 +1,74 @@
 {
-  "seoTitle": "Calculateur de ratio",
-  "metaDescription": "Calculez les valeurs du rapport manquant.",
-  "h1": "Calculateur de ratio",
-  "primaryKeyword": "calculateur de ratio",
+  "seoTitle": "Calculatrice de Ratio – Résoudre des Proportions (A:B = C:D)",
+  "metaDescription": "Calculatrice de ratio en ligne gratuite. Résolvez facilement les équations A:B = C:D, trouvez les valeurs manquantes et calculez les ratios équivalents.",
+  "h1": "Calculatrice de Ratio",
+  "primaryKeyword": "calculatrice de ratio",
   "secondaryKeywords": [
-    "calculateur de ratio en ligne",
-    "calculateur de ratio gratuit",
-    "meilleur calculateur de ratio"
+    "résoudre ratio",
+    "ratios équivalents",
+    "valeur manquante dans ratio",
+    "calculateur proportion",
+    "calculatrice a:b = c:d",
+    "calcul produit en croix",
+    "calculatrice d'échelle"
   ],
-  "slug": "calculateur de ratio",
-  "intro": "Résolvez les nombres manquants dans des rapports équivalents ou des rapports d'échelle de haut en bas.",
-  "whatIs": "Quel est cet outil ?",
+  "slug": "calculateur-de-ratio",
+  "intro": "Vous avez affaire à des proportions complexes ou vous essayez de trouver une valeur manquante dans un ratio ? Que vous adaptiez une recette préférée, redimensionniez une image, mélangiez des produits chimiques ou résolviez un problème mathématique difficile, notre Calculatrice de Ratio en ligne gratuite rend le travail avec les proportions sans effort. L'outil est conçu pour résoudre instantanément les équations de ratio standard A:B = C:D. En saisissant simplement trois valeurs connues, la calculatrice calcule automatiquement la quatrième valeur manquante en temps réel. Fini les produits en croix manuels ou les approximations — obtenez des réponses mathématiquement précises pour tous vos besoins de ratios équivalents instantanément, sans jamais avoir à cliquer sur un bouton 'calculer'.",
+  "whatIs": "Une calculatrice de ratio est un outil mathématique spécialisé conçu pour résoudre des proportions, spécifiquement formatées comme l'équation A : B = C : D. Un ratio représente une relation quantitative entre deux nombres, indiquant combien de fois le premier nombre contient le second. Par exemple, si une recette nécessite 2 tasses de farine pour 1 tasse de sucre, le ratio de farine par rapport au sucre est de 2:1. Lorsque vous devez augmenter la recette tout en conservant exactement le même goût, vous créez une proportion — une équation indiquant que deux ratios sont égaux. Résoudre cela manuellement nécessite généralement un produit en croix (par exemple, A × D = B × C) et une manipulation algébrique. Cette calculatrice automatise ce processus mathématique exact, calculant instantanément toute variable manquante lorsque les trois autres variables sont fournies, assurant une proportionnalité parfaite à chaque fois.",
   "howToUse": [
-    "Entrez votre ratio A dans le champ de saisie désigné.",
-    "Fournissez tous les paramètres secondaires comme le rapport B.",
-    "Cliquez sur le bouton Calculer ou Soumettre pour générer le ratio simplifié ou la valeur manquante.",
-    "Copiez ou examinez le résultat obtenu selon vos besoins."
+    "Localisez les quatre champs de saisie disposés selon le format A : B = C : D.",
+    "Entrez les deux valeurs connues pour le premier ratio (A et B) sur le côté gauche du signe égal.",
+    "Entrez la valeur connue pour C ou D sur le côté droit.",
+    "Laissez vide le champ de la valeur inconnue.",
+    "Cliquez en dehors de la zone de saisie ou attendez simplement un instant. La calculatrice remplira automatiquement le champ vide avec la valeur manquante correcte."
   ],
-  "howItWorks": "Comment ça marche",
-  "workedExample": "Exemples",
-  "resultInterpretation": "Interprétation",
+  "howItWorks": "Notre calculatrice de ratio fonctionne en utilisant le principe mathématique fondamental du produit en croix pour résoudre les proportions. L'équation sous-jacente est A/B = C/D. Lorsque vous fournissez trois des quatre variables, l'outil réorganise instantanément la formule pour résoudre celle qui manque. Par exemple, si D est manquant, l'outil le calcule en utilisant la formule D = (B × C) / A. Si C est manquant, il calcule C = (A × D) / B. Ce calcul est exécuté instantanément à l'aide de JavaScript côté client dans votre navigateur Web, ce qui signifie que les calculs s'effectuent localement sur votre appareil sans avoir besoin d'envoyer de données à un serveur ou de recharger la page. Le résultat est instantané, transparent et d'une précision absolue.",
+  "workedExample": "Disons que vous ajustez une recette. La recette originale demande 2 tasses de sucre (A) et 5 tasses de farine (B). Le ratio est de 2:5. Vous voulez faire une plus grande quantité en utilisant 10 tasses de sucre (C), et vous devez savoir combien de farine (D) utiliser pour conserver exactement la même proportion.\n\nVous configurez l'équation : 2 : 5 = 10 : D.\nPour résoudre manuellement, vous faites un produit en croix : 2 × D = 5 × 10.\nCela se simplifie en : 2D = 50.\nEnsuite, vous divisez les deux côtés par 2 : D = 50 / 2 = 25.\nVous avez donc besoin de 25 tasses de farine. Lorsque vous entrez 2, 5 et 10 dans notre calculatrice, elle exécute instantanément cette logique exacte et affiche 25 dans le champ D.",
+  "resultInterpretation": "Le résultat est interprété directement dans les champs de saisie eux-mêmes. Contrairement aux calculatrices qui affichent les résultats dans une case distincte, cet outil remplit la valeur manquante là où elle se trouve dans l'équation A:B = C:D. Si vous avez entré des valeurs pour A, B et C, l'outil remplira automatiquement le champ D avec le nombre calculé. Ce nombre représente la valeur exacte requise pour rendre le ratio de droite (C:D) mathématiquement équivalent au ratio de gauche (A:B). Vous pouvez également remplacer un nombre existant pour recalculer en temps réel, ce qui rend incroyablement facile le test de différents scénarios.",
   "useCases": [
-    "Rapports d'aspect de l'écran",
-    "Mélanger de la peinture ou du béton",
-    "Traitement rapide du rapport A en déplacement"
+    "Cuisine et Pâtisserie : Adaptez précisément les recettes tout en conservant l'équilibre parfait des ingrédients (par exemple, doubler une recette).",
+    "Design Graphique et Photographie : Redimensionnez des images ou des toiles tout en conservant strictement le ratio d'aspect original pour éviter les étirements ou les distorsions.",
+    "Construction et Ingénierie : Calculez des modèles réduits, mélangez du béton dans les bonnes proportions ou déterminez les besoins en matériaux.",
+    "Finance et Devises : Calculez les taux de change ou déterminez les répartitions proportionnelles de fonds, de bénéfices ou de coûts partagés.",
+    "Éducation et Scolarité : Les étudiants peuvent vérifier rapidement leurs réponses lorsqu'ils résolvent des devoirs d'algèbre liés aux proportions et aux produits en croix."
   ],
   "tipsAndLimitations": [
-    "Les ratios fonctionnent mathématiquement de la même manière que les fractions.",
-    "Assurez-vous que vos entrées sont correctement formatées pour obtenir les meilleurs résultats.",
-    "L'outil fonctionne entièrement côté client, garantissant que vos données restent privées."
+    "La calculatrice nécessite que trois valeurs exactement soient saisies pour calculer la quatrième. Elle ne peut pas résoudre une équation avec deux variables manquantes ou plus.",
+    "Vous pouvez saisir des nombres décimaux (par exemple, 1.5, 2.75) pour des calculs très précis, pas seulement des nombres entiers.",
+    "L'outil recalculera automatiquement lorsque vous cliquerez en dehors d'un champ de saisie (onBlur).",
+    "Évitez de saisir zéro (0) dans les champs A ou B si vous essayez de calculer l'autre côté, car cela peut entraîner des erreurs de division par zéro.",
+    "La calculatrice résout actuellement pour C ou D. Assurez-vous que votre ratio complet connu est saisi du côté gauche (A et B)."
   ],
   "faq": [
     {
-      "question": "Qu'est-ce que le nombre d'or ?",
-      "answer": "Environ 1,618 pour 1."
+      "question": "Puis-je utiliser des décimales ou des fractions dans la calculatrice de ratio ?",
+      "answer": "Vous pouvez utiliser des nombres décimaux (comme 2.5 ou 0.75) dans n'importe lequel des champs. Cependant, la calculatrice n'accepte pas actuellement les formats de fraction (comme 1/2) directement ; vous devez d'abord les convertir en décimales (0.5)."
     },
     {
-      "question": "Le calculateur de ratio est-il gratuit ?",
-      "answer": "Oui, notre calculateur de ratio est entièrement gratuit et ne nécessite aucune inscription."
+      "question": "Que se passe-t-il si je ne saisis que deux nombres ?",
+      "answer": "La calculatrice nécessite un ratio initial complet (A et B) et une partie du ratio cible (soit C soit D). Si vous n'entrez que deux nombres, elle n'a pas assez d'informations pour résoudre la proportion et ne calculera pas de résultat."
     },
     {
-      "question": "Est-ce que cela fonctionne sur les appareils mobiles ?",
-      "answer": "Oui, l'outil est entièrement réactif et fonctionne parfaitement sur tous les smartphones et tablettes."
+      "question": "Peut-elle résoudre pour A ou B au lieu de C ou D ?",
+      "answer": "L'interface actuelle est optimisée pour résoudre le côté droit de l'équation (C ou D). Pour résoudre une valeur manquante à gauche, permutez simplement vos côtés connus et inconnus afin que le ratio complet soit à gauche."
+    },
+    {
+      "question": "Est-ce la même chose que le calcul d'un ratio d'aspect (format d'image) ?",
+      "answer": "Oui ! Les ratios d'aspect (comme 16:9 pour les écrans) fonctionnent exactement comme cela. Si vous avez un ratio de 16:9 et une largeur de 1920 pixels (C), vous pouvez utiliser cet outil pour trouver la hauteur (D) en saisissant 16:9 = 1920:D."
+    },
+    {
+      "question": "Pourquoi le résultat ne s'est-il pas mis à jour immédiatement lorsque j'ai tapé ?",
+      "answer": "La calculatrice met à jour le résultat dès que vous avez fini de taper et passez au champ suivant ou cliquez en dehors de la case. Cela l'empêche de calculer des nombres incomplets pendant que vous tapez encore."
     }
   ],
   "relatedTools": [
-    "calculateur de fractions",
-    "calculateur de moyenne",
-    "calculateur GPA"
+    "fraction-calculator",
+    "percentage-calculator",
+    "average-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calculateur de ratio",
-  "ogImageText": "Calculateur de ratio"
+  "cta": "Besoin de résoudre une proportion délicate tout de suite ? Saisissez vos trois valeurs connues dans les champs ci-dessus pour calculer instantanément le nombre manquant et perfectionner votre ratio.",
+  "disclaimer": "Cet outil est destiné à fournir des calculs rapides et précis pour un usage général éducatif, personnel et professionnel. Revérifiez toujours les calculs critiques manuellement, en particulier lorsqu'il s'agit de mélanges chimiques exacts, d'ingénierie structurelle ou de distributions financières importantes.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface de la calculatrice de ratio montrant quatre champs de saisie disposés dans un format A:B = C:D",
+  "ogImageText": "Calculatrice de Ratio"
 }

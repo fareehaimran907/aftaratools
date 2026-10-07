@@ -1,55 +1,54 @@
 {
-  "seoTitle": "Datumsdifferenzrechner",
-  "metaDescription": "Kostenloser Online-Datumsdifferenzrechner. Berechnen Sie den genauen Zeitunterschied zwischen zwei Daten.",
-  "h1": "Datumsdifferenzrechner",
-  "primaryKeyword": "Datumsdifferenzrechner",
+  "seoTitle": "Datumsdifferenz-Rechner - Tage, Wochen & Monate berechnen",
+  "metaDescription": "Berechnen Sie die genaue Differenz zwischen zwei Daten. Finden Sie heraus, wie viele Tage, Wochen, Monate und Jahre dazwischen liegen.",
+  "h1": "Datumsdifferenz-Rechner",
+  "primaryKeyword": "datumsdifferenz rechner",
   "secondaryKeywords": [
-    "Datumsdifferenzrechner online",
-    "Kostenloser Datumsdifferenzrechner",
-    "Bester Datumsdifferenzrechner"
+    "tage zwischen daten",
+    "zeitunterschied",
+    "datumsrechner",
+    "tage berechnen"
   ],
-  "slug": "Datumsdifferenzrechner",
-  "intro": "Nutzen Sie unseren kostenlosen Online-Datumsdifferenzrechner. Es berechnet die Dauer zwischen den Daten basierend auf Ihren Eingaben.",
-  "whatIs": "Der Datumsdifferenzrechner ist ein Online-Dienstprogramm, das die Dauer zwischen Datumsangaben berechnet. Es verarbeitet Ihr Startdatum und liefert die genaue verstrichene Zeit in Tagen und Wochen.",
+  "slug": "datumsdifferenz-rechner",
+  "intro": "Müssen Sie ganz genau wissen, wie viel Zeit zwischen zwei bestimmten Daten liegt, und zwar bis auf den genauen Tag? Die Planung von Projekten, das Verfolgen des Alters oder die Organisation von Veranstaltungen erfordert oft höchste Präzision. Dieser Rechner bietet die genaue Differenz in Jahren, Monaten und Tagen sowie alternative Aufschlüsselungen in Gesamtwochen oder absoluten Gesamttagen. Er erspart Ihnen das mühsame manuelle Durchblättern von Kalenderseiten oder das Schätzen von Tagen und liefert in Sekundenbruchteilen eine absolut genaue Berechnung. Egal, ob Sie mit juristischen Verträgen, Mietverträgen oder persönlichen Meilensteinen zu tun haben, unser Tool stellt sicher, dass Sie sich bei wichtigen Terminen nie wieder verrechnen.",
+  "whatIs": "Der Datumsdifferenz-Rechner ist ein fortschrittliches digitales Dienstprogramm, das entwickelt wurde, um die genaue verstrichene Zeit zwischen einem Start- und einem Enddatum zu berechnen. Die manuelle Berechnung von Zeitdifferenzen ist fehleranfällig, insbesondere wenn man Schaltjahre, unterschiedliche Monatslängen (28, 29, 30 oder 31 Tage) und Jahreswechsel berücksichtigen muss. Dieses Tool bewältigt all diese komplexen Kalendermechanismen nahtlos im Hintergrund. Es bietet eine klare, facettenreiche Aufschlüsselung der Gesamtdauer, sodass Sie die Differenz nicht nur in einem Standard-Jahr-Monat-Tag-Format, sondern auch als reine Zählung der Gesamttage oder Gesamtwochen sehen können. Diese Flexibilität macht es unverzichtbar für Fachleute in der Personalabteilung, der Buchhaltung und im Projektmanagement, die auf strikte Zeitpläne angewiesen sind.",
   "howToUse": [
-    "Geben Sie Ihr Startdatum in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie das Enddatum an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um die genaue verstrichene Zeit in Tagen und Wochen zu generieren.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
+    "Wählen Sie Ihr Startdatum aus.",
+    "Wählen Sie Ihr Enddatum aus.",
+    "Aktivieren Sie optional 'Enddatum einbeziehen', wenn Sie sowohl den ersten als auch den letzten Tag zählen möchten.",
+    "Sehen Sie sich die genaue Differenz sofort an."
   ],
-  "howItWorks": "Dieses Tool arbeitet in Ihrem Browser, indem es Standardalgorithmen auf Ihr Startdatum anwendet. Die Daten werden sofort verarbeitet, um die genaue verstrichene Zeit in Tagen und Wochen auszugeben.",
-  "workedExample": "Beispiel: 1. Januar bis 10. Januar ergibt 9 Tage.",
-  "resultInterpretation": "Das Ergebnis stellt die exakt verstrichene Zeit in Tagen und Wochen dar. Sie können diese Daten für Ihre spezifischen Berechnungen oder Formatierungsanforderungen verwenden.",
+  "howItWorks": "Das Tool arbeitet mit hochpräziser Standard-Kalendermathematik, um die Zeitstempel der beiden von Ihnen angegebenen Daten zu vergleichen. Zuerst wandelt es sowohl das Start- als auch das Enddatum in Millisekunden-Zeitstempel um, um die absolute Rohdifferenz zu ermitteln. Dann wandelt es diese Differenz wieder in Tage um und schlüsselt diese Tage basierend auf den spezifischen Kalenderbedingungen der gewählten Daten in Kalenderjahre, -monate und -tage auf. Entscheidend ist, dass es die Regeln des gregorianischen Kalenders respektiert, was bedeutet, dass es Schaltjahre und die genaue Anzahl von Tagen in den spezifischen Monaten, die von Ihren Daten umfasst werden, natürlich berücksichtigt. Der Algorithmus verfügt außerdem über einen inklusiven Zählmodus, der dem Endbetrag genau einen Tag hinzufügt, wenn Sie sich dafür entscheiden, sowohl das Start- als auch das Enddatum in die Berechnung einzubeziehen.",
+  "workedExample": "Lassen Sie uns ein praktisches Beispiel ansehen, um zu verstehen, wie der Rechner funktioniert. Angenommen, Sie möchten die genaue Differenz zwischen dem 15. Januar 2023 und dem 20. April 2024 ermitteln. Der Rechner ermittelt zunächst die vollen Jahre: Vom 15. Januar 2023 bis zum 15. Januar 2024 ist es genau 1 Jahr. Als Nächstes zählt er die vollen Monate vom 15. Januar 2024 bis zum 15. April 2024, was genau 3 Monaten entspricht. Schließlich zählt er die verbleibenden Tage vom 15. April bis zum 20. April, was 5 Tagen entspricht. Die Hauptausgabe zeigt sofort 1 Jahr, 3 Monate und 5 Tage an. Er liefert auch die Gesamtzahl der Tage (461 Tage), um Ihnen ein vollständiges Bild der verstrichenen Zeit zu geben.",
+  "resultInterpretation": "Die Ergebnisse werden in verschiedenen Formaten angezeigt, sodass Sie das Format auswählen können, das Ihren Anforderungen am besten entspricht. Das primäre Ergebnis zeigt das natürlichste, für Menschen lesbare Format (Jahre, Monate, Tage), das ideal ist, um das Alter einer Person anzugeben oder die Laufzeit eines langen Mietvertrags zu beschreiben. Zu den alternativen Formaten gehören Gesamttage, Gesamtwochen und Gesamtmonate. Die Metrik Gesamttage ist besonders nützlich für strikte Abrechnungszwecke, die Berechnung von Tageszinsen oder die Projektverfolgung, bei der jeder einzelne Tag zählt. Wenn Sie die Option 'Enddatum einschließen' gewählt haben, spiegeln Ihre Ergebnisse eine inklusive Zählung wider, was Standardpraxis ist, wenn Sie Hotelaufenthalte buchen, Ausrüstung mieten oder die Länge einer fortlaufenden Veranstaltung berechnen.",
   "useCases": [
-    "Projektplanung",
-    "Verfolgen Sie die Tage seit einem Ereignis",
-    "Schnelle Bearbeitung des Starttermins von unterwegs"
+    "Projektmanagement: Berechnung der genauen Dauer einer Projektphase.",
+    "Gehaltsabrechnung & Personalwesen: Ermittlung der genauen Dauer einer Beschäftigung.",
+    "Persönliche Meilensteine: Herausfinden, wie viele Tage alt man genau ist."
   ],
   "tipsAndLimitations": [
-    "Die Tageszeit wird ignoriert.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten privat bleiben."
+    "Der Rechner geht von Standardkalendertagen aus und überspringt keine Wochenenden.",
+    "Zeitzonen werden nicht berücksichtigt.",
+    "Das Kontrollkästchen 'Enddatum einbeziehen' ist nützlich für Hotelbuchungen."
   ],
   "faq": [
     {
-      "question": "Ist das Enddatum enthalten?",
-      "answer": "Standardmäßig wird die Dauer zwischen und nicht einschließlich berechnet."
+      "question": "Berücksichtigt dieser Rechner Schaltjahre?",
+      "answer": "Ja, da er native Kalenderdaten verwendet, werden alle Schaltjahre automatisch korrekt berechnet."
     },
     {
-      "question": "Ist die Nutzung des Datumsdifferenzrechners kostenlos?",
-      "answer": "Ja, unser Datumsdifferenzrechner ist völlig kostenlos und erfordert keine Registrierung."
-    },
-    {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, das Tool reagiert vollständig und funktioniert auf allen Smartphones und Tablets einwandfrei."
+      "question": "Warum brauche ich die Option 'Enddatum einbeziehen'?",
+      "answer": "Die mathematische Differenz zwischen Montag und Dienstag beträgt 1 Tag. Wenn Sie jedoch gearbeitete Tage zählen, sind es 2 Tage. Dieser Schalter ermöglicht die inklusive Zählung."
     }
   ],
   "relatedTools": [
-    "Altersrechner",
-    "Tage zwischen Daten",
-    "Tage-bis-Rechner"
+    "age-calculator",
+    "days-between-dates",
+    "days-until-calculator"
   ],
-  "lastReviewed": "29.09.2026",
-  "imageAlt": "Screenshot der Benutzeroberfläche des Datumsdifferenzrechners",
-  "ogImageText": "Datumsdifferenzrechner"
+  "cta": "Beginnen Sie jetzt mit der Berechnung Ihrer Datumsdifferenzen!",
+  "disclaimer": "Dieser Rechner dient nur zu Informationszwecken. Bei kritischen juristischen oder finanziellen Verträgen sollten Sie die Ergebnisse manuell überprüfen.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Screenshot der Oberfläche des Datumsdifferenz-Rechners",
+  "ogImageText": "Datumsdifferenz-Rechner"
 }

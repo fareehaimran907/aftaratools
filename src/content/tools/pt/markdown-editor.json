@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Editor Markdown Online - Visualização ao Vivo e Exportação",
+  "metaDescription": "Editor Markdown gratuito online. Escreva, edite e visualize a formatação Markdown em tempo real. Exporte seu texto formatado para HTML ou PDF instantaneamente.",
+  "h1": "Editor Markdown",
+  "primaryKeyword": "editor markdown",
+  "secondaryKeywords": [
+    "editor de markdown online",
+    "visualização ao vivo de markdown",
+    "markdown para html",
+    "visualizador de markdown"
+  ],
+  "slug": "editor-markdown",
+  "intro": "Escrevendo documentação ou um arquivo README? Nosso editor Markdown online gratuito oferece um ambiente de escrita limpo com visualização visual em tempo real e exportação instantânea para HTML.",
+  "whatIs": "O Editor Markdown é uma ferramenta de edição de texto de painel duplo. Ele permite que os usuários escrevam em Markdown — uma linguagem de marcação leve com sintaxe de formatação em texto simples — enquanto simultaneamente renderiza uma pré-visualização formatada ao vivo na tela.",
+  "howToUse": [
+    "Digite ou cole sua sintaxe Markdown no painel do editor à esquerda.",
+    "Veja o painel à direita atualizar instantaneamente com a pré-visualização formatada.",
+    "Use a barra de ferramentas para atalhos rápidos de formatação (negrito, itálico, links).",
+    "Clique em 'Copiar HTML' ou 'Baixar' para salvar seu trabalho."
+  ],
+  "howItWorks": "A ferramenta usa um parser de JavaScript (como o marked.js) para monitorar continuamente suas digitações na área de texto de entrada. Ela traduz seus símbolos Markdown (como # para cabeçalhos ou ** para negrito) em tags HTML padrão e os injeta no painel de visualização.",
+  "workedExample": "Se você digitar '# Hello World' e depois '**Texto em Negrito**', o analisador converte instantaneamente a primeira linha em uma tag HTML `<h1>` e a segunda linha em uma tag `<strong>`, exibindo o texto estilizado imediatamente no painel de visualização.",
+  "resultInterpretation": "A visualização mostra exatamente como seu Markdown ficará quando publicado em plataformas como GitHub, Reddit ou um gerador de site estático.",
+  "useCases": [
+    "Desenvolvimento de Software: Criando arquivos `README.md` altamente legíveis para repositórios de código aberto.",
+    "Blogging: Escrevendo rascunhos de blog rápidos e sem distrações, sem usar editores WYSIWYG complexos.",
+    "Tomada de Notas: Estruturando rapidamente notas de reunião com cabeçalhos, listas e blocos de código."
+  ],
+  "tipsAndLimitations": [
+    "O Markdown padrão não suporta nativamente layouts complexos, como tabelas de múltiplas colunas ou coloração de texto. Você deve usar HTML bruto nesses casos extremos.",
+    "Nosso editor suporta Markdown com Flavors do GitHub (GFM), o que significa que você pode criar tabelas e listas de tarefas facilmente."
+  ],
+  "faq": [
+    {
+      "question": "O que é Markdown?",
+      "answer": "Markdown é uma maneira simples de formatar texto que fica ótima em qualquer dispositivo. Não é necessário clicar em botões; você apenas usa símbolos padrão do teclado (como asteriscos para negrito) para formatar seu texto enquanto digita."
+    },
+    {
+      "question": "Ele salva meu trabalho automaticamente?",
+      "answer": "O editor mantém seu texto no armazenamento local do seu navegador para que você não o perca se atualizar acidentalmente, mas ele não salva em um banco de dados na nuvem."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "html-encode-decode",
+    "lorem-ipsum-generator"
+  ],
+  "cta": "Comece a escrever em Markdown agora!",
+  "disclaimer": "Os documentos são analisados localmente em seu navegador. Textos sensíveis não são enviados para os nossos servidores, garantindo que seus rascunhos permaneçam totalmente privados.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface de editor Markdown com tela dividida",
+  "ogImageText": "Editor Markdown"
+}

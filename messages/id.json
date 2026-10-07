@@ -38,15 +38,15 @@
     },
     "percentage-calculator": {
       "title": "Kalkulator Persentase",
-      "description": "Hitung persentase dengan cepat dan akurat.",
+      "description": "Hitung persentase dengan cepat dan mudah.",
       "ui": {
-        "percentageCalculator": "Kalkulator Persentase",
+        "calculatePercentage": "Kalkulator Persentase",
         "whatIs": "Berapa",
-        "of": "dari",
+        "of": "% dari",
         "amount": "Jumlah",
         "calculate": "Hitung",
         "result": "Hasil",
-        "calculatePercentage": "Hitung Persentase"
+        "enterValuesToCalculatePerc": "Masukkan nilai untuk menghitung persentase."
       }
     },
     "json-formatter": {
@@ -55,7 +55,19 @@
       "ui": {
         "formatJson": "Format JSON​",
         "inputJSON": "Masukkan J S O N",
-        "reset": "Mengatur ulang"
+        "reset": "Mengatur ulang",
+        "format": "Rapikan",
+        "minify": "Perkecil",
+        "copy": "Salin",
+        "copied": "Tersalin!",
+        "clear": "Bersihkan",
+        "input": "Data Input JSON",
+        "inputPlaceholder": "Tempel JSON Anda di sini...",
+        "output": "Data Output JSON",
+        "outputPlaceholder": "JSON yang diformat akan muncul di sini...",
+        "invalidJson": "JSON Tidak Valid",
+        "syntaxError": "Kesalahan Sintaks",
+        "jsonToolkit": "Peralatan JSON"
       }
     },
     "area-converter": {
@@ -100,13 +112,21 @@
       "ui": {
         "bedtimeCalculator": "Kalkulator Waktu Tidur",
         "whenDoYouNeedToWakeUp": "Pukul berapa Anda perlu bangun?",
-        "calculate": "Hitung",
+        "calculate": "Hitung Waktu",
         "toWakeUpAt": "Untuk bangun pada",
         "youShouldTryToBeAsleepBy": ", Anda sebaiknya mencoba sudah tertidur pada:",
         "6Cycles9h": "6 siklus (9 jam)",
         "5Cycles75h": "5 siklus (7,5 jam)",
         "calculationsIncludeAnAverage15MinutesToFallAsleep": "Perhitungan mencakup rata-rata 15 menit untuk tertidur.",
-        "enterYourWakeUpTimeToCal": "Masukkan waktu bangun Anda untuk menghitung waktu tidur"
+        "enterYourWakeUpTimeToCal": "Masukkan waktu bangun Anda untuk menghitung waktu tidur",
+        "title": "Kalkulator Waktu Tidur",
+        "description": "Cari tahu kapan tepatnya Anda harus tidur agar bangun dengan perasaan segar.",
+        "iNeedToWakeUpAt": "Saya harus bangun jam",
+        "youShouldGoToBedAt": "Anda sebaiknya tidur jam",
+        "resultsDescription": "Waktu ini berdasarkan siklus 90 menit, termasuk 15 menit untuk tertidur.",
+        "cycles": "siklus",
+        "hours": "jam",
+        "optimal": "Optimal"
       }
     },
     "binary-to-decimal": {
@@ -116,7 +136,8 @@
         "binaryToDecimalConverter": "Konverter Biner ke Desimal",
         "binaryNumber": "Angka biner",
         "decimalResult": "Hasil desimal",
-        "eG1010": "misalnya 1010"
+        "eG1010": "misalnya 1010",
+        "invalidBinaryNumber": "Angka biner tidak valid"
       }
     },
     "bmi-calculator": {
@@ -183,14 +204,27 @@
       "description": "",
       "ui": {
         "breakevenCalculator": "Kalkulator Titik Impas",
-        "fixedCosts": "Biaya tetap",
-        "variableCostPerUnit": "Biaya variabel per unit",
-        "sellingPricePerUnit": "Harga jual per unit",
+        "fixedCosts": "Biaya Tetap",
+        "variableCostPerUnit": "Biaya Variabel per Unit",
+        "sellingPricePerUnit": "Harga Jual per Unit",
         "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "Harga jual harus lebih besar daripada biaya variabel untuk mencapai titik impas.",
         "unitsToSell": "Unit yang harus dijual",
         "breakevenRevenue": "Pendapatan pada titik impas",
         "costsPricing": "Penetapan Harga Biaya",
-        "breakEvenPoint": "Titik Impas"
+        "breakEvenPoint": "Titik Impas",
+        "title": "Kalkulator Titik Impas (Break-Even)",
+        "description": "Hitung jumlah unit yang harus dijual untuk menutupi biaya dan mencapai titik impas (BEP).",
+        "calculate": "Hitung Titik Impas",
+        "summary": "Ringkasan Titik Impas",
+        "breakEvenUnits": "Unit Titik Impas",
+        "breakEvenRevenue": "Pendapatan Titik Impas",
+        "contributionMargin": "Margin Kontribusi (per unit)",
+        "neverBreakEvenError": "Biaya variabel Anda lebih tinggi atau sama dengan harga jual. Anda tidak akan pernah mencapai titik impas (selalu rugi).",
+        "units": "unit",
+        "enterDetails": "Masukkan biaya dan harga jual.",
+        "variableCost": "Biaya Variabel per Unit",
+        "sellingPrice": "Harga Jual per Unit",
+        "errorImpossible": "Harga jual harus lebih besar dari biaya variabel."
       }
     },
     "calorie-calculator": {
@@ -235,16 +269,29 @@
         "principalAmount": "Modal awal",
         "annualRate": "Suku bunga tahunan (%)",
         "timeYears": "Durasi (tahun)",
-        "compoundFrequency": "Frekuensi peracikan",
+        "compoundFrequency": "Frekuensi Bunga Majemuk",
         "daily": "Harian",
         "monthly": "Bulanan",
-        "quarterly": "Triwulanan",
+        "quarterly": "Kuartalan",
         "semiannually": "Semesteran",
         "annually": "Tahunan",
         "interestEarned": "Bunga yang diperoleh",
         "finalBalance": "Saldo akhir",
         "interestDetails": "Detail Minat",
-        "growthBreakdown": "Perincian Pertumbuhan"
+        "growthBreakdown": "Perincian Pertumbuhan",
+        "title": "Kalkulator Bunga Majemuk",
+        "description": "Hitung bagaimana investasi Anda akan tumbuh dari waktu ke waktu dengan bunga majemuk dan kontribusi rutin.",
+        "initialInvestment": "Investasi Awal",
+        "monthlyContribution": "Kontribusi Bulanan",
+        "annualInterestRate": "Suku Bunga Tahunan (%)",
+        "yearsToGrow": "Lama Investasi (Tahun)",
+        "semiAnnually": "Semesteran",
+        "calculate": "Hitung Pertumbuhan",
+        "summary": "Ringkasan Pertumbuhan",
+        "futureValue": "Nilai Masa Depan",
+        "totalContributions": "Total Investasi",
+        "totalInterestEarned": "Total Bunga Diperoleh",
+        "enterDetails": "Masukkan detail investasi untuk melihat proyeksi pertumbuhan."
       }
     },
     "concrete-calculator": {
@@ -280,7 +327,12 @@
         "minutes": "Menit",
         "start": "Mulai",
         "pause": "Jeda",
-        "reset": "Atur ulang"
+        "reset": "Atur ulang",
+        "title": "Penghitung Mundur",
+        "description": "Pengatur waktu hitung mundur online yang sederhana dan mudah digunakan.",
+        "hours": "Jam",
+        "seconds": "Detik",
+        "timeUp": "Waktu Habis!"
       }
     },
     "css-minifier": {
@@ -301,7 +353,11 @@
         "amount": "Jumlah",
         "from": "Dari",
         "to": "Ke",
-        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Catatan: nilai tukar ini merupakan perkiraan statis yang hanya disediakan untuk tujuan demonstrasi."
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "Catatan: nilai tukar ini merupakan perkiraan statis yang hanya disediakan untuk tujuan demonstrasi.",
+        "title": "Konverter Mata Uang",
+        "description": "Konversi antar mata uang global dengan nilai tukar langsung.",
+        "convertedAmount": "Jumlah Dikonversi",
+        "lastUpdated": "Pembaruan Terakhir"
       }
     },
     "data-storage-converter": {
@@ -318,10 +374,10 @@
       "description": "",
       "ui": {
         "dateDifferenceCalculator": "Kalkulator Selisih Tanggal",
-        "startDate": "Tanggal mulai",
-        "endDate": "Tanggal akhir",
+        "startDate": "Tanggal Mulai",
+        "endDate": "Tanggal Selesai",
         "calculateDifference": "Hitung selisih",
-        "timeDifference": "Selisih waktu:",
+        "timeDifference": "Selisih Waktu",
         "years": "Tahun",
         "months": "Bulan",
         "days": "hari",
@@ -329,8 +385,22 @@
         "totalWeeksEquivalent": "Setara dengan jumlah minggu:",
         "weeks": "minggu,",
         "copy": "Salin",
-        "reset": "Atur ulang",
-        "selectDatesToCalculate": "Pilih Tanggal Untuk Dihitung"
+        "reset": "Atur Ulang",
+        "selectDatesToCalculate": "Pilih kedua tanggal untuk menghitung selisih.",
+        "dateDifferenceTitle": "Kalkulator Selisih Tanggal",
+        "dateDifferenceDesc": "Hitung jumlah pastinya hari, minggu, bulan, dan tahun di antara dua tanggal.",
+        "includeEndDay": "Sertakan tanggal selesai (+1 hari)",
+        "includeEndDayDesc": "Menambahkan satu hari ekstra ke perhitungan.",
+        "exactDifference": "Selisih Tepat",
+        "yearsLabel": "Tahun",
+        "monthsLabel": "Bulan",
+        "daysLabel": "Hari",
+        "endDateBeforeStart": "Catatan: Tanggal selesai sebelum tanggal mulai.",
+        "totalDays": "Total Hari",
+        "inWeeks": "Dalam Minggu",
+        "weeksShort": "mgg",
+        "daysShort": "h",
+        "approxMonths": "Total Bulan"
       }
     },
     "days-between-dates": {
@@ -338,16 +408,25 @@
       "description": "",
       "ui": {
         "daysBetweenDates": "Hari antara Dua Tanggal",
-        "startDate": "Tanggal mulai",
-        "endDate": "Tanggal akhir",
+        "startDate": "Tanggal Mulai",
+        "endDate": "Tanggal Selesai",
         "includeStartDateInCalculation": "Sertakan tanggal mulai dalam perhitungan",
         "includeEndDateInCalculation": "Sertakan tanggal akhir dalam perhitungan",
         "calculateDays": "Hitung hari",
         "totalResult": "Hasil total:",
         "days": "Hari",
         "copy": "Salin",
-        "reset": "Atur ulang",
-        "selectDatesToCalculate": "Pilih Tanggal Untuk Dihitung"
+        "reset": "Atur Ulang",
+        "selectDatesToCalculate": "Pilih kedua tanggal untuk menghitung selisih.",
+        "title": "Hari di Antara Tanggal",
+        "description": "Hitung jumlah pasti hari kalender, hari kerja, dan akhir pekan di antara dua tanggal.",
+        "includeEndDay": "Sertakan tanggal selesai (+1 hari)",
+        "includeEndDayDesc": "Menambahkan satu hari ekstra ke perhitungan.",
+        "totalDays": "Total Hari",
+        "daysLabel": "Hari",
+        "endDateBeforeStart": "Catatan: Tanggal selesai sebelum tanggal mulai.",
+        "weekdays": "Hari Kerja (Sen-Jum)",
+        "weekends": "Akhir Pekan"
       }
     },
     "days-until-calculator": {
@@ -362,8 +441,20 @@
         "whichIsExactly": "Yang tepatnya sama dengan:",
         "days": "hari",
         "copy": "Salin",
-        "reset": "Atur ulang",
-        "selectAFutureDate": "Pilih Tanggal Mendatang"
+        "reset": "Atur Ulang",
+        "selectAFutureDate": "Pilih Tanggal Mendatang",
+        "title": "Kalkulator Hari Menuju",
+        "description": "Hitung mundur hari, jam, menit, dan detik yang tepat hingga tanggal tertentu di masa mendatang.",
+        "todayIs": "Hari ini adalah",
+        "targetDate": "Tanggal Target",
+        "timeUntil": "Waktu Menuju Target",
+        "timeSince": "Waktu Sejak Target",
+        "dayLabel": "Hari",
+        "dayLabelSingular": "Hari",
+        "hoursLabel": "Jam",
+        "minutesLabel": "Menit",
+        "secondsLabel": "Detik",
+        "selectTargetDate": "Pilih tanggal target untuk melihat hitung mundur."
       }
     },
     "decimal-to-binary": {
@@ -373,7 +464,8 @@
         "decimalToBinaryConverter": "Konverter Desimal ke Biner",
         "decimalNumber": "Angka desimal",
         "binaryResult": "Hasil biner",
-        "eG10": "misalnya 10"
+        "eG10": "misalnya 10",
+        "invalidDecimalNumber": "Angka desimal tidak valid"
       }
     },
     "decking-calculator": {
@@ -399,15 +491,25 @@
       "description": "",
       "ui": {
         "discountCalculator": "Kalkulator Diskon",
-        "originalPrice": "Harga asli",
+        "originalPrice": "Harga Asli",
         "discount": "Diskon",
         "type": "Jenis",
         "off": "% diskon",
         "fixedAmountOff": "Jumlah diskon tetap",
-        "youSave": "Penghematan Anda",
-        "finalPrice": "Harga akhir",
+        "youSave": "Anda Hemat:",
+        "finalPrice": "Harga Akhir",
         "discountDetails": "Detail Diskon",
-        "priceBreakdown": "Rincian Harga"
+        "priceBreakdown": "Rincian Harga",
+        "title": "Kalkulator Diskon",
+        "description": "Hitung harga akhir suatu barang setelah menerapkan diskon dan pajak opsional.",
+        "discountPercentage": "Diskon (%)",
+        "taxPercentage": "Pajak (%)",
+        "optional": "Opsional",
+        "calculate": "Hitung Diskon",
+        "summary": "Ringkasan Harga",
+        "discountAmount": "Jumlah Diskon",
+        "taxAmount": "Jumlah Pajak",
+        "enterDetails": "Masukkan harga asli dan diskon untuk menghitung."
       }
     },
     "emi-calculator": {
@@ -418,11 +520,24 @@
         "loanAmountPrincipal": "Jumlah pinjaman (pokok)",
         "annualRate": "Suku bunga tahunan (%)",
         "tenureMonths": "Jangka waktu (bulan)",
-        "monthlyEmi": "EMI bulanan",
+        "monthlyEmi": "EMI Bulanan",
         "totalInterestPayable": "Total bunga yang harus dibayar",
         "totalPaymentPrincipalInterest": "Total pembayaran (pokok + bunga)",
         "eMIDetails": "Detail E M I",
-        "paymentSummary": "Ringkasan Pembayaran"
+        "paymentSummary": "Ringkasan Pembayaran",
+        "title": "Kalkulator EMI",
+        "description": "Hitung Cicilan Bulanan Tetap (EMI) Anda untuk KPR, kredit mobil, atau KTA.",
+        "loanAmount": "Jumlah Pinjaman",
+        "interestRate": "Suku Bunga (%)",
+        "loanTerm": "Tenor Pinjaman",
+        "years": "Tahun",
+        "months": "Bulan",
+        "calculate": "Hitung EMI",
+        "emiSummary": "Ringkasan EMI",
+        "principalAmount": "Pokok Pinjaman",
+        "totalInterest": "Total Bunga",
+        "totalPayment": "Total Pembayaran (Pokok + Bunga)",
+        "enterDetails": "Masukkan detail pinjaman untuk melihat ringkasan."
       }
     },
     "fence-calculator": {
@@ -461,7 +576,9 @@
       "description": "",
       "ui": {
         "fractionCalculator": "Kalkulator Pecahan",
-        "decimal": "Desimal:"
+        "decimal": "Desimal:",
+        "error": "Kesalahan",
+        "divByZero": "Dibagi nol"
       }
     },
     "gpa-calculator": {
@@ -500,12 +617,12 @@
       "title": "Konverter Tinggi",
       "description": "",
       "ui": {
-        "heightConverter": "Konverter Tinggi",
-        "metricCentimeters": "Metrik (sentimeter)",
+        "heightConverter": "Konverter Tinggi Badan",
+        "metricCentimeters": "Metrik (Sentimeter)",
         "cm": "cm",
-        "imperialFeetInches": "Imperial (kaki dan inci)",
+        "imperialFeetInches": "Imperial (Kaki & Inci)",
         "ft": "kaki",
-        "in": "di dalam"
+        "in": "inci"
       }
     },
     "hex-to-decimal": {
@@ -515,7 +632,8 @@
         "hexToDecimalConverter": "Konverter Heksadesimal ke Desimal",
         "hexadecimalNumber": "Angka heksadesimal",
         "decimalResult": "Hasil desimal",
-        "eG1AOrFFFFFF": "misalnya 1A atau FFFFFF"
+        "eG1AOrFFFFFF": "misalnya 1A atau FFFFFF",
+        "invalidHexString": "String heksadesimal tidak valid"
       }
     },
     "hourly-to-salary-calculator": {
@@ -531,7 +649,17 @@
         "monthly": "Bulanan",
         "yearlySalary": "Gaji tahunan",
         "hourlyDetails": "Detail Setiap Jam",
-        "salaryBreakdown": "Rincian Gaji"
+        "salaryBreakdown": "Rincian Gaji",
+        "title": "Kalkulator Gaji per Jam",
+        "description": "Konversikan gaji per jam Anda ke setara harian, mingguan, bulanan, dan tahunan.",
+        "hourlyRate": "Gaji per Jam",
+        "workSchedule": "Jadwal Kerja",
+        "hoursPerWeek": "Jam per Minggu",
+        "daysPerWeek": "Hari per Minggu",
+        "weeksPerYear": "Minggu per Tahun",
+        "annualSalary": "Gaji Tahunan",
+        "biWeekly": "Dua Mingguan",
+        "enterDetails": "Masukkan gaji per jam untuk melihat rincian."
       }
     },
     "html-encode-decode": {
@@ -561,15 +689,22 @@
       "description": "",
       "ui": {
         "investmentCalculator": "Kalkulator Investasi",
-        "initialInvestment": "Investasi awal",
-        "monthlyContribution": "Kontribusi bulanan",
-        "expectedReturn": "Imbal hasil yang diharapkan (%)",
-        "yearsToGrow": "Durasi investasi (tahun)",
+        "initialInvestment": "Investasi Awal",
+        "monthlyContribution": "Kontribusi Bulanan",
+        "expectedReturn": "Ekspektasi Pengembalian (%)",
+        "yearsToGrow": "Tahun Berinvestasi",
         "totalContributions": "Total kontribusi",
         "interestEarned": "Bunga yang diperoleh",
         "futureValue": "Nilai masa depan",
         "investmentPlan": "Rencana Investasi",
-        "growthProjection": "Proyeksi Pertumbuhan"
+        "growthProjection": "Proyeksi Pertumbuhan",
+        "title": "Kalkulator Investasi",
+        "description": "Hitung seberapa banyak investasi Anda akan tumbuh seiring waktu dengan bunga majemuk.",
+        "result": "Hasil",
+        "totalValue": "Nilai Total",
+        "totalInvested": "Total Investasi",
+        "totalInterest": "Total Bunga",
+        "enterDetails": "Masukkan detail investasi untuk melihat pertumbuhan."
       }
     },
     "js-minifier": {
@@ -600,7 +735,9 @@
       "ui": {
         "lengthConverter": "Konverter Panjang",
         "from": "Dari",
-        "to": "Ke"
+        "to": "Ke",
+        "title": "Konverter Panjang",
+        "description": "Konversi antara meter, kaki, inci, dan satuan panjang lainnya."
       }
     },
     "loan-calculator": {
@@ -608,14 +745,24 @@
       "description": "",
       "ui": {
         "loanCalculator": "Kalkulator Pinjaman",
-        "loanAmount": "Jumlah pinjaman",
-        "interestRate": "Suku bunga (%)",
+        "loanAmount": "Jumlah Pinjaman",
+        "interestRate": "Suku Bunga (Tahunan)",
         "loanTermYears": "Jangka waktu pinjaman (tahun)",
-        "monthlyPayment": "Pembayaran bulanan",
-        "totalInterest": "Total bunga",
+        "monthlyPayment": "Cicilan Bulanan",
+        "totalInterest": "Total Bunga",
         "totalCostOfLoan": "Total biaya pinjaman",
         "loanDetails": "Detail Pinjaman",
-        "paymentBreakdown": "Rincian Pembayaran"
+        "paymentBreakdown": "Rincian Pembayaran",
+        "title": "Kalkulator Pinjaman",
+        "description": "Hitung pembayaran bulanan, total bunga, dan total biaya pinjaman Anda.",
+        "loanTerm": "Jangka Waktu",
+        "years": "Tahun",
+        "months": "Bulan",
+        "calculate": "Hitung Pinjaman",
+        "loanSummary": "Ringkasan Pinjaman",
+        "totalPrincipal": "Total Pokok Pinjaman",
+        "totalPayment": "Total Pembayaran",
+        "enterDetails": "Masukkan detail pinjaman untuk melihat ringkasan."
       }
     },
     "lorem-ipsum-generator": {
@@ -652,11 +799,20 @@
       "description": "",
       "ui": {
         "markupCalculator": "Kalkulator Markup",
-        "cost": "Biaya",
+        "cost": "Biaya (HPP)",
         "markup": "Markup (%)​",
         "profit": "Keuntungan",
-        "sellingPrice": "Harga jual",
-        "pricingDetails": "Detail Harga"
+        "sellingPrice": "Harga Jual",
+        "pricingDetails": "Detail Harga",
+        "title": "Kalkulator Markup",
+        "description": "Hitung harga jual, laba kotor, dan margin keuntungan berdasarkan biaya dan persentase markup.",
+        "markupPercentage": "Persentase Markup",
+        "calculate": "Hitung Markup",
+        "summary": "Ringkasan Harga",
+        "profitMargin": "Margin Keuntungan",
+        "grossProfit": "Laba Kotor",
+        "grossLoss": "Rugi Kotor",
+        "enterDetails": "Masukkan biaya dan persentase markup."
       }
     },
     "md5generator": {
@@ -674,14 +830,25 @@
       "description": "",
       "ui": {
         "monthsBetweenDates": "Bulan antara Dua Tanggal",
-        "startDate": "Tanggal mulai",
-        "endDate": "Tanggal akhir",
+        "startDate": "Tanggal Mulai",
+        "endDate": "Tanggal Selesai",
         "calculateMonths": "Hitung bulan",
         "months": "Bulan",
         "days": "Hari",
         "copy": "Salin",
-        "reset": "Atur ulang",
-        "selectDatesToCalculate": "Pilih Tanggal Untuk Dihitung"
+        "reset": "Atur Ulang",
+        "selectDatesToCalculate": "Pilih kedua tanggal untuk menghitung selisih.",
+        "title": "Bulan di Antara Tanggal",
+        "description": "Hitung persis berapa bulan penuh dan sisa hari di antara dua tanggal.",
+        "includeEndDay": "Sertakan tanggal selesai (+1 hari)",
+        "includeEndDayDesc": "Menambahkan satu hari ekstra ke perhitungan.",
+        "totalMonths": "Total Bulan",
+        "monthsLabel": "Bulan",
+        "fullMonthsLabel": "Bulan Penuh",
+        "extraDaysLabel": "Sisa Hari",
+        "equivalentTo": "Setara dengan",
+        "daysLabel": "Hari",
+        "endDateBeforeStart": "Catatan: Tanggal selesai sebelum tanggal mulai."
       }
     },
     "mortgage-calculator": {
@@ -690,13 +857,22 @@
       "ui": {
         "mortgageCalculator": "Kalkulator KPR",
         "homePrice": "Harga rumah",
-        "downPayment": "Uang muka",
-        "interestRate": "Suku bunga (%)",
-        "loanTermYears": "Jangka waktu pinjaman (tahun)",
+        "downPayment": "Uang Muka (DP)",
+        "interestRate": "Suku Bunga (%)",
+        "loanTermYears": "Tenor (Tahun)",
         "principalLoanAmount": "Pokok pinjaman",
-        "monthlyPayment": "Pembayaran bulanan",
+        "monthlyPayment": "Cicilan Bulanan",
         "propertyDetails": "Detail Properti",
-        "mortgageSummary": "Ringkasan Hipotek"
+        "mortgageSummary": "Ringkasan KPR",
+        "title": "Kalkulator KPR",
+        "description": "Hitung cicilan KPR bulanan dan total bunga Anda dengan mudah.",
+        "homeValue": "Harga Rumah",
+        "calculate": "Hitung KPR",
+        "principalAndInterestOnly": "Hanya Pokok dan Bunga",
+        "loanAmount": "Plafon Pinjaman",
+        "totalInterest": "Total Bunga",
+        "totalCostOfLoan": "Total Biaya Pinjaman",
+        "enterDetails": "Masukkan detail KPR untuk melihat ringkasan."
       }
     },
     "mulch-calculator": {
@@ -796,12 +972,18 @@
       "description": "",
       "ui": {
         "percentageDecreaseCalculator": "Kalkulator Penurunan Persentase",
-        "initialValue": "Nilai awal",
-        "finalValue": "Nilai akhir",
+        "initialValue": "Nilai Awal",
+        "finalValue": "Nilai Akhir",
         "absoluteChange": "Perubahan absolut",
         "decrease": "Penurunan",
         "values": "Nilai-nilai",
-        "decreaseBreakdown": "Kurangi Kerusakan"
+        "decreaseBreakdown": "Kurangi Kerusakan",
+        "title": "Kalkulator Penurunan Persentase",
+        "description": "Hitung penurunan persentase dari nilai awal ke nilai akhir.",
+        "result": "Hasil",
+        "percentageDecrease": "Penurunan Persentase",
+        "absoluteDecrease": "Selisih Absolut",
+        "enterDetails": "Masukkan nilai untuk menghitung penurunan."
       }
     },
     "percentage-increase-calculator": {
@@ -809,12 +991,18 @@
       "description": "",
       "ui": {
         "percentageIncreaseCalculator": "Kalkulator Kenaikan Persentase",
-        "initialValue": "Nilai awal",
-        "finalValue": "Nilai akhir",
+        "initialValue": "Nilai Awal",
+        "finalValue": "Nilai Akhir",
         "absoluteChange": "Perubahan absolut",
         "change": "Perubahan",
         "values": "Nilai-nilai",
-        "increaseBreakdown": "Tingkatkan Kerusakan"
+        "increaseBreakdown": "Tingkatkan Kerusakan",
+        "title": "Kalkulator Kenaikan Persentase",
+        "description": "Hitung kenaikan persentase dari nilai awal ke nilai akhir.",
+        "result": "Hasil",
+        "percentageIncrease": "Kenaikan Persentase",
+        "absoluteIncrease": "Selisih Absolut",
+        "enterDetails": "Masukkan nilai untuk menghitung kenaikan."
       }
     },
     "plant-spacing-calculator": {
@@ -837,8 +1025,14 @@
         "pomodoroTimer": "Timer Pomodoro",
         "work25m": "Kerja (25 menit)",
         "break5m": "Istirahat (5 menit)",
-        "reset": "Atur ulang",
-        "start": "Awal"
+        "reset": "Atur Ulang",
+        "start": "Awal",
+        "title": "Timer Pomodoro",
+        "description": "Tingkatkan produktivitas Anda menggunakan Teknik Pomodoro.",
+        "pomodoro": "Pomodoro",
+        "shortBreak": "Istirahat Pendek",
+        "longBreak": "Istirahat Panjang",
+        "completed": "Selesai"
       }
     },
     "profit-margin-calculator": {
@@ -848,10 +1042,20 @@
         "profitMarginCalculator": "Kalkulator Margin Keuntungan",
         "revenueSellingPrice": "Pendapatan (harga jual)",
         "costOfGoodsSold": "Harga pokok barang yang terjual",
-        "grossProfit": "Laba kotor",
+        "grossProfit": "Laba Kotor",
         "margin": "Batas",
         "financialDetails": "Detail Keuangan",
-        "profitability": "Profitabilitas"
+        "profitability": "Profitabilitas",
+        "title": "Kalkulator Margin Keuntungan",
+        "description": "Hitung laba kotor, margin keuntungan, dan markup Anda dengan mudah.",
+        "cost": "Harga Pokok Penjualan (HPP/COGS)",
+        "revenue": "Pendapatan (Harga Jual)",
+        "calculate": "Hitung Margin",
+        "summary": "Ringkasan Margin",
+        "profitMargin": "Margin Keuntungan",
+        "grossLoss": "Rugi Kotor",
+        "markup": "Markup",
+        "enterDetails": "Masukkan biaya dan pendapatan."
       }
     },
     "qr-code-generator": {
@@ -889,7 +1093,7 @@
       "description": "",
       "ui": {
         "ratioCalculatorAbCd": "Kalkulator Rasio (A:B = C:D)",
-        "enter3ValuesToCalculateThe4thMissingValue": "Masukkan 3 nilai untuk menghitung nilai ke-4 yang belum diketahui."
+        "enter3ValuesToCalculateThe4thMissingValue": "Masukkan 3 nilai untuk menghitung nilai ke-4 yang hilang"
       }
     },
     "roi-calculator": {
@@ -902,7 +1106,23 @@
         "profit": "Keuntungan",
         "roi": "ROI​",
         "investmentDetails": "Detail Investasi",
-        "returnOnInvestment": "Pengembalian Investasi"
+        "returnOnInvestment": "Return on Investment (ROI)",
+        "title": "Kalkulator ROI",
+        "description": "Hitung Return on Investment (ROI) Anda untuk mengevaluasi profitabilitas investasi.",
+        "amountInvested": "Jumlah yang Diinvestasikan (Biaya)",
+        "amountReturned": "Jumlah yang Dikembalikan (Pendapatan)",
+        "investmentTimePeriod": "Periode Investasi",
+        "optional": "Opsional",
+        "years": "Tahun",
+        "calculate": "Hitung ROI",
+        "summary": "Ringkasan ROI",
+        "netProfit": "Laba Bersih",
+        "netLoss": "Rugi Bersih",
+        "annualizedRoi": "ROI Tahunan",
+        "enterDetails": "Masukkan jumlah investasi Anda.",
+        "investmentAmount": "Jumlah Investasi",
+        "returnAmount": "Jumlah Pengembalian",
+        "investmentGain": "Keuntungan/Kerugian Investasi"
       }
     },
     "roman-numeral-converter": {
@@ -912,7 +1132,11 @@
         "romanNumeralConverter": "Konverter Angka Romawi",
         "numberRoman": "Angka → Romawi",
         "romanNumber": "Romawi → Angka",
-        "result": "Hasil"
+        "result": "Hasil",
+        "rangeError": "Angka harus antara 1 dan 3999",
+        "invalidRoman": "Angka Romawi tidak valid",
+        "numberInputLabel": "Angka (1 - 3999)",
+        "romanNumeralLabel": "Angka Romawi"
       }
     },
     "running-distance-calculator": {
@@ -935,22 +1159,34 @@
       "description": "",
       "ui": {
         "salaryCalculator": "Kalkulator Gaji",
-        "salaryAmount": "Jumlah gaji",
+        "salaryAmount": "Jumlah Gaji",
         "per": "Per​",
         "hour": "Jam",
         "day": "Hari",
         "week": "Minggu",
         "month": "Bulan",
         "year": "Tahun",
-        "hoursPerWeek": "Jam per minggu",
+        "hoursPerWeek": "Jam per Minggu",
         "calculate": "Hitung",
-        "hourly": "Per jam",
+        "hourly": "Per Jam",
         "daily": "Harian",
         "weekly": "Mingguan",
         "monthly": "Bulanan",
         "yearly": "Tahunan",
         "incomeDetails": "Detail Pendapatan",
-        "enterYourIncomeDetailsToS": "Masukkan detail penghasilan Anda untuk melihat ringkasan"
+        "enterYourIncomeDetailsToS": "Masukkan detail penghasilan Anda untuk melihat ringkasan",
+        "title": "Kalkulator Gaji",
+        "description": "Konversikan gaji Anda ke setara per jam, harian, mingguan, bulanan, dan tahunan.",
+        "payFrequency": "Frekuensi Pembayaran",
+        "biWeekly": "Dua Mingguan",
+        "semiMonthly": "Setengah Bulanan",
+        "quarterly": "Kuartalan",
+        "annually": "Tahunan",
+        "workSchedule": "Jadwal Kerja",
+        "daysPerWeek": "Hari per Minggu",
+        "salaryBreakdown": "Rincian Gaji",
+        "annualSalary": "Gaji Tahunan",
+        "enterDetails": "Masukkan detail gaji untuk melihat rincian."
       }
     },
     "salary-to-hourly-calculator": {
@@ -958,12 +1194,25 @@
       "description": "",
       "ui": {
         "salaryToHourlyCalculator": "Kalkulator Gaji ke Upah per Jam",
-        "annualSalary": "Gaji tahunan",
+        "annualSalary": "Gaji Tahunan",
         "hoursWeek": "Jam / minggu",
         "weeksYear": "Minggu / tahun",
         "hourlyWage": "Upah per jam",
         "salaryDetails": "Detail Gaji",
-        "equivalentWage": "Upah Setara"
+        "equivalentWage": "Upah Setara",
+        "title": "Kalkulator Gaji ke per Jam",
+        "description": "Konversikan gaji tahunan Anda ke setara per jam, harian, mingguan, dan bulanan.",
+        "workSchedule": "Jadwal Kerja",
+        "hoursPerWeek": "Jam per Minggu",
+        "daysPerWeek": "Hari per Minggu",
+        "weeksPerYear": "Minggu per Tahun",
+        "salaryBreakdown": "Rincian Gaji",
+        "hourlyRate": "Gaji per Jam",
+        "monthly": "Bulanan",
+        "biWeekly": "Dua Mingguan",
+        "weekly": "Mingguan",
+        "daily": "Harian",
+        "enterDetails": "Masukkan gaji tahunan untuk melihat rincian."
       }
     },
     "sha1generator": {
@@ -991,7 +1240,7 @@
       "description": "",
       "ui": {
         "simpleInterestCalculator": "Kalkulator Bunga Sederhana",
-        "principalAmount": "Modal awal",
+        "principalAmount": "Jumlah Pokok",
         "annualRate": "Suku bunga tahunan (%)",
         "time": "Durasi",
         "years": "Tahun",
@@ -1000,7 +1249,18 @@
         "interestEarned": "Bunga yang diperoleh",
         "finalBalance": "Saldo akhir",
         "interestDetails": "Detail Minat",
-        "growthBreakdown": "Perincian Pertumbuhan"
+        "growthBreakdown": "Perincian Pertumbuhan",
+        "title": "Kalkulator Bunga Tunggal",
+        "description": "Hitung bunga tunggal (sederhana) pada pinjaman atau tabungan dengan mudah.",
+        "annualInterestRate": "Suku Bunga Tahunan (%)",
+        "timePeriod": "Jangka Waktu",
+        "calculate": "Hitung Bunga",
+        "summary": "Ringkasan Bunga",
+        "totalInterest": "Total Bunga",
+        "totalAmount": "Jumlah Total",
+        "principalPlusInterest": "Pokok + Bunga",
+        "enterDetails": "Masukkan pokok, bunga, dan waktu.",
+        "interestRate": "Suku Bunga Tahunan (%)"
       }
     },
     "sleep-calculator": {
@@ -1008,7 +1268,7 @@
       "description": "",
       "ui": {
         "sleepCalculator": "Kalkulator Tidur",
-        "iWantToWakeUpAt": "Saya ingin bangun pada:",
+        "iWantToWakeUpAt": "Saya ingin bangun jam",
         "calculate": "Hitung",
         "toWakeUpRefreshedAt": "Untuk bangun dengan segar pada",
         "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": ", cobalah tertidur pada salah satu waktu berikut (termasuk 15 menit untuk tertidur):",
@@ -1016,7 +1276,18 @@
         "5Cycles75h": "5 siklus (7,5 jam)",
         "4Cycles6h": "4 siklus (6 jam)",
         "3Cycles45h": "3 siklus (4,5 jam)",
-        "enterWakeTimeToCalculateS": "Masukkan waktu bangun untuk menghitung waktu tidur"
+        "enterWakeTimeToCalculateS": "Masukkan waktu bangun untuk menghitung waktu tidur",
+        "title": "Kalkulator Tidur",
+        "description": "Hitung waktu tidur optimal berdasarkan siklus tidur 90 menit.",
+        "wakeAt": "Bangun jam",
+        "sleepAt": "Tidur jam",
+        "iWillGoToBedAt": "Saya akan tidur jam",
+        "youShouldGoToBedAt": "Anda sebaiknya tidur jam",
+        "youShouldWakeUpAt": "Anda sebaiknya bangun jam",
+        "resultsDescription": "Waktu ini berdasarkan siklus 90 menit, termasuk 15 menit untuk tertidur.",
+        "cycles": "siklus",
+        "hours": "jam",
+        "optimal": "Optimal"
       }
     },
     "speed-converter": {
@@ -1087,9 +1358,12 @@
         "start": "Mulai",
         "pause": "Jeda",
         "lap": "Putaran",
-        "reset": "Atur ulang",
+        "reset": "Atur Ulang",
         "laps": "Putaran",
-        "noLapsRecordedYet": "Belum Ada Lap yang Tercatat"
+        "noLapsRecordedYet": "Belum Ada Lap yang Tercatat",
+        "title": "Stopwatch Online",
+        "description": "Stopwatch online sederhana dan tepat dengan waktu putaran.",
+        "clearLaps": "Hapus Putaran"
       }
     },
     "tax-calculator": {
@@ -1142,12 +1416,22 @@
         "firstTime": "Waktu pertama",
         "secondTime": "Waktu kedua",
         "calculateAbsoluteDifference": "Hitung selisih absolut",
-        "difference": "Selisih:",
+        "difference": "Selisih Waktu",
         "h": "j",
         "m": "mnt",
         "copy": "Salin",
-        "reset": "Atur ulang",
-        "selectTimesToCompare": "Pilih Waktu Untuk Membandingkan"
+        "reset": "Atur Ulang",
+        "selectTimesToCompare": "Pilih Waktu Untuk Membandingkan",
+        "title": "Kalkulator Selisih Waktu",
+        "description": "Hitung selisih waktu yang tepat antara dua tanggal dan waktu tertentu hingga hitungan detik.",
+        "startDateTime": "Tanggal & Waktu Mulai",
+        "endDateTime": "Tanggal & Waktu Selesai",
+        "daysLabel": "Hari",
+        "hoursLabel": "Jam",
+        "minutesLabel": "Menit",
+        "secondsLabel": "Detik",
+        "reversedNote": "Catatan: Waktu selesai sebelum waktu mulai. Menampilkan selisih absolut.",
+        "selectDatesToCalculate": "Pilih kedua tanggal dan waktu untuk menghitung selisih."
       }
     },
     "time-duration-calculator": {
@@ -1155,16 +1439,25 @@
       "description": "",
       "ui": {
         "timeDurationCalculator": "Kalkulator Durasi Waktu",
-        "startTime": "Waktu mulai",
-        "endTime": "Waktu selesai",
+        "startTime": "Waktu Mulai",
+        "endTime": "Waktu Selesai",
         "endsOnTheNextDayCrossesMidnight": "Berakhir pada hari berikutnya (melewati tengah malam)",
         "calculateDuration": "Hitung durasi",
         "hours": "Jam",
         "minutes": "menit",
         "totalTimeInMinutes": "Total durasi dalam menit:",
         "copy": "Salin",
-        "reset": "Atur ulang",
-        "selectStartAndEndTimes": "Pilih Waktu Mulai dan Berakhir"
+        "reset": "Atur Ulang",
+        "selectStartAndEndTimes": "Pilih Waktu Mulai dan Berakhir",
+        "title": "Kalkulator Durasi Waktu",
+        "description": "Hitung persis berapa jam dan menit yang telah berlalu di antara dua waktu.",
+        "duration": "Durasi",
+        "hLabel": "j",
+        "mLabel": "m",
+        "decimalHoursLabel": "Jam Desimal",
+        "totalMinutesLabel": "Total Menit",
+        "crossesMidnightNote": "Catatan: Waktu selesai lebih awal (diasumsikan melewati tengah malam).",
+        "selectTimesToCalculate": "Pilih kedua waktu untuk menghitung durasi."
       }
     },
     "time-zone-converter": {
@@ -1176,7 +1469,18 @@
         "fromTimeZoneRelative": "Dari zona waktu (relatif)",
         "toTimeZone": "Ke zona waktu",
         "convert": "Konversi",
-        "selectDateAndTimeZonesTo": "Pilih zona tanggal dan waktu untuk dibandingkan"
+        "selectDateAndTimeZonesTo": "Pilih zona tanggal dan waktu untuk dibandingkan",
+        "title": "Konverter Zona Waktu",
+        "description": "Konversi waktu antara zona waktu yang berbeda secara akurat.",
+        "fromZone": "Dari Zona Waktu",
+        "toZone": "Ke Zona Waktu",
+        "dateAndTime": "Tanggal & Waktu",
+        "swap": "Tukar",
+        "convertedTime": "Waktu yang Dikonversi",
+        "hoursAhead": "jam lebih cepat",
+        "hoursBehind": "jam lebih lambat",
+        "sameTime": "Waktu yang sama",
+        "invalidInput": "Masukkan tanggal yang valid."
       }
     },
     "tip-calculator": {
@@ -1184,16 +1488,31 @@
       "description": "",
       "ui": {
         "tipCalculator": "Kalkulator Tip",
-        "billAmount": "Jumlah tagihan",
+        "billAmount": "Jumlah Tagihan",
         "tip": "Kiat %",
-        "numberOfPeople": "Jumlah orang",
-        "tipAmount": "Jumlah tip",
+        "numberOfPeople": "Jumlah Orang",
+        "tipAmount": "Jumlah Tip",
         "person": "/ orang",
         "total": "Total​",
         "totalTip": "Total tip:",
         "totalBill": "Total tagihan:",
         "billDetails": "Detail Tagihan",
-        "totalBreakdown": "Kerusakan Total"
+        "totalBreakdown": "Kerusakan Total",
+        "title": "Kalkulator Tip",
+        "description": "Hitung tip Anda dan bagi tagihan dengan mudah di antara teman-teman.",
+        "selectTip": "Pilih Tip %",
+        "custom": "Kustom",
+        "totalAmount": "Jumlah Total",
+        "splitBetween": "Dibagi untuk",
+        "people": "orang",
+        "tipPerPerson": "Tip / Orang",
+        "totalPerPerson": "Total / Orang",
+        "payingFullAmount": "Anda membayar jumlah penuh.",
+        "enterDetails": "Masukkan detail tagihan.",
+        "tipPercentage": "Persentase Tip",
+        "perPerson": "/ orang",
+        "totalTipOverall": "Total Tip (Keseluruhan)",
+        "totalBillOverall": "Total Tagihan (Keseluruhan)"
       }
     },
     "unix-timestamp-converter": {
@@ -1206,7 +1525,22 @@
         "dateToTimestamp": "Tanggal ke timestamp",
         "localDateTime": "Tanggal & waktu lokal",
         "eG1700000000": "misalnya 1700000000",
-        "result": "Hasil"
+        "result": "Hasil",
+        "title": "Konverter Timestamp Unix",
+        "description": "Ubah timestamp Unix menjadi tanggal yang dapat dibaca manusia dan sebaliknya.",
+        "currentEpoch": "Waktu Unix Epoch Saat Ini",
+        "copy": "Salin",
+        "copied": "Tersalin!",
+        "tsToDate": "Timestamp ke Tanggal",
+        "enterTimestamp": "Masukkan Timestamp",
+        "gmtTime": "Waktu GMT",
+        "localTime": "Waktu Lokal Anda",
+        "invalidTimestamp": "Masukkan timestamp yang valid.",
+        "dateToTs": "Tanggal ke Timestamp",
+        "enterDate": "Masukkan Tanggal & Waktu",
+        "secondsLabel": "Timestamp (Detik)",
+        "msLabel": "Milidetik",
+        "invalidDate": "Masukkan tanggal yang valid."
       }
     },
     "url-encode-decode": {
@@ -1255,7 +1589,17 @@
         "5Cycles75h": "5 siklus (7,5 jam)",
         "6Cycles9h": "6 siklus (9 jam)",
         "readyForBed": "Siap Untuk Tidur",
-        "clickTheButtonWhenYouReG": "Klik tombol ketika Anda akan tidur"
+        "clickTheButtonWhenYouReG": "Klik tombol ketika Anda akan tidur",
+        "title": "Kalkulator Waktu Bangun",
+        "description": "Cari tahu kapan tepatnya Anda harus bangun agar merasa segar.",
+        "sleepNow": "Saya akan tidur sekarang juga",
+        "sleepAtTime": "Atau saya akan tidur jam",
+        "calculate": "Hitung Waktu",
+        "youShouldWakeUpAt": "Anda sebaiknya bangun jam",
+        "resultsDescription": "Waktu ini berdasarkan siklus 90 menit, termasuk 15 menit untuk tertidur.",
+        "cycles": "siklus",
+        "hours": "jam",
+        "optimal": "Optimal"
       }
     },
     "water-intake-calculator": {
@@ -1278,14 +1622,25 @@
       "description": "",
       "ui": {
         "weeksBetweenDates": "Minggu antara Dua Tanggal",
-        "startDate": "Tanggal mulai",
-        "endDate": "Tanggal akhir",
+        "startDate": "Tanggal Mulai",
+        "endDate": "Tanggal Selesai",
         "calculateWeeks": "Hitung minggu",
         "weeks": "Minggu",
         "days": "Hari",
         "copy": "Salin",
-        "reset": "Atur ulang",
-        "selectDatesToCalculate": "Pilih Tanggal Untuk Dihitung"
+        "reset": "Atur Ulang",
+        "selectDatesToCalculate": "Pilih kedua tanggal untuk menghitung selisih.",
+        "title": "Minggu di Antara Tanggal",
+        "description": "Hitung persis berapa minggu penuh dan sisa hari di antara dua tanggal.",
+        "includeEndDay": "Sertakan tanggal selesai (+1 hari)",
+        "includeEndDayDesc": "Menambahkan satu hari ekstra ke perhitungan.",
+        "totalWeeks": "Total Minggu",
+        "weeksLabel": "Minggu",
+        "fullWeeksLabel": "Minggu Penuh",
+        "extraDaysLabel": "Sisa Hari",
+        "equivalentTo": "Setara dengan",
+        "daysLabel": "Hari",
+        "endDateBeforeStart": "Catatan: Tanggal selesai sebelum tanggal mulai."
       }
     },
     "weight-converter": {
@@ -1294,7 +1649,9 @@
       "ui": {
         "weightConverter": "Konverter Berat",
         "from": "Dari",
-        "to": "Ke"
+        "to": "Ke",
+        "title": "Konverter Berat",
+        "description": "Konversi antara kilogram, pon, ons, gram, dan satuan berat lainnya."
       }
     },
     "word-counter": {
@@ -1329,7 +1686,14 @@
       "title": "Konverter Waktu Dunia",
       "description": "",
       "ui": {
-        "worldTimeConverter": "Konverter Waktu Dunia"
+        "worldTimeConverter": "Konverter Waktu Dunia",
+        "title": "Konverter Waktu Dunia",
+        "description": "Konversi waktu di berbagai zona waktu secara instan. Bandingkan waktu saat ini secara global atau pilih waktu tertentu.",
+        "liveTime": "Waktu Langsung",
+        "customTime": "Waktu Khusus",
+        "addZone": "Tambahkan Zona Waktu",
+        "remove": "Hapus",
+        "allZonesAdded": "Semua zona ditambahkan"
       }
     },
     "xml-formatter": {
@@ -1358,7 +1722,8 @@
   },
   "Search": {
     "placeholder": "Cari alat...",
-    "noResults": "Tidak ada alat yang ditemukan untuk “{query}”."
+    "noResults": "Tidak ada alat yang ditemukan untuk “{query}”.",
+    "tryADifferentSearchTermOr": "Coba istilah pencarian lain atau telusuri kategori di bawah ini."
   },
   "Home": {
     "metaTitle": "Alat Online Gratis & Kalkulator",
@@ -1730,14 +2095,17 @@
   "layout": {},
   "panels": {},
   "Page": {
-    "whatIs": "What is the {title}?​",
+    "whatIs": "Apa itu {title}?",
     "howToUse": "Cara menggunakan {title}",
     "example": "Contoh",
     "useCases": "Kasus Penggunaan Umum",
     "howItWorks": "Cara Kerjanya",
     "faq": "Pertanyaan yang Sering Diajukan",
     "readyToStart": "Siap untuk memulai?",
-    "useToolNow": "Gunakan Alat Sekarang"
+    "useToolNow": "Gunakan Alat Sekarang",
+    "resultInterpretation": "Memahami Hasil Anda",
+    "tipsAndLimitations": "Tips & Catatan Akurasi",
+    "disclaimer": "Penafian"
   },
   "Categories": {
     "developerTools": "Alat Pengembang",

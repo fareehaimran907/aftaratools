@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Çevrimiçi Hash Oluşturucu - MD5, SHA1, SHA256",
+  "metaDescription": "Ücretsiz çevrimiçi Hash Üreteci. Herhangi bir metin dizesinden MD5, SHA-1, SHA-256 ve SHA-512 dahil olmak üzere güvenli kriptografik hash'leri anında hesaplayın.",
+  "h1": "Hash Oluşturucu",
+  "primaryKeyword": "hash oluşturucu",
+  "secondaryKeywords": [
+    "çevrimiçi karma hesaplayıcı",
+    "hashlemek için dize",
+    "hash kodu oluştur",
+    "kriptografik özet"
+  ],
+  "slug": "hash-oluşturucu",
+  "intro": "Dosya bütünlüğünü mü doğruluyorsunuz yoksa verileri mi güvence altına alıyorsunuz? Hepsi bir arada Hash Üretecimiz, girdiğiniz herhangi bir metin için en popüler kriptografik hash fonksiyonlarını anında hesaplar.",
+  "whatIs": "Hash Üreteci, bir siber güvenlik ve geliştirici aracıdır. Herhangi bir uzunlukta bir girdi dizisini alır ve bunu sabit boyutlu bir karakter dizisi üretmek için matematiksel bir algoritmadan geçirir; bu diziler 'hash' veya 'özet' olarak bilinir.",
+  "howToUse": [
+    "Metninizi ana giriş alanına yazın veya yapıştırın.",
+    "Kullanmak istediğiniz belirli karma algoritmasını seçin (ör. SHA-256).",
+    "Araç metni anında işler ve onaltılık hash çıktısını gösterir.",
+    "Doğrulama ihtiyaçlarınız için hash'i kopyalayın."
+  ],
+  "howItWorks": "Araç, giriş metninizi işlemek için Web Crypto API'sini kullanır. Algoritma metni bloklara böler ve verileri karıştırmak için karmaşık bit düzeyinde işlemler gerçekleştirir. Girişteki tek bir harfi değiştirmek bile nihai çıktıyı tamamen değiştirir.",
+  "workedExample": "Şifre olarak 'password' kelimesini girersiniz. SHA-256 algoritmasını seçersiniz. Araç, 64 karakterlik bir onaltılık (hexadecimal) dize çıktılar: `5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8`.",
+  "resultInterpretation": "Hash, metniniz için benzersiz bir dijital 'parmak izi' olarak hizmet eder. Başka biri tam olarak aynı metni tam olarak aynı algoritma ile hashlerse, tam olarak aynı parmak izini elde eder.",
+  "useCases": [
+    "Veri Doğrulama: İndirilen büyük bir dosyanın veya metin dizisinin, transfer sırasında bozulmadığını veya değiştirilmediğini hash'i ile karşılaştırarak sağlama.",
+    "Veritabanı Tasarımı: Veritabanına kaydetmeden önce hassas verileri (örneğin güvenlik cevapları) gizlemek.",
+    "API Geliştirme: Gönderici doğruluğunu doğrulamak için güvenli webhook yükleri için özet değerleri oluşturma."
+  ],
+  "tipsAndLimitations": [
+    "Hashleme tek yönlü bir yoldur. Şifrelemenin aksine, bir hash'i orijinal metne geri 'çözüp' dönüştüremezsiniz.",
+    "MD5 ve SHA-1 kriptografik olarak kırılmış ve çakışma saldırılarına karşı savunmasız olarak kabul edilmektedir. Bunlar yalnızca temel dosya doğrulama için kullanılmalı, güvenlik için kullanılmamalıdır."
+  ],
+  "faq": [
+    {
+      "question": "Hashleme ile şifreleme arasındaki fark nedir?",
+      "answer": "Şifreleme iki yönlü bir işlemdir; veri bir anahtarla karıştırılır ve aynı anahtarla çözülebilir. Hashleme tek yönlü bir işlemdir; veri sabit uzunlukta bir dizeye karıştırılır ve matematiksel olarak tersine çevrilemez."
+    },
+    {
+      "question": "Hangi algoritma en güvenlidir?",
+      "answer": "Sağlanan standart algoritmalardan, SHA-256 ve SHA-512 şu anda oldukça güvenli olarak kabul edilmekte olup kriptografi ve blok zinciri teknolojisi için endüstri standardıdır."
+    }
+  ],
+  "relatedTools": [
+    "sha256-hash-generator",
+    "md5-hash-generator",
+    "bcrypt-generator"
+  ],
+  "cta": "Kriptografik özetleri anında oluşturun!",
+  "disclaimer": "Hesaplamalar Web Crypto API aracılığıyla yerel olarak gerçekleştirilir. MD5 ve SHA-1 algoritmaları modern güvenlik amaçları için değil, eski uyumluluk için sağlanır.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Birden fazla algoritmayı gösteren Hash Üreteci arayüzü",
+  "ogImageText": "Hash Oluşturucu"
+}

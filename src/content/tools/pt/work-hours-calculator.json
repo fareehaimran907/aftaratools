@@ -6,20 +6,21 @@
   "secondaryKeywords": [
     "Calculadora de horas de trabalho on-line",
     "Calculadora de horas de trabalho grátis",
+    "melhor calculadora de horas de trabalho",
     "melhor calculadora de horas de trabalho"
   ],
-  "slug": "calculadora de horas de trabalho",
-  "intro": "Adicione facilmente as horas do seu quadro de horários, incluindo intervalos.",
-  "whatIs": "O que é essa ferramenta?",
+  "slug": "calculadora-horas-trabalho",
+  "intro": "Gasta muito tempo a calcular manualmente os seus contracheques semanais ou a tentar descobrir se lhe devem horas extras? A nossa calculadora de horas de trabalho online gratuita elimina as dores de cabeça do acompanhamento do tempo. Seja você um freelancer faturando clientes por hora, um funcionário verificando o seu contracheque ou um gerente agendando um turno, esta ferramenta calcula com precisão o total de horas trabalhadas e o salário esperado. Ao inserir simplesmente as suas horas de início e fim juntamente com as pausas não remuneradas, a calculadora determina instantaneamente o seu tempo de trabalho exato até o último minuto. Simplifique a sua folha de pagamento, garanta um faturamento preciso e obtenha total transparência sobre os seus ganhos.",
+  "whatIs": "A calculadora de horas de trabalho é uma ferramenta abrangente de gestão de tempo e folha de pagamento projetada para calcular o tempo exato gasto no trabalho e o rendimento resultante. Ao contrário de relógios simples, esta ferramenta lida com a matemática complexa do formato de hora (horas e minutos) que tradicionalmente é entediante de calcular manualmente para a folha de pagamento. Você insere a hora de início e a hora de término para cada dia, especifica quaisquer pausas não remuneradas (como o almoço) e o sistema determina instantaneamente o total de horas líquidas trabalhadas. Se você fornecer uma taxa por hora, ele também funciona como um estimador de salário bruto, tornando fácil projetar ganhos ou criar faturas para um período de pagamento diário, semanal ou quinzenal.",
   "howToUse": [
     "Insira seu relógio no campo de entrada designado.",
     "Forneça quaisquer parâmetros secundários, como tempo de saída.",
     "Clique no botão calcular ou enviar para gerar o total de horas menos pausas não remuneradas.",
     "Copie ou revise a saída resultante de acordo com suas necessidades."
   ],
-  "howItWorks": "Como funciona",
-  "workedExample": "Exemplos",
-  "resultInterpretation": "Interpretação",
+  "howItWorks": "A ferramenta funciona traduzindo as entradas de tempo padrão do formato de 12 horas ou 24 horas para o tempo decimal necessário para cálculos de pagamento. Por exemplo, se você entrar às 8h00 e sair às 16h30, ela calculará as 8 horas e 30 minutos intervenientes. Se você detalhar um intervalo não remunerado de 30 minutos, ela o subtrai, resultando em exatamente 8 horas de tempo trabalhado. Estas 8 horas são então multiplicadas pela taxa por hora que você forneceu para estimar o salário bruto daquele dia. Para entradas de vários dias, a calculadora soma esses totais diários para fornecer as horas e os ganhos acumulados da semana ou do período de pagamento, garantindo que nenhum minuto seja esquecido.",
+  "workedExample": "Suponha que você seja um freelancer que fatura 25 USD por hora. Na segunda-feira, você começa a trabalhar às 9h, faz um almoço não remunerado de 45 minutos ao meio-dia e termina o trabalho às 17h15. Você insere esses horários na calculadora. A ferramenta calcula o tempo total entre 9h e 17h15 como 8 horas e 15 minutos. Em seguida, ele subtrai a pausa de 45 minutos, deixando exatamente 7 horas e 30 minutos de tempo faturável. Para o cálculo de ganhos, ele converte os 30 minutos no decimal de 0,5 hora. Ele então multiplica 7,5 horas por sua taxa de 25 USD, resultando num ganho total de 187,50 USD para aquele dia.",
+  "resultInterpretation": "Os resultados gerados pela calculadora geralmente exibem duas métricas principais: o tempo total de trabalho líquido (apresentado como horas e minutos e em formato decimal) e os seus ganhos brutos estimados. O formato de hora decimal (por exemplo, 7,5 horas em vez de 7 horas e 30 minutos) é crucial porque é o formato padrão usado pelos sistemas de folha de pagamento. Os ganhos brutos exibidos são o seu salário antes de impostos e deduções; representa o que você ganhou com base apenas na sua taxa por hora. Esses dados podem ser usados ​​diretamente para faturar clientes, cruzar os dados do seu contracheque oficial para detetar discrepâncias ou monitorizar o limite de horas extras.",
   "useCases": [
     "Faturamento autônomo",
     "Estimativa de folha de pagamento",
@@ -27,8 +28,7 @@
   ],
   "tipsAndLimitations": [
     "Não calcula impostos automaticamente.",
-    "Certifique-se de que suas entradas estejam formatadas corretamente para obter os melhores resultados.",
-    "A ferramenta é totalmente executada no lado do cliente, garantindo que seus dados permaneçam privados."
+    "Certifique-se de que suas entradas estejam formatadas corretamente para obter os melhores resultados."
   ],
   "faq": [
     {
@@ -38,17 +38,15 @@
     {
       "question": "Isso funciona no celular?",
       "answer": "Sim, é totalmente responsivo e funciona em todos os dispositivos."
-    },
-    {
-      "question": "Preciso baixar alguma coisa?",
-      "answer": "Não, funciona totalmente no seu navegador sem qualquer instalação."
     }
   ],
   "relatedTools": [
-    "calculadora de idade",
-    "calculadora de diferença de data",
-    "dias entre datas"
+    "overtime-calculator",
+    "tax-calculator",
+    "roi-calculator"
   ],
+  "cta": "Calcule suas horas de trabalho semanais agora!",
+  "disclaimer": "Esta ferramenta calcula estritamente o tempo decorrido menos os intervalos. Consulte as leis trabalhistas locais sobre intervalos obrigatórios pagos versus períodos de refeição não remunerados.",
   "lastReviewed": "2026-09-30",
   "imageAlt": "Calculadora de horas de trabalho",
   "ogImageText": "Calculadora de horas de trabalho"

@@ -1,55 +1,61 @@
 {
-  "seoTitle": "Unix Zaman Damgası Dönüştürücü",
-  "metaDescription": "Unix zaman damgalarını okunabilir tarihlere (veya tam tersi) dönüştürün.",
+  "seoTitle": "Unix Zaman Damgası Dönüştürücü - Epoch'tan Tarihe",
+  "metaDescription": "Unix zaman damgalarını kolayca okunabilir tarihlere veya tam tersine dönüştürün. Mevcut Epoch zamanını anında görün.",
   "h1": "Unix Zaman Damgası Dönüştürücü",
-  "primaryKeyword": "Unix zaman damgası dönüştürücü",
+  "primaryKeyword": "unix zaman damgası dönüştürücü",
   "secondaryKeywords": [
-    "Unix Zaman Damgası Dönüştürücü çevrimiçi",
-    "ücretsiz Unix Zaman Damgası Dönüştürücü",
-    "en iyi Unix Zaman Damgası Dönüştürücü"
+    "epoch'tan tarihe",
+    "zaman damgasını tarihe çevir",
+    "mevcut unix zamanı",
+    "çevrimiçi zaman damgası dönüştürücü"
   ],
-  "slug": "unix-zaman damgası-dönüştürücü",
-  "intro": "Unix Epoch'tan bu yana geçen saniyeleri veya milisaniyeleri anında insan tarafından okunabilir bir formata dönüştürün.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "unix-zaman-damgasi-cevirici",
+  "intro": "Tarihler yerine uzun sayısal değerler gösteren sistem günlükleri, veritabanları veya API'lerle mi uğraşıyorsunuz? Bu değerler büyük ihtimalle Unix zaman damgalarıdır. Unix Zaman Damgası Dönüştürücümüz, bu şifreli sayıları anında insan tarafından okunabilen tarihlere ve saatlere veya tam tersine çevirmenize olanak tanır. İster günlüklerin hatalarını ayıklayan bir geliştirici, ister veri kümelerini temizleyen bir veri analisti veya olayları izleyen bir sistem yöneticisi olun, bu araç karmaşık manuel hesaplamalara olan ihtiyacı ortadan kaldırır ve milisaniyeler içinde garantili doğruluk sağlar. Basit ve anlaşılır arayüzü sayesinde herhangi bir saati zaman damgasına veya herhangi bir zaman damgasını zahmetsizce yerel saate dönüştürebilirsiniz.",
+  "whatIs": "Unix Zaman Damgası Dönüştürücü, bilişimde zamanı temsil etmenin yaygın bir yöntemi olan Unix zaman damgaları ile standart, insan tarafından okunabilen tarih ve saat biçimleri arasında çeviri yapmak için tasarlanmış dijital bir araçtır. Unix zaman damgası (Epoch zamanı veya POSIX zamanı olarak da bilinir), artık saniyeleri saymadan 1 Ocak 1970 gece yarısı Eşgüdümlü Evrensel Zaman'dan (UTC) bu yana geçen saniye sayısıdır. Bilgisayarlar sayıları karmaşık metin dizelerinden çok daha verimli bir şekilde işlediğinden, bu format işletim sistemlerinde (Linux ve macOS gibi), programlama dillerinde ve veritabanı depolamasında yaygın olarak kullanılır. Aracımız bir köprü görevi görerek bu ham sayıların şifresini günlük tarihlere çözmenize veya tarihleri ​​teknik sistemlerde kullanmak üzere zaman damgalarına kodlamanıza olanak tanır.",
   "howToUse": [
-    "UNIX zaman damganızı belirlenen giriş alanına girin.",
-    "İnsanların okuyabileceği tarih gibi ikincil parametreleri sağlayın.",
-    "Yerel ve UTC tarih-saat eşdeğerlerini oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Sayıyı 'Zaman Damgasından Tarihe' kutusuna yazın veya yapıştırın.",
+    "Tarih dönüştürmek için 'Tarihten Zaman Damgasına' kutusunu kullanın.",
+    "Araç saniye ve milisaniyeyi otomatik olarak algılar.",
+    "Giriş alanına zaman damganızı girin veya geçerli saati kullanın.",
+    "Anında sonucu görmek için Dönüştür düğmesine basın."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Araç, standart başlangıç ​​noktasına (1 Ocak 1970) dayalı hassas matematiksel hesaplamalar yapmak için tarayıcınızın yerleşik tarih ve saat işleme işlevlerini kullanarak çalışır. Bir zaman damgası girdiğinizde, dönüştürücü bunu 1000 ile çarpar (saniyeleri milisaniyeye dönüştürmek için, ki bu JavaScript gibi modern programlama dillerinin çoğu için standarttır) ve ardından bu değere karşılık gelen tam tarih ve saati hesaplar. Tersine, insan tarafından okunabilen bir tarih ve saat girdiğinizde, bir zaman damgası oluşturmak için Epoch'tan bu yana geçen saniye sayısını hesaplar. Tüm bu işlemler tarayıcınızda yerel olarak gerçekleştirilerek hiçbir sunucuya veri göndermeye gerek kalmadan tam gizlilik ve anında dönüştürme hızı sağlanır.",
+  "workedExample": "Bir günlük dosyasına baktığınızı ve '1672531200' zaman damgasıyla karşılaştığınızı varsayalım. Bu olayın ne zaman gerçekleştiğini öğrenmek için numarayı dönüştürücümüze giriyorsunuz. Araç anında değeri işler ve sonucu görüntüler: '1 Ocak 2023, 12:00:00 AM UTC'. Tarayıcınız Doğu Standart Saati'ne (UTC-5) ayarlanmışsa, size yerel saatinizi de gösterecektir: '31 Aralık 2022, 7:00:00 PM'. Ters bir senaryoda, 15 Nisan 2024'ten sonra meydana gelen olaylar için bir veritabanını sorgulamanız gerekirse, bu tarihi araca girerek daha sonra veritabanı sorgunuzda kullanabileceğiniz '1713139200' zaman damgasını alabilirsiniz.",
+  "resultInterpretation": "Sonuçları yorumlamak basittir ancak saat dilimine dikkat etmeyi gerektirir. Dönüştürücü, tüm Unix zaman damgaları için mutlak standart olan dönüştürülmüş tarih ve saati her zaman UTC (Eşgüdümlü Evrensel Zaman) olarak görüntüler. Ayrıca tarayıcınız tarafından algılanan yerel saat diliminizde dönüştürülen saati görüntüleyecektir. Bu, dünyanın farklı yerlerindeki sunucularla veya meslektaşlarla koordinasyon sağlarken kafa karışıklığını önler. Bir tarihten zaman damgasına dönüştürülüyorsa sonuç, saniyeleri temsil eden bir tamsayıdır. 32 bit sistemlerin zaman damgalarını yalnızca Ocak 2038'e kadar işleyebildiğini unutmayın; bu tarihten sonraki zaman damgalarının düzgün şekilde işlenmesi için modern 64 bit sistemler gerekecektir.",
   "useCases": [
-    "Veritabanında hata ayıklama",
-    "API entegrasyonu",
-    "Hareket halindeyken UNIX zaman damgasını hızla işleme"
+    "Veritabanı Hata Ayıklama: MySQL'deki zaman damgalarını çevirme.",
+    "API Geliştirme: Epoch kullanan JSON verilerini doğrulama.",
+    "Günlük (Log) Analizi: Sunucu günlüklerini okuma.",
+    "Sunucu günlük hatalarını ayıklama: günlük dosyalarındaki zaman damgalarını hızla okunabilir tarihlere dönüştürün."
   ],
   "tipsAndLimitations": [
-    "Zaman damgasının milisaniye değil saniye cinsinden olduğundan emin olun.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Araç, saniye (10 hane) ve milisaniye (13 hane) cinsinden zaman damgalarını güvenle işler.",
+    "Bu araç, Unix zaman damgalarını saniye cinsinden işler. Zaman damganız milisaniye cinsindeyse, önce 1000'e bölün.",
+    "Desteklenen aralık tipik olarak 1 Ocak 1970'ten 19 Ocak 2038'e kadardır (32-bit sistemler için). Modern sistemler çok daha geniş bir aralığı destekler."
   ],
   "faq": [
     {
-      "question": "Unix Zaman Damgası Dönüştürücüsünün kullanımı ücretsiz midir?",
-      "answer": "Evet, Unix Zaman Damgası Dönüştürücümüzün kullanımı tamamen ücretsizdir."
+      "question": "2038 Yılı Problemi Nedir?",
+      "answer": "32 bit sistemler 2038'de zaman damgasını depolamak için alan sıkıntısı çekecek. Bu araç 64 bit sayılar kullandığından bu sorundan etkilenmez."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
+      "question": "Bir Unix zaman damgasının maksimum değeri nedir?",
+      "answer": "32-bit sistemlerde maksimum 2.147.483.647'dir (19 Ocak 2038). 64-bit sistemlerde, aralık gelecekte milyarlarca yıla kadar uzanır."
     },
     {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Bu araç saat dilimlerini dikkate alıyor mu?",
+      "answer": "Unix zaman damgaları her zaman UTC cinsindendir. Araç, varsayılan olarak UTC'ye dönüştürülmüş tarih ve saati görüntüler ve ihtiyacınıza göre saat dilimini ayarlayabilirsiniz."
     }
   ],
   "relatedTools": [
-    "yaş hesaplayıcı",
-    "tarih farkı-hesaplayıcı",
-    "tarihler arasındaki günler"
+    "world-time-converter",
+    "time-zone-converter",
+    "time-difference-calculator",
+    "base64-encode-decode"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Unix Zaman Damgası Dönüştürücü",
+  "cta": "Unix zaman damganızı hemen dönüştürün!",
+  "disclaimer": "Yerel saat dönüşümleri, cihazınızın doğru saat dilimi yapılandırmasına bağlıdır.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Unix Zaman Damgası Dönüştürücü ekran görüntüsü",
   "ogImageText": "Unix Zaman Damgası Dönüştürücü"
 }

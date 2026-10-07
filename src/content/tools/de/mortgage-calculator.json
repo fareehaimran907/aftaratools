@@ -1,55 +1,65 @@
 {
-  "seoTitle": "Hypothekenrechner",
-  "metaDescription": "Berechnen Sie die monatlichen Hypothekenzahlungen.",
+  "seoTitle": "Hypothekenrechner - Monatliche Hauskredit-Raten berechnen",
+  "metaDescription": "Kostenloser Hypothekenrechner. Berechnen Sie Ihre monatlichen Hauskredit-Raten inklusive Tilgung und Zinsen basierend auf Kaufpreis, Eigenkapital und Zinssatz.",
   "h1": "Hypothekenrechner",
   "primaryKeyword": "Hypothekenrechner",
   "secondaryKeywords": [
-    "Hypothekenrechner online",
-    "kostenloser Hypothekenrechner",
-    "bester Hypothekenrechner"
+    "Baufinanzierungsrechner",
+    "monatliche Hypothekenrate",
+    "Hauskredit Rechner",
+    "Tilgungsrechner"
   ],
-  "slug": "Hypothekenrechner",
-  "intro": "Berechnen Sie Ihre monatlichen Hypothekenzahlungen einschließlich Kapital und Zinsen.",
-  "whatIs": "Was ist das für ein Werkzeug?",
+  "slug": "hypothekenrechner",
+  "intro": "Ein Hauskauf ist voraussichtlich die größte finanzielle Verpflichtung Ihres Lebens. Unser kostenloser Hypothekenrechner zeigt Ihnen genau, wie diese Verpflichtung monatlich aussieht. Geben Sie Kaufpreis, Eigenkapital, Zinssatz und Laufzeit ein — und sehen Sie sofort Ihre geschätzte Monatsrate sowie die Gesamtkosten Ihres Darlehens.",
+  "whatIs": "Ein Hypothekenrechner ist ein spezialisiertes Finanzplanungstool, das die Monatsrate für ein Wohnungsbaudarlehen berechnet. Es nimmt vier Eingaben — Kaufpreis, Eigenkapital, Jahreszinssatz und Laufzeit — und berechnet mithilfe der Tilgungsformel die gleichbleibende Monatsrate, die das Darlehen bis zum Ende vollständig abbezahlt.",
   "howToUse": [
-    "Geben Sie Ihren Hauspreis in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie die Anzahlung an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um monatliche Kapital- und Zinszahlungen zu generieren.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
+    "Geben Sie den Kaufpreis der Immobilie ein.",
+    "Geben Sie Ihr Eigenkapital ein — den Betrag, den Sie als Anzahlung leisten.",
+    "Geben Sie den Jahreszinssatz Ihres Kreditangebots ein.",
+    "Legen Sie die Kreditlaufzeit in Jahren fest (z. B. 15 oder 30 Jahre).",
+    "Klicken Sie auf 'Hypothek berechnen'."
   ],
-  "howItWorks": "Wie es funktioniert",
-  "workedExample": "Beispiele",
-  "resultInterpretation": "Interpretation",
+  "howItWorks": "Der Rechner zieht das Eigenkapital vom Kaufpreis ab, um den Kreditbetrag zu ermitteln, und wendet dann die Tilgungsformel an: M = P[r(1+r)^n] / [(1+r)^n - 1].",
+  "workedExample": "Sie möchten eine Immobilie für 300.000 € kaufen und können 60.000 € (20%) ansparen. Ihr Darlehensbetrag beträgt 240.000 €. Bei einem Zinssatz von 4,5% und einer Laufzeit von 30 Jahren ergibt sich eine Monatsrate von 1.216,04 €. Über 30 Jahre zahlen Sie insgesamt 437.773,86 €, davon 197.773,86 € Zinsen.",
+  "resultInterpretation": "Die Monatsrate zeigt nur Tilgung und Zinsen. Ihr tatsächlicher Monatsbeitrag an den Kreditgeber wird höher sein, da Grundsteuer und Versicherung hinzukommen. Der Kreditbetrag ist das tatsächlich geliehene Geld. Gesamtzinsen sind die Finanzierungskosten. Gesamtkosten sind Kapital plus alle Zinsen.",
   "useCases": [
-    "Wohnungssuche",
-    "Refinanzierungsanalyse",
-    "Schnelle Bearbeitung des Immobilienpreises von unterwegs"
+    "Hauskauf: Legen Sie ein realistisches Budget fest.",
+    "Umschuldung: Vergleichen Sie Ihren aktuellen Zinssatz mit aktuellen Angeboten.",
+    "Eigenkapitalplanung: Testen Sie verschiedene Eigenkapitalhöhen.",
+    "Laufzeitvergleich: Vergleichen Sie 15-jährige vs. 30-jährige Hypotheken."
   ],
   "tipsAndLimitations": [
-    "Grundsteuern und HOA-Gebühren müssen separat hinzugefügt werden.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten vertraulich bleiben."
+    "Der Rechner liefert nur den Tilgungs- und Zinsanteil. Ihr tatsächlicher Monatsbetrag wird durch Grundsteuer und Versicherung erhöht.",
+    "Bei einem Eigenkapitalanteil unter 20% kann eine Kreditausfallversicherung erforderlich sein.",
+    "Kürzere Laufzeiten (15 Jahre) haben höhere Monatsraten, aber wesentlich niedrigere Gesamtzinsen."
   ],
   "faq": [
     {
-      "question": "Ist die Nutzung des Hypothekenrechners kostenlos?",
-      "answer": "Ja, die Nutzung unseres Hypothekenrechners ist völlig kostenlos."
+      "question": "Was ist ein Tilgungsplan?",
+      "answer": "Ein Tilgungsplan ist eine detaillierte Tabelle, die jede monatliche Zahlung für die Laufzeit des Darlehens zeigt und aufzeigt, wie viel jeder Zahlung auf Zinsen und Tilgung entfällt."
     },
     {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, es reagiert vollständig und funktioniert auf allen Geräten."
+      "question": "Berechnet dies meine genaue Monatsrate?",
+      "answer": "Es berechnet den Tilgungs- und Zinsanteil genau. Ihre tatsächliche monatliche Rechnung des Kreditgebers enthält in der Regel noch Grundsteuer und Versicherung."
     },
     {
-      "question": "Muss ich etwas herunterladen?",
-      "answer": "Nein, es funktioniert vollständig in Ihrem Browser und erfordert keine Installation."
+      "question": "Was passiert, wenn ich Sondertilgungen leiste?",
+      "answer": "Sondertilgungen reduzieren direkt das Restkapital und verringern damit die Zinslast in den Folgemonaten, was die Laufzeit erheblich verkürzen kann."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Festzins und variablem Zins?",
+      "answer": "Ein Festzinshypothek hat den gleichen Zinssatz und die gleiche Zahlung für die gesamte Laufzeit. Eine variabel verzinsliche Hypothek beginnt mit einem niedrigeren Zinssatz, der sich periodisch ändern kann."
     }
   ],
   "relatedTools": [
-    "Prozentrechner",
-    "Gehaltsrechner",
-    "Rabattrechner"
+    "loan-calculator",
+    "emi-calculator",
+    "compound-interest-calculator",
+    "investment-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Hypothekenrechner",
+  "cta": "Berechnen Sie jetzt Ihre geschätzte Hypothekenrate und planen Sie Ihren Hauskauf mit Zuversicht!",
+  "disclaimer": "Dieses Tool liefert Schätzungen nur zu Bildungszwecken. Tatsächliche Hypothekenkonditionen, Zinssätze, Steuern und Versicherungskosten variieren. Konsultieren Sie vor dem Hauskauf einen zugelassenen Hypothekenberater.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Hypothekenrechner mit Monatsrate, Kreditbetrag, Gesamtzinsen und Gesamtkosten",
   "ogImageText": "Hypothekenrechner"
 }

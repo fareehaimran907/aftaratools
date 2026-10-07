@@ -1,55 +1,71 @@
 {
-  "seoTitle": "JSON-formatter",
-  "metaDescription": "Gratis online JSON-formatter. Formatteer, valideer en verfraai JSON-gegevens.",
-  "h1": "JSON-formatter",
-  "primaryKeyword": "json-formatter",
+  "seoTitle": "Gratis Online JSON Formatter | JSON Valideren & Opmaak",
+  "metaDescription": "Formatteer, valideer en verfraai uw JSON-data eenvoudig met onze gratis online JSON Formatter. Los syntaxisfouten op in uw browser.",
+  "h1": "Gratis Online JSON Formatter",
+  "primaryKeyword": "json-formatteerder",
   "secondaryKeywords": [
-    "json-formatter online",
-    "gratis json-formatter",
-    "beste json-formatter"
+    "json-validator",
+    "json beautifier",
+    "json parser",
+    "json-minimaliseerder",
+    "online json opmaak"
   ],
   "slug": "json-formatter",
-  "intro": "Gebruik onze gratis online JSON Formatter-tool. Het verfraait JSON-tekenreeksen op basis van uw invoer.",
-  "whatIs": "De JSON Formatter is een online hulpprogramma dat JSON-strings verfraait. Het verwerkt uw onbewerkte JSON-tekenreeks en biedt correct ingesprongen en syntaxisgemarkeerde JSON.",
+  "intro": "Werken met onopgemaakte JSON-data kan frustrerend zijn. Onze gratis JSON Formatter maakt het eenvoudig om uw JSON-strings direct te verfraaien, te valideren en te parseren. Of u nu een API-respons debugt of configuratiebestanden schrijft, deze tool formatteert de gegevens en markeert fouten.",
+  "whatIs": "Een JSON Formatter is een tool die onopgemaakte JSON-gegevens omzet in een leesbaar formaat. Machines sturen JSON vaak als één lange string zonder witruimtes om bandbreedte te besparen. De formatter voegt inspringing en regeleindes toe, waardoor er een boomstructuur ontstaat die leesbaar is.",
   "howToUse": [
-    "Voer uw onbewerkte JSON-tekenreeks in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals inspringvoorkeur.",
-    "Klik op de knop Berekenen of Verzenden om correct ingesprongen en syntaxisgemarkeerde JSON te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Plak uw onbewerkte JSON in het linkerinvoerveld.",
+    "Klik op 'Formatteren' om de code te verfraaien.",
+    "Als er syntaxisfouten zijn, toont de tool deze direct.",
+    "Om de JSON tot één regel te comprimeren, klikt u op 'Verkleinen'.",
+    "Kopieer het resultaat naar uw klembord."
   ],
-  "howItWorks": "Deze tool werkt in uw browser door standaardalgoritmen toe te passen op uw onbewerkte JSON-string. Het verwerkt de gegevens onmiddellijk om correct ingesprongen en syntaxisgemarkeerde JSON uit te voeren.",
-  "workedExample": "Bijvoorbeeld: Converteert `{\"a\":1}` naar een tekenreeks van meerdere regels met spaties.",
-  "resultInterpretation": "Het resultaat vertegenwoordigt correct ingesprongen en syntaxisgemarkeerde JSON. U kunt deze gegevens gebruiken voor uw specifieke berekeningen of opmaakbehoeften.",
+  "howItWorks": "De tool werkt volledig lokaal in uw browser met JavaScript-API's. Het parseert uw string via `JSON.parse()`. Bij succes wordt de string opgemaakt met een inspringing van 2 spaties via `JSON.stringify()`. Omdat alles lokaal werkt, zijn uw gegevens veilig.",
+  "workedExample": "Een API-respons als `{\"user\":{\"id\":101,\"name\":\"John\",\"active\":true}}` is lastig te lezen. Met de JSON Formatter krijgt het duidelijke inspringingen per regel.",
+  "resultInterpretation": "De opgemaakte uitvoer toont uw JSON-gegevens met standaard inspringing. Dit maakt het heel makkelijk om ontbrekende komma's of onjuiste datatypes te spotten.",
   "useCases": [
-    "Foutopsporing in API-reacties",
-    "Configuratiebestanden lezen",
-    "Onderweg snel ruwe JSON-tekenreeks verwerken"
+    "API-responses debuggen: Formatteer complexe JSON-gegevens om de structuur te begrijpen.",
+    "Configuratiebestanden: Controleer package.json voordat u het opslaat.",
+    "Data verkleinen: Comprimeer JSON-gegevens voordat u deze via het netwerk verzendt.",
+    "Fouten oplossen: Vind precies waar een aanhalingsteken ontbreekt."
   ],
   "tipsAndLimitations": [
-    "Ongeldige JSON veroorzaakt een syntaxisfout.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "JSON-sleutels moeten altijd tussen dubbele aanhalingstekens staan.",
+    "Een komma na het laatste item in een lijst is niet toegestaan.",
+    "Grote JSON-bestanden (meer dan 50MB) kunnen uw browser vertragen.",
+    "Commentaar (zoals //) wordt niet ondersteund in JSON."
   ],
   "faq": [
     {
-      "question": "Worden mijn gegevens naar een server verzonden?",
-      "answer": "Nee, alle opmaak gebeurt veilig in uw lokale browser."
+      "question": "Worden mijn gegevens naar een server gestuurd?",
+      "answer": "Nee, absoluut niet. Alles gebeurt lokaal in uw browser."
     },
     {
-      "question": "Is de JSON Formatter gratis te gebruiken?",
-      "answer": "Ja, onze JSON Formatter is volledig gratis en vereist geen registratie."
+      "question": "Wat is het verschil tussen JSON en JavaScript-objecten?",
+      "answer": "JSON is veel strikter. In JSON moeten alle sleutels in dubbele aanhalingstekens staan."
     },
     {
-      "question": "Werkt dit op mobiele apparaten?",
-      "answer": "Ja, de tool is volledig responsive en functioneert perfect op alle smartphones en tablets."
+      "question": "Hoe los ik een 'Ongeldige JSON' fout op?",
+      "answer": "Controleer op ontbrekende komma's, aanhalingstekens, of overtollige komma's aan het einde."
+    },
+    {
+      "question": "Kan deze tool JSON comprimeren (verkleinen)?",
+      "answer": "Ja! Plak uw JSON en klik op 'Verkleinen'."
+    },
+    {
+      "question": "Kan ik JSON met commentaar gebruiken?",
+      "answer": "Nee, de standaard JSON-specificatie ondersteunt geen commentaar."
     }
   ],
   "relatedTools": [
-    "base64-codering-decodering",
-    "url-codering-decodering",
-    "html-coderen-decoderen"
+    "base64-encode-decode",
+    "url-encode-decode",
+    "html-encode-decode",
+    "character-counter"
   ],
-  "lastReviewed": "29-09-2026",
-  "imageAlt": "Schermafbeelding van de JSON Formatter-interface",
-  "ogImageText": "JSON-formatter"
+  "cta": "Stop met zoeken in onleesbare data. Plak uw code in onze JSON Formatter en maak uw JSON weer overzichtelijk.",
+  "disclaimer": "Deze tool is bedoeld als hulpmiddel voor ontwikkelaars. Plak echter nooit gevoelige bedrijfsgeheimen in online tools.",
+  "lastReviewed": "2026-10-01",
+  "imageAlt": "JSON Formatter interface",
+  "ogImageText": "JSON Formatter & Validator"
 }

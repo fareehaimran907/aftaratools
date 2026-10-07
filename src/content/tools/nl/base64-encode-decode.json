@@ -8,7 +8,7 @@
     "gratis base64-encoder/decoder",
     "beste base64-encoder/decoder"
   ],
-  "slug": "base64-codering-decodering",
+  "slug": "base64-encoder",
   "intro": "Gebruik onze gratis online Base64 Encoder/Decoder-tool. Het vertaalt tekst naar het Base64-formaat op basis van uw invoer.",
   "whatIs": "De Base64 Encoder/Decoder is een online hulpprogramma dat tekst naar Base64-formaat vertaalt. Het verwerkt uw platte tekst en levert de gecodeerde of gedecodeerde string.",
   "howToUse": [
@@ -45,10 +45,12 @@
     }
   ],
   "relatedTools": [
-    "json-formatter",
-    "url-codering-decodering",
-    "html-coderen-decoderen"
+    "url-encode-decode",
+    "html-encode-decode",
+    "hex-to-decimal"
   ],
+  "cta": "Codeer of decodeer nu uw gegevens!",
+  "disclaimer": "Het hulpmiddel verwerkt gegevens lokaal in de browser met behulp van de btoa() en atob() functies. Gebruik Base64 niet als vervanging voor veilige encryptie.",
   "lastReviewed": "29-09-2026",
   "imageAlt": "Schermafbeelding van Base64-encoder/decoder-interface",
   "ogImageText": "Base64-encoder/decoder"

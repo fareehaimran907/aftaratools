@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Pengecil HTML",
-  "metaDescription": "Pengecil HTML online gratis. Kompres kode HTML.",
-  "h1": "Pengecil HTML",
-  "primaryKeyword": "pengubah html",
+  "seoTitle": "Minifier HTML Online - Kompres Kode HTML",
+  "metaDescription": "Minifier HTML online gratis. Kompres kode HTML Anda dengan menghapus spasi, komentar, dan pemisah baris untuk meningkatkan kecepatan muat situs web dan SEO.",
+  "h1": "Pemampat HTML",
+  "primaryKeyword": "pengompress HTML",
   "secondaryKeywords": [
-    "pengubah html online",
-    "minifier html gratis",
-    "minifier html terbaik"
+    "kompres html",
+    "kompresor html online",
+    "memperkecil kode html",
+    "mengurangi ukuran file html"
   ],
-  "slug": "html-minifier",
-  "intro": "Gunakan alat Pengecil HTML online gratis kami. Ini memampatkan kode HTML berdasarkan masukan Anda.",
-  "whatIs": "HTML Minifier adalah utilitas online yang mengompresi kode HTML. Ini memproses HTML mentah Anda dan menyediakan HTML tanpa spasi atau komentar.",
+  "slug": "peminifikasi-html",
+  "intro": "Ingin meningkatkan skor kecepatan halaman situs web Anda? HTML Minifier gratis kami menghapus karakter yang tidak perlu dari kode Anda, secara drastis mengurangi ukuran file tanpa mengubah tampilan halaman.",
+  "whatIs": "HTML Minifier adalah alat pengembang web yang mengompres kode HTML mentah. Alat ini dengan aman menghapus elemen pemformatan yang dapat dibaca manusia seperti spasi, tab, pemisah baris, dan komentar untuk mengoptimalkan file agar lebih cepat diurai oleh browser.",
   "howToUse": [
-    "Masukkan HTML mentah Anda ke kolom input yang ditentukan.",
-    "Berikan parameter sekunder apa pun seperti HTML yang diperkecil.",
-    "Klik tombol hitung atau kirim untuk menghasilkan HTML tanpa spasi atau komentar.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Tempel kode HTML mentah dan terformat Anda ke dalam area input.",
+    "Klik tombol 'Minify'.",
+    "Alat ini langsung menghasilkan blok HTML yang padat dan terkompresi.",
+    "Salin kode yang telah diperkecil dan tempelkan ke lingkungan produksi Anda."
   ],
-  "howItWorks": "Alat ini beroperasi di browser Anda dengan menerapkan algoritma standar pada HTML mentah Anda. Itu langsung memproses data untuk menghasilkan HTML tanpa spasi atau komentar.",
-  "workedExample": "Misalnya: Mengubah HTML multi-baris menjadi satu string panjang.",
-  "resultInterpretation": "Hasilnya mewakili HTML tanpa spasi atau komentar. Anda dapat menggunakan data ini untuk perhitungan spesifik atau kebutuhan pemformatan Anda.",
+  "howItWorks": "Alat ini menggunakan Ekspresi Reguler JavaScript untuk dengan aman menemukan dan menghapus komentar HTML `<!-- comment -->`, mengganti beberapa spasi berturut-turut dengan satu spasi, dan menghapus baris kosong sepenuhnya atau pemisah baris di antara tag HTML.",
+  "workedExample": "Menu navigasi sepanjang 15 baris yang diisi dengan tab dan spasi dimasukkan ke dalam alat tersebut. Alat itu menghasilkan satu baris tunggal yang berkelanjutan: `<nav><ul><li><a href='#'>Home</a></li></ul></nav>`, menghemat 30% ukuran file.",
+  "resultInterpretation": "Kode yang dihasilkan sangat sulit dibaca oleh manusia tetapi sempurna untuk mesin. Ukuran file yang lebih kecil langsung berbanding lurus dengan waktu unduh yang lebih cepat bagi pengguna Anda.",
   "useCases": [
-    "Mengoptimalkan kecepatan memuat situs web",
-    "Menyebarkan kode produksi",
-    "Memproses HTML mentah dengan cepat saat bepergian"
+    "Penyebaran Web: Mempersiapkan file HTML statis sebelum mengunggahnya ke server langsung untuk menghemat bandwidth.",
+    "Optimasi SEO: Meningkatkan Core Web Vitals dan skor Google PageSpeed Insights dengan mengurangi 'Time to First Byte' (TTFB).",
+    "Pemasaran Email: Memperkecil template email HTML sehingga mereka dimuat dengan instan dan terhindar dari pemotongan oleh klien email seperti Gmail."
   ],
   "tipsAndLimitations": [
-    "Kode yang diperkecil sangat sulit dibaca manusia.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "Selalu simpan versi kode Anda yang belum diminifikasi untuk pengeditan di masa depan. Setelah HTML diminifikasi, sangat merepotkan untuk mengedit secara manual.",
+    "Hati-hati jika HTML Anda bergantung pada spasi putih antara tag `<span>` atau `<a>` untuk jarak visual, karena minifikasi yang agresif mungkin akan menghapus spasi tersebut."
   ],
   "faq": [
     {
-      "question": "Apakah ini mengubah tampilan halaman?",
-      "answer": "Tidak, browser mengabaikan spasi yang dihapus."
+      "question": "Apakah meminimalkan HTML mengubah situs web?",
+      "answer": "Tidak. Peramban tetap mengabaikan spasi tambahan dan komentar ketika menampilkan halaman secara visual. Minifikasi hanya menghapus karakter tersebut sebelum peramban harus mengunduhnya."
     },
     {
-      "question": "Apakah HTML Minifier gratis untuk digunakan?",
-      "answer": "Ya, HTML Minifier kami sepenuhnya gratis dan tidak memerlukan registrasi."
-    },
-    {
-      "question": "Apakah ini berfungsi pada perangkat seluler?",
-      "answer": "Ya, alat ini sepenuhnya responsif dan berfungsi sempurna di semua ponsel cerdas dan tablet."
+      "question": "Berapa banyak ruang yang dihemat dengan memperkecil ukuran?",
+      "answer": "Tergantung pada seberapa banyak format yang digunakan dalam kode asli Anda, minifying dapat mengurangi ukuran file HTML sebesar 10% hingga 30%."
     }
   ],
   "relatedTools": [
-    "json-formatter",
-    "base64-encode-decode",
-    "url-encode-decode"
+    "css-minifier",
+    "js-minifier",
+    "html-encode-decode"
   ],
-  "lastReviewed": "29-09-2026",
-  "imageAlt": "Tangkapan layar antarmuka HTML Minifier",
-  "ogImageText": "Pengecil HTML"
+  "cta": "Perkecil HTML Anda secara instan!",
+  "disclaimer": "Alat ini melakukan minifikasi standar berbasis regex. Selalu uji kode yang telah diminifikasi di lingkungan staging untuk memastikan tidak ada spasi format penting yang hilang.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Alat Minifier HTML menampilkan kode yang dikompres",
+  "ogImageText": "Pemampat HTML"
 }

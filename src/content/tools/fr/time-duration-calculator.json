@@ -1,55 +1,60 @@
 {
-  "seoTitle": "Calculateur de durée",
-  "metaDescription": "Calculez la durée exacte entre deux fois.",
-  "h1": "Calculateur de durée",
+  "seoTitle": "Calculateur de Durée - Calculez le Temps Écoulé",
+  "metaDescription": "Calculez facilement la durée entre deux heures en heures et minutes. Ce calculateur gère les croisements de minuit et les heures décimales pour la paie.",
+  "h1": "Calculateur de Durée",
   "primaryKeyword": "calculateur de durée",
   "secondaryKeywords": [
-    "Calculateur de durée en ligne",
-    "Calculateur de durée gratuit",
-    "meilleur calculateur de durée"
+    "calculer le temps écoulé",
+    "temps écoulé entre deux heures",
+    "calculateur d'heures et de minutes"
   ],
-  "slug": "calculateur temps-durée",
-  "intro": "Recherchez les heures et les minutes exactes entre une heure de début et une heure de fin.",
-  "whatIs": "Quel est cet outil ?",
+  "slug": "calculateur-duree",
+  "intro": "Besoin de calculer rapidement le temps exact passé sur une tâche ? Le Calculateur de Durée mesure instantanément les heures et les minutes écoulées entre une heure de début et une heure de fin. Que vous suiviez les heures facturables pour des clients, remplissiez une feuille de temps hebdomadaire, surveilliez des sessions d'étude ou calculiez des durées de voyage, cet outil simple mais puissant garantit que vous n'aurez plus jamais à faire de calculs mentaux fastidieux.",
+  "whatIs": "Le Calculateur de Durée est un utilitaire en ligne spécialisé conçu pour mesurer la durée exacte qui s'écoule entre une heure de début et une heure de fin spécifiques. Contrairement à une simple addition ou soustraction, les mathématiques temporelles fonctionnent sur un système en base 60 (60 minutes dans une heure, 24 heures dans une journée), ce qui rend les calculs mentaux sujets aux erreurs. Cet outil gère parfaitement ces complexités, vous fournissant une durée précise exprimée en heures et minutes standard, ainsi qu'un format décimal pour le traitement de la paie.",
   "howToUse": [
-    "Entrez votre heure de début dans le champ de saisie désigné.",
-    "Fournissez tous les paramètres secondaires comme l’heure de fin.",
-    "Cliquez sur le bouton Calculer ou Soumettre pour générer le total des heures et des minutes écoulées.",
-    "Copiez ou examinez le résultat obtenu selon vos besoins."
+    "Étape 1 : Sélectionnez ou saisissez votre heure de début dans le premier champ, en vous assurant que la désignation AM/PM est correcte si vous utilisez un format sur 12 heures.",
+    "Étape 2 : Sélectionnez votre heure de fin dans le deuxième champ.",
+    "Étape 3 : Si votre activité traverse minuit jusqu'au jour suivant, saisissez simplement l'heure de fin normalement. Le calculateur le détecte automatiquement.",
+    "Étape 4 : Cliquez sur 'Calculer' pour voir instantanément la durée.",
+    "Étape 5 : Visualisez les résultats, qui seront affichés en heures et minutes standard, en minutes totales et en heures décimales pour les feuilles de temps."
   ],
-  "howItWorks": "Comment ça marche",
-  "workedExample": "Exemples",
-  "resultInterpretation": "Interprétation",
+  "howItWorks": "L'outil convertit l'heure de début et l'heure de fin en minutes totales écoulées depuis minuit. Il calcule ensuite la différence mathématique entre ces deux valeurs en minutes. Surtout, l'algorithme prend automatiquement en compte les périodes de nuit ; si l'heure de fin est numériquement antérieure à l'heure de début, l'outil comprend que la durée a dépassé minuit et ajoute intelligemment 24 heures (1440 minutes) au calcul pour obtenir le temps écoulé correct.",
+  "workedExample": "Supposons que vous commencez une équipe de nuit à 22h30 (10:30 PM) et que vous pointez à 6h15 (06:15 AM) le lendemain matin. Le calculateur convertit d'abord les deux heures. Reconnaissant que 06:15 est antérieur à 22:30, il ajoute automatiquement un cycle complet de 24 heures à l'heure de fin pour tenir compte du franchissement de minuit. Il calcule la différence, ce qui donne une durée totale écoulée d'exactement 7 heures et 45 minutes.",
+  "resultInterpretation": "L'affichage principal montre clairement les heures et minutes standard écoulées (par exemple, 7h 45m). De plus, des boîtes supplémentaires plus petites affichent l'équivalent en heure décimale (7,75 heures) et le nombre total de minutes brutes (465 minutes). Le format d'heure décimale est particulièrement vital pour la comptabilité et les ressources humaines, car il vous permet de multiplier directement votre temps de travail par un salaire horaire.",
   "useCases": [
-    "Calcul de la feuille de temps",
-    "Durées de vol",
-    "Traitement rapide de l'heure de début en déplacement"
+    "Feuilles de Temps et Paie : Enregistrer les heures exactes travaillées pour la facturation des indépendants, la facturation des entrepreneurs ou le suivi du temps des employés.",
+    "Suivi des Études ou de l'Entraînement : Mesurer précisément la durée d'une session d'étude académique spécifique ou d'un entraînement en salle de sport.",
+    "Aviation et Transports : Calculer les temps de bloc, la durée des vols ou la longueur des quarts de travail des chauffeurs sur différentes périodes.",
+    "Gestion de Projet : Suivre le temps exact passé sur des tâches spécifiques pour améliorer les futures estimations de temps."
   ],
   "tipsAndLimitations": [
-    "Assurez-vous que AM/PM est correctement réglé.",
-    "Assurez-vous que vos entrées sont correctement formatées pour obtenir les meilleurs résultats.",
-    "L'outil fonctionne entièrement côté client, garantissant que vos données restent privées."
+    "Astuce : Les heures décimales sont extrêmement utiles pour la paie. Si vous travaillez 8 heures et 30 minutes à 20 $/heure, vous multipliez 8,5 par 20.",
+    "Limite : Cet outil calcule strictement le temps écoulé sur la base d'une journée standard de 24 heures. Il ne prend pas en compte les changements d'heure d'été qui peuvent se produire pendant la période mesurée.",
+    "Astuce : Si vous devez calculer la différence sur plusieurs jours ou dates, pensez plutôt à utiliser notre Calculateur de Différence de Dates."
   ],
   "faq": [
     {
-      "question": "Le calculateur de durée est-il gratuit ?",
-      "answer": "Oui, notre calculateur de durée est entièrement gratuit."
+      "question": "Que se passe-t-il si mon événement dépasse minuit jusqu'au lendemain ?",
+      "answer": "Le calculateur détecte automatiquement si l'heure de fin est antérieure à l'heure de début. Lorsque cela se produit, il suppose que l'événement a traversé minuit et ajoute de manière transparente 24 heures au calcul pour vous donner la bonne durée."
     },
     {
-      "question": "Est-ce que ça marche sur mobile ?",
-      "answer": "Oui, il est entièrement réactif et fonctionne sur tous les appareils."
+      "question": "Comment les heures décimales sont-elles calculées et pourquoi sont-elles utiles ?",
+      "answer": "Les heures décimales sont calculées en divisant le nombre total de minutes par 60. Par exemple, 30 minutes deviennent 0,5 heure et 45 minutes deviennent 0,75 heure. Ce format est essentiel pour la paie, car vous pouvez facilement multiplier une heure décimale par un taux horaire."
     },
     {
-      "question": "Dois-je télécharger quelque chose ?",
-      "answer": "Non, cela fonctionne entièrement dans votre navigateur sans aucune installation."
+      "question": "Prend-il en charge les formats d'heure sur 12 et 24 heures ?",
+      "answer": "Oui, selon les paramètres de votre système et votre navigateur, les entrées d'heure s'adapteront aux formats standard AM/PM sur 12 heures ou aux formats d'heure militaire sur 24 heures."
     }
   ],
   "relatedTools": [
-    "calculateur d'âge",
-    "calculateur de différence de date",
-    "jours entre les dates"
+    "time-difference-calculator",
+    "months-between-dates",
+    "world-time-converter",
+    "countdown-timer"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calculateur de durée",
-  "ogImageText": "Calculateur de durée"
+  "cta": "Calculez instantanément la durée exacte du temps écoulé !",
+  "disclaimer": "Cet outil est destiné aux calculs de temps basiques et ne prend pas en compte les changements de fuseau horaire ou les passages à l'heure d'été pendant la période écoulée. Vérifiez les résultats pour les applications de paie strictes.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Capture d'écran du calculateur de durée montrant les heures, les minutes et les heures décimales",
+  "ogImageText": "Calculateur de Durée"
 }

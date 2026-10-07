@@ -1,55 +1,55 @@
 {
-  "seoTitle": "Hız Hesaplayıcı",
-  "metaDescription": "Mesafe ve zamandan koşu temposunu hesaplayın.",
-  "h1": "Hız Hesaplayıcı",
-  "primaryKeyword": "hız hesaplayıcı",
+  "seoTitle": "Pace Calculator - Koşu Hızı ve Bitiş Zamanı Hesaplayıcı",
+  "metaDescription": "Ücretsiz çevrimiçi Pace Calculator ile koşu hızı, ortalama hız ve 5K, 10K, yarı maraton ve maraton yarışmaları için tahmini bitiş zamanlarını anında hesaplayın. Aracımız, hem metrik hem de İngiliz birimleri destekler.",
+  "h1": "Pace Calculator",
+  "primaryKeyword": "pace hesaplayıcı",
   "secondaryKeywords": [
-    "hız hesaplayıcı çevrimiçi",
-    "serbest tempo hesaplayıcı",
-    "en iyi hız hesaplayıcı"
+    "koşu pace hesaplayıcı",
+    "marathon pace hesaplayıcı",
+    "koşu hızı hesapla",
+    "5k bitiş zamanı hesapla"
   ],
-  "slug": "hız hesaplayıcı",
-  "intro": "Koşmak, bisiklete binmek veya yüzmek için ortalama hızınızı bulun.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "pace-hesaplama",
+  "intro": "5K’dan maratona kadar olan yarışma hazırlarınızda mısınız, yoksa bir koçunuzun size özel antrenman planını mı uyguluyorsunuz? Ücretsiz Pace Calculator aracımız, hedef bitiş zamanınıza ulaşmak için ne kadar hızlı koşmeniz gerektiğini kolayca anlamak isteyen koşucular için ideal bir araçtır. Doğru pace, sadece yarışma gününde değil, aynı zamanda düzenli antrenman yourselves during the week de performansınızı artırmak ve sakatlanma riskini azaltmak için kritik öneme sahiptir. Bu hesaplayıcı, hem başlangıç seviyesindeki koşucuların hem de deneyimli atletlerin training planlarını optimize etmelerine yardımcı olur. Ayrıca, realistic hedefler koymanıza ve ilerleyişinizi takip etmenize olanak tanır.",
+  "whatIs": "Pace Calculator, koşucular için özel olarak geliştirilmiş bir spor aracıdır. Zaman-uzaklık-hız denklemini çözer ve toplam koşma süresini ve mesafeyi standart 'dakika/mile' veya 'dakika/kilometre' pace değerine dönüştürür. Koşu kültüründe pace, hızdan daha çok tercih edilir çünkü koşucular kendi çabalarını daha doğrudan takip edebilirler. Örneğin, saatte 10 km hızla koşmak yerine, bir kilometreyi 6 dakikada koymak gibi bir hedef koymak, antrenmanlarda daha net bir rehberlik sağlar. Bu hesaplayıcı, farklı birimlerde (metrik/İngiliz) hesaplama yapmanıza olanak tanır ve antrenman planlarınıza uygun pace değerlerini bulmanıza yardımcı olur.",
   "howToUse": [
-    "Belirlenen giriş alanına mesafenizi girin.",
-    "Zaman gibi ikincil parametreleri sağlayın.",
-    "Mil veya kilometre başına dakika oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Pace bulmak için: Koştuğunuz mesafeyi ve toplam zamanı girin. Örneğin, 10 km'lik bir parkurda 50 dakika koşduysanız, bu bilgileri girerek dakika/kilometre pace'inizi öğrenebilirsiniz. Bu, antrenman yourselves during the run için temel bilgidir.",
+    "Zaman bulmak için: Mesafeyi ve ortalama pace'inizi girin. Bu, önceden belirlediğiniz bir pace ile kaç dakikada bitiş yapacağınızı hesaplar. Maratonda 4 saatte bitiş yapmak için ne pace gerekirse onu bulabilirsiniz. Bu, yarışma stratejinizi planlarken çok faydalıdır.",
+    "Mesafe bulmak için: Toplam zamanı ve ortalama pace'inizi girin. Bu, belirli bir sürede ne kadar yol alabileceğinizi gösterir. Antrenmanınızda 60 dakika koşacaksanız, bu hesaplayıcı ile kaçıncı kilometreye kadar ilerleyebileceğinizi keşfedebilirsiniz. Bu, antrenman hacmini ayarlamak için kullanılır.",
+    "Araç, girilen bilgileri anında işleyerek eksik değişeni hesaplar. Kullanıcı dostu arayüz sayesinde sadece iki bilgiyi doldurarak üçüncü sonucu alabilirsiniz. Anında sonuçlar yüksek doğrulukla sunar."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Hesaplayıcı, temel algebrik formülü kullanır: Pace = Zaman / Mesafe. Bu formül, basit görünse de, arkada karmaşık zaman formatlarını (saat, dakika, saniye) ondalık sayısalara dönüştürerek matematiksel hesaplamalar yapar. Örneğin, 1 saat 30 dakika 15 saniyelik bir zaman, 90.25 dakika olarak işlenir. Daha sonra, elde edilen ondalık değer, dakika ve saniye formatına geri dönüştürülerek daha kolay anlaşılabilecek bir 'MM:SS' formatında gösterilir. Bu dönüşüm, koşucuların GPS saatlerinde veya treadmill'de kullanabileceği net pace değerleri elde etmelerini sağlar. Ayrıca, hesaplayıcı mil ve kilometre arasında birim dönüşümlerini sorunsuz şekilde yapar ve tercih edilen ölçüm sisteminden bağımsız olarak doğruluk sağlar.",
+  "workedExample": "Örnek senaryolar: İlk olarak, 5K (3.1 mile) mesafeyi tam olarak 25 dakikada koştuğunuzu varsayalım. 25 dakika / 3.1 mil = 8.06 dakika/mil pace çıkar. Hesaplayıcı, ondalık kısmın (.06) saniyeye çevrilmesiyle size tam olarak 8:04 dakika/mil pace gösterir. İkinci bir örnek: 10 km'lik bir yarışmada, 55 dakikada bitiş yapmak istiyorsanız, 55 dakika / 10 km = 5.5 dakika/kilometre pace hesaplanır. Bu da 5:30 dakika/kilometre olarak gösterilir. Bu örnekler, hesaplayıcın hem metrik hem de İngiliz birimlerde nasıl çalıştalığını gösterir.",
+  "resultInterpretation": "Hesaplanan pace değeri, bir mil veya kilometreyi tam olarak kaç dakikada tamamladığınızı gösterir. Bu değeri, GPS saatlerinizdeki pace ayarlarına veya treadmill'de hız ayarlarına girerek antrenman yourselves during the week daha etkili bir şekilde planlayabilirsiniz. Örneğin, bir maratonda 4 saatte bitiş yapmak için ortalama 5:39 dakika/mil pace gerekiyorsa, bu değeri saatine girerek koşuya başlayabilirsiniz. Ancak, gerçek_world koşulları (tepeler, rüzgar, nem) nedeniyle bu pace'in korunması zor olabileceğini unutmamalısınız. Bu nedenle, hesaplanan pace'i bir rehber olarak kullanın ve yarışma günü bu hedefe göre ayarlamalar yapın.",
   "useCases": [
-    "Maraton ilerleme hızı",
-    "Antrenmanları takip edin",
-    "Hareket halindeyken mesafeyi hızla işleme"
+    "Yarışma Stratejisi: Bir maratonda 4 saatlik bir bitiş zamanı hedefliyorsanız, bu hesaplayıcı ile gereken ortalama pace'i bulabilirsiniz. Bu, yarışma günü ne kadar hızlı koşmeniğini netleştirmenize yardımcı olur. Ayrıca, ilk yarım maraton ile ikinci yarım maraton için farklı pace stratejileri düşünmenize olanak tanır.",
+    "Treadmill Çevirisi: Belirli bir 'dakika/mil' pace'i 'mil/saat' hızına dönüştürmek istiyorsanız, bu hesaplayıcı sayesinde treadmill'de hangi tuşa basmenițiți öğrenirsiniz. Örneğin, 8:00 dakika/mil pace, treadmill'de 7.5 mph hızına denk gelir.",
+    "Antrenman Planları: Koçunuzun size belirlediği kolay koşu pace'lerinin gerçekte ne kadar olduğunu doğrulamak için kullanın. Bu, antrenmanlarınızı daha disiplinli bir şekilde gerçekleştirmenize olanak tanır.",
+    "Recovery Runs: Toparlanma koşularınız için ideal pace'i hesaplayarak, antrenman yükünüzün dengeli olmasına yardımcı olun."
   ],
   "tipsAndLimitations": [
-    "Koşu bandı temposu, dış mekan temposundan farklı hissedilebilir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Belirli bir pace'in mesafe arttiesiyle daha zor hale geleceğini unutmayın. 5K pace'i, maraton pace'iyle aynı olmaz. Vücut uzun mesafelerde daha yüksek enerji talebi gösterir ve kas yorgunluğu artar.",
+    "Hesaplayıcı, metrik (km) ve İngiliz (mil) birimleri arasında kolayca geçiş yapmanıza izin verir. Yarışma planınızda hangi birimi kullanacaksanız, ona göre hesaplama yapabilirsiniz.",
+    "Dikkat: Hesaplamalar, tamamen düz bir yüzey ve sabit hız varsayımına dayanır. Gerçek_world yarışma zamanları, arazi, hava koşulları ve yorgunluk nedeniyle değişebilir."
   ],
   "faq": [
     {
-      "question": "What is a sub-4 marathon pace?",
-      "answer": "Roughly 9 minutes and 9 seconds per mile."
+      "question": "Pace ile Hız Arasındaki Fark Nedir?",
+      "answer": "Hız, mesafeyi zamana bölerek elde edilir (örneğin, saatte 6 mil). Pace ise zamanı mesafeye bölerek elde edilir (örneğin, bir mil için 10 dakika). Koşucular genellikle çabalarını takip etmek için pace'i tercih eder çünkü pace, doğrudan antrenman hedefleriyle ilişkilidir. Additionally, pace, kalp atış hızı ve enerji harcaması gibi metriklerle daha iyi uyumludur."
     },
     {
-      "question": "Is the Pace Calculator free to use?",
-      "answer": "Yes, our Pace Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Bir Maraton Kaç Uzunluktadır?",
+      "answer": "Standart bir full maraton tam olarak 26.2 mil veya 42.195 kilometredir. Yarı maraton ise 13.1 mil veya 21.0975 kilometredir. Bu uzunluklar, Uluslar arası Atletizm Federasyonları (IAAF) tarafından belirlenmiştir. Additionally, bu mesafeler, yarışma planlarında ve antrenman programlarında kullanılır."
     }
   ],
   "relatedTools": [
-    "BMI-hesaplayıcı",
-    "bmr-hesap makinesi",
-    "kalori hesaplayıcı"
+    "running-distance-calculator",
+    "speed-distance-time-calculator",
+    "step-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Hız Hesaplayıcı",
-  "ogImageText": "Hız Hesaplayıcı"
+  "cta": "Koşu pace'inizi NOW hesaplayın!",
+  "disclaimer": "Hesaplamalar, tamamen düz bir yüzey ve sabit hız varsayımına dayanır. Gerçek_world yarışma zamanları, arazi, hava koşulları ve yorgunluk nedeniyle değişebilir.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Running pace calculator interface",
+  "ogImageText": "Pace Calculator"
 }

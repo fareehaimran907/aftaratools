@@ -1,0 +1,52 @@
+{
+  "seoTitle": "Morsecode-Übersetzer - Text & Audio übersetzen",
+  "metaDescription": "Kostenloser Online-Morsecode-Übersetzer. Konvertieren Sie Text in Morsecode-Punkte und -Striche oder übersetzen Sie Morse zurück ins Englische. Einschließlich Audio-Wiedergabe.",
+  "h1": "Morsecode-Übersetzer",
+  "primaryKeyword": "Morsecode-Übersetzer",
+  "secondaryKeywords": [
+    "Text in Morse-Code",
+    "Morsecode-Audio",
+    "Morse übersetzen",
+    "Morsecode-Decoder"
+  ],
+  "slug": "morsecode-übersetzer",
+  "intro": "Ob Sie Funkamateur, ein Rätsel lösend oder einfach nur neugierig sind, unser kostenloser Morsecode-Übersetzer wandelt Text problemlos in Punkte und Striche um – und gibt ihn laut wieder.",
+  "whatIs": "Der Morsecode-Übersetzer ist ein zweifunktionales Werkzeug, das normalen alphabetischen Text in das internationale Morsesystem (Punkte/Dits und Striche/Dahs) codiert und Morsezeichen wieder in lesbaren Text decodiert.",
+  "howToUse": [
+    "Zum Kodieren: Geben Sie normalen Text in das Eingabefeld ein. Der Morsecode wird sofort generiert.",
+    "Zum Entschlüsseln: Geben Sie Morsecode mit Punkten (.) und Strichen (-) ein, trennen Sie Buchstaben mit einem einzelnen Leerzeichen und Wörter mit einem Schrägstrich (/).",
+    "Klicken Sie auf das 'Play'-Symbol, um den Morsecode über Audio zu hören."
+  ],
+  "howItWorks": "Das Werkzeug verwendet ein vordefiniertes Wörterbuch, das jeden englischen Buchstaben und jede Zahl einer bestimmten Abfolge von Punkten und Strichen zuordnet. Für die Übersetzung durchläuft es den Text und tauscht die Zeichen basierend auf dem Wörterbuch aus. Für Audio nutzt es die Web Audio API, um kurze und lange Oszillator-Töne zu erzeugen.",
+  "workedExample": "Die Eingabe von 'SOS' in das Textfeld. 'S' ist '...', und 'O' ist '---'. Das Werkzeug gibt '... --- ...' aus.",
+  "resultInterpretation": "Die visuelle Ausgabe ist das genaue rhythmische Muster, das erforderlich ist, um die Nachricht zu übermitteln. Ein Punkt (.) steht für eine Zeiteinheit, und ein Strich (-) steht für drei Einheiten.",
+  "useCases": [
+    "Amateurfunk: Üben von Sende- und Empfangsfähigkeiten für eine Amateurfunklizenz.",
+    "Escape Rooms & Rätsel: Schnell eine versteckte Nachricht in einem Videospiel oder ARG entschlüsseln.",
+    "Überlebensbildung: Lernen, wie man ein Notsignal mit einer Taschenlampe oder durch Klopfen überträgt."
+  ],
+  "tipsAndLimitations": [
+    "Der Morsecode unterscheidet nicht zwischen Groß- und Kleinbuchstaben.",
+    "Der standardmäßige internationale Morsecode unterstützt die meisten Sonderzeichen oder nicht-lateinischen Alphabete nicht."
+  ],
+  "faq": [
+    {
+      "question": "Wie trennt man Wörter im Morsecode?",
+      "answer": "Im geschriebenen Morsecode werden Buchstaben normalerweise durch ein einzelnes Leerzeichen getrennt, und vollständige Wörter werden durch einen Schrägstrich (/) oder drei Leerzeichen getrennt."
+    },
+    {
+      "question": "Kann ich den Morsecode hören?",
+      "answer": "Ja! Wenn Ihr Browser Web Audio unterstützt, können Sie auf die Wiedergabetaste klicken, um das genaue rhythmische Timing der Punkte und Striche zu hören."
+    }
+  ],
+  "relatedTools": [
+    "base64-encode-decode",
+    "binary-to-decimal",
+    "text-case-converter"
+  ],
+  "cta": "Übersetze deine Nachricht in Morsecode!",
+  "disclaimer": "Das Tool unterstützt den internationalen Morsecode (ITU-Standard). Es kann spezialisierte Prosignale oder älteren amerikanischen Morsecode möglicherweise nicht korrekt übersetzen.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Morsecode-Übersetzer-Schnittstelle zeigt SOS",
+  "ogImageText": "Morsecode-Übersetzer"
+}

@@ -1,55 +1,65 @@
 {
-  "seoTitle": "Calculadora de hipotecas",
-  "metaDescription": "Calcular los pagos mensuales de la hipoteca.",
-  "h1": "Calculadora de hipotecas",
-  "primaryKeyword": "calculadora de hipotecas",
+  "seoTitle": "Calculadora de Hipoteca - Estima las Cuotas Mensuales del Préstamo",
+  "metaDescription": "Calculadora de hipoteca gratuita. Estima tus cuotas mensuales de préstamo hipotecario incluyendo capital e intereses según el valor del inmueble y la entrada.",
+  "h1": "Calculadora de Hipoteca",
+  "primaryKeyword": "calculadora de hipoteca",
   "secondaryKeywords": [
-    "Calculadora de hipotecas en línea",
-    "Calculadora de hipotecas gratuita",
-    "mejor calculadora de hipotecas"
+    "calculadora de préstamo hipotecario",
+    "cuota hipotecaria mensual",
+    "calculadora de pago de casa",
+    "amortización hipotecaria"
   ],
-  "slug": "calculadora-de-hipoteca",
-  "intro": "Calcule los pagos mensuales de su hipoteca, incluidos el capital y los intereses.",
-  "whatIs": "¿Qué es esta herramienta?",
+  "slug": "calculadora-hipoteca",
+  "intro": "Comprar una vivienda es probablemente el mayor compromiso financiero de tu vida. Nuestra Calculadora de Hipoteca gratuita te da una imagen clara de cómo será ese compromiso cada mes. Introduciendo el precio de la vivienda, la entrada, el tipo de interés y el plazo del préstamo, ves al instante tu cuota mensual estimada de capital e intereses, el total de intereses que pagarás a lo largo del préstamo y el coste total de la hipoteca.",
+  "whatIs": "Una calculadora de hipoteca es una herramienta financiera especializada que estima la cuota mensual de un préstamo hipotecario. Toma cuatro entradas —el precio del inmueble, tu entrada, el tipo de interés anual y el plazo— y utiliza la fórmula estándar de amortización para calcular la cuota mensual fija que cancelará el préstamo al final del plazo.",
   "howToUse": [
-    "Ingrese el precio de su vivienda en el campo de entrada designado.",
-    "Proporcione parámetros secundarios como el pago inicial.",
-    "Haga clic en el botón calcular o enviar para generar pagos mensuales de capital e intereses.",
-    "Copie o revise el resultado resultante según sus necesidades."
+    "Introduce el Valor del Inmueble — el precio total de compra.",
+    "Introduce tu Entrada — el importe en efectivo que pagarás al cierre.",
+    "Introduce el Tipo de Interés Anual de tu oferta crediticia.",
+    "Especifica el Plazo del Préstamo en años (generalmente 15 o 30).",
+    "Haz clic en 'Calcular Hipoteca'."
   ],
-  "howItWorks": "como funciona",
-  "workedExample": "Ejemplos",
-  "resultInterpretation": "Interpretación",
+  "howItWorks": "La calculadora resta la entrada del valor del inmueble para determinar el importe del préstamo, luego aplica la fórmula de amortización: M = P[r(1+r)^n] / [(1+r)^n - 1].",
+  "workedExample": "Quieres comprar una vivienda de 300.000 € con 60.000 € de entrada (20%). Tu préstamo es de 240.000 €. A un tipo de interés anual del 4,5% a 30 años, la cuota mensual es de 1.216,04 €. A lo largo de 30 años pagarás un total de 437.773,86 €, de los cuales 197.773,86 € son intereses.",
+  "resultInterpretation": "La Cuota Mensual muestra solo capital e intereses. La factura real de tu banco será mayor por impuestos y seguro. El Importe del Préstamo es lo que realmente pides prestado. Los Intereses Totales son el coste de financiación. El Coste Total del Préstamo incluye capital y todos los intereses.",
   "useCases": [
-    "Búsqueda de casa",
-    "Análisis de refinanciación",
-    "Procesamiento rápido del precio de la vivienda sobre la marcha"
+    "Compra de Vivienda: fija un presupuesto realista.",
+    "Refinanciación: compara tu tipo hipotecario actual con los actuales.",
+    "Planificación de la Entrada: experimenta con diferentes importes de entrada.",
+    "Comparación de Plazos: compara hipotecas de 15 vs. 30 años."
   ],
   "tipsAndLimitations": [
-    "Los impuestos a la propiedad y las tarifas de HOA deben agregarse por separado.",
-    "Asegúrese de que sus entradas tengan el formato correcto para obtener los mejores resultados.",
-    "La herramienta se ejecuta completamente en el lado del cliente, lo que garantiza que sus datos permanezcan privados."
+    "La calculadora proporciona solo la parte de capital e intereses. Tu factura real será mayor por impuestos y seguro.",
+    "Si tu entrada es inferior al 20%, muchos prestamistas exigen un seguro hipotecario privado.",
+    "Plazos más cortos tienen cuotas más altas pero intereses totales mucho menores."
   ],
   "faq": [
     {
-      "question": "¿La calculadora de hipotecas es de uso gratuito?",
-      "answer": "Sí, nuestra Calculadora de hipotecas es de uso completamente gratuito."
+      "question": "¿Qué es un cuadro de amortización?",
+      "answer": "Es una tabla detallada que muestra cada pago mensual durante la vida del préstamo, con cuánto va a intereses y cuánto a capital."
     },
     {
-      "question": "¿Esto funciona en el móvil?",
-      "answer": "Sí, responde completamente y funciona en todos los dispositivos."
+      "question": "¿Esto calcula mi cuota mensual exacta?",
+      "answer": "Calcula con precisión la parte de capital e intereses. Tu factura real al banco incluirá normalmente también impuestos y seguro en fideicomiso."
     },
     {
-      "question": "¿Necesito descargar algo?",
-      "answer": "No, funciona completamente en tu navegador sin necesidad de instalación."
+      "question": "¿Qué pasa si hago pagos extra en mi hipoteca?",
+      "answer": "Los pagos extra van directamente a reducir el saldo principal, lo que disminuye los intereses en los meses siguientes y puede acortar el plazo considerablemente."
+    },
+    {
+      "question": "¿Cuál es la diferencia entre tipo fijo y variable?",
+      "answer": "Una hipoteca a tipo fijo tiene el mismo interés y cuota durante todo el plazo. Una hipoteca variable comienza con un tipo más bajo que puede cambiar según el mercado."
     }
   ],
   "relatedTools": [
-    "calculadora-de-porcentaje",
-    "calculadora-de-salarios",
-    "calculadora-de-descuentos"
+    "loan-calculator",
+    "emi-calculator",
+    "compound-interest-calculator",
+    "investment-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calculadora de hipotecas",
-  "ogImageText": "Calculadora de hipotecas"
+  "cta": "¡Calcula ahora tu cuota hipotecaria estimada y planifica tu compra de vivienda con confianza!",
+  "disclaimer": "Esta herramienta proporciona estimaciones con fines educativos únicamente. Los términos reales de la hipoteca, tipos, impuestos y seguro variarán. Consulta a un profesional hipotecario autorizado antes de tomar decisiones.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Calculadora de hipoteca con cuota mensual, importe del préstamo, intereses totales y coste total",
+  "ogImageText": "Calculadora de Hipoteca"
 }

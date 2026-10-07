@@ -1,0 +1,52 @@
+{
+  "seoTitle": "HEX naar RGB Converter",
+  "metaDescription": "Gratis online HEX naar RGB-converter. Vertaal onmiddellijk webkleur HEX-codes naar RGB-formaten. Essentieel voor CSS en webontwikkeling.",
+  "h1": "HEX naar RGB Converter",
+  "primaryKeyword": "hex naar rgb",
+  "secondaryKeywords": [
+    "hex naar rgb converteren",
+    "hex kleur naar rgb",
+    "hexadecimaal naar rgb rekenmachine",
+    "css kleurconverter"
+  ],
+  "slug": "hex-naar-rgb-converter",
+  "intro": "Heb je een hex-kleurcode maar heb je de RGB-waarden nodig om een transparantiekanaal in CSS toe te voegen? Onze gratis HEX naar RGB-converter zet hexadecimale kleurcodes direct om in standaard Rood, Groen, Blauw-integerwaarden.",
+  "whatIs": "De HEX naar RGB Converter is een ontwerp- en ontwikkelingshulpmiddel dat een 6-teken hexadecimale kleurcode (veelvuldig gebruikt in HTML/CSS) neemt en deze vertaalt naar een RGB-formaat (gebruikt in ontwerpssoftware en CSS rgba).",
+  "howToUse": [
+    "Voer uw 6-cijferige HEX-code in (bijv. FF5733). Het '#' is optioneel.",
+    "Het hulpmiddel analyseert de tekenreeks onmiddellijk.",
+    "De exacte RGB-waarden (0-255) worden weergegeven naast een visuele kleurvoorbeeld."
+  ],
+  "howItWorks": "Een 6-cijferige HEX-code is eigenlijk drie afzonderlijke getallen. De tool splitst de string in paren (bijv. FF, 57, 33). Vervolgens gebruikt het rekenen van basis-16 naar basis-10 om elk paar om te zetten in een decimaal getal tussen 0 en 255.",
+  "workedExample": "Je voert #00FF00 in. Het gereedschap splitst het: Rood is 00, Groen is FF, Blauw is 00. Hex '00' is decimaal 0. Hex 'FF' is decimaal 255. Het gereedschap geeft RGB(0, 255, 0) als resultaat, wat puur groen is.",
+  "resultInterpretation": "De uitvoer is de exacte verhouding van rood, groen en blauw licht die een computerscherm moet uitstralen om de doelkleur weer te geven.",
+  "useCases": [
+    "CSS-transparantie: Een HEX naar RGB converteren zodat je `rgba(255, 0, 0, 0.5)` kunt schrijven voor een 50% transparante achtergrond.",
+    "Software-integraties: Het invoeren van kleuren in legacy software of game-engines die alleen 0-255 RGB-inputs accepteren.",
+    "Ontwerp Overdracht: Ervoor zorgen dat een grafisch ontwerper die RGB gebruikt in Photoshop exact dezelfde kleur heeft als de ontwikkelaar die HEX gebruikt."
+  ],
+  "tipsAndLimitations": [
+    "Het hulpmiddel ondersteunt 3-cijferige afkorting HEX-codes (zoals #F00). Het breidt deze automatisch uit naar #FF0000 voordat het wordt geconverteerd.",
+    "Hex-codes zijn niet hoofdlettergevoelig. #ff0000 en #FF0000 zijn wiskundig identiek."
+  ],
+  "faq": [
+    {
+      "question": "Kan ik een 8-cijferige HEX-code converteren?",
+      "answer": "8-cijferige hex-codes bevatten een alfa (transparantie) kanaal. Standaard 6-cijferige naar RGB-converters zullen de laatste twee cijfers negeren. Je zou een HEX naar RGBA-converter nodig hebben voor de dekkingswaarde."
+    },
+    {
+      "question": "Waarom RGB gebruiken in plaats van HEX?",
+      "answer": "Hoewel HEX korter is om te typen, maakt RGB het veel gemakkelijker om kleuren programmatisch te manipuleren, zoals het dynamisch veranderen van de doorzichtigheid (RGBA) of het berekenen van kleurcontrastverhoudingen in JavaScript."
+    }
+  ],
+  "relatedTools": [
+    "rgb-to-hex",
+    "color-picker",
+    "hex-to-decimal"
+  ],
+  "cta": "Zet je HEX-codes nu om naar RGB!",
+  "disclaimer": "Deze tool zet strikt wiskundig hexadecimale kleurcodes om naar decimale waarden. Gaat uit van de standaard sRGB-kleurruimte.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "HEX naar RGB conversie-interface",
+  "ogImageText": "HEX naar RGB Converter"
+}

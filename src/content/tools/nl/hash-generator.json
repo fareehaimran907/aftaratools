@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Hash Generator Online - MD5, SHA1, SHA256",
+  "metaDescription": "Gratis online Hash-generator. Bereken onmiddellijk veilige cryptografische hashes zoals MD5, SHA-1, SHA-256 en SHA-512 van elke tekststring.",
+  "h1": "Hashgenerator",
+  "primaryKeyword": "hashgenerator",
+  "secondaryKeywords": [
+    "online hashcalculator",
+    "te hashen tekenreeks",
+    "genereer hashcode",
+    "cryptografische hash"
+  ],
+  "slug": "hashgenerator",
+  "intro": "Bestandintegriteit controleren of gegevens beveiligen? Onze alles-in-één Hash Generator berekent onmiddellijk de meest populaire cryptografische hashfuncties voor elke tekst die je invoert.",
+  "whatIs": "De Hash Generator is een cybersecurity- en ontwikkelaarshulpmiddel. Het neemt een invoertekst van elke lengte en voert deze door een wiskundig algoritme om een tekenreeks van vaste grootte te produceren, bekend als een 'hash' of 'digest'.",
+  "howToUse": [
+    "Typ of plak je tekst in het hoofdinvoerveld.",
+    "Selecteer het specifieke hashing-algoritme dat u wilt gebruiken (bijv. SHA-256).",
+    "Het gereedschap verwerkt de tekst onmiddellijk en toont de hexadecimale hash-uitvoer.",
+    "Kopieer de hash voor uw verificatiebehoeften."
+  ],
+  "howItWorks": "Het hulpmiddel gebruikt de Web Crypto API om uw invoertekst te verwerken. Het algoritme verdeelt de tekst in blokken en voert complexe bitgewijze bewerkingen uit om de gegevens te versleutelen. Zelfs het veranderen van één enkele letter in de invoer verandert de uiteindelijke uitvoer volledig.",
+  "workedExample": "Je voert het woord 'password' in. Je selecteert het SHA-256-algoritme. De tool genereert een hexadecimale tekenreeks van 64 tekens: `5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8`.",
+  "resultInterpretation": "De hash dient als een unieke digitale 'vingerafdruk' voor je tekst. Als iemand anders exact dezelfde tekst met exact hetzelfde algoritme hash, zullen ze exact dezelfde vingerafdruk krijgen.",
+  "useCases": [
+    "Gegevensverificatie: Zorgen dat een groot gedownload bestand of tekststring niet is beschadigd of gewijzigd tijdens het verzenden door de hash te vergelijken.",
+    "Databaseontwerp: Het verbergen van gevoelige gegevens (zoals beveiligingsantwoorden) voordat ze in een database worden opgeslagen.",
+    "API-ontwikkeling: Genereren van checksums voor veilige webhook-payloads om de echtheid van de afzender te verifiëren."
+  ],
+  "tipsAndLimitations": [
+    "Hashing is een eenrichtingsstraat. In tegenstelling tot codering, kun je een hash niet 'decrypteren' naar de oorspronkelijke tekst.",
+    "MD5 en SHA-1 worden als cryptografisch gebroken en kwetsbaar voor botsingen beschouwd. Ze zouden alleen gebruikt moeten worden voor basisbestandverificatie, niet voor beveiliging."
+  ],
+  "faq": [
+    {
+      "question": "Wat is het verschil tussen hashing en versleuteling?",
+      "answer": "Encryptie is een tweerichtingsproces; gegevens worden versleuteld met een sleutel en kunnen worden ontsleuteld met diezelfde sleutel. Hashing is een eenrichtingsproces; de gegevens worden versleuteld tot een tekenreeks van vaste lengte en kunnen wiskundig niet worden teruggedraaid."
+    },
+    {
+      "question": "Welk algoritme is het meest veilig?",
+      "answer": "Van de standaardalgoritmen die worden aangeboden, worden SHA-256 en SHA-512 momenteel als zeer veilig beschouwd en zijn ze de industriestandaard voor cryptografie en blockchaintechnologie."
+    }
+  ],
+  "relatedTools": [
+    "sha256-hash-generator",
+    "md5-hash-generator",
+    "bcrypt-generator"
+  ],
+  "cta": "Genereer onmiddellijk cryptografische hashes!",
+  "disclaimer": "Berekeningen worden lokaal uitgevoerd via de Web Crypto API. MD5- en SHA-1-algoritmen worden aangeboden voor compatibiliteit met oudere systemen, niet voor moderne beveiligingsdoeleinden.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Hash Generator-interface die meerdere algoritmen toont",
+  "ogImageText": "Hashgenerator"
+}

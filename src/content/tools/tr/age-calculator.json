@@ -1,55 +1,91 @@
 {
-  "seoTitle": "Yaş Hesaplayıcı",
-  "metaDescription": "Ücretsiz çevrimiçi Yaş Hesaplayıcı. Tam yaşınızı yıl, ay ve gün cinsinden hesaplayın.",
+  "seoTitle": "Yaş Hesaplayıcı – Yaşınızı Yıl, Ay ve Gün Olarak Hesaplayın",
+  "metaDescription": "Ücretsiz online yaş hesaplayıcı. Doğum tarihinizi girin ve yaşınızı yıl, ay, gün ve toplam yaşanan gün sayısı olarak anında öğrenin.",
   "h1": "Yaş Hesaplayıcı",
   "primaryKeyword": "yaş hesaplayıcı",
   "secondaryKeywords": [
-    "yaş hesaplayıcı çevrimiçi",
-    "ücretsiz yaş hesaplayıcı",
-    "en iyi yaş hesaplayıcı"
+    "kaç yaşındayım",
+    "yaş hesaplama",
+    "yaş hesaplayıcı online ücretsiz",
+    "tam yaş hesaplama",
+    "doğum tarihine göre yaş",
+    "yaşım kaç yıl ay gün",
+    "kaç günlük yaşıyorum",
+    "doğum günü hesaplayıcı",
+    "çevrimiçi yaş hesaplayıcı"
   ],
-  "slug": "yaş hesaplayıcı",
-  "intro": "Ücretsiz çevrimiçi Yaş Hesaplama aracımızı kullanın. Girişlerinize göre kesin yaşı belirler.",
-  "whatIs": "Yaş Hesaplayıcı, kesin yaşı belirleyen çevrimiçi bir yardımcı programdır. Doğum tarihinizi işler ve yıl, ay ve gün cinsinden kesin fark sağlar.",
+  "slug": "yas-hesaplayici",
+  "intro": "Tam olarak kaç yaşında olduğunuzu merak ediyor musunuz? Ücretsiz yaş hesaplayıcımız size saniyeler içinde yıl, ay, gün ve toplam yaşadığınız gün sayısı şeklinde kesin bir yanıt verir. Kayıt gerekmez; tüm işlemler doğrudan tarayıcınızda gerçekleşir.",
+  "whatIs": "Yaş hesaplayıcı, bir kişinin doğum tarihi ile herhangi bir hedef tarih — genellikle bugün — arasında geçen süreyi kesin olarak ölçen bir çevrimiçi araçtır. Basit bir yıl çıkarmanın aksine, gerçek bir yaş hesaplayıcı artık yılları, her aydaki farklı gün sayısını ve mevcut aydaki doğum günününün geçip geçmediğini dikkate alır. Sonuç; yıl, ay ve kalan gün olarak gösterilir. Böylece yalnızca tam yıllardaki yaşınızı değil, bu dünyada geçirdiğiniz sürenin tam hassasiyetini de öğrenirsiniz. Hesaplayıcımız aynı zamanda bir sonraki doğum gününüze kaç gün kaldığını ve toplam yaşadığınız gün sayısını da gösterir — her ikisi de randevular, hukuki belgeler ve kişisel önemli günler için şaşırtıcı derecede kullanışlı verilerdir.",
   "howToUse": [
-    "Belirlenen giriş alanına doğum tarihinizi girin.",
-    "Geçerli tarih gibi ikincil parametreleri sağlayın.",
-    "Yıllar, aylar ve günler cinsinden kesin farkı oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Tarih seçici aracını kullanarak veya YYYY-AA-GG formatında yazarak 'Doğum Tarihi' alanına doğum tarihinizi girin.",
+    "Bugün yerine belirli bir geçmiş ya da gelecekteki tarihte yaşı hesaplamak istiyorsanız isteğe bağlı olarak 'Hedef Tarih' belirleyin.",
+    "'Hesapla' düğmesine tıklayın.",
+    "Yıl, ay ve gün cinsinden kesin yaşınızı, bir sonraki doğum gününüze kaç gün kaldığını ve toplam yaşadığınız gün sayısını okuyun.",
+    "Sonucu panoya kopyalamak için kopyala düğmesini kullanın ya da baştan başlamak için Sıfırla'ya basın."
   ],
-  "howItWorks": "Bu araç, tarayıcınızda doğum tarihinize standart algoritmalar uygulayarak çalışır. Yıllar, aylar ve günlerdeki kesin farkı ortaya çıkarmak için verileri anında işler.",
-  "workedExample": "Örneğin: 1 Ocak 1990 ile 1 Ocak 2024 arası tam olarak 34 yılı döndürür.",
-  "resultInterpretation": "Sonuç yıllar, aylar ve günler cinsinden kesin farkı temsil eder. Bu verileri özel hesaplamalarınız veya biçimlendirme ihtiyaçlarınız için kullanabilirsiniz.",
+  "howItWorks": "Yaş = (Hedef Tarih − Doğum Tarihi), sırasıyla hesaplanır: önce tam takvim yılları, ardından tam takvim ayları, sonra kalan günler. Artık yıllar (400'e bölünemeyen yüzyıllar hariç, 4'e tam bölünenler) Şubat'a bir gün ekler ve tam olarak hesaba katılır.",
+  "workedExample": "Örnek: Doğum tarihi = 15 Mart 1990. Hedef tarih = 1 Ekim 2026. Adım 1 — 15 Mart 1990'dan 15 Mart 2026'ya tam yıllar = 36 yıl. Adım 2 — 15 Mart'tan 1 Ekim'e tam aylar = 6 ay. Adım 3 — 15 Eylül'den 1 Ekim'e kalan günler = 16 gün. Sonuç: 36 yıl, 6 ay, 16 gün. Toplam yaşanan gün ≈ 13.349.",
+  "resultInterpretation": "'Yıllar' alanı tamamlanan yaşınızdır — resmi belgelerde görünen sayıdır. 'Aylar', son doğum gününüzden itibaren ek tam aylardır. 'Günler', geçerli tamamlanmamış aydaki kalan günlerdir. 'Sonraki Doğum Günü', bir sonraki yaşam yılınızı tamamlamanıza kaç gün kaldığını söyler. 'Toplam Gün', kesin geçen sürenin takvim yılı sayımından daha önemli olduğu hukuki, tıbbi ve bilimsel bağlamlarda kullanışlıdır.",
   "useCases": [
-    "Formların tam yaşı kontrol ediliyor",
-    "Tarihsel olayların yaşını hesaplama",
-    "Hareket halindeyken doğum tarihini hızla işleme"
+    "Yıl, ay ve gün cinsinden kesin ayrıntı gerektiren başvuru ve resmi formlardaki yaş alanlarını doldurmak.",
+    "Çocuğun pediatrik gelişim aşamaları veya okul kaydı kesim tarihleri için kesin gelişimsel yaşını hesaplamak.",
+    "Bir sözleşme, ehliyet ya da emeklilik için birinin asgari yaş koşulunu karşılayıp karşılamadığını belirlemek.",
+    "Tarihi olayların yaşını bulmak — örneğin ünlü bir binanın üzerinden kaç yıl geçtiğini hesaplamak.",
+    "Kişisel merak: hayatınızın 10.000'inci gününü kutlamak veya özel bir yıl dönümünü planlamak.",
+    "Bir işe başladığınızda ya da evlendiğinizde kaç yaşında olduğunuzu hesaplamak."
   ],
   "tipsAndLimitations": [
-    "Gregoryen takvimini varsayar.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Hesaplayıcı Gregoryen takvimini varsayar. Gregoryen reformundan (15 Ekim 1582) önceki tarihler tarihsel olarak doğru olmayabilir.",
+    "Tarayıcınızın yerel tarihinin doğru olduğundan emin olun; 'bugün' değeri cihazınızın saatinden alınır.",
+    "Gelecekteki bir doğum tarihi girerseniz hata mesajı görünür — negatif yaş hesaplanamaz.",
+    "'Hedef Tarih' alanı isteğe bağlıdır ve varsayılan olarak bugüne ayarlıdır. Geçmiş veya gelecekteki bir noktada yaş hesaplamak için kullanın.",
+    "Tüm hesaplamalar tarayıcınızda yerel olarak yapılır; hiçbir kişisel veri sunucuya gönderilmez.",
+    "Tüm hesaplamalar JavaScript aracılığıyla tarayıcınızda yerel olarak çalışır; hiçbir sunucuya hiçbir kişisel veri gönderilmez."
   ],
   "faq": [
     {
-      "question": "Artık yılları hesaba katıyor mu?",
-      "answer": "Evet, artık yılları tamamen açıklıyor."
+      "question": "Şu an tam olarak kaç yaşındayım?",
+      "answer": "Doğum tarihinizi yukarıdaki hesaplayıcıya girin ve 'Hesapla'ya tıklayın. Tarayıcınızın yerel tarihini kullanarak bugün itibarıyla yıl, ay ve gün cinsinden tam yaşınızı anında göreceksiniz."
     },
     {
-      "question": "Yaş Hesaplayıcının kullanımı ücretsiz midir?",
-      "answer": "Evet, Yaş Hesaplayıcımız tamamen ücretsizdir ve kayıt gerektirmez."
+      "question": "Hesaplayıcı artık yılları dikkate alıyor mu?",
+      "answer": "Evet. Algoritma artık yılları tam olarak işler. 29 Şubat doğum günleri, gün sayımında artık olmayan yıllarda 1 Mart olarak değerlendirilir; bu yaklaşım çoğu ülkede yasal ve tıbbi standartlarla örtüşür."
     },
     {
-      "question": "Bu mobil cihazlarda çalışıyor mu?",
-      "answer": "Evet, araç tamamen duyarlıdır ve tüm akıllı telefonlarda ve tabletlerde mükemmel şekilde çalışır."
+      "question": "Geçmiş veya gelecekteki bir tarihte yaşımı hesaplayabilir miyim?",
+      "answer": "Kesinlikle. Herhangi bir tarihi — geçmiş ya da gelecek — ayarlamak için isteğe bağlı 'Hedef Tarih' alanını kullanın. Bu özellik tarihi araştırmalar ve yasal yaş koşulu hesaplamaları için çok işlevlidir."
+    },
+    {
+      "question": "'Toplam Gün' nasıl hesaplanır?",
+      "answer": "Toplam gün, doğum tarihiniz ile hedef tarih arasındaki mutlak gün sayısıdır. Milisaniye cinsinden fark 86.400.000'e bölünür ve aşağı yuvarlanır. Artık gün katkıları otomatik olarak dahil edilir."
+    },
+    {
+      "question": "Yaşım neden bazen bir gün farklı görünüyor?",
+      "answer": "Tarayıcınızın yerel saati bulunduğunuz yerden farklı bir saat dilimine ayarlıysa veya saat diliminizde gece yarısı henüz geçmediyse bu durum yaşanabilir. Sistem saatinin doğru ayarlandığını kontrol edin."
+    },
+    {
+      "question": "'Sonraki Doğum Günü' nedir ve nasıl hesaplanır?",
+      "answer": "Bir sonraki yıllık doğum günü kutlamanıza (bu yıl veya sonraki yılda aynı ay ve gün) kaç gün kaldığıdır. Bugün doğum gününüzse 0 veya bir sonraki yıl için 365/366 gün gösterilir."
+    },
+    {
+      "question": "Bu araç ücretsiz ve gizli mi?",
+      "answer": "Evet — tamamen ücretsiz, hesap gerektirmez ve tam anlamıyla gizlidir. Doğum tarihiniz hiçbir zaman cihazınızdan çıkmaz. Tüm hesaplamalar JavaScript kullanılarak tarayıcınızda yerel olarak gerçekleşir."
+    },
+    {
+      "question": "Bu hesaplayıcıyı akıllı telefon veya tablette kullanabilir miyim?",
+      "answer": "Evet. Arayüz tamamen duyarlı olup tüm modern akıllı telefonlarda, tabletlerde ve masaüstü tarayıcılarında çalışır. Tarih seçici, mobil cihazlarda dokunmatik girişe uyum sağlar."
     }
   ],
   "relatedTools": [
-    "tarih farkı-hesaplayıcı",
-    "tarihler arasındaki günler",
-    "hesap makinesine kalan gün sayısı"
+    "date-difference-calculator",
+    "days-between-dates",
+    "days-until-calculator",
+    "months-between-dates"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Yaş Hesaplayıcı arayüzü ekran görüntüsü",
-  "ogImageText": "Yaş Hesaplayıcı"
+  "cta": "Yaş hesaplayıcıyı hemen deneyin — yukarıya doğum tarihinizi girin ve bu gezegende tam olarak ne kadar süredir olduğunuzu, gün gün keşfedin.",
+  "disclaimer": "Bu araç yalnızca bilgilendirme ve kişisel kullanım amaçlıdır. Hukuki, tıbbi veya resmi amaçlar için yaş hesaplamalarını her zaman doğum belgesi gibi resmi belgelerle doğrulayın.",
+  "lastReviewed": "2026-10-01",
+  "imageAlt": "Doğum tarihi giriş alanı ve yıl, ay, gün cinsinden sonuçları gösteren yaş hesaplayıcı aracı",
+  "ogImageText": "Yaş Hesaplayıcı – Yıl, Ay ve Gün"
 }

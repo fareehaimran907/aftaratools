@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Sıcaklık Dönüştürücü",
-  "metaDescription": "Celsius, Fahrenheit ve Kelvin'i dönüştürün.",
-  "h1": "Sıcaklık Dönüştürücü",
-  "primaryKeyword": "sıcaklık dönüştürücü",
+  "seoTitle": "Sıcaklık Çevirici - Santigrat, Fahrenhayt, Kelvin",
+  "metaDescription": "Ücretsiz sıcaklık çevirici. Santigrat (°C), Fahrenhayt (°F) ve Kelvin (K) arasında anında dönüştürme yapın.",
+  "h1": "Sıcaklık Çevirici",
+  "primaryKeyword": "sıcaklık çevirici",
   "secondaryKeywords": [
-    "Sıcaklık Dönüştürücü çevrimiçi",
-    "ücretsiz Sıcaklık Dönüştürücü",
-    "en iyi Sıcaklık Dönüştürücü"
+    "santigrat fahrenhayt çevirme",
+    "fahrenhayt dereceye çevirme",
+    "sıcaklık hesaplayıcı"
   ],
-  "slug": "sıcaklık dönüştürücü",
-  "intro": "Sıcaklıkları ana ölçekler arasında hızla çevirin.",
-  "whatIs": "Bu araç nedir?",
-  "howToUse": [
-    "Belirlenen giriş alanına santigrat derecenizi girin.",
-    "Fahrenheit gibi ikincil parametreleri sağlayın.",
-    "Eşdeğer sıcaklığı oluşturmak için hesapla veya gönder düğmesine tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
-  ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
-  "useCases": [
-    "Hava tahmini",
-    "Pişirme sıcaklıkları",
-    "Hareket halindeyken santigrat dereceyi hızla işleme"
-  ],
-  "tipsAndLimitations": [
-    "Formüller hem çarpmayı hem de toplama/çıkarmayı içerir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
-  ],
+  "slug": "sicaklik-cevirici",
+  "intro": "Yurt dışı hava durumuna bakarken veya yabancı bir yemek tarifi denerken farklı sıcaklık birimleri kafa karıştırabilir. Aracımız anında dönüştürür.",
+  "whatIs": "Sıcaklık çevirici, termal ölçümleri bir standart ölçekten diğerine (Santigrat, Fahrenhayt, Kelvin) çeviren bir araçtır.",
+  "howToUse": "Başlangıç ölçeğini seçin. Sıcaklık değerini girin. Araç diğer ölçeklerdeki karşılıklarını anında gösterir.",
+  "howItWorks": "Sıcaklık dönüşümü formüller kullanır. Santigratı Fahrenhayt'a çevirmek: (°C × 9/5) + 32. Kelvin için Santigrat'a 273,15 eklenir.",
+  "workedExample": "Tarif fırını 180°C istiyor, ancak fırınınız Fahrenhayt. Sonuç 356°F'dir. Fırınınızı kolayca ayarlarsınız.",
+  "resultInterpretation": "Dönüştürülen sıcaklıklar matematiksel olarak kesin karşılıklardır. Kelvin derece (°) sembolü kullanmaz.",
+  "useCases": "Yemek Yapma: fırın sıcaklıkları. Hava Durumu: yabancı hava tahminlerini anlama. Bilim: termodinamik denklemler.",
+  "tipsAndLimitations": "Akıldan hesaplama (C'den F'ye): Santigratı ikiye katlayıp 30 ekleyin. -40° Santigrat ve Fahrenhayt'ın tam olarak aynı olduğu noktadır.",
   "faq": [
     {
-      "question": "Sıcaklık Dönüştürücünün kullanımı ücretsiz midir?",
-      "answer": "Evet, Sıcaklık Dönüştürücümüzün kullanımı tamamen ücretsizdir."
+      "question": "Santigrat'ı Fahrenhayt'a nasıl çevirirsiniz?",
+      "answer": "Santigrat sıcaklığını 1,8 ile çarpıp 32 eklersiniz."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
-    },
-    {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Normal vücut sıcaklığı nedir?",
+      "answer": "Genel olarak 37°C veya 98,6°F olarak kabul edilir."
     }
   ],
   "relatedTools": [
-    "uzunluk dönüştürücü",
-    "ağırlık dönüştürücü",
-    "yükseklik dönüştürücü"
+    "length-converter",
+    "weight-converter",
+    "volume-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Sıcaklık Dönüştürücü",
-  "ogImageText": "Sıcaklık Dönüştürücü"
+  "cta": "Herhangi bir sıcaklığı şimdi anında dönüştürün!",
+  "disclaimer": "Genel bilgi amaçlıdır.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Sıcaklık çevirici Santigrat Fahrenhayt",
+  "ogImageText": "Sıcaklık Çevirici"
 }

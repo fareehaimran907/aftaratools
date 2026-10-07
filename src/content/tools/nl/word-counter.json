@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Woordteller",
-  "metaDescription": "Gratis online woordenteller. Tel woorden en karakters.",
-  "h1": "Woordteller",
+  "seoTitle": "Woorden Tellen - Tel Woorden, Tekens & Zinnen",
+  "metaDescription": "Gratis online woordenteller. Tel direct woorden, karakters, zinnen en alinea's in je tekst. Perfect voor essays, tweets en SEO.",
+  "h1": "Woorden Tellen",
   "primaryKeyword": "woordenteller",
   "secondaryKeywords": [
-    "woordenteller online",
-    "gratis woordenteller",
-    "beste woordenteller"
+    "woorden online tellen",
+    "tekenenteller",
+    "woordenteller",
+    "hoeveel woorden"
   ],
   "slug": "woordenteller",
-  "intro": "Gebruik onze gratis online Woordenteller-tool. Het telt woorden en tekens op basis van uw invoer.",
-  "whatIs": "De Word Counter is een online hulpprogramma dat woorden en tekens telt. Het verwerkt uw tekstblok en geeft totalen voor woorden, tekens en alinea's.",
+  "intro": "Een essay schrijven met een strikte woordlimiet, of een blogpost optimaliseren voor SEO? Onze gratis Woordenteller biedt directe, nauwkeurige statistieken voor woorden, tekens en zinnen.",
+  "whatIs": "De Woordenteller is een tekstanalysetool. Het verwerkt grote tekstblokken om statistische gegevens te leveren, waaronder het totale aantal woorden, het aantal tekens (met en zonder spaties), aantal zinnen en aantal alinea's.",
   "howToUse": [
-    "Voer uw tekstblok in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals telstatistieken.",
-    "Klik op de knop Berekenen of Verzenden om totalen voor woorden, tekens en alinea's te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Plak of typ uw tekst rechtstreeks in het grote invoerveld.",
+    "De statistieken bovenaan het scherm worden direct bijgewerkt.",
+    "Controleer de gedetailleerde uitsplitsing van de gemiddelde woordlengte en leestijd."
   ],
-  "howItWorks": "Deze tool werkt in uw browser door standaardalgoritmen op uw tekstblok toe te passen. Het verwerkt de gegevens onmiddellijk om totalen voor woorden, tekens en alinea's uit te voeren.",
-  "workedExample": "Bijvoorbeeld: 100 woorden, 550 tekens.",
-  "resultInterpretation": "Het resultaat vertegenwoordigt de totalen voor woorden, tekens en alinea's. U kunt deze gegevens gebruiken voor uw specifieke berekeningen of opmaakbehoeften.",
+  "howItWorks": "Het hulpmiddel gebruikt JavaScript Regular Expressions (Regex) om de tekst te parseren. Het telt woorden door te kijken naar spaties en interpunctiegrenzen. Het telt zinnen door terminale interpunctie (punten, uitroeptekens) gevolgd door spaties te identificeren.",
+  "workedExample": "Je typt: 'Hallo wereld. Hoe gaat het?' Het hulpmiddel berekent: 5 woorden, 27 tekens (inclusief spaties), 2 zinnen, en een geschatte leestijd van 2 seconden.",
+  "resultInterpretation": "De statistieken helpen je om de lengte van je tekst perfect af te stemmen op specifieke publicatierichtlijnen, academische vereisten of limieten voor sociale media.",
   "useCases": [
-    "Essays schrijven",
-    "Houdt zich aan de tekenlimieten van Twitter",
-    "Onderweg snel tekstblokken verwerken"
+    "Academia: Ervoor zorgen dat een college-essay voldoet aan een strikte minimale eis van 1.000 woorden.",
+    "SEO & Marketing: Meta descriptions onder de 160 tekens houden en blogposts langer dan 1.500 woorden maken.",
+    "Sociale media: Zorgen dat een tweet of Instagram-onderschrift binnen de limieten van het platform past."
   ],
   "tipsAndLimitations": [
-    "Woorden met koppeltekens worden meestal als één woord geteld.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Aaneengeschreven woorden met een koppelteken (zoals 'state-of-the-art') worden over het algemeen door standaardalgoritmen als één woord geteld.",
+    "URL's en e-mailadressen worden ook als één woord behandeld."
   ],
   "faq": [
     {
-      "question": "Telt het spaties?",
-      "answer": "Het biedt zowel 'tekens met spaties' als 'zonder spaties'."
+      "question": "Wat telt als een teken?",
+      "answer": "Een teken is elke afzonderlijke letter, cijfer, leesteken of symbool. Een spatie is ook technisch gezien een teken, daarom geven we het aantal zowel 'met spaties' als 'zonder spaties'."
     },
     {
-      "question": "Is de Woordenteller gratis te gebruiken?",
-      "answer": "Ja, onze Woordenteller is volledig gratis en vereist geen registratie."
-    },
-    {
-      "question": "Werkt dit op mobiele apparaten?",
-      "answer": "Ja, de tool is volledig responsive en functioneert perfect op alle smartphones en tablets."
+      "question": "Hoe wordt leestijd berekend?",
+      "answer": "Leestijd wordt geschat op basis van de gemiddelde leessnelheid van volwassenen van ongeveer 200 tot 250 woorden per minuut."
     }
   ],
   "relatedTools": [
-    "karakter-teller",
-    "internet-zelfgenerator",
-    "bionische leesconverter"
+    "character-counter",
+    "text-case-converter",
+    "markdown-editor"
   ],
-  "lastReviewed": "29-09-2026",
-  "imageAlt": "Schermafbeelding van de Word Counter-interface",
-  "ogImageText": "Woordteller"
+  "cta": "Tel je woorden direct!",
+  "disclaimer": "Analyse gebeurt volledig binnen uw browser. Wij slaan uw tekst niet op of bewaren deze niet.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Word Counter-interface die tekststatistieken toont",
+  "ogImageText": "Woorden Tellen"
 }

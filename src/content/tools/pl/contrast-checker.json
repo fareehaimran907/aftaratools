@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Checker kontrastu kolorów - narzędzie dostępności WCAG",
+  "metaDescription": "Darmowy internetowy sprawdzacz kontrastu kolorów. Natychmiast oblicz współczynnik kontrastu między kolorem tekstu a tłem, aby zapewnić zgodność z wytycznymi WCAG.",
+  "h1": "Kontroler kontrastu kolorów",
+  "primaryKeyword": "sprawdzarka kontrastu kolorów",
+  "secondaryKeywords": [
+    "narzędzie do sprawdzania kontrastu WCAG",
+    "kontrast kolorów w dostępności",
+    "sprawdź kontrast kolorów",
+    "kalkulator czytelności tekstu"
+  ],
+  "slug": "kontroler-kontrastu-kolorów",
+  "intro": "Upewnij się, że Twoja strona internetowa jest czytelna dla wszystkich. Nasze bezpłatne narzędzie do sprawdzania kontrastu kolorów oblicza dokładny stosunek między kolorem tekstu a tłem, weryfikując zgodność z wytycznymi dostępu WCAG.",
+  "whatIs": "Checker kontrastu kolorów to narzędzie do dostępności stron internetowych. Matematycznie ocenia względną luminancję koloru pierwszego planu (tekstu) względem koloru tła, aby określić, czy istnieje wystarczająca różnica wizualna, aby osoby niedowidzące mogły komfortowo czytać tekst.",
+  "howToUse": [
+    "Wprowadź kod HEX dla swojego koloru tekstu/koloru pierwszoplanowego.",
+    "Wprowadź kod HEX dla koloru tła.",
+    "Narzędzie oblicza współczynnik kontrastu (np. 4,5:1).",
+    "Wyświetla ocenę Zaliczone/Nie zaliczone dla standardów WCAG AA i AAA."
+  ],
+  "howItWorks": "Narzędzie konwertuje oba kody HEX na RGB, stosuje określony wzór matematyczny do obliczenia 'względnej luminancji' obu kolorów, a następnie dzieli jaśniejszą luminancję przez ciemniejszą luminancję. Wynikiem jest stosunek między 1:1 (brak kontrastu) a 21:1 (maksymalny kontrast).",
+  "workedExample": "Testujesz czysty czarny tekst (#000000) na czystym białym tle (#FFFFFF). Narzędzie oblicza maksymalny możliwy współczynnik kontrastu wynoszący dokładnie 21:1, łatwo spełniając wszystkie wymagania dostępności AAA.",
+  "resultInterpretation": "Wyższy współczynnik oznacza, że tekst jest łatwiejszy do czytania. Wytyczne dotyczące dostępności treści internetowych (WCAG) wymagają minimalnego współczynnika 4,5:1 dla zwykłego tekstu (standard AA) oraz 7:1 dla rygorystycznej dostępności (standard AAA).",
+  "useCases": [
+    "Audyty dostępności stron internetowych: Zapewnienie, że strona korporacyjna nie narusza przepisów dotyczących zgodności z ADA w zakresie czytelności.",
+    "Projektowanie UI/UX: Sprawdzanie, czy jasnoszary tekst zastępczy wewnątrz białego pola wprowadzania jest zbyt trudny do odczytania.",
+    "Wytyczne dotyczące marki: Sprawdzanie, czy kolory marki mogą być bezpiecznie nakładane jeden na drugi w materiałach marketingowych."
+  ],
+  "tipsAndLimitations": [
+    "Duży tekst (powyżej 18 pkt lub 14 pkt pogrubionego) jest łatwiejszy do czytania, dlatego WCAG wymaga tylko niższego współczynnika 3:1, aby spełnić standard AA.",
+    "Daltonizm wpływa na postrzeganie barw, ale względny kontrast luminancji pozostaje najważniejszym czynnikiem dla czytelności."
+  ],
+  "faq": [
+    {
+      "question": "Co się stanie, jeśli moje kolory nie przejdą kontroli?",
+      "answer": "Jeśli zawiodą, Twój tekst będzie bardzo trudny do odczytania dla osób z wadą wzroku lub daltonizmem. Powinieneś zaciemnić kolor tekstu lub rozjaśnić kolor tła, aż stosunek osiągnie co najmniej 4,5:1."
+    },
+    {
+      "question": "Czy 21:1 to najlepszy kontrast?",
+      "answer": "Matematycznie, tak. Jednak czarny tekst na białym tle (21:1) może powodować zmęczenie oczu lub 'halo' u niektórych użytkowników z dysleksją. Bardzo ciemny szary (np. #222222) na lekko białym tle jest często preferowany."
+    }
+  ],
+  "relatedTools": [
+    "color-picker",
+    "color-palette-generator",
+    "hex-to-rgb"
+  ],
+  "cta": "Sprawdź teraz dostępność kolorów!",
+  "disclaimer": "To narzędzie oblicza kontrast na podstawie standardowego algorytmu WCAG 2.1 dla luminancji względnej.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Kontroler kontrastu kolorów pokazujący spełniający wymóg współczynnik 4,5",
+  "ogImageText": "Kontroler kontrastu kolorów"
+}

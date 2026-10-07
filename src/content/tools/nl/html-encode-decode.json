@@ -8,7 +8,7 @@
     "gratis html-encoder / decoder",
     "beste html-encoder / decoder"
   ],
-  "slug": "html-coderen-decoderen",
+  "slug": "html-encoder",
   "intro": "Gebruik onze gratis online HTML Encoder/Decoder-tool. Het ontsnapt aan HTML-entiteiten op basis van uw invoer.",
   "whatIs": "De HTML Encoder/Decoder is een online hulpprogramma dat aan HTML-entiteiten ontsnapt. Het verwerkt uw onbewerkte tekst en biedt tekst die veilig kan worden weergegeven in de DOM.",
   "howToUse": [
@@ -45,10 +45,12 @@
     }
   ],
   "relatedTools": [
-    "json-formatter",
-    "base64-codering-decodering",
-    "url-codering-decodering"
+    "url-encode-decode",
+    "base64-encode-decode",
+    "markdown-editor"
   ],
+  "cta": "Codeer uw HTML nu veilig!",
+  "disclaimer": "Dit hulpmiddel ontsnapt aan de vijf primaire HTML-tekens (&, <, >, \", '). Voor strikte beveiliging, gebruik uitgebreide backend-sanitizatiebibliotheken.",
   "lastReviewed": "29-09-2026",
   "imageAlt": "Schermafbeelding van de HTML-encoder/decoder-interface",
   "ogImageText": "HTML-encoder/decoder"

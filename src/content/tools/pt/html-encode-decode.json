@@ -8,7 +8,7 @@
     "codificador / decodificador HTML gratuito",
     "melhor codificador / decodificador HTML"
   ],
-  "slug": "html-codificar-decodificar",
+  "slug": "codificador-html",
   "intro": "Use nossa ferramenta online gratuita de codificador/decodificador de HTML. Ele escapa de entidades HTML com base em suas entradas.",
   "whatIs": "O codificador/decodificador HTML é um utilitário online que escapa de entidades HTML. Ele processa seu texto bruto e fornece texto seguro para renderização no DOM.",
   "howToUse": [
@@ -45,10 +45,12 @@
     }
   ],
   "relatedTools": [
-    "formatador json",
-    "base64-codificação-decodificação",
-    "URL-codificação-decodificação"
+    "url-encode-decode",
+    "base64-encode-decode",
+    "markdown-editor"
   ],
+  "cta": "Codifique seu HTML com segurança agora!",
+  "disclaimer": "Esta ferramenta escapa os cinco principais caracteres HTML (&, <, >, \", '). Para segurança rigorosa, utilize bibliotecas abrangentes de sanitização no backend.",
   "lastReviewed": "29/09/2026",
   "imageAlt": "Captura de tela da interface do codificador/decodificador HTML",
   "ogImageText": "Codificador/Decodificador HTML"

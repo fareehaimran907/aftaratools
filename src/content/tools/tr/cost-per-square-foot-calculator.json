@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Metrekare Başına Maliyet Hesaplayıcı",
-  "metaDescription": "Ücretsiz çevrimiçi Metrekare Başına Maliyet Hesaplayıcı. Metrekare başına fiyatı hesaplayın.",
+  "seoTitle": "Metrekare Başına Maliyet Hesaplayıcı - Emlak ve Zemin Kaplama",
+  "metaDescription": "Ücretsiz çevrimiçi Metrekare Başına Maliyet Hesaplayıcı. Bir evin, zemin kaplamasının veya ticari gayrimenkulün fiyatını anında metrekareye göre hesaplayın.",
   "h1": "Metrekare Başına Maliyet Hesaplayıcı",
-  "primaryKeyword": "metrekare başına maliyet hesaplama",
+  "primaryKeyword": "metrekare başına maliyet hesaplayıcı",
   "secondaryKeywords": [
-    "Metrekare başına maliyet hesaplayıcısı çevrimiçi",
-    "Metrekare başına ücretsiz maliyet hesaplayıcısı",
-    "Metrekare başına en iyi maliyet hesaplayıcısı"
+    "metrekare başına fiyat",
+    "zemin maliyeti hesaplayıcısı",
+    "ev inşaat maliyeti hesaplayıcısı",
+    "emlak fiyat hesaplayıcısı"
   ],
-  "slug": "metrekare başına maliyet hesaplayıcı",
-  "intro": "Ücretsiz çevrimiçi Metrekare Başına Maliyet Hesaplama aracımızı kullanın. Girdilerinize göre alan için birim fiyat bulur.",
-  "whatIs": "Metrekare Başına Maliyet Hesaplayıcı, alan için birim fiyat bulan çevrimiçi bir yardımcı programdır. Toplam maliyetinizi işler ve metrekare başına fiyat sağlar.",
+  "slug": "metrekare-maliyeti-hesaplama",
+  "intro": "Ev mi alıyorsunuz yoksa yeni parke mi döşüyorsunuz? Ücretsiz Metrekare Başına Maliyet Hesaplayıcımız, birim alan başına tam fiyatı hızlı bir şekilde belirleyerek mülkleri ve malzeme tahminlerini kolayca karşılaştırmanızı sağlar.",
+  "whatIs": "Metrekare Başına Maliyet Hesaplayıcısı, gayrimenkul ve inşaat finansmanı aracı olarak kullanılır. Bir alanın birim oranını (Fiyat ÷ Toplam Metrekare) hesaplar, böylece tamamen farklı boyutlardaki mülklerin veya malzemelerin göreli değerlerini karşılaştırmanıza olanak tanır.",
   "howToUse": [
-    "Toplam maliyetinizi belirlenen giriş alanına girin.",
-    "Toplam alan gibi ikincil parametreleri sağlayın.",
-    "Metrekare başına fiyat oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Mülkün veya malzemelerin toplam maliyetini girin.",
+    "Toplam metrekareyi girin.",
+    "Araç, maliyeti metrekare başına göstermek için sayıları anında böler.",
+    "Alternatif olarak, toplam beklenen maliyeti bulmak için kare ayak alanını ve kare ayak başına fiyatı girin."
   ],
-  "howItWorks": "Bu araç, tarayıcınızda toplam maliyetinize standart algoritmalar uygulayarak çalışır. Verileri anında tek metrekare başına çıkış fiyatına göre işler.",
-  "workedExample": "Örneğin: 500 metrekare için 1000 ABD doları = metrekare başına 2,00 ABD doları.",
-  "resultInterpretation": "Sonuç, metrekare başına fiyatı temsil eder. Bu verileri özel hesaplamalarınız veya biçimlendirme ihtiyaçlarınız için kullanabilirsiniz.",
+  "howItWorks": "Araç, basit cebirsel bölme ve çarpma kullanır. Birim fiyatı bulmak için Toplam Maliyeti Toplam Alana böler. Bir proje bütçesini bulmak için Alanı Malzeme Birim Fiyatıyla çarpar.",
+  "workedExample": "2.500 metrekarelik bir ev 500.000 dolara listelenmiş. 500.000 $ / 2.500 = 200 $. Ev tam olarak metrekare başına 200 $ maliyetinde.",
+  "resultInterpretation": "Ortaya çıkan dolar miktarı, mülkün 1 feet'e 1 feet kare alanının değerini temsil eder. Bu ölçüt, bir evin diğerine göre 'daha iyi bir fırsat' olup olmadığını karşılaştırmak için sektör standardıdır.",
   "useCases": [
-    "Ev fiyatlarının karşılaştırılması",
-    "Döşeme fırsatlarını değerlendirmek",
-    "Hareket halindeyken toplam maliyeti hızla işleyin"
+    "Gayrimenkul: 400.000 dolarlık, 1.500 sq ft büyüklüğünde bir kondoyu ile 450.000 dolarlık, 2.000 sq ft büyüklüğünde bir evi karşılaştırmak.",
+    "Ev Yenileme: 600 metrekarelik bir oturma odasına $4.50/ft² lüks vinil kalas döşemesi döşemek için gerekli toplam bütçeyi hesaplama.",
+    "Ticari Kira: Yıllık metrekare başına 30 $ olarak belirlenen ofis alanı için aylık kira tutarının belirlenmesi."
   ],
   "tipsAndLimitations": [
-    "Metrekare başına daha ucuz olması her zaman daha kaliteli olduğu anlamına gelmez.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Gayrimenkulde, metrekare başına daha düşük maliyet her zaman daha iyi bir anlaşma anlamına gelmez. Bu, büyük onarımlar gerektiren veya daha az arzu edilen bir mahallede bulunan bir evi gösterebilir.",
+    "Zemin kaplamasını tahmin ederken, atık ve kesimleri dikkate almak için toplam metrekarenizin üzerine her zaman %10 ekleyin."
   ],
   "faq": [
     {
-      "question": "Why does it matter?",
-      "answer": "It provides a standardized metric to compare different sized items."
+      "question": "Metrekare hesaplamasına garaj dahil mi?",
+      "answer": "Standart konut emlakında, 'yaşanabilir' metrekare genellikle sadece tamamlanmış, ısıtılan/soğutulan alanları içerir. Garajlar ve tamamlanmamış bodrumlar dahil edilmez."
     },
     {
-      "question": "Is the Cost Per Square Foot Calculator free to use?",
-      "answer": "Yes, our Cost Per Square Foot Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Bir odanın metrekare cinsinden alanını nasıl hesaplarım?",
+      "answer": "Odanın uzunluğunu ve genişliğini feet cinsinden ölçün ve bu iki sayıyı birbirleriyle çarpın."
     }
   ],
   "relatedTools": [
-    "metrekare-hesaplayıcı",
-    "boya hesaplayıcı",
-    "kiremit hesaplayıcı"
+    "square-footage-calculator",
+    "tile-calculator",
+    "paint-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Metrekare Başına Maliyet Hesaplayıcı arayüzü ekran görüntüsü",
+  "cta": "Şimdi metrekare maliyetinizi hesaplayın!",
+  "disclaimer": "Araç matematiksel tahminler sağlar. Emlak ilanları, yerel yönetmeliklere ve değerleme standartlarına bağlı olarak toplam metrekareyi farklı şekilde hesaplayabilir.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Metrekare başına maliyet hesaplayıcısı, emlak metriklerini gösteriyor",
   "ogImageText": "Metrekare Başına Maliyet Hesaplayıcı"
 }

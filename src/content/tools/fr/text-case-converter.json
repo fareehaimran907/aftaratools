@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Convertisseur de casse de texte - MAJUSCULES, minuscules, Majuscule à chaque mot",
+  "metaDescription": "Convertisseur de casse de texte en ligne gratuit. Changez rapidement le texte en MAJUSCULES, minuscules, en casse de titre ou en casse de phrase en un seul clic. Corrigez instantanément les erreurs dues à la touche majuscule activée.",
+  "h1": "Convertisseur de casse de texte",
+  "primaryKeyword": "convertisseur de casse de texte",
+  "secondaryKeywords": [
+    "changer la casse du texte",
+    "majuscules en minuscules",
+    "générateur de majuscules pour titres",
+    "convertisseur de majuscules"
+  ],
+  "slug": "convertisseur-de-casse-de-texte",
+  "intro": "Vous avez accidentellement laissé la touche Verr Maj activée, ou vous devez formater une longue liste de titres de livres ? Notre outil gratuit de conversion de casse de texte change instantanément la capitalisation de votre texte en un seul clic.",
+  "whatIs": "Le convertisseur de casse de texte est un utilitaire de formatage qui prend un bloc de texte et modifie automatiquement sa structure de capitalisation en fonction des règles linguistiques standard (comme la casse de phrase ou la casse de titre).",
+  "howToUse": [
+    "Collez votre texte mal formaté dans la zone de saisie.",
+    "Cliquez sur le bouton correspondant au cas que vous voulez (par exemple, 'MAJUSCULE', 'Majuscule de titre').",
+    "Le texte se transformera instantanément.",
+    "Cliquez sur 'Copier' pour enregistrer le texte corrigé dans votre presse-papiers."
+  ],
+  "howItWorks": "L'outil utilise la manipulation de chaînes en JavaScript. 'MAJUSCULE' et 'minuscules' utilisent les fonctions natives du navigateur. 'Titre en majuscule' utilise Regex pour mettre en majuscule la première lettre de chaque mot (ignorant souvent les mots mineurs comme 'et' ou 'le'). 'Phrase en majuscule' ne met en majuscule que la première lettre après un signe de ponctuation terminal.",
+  "workedExample": "Entrée : 'hELLO wORLD. hOW ARE YOU ?' Cliquez sur 'Majuscule en début de phrase'. Sortie : 'Hello world. How are you ?'",
+  "resultInterpretation": "Votre texte est parfaitement formaté selon les règles grammaticales du cas sélectionné, prêt à être collé dans un document ou une base de données formelle.",
+  "useCases": [
+    "Nettoyage des données : Normalisation d'une feuille de calcul désordonnée de noms de clients en 'Titre Capitalisé' propre.",
+    "Rédaction publicitaire : Formater parfaitement les titres et sous-titres sans les retaper manuellement.",
+    "Correction d'erreur : récupération instantanée d'un paragraphe tapé alors que la touche Verr Maj était accidentellement activée."
+  ],
+  "tipsAndLimitations": [
+    "Convertir en MAJUSCULES ou en minuscules est une action destructrice—cela efface toute la capitalisation originale. Repasser en casse de phrase ne restaurera pas les noms propres (comme les noms ou les villes).",
+    "Les algorithmes de mise en majuscules du titre essaient d’ignorer les mots secondaires (de, le, dans) mais peuvent ne pas correspondre parfaitement aux guides de style spécifiques (comme le style APA ou Chicago) dans les titres complexes."
+  ],
+  "faq": [
+    {
+      "question": "Qu'est-ce que la casse de phrase ?",
+      "answer": "La casse de phrase ne met en majuscule que la toute première lettre de la phrase, en laissant tous les autres mots (sauf 'I') en minuscules, tout comme un paragraphe standard de livre."
+    },
+    {
+      "answer": "La majuscule au début des mots capitalise la première lettre de presque tous les mots. Elle est généralement utilisée pour les titres de livres, les titres de films et les titres d'articles.",
+      "question": "Qu'est-ce que la casse de titre ?"
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "character-counter",
+    "markdown-editor"
+  ],
+  "cta": "Corrigez la casse de votre texte instantanément !",
+  "disclaimer": "Les algorithmes de mise en majuscules automatisés peuvent ne pas détecter toutes les nuances grammaticales, en particulier en ce qui concerne les noms propres en casse de phrase. Relisez toujours votre texte final.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface du convertisseur de casse de texte affichant les options de majuscules",
+  "ogImageText": "Convertisseur de casse de texte"
+}

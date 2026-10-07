@@ -1,55 +1,54 @@
 {
-  "seoTitle": "Calculadora de diferença de data",
-  "metaDescription": "Calcule a diferença de tempo exata entre duas datas.",
-  "h1": "Calculadora de diferença de data",
-  "primaryKeyword": "calculadora de diferença de data",
+  "seoTitle": "Calculadora de Diferença de Datas - Dias, Semanas e Meses Exatos",
+  "metaDescription": "Calcule a diferença exata entre duas datas. Descubra quantos dias, semanas, meses e anos existem entre uma data de início e de término.",
+  "h1": "Calculadora de Diferença de Datas",
+  "primaryKeyword": "calculadora de diferença de datas",
   "secondaryKeywords": [
-    "Calculadora de diferença de data on-line",
-    "Calculadora de diferença de data grátis",
-    "melhor calculadora de diferença de data"
+    "dias entre datas",
+    "diferença de tempo",
+    "calculadora de datas",
+    "calcular dias"
   ],
-  "slug": "calculadora de diferença de data",
-  "intro": "Encontre a diferença exata entre duas datas em anos, meses, semanas, dias e horas.",
-  "whatIs": "O que é essa ferramenta?",
+  "slug": "calculadora-diferenca-datas",
+  "intro": "Você precisa saber exatamente quanto tempo existe entre duas datas específicas até o dia exato? O planejamento de projetos, o acompanhamento da idade ou a organização de eventos geralmente exigem precisão. Esta calculadora fornece a diferença exata em anos, meses e dias, bem como detalhamentos alternativos em semanas totais ou dias absolutos totais. Elimina o incômodo de virar manualmente as páginas do calendário ou estimar os dias e fornece um cálculo completamente preciso em apenas uma fração de segundo. Esteja você lidando com contratos legais, contratos de aluguel ou marcos pessoais, nossa ferramenta garante que você nunca mais calcule mal as datas importantes.",
+  "whatIs": "A Calculadora de Diferença de Datas é um utilitário digital avançado projetado para calcular o tempo exato decorrido entre uma data de início e uma data de término. O cálculo manual das diferenças de tempo é propenso a erros, especialmente quando você deve levar em conta anos bissextos, comprimentos variados de meses (28, 29, 30 ou 31 dias) e limites de fim de ano. Esta ferramenta lida com todas essas complexas mecânicas de calendário perfeitamente em segundo plano. Ele fornece uma análise clara e multifacetada da duração total, permitindo que você veja a diferença não apenas em um formato padrão de ano-mês-dia, mas também como uma contagem bruta de dias totais ou semanas totais. Essa flexibilidade o torna indispensável para profissionais de RH, contabilidade e gerenciamento de projetos que dependem de prazos rígidos.",
   "howToUse": [
-    "Insira sua data de início no campo de entrada designado.",
-    "Forneça quaisquer parâmetros secundários, como data de término.",
-    "Clique no botão calcular ou enviar para gerar o tempo decorrido exato em dias e semanas.",
-    "Copie ou revise a saída resultante de acordo com suas necessidades."
+    "Selecione sua data de início no primeiro calendário.",
+    "Selecione sua data de término no segundo calendário.",
+    "Opcionalmente, marque 'Incluir data final' se quiser contar tanto o primeiro quanto o último dia.",
+    "Veja a diferença exata exibida instantaneamente em vários formatos."
   ],
-  "howItWorks": "Como funciona",
-  "workedExample": "Exemplos",
-  "resultInterpretation": "Interpretação",
+  "howItWorks": "A ferramenta opera usando matemática de calendário padrão altamente precisa para comparar os carimbos de data/hora das duas datas que você fornece. Em primeiro lugar, ele converte a data de início e a data de término em carimbos de data/hora de milissegundos brutos para determinar a diferença bruta absoluta. Em seguida, ele converte essa diferença novamente em dias e divide esses dias em anos civis, meses e dias com base nas restrições de calendário específicas das datas escolhidas. Crucialmente, ele respeita as regras do calendário gregoriano, o que significa que ele contabiliza naturalmente os anos bissextos e o número exato de dias nos meses específicos abrangidos pelas suas datas. O algoritmo também apresenta um modo de contagem inclusivo, que adiciona exatamente um dia ao total final se você optar por incluir a data de início e de término no cálculo.",
+  "workedExample": "Vejamos um exemplo prático para entender como a calculadora funciona. Suponha que você queira encontrar a diferença exata entre 15 de janeiro de 2023 e 20 de abril de 2024. O calculador primeiro determina os anos completos: de 15 de janeiro de 2023 a 15 de janeiro de 2024 é exatamente 1 ano. Em seguida, conta os meses completos de 15 de janeiro de 2024 a 15 de abril de 2024, que são exatamente 3 meses. Por fim, conta os dias restantes de 15 de abril a 20 de abril, que são 5 dias. A saída principal exibirá instantaneamente 1 ano, 3 meses e 5 dias. Ele também fornecerá a contagem total de dias (461 dias) para fornecer uma imagem completa do tempo decorrido.",
+  "resultInterpretation": "Os resultados são exibidos em vários formatos distintos para que você possa escolher aquele que melhor atende às suas necessidades. O resultado principal mostra o formato mais natural e legível por humanos (Anos, Meses, Dias), ideal para informar a idade de alguém ou descrever a duração de um contrato de locação longo. Os formatos alternativos incluem Dias Totais, Semanas Totais e Meses Totais. A métrica de Dias Totais é especialmente útil para fins de faturamento estrito, cálculo de taxas de juros diárias ou acompanhamento de gerenciamento de projetos onde cada dia conta. Se você selecionou a opção 'Incluir data de término', seus resultados refletirão uma contagem inclusiva, o que é prática padrão ao reservar estadias em hotéis, alugar equipamentos ou calcular a duração de um evento consecutivo.",
   "useCases": [
-    "Planejamento de projeto",
-    "Rastreando dias desde um evento",
-    "Processando rapidamente a data de início em qualquer lugar"
+    "Gestão de Projetos: Calculando a duração exata de uma fase de projeto.",
+    "Folha de Pagamento e RH: Determinando a duração exata do emprego ou licença.",
+    "Marcos Pessoais: Descobrindo exatamente quantos dias você tem de vida."
   ],
   "tipsAndLimitations": [
-    "A hora do dia é ignorada.",
-    "Certifique-se de que suas entradas estejam formatadas corretamente para obter os melhores resultados.",
-    "A ferramenta é totalmente executada no lado do cliente, garantindo que seus dados permaneçam privados."
+    "A calculadora assume dias de calendário padrão e não pula fins de semana ou feriados.",
+    "Os fusos horários não são considerados.",
+    "Marcar a caixa 'Incluir data final' é útil para contagens inclusivas, como reservas de hotel."
   ],
   "faq": [
     {
-      "question": "O uso da Calculadora de Diferença de Data é gratuito?",
-      "answer": "Sim, nossa Calculadora de Diferença de Data é totalmente gratuita."
+      "question": "Esta calculadora leva em conta anos bissextos?",
+      "answer": "Sim, como usa datas de calendário nativas, todos os anos bissextos e variações na duração dos meses são perfeitamente contabilizados."
     },
     {
-      "question": "Isso funciona no celular?",
-      "answer": "Sim, é totalmente responsivo e funciona em todos os dispositivos."
-    },
-    {
-      "question": "Preciso baixar alguma coisa?",
-      "answer": "Não, funciona totalmente no seu navegador sem qualquer instalação."
+      "question": "Por que preciso da opção 'Incluir data final'?",
+      "answer": "Por padrão, a diferença matemática entre segunda e terça-feira é de 1 dia. No entanto, se você estiver contando os dias que trabalhou (segunda e terça), você trabalhou 2 dias. A opção permite a contagem inclusiva."
     }
   ],
   "relatedTools": [
-    "calculadora de idade",
-    "dias entre datas",
-    "dias até a calculadora"
+    "age-calculator",
+    "days-between-dates",
+    "days-until-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calculadora de diferença de data",
-  "ogImageText": "Calculadora de diferença de data"
+  "cta": "Comece a calcular suas diferenças de datas instantaneamente!",
+  "disclaimer": "Esta calculadora é apenas para fins informativos. Embora altamente precisa, você deve verificar manualmente os resultados para contratos críticos.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Captura de tela da Calculadora de Diferença de Datas",
+  "ogImageText": "Calculadora de Diferença de Datas"
 }

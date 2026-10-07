@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Bcrypt Hash Generator - Veilige Wachtwoordhashing",
+  "metaDescription": "Gratis online Bcrypt-generator. Versleutel wachtwoorden veilig met de industrienorm bcrypt-algoritme met aangepaste kostfactoren (werksrondes) voor maximale beveiliging.",
+  "h1": "Bcrypt-hashgenerator",
+  "primaryKeyword": "bcrypt-generator",
+  "secondaryKeywords": [
+    "bcrypt-wachtwoordhash",
+    "genereer bcrypt",
+    "bcrypt online",
+    "wachtwoord-hashingtool"
+  ],
+  "slug": "bcrypt-hashgenerator",
+  "intro": "Een gebruikersauthenticatiesysteem bouwen? Onze gratis Bcrypt-generator biedt de veiligste manier om wachtwoorden te hashen, met automatische salting en een aanpasbare computationele kostfactor.",
+  "whatIs": "De Bcrypt Generator is een geavanceerde beveiligingshulpmiddel dat specifiek is ontworpen voor het hashen van gebruikerswachtwoorden. In tegenstelling tot snelle algoritmes (MD5, SHA) is bcrypt opzettelijk langzaam en genereert het automatisch een unieke willekeurige 'salt' voor elke hash om regenboogtabel-aanvallen te voorkomen.",
+  "howToUse": [
+    "Voer het gewone tekstwachtwoord in het invoerveld in.",
+    "Selecteer uw 'Kosten'-factor (standaard is meestal 10 of 12). Een hogere kost betekent dat het langer duurt om te berekenen.",
+    "Klik op Genereren.",
+    "Het hulpmiddel genereert de volledige bcrypt-string (die de algoritmeversie, kosten, zout en hash bevat)."
+  ],
+  "howItWorks": "Bcrypt is gebaseerd op de Blowfish-coderingsmethode. Het hulpmiddel genereert een willekeurige 128-bits zoutwaarde, voegt deze toe aan het wachtwoord en voert het meerdere keren door de coderingsmethode op basis van de 'Kosten'-factor. Een kost van 10 betekent 2^10 (1.024) iteraties. Een kost van 12 betekent 2^12 (4.096) iteraties.",
+  "workedExample": "Het invoeren van 'password123' met een kost van 10. Het hulpmiddel geeft een tekenreeks die begint met `$2a$10$`, gevolgd door 22 tekens van willekeurige zout, gevolgd door 31 tekens van de werkelijke hash.",
+  "resultInterpretation": "De resulterende string is precies wat je in je database moet opslaan. Wanneer een gebruiker inlogt, leest je server het zout uit deze string, hasht het inlogpoging met datzelfde zout en vergelijkt de resultaten.",
+  "useCases": [
+    "Softwareontwikkeling: Handmatig een veilige beheerderswachtwoord-hash genereren om in een nieuwe database te plaatsen.",
+    "Beveiligingseducatie: Begrijpen hoe zouten en kostenfactoren de uitvoer van een wachtwoordhashfunctie veranderen.",
+    "Systeemherstel: Het genereren van een backdoor-hash om toegang te herwinnen tot een systeem waarvan het beheerderswachtwoord verloren is gegaan."
+  ],
+  "tipsAndLimitations": [
+    "Omdat bcrypt automatisch een willekeurige salt genereert, zal het hashen van exact hetzelfde wachtwoord twee keer resulteren in twee volledig verschillende uitvoerstrings. Dit is een opzettelijke beveiligingsfunctie.",
+    "Bcrypt heeft een maximale wachtwoordinvoerlengte van 72 bytes. Tekens boven deze limiet worden genegeerd."
+  ],
+  "faq": [
+    {
+      "question": "Waarom is bcrypt beter dan SHA-256 voor wachtwoorden?",
+      "answer": "SHA-256 is ontworpen om extreem snel te zijn. Een hacker met een goede grafische kaart kan miljarden SHA-256-wachtwoorden per seconde raden. Bcrypt is opzettelijk traag. Door een hoge kostfactor in te stellen, beperk je de hacker tot het raden van slechts enkele tientallen wachtwoorden per seconde, waardoor brute-force aanvallen onmogelijk worden."
+    },
+    {
+      "question": "Wat is de aanbevolen kostfactor?",
+      "answer": "Naarmate computers sneller worden, gaat de aanbevolen kost omhoog. Een kost van 10 of 12 is tegenwoordig standaard. Het moet hoog genoeg zijn om hackers af te schrikken, maar snel genoeg (bijvoorbeeld 200 milliseconden) zodat het legitieme gebruikers bij het inloggen niet frustreert."
+    }
+  ],
+  "relatedTools": [
+    "password-generator",
+    "strong-password-generator",
+    "sha256-hash-generator"
+  ],
+  "cta": "Hash je wachtwoorden veilig met bcrypt!",
+  "disclaimer": "Generatie vereist intensieve berekeningen door de browser-CPU, afhankelijk van de gekozen kostenfactor. Stringen worden lokaal gegenereerd en nooit verzonden.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Bcrypt-generatorinterface die de kostenfactorinstellingen toont",
+  "ogImageText": "Bcrypt-generator"
+}

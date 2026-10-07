@@ -37,16 +37,16 @@
       }
     },
     "percentage-calculator": {
-      "title": "백분율 계산기",
-      "description": "백분율을 빠르고 정확하게 계산합니다.",
+      "title": "퍼센트 계산기",
+      "description": "퍼센트를 빠르고 쉽게 계산하세요.",
       "ui": {
-        "percentageCalculator": "백분율 계산기",
-        "whatIs": "무엇의",
-        "of": "는",
+        "calculatePercentage": "퍼센트 계산기",
+        "whatIs": "무엇입니까",
+        "of": "% 의",
         "amount": "금액",
-        "calculate": "계산",
+        "calculate": "계산하기",
         "result": "결과",
-        "calculatePercentage": "백분율 계산"
+        "enterValuesToCalculatePerc": "퍼센트를 계산하려면 값을 입력하세요."
       }
     },
     "json-formatter": {
@@ -55,7 +55,19 @@
       "ui": {
         "formatJson": "JSON 포맷",
         "inputJSON": "J S O N을 입력하세요.",
-        "reset": "다시 놓기"
+        "reset": "다시 놓기",
+        "format": "포맷",
+        "minify": "최소화",
+        "copy": "복사",
+        "copied": "복사됨!",
+        "clear": "지우기",
+        "input": "입력 JSON",
+        "inputPlaceholder": "여기에 JSON을 붙여넣으세요...",
+        "output": "출력 JSON",
+        "outputPlaceholder": "포맷된 JSON이 여기에 나타납니다...",
+        "invalidJson": "잘못된 JSON",
+        "syntaxError": "구문 오류",
+        "jsonToolkit": "JSON 툴킷"
       }
     },
     "area-converter": {
@@ -100,13 +112,21 @@
       "ui": {
         "bedtimeCalculator": "취침 시간 계산기",
         "whenDoYouNeedToWakeUp": "몇 시에 일어나야 하나요?",
-        "calculate": "계산",
+        "calculate": "시간 계산하기",
         "toWakeUpAt": "일어나야 하는 시간",
         "youShouldTryToBeAsleepBy": "에 맞추려면 다음 시간까지 잠들도록 해보세요:",
         "6Cycles9h": "6주기 (9시간)",
         "5Cycles75h": "5주기 (7.5시간)",
         "calculationsIncludeAnAverage15MinutesToFallAsleep": "계산에는 잠드는 데 걸리는 평균 15분이 포함됩니다.",
-        "enterYourWakeUpTimeToCal": "기상 시간을 입력하여 취침 시간을 계산하세요."
+        "enterYourWakeUpTimeToCal": "기상 시간을 입력하여 취침 시간을 계산하세요.",
+        "title": "취침 시간 계산기",
+        "description": "상쾌하게 깨어나기 위해 정확히 언제 잠자리에 들어야 하는지 알아보세요.",
+        "iNeedToWakeUpAt": "기상해야 할 시간",
+        "youShouldGoToBedAt": "취침해야 할 시간",
+        "resultsDescription": "이 시간은 잠드는 데 걸리는 15분을 포함하여 90분 주기를 기준으로 합니다.",
+        "cycles": "주기",
+        "hours": "시간",
+        "optimal": "최적"
       }
     },
     "binary-to-decimal": {
@@ -116,7 +136,8 @@
         "binaryToDecimalConverter": "2진수 → 10진수 변환기",
         "binaryNumber": "2진수",
         "decimalResult": "10진수 결과",
-        "eG1010": "예를 들어 1010"
+        "eG1010": "예를 들어 1010",
+        "invalidBinaryNumber": "유효하지 않은 2진수"
       }
     },
     "bmi-calculator": {
@@ -190,7 +211,20 @@
         "unitsToSell": "판매 수량",
         "breakevenRevenue": "손익분기점 매출",
         "costsPricing": "비용 가격",
-        "breakEvenPoint": "손익 분기점"
+        "breakEvenPoint": "손익 분기점",
+        "title": "손익분기점 계산기",
+        "description": "비용을 충당하고 손익분기점에 도달하기 위해 판매해야 하는 제품 수를 계산합니다.",
+        "calculate": "손익분기점 계산",
+        "summary": "손익분기점 요약",
+        "breakEvenUnits": "손익분기점 (판매량)",
+        "breakEvenRevenue": "손익분기점 매출",
+        "contributionMargin": "단위당 공헌이익",
+        "neverBreakEvenError": "단위당 변동비가 판매 가격보다 높거나 같습니다. 영원히 손익분기점에 도달할 수 없습니다 (적자 구조).",
+        "units": "개/단위",
+        "enterDetails": "비용과 판매 가격을 입력하세요.",
+        "variableCost": "단위당 변동비",
+        "sellingPrice": "단위당 판매 가격",
+        "errorImpossible": "손익분기점에 도달하려면 판매 가격이 변동비보다 높아야 합니다."
       }
     },
     "calorie-calculator": {
@@ -240,11 +274,24 @@
         "monthly": "매월",
         "quarterly": "분기별",
         "semiannually": "반기별",
-        "annually": "매년",
+        "annually": "연 1회",
         "interestEarned": "발생 이자",
         "finalBalance": "최종 잔액",
         "interestDetails": "이자 세부정보",
-        "growthBreakdown": "성장 분석"
+        "growthBreakdown": "성장 분석",
+        "title": "복리 계산기",
+        "description": "복리 이자와 정기적인 납입금으로 시간이 지남에 따라 투자가 어떻게 성장하는지 계산하세요.",
+        "initialInvestment": "초기 투자금",
+        "monthlyContribution": "월 납입금",
+        "annualInterestRate": "연 이자율 (%)",
+        "yearsToGrow": "투자 기간 (년)",
+        "semiAnnually": "반기별",
+        "calculate": "성장 계산하기",
+        "summary": "성장 요약",
+        "futureValue": "미래 가치",
+        "totalContributions": "총 투자 금액",
+        "totalInterestEarned": "총 발생 이자",
+        "enterDetails": "예상 성장을 보려면 투자 세부 정보를 입력하세요."
       }
     },
     "concrete-calculator": {
@@ -280,7 +327,13 @@
         "minutes": "분",
         "start": "시작",
         "pause": "일시정지",
-        "reset": "초기화"
+        "reset": "초기화",
+        "title": "카운트다운 타이머",
+        "description": "간단하고 사용하기 쉬운 온라인 카운트다운 타이머입니다. 시간, 분, 초를 설정하세요.",
+        "hours": "시간",
+        "초": "초",
+        "seconds": "초",
+        "timeUp": "시간 종료!"
       }
     },
     "css-minifier": {
@@ -301,7 +354,11 @@
         "amount": "금액",
         "from": "변환 전",
         "to": "변환 후",
-        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "참고: 이 환율은 데모 목적으로만 제공되는 고정된 예상값입니다."
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "참고: 이 환율은 데모 목적으로만 제공되는 고정된 예상값입니다.",
+        "title": "환율 계산기",
+        "description": "실시간 환율로 전 세계 통화 간 변환을 계산합니다.",
+        "convertedAmount": "변환된 금액",
+        "lastUpdated": "최근 업데이트"
       }
     },
     "data-storage-converter": {
@@ -318,10 +375,10 @@
       "description": "",
       "ui": {
         "dateDifferenceCalculator": "날짜 차이 계산기",
-        "startDate": "시작 날짜",
-        "endDate": "종료 날짜",
+        "startDate": "시작일",
+        "endDate": "종료일",
         "calculateDifference": "차이 계산",
-        "timeDifference": "시간 차이:",
+        "timeDifference": "시간 차이",
         "years": "년",
         "months": "개월",
         "days": "일",
@@ -330,7 +387,21 @@
         "weeks": "주,",
         "copy": "복사",
         "reset": "초기화",
-        "selectDatesToCalculate": "계산할 날짜 선택"
+        "selectDatesToCalculate": "차이를 계산하려면 두 날짜를 모두 선택하세요.",
+        "dateDifferenceTitle": "날짜 차이 계산기",
+        "dateDifferenceDesc": "두 날짜 사이의 정확한 일, 주, 월, 년 수를 계산합니다.",
+        "includeEndDay": "종료일 포함 (+1일)",
+        "includeEndDayDesc": "계산에 하루를 추가합니다.",
+        "exactDifference": "정확한 차이",
+        "yearsLabel": "년",
+        "monthsLabel": "월",
+        "daysLabel": "일",
+        "endDateBeforeStart": "참고: 종료일이 시작일보다 이전입니다.",
+        "totalDays": "총 일수",
+        "inWeeks": "주 단위 환산",
+        "weeksShort": "주",
+        "daysShort": "일",
+        "approxMonths": "총 개월 수"
       }
     },
     "days-between-dates": {
@@ -338,8 +409,8 @@
       "description": "",
       "ui": {
         "daysBetweenDates": "날짜 사이의 일수",
-        "startDate": "시작 날짜",
-        "endDate": "종료 날짜",
+        "startDate": "시작일",
+        "endDate": "종료일",
         "includeStartDateInCalculation": "계산에 시작 날짜 포함",
         "includeEndDateInCalculation": "계산에 종료 날짜 포함",
         "calculateDays": "일수 계산",
@@ -347,7 +418,16 @@
         "days": "일",
         "copy": "복사",
         "reset": "초기화",
-        "selectDatesToCalculate": "계산할 날짜 선택"
+        "selectDatesToCalculate": "차이를 계산하려면 두 날짜를 모두 선택하세요.",
+        "title": "날짜 사이의 일수",
+        "description": "두 날짜 사이의 정확한 일, 평일 및 주말 수를 계산합니다.",
+        "includeEndDay": "종료일 포함 (+1일)",
+        "includeEndDayDesc": "계산에 하루를 추가합니다.",
+        "totalDays": "총 일수",
+        "daysLabel": "일",
+        "endDateBeforeStart": "참고: 종료일이 시작일보다 이전입니다.",
+        "weekdays": "평일 (월~금)",
+        "weekends": "주말"
       }
     },
     "days-until-calculator": {
@@ -363,7 +443,19 @@
         "days": "일",
         "copy": "복사",
         "reset": "초기화",
-        "selectAFutureDate": "미래 날짜를 선택하세요"
+        "selectAFutureDate": "미래 날짜를 선택하세요",
+        "title": "남은 일수 계산기",
+        "description": "특정 미래 날짜까지의 정확한 일, 시간, 분, 초를 카운트다운합니다.",
+        "todayIs": "오늘은",
+        "targetDate": "목표일",
+        "timeUntil": "목표까지 남은 시간",
+        "timeSince": "목표 이후 지난 시간",
+        "dayLabel": "일",
+        "dayLabelSingular": "일",
+        "hoursLabel": "시간",
+        "minutesLabel": "분",
+        "secondsLabel": "초",
+        "selectTargetDate": "카운트다운을 보려면 목표 날짜를 선택하세요."
       }
     },
     "decimal-to-binary": {
@@ -373,7 +465,8 @@
         "decimalToBinaryConverter": "10진수 → 2진수 변환기",
         "decimalNumber": "10진수",
         "binaryResult": "2진수 결과",
-        "eG10": "예를 들어 10"
+        "eG10": "예를 들어 10",
+        "invalidDecimalNumber": "유효하지 않은 10진수"
       }
     },
     "decking-calculator": {
@@ -404,10 +497,20 @@
         "type": "유형",
         "off": "% 할인",
         "fixedAmountOff": "정액 할인",
-        "youSave": "절약 금액",
+        "youSave": "절약 금액:",
         "finalPrice": "최종 가격",
         "discountDetails": "할인내역",
-        "priceBreakdown": "가격 내역"
+        "priceBreakdown": "가격 내역",
+        "title": "할인 계산기",
+        "description": "할인 및 선택적 세금을 적용한 후 항목의 최종 가격을 계산합니다.",
+        "discountPercentage": "할인율 (%)",
+        "taxPercentage": "세율 (%)",
+        "optional": "선택 사항",
+        "calculate": "할인 계산하기",
+        "summary": "가격 요약",
+        "discountAmount": "할인 금액",
+        "taxAmount": "세금 금액",
+        "enterDetails": "계산하려면 원래 가격과 할인율을 입력하세요."
       }
     },
     "emi-calculator": {
@@ -418,11 +521,24 @@
         "loanAmountPrincipal": "대출 금액 (원금)",
         "annualRate": "연이율 (%)",
         "tenureMonths": "대출 기간 (개월)",
-        "monthlyEmi": "월별 EMI",
+        "monthlyEmi": "월 상환액 (EMI)",
         "totalInterestPayable": "총 납부 이자",
         "totalPaymentPrincipalInterest": "총 납부액 (원금 + 이자)",
         "eMIDetails": "EMI 세부사항",
-        "paymentSummary": "결제 요약"
+        "paymentSummary": "결제 요약",
+        "title": "EMI 계산기",
+        "description": "주택, 자동차 또는 개인 대출에 대한 균등 월 상환액(EMI)을 계산하세요.",
+        "loanAmount": "대출 금액",
+        "interestRate": "이자율 (%)",
+        "loanTerm": "대출 기간",
+        "years": "년",
+        "months": "개월",
+        "calculate": "EMI 계산하기",
+        "emiSummary": "EMI 요약",
+        "principalAmount": "원금",
+        "totalInterest": "총 이자",
+        "totalPayment": "총 상환액 (원금 + 이자)",
+        "enterDetails": "요약을 보려면 대출 세부 정보를 입력하세요."
       }
     },
     "fence-calculator": {
@@ -461,7 +577,9 @@
       "description": "",
       "ui": {
         "fractionCalculator": "분수 계산기",
-        "decimal": "소수:"
+        "decimal": "소수:",
+        "error": "오류",
+        "divByZero": "0으로 나누기"
       }
     },
     "gpa-calculator": {
@@ -500,12 +618,12 @@
       "title": "신장 변환기",
       "description": "",
       "ui": {
-        "heightConverter": "신장 변환기",
+        "heightConverter": "키 변환기",
         "metricCentimeters": "미터법 (센티미터)",
         "cm": "cm",
-        "imperialFeetInches": "야드파운드법 (피트 및 인치)",
-        "ft": "피트",
-        "in": "~에"
+        "imperialFeetInches": "야드파운드법 (피트 & 인치)",
+        "ft": "ft",
+        "in": "in"
       }
     },
     "hex-to-decimal": {
@@ -515,7 +633,8 @@
         "hexToDecimalConverter": "16진수 → 10진수 변환기",
         "hexadecimalNumber": "16진수",
         "decimalResult": "10진수 결과",
-        "eG1AOrFFFFFF": "예를 들어 1A 또는 FFFFFF"
+        "eG1AOrFFFFFF": "예를 들어 1A 또는 FFFFFF",
+        "invalidHexString": "잘못된 16진수 문자열"
       }
     },
     "hourly-to-salary-calculator": {
@@ -531,7 +650,17 @@
         "monthly": "월급",
         "yearlySalary": "연봉",
         "hourlyDetails": "시간별 세부정보",
-        "salaryBreakdown": "급여 내역"
+        "salaryBreakdown": "급여 상세",
+        "title": "시급 환산기",
+        "description": "시급을 일급, 주급, 월급, 연봉으로 변환하여 확인하세요.",
+        "hourlyRate": "시급",
+        "workSchedule": "근무 일정",
+        "hoursPerWeek": "주당 근무 시간",
+        "daysPerWeek": "주당 근무 일수",
+        "weeksPerYear": "연간 근무 주수",
+        "annualSalary": "연간 급여(연봉)",
+        "biWeekly": "격주",
+        "enterDetails": "상세 내역을 보려면 시급을 입력하세요."
       }
     },
     "html-encode-decode": {
@@ -561,15 +690,22 @@
       "description": "",
       "ui": {
         "investmentCalculator": "투자 계산기",
-        "initialInvestment": "초기 투자금",
-        "monthlyContribution": "월별 납입액",
+        "initialInvestment": "초기 투자 금액",
+        "monthlyContribution": "월별 투자 금액",
         "expectedReturn": "예상 수익률 (%)",
         "yearsToGrow": "투자 기간 (년)",
         "totalContributions": "총 납입액",
         "interestEarned": "발생 이자",
         "futureValue": "미래 가치",
         "investmentPlan": "투자 계획",
-        "growthProjection": "성장 예측"
+        "growthProjection": "성장 예측",
+        "title": "투자 계산기",
+        "description": "복리를 사용하여 시간이 지남에 따라 투자가 얼마나 성장하는지 계산합니다.",
+        "result": "결과",
+        "totalValue": "총 가치",
+        "totalInvested": "총 투자 금액",
+        "totalInterest": "총 이자",
+        "enterDetails": "투자의 세부 정보를 입력하여 성장을 확인하세요."
       }
     },
     "js-minifier": {
@@ -600,7 +736,9 @@
       "ui": {
         "lengthConverter": "길이 변환기",
         "from": "변환 전",
-        "to": "변환 후"
+        "to": "변환 후",
+        "title": "길이 변환기",
+        "description": "미터, 피트, 인치 및 기타 길이 단위 간에 변환합니다."
       }
     },
     "loan-calculator": {
@@ -609,13 +747,23 @@
       "ui": {
         "loanCalculator": "대출 계산기",
         "loanAmount": "대출 금액",
-        "interestRate": "이자율 (%)",
+        "interestRate": "이자율 (연이율)",
         "loanTermYears": "대출 기간 (년)",
-        "monthlyPayment": "월 납입액",
+        "monthlyPayment": "월 상환액",
         "totalInterest": "총 이자",
         "totalCostOfLoan": "총 대출 비용",
         "loanDetails": "대출내역",
-        "paymentBreakdown": "지불 내역"
+        "paymentBreakdown": "지불 내역",
+        "title": "대출 계산기",
+        "description": "월 상환액, 총 이자 및 대출의 총 비용을 계산합니다.",
+        "loanTerm": "대출 기간",
+        "years": "년",
+        "months": "개월",
+        "calculate": "대출 계산",
+        "loanSummary": "대출 요약",
+        "totalPrincipal": "총 원금",
+        "totalPayment": "총 상환액",
+        "enterDetails": "요약을 보려면 대출 세부 정보를 입력하세요."
       }
     },
     "lorem-ipsum-generator": {
@@ -656,7 +804,17 @@
         "markup": "마크업 (%)",
         "profit": "이익",
         "sellingPrice": "판매 가격",
-        "pricingDetails": "가격 세부정보"
+        "pricingDetails": "가격 세부정보",
+        "title": "마크업 계산기",
+        "단가": "원가",
+        "description": "원가와 마크업 비율을 바탕으로 판매 가격, 매출 총 이익 및 이익률을 계산합니다.",
+        "markupPercentage": "마크업 비율(%)",
+        "calculate": "계산하기",
+        "summary": "가격 요약",
+        "profitMargin": "이익률(마진)",
+        "grossProfit": "매출 총 이익",
+        "grossLoss": "매출총손실",
+        "enterDetails": "원가와 마크업을 입력하세요."
       }
     },
     "md5generator": {
@@ -674,14 +832,25 @@
       "description": "",
       "ui": {
         "monthsBetweenDates": "날짜 사이의 개월 수",
-        "startDate": "시작 날짜",
-        "endDate": "종료 날짜",
+        "startDate": "시작일",
+        "endDate": "종료일",
         "calculateMonths": "개월 수 계산",
         "months": "개월",
         "days": "일",
         "copy": "복사",
         "reset": "초기화",
-        "selectDatesToCalculate": "계산할 날짜 선택"
+        "selectDatesToCalculate": "차이를 계산하려면 두 날짜를 모두 선택하세요.",
+        "title": "날짜 사이의 개월 수",
+        "description": "두 날짜 사이에 전체 개월 수와 남은 일수가 정확히 얼마나 되는지 계산합니다.",
+        "includeEndDay": "종료일 포함 (+1일)",
+        "includeEndDayDesc": "계산에 하루를 추가합니다.",
+        "totalMonths": "총 개월 수",
+        "monthsLabel": "개월",
+        "fullMonthsLabel": "전체 개월",
+        "extraDaysLabel": "남은 일수",
+        "equivalentTo": "일수 환산",
+        "daysLabel": "일",
+        "endDateBeforeStart": "참고: 종료일이 시작일보다 이전입니다."
       }
     },
     "mortgage-calculator": {
@@ -690,13 +859,22 @@
       "ui": {
         "mortgageCalculator": "주택담보대출 계산기",
         "homePrice": "주택 가격",
-        "downPayment": "계약금",
+        "downPayment": "선수금",
         "interestRate": "이자율 (%)",
         "loanTermYears": "대출 기간 (년)",
         "principalLoanAmount": "대출 원금",
-        "monthlyPayment": "월 납입액",
+        "monthlyPayment": "월 상환액",
         "propertyDetails": "부동산 세부정보",
-        "mortgageSummary": "모기지 요약"
+        "mortgageSummary": "대출 요약",
+        "title": "주택 담보 대출 계산기",
+        "description": "월 주택 담보 대출 상환액과 총 이자를 쉽게 계산하세요.",
+        "homeValue": "주택 가격",
+        "calculate": "대출 계산하기",
+        "principalAndInterestOnly": "원금 및 이자만 해당",
+        "loanAmount": "대출 금액",
+        "totalInterest": "총 이자",
+        "totalCostOfLoan": "대출의 총 비용",
+        "enterDetails": "요약을 보려면 대출 세부 정보를 입력하세요."
       }
     },
     "mulch-calculator": {
@@ -801,7 +979,13 @@
         "absoluteChange": "절대 변화량",
         "decrease": "감소량",
         "values": "가치",
-        "decreaseBreakdown": "고장 감소"
+        "decreaseBreakdown": "고장 감소",
+        "title": "퍼센트 감소 계산기",
+        "description": "초기값에서 최종값으로의 퍼센트(백분율) 감소를 계산합니다.",
+        "result": "결과",
+        "percentageDecrease": "감소율(%)",
+        "absoluteDecrease": "절대 차이",
+        "enterDetails": "감소율을 계산하려면 값을 입력하세요."
       }
     },
     "percentage-increase-calculator": {
@@ -814,7 +998,13 @@
         "absoluteChange": "절대 변화량",
         "change": "변화량",
         "values": "가치",
-        "increaseBreakdown": "고장 증가"
+        "increaseBreakdown": "고장 증가",
+        "title": "퍼센트 증가 계산기",
+        "description": "초기값에서 최종값으로의 퍼센트(백분율) 증가를 계산합니다.",
+        "result": "결과",
+        "percentageIncrease": "증가율(%)",
+        "absoluteIncrease": "절대 차이",
+        "enterDetails": "증가율을 계산하려면 값을 입력하세요."
       }
     },
     "plant-spacing-calculator": {
@@ -838,7 +1028,14 @@
         "work25m": "작업 (25분)",
         "break5m": "휴식 (5분)",
         "reset": "초기화",
-        "start": "시작"
+        "start": "시작",
+        "title": "뽀모도로 타이머",
+        "단축": "뽀모도로",
+        "description": "뽀모도로 기법을 사용하여 생산성을 높이세요.",
+        "pomodoro": "뽀모도로",
+        "shortBreak": "짧은 휴식",
+        "longBreak": "긴 휴식",
+        "completed": "완료"
       }
     },
     "profit-margin-calculator": {
@@ -848,10 +1045,20 @@
         "profitMarginCalculator": "이익률 계산기",
         "revenueSellingPrice": "매출 (판매 가격)",
         "costOfGoodsSold": "매출원가",
-        "grossProfit": "매출총이익",
+        "grossProfit": "매출 총 이익",
         "margin": "이익률",
         "financialDetails": "재무 세부정보",
-        "profitability": "수익성"
+        "profitability": "수익성",
+        "title": "이익률 계산기",
+        "description": "매출 총 이익, 이익률 및 마진을 쉽게 계산하세요.",
+        "cost": "매출 원가 (COGS)",
+        "revenue": "매출 (판매 가격)",
+        "calculate": "이익률 계산하기",
+        "summary": "이익 요약",
+        "profitMargin": "이익률 (마진)",
+        "grossLoss": "매출총손실",
+        "markup": "마크업 (Markup)",
+        "enterDetails": "원가와 매출을 입력하세요."
       }
     },
     "qr-code-generator": {
@@ -889,7 +1096,7 @@
       "description": "",
       "ui": {
         "ratioCalculatorAbCd": "비율 계산기 (A:B = C:D)",
-        "enter3ValuesToCalculateThe4thMissingValue": "3개의 값을 입력하여 누락된 4번째 값을 계산하세요."
+        "enter3ValuesToCalculateThe4thMissingValue": "누락된 4번째 값을 계산하려면 3개의 값을 입력하세요"
       }
     },
     "roi-calculator": {
@@ -902,7 +1109,23 @@
         "profit": "이익",
         "roi": "ROI​",
         "investmentDetails": "투자내역",
-        "returnOnInvestment": "투자 수익"
+        "returnOnInvestment": "투자 수익률(ROI)",
+        "title": "ROI 계산기",
+        "description": "투자 수익률(ROI)을 계산하여 투자의 수익성을 평가합니다.",
+        "amountInvested": "투자 금액 (비용)",
+        "amountReturned": "회수 금액 (수익)",
+        "investmentTimePeriod": "투자 기간",
+        "optional": "선택 사항",
+        "years": "년",
+        "calculate": "ROI 계산하기",
+        "summary": "ROI 요약",
+        "netProfit": "순이익",
+        "netLoss": "순손실",
+        "annualizedRoi": "연환산 ROI",
+        "enterDetails": "투자 금액과 회수 금액을 입력하세요.",
+        "investmentAmount": "투자 금액",
+        "returnAmount": "회수 금액",
+        "investmentGain": "투자 손익"
       }
     },
     "roman-numeral-converter": {
@@ -912,7 +1135,11 @@
         "romanNumeralConverter": "로마 숫자 변환기",
         "numberRoman": "숫자 → 로마 숫자",
         "romanNumber": "로마 숫자 → 숫자",
-        "result": "결과"
+        "result": "결과",
+        "rangeError": "숫자는 1에서 3999 사이여야 합니다",
+        "invalidRoman": "잘못된 로마 숫자",
+        "numberInputLabel": "숫자 (1 - 3999)",
+        "romanNumeralLabel": "로마 숫자"
       }
     },
     "running-distance-calculator": {
@@ -935,14 +1162,14 @@
       "description": "",
       "ui": {
         "salaryCalculator": "급여 계산기",
-        "salaryAmount": "급여 금액",
+        "salaryAmount": "급여액",
         "per": "단위",
         "hour": "시간",
         "day": "일",
         "week": "주",
         "month": "개월",
         "year": "년",
-        "hoursPerWeek": "주당 근무시간",
+        "hoursPerWeek": "주당 근무 시간",
         "calculate": "계산",
         "hourly": "시급",
         "daily": "일급",
@@ -950,7 +1177,20 @@
         "monthly": "월급",
         "yearly": "연봉",
         "incomeDetails": "소득 세부정보",
-        "enterYourIncomeDetailsToS": "요약을 보려면 소득 세부정보를 입력하세요."
+        "enterYourIncomeDetailsToS": "요약을 보려면 소득 세부정보를 입력하세요.",
+        "title": "급여 계산기",
+        "기description": "급여를 시급, 일급, 주급, 월급, 연봉으로 변환하여 확인하세요.",
+        "payFrequency": "지급 주기",
+        "biWeekly": "격주",
+        "semiMonthly": "월 2회",
+        "quarterly": "분기별",
+        "annually": "연봉",
+        "workSchedule": "근무 일정",
+        "daysPerWeek": "주당 근무 일수",
+        "salaryBreakdown": "급여 상세",
+        "annualSalary": "연간 급여(연봉)",
+        "enterDetails": "상세 내역을 보려면 정보를 입력하세요.",
+        "description": "급여를 시급, 일급, 주급, 월급, 연봉으로 변환하여 확인하세요."
       }
     },
     "salary-to-hourly-calculator": {
@@ -958,12 +1198,25 @@
       "description": "",
       "ui": {
         "salaryToHourlyCalculator": "연봉 → 시급 계산기",
-        "annualSalary": "연봉",
+        "annualSalary": "연간 급여(연봉)",
         "hoursWeek": "시간 / 주",
         "weeksYear": "주 / 년",
         "hourlyWage": "시급",
         "salaryDetails": "급여 세부사항",
-        "equivalentWage": "동등한 임금"
+        "equivalentWage": "동등한 임금",
+        "title": "연봉 시급 환산기",
+        "description": "연봉을 시급, 일급, 주급, 월급으로 변환하여 확인하세요.",
+        "workSchedule": "근무 일정",
+        "hoursPerWeek": "주당 근무 시간",
+        "daysPerWeek": "주당 근무 일수",
+        "weeksPerYear": "연간 근무 주수",
+        "salaryBreakdown": "급여 상세",
+        "hourlyRate": "시급",
+        "monthly": "월급",
+        "biWeekly": "격주",
+        "weekly": "주급",
+        "daily": "일급",
+        "enterDetails": "상세 내역을 보려면 연봉을 입력하세요."
       }
     },
     "sha1generator": {
@@ -1000,7 +1253,19 @@
         "interestEarned": "발생 이자",
         "finalBalance": "최종 잔액",
         "interestDetails": "이자 세부정보",
-        "growthBreakdown": "성장 분석"
+        "growthBreakdown": "성장 분석",
+        "title": "단리 계산기",
+        "대": "일정 기간 동안 원금에 대해 발생하거나 지불된 단리를 계산하세요.",
+        "description": "대출 또는 저축의 단리를 쉽게 계산하세요.",
+        "annualInterestRate": "연 이자율 (%)",
+        "timePeriod": "기간",
+        "calculate": "이자 계산하기",
+        "summary": "이자 요약",
+        "totalInterest": "총 이자",
+        "totalAmount": "원리금 합계",
+        "principalPlusInterest": "원금 + 이자",
+        "enterDetails": "원금, 이자율, 기간을 입력하세요.",
+        "interestRate": "연 이자율 (%)"
       }
     },
     "sleep-calculator": {
@@ -1008,15 +1273,26 @@
       "description": "",
       "ui": {
         "sleepCalculator": "수면 계산기",
-        "iWantToWakeUpAt": "다음 시간에 일어나고 싶습니다:",
-        "calculate": "계산",
+        "iWantToWakeUpAt": "기상하고 싶은 시간",
+        "calculate": "계산하기",
         "toWakeUpRefreshedAt": "상쾌하게 일어나려면",
         "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": "다음 시간 중 하나에 잠들도록 해보세요 (잠드는 데 15분 포함):",
         "6Cycles9h": "6주기 (9시간)",
         "5Cycles75h": "5주기 (7.5시간)",
         "4Cycles6h": "4주기 (6시간)",
         "3Cycles45h": "3주기 (4.5시간)",
-        "enterWakeTimeToCalculateS": "기상 시간을 입력하여 수면 시간을 계산하세요."
+        "enterWakeTimeToCalculateS": "기상 시간을 입력하여 수면 시간을 계산하세요.",
+        "title": "수면 계산기",
+        "description": "90분 수면 주기를 기반으로 최적의 수면 시간을 계산합니다.",
+        "wakeAt": "기상 시간",
+        "sleepAt": "취침 시간",
+        "iWillGoToBedAt": "취침할 시간",
+        "youShouldGoToBedAt": "취침해야 할 시간",
+        "youShouldWakeUpAt": "기상해야 할 시간",
+        "resultsDescription": "이 시간은 잠드는 데 걸리는 15분을 포함하여 90분 주기를 기준으로 합니다.",
+        "cycles": "주기",
+        "hours": "시간",
+        "optimal": "최적"
       }
     },
     "speed-converter": {
@@ -1089,7 +1365,10 @@
         "lap": "랩",
         "reset": "초기화",
         "laps": "랩",
-        "noLapsRecordedYet": "아직 기록된 랩이 없습니다."
+        "noLapsRecordedYet": "아직 기록된 랩이 없습니다.",
+        "title": "온라인 스톱워치",
+        "description": "랩 타임 기능이 있는 간단하고 정확한 온라인 스톱워치입니다.",
+        "clearLaps": "랩 지우기"
       }
     },
     "tax-calculator": {
@@ -1142,12 +1421,22 @@
         "firstTime": "첫 번째 시간",
         "secondTime": "두 번째 시간",
         "calculateAbsoluteDifference": "절대 차이 계산",
-        "difference": "차이:",
+        "difference": "시간 차이",
         "h": "시간",
         "m": "분",
         "copy": "복사",
         "reset": "초기화",
-        "selectTimesToCompare": "비교할 시간을 선택하세요"
+        "selectTimesToCompare": "비교할 시간을 선택하세요",
+        "title": "시간 차이 계산기",
+        "description": "두 특정 날짜와 시간 사이의 정확한 시간 차이를 초 단위까지 계산합니다.",
+        "startDateTime": "시작 날짜 및 시간",
+        "endDateTime": "종료 날짜 및 시간",
+        "daysLabel": "일",
+        "hoursLabel": "시간",
+        "minutesLabel": "분",
+        "secondsLabel": "초",
+        "reversedNote": "참고: 종료 시간이 시작 시간보다 이전입니다. 절대적인 차이를 보여줍니다.",
+        "selectDatesToCalculate": "차이를 계산하려면 두 날짜와 시간을 모두 선택하세요."
       }
     },
     "time-duration-calculator": {
@@ -1164,7 +1453,16 @@
         "totalTimeInMinutes": "총 시간(분):",
         "copy": "복사",
         "reset": "초기화",
-        "selectStartAndEndTimes": "시작 및 종료 시간 선택"
+        "selectStartAndEndTimes": "시작 및 종료 시간 선택",
+        "title": "소요 시간 계산기",
+        "description": "두 시간 사이에 몇 시간 몇 분이 경과했는지 정확히 계산합니다.",
+        "duration": "소요 시간",
+        "hLabel": "시간",
+        "mLabel": "분",
+        "decimalHoursLabel": "소수점 시간",
+        "totalMinutesLabel": "총 분",
+        "crossesMidnightNote": "참고: 종료 시간이 시작 시간보다 이전입니다(자정 경과로 간주).",
+        "selectTimesToCalculate": "소요 시간을 계산하려면 두 시간을 모두 선택하세요."
       }
     },
     "time-zone-converter": {
@@ -1176,7 +1474,18 @@
         "fromTimeZoneRelative": "변환 전 시간대 (상대)",
         "toTimeZone": "변환 후 시간대",
         "convert": "변환",
-        "selectDateAndTimeZonesTo": "비교할 날짜 및 시간대를 선택하세요."
+        "selectDateAndTimeZonesTo": "비교할 날짜 및 시간대를 선택하세요.",
+        "title": "시간대 변환기",
+        "description": "여러 시간대 간의 시간을 정확하게 변환합니다.",
+        "fromZone": "변환 전 시간대",
+        "toZone": "변환 후 시간대",
+        "dateAndTime": "날짜 및 시간",
+        "swap": "바꾸기",
+        "convertedTime": "변환된 시간",
+        "hoursAhead": "시간 빠름",
+        "hoursBehind": "시간 느림",
+        "sameTime": "같은 시간",
+        "invalidInput": "유효한 날짜를 입력하세요."
       }
     },
     "tip-calculator": {
@@ -1193,7 +1502,22 @@
         "totalTip": "총 팁:",
         "totalBill": "총 청구 금액:",
         "billDetails": "청구서 세부정보",
-        "totalBreakdown": "총 내역"
+        "totalBreakdown": "총 내역",
+        "title": "팁 계산기",
+        "description": "팁을 계산하고 친구들과 요금을 쉽게 나누세요.",
+        "selectTip": "팁 % 선택",
+        "custom": "직접 입력",
+        "totalAmount": "총 금액",
+        "splitBetween": "분담 인원:",
+        "people": "명",
+        "tipPerPerson": "팁 / 인당",
+        "totalPerPerson": "총액 / 인당",
+        "payingFullAmount": "전체 금액을 결제합니다.",
+        "enterDetails": "계산할 세부 정보를 입력하세요.",
+        "tipPercentage": "팁 비율(%)",
+        "perPerson": "/ 명",
+        "totalTipOverall": "총 팁 금액",
+        "totalBillOverall": "총 청구 금액"
       }
     },
     "unix-timestamp-converter": {
@@ -1206,7 +1530,22 @@
         "dateToTimestamp": "날짜 → 타임스탬프",
         "localDateTime": "현지 날짜 및 시간",
         "eG1700000000": "예를 들어 1700000000",
-        "result": "결과"
+        "result": "결과",
+        "title": "Unix 타임스탬프 변환기",
+        "description": "Unix 타임스탬프를 사람이 읽을 수 있는 날짜로 변환하거나 그 반대로 변환합니다.",
+        "currentEpoch": "현재 Unix 타임스탬프",
+        "copy": "복사",
+        "copied": "복사됨!",
+        "tsToDate": "타임스탬프에서 날짜로",
+        "enterTimestamp": "타임스탬프 입력",
+        "gmtTime": "GMT 시간",
+        "localTime": "현지 시간",
+        "invalidTimestamp": "유효한 타임스탬프를 입력하세요.",
+        "dateToTs": "날짜에서 타임스탬프로",
+        "enterDate": "날짜 및 시간 입력",
+        "secondsLabel": "타임스탬프 (초)",
+        "msLabel": "밀리초",
+        "invalidDate": "유효한 날짜를 입력하세요."
       }
     },
     "url-encode-decode": {
@@ -1255,7 +1594,17 @@
         "5Cycles75h": "5주기 (7.5시간)",
         "6Cycles9h": "6주기 (9시간)",
         "readyForBed": "침대 준비",
-        "clickTheButtonWhenYouReG": "잠자리에 들 때 버튼을 클릭하세요."
+        "clickTheButtonWhenYouReG": "잠자리에 들 때 버튼을 클릭하세요.",
+        "title": "기상 시간 계산기",
+        "description": "상쾌함을 느끼기 위해 정확히 언제 일어나야 하는지 알아보세요.",
+        "sleepNow": "지금 당장 잘 거예요",
+        "sleepAtTime": "또는 다음 시간에 잘 거예요",
+        "calculate": "시간 계산하기",
+        "youShouldWakeUpAt": "기상해야 할 시간",
+        "resultsDescription": "이 시간은 잠드는 데 걸리는 15분을 포함하여 90분 주기를 기준으로 합니다.",
+        "cycles": "주기",
+        "hours": "시간",
+        "optimal": "최적"
       }
     },
     "water-intake-calculator": {
@@ -1278,14 +1627,25 @@
       "description": "",
       "ui": {
         "weeksBetweenDates": "날짜 사이의 주 수",
-        "startDate": "시작 날짜",
-        "endDate": "종료 날짜",
+        "startDate": "시작일",
+        "endDate": "종료일",
         "calculateWeeks": "주 수 계산",
         "weeks": "주",
         "days": "일",
         "copy": "복사",
         "reset": "초기화",
-        "selectDatesToCalculate": "계산할 날짜 선택"
+        "selectDatesToCalculate": "차이를 계산하려면 두 날짜를 모두 선택하세요.",
+        "title": "날짜 사이의 주",
+        "description": "두 날짜 사이에 전체 주(week)와 남은 일수가 정확히 얼마나 되는지 계산합니다.",
+        "includeEndDay": "종료일 포함 (+1일)",
+        "includeEndDayDesc": "계산에 하루를 추가합니다.",
+        "totalWeeks": "총 주(Weeks)",
+        "weeksLabel": "주",
+        "fullWeeksLabel": "전체 주",
+        "extraDaysLabel": "남은 일수",
+        "equivalentTo": "일수 환산",
+        "daysLabel": "일",
+        "endDateBeforeStart": "참고: 종료일이 시작일보다 이전입니다."
       }
     },
     "weight-converter": {
@@ -1294,7 +1654,9 @@
       "ui": {
         "weightConverter": "무게 변환기",
         "from": "변환 전",
-        "to": "변환 후"
+        "to": "변환 후",
+        "title": "무게 변환기",
+        "description": "킬로그램, 파운드, 온스, 그램 및 기타 무게 단위 간에 변환합니다."
       }
     },
     "word-counter": {
@@ -1329,7 +1691,15 @@
       "title": "세계 시간 변환기",
       "description": "",
       "ui": {
-        "worldTimeConverter": "세계 시간 변환기"
+        "worldTimeConverter": "세계 시간 변환기",
+        "title": "세계 시간 변환기",
+        "초": "여러 시간대의 시간을 즉시 변환합니다. 전 세계 현재 시간을 비교하거나 특정 시간을 선택하세요.",
+        "description": "여러 시간대의 시간을 즉시 변환합니다. 전 세계 현재 시간을 비교하거나 특정 시간을 선택하세요.",
+        "liveTime": "현재 시간",
+        "customTime": "사용자 지정 시간",
+        "addZone": "시간대 추가",
+        "remove": "제거",
+        "allZonesAdded": "모든 시간대 추가됨"
       }
     },
     "xml-formatter": {
@@ -1358,7 +1728,8 @@
   },
   "Search": {
     "placeholder": "도구 검색...",
-    "noResults": "\"{query}\"에 해당하는 도구를 찾을 수 없습니다."
+    "noResults": "\"{query}\"에 해당하는 도구를 찾을 수 없습니다.",
+    "tryADifferentSearchTermOr": "다른 검색어를 시도하거나 아래 범주를 찾아보십시오."
   },
   "Home": {
     "metaTitle": "무료 온라인 도구 및 계산기",
@@ -1730,14 +2101,17 @@
   "layout": {},
   "panels": {},
   "Page": {
-    "whatIs": "{title}이 무엇인가요?",
+    "whatIs": "{title}란 무엇인가요?",
     "howToUse": "{title} 사용 방법",
-    "example": "예",
+    "example": "예시",
     "useCases": "일반적인 사용 사례",
-    "howItWorks": "작동 방식",
+    "howItWorks": "작동 원리",
     "faq": "자주 묻는 질문",
     "readyToStart": "시작할 준비가 되셨나요?",
-    "useToolNow": "지금 도구 사용"
+    "useToolNow": "지금 도구 사용하기",
+    "resultInterpretation": "결과 이해하기",
+    "tipsAndLimitations": "팁 및 정확도 참고 사항",
+    "disclaimer": "면책 조항"
   },
   "Categories": {
     "developerTools": "개발자 도구",

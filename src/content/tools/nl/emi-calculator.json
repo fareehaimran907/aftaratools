@@ -1,55 +1,58 @@
 {
-  "seoTitle": "EMI-calculator",
-  "metaDescription": "Bereken het gelijkgestelde maandelijkse afbetalingsbedrag (EMI).",
+  "seoTitle": "EMI-calculator - Bereken Gelijke Maandelijkse Aflossing",
+  "metaDescription": "Gratis EMI-calculator. Bereken de gelijke maandelijkse aflossing voor woning-, auto- of persoonlijke leningen met volledig aflossingsschema.",
   "h1": "EMI-calculator",
-  "primaryKeyword": "em rekenmachine",
+  "primaryKeyword": "EMI-calculator",
   "secondaryKeywords": [
-    "EMI-calculator online",
-    "gratis EMI-calculator",
-    "beste EMI-calculator"
+    "gelijke maandelijkse aflossing",
+    "lening EMI calculator",
+    "EMI formule",
+    "maandtermijn berekenen"
   ],
-  "slug": "emi-rekenmachine",
-  "intro": "Bereken eenvoudig het gelijkgestelde maandbedrag voor woningleningen, autoleningen of persoonlijke leningen.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "slug": "emi-calculator",
+  "intro": "Een gelijke maandelijkse aflossing (EMI) is het vaste maandelijkse bedrag dat leners betalen om een lening terug te betalen. Onze gratis EMI-calculator laat u de exacte EMI voor elke lening — woning, auto, persoonlijk of onderwijs — direct berekenen.",
+  "whatIs": "EMI staat voor Equated Monthly Installment (gelijke maandelijkse aflossing). Het is de standaard terugbetalingsmethode voor vrijwel alle consumentenleningen. De EMI is 'gelijk' omdat het totale maandelijkse betalingsbedrag gedurende de looptijd constant blijft.",
   "howToUse": [
-    "Voer uw opdrachtgever in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals ambtstermijn.",
-    "Klik op de knop Berekenen of Verzenden om het vaste maandbedrag te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Voer het Leningbedrag in — het totale geleende kapitaal.",
+    "Voer het Jaarlijkse Rentepercentage in.",
+    "Geef de Looptijd op in maanden of jaren.",
+    "Klik op 'EMI Berekenen'."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "De EMI-berekening gebruikt de standaardformule: EMI = P × r × (1 + r)^n / [(1 + r)^n − 1], waarbij P het hoofdbedrag, r de maandelijkse rente en n het totale aantal maandelijkse termijnen is.",
+  "workedExample": "Stel dat u een hypotheek neemt van 500.000 ₹ tegen 8,5% jaarlijkse rente voor 5 jaar (60 maanden). EMI ≈ 10.254 ₹. Over 60 maanden, totaal = 615.240 ₹. Totale rente = 115.240 ₹.",
+  "resultInterpretation": "Uw EMI-resultaat bevat drie sleutelcijfers. Maandelijkse EMI is het vaste maandelijkse bedrag. Totale Rente is de cumulatieve leningkosten. Totaal te Betalen is de volledige terugbetaling.",
   "useCases": [
-    "Persoonlijke leningen in India/Azië",
-    "Financiering van apparaten",
-    "Onderweg snel de hoofdsom verwerken"
+    "Hypotheekplanning: bereken de maandelijkse EMI voor een woonlening.",
+    "Autolening Vergelijking: vergelijk EMI's voor verschillende aanbetalingen.",
+    "Persoonlijke Lening: stel vast of de EMI haalbaar is binnen uw budget."
   ],
   "tipsAndLimitations": [
-    "Verwerkingskosten worden doorgaans vooraf in rekening gebracht, niet in het EMI.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Een grotere aanbetaling vermindert het kapitaal en daarmee de EMI en totale rente.",
+    "Deze calculator gaat uit van een vaste rente gedurende de hele looptijd."
   ],
   "faq": [
     {
-      "question": "Is de EMI-calculator gratis te gebruiken?",
-      "answer": "Ja, onze EMI-calculator is volledig gratis te gebruiken."
+      "question": "Wat betekent EMI?",
+      "answer": "EMI staat voor Equated Monthly Installment — het vaste maandelijkse terugbetalingsbedrag voor een lening."
     },
     {
-      "question": "Werkt dit op mobiel?",
-      "answer": "Ja, het is volledig responsief en werkt op alle apparaten."
+      "question": "Kan ik mijn EMI verlagen?",
+      "answer": "Ja, door de looptijd te verlengen, een hogere aanbetaling te doen of een lagere rente te onderhandelen."
     },
     {
-      "question": "Moet ik iets downloaden?",
-      "answer": "Nee, het werkt volledig in uw browser, zonder enige installatie."
+      "question": "Wat gebeurt er als ik een EMI-betaling mis?",
+      "answer": "Het missen van een EMI-betaling resulteert doorgaans in een boeterente en kan uw kredietscore negatief beïnvloeden."
     }
   ],
   "relatedTools": [
-    "percentage-calculator",
-    "salariscalculator",
-    "kortingscalculator"
+    "loan-calculator",
+    "mortgage-calculator",
+    "compound-interest-calculator",
+    "simple-interest-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "EMI-calculator",
+  "cta": "Bereken nu uw exacte EMI en begin met het plannen van uw leningaflossingsbudget!",
+  "disclaimer": "Dit hulpmiddel geeft EMI-schattingen uitsluitend voor educatieve doeleinden. Werkelijke leningvoorwaarden variëren per geldverstrekker.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "EMI-calculator met maandelijkse aflossing, totale rente en totaal te betalen",
   "ogImageText": "EMI-calculator"
 }

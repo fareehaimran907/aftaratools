@@ -1,55 +1,74 @@
 {
-  "seoTitle": "Oran Hesaplayıcı",
-  "metaDescription": "Eksik oran değerlerini hesaplayın.",
+  "seoTitle": "Oran Hesaplayıcı – Oranları Çözün ve Eksik Değerleri Bulun (A:B = C:D)",
+  "metaDescription": "Ücretsiz çevrimiçi oran hesaplayıcı. A:B = C:D denklemlerini kolayca çözün, eksik değerleri bulun ve eşit oranları hesaplayın. Tarifler, Ölçeklendirme ve matematik için ideal.",
   "h1": "Oran Hesaplayıcı",
   "primaryKeyword": "oran hesaplayıcı",
   "secondaryKeywords": [
-    "oran hesaplayıcı çevrimiçi",
-    "ücretsiz oran hesaplayıcı",
-    "en iyi oran hesaplayıcı"
+    "oran çöz",
+    "eşit oranlar",
+    "oran içinde eksik değer",
+    "oran çözücü",
+    "a:b = c:d hesaplayıcı",
+    "oran denkliği hesaplayıcı",
+    "ölçek oranı hesaplayıcı"
   ],
-  "slug": "oran hesaplayıcı",
-  "intro": "Eksik sayıları eşdeğer oranlarda veya oranları yukarı ve aşağı ölçeklendirerek çözün.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "oran-hesaplama",
+  "intro": "Oran hesaplayıcı, karmaşık orantılarla veya bir oran içindeki eksik değerle ilgilenen herkes için önemli bir araçtır. Bir tarifi Büyütürken, bir görseli yeniden boyutlandırırken, kimyasal karışımlar hazırlarken veya zor matematik sorularını çözerken olsun, bu araç orantılarla çalışmayı kolaylaştırır. Ücretsiz çevrimiçi Oran Hesaplayıcı, standart A:B = C:D oran denklemlerini anında çözer. Üç bilinen değeri girdi olarak verirseniz, otomatik olarak dördüncü eksik değeri gerçek zamanlı olarak hesaplar. El ile çapraz çarpım yapmaya veya tahminlerde bulunmaya gerek kalmaz; tüm eşit oran ihtiyaçınızı için matematiksel olarak kesin cevaplar anında elde edin, 'Hesapla' butonuna basma gereği duymadan. Bu hesaplayıcı, tarifleriniziölçeklendirirken, görsellerinizi yeniden boyutlandırırken, kimyasal formüllerinizi ayarlarken veya matematik ödevlerinizi çözerken size eşsiz bir kolaylık sunar. Kullanıcı dostu arayüz ve anında tepki verme özellikleri sayesinde, orantılarla ilgili her sorunu saniyeler içinde çözebilirsiniz.",
+  "whatIs": "Oran hesaplayıcı, temel olarak A:B = C:D şeklindeki orantı denklemlerini çözmek için tasarlanmış özel bir matematik araçtır. Oran, iki sayıyı karşılaştıran ve ilk sayının ikinciyi kaç kez içerdiği gösteren niceliksel bir ilişkidir. Örneğin, bir tarif 2 su bardağı un için 1 su bardağı şeker gerektiriyorsa, un ile şeker arasındaki oran 2:1'dir. Tarifi aynı tadı koruyarak büyütmek isterseniz, iki oranın eşit olduğu bir denklik kurarsınız: A:B = C:D. Bu denkliği elle çözmek genellikle çapraz çarpım (A×D = B×C) ve cebirsel manipülasyon gerektirir. Bu hesaplayıcı tam olarak o süreci otomatikleştirir ve üç değer verildiğinde dördüncü eksik değeri anında hesaplar. Her seferinde tam olarak doğru orantıyı sağlayarak, manuel hataları ortadan kaldırır. Ayrıca, farklı birimlerde verilen değerleri bile uyumlu şekilde işleyebilir; örneğin, bir tarifteki su bardağı mililitre olarak verilmiş olsun, hesaplayıcı gerekli conversion'ı yapmaz ancak kullanıcının aynı birimde girmesi gerekir. Ancak temel matematiksel prensip yine de aynıdır. Oran hesaplayıcı, bu prensibi kullanarak kullanıcının girdiği üç değerden dörduncuyu hesaplar ve böylece orantı sorunlarına güvenilir bir çözüm sunar.",
   "howToUse": [
-    "A oranınızı belirlenen giriş alanına girin.",
-    "B oranı gibi ikincil parametreleri sağlayın.",
-    "Basitleştirilmiş oranı veya eksik değeri oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "A:B = C:D formatındaki dört giriş alanını bulun. Bu alanlar genellikle sol tarafta A ve B, sağ tarafta C ve D olarak yer alır. Her alan, kullanıcının değerleri girmesi için özel olarak tasarlanmıştır.",
+    "İlk oranın iki bilinen değerini (A ve B) eşit işaretinin sol tarafına girin. Örneğin, bir tarifteki malzemelerin orantısını giriyorsanız, A ve B alanlarına sırasıyla ilgili değerleri yazın.",
+    "İkinci oranın bilinen bir değerini (C veya D) sağ tarafa girin. Hangi değeri biliyorsanız, onu ilgili alana yazın.",
+    "Eksik değeri içeren alana dokunmadan bırakın. Bu alan, hesaplayıcının otomatik olarak hesaplayacağı yerdir.",
+    "Girdi alanından çıkın veya biraz bekleyin; hesaplayıcı eksik değeri otomatik olarak doldurur. Bu işlem, tarayıcı içinde发生的 ve sayfa yenilenmez."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Oran hesaplayıcı, orantıları çözmek için çapraz çarpım prensibine dayanır. Temel denklem A/B = C/D şeklindedir. Kullanıcı dört değerden üçünü girdiğinde, araç eksik olanı çözmek için formülü yeniden düzenler. Örneğin, D eksikse, D = (B × C) / A formülüyle hesaplanır. C eksikse, C = (A × D) / B olarak bulunur. Bu hesaplamalar, veriler sunucuya gönderilmek zorunda kalmadan, tarayıcı içinde istemci tarafı JavaScript ile executed edilir. Sonuç anında, sorunsuz ve tamamen doğru bir şekilde ekrana gelir. Ayrıca, değerler değiştirildiğinde hesaplama otomatik olarak更新 edilir. Araç, tarayıcı önbelleğinde veri tutmaz ve her sayfa yüklemede temiz bir durum başlar. Kullanıcı, farklı senaryoları test ederken değerleri kolayca değiştirip sonucu görebilir. Bu sayede, orantılarla ilgili farklı senaryoları rapid bir şekilde analiz edebilir.",
+  "workedExample": "Örneğin, bir tarifi ayarlarken düşünün. Orijinal tarif 2 su bardağı şeker (A) ve 5 su bardağı un (B) içerir; oran 2:5'tir. Daha büyük bir parti yapmak için 10 su bardağı şeker (C) kullanacaksınız ve tam olarak ne kadar un (D) gerekeceğini merak ediyorsunuz. Denklemi kurarsınız: 2 : 5 = 10 : D. Elle çapraz çarpım yaparsanız: 2 × D = 5 × 10 → 2D = 50 → D = 25. Yani 25 su bardağı un gerekecektir. Bu değeri hesaplayıcıya girip 2, 5 ve 10 değerlerini girersek, araç anında 25'i D alanına yazarak gösterir.",
+  "resultInterpretation": "Sonuç, doğrudan giriş alanları içinde gösterilir. Separate bir kutuya değil, eksik değer tam olarak A:B = C:D denkleminin içinde yer alan alana doldurulur. A, B ve C değerlerini girdiyseniz, araç D alanını hesaplanan sayı ile otomatik olarak doldurur. Bu sayı, C:D oranının A:B oranı ile matematiksel olarak eşit olacak şekilde garanti eder. Ayrıca, mevcut bir sayıyı değiştirip tekrar hesaplatarak farklı senaryoları kolayca test edebilirsiniz. Araç, değerler değiştiğinde anında 更新 olur, böylece kullanıcının farklı senaryoları rapid bir şekilde denemesine olanak tanır.",
   "useCases": [
-    "Ekran en boy oranları",
-    "Boya veya betonun karıştırılması",
-    "Hareket halindeyken A oranını hızla işleme"
+    "Tarifler: Bir tarifi iki katına çıkarmak veya yarım yapmak için malzemelerin orantısını kullanın. Örneğin, 2 yumurta 1 su bardağı süt için, 4 yumurta kaç su bardağı süt gerektirir?",
+    "Grafik Tasarım ve Fotografi: Bir görseli, orijinal oranını koruyarak yeniden boyutlandırın. Örneğin, 16:9 oranında bir ekran için genişlik 1920 piksel ise, yükseklik kaç piksel olmalıdır?",
+    "İnşaat ve Mühendislik: Scale modelleri oluştururken, beton karışımı için doğru malzeme orantılarını hesaplarken veya malzeme gereksinimlerini belirlerken kullanın.",
+    "Finans ve Para Birimi: Döviz kurlarını hesaplamak, paylaşımlarda bulunan fonların orantısını belirtmek veya ortak maliyetleri distribute etmek için kullanın.",
+    "Eğitim ve Akademik: Öğrenciler, cebir ödevlerindeki orantı ve çapraz çarpım sorularını çözerken bu.aracı kullanarak cevaplarını doğrulayabilir."
   ],
   "tipsAndLimitations": [
-    "Oranlar matematiksel olarak kesirlere benzer şekilde çalışır.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Hesaplayıcı, dördüncü değeri hesaplamak için tam olarak üç değer istektedir. İki veya daha fazla eksik değer varsa denklik çözdürülemez.",
+    "Ondalıklı sayılar (örneğin 1.5, 2.75) girilebilir; tam sayılarla sınırlı değilsiniz.",
+    "Araç, bir alanından çıktığında (onBlur) otomatik olarak yeniden hesaplar.",
+    "A veya B alanlarına sıfır (0) girmek, bölme sıfır hatası nedeniyle sorun yaratabilir; bu alanlarda sıfır kullanmayın.",
+    "Hesaplayıcı şu anda C veya D için çözme yapar. Tam orantıyı sol tarafta (A ve B) girerek sağ taraftaki eksik değeri bulabilirsiniz."
   ],
   "faq": [
     {
-      "question": "What is the golden ratio?",
-      "answer": "Approximately 1.618 to 1."
+      "question": "Ondalıklı veya kesirli sayıları kullanabilir miyim?",
+      "answer": "Evet, alanlara ondalıklı sayılar (örneğin 2.5 veya 0.75) girilebilir. Ancak hesaplayıcı doğrudan kesir formatını (örneğin 1/2) destekmez; bunları ondalıklı forma dönüştürerek (0.5) girmeniz gerekir."
     },
     {
-      "question": "Is the Ratio Calculator free to use?",
-      "answer": "Yes, our Ratio Calculator is completely free and requires no registration."
+      "question": "Sadece iki sayı girersem ne olur?",
+      "answer": "Hesaplayıcı, tam bir orantı (A ve B) ve hedef orantının bir parçası (C veya D) gerektirir. Sadece iki sayı girerseniz, yeterli bilgi olmaz ve hesaplama yapmaz."
     },
     {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "C veya D yerine A veya B için mi hesaplayabilir?",
+      "answer": "Arayüz, genellikle sağ taraftaki C veya D değerini hesaplayacak şekilde tasarlanmıştır. Ancak eksik değer sol taraftaysa, bilinen ve eksik kenarları değiştirerek tam orantıyı sol tarafa koyabilirsiniz."
+    },
+    {
+      "question": "Bu, aspect ratio hesaplamakla aynı mı?",
+      "answer": "Evet, aspect ratio'lar (örneğin ekranlar için 16:9) tam olarak aynı prensibe dayanır. 16:9 oranı ve genişlik 1920 piksel ise, yüksekliği bulmak için 16:9 = 1920:D şeklinde girebilirsiniz."
+    },
+    {
+      "question": "Neden result anında更新 olmadı?",
+      "answer": "Hesaplayıcı, bir alanından çıktığında (onBlur) 更新 olur. Bu, kullanıcının tamamlamadan önce eksik sayılarla hesaplama yapmasını önler."
     }
   ],
   "relatedTools": [
-    "kesir hesaplayıcı",
-    "ortalama-hesaplayıcı",
-    "gpa-hesaplayıcı"
+    "fraction-calculator",
+    "percentage-calculator",
+    "average-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Oran Hesaplayıcı",
+  "cta": "Zor bir orantıyı çözmek mi gerekiyor? Üç bilinen değeri alanlara girin ve eksik sayıyı anında hesaplayarak oranınızı tamamlayın.",
+  "disclaimer": "Bu araç, genel eğitim, kişisel ve profesyonel kullanım için hızlı ve doğru hesaplamalar sunmak amacıyla tasarlanmıştır. Özellikle kimyasal karışımlar, yapı mühendisliği veya önemli finansal distributions gibi kritik durumlarda her zaman elle double-check yapınız.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Oran hesaplayıcı arayüzünde A:B = C:D formatında dört giriş alanı gösterilmektedir",
   "ogImageText": "Oran Hesaplayıcı"
 }

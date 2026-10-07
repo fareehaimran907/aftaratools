@@ -1,55 +1,52 @@
 {
-  "seoTitle": "Tip Calculator",
-  "metaDescription": "Free online Tip Calculator. Calculate tips and split the bill among friends.",
+  "seoTitle": "Tip Calculator - Split the Bill & Calculate Gratuity",
+  "metaDescription": "Free tip calculator. Easily calculate restaurant gratuity based on a percentage and quickly split the total bill among friends.",
   "h1": "Tip Calculator",
   "primaryKeyword": "tip calculator",
   "secondaryKeywords": [
-    "tip calculator online",
-    "free tip calculator",
-    "best tip calculator"
+    "gratuity calculator",
+    "split the bill",
+    "restaurant tip calculator"
   ],
   "slug": "tip-calculator",
-  "intro": "Use our free online Tip Calculator tool. It splits the bill and adds gratuity based on your inputs.",
-  "whatIs": "The Tip Calculator is an online utility that splits the bill and adds gratuity. It processes your bill amount and provides total per person including tip.",
+  "intro": "Dining out with friends and need to figure out the tip? Our Tip Calculator makes it easy to calculate gratuity and split the final bill evenly among your group. Calculating the right tip ensures that service workers are fairly compensated while keeping you within your personal budget. Stop feeling anxious when the bill arrives and start using our tool to manage your expenses with confidence. Make every dining experience more enjoyable by eliminating the stress of mental math and awkward calculations at the table. Avoid leaving too little and appearing rude, or leaving too much and overspending. Whether you are at a cafe or a fine dining restaurant, this tool adapts to your needs. It can even handle complex situations with ease. Enjoy your dining experience and leave the math to us. Calculate your tips accurately every single time.",
+  "whatIs": "This tool calculates a percentage-based tip from a total bill amount and optionally divides both the tip and the total cost by the number of people paying.",
   "howToUse": [
-    "Enter your bill amount into the designated input field.",
-    "Provide any secondary parameters like tip percentage.",
-    "Click the calculate or submit button to generate total per person including tip.",
-    "Copy or review the resulting output for your needs."
+    "Enter the total Bill Amount before tip.",
+    "Select or type the Tip Percentage you wish to leave.",
+    "Enter the Number of People splitting the bill.",
+    "The tool will instantly show the tip amount and total cost per person."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your bill amount. It instantly processes the data to output total per person including tip.",
-  "workedExample": "For example: 15% tip on $50 is $7.50.",
-  "resultInterpretation": "The result represents total per person including tip. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "The tool multiplies the bill amount by the tip percentage to find the total tip. It adds this to the original bill to get the total amount. If there are multiple people, it divides these totals by the number of people.",
+  "workedExample": "If your bill is $50, you leave a 20% tip, and there are 2 people: The total tip is $10. The total bill becomes $60. Split 2 ways, each person pays $5 in tip and $30 in total.",
+  "resultInterpretation": "The tool shows you the 'Total Amount' which is your bill plus tip. If splitting, 'Per Person' tells you exactly how much each individual needs to contribute.",
   "useCases": [
-    "Dining out with friends",
-    "Tipping delivery drivers",
-    "Quickly processing bill amount on the go"
+    "Restaurants: Calculating the customary 15-20% tip on a meal.",
+    "Group Dinners: Splitting a large check evenly without doing mental math.",
+    "Services: Figuring out tips for haircuts, taxi rides, or food delivery."
   ],
   "tipsAndLimitations": [
-    "Check if gratuity was already included on the receipt.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "Customary tip percentages vary by country. In the US, 15-20% is standard for restaurants.",
+    "This tool splits the bill completely evenly. It does not itemize based on who ordered what."
   ],
   "faq": [
     {
-      "question": "What is a standard tip?",
-      "answer": "In the US, 15-20% is customary."
+      "question": "Should I calculate the tip before or after tax?",
+      "answer": "Traditionally, gratuity is calculated on the pre-tax amount. However, many people simply calculate it on the total post-tax bill for convenience."
     },
     {
-      "question": "Is the Tip Calculator free to use?",
-      "answer": "Yes, our Tip Calculator is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "What is a standard tip amount?",
+      "answer": "In North America, 15% is standard for average service, 18% for good service, and 20% or more for excellent service."
     }
   ],
   "relatedTools": [
+    "discount-calculator",
     "percentage-calculator",
-    "salary-calculator",
-    "discount-calculator"
+    "tax-calculator"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Tip Calculator interface screenshot",
+  "cta": "Calculate your tip and split your bill now!",
+  "disclaimer": "This tool is for quick estimation and convenience purposes only.",
+  "lastReviewed": "2024-03-16",
+  "imageAlt": "Tip Calculator Tool",
   "ogImageText": "Tip Calculator"
 }

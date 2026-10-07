@@ -1,65 +1,52 @@
 {
-  "title": "Contador de Palabras - Cuenta Palabras y Caracteres Online",
-  "metaDescription": "Contador de Palabras y Caracteres online gratuito. Cuenta palabras, caracteres, oraciones y párrafos de tus textos instantáneamente en tiempo real.",
-  "h1": "Contador de Palabras Gratis",
+  "seoTitle": "Contador de Palabras - Contar Palabras, Caracteres y Frases",
+  "metaDescription": "Contador de palabras en línea gratis. Cuenta al instante palabras, caracteres, oraciones y párrafos en tu texto. Perfecto para ensayos, tuits y SEO.",
+  "h1": "Contador de palabras",
   "primaryKeyword": "contador de palabras",
-  "hero": "Cuenta instantáneamente palabras, caracteres y oraciones, y estima el tiempo de lectura de tu texto.",
-  "whatIs": "Un contador de palabras es una herramienta de escritura esencial que rastrea la longitud exacta y la estructura de tu texto en tiempo real. Ya sea para escribir un ensayo con límites de extensión, un tweet o un blog optimizado para SEO.",
+  "secondaryKeywords": [
+    "contar palabras en línea",
+    "contador de caracteres",
+    "herramienta de conteo de palabras",
+    "cuántas palabras"
+  ],
+  "slug": "contador-de-palabras",
+  "intro": "¿Escribiendo un ensayo con un límite estricto de palabras o optimizando una publicación de blog para SEO? Nuestro Contador de Palabras gratuito proporciona métricas precisas e instantáneas de palabras, caracteres y frases.",
+  "whatIs": "El Contador de Palabras es una herramienta de análisis de texto. Procesa grandes bloques de texto para proporcionar datos estadísticos, incluyendo el recuento total de palabras, el recuento de caracteres (con y sin espacios), el recuento de oraciones y el recuento de párrafos.",
   "howToUse": [
-    "Haz clic dentro del área de texto.",
-    "Escribe o pega tu texto directamente en la caja.",
-    "Mira cómo las estadísticas se actualizan instantáneamente en tiempo real mientras escribes.",
-    "Revisa el panel superior para ver el total de palabras y caracteres."
+    "Pega o escribe tu texto directamente en el cuadro de entrada grande.",
+    "Las métricas en la parte superior de la pantalla se actualizarán instantáneamente.",
+    "Consulta el desglose detallado para la longitud promedio de las palabras y el tiempo de lectura."
   ],
-  "formula": "La herramienta usa expresiones regulares de JavaScript para analizar el texto localmente en tu navegador. Las palabras se cuentan dividiendo el texto por espacios y signos de puntuación.",
-  "example": "Si pegas la frase: '¡Hola mundo! Esto es una prueba.' La herramienta mostrará: 6 palabras, 33 caracteres y 2 oraciones.",
+  "howItWorks": "La herramienta utiliza expresiones regulares de JavaScript (Regex) para analizar el texto. Cuenta las palabras buscando espacios y límites de puntuación. Cuenta las oraciones identificando la puntuación terminal (puntos, signos de exclamación) seguida de espacios.",
+  "workedExample": "Escribes: 'Hola mundo. ¿Cómo estás?' La herramienta calcula: 5 palabras, 27 caracteres (con espacios), 2 oraciones y un tiempo estimado de lectura de 2 segundos.",
+  "resultInterpretation": "Las estadísticas te ayudan a ajustar perfectamente la longitud de tu texto para cumplir con pautas específicas de publicación, requisitos académicos o límites de redes sociales.",
   "useCases": [
-    "Estudiantes verificando si sus ensayos cumplen con los requisitos mínimos de extensión.",
-    "Community managers asegurando que sus publicaciones no superen los límites de caracteres.",
-    "Redactores SEO controlando la longitud de sus artículos."
+    "Academia: Asegurarse de que un ensayo universitario cumpla con un requisito mínimo estricto de 1,000 palabras.",
+    "SEO y Marketing: Mantener las meta descripciones por debajo de 160 caracteres y las publicaciones del blog por encima de 1,500 palabras.",
+    "Redes sociales: Asegurarse de que un tuit o una descripción de Instagram se ajuste a los límites de la plataforma."
   ],
-  "benefits": [
-    "Rastreo en Tiempo Real: Las métricas se actualizan instantáneamente con cada pulsación.",
-    "100% Privado: Tu texto se analiza localmente y nunca se envía a nuestros servidores.",
-    "Súper Rápido: Maneja documentos gigantescos sin bloqueos."
+  "tipsAndLimitations": [
+    "Las palabras con guion (como 'state-of-the-art') generalmente se cuentan como una sola palabra según los algoritmos estándar.",
+    "Las URL y las direcciones de correo electrónico también se tratan como palabras únicas."
   ],
   "faq": [
     {
-      "question": "¿Cuenta espacios?",
-      "answer": "Proporciona tanto \"caracteres con espacios\" como \"sin espacios\"."
+      "question": "¿Qué se considera un caracter?",
+      "answer": "Un carácter es cualquier letra, número, signo de puntuación o símbolo individual. Un espacio también es técnicamente un carácter, por lo que proporcionamos conteos tanto 'con espacios' como 'sin espacios'."
     },
     {
-      "question": "¿El Contador de Palabras es de uso gratuito?",
-      "answer": "Sí, nuestro Contador de Palabras es completamente gratuito y no requiere registro."
-    },
-    {
-      "question": "¿Esto funciona en dispositivos móviles?",
-      "answer": "Sí, la herramienta responde completamente y funciona perfectamente en todos los teléfonos inteligentes y tabletas."
+      "question": "¿Cómo se calcula el tiempo de lectura?",
+      "answer": "El tiempo de lectura se estima en función de la velocidad de lectura promedio de un adulto, que es de aproximadamente 200 a 250 palabras por minuto."
     }
   ],
-  "cta": "¡Comienza a escribir o pega tu texto arriba para revisar el conteo de palabras al instante!",
-  "seoTitle": "Contador de palabras",
-  "secondaryKeywords": [
-    "contador de palabras en línea",
-    "contador de palabras gratis",
-    "mejor contador de palabras"
-  ],
-  "slug": "contador de palabras",
-  "intro": "Utilice nuestra herramienta gratuita de Contador de palabras en línea. Cuenta palabras y caracteres según sus entradas.",
-  "howItWorks": "Esta herramienta opera en su navegador aplicando algoritmos estándar a su bloque de texto. Procesa instantáneamente los datos para generar totales de palabras, caracteres y párrafos.",
-  "workedExample": "Por ejemplo: 100 palabras, 550 caracteres.",
-  "resultInterpretation": "El resultado representa los totales de palabras, caracteres y párrafos. Puede utilizar estos datos para sus cálculos específicos o necesidades de formato.",
-  "tipsAndLimitations": [
-    "Las palabras con guiones generalmente se cuentan como una sola palabra.",
-    "Asegúrese de que sus entradas tengan el formato correcto para obtener los mejores resultados.",
-    "La herramienta se ejecuta completamente en el lado del cliente, lo que garantiza que sus datos permanezcan privados."
-  ],
   "relatedTools": [
-    "contador de caracteres",
-    "autogenerador de internet",
-    "convertidor-de-lectura-biónica"
+    "character-counter",
+    "text-case-converter",
+    "markdown-editor"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "Captura de pantalla de la interfaz del contador de palabras",
+  "cta": "¡Cuenta tus palabras al instante!",
+  "disclaimer": "El análisis ocurre completamente dentro de tu navegador. No guardamos ni almacenamos tu texto.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfaz del contador de palabras mostrando estadísticas de texto",
   "ogImageText": "Contador de palabras"
 }

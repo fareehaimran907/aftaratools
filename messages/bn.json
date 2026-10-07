@@ -38,15 +38,15 @@
     },
     "percentage-calculator": {
       "title": "শতাংশ ক্যালকুলেটর",
-      "description": "দ্রুত এবং নির্ভুলভাবে শতাংশ হিসাব করুন।",
+      "description": "খুব সহজে শতাংশ হিসাব করুন।",
       "ui": {
-        "percentageCalculator": "শতাংশ ক্যালকুলেটর",
+        "calculatePercentage": "শতাংশ ক্যালকুলেটর",
         "whatIs": "কত",
-        "of": "এর",
+        "of": "% এর",
         "amount": "পরিমাণ",
         "calculate": "হিসাব করুন",
         "result": "ফলাফল",
-        "calculatePercentage": "শতাংশ গণনা করুন"
+        "enterValuesToCalculatePerc": "শতাংশ হিসাব করতে মান লিখুন।"
       }
     },
     "json-formatter": {
@@ -55,7 +55,19 @@
       "ui": {
         "formatJson": "JSON ফরম্যাট করুন",
         "inputJSON": "ইনপুট J S O N",
-        "reset": "রিসেট করুন"
+        "reset": "রিসেট করুন",
+        "format": "ফরম্যাট",
+        "minify": "ছোট করুন",
+        "copy": "কপি",
+        "copied": "কপি করা হয়েছে!",
+        "clear": "পরিষ্কার করুন",
+        "input": "ইনপুট JSON",
+        "inputPlaceholder": "আপনার JSON এখানে পেস্ট করুন...",
+        "output": "আউটপুট JSON",
+        "outputPlaceholder": "ফরম্যাট করা JSON এখানে প্রদর্শিত হবে...",
+        "invalidJson": "অবৈধ JSON",
+        "syntaxError": "সিনট্যাক্স ত্রুটি",
+        "jsonToolkit": "JSON টুলকিট"
       }
     },
     "area-converter": {
@@ -100,13 +112,21 @@
       "ui": {
         "bedtimeCalculator": "ঘুমানোর সময় ক্যালকুলেটর",
         "whenDoYouNeedToWakeUp": "আপনাকে কখন ঘুম থেকে উঠতে হবে?",
-        "calculate": "হিসাব করুন",
+        "calculate": "সময় গণনা করুন",
         "toWakeUpAt": "এই সময়ে ঘুম থেকে উঠতে",
         "youShouldTryToBeAsleepBy": ", আপনার এই সময়ের মধ্যে ঘুমিয়ে পড়ার চেষ্টা করা উচিত:",
         "6Cycles9h": "৬ চক্র (৯ ঘণ্টা)",
         "5Cycles75h": "৫ চক্র (৭.৫ ঘণ্টা)",
         "calculationsIncludeAnAverage15MinutesToFallAsleep": "হিসাবে ঘুমিয়ে পড়ার জন্য গড় ১৫ মিনিট সময় ধরা হয়েছে।",
-        "enterYourWakeUpTimeToCal": "ঘুমানোর সময় গণনা করতে আপনার ঘুম থেকে ওঠার সময় লিখুন"
+        "enterYourWakeUpTimeToCal": "ঘুমানোর সময় গণনা করতে আপনার ঘুম থেকে ওঠার সময় লিখুন",
+        "title": "ঘুমানোর সময় ক্যালকুলেটর",
+        "description": "সতেজ হয়ে ওঠার জন্য ঠিক কখন ঘুমাতে হবে তা জানুন।",
+        "iNeedToWakeUpAt": "আমাকে এই সময়ে উঠতে হবে",
+        "youShouldGoToBedAt": "আপনার এই সময়ে ঘুমানো উচিত",
+        "resultsDescription": "এই সময়গুলি 90-মিনিটের চক্রের উপর ভিত্তি করে তৈরি, সাথে ঘুমানোর 15 মিনিট।",
+        "cycles": "চক্র",
+        "hours": "ঘন্টা",
+        "optimal": "আদর্শ"
       }
     },
     "binary-to-decimal": {
@@ -116,7 +136,8 @@
         "binaryToDecimalConverter": "বাইনারি থেকে দশমিক কনভার্টার",
         "binaryNumber": "বাইনারি সংখ্যা",
         "decimalResult": "দশমিক ফলাফল",
-        "eG1010": "যেমন 1010"
+        "eG1010": "যেমন 1010",
+        "invalidBinaryNumber": "অবৈধ বাইনারি নম্বর"
       }
     },
     "bmi-calculator": {
@@ -183,14 +204,27 @@
       "description": "",
       "ui": {
         "breakevenCalculator": "ব্রেক-ইভেন ক্যালকুলেটর",
-        "fixedCosts": "স্থির খরচ",
-        "variableCostPerUnit": "প্রতি ইউনিট পরিবর্তনশীল খরচ",
-        "sellingPricePerUnit": "প্রতি ইউনিট বিক্রয়মূল্য",
+        "fixedCosts": "স্থায়ী খরচ (Fixed Costs)",
+        "variableCostPerUnit": "ইউনিট প্রতি পরিবর্তনশীল খরচ",
+        "sellingPricePerUnit": "ইউনিট প্রতি বিক্রয় মূল্য",
         "sellingPriceMustBeGreaterThanVariableCostToBreakEven": "ব্রেক-ইভেন অবস্থায় পৌঁছাতে বিক্রয়মূল্য পরিবর্তনশীল খরচের চেয়ে বেশি হতে হবে।",
         "unitsToSell": "বিক্রি করতে হবে এমন ইউনিট",
         "breakevenRevenue": "ব্রেক-ইভেন রাজস্ব",
         "costsPricing": "খরচ মূল্য নির্ধারণ",
-        "breakEvenPoint": "ব্রেক ইভেন পয়েন্ট"
+        "breakEvenPoint": "ব্রেক ইভেন পয়েন্ট",
+        "title": "ব্রেক-ইভেন ক্যালকুলেটর",
+        "description": "আপনার খরচ মেটাতে এবং ব্রেক-ইভেন পয়েন্টে পৌঁছানোর জন্য কত ইউনিট বিক্রি করতে হবে তা হিসাব করুন।",
+        "calculate": "ব্রেক-ইভেন গণনা করুন",
+        "summary": "ব্রেক-ইভেন সারসংক্ষেপ",
+        "breakEvenUnits": "ব্রেক-ইভেন ইউনিট",
+        "breakEvenRevenue": "ব্রেক-ইভেন রাজস্ব",
+        "contributionMargin": "কন্ট্রিবিউশন মার্জিন (প্রতি ইউনিট)",
+        "neverBreakEvenError": "আপনার পরিবর্তনশীল খরচ বিক্রয় মূল্যের চেয়ে বেশি বা সমান। আপনি কখনই ব্রেক-ইভেনে পৌঁছাতে পারবেন না।",
+        "units": "ইউনিট",
+        "enterDetails": "আপনার খরচ এবং বিক্রয় মূল্য লিখুন।",
+        "variableCost": "প্রতি ইউনিটে পরিবর্তনশীল খরচ",
+        "sellingPrice": "প্রতি ইউনিটের বিক্রয় মূল্য",
+        "errorImpossible": "ব্রেক-ইভেনে পৌঁছানোর জন্য বিক্রয় মূল্য পরিবর্তনশীল খরচের চেয়ে বেশি হতে হবে।"
       }
     },
     "calorie-calculator": {
@@ -235,7 +269,7 @@
         "principalAmount": "মূলধন",
         "annualRate": "বার্ষিক হার (%)",
         "timeYears": "সময় (বছর)",
-        "compoundFrequency": "সুদ গণনার ফ্রিকোয়েন্সি",
+        "compoundFrequency": "চক্রবৃদ্ধির হার",
         "daily": "দৈনিক",
         "monthly": "মাসিক",
         "quarterly": "ত্রৈমাসিক",
@@ -244,7 +278,20 @@
         "interestEarned": "অর্জিত সুদ",
         "finalBalance": "চূড়ান্ত ব্যালেন্স",
         "interestDetails": "সুদের বিবরণ",
-        "growthBreakdown": "গ্রোথ ব্রেকডাউন"
+        "growthBreakdown": "গ্রোথ ব্রেকডাউন",
+        "title": "চক্রবৃদ্ধি সুদ (Compound Interest) ক্যালকুলেটর",
+        "description": "চক্রবৃদ্ধি সুদ এবং নিয়মিত অবদানের মাধ্যমে সময়ের সাথে সাথে আপনার বিনিয়োগ কীভাবে বাড়বে তা গণনা করুন।",
+        "initialInvestment": "প্রাথমিক বিনিয়োগ",
+        "monthlyContribution": "মাসিক অবদান",
+        "annualInterestRate": "বার্ষিক সুদের হার (%)",
+        "yearsToGrow": "বিনিয়োগের সময়কাল (বছর)",
+        "semiAnnually": "ষান্মাসিক",
+        "calculate": "বৃদ্ধি গণনা করুন",
+        "summary": "বৃদ্ধির সারসংক্ষেপ",
+        "futureValue": "ভবিষ্যত মূল্য",
+        "totalContributions": "মোট বিনিয়োগ",
+        "totalInterestEarned": "মোট অর্জিত সুদ",
+        "enterDetails": "প্রত্যাশিত বৃদ্ধি দেখতে বিনিয়োগের বিবরণ লিখুন।"
       }
     },
     "concrete-calculator": {
@@ -280,7 +327,12 @@
         "minutes": "মিনিট",
         "start": "শুরু",
         "pause": "বিরতি",
-        "reset": "রিসেট"
+        "reset": "রিসেট",
+        "title": "কাউন্টডাউন টাইমার",
+        "description": "একটি সহজ, ব্যবহারযোগ্য অনলাইন কাউন্টডাউন টাইমার। ঘন্টা, মিনিট এবং সেকেন্ড সেট করুন।",
+        "hours": "ঘন্টা",
+        "seconds": "সেকেন্ড",
+        "timeUp": "সময় শেষ!"
       }
     },
     "css-minifier": {
@@ -301,7 +353,11 @@
         "amount": "পরিমাণ",
         "from": "থেকে",
         "to": "এ",
-        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "নোট: এই হারগুলো শুধুমাত্র প্রদর্শনের উদ্দেশ্যে স্থির আনুমানিক হার।"
+        "noteTheseRatesAreStaticEstimatesForDemonstrationPurposesOnly": "নোট: এই হারগুলো শুধুমাত্র প্রদর্শনের উদ্দেশ্যে স্থির আনুমানিক হার।",
+        "title": "মুদ্রা রূপান্তরকারী",
+        "description": "লাইভ বিনিময় হার সহ বিশ্বব্যাপী মুদ্রার মধ্যে রূপান্তর করুন।",
+        "convertedAmount": "রূপান্তরিত পরিমাণ",
+        "lastUpdated": "সর্বশেষ আপডেট"
       }
     },
     "data-storage-converter": {
@@ -321,7 +377,7 @@
         "startDate": "শুরুর তারিখ",
         "endDate": "শেষের তারিখ",
         "calculateDifference": "পার্থক্য হিসাব করুন",
-        "timeDifference": "সময়ের পার্থক্য:",
+        "timeDifference": "সময়ের পার্থক্য",
         "years": "বছর",
         "months": "মাস",
         "days": "দিন",
@@ -330,7 +386,21 @@
         "weeks": "সপ্তাহ,",
         "copy": "কপি",
         "reset": "রিসেট",
-        "selectDatesToCalculate": "গণনা করার তারিখ নির্বাচন করুন"
+        "selectDatesToCalculate": "পার্থক্য গণনা করতে উভয় তারিখ নির্বাচন করুন।",
+        "dateDifferenceTitle": "তারিখের পার্থক্য ক্যালকুলেটর",
+        "dateDifferenceDesc": "দুটি তারিখের মধ্যে দিন, সপ্তাহ, মাস এবং বছরের সঠিক সংখ্যা গণনা করুন।",
+        "includeEndDay": "শেষের তারিখ অন্তর্ভুক্ত করুন (+১ দিন)",
+        "includeEndDayDesc": "গণনায় একটি অতিরিক্ত দিন যোগ করে।",
+        "exactDifference": "সঠিক পার্থক্য",
+        "yearsLabel": "বছর",
+        "monthsLabel": "মাস",
+        "daysLabel": "দিন",
+        "endDateBeforeStart": "দ্রষ্টব্য: শেষের তারিখ শুরুর তারিখের আগে।",
+        "totalDays": "মোট দিন",
+        "inWeeks": "সপ্তাহে",
+        "weeksShort": "সপ্তাহ",
+        "daysShort": "দিন",
+        "approxMonths": "মোট মাস"
       }
     },
     "days-between-dates": {
@@ -347,7 +417,16 @@
         "days": "দিন",
         "copy": "কপি",
         "reset": "রিসেট",
-        "selectDatesToCalculate": "গণনা করার তারিখ নির্বাচন করুন"
+        "selectDatesToCalculate": "পার্থক্য গণনা করতে উভয় তারিখ নির্বাচন করুন।",
+        "title": "তারিখের মধ্যে দিন",
+        "description": "দুটি তারিখের মধ্যে দিন, কর্মদিবস এবং সপ্তাহান্তের সঠিক সংখ্যা গণনা করুন।",
+        "includeEndDay": "শেষের তারিখ অন্তর্ভুক্ত করুন (+১ দিন)",
+        "includeEndDayDesc": "গণনায় একটি অতিরিক্ত দিন যোগ করে।",
+        "totalDays": "মোট দিন",
+        "daysLabel": "দিন",
+        "endDateBeforeStart": "দ্রষ্টব্য: শেষের তারিখ শুরুর তারিখের আগে।",
+        "weekdays": "কর্মদিবস (সোম-শুক্র)",
+        "weekends": "সপ্তাহান্ত"
       }
     },
     "days-until-calculator": {
@@ -363,7 +442,19 @@
         "days": "দিন",
         "copy": "কপি",
         "reset": "রিসেট",
-        "selectAFutureDate": "একটি ভবিষ্যত তারিখ নির্বাচন করুন"
+        "selectAFutureDate": "একটি ভবিষ্যত তারিখ নির্বাচন করুন",
+        "title": "দিনের কাউন্টডাউন ক্যালকুলেটর",
+        "description": "একটি নির্দিষ্ট ভবিষ্যতের তারিখ পর্যন্ত সঠিক দিন, ঘন্টা, মিনিট এবং সেকেন্ডের কাউন্টডাউন করুন।",
+        "todayIs": "আজ হলো",
+        "targetDate": "লক্ষ্য তারিখ",
+        "timeUntil": "লক্ষ্য পর্যন্ত সময়",
+        "timeSince": "লক্ষ্যের পর থেকে সময়",
+        "dayLabel": "দিন",
+        "dayLabelSingular": "দিন",
+        "hoursLabel": "ঘন্টা",
+        "minutesLabel": "মিনিট",
+        "secondsLabel": "সেকেন্ড",
+        "selectTargetDate": "কাউন্টডাউন দেখতে একটি লক্ষ্য তারিখ নির্বাচন করুন।"
       }
     },
     "decimal-to-binary": {
@@ -373,7 +464,8 @@
         "decimalToBinaryConverter": "দশমিক থেকে বাইনারি কনভার্টার",
         "decimalNumber": "দশমিক সংখ্যা",
         "binaryResult": "বাইনারি ফলাফল",
-        "eG10": "যেমন 10"
+        "eG10": "যেমন 10",
+        "invalidDecimalNumber": "অবৈধ দশমিক সংখ্যা"
       }
     },
     "decking-calculator": {
@@ -399,15 +491,25 @@
       "description": "",
       "ui": {
         "discountCalculator": "ডিসকাউন্ট ক্যালকুলেটর",
-        "originalPrice": "মূল মূল্য",
+        "originalPrice": "মূল দাম",
         "discount": "ডিসকাউন্ট",
         "type": "ধরন",
         "off": "% ছাড়",
         "fixedAmountOff": "নির্দিষ্ট পরিমাণ ছাড়",
-        "youSave": "আপনার সাশ্রয়",
+        "youSave": "আপনার সাশ্রয়:",
         "finalPrice": "চূড়ান্ত মূল্য",
         "discountDetails": "ডিসকাউন্ট বিবরণ",
-        "priceBreakdown": "মূল্য ভাঙ্গন"
+        "priceBreakdown": "মূল্য ভাঙ্গন",
+        "title": "ডিসকাউন্ট (ছাড়) ক্যালকুলেটর",
+        "description": "ছাড় এবং ঐচ্ছিক কর প্রয়োগ করার পরে একটি আইটেমের চূড়ান্ত মূল্য গণনা করুন।",
+        "discountPercentage": "ছাড় (%)",
+        "taxPercentage": "কর (%)",
+        "optional": "ঐচ্ছিক",
+        "calculate": "ছাড় গণনা করুন",
+        "summary": "মূল্য সারসংক্ষেপ",
+        "discountAmount": "ছাড়ের পরিমাণ",
+        "taxAmount": "করের পরিমাণ",
+        "enterDetails": "গণনা করতে মূল দাম এবং ছাড় লিখুন।"
       }
     },
     "emi-calculator": {
@@ -422,7 +524,20 @@
         "totalInterestPayable": "মোট প্রদেয় সুদ",
         "totalPaymentPrincipalInterest": "মোট পরিশোধ (মূলধন + সুদ)",
         "eMIDetails": "E M I বিস্তারিত",
-        "paymentSummary": "পেমেন্ট সারাংশ"
+        "paymentSummary": "পেমেন্ট সারাংশ",
+        "title": "ইএমআই (EMI) ক্যালকুলেটর",
+        "description": "আপনার হোম, কার বা পার্সোনাল লোনের জন্য সমতুল্য মাসিক কিস্তি (EMI) গণনা করুন।",
+        "loanAmount": "লোনের পরিমাণ",
+        "interestRate": "সুদের হার (%)",
+        "loanTerm": "লোনের মেয়াদ",
+        "years": "বছর",
+        "months": "মাস",
+        "calculate": "EMI গণনা করুন",
+        "emiSummary": "EMI সারসংক্ষেপ",
+        "principalAmount": "মূল পরিমাণ",
+        "totalInterest": "মোট সুদ",
+        "totalPayment": "মোট পেমেন্ট (মূলধন + সুদ)",
+        "enterDetails": "সারসংক্ষেপ দেখতে লোনের বিবরণ লিখুন।"
       }
     },
     "fence-calculator": {
@@ -461,7 +576,9 @@
       "description": "",
       "ui": {
         "fractionCalculator": "ভগ্নাংশ ক্যালকুলেটর",
-        "decimal": "দশমিক:"
+        "decimal": "দশমিক:",
+        "error": "ত্রুটি",
+        "divByZero": "শূন্য দ্বারা ভাগ"
       }
     },
     "gpa-calculator": {
@@ -500,12 +617,12 @@
       "title": "উচ্চতা কনভার্টার",
       "description": "",
       "ui": {
-        "heightConverter": "উচ্চতা কনভার্টার",
+        "heightConverter": "উচ্চতা রূপান্তরকারী",
         "metricCentimeters": "মেট্রিক (সেন্টিমিটার)",
         "cm": "সেমি",
-        "imperialFeetInches": "ইম্পেরিয়াল (ফুট ও ইঞ্চি)",
+        "imperialFeetInches": "ইম্পেরিয়াল (ফুট এবং ইঞ্চি)",
         "ft": "ফুট",
-        "in": "মধ্যে"
+        "in": "ইঞ্চি"
       }
     },
     "hex-to-decimal": {
@@ -515,7 +632,8 @@
         "hexToDecimalConverter": "হেক্সাডেসিমাল থেকে দশমিক কনভার্টার",
         "hexadecimalNumber": "হেক্সাডেসিমাল সংখ্যা",
         "decimalResult": "দশমিক ফলাফল",
-        "eG1AOrFFFFFF": "যেমন 1A বা FFFFFFF"
+        "eG1AOrFFFFFF": "যেমন 1A বা FFFFFFF",
+        "invalidHexString": "অবৈধ হেক্স স্ট্রিং"
       }
     },
     "hourly-to-salary-calculator": {
@@ -531,7 +649,17 @@
         "monthly": "মাসিক",
         "yearlySalary": "বার্ষিক বেতন",
         "hourlyDetails": "প্রতি ঘণ্টার বিবরণ",
-        "salaryBreakdown": "বেতন ভাঙ্গন"
+        "salaryBreakdown": "বেতনের বিবরণ",
+        "title": "ঘণ্টাপ্রতি থেকে বেতন ক্যালকুলেটর",
+        "description": "আপনার ঘণ্টাপ্রতি মজুরিকে দৈনিক, সাপ্তাহিক, মাসিক এবং বার্ষিক আয়ে রূপান্তর করুন।",
+        "hourlyRate": "ঘণ্টাপ্রতি রেট",
+        "workSchedule": "কাজের সময়সূচি",
+        "hoursPerWeek": "সপ্তাহে কর্মঘণ্টা",
+        "daysPerWeek": "সপ্তাহে কর্মদিবস",
+        "weeksPerYear": "বছরে সপ্তাহ",
+        "annualSalary": "বার্ষিক বেতন",
+        "biWeekly": "দ্বি-সাপ্তাহিক",
+        "enterDetails": "বিবরণ দেখতে ঘণ্টাপ্রতি রেট লিখুন।"
       }
     },
     "html-encode-decode": {
@@ -563,13 +691,20 @@
         "investmentCalculator": "বিনিয়োগ ক্যালকুলেটর",
         "initialInvestment": "প্রাথমিক বিনিয়োগ",
         "monthlyContribution": "মাসিক অবদান",
-        "expectedReturn": "প্রত্যাশিত রিটার্ন (%)",
-        "yearsToGrow": "বিনিয়োগের সময় (বছর)",
+        "expectedReturn": "প্রত্যাশিত আয় (%)",
+        "yearsToGrow": "বৃদ্ধির বছরগুলি",
         "totalContributions": "মোট অবদান",
         "interestEarned": "অর্জিত সুদ",
         "futureValue": "ভবিষ্যৎ মূল্য",
         "investmentPlan": "বিনিয়োগ পরিকল্পনা",
-        "growthProjection": "বৃদ্ধি অভিক্ষেপ"
+        "growthProjection": "বৃদ্ধি অভিক্ষেপ",
+        "title": "বিনিয়োগ ক্যালকুলেটর",
+        "description": "চক্রবৃদ্ধি সুদের সাথে সময়ের সাথে সাথে আপনার বিনিয়োগ কতটা বৃদ্ধি পাবে তা গণনা করুন।",
+        "result": "ফলাফল",
+        "totalValue": "মোট মূল্য",
+        "totalInvested": "মোট বিনিয়োগ করা হয়েছে",
+        "totalInterest": "মোট সুদ",
+        "enterDetails": "বৃদ্ধি দেখতে বিবরণ লিখুন।"
       }
     },
     "js-minifier": {
@@ -598,9 +733,11 @@
       "title": "দৈর্ঘ্য কনভার্টার",
       "description": "",
       "ui": {
-        "lengthConverter": "দৈর্ঘ্য কনভার্টার",
+        "lengthConverter": "দৈর্ঘ্য রূপান্তরকারী",
         "from": "থেকে",
-        "to": "এ"
+        "to": "এ",
+        "title": "দৈর্ঘ্য রূপান্তরকারী",
+        "description": "মিটার, ফুট, ইঞ্চি এবং অন্যান্য দৈর্ঘ্যের এককের মধ্যে রূপান্তর করুন।"
       }
     },
     "loan-calculator": {
@@ -608,14 +745,24 @@
       "description": "",
       "ui": {
         "loanCalculator": "ঋণ ক্যালকুলেটর",
-        "loanAmount": "ঋণের পরিমাণ",
-        "interestRate": "সুদের হার (%)",
+        "loanAmount": "লোনের পরিমাণ",
+        "interestRate": "সুদের হার (বার্ষিক)",
         "loanTermYears": "ঋণের মেয়াদ (বছর)",
-        "monthlyPayment": "মাসিক পরিশোধ",
+        "monthlyPayment": "মাসিক পেমেন্ট",
         "totalInterest": "মোট সুদ",
         "totalCostOfLoan": "ঋণের মোট খরচ",
         "loanDetails": "ঋণের বিবরণ",
-        "paymentBreakdown": "পেমেন্ট ব্রেকডাউন"
+        "paymentBreakdown": "পেমেন্ট ব্রেকডাউন",
+        "title": "লোন ক্যালকুলেটর",
+        "description": "আপনার লোনের মাসিক পেমেন্ট, মোট সুদ এবং মোট খরচ গণনা করুন।",
+        "loanTerm": "লোনের মেয়াদ",
+        "years": "বছর",
+        "months": "মাস",
+        "calculate": "লোন গণনা করুন",
+        "loanSummary": "লোনের সারসংক্ষেপ",
+        "totalPrincipal": "মোট মূলধন",
+        "totalPayment": "মোট পেমেন্ট",
+        "enterDetails": "সারসংক্ষেপ দেখতে লোনের বিবরণ লিখুন।"
       }
     },
     "lorem-ipsum-generator": {
@@ -655,8 +802,17 @@
         "cost": "খরচ",
         "markup": "মার্কআপ (%)",
         "profit": "লাভ",
-        "sellingPrice": "বিক্রয়মূল্য",
-        "pricingDetails": "মূল্য বিবরণ"
+        "sellingPrice": "বিক্রয় মূল্য",
+        "pricingDetails": "মূল্য বিবরণ",
+        "title": "মার্কআপ ক্যালকুলেটর",
+        "description": "খরচ এবং মার্কআপ শতাংশের উপর ভিত্তি করে বিক্রয় মূল্য, মোট মুনাফা এবং মুনাফা মার্জিন গণনা করুন।",
+        "markupPercentage": "মার্কআপ শতাংশ",
+        "calculate": "মার্কআপ গণনা করুন",
+        "summary": "মূল্য নির্ধারণ সারসংক্ষেপ",
+        "profitMargin": "মুনাফা মার্জিন",
+        "grossProfit": "মোট মুনাফা",
+        "grossLoss": "মোট ক্ষতি",
+        "enterDetails": "খরচ এবং মার্কআপ লিখুন।"
       }
     },
     "md5generator": {
@@ -681,7 +837,18 @@
         "days": "দিন",
         "copy": "কপি",
         "reset": "রিসেট",
-        "selectDatesToCalculate": "গণনা করার তারিখ নির্বাচন করুন"
+        "selectDatesToCalculate": "পার্থক্য গণনা করতে উভয় তারিখ নির্বাচন করুন।",
+        "title": "তারিখের মধ্যে মাস",
+        "description": "যেকোন দুটি তারিখের মধ্যে ঠিক কতগুলি পূর্ণ মাস এবং অবশিষ্ট দিন রয়েছে তা গণনা করুন।",
+        "includeEndDay": "শেষের তারিখ অন্তর্ভুক্ত করুন (+১ দিন)",
+        "includeEndDayDesc": "গণনায় একটি অতিরিক্ত দিন যোগ করে।",
+        "totalMonths": "মোট মাস",
+        "monthsLabel": "মাস",
+        "fullMonthsLabel": "পূর্ণ মাস",
+        "extraDaysLabel": "অতিরিক্ত দিন",
+        "equivalentTo": "সমতুল্য",
+        "daysLabel": "দিন",
+        "endDateBeforeStart": "দ্রষ্টব্য: শেষের তারিখ শুরুর তারিখের আগে।"
       }
     },
     "mortgage-calculator": {
@@ -692,11 +859,20 @@
         "homePrice": "বাড়ির মূল্য",
         "downPayment": "ডাউন পেমেন্ট",
         "interestRate": "সুদের হার (%)",
-        "loanTermYears": "ঋণের মেয়াদ (বছর)",
+        "loanTermYears": "লোনের মেয়াদ (বছর)",
         "principalLoanAmount": "মূল ঋণের পরিমাণ",
-        "monthlyPayment": "মাসিক পরিশোধ",
+        "monthlyPayment": "মাসিক পেমেন্ট",
         "propertyDetails": "সম্পত্তির বিবরণ",
-        "mortgageSummary": "বন্ধকী সারাংশ"
+        "mortgageSummary": "মর্টগেজ সারসংক্ষেপ",
+        "title": "মর্টগেজ ক্যালকুলেটর",
+        "description": "আপনার মাসিক মর্টগেজ পেমেন্ট এবং মোট সুদ সহজেই গণনা করুন।",
+        "homeValue": "বাড়ির মূল্য",
+        "calculate": "মর্টগেজ গণনা করুন",
+        "principalAndInterestOnly": "শুধুমাত্র মূলধন এবং সুদ",
+        "loanAmount": "লোনের পরিমাণ",
+        "totalInterest": "মোট সুদ",
+        "totalCostOfLoan": "লোনের মোট খরচ",
+        "enterDetails": "সারসংক্ষেপ দেখতে মর্টগেজের বিবরণ লিখুন।"
       }
     },
     "mulch-calculator": {
@@ -801,7 +977,13 @@
         "absoluteChange": "পরম পরিবর্তন",
         "decrease": "হ্রাস",
         "values": "মূল্যবোধ",
-        "decreaseBreakdown": "ব্রেকডাউন হ্রাস করুন"
+        "decreaseBreakdown": "ব্রেকডাউন হ্রাস করুন",
+        "title": "শতকরা হ্রাস ক্যালকুলেটর",
+        "description": "প্রাথমিক মান থেকে চূড়ান্ত মানে শতকরা হ্রাসের হিসাব করুন।",
+        "result": "ফলাফল",
+        "percentageDecrease": "শতকরা হ্রাস",
+        "absoluteDecrease": "নিরঙ্কুশ পার্থক্য",
+        "enterDetails": "হ্রাসের হিসাব করতে মান লিখুন।"
       }
     },
     "percentage-increase-calculator": {
@@ -814,7 +996,13 @@
         "absoluteChange": "পরম পরিবর্তন",
         "change": "পরিবর্তন",
         "values": "মূল্যবোধ",
-        "increaseBreakdown": "ব্রেকডাউন বাড়ান"
+        "increaseBreakdown": "ব্রেকডাউন বাড়ান",
+        "title": "শতকরা বৃদ্ধি ক্যালকুলেটর",
+        "description": "প্রাথমিক মান থেকে চূড়ান্ত মানে শতকরা বৃদ্ধির হিসাব করুন।",
+        "result": "ফলাফল",
+        "percentageIncrease": "শতকরা বৃদ্ধি",
+        "absoluteIncrease": "নিরঙ্কুশ পার্থক্য",
+        "enterDetails": "বৃদ্ধির হিসাব করতে মান লিখুন।"
       }
     },
     "plant-spacing-calculator": {
@@ -838,7 +1026,13 @@
         "work25m": "কাজ (25m)",
         "break5m": "বিরতি (5m)",
         "reset": "রিসেট",
-        "start": "শুরু করুন"
+        "start": "শুরু করুন",
+        "title": "পোমোডোরো টাইমার",
+        "description": "পোমোডোরো টেকনিক ব্যবহার করে আপনার উৎপাদনশীলতা বাড়ান।",
+        "pomodoro": "পোমোডোরো",
+        "shortBreak": "ছোট বিরতি",
+        "longBreak": "দীর্ঘ বিরতি",
+        "completed": "সম্পন্ন"
       }
     },
     "profit-margin-calculator": {
@@ -848,10 +1042,20 @@
         "profitMarginCalculator": "লাভের মার্জিন ক্যালকুলেটর",
         "revenueSellingPrice": "রাজস্ব (বিক্রয়মূল্য)",
         "costOfGoodsSold": "বিক্রিত পণ্যের খরচ",
-        "grossProfit": "মোট লাভ",
+        "grossProfit": "মোট মুনাফা",
         "margin": "মার্জিন",
         "financialDetails": "আর্থিক বিবরণ",
-        "profitability": "লাভজনকতা"
+        "profitability": "লাভজনকতা",
+        "title": "মুনাফা মার্জিন ক্যালকুলেটর",
+        "description": "সহজেই আপনার মোট মুনাফা, মুনাফা মার্জিন এবং মার্কআপ গণনা করুন।",
+        "cost": "বিক্রিত পণ্যের ব্যয় (COGS)",
+        "revenue": "রাজস্ব (বিক্রয় মূল্য)",
+        "calculate": "মার্জিন গণনা করুন",
+        "summary": "মার্জিন সারসংক্ষেপ",
+        "profitMargin": "মুনাফা মার্জিন",
+        "grossLoss": "মোট ক্ষতি",
+        "markup": "মার্কআপ",
+        "enterDetails": "ব্যয় এবং রাজস্ব লিখুন।"
       }
     },
     "qr-code-generator": {
@@ -889,7 +1093,7 @@
       "description": "",
       "ui": {
         "ratioCalculatorAbCd": "অনুপাত ক্যালকুলেটর (A:B = C:D)",
-        "enter3ValuesToCalculateThe4thMissingValue": "অনুপস্থিত ৪র্থ মান হিসাব করতে ৩টি মান লিখুন।"
+        "enter3ValuesToCalculateThe4thMissingValue": "৪র্থ অনুপস্থিত মান গণনা করতে ৩টি মান লিখুন"
       }
     },
     "roi-calculator": {
@@ -902,7 +1106,23 @@
         "profit": "লাভ",
         "roi": "ROI​",
         "investmentDetails": "বিনিয়োগের বিবরণ",
-        "returnOnInvestment": "বিনিয়োগে রিটার্ন"
+        "returnOnInvestment": "বিনিয়োগের উপর রিটার্ন (ROI)",
+        "title": "ROI ক্যালকুলেটর",
+        "description": "বিনিয়োগের লাভজনকতা মূল্যায়ন করতে আপনার বিনিয়োগের উপর রিটার্ন (ROI) গণনা করুন।",
+        "amountInvested": "বিনিয়োগকৃত পরিমাণ (খরচ)",
+        "amountReturned": "প্রাপ্ত পরিমাণ (আয়)",
+        "investmentTimePeriod": "বিনিয়োগের সময়কাল",
+        "optional": "ঐচ্ছিক",
+        "years": "বছর",
+        "calculate": "ROI গণনা করুন",
+        "summary": "ROI সারসংক্ষেপ",
+        "netProfit": "নিট লাভ",
+        "netLoss": "নিট ক্ষতি",
+        "annualizedRoi": "বার্ষিক ROI",
+        "enterDetails": "আপনার বিনিয়োগের পরিমাণ লিখুন।",
+        "investmentAmount": "বিনিয়োগের পরিমাণ",
+        "returnAmount": "প্রাপ্ত পরিমাণ",
+        "investmentGain": "বিনিয়োগের লাভ/ক্ষতি"
       }
     },
     "roman-numeral-converter": {
@@ -912,7 +1132,11 @@
         "romanNumeralConverter": "রোমান সংখ্যা কনভার্টার",
         "numberRoman": "সংখ্যা → রোমান",
         "romanNumber": "রোমান → সংখ্যা",
-        "result": "ফলাফল"
+        "result": "ফলাফল",
+        "rangeError": "সংখ্যাটি ১ থেকে ৩৯৯৯ এর মধ্যে হতে হবে",
+        "invalidRoman": "অবৈধ রোমান সংখ্যা",
+        "numberInputLabel": "সংখ্যা (১ - ৩৯৯৯)",
+        "romanNumeralLabel": "রোমান সংখ্যা"
       }
     },
     "running-distance-calculator": {
@@ -942,7 +1166,7 @@
         "week": "সপ্তাহ",
         "month": "মাস",
         "year": "বছর",
-        "hoursPerWeek": "সপ্তাহে ঘণ্টা",
+        "hoursPerWeek": "সপ্তাহে কর্মঘণ্টা",
         "calculate": "হিসাব করুন",
         "hourly": "ঘণ্টাপ্রতি",
         "daily": "দৈনিক",
@@ -950,7 +1174,19 @@
         "monthly": "মাসিক",
         "yearly": "বার্ষিক",
         "incomeDetails": "আয়ের বিবরণ",
-        "enterYourIncomeDetailsToS": "সারাংশ দেখতে আপনার আয়ের বিবরণ লিখুন"
+        "enterYourIncomeDetailsToS": "সারাংশ দেখতে আপনার আয়ের বিবরণ লিখুন",
+        "title": "বেতন ক্যালকুলেটর",
+        "description": "আপনার বেতনকে ঘণ্টাপ্রতি, দৈনিক, সাপ্তাহিক, মাসিক এবং বার্ষিক সমমূলে রূপান্তর করুন।",
+        "payFrequency": "বেতন পাওয়ার ফ্রিকোয়েন্সি",
+        "biWeekly": "দ্বি-সাপ্তাহিক",
+        "semiMonthly": "অর্ধ-মাসিক",
+        "quarterly": "ত্রৈমাসিক",
+        "annually": "বার্ষিক",
+        "workSchedule": "কাজের সময়সূচি",
+        "daysPerWeek": "সপ্তাহে কর্মদিবস",
+        "salaryBreakdown": "বেতনের বিবরণ",
+        "annualSalary": "বার্ষিক বেতন",
+        "enterDetails": "বিবরণ দেখতে বেতনের তথ্য লিখুন।"
       }
     },
     "salary-to-hourly-calculator": {
@@ -963,7 +1199,20 @@
         "weeksYear": "সপ্তাহ / বছর",
         "hourlyWage": "ঘণ্টাপ্রতি মজুরি",
         "salaryDetails": "বেতন বিবরণ",
-        "equivalentWage": "সমতুল্য মজুরি"
+        "equivalentWage": "সমতুল্য মজুরি",
+        "title": "বেতন থেকে ঘণ্টাপ্রতি ক্যালকুলেটর",
+        "description": "আপনার বার্ষিক বেতনকে ঘণ্টাপ্রতি, দৈনিক, সাপ্তাহিক এবং মাসিক আয়ে রূপান্তর করুন।",
+        "workSchedule": "কাজের সময়সূচি",
+        "hoursPerWeek": "সপ্তাহে কর্মঘণ্টা",
+        "daysPerWeek": "সপ্তাহে কর্মদিবস",
+        "weeksPerYear": "বছরে সপ্তাহ",
+        "salaryBreakdown": "বেতনের বিবরণ",
+        "hourlyRate": "ঘণ্টাপ্রতি রেট",
+        "monthly": "মাসিক",
+        "biWeekly": "দ্বি-সাপ্তাহিক",
+        "weekly": "সাপ্তাহিক",
+        "daily": "দৈনিক",
+        "enterDetails": "বিবরণ দেখতে বার্ষিক বেতন লিখুন।"
       }
     },
     "sha1generator": {
@@ -991,7 +1240,7 @@
       "description": "",
       "ui": {
         "simpleInterestCalculator": "সরল সুদ ক্যালকুলেটর",
-        "principalAmount": "মূলধন",
+        "principalAmount": "আসল (Principal)",
         "annualRate": "বার্ষিক হার (%)",
         "time": "সময়",
         "years": "বছর",
@@ -1000,7 +1249,18 @@
         "interestEarned": "অর্জিত সুদ",
         "finalBalance": "চূড়ান্ত ব্যালেন্স",
         "interestDetails": "সুদের বিবরণ",
-        "growthBreakdown": "গ্রোথ ব্রেকডাউন"
+        "growthBreakdown": "গ্রোথ ব্রেকডাউন",
+        "title": "সাধারণ সুদ ক্যালকুলেটর",
+        "description": "ঋণ বা সঞ্চয়ের উপর সহজেই সাধারণ সুদ হিসাব করুন।",
+        "annualInterestRate": "বার্ষিক সুদের হার (%)",
+        "timePeriod": "সময়কাল",
+        "calculate": "সুদ গণনা করুন",
+        "summary": "সুদের সারসংক্ষেপ",
+        "totalInterest": "মোট সুদ",
+        "totalAmount": "মোট পরিমাণ",
+        "principalPlusInterest": "মূলধন + সুদ",
+        "enterDetails": "আপনার আসল, হার এবং সময় লিখুন।",
+        "interestRate": "বার্ষিক সুদের হার (%)"
       }
     },
     "sleep-calculator": {
@@ -1008,15 +1268,26 @@
       "description": "",
       "ui": {
         "sleepCalculator": "ঘুমের ক্যালকুলেটর",
-        "iWantToWakeUpAt": "আমি ঘুম থেকে উঠতে চাই:",
-        "calculate": "হিসাব করুন",
+        "iWantToWakeUpAt": "আমি এই সময়ে উঠতে চাই",
+        "calculate": "গণনা করুন",
         "toWakeUpRefreshedAt": "সতেজভাবে ঘুম থেকে উঠতে",
         "youShouldTryToFallAsleepAtOneOfTheseTimesIncludes15MinsToFallAsleep": ", এই সময়গুলোর যেকোনো একটিতে ঘুমিয়ে পড়ার চেষ্টা করুন (ঘুমিয়ে পড়ার জন্য ১৫ মিনিট অন্তর্ভুক্ত):",
         "6Cycles9h": "৬ চক্র (৯ ঘণ্টা)",
         "5Cycles75h": "৫ চক্র (৭.৫ ঘণ্টা)",
         "4Cycles6h": "৪ চক্র (৬ ঘণ্টা)",
         "3Cycles45h": "৩ চক্র (৪.৫ ঘণ্টা)",
-        "enterWakeTimeToCalculateS": "ঘুমের সময় গণনা করতে জেগে ওঠার সময় লিখুন"
+        "enterWakeTimeToCalculateS": "ঘুমের সময় গণনা করতে জেগে ওঠার সময় লিখুন",
+        "title": "স্লিপ ক্যালকুলেটর",
+        "description": "90-মিনিটের চক্রের উপর ভিত্তি করে ঘুমের আদর্শ সময় গণনা করুন।",
+        "wakeAt": "ওঠার সময়",
+        "sleepAt": "ঘুমানোর সময়",
+        "iWillGoToBedAt": "আমি এই সময়ে ঘুমাব",
+        "youShouldGoToBedAt": "আপনার এই সময়ে ঘুমানো উচিত",
+        "youShouldWakeUpAt": "আপনার এই সময়ে ওঠা উচিত",
+        "resultsDescription": "এই সময়গুলি 90-মিনিটের চক্রের উপর ভিত্তি করে তৈরি, সাথে ঘুমানোর 15 মিনিট।",
+        "cycles": "চক্র",
+        "hours": "ঘন্টা",
+        "optimal": "আদর্শ"
       }
     },
     "speed-converter": {
@@ -1089,7 +1360,10 @@
         "lap": "ল্যাপ",
         "reset": "রিসেট",
         "laps": "ল্যাপস",
-        "noLapsRecordedYet": "কোন ল্যাপ এখনও রেকর্ড করা"
+        "noLapsRecordedYet": "কোন ল্যাপ এখনও রেকর্ড করা",
+        "title": "অনলাইন স্টপওয়াচ",
+        "description": "ল্যাপ টাইম সহ একটি সাধারণ, সুনির্দিষ্ট অনলাইন স্টপওয়াচ।",
+        "clearLaps": "ল্যাপস মুছুন"
       }
     },
     "tax-calculator": {
@@ -1142,12 +1416,22 @@
         "firstTime": "প্রথম সময়",
         "secondTime": "দ্বিতীয় সময়",
         "calculateAbsoluteDifference": "পরম পার্থক্য হিসাব করুন",
-        "difference": "পার্থক্য:",
+        "difference": "সময়ের পার্থক্য",
         "h": "ঘণ্টা",
         "m": "মিনিট",
         "copy": "কপি",
         "reset": "রিসেট",
-        "selectTimesToCompare": "তুলনা করার সময় নির্বাচন করুন"
+        "selectTimesToCompare": "তুলনা করার সময় নির্বাচন করুন",
+        "title": "সময়ের পার্থক্য ক্যালকুলেটর",
+        "description": "দুটি নির্দিষ্ট তারিখ এবং সময়ের মধ্যে সেকেন্ড পর্যন্ত সঠিক সময়ের পার্থক্য গণনা করুন।",
+        "startDateTime": "শুরুর তারিখ এবং সময়",
+        "endDateTime": "শেষের তারিখ এবং সময়",
+        "daysLabel": "দিন",
+        "hoursLabel": "ঘন্টা",
+        "minutesLabel": "মিনিট",
+        "secondsLabel": "সেকেন্ড",
+        "reversedNote": "দ্রষ্টব্য: শেষের সময় শুরুর সময়ের আগে। পরম পার্থক্য দেখানো হচ্ছে।",
+        "selectDatesToCalculate": "পার্থক্য গণনা করতে উভয় তারিখ এবং সময় নির্বাচন করুন।"
       }
     },
     "time-duration-calculator": {
@@ -1164,7 +1448,16 @@
         "totalTimeInMinutes": "মিনিটে মোট সময়:",
         "copy": "কপি",
         "reset": "রিসেট",
-        "selectStartAndEndTimes": "শুরু এবং শেষ সময় নির্বাচন করুন"
+        "selectStartAndEndTimes": "শুরু এবং শেষ সময় নির্বাচন করুন",
+        "title": "সময়কাল ক্যালকুলেটর",
+        "description": "দুটি সময়ের মধ্যে কত ঘন্টা এবং মিনিট অতিক্রান্ত হয়েছে তা গণনা করুন।",
+        "duration": "সময়কাল",
+        "hLabel": "ঘ",
+        "mLabel": "মি",
+        "decimalHoursLabel": "দশমিক ঘন্টা",
+        "totalMinutesLabel": "মোট মিনিট",
+        "crossesMidnightNote": "দ্রষ্টব্য: শেষের সময় আগের (মধ্যরাত অতিক্রম করেছে বলে ধরে নেওয়া হয়)।",
+        "selectTimesToCalculate": "সময়কাল গণনা করতে উভয় সময় নির্বাচন করুন।"
       }
     },
     "time-zone-converter": {
@@ -1176,7 +1469,18 @@
         "fromTimeZoneRelative": "যে টাইম জোন থেকে",
         "toTimeZone": "যে টাইম জোনে",
         "convert": "কনভার্ট করুন",
-        "selectDateAndTimeZonesTo": "তুলনা করার জন্য তারিখ এবং সময় অঞ্চল নির্বাচন করুন"
+        "selectDateAndTimeZonesTo": "তুলনা করার জন্য তারিখ এবং সময় অঞ্চল নির্বাচন করুন",
+        "title": "সময় অঞ্চল কনভার্টার",
+        "description": "বিভিন্ন সময় অঞ্চলের মধ্যে সময় সঠিকভাবে রূপান্তর করুন।",
+        "fromZone": "টাইমজোন থেকে",
+        "toZone": "টাইমজোনে",
+        "dateAndTime": "তারিখ ও সময়",
+        "swap": "অদলবদল",
+        "convertedTime": "রূপান্তরিত সময়",
+        "hoursAhead": "ঘন্টা এগিয়ে",
+        "hoursBehind": "ঘন্টা পিছিয়ে",
+        "sameTime": "একই সময়",
+        "invalidInput": "একটি বৈধ তারিখ লিখুন।"
       }
     },
     "tip-calculator": {
@@ -1186,14 +1490,29 @@
         "tipCalculator": "টিপ ক্যালকুলেটর",
         "billAmount": "বিলের পরিমাণ",
         "tip": "টিপ %",
-        "numberOfPeople": "ব্যক্তির সংখ্যা",
+        "numberOfPeople": "লোকের সংখ্যা",
         "tipAmount": "টিপের পরিমাণ",
         "person": "/ ব্যক্তি",
         "total": "মোট",
         "totalTip": "মোট টিপ:",
         "totalBill": "মোট বিল:",
         "billDetails": "বিলের বিবরণ",
-        "totalBreakdown": "মোট ব্রেকডাউন"
+        "totalBreakdown": "মোট ব্রেকডাউন",
+        "title": "টিপ ক্যালকুলেটর",
+        "description": "আপনার টিপ হিসাব করুন এবং বন্ধুদের মধ্যে সহজেই বিল ভাগ করুন।",
+        "selectTip": "টিপ % নির্বাচন করুন",
+        "custom": "কাস্টম",
+        "totalAmount": "মোট পরিমাণ",
+        "splitBetween": "এর মধ্যে ভাগ করা",
+        "people": "জন",
+        "tipPerPerson": "টিপ / জন",
+        "totalPerPerson": "মোট / জন",
+        "payingFullAmount": "আপনি পুরো টাকা দিচ্ছেন।",
+        "enterDetails": "বিলের বিবরণ লিখুন।",
+        "tipPercentage": "টিপের শতাংশ",
+        "perPerson": "/ জনপ্রতি",
+        "totalTipOverall": "মোট টিপ (সামগ্রিক)",
+        "totalBillOverall": "মোট বিল (সামগ্রিক)"
       }
     },
     "unix-timestamp-converter": {
@@ -1206,7 +1525,22 @@
         "dateToTimestamp": "তারিখ থেকে টাইমস্ট্যাম্প",
         "localDateTime": "স্থানীয় তারিখ ও সময়",
         "eG1700000000": "যেমন 1700000000",
-        "result": "ফলাফল"
+        "result": "ফলাফল",
+        "title": "ইউনিক্স টাইমস্ট্যাম্প কনভার্টার",
+        "description": "ইউনিক্স টাইমস্ট্যাম্পকে পাঠযোগ্য তারিখে রূপান্তর করুন এবং এর বিপরীত।",
+        "currentEpoch": "বর্তমান ইউনিক্স সময়",
+        "copy": "কপি",
+        "copied": "কপি করা হয়েছে!",
+        "tsToDate": "টাইমস্ট্যাম্প থেকে তারিখ",
+        "enterTimestamp": "টাইমস্ট্যাম্প লিখুন",
+        "gmtTime": "জিএমটি (GMT) সময়",
+        "localTime": "আপনার স্থানীয় সময়",
+        "invalidTimestamp": "একটি বৈধ টাইমস্ট্যাম্প লিখুন।",
+        "dateToTs": "তারিখ থেকে টাইমস্ট্যাম্প",
+        "enterDate": "তারিখ ও সময় লিখুন",
+        "secondsLabel": "টাইমস্ট্যাম্প (সেকেন্ড)",
+        "msLabel": "মিলিসেকেন্ড",
+        "invalidDate": "একটি বৈধ তারিখ লিখুন।"
       }
     },
     "url-encode-decode": {
@@ -1255,7 +1589,17 @@
         "5Cycles75h": "৫ চক্র (৭.৫ ঘণ্টা)",
         "6Cycles9h": "৬ চক্র (৯ ঘণ্টা)",
         "readyForBed": "বিছানা জন্য প্রস্তুত",
-        "clickTheButtonWhenYouReG": "আপনি যখন বিছানায় যাচ্ছেন তখন বোতামটি ক্লিক করুন"
+        "clickTheButtonWhenYouReG": "আপনি যখন বিছানায় যাচ্ছেন তখন বোতামটি ক্লিক করুন",
+        "title": "ওঠার সময় ক্যালকুলেটর",
+        "description": "সতেজ অনুভব করতে ঠিক কখন ঘুম থেকে উঠতে হবে তা জানুন। 90-মিনিটের চক্রের উপর ভিত্তি করে।",
+        "sleepNow": "আমি এখনই ঘুমাতে যাচ্ছি",
+        "sleepAtTime": "অথবা আমি এই সময়ে ঘুমাব",
+        "calculate": "সময় গণনা করুন",
+        "youShouldWakeUpAt": "আপনার এই সময়ে ওঠা উচিত",
+        "resultsDescription": "এই সময়গুলি 90-মিনিটের চক্রের উপর ভিত্তি করে তৈরি, সাথে ঘুমানোর 15 মিনিট।",
+        "cycles": "চক্র",
+        "hours": "ঘন্টা",
+        "optimal": "আদর্শ"
       }
     },
     "water-intake-calculator": {
@@ -1285,16 +1629,29 @@
         "days": "দিন",
         "copy": "কপি",
         "reset": "রিসেট",
-        "selectDatesToCalculate": "গণনা করার তারিখ নির্বাচন করুন"
+        "selectDatesToCalculate": "পার্থক্য গণনা করতে উভয় তারিখ নির্বাচন করুন।",
+        "title": "তারিখের মধ্যে সপ্তাহ",
+        "description": "যেকোন দুটি তারিখের মধ্যে ঠিক কতগুলি পূর্ণ সপ্তাহ এবং অবশিষ্ট দিন রয়েছে তা গণনা করুন।",
+        "includeEndDay": "শেষের তারিখ অন্তর্ভুক্ত করুন (+১ দিন)",
+        "includeEndDayDesc": "গণনায় একটি অতিরিক্ত দিন যোগ করে।",
+        "totalWeeks": "মোট সপ্তাহ",
+        "weeksLabel": "সপ্তাহ",
+        "fullWeeksLabel": "পূর্ণ সপ্তাহ",
+        "extraDaysLabel": "অতিরিক্ত দিন",
+        "equivalentTo": "সমতুল্য",
+        "daysLabel": "দিন",
+        "endDateBeforeStart": "দ্রষ্টব্য: শেষের তারিখ শুরুর তারিখের আগে।"
       }
     },
     "weight-converter": {
       "title": "ওজন কনভার্টার",
       "description": "",
       "ui": {
-        "weightConverter": "ওজন কনভার্টার",
+        "weightConverter": "ওজন রূপান্তরকারী",
         "from": "থেকে",
-        "to": "এ"
+        "to": "এ",
+        "title": "ওজন রূপান্তরকারী",
+        "description": "কিলোগ্রাম, পাউন্ড, আউন্স, গ্রাম এবং অন্যান্য ওজনের এককের মধ্যে রূপান্তর করুন।"
       }
     },
     "word-counter": {
@@ -1329,7 +1686,14 @@
       "title": "বিশ্ব সময় কনভার্টার",
       "description": "",
       "ui": {
-        "worldTimeConverter": "বিশ্ব সময় কনভার্টার"
+        "worldTimeConverter": "বিশ্ব সময় কনভার্টার",
+        "title": "বিশ্ব সময় কনভার্টার",
+        "description": "তাত্ক্ষণিকভাবে একাধিক সময় অঞ্চল জুড়ে সময় রূপান্তর করুন। বিশ্বব্যাপী বর্তমান সময়ের তুলনা করুন।",
+        "liveTime": "লাইভ সময়",
+        "customTime": "কাস্টম সময়",
+        "addZone": "সময় অঞ্চল যোগ করুন",
+        "remove": "সরান",
+        "allZonesAdded": "সমস্ত অঞ্চল যোগ করা হয়েছে"
       }
     },
     "xml-formatter": {
@@ -1358,7 +1722,8 @@
   },
   "Search": {
     "placeholder": "টুলস খুঁজুন...",
-    "noResults": "\"{query}\"-এর জন্য কোনো টুল পাওয়া যায়নি।"
+    "noResults": "\"{query}\"-এর জন্য কোনো টুল পাওয়া যায়নি।",
+    "tryADifferentSearchTermOr": "একটি ভিন্ন অনুসন্ধান শব্দ ব্যবহার করে দেখুন বা নিচের বিভাগগুলি ব্রাউজ করুন।"
   },
   "Home": {
     "metaTitle": "ফ্রি অনলাইন টুলস এবং ক্যালকুলেটর",
@@ -1730,14 +2095,17 @@
   "layout": {},
   "panels": {},
   "Page": {
-    "whatIs": "{title} কি?",
-    "howToUse": "কিভাবে {title} ব্যবহার করবেন",
+    "whatIs": "{title} কী?",
+    "howToUse": "{title} কীভাবে ব্যবহার করবেন",
     "example": "উদাহরণ",
-    "useCases": "সাধারণ ব্যবহারের ক্ষেত্রে",
-    "howItWorks": "কিভাবে এটা কাজ করে",
-    "faq": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী",
+    "useCases": "সাধারণ ব্যবহারের ক্ষেত্র",
+    "howItWorks": "এটি কীভাবে কাজ করে",
+    "faq": "সচরাচর জিজ্ঞাস্য",
     "readyToStart": "শুরু করতে প্রস্তুত?",
-    "useToolNow": "এখন টুল ব্যবহার করুন"
+    "useToolNow": "টুলটি এখনই ব্যবহার করুন",
+    "resultInterpretation": "আপনার ফলাফল বোঝা",
+    "tipsAndLimitations": "পরামর্শ এবং নির্ভুলতা নোট",
+    "disclaimer": "দাবিত্যাগ"
   },
   "Categories": {
     "developerTools": "বিকাশকারী সরঞ্জাম",

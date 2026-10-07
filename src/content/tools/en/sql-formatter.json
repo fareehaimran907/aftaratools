@@ -1,55 +1,53 @@
 {
-  "seoTitle": "SQL Formatter",
-  "metaDescription": "Free online SQL Formatter. Beautify SQL queries.",
+  "seoTitle": "SQL Formatter - Beautify SQL Queries Online",
+  "metaDescription": "Free online SQL Formatter. Instantly format, indent, and beautify messy SQL queries to make them readable and easy to debug. Supports standard SQL.",
   "h1": "SQL Formatter",
   "primaryKeyword": "sql formatter",
   "secondaryKeywords": [
-    "sql formatter online",
-    "free sql formatter",
-    "best sql formatter"
+    "sql beautifier",
+    "format sql query",
+    "pretty print sql",
+    "sql indent"
   ],
   "slug": "sql-formatter",
-  "intro": "Use our free online SQL Formatter tool. It beautifies SQL queries based on your inputs.",
-  "whatIs": "The SQL Formatter is an online utility that beautifies SQL queries. It processes your raw SQL and provides properly indented and capitalized queries.",
+  "intro": "Staring at a massive, unreadable block of SQL code? Our free SQL Formatter instantly organizes and indents your queries, making them beautiful and easy to debug.",
+  "whatIs": "The SQL Formatter is a developer utility that takes raw, unstructured database queries and 'beautifies' them. It applies consistent indentation, capitalization, and line-breaks according to database programming best practices.",
   "howToUse": [
-    "Enter your raw SQL into the designated input field.",
-    "Provide any secondary parameters like formatted SQL.",
-    "Click the calculate or submit button to generate properly indented and capitalized queries.",
-    "Copy or review the resulting output for your needs."
+    "Paste your messy SQL query into the input box.",
+    "Select your preferred formatting style (e.g., spaces vs tabs, uppercase keywords).",
+    "Click 'Format SQL'.",
+    "Copy the beautifully structured query."
   ],
-  "howItWorks": "This tool operates in your browser by applying standard algorithms to your raw SQL. It instantly processes the data to output properly indented and capitalized queries.",
-  "workedExample": "For example: Capitalizes `SELECT` and indents `WHERE` clauses.",
-  "resultInterpretation": "The result represents properly indented and capitalized queries. You can use this data for your specific calculations or formatting needs.",
+  "howItWorks": "The tool parses the SQL string into individual tokens (SELECT, FROM, WHERE). It automatically capitalizes reserved SQL keywords and inserts line breaks and indents before major clauses and AND/OR conditions.",
+  "workedExample": "Input: `select id,name from users where age>18 and status='active'`. Output:\n`SELECT\n  id,\n  name\nFROM\n  users\nWHERE\n  age > 18\n  AND status = 'active'`",
+  "resultInterpretation": "The output is the exact same functional query, but it is highly readable. This allows developers to quickly spot missing commas, bad joins, or incorrect logic.",
   "useCases": [
-    "Code reviews",
-    "Debugging complex JOINs",
-    "Quickly processing raw SQL on the go"
+    "Debugging: Formatting a massive query pulled from server logs to figure out why it is failing or running slowly.",
+    "Code Reviews: Cleaning up a query before committing it to version control so other developers can read it.",
+    "Documentation: Formatting SQL examples for technical blog posts or internal company wikis."
   ],
   "tipsAndLimitations": [
-    "Different SQL dialects (MySQL, Postgres) format slightly differently.",
-    "Ensure your inputs are formatted correctly for the best results.",
-    "The tool runs completely client-side, ensuring your data remains private."
+    "The tool generally defaults to Standard SQL formatting, which works perfectly for MySQL, PostgreSQL, and SQLite.",
+    "Complex dialect-specific functions (like T-SQL specific window functions) will usually format correctly but may lack perfect keyword capitalization."
   ],
   "faq": [
     {
-      "question": "Does it fix syntax errors?",
-      "answer": "No, it only changes whitespace and capitalization."
+      "question": "Does formatting SQL change how it runs?",
+      "answer": "No. The database engine ignores spaces, tabs, and line breaks entirely. Formatting is strictly for human readability."
     },
     {
-      "question": "Is the SQL Formatter free to use?",
-      "answer": "Yes, our SQL Formatter is completely free and requires no registration."
-    },
-    {
-      "question": "Does this work on mobile devices?",
-      "answer": "Yes, the tool is fully responsive and functions perfectly on all smartphones and tablets."
+      "question": "Should SQL keywords be capitalized?",
+      "answer": "It is a widely accepted industry standard to capitalize reserved SQL keywords (SELECT, INSERT, WHERE) to easily distinguish them from table and column names."
     }
   ],
   "relatedTools": [
-    "json-formatter",
+    "xml-formatter",
     "base64-encode-decode",
-    "url-encode-decode"
+    "text-case-converter"
   ],
-  "lastReviewed": "2026-09-29",
-  "imageAlt": "SQL Formatter interface screenshot",
+  "cta": "Beautify your SQL queries now!",
+  "disclaimer": "Tool parses queries strictly for aesthetic formatting. It does not validate SQL logic or check for execution errors.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "SQL Formatter interface showing indented query",
   "ogImageText": "SQL Formatter"
 }

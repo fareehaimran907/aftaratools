@@ -1,0 +1,52 @@
+{
+  "seoTitle": "Morse Code Translator - Translate Text & Audio",
+  "metaDescription": "Free online Morse Code Translator. Convert text to Morse code dots and dashes, or translate Morse back to English. Includes audio playback.",
+  "h1": "Morse Code Translator",
+  "primaryKeyword": "morse code translator",
+  "secondaryKeywords": [
+    "text to morse code",
+    "morse code audio",
+    "translate morse",
+    "morse code decoder"
+  ],
+  "slug": "morse-code-translator",
+  "intro": "Whether you are a ham radio enthusiast, solving a puzzle, or just curious, our free Morse Code Translator easily converts text into dots and dashes—and plays it out loud.",
+  "whatIs": "The Morse Code Translator is a dual-function utility that encodes standard alphabetical text into the International Morse Code system (dots/dits and dashes/dahs) and decodes Morse strings back into readable text.",
+  "howToUse": [
+    "To Encode: Type standard text into the input box. The Morse code will generate instantly.",
+    "To Decode: Type Morse code using periods (.) and hyphens (-), separating letters with a single space and words with a slash (/).",
+    "Click the 'Play' icon to hear the Morse code via audio."
+  ],
+  "howItWorks": "The tool uses a predefined dictionary mapping every English letter and number to a specific sequence of dots and dashes. For translation, it iterates through the string, swapping characters based on the dictionary. For audio, it utilizes the Web Audio API to generate short and long oscillator beeps.",
+  "workedExample": "Inputting 'SOS' into the text field. 'S' is '...', and 'O' is '---'. The tool outputs '... --- ...'.",
+  "resultInterpretation": "The visual output is the exact rhythmic pattern required to transmit the message. A dot (.) represents one unit of time, and a dash (-) represents three units.",
+  "useCases": [
+    "Amateur Radio: Practicing transmission and reception skills for a ham radio license.",
+    "Escape Rooms & Puzzles: Quickly decoding a hidden message in a video game or ARG.",
+    "Survival Education: Learning how to transmit a distress signal using a flashlight or tapping."
+  ],
+  "tipsAndLimitations": [
+    "Morse code does not differentiate between uppercase and lowercase letters.",
+    "Standard International Morse Code does not support most special characters or non-Latin alphabets."
+  ],
+  "faq": [
+    {
+      "question": "How do you separate words in Morse code?",
+      "answer": "In written Morse code, letters are usually separated by a single space, and full words are separated by a forward slash (/) or three spaces."
+    },
+    {
+      "question": "Can I hear the Morse code?",
+      "answer": "Yes! If your browser supports Web Audio, you can click the play button to hear the exact rhythmic timing of the dots and dashes."
+    }
+  ],
+  "relatedTools": [
+    "base64-encode-decode",
+    "binary-to-decimal",
+    "text-case-converter"
+  ],
+  "cta": "Translate your message into Morse code!",
+  "disclaimer": "Tool supports International Morse Code (ITU standard). It may not translate specialized prosigns or older American Morse Code correctly.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Morse Code Translator interface showing SOS",
+  "ogImageText": "Morse Code Translator"
+}

@@ -1,55 +1,74 @@
 {
-  "seoTitle": "Kalkulator Rasio",
-  "metaDescription": "Hitung nilai rasio yang hilang.",
+  "seoTitle": "Kalkulator Rasio – Pecahkan Rasio dan Temukan Nilai yang Hilang (A:B = C:D)",
+  "metaDescription": "Kalkulator rasio online gratis. Selesaikan persamaan A:B = C:D dengan mudah, temukan nilai yang hilang, dan hitung rasio ekuivalen. Sempurna untuk resep dan matematika.",
   "h1": "Kalkulator Rasio",
   "primaryKeyword": "kalkulator rasio",
   "secondaryKeywords": [
-    "kalkulator rasio online",
-    "kalkulator rasio gratis",
-    "kalkulator rasio terbaik"
+    "selesaikan rasio",
+    "rasio ekuivalen",
+    "nilai yang hilang dalam rasio",
+    "pemecah rasio",
+    "kalkulator a:b = c:d",
+    "kalkulator proporsi",
+    "kalkulator rasio skala"
   ],
-  "slug": "kalkulator rasio",
-  "intro": "Selesaikan angka-angka yang hilang dalam rasio setara atau skalakan rasio ke atas dan ke bawah.",
-  "whatIs": "Alat apa ini?",
+  "slug": "kalkulator-rasio",
+  "intro": "Berurusan dengan proporsi yang rumit atau mencoba menemukan nilai yang hilang dalam suatu rasio? Baik Anda sedang meningkatkan resep masakan favorit, mengubah ukuran gambar, mencampur bahan kimia, atau memecahkan masalah matematika yang sulit, Kalkulator Rasio online gratis kami membuat pekerjaan dengan proporsi menjadi mudah. Alat ini dirancang untuk menyelesaikan persamaan rasio A:B = C:D standar secara instan. Hanya dengan memasukkan tiga nilai yang diketahui, kalkulator secara otomatis menghitung nilai keempat yang hilang secara real-time. Tidak perlu lagi perkalian silang manual atau tebak-tebakan—dapatkan jawaban presisi secara matematis untuk semua kebutuhan rasio ekuivalen Anda secara instan, tanpa harus menekan tombol 'hitung'.",
+  "whatIs": "Kalkulator rasio adalah alat matematika khusus yang dirancang untuk memecahkan proporsi, yang secara khusus diformat sebagai persamaan A : B = C : D. Sebuah rasio mewakili hubungan kuantitatif antara dua angka, yang menunjukkan berapa kali angka pertama mengandung angka kedua. Misalnya, jika sebuah resep membutuhkan 2 cangkir tepung untuk setiap 1 cangkir gula, rasio tepung terhadap gula adalah 2:1. Ketika Anda perlu memperbesar resep sambil mempertahankan rasa yang sama persis, Anda membuat proporsi—sebuah persamaan yang menyatakan bahwa dua rasio adalah sama. Menyelesaikannya secara manual biasanya memerlukan perkalian silang (misalnya, A × D = B × C) dan manipulasi aljabar. Kalkulator ini mengotomatiskan proses matematika yang tepat tersebut, secara instan menghitung setiap variabel tunggal yang hilang ketika tiga variabel lainnya disediakan, memastikan proporsionalitas yang sempurna setiap saat.",
   "howToUse": [
-    "Masukkan rasio A Anda ke dalam kolom input yang ditentukan.",
-    "Berikan parameter sekunder seperti rasio B.",
-    "Klik tombol hitung atau kirim untuk menghasilkan rasio yang disederhanakan atau nilai yang hilang.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Temukan empat kolom input yang disusun dalam format A : B = C : D.",
+    "Masukkan dua nilai yang diketahui untuk rasio pertama (A dan B) di sebelah kiri tanda sama dengan.",
+    "Masukkan nilai yang diketahui untuk salah satu, C atau D, di sisi kanan.",
+    "Biarkan kolom untuk nilai yang tidak diketahui tetap kosong.",
+    "Klik di luar kotak input atau tunggu sejenak. Kalkulator akan secara otomatis mengisi kolom kosong tersebut dengan nilai yang hilang yang benar."
   ],
-  "howItWorks": "Bagaimana cara kerjanya",
-  "workedExample": "Contoh",
-  "resultInterpretation": "Interpretasi",
+  "howItWorks": "Kalkulator rasio kami beroperasi menggunakan prinsip matematika dasar dari perkalian silang untuk memecahkan proporsi. Persamaan yang mendasarinya adalah A/B = C/D. Saat Anda memberikan tiga dari empat variabel, alat ini langsung menyusun ulang rumus untuk mencari yang hilang. Misalnya, jika D tidak ada, alat ini menghitungnya menggunakan rumus D = (B × C) / A. Jika C yang tidak ada, alat ini menghitung C = (A × D) / B. Perhitungan ini dieksekusi secara instan menggunakan JavaScript sisi klien dalam browser web Anda, yang berarti matematika terjadi secara lokal di perangkat Anda tanpa perlu mengirim data ke server atau memuat ulang halaman. Hasilnya instan, mulus, dan sangat akurat.",
+  "workedExample": "Katakanlah Anda sedang menyesuaikan resep masakan. Resep aslinya membutuhkan 2 cangkir gula (A) dan 5 cangkir tepung (B). Rasionya adalah 2:5. Anda ingin membuat porsi yang lebih besar menggunakan 10 cangkir gula (C), dan Anda perlu tahu berapa banyak tepung (D) yang harus digunakan untuk mempertahankan proporsi yang sama persis.\n\nAnda menyiapkan persamaan: 2 : 5 = 10 : D.\nUntuk menyelesaikannya secara manual, Anda melakukan perkalian silang: 2 × D = 5 × 10.\nIni disederhanakan menjadi: 2D = 50.\nKemudian, Anda membagi kedua ruas dengan 2: D = 50 / 2 = 25.\nJadi, Anda butuh 25 cangkir tepung. Ketika Anda memasukkan angka 2, 5, dan 10 ke dalam kalkulator kami, alat ini langsung menjalankan logika yang tepat ini dan menampilkan angka 25 di kolom D.",
+  "resultInterpretation": "Hasilnya diinterpretasikan secara langsung di dalam kolom input itu sendiri. Tidak seperti kalkulator yang menampilkan hasil dalam kotak terpisah, alat ini mengisi nilai yang hilang tepat di tempatnya dalam persamaan A:B = C:D. Jika Anda memasukkan nilai untuk A, B, dan C, alat akan secara otomatis mengisi bidang D dengan angka yang dihitung. Angka ini mewakili nilai pasti yang diperlukan untuk membuat rasio di sebelah kanan (C:D) setara secara matematis dengan rasio di sebelah kiri (A:B). Anda juga dapat menimpa angka yang ada untuk menghitung ulang secara real-time, membuatnya sangat mudah untuk menguji skenario yang berbeda.",
   "useCases": [
-    "Rasio aspek layar",
-    "Mencampur cat atau beton",
-    "Memproses rasio A dengan cepat saat bepergian"
+    "Memasak & Memanggang: Menambah atau mengurangi skala resep masakan secara akurat sambil menjaga keseimbangan bahan yang sempurna (misalnya, menggandakan resep).",
+    "Desain Grafis & Fotografi: Mengubah ukuran gambar atau kanvas dengan tetap mempertahankan rasio aspek asli (aspect ratio) secara ketat untuk mencegah gambar meregang atau distorsi.",
+    "Konstruksi & Teknik: Menghitung model skala, mencampur beton dengan proporsi yang benar, atau menentukan kebutuhan material bangunan.",
+    "Keuangan & Mata Uang: Menghitung nilai tukar atau menentukan distribusi proporsional dari dana, keuntungan, atau biaya bersama.",
+    "Pendidikan & Akademik: Siswa dapat dengan cepat memeriksa jawaban mereka saat menyelesaikan pekerjaan rumah aljabar yang berkaitan dengan proporsi dan perkalian silang."
   ],
   "tipsAndLimitations": [
-    "Rasio berfungsi secara matematis mirip dengan pecahan.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "Kalkulator memerlukan tepat tiga nilai untuk dimasukkan guna menghitung nilai keempat. Alat ini tidak dapat menyelesaikan persamaan dengan dua atau lebih variabel yang hilang.",
+    "Anda dapat memasukkan angka desimal (misalnya, 1.5, 2.75) untuk perhitungan yang sangat presisi, bukan hanya bilangan bulat.",
+    "Alat akan dihitung ulang secara otomatis saat Anda mengeklik di luar kolom input (onBlur).",
+    "Hindari memasukkan angka nol (0) di kolom A atau B jika Anda mencoba menghitung sisi lain, karena ini dapat menyebabkan kesalahan pembagian dengan nol.",
+    "Kalkulator saat ini menghitung nilai C atau D. Pastikan rasio lengkap Anda yang diketahui dimasukkan di sisi kiri (A dan B)."
   ],
   "faq": [
     {
-      "question": "Berapa rasio emasnya?",
-      "answer": "Sekitar 1,618 banding 1."
+      "question": "Dapatkah saya menggunakan angka desimal atau pecahan di kalkulator rasio?",
+      "answer": "Anda dapat menggunakan angka desimal (seperti 2.5 atau 0.75) di kolom mana pun. Akan tetapi, saat ini kalkulator tidak menerima format pecahan (seperti 1/2) secara langsung; Anda harus mengonversinya ke desimal terlebih dahulu (0.5)."
     },
     {
-      "question": "Apakah Kalkulator Rasio gratis untuk digunakan?",
-      "answer": "Ya, Kalkulator Rasio kami sepenuhnya gratis dan tidak memerlukan registrasi."
+      "question": "Apa yang terjadi jika saya hanya memasukkan dua angka?",
+      "answer": "Kalkulator membutuhkan rasio awal yang lengkap (A dan B) dan salah satu bagian dari rasio target (baik C atau D). Jika Anda hanya memasukkan dua angka, kalkulator tidak memiliki informasi yang cukup untuk menyelesaikan proporsi dan tidak akan menghitung hasilnya."
     },
     {
-      "question": "Apakah ini berfungsi pada perangkat seluler?",
-      "answer": "Ya, alat ini sepenuhnya responsif dan berfungsi sempurna di semua ponsel cerdas dan tablet."
+      "question": "Bisakah kalkulator ini mencari nilai A atau B, alih-alih C atau D?",
+      "answer": "Antarmuka saat ini dioptimalkan untuk memecahkan sisi kanan persamaan (C atau D). Untuk mencari nilai yang hilang di sebelah kiri, cukup tukar posisi sisi yang diketahui dan yang tidak diketahui sehingga rasio lengkap berada di sebelah kiri."
+    },
+    {
+      "question": "Apakah ini sama dengan menghitung rasio aspek (aspect ratio)?",
+      "answer": "Ya! Rasio aspek (seperti 16:9 untuk layar monitor) bekerja persis seperti ini. Jika Anda memiliki rasio 16:9 dan lebar 1920 piksel (C), Anda dapat menggunakan alat ini untuk mencari tinggi (D) dengan memasukkan 16:9 = 1920:D."
+    },
+    {
+      "question": "Mengapa hasil perhitungan tidak langsung diperbarui ketika saya sedang mengetik?",
+      "answer": "Kalkulator memperbarui hasil segera setelah Anda selesai mengetik dan pindah ke kolom berikutnya atau mengklik di luar kotak. Hal ini mencegah kalkulator menghitung angka yang tidak lengkap saat Anda masih mengetik."
     }
   ],
   "relatedTools": [
-    "kalkulator pecahan",
-    "kalkulator rata-rata",
-    "kalkulator gpa"
+    "fraction-calculator",
+    "percentage-calculator",
+    "average-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator Rasio",
+  "cta": "Perlu menyelesaikan masalah proporsi yang rumit sekarang juga? Masukkan tiga nilai yang Anda ketahui di kolom atas untuk secara instan menghitung angka yang hilang dan menyempurnakan rasio Anda.",
+  "disclaimer": "Alat ini ditujukan untuk memberikan perhitungan yang cepat dan akurat untuk penggunaan pendidikan, pribadi, dan profesional secara umum. Selalu periksa kembali perhitungan penting secara manual, terutama ketika berhadapan dengan campuran bahan kimia yang tepat, teknik struktural, atau distribusi keuangan yang signifikan.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka kalkulator rasio yang menunjukkan empat bidang input yang diatur dalam format A:B = C:D",
   "ogImageText": "Kalkulator Rasio"
 }

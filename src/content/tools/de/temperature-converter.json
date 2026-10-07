@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Temperaturkonverter",
-  "metaDescription": "Konvertieren Sie Celsius, Fahrenheit und Kelvin.",
-  "h1": "Temperaturkonverter",
-  "primaryKeyword": "Temperaturkonverter",
+  "seoTitle": "Temperaturrechner - Celsius, Fahrenheit & Kelvin",
+  "metaDescription": "Kostenloser Temperaturrechner. Rechnen Sie sofort zwischen Celsius (°C), Fahrenheit (°F) und Kelvin (K) um.",
+  "h1": "Temperaturrechner",
+  "primaryKeyword": "temperaturrechner",
   "secondaryKeywords": [
-    "Temperaturkonverter online",
-    "kostenloser Temperaturkonverter",
-    "bester Temperaturkonverter"
+    "celsius in fahrenheit",
+    "fahrenheit in celsius",
+    "temperatur umrechnen"
   ],
-  "slug": "Temperaturkonverter",
-  "intro": "Übersetzen Sie Temperaturen schnell zwischen großen Skalen.",
-  "whatIs": "Was ist das für ein Werkzeug?",
-  "howToUse": [
-    "Geben Sie Ihren Celsiusgrad in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie Fahrenheit an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um die entsprechende Temperatur zu generieren.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
-  ],
-  "howItWorks": "Wie es funktioniert",
-  "workedExample": "Beispiele",
-  "resultInterpretation": "Interpretation",
-  "useCases": [
-    "Wettervorhersage",
-    "Kochtemperaturen",
-    "Schnelle Verarbeitung von Celsius unterwegs"
-  ],
-  "tipsAndLimitations": [
-    "Die Formeln beinhalten sowohl Multiplikation als auch Addition/Subtraktion.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten vertraulich bleiben."
-  ],
+  "slug": "temperatur-konverter",
+  "intro": "Wetterbericht im Ausland oder ein amerikanisches Rezept? Unterschiedliche Temperaturskalen können verwirrend sein. Unser Tool rechnet sofort um.",
+  "whatIs": "Ein Temperaturrechner übersetzt thermische Messungen von einer Skala in eine andere (Celsius, Fahrenheit, Kelvin).",
+  "howToUse": "Skala auswählen. Temperatur eingeben. Das Tool zeigt die Werte für die anderen Skalen sofort an.",
+  "howItWorks": "Die Umrechnung erfordert Formeln. Celsius in Fahrenheit: (°C × 9/5) + 32. Fahrenheit in Celsius: (°F - 32) × 5/9.",
+  "workedExample": "Ein Rezept verlangt 180°C. In Fahrenheit ergibt das (°C × 1,8) + 32 = 356°F.",
+  "resultInterpretation": "Das Ergebnis ist mathematisch exakt. Kelvin verwendet kein Grad-Symbol (°).",
+  "useCases": "Kochen/Backen: Ofentemperaturen. Wetter: Vorhersagen im Urlaub. Wissenschaft: Kelvin für Thermodynamik.",
+  "tipsAndLimitations": "Faustregel C in F: Celsius verdoppeln und 30 addieren (z.B. 20°C × 2 + 30 = 70°F). Bei -40° sind Celsius und Fahrenheit gleich.",
   "faq": [
     {
-      "question": "Ist die Nutzung des Temperaturkonverters kostenlos?",
-      "answer": "Ja, die Nutzung unseres Temperaturkonverters ist völlig kostenlos."
+      "question": "Wie rechnet man Celsius in Fahrenheit um?",
+      "answer": "Mit 1,8 multiplizieren und 32 addieren."
     },
     {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, es reagiert vollständig und funktioniert auf allen Geräten."
-    },
-    {
-      "question": "Muss ich etwas herunterladen?",
-      "answer": "Nein, es funktioniert vollständig in Ihrem Browser und erfordert keine Installation."
+      "question": "Was ist die normale Körpertemperatur?",
+      "answer": "Meist als 37°C oder 98,6°F angegeben."
     }
   ],
   "relatedTools": [
-    "Längenkonverter",
-    "Gewichtsumrechner",
-    "Höhenkonverter"
+    "length-converter",
+    "weight-converter",
+    "volume-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Temperaturkonverter",
-  "ogImageText": "Temperaturkonverter"
+  "cta": "Rechnen Sie jetzt jede Temperatur genau um!",
+  "disclaimer": "Für allgemeine Informationszwecke.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Temperaturrechner Celsius in Fahrenheit",
+  "ogImageText": "Temperaturrechner"
 }

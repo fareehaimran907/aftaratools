@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Generador de Hash Bcrypt - Hashing Seguro de Contraseñas",
+  "metaDescription": "Generador gratuito de Bcrypt en línea. Hashea contraseñas de manera segura usando el algoritmo bcrypt estándar de la industria con factores de costo personalizados (rondas de trabajo) para máxima seguridad.",
+  "h1": "Generador de Hash Bcrypt",
+  "primaryKeyword": "generador de bcrypt",
+  "secondaryKeywords": [
+    "hash de contraseña bcrypt",
+    "generar bcrypt",
+    "bcrypt en línea",
+    "herramienta de hash de contraseñas"
+  ],
+  "slug": "generador-de-hash-bcrypt",
+  "intro": "¿Construyendo un sistema de autenticación de usuarios? Nuestro Generador de Bcrypt gratuito proporciona la forma más segura de cifrar contraseñas, usando salado automático y un factor de costo computacional personalizable.",
+  "whatIs": "El Generador Bcrypt es una utilidad de seguridad avanzada diseñada específicamente para el hash de contraseñas de usuario. A diferencia de los algoritmos rápidos (MD5, SHA), bcrypt es intencionalmente lento y genera automáticamente una 'sal' aleatoria única para cada hash para derrotar los ataques de tablas arcoíris.",
+  "howToUse": [
+    "Ingrese la contraseña en texto plano en el campo de entrada.",
+    "Seleccione su factor de 'Costo' (el valor predeterminado suele ser 10 o 12). Un costo más alto significa que tarda más en calcularse.",
+    "Haz clic en Generar.",
+    "La herramienta genera la cadena completa de bcrypt (que incluye la versión del algoritmo, el costo, la sal y el hash)."
+  ],
+  "howItWorks": "Bcrypt se basa en el cifrado Blowfish. La herramienta genera una sal aleatoria de 128 bits, la añade a la contraseña y la pasa por el cifrado múltiples veces según el factor de 'Costo'. Un costo de 10 significa 2^10 (1,024) iteraciones. Un costo de 12 significa 2^12 (4,096) iteraciones.",
+  "workedExample": "Introduciendo 'password123' con un costo de 10. La herramienta produce una cadena que comienza con `$2a$10$`, seguido de 22 caracteres de sal aleatoria, seguido de 31 caracteres del hash real.",
+  "resultInterpretation": "La cadena resultante es exactamente lo que deberías guardar en tu base de datos. Cuando un usuario inicia sesión, tu servidor lee la sal de esta cadena, cifra su intento de inicio de sesión con esa misma sal y compara los resultados.",
+  "useCases": [
+    "Desarrollo de software: Generar manualmente un hash de contraseña de administrador seguro para introducirlo en una nueva base de datos.",
+    "Educación en seguridad: Entender cómo las sales y los factores de costo cambian la salida de una función de hash de contraseñas.",
+    "Recuperación del sistema: Generando un hash de puerta trasera para recuperar el acceso a un sistema donde se perdió la contraseña de administrador."
+  ],
+  "tipsAndLimitations": [
+    "Debido a que bcrypt genera automáticamente una sal aleatoria, hashear la misma contraseña exacta dos veces resultará en dos cadenas de salida completamente diferentes. Esta es una característica de seguridad deliberada.",
+    "Bcrypt tiene una longitud máxima de entrada de contraseña de 72 bytes. Los caracteres que excedan este límite se ignoran."
+  ],
+  "faq": [
+    {
+      "question": "¿Por qué bcrypt es mejor que SHA-256 para contraseñas?",
+      "answer": "SHA-256 está diseñado para ser extremadamente rápido. Un hacker con una buena tarjeta gráfica puede adivinar miles de millones de contraseñas SHA-256 por segundo. Bcrypt es intencionalmente lento. Al establecer un factor de costo alto, se limita al hacker a adivinar solo unas pocas docenas de contraseñas por segundo, haciendo que los ataques de fuerza bruta sean imposibles."
+    },
+    {
+      "question": "¿Cuál es el factor de costo recomendado?",
+      "answer": "A medida que las computadoras se vuelven más rápidas, el costo recomendado aumenta. Un costo de 10 o 12 es estándar hoy en día. Debe ser lo suficientemente alto para disuadir a los hackers, pero lo suficientemente rápido (por ejemplo, 200 milisegundos) para que no frustre a los usuarios legítimos al iniciar sesión."
+    }
+  ],
+  "relatedTools": [
+    "password-generator",
+    "strong-password-generator",
+    "sha256-hash-generator"
+  ],
+  "cta": "¡Hashea tus contraseñas de manera segura con bcrypt!",
+  "disclaimer": "La generación requiere un cálculo intensivo de la CPU del navegador dependiendo del factor de costo seleccionado. Las cadenas se generan localmente y nunca se transmiten.",
+  "lastReviewed": "02-10-2026",
+  "imageAlt": "Interfaz del generador Bcrypt mostrando la configuración del factor de costo",
+  "ogImageText": "Generador de Bcrypt"
+}

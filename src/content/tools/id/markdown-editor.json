@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Editor Markdown Online - Pratinjau Langsung & Ekspor",
+  "metaDescription": "Editor Markdown online gratis. Tulis, edit, dan lihat pratinjau format Markdown secara real-time. Ekspor teks yang telah diformat ke HTML atau PDF secara instan.",
+  "h1": "Editor Markdown",
+  "primaryKeyword": "editor markdown",
+  "secondaryKeywords": [
+    "editor markdown online",
+    "pratayang markdown langsung",
+    "markdown ke html",
+    "penampil markdown"
+  ],
+  "slug": "editor-markdown",
+  "intro": "Menulis dokumentasi atau file README? Editor Markdown online gratis kami menyediakan lingkungan menulis yang bersih dengan pratinjau visual waktu nyata dan ekspor HTML instan.",
+  "whatIs": "Editor Markdown adalah utilitas penyunting teks berpanel ganda. Ini memungkinkan pengguna menulis dalam Markdown—bahasa markup ringan dengan sintaks pemformatan teks biasa—sambil secara bersamaan menampilkan pratinjau terformat secara langsung di layar.",
+  "howToUse": [
+    "Ketik atau tempel sintaks Markdown Anda ke dalam panel editor di sisi kiri.",
+    "Perhatikan panel di sisi kanan memperbarui secara instan dengan pratinjau yang diformat.",
+    "Gunakan bilah alat untuk pintasan pemformatan cepat (tebal, miring, tautan).",
+    "Klik 'Salin HTML' atau 'Unduh' untuk menyimpan pekerjaan Anda."
+  ],
+  "howItWorks": "Alat ini menggunakan parser JavaScript (seperti marked.js) untuk terus memantau ketikan Anda di area teks input. Alat ini menerjemahkan simbol Markdown Anda (seperti # untuk judul atau ** untuk tebal) menjadi tag HTML standar dan menyuntikkannya ke dalam panel pratinjau.",
+  "workedExample": "Jika Anda mengetik '# Hello World' dan kemudian '**Bold Text**', parser langsung mengubah baris pertama menjadi tag HTML `<h1>` dan baris kedua menjadi tag `<strong>`, menampilkan teks bergaya secara langsung di panel pratinjau.",
+  "resultInterpretation": "Pratinjau menunjukkan persis bagaimana Markdown Anda akan terlihat saat diterbitkan di platform seperti GitHub, Reddit, atau generator situs statis.",
+  "useCases": [
+    "Pengembangan Perangkat Lunak: Menyusun file `README.md` yang sangat mudah dibaca untuk repositori open-source.",
+    "Blogging: Menulis draf blog dengan cepat dan bebas gangguan tanpa menggunakan editor WYSIWYG yang kompleks.",
+    "Mencatat Catatan: Menyusun catatan rapat dengan cepat menggunakan judul, daftar, dan blok kode."
+  ],
+  "tipsAndLimitations": [
+    "Markdown standar secara native tidak mendukung tata letak kompleks seperti tabel multi-kolom atau pewarnaan teks. Anda harus menggunakan HTML mentah untuk kasus-kasus khusus tersebut.",
+    "Editor kami mendukung GitHub Flavored Markdown (GFM), artinya Anda dapat dengan mudah membuat tabel dan daftar tugas."
+  ],
+  "faq": [
+    {
+      "question": "Apa itu Markdown?",
+      "answer": "Markdown adalah cara sederhana untuk memformat teks yang terlihat bagus di perangkat mana pun. Ini tidak memerlukan menekan tombol; Anda hanya menggunakan simbol keyboard standar (seperti tanda bintang untuk membuat tebal) untuk memformat teks saat Anda mengetik."
+    },
+    {
+      "question": "Apakah itu menyimpan pekerjaan saya secara otomatis?",
+      "answer": "Editor menyimpan teks Anda di penyimpanan lokal browser Anda sehingga Anda tidak kehilangannya jika secara tidak sengaja me-refresh, tetapi tidak menyimpannya ke database cloud."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "html-encode-decode",
+    "lorem-ipsum-generator"
+  ],
+  "cta": "Mulai menulis dalam Markdown sekarang!",
+  "disclaimer": "Dokumen diparsing secara lokal di browser Anda. Teks sensitif tidak diunggah ke server kami, memastikan draf Anda tetap sepenuhnya pribadi.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Antarmuka layar terpisah editor Markdown",
+  "ogImageText": "Editor Markdown"
+}

@@ -1,55 +1,64 @@
 {
-  "seoTitle": "Kredi Hesaplayıcı",
-  "metaDescription": "Herhangi bir kredi için aylık ödemeleri ve faizi hesaplayın.",
+  "seoTitle": "Kredi Hesaplayıcı - Aylık Taksit ve Toplam Faiz Hesaplama",
+  "metaDescription": "Ücretsiz kredi hesaplayıcı. Bireysel, araç veya işletme kredisi için aylık ödemeleri, toplam faizi ve genel maliyeti anında hesaplayın.",
   "h1": "Kredi Hesaplayıcı",
   "primaryKeyword": "kredi hesaplayıcı",
   "secondaryKeywords": [
-    "Çevrimiçi Kredi Hesaplayıcı",
-    "ücretsiz Kredi Hesaplayıcı",
-    "en iyi Kredi Hesaplayıcı"
+    "bireysel kredi hesaplayıcı",
+    "taşıt kredisi hesaplayıcı",
+    "aylık taksit hesaplayıcı",
+    "kredi faizi hesaplayıcı"
   ],
-  "slug": "kredi hesaplayıcı",
-  "intro": "Aylık ödemenizi, toplam faizinizi ve kredinin toplam maliyetini belirleyin.",
-  "whatIs": "Bu araç nedir?",
+  "slug": "kredi-hesaplama",
+  "intro": "Borç almayı mı planlıyorsunuz? Ücretsiz Kredi Hesaplayıcımız, imzalamadan önce aylık ödemelerinizi, toplam faizi ve herhangi bir kredinin genel maliyetini tahmin etmenize yardımcı olur. Yeni bir araç finansmanı, borç konsolidasyonu, ev yenileme veya beklenmedik masraflar olsun, kesin geri ödeme rakamlarını bilmek teklifleri karşılaştırmanızı ve en uygun seçeneği seçmenizi sağlar.",
+  "whatIs": "Kredi hesaplayıcı, üç temel değişkene dayalı olarak sabit aylık ödemeyi ve toplam faiz maliyetini hesaplayan temel bir finansal planlama aracıdır: ödünç alınan anapara tutarı, kredi verenin yıllık faiz oranı ve kredi vadesi. Matematiksel temel, standart eşit taksit (annüite) formülüdür.",
   "howToUse": [
-    "Belirlenen giriş alanına kredi tutarınızı girin.",
-    "Faiz oranı gibi ikincil parametreleri sağlayın.",
-    "İtfa edilmiş aylık ödemeyi ve toplam faizi oluşturmak için hesapla veya gönder düğmesini tıklayın.",
-    "Ortaya çıkan çıktıyı ihtiyaçlarınıza göre kopyalayın veya inceleyin."
+    "Toplam Kredi Tutarını girin — ödünç almayı planladığınız anapara miktarı.",
+    "Kredi teklifinizden Yıllık Faiz Oranını girin.",
+    "Kredi Vadesini yıl veya ay cinsinden belirtin.",
+    "Sabit aylık ödemenizi, toplam faizi ve toplam maliyeti anında görmek için 'Krediyi Hesapla'ya tıklayın."
   ],
-  "howItWorks": "Nasıl çalışır?",
-  "workedExample": "Örnekler",
-  "resultInterpretation": "Tercüme",
+  "howItWorks": "Hesaplayıcı standart eşit taksit formülünü kullanır: M = P[r(1+r)^n] / [(1+r)^n - 1]; burada M sabit aylık ödeme, P anapara, r aylık faiz oranı ve n toplam aylık ödeme sayısıdır.",
+  "workedExample": "5 yıl (60 ay) için %5 yıllık faiz oranıyla 10.000 TL borç alırsanız: aylık ödeme 188,71 TL olur. 60 ödeme boyunca toplam 11.322,74 TL ödersiniz. Borçlanma maliyeti — toplam faiz — 1.322,74 TL'dir.",
+  "resultInterpretation": "Sonuçlarınız üç temel rakam içerir. Aylık Ödeme, kredi süresi boyunca her ay ödenen sabit tutardır. Toplam Faiz, borçlanmanın birikimli maliyetidir. Toplam Ödeme ise geri ödeyeceğiniz her şeyin toplamıdır.",
   "useCases": [
-    "Araba satın almak",
-    "Bireysel kredi çekmek",
-    "Hareket halindeyken kredi tutarını hızlı bir şekilde işleme koyma"
+    "Taşıt Kredisi: bir otogaleriyi ziyaret etmeden önce tam aylık araba ödemenizi hesaplayın.",
+    "Bireysel Kredi: borç konsolidasyonu veya ev iyileştirmeleri için bütçe planlayın.",
+    "İşletme Kredisi: ekipman finansmanında aylık nakit akışı etkisini değerlendirin.",
+    "Teklif Karşılaştırması: en düşük toplam maliyeti bulmak için birden fazla kredi teklifini karşılaştırın."
   ],
   "tipsAndLimitations": [
-    "Sigorta veya gecikme ücretleri dahil değildir.",
-    "En iyi sonuçlar için girişlerinizin doğru biçimlendirildiğinden emin olun.",
-    "Araç tamamen istemci tarafında çalışarak verilerinizin gizli kalmasını sağlar."
+    "Bu hesaplayıcı, kredi süresinin tamamı için sabit bir faiz oranı varsayar.",
+    "Sonuç yalnızca anapara ve faizi gösterir; ek ücretler dahil değildir.",
+    "Anapara yönündeki ek ödemeler toplam faizi önemli ölçüde azaltabilir."
   ],
   "faq": [
     {
-      "question": "Kredi Hesaplayıcının kullanımı ücretsiz midir?",
-      "answer": "Evet, Kredi Hesaplayıcımızın kullanımı tamamen ücretsizdir."
+      "question": "Bireysel kredi için iyi bir faiz oranı nedir?",
+      "answer": "Faiz oranları kredi notunuza, gelirinize ve kredi verene büyük ölçüde bağlıdır. Genel olarak %10'un altındaki oranlar bireysel krediler için rekabetçi kabul edilir."
     },
     {
-      "question": "Bu mobilde çalışıyor mu?",
-      "answer": "Evet, tamamen duyarlıdır ve tüm cihazlarda çalışır."
+      "question": "Kredimi erken ödeyebilir miyim?",
+      "answer": "Evet, bu faizden tasarruf etmenizi sağlar. Ancak kredi sözleşmenizde erken ödeme cezası olup olmadığını kontrol edin."
     },
     {
-      "question": "Herhangi bir şey indirmem gerekiyor mu?",
-      "answer": "Hayır, herhangi bir kurulum gerektirmeden tamamen tarayıcınızda çalışır."
+      "question": "Ek ödemeler krediyi nasıl etkiler?",
+      "answer": "Ek ödemeler doğrudan anapara bakiyesini düşürür; bu da sonraki aylarda uygulanan faizi azaltır ve kredi süresini önemli ölçüde kısaltabilir."
+    },
+    {
+      "question": "APR ile faiz oranı arasındaki fark nedir?",
+      "answer": "Faiz oranı, anaparayı ödünç almanın maliyetidir. APR, faiz oranına ek olarak ücretleri ve diğer kredi maliyetlerini de içeren daha kapsamlı bir ölçüttür."
     }
   ],
   "relatedTools": [
-    "yüzde hesaplayıcı",
-    "maaş-hesaplayıcı",
-    "indirim hesaplayıcı"
+    "mortgage-calculator",
+    "emi-calculator",
+    "compound-interest-calculator",
+    "simple-interest-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kredi Hesaplayıcı",
+  "cta": "Kredi ödemelerinizi hemen hesaplayın ve borçlanma kararlarınızın kontrolünü elinize alın!",
+  "disclaimer": "Bu araç yalnızca eğitim amaçlı tahminler sağlar. Gerçek kredi koşulları, faiz oranları ve ücretler kredi verene ve kredi değerliliğine göre değişir.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Kredi hesaplayıcı aylık ödemeyi, toplam faizi ve toplam ödeme özetini gösteriyor",
   "ogImageText": "Kredi Hesaplayıcı"
 }

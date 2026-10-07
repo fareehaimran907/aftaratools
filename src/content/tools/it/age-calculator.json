@@ -1,55 +1,91 @@
 {
-  "seoTitle": "Calcolatore dell'età",
-  "metaDescription": "Calcolatore dell'età online gratuito. Calcola la tua età esatta in anni, mesi e giorni.",
-  "h1": "Calcolatore dell'età",
-  "primaryKeyword": "calcolatore dell'età",
+  "seoTitle": "Calcolatore di Età – Calcola la tua età esatta in anni, mesi e giorni",
+  "metaDescription": "Calcolatore di età online gratuito. Inserisci la tua data di nascita e scopri subito la tua età esatta in anni, mesi, giorni e giorni totali vissuti.",
+  "h1": "Calcolatore di Età",
+  "primaryKeyword": "calcolatore di età",
   "secondaryKeywords": [
-    "calcolatore dell'età online",
-    "calcolatore dell'età gratuita",
-    "miglior calcolatore dell'età"
+    "quanti anni ho",
+    "calcolare la mia età",
+    "calcolo età esatta",
+    "età in anni mesi giorni",
+    "calcolo età dalla data di nascita",
+    "quanti giorni ho vissuto",
+    "calcolatore età online",
+    "giorni al prossimo compleanno",
+    "calcolo età gratis"
   ],
-  "slug": "calcolatore dell'età",
-  "intro": "Utilizza il nostro strumento gratuito di calcolo dell'età online. Determina l'età esatta in base ai tuoi input.",
-  "whatIs": "Il calcolatore dell'età è un'utilità online che determina l'età esatta. Elabora la tua data di nascita e fornisce la differenza esatta in anni, mesi e giorni.",
+  "slug": "calcolatore-di-eta",
+  "intro": "Vuoi sapere esattamente quanti anni hai, fino al giorno? Il nostro calcolatore di età gratuito ti fornisce una risposta precisa in pochi secondi: anni, mesi, giorni, il numero totale di giorni vissuti e un conto alla rovescia fino al prossimo compleanno. Tutto viene elaborato localmente nel tuo browser — la tua data di nascita non lascia mai il tuo dispositivo.",
+  "whatIs": "Un calcolatore di età è uno strumento online che misura il tempo esatto trascorso tra la data di nascita di una persona e una qualsiasi data obiettivo — di solito oggi. A differenza di una semplice sottrazione di anni (2026 meno 1990 = 36), un vero calcolatore di età tiene conto degli anni bisestili, del numero variabile di giorni in ogni mese del calendario (28, 29, 30 o 31) e se il giorno del compleanno nel mese corrente è già passato. Il risultato viene suddiviso in anni compiuti, mesi completi aggiuntivi e giorni rimanenti, così conosci la tua età cronologica precisa anziché una stima approssimativa in anni interi. Il nostro strumento mostra anche due dati bonus: il totale cumulativo dei giorni vissuti (utile in contesti legali, medici e per traguardi personali) e il numero di giorni mancanti al prossimo compleanno.",
   "howToUse": [
-    "Inserisci la tua data di nascita nel campo di input designato.",
-    "Fornire eventuali parametri secondari come la data corrente.",
-    "Fare clic sul pulsante Calcola o Invia per generare la differenza esatta in anni, mesi e giorni.",
-    "Copia o rivedi l'output risultante in base alle tue esigenze."
+    "Inserisci la tua data di nascita nel campo 'Data di nascita' usando il selettore date o digitando nel formato AAAA-MM-GG.",
+    "Facoltativamente, imposta una 'Data obiettivo' se desideri calcolare la tua età in una data specifica passata o futura.",
+    "Clicca sul pulsante 'Calcola'.",
+    "La tua età esatta viene visualizzata in anni, mesi e giorni, insieme al conto alla rovescia per il prossimo compleanno e il totale dei giorni vissuti.",
+    "Usa il pulsante copia per copiare il risultato negli appunti oppure premi Reimposta per ricominciare."
   ],
-  "howItWorks": "Questo strumento funziona nel tuo browser applicando algoritmi standard alla tua data di nascita. Elabora istantaneamente i dati per produrre la differenza esatta in anni, mesi e giorni.",
-  "workedExample": "Ad esempio: dal 1 gennaio 1990 al 1 gennaio 2024 restituisce esattamente 34 anni.",
-  "resultInterpretation": "Il risultato rappresenta la differenza esatta in anni, mesi e giorni. È possibile utilizzare questi dati per calcoli specifici o esigenze di formattazione.",
+  "howItWorks": "L'algoritmo risolve (Data obiettivo meno Data di nascita) in modo sequenziale: prima conta quanti anni di calendario completi rientrano tra le due date, poi quanti mesi di calendario completi aggiuntivi e infine i giorni rimanenti. Quando il giorno di nascita è maggiore del giorno obiettivo nel mese, il calcolo prende in prestito dal mese precedente utilizzando il numero effettivo di giorni di quel mese (28, 29, 30 o 31). Gli anni bisestili — anni divisibili per 4, eccetto i secoli non divisibili per 400 — vengono gestiti nativamente perché il codice opera con oggetti Date di JavaScript che incorporano le regole del calendario gregoriano. I giorni totali vissuti vengono calcolati come la parte intera di (dataObiettivo − dataNascita) divisa per 86 400 000 millisecondi. Il conto alla rovescia del compleanno trova la prossima ricorrenza nell'anno corrente o successivo e sottrae la data odierna.",
+  "workedExample": "Esempio: Data di nascita = 15 marzo 1990. Data obiettivo = 1° ottobre 2026. Passo 1 — anni completi dal 15/03/1990 al 15/03/2026 = 36 anni. Passo 2 — mesi completi dal 15/03/2026 al 15/09/2026 = 6 mesi (il mese completo successivo, 15 ottobre, supera la data obiettivo). Passo 3 — giorni rimanenti dal 15 settembre al 1° ottobre = 16 giorni. Risultato: 36 anni, 6 mesi, 16 giorni. Giorni totali vissuti = floor((01/10/2026 − 15/03/1990) / 86 400 000) = 13 349 giorni. Prossimo compleanno (15 marzo 2027): tra 165 giorni dal 1° ottobre 2026.",
+  "resultInterpretation": "Il valore 'Anni' corrisponde alla tua età compiuta — il numero che appare sui documenti ufficiali e nei moduli legali. 'Mesi' indica il conteggio dei mesi di calendario completi aggiuntivi dal tuo ultimo anniversario di nascita. 'Giorni' rappresenta i giorni rimanenti del mese parziale dopo l'ultimo mese completo. Insieme, questi tre numeri formano la tua età cronologica esatta. 'Prossimo Compleanno' indica quanti giorni mancano per completare il prossimo anno di vita — ideale per countdown e pianificazione di traguardi. 'Giorni Totali' è il conteggio assoluto dei giorni dalla nascita alla data obiettivo, particolarmente utile in ambito medico (età neonatale), nella ricerca scientifica, nelle verifiche legali dell'età e per celebrare traguardi personali come il 10 000° giorno di vita.",
   "useCases": [
-    "Controllo dell'età esatta per i moduli",
-    "Calcolo dell'età degli eventi storici",
-    "Elaborazione rapida della data di nascita in movimento"
+    "Compilare i campi dell'età in domande e moduli ufficiali che richiedono una ripartizione esatta in anni, mesi e giorni.",
+    "Calcolare l'età di sviluppo precisa di un bambino per traguardi pediatrici o date limite per l'iscrizione scolastica.",
+    "Verificare se una persona soddisfa il requisito di età minima per un contratto, patente di guida o pensione.",
+    "Determinare l'età di eventi storici — ad esempio, da quanto tempo è stato costruito un edificio famoso.",
+    "Curiosità personale: festeggiare il 10 000° giorno di vita o pianificare un compleanno importante.",
+    "Calcolare la propria età in una data passata specifica, come quanti anni avevi quando hai iniziato un lavoro o ti sei sposato."
   ],
   "tipsAndLimitations": [
-    "Presuppone il calendario gregoriano.",
-    "Assicurati che i tuoi input siano formattati correttamente per ottenere i migliori risultati.",
-    "Lo strumento funziona completamente lato client, garantendo che i tuoi dati rimangano privati."
+    "Il calcolatore presuppone il calendario gregoriano. Le date precedenti alla riforma gregoriana (15 ottobre 1582) potrebbero non essere storicamente precise.",
+    "Per periodi che attraversano la transizione dal calendario giuliano a quello gregoriano, consulta uno strumento specializzato per date storiche.",
+    "Assicurati che data e ora locali del tuo browser siano corrette; il valore predefinito 'oggi' viene preso dall'orologio del tuo dispositivo.",
+    "Se inserisci una data di nascita futura, il calcolatore mostrerà un errore — non può calcolare un'età negativa.",
+    "Il campo 'Data obiettivo' è facoltativo e impostato di default sulla data odierna. Usalo per calcolare la tua età in qualsiasi momento passato o futuro.",
+    "Tutti i calcoli vengono eseguiti localmente nel tuo browser tramite JavaScript; nessun dato personale viene inviato a un server."
   ],
   "faq": [
     {
-      "question": "Tiene conto degli anni bisestili?",
-      "answer": "Sì, tiene pienamente conto degli anni bisestili."
+      "question": "Quanti anni ho esattamente in questo momento?",
+      "answer": "Inserisci la tua data di nascita nel calcolatore qui sopra e clicca su 'Calcola'. Vedrai immediatamente la tua età esatta in anni, mesi e giorni alla data odierna, utilizzando la data locale del tuo browser."
     },
     {
-      "question": "Il calcolatore dell'età è gratuito?",
-      "answer": "Sì, il nostro calcolatore dell'età è completamente gratuito e non richiede registrazione."
+      "question": "Il calcolatore tiene conto degli anni bisestili?",
+      "answer": "Sì. L'algoritmo gestisce completamente gli anni bisestili. I compleanni del 29 febbraio vengono trattati come 1° marzo negli anni non bisestili per il calcolo dei giorni, in conformità con la maggior parte degli standard legali e medici internazionali."
     },
     {
-      "question": "Funziona sui dispositivi mobili?",
-      "answer": "Sì, lo strumento è completamente reattivo e funziona perfettamente su tutti gli smartphone e tablet."
+      "question": "Posso calcolare la mia età in una data passata o futura?",
+      "answer": "Certamente. Usa il campo opzionale 'Data obiettivo' per impostare qualsiasi data — passata o futura. È utile per ricerche storiche, calcoli di scadenze legali o proiettare la tua età a un traguardo futuro."
+    },
+    {
+      "question": "Come vengono calcolati i 'Giorni Totali'?",
+      "answer": "I Giorni Totali sono il numero assoluto di giorni tra la data di nascita e la data obiettivo, calcolati come floor((dataObiettivo − dataNascita) / 86 400 000 millisecondi). I contributi dei giorni bisestili sono inclusi automaticamente poiché il calcolo utilizza date di calendario reali."
+    },
+    {
+      "question": "Perché la mia età risulta spostata di un giorno a volte?",
+      "answer": "Questo può accadere se l'orologio locale del tuo browser è impostato su un fuso orario diverso da dove ti trovi, o se la mezzanotte non è ancora passata nel tuo fuso orario. Il calcolatore usa la data locale del tuo dispositivo, quindi verifica che il tuo orologio di sistema sia accurato."
+    },
+    {
+      "question": "Cos'è 'Prossimo Compleanno' e come viene calcolato?",
+      "answer": "Mostra il numero di giorni rimanenti fino al prossimo compleanno annuale. Lo strumento trova il mese e giorno del tuo compleanno nell'anno corrente o successivo e sottrae la data odierna. Se oggi è il tuo compleanno, mostra 0 o 365/366 giorni fino all'anno successivo."
+    },
+    {
+      "question": "Questo strumento è gratuito e rispetta la privacy?",
+      "answer": "Sì — completamente gratuito, senza bisogno di account e totalmente privato. La tua data di nascita non lascia mai il tuo dispositivo. Tutti i calcoli avvengono localmente nel tuo browser tramite JavaScript."
+    },
+    {
+      "question": "Posso usare questo calcolatore su smartphone o tablet?",
+      "answer": "Sì. L'interfaccia è completamente responsive e funziona su tutti gli smartphone, tablet e browser desktop moderni. Il selettore date si adatta all'input touch sui dispositivi mobili."
     }
   ],
   "relatedTools": [
-    "calcolatore della differenza di data",
-    "giorni tra le date",
-    "giorni-fino-al-calcolatrice"
+    "date-difference-calculator",
+    "days-between-dates",
+    "days-until-calculator",
+    "months-between-dates"
   ],
-  "lastReviewed": "29-09-2026",
-  "imageAlt": "Schermata dell'interfaccia del calcolatore dell'età",
-  "ogImageText": "Calcolatore dell'età"
+  "cta": "Prova il calcolatore di età ora — inserisci la tua data di nascita qui sopra e scopri esattamente da quanto tempo sei su questo pianeta, fino al giorno.",
+  "disclaimer": "Questo strumento è destinato esclusivamente a scopi informativi e di uso personale. Per esigenze legali, mediche o ufficiali, verifica sempre i calcoli dell'età con documentazione ufficiale come un certificato di nascita.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Strumento calcolatore di età con campo per la data di nascita e risultati in anni, mesi e giorni",
+  "ogImageText": "Calcolatore di Età – Anni, Mesi e Giorni"
 }

@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Generator Skrótów Bcrypt - Bezpieczne Haszowanie Haseł",
+  "metaDescription": "Darmowy generator Bcrypt online. Bezpiecznie haszuj hasła za pomocą przemysłowego standardu algorytmu bcrypt z niestandardowymi współczynnikami kosztu (rundy pracy) dla maksymalnego bezpieczeństwa.",
+  "h1": "Generator haszy Bcrypt",
+  "primaryKeyword": "generator bcrypt",
+  "secondaryKeywords": [
+    "hash hasła bcrypt",
+    "generować bcrypt",
+    "szyfruj online",
+    "narzędzie do hashowania haseł"
+  ],
+  "slug": "generator-haszy-bcrypt",
+  "intro": "Budujesz system uwierzytelniania użytkowników? Nasz darmowy generator Bcrypt zapewnia najbezpieczniejszy sposób haszowania haseł, wykorzystując automatyczne solenie i konfigurowalny współczynnik kosztu obliczeniowego.",
+  "whatIs": "Generator Bcrypt to zaawansowane narzędzie bezpieczeństwa zaprojektowane specjalnie do haszowania haseł użytkowników. W przeciwieństwie do szybkich algorytmów (MD5, SHA), bcrypt jest celowo powolny i automatycznie generuje unikalną losową 'sól' dla każdego hasza, aby pokonać ataki tabel tęczowych.",
+  "howToUse": [
+    "Wprowadź hasło w postaci zwykłego tekstu w pole wejściowe.",
+    "Wybierz swój czynnik 'Koszt' (domyślnie zazwyczaj 10 lub 12). Wyższy koszt oznacza, że obliczenia zajmują więcej czasu.",
+    "Kliknij Generuj.",
+    "Narzędzie generuje pełny ciąg bcrypt (który zawiera wersję algorytmu, koszt, sól i skrót)."
+  ],
+  "howItWorks": "Bcrypt opiera się na szyfrze Blowfish. Narzędzie generuje losową sól 128-bitową, dodaje ją do hasła i przetwarza je przez szyfr wielokrotnie w zależności od czynnika 'Cost'. Koszt równy 10 oznacza 2^10 (1 024) iteracje. Koszt równy 12 oznacza 2^12 (4 096) iteracji.",
+  "workedExample": "Wpisując 'password123' z kosztem 10. Narzędzie generuje ciąg znaków rozpoczynający się od `$2a$10$`, po którym następuje 22 znaki losowej soli, a następnie 31 znaków faktycznego hasha.",
+  "resultInterpretation": "Otrzymany ciąg znaków jest dokładnie tym, co powinieneś zapisać w swojej bazie danych. Kiedy użytkownik się loguje, twój serwer odczytuje sól z tego ciągu, hashuje próbę logowania za pomocą tej samej soli i porównuje wyniki.",
+  "useCases": [
+    "Tworzenie oprogramowania: Ręczne generowanie bezpiecznego skrótu hasła administratora do wprowadzenia do nowej bazy danych.",
+    "Edukacja w zakresie bezpieczeństwa: Zrozumienie, w jaki sposób sole i współczynniki kosztu zmieniają wynik funkcji haszującej hasło.",
+    "Odzyskiwanie systemu: Tworzenie hasha tylnych drzwi w celu odzyskania dostępu do systemu, w którym utracono hasło administratora."
+  ],
+  "tipsAndLimitations": [
+    "Ponieważ bcrypt automatycznie generuje losową sól, zahaszowanie dokładnie tego samego hasła dwukrotnie spowoduje powstanie dwóch całkowicie różnych ciągów wynikowych. Jest to celowa funkcja bezpieczeństwa.",
+    "Bcrypt ma maksymalną długość hasła wynoszącą 72 bajty. Znaki przekraczające ten limit są ignorowane."
+  ],
+  "faq": [
+    {
+      "question": "Dlaczego bcrypt jest lepszy niż SHA-256 do haseł?",
+      "answer": "SHA-256 jest zaprojektowany tak, aby był niezwykle szybki. Haker z dobrą kartą graficzną może zgadywać miliardy haseł SHA-256 na sekundę. Bcrypt jest celowo powolny. Ustawiając wysoki czynnik kosztu, ograniczasz hakera do zgadywania zaledwie kilku dziesiątek haseł na sekundę, co uniemożliwia ataki brute-force."
+    },
+    {
+      "question": "Jaki jest zalecany współczynnik kosztu?",
+      "answer": "W miarę jak komputery stają się szybsze, zalecany koszt rośnie. Koszt rzędu 10 lub 12 jest dziś standardem. Powinien być wystarczająco wysoki, aby odstraszyć hakerów, ale na tyle szybki (np. 200 milisekund), aby nie frustrować legalnych użytkowników podczas logowania."
+    }
+  ],
+  "relatedTools": [
+    "password-generator",
+    "strong-password-generator",
+    "sha256-hash-generator"
+  ],
+  "cta": "Bezpiecznie zahaszuj swoje hasła przy użyciu bcrypt!",
+  "disclaimer": "Generowanie wymaga intensywnych obliczeń procesora przeglądarki w zależności od wybranego współczynnika kosztu. Ciągi znaków są generowane lokalnie i nigdy nie są przesyłane.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interfejs generatora Bcrypt pokazujący ustawienia współczynnika kosztu",
+  "ogImageText": "Generator Bcrypt"
+}

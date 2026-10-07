@@ -1,55 +1,48 @@
 {
-  "seoTitle": "Kalkulator Bunga Sederhana",
-  "metaDescription": "Hitung bunga sederhana dan saldo akhir.",
-  "h1": "Kalkulator Bunga Sederhana",
-  "primaryKeyword": "kalkulator bunga sederhana",
+  "seoTitle": "Kalkulator Bunga Tunggal (Sederhana) - Hitung Pinjaman & Tabungan",
+  "metaDescription": "Kalkulator bunga tunggal gratis. Hitung total bunga dan jumlah akhir untuk pinjaman atau tabungan dengan cepat menggunakan pokok, suku bunga, dan waktu.",
+  "h1": "Kalkulator Bunga Tunggal",
+  "primaryKeyword": "kalkulator bunga tunggal",
   "secondaryKeywords": [
-    "Kalkulator Bunga Sederhana online",
-    "Kalkulator Bunga Sederhana gratis",
-    "Kalkulator Bunga Sederhana terbaik"
+    "rumus bunga tunggal",
+    "cara menghitung bunga pinjaman",
+    "simple interest calculator indonesia"
   ],
-  "slug": "kalkulator bunga sederhana",
-  "intro": "Hitung bunga sederhana yang diperoleh atau dibayarkan atas jumlah pokok dari waktu ke waktu.",
-  "whatIs": "Alat apa ini?",
+  "slug": "kalkulator-bunga-sederhana",
+  "intro": "Menghitung bunga adalah bagian penting dari manajemen keuangan. Kalkulator Bunga Tunggal kami membantu Anda mengetahui bunga yang diperoleh atau harus dibayar dengan instan.",
+  "whatIs": "Alat keuangan ini menghitung total bunga yang terakumulasi pada jumlah pokok menggunakan tingkat suku bunga 'tunggal' yang tetap selama durasi tertentu (dalam tahun atau bulan).",
   "howToUse": [
-    "Masukkan jumlah pokok Anda ke kolom input yang ditentukan.",
-    "Berikan parameter sekunder seperti suku bunga.",
-    "Klik tombol hitung atau kirim untuk menghasilkan total bunga yang diperoleh selama suatu periode.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Masukkan Jumlah Pokok (modal awal atau jumlah pinjaman).",
+    "Masukkan Suku Bunga Tahunan (dalam persentase %).",
+    "Masukkan Jangka Waktu dan pilih apakah dalam Tahun atau Bulan.",
+    "Kalkulator akan langsung menampilkan Total Bunga dan Jumlah Total akhir."
   ],
-  "howItWorks": "Bagaimana cara kerjanya",
-  "workedExample": "Contoh",
-  "resultInterpretation": "Interpretasi",
+  "howItWorks": "Alat ini menggunakan rumus klasik: Bunga Tunggal = (Pokok × Bunga × Waktu) / 100. Jika waktu dimasukkan dalam bulan, nilainya otomatis dikonversi ke tahun (Bulan / 12) sebelum perhitungan.",
+  "workedExample": "Jika Anda berinvestasi Rp 10.000.000 dengan bunga tahunan 5% selama 5 tahun: Bunga Tunggal = (10jt × 5 × 5) / 100 = Rp 2.500.000. Jumlah Total = Rp 12.500.000.",
+  "resultInterpretation": "'Total Bunga' menunjukkan jumlah uang tambahan yang dihasilkan atau harus dibayar. 'Jumlah Total' adalah nilai akhir (pokok + bunga).",
   "useCases": [
-    "Pinjaman pribadi jangka pendek",
-    "Obligasi tabungan dasar",
-    "Memproses jumlah pokok dengan cepat saat bepergian"
+    "Keuangan Pribadi: Menghitung bunga pinjaman antar teman/keluarga.",
+    "Tabungan: Mengestimasi keuntungan dari deposito jangka pendek non-kompon.",
+    "Edukasi: Memeriksa tugas matematika yang menggunakan rumus bunga tunggal."
   ],
   "tipsAndLimitations": [
-    "Kebanyakan rekening modern menggunakan bunga majemuk.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "Kalkulator ini HANYA menghitung bunga 'tunggal'. Mayoritas bank, KPR, dan kartu kredit menggunakan bunga 'majemuk' (bunga berbunga).",
+    "Pastikan suku bunga yang Anda masukkan adalah suku bunga tahunan."
   ],
   "faq": [
     {
-      "question": "Apakah Kalkulator Bunga Sederhana gratis untuk digunakan?",
-      "answer": "Ya, Kalkulator Bunga Sederhana kami sepenuhnya gratis untuk digunakan."
-    },
-    {
-      "question": "Apakah ini berfungsi di perangkat seluler?",
-      "answer": "Ya, ini sepenuhnya responsif dan berfungsi di semua perangkat."
-    },
-    {
-      "question": "Apakah saya perlu mengunduh sesuatu?",
-      "answer": "Tidak, ini berfungsi sepenuhnya di browser Anda tanpa instalasi apa pun."
+      "question": "Apa perbedaan antara bunga tunggal dan bunga majemuk?",
+      "answer": "Bunga tunggal hanya dihitung dari jumlah pokok awal. Bunga majemuk (compound) dihitung dari jumlah pokok DITAMBAH akumulasi bunga dari periode-periode sebelumnya."
     }
   ],
   "relatedTools": [
-    "kalkulator persentase",
-    "kalkulator gaji",
-    "kalkulator diskon"
+    "compound-interest-calculator",
+    "roi-calculator",
+    "investment-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator Bunga Sederhana",
-  "ogImageText": "Kalkulator Bunga Sederhana"
+  "cta": "Hitung bunga tunggal Anda sekarang!",
+  "disclaimer": "Alat ini untuk tujuan edukasi dan estimasi. Bank mungkin menggunakan perhitungan hari presisi yang sedikit berbeda.",
+  "lastReviewed": "2024-03-16",
+  "imageAlt": "Alat Kalkulator Bunga Tunggal",
+  "ogImageText": "Bunga Tunggal"
 }

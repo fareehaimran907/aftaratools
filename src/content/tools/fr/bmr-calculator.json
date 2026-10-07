@@ -1,55 +1,53 @@
 {
-  "seoTitle": "Calculateur BMR",
-  "metaDescription": "Calculez votre taux métabolique basal.",
-  "h1": "Calculateur BMR",
-  "primaryKeyword": "calculateur BMR",
+  "seoTitle": "Calculateur de BMR - Taux Métabolique de Base",
+  "metaDescription": "Calculateur BMR gratuit en ligne. Découvrez exactement combien de calories votre corps brûle au repos. Essentiel pour la perte de poids et la planification des régimes.",
+  "h1": "Calculateur de BMR",
+  "primaryKeyword": "calculateur de BMR",
   "secondaryKeywords": [
-    "calculateur bmr en ligne",
-    "calculateur bmr gratuit",
-    "meilleur calculateur BMR"
+    "calculateur du taux métabolique basal",
+    "calculateur de métabolisme au repos",
+    "combien de calories je brûle au repos",
+    "formule BMR"
   ],
   "slug": "calculateur-bmr",
-  "intro": "Découvrez exactement combien de calories votre corps brûle au repos.",
-  "whatIs": "Quel est cet outil ?",
+  "intro": "Vous planifiez un régime et avez besoin de connaître vos besoins caloriques de base ? Notre calculateur BMR gratuit révèle exactement combien de calories votre corps brûle chaque jour rien que pour rester en vie.",
+  "whatIs": "Le calculateur de BMR (taux métabolique basal) est un outil mathématique physiologique. Il estime le nombre minimum de calories dont votre corps a besoin pour effectuer des fonctions de base qui maintiennent la vie (comme respirer et pomper le sang) tout en étant complètement au repos.",
   "howToUse": [
-    "Entrez votre âge, votre taille et votre poids dans le champ de saisie désigné.",
-    "Fournissez tous les paramètres secondaires comme le sexe.",
-    "Cliquez sur le bouton Calculer ou Soumettre pour générer les calories brûlées au repos complet.",
-    "Copiez ou examinez le résultat obtenu selon vos besoins."
+    "Sélectionnez votre sexe biologique.",
+    "Entrez votre âge, votre taille et votre poids actuel.",
+    "Cliquez sur calculer pour révéler instantanément votre taux métabolique de base.",
+    "Utilisez ce chiffre de référence pour planifier votre déficit ou excédent alimentaire."
   ],
-  "howItWorks": "Comment ça marche",
-  "workedExample": "Exemples",
-  "resultInterpretation": "Interprétation",
+  "howItWorks": "L'outil utilise l'équation de Mifflin-St Jeor, qui est actuellement considérée comme la formule standard la plus précise. Elle prend en compte le poids, la taille et l'âge, en appliquant différents multiplicateurs en fonction des différences biologiques de masse musculaire entre les sexes.",
+  "workedExample": "Un homme de 30 ans, mesurant 180 cm et pesant 80 kg : (10 × 80) + (6,25 × 180) - (5 × 30) + 5 = 800 + 1125 - 150 + 5 = 1 780. Son métabolisme de base (BMR) est de 1 780 calories par jour.",
+  "resultInterpretation": "Votre BMR est votre 'limite calorique en coma'. Si vous restez allongé au lit toute la journée sans rien faire, vous brûleriez quand même autant de calories. Vous devez manger plus que cela pour soutenir les activités quotidiennes.",
   "useCases": [
-    "Planification du régime",
-    "Comprendre le métabolisme",
-    "Traitement rapide de l'âge, de la taille et du poids en déplacement"
+    "Perte de poids : Utiliser le BMR comme limite absolue la plus basse de l'apport calorique quotidien pour s'assurer que vous ne ralentissez pas votre métabolisme.",
+    "Musculation : Calculer les besoins de base avant d'ajouter un surplus calorique et les calories d'exercice pour prendre de la masse.",
+    "Planification nutritionnelle : Les diététiciens déterminent les besoins métaboliques de base des patients."
   ],
   "tipsAndLimitations": [
-    "Les formules comme Mifflin-St Jeor fournissent une estimation, pas un résultat de laboratoire.",
-    "Assurez-vous que vos entrées sont correctement formatées pour obtenir les meilleurs résultats.",
-    "L'outil fonctionne entièrement côté client, garantissant que vos données restent privées."
+    "Le BMR n'inclut PAS les calories que vous brûlez en vous déplaçant, en digérant les aliments ou en faisant de l'exercice. Pour connaître votre dépense calorique quotidienne totale, utilisez un calculateur de TDEE (Dépense Énergétique Totale Quotidienne).",
+    "À mesure que vous perdez du poids, votre BMR diminuera. Vous devez le recalculer régulièrement pendant un régime."
   ],
   "faq": [
     {
-      "question": "Le BMR inclut-il l’exercice ?",
-      "answer": "Non, le BMR est strictement l’énergie nécessaire pour rester en vie au repos."
+      "question": "Quelle est la différence entre le BMR et le TDEE ?",
+      "answer": "Le BMR correspond aux calories brûlées entièrement au repos. Le TDEE ajoute votre niveau d'activité quotidienne (marcher, faire de l'exercice, parler) en plus de votre BMR pour trouver vos calories totales brûlées."
     },
     {
-      "question": "Le calculateur BMR est-il gratuit ?",
-      "answer": "Oui, notre calculateur BMR est entièrement gratuit et ne nécessite aucune inscription."
-    },
-    {
-      "question": "Est-ce que cela fonctionne sur les appareils mobiles ?",
-      "answer": "Oui, l'outil est entièrement réactif et fonctionne parfaitement sur tous les smartphones et tablettes."
+      "question": "Pourquoi l'âge affecte-t-il le métabolisme de base ?",
+      "answer": "En vieillissant, vous perdez naturellement de la masse musculaire et vos processus métaboliques ralentissent, ce qui signifie que votre corps a besoin de moins de calories pour se maintenir."
     }
   ],
   "relatedTools": [
-    "calculateur d'IMC",
-    "calculateur de calories",
-    "macro-calculatrice"
+    "calorie-calculator",
+    "macro-calculator",
+    "body-fat-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Calculateur BMR",
-  "ogImageText": "Calculateur BMR"
+  "cta": "Calculez votre métabolisme au repos maintenant !",
+  "disclaimer": "Les calculs du BMR sont des estimations basées sur les moyennes de la population. Les métabolismes individuels peuvent varier en raison de la génétique, de la masse musculaire et des conditions médicales.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface du calculateur de BMR affichant les besoins caloriques quotidiens",
+  "ogImageText": "Calculateur de BMR"
 }

@@ -1,55 +1,61 @@
 {
-  "seoTitle": "Boardfoot-calculator",
-  "metaDescription": "Bereken plankvoeten hout.",
-  "h1": "Boardfoot-calculator",
-  "primaryKeyword": "board voet rekenmachine",
+  "seoTitle": "Bordvoet Calculator",
+  "metaDescription": "Gratis online Bordvoet Calculator voor het berekenen van houtvolume in board feet. Ideaal voor timmeraars, meubelmakers en doe-het-zelf projecten.",
+  "h1": "Bordvoet Calculator",
+  "primaryKeyword": "board foot calculator",
   "secondaryKeywords": [
-    "boardvoetcalculator online",
-    "gratis boardfootcalculator",
-    "beste boardvoetcalculator"
+    "board foot calculator online",
+    "free board foot calculator",
+    "best board foot calculator"
   ],
-  "slug": "bord-voet-calculator",
-  "intro": "Bereken het volume ruw hout met behulp van de standaard plankvoetmaat.",
-  "whatIs": "Wat is dit hulpmiddel?",
+  "slug": "board-foot-calculator",
+  "intro": "Onze gratis online Bordvoet Calculator is ontworpen om u te helpen bij het eenvoudig en snel berekenen van het volume van hout in board feet. Of u nu werkt aan een groot timmerproject, een meubelstuk maakt, een tuinhuis bouwt of slechts een kleine reparatie uitvoert, deze tool geeft u een nauwkeurige indicatie van de benodigde hoeveelheid hout. Met een intuïtieve interface en directe resultaten kunt u uw gegevens direct in uw browser invoeren en zonder registratie aan de slag gaan. De calculator is geschikt voor zowel beginnende timmeraars als ervaren meubelmakers en kan worden gebruikt voor zowel persoonlijke als professionele projecten.",
+  "whatIs": "De Bordvoet Calculator is een online hulpmiddel dat het volume van hout berekent op basis van de door u ingevoerde afmetingen, met name de dikte, breedte en lengte. Het concept van een board foot (bordvoet) komt uit de Verenigde Staten en staat voor een stuk hout van 1 inch dik, 12 inch breed en 12 inch lang, wat gelijk staat aan 1/12 kubieke foot. Deze calculator vertaalt uw invoer naar het aantal board feet, wat handig is voor het vergelijken van prijzen en het bepalen van benodigde hoeveelheden. Daarnaast kan de tool worden gebruikt om conversies te maken tussen board feet en andere volume-eenheden, zoals kubieke meters.",
   "howToUse": [
-    "Voer uw dikte in het daarvoor bestemde invoerveld in.",
-    "Geef eventuele secundaire parameters op, zoals breedte/lengte.",
-    "Klik op de knop Berekenen of Verzenden om het totale aantal boardfoots (BF) te genereren.",
-    "Kopieer of bekijk de resulterende uitvoer voor uw behoeften."
+    "Stap 1: Voer de dikte van uw hout in inch in in het daarvoor bestemde invoerveld. Zorg ervoor dat de waarde numeriek is en dat de eenheid overeenkomt met de andere afmetingen.",
+    "Stap 2: Vul de breedte en lengte van het hout in, respectievelijk in inch en feet, of selecteer de juiste eenheid uit de dropdown-menu's als uw meetinstrumenten andere maten gebruiken.",
+    "Stap 3: Klik op de knop 'Bereken' om het resultaat te genereren. De calculator verwerkt de gegevens direct en toont het totale aantal board feet.",
+    "Stap 4: U kunt het resultaat kopiëren of downloaden in een tekstbestand voor later gebruik, of direct delen met collega's of leveranciers."
   ],
-  "howItWorks": "Hoe het werkt",
-  "workedExample": "Voorbeelden",
-  "resultInterpretation": "Interpretatie",
+  "howItWorks": "De calculator werkt volledig client-side, wat betekent dat alle berekeningen in uw browser worden uitgevoerd zonder dat gegevens worden verzonden naar een server. Het programmeert de standaard formule voor board feet: (dikte in inch × breedte in inch × lengte in feet) / 12. Deze formule zet de afmetingen om in board feet en geeft een direct resultaat. Omdat de berekening lokaal gebeurt, is de tool snel en waarborgt het de privacy van uw gegevens. Bovendien is de calculator compatibel met alle moderne browsers en vereist het geen extra plugins.",
+  "workedExample": "Bijvoorbeeld: Een plank van 2 inch dik, 6 inch breed en 12 feet lang bevat 12 board feet, aangezien (2 × 6 × 12) / 12 = 12. Een andere plaat van 1,5 inch dik, 8 inch breed en 10 feet long geeft (1,5 × 8 × 10) / 12 = 10 board feet. Deze voorbeelden illustreren hoe de calculator de juiste waarde berekent.",
+  "resultInterpretation": "Het resultaat dat wordt weergegeven is het totale aantal board feet dat nodig is voor uw project. Dit getal kan worden gebruikt om de benodigde hoeveelheid hout te kopen, de costing te schatten of om bestellingen bij leveranciers te placeen. U kunt het resultaat ook gebruiken om de hoeveelheid hout in kubieke meters te berekenen, indien nodig.",
   "useCases": [
-    "Hardhout kopen",
-    "Kostenraming voor houtbewerkingsprojecten",
-    "Onderweg snel diktes verwerken"
+    "Kopen van hardhout: Bij het aankopen van hardhout wordt de prijs vaak per board foot berekend, dus het kennen van het exacte volume helpt u om de juiste hoeveelheid te kopen en geld te besparen.",
+    "Timmerprojecten: Het inschatten van de benodigde hoeveelheid hout voor een timmerproject, zoals het bouwen van een schuur of een deck, wordt vereenvoudigd door de calculator.",
+    "Meubelmakers: Het bepalen van de benodigde board feet voor het vervaardigen van meubels, waarbij elke plank een specifieke dikte en breedte heeft.",
+    "Kleine reparaties: Snelle berekening voor het vervangen van een beschadigde plank of het bepalen van de resterende hoeveelheid hout.",
+    "Online winkelen: Bij het ordering van hout via een webshop kunt u de calculator gebruiken om de juiste hoeveelheid te selecteren en zo de verzendkosten te bepalen."
   ],
   "tipsAndLimitations": [
-    "Hardhout wordt verkocht per volume (BF), niet per lineaire lengte.",
-    "Zorg ervoor dat uw invoer correct is geformatteerd voor de beste resultaten.",
-    "De tool draait volledig client-side, waardoor uw gegevens privé blijven."
+    "Hardhout wordt vaak verkocht per volume (board feet), niet per lineaire lengte. Zorg ervoor dat u de juiste afmetingen invoert om een nauwkeurig resultaat te krijgen.",
+    "Controleer of uw invoer in de juiste eenheden staat: inch voor dikte en breedte, feet voor lengte. Een verkeerde eenheid kan leiden tot een foutief resultaat.",
+    "De calculator werkt volledig client-side, wat betekent dat uw gegevens niet worden verzonden naar een server. Dit waarborgt uw privacy, maar betekent ook dat de tool niet kan worden gebruikt in omgevingen waar JavaScript is uitgeschakeld.",
+    "Voor zeer complexe projecten met meerdere soorten hout of onregelmatige vormen kan een gespecialiseerde software of een professionele raadpleging nodig zijn.",
+    "De calculator geeft een schatting en mag niet worden gebruikt als enige basis voor professionele beslissingen; raadpleging met een expert kan nodig zijn."
   ],
   "faq": [
     {
-      "question": "Wat is één plankvoet?",
-      "answer": "Een stuk hout van 12 x 12 x 1 inch dik."
+      "question": "Wat is een board foot?",
+      "answer": "Een board foot (bordvoet) is een eenheid van volume die wordt gebruikt in de Verenigde Staten voor hout. Het definieert een stuk hout dat 1 inch dik is, 12 inch breed en 12 inch lang, wat overeenkomt met 1/12 kubieke foot. Deze maatstaf is handig voor het meten van de hoeveelheid hout in een plank of balk."
     },
     {
-      "question": "Is de Board Foot Calculator gratis te gebruiken?",
-      "answer": "Ja, onze Board Foot Calculator is volledig gratis en vereist geen registratie."
+      "question": "Is de Bordvoet Calculator gratis te gebruiken?",
+      "answer": "Ja, onze Bordvoet Calculator is volledig gratis en vereist geen registratie. U kunt de tool onbeperkt gebruiken, zowel op desktop als op mobiele apparaten, zonder dat er betaalde functionaliteiten zijn."
     },
     {
-      "question": "Werkt dit op mobiele apparaten?",
-      "answer": "Ja, de tool is volledig responsive en functioneert perfect op alle smartphones en tablets."
+      "question": "Werkt de calculator op mobiele apparaten?",
+      "answer": "Ja, de calculator is volledig responsief en werkt perfect op smartphones en tablets. Het aanpassen van de invoervelden en het genereren van resultaten gebeurt soepel, ongeacht het besturingssysteem."
     }
   ],
   "relatedTools": [
-    "vierkante-footage-calculator",
-    "verf-calculator",
-    "tegel-calculator"
+    "square-footage-calculator",
+    "paint-calculator",
+    "tile-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Boardfoot-calculator",
-  "ogImageText": "Boardfoot-calculator"
+  "lastReviewed": "2026-09-29",
+  "imageAlt": "Schermopname van de Bordvoet Calculator",
+  "ogImageText": "Bordvoet Calculator",
+  "cta": "Klaar om te berekenen? Probeer onze tool nu!",
+  "disclaimer": "Deze tool geeft slechts een schatting en mag niet worden gebruikt als enige basis voor professionele beslissingen."
 }

@@ -1,55 +1,40 @@
 {
-  "seoTitle": "Conversor de área",
-  "metaDescription": "Converta metros quadrados, acres, hectares, etc.",
-  "h1": "Conversor de área",
+  "seoTitle": "Conversor de Área - Metros quadrados, Hectares, Acres",
+  "metaDescription": "Conversor de área grátis. Converta áreas de terrenos instantaneamente entre metros quadrados, hectares, acres e pés quadrados.",
+  "h1": "Conversor de Área",
   "primaryKeyword": "conversor de área",
   "secondaryKeywords": [
-    "conversor de área on-line",
-    "conversor de área livre",
-    "melhor conversor de área"
+    "calcular área",
+    "hectares para acres",
+    "metros quadrados para pés quadrados"
   ],
-  "slug": "conversor de área",
-  "intro": "Traduza áreas e tamanhos de terrenos entre unidades métricas e imperiais.",
-  "whatIs": "O que é essa ferramenta?",
-  "howToUse": [
-    "Insira seus metros quadrados no campo de entrada designado.",
-    "Forneça quaisquer parâmetros secundários, como acres.",
-    "Clique no botão calcular ou enviar para gerar o tamanho de área equivalente.",
-    "Copie ou revise a saída resultante de acordo com suas necessidades."
-  ],
-  "howItWorks": "Como funciona",
-  "workedExample": "Exemplos",
-  "resultInterpretation": "Interpretação",
-  "useCases": [
-    "Listagens imobiliárias",
-    "Parcelas agrícolas",
-    "Processamento rápido de metros quadrados em qualquer lugar"
-  ],
-  "tipsAndLimitations": [
-    "As conversões de área elevam ao quadrado o fator de conversão linear.",
-    "Certifique-se de que suas entradas estejam formatadas corretamente para obter os melhores resultados.",
-    "A ferramenta é totalmente executada no lado do cliente, garantindo que seus dados permaneçam privados."
-  ],
+  "slug": "conversor-area",
+  "intro": "Saber o tamanho de um terreno ou cômodo exige medidas de área precisas. Nosso conversor lida com a matemática complexa para você.",
+  "whatIs": "Um conversor de área traduz uma medida de espaço bidimensional de uma unidade para outra. Como a área é quadrada, os fatores de conversão não são diretos.",
+  "howToUse": "Insira o valor da área. Selecione a unidade original. Selecione a unidade de destino. A área convertida aparecerá instantaneamente.",
+  "howItWorks": "1 hectare tem exatamente 10.000 metros quadrados. 1 acre tem 43.560 pés quadrados.",
+  "workedExample": "Um terreno tem 2,5 acres, e você quer saber em hectares. O resultado é 1,0117 hectares.",
+  "resultInterpretation": "O valor convertido é exato. Para imóveis, é padrão arredondar para duas casas decimais.",
+  "useCases": "Imóveis: tamanho da propriedade. Agricultura: tamanho de fazendas (hectares e acres). Reformas: calcular piso necessário.",
+  "tipsAndLimitations": "Área é 2D. Você não pode converter metros diretos para área sem multiplicar pela largura. 1 hectare ≈ 2,47 acres.",
   "faq": [
     {
-      "question": "Qual o tamanho de um acre?",
-      "answer": "43.560 pés quadrados."
+      "question": "Quantos metros quadrados tem um hectare?",
+      "answer": "1 hectare tem exatamente 10.000 metros quadrados."
     },
     {
-      "question": "O uso do Conversor de Área é gratuito?",
-      "answer": "Sim, nosso Conversor de Área é totalmente gratuito e não requer registro."
-    },
-    {
-      "question": "Isso funciona em dispositivos móveis?",
-      "answer": "Sim, a ferramenta é totalmente responsiva e funciona perfeitamente em todos os smartphones e tablets."
+      "question": "Quantos acres tem um hectare?",
+      "answer": "Há aproximadamente 2,47 acres em 1 hectare."
     }
   ],
   "relatedTools": [
-    "conversor de comprimento",
-    "conversor de peso",
-    "conversor de altura"
+    "length-converter",
+    "volume-converter",
+    "weight-converter"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Conversor de área",
-  "ogImageText": "Conversor de área"
+  "cta": "Converta áreas de terrenos e cômodos instantaneamente!",
+  "disclaimer": "Para estimativas. Consulte um topógrafo para limites legais.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Conversor de área mostrando acres para hectares",
+  "ogImageText": "Conversor Área"
 }

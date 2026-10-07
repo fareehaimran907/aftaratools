@@ -1,55 +1,60 @@
 {
-  "seoTitle": "Zeitdauer-Rechner",
-  "metaDescription": "Berechnen Sie die genaue Dauer zwischen zwei Zeitpunkten.",
-  "h1": "Zeitdauer-Rechner",
-  "primaryKeyword": "Zeitdauerrechner",
+  "seoTitle": "Zeitdauer Rechner - Verstrichene Zeit berechnen",
+  "metaDescription": "Berechnen Sie die Dauer zwischen zwei Uhrzeiten in Stunden und Minuten. Unterstützt Mitternachtsüberschreitungen und Dezimalstunden für die Gehaltsabrechnung.",
+  "h1": "Zeitdauer Rechner",
+  "primaryKeyword": "zeitdauer rechner",
   "secondaryKeywords": [
-    "Zeitdauerrechner online",
-    "kostenloser Zeitdauerrechner",
-    "bester Zeitdauerrechner"
+    "verstrichene zeit berechnen",
+    "zeit zwischen zwei uhrzeiten",
+    "stunden und minuten rechner"
   ],
-  "slug": "Zeit-Dauer-Rechner",
-  "intro": "Finden Sie die genauen Stunden und Minuten zwischen einer Startzeit und einer Endzeit.",
-  "whatIs": "Was ist das für ein Werkzeug?",
+  "slug": "zeitdauer-rechner",
+  "intro": "Müssen Sie schnell die genaue Zeit berechnen, die für eine Aufgabe aufgewendet wurde? Der Zeitdauer Rechner misst sofort die verstrichenen Stunden und Minuten zwischen einer Start- und Endzeit. Egal, ob Sie abrechenbare Stunden für Kunden verfolgen, einen wöchentlichen Stundenzettel ausfüllen, Lernsitzungen überwachen oder Reisedauern berechnen, dieses einfache, aber leistungsstarke Tool sorgt dafür, dass Sie nie wieder Zeitrechnungen im Kopf durchführen müssen.",
+  "whatIs": "Der Zeitdauer Rechner ist ein spezielles Online-Dienstprogramm, mit dem die genaue Zeitspanne zwischen einer bestimmten Start- und Endzeit gemessen werden kann. Im Gegensatz zur einfachen Addition oder Subtraktion arbeitet die Zeitmathematik mit einem Basis-60-System (60 Minuten pro Stunde, 24 Stunden am Tag), was Kopfrechnen fehleranfällig macht. Dieses Tool geht nahtlos mit diesen Komplexitäten um und liefert Ihnen eine präzise Dauer, ausgedrückt in Standardstunden und -minuten sowie in einem Dezimalformat für die Lohn- und Gehaltsabrechnung.",
   "howToUse": [
-    "Geben Sie Ihre Startzeit in das dafür vorgesehene Eingabefeld ein.",
-    "Geben Sie alle sekundären Parameter wie die Endzeit an.",
-    "Klicken Sie auf die Schaltfläche „Berechnen“ oder „Senden“, um die insgesamt verstrichenen Stunden und Minuten zu generieren.",
-    "Kopieren oder überprüfen Sie die resultierende Ausgabe entsprechend Ihren Anforderungen."
+    "Schritt 1: Wählen oder geben Sie Ihre Startzeit in das erste Eingabefeld ein und stellen Sie sicher, dass die AM/PM-Bezeichnung bei Verwendung eines 12-Stunden-Formats korrekt ist.",
+    "Schritt 2: Wählen Sie Ihre Endzeit im zweiten Eingabefeld aus.",
+    "Schritt 3: Wenn Ihre Aktivität über Mitternacht bis zum nächsten Tag reicht, geben Sie die Endzeit einfach normal ein. Der Rechner erkennt dies automatisch.",
+    "Schritt 4: Klicken Sie auf 'Berechnen', um die Dauer sofort anzuzeigen.",
+    "Schritt 5: Sehen Sie sich die Ergebnisse an, die für Stundenzettel in Standardstunden und -minuten, Gesamtminuten und Dezimalstunden angezeigt werden."
   ],
-  "howItWorks": "Wie es funktioniert",
-  "workedExample": "Beispiele",
-  "resultInterpretation": "Interpretation",
+  "howItWorks": "Das Tool rechnet sowohl die Start- als auch die Endzeit in Gesamtminuten um, die seit Mitternacht verstrichen sind. Dann berechnet es die mathematische Differenz zwischen diesen beiden Minutenwerten. Entscheidend ist, dass der Algorithmus automatisch Zeiträume über Nacht berücksichtigt; Wenn die Endzeit numerisch früher als die Startzeit ist, erkennt das Tool, dass die Dauer über Mitternacht ging, und addiert intelligent 24 Stunden (1440 Minuten) zur Berechnung, um die korrekte verstrichene Zeit zu erhalten.",
+  "workedExample": "Angenommen, Sie beginnen eine Nachtschicht um 22:30 Uhr und stempeln sich am nächsten Morgen um 06:15 Uhr aus. Der Rechner wandelt zunächst beide Zeiten um. Da er erkennt, dass 06:15 Uhr vor 22:30 Uhr liegt, addiert er automatisch einen vollen 24-Stunden-Zyklus zur Endzeit, um den Mitternachtsübergang auszugleichen. Er berechnet die Differenz, was zu einer insgesamt verstrichenen Dauer von genau 7 Stunden und 45 Minuten führt.",
+  "resultInterpretation": "Die Hauptanzeige zeigt deutlich die verstrichenen Standardstunden und -minuten an (z. B. 7h 45m). Zusätzlich zeigen kleinere Zusatzboxen das Dezimalstundenäquivalent (7,75 Stunden) und die gesamten Rohminuten (465 Minuten) an. Das Dezimalstundenformat ist besonders für die Buchhaltung und das Personalwesen von entscheidender Bedeutung, da Sie damit Ihre geleistete Arbeitszeit direkt mit einem Stundenlohn multiplizieren können.",
   "useCases": [
-    "Stundenzettelberechnung",
-    "Flugdauer",
-    "Schnelle Bearbeitung der Startzeit von unterwegs"
+    "Stundenzettel und Gehaltsabrechnung: Erfassung der genauen Arbeitsstunden für die freiberufliche Rechnungsstellung, die Abrechnung von Auftragnehmern oder die Zeiterfassung von Mitarbeitern.",
+    "Lern- oder Trainings-Tracking: Genau messen, wie lange eine bestimmte akademische Lernsitzung oder ein Training im Fitnessstudio gedauert hat.",
+    "Luftfahrt und Transport: Berechnung von Blockzeiten, Flugdauern oder Schichtlängen von Fahrern über verschiedene Zeiträume hinweg.",
+    "Projektmanagement: Verfolgung der exakt für bestimmte Aufgaben aufgewendeten Zeit, um zukünftige Zeitschätzungen zu verbessern."
   ],
   "tipsAndLimitations": [
-    "Stellen Sie sicher, dass AM/PM richtig eingestellt ist.",
-    "Stellen Sie sicher, dass Ihre Eingaben korrekt formatiert sind, um die besten Ergebnisse zu erzielen.",
-    "Das Tool läuft vollständig clientseitig und stellt sicher, dass Ihre Daten privat bleiben."
+    "Tipp: Dezimalstunden sind extrem nützlich für die Lohn- und Gehaltsabrechnung. Wenn Sie 8 Stunden und 30 Minuten für 20 $/Stunde arbeiten, multiplizieren Sie 8,5 mit 20.",
+    "Einschränkung: Dieses Tool berechnet die verstrichene Zeit streng auf der Grundlage eines standardmäßigen 24-Stunden-Tages. Es berücksichtigt keine Änderungen der Sommerzeit, die während des gemessenen Zeitraums auftreten können.",
+    "Tipp: Wenn Sie die Differenz über mehrere Tage oder Datumsangaben hinweg berechnen müssen, sollten Sie stattdessen unseren Datumsdifferenz-Rechner verwenden."
   ],
   "faq": [
     {
-      "question": "Ist die Nutzung des Zeitdauerrechners kostenlos?",
-      "answer": "Ja, die Nutzung unseres Zeitdauerrechners ist völlig kostenlos."
+      "question": "Was passiert, wenn mein Ereignis über Mitternacht bis zum nächsten Tag reicht?",
+      "answer": "Der Rechner erkennt automatisch, ob die Endzeit vor der Startzeit liegt. Wenn dies geschieht, geht er davon aus, dass das Ereignis nach Mitternacht stattgefunden hat, und fügt nahtlos 24 Stunden zur Berechnung hinzu, um Ihnen die richtige Dauer zu geben."
     },
     {
-      "question": "Funktioniert das auf Mobilgeräten?",
-      "answer": "Ja, es reagiert vollständig und funktioniert auf allen Geräten."
+      "question": "Wie werden Dezimalstunden berechnet und warum sind sie nützlich?",
+      "answer": "Dezimalstunden werden berechnet, indem die Gesamtminuten durch 60 geteilt werden. Beispielsweise werden aus 30 Minuten 0,5 Stunden und aus 45 Minuten werden 0,75 Stunden. Dieses Format ist für die Gehaltsabrechnung unerlässlich, da Sie eine Dezimalstunde problemlos mit einem Stundenlohn multiplizieren können."
     },
     {
-      "question": "Muss ich etwas herunterladen?",
-      "answer": "Nein, es funktioniert vollständig in Ihrem Browser und erfordert keine Installation."
+      "question": "Werden sowohl das 12-Stunden- als auch das 24-Stunden-Zeitformat unterstützt?",
+      "answer": "Ja, je nach Ihren Systemeinstellungen und Ihrem Browser berücksichtigen die Zeiteingaben die standardmäßigen 12-Stunden-AM/PM-Formate oder militärische 24-Stunden-Zeitformate."
     }
   ],
   "relatedTools": [
-    "Altersrechner",
-    "Datumsdifferenzrechner",
-    "Tage zwischen Daten"
+    "time-difference-calculator",
+    "months-between-dates",
+    "world-time-converter",
+    "countdown-timer"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Zeitdauer-Rechner",
-  "ogImageText": "Zeitdauer-Rechner"
+  "cta": "Berechnen Sie Ihre genaue verstrichene Zeitdauer sofort!",
+  "disclaimer": "Dieses Tool ist für grundlegende Zeitberechnungen gedacht und berücksichtigt keine Zeitzonenänderungen oder Sommerzeitverschiebungen während des verstrichenen Zeitraums. Überprüfen Sie die Ergebnisse auf strikte Lohn- und Gehaltsabrechnungsanwendungen.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Screenshot des Zeitdauer Rechners mit Anzeige von Stunden, Minuten und Dezimalstunden",
+  "ogImageText": "Zeitdauer Rechner"
 }

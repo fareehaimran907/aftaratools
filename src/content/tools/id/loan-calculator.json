@@ -1,55 +1,64 @@
 {
-  "seoTitle": "Kalkulator Pinjaman",
-  "metaDescription": "Hitung pembayaran bulanan dan bunga untuk pinjaman apa pun.",
+  "seoTitle": "Kalkulator Pinjaman - Hitung Cicilan Bulanan dan Total Bunga",
+  "metaDescription": "Kalkulator pinjaman gratis. Hitung cicilan bulanan, total bunga, dan biaya keseluruhan pinjaman pribadi, kendaraan, atau usaha secara instan.",
   "h1": "Kalkulator Pinjaman",
   "primaryKeyword": "kalkulator pinjaman",
   "secondaryKeywords": [
-    "Kalkulator Pinjaman online",
-    "Kalkulator Pinjaman gratis",
-    "Kalkulator Pinjaman terbaik"
+    "kalkulator pinjaman pribadi",
+    "kalkulator kredit kendaraan",
+    "kalkulator cicilan bulanan",
+    "kalkulator bunga pinjaman"
   ],
-  "slug": "kalkulator pinjaman",
-  "intro": "Tentukan pembayaran bulanan Anda, total bunga, dan total biaya pinjaman.",
-  "whatIs": "Alat apa ini?",
+  "slug": "kalkulator-pinjaman",
+  "intro": "Merencanakan pinjaman uang? Kalkulator Pinjaman gratis kami membantu Anda memperkirakan cicilan bulanan, total bunga, dan biaya keseluruhan pinjaman sebelum menandatangani perjanjian. Baik membiayai mobil baru, mengkonsolidasi utang, atau merenovasi rumah, mengetahui angka pelunasan yang tepat memungkinkan Anda membandingkan penawaran dan memilih opsi paling terjangkau.",
+  "whatIs": "Kalkulator pinjaman adalah alat perencanaan keuangan penting yang menghitung cicilan bulanan tetap dan total biaya bunga pinjaman berdasarkan tiga variabel inti: jumlah pokok yang dipinjam, tingkat bunga tahunan pemberi pinjaman, dan jangka waktu pinjaman. Matematis yang mendasarinya menggunakan rumus amortisasi standar.",
   "howToUse": [
-    "Masukkan jumlah pinjaman Anda ke kolom input yang ditentukan.",
-    "Berikan parameter sekunder seperti suku bunga.",
-    "Klik tombol hitung atau kirim untuk menghasilkan pembayaran bulanan diamortisasi dan total bunga.",
-    "Salin atau tinjau keluaran yang dihasilkan untuk kebutuhan Anda."
+    "Masukkan Jumlah Pinjaman total — pokok yang Anda rencanakan untuk dipinjam.",
+    "Masukkan Tingkat Bunga Tahunan dari penawaran pinjaman Anda.",
+    "Tentukan Jangka Waktu Pinjaman dalam tahun atau bulan.",
+    "Klik 'Hitung Pinjaman' untuk langsung melihat cicilan bulanan tetap, total bunga, dan total biaya."
   ],
-  "howItWorks": "Bagaimana cara kerjanya",
-  "workedExample": "Contoh",
-  "resultInterpretation": "Interpretasi",
+  "howItWorks": "Kalkulator menggunakan rumus amortisasi standar: M = P[r(1+r)^n] / [(1+r)^n - 1], di mana M adalah cicilan bulanan tetap, P adalah pokok, r adalah tingkat bunga bulanan, dan n adalah jumlah total cicilan bulanan.",
+  "workedExample": "Jika meminjam Rp 10.000.000 dengan tingkat bunga tahunan 5% selama 5 tahun (60 bulan): cicilan bulanan adalah Rp 188.710. Selama 60 pembayaran, Anda membayar total Rp 11.322.600. Biaya pinjaman — total bunga — adalah Rp 1.322.600.",
+  "resultInterpretation": "Hasil mencakup tiga angka kunci. Cicilan Bulanan adalah jumlah tetap per bulan. Total Bunga adalah biaya kumulatif pinjaman. Total Pembayaran adalah jumlah semua yang akan dikembalikan.",
   "useCases": [
-    "Membeli mobil",
-    "Mengambil pinjaman pribadi",
-    "Memproses jumlah pinjaman dengan cepat saat bepergian"
+    "Kredit Kendaraan: hitung cicilan bulanan sebelum mengunjungi dealer.",
+    "Pinjaman Pribadi: rencanakan anggaran untuk konsolidasi utang atau renovasi rumah.",
+    "Pinjaman Usaha: nilai dampak arus kas bulanan dari pembiayaan peralatan.",
+    "Perbandingan Penawaran: bandingkan beberapa penawaran dengan mengubah tingkat bunga atau jangka waktu."
   ],
   "tipsAndLimitations": [
-    "Tidak termasuk asuransi atau biaya keterlambatan.",
-    "Pastikan masukan Anda diformat dengan benar untuk hasil terbaik.",
-    "Alat ini berjalan sepenuhnya di sisi klien, memastikan data Anda tetap pribadi."
+    "Kalkulator ini mengasumsikan tingkat bunga tetap untuk seluruh jangka waktu pinjaman.",
+    "Hasilnya hanya menampilkan pokok dan bunga, tidak termasuk biaya tambahan.",
+    "Pembayaran ekstra ke pokok dapat mengurangi total bunga secara signifikan."
   ],
   "faq": [
     {
-      "question": "Apakah Kalkulator Pinjaman gratis untuk digunakan?",
-      "answer": "Ya, Kalkulator Pinjaman kami sepenuhnya gratis untuk digunakan."
+      "question": "Apa tingkat bunga yang baik untuk pinjaman pribadi?",
+      "answer": "Tingkat bunga sangat bergantung pada skor kredit, penghasilan, dan pemberi pinjaman Anda. Umumnya, tingkat di bawah 10% dianggap kompetitif untuk pinjaman pribadi."
     },
     {
-      "question": "Apakah ini berfungsi di perangkat seluler?",
-      "answer": "Ya, ini sepenuhnya responsif dan berfungsi di semua perangkat."
+      "question": "Bisakah saya melunasi pinjaman lebih awal?",
+      "answer": "Ya, dan itu menghemat bunga. Namun, periksa denda pelunasan awal dalam perjanjian pinjaman Anda."
     },
     {
-      "question": "Apakah saya perlu mengunduh sesuatu?",
-      "answer": "Tidak, ini berfungsi sepenuhnya di browser Anda tanpa instalasi apa pun."
+      "question": "Bagaimana pembayaran ekstra memengaruhi pinjaman saya?",
+      "answer": "Pembayaran ekstra langsung mengurangi saldo pokok, yang mengurangi bunga pada bulan berikutnya dan dapat memperpendek jangka waktu pinjaman."
+    },
+    {
+      "question": "Apa perbedaan APR dan tingkat bunga?",
+      "answer": "Tingkat bunga adalah biaya pinjaman pokok. APR adalah ukuran yang lebih luas yang mencakup tingkat bunga plus biaya dan biaya pinjaman lainnya."
     }
   ],
   "relatedTools": [
-    "kalkulator persentase",
-    "kalkulator gaji",
-    "kalkulator diskon"
+    "mortgage-calculator",
+    "emi-calculator",
+    "compound-interest-calculator",
+    "simple-interest-calculator"
   ],
-  "lastReviewed": "2026-09-30",
-  "imageAlt": "Kalkulator Pinjaman",
+  "cta": "Hitung cicilan pinjaman Anda sekarang dan kendalikan keputusan pinjaman Anda!",
+  "disclaimer": "Alat ini memberikan perkiraan hanya untuk tujuan pendidikan. Ketentuan, tingkat, dan biaya pinjaman aktual bervariasi menurut pemberi pinjaman.",
+  "lastReviewed": "2024-03-15",
+  "imageAlt": "Kalkulator pinjaman menampilkan cicilan bulanan, total bunga, dan rincian total pembayaran",
   "ogImageText": "Kalkulator Pinjaman"
 }

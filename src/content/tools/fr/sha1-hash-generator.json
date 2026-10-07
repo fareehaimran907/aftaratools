@@ -1,0 +1,53 @@
+{
+  "seoTitle": "Générateur de hachage SHA1 - Algorithme de hachage sécurisé 1",
+  "metaDescription": "Générateur de hash SHA1 en ligne gratuit. Calculez instantanément le digest SHA-1 hexadécimal de 40 caractères pour des chaînes de texte. Idéal pour les commits Git et les sommes de contrôle.",
+  "h1": "Générateur de hachage SHA1",
+  "primaryKeyword": "générateur de hachage sha1",
+  "secondaryKeywords": [
+    "générateur sha1 en ligne",
+    "texte en sha1",
+    "calculer sha1",
+    "somme de contrôle SHA1"
+  ],
+  "slug": "générateur-de-hachage-sha1",
+  "intro": "Travailler avec des dépôts Git ou vérifier des certificats numériques anciens ? Notre générateur de hachage SHA1 gratuit calcule rapidement le hachage standard de 160 bits pour toute chaîne de texte que vous fournissez.",
+  "whatIs": "Le générateur de hachage SHA1 est un utilitaire qui utilise l'algorithme de hachage sécurisé 1. Il traite un texte d'entrée de n'importe quelle taille pour produire une valeur de hachage de 160 bits, généralement représentée sous forme d'une chaîne hexadécimale de 40 caractères.",
+  "howToUse": [
+    "Entrez votre texte cible dans le champ de saisie.",
+    "L'outil calcule le digest SHA-1 en temps réel.",
+    "La chaîne hexadécimale de 40 caractères est affichée.",
+    "Copiez la chaîne pour vos besoins de vérification."
+  ],
+  "howItWorks": "Développé par la NSA, l'algorithme SHA-1 traite le texte en blocs de 512 bits. Il utilise une série d'opérations bit à bit, d'additions modulaires et de fonctions de compression sur 80 tours pour produire le résumé de message final de 160 bits.",
+  "workedExample": "Saisir le mot 'hello'. L'algorithme SHA-1 traite le texte et produit : `aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d`.",
+  "resultInterpretation": "La sortie de 40 caractères est l'empreinte numérique de votre texte. Changer ne serait-ce qu'une seule virgule dans un document volumineux entraînera une chaîne de 40 caractères complètement différente.",
+  "useCases": [
+    "Contrôle de version (Git) : Génération ou vérification manuelle des hachages SHA-1 que Git utilise pour identifier de manière unique les commits et les états des fichiers.",
+    "Vérification du fichier : Contrôle de l'intégrité d'un fichier ISO téléchargé par rapport au checksum SHA-1 fourni par l'éditeur.",
+    "Indexation de base de données : création de clés de recherche de base de données rapides et de longueur uniforme à partir de chaînes de texte de longueur variable."
+  ],
+  "tipsAndLimitations": [
+    "SHA-1 produit 40 caractères, ce qui le rend légèrement plus long et auparavant plus sécurisé que MD5 (32 caractères).",
+    "AVERTISSEMENT DE SÉCURITÉ : Comme MD5, SHA-1 est maintenant considéré comme cryptographiquement compromis. En 2017, Google a réussi à exécuter une attaque par collision contre celui-ci. N'utilisez pas SHA-1 pour le hachage de mots de passe moderne ou les certificats SSL."
+  ],
+  "faq": [
+    {
+      "question": "Pourquoi Git utilise-t-il encore SHA-1 s'il est cassé ?",
+      "answer": "Git utilise principalement SHA-1 pour vérifier la corruption accidentelle des données, et non pour la sécurité de haut niveau. La probabilité qu'une collision accidentelle ruine un dépôt Git est pratiquement nulle, bien que Git soit en train de passer lentement à SHA-256."
+    },
+    {
+      "question": "Puis-je inverser un hachage SHA-1 ?",
+      "answer": "Non. Par conception, le hachage est une transformation mathématique à sens unique. Cependant, les mots courants hachés en SHA-1 peuvent être facilement consultés dans des bases de données de décryptage en ligne."
+    }
+  ],
+  "relatedTools": [
+    "sha256-hash-generator",
+    "md5-hash-generator",
+    "hash-generator"
+  ],
+  "cta": "Calculez votre hachage SHA-1 instantanément !",
+  "disclaimer": "SHA-1 a été cryptographiquement obsolète par le NIST. Utilisez SHA-256 pour les applications sécurisées nécessitant une résistance aux collisions.",
+  "lastReviewed": "2026-10-02",
+  "imageAlt": "Interface de générateur de hash SHA1",
+  "ogImageText": "Générateur de hachage SHA1"
+}
