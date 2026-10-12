@@ -1,10 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Calculator, Copy, Check, RotateCcw, Delete } from "lucide-react";
 
 export function BasicCalculator() {
+  const t = useTranslations("Tools.basic-calculator.ui");
   const [display, setDisplay] = useState("0");
   const [prevValue, setPrevValue] = useState<number | null>(null);
   const [operation, setOperation] = useState<string | null>(null);
@@ -87,7 +90,7 @@ export function BasicCalculator() {
         case "÷":
         case "/":
           if (inputValue === 0) {
-            setDisplay("Error: Div by 0");
+            setDisplay(t("errorDivZero"));
             setPrevValue(null);
             setOperation(null);
             setWaitingForOperand(true);
@@ -150,17 +153,17 @@ export function BasicCalculator() {
       <div className="flex items-center justify-between mb-4 pb-2 border-b border-border/50">
         <div className="flex items-center gap-2 text-primary font-semibold">
           <Calculator className="w-5 h-5" />
-          <span>Basic Calculator</span>
+          <span>{t("title")}</span>
         </div>
         <Button
           variant="ghost"
           size="sm"
           onClick={copyResult}
           className="h-8 px-2 text-muted-foreground hover:text-foreground"
-          title="Copy result"
+          title={t("copy")}
         >
           {copied ? <Check className="w-4 h-4 text-emerald-500" /> : <Copy className="w-4 h-4" />}
-          <span className="ml-1 text-xs">{copied ? "Copied" : "Copy"}</span>
+          <span className="ml-1 text-xs">{copied ? t("copied") : t("copy")}</span>
         </Button>
       </div>
 

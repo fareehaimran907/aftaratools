@@ -1718,6 +1718,380 @@
         "howItWorksTitle": "Cara kerjanya:",
         "howItWorksDescription": "Alat ini menerapkan teknik membaca cepat dengan menyoroti huruf awal setiap kata. Ini memandu mata Anda melintasi teks dan otak Anda menyelesaikan kata tersebut, memungkinkan Anda membaca lebih cepat dan dengan lebih fokus."
       }
+    },
+    "basic-calculator": {
+      "title": "Kalkulator Dasar",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Kalkulator Dasar",
+        "copy": "Menyalin",
+        "copied": "Disalin",
+        "errorDivZero": "Kesalahan: Div sebesar 0"
+      }
+    },
+    "scientific-calculator": {
+      "title": "Kalkulator Ilmiah",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Kalkulator Ilmiah",
+        "degrees": "DERAJAT",
+        "radians": "RAD",
+        "copy": "Menyalin",
+        "copied": "Disalin"
+      }
+    },
+    "percentage-change-calculator": {
+      "title": "Kalkulator Perubahan Persentase",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Kalkulator Perubahan Persentase",
+        "initialValue": "Nilai Awal (V₁)",
+        "finalValue": "Nilai Akhir (V₂)",
+        "reset": "Mengatur ulang",
+        "increase": "Meningkatkan",
+        "decrease": "Mengurangi",
+        "noChange": "Tidak Ada Perubahan",
+        "absDiff": "Perbedaan Mutlak",
+        "multiplier": "Pengali",
+        "copyResults": "Salin Hasil",
+        "copied": "Perhitungan yang Disalin"
+      }
+    },
+    "percentage-difference-calculator": {
+      "title": "Kalkulator Perbedaan Persentase",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Kalkulator Perbedaan Persentase",
+        "valueA": "Nilai Pertama (A)",
+        "valueB": "Nilai Kedua (B)",
+        "reset": "Mengatur ulang",
+        "percentDiff": "Perbedaan Persentase",
+        "absDiff": "Beda Mutlak (|A - B|)",
+        "average": "Rata-rata ((A + B) / 2)",
+        "copyResults": "Salin Hasil",
+        "copied": "Disalin"
+      }
+    },
+    "test-grade-calculator": {
+      "title": "Kalkulator Nilai Tes",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Kalkulator Nilai Tes",
+        "totalQuestions": "Jumlah Pertanyaan",
+        "wrongQuestions": "Jumlah Soal yang Salah/Terlewatkan",
+        "reset": "Mengatur ulang",
+        "scorePercentage": "Persentase Skor",
+        "passing": "Lewat",
+        "failing": "Kegagalan",
+        "letterGrade": "Kelas Surat",
+        "gpaValue": "Nilai IPK",
+        "gradingChart": "Bagan Penilaian",
+        "missed": "dirindukan",
+        "copyGrade": "Salin Hasil Nilai",
+        "copied": "Nilai yang Disalin"
+      }
+    },
+    "hex-to-rgb": {
+      "title": "Konverter HEX ke RGB",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Konverter HEX ke RGB",
+        "hexColor": "Kode Warna HEX",
+        "opacity": "Opasitas (Alfa)",
+        "reset": "Mengatur ulang",
+        "rgbFormat": "Format RGB",
+        "rgbaFormat": "Format RGBA",
+        "hslFormat": "Format HSL",
+        "cssVar": "Variabel CSS"
+      }
+    },
+    "rgb-to-hex": {
+      "title": "Konverter RGB ke HEX",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Konverter RGB ke HEX",
+        "red": "Merah (kanan)",
+        "green": "Hijau (G)",
+        "blue": "Biru (B)",
+        "reset": "Mengatur ulang",
+        "hexUpper": "HEX (Huruf Besar)",
+        "hexLower": "HEX (Huruf Kecil)",
+        "rgbString": "Tali RGB",
+        "cssColor": "Kode Warna CSS"
+      }
+    },
+    "color-picker": {
+      "title": "Pemilih Warna & Pemeriksa Palet",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Pemilih Warna & Pemeriksa Palet",
+        "pickColor": "Pilih Warna Apa Saja",
+        "randomColor": "Warna Acak",
+        "reset": "Mengatur ulang",
+        "colorHarmonies": "Harmoni Warna"
+      }
+    },
+    "color-palette-generator": {
+      "title": "Generator Palet Warna",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generator Palet Warna",
+        "instructions": "Tekan Spasi atau klik Hasilkan untuk membuat palet baru.",
+        "generateNew": "Hasilkan Baru",
+        "exportCss": "Ekspor CSS",
+        "copiedCss": "CSS yang disalin"
+      }
+    },
+    "contrast-checker": {
+      "title": "Pemeriksa Rasio Kontras Warna (WCAG)",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Pemeriksa Rasio Kontras Warna (WCAG)",
+        "textColor": "Teks / Warna Latar Depan",
+        "bgColor": "Warna Latar Belakang",
+        "swap": "Menukar",
+        "contrastRatio": "Rasio Kontras",
+        "passesAA": "Melewati WCAG AA",
+        "failsAA": "Gagal WCAG AA",
+        "normalText": "Teks Biasa",
+        "largeText": "Teks Besar (18pt+)",
+        "uiComponents": "Komponen UI",
+        "copyResults": "Salin Hasil",
+        "copied": "Disalin"
+      }
+    },
+    "pin-generator": {
+      "title": "Pembuat PIN Acak",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Pembuat PIN Acak",
+        "pinLength": "Panjang PIN",
+        "regenerate": "Diperbarui",
+        "avoidSequences": "Hindari urutan (misalnya 1234, 4321)",
+        "noRepeats": "Tidak ada digit berulang (maks 10)",
+        "generatedPins": "Kode PIN yang Dihasilkan",
+        "generateNewPins": "Hasilkan PIN Baru",
+        "copyAll": "Salin Semua",
+        "copiedAll": "Disalin Semua"
+      }
+    },
+    "strong-password-generator": {
+      "title": "Pembuat Kata Sandi yang Kuat",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Pembuat Kata Sandi yang Kuat",
+        "regenerate": "Diperbarui",
+        "copy": "Menyalin",
+        "copied": "Disalin",
+        "passwordStrength": "Kekuatan Kata Sandi",
+        "passwordLength": "Panjang Kata Sandi",
+        "includeUppercase": "Sertakan Huruf Besar (A-Z)",
+        "includeLowercase": "Sertakan Huruf Kecil (a-z)",
+        "includeNumbers": "Sertakan Angka (0-9)",
+        "includeSymbols": "Sertakan Simbol (!@#$%)",
+        "excludeAmbiguous": "Kecualikan Karakter Ambigu (misalnya 0, O, 1, l, I)",
+        "generateBtn": "Hasilkan Kata Sandi yang Kuat"
+      }
+    },
+    "bcrypt-generator": {
+      "title": "Generator & Pemverifikasi Hash Bcrypt",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generator & Pemverifikasi Hash Bcrypt",
+        "generateTitle": "1. Hasilkan Hash Bcrypt",
+        "plaintextPassword": "Kata Sandi Teks Biasa",
+        "costRounds": "Biaya / Putaran",
+        "generateBtn": "Hasilkan Bcrypt Hash",
+        "computing": "Menghitung Hash...",
+        "verifyTitle": "2. Verifikasi Hash Bcrypt",
+        "testPassword": "Kata Sandi untuk Diuji",
+        "bcryptHash": "Bcrypt Hash",
+        "checkMatch": "Periksa Kecocokan Kata Sandi",
+        "matchSuccess": "Cocok! Kata sandi mengevaluasi dengan benar hash bcrypt ini.",
+        "matchFail": "Hash Tidak Cocok atau Tidak Valid! Kata sandi tidak cocok dengan hash ini."
+      }
+    },
+    "hash-generator": {
+      "title": "Generator Hash Kriptografis Lengkap",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generator Hash Kriptografis Lengkap",
+        "inputString": "Masukkan Teks/String",
+        "clear": "Jernih",
+        "copyAll": "Salin Semua Hash"
+      }
+    },
+    "sha512-hash-generator": {
+      "title": "Pembuat Hash SHA-512",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Pembuat Hash SHA-512",
+        "inputString": "Rangkaian Masukan",
+        "hmacMode": "Modus HMAC",
+        "hmacKey": "Kunci Rahasia HMAC",
+        "digestLabel": "SHA-512 Digest (128 Karakter Hex / 512 Bit)",
+        "verifyLabel": "Verifikasi Kecocokan Checksum",
+        "copy": "Menyalin",
+        "copied": "Disalin"
+      }
+    },
+    "md5-hash-generator": {
+      "title": "Pembuat Hash MD5",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Pembuat Hash MD5",
+        "inputString": "Rangkaian Masukan",
+        "digestLabel": "Intisari Hash MD5 (32 Karakter Hex)",
+        "verifyLabel": "Bandingkan & Verifikasi Checksum",
+        "copy": "Menyalin",
+        "copied": "Disalin"
+      }
+    },
+    "sha1-hash-generator": {
+      "title": "Pembuat Hash SHA-1",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Pembuat Hash SHA-1",
+        "inputString": "Rangkaian Masukan",
+        "digestLabel": "Intisari SHA-1 (40 Karakter Hex / 160 Bit)",
+        "verifyLabel": "Bandingkan & Verifikasi Checksum",
+        "copy": "Menyalin",
+        "copied": "Disalin"
+      }
+    },
+    "sha256-hash-generator": {
+      "title": "Pembuat Hash SHA-256",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Pembuat Hash SHA-256",
+        "inputString": "Rangkaian Masukan",
+        "digestLabel": "SHA-256 Digest (64 Karakter Hex / 256 Bit)",
+        "verifyLabel": "Bandingkan & Verifikasi Checksum",
+        "copy": "Menyalin",
+        "copied": "Disalin"
+      }
+    },
+    "barcode-generator": {
+      "title": "Pembuat Kode Batang",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Pembuat Kode Batang",
+        "barcodeData": "Data/Nomor Barcode",
+        "format": "Format Standar",
+        "showText": "Tampilkan label teks yang dapat dibaca manusia di bawah kode batang",
+        "downloadSvg": "Unduh SVG",
+        "copySvg": "Salin Kode SVG",
+        "copiedSvg": "Kode SVG yang disalin",
+        "reset": "Mengatur ulang"
+      }
+    },
+    "markdown-editor": {
+      "title": "Editor Penurunan Harga",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Editor Penurunan Harga",
+        "edit": "Sunting",
+        "split": "Membelah",
+        "preview": "Pratinjau",
+        "exportMd": "Ekspor .md",
+        "copy": "Menyalin",
+        "copied": "Disalin",
+        "words": "kata-kata",
+        "characters": "karakter",
+        "minRead": "min baca"
+      }
+    },
+    "text-case-converter": {
+      "title": "Konverter Kasus Teks",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Konverter Kasus Teks",
+        "originalText": "Teks Asli",
+        "clear": "Jernih",
+        "copy": "Menyalin",
+        "copied": "Disalin",
+        "words": "kata-kata",
+        "characters": "karakter"
+      }
+    },
+    "morse-code-translator": {
+      "title": "Penerjemah Kode Morse",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Penerjemah Kode Morse",
+        "switchDirection": "Beralih Arah",
+        "clear": "Jernih",
+        "textInput": "Masukan Teks Biasa",
+        "morseInput": "Input Kode Morse (Titik '.' dan Garis '-')",
+        "morseOutput": "Keluaran Kode Morse",
+        "textOutput": "Terjemahan Teks Biasa",
+        "playAudio": "Putar Audio Morse",
+        "playing": "Memutar Bip...",
+        "copy": "Menyalin",
+        "copied": "Disalin"
+      }
+    },
+    "flip-a-coin": {
+      "title": "Balikkan Koin",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Balikkan Koin",
+        "resetStats": "Atur Ulang Statistik",
+        "heads": "KEPALA",
+        "tails": "EKOR",
+        "flipping": "Membalik di udara...",
+        "flipCoin": "Balik Koin",
+        "totalFlips": "Total Membalik"
+      }
+    },
+    "roll-a-die": {
+      "title": "Roller Dadu Interaktif",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Roller Dadu Interaktif",
+        "diceCount": "Jumlah Dadu",
+        "dieType": "Tipe Mati (Sisi)",
+        "totalSum": "Jumlah Gulungan Total",
+        "rollDice": "Gulung Dadu",
+        "rolling": "Bergulir..."
+      }
+    },
+    "spin-the-wheel": {
+      "title": "Putar Roda Penentu",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Putar Roda Penentu",
+        "spinBtn": "PUTAR RODA",
+        "spinning": "Pemintalan...",
+        "winner": "Kami memiliki pemenang!",
+        "wheelSlices": "Irisan Roda",
+        "addChoice": "Tambahkan pilihan..."
+      }
+    },
+    "yes-or-no-wheel": {
+      "title": "Ya atau Tidak Roda Pengambil Keputusan",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Ya atau Tidak Roda Pengambil Keputusan",
+        "includeMaybe": "Sertakan \"Mungkin\"",
+        "deciding": "Memutuskan nasib Anda...",
+        "spinBtn": "PUTAR RODA",
+        "spinning": "Pemintalan...",
+        "yesCount": "YA Hitung",
+        "noCount": "TIDAK ADA Hitungan"
+      }
+    },
+    "truth-or-dare-generator": {
+      "title": "Generator Kebenaran atau Tantangan",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generator Kebenaran atau Tantangan",
+        "randomChoice": "Pilihan Acak",
+        "truth": "KEBENARAN",
+        "dare": "BERANI",
+        "copy": "Salin Perintah",
+        "copied": "Disalin"
+      }
     }
   },
   "Search": {

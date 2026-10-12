@@ -1718,6 +1718,380 @@
         "howItWorksTitle": "Come funziona:",
         "howItWorksDescription": "Questo strumento implementa una tecnica di lettura rapida evidenziando le lettere iniziali delle parole. Questo guida i tuoi occhi attraverso il testo e il tuo cervello completa la parola, permettendoti di leggere più velocemente e con maggiore concentrazione."
       }
+    },
+    "basic-calculator": {
+      "title": "Calcolatrice di base",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Calcolatrice di base",
+        "copy": "Copia",
+        "copied": "Copiato",
+        "errorDivZero": "Errore: Div per 0"
+      }
+    },
+    "scientific-calculator": {
+      "title": "Calcolatrice scientifica",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Calcolatrice scientifica",
+        "degrees": "GRADO",
+        "radians": "RAD",
+        "copy": "Copia",
+        "copied": "Copiato"
+      }
+    },
+    "percentage-change-calculator": {
+      "title": "Calcolatore della variazione percentuale",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Calcolatore della variazione percentuale",
+        "initialValue": "Valore iniziale (V₁)",
+        "finalValue": "Valore finale (V₂)",
+        "reset": "Reset",
+        "increase": "Aumento",
+        "decrease": "Diminuire",
+        "noChange": "Nessun cambiamento",
+        "absDiff": "Differenza assoluta",
+        "multiplier": "Moltiplicatore",
+        "copyResults": "Copia risultati",
+        "copied": "Calcolo copiato"
+      }
+    },
+    "percentage-difference-calculator": {
+      "title": "Calcolatore della differenza percentuale",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Calcolatore della differenza percentuale",
+        "valueA": "Primo valore (A)",
+        "valueB": "Secondo valore (B)",
+        "reset": "Reset",
+        "percentDiff": "Differenza percentuale",
+        "absDiff": "Differenza assoluta (|A - B|)",
+        "average": "Media ((A + B) / 2)",
+        "copyResults": "Copia risultati",
+        "copied": "Copiato"
+      }
+    },
+    "test-grade-calculator": {
+      "title": "Calcolatore del voto del test",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Calcolatore del voto del test",
+        "totalQuestions": "Numero totale di domande",
+        "wrongQuestions": "Numero di domande errate/perse",
+        "reset": "Reset",
+        "scorePercentage": "Percentuale di punteggio",
+        "passing": "Passando",
+        "failing": "Fallendo",
+        "letterGrade": "Grado di lettera",
+        "gpaValue": "Valore GPA",
+        "gradingChart": "Grafico di valutazione",
+        "missed": "mancata",
+        "copyGrade": "Copia i risultati dei voti",
+        "copied": "Voto copiato"
+      }
+    },
+    "hex-to-rgb": {
+      "title": "Convertitore da HEX a RGB",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Convertitore da HEX a RGB",
+        "hexColor": "Codice colore esadecimale",
+        "opacity": "Opacità (alfa)",
+        "reset": "Reset",
+        "rgbFormat": "Formato RGB",
+        "rgbaFormat": "Formato RGBA",
+        "hslFormat": "Formato HSL",
+        "cssVar": "Variabile CSS"
+      }
+    },
+    "rgb-to-hex": {
+      "title": "Convertitore da RGB a HEX",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Convertitore da RGB a HEX",
+        "red": "Rosso (R)",
+        "green": "Verde (G)",
+        "blue": "Blu (B)",
+        "reset": "Reset",
+        "hexUpper": "ESAGONALE (maiuscolo)",
+        "hexLower": "ESAGONALE (minuscolo)",
+        "rgbString": "Stringa RGB",
+        "cssColor": "Codice colore CSS"
+      }
+    },
+    "color-picker": {
+      "title": "Selettore colore e Ispettore tavolozza",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Selettore colore e Ispettore tavolozza",
+        "pickColor": "Scegli qualsiasi colore",
+        "randomColor": "Colore casuale",
+        "reset": "Reset",
+        "colorHarmonies": "Armonie di colori"
+      }
+    },
+    "color-palette-generator": {
+      "title": "Generatore di tavolozze di colori",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generatore di tavolozze di colori",
+        "instructions": "Premi la barra spaziatrice o fai clic su Genera per creare nuove tavolozze.",
+        "generateNew": "Genera nuovo",
+        "exportCss": "Esporta CSS",
+        "copiedCss": "CSS copiato"
+      }
+    },
+    "contrast-checker": {
+      "title": "Controllo del rapporto di contrasto del colore (WCAG)",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Controllo del rapporto di contrasto del colore (WCAG)",
+        "textColor": "Colore testo/primo piano",
+        "bgColor": "Colore di sfondo",
+        "swap": "Scambio",
+        "contrastRatio": "Rapporto di contrasto",
+        "passesAA": "Supera WCAG AA",
+        "failsAA": "Non supera le WCAG AA",
+        "normalText": "Testo normale",
+        "largeText": "Testo grande (18pt+)",
+        "uiComponents": "Componenti dell'interfaccia utente",
+        "copyResults": "Copia risultati",
+        "copied": "Copiato"
+      }
+    },
+    "pin-generator": {
+      "title": "Generatore di PIN casuali",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generatore di PIN casuali",
+        "pinLength": "Lunghezza PIN",
+        "regenerate": "Rigenerare",
+        "avoidSequences": "Evita sequenze (es. 1234, 4321)",
+        "noRepeats": "Nessuna cifra ripetuta (max 10)",
+        "generatedPins": "Codici PIN generati",
+        "generateNewPins": "Genera nuovi PIN",
+        "copyAll": "Copia tutto",
+        "copiedAll": "Copiato tutto"
+      }
+    },
+    "strong-password-generator": {
+      "title": "Generatore di password complesse",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generatore di password complesse",
+        "regenerate": "Rigenerare",
+        "copy": "Copia",
+        "copied": "Copiato",
+        "passwordStrength": "Forza della password",
+        "passwordLength": "Lunghezza della password",
+        "includeUppercase": "Includi lettere maiuscole (A-Z)",
+        "includeLowercase": "Includi lettere minuscole (a-z)",
+        "includeNumbers": "Includi numeri (0-9)",
+        "includeSymbols": "Includi simboli (!@#$%)",
+        "excludeAmbiguous": "Escludi caratteri ambigui (ad esempio 0, O, 1, l, I)",
+        "generateBtn": "Genera password complessa"
+      }
+    },
+    "bcrypt-generator": {
+      "title": "Generatore e verificatore di hash Bcrypt",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generatore e verificatore di hash Bcrypt",
+        "generateTitle": "1. Genera hash Bcrypt",
+        "plaintextPassword": "Password in testo normale",
+        "costRounds": "Costo / Turni",
+        "generateBtn": "Genera hash Bcrypt",
+        "computing": "Calcolo dell'hash...",
+        "verifyTitle": "2. Verifica l'hash Bcrypt",
+        "testPassword": "Password per testare",
+        "bcryptHash": "Hash Bcrypt",
+        "checkMatch": "Controlla la corrispondenza della password",
+        "matchSuccess": "Incontro! La password restituisce correttamente questo hash bcrypt.",
+        "matchFail": "Mancata corrispondenza o hash non valido! La password non corrisponde a questo hash."
+      }
+    },
+    "hash-generator": {
+      "title": "Generatore di hash crittografico tutto in uno",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generatore di hash crittografico tutto in uno",
+        "inputString": "Inserisci testo/stringa",
+        "clear": "Chiara",
+        "copyAll": "Copia tutti gli hash"
+      }
+    },
+    "sha512-hash-generator": {
+      "title": "Generatore di hash SHA-512",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generatore di hash SHA-512",
+        "inputString": "Stringa di input",
+        "hmacMode": "Modalità HMAC",
+        "hmacKey": "Chiave segreta HMAC",
+        "digestLabel": "Digest SHA-512 (128 caratteri esadecimali/512 bit)",
+        "verifyLabel": "Verifica la corrispondenza del checksum",
+        "copy": "Copia",
+        "copied": "Copiato"
+      }
+    },
+    "md5-hash-generator": {
+      "title": "Generatore di hash MD5",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generatore di hash MD5",
+        "inputString": "Stringa di input",
+        "digestLabel": "MD5 Hash Digest (32 caratteri esadecimali)",
+        "verifyLabel": "Confronta e verifica il checksum",
+        "copy": "Copia",
+        "copied": "Copiato"
+      }
+    },
+    "sha1-hash-generator": {
+      "title": "Generatore di hash SHA-1",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generatore di hash SHA-1",
+        "inputString": "Stringa di input",
+        "digestLabel": "SHA-1 Digest (40 caratteri esadecimali/160 bit)",
+        "verifyLabel": "Confronta e verifica il checksum",
+        "copy": "Copia",
+        "copied": "Copiato"
+      }
+    },
+    "sha256-hash-generator": {
+      "title": "Generatore di hash SHA-256",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generatore di hash SHA-256",
+        "inputString": "Stringa di input",
+        "digestLabel": "Digest SHA-256 (64 caratteri esadecimali/256 bit)",
+        "verifyLabel": "Confronta e verifica il checksum",
+        "copy": "Copia",
+        "copied": "Copiato"
+      }
+    },
+    "barcode-generator": {
+      "title": "Generatore di codici a barre",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generatore di codici a barre",
+        "barcodeData": "Dati/numero del codice a barre",
+        "format": "Formato standard",
+        "showText": "Mostra un'etichetta di testo leggibile dall'uomo sotto il codice a barre",
+        "downloadSvg": "Scarica SVG",
+        "copySvg": "Copia il codice SVG",
+        "copiedSvg": "Codice SVG copiato",
+        "reset": "Reset"
+      }
+    },
+    "markdown-editor": {
+      "title": "Editor Markdown",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Editor Markdown",
+        "edit": "Modificare",
+        "split": "Diviso",
+        "preview": "Anteprima",
+        "exportMd": "Esporta .md",
+        "copy": "Copia",
+        "copied": "Copiato",
+        "words": "parole",
+        "characters": "caratteri",
+        "minRead": "minimo letto"
+      }
+    },
+    "text-case-converter": {
+      "title": "Convertitore di maiuscole e minuscole di testo",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Convertitore di maiuscole e minuscole di testo",
+        "originalText": "Testo originale",
+        "clear": "Chiara",
+        "copy": "Copia",
+        "copied": "Copiato",
+        "words": "parole",
+        "characters": "caratteri"
+      }
+    },
+    "morse-code-translator": {
+      "title": "Traduttore di codice Morse",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Traduttore di codice Morse",
+        "switchDirection": "Cambia direzione",
+        "clear": "Chiara",
+        "textInput": "Immissione di testo normale",
+        "morseInput": "Inserimento del codice Morse (punti '.' e trattini '-')",
+        "morseOutput": "Uscita codice Morse",
+        "textOutput": "Traduzione di testo semplice",
+        "playAudio": "Riproduci audio Morse",
+        "playing": "Riproduzione di segnali acustici...",
+        "copy": "Copia",
+        "copied": "Copiato"
+      }
+    },
+    "flip-a-coin": {
+      "title": "Lancia una moneta",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Lancia una moneta",
+        "resetStats": "Ripristina statistiche",
+        "heads": "TESTE",
+        "tails": "CODE",
+        "flipping": "Svolazzando nell'aria...",
+        "flipCoin": "Lancia la moneta",
+        "totalFlips": "Lanci totali"
+      }
+    },
+    "roll-a-die": {
+      "title": "Rullo di dadi interattivo",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Rullo di dadi interattivo",
+        "diceCount": "Numero di dadi",
+        "dieType": "Tipo di matrice (lati)",
+        "totalSum": "Somma totale del tiro",
+        "rollDice": "Lancia i dadi",
+        "rolling": "Rotolando..."
+      }
+    },
+    "spin-the-wheel": {
+      "title": "Gira la ruota decisiva",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Gira la ruota decisiva",
+        "spinBtn": "GIRA LA RUOTA",
+        "spinning": "Filatura...",
+        "winner": "Abbiamo un vincitore!",
+        "wheelSlices": "Fette di ruota",
+        "addChoice": "Aggiungi scelta..."
+      }
+    },
+    "yes-or-no-wheel": {
+      "title": "Ruota decisiva sì o no",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Ruota decisiva sì o no",
+        "includeMaybe": "Includi \"Forse\"",
+        "deciding": "Decidere il tuo destino...",
+        "spinBtn": "GIRA LA RUOTA",
+        "spinning": "Filatura...",
+        "yesCount": "SI Conte",
+        "noCount": "NON contare"
+      }
+    },
+    "truth-or-dare-generator": {
+      "title": "Generatore di Obbligo o Verità",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Generatore di Obbligo o Verità",
+        "randomChoice": "Scelta casuale",
+        "truth": "VERITÀ",
+        "dare": "OSARE",
+        "copy": "Copia richiesta",
+        "copied": "Copiato"
+      }
     }
   },
   "Search": {

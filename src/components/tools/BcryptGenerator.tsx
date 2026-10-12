@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Copy, Check, Shield, RefreshCw, KeyRound, CheckCircle2, XCircle } from "lucide-react";
 
 export function BcryptGenerator() {
+  const t = useTranslations("Tools.bcrypt-generator.ui");
   const [password, setPassword] = useState("mySecretPassword123");
   const [rounds, setRounds] = useState(10);
   const [hash, setHash] = useState("");
@@ -112,7 +115,7 @@ export function BcryptGenerator() {
       <div className="flex items-center justify-between pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Shield className="w-5 h-5" />
-          <span>Bcrypt Hash Generator & Verifier</span>
+          <span>{t("title")}</span>
         </div>
       </div>
 
@@ -120,12 +123,12 @@ export function BcryptGenerator() {
       <div className="space-y-5">
         <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground flex items-center gap-2">
           <KeyRound className="w-4 h-4 text-primary" />
-          <span>1. Generate Bcrypt Hash</span>
+          <span>{t("generateTitle")}</span>
         </h3>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <div className="sm:col-span-2 space-y-2">
-            <label className="text-sm font-medium text-muted-foreground">Plaintext Password</label>
+            <label className="text-sm font-medium text-muted-foreground">{t("plaintextPassword")}</label>
             <Input
               type="text"
               value={password}
@@ -137,7 +140,7 @@ export function BcryptGenerator() {
 
           <div className="space-y-2">
             <div className="flex justify-between items-center text-sm font-medium text-muted-foreground">
-              <label>Cost / Rounds</label>
+              <label>{t("costRounds")}</label>
               <span className="font-mono font-bold text-foreground">{rounds}</span>
             </div>
             <select
@@ -155,7 +158,7 @@ export function BcryptGenerator() {
         </div>
 
         <Button onClick={handleGenerate} disabled={loading || !password} className="w-full h-11 font-semibold">
-          {loading ? "Computing Hash..." : "Generate Bcrypt Hash"}
+          {loading ? t("computing") : t("generateBtn")}
         </Button>
 
         {hash && (
@@ -181,12 +184,12 @@ export function BcryptGenerator() {
       <div className="pt-6 border-t border-border/60 space-y-5">
         <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground flex items-center gap-2">
           <CheckCircle2 className="w-4 h-4 text-primary" />
-          <span>2. Verify Bcrypt Hash</span>
+          <span>{t("verifyTitle")}</span>
         </h3>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="space-y-2">
-            <label className="text-sm font-medium text-muted-foreground">Password to Test</label>
+            <label className="text-sm font-medium text-muted-foreground">{t("testPassword")}</label>
             <Input
               type="text"
               value={verifyPassword}
@@ -197,7 +200,7 @@ export function BcryptGenerator() {
           </div>
 
           <div className="space-y-2">
-            <label className="text-sm font-medium text-muted-foreground">Bcrypt Hash</label>
+            <label className="text-sm font-medium text-muted-foreground">{t("bcryptHash")}</label>
             <Input
               type="text"
               value={verifyHash}
@@ -209,7 +212,7 @@ export function BcryptGenerator() {
         </div>
 
         <Button variant="secondary" onClick={handleVerify} className="w-full h-11 font-semibold">
-          Check Password Match
+          {t("checkMatch")}
         </Button>
 
         {verifyResult !== null && (
@@ -223,8 +226,8 @@ export function BcryptGenerator() {
             {verifyResult ? <CheckCircle2 className="w-5 h-5 shrink-0" /> : <XCircle className="w-5 h-5 shrink-0" />}
             <span className="text-sm font-semibold">
               {verifyResult
-                ? "Match! The password correctly evaluates to this bcrypt hash."
-                : "Mismatch or Invalid Hash! The password does not match this hash."}
+                ? t("matchSuccess")
+                : t("matchFail")}
             </span>
           </div>
         )}

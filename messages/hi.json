@@ -1718,6 +1718,380 @@
         "howItWorksTitle": "यह कैसे काम करता है:",
         "howItWorksDescription": "यह टूल शब्दों के शुरुआती अक्षरों को हाइलाइट करके स्पीड-रीडिंग तकनीक लागू करता है। यह आपकी आंखों को पूरे टेक्स्ट में निर्देशित करता है और आपका मस्तिष्क शब्द को पूरा करता है, जिससे आप तेजी से और अधिक ध्यान के साथ पढ़ सकते हैं।"
       }
+    },
+    "basic-calculator": {
+      "title": "बुनियादी कैलकुलेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "बुनियादी कैलकुलेटर",
+        "copy": "प्रतिलिपि",
+        "copied": "कॉपी किया गया",
+        "errorDivZero": "त्रुटि: 0 से भाग"
+      }
+    },
+    "scientific-calculator": {
+      "title": "वैज्ञानिक कैलकुलेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "वैज्ञानिक कैलकुलेटर",
+        "degrees": "डिग्री",
+        "radians": "रेड",
+        "copy": "प्रतिलिपि",
+        "copied": "कॉपी किया गया"
+      }
+    },
+    "percentage-change-calculator": {
+      "title": "प्रतिशत परिवर्तन कैलकुलेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "प्रतिशत परिवर्तन कैलकुलेटर",
+        "initialValue": "प्रारंभिक मूल्य (V₁)",
+        "finalValue": "अंतिम मूल्य (V₂)",
+        "reset": "रीसेट करें",
+        "increase": "बढ़ोतरी",
+        "decrease": "घटाना",
+        "noChange": "कोई परिवर्तन नहीं होता है",
+        "absDiff": "पूर्ण अंतर",
+        "multiplier": "गुणक",
+        "copyResults": "परिणाम कॉपी करें",
+        "copied": "गणना की प्रतिलिपि बनाई गई"
+      }
+    },
+    "percentage-difference-calculator": {
+      "title": "प्रतिशत अंतर कैलकुलेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "प्रतिशत अंतर कैलकुलेटर",
+        "valueA": "पहला मान (ए)",
+        "valueB": "दूसरा मान (बी)",
+        "reset": "रीसेट करें",
+        "percentDiff": "प्रतिशत अंतर",
+        "absDiff": "पूर्ण अंतर (|ए - बी|)",
+        "average": "औसत ((ए + बी) / 2)",
+        "copyResults": "परिणाम कॉपी करें",
+        "copied": "कॉपी किया गया"
+      }
+    },
+    "test-grade-calculator": {
+      "title": "टेस्ट ग्रेड कैलकुलेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "टेस्ट ग्रेड कैलकुलेटर",
+        "totalQuestions": "प्रश्नों की कुल संख्या",
+        "wrongQuestions": "गलत/छूटे हुए प्रश्नों की संख्या",
+        "reset": "रीसेट करें",
+        "scorePercentage": "स्कोर प्रतिशत",
+        "passing": "पासिंग",
+        "failing": "असफलता",
+        "letterGrade": "पत्र ग्रेड",
+        "gpaValue": "जीपीए मूल्य",
+        "gradingChart": "ग्रेडिंग चार्ट",
+        "missed": "चुक होना",
+        "copyGrade": "ग्रेड परिणाम कॉपी करें",
+        "copied": "ग्रेड कॉपी किया गया"
+      }
+    },
+    "hex-to-rgb": {
+      "title": "HEX से RGB कनवर्टर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "HEX से RGB कनवर्टर",
+        "hexColor": "हेक्स रंग कोड",
+        "opacity": "अपारदर्शिता (अल्फा)",
+        "reset": "रीसेट करें",
+        "rgbFormat": "आरजीबी प्रारूप",
+        "rgbaFormat": "आरजीबीए प्रारूप",
+        "hslFormat": "एचएसएल प्रारूप",
+        "cssVar": "सीएसएस वेरिएबल"
+      }
+    },
+    "rgb-to-hex": {
+      "title": "आरजीबी से हेक्स कनवर्टर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "आरजीबी से हेक्स कनवर्टर",
+        "red": "लाल (आर)",
+        "green": "हरा (जी)",
+        "blue": "नीला (बी)",
+        "reset": "रीसेट करें",
+        "hexUpper": "हेक्स (अपरकेस)",
+        "hexLower": "हेक्स (लोअरकेस)",
+        "rgbString": "आरजीबी स्ट्रिंग",
+        "cssColor": "सीएसएस रंग कोड"
+      }
+    },
+    "color-picker": {
+      "title": "रंग चयनकर्ता एवं पैलेट निरीक्षक",
+      "description": "Online tool.",
+      "ui": {
+        "title": "रंग चयनकर्ता एवं पैलेट निरीक्षक",
+        "pickColor": "कोई भी रंग चुनें",
+        "randomColor": "यादृच्छिक रंग",
+        "reset": "रीसेट करें",
+        "colorHarmonies": "रंग सामंजस्य"
+      }
+    },
+    "color-palette-generator": {
+      "title": "रंग पैलेट जेनरेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "रंग पैलेट जेनरेटर",
+        "instructions": "ताज़ा पैलेट बनाने के लिए स्पेसबार दबाएँ या जेनरेट पर क्लिक करें।",
+        "generateNew": "नया उत्पन्न करें",
+        "exportCss": "सीएसएस निर्यात करें",
+        "copiedCss": "सीएसएस कॉपी किया गया"
+      }
+    },
+    "contrast-checker": {
+      "title": "रंग कंट्रास्ट अनुपात चेकर (WCAG)",
+      "description": "Online tool.",
+      "ui": {
+        "title": "रंग कंट्रास्ट अनुपात चेकर (WCAG)",
+        "textColor": "पाठ/अग्रभूमि रंग",
+        "bgColor": "पृष्ठभूमि का रंग",
+        "swap": "बदलना",
+        "contrastRatio": "वैषम्य अनुपात",
+        "passesAA": "WCAG AA पास करता है",
+        "failsAA": "WCAG AA विफल",
+        "normalText": "सामान्य पाठ",
+        "largeText": "बड़ा पाठ (18pt+)",
+        "uiComponents": "यूआई घटक",
+        "copyResults": "परिणाम कॉपी करें",
+        "copied": "कॉपी किया गया"
+      }
+    },
+    "pin-generator": {
+      "title": "रैंडम पिन जेनरेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "रैंडम पिन जेनरेटर",
+        "pinLength": "पिन की लंबाई",
+        "regenerate": "पुनः जेनरेट",
+        "avoidSequences": "अनुक्रमों से बचें (जैसे 1234, 4321)",
+        "noRepeats": "कोई दोहराया गया अंक नहीं (अधिकतम 10)",
+        "generatedPins": "जनरेट किए गए पिन कोड",
+        "generateNewPins": "नये पिन जनरेट करें",
+        "copyAll": "सभी को कॉपी करें",
+        "copiedAll": "सभी की प्रतिलिपि बनाई गई"
+      }
+    },
+    "strong-password-generator": {
+      "title": "मजबूत पासवर्ड जेनरेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "मजबूत पासवर्ड जेनरेटर",
+        "regenerate": "पुनः जेनरेट",
+        "copy": "प्रतिलिपि",
+        "copied": "कॉपी किया गया",
+        "passwordStrength": "पासवर्ड की मजबूती",
+        "passwordLength": "पासवर्ड की लंबाई",
+        "includeUppercase": "अपरकेस (A-Z) शामिल करें",
+        "includeLowercase": "लोअरकेस (a-z) शामिल करें",
+        "includeNumbers": "संख्याएँ शामिल करें (0-9)",
+        "includeSymbols": "प्रतीक शामिल करें (!@#$%)",
+        "excludeAmbiguous": "अस्पष्ट वर्णों को बाहर निकालें (जैसे 0, O, 1, l, I)",
+        "generateBtn": "मजबूत पासवर्ड जनरेट करें"
+      }
+    },
+    "bcrypt-generator": {
+      "title": "बीक्रिप्ट हैश जेनरेटर और सत्यापनकर्ता",
+      "description": "Online tool.",
+      "ui": {
+        "title": "बीक्रिप्ट हैश जेनरेटर और सत्यापनकर्ता",
+        "generateTitle": "1. बीक्रिप्ट हैश जेनरेट करें",
+        "plaintextPassword": "सादा पाठ पासवर्ड",
+        "costRounds": "लागत/राउंड",
+        "generateBtn": "बीक्रिप्ट हैश उत्पन्न करें",
+        "computing": "हैश की गणना...",
+        "verifyTitle": "2. बीक्रिप्ट हैश सत्यापित करें",
+        "testPassword": "परीक्षण के लिए पासवर्ड",
+        "bcryptHash": "बीक्रिप्ट हैश",
+        "checkMatch": "पासवर्ड मिलान की जाँच करें",
+        "matchSuccess": "मिलान! पासवर्ड इस bcrypt हैश का सही मूल्यांकन करता है।",
+        "matchFail": "बेमेल या अमान्य हैश! पासवर्ड इस हैश से मेल नहीं खाता."
+      }
+    },
+    "hash-generator": {
+      "title": "ऑल-इन-वन क्रिप्टोग्राफ़िक हैश जेनरेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "ऑल-इन-वन क्रिप्टोग्राफ़िक हैश जेनरेटर",
+        "inputString": "इनपुट टेक्स्ट/स्ट्रिंग",
+        "clear": "स्पष्ट",
+        "copyAll": "सभी हैश कॉपी करें"
+      }
+    },
+    "sha512-hash-generator": {
+      "title": "SHA-512 हैश जेनरेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-512 हैश जेनरेटर",
+        "inputString": "इनपुट स्ट्रिंग",
+        "hmacMode": "एचएमएसी मोड",
+        "hmacKey": "एचएमएसी गुप्त कुंजी",
+        "digestLabel": "SHA-512 डाइजेस्ट (128 हेक्स अक्षर / 512 बिट्स)",
+        "verifyLabel": "चेकसम मिलान सत्यापित करें",
+        "copy": "प्रतिलिपि",
+        "copied": "कॉपी किया गया"
+      }
+    },
+    "md5-hash-generator": {
+      "title": "एमडी5 हैश जेनरेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "एमडी5 हैश जेनरेटर",
+        "inputString": "इनपुट स्ट्रिंग",
+        "digestLabel": "एमडी5 हैश डाइजेस्ट (32 हेक्स अक्षर)",
+        "verifyLabel": "चेकसम की तुलना करें और सत्यापित करें",
+        "copy": "प्रतिलिपि",
+        "copied": "कॉपी किया गया"
+      }
+    },
+    "sha1-hash-generator": {
+      "title": "SHA-1 हैश जेनरेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-1 हैश जेनरेटर",
+        "inputString": "इनपुट स्ट्रिंग",
+        "digestLabel": "SHA-1 डाइजेस्ट (40 हेक्स अक्षर / 160 बिट्स)",
+        "verifyLabel": "चेकसम की तुलना करें और सत्यापित करें",
+        "copy": "प्रतिलिपि",
+        "copied": "कॉपी किया गया"
+      }
+    },
+    "sha256-hash-generator": {
+      "title": "SHA-256 हैश जेनरेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-256 हैश जेनरेटर",
+        "inputString": "इनपुट स्ट्रिंग",
+        "digestLabel": "SHA-256 डाइजेस्ट (64 हेक्स अक्षर / 256 बिट्स)",
+        "verifyLabel": "चेकसम की तुलना करें और सत्यापित करें",
+        "copy": "प्रतिलिपि",
+        "copied": "कॉपी किया गया"
+      }
+    },
+    "barcode-generator": {
+      "title": "बारकोड जेनरेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "बारकोड जेनरेटर",
+        "barcodeData": "बारकोड डेटा/संख्या",
+        "format": "मानक प्रारूप",
+        "showText": "बारकोड के नीचे मानव-पठनीय पाठ लेबल दिखाएँ",
+        "downloadSvg": "एसवीजी डाउनलोड करें",
+        "copySvg": "एसवीजी कोड कॉपी करें",
+        "copiedSvg": "एसवीजी कोड कॉपी किया गया",
+        "reset": "रीसेट करें"
+      }
+    },
+    "markdown-editor": {
+      "title": "मार्कडाउन संपादक",
+      "description": "Online tool.",
+      "ui": {
+        "title": "मार्कडाउन संपादक",
+        "edit": "संपादन करना",
+        "split": "विभाजित करना",
+        "preview": "पूर्व दर्शन",
+        "exportMd": "निर्यात .md",
+        "copy": "प्रतिलिपि",
+        "copied": "कॉपी किया गया",
+        "words": "शब्द",
+        "characters": "अक्षर",
+        "minRead": "मिनट पढ़ा"
+      }
+    },
+    "text-case-converter": {
+      "title": "टेक्स्ट केस कन्वर्टर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "टेक्स्ट केस कन्वर्टर",
+        "originalText": "मूललेख",
+        "clear": "स्पष्ट",
+        "copy": "प्रतिलिपि",
+        "copied": "कॉपी किया गया",
+        "words": "शब्द",
+        "characters": "अक्षर"
+      }
+    },
+    "morse-code-translator": {
+      "title": "मोर्स कोड अनुवादक",
+      "description": "Online tool.",
+      "ui": {
+        "title": "मोर्स कोड अनुवादक",
+        "switchDirection": "दिशा बदलें",
+        "clear": "स्पष्ट",
+        "textInput": "सादा पाठ इनपुट",
+        "morseInput": "मोर्स कोड इनपुट (डॉट्स '.' और डैश '-')",
+        "morseOutput": "मोर्स कोड आउटपुट",
+        "textOutput": "सादा पाठ अनुवाद",
+        "playAudio": "मोर्स ऑडियो चलायें",
+        "playing": "बीप बज रही है...",
+        "copy": "प्रतिलिपि",
+        "copied": "कॉपी किया गया"
+      }
+    },
+    "flip-a-coin": {
+      "title": "एक सिक्का पलटें",
+      "description": "Online tool.",
+      "ui": {
+        "title": "एक सिक्का पलटें",
+        "resetStats": "आँकड़े रीसेट करें",
+        "heads": "सिर",
+        "tails": "पूंछ",
+        "flipping": "हवा में लहराते हुए...",
+        "flipCoin": "सिक्का पलटें",
+        "totalFlips": "कुल फ़्लिप"
+      }
+    },
+    "roll-a-die": {
+      "title": "इंटरैक्टिव पासा रोलर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "इंटरैक्टिव पासा रोलर",
+        "diceCount": "पासों की संख्या",
+        "dieType": "डाई प्रकार (पक्ष)",
+        "totalSum": "कुल रोल राशि",
+        "rollDice": "डाइस रोल करें",
+        "rolling": "लुढ़कता हुआ..."
+      }
+    },
+    "spin-the-wheel": {
+      "title": "व्हील डिसाइडर को स्पिन करें",
+      "description": "Online tool.",
+      "ui": {
+        "title": "व्हील डिसाइडर को स्पिन करें",
+        "spinBtn": "पहिया घुमाएं",
+        "spinning": "घूम रहा है...",
+        "winner": "हमारे पास एक विजेता है!",
+        "wheelSlices": "पहिए के टुकड़े",
+        "addChoice": "विकल्प जोड़ें..."
+      }
+    },
+    "yes-or-no-wheel": {
+      "title": "हाँ या नहीं पहिया निर्णायक",
+      "description": "Online tool.",
+      "ui": {
+        "title": "हाँ या नहीं पहिया निर्णायक",
+        "includeMaybe": "\"शायद\" शामिल करें",
+        "deciding": "अपनी किस्मत का फैसला...",
+        "spinBtn": "पहिया घुमाएं",
+        "spinning": "घूम रहा है...",
+        "yesCount": "हाँ गिनती",
+        "noCount": "कोई गिनती नहीं"
+      }
+    },
+    "truth-or-dare-generator": {
+      "title": "सत्य या साहस जेनरेटर",
+      "description": "Online tool.",
+      "ui": {
+        "title": "सत्य या साहस जेनरेटर",
+        "randomChoice": "यादृच्छिक विकल्प",
+        "truth": "सच",
+        "dare": "हिम्मत करो",
+        "copy": "प्रॉम्प्ट कॉपी करें",
+        "copied": "कॉपी किया गया"
+      }
     }
   },
   "Search": {

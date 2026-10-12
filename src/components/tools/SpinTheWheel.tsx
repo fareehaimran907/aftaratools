@@ -1,5 +1,7 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -11,6 +13,7 @@ const PALETTE = [
 ];
 
 export function SpinTheWheel() {
+  const t = useTranslations("Tools.spin-the-wheel.ui");
   const [items, setItems] = useState<string[]>([
     "Pizza", "Burger", "Sushi", "Tacos", "Pasta", "Salad"
   ]);
@@ -58,7 +61,7 @@ export function SpinTheWheel() {
       <div className="flex items-center justify-between pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <RotateCw className="w-5 h-5" />
-          <span>Spin the Wheel Decider</span>
+          <span>{t("title")}</span>
         </div>
       </div>
 
@@ -123,13 +126,13 @@ export function SpinTheWheel() {
             className="mt-6 px-10 h-12 text-base font-bold bg-primary shadow-lg shadow-primary/20"
           >
             <RotateCw className={`w-4 h-4 mr-2 ${isSpinning ? "animate-spin" : ""}`} />
-            {isSpinning ? "Spinning..." : "SPIN THE WHEEL"}
+            {isSpinning ? t("spinning") : t("spinBtn")}
           </Button>
 
           {/* Winner Banner */}
           {winner && (
             <div className="mt-5 p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-500 text-center animate-bounce">
-              <span className="text-xs font-bold uppercase tracking-wider block">We have a winner!</span>
+              <span className="text-xs font-bold uppercase tracking-wider block">{t("winner")}</span>
               <span className="text-2xl font-black">{winner}</span>
             </div>
           )}
@@ -138,7 +141,7 @@ export function SpinTheWheel() {
         {/* Options Editor Sidebar */}
         <div className="lg:col-span-5 space-y-4">
           <div className="flex items-center justify-between">
-            <h4 className="text-sm font-bold uppercase text-muted-foreground">Wheel Slices ({items.length})</h4>
+            <h4 className="text-sm font-bold uppercase text-muted-foreground">{t("wheelSlices")} ({items.length})</h4>
           </div>
 
           <div className="flex gap-2">
@@ -147,7 +150,7 @@ export function SpinTheWheel() {
               value={newItem}
               onChange={(e) => setNewItem(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && addItem()}
-              placeholder="Add choice..."
+              placeholder={t("addChoice")}
               className="h-10 bg-muted/40 rounded-xl"
             />
             <Button size="sm" onClick={addItem} className="h-10 px-3">

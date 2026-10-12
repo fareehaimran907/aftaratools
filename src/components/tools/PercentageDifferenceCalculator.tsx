@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Copy, Check, RotateCcw, Percent, Equal } from "lucide-react";
 
 export function PercentageDifferenceCalculator() {
+  const t = useTranslations("Tools.percentage-difference-calculator.ui");
   const [valA, setValA] = useState("80");
   const [valB, setValB] = useState("100");
   const [copied, setCopied] = useState(false);
@@ -37,18 +40,18 @@ export function PercentageDifferenceCalculator() {
       <div className="flex items-center justify-between mb-6 pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Percent className="w-5 h-5" />
-          <span>Percentage Difference Calculator</span>
+          <span>{t("title")}</span>
         </div>
         <Button variant="ghost" size="sm" onClick={handleReset} className="h-8 text-xs text-muted-foreground">
           <RotateCcw className="w-3.5 h-3.5 mr-1" />
-          Reset
+          {t("reset")}
         </Button>
       </div>
 
       {/* Input Fields */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
         <div className="space-y-2">
-          <label className="text-sm font-medium text-muted-foreground">First Value (A)</label>
+          <label className="text-sm font-medium text-muted-foreground">{t("valueA")}</label>
           <Input
             type="number"
             value={valA}
@@ -59,7 +62,7 @@ export function PercentageDifferenceCalculator() {
         </div>
 
         <div className="space-y-2">
-          <label className="text-sm font-medium text-muted-foreground">Second Value (B)</label>
+          <label className="text-sm font-medium text-muted-foreground">{t("valueB")}</label>
           <Input
             type="number"
             value={valB}
@@ -75,7 +78,7 @@ export function PercentageDifferenceCalculator() {
         <div className="space-y-6">
           <div className="p-6 rounded-2xl border border-primary/20 bg-primary/5 text-center">
             <span className="text-xs font-bold uppercase tracking-wider text-primary block mb-1">
-              Percentage Difference
+              {t("percentDiff")}
             </span>
             <div className="text-4xl sm:text-5xl font-mono font-extrabold text-foreground tracking-tight">
               {percentDiff.toFixed(2)}%
@@ -88,11 +91,11 @@ export function PercentageDifferenceCalculator() {
           {/* Details Breakdown */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-center">
             <div className="p-3 bg-muted/30 border border-border/40 rounded-xl">
-              <span className="text-xs text-muted-foreground block">Absolute Difference (|A - B|)</span>
+              <span className="text-xs text-muted-foreground block">{t("absDiff")}</span>
               <span className="text-base font-semibold font-mono text-foreground">{diff}</span>
             </div>
             <div className="p-3 bg-muted/30 border border-border/40 rounded-xl">
-              <span className="text-xs text-muted-foreground block">Average ((A + B) / 2)</span>
+              <span className="text-xs text-muted-foreground block">{t("average")}</span>
               <span className="text-base font-semibold font-mono text-foreground">{avg}</span>
             </div>
             <div className="p-3 bg-muted/30 border border-border/40 rounded-xl">
@@ -106,7 +109,7 @@ export function PercentageDifferenceCalculator() {
           <div className="flex justify-end pt-2">
             <Button variant="outline" size="sm" onClick={copyResult} className="text-xs">
               {copied ? <Check className="w-3.5 h-3.5 text-emerald-500 mr-1.5" /> : <Copy className="w-3.5 h-3.5 mr-1.5" />}
-              {copied ? "Copied" : "Copy Results"}
+              {copied ? t("copied") : t("copyResults")}
             </Button>
           </div>
         </div>

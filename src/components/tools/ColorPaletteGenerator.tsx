@@ -1,5 +1,7 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Copy, Check, Lock, Unlock, RefreshCw, Palette, Download } from "lucide-react";
@@ -10,6 +12,7 @@ interface PaletteColor {
 }
 
 export function ColorPaletteGenerator() {
+  const t = useTranslations("Tools.color-palette-generator.ui");
   const [colors, setColors] = useState<PaletteColor[]>([
     { hex: "#264653", locked: false },
     { hex: "#2A9D8F", locked: false },
@@ -79,21 +82,21 @@ export function ColorPaletteGenerator() {
         <div>
           <div className="flex items-center gap-2 text-primary font-semibold text-lg">
             <Palette className="w-5 h-5" />
-            <span>Color Palette Generator</span>
+            <span>{t("title")}</span>
           </div>
           <p className="text-xs text-muted-foreground mt-0.5">
-            Press <kbd className="px-1.5 py-0.5 bg-muted rounded border text-[10px] font-mono">Spacebar</kbd> or click Generate to create fresh palettes.
+            {t("instructions")}
           </p>
         </div>
 
         <div className="flex items-center gap-2 w-full sm:w-auto">
           <Button variant="outline" size="sm" onClick={copyAllCss} className="text-xs h-9">
             {copiedAll ? <Check className="w-3.5 h-3.5 text-emerald-500 mr-1.5" /> : <Copy className="w-3.5 h-3.5 mr-1.5" />}
-            {copiedAll ? "Copied CSS" : "Export CSS"}
+            {copiedAll ? t("copiedCss") : t("exportCss")}
           </Button>
           <Button onClick={generate} size="sm" className="text-xs h-9 font-semibold">
             <RefreshCw className="w-3.5 h-3.5 mr-1.5" />
-            Generate New
+            {t("generateNew")}
           </Button>
         </div>
       </div>

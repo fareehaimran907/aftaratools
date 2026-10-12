@@ -1,12 +1,14 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Copy, Check, Hash, Key, CheckCircle2, XCircle } from "lucide-react";
 import CryptoJS from "crypto-js";
 
 export function Sha512Generator() {
+  const t = useTranslations("Tools.sha512-hash-generator.ui");
   const [input, setInput] = useState("The quick brown fox jumps over the lazy dog");
   const [secretKey, setSecretKey] = useState("");
   const [useHmac, setUseHmac] = useState(false);
@@ -43,7 +45,7 @@ export function Sha512Generator() {
       <div className="flex items-center justify-between pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Hash className="w-5 h-5" />
-          <span>SHA-512 Hash Generator</span>
+          <span>{t("title")}</span>
         </div>
         <div className="flex items-center gap-2">
           <Button
@@ -60,14 +62,14 @@ export function Sha512Generator() {
             onClick={() => setUseHmac(!useHmac)}
             className="text-xs h-8"
           >
-            HMAC Mode
+            {t("hmacMode")}
           </Button>
         </div>
       </div>
 
       {/* Input Text Area */}
       <div className="space-y-2">
-        <label className="text-sm font-medium text-muted-foreground">Input String</label>
+        <label className="text-sm font-medium text-muted-foreground">{t("inputString")}</label>
         <textarea
           rows={3}
           value={input}
@@ -82,7 +84,7 @@ export function Sha512Generator() {
         <div className="space-y-2">
           <label className="text-sm font-medium text-muted-foreground flex items-center gap-1.5">
             <Key className="w-4 h-4 text-primary" />
-            <span>HMAC Secret Key</span>
+            <span>{t("hmacKey")}</span>
           </label>
           <Input
             type="text"
@@ -97,7 +99,7 @@ export function Sha512Generator() {
       {/* Output Hash */}
       <div className="p-4 sm:p-5 bg-muted/40 border border-border rounded-2xl relative group">
         <span className="text-xs text-muted-foreground font-semibold uppercase tracking-wider block mb-1">
-          SHA-512 Digest (128 Hex Characters / 512 Bits)
+          {t("digestLabel")}
         </span>
         <div className="font-mono text-xs sm:text-sm font-bold text-foreground break-all pr-12 select-all">
           {hash || "—"}
@@ -109,14 +111,14 @@ export function Sha512Generator() {
           className="absolute right-3 top-1/2 -translate-y-1/2 h-9 px-3 text-xs"
         >
           {copied ? <Check className="w-4 h-4 text-emerald-400 mr-1" /> : <Copy className="w-4 h-4 mr-1" />}
-          {copied ? "Copied" : "Copy"}
+          {copied ? t("copied") : t("copy")}
         </Button>
       </div>
 
       {/* Checksum Verification Box */}
       <div className="pt-4 border-t border-border/60 space-y-3">
         <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block">
-          Verify Checksum Match
+          {t("verifyLabel")}
         </label>
         <Input
           type="text"

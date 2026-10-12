@@ -1718,6 +1718,380 @@
         "howItWorksTitle": "Как это работает:",
         "howItWorksDescription": "Этот инструмент реализует метод скорочтения путем выделения начальных букв слов. Это направляет ваши глаза по тексту, а ваш мозг достраивает слово, позволяя вам читать быстрее и с большей концентрацией."
       }
+    },
+    "basic-calculator": {
+      "title": "Базовый калькулятор",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Базовый калькулятор",
+        "copy": "Копировать",
+        "copied": "Скопировано",
+        "errorDivZero": "Ошибка: деление на 0"
+      }
+    },
+    "scientific-calculator": {
+      "title": "Научный калькулятор",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Научный калькулятор",
+        "degrees": "ДЭГ",
+        "radians": "РАД",
+        "copy": "Копировать",
+        "copied": "Скопировано"
+      }
+    },
+    "percentage-change-calculator": {
+      "title": "Калькулятор процентного изменения",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Калькулятор процентного изменения",
+        "initialValue": "Начальное значение (В₁)",
+        "finalValue": "Окончательная стоимость (В₂)",
+        "reset": "Перезагрузить",
+        "increase": "Увеличивать",
+        "decrease": "Снижаться",
+        "noChange": "Без изменений",
+        "absDiff": "Абсолютная разница",
+        "multiplier": "Множитель",
+        "copyResults": "Копировать результаты",
+        "copied": "Скопированный расчет"
+      }
+    },
+    "percentage-difference-calculator": {
+      "title": "Калькулятор процентной разницы",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Калькулятор процентной разницы",
+        "valueA": "Первое значение (А)",
+        "valueB": "Второе значение (B)",
+        "reset": "Перезагрузить",
+        "percentDiff": "Процентная разница",
+        "absDiff": "Абсолютная разница (|A – B|)",
+        "average": "Среднее ((А + Б) / 2)",
+        "copyResults": "Копировать результаты",
+        "copied": "Скопировано"
+      }
+    },
+    "test-grade-calculator": {
+      "title": "Калькулятор оценок за тест",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Калькулятор оценок за тест",
+        "totalQuestions": "Общее количество вопросов",
+        "wrongQuestions": "Количество неправильных/пропущенных вопросов",
+        "reset": "Перезагрузить",
+        "scorePercentage": "Процент очков",
+        "passing": "Прохождение",
+        "failing": "неудачно",
+        "letterGrade": "Буквенная оценка",
+        "gpaValue": "Значение среднего балла",
+        "gradingChart": "Таблица оценок",
+        "missed": "пропущенный",
+        "copyGrade": "Копировать результаты оценок",
+        "copied": "Скопированная оценка"
+      }
+    },
+    "hex-to-rgb": {
+      "title": "Конвертер HEX в RGB",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Конвертер HEX в RGB",
+        "hexColor": "Шестнадцатеричный цветовой код",
+        "opacity": "Непрозрачность (Альфа)",
+        "reset": "Перезагрузить",
+        "rgbFormat": "Формат RGB",
+        "rgbaFormat": "Формат RGBA",
+        "hslFormat": "HSL-формат",
+        "cssVar": "CSS-переменная"
+      }
+    },
+    "rgb-to-hex": {
+      "title": "Конвертер RGB в HEX",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Конвертер RGB в HEX",
+        "red": "Красный (R)",
+        "green": "Зеленый (Г)",
+        "blue": "Синий (Б)",
+        "reset": "Перезагрузить",
+        "hexUpper": "HEX (прописные буквы)",
+        "hexLower": "HEX (строчный регистр)",
+        "rgbString": "RGB-строка",
+        "cssColor": "Цветовой код CSS"
+      }
+    },
+    "color-picker": {
+      "title": "Выбор цвета и инспектор палитры",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Выбор цвета и инспектор палитры",
+        "pickColor": "Выберите любой цвет",
+        "randomColor": "Случайный цвет",
+        "reset": "Перезагрузить",
+        "colorHarmonies": "Цветовые гармонии"
+      }
+    },
+    "color-palette-generator": {
+      "title": "Генератор цветовой палитры",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Генератор цветовой палитры",
+        "instructions": "Нажмите клавишу пробела или нажмите «Создать», чтобы создать новые палитры.",
+        "generateNew": "Создать новый",
+        "exportCss": "Экспортировать CSS",
+        "copiedCss": "Скопированный CSS"
+      }
+    },
+    "contrast-checker": {
+      "title": "Средство проверки соотношения цветовой контрастности (WCAG)",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Средство проверки соотношения цветовой контрастности (WCAG)",
+        "textColor": "Цвет текста/переднего плана",
+        "bgColor": "Цвет фона",
+        "swap": "Менять",
+        "contrastRatio": "Контрастность",
+        "passesAA": "Проходит WCAG AA",
+        "failsAA": "Не проходит WCAG AA",
+        "normalText": "Обычный текст",
+        "largeText": "Крупный текст (18pt+)",
+        "uiComponents": "Компоненты пользовательского интерфейса",
+        "copyResults": "Копировать результаты",
+        "copied": "Скопировано"
+      }
+    },
+    "pin-generator": {
+      "title": "Генератор случайных PIN-кодов",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Генератор случайных PIN-кодов",
+        "pinLength": "Длина PIN-кода",
+        "regenerate": "Регенерировать",
+        "avoidSequences": "Избегайте последовательностей (например, 1234, 4321).",
+        "noRepeats": "Никаких повторяющихся цифр (максимум 10)",
+        "generatedPins": "Сгенерированные PIN-коды",
+        "generateNewPins": "Создать новые PIN-коды",
+        "copyAll": "Копировать все",
+        "copiedAll": "Скопировано все"
+      }
+    },
+    "strong-password-generator": {
+      "title": "Генератор надежных паролей",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Генератор надежных паролей",
+        "regenerate": "Регенерировать",
+        "copy": "Копировать",
+        "copied": "Скопировано",
+        "passwordStrength": "Надежность пароля",
+        "passwordLength": "Длина пароля",
+        "includeUppercase": "Включить верхний регистр (A-Z)",
+        "includeLowercase": "Включить строчные буквы (a-z)",
+        "includeNumbers": "Включить цифры (0–9)",
+        "includeSymbols": "Включить символы (!@#$%)",
+        "excludeAmbiguous": "Исключить неоднозначные символы (например, 0, O, 1, l, I)",
+        "generateBtn": "Создать надежный пароль"
+      }
+    },
+    "bcrypt-generator": {
+      "title": "Генератор и верификатор хеша Bcrypt",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Генератор и верификатор хеша Bcrypt",
+        "generateTitle": "1. Создать хэш Bcrypt",
+        "plaintextPassword": "Открытый текстовый пароль",
+        "costRounds": "Стоимость/раундов",
+        "generateBtn": "Создать хэш Bcrypt",
+        "computing": "Вычисление хеша...",
+        "verifyTitle": "2. Проверьте хеш Bcrypt",
+        "testPassword": "Пароль для проверки",
+        "bcryptHash": "Bcrypt-хеш",
+        "checkMatch": "Проверьте совпадение пароля",
+        "matchSuccess": "Соответствовать! Пароль правильно оценивается в этом хэше bcrypt.",
+        "matchFail": "Несоответствие или неверный хеш! Пароль не соответствует этому хешу."
+      }
+    },
+    "hash-generator": {
+      "title": "Универсальный генератор криптографических хэшей",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Универсальный генератор криптографических хэшей",
+        "inputString": "Введите текст/строку",
+        "clear": "Прозрачный",
+        "copyAll": "Скопировать все хеши"
+      }
+    },
+    "sha512-hash-generator": {
+      "title": "Генератор хэша SHA-512",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Генератор хэша SHA-512",
+        "inputString": "Входная строка",
+        "hmacMode": "Режим HMAC",
+        "hmacKey": "Секретный ключ HMAC",
+        "digestLabel": "Дайджест SHA-512 (128 шестнадцатеричных символов / 512 бит)",
+        "verifyLabel": "Проверьте совпадение контрольной суммы",
+        "copy": "Копировать",
+        "copied": "Скопировано"
+      }
+    },
+    "md5-hash-generator": {
+      "title": "Генератор хэшей MD5",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Генератор хэшей MD5",
+        "inputString": "Входная строка",
+        "digestLabel": "Хэш-дайджест MD5 (32 шестнадцатеричных символа)",
+        "verifyLabel": "Сравните и проверьте контрольную сумму",
+        "copy": "Копировать",
+        "copied": "Скопировано"
+      }
+    },
+    "sha1-hash-generator": {
+      "title": "Генератор хеша SHA-1",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Генератор хеша SHA-1",
+        "inputString": "Входная строка",
+        "digestLabel": "Дайджест SHA-1 (40 шестнадцатеричных символов / 160 бит)",
+        "verifyLabel": "Сравните и проверьте контрольную сумму",
+        "copy": "Копировать",
+        "copied": "Скопировано"
+      }
+    },
+    "sha256-hash-generator": {
+      "title": "Генератор хэшей SHA-256",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Генератор хэшей SHA-256",
+        "inputString": "Входная строка",
+        "digestLabel": "Дайджест SHA-256 (64 шестнадцатеричных символа/256 бит)",
+        "verifyLabel": "Сравните и проверьте контрольную сумму",
+        "copy": "Копировать",
+        "copied": "Скопировано"
+      }
+    },
+    "barcode-generator": {
+      "title": "Генератор штрих-кода",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Генератор штрих-кода",
+        "barcodeData": "Данные/номер штрих-кода",
+        "format": "Стандартный формат",
+        "showText": "Показывать удобочитаемую текстовую метку под штрих-кодом",
+        "downloadSvg": "Скачать SVG",
+        "copySvg": "Скопировать SVG-код",
+        "copiedSvg": "Скопированный код SVG",
+        "reset": "Перезагрузить"
+      }
+    },
+    "markdown-editor": {
+      "title": "Редактор уценки",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Редактор уценки",
+        "edit": "Редактировать",
+        "split": "Расколоть",
+        "preview": "Предварительный просмотр",
+        "exportMd": "Экспорт .md",
+        "copy": "Копировать",
+        "copied": "Скопировано",
+        "words": "слова",
+        "characters": "персонажи",
+        "minRead": "минута чтения"
+      }
+    },
+    "text-case-converter": {
+      "title": "Конвертер регистра текста",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Конвертер регистра текста",
+        "originalText": "Исходный текст",
+        "clear": "Прозрачный",
+        "copy": "Копировать",
+        "copied": "Скопировано",
+        "words": "слова",
+        "characters": "персонажи"
+      }
+    },
+    "morse-code-translator": {
+      "title": "Переводчик азбуки Морзе",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Переводчик азбуки Морзе",
+        "switchDirection": "Переключение направления",
+        "clear": "Прозрачный",
+        "textInput": "Обычный текстовый ввод",
+        "morseInput": "Ввод азбуки Морзе (точки «.» и тире «-»)",
+        "morseOutput": "Вывод кода Морзе",
+        "textOutput": "Обычный текстовый перевод",
+        "playAudio": "Воспроизвести аудио Морзе",
+        "playing": "Воспроизведение звуковых сигналов...",
+        "copy": "Копировать",
+        "copied": "Скопировано"
+      }
+    },
+    "flip-a-coin": {
+      "title": "Подбросить монету",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Подбросить монету",
+        "resetStats": "Сбросить статистику",
+        "heads": "ГОЛОВЫ",
+        "tails": "ХВОСТКИ",
+        "flipping": "Перелистывая воздух...",
+        "flipCoin": "Подбросить монету",
+        "totalFlips": "Всего флипов"
+      }
+    },
+    "roll-a-die": {
+      "title": "Интерактивный ролик для игры в кости",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Интерактивный ролик для игры в кости",
+        "diceCount": "Количество кубиков",
+        "dieType": "Тип штампа (стороны)",
+        "totalSum": "Общая сумма бросков",
+        "rollDice": "Бросить кости",
+        "rolling": "Роллинг..."
+      }
+    },
+    "spin-the-wheel": {
+      "title": "Вращайте колесо решения",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Вращайте колесо решения",
+        "spinBtn": "ВРАЩАЙТЕ КОЛЕСО",
+        "spinning": "Вращение...",
+        "winner": "У нас есть победитель!",
+        "wheelSlices": "Срезы колес",
+        "addChoice": "Добавить выбор..."
+      }
+    },
+    "yes-or-no-wheel": {
+      "title": "Решение «Да» или «Нет»",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Решение «Да» или «Нет»",
+        "includeMaybe": "Включите «Может быть»",
+        "deciding": "Решая свою судьбу...",
+        "spinBtn": "ВРАЩАЙТЕ КОЛЕСО",
+        "spinning": "Вращение...",
+        "yesCount": "ДА Количество",
+        "noCount": "НЕТ"
+      }
+    },
+    "truth-or-dare-generator": {
+      "title": "Генератор «Правда или действие»",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Генератор «Правда или действие»",
+        "randomChoice": "Случайный выбор",
+        "truth": "ПРАВДА",
+        "dare": "ДЕЙР",
+        "copy": "Копировать подсказку",
+        "copied": "Скопировано"
+      }
     }
   },
   "Search": {

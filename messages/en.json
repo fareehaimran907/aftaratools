@@ -1622,6 +1622,380 @@
         "howItWorksTitle": "How it works:",
         "howItWorksDescription": "This tool implements a speed-reading technique by highlighting the initial letters of words. This guides your eyes across the text and your brain completes the word, allowing you to read faster and with more focus."
       }
+    },
+    "basic-calculator": {
+      "title": "Basic Calculator",
+      "description": "Free online Basic Calculator tool.",
+      "ui": {
+        "title": "Basic Calculator",
+        "copy": "Copy",
+        "copied": "Copied",
+        "errorDivZero": "Error: Div by 0"
+      }
+    },
+    "scientific-calculator": {
+      "title": "Scientific Calculator",
+      "description": "Free online Scientific Calculator tool.",
+      "ui": {
+        "title": "Scientific Calculator",
+        "degrees": "DEG",
+        "radians": "RAD",
+        "copy": "Copy",
+        "copied": "Copied"
+      }
+    },
+    "percentage-change-calculator": {
+      "title": "Percentage Change Calculator",
+      "description": "Free online Percentage Change Calculator tool.",
+      "ui": {
+        "title": "Percentage Change Calculator",
+        "initialValue": "Initial Value (V₁)",
+        "finalValue": "Final Value (V₂)",
+        "reset": "Reset",
+        "increase": "Increase",
+        "decrease": "Decrease",
+        "noChange": "No Change",
+        "absDiff": "Absolute Difference",
+        "multiplier": "Multiplier",
+        "copyResults": "Copy Results",
+        "copied": "Copied Calculation"
+      }
+    },
+    "percentage-difference-calculator": {
+      "title": "Percentage Difference Calculator",
+      "description": "Free online Percentage Difference Calculator tool.",
+      "ui": {
+        "title": "Percentage Difference Calculator",
+        "valueA": "First Value (A)",
+        "valueB": "Second Value (B)",
+        "reset": "Reset",
+        "percentDiff": "Percentage Difference",
+        "absDiff": "Absolute Difference (|A - B|)",
+        "average": "Average ((A + B) / 2)",
+        "copyResults": "Copy Results",
+        "copied": "Copied"
+      }
+    },
+    "test-grade-calculator": {
+      "title": "Test Grade Calculator",
+      "description": "Free online Test Grade Calculator tool.",
+      "ui": {
+        "title": "Test Grade Calculator",
+        "totalQuestions": "Total Number of Questions",
+        "wrongQuestions": "Number of Wrong / Missed Questions",
+        "reset": "Reset",
+        "scorePercentage": "Score Percentage",
+        "passing": "Passing",
+        "failing": "Failing",
+        "letterGrade": "Letter Grade",
+        "gpaValue": "GPA Value",
+        "gradingChart": "Grading Chart",
+        "missed": "missed",
+        "copyGrade": "Copy Grade Results",
+        "copied": "Copied Grade"
+      }
+    },
+    "hex-to-rgb": {
+      "title": "HEX to RGB Converter",
+      "description": "Free online HEX to RGB Converter tool.",
+      "ui": {
+        "title": "HEX to RGB Converter",
+        "hexColor": "HEX Color Code",
+        "opacity": "Opacity (Alpha)",
+        "reset": "Reset",
+        "rgbFormat": "RGB Format",
+        "rgbaFormat": "RGBA Format",
+        "hslFormat": "HSL Format",
+        "cssVar": "CSS Variable"
+      }
+    },
+    "rgb-to-hex": {
+      "title": "RGB to HEX Converter",
+      "description": "Free online RGB to HEX Converter tool.",
+      "ui": {
+        "title": "RGB to HEX Converter",
+        "red": "Red (R)",
+        "green": "Green (G)",
+        "blue": "Blue (B)",
+        "reset": "Reset",
+        "hexUpper": "HEX (Uppercase)",
+        "hexLower": "HEX (Lowercase)",
+        "rgbString": "RGB String",
+        "cssColor": "CSS Color Code"
+      }
+    },
+    "color-picker": {
+      "title": "Color Picker & Palette Inspector",
+      "description": "Free online Color Picker & Palette Inspector tool.",
+      "ui": {
+        "title": "Color Picker & Palette Inspector",
+        "pickColor": "Pick Any Color",
+        "randomColor": "Random Color",
+        "reset": "Reset",
+        "colorHarmonies": "Color Harmonies"
+      }
+    },
+    "color-palette-generator": {
+      "title": "Color Palette Generator",
+      "description": "Free online Color Palette Generator tool.",
+      "ui": {
+        "title": "Color Palette Generator",
+        "instructions": "Press Spacebar or click Generate to create fresh palettes.",
+        "generateNew": "Generate New",
+        "exportCss": "Export CSS",
+        "copiedCss": "Copied CSS"
+      }
+    },
+    "contrast-checker": {
+      "title": "Color Contrast Ratio Checker (WCAG)",
+      "description": "Free online Color Contrast Ratio Checker (WCAG) tool.",
+      "ui": {
+        "title": "Color Contrast Ratio Checker (WCAG)",
+        "textColor": "Text / Foreground Color",
+        "bgColor": "Background Color",
+        "swap": "Swap",
+        "contrastRatio": "Contrast Ratio",
+        "passesAA": "Passes WCAG AA",
+        "failsAA": "Fails WCAG AA",
+        "normalText": "Normal Text",
+        "largeText": "Large Text (18pt+)",
+        "uiComponents": "UI Components",
+        "copyResults": "Copy Results",
+        "copied": "Copied"
+      }
+    },
+    "pin-generator": {
+      "title": "Random PIN Generator",
+      "description": "Free online Random PIN Generator tool.",
+      "ui": {
+        "title": "Random PIN Generator",
+        "pinLength": "PIN Length",
+        "regenerate": "Regenerate",
+        "avoidSequences": "Avoid sequences (e.g. 1234, 4321)",
+        "noRepeats": "No repeated digits (max 10)",
+        "generatedPins": "Generated PIN Codes",
+        "generateNewPins": "Generate New PINs",
+        "copyAll": "Copy All",
+        "copiedAll": "Copied All"
+      }
+    },
+    "strong-password-generator": {
+      "title": "Strong Password Generator",
+      "description": "Free online Strong Password Generator tool.",
+      "ui": {
+        "title": "Strong Password Generator",
+        "regenerate": "Regenerate",
+        "copy": "Copy",
+        "copied": "Copied",
+        "passwordStrength": "Password Strength",
+        "passwordLength": "Password Length",
+        "includeUppercase": "Include Uppercase (A-Z)",
+        "includeLowercase": "Include Lowercase (a-z)",
+        "includeNumbers": "Include Numbers (0-9)",
+        "includeSymbols": "Include Symbols (!@#$%)",
+        "excludeAmbiguous": "Exclude Ambiguous Characters (e.g. 0, O, 1, l, I)",
+        "generateBtn": "Generate Strong Password"
+      }
+    },
+    "bcrypt-generator": {
+      "title": "Bcrypt Hash Generator & Verifier",
+      "description": "Free online Bcrypt Hash Generator & Verifier tool.",
+      "ui": {
+        "title": "Bcrypt Hash Generator & Verifier",
+        "generateTitle": "1. Generate Bcrypt Hash",
+        "plaintextPassword": "Plaintext Password",
+        "costRounds": "Cost / Rounds",
+        "generateBtn": "Generate Bcrypt Hash",
+        "computing": "Computing Hash...",
+        "verifyTitle": "2. Verify Bcrypt Hash",
+        "testPassword": "Password to Test",
+        "bcryptHash": "Bcrypt Hash",
+        "checkMatch": "Check Password Match",
+        "matchSuccess": "Match! The password correctly evaluates to this bcrypt hash.",
+        "matchFail": "Mismatch or Invalid Hash! The password does not match this hash."
+      }
+    },
+    "hash-generator": {
+      "title": "All-in-One Cryptographic Hash Generator",
+      "description": "Free online All-in-One Cryptographic Hash Generator tool.",
+      "ui": {
+        "title": "All-in-One Cryptographic Hash Generator",
+        "inputString": "Input Text / String",
+        "clear": "Clear",
+        "copyAll": "Copy All Hashes"
+      }
+    },
+    "sha512-hash-generator": {
+      "title": "SHA-512 Hash Generator",
+      "description": "Free online SHA-512 Hash Generator tool.",
+      "ui": {
+        "title": "SHA-512 Hash Generator",
+        "inputString": "Input String",
+        "hmacMode": "HMAC Mode",
+        "hmacKey": "HMAC Secret Key",
+        "digestLabel": "SHA-512 Digest (128 Hex Characters / 512 Bits)",
+        "verifyLabel": "Verify Checksum Match",
+        "copy": "Copy",
+        "copied": "Copied"
+      }
+    },
+    "md5-hash-generator": {
+      "title": "MD5 Hash Generator",
+      "description": "Free online MD5 Hash Generator tool.",
+      "ui": {
+        "title": "MD5 Hash Generator",
+        "inputString": "Input String",
+        "digestLabel": "MD5 Hash Digest (32 Hex Characters)",
+        "verifyLabel": "Compare & Verify Checksum",
+        "copy": "Copy",
+        "copied": "Copied"
+      }
+    },
+    "sha1-hash-generator": {
+      "title": "SHA-1 Hash Generator",
+      "description": "Free online SHA-1 Hash Generator tool.",
+      "ui": {
+        "title": "SHA-1 Hash Generator",
+        "inputString": "Input String",
+        "digestLabel": "SHA-1 Digest (40 Hex Characters / 160 Bits)",
+        "verifyLabel": "Compare & Verify Checksum",
+        "copy": "Copy",
+        "copied": "Copied"
+      }
+    },
+    "sha256-hash-generator": {
+      "title": "SHA-256 Hash Generator",
+      "description": "Free online SHA-256 Hash Generator tool.",
+      "ui": {
+        "title": "SHA-256 Hash Generator",
+        "inputString": "Input String",
+        "digestLabel": "SHA-256 Digest (64 Hex Characters / 256 Bits)",
+        "verifyLabel": "Compare & Verify Checksum",
+        "copy": "Copy",
+        "copied": "Copied"
+      }
+    },
+    "barcode-generator": {
+      "title": "Barcode Generator",
+      "description": "Free online Barcode Generator tool.",
+      "ui": {
+        "title": "Barcode Generator",
+        "barcodeData": "Barcode Data / Number",
+        "format": "Standard Format",
+        "showText": "Show human-readable text label underneath barcode",
+        "downloadSvg": "Download SVG",
+        "copySvg": "Copy SVG Code",
+        "copiedSvg": "Copied SVG Code",
+        "reset": "Reset"
+      }
+    },
+    "markdown-editor": {
+      "title": "Markdown Editor",
+      "description": "Free online Markdown Editor tool.",
+      "ui": {
+        "title": "Markdown Editor",
+        "edit": "Edit",
+        "split": "Split",
+        "preview": "Preview",
+        "exportMd": "Export .md",
+        "copy": "Copy",
+        "copied": "Copied",
+        "words": "words",
+        "characters": "characters",
+        "minRead": "min read"
+      }
+    },
+    "text-case-converter": {
+      "title": "Text Case Converter",
+      "description": "Free online Text Case Converter tool.",
+      "ui": {
+        "title": "Text Case Converter",
+        "originalText": "Original Text",
+        "clear": "Clear",
+        "copy": "Copy",
+        "copied": "Copied",
+        "words": "words",
+        "characters": "characters"
+      }
+    },
+    "morse-code-translator": {
+      "title": "Morse Code Translator",
+      "description": "Free online Morse Code Translator tool.",
+      "ui": {
+        "title": "Morse Code Translator",
+        "switchDirection": "Switch Direction",
+        "clear": "Clear",
+        "textInput": "Plain Text Input",
+        "morseInput": "Morse Code Input (Dots '.' and Dashes '-')",
+        "morseOutput": "Morse Code Output",
+        "textOutput": "Plain Text Translation",
+        "playAudio": "Play Morse Audio",
+        "playing": "Playing Beeps...",
+        "copy": "Copy",
+        "copied": "Copied"
+      }
+    },
+    "flip-a-coin": {
+      "title": "Flip a Coin",
+      "description": "Free online Flip a Coin tool.",
+      "ui": {
+        "title": "Flip a Coin",
+        "resetStats": "Reset Stats",
+        "heads": "HEADS",
+        "tails": "TAILS",
+        "flipping": "Flipping through the air...",
+        "flipCoin": "Flip Coin",
+        "totalFlips": "Total Flips"
+      }
+    },
+    "roll-a-die": {
+      "title": "Interactive Dice Roller",
+      "description": "Free online Interactive Dice Roller tool.",
+      "ui": {
+        "title": "Interactive Dice Roller",
+        "diceCount": "Number of Dice",
+        "dieType": "Die Type (Sides)",
+        "totalSum": "Total Roll Sum",
+        "rollDice": "Roll Dice",
+        "rolling": "Rolling..."
+      }
+    },
+    "spin-the-wheel": {
+      "title": "Spin the Wheel Decider",
+      "description": "Free online Spin the Wheel Decider tool.",
+      "ui": {
+        "title": "Spin the Wheel Decider",
+        "spinBtn": "SPIN THE WHEEL",
+        "spinning": "Spinning...",
+        "winner": "We have a winner!",
+        "wheelSlices": "Wheel Slices",
+        "addChoice": "Add choice..."
+      }
+    },
+    "yes-or-no-wheel": {
+      "title": "Yes or No Wheel Decider",
+      "description": "Free online Yes or No Wheel Decider tool.",
+      "ui": {
+        "title": "Yes or No Wheel Decider",
+        "includeMaybe": "Include \"Maybe\"",
+        "deciding": "Deciding your fate...",
+        "spinBtn": "SPIN THE WHEEL",
+        "spinning": "Spinning...",
+        "yesCount": "YES Count",
+        "noCount": "NO Count"
+      }
+    },
+    "truth-or-dare-generator": {
+      "title": "Truth or Dare Generator",
+      "description": "Free online Truth or Dare Generator tool.",
+      "ui": {
+        "title": "Truth or Dare Generator",
+        "randomChoice": "Random Choice",
+        "truth": "TRUTH",
+        "dare": "DARE",
+        "copy": "Copy Prompt",
+        "copied": "Copied"
+      }
     }
   },
   "Search": {

@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState, useId } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Copy, Check, Barcode, Download, RefreshCw, Printer } from "lucide-react";
 
 export function BarcodeGenerator() {
+  const t = useTranslations("Tools.barcode-generator.ui");
   const [value, setValue] = useState("123456789012");
   const [barcodeType, setBarcodeType] = useState("CODE128");
   const [includeText, setIncludeText] = useState(true);
@@ -57,7 +60,7 @@ export function BarcodeGenerator() {
       <div className="flex items-center justify-between pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Barcode className="w-5 h-5" />
-          <span>Barcode Generator</span>
+          <span>{t("title")}</span>
         </div>
         <Button
           variant="ghost"
@@ -66,14 +69,14 @@ export function BarcodeGenerator() {
           className="h-8 text-xs text-muted-foreground"
         >
           <RefreshCw className="w-3.5 h-3.5 mr-1" />
-          Reset
+          {t("reset")}
         </Button>
       </div>
 
       {/* Input Controls */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div className="sm:col-span-2 space-y-2">
-          <label className="text-sm font-medium text-muted-foreground">Barcode Data / Number</label>
+          <label className="text-sm font-medium text-muted-foreground">{t("barcodeData")}</label>
           <Input
             type="text"
             value={value}
@@ -84,7 +87,7 @@ export function BarcodeGenerator() {
         </div>
 
         <div className="space-y-2">
-          <label className="text-sm font-medium text-muted-foreground">Standard Format</label>
+          <label className="text-sm font-medium text-muted-foreground">{t("format")}</label>
           <select
             value={barcodeType}
             onChange={(e) => setBarcodeType(e.target.value)}
@@ -106,7 +109,7 @@ export function BarcodeGenerator() {
             onChange={(e) => setIncludeText(e.target.checked)}
             className="rounded border-border text-primary"
           />
-          <span>Show human-readable text label underneath barcode</span>
+          <span>{t("showText")}</span>
         </label>
       </div>
 
@@ -158,7 +161,7 @@ export function BarcodeGenerator() {
       <div className="flex flex-col sm:flex-row gap-3">
         <Button onClick={downloadSvg} disabled={!value.trim()} className="flex-1 h-11 font-semibold">
           <Download className="w-4 h-4 mr-2" />
-          Download SVG
+          {t("downloadSvg")}
         </Button>
         <Button
           variant="outline"
@@ -167,7 +170,7 @@ export function BarcodeGenerator() {
           className="flex-1 h-11 font-semibold"
         >
           {copied ? <Check className="w-4 h-4 text-emerald-500 mr-2" /> : <Copy className="w-4 h-4 mr-2" />}
-          {copied ? "Copied SVG Code" : "Copy SVG Code"}
+          {copied ? t("copiedSvg") : t("copySvg")}
         </Button>
       </div>
     </div>

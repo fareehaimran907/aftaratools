@@ -1,10 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Dices, RefreshCw } from "lucide-react";
 
 export function RollADie() {
+  const t = useTranslations("Tools.roll-a-die.ui");
   const [diceCount, setDiceCount] = useState(2);
   const [sides, setSides] = useState(6);
   const [values, setValues] = useState<number[]>([3, 5]);
@@ -64,7 +67,7 @@ export function RollADie() {
       <div className="flex items-center justify-between pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Dices className="w-5 h-5" />
-          <span>Interactive Dice Roller</span>
+          <span>{t("title")}</span>
         </div>
       </div>
 
@@ -72,7 +75,7 @@ export function RollADie() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div className="space-y-2">
           <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block">
-            Number of Dice ({diceCount})
+            {t("diceCount")} ({diceCount})
           </label>
           <div className="flex gap-1.5">
             {[1, 2, 3, 4, 5, 6].map((cnt) => (
@@ -94,7 +97,7 @@ export function RollADie() {
 
         <div className="space-y-2">
           <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block">
-            Die Type (Sides)
+            {t("dieType")}
           </label>
           <div className="flex gap-1.5">
             {[6, 4, 8, 10, 12, 20].map((s) => (
@@ -139,7 +142,7 @@ export function RollADie() {
       {/* Sum & Roll Button */}
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4 p-4 bg-muted/40 rounded-2xl border border-border">
         <div>
-          <span className="text-xs text-muted-foreground uppercase font-bold block">Total Roll Sum</span>
+          <span className="text-xs text-muted-foreground uppercase font-bold block">{t("totalSum")}</span>
           <span className="text-3xl font-black font-mono text-foreground">{totalSum}</span>
           <span className="text-xs text-muted-foreground ml-2">
             ({values.join(" + ")})
@@ -152,7 +155,7 @@ export function RollADie() {
           className="w-full sm:w-auto px-8 h-12 font-bold text-base bg-primary"
         >
           <RefreshCw className={`w-4 h-4 mr-2 ${isRolling ? "animate-spin" : ""}`} />
-          {isRolling ? "Rolling..." : "Roll Dice"}
+          {isRolling ? t("rolling") : t("rollDice")}
         </Button>
       </div>
     </div>

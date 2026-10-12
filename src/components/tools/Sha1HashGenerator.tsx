@@ -1,5 +1,7 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -7,6 +9,7 @@ import { Copy, Check, Hash, CheckCircle2, XCircle } from "lucide-react";
 import CryptoJS from "crypto-js";
 
 export function Sha1HashGenerator() {
+  const t = useTranslations("Tools.sha1-hash-generator.ui");
   const [input, setInput] = useState("The quick brown fox jumps over the lazy dog");
   const [uppercase, setUppercase] = useState(false);
   const [copied, setCopied] = useState(false);
@@ -34,7 +37,7 @@ export function Sha1HashGenerator() {
       <div className="flex items-center justify-between pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Hash className="w-5 h-5" />
-          <span>SHA-1 Hash Generator</span>
+          <span>{t("title")}</span>
         </div>
         <Button
           variant="outline"
@@ -47,7 +50,7 @@ export function Sha1HashGenerator() {
       </div>
 
       <div className="space-y-2">
-        <label className="text-sm font-medium text-muted-foreground">Input String</label>
+        <label className="text-sm font-medium text-muted-foreground">{t("inputString")}</label>
         <textarea
           rows={3}
           value={input}
@@ -59,7 +62,7 @@ export function Sha1HashGenerator() {
 
       <div className="p-4 sm:p-5 bg-muted/40 border border-border rounded-2xl relative group">
         <span className="text-xs text-muted-foreground font-semibold uppercase tracking-wider block mb-1">
-          SHA-1 Digest (40 Hex Characters / 160 Bits)
+          {t("digestLabel")}
         </span>
         <div className="font-mono text-sm sm:text-base font-bold text-foreground break-all pr-12 select-all">
           {hash || "—"}
@@ -71,13 +74,13 @@ export function Sha1HashGenerator() {
           className="absolute right-3 top-1/2 -translate-y-1/2 h-9 px-3 text-xs"
         >
           {copied ? <Check className="w-4 h-4 text-emerald-400 mr-1" /> : <Copy className="w-4 h-4 mr-1" />}
-          {copied ? "Copied" : "Copy"}
+          {copied ? t("copied") : t("copy")}
         </Button>
       </div>
 
       <div className="pt-4 border-t border-border/60 space-y-3">
         <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block">
-          Compare & Verify Checksum
+          {t("verifyLabel")}
         </label>
         <Input
           type="text"

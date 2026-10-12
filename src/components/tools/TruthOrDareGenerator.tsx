@@ -1,5 +1,7 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sparkles, HelpCircle, Flame, RefreshCw, Copy, Check } from "lucide-react";
@@ -35,6 +37,7 @@ const DARES = [
 ];
 
 export function TruthOrDareGenerator() {
+  const t = useTranslations("Tools.truth-or-dare-generator.ui");
   const [currentPrompt, setCurrentPrompt] = useState<string>(
     "Choose TRUTH or DARE to start the game!"
   );
@@ -69,11 +72,11 @@ export function TruthOrDareGenerator() {
       <div className="flex items-center justify-between pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Sparkles className="w-5 h-5 text-amber-500" />
-          <span>Truth or Dare Generator</span>
+          <span>{t("title")}</span>
         </div>
         <Button variant="ghost" size="sm" onClick={getRandom} className="h-8 text-xs text-muted-foreground">
           <RefreshCw className="w-3.5 h-3.5 mr-1" />
-          Random Choice
+          {t("randomChoice")}
         </Button>
       </div>
 
@@ -84,7 +87,7 @@ export function TruthOrDareGenerator() {
           className="h-16 text-lg sm:text-xl font-black bg-blue-600 hover:bg-blue-500 text-white rounded-2xl shadow-lg shadow-blue-500/20 active:scale-95 transition-transform"
         >
           <HelpCircle className="w-6 h-6 mr-2" />
-          TRUTH
+          {t("truth")}
         </Button>
 
         <Button
@@ -92,7 +95,7 @@ export function TruthOrDareGenerator() {
           className="h-16 text-lg sm:text-xl font-black bg-rose-600 hover:bg-rose-500 text-white rounded-2xl shadow-lg shadow-rose-500/20 active:scale-95 transition-transform"
         >
           <Flame className="w-6 h-6 mr-2" />
-          DARE
+          {t("dare")}
         </Button>
       </div>
 
@@ -128,7 +131,7 @@ export function TruthOrDareGenerator() {
             className="mt-4 text-xs text-muted-foreground hover:text-foreground"
           >
             {copied ? <Check className="w-3.5 h-3.5 text-emerald-500 mr-1" /> : <Copy className="w-3.5 h-3.5 mr-1" />}
-            {copied ? "Copied" : "Copy Prompt"}
+            {copied ? t("copied") : t("copy")}
           </Button>
         )}
       </div>

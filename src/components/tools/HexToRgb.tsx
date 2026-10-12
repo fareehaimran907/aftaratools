@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Copy, Check, RotateCcw, Palette, Sparkles } from "lucide-react";
 
 export function HexToRgb() {
+  const t = useTranslations("Tools.hex-to-rgb.ui");
   const [hex, setHex] = useState("#3B82F6");
   const [alpha, setAlpha] = useState("100");
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
@@ -62,7 +65,7 @@ export function HexToRgb() {
       <div className="flex items-center justify-between mb-6 pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Palette className="w-5 h-5" />
-          <span>HEX to RGB Converter</span>
+          <span>{t("title")}</span>
         </div>
         <Button
           variant="ghost"
@@ -71,14 +74,14 @@ export function HexToRgb() {
           className="h-8 text-xs text-muted-foreground"
         >
           <RotateCcw className="w-3.5 h-3.5 mr-1" />
-          Reset
+          {t("reset")}
         </Button>
       </div>
 
       {/* Input controls */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
         <div className="sm:col-span-2 space-y-2">
-          <label className="text-sm font-medium text-muted-foreground">HEX Color Code</label>
+          <label className="text-sm font-medium text-muted-foreground">{t("hexColor")}</label>
           <div className="flex gap-2">
             <Input
               type="text"
@@ -98,7 +101,7 @@ export function HexToRgb() {
 
         <div className="space-y-2">
           <div className="flex justify-between items-center text-sm font-medium text-muted-foreground">
-            <label>Opacity (Alpha)</label>
+            <label>{t("opacity")}</label>
             <span className="font-mono">{alpha}%</span>
           </div>
           <input
@@ -130,7 +133,7 @@ export function HexToRgb() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl flex items-center justify-between">
               <div>
-                <span className="text-xs text-muted-foreground font-semibold uppercase block">RGB Format</span>
+                <span className="text-xs text-muted-foreground font-semibold uppercase block">{t("rgbFormat")}</span>
                 <span className="font-mono font-bold text-foreground text-sm">{rgbString}</span>
               </div>
               <Button variant="ghost" size="sm" onClick={() => copy(rgbString, "rgb")} className="h-8 px-2 text-xs">
@@ -140,7 +143,7 @@ export function HexToRgb() {
 
             <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl flex items-center justify-between">
               <div>
-                <span className="text-xs text-muted-foreground font-semibold uppercase block">RGBA Format</span>
+                <span className="text-xs text-muted-foreground font-semibold uppercase block">{t("rgbaFormat")}</span>
                 <span className="font-mono font-bold text-foreground text-sm">{rgbaString}</span>
               </div>
               <Button variant="ghost" size="sm" onClick={() => copy(rgbaString, "rgba")} className="h-8 px-2 text-xs">
@@ -150,7 +153,7 @@ export function HexToRgb() {
 
             <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl flex items-center justify-between">
               <div>
-                <span className="text-xs text-muted-foreground font-semibold uppercase block">HSL Format</span>
+                <span className="text-xs text-muted-foreground font-semibold uppercase block">{t("hslFormat")}</span>
                 <span className="font-mono font-bold text-foreground text-sm">{hslString}</span>
               </div>
               <Button variant="ghost" size="sm" onClick={() => copy(hslString, "hsl")} className="h-8 px-2 text-xs">
@@ -160,7 +163,7 @@ export function HexToRgb() {
 
             <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl flex items-center justify-between">
               <div>
-                <span className="text-xs text-muted-foreground font-semibold uppercase block">CSS Variable</span>
+                <span className="text-xs text-muted-foreground font-semibold uppercase block">{t("cssVar")}</span>
                 <span className="font-mono font-bold text-foreground text-sm">--color: {r}, {g}, {b};</span>
               </div>
               <Button variant="ghost" size="sm" onClick={() => copy(`--color: ${r}, ${g}, ${b};`, "css")} className="h-8 px-2 text-xs">

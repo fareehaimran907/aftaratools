@@ -1,10 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Copy, Check, RotateCcw, Delete } from "lucide-react";
 
 export function ScientificCalculator() {
+  const t = useTranslations("Tools.scientific-calculator.ui");
   const [expression, setExpression] = useState("");
   const [display, setDisplay] = useState("0");
   const [isRad, setIsRad] = useState(false);
@@ -134,7 +137,7 @@ export function ScientificCalculator() {
             onClick={() => setIsRad(false)}
             className="text-xs h-7 px-3 font-semibold"
           >
-            DEG
+            {t("degrees")}
           </Button>
           <Button
             variant={isRad ? "default" : "outline"}
@@ -142,7 +145,7 @@ export function ScientificCalculator() {
             onClick={() => setIsRad(true)}
             className="text-xs h-7 px-3 font-semibold"
           >
-            RAD
+            {t("radians")}
           </Button>
         </div>
 
@@ -154,7 +157,7 @@ export function ScientificCalculator() {
             className="h-8 px-2 text-muted-foreground hover:text-foreground text-xs"
           >
             {copied ? <Check className="w-3.5 h-3.5 text-emerald-500 mr-1" /> : <Copy className="w-3.5 h-3.5 mr-1" />}
-            {copied ? "Copied" : "Copy"}
+            {copied ? t("copied") : t("copy")}
           </Button>
         </div>
       </div>

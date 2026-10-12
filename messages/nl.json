@@ -1718,6 +1718,380 @@
         "howItWorksTitle": "Hoe het werkt:",
         "howItWorksDescription": "Deze tool past een snelleestechniek toe door de beginletters van woorden te markeren. Dit leidt uw ogen door de tekst en uw hersenen vullen het woord aan, waardoor u sneller en met meer focus kunt lezen."
       }
+    },
+    "basic-calculator": {
+      "title": "Basis rekenmachine",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Basis rekenmachine",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd",
+        "errorDivZero": "Fout: div door 0"
+      }
+    },
+    "scientific-calculator": {
+      "title": "Wetenschappelijke rekenmachine",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Wetenschappelijke rekenmachine",
+        "degrees": "GR",
+        "radians": "RAD",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd"
+      }
+    },
+    "percentage-change-calculator": {
+      "title": "Berekening van procentuele verandering",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Berekening van procentuele verandering",
+        "initialValue": "Beginwaarde (V₁)",
+        "finalValue": "Eindwaarde (V₂)",
+        "reset": "Opnieuw instellen",
+        "increase": "Toename",
+        "decrease": "Afname",
+        "noChange": "Geen verandering",
+        "absDiff": "Absoluut verschil",
+        "multiplier": "Vermenigvuldiger",
+        "copyResults": "Kopieer resultaten",
+        "copied": "Gekopieerde berekening"
+      }
+    },
+    "percentage-difference-calculator": {
+      "title": "Percentage verschilcalculator",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Percentage verschilcalculator",
+        "valueA": "Eerste waarde (A)",
+        "valueB": "Tweede waarde (B)",
+        "reset": "Opnieuw instellen",
+        "percentDiff": "Procentueel verschil",
+        "absDiff": "Absoluut verschil (|A - B|)",
+        "average": "Gemiddeld ((A + B) / 2)",
+        "copyResults": "Kopieer resultaten",
+        "copied": "Gekopieerd"
+      }
+    },
+    "test-grade-calculator": {
+      "title": "Testcijfercalculator",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Testcijfercalculator",
+        "totalQuestions": "Totaal aantal vragen",
+        "wrongQuestions": "Aantal verkeerde/gemiste vragen",
+        "reset": "Opnieuw instellen",
+        "scorePercentage": "Scorepercentage",
+        "passing": "Passeren",
+        "failing": "Bij gebreke",
+        "letterGrade": "Brief cijfer",
+        "gpaValue": "GPA-waarde",
+        "gradingChart": "Beoordelingstabel",
+        "missed": "gemist",
+        "copyGrade": "Cijferresultaten kopiëren",
+        "copied": "Gekopieerd cijfer"
+      }
+    },
+    "hex-to-rgb": {
+      "title": "HEX naar RGB-converter",
+      "description": "Online tool.",
+      "ui": {
+        "title": "HEX naar RGB-converter",
+        "hexColor": "HEX-kleurcode",
+        "opacity": "Dekking (alfa)",
+        "reset": "Opnieuw instellen",
+        "rgbFormat": "RGB-formaat",
+        "rgbaFormat": "RGBA-formaat",
+        "hslFormat": "HSL-formaat",
+        "cssVar": "CSS-variabele"
+      }
+    },
+    "rgb-to-hex": {
+      "title": "RGB naar HEX-converter",
+      "description": "Online tool.",
+      "ui": {
+        "title": "RGB naar HEX-converter",
+        "red": "Rood (R)",
+        "green": "Groen (G)",
+        "blue": "Blauw (B)",
+        "reset": "Opnieuw instellen",
+        "hexUpper": "HEX (hoofdletters)",
+        "hexLower": "HEX (kleine letters)",
+        "rgbString": "RGB-reeks",
+        "cssColor": "CSS-kleurcode"
+      }
+    },
+    "color-picker": {
+      "title": "Kleurenkiezer en paletinspecteur",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Kleurenkiezer en paletinspecteur",
+        "pickColor": "Kies elke kleur",
+        "randomColor": "Willekeurige kleur",
+        "reset": "Opnieuw instellen",
+        "colorHarmonies": "Kleurharmonieën"
+      }
+    },
+    "color-palette-generator": {
+      "title": "Kleurenpaletgenerator",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Kleurenpaletgenerator",
+        "instructions": "Druk op de spatiebalk of klik op Genereren om nieuwe paletten te maken.",
+        "generateNew": "Nieuw genereren",
+        "exportCss": "CSS exporteren",
+        "copiedCss": "Gekopieerde CSS"
+      }
+    },
+    "contrast-checker": {
+      "title": "Kleurcontrastverhoudingscontrole (WCAG)",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Kleurcontrastverhoudingscontrole (WCAG)",
+        "textColor": "Tekst/voorgrondkleur",
+        "bgColor": "Achtergrondkleur",
+        "swap": "Ruil",
+        "contrastRatio": "Contrastverhouding",
+        "passesAA": "Voldoet aan WCAG AA",
+        "failsAA": "Mislukt WCAG AA",
+        "normalText": "Normale tekst",
+        "largeText": "Grote tekst (18pt+)",
+        "uiComponents": "UI-componenten",
+        "copyResults": "Kopieer resultaten",
+        "copied": "Gekopieerd"
+      }
+    },
+    "pin-generator": {
+      "title": "Willekeurige pincodegenerator",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Willekeurige pincodegenerator",
+        "pinLength": "PIN-lengte",
+        "regenerate": "Regenereer",
+        "avoidSequences": "Vermijd reeksen (bijvoorbeeld 1234, 4321)",
+        "noRepeats": "Geen herhaalde cijfers (max. 10)",
+        "generatedPins": "Gegenereerde pincodes",
+        "generateNewPins": "Genereer nieuwe pincodes",
+        "copyAll": "Kopieer alles",
+        "copiedAll": "Alles gekopieerd"
+      }
+    },
+    "strong-password-generator": {
+      "title": "Sterke wachtwoordgenerator",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Sterke wachtwoordgenerator",
+        "regenerate": "Regenereer",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd",
+        "passwordStrength": "Wachtwoordsterkte",
+        "passwordLength": "Wachtwoordlengte",
+        "includeUppercase": "Inclusief hoofdletters (A-Z)",
+        "includeLowercase": "Inclusief kleine letters (a-z)",
+        "includeNumbers": "Inclusief cijfers (0-9)",
+        "includeSymbols": "Symbolen opnemen (!@#$%)",
+        "excludeAmbiguous": "Sluit dubbelzinnige tekens uit (bijvoorbeeld 0, O, 1, l, I)",
+        "generateBtn": "Genereer een sterk wachtwoord"
+      }
+    },
+    "bcrypt-generator": {
+      "title": "Bcrypt-hashgenerator en -verificatie",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Bcrypt-hashgenerator en -verificatie",
+        "generateTitle": "1. Genereer Bcrypt-hash",
+        "plaintextPassword": "Wachtwoord in platte tekst",
+        "costRounds": "Kosten / Rondes",
+        "generateBtn": "Genereer Bcrypt-hash",
+        "computing": "Computerhash...",
+        "verifyTitle": "2. Controleer Bcrypt-hash",
+        "testPassword": "Wachtwoord om te testen",
+        "bcryptHash": "Bcrypt-hash",
+        "checkMatch": "Controleer wachtwoordmatch",
+        "matchSuccess": "Overeenkomst! Het wachtwoord wordt correct geëvalueerd op basis van deze bcrypt-hash.",
+        "matchFail": "Mismatch of ongeldige hash! Het wachtwoord komt niet overeen met deze hash."
+      }
+    },
+    "hash-generator": {
+      "title": "Alles-in-één cryptografische hashgenerator",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Alles-in-één cryptografische hashgenerator",
+        "inputString": "Voer tekst/tekenreeks in",
+        "clear": "Duidelijk",
+        "copyAll": "Kopieer alle hashes"
+      }
+    },
+    "sha512-hash-generator": {
+      "title": "SHA-512 hashgenerator",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-512 hashgenerator",
+        "inputString": "Invoerreeks",
+        "hmacMode": "HMAC-modus",
+        "hmacKey": "HMAC geheime sleutel",
+        "digestLabel": "SHA-512 Digest (128 hexadecimale tekens / 512 bits)",
+        "verifyLabel": "Controleer de controlesommatch",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd"
+      }
+    },
+    "md5-hash-generator": {
+      "title": "MD5 hashgenerator",
+      "description": "Online tool.",
+      "ui": {
+        "title": "MD5 hashgenerator",
+        "inputString": "Invoerreeks",
+        "digestLabel": "MD5 Hash Digest (32 hexadecimale tekens)",
+        "verifyLabel": "Vergelijk en controleer de controlesom",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd"
+      }
+    },
+    "sha1-hash-generator": {
+      "title": "SHA-1 hashgenerator",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-1 hashgenerator",
+        "inputString": "Invoerreeks",
+        "digestLabel": "SHA-1 Digest (40 hexadecimale tekens / 160 bits)",
+        "verifyLabel": "Vergelijk en controleer de controlesom",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd"
+      }
+    },
+    "sha256-hash-generator": {
+      "title": "SHA-256 hashgenerator",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-256 hashgenerator",
+        "inputString": "Invoerreeks",
+        "digestLabel": "SHA-256 Digest (64 hexadecimale tekens / 256 bits)",
+        "verifyLabel": "Vergelijk en controleer de controlesom",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd"
+      }
+    },
+    "barcode-generator": {
+      "title": "Barcodegenerator",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Barcodegenerator",
+        "barcodeData": "Barcodegegevens/nummer",
+        "format": "Standaard formaat",
+        "showText": "Toon een voor mensen leesbaar tekstlabel onder de streepjescode",
+        "downloadSvg": "SVG downloaden",
+        "copySvg": "Kopieer SVG-code",
+        "copiedSvg": "Gekopieerde SVG-code",
+        "reset": "Opnieuw instellen"
+      }
+    },
+    "markdown-editor": {
+      "title": "Markdown-editor",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Markdown-editor",
+        "edit": "Bewerking",
+        "split": "Splitsen",
+        "preview": "Voorbeeld",
+        "exportMd": "Exporteer .md",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd",
+        "words": "woorden",
+        "characters": "karakters",
+        "minRead": "min gelezen"
+      }
+    },
+    "text-case-converter": {
+      "title": "Converter voor tekstgevallen",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Converter voor tekstgevallen",
+        "originalText": "Originele tekst",
+        "clear": "Duidelijk",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd",
+        "words": "woorden",
+        "characters": "karakters"
+      }
+    },
+    "morse-code-translator": {
+      "title": "Morsecode-vertaler",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Morsecode-vertaler",
+        "switchDirection": "Wissel van richting",
+        "clear": "Duidelijk",
+        "textInput": "Platte tekstinvoer",
+        "morseInput": "Morsecode-invoer (punten '.' en streepjes '-')",
+        "morseOutput": "Morsecode-uitvoer",
+        "textOutput": "Vertaling van platte tekst",
+        "playAudio": "Speel Morse-audio af",
+        "playing": "Pieptonen afspelen...",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd"
+      }
+    },
+    "flip-a-coin": {
+      "title": "Draai een munt om",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Draai een munt om",
+        "resetStats": "Statistieken opnieuw instellen",
+        "heads": "HOOFDEN",
+        "tails": "STAARTEN",
+        "flipping": "Door de lucht vliegen...",
+        "flipCoin": "Munt omdraaien",
+        "totalFlips": "Totaal aantal flips"
+      }
+    },
+    "roll-a-die": {
+      "title": "Interactieve dobbelsteenroller",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Interactieve dobbelsteenroller",
+        "diceCount": "Aantal dobbelstenen",
+        "dieType": "Matrijstype (zijkanten)",
+        "totalSum": "Totaal rolbedrag",
+        "rollDice": "Gooi dobbelstenen",
+        "rolling": "Rollend..."
+      }
+    },
+    "spin-the-wheel": {
+      "title": "Draai aan het wielbeslisser",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Draai aan het wielbeslisser",
+        "spinBtn": "DRAAI AAN HET WIEL",
+        "spinning": "Draaien...",
+        "winner": "We hebben een winnaar!",
+        "wheelSlices": "Wiel plakjes",
+        "addChoice": "Keuze toevoegen..."
+      }
+    },
+    "yes-or-no-wheel": {
+      "title": "Ja of Nee Wielbeslisser",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Ja of Nee Wielbeslisser",
+        "includeMaybe": "Voeg 'Misschien' toe",
+        "deciding": "Je lot bepalen...",
+        "spinBtn": "DRAAI AAN HET WIEL",
+        "spinning": "Draaien...",
+        "yesCount": "JA Tel",
+        "noCount": "GEEN telling"
+      }
+    },
+    "truth-or-dare-generator": {
+      "title": "Waarheid of durf-generator",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Waarheid of durf-generator",
+        "randomChoice": "Willekeurige keuze",
+        "truth": "WAARHEID",
+        "dare": "DURVEN",
+        "copy": "Kopieerprompt",
+        "copied": "Gekopieerd"
+      }
     }
   },
   "Search": {

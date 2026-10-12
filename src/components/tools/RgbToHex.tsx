@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Copy, Check, RotateCcw, Palette } from "lucide-react";
 
 export function RgbToHex() {
+  const t = useTranslations("Tools.rgb-to-hex.ui");
   const [r, setR] = useState(59);
   const [g, setG] = useState(130);
   const [b, setB] = useState(246);
@@ -39,11 +42,11 @@ export function RgbToHex() {
       <div className="flex items-center justify-between mb-6 pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Palette className="w-5 h-5" />
-          <span>RGB to HEX Converter</span>
+          <span>{t("title")}</span>
         </div>
         <Button variant="ghost" size="sm" onClick={handleReset} className="h-8 text-xs text-muted-foreground">
           <RotateCcw className="w-3.5 h-3.5 mr-1" />
-          Reset
+          {t("reset")}
         </Button>
       </div>
 
@@ -62,7 +65,7 @@ export function RgbToHex() {
         {/* Red */}
         <div className="space-y-1.5">
           <div className="flex justify-between items-center text-sm font-semibold">
-            <span className="text-rose-500">Red (R)</span>
+            <span className="text-rose-500">{t("red")}</span>
             <Input
               type="number"
               min="0"
@@ -85,7 +88,7 @@ export function RgbToHex() {
         {/* Green */}
         <div className="space-y-1.5">
           <div className="flex justify-between items-center text-sm font-semibold">
-            <span className="text-emerald-500">Green (G)</span>
+            <span className="text-emerald-500">{t("green")}</span>
             <Input
               type="number"
               min="0"
@@ -108,7 +111,7 @@ export function RgbToHex() {
         {/* Blue */}
         <div className="space-y-1.5">
           <div className="flex justify-between items-center text-sm font-semibold">
-            <span className="text-blue-500">Blue (B)</span>
+            <span className="text-blue-500">{t("blue")}</span>
             <Input
               type="number"
               min="0"
@@ -133,7 +136,7 @@ export function RgbToHex() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl flex items-center justify-between">
           <div>
-            <span className="text-xs text-muted-foreground font-semibold uppercase block">HEX (Uppercase)</span>
+            <span className="text-xs text-muted-foreground font-semibold uppercase block">{t("hexUpper")}</span>
             <span className="font-mono font-bold text-foreground text-sm">{hexUpper}</span>
           </div>
           <Button variant="ghost" size="sm" onClick={() => copy(hexUpper, "upper")} className="h-8 px-2 text-xs">
@@ -143,7 +146,7 @@ export function RgbToHex() {
 
         <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl flex items-center justify-between">
           <div>
-            <span className="text-xs text-muted-foreground font-semibold uppercase block">HEX (Lowercase)</span>
+            <span className="text-xs text-muted-foreground font-semibold uppercase block">{t("hexLower")}</span>
             <span className="font-mono font-bold text-foreground text-sm">{hexLower}</span>
           </div>
           <Button variant="ghost" size="sm" onClick={() => copy(hexLower, "lower")} className="h-8 px-2 text-xs">
@@ -153,7 +156,7 @@ export function RgbToHex() {
 
         <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl flex items-center justify-between">
           <div>
-            <span className="text-xs text-muted-foreground font-semibold uppercase block">RGB String</span>
+            <span className="text-xs text-muted-foreground font-semibold uppercase block">{t("rgbString")}</span>
             <span className="font-mono font-bold text-foreground text-sm">{rgbString}</span>
           </div>
           <Button variant="ghost" size="sm" onClick={() => copy(rgbString, "rgb")} className="h-8 px-2 text-xs">
@@ -163,7 +166,7 @@ export function RgbToHex() {
 
         <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl flex items-center justify-between">
           <div>
-            <span className="text-xs text-muted-foreground font-semibold uppercase block">CSS Color Code</span>
+            <span className="text-xs text-muted-foreground font-semibold uppercase block">{t("cssColor")}</span>
             <span className="font-mono font-bold text-foreground text-sm">color: {hexUpper};</span>
           </div>
           <Button variant="ghost" size="sm" onClick={() => copy(`color: ${hexUpper};`, "css")} className="h-8 px-2 text-xs">

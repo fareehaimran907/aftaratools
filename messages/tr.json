@@ -1718,6 +1718,380 @@
         "howItWorksTitle": "Nasıl çalışır:",
         "howItWorksDescription": "Bu araç, kelimelerin başlangıç harflerini vurgulayarak bir hızlı okuma tekniği uygular. Bu, gözlerinizi metin üzerinde yönlendirir ve beyniniz kelimeyi tamamlar, böylece daha hızlı ve daha odaklı okumanızı sağlar."
       }
+    },
+    "basic-calculator": {
+      "title": "Temel Hesap Makinesi",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Temel Hesap Makinesi",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı",
+        "errorDivZero": "Hata: 0'a böl"
+      }
+    },
+    "scientific-calculator": {
+      "title": "Bilimsel Hesap Makinesi",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Bilimsel Hesap Makinesi",
+        "degrees": "derece",
+        "radians": "RAD",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı"
+      }
+    },
+    "percentage-change-calculator": {
+      "title": "Yüzde Değişim Hesaplayıcı",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Yüzde Değişim Hesaplayıcı",
+        "initialValue": "Başlangıç ​​Değeri (V₁)",
+        "finalValue": "Nihai Değer (V₂)",
+        "reset": "Sıfırla",
+        "increase": "Arttırmak",
+        "decrease": "Azaltmak",
+        "noChange": "Değişiklik Yok",
+        "absDiff": "Mutlak Fark",
+        "multiplier": "Çarpan",
+        "copyResults": "Sonuçları Kopyala",
+        "copied": "Kopyalanan Hesaplama"
+      }
+    },
+    "percentage-difference-calculator": {
+      "title": "Yüzde Fark Hesaplayıcı",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Yüzde Fark Hesaplayıcı",
+        "valueA": "İlk Değer (A)",
+        "valueB": "İkinci Değer (B)",
+        "reset": "Sıfırla",
+        "percentDiff": "Yüzde Farkı",
+        "absDiff": "Mutlak Fark (|A - B|)",
+        "average": "Ortalama ((A + B) / 2)",
+        "copyResults": "Sonuçları Kopyala",
+        "copied": "Kopyalandı"
+      }
+    },
+    "test-grade-calculator": {
+      "title": "Sınav Notu Hesaplayıcı",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Sınav Notu Hesaplayıcı",
+        "totalQuestions": "Toplam Soru Sayısı",
+        "wrongQuestions": "Yanlış / Kaçırılan Soru Sayısı",
+        "reset": "Sıfırla",
+        "scorePercentage": "Puan Yüzdesi",
+        "passing": "Geçen",
+        "failing": "Başarısız",
+        "letterGrade": "Harf Notu",
+        "gpaValue": "Genel Not Ortalaması Değeri",
+        "gradingChart": "Not Tablosu",
+        "missed": "kaçırıldı",
+        "copyGrade": "Not Sonuçlarını Kopyala",
+        "copied": "Kopyalanan Not"
+      }
+    },
+    "hex-to-rgb": {
+      "title": "HEX'den RGB'ye dönüştürücü",
+      "description": "Online tool.",
+      "ui": {
+        "title": "HEX'den RGB'ye dönüştürücü",
+        "hexColor": "HEX Renk Kodu",
+        "opacity": "Opaklık (Alfa)",
+        "reset": "Sıfırla",
+        "rgbFormat": "RGB Formatı",
+        "rgbaFormat": "RGBA Formatı",
+        "hslFormat": "HSL Formatı",
+        "cssVar": "CSS Değişkeni"
+      }
+    },
+    "rgb-to-hex": {
+      "title": "RGB'den HEX'ye dönüştürücü",
+      "description": "Online tool.",
+      "ui": {
+        "title": "RGB'den HEX'ye dönüştürücü",
+        "red": "Kırmızı (R)",
+        "green": "Yeşil (G)",
+        "blue": "Mavi (B)",
+        "reset": "Sıfırla",
+        "hexUpper": "HEX (Büyük harf)",
+        "hexLower": "HEX (Küçük harf)",
+        "rgbString": "RGB Dize",
+        "cssColor": "CSS Renk Kodu"
+      }
+    },
+    "color-picker": {
+      "title": "Renk Seçici ve Palet Denetleyicisi",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Renk Seçici ve Palet Denetleyicisi",
+        "pickColor": "Herhangi Bir Renk Seç",
+        "randomColor": "Rastgele Renk",
+        "reset": "Sıfırla",
+        "colorHarmonies": "Renk Armonileri"
+      }
+    },
+    "color-palette-generator": {
+      "title": "Renk Paleti Oluşturucu",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Renk Paleti Oluşturucu",
+        "instructions": "Yeni paletler oluşturmak için Ara Çubuğu'na basın veya Oluştur'u tıklayın.",
+        "generateNew": "Yeni Oluştur",
+        "exportCss": "CSS'yi dışa aktar",
+        "copiedCss": "Kopyalanan CSS"
+      }
+    },
+    "contrast-checker": {
+      "title": "Renk Kontrast Oranı Denetleyicisi (WCAG)",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Renk Kontrast Oranı Denetleyicisi (WCAG)",
+        "textColor": "Metin / Ön Plan Rengi",
+        "bgColor": "Arka Plan Rengi",
+        "swap": "Takas",
+        "contrastRatio": "Kontrast Oranı",
+        "passesAA": "WCAG AA'yı geçer",
+        "failsAA": "WCAG AA'da başarısız",
+        "normalText": "Normal Metin",
+        "largeText": "Büyük Metin (18pt+)",
+        "uiComponents": "Kullanıcı Arayüzü Bileşenleri",
+        "copyResults": "Sonuçları Kopyala",
+        "copied": "Kopyalandı"
+      }
+    },
+    "pin-generator": {
+      "title": "Rastgele PIN Oluşturucu",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Rastgele PIN Oluşturucu",
+        "pinLength": "PIN Uzunluğu",
+        "regenerate": "Yenile",
+        "avoidSequences": "Dizilerden kaçının (ör. 1234, 4321)",
+        "noRepeats": "Tekrarlanan rakam yok (en fazla 10)",
+        "generatedPins": "Oluşturulan PIN Kodları",
+        "generateNewPins": "Yeni PIN'ler Oluştur",
+        "copyAll": "Tümünü Kopyala",
+        "copiedAll": "Tümü Kopyalandı"
+      }
+    },
+    "strong-password-generator": {
+      "title": "Güçlü Şifre Oluşturucu",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Güçlü Şifre Oluşturucu",
+        "regenerate": "Yenile",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı",
+        "passwordStrength": "Şifre Gücü",
+        "passwordLength": "Şifre Uzunluğu",
+        "includeUppercase": "Büyük Harf Ekle (A-Z)",
+        "includeLowercase": "Küçük Harf (a-z) ekle",
+        "includeNumbers": "Sayıları Dahil Et (0-9)",
+        "includeSymbols": "Sembolleri Ekle (!@#$%)",
+        "excludeAmbiguous": "Belirsiz Karakterleri Hariç Tut (ör. 0, O, 1, l, I)",
+        "generateBtn": "Güçlü Şifre Oluşturun"
+      }
+    },
+    "bcrypt-generator": {
+      "title": "Bcrypt Karma Oluşturucu ve Doğrulayıcı",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Bcrypt Karma Oluşturucu ve Doğrulayıcı",
+        "generateTitle": "1. Bcrypt Hash'i oluşturun",
+        "plaintextPassword": "Düz Metin Şifresi",
+        "costRounds": "Maliyet / Turlar",
+        "generateBtn": "Bcrypt Karması Oluştur",
+        "computing": "Karma Hesaplanıyor...",
+        "verifyTitle": "2. Bcrypt Karmasını Doğrulayın",
+        "testPassword": "Test Edilecek Şifre",
+        "bcryptHash": "Bcrypt Karması",
+        "checkMatch": "Şifre Eşleşmesini Kontrol Edin",
+        "matchSuccess": "Kibrit! Parola bu bcrypt karmasını doğru şekilde değerlendirir.",
+        "matchFail": "Uyuşmazlık veya Geçersiz Hash! Parola bu karmayla eşleşmiyor."
+      }
+    },
+    "hash-generator": {
+      "title": "Hepsi Bir Arada Kriptografik Karma Oluşturucu",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Hepsi Bir Arada Kriptografik Karma Oluşturucu",
+        "inputString": "Giriş Metni / Dize",
+        "clear": "Temizlemek",
+        "copyAll": "Tüm Karmaları Kopyala"
+      }
+    },
+    "sha512-hash-generator": {
+      "title": "SHA-512 Karma Oluşturucu",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-512 Karma Oluşturucu",
+        "inputString": "Giriş Dizesi",
+        "hmacMode": "HMAC Modu",
+        "hmacKey": "HMAC Gizli Anahtarı",
+        "digestLabel": "SHA-512 Özeti (128 Hex Karakter / 512 Bit)",
+        "verifyLabel": "Sağlama Toplamı Eşleşmesini Doğrulayın",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı"
+      }
+    },
+    "md5-hash-generator": {
+      "title": "MD5 Karma Oluşturucu",
+      "description": "Online tool.",
+      "ui": {
+        "title": "MD5 Karma Oluşturucu",
+        "inputString": "Giriş Dizesi",
+        "digestLabel": "MD5 Karma Özeti (32 Hex Karakter)",
+        "verifyLabel": "Sağlama Toplamını Karşılaştırın ve Doğrulayın",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı"
+      }
+    },
+    "sha1-hash-generator": {
+      "title": "SHA-1 Karma Oluşturucu",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-1 Karma Oluşturucu",
+        "inputString": "Giriş Dizesi",
+        "digestLabel": "SHA-1 Özeti (40 Hex Karakter / 160 Bit)",
+        "verifyLabel": "Sağlama Toplamını Karşılaştırın ve Doğrulayın",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı"
+      }
+    },
+    "sha256-hash-generator": {
+      "title": "SHA-256 Karma Oluşturucu",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-256 Karma Oluşturucu",
+        "inputString": "Giriş Dizesi",
+        "digestLabel": "SHA-256 Özeti (64 Hex Karakter / 256 Bit)",
+        "verifyLabel": "Sağlama Toplamını Karşılaştırın ve Doğrulayın",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı"
+      }
+    },
+    "barcode-generator": {
+      "title": "Barkod Oluşturucu",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Barkod Oluşturucu",
+        "barcodeData": "Barkod Verisi / Numarası",
+        "format": "Standart Format",
+        "showText": "Barkodun altında insan tarafından okunabilen metin etiketini göster",
+        "downloadSvg": "SVG'yi indirin",
+        "copySvg": "SVG Kodunu Kopyala",
+        "copiedSvg": "Kopyalanan SVG Kodu",
+        "reset": "Sıfırla"
+      }
+    },
+    "markdown-editor": {
+      "title": "İşaretleme Düzenleyicisi",
+      "description": "Online tool.",
+      "ui": {
+        "title": "İşaretleme Düzenleyicisi",
+        "edit": "Düzenlemek",
+        "split": "Bölmek",
+        "preview": "Önizleme",
+        "exportMd": ".md'yi dışa aktar",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı",
+        "words": "kelimeler",
+        "characters": "karakterler",
+        "minRead": "dk okuma"
+      }
+    },
+    "text-case-converter": {
+      "title": "Metin Durumu Dönüştürücü",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Metin Durumu Dönüştürücü",
+        "originalText": "Orijinal Metin",
+        "clear": "Temizlemek",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı",
+        "words": "kelimeler",
+        "characters": "karakterler"
+      }
+    },
+    "morse-code-translator": {
+      "title": "Mors Kodu Tercümanı",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Mors Kodu Tercümanı",
+        "switchDirection": "Yön Değiştirme",
+        "clear": "Temizlemek",
+        "textInput": "Düz Metin Girişi",
+        "morseInput": "Mors Kodu Girişi (Noktalar '.' ve Kısa Çizgiler '-')",
+        "morseOutput": "Mors Kodu Çıkışı",
+        "textOutput": "Düz Metin Çevirisi",
+        "playAudio": "Mors Sesi Çal",
+        "playing": "Bip sesi çalınıyor...",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı"
+      }
+    },
+    "flip-a-coin": {
+      "title": "Yazı tura at",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Yazı tura at",
+        "resetStats": "İstatistikleri Sıfırla",
+        "heads": "BAŞLAR",
+        "tails": "KUYRUKLAR",
+        "flipping": "Havada takla atıyor...",
+        "flipCoin": "Para Çevirme",
+        "totalFlips": "Toplam Çevirmeler"
+      }
+    },
+    "roll-a-die": {
+      "title": "İnteraktif Zar Atma Makinesi",
+      "description": "Online tool.",
+      "ui": {
+        "title": "İnteraktif Zar Atma Makinesi",
+        "diceCount": "Zar Sayısı",
+        "dieType": "Kalıp Tipi (Yan)",
+        "totalSum": "Toplam Rulo Toplamı",
+        "rollDice": "Zar atma",
+        "rolling": "Yuvarlamak..."
+      }
+    },
+    "spin-the-wheel": {
+      "title": "Çarkı Döndürme Karar Verici",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Çarkı Döndürme Karar Verici",
+        "spinBtn": "TEKERLEK ÇEVİR",
+        "spinning": "Dönüyor...",
+        "winner": "Bir kazananımız var!",
+        "wheelSlices": "Tekerlek Dilimleri",
+        "addChoice": "Seçim ekle..."
+      }
+    },
+    "yes-or-no-wheel": {
+      "title": "Evet veya Hayır Çarkı Karar Verici",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Evet veya Hayır Çarkı Karar Verici",
+        "includeMaybe": "\"Belki\"yi dahil et",
+        "deciding": "Kaderine karar vermek...",
+        "spinBtn": "TEKERLEK ÇEVİR",
+        "spinning": "Dönüyor...",
+        "yesCount": "EVET Sayım",
+        "noCount": "HAYIR Sayım"
+      }
+    },
+    "truth-or-dare-generator": {
+      "title": "Doğruluk mu Cesaret mi Jeneratörü",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Doğruluk mu Cesaret mi Jeneratörü",
+        "randomChoice": "Rastgele Seçim",
+        "truth": "GERÇEK",
+        "dare": "CESARET",
+        "copy": "İstemi Kopyala",
+        "copied": "Kopyalandı"
+      }
     }
   },
   "Search": {

@@ -1,10 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Coins, RotateCw, History, Trophy } from "lucide-react";
 
 export function FlipACoin() {
+  const t = useTranslations("Tools.flip-a-coin.ui");
   const [result, setResult] = useState<"heads" | "tails" | null>("heads");
   const [isFlipping, setIsFlipping] = useState(false);
   const [headsCount, setHeadsCount] = useState(1);
@@ -46,10 +49,10 @@ export function FlipACoin() {
       <div className="flex items-center justify-between pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Coins className="w-5 h-5" />
-          <span>Flip a Coin</span>
+          <span>{t("title")}</span>
         </div>
         <Button variant="ghost" size="sm" onClick={resetStats} className="h-8 text-xs text-muted-foreground">
-          Reset Stats
+          {t("resetStats")}
         </Button>
       </div>
 
@@ -73,7 +76,7 @@ export function FlipACoin() {
               style={{ backfaceVisibility: "hidden" }}
             >
               <Trophy className="w-12 h-12 mb-1 opacity-90" />
-              <span className="text-xl sm:text-2xl tracking-widest uppercase font-mono">HEADS</span>
+              <span className="text-xl sm:text-2xl tracking-widest uppercase font-mono">{t("heads")}</span>
             </div>
 
             {/* Tails Side */}
@@ -85,7 +88,7 @@ export function FlipACoin() {
               }}
             >
               <Coins className="w-12 h-12 mb-1 opacity-90" />
-              <span className="text-xl sm:text-2xl tracking-widest uppercase font-mono">TAILS</span>
+              <span className="text-xl sm:text-2xl tracking-widest uppercase font-mono">{t("tails")}</span>
             </div>
           </div>
         </div>
@@ -94,7 +97,7 @@ export function FlipACoin() {
         <div className="mt-6 min-h-[2.5rem]">
           {isFlipping ? (
             <span className="text-lg font-bold text-muted-foreground animate-pulse">
-              Flipping through the air...
+              {t("flipping")}
             </span>
           ) : result ? (
             <div className="text-2xl font-black uppercase tracking-wider text-foreground">
@@ -112,13 +115,13 @@ export function FlipACoin() {
         className="w-full h-12 font-bold text-base bg-primary shadow-lg shadow-primary/20"
       >
         <RotateCw className={`w-4 h-4 mr-2 ${isFlipping ? "animate-spin" : ""}`} />
-        {isFlipping ? "Flipping..." : "Flip Coin"}
+        {isFlipping ? t("flipping") : t("flipCoin")}
       </Button>
 
       {/* Stats Counter */}
       <div className="grid grid-cols-3 gap-3 pt-4 border-t border-border/60 text-center">
         <div className="p-3 bg-muted/30 rounded-2xl border border-border/40">
-          <span className="text-xs text-muted-foreground block font-medium">Heads</span>
+          <span className="text-xs text-muted-foreground block font-medium">{t("heads")}</span>
           <span className="text-xl font-bold font-mono text-primary">{headsCount}</span>
           <span className="text-[10px] text-muted-foreground block">
             {totalFlips ? `${Math.round((headsCount / totalFlips) * 100)}%` : "0%"}
@@ -126,7 +129,7 @@ export function FlipACoin() {
         </div>
 
         <div className="p-3 bg-muted/30 rounded-2xl border border-border/40">
-          <span className="text-xs text-muted-foreground block font-medium">Tails</span>
+          <span className="text-xs text-muted-foreground block font-medium">{t("tails")}</span>
           <span className="text-xl font-bold font-mono text-primary">{tailsCount}</span>
           <span className="text-[10px] text-muted-foreground block">
             {totalFlips ? `${Math.round((tailsCount / totalFlips) * 100)}%` : "0%"}
@@ -134,7 +137,7 @@ export function FlipACoin() {
         </div>
 
         <div className="p-3 bg-muted/30 rounded-2xl border border-border/40">
-          <span className="text-xs text-muted-foreground block font-medium">Total Flips</span>
+          <span className="text-xs text-muted-foreground block font-medium">{t("totalFlips")}</span>
           <span className="text-xl font-bold font-mono text-foreground">{totalFlips}</span>
           <span className="text-[10px] text-muted-foreground block">100%</span>
         </div>

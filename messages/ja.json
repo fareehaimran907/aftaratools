@@ -1718,6 +1718,380 @@
         "howItWorksTitle": "使い方:",
         "howItWorksDescription": "このツールは、単語の最初の文字を強調表示することで速読テクニックを実装します。これにより視線がテキスト上を誘導され、脳が単語を補完するため、より速く、より集中して読むことができます。"
       }
+    },
+    "basic-calculator": {
+      "title": "基本的な電卓",
+      "description": "Online tool.",
+      "ui": {
+        "title": "基本的な電卓",
+        "copy": "コピー",
+        "copied": "コピーされました",
+        "errorDivZero": "エラー: 0 による除算"
+      }
+    },
+    "scientific-calculator": {
+      "title": "関数電卓",
+      "description": "Online tool.",
+      "ui": {
+        "title": "関数電卓",
+        "degrees": "度",
+        "radians": "ラッド",
+        "copy": "コピー",
+        "copied": "コピーされました"
+      }
+    },
+    "percentage-change-calculator": {
+      "title": "変化率計算ツール",
+      "description": "Online tool.",
+      "ui": {
+        "title": "変化率計算ツール",
+        "initialValue": "初期値(V₁)",
+        "finalValue": "最終値 (V₂)",
+        "reset": "リセット",
+        "increase": "増加",
+        "decrease": "減少",
+        "noChange": "変化なし",
+        "absDiff": "絶対差",
+        "multiplier": "乗数",
+        "copyResults": "結果のコピー",
+        "copied": "コピーされた計算"
+      }
+    },
+    "percentage-difference-calculator": {
+      "title": "パーセンテージ差計算機",
+      "description": "Online tool.",
+      "ui": {
+        "title": "パーセンテージ差計算機",
+        "valueA": "最初の値 (A)",
+        "valueB": "2 番目の値 (B)",
+        "reset": "リセット",
+        "percentDiff": "パーセンテージの差",
+        "absDiff": "絶対差 (|A - B|)",
+        "average": "平均 ((A + B) / 2)",
+        "copyResults": "結果のコピー",
+        "copied": "コピーされました"
+      }
+    },
+    "test-grade-calculator": {
+      "title": "テスト成績計算ツール",
+      "description": "Online tool.",
+      "ui": {
+        "title": "テスト成績計算ツール",
+        "totalQuestions": "総質問数",
+        "wrongQuestions": "間違った質問/見逃した質問の数",
+        "reset": "リセット",
+        "scorePercentage": "スコアパーセンテージ",
+        "passing": "通過",
+        "failing": "失敗しました",
+        "letterGrade": "レターグレード",
+        "gpaValue": "GPA値",
+        "gradingChart": "等級表",
+        "missed": "逃した",
+        "copyGrade": "成績結果をコピーする",
+        "copied": "コピーされたグレード"
+      }
+    },
+    "hex-to-rgb": {
+      "title": "HEX から RGB コンバーター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "HEX から RGB コンバーター",
+        "hexColor": "16進数のカラーコード",
+        "opacity": "不透明度 (アルファ)",
+        "reset": "リセット",
+        "rgbFormat": "RGBフォーマット",
+        "rgbaFormat": "RGBAフォーマット",
+        "hslFormat": "HSL形式",
+        "cssVar": "CSS変数"
+      }
+    },
+    "rgb-to-hex": {
+      "title": "RGB から HEX へのコンバーター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "RGB から HEX へのコンバーター",
+        "red": "レッド(R)",
+        "green": "グリーン(G)",
+        "blue": "ブルー(B)",
+        "reset": "リセット",
+        "hexUpper": "HEX (大文字)",
+        "hexLower": "HEX (小文字)",
+        "rgbString": "RGB文字列",
+        "cssColor": "CSSカラーコード"
+      }
+    },
+    "color-picker": {
+      "title": "カラーピッカーとパレットインスペクター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "カラーピッカーとパレットインスペクター",
+        "pickColor": "任意の色を選択してください",
+        "randomColor": "ランダムな色",
+        "reset": "リセット",
+        "colorHarmonies": "カラーハーモニー"
+      }
+    },
+    "color-palette-generator": {
+      "title": "カラーパレットジェネレーター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "カラーパレットジェネレーター",
+        "instructions": "スペースバーを押すか、「生成」をクリックして新しいパレットを作成します。",
+        "generateNew": "新規生成",
+        "exportCss": "CSSのエクスポート",
+        "copiedCss": "コピーされたCSS"
+      }
+    },
+    "contrast-checker": {
+      "title": "カラーコントラスト比チェッカー (WCAG)",
+      "description": "Online tool.",
+      "ui": {
+        "title": "カラーコントラスト比チェッカー (WCAG)",
+        "textColor": "テキスト/前景色",
+        "bgColor": "背景色",
+        "swap": "スワップ",
+        "contrastRatio": "コントラスト比",
+        "passesAA": "WCAG AAに合格",
+        "failsAA": "WCAG AA 不合格",
+        "normalText": "通常のテキスト",
+        "largeText": "大きなテキスト (18 ポイント以上)",
+        "uiComponents": "UIコンポーネント",
+        "copyResults": "結果のコピー",
+        "copied": "コピーされました"
+      }
+    },
+    "pin-generator": {
+      "title": "ランダムPINジェネレーター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "ランダムPINジェネレーター",
+        "pinLength": "PINの長さ",
+        "regenerate": "再生する",
+        "avoidSequences": "シーケンスを避ける (例: 1234、4321)",
+        "noRepeats": "数字の繰り返しなし (最大 10)",
+        "generatedPins": "生成されたPINコード",
+        "generateNewPins": "新しいPINの生成",
+        "copyAll": "すべてコピー",
+        "copiedAll": "すべてコピーしました"
+      }
+    },
+    "strong-password-generator": {
+      "title": "強力なパスワード生成ツール",
+      "description": "Online tool.",
+      "ui": {
+        "title": "強力なパスワード生成ツール",
+        "regenerate": "再生する",
+        "copy": "コピー",
+        "copied": "コピーされました",
+        "passwordStrength": "パスワードの強度",
+        "passwordLength": "パスワードの長さ",
+        "includeUppercase": "大文字 (A ～ Z) を含める",
+        "includeLowercase": "小文字 (a ～ z) を含める",
+        "includeNumbers": "数字 (0 ～ 9) を含める",
+        "includeSymbols": "記号を含める (!@#$%)",
+        "excludeAmbiguous": "曖昧な文字を除外する (例: 0、O、1、l、I)",
+        "generateBtn": "強力なパスワードを生成する"
+      }
+    },
+    "bcrypt-generator": {
+      "title": "Bcrypt ハッシュ ジェネレーターと検証ツール",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Bcrypt ハッシュ ジェネレーターと検証ツール",
+        "generateTitle": "1. Bcrypt ハッシュの生成",
+        "plaintextPassword": "平文パスワード",
+        "costRounds": "コスト/ラウンド",
+        "generateBtn": "Bcrypt ハッシュの生成",
+        "computing": "ハッシュを計算しています...",
+        "verifyTitle": "2. Bcrypt ハッシュを検証する",
+        "testPassword": "テスト用のパスワード",
+        "bcryptHash": "Bcrypt ハッシュ",
+        "checkMatch": "パスワードの一致を確認する",
+        "matchSuccess": "マッチ！ パスワードは、この bcrypt ハッシュに対して正しく評価されます。",
+        "matchFail": "ハッシュが不一致または無効です! パスワードがこのハッシュと一致しません。"
+      }
+    },
+    "hash-generator": {
+      "title": "オールインワンの暗号化ハッシュ ジェネレーター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "オールインワンの暗号化ハッシュ ジェネレーター",
+        "inputString": "入力テキスト/文字列",
+        "clear": "クリア",
+        "copyAll": "すべてのハッシュをコピー"
+      }
+    },
+    "sha512-hash-generator": {
+      "title": "SHA-512 ハッシュジェネレーター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-512 ハッシュジェネレーター",
+        "inputString": "入力文字列",
+        "hmacMode": "HMAC モード",
+        "hmacKey": "HMAC 秘密キー",
+        "digestLabel": "SHA-512 ダイジェスト (128 16 進数文字 / 512 ビット)",
+        "verifyLabel": "チェックサムの一致を検証する",
+        "copy": "コピー",
+        "copied": "コピーされました"
+      }
+    },
+    "md5-hash-generator": {
+      "title": "MD5 ハッシュ ジェネレーター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "MD5 ハッシュ ジェネレーター",
+        "inputString": "入力文字列",
+        "digestLabel": "MD5 ハッシュ ダイジェスト (32 の 16 進数文字)",
+        "verifyLabel": "チェックサムの比較と検証",
+        "copy": "コピー",
+        "copied": "コピーされました"
+      }
+    },
+    "sha1-hash-generator": {
+      "title": "SHA-1 ハッシュ ジェネレーター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-1 ハッシュ ジェネレーター",
+        "inputString": "入力文字列",
+        "digestLabel": "SHA-1 ダイジェスト (40 16 進数文字 / 160 ビット)",
+        "verifyLabel": "チェックサムの比較と検証",
+        "copy": "コピー",
+        "copied": "コピーされました"
+      }
+    },
+    "sha256-hash-generator": {
+      "title": "SHA-256 ハッシュジェネレーター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-256 ハッシュジェネレーター",
+        "inputString": "入力文字列",
+        "digestLabel": "SHA-256 ダイジェスト (64 16 進数文字 / 256 ビット)",
+        "verifyLabel": "チェックサムの比較と検証",
+        "copy": "コピー",
+        "copied": "コピーされました"
+      }
+    },
+    "barcode-generator": {
+      "title": "バーコードジェネレーター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "バーコードジェネレーター",
+        "barcodeData": "バーコードデータ/番号",
+        "format": "標準フォーマット",
+        "showText": "バーコードの下に人間が判読できるテキストラベルを表示",
+        "downloadSvg": "SVGをダウンロード",
+        "copySvg": "SVGコードをコピー",
+        "copiedSvg": "コピーされたSVGコード",
+        "reset": "リセット"
+      }
+    },
+    "markdown-editor": {
+      "title": "マークダウンエディター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "マークダウンエディター",
+        "edit": "編集",
+        "split": "スプリット",
+        "preview": "プレビュー",
+        "exportMd": ".mdをエクスポート",
+        "copy": "コピー",
+        "copied": "コピーされました",
+        "words": "言葉",
+        "characters": "キャラクター",
+        "minRead": "最小読み取り"
+      }
+    },
+    "text-case-converter": {
+      "title": "テキストケースコンバーター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "テキストケースコンバーター",
+        "originalText": "原文",
+        "clear": "クリア",
+        "copy": "コピー",
+        "copied": "コピーされました",
+        "words": "言葉",
+        "characters": "キャラクター"
+      }
+    },
+    "morse-code-translator": {
+      "title": "モールス信号変換器",
+      "description": "Online tool.",
+      "ui": {
+        "title": "モールス信号変換器",
+        "switchDirection": "方向の切り替え",
+        "clear": "クリア",
+        "textInput": "プレーンテキスト入力",
+        "morseInput": "モールス信号入力 (ドット「.」とダッシュ「-」)",
+        "morseOutput": "モールス信号出力",
+        "textOutput": "プレーンテキスト翻訳",
+        "playAudio": "モールス信号の再生",
+        "playing": "ビープ音を鳴らしています...",
+        "copy": "コピー",
+        "copied": "コピーされました"
+      }
+    },
+    "flip-a-coin": {
+      "title": "コインを投げる",
+      "description": "Online tool.",
+      "ui": {
+        "title": "コインを投げる",
+        "resetStats": "統計のリセット",
+        "heads": "ヘッズ",
+        "tails": "テイルズ",
+        "flipping": "空中をひっくり返して…",
+        "flipCoin": "コインを投げる",
+        "totalFlips": "合計フリップ数"
+      }
+    },
+    "roll-a-die": {
+      "title": "インタラクティブなダイスローラー",
+      "description": "Online tool.",
+      "ui": {
+        "title": "インタラクティブなダイスローラー",
+        "diceCount": "サイコロの数",
+        "dieType": "金型タイプ（側面）",
+        "totalSum": "合計ロール合計",
+        "rollDice": "ロールダイス",
+        "rolling": "ローリング..."
+      }
+    },
+    "spin-the-wheel": {
+      "title": "スピン・ザ・ホイール・ディサイダー",
+      "description": "Online tool.",
+      "ui": {
+        "title": "スピン・ザ・ホイール・ディサイダー",
+        "spinBtn": "ホイールを回転させよう",
+        "spinning": "紡糸...",
+        "winner": "勝者が決まりました！",
+        "wheelSlices": "ホイールスライス",
+        "addChoice": "選択肢を追加..."
+      }
+    },
+    "yes-or-no-wheel": {
+      "title": "はいまたはいいえホイール決定器",
+      "description": "Online tool.",
+      "ui": {
+        "title": "はいまたはいいえホイール決定器",
+        "includeMaybe": "「もしかしたら」も含めて",
+        "deciding": "運命を決めるのは…",
+        "spinBtn": "ホイールを回転させよう",
+        "spinning": "紡糸...",
+        "yesCount": "はいカウント",
+        "noCount": "ノーカウント"
+      }
+    },
+    "truth-or-dare-generator": {
+      "title": "真実か挑戦かジェネレーター",
+      "description": "Online tool.",
+      "ui": {
+        "title": "真実か挑戦かジェネレーター",
+        "randomChoice": "ランダムな選択",
+        "truth": "真実",
+        "dare": "あえて",
+        "copy": "プロンプトのコピー",
+        "copied": "コピーされました"
+      }
     }
   },
   "Search": {

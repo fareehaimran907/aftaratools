@@ -1,10 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Copy, Check, Type, RotateCcw } from "lucide-react";
 
 export function TextCaseConverter() {
+  const t = useTranslations("Tools.text-case-converter.ui");
   const [text, setText] = useState("The quick brown fox jumps over the lazy dog");
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
 
@@ -73,19 +76,19 @@ export function TextCaseConverter() {
       <div className="flex items-center justify-between pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Type className="w-5 h-5" />
-          <span>Text Case Converter</span>
+          <span>{t("title")}</span>
         </div>
         <Button variant="ghost" size="sm" onClick={() => setText("")} className="h-8 text-xs text-muted-foreground">
           <RotateCcw className="w-3.5 h-3.5 mr-1" />
-          Clear
+          {t("clear")}
         </Button>
       </div>
 
       {/* Input Text Area */}
       <div className="space-y-2">
         <div className="flex justify-between items-center text-xs font-semibold text-muted-foreground">
-          <label>Original Text</label>
-          <span>{wordCount} words &bull; {charCount} characters</span>
+          <label>{t("originalText")}</label>
+          <span>{wordCount} {t("words")} &bull; {charCount} {t("characters")}</span>
         </div>
         <textarea
           rows={3}
@@ -116,7 +119,7 @@ export function TextCaseConverter() {
                 ) : (
                   <Copy className="w-3.5 h-3.5 mr-1" />
                 )}
-                {copiedKey === c.key ? "Copied" : "Copy"}
+                {copiedKey === c.key ? t("copied") : t("copy")}
               </Button>
             </div>
             <div className="font-mono text-sm font-semibold text-foreground break-all select-all line-clamp-2">

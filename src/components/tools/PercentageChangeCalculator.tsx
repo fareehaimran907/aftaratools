@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Copy, Check, RotateCcw, TrendingUp, TrendingDown, ArrowRight, Percent } from "lucide-react";
 
 export function PercentageChangeCalculator() {
+  const t = useTranslations("Tools.percentage-change-calculator.ui");
   const [initialValue, setInitialValue] = useState("100");
   const [finalValue, setFinalValue] = useState("125");
   const [copied, setCopied] = useState(false);
@@ -39,18 +42,18 @@ export function PercentageChangeCalculator() {
       <div className="flex items-center justify-between mb-6 pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Percent className="w-5 h-5" />
-          <span>Percentage Change Calculator</span>
+          <span>{t("title")}</span>
         </div>
         <Button variant="ghost" size="sm" onClick={handleReset} className="h-8 text-xs text-muted-foreground">
           <RotateCcw className="w-3.5 h-3.5 mr-1" />
-          Reset
+          {t("reset")}
         </Button>
       </div>
 
       {/* Input Fields */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
         <div className="space-y-2">
-          <label className="text-sm font-medium text-muted-foreground">Initial Value (V₁)</label>
+          <label className="text-sm font-medium text-muted-foreground">{t("initialValue")}</label>
           <Input
             type="number"
             value={initialValue}
@@ -61,7 +64,7 @@ export function PercentageChangeCalculator() {
         </div>
 
         <div className="space-y-2">
-          <label className="text-sm font-medium text-muted-foreground">Final Value (V₂)</label>
+          <label className="text-sm font-medium text-muted-foreground">{t("finalValue")}</label>
           <Input
             type="number"
             value={finalValue}
@@ -91,7 +94,7 @@ export function PercentageChangeCalculator() {
                 <TrendingDown className="w-7 h-7" />
               ) : null}
               <span className="text-sm font-bold uppercase tracking-wider">
-                {isIncrease ? "Increase" : isDecrease ? "Decrease" : "No Change"}
+                {isIncrease ? t("increase") : isDecrease ? t("decrease") : t("noChange")}
               </span>
             </div>
 
@@ -108,13 +111,13 @@ export function PercentageChangeCalculator() {
           {/* Details Breakdown */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 text-center">
             <div className="p-3 bg-muted/30 border border-border/40 rounded-xl">
-              <span className="text-xs text-muted-foreground block">Absolute Difference</span>
+              <span className="text-xs text-muted-foreground block">{t("absDiff")}</span>
               <span className="text-base font-semibold font-mono text-foreground">
                 {diff > 0 ? `+${diff}` : diff}
               </span>
             </div>
             <div className="p-3 bg-muted/30 border border-border/40 rounded-xl">
-              <span className="text-xs text-muted-foreground block">Multiplier</span>
+              <span className="text-xs text-muted-foreground block">{t("multiplier")}</span>
               <span className="text-base font-semibold font-mono text-foreground">
                 {multiplier.toFixed(4)}×
               </span>
@@ -130,7 +133,7 @@ export function PercentageChangeCalculator() {
           <div className="flex justify-end pt-2">
             <Button variant="outline" size="sm" onClick={copyResult} className="text-xs">
               {copied ? <Check className="w-3.5 h-3.5 text-emerald-500 mr-1.5" /> : <Copy className="w-3.5 h-3.5 mr-1.5" />}
-              {copied ? "Copied Calculation" : "Copy Results"}
+              {copied ? t("copied") : t("copyResults")}
             </Button>
           </div>
         </div>

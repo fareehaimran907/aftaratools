@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Copy, Check, RotateCcw, GraduationCap, Award, BookOpen } from "lucide-react";
 
 export function TestGradeCalculator() {
+  const t = useTranslations("Tools.test-grade-calculator.ui");
   const [totalQuestions, setTotalQuestions] = useState("50");
   const [wrongAnswers, setWrongAnswers] = useState("5");
   const [copied, setCopied] = useState(false);
@@ -52,18 +55,18 @@ export function TestGradeCalculator() {
       <div className="flex items-center justify-between mb-6 pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <GraduationCap className="w-5 h-5" />
-          <span>Test Grade Calculator</span>
+          <span>{t("title")}</span>
         </div>
         <Button variant="ghost" size="sm" onClick={handleReset} className="h-8 text-xs text-muted-foreground">
           <RotateCcw className="w-3.5 h-3.5 mr-1" />
-          Reset
+          {t("reset")}
         </Button>
       </div>
 
       {/* Input Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
         <div className="space-y-2">
-          <label className="text-sm font-medium text-muted-foreground">Total Number of Questions</label>
+          <label className="text-sm font-medium text-muted-foreground">{t("totalQuestions")}</label>
           <Input
             type="number"
             min="1"
@@ -76,7 +79,7 @@ export function TestGradeCalculator() {
         </div>
 
         <div className="space-y-2">
-          <label className="text-sm font-medium text-muted-foreground">Number of Wrong / Missed Questions</label>
+          <label className="text-sm font-medium text-muted-foreground">{t("wrongQuestions")}</label>
           <Input
             type="number"
             min="0"
@@ -96,33 +99,33 @@ export function TestGradeCalculator() {
             <div>
               <div className="flex items-center justify-center sm:justify-start gap-2 mb-1">
                 <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
-                  Score Percentage
+                  {t("scorePercentage")}
                 </span>
                 <span
                   className={`text-xs px-2 py-0.5 rounded-full font-bold uppercase ${
                     gradeInfo.pass ? "bg-emerald-500/10 text-emerald-500" : "bg-rose-500/10 text-rose-500"
                   }`}
                 >
-                  {gradeInfo.pass ? "Passing" : "Failing"}
+                  {gradeInfo.pass ? t("passing") : t("failing")}
                 </span>
               </div>
               <div className="text-5xl sm:text-6xl font-mono font-extrabold text-foreground tracking-tight">
                 {percentage.toFixed(1)}%
               </div>
               <p className="text-sm text-muted-foreground mt-1">
-                {correct} correct out of {total} total questions ({wrong} missed)
+                {correct} correct out of {total} total questions ({wrong} {t("missed")})
               </p>
             </div>
 
             <div className="flex items-center gap-6 border-t sm:border-t-0 sm:border-l border-border/60 pt-4 sm:pt-0 sm:pl-8">
               <div className="text-center">
-                <span className="text-xs text-muted-foreground block mb-1">Letter Grade</span>
+                <span className="text-xs text-muted-foreground block mb-1">{t("letterGrade")}</span>
                 <span className={`text-5xl font-black font-mono ${gradeInfo.color}`}>
                   {gradeInfo.letter}
                 </span>
               </div>
               <div className="text-center">
-                <span className="text-xs text-muted-foreground block mb-1">GPA Value</span>
+                <span className="text-xs text-muted-foreground block mb-1">{t("gpaValue")}</span>
                 <span className="text-3xl font-bold font-mono text-foreground">
                   {gradeInfo.gpa}
                 </span>
@@ -134,7 +137,7 @@ export function TestGradeCalculator() {
           <div className="space-y-3">
             <h4 className="text-sm font-semibold flex items-center gap-2 text-foreground">
               <BookOpen className="w-4 h-4 text-primary" />
-              <span>Grading Chart for {total} Questions</span>
+              <span>{t("gradingChart")} for {total} Questions</span>
             </h4>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs font-mono">
               {Array.from({ length: Math.min(8, total + 1) }).map((_, idx) => {
@@ -159,7 +162,7 @@ export function TestGradeCalculator() {
           <div className="flex justify-end pt-2">
             <Button variant="outline" size="sm" onClick={copyResult} className="text-xs">
               {copied ? <Check className="w-3.5 h-3.5 text-emerald-500 mr-1.5" /> : <Copy className="w-3.5 h-3.5 mr-1.5" />}
-              {copied ? "Copied Grade" : "Copy Grade Results"}
+              {copied ? t("copied") : t("copyGrade")}
             </Button>
           </div>
         </div>

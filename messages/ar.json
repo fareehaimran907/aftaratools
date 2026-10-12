@@ -1718,6 +1718,380 @@
         "howItWorksTitle": "كيف تعمل:",
         "howItWorksDescription": "تطبق هذه الأداة تقنية القراءة السريعة من خلال إبراز الأحرف الأولى من الكلمات. يوجه هذا عينيك عبر النص ويكمل عقلك الكلمة، مما يتيح لك القراءة بشكل أسرع وبتركيز أكبر."
       }
+    },
+    "basic-calculator": {
+      "title": "الآلة الحاسبة الأساسية",
+      "description": "Online tool.",
+      "ui": {
+        "title": "الآلة الحاسبة الأساسية",
+        "copy": "ينسخ",
+        "copied": "منقول",
+        "errorDivZero": "خطأ: القسمة على 0"
+      }
+    },
+    "scientific-calculator": {
+      "title": "الحاسبة العلمية",
+      "description": "Online tool.",
+      "ui": {
+        "title": "الحاسبة العلمية",
+        "degrees": "درجة",
+        "radians": "راد",
+        "copy": "ينسخ",
+        "copied": "منقول"
+      }
+    },
+    "percentage-change-calculator": {
+      "title": "حاسبة النسبة المئوية للتغير",
+      "description": "Online tool.",
+      "ui": {
+        "title": "حاسبة النسبة المئوية للتغير",
+        "initialValue": "القيمة الأولية (V₁)",
+        "finalValue": "القيمة النهائية (V₂)",
+        "reset": "إعادة ضبط",
+        "increase": "يزيد",
+        "decrease": "ينقص",
+        "noChange": "لا تغيير",
+        "absDiff": "الفرق المطلق",
+        "multiplier": "المضاعف",
+        "copyResults": "نسخ النتائج",
+        "copied": "الحساب المنسوخ"
+      }
+    },
+    "percentage-difference-calculator": {
+      "title": "حاسبة نسبة الفرق",
+      "description": "Online tool.",
+      "ui": {
+        "title": "حاسبة نسبة الفرق",
+        "valueA": "القيمة الأولى (أ)",
+        "valueB": "القيمة الثانية (ب)",
+        "reset": "إعادة ضبط",
+        "percentDiff": "فرق النسبة المئوية",
+        "absDiff": "الفرق المطلق (|أ - ب|)",
+        "average": "المتوسط ​​((أ + ب) / 2)",
+        "copyResults": "نسخ النتائج",
+        "copied": "منقول"
+      }
+    },
+    "test-grade-calculator": {
+      "title": "حاسبة درجة الاختبار",
+      "description": "Online tool.",
+      "ui": {
+        "title": "حاسبة درجة الاختبار",
+        "totalQuestions": "العدد الإجمالي للأسئلة",
+        "wrongQuestions": "عدد الأسئلة الخاطئة/الفائتة",
+        "reset": "إعادة ضبط",
+        "scorePercentage": "النسبة المئوية للنتيجة",
+        "passing": "تمرير",
+        "failing": "فاشل",
+        "letterGrade": "درجة الرسالة",
+        "gpaValue": "قيمة المعدل التراكمي",
+        "gradingChart": "مخطط الدرجات",
+        "missed": "مٌفتَقد",
+        "copyGrade": "نسخ نتائج الصف",
+        "copied": "الدرجة المنسوخة"
+      }
+    },
+    "hex-to-rgb": {
+      "title": "محول HEX إلى RGB",
+      "description": "Online tool.",
+      "ui": {
+        "title": "محول HEX إلى RGB",
+        "hexColor": "رمز اللون السداسي",
+        "opacity": "التعتيم (ألفا)",
+        "reset": "إعادة ضبط",
+        "rgbFormat": "تنسيق RGB",
+        "rgbaFormat": "تنسيق RGBA",
+        "hslFormat": "تنسيق إتش إس إل",
+        "cssVar": "متغير CSS"
+      }
+    },
+    "rgb-to-hex": {
+      "title": "محول RGB إلى HEX",
+      "description": "Online tool.",
+      "ui": {
+        "title": "محول RGB إلى HEX",
+        "red": "أحمر (ص)",
+        "green": "أخضر (ز)",
+        "blue": "أزرق (ب)",
+        "reset": "إعادة ضبط",
+        "hexUpper": "سداسي عشري (أحرف كبيرة)",
+        "hexLower": "سداسي عشري (أحرف صغيرة)",
+        "rgbString": "سلسلة RGB",
+        "cssColor": "كود اللون CSS"
+      }
+    },
+    "color-picker": {
+      "title": "منتقي الألوان ومفتش لوحة الألوان",
+      "description": "Online tool.",
+      "ui": {
+        "title": "منتقي الألوان ومفتش لوحة الألوان",
+        "pickColor": "اختر أي لون",
+        "randomColor": "لون عشوائي",
+        "reset": "إعادة ضبط",
+        "colorHarmonies": "تناغمات الألوان"
+      }
+    },
+    "color-palette-generator": {
+      "title": "مولد لوحة الألوان",
+      "description": "Online tool.",
+      "ui": {
+        "title": "مولد لوحة الألوان",
+        "instructions": "اضغط على مفتاح المسافة أو انقر فوق \"إنشاء\" لإنشاء لوحات جديدة.",
+        "generateNew": "توليد جديد",
+        "exportCss": "تصدير CSS",
+        "copiedCss": "نسخ CSS"
+      }
+    },
+    "contrast-checker": {
+      "title": "مدقق نسبة تباين الألوان (WCAG)",
+      "description": "Online tool.",
+      "ui": {
+        "title": "مدقق نسبة تباين الألوان (WCAG)",
+        "textColor": "النص / اللون الأمامي",
+        "bgColor": "لون الخلفية",
+        "swap": "تبديل",
+        "contrastRatio": "نسبة التباين",
+        "passesAA": "يمر WCAG AA",
+        "failsAA": "فشل WCAG AA",
+        "normalText": "نص عادي",
+        "largeText": "نص كبير (18 نقطة+)",
+        "uiComponents": "مكونات واجهة المستخدم",
+        "copyResults": "نسخ النتائج",
+        "copied": "منقول"
+      }
+    },
+    "pin-generator": {
+      "title": "مولد PIN عشوائي",
+      "description": "Online tool.",
+      "ui": {
+        "title": "مولد PIN عشوائي",
+        "pinLength": "طول رقم التعريف الشخصي",
+        "regenerate": "تجديد",
+        "avoidSequences": "تجنب التسلسلات (على سبيل المثال 1234، 4321)",
+        "noRepeats": "لا توجد أرقام متكررة (الحد الأقصى 10)",
+        "generatedPins": "رموز PIN التي تم إنشاؤها",
+        "generateNewPins": "إنشاء أرقام PIN جديدة",
+        "copyAll": "نسخ الكل",
+        "copiedAll": "منسوخ الكل"
+      }
+    },
+    "strong-password-generator": {
+      "title": "مولد كلمة مرور قوية",
+      "description": "Online tool.",
+      "ui": {
+        "title": "مولد كلمة مرور قوية",
+        "regenerate": "تجديد",
+        "copy": "ينسخ",
+        "copied": "منقول",
+        "passwordStrength": "قوة كلمة المرور",
+        "passwordLength": "طول كلمة المرور",
+        "includeUppercase": "تضمين الأحرف الكبيرة (A-Z)",
+        "includeLowercase": "تضمين الأحرف الصغيرة (a-z)",
+        "includeNumbers": "تضمين الأرقام (0-9)",
+        "includeSymbols": "تضمين الرموز (!@#$%)",
+        "excludeAmbiguous": "استبعاد الأحرف الغامضة (مثل 0، O، 1، l، I)",
+        "generateBtn": "توليد كلمة مرور قوية"
+      }
+    },
+    "bcrypt-generator": {
+      "title": "Bcrypt مولد التجزئة والتحقق",
+      "description": "Online tool.",
+      "ui": {
+        "title": "Bcrypt مولد التجزئة والتحقق",
+        "generateTitle": "1. إنشاء تجزئة Bcrypt",
+        "plaintextPassword": "كلمة مرور نص عادي",
+        "costRounds": "التكلفة / الجولات",
+        "generateBtn": "إنشاء تجزئة Bcrypt",
+        "computing": "حوسبة الهاش...",
+        "verifyTitle": "2. تحقق من تجزئة Bcrypt",
+        "testPassword": "كلمة المرور للاختبار",
+        "bcryptHash": "بكريبت هاش",
+        "checkMatch": "تحقق من مطابقة كلمة المرور",
+        "matchSuccess": "مباراة! يتم تقييم كلمة المرور بشكل صحيح لتجزئة bcrypt هذه.",
+        "matchFail": "عدم تطابق أو تجزئة غير صالحة! كلمة المرور لا تتطابق مع هذا التجزئة."
+      }
+    },
+    "hash-generator": {
+      "title": "الكل في واحد مولد التجزئة التشفير",
+      "description": "Online tool.",
+      "ui": {
+        "title": "الكل في واحد مولد التجزئة التشفير",
+        "inputString": "إدخال النص/السلسلة",
+        "clear": "واضح",
+        "copyAll": "نسخ كافة التجزئة"
+      }
+    },
+    "sha512-hash-generator": {
+      "title": "SHA-512 مولد التجزئة",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-512 مولد التجزئة",
+        "inputString": "سلسلة الإدخال",
+        "hmacMode": "وضع HMAC",
+        "hmacKey": "مفتاح HMAC السري",
+        "digestLabel": "ملخص SHA-512 (128 حرفًا سداسيًا عشريًا / 512 بت)",
+        "verifyLabel": "التحقق من مطابقة المجموع الاختباري",
+        "copy": "ينسخ",
+        "copied": "منقول"
+      }
+    },
+    "md5-hash-generator": {
+      "title": "مولد تجزئة MD5",
+      "description": "Online tool.",
+      "ui": {
+        "title": "مولد تجزئة MD5",
+        "inputString": "سلسلة الإدخال",
+        "digestLabel": "ملخص تجزئة MD5 (32 حرفًا سداسيًا عشريًا)",
+        "verifyLabel": "مقارنة والتحقق من المجموع الاختباري",
+        "copy": "ينسخ",
+        "copied": "منقول"
+      }
+    },
+    "sha1-hash-generator": {
+      "title": "SHA-1 مولد التجزئة",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-1 مولد التجزئة",
+        "inputString": "سلسلة الإدخال",
+        "digestLabel": "ملخص SHA-1 (40 حرفًا سداسيًا عشريًا / 160 بت)",
+        "verifyLabel": "مقارنة والتحقق من المجموع الاختباري",
+        "copy": "ينسخ",
+        "copied": "منقول"
+      }
+    },
+    "sha256-hash-generator": {
+      "title": "SHA-256 مولد التجزئة",
+      "description": "Online tool.",
+      "ui": {
+        "title": "SHA-256 مولد التجزئة",
+        "inputString": "سلسلة الإدخال",
+        "digestLabel": "ملخص SHA-256 (64 حرفًا سداسيًا عشريًا / 256 بت)",
+        "verifyLabel": "مقارنة والتحقق من المجموع الاختباري",
+        "copy": "ينسخ",
+        "copied": "منقول"
+      }
+    },
+    "barcode-generator": {
+      "title": "مولد الباركود",
+      "description": "Online tool.",
+      "ui": {
+        "title": "مولد الباركود",
+        "barcodeData": "بيانات/رقم الباركود",
+        "format": "التنسيق القياسي",
+        "showText": "إظهار تسمية نصية يمكن قراءتها تحت الرمز الشريطي",
+        "downloadSvg": "تنزيل SVG",
+        "copySvg": "انسخ كود SVG",
+        "copiedSvg": "تم نسخ رمز SVG",
+        "reset": "إعادة ضبط"
+      }
+    },
+    "markdown-editor": {
+      "title": "محرر تخفيض السعر",
+      "description": "Online tool.",
+      "ui": {
+        "title": "محرر تخفيض السعر",
+        "edit": "يحرر",
+        "split": "ينقسم",
+        "preview": "معاينة",
+        "exportMd": "تصدير .md",
+        "copy": "ينسخ",
+        "copied": "منقول",
+        "words": "كلمات",
+        "characters": "الشخصيات",
+        "minRead": "دقيقة قراءة"
+      }
+    },
+    "text-case-converter": {
+      "title": "محول حالة النص",
+      "description": "Online tool.",
+      "ui": {
+        "title": "محول حالة النص",
+        "originalText": "النص الأصلي",
+        "clear": "واضح",
+        "copy": "ينسخ",
+        "copied": "منقول",
+        "words": "كلمات",
+        "characters": "الشخصيات"
+      }
+    },
+    "morse-code-translator": {
+      "title": "مورس كود المترجم",
+      "description": "Online tool.",
+      "ui": {
+        "title": "مورس كود المترجم",
+        "switchDirection": "تبديل الاتجاه",
+        "clear": "واضح",
+        "textInput": "إدخال نص عادي",
+        "morseInput": "إدخال شفرة مورس (النقاط '.' والشرطات '-')",
+        "morseOutput": "إخراج كود مورس",
+        "textOutput": "ترجمة نص عادي",
+        "playAudio": "تشغيل صوت مورس",
+        "playing": "تشغيل الصفافير...",
+        "copy": "ينسخ",
+        "copied": "منقول"
+      }
+    },
+    "flip-a-coin": {
+      "title": "اقلب عملة معدنية",
+      "description": "Online tool.",
+      "ui": {
+        "title": "اقلب عملة معدنية",
+        "resetStats": "إعادة تعيين الإحصائيات",
+        "heads": "رؤوس",
+        "tails": "ذيول",
+        "flipping": "يتقلب في الهواء...",
+        "flipCoin": "الوجه عملة",
+        "totalFlips": "إجمالي التقلبات"
+      }
+    },
+    "roll-a-die": {
+      "title": "بكرة النرد التفاعلية",
+      "description": "Online tool.",
+      "ui": {
+        "title": "بكرة النرد التفاعلية",
+        "diceCount": "عدد النرد",
+        "dieType": "نوع القالب (الجوانب)",
+        "totalSum": "مجموع اللفة",
+        "rollDice": "لفة النرد",
+        "rolling": "المتداول..."
+      }
+    },
+    "spin-the-wheel": {
+      "title": "قم بتدوير عجلة القرار",
+      "description": "Online tool.",
+      "ui": {
+        "title": "قم بتدوير عجلة القرار",
+        "spinBtn": "أدر العجلة",
+        "spinning": "الغزل...",
+        "winner": "لدينا فائز!",
+        "wheelSlices": "شرائح العجلة",
+        "addChoice": "إضافة خيار..."
+      }
+    },
+    "yes-or-no-wheel": {
+      "title": "نعم أو لا عجلة القرار",
+      "description": "Online tool.",
+      "ui": {
+        "title": "نعم أو لا عجلة القرار",
+        "includeMaybe": "تضمين \"ربما\"",
+        "deciding": "تقرر مصيرك...",
+        "spinBtn": "أدر العجلة",
+        "spinning": "الغزل...",
+        "yesCount": "نعم العد",
+        "noCount": "لا يوجد عدد"
+      }
+    },
+    "truth-or-dare-generator": {
+      "title": "الحقيقة أو يجرؤ المولد",
+      "description": "Online tool.",
+      "ui": {
+        "title": "الحقيقة أو يجرؤ المولد",
+        "randomChoice": "اختيار عشوائي",
+        "truth": "حقيقة",
+        "dare": "تجرؤ",
+        "copy": "نسخة موجه",
+        "copied": "منقول"
+      }
     }
   },
   "Search": {

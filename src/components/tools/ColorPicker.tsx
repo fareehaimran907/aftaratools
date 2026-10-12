@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Copy, Check, Pipette, RefreshCw, Sparkles } from "lucide-react";
 
 export function ColorPicker() {
+  const t = useTranslations("Tools.color-picker.ui");
   const [color, setColor] = useState("#6366F1");
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
 
@@ -75,7 +78,7 @@ export function ColorPicker() {
       <div className="flex items-center justify-between mb-6 pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Pipette className="w-5 h-5" />
-          <span>Color Picker & Palette Inspector</span>
+          <span>{t("title")}</span>
         </div>
         <Button
           variant="ghost"
@@ -84,7 +87,7 @@ export function ColorPicker() {
           className="h-8 text-xs text-muted-foreground"
         >
           <RefreshCw className="w-3.5 h-3.5 mr-1" />
-          Reset
+          {t("reset")}
         </Button>
       </div>
 
@@ -116,7 +119,7 @@ export function ColorPicker() {
         {/* Quick controls */}
         <div className="space-y-4 flex flex-col justify-center">
           <div className="space-y-1.5">
-            <label className="text-xs font-semibold text-muted-foreground">Pick Any Color</label>
+            <label className="text-xs font-semibold text-muted-foreground">{t("pickColor")}</label>
             <div className="flex gap-2">
               <input
                 type="color"
@@ -141,12 +144,12 @@ export function ColorPicker() {
             className="w-full text-xs font-semibold"
           >
             <Sparkles className="w-3.5 h-3.5 mr-1.5 text-primary" />
-            Random Color
+            {t("randomColor")}
           </Button>
         </div>
       </div>
 
-      {/* Color Harmonies */}
+      {/* {t("colorHarmonies")} */}
       <div className="mb-8 space-y-3">
         <h4 className="text-sm font-semibold text-foreground">Color Harmonies</h4>
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">

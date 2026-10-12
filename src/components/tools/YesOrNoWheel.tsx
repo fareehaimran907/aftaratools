@@ -1,10 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { RotateCw, CheckCircle2, XCircle, HelpCircle } from "lucide-react";
 
 export function YesOrNoWheel() {
+  const t = useTranslations("Tools.yes-or-no-wheel.ui");
   const [includeMaybe, setIncludeMaybe] = useState(false);
   const [rotation, setRotation] = useState(0);
   const [isSpinning, setIsSpinning] = useState(false);
@@ -42,7 +45,7 @@ export function YesOrNoWheel() {
       <div className="flex items-center justify-between pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <HelpCircle className="w-5 h-5" />
-          <span>Yes or No Wheel Decider</span>
+          <span>{t("title")}</span>
         </div>
         <label className="flex items-center gap-2 text-xs font-medium cursor-pointer">
           <input
@@ -51,7 +54,7 @@ export function YesOrNoWheel() {
             onChange={(e) => setIncludeMaybe(e.target.checked)}
             className="rounded border-border text-primary"
           />
-          <span>Include &quot;Maybe&quot;</span>
+          <span>{t("includeMaybe")}</span>
         </label>
       </div>
 
@@ -96,7 +99,7 @@ export function YesOrNoWheel() {
         <div className="mt-6 min-h-[3rem] flex items-center justify-center">
           {isSpinning ? (
             <span className="text-lg font-bold text-muted-foreground animate-pulse">
-              Deciding your fate...
+              {t("deciding")}
             </span>
           ) : result ? (
             <div className="text-3xl font-black uppercase tracking-wider flex items-center gap-2">
@@ -119,17 +122,17 @@ export function YesOrNoWheel() {
         className="w-full h-12 font-bold text-base bg-primary shadow-lg shadow-primary/20"
       >
         <RotateCw className={`w-4 h-4 mr-2 ${isSpinning ? "animate-spin" : ""}`} />
-        {isSpinning ? "Spinning..." : "SPIN THE WHEEL"}
+        {isSpinning ? t("spinning") : t("spinBtn")}
       </Button>
 
       {/* History Stats */}
       <div className="grid grid-cols-2 gap-3 pt-3 border-t border-border/60 text-center">
         <div className="p-3 bg-emerald-500/10 border border-emerald-500/20 rounded-2xl">
-          <span className="text-xs text-muted-foreground block font-medium">YES Count</span>
+          <span className="text-xs text-muted-foreground block font-medium">{t("yesCount")}</span>
           <span className="text-xl font-bold font-mono text-emerald-500">{yesCount}</span>
         </div>
         <div className="p-3 bg-rose-500/10 border border-rose-500/20 rounded-2xl">
-          <span className="text-xs text-muted-foreground block font-medium">NO Count</span>
+          <span className="text-xs text-muted-foreground block font-medium">{t("noCount")}</span>
           <span className="text-xl font-bold font-mono text-rose-500">{noCount}</span>
         </div>
       </div>

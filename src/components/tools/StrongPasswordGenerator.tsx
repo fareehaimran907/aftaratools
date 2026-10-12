@@ -1,10 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Copy, Check, Lock, RefreshCw, ShieldCheck, ShieldAlert, Sparkles } from "lucide-react";
 
 export function StrongPasswordGenerator() {
+  const t = useTranslations("Tools.strong-password-generator.ui");
   const [length, setLength] = useState(24);
   const [useUpper, setUseUpper] = useState(true);
   const [useLower, setUseLower] = useState(true);
@@ -80,11 +83,11 @@ export function StrongPasswordGenerator() {
       <div className="flex items-center justify-between mb-6 pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Lock className="w-5 h-5" />
-          <span>Strong Password Generator</span>
+          <span>{t("title")}</span>
         </div>
         <Button variant="ghost" size="sm" onClick={generate} className="h-8 text-xs text-muted-foreground">
           <RefreshCw className="w-3.5 h-3.5 mr-1" />
-          Regenerate
+          {t("regenerate")}
         </Button>
       </div>
 
@@ -99,14 +102,14 @@ export function StrongPasswordGenerator() {
           className="absolute right-3 top-1/2 -translate-y-1/2 h-10 px-3 font-semibold shadow-sm"
         >
           {copied ? <Check className="w-4 h-4 text-emerald-400 mr-1" /> : <Copy className="w-4 h-4 mr-1" />}
-          {copied ? "Copied" : "Copy"}
+          {copied ? t("copied") : t("copy")}
         </Button>
       </div>
 
       {/* Strength & Entropy meter */}
       <div className="space-y-2 mb-8">
         <div className="flex justify-between items-center text-xs font-semibold">
-          <span className="text-muted-foreground">Password Strength: <strong className={strength.text}>{strength.label}</strong></span>
+          <span className="text-muted-foreground">{t("passwordStrength")}: <strong className={strength.text}>{strength.label}</strong></span>
           <span className="text-muted-foreground font-mono">{entropy} bits entropy</span>
         </div>
         <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
@@ -122,7 +125,7 @@ export function StrongPasswordGenerator() {
         {/* Length Slider */}
         <div className="space-y-2">
           <div className="flex justify-between items-center text-sm font-semibold">
-            <span>Password Length</span>
+            <span>{t("passwordLength")}</span>
             <span className="font-mono text-base font-bold text-primary">{length}</span>
           </div>
           <input
@@ -144,7 +147,7 @@ export function StrongPasswordGenerator() {
               onChange={(e) => setUseUpper(e.target.checked)}
               className="rounded border-border text-primary"
             />
-            <span>Include Uppercase (A-Z)</span>
+            <span>{t("includeUppercase")}</span>
           </label>
 
           <label className="flex items-center gap-2.5 text-xs font-medium cursor-pointer p-3 rounded-xl border border-border/60 bg-muted/20">
@@ -154,7 +157,7 @@ export function StrongPasswordGenerator() {
               onChange={(e) => setUseLower(e.target.checked)}
               className="rounded border-border text-primary"
             />
-            <span>Include Lowercase (a-z)</span>
+            <span>{t("includeLowercase")}</span>
           </label>
 
           <label className="flex items-center gap-2.5 text-xs font-medium cursor-pointer p-3 rounded-xl border border-border/60 bg-muted/20">
@@ -164,7 +167,7 @@ export function StrongPasswordGenerator() {
               onChange={(e) => setUseNumbers(e.target.checked)}
               className="rounded border-border text-primary"
             />
-            <span>Include Numbers (0-9)</span>
+            <span>{t("includeNumbers")}</span>
           </label>
 
           <label className="flex items-center gap-2.5 text-xs font-medium cursor-pointer p-3 rounded-xl border border-border/60 bg-muted/20">
@@ -174,7 +177,7 @@ export function StrongPasswordGenerator() {
               onChange={(e) => setUseSymbols(e.target.checked)}
               className="rounded border-border text-primary"
             />
-            <span>Include Symbols (!@#$%)</span>
+            <span>{t("includeSymbols")}</span>
           </label>
 
           <label className="sm:col-span-2 flex items-center gap-2.5 text-xs font-medium cursor-pointer p-3 rounded-xl border border-border/60 bg-muted/20">
@@ -184,13 +187,13 @@ export function StrongPasswordGenerator() {
               onChange={(e) => setExcludeAmbiguous(e.target.checked)}
               className="rounded border-border text-primary"
             />
-            <span>Exclude Ambiguous Characters (e.g. 0, O, 1, l, I)</span>
+            <span>{t("excludeAmbiguous")}</span>
           </label>
         </div>
       </div>
 
       <Button onClick={generate} className="w-full h-12 font-bold text-base bg-primary">
-        Generate Strong Password
+        {t("generateBtn")}
       </Button>
     </div>
   );

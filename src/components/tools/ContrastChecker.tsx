@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Copy, Check, Contrast, RefreshCw, CheckCircle2, XCircle, ArrowRightLeft } from "lucide-react";
 
 export function ContrastChecker() {
+  const t = useTranslations("Tools.contrast-checker.ui");
   const [foreground, setForeground] = useState("#FFFFFF");
   const [background, setBackground] = useState("#1E293B");
   const [copied, setCopied] = useState(false);
@@ -51,18 +54,18 @@ export function ContrastChecker() {
       <div className="flex items-center justify-between mb-6 pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Contrast className="w-5 h-5" />
-          <span>Color Contrast Ratio Checker (WCAG)</span>
+          <span>{t("title")}</span>
         </div>
         <Button variant="ghost" size="sm" onClick={swapColors} className="h-8 text-xs text-muted-foreground">
           <ArrowRightLeft className="w-3.5 h-3.5 mr-1" />
-          Swap
+          {t("swap")}
         </Button>
       </div>
 
       {/* Color Selectors */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
         <div className="space-y-2">
-          <label className="text-sm font-medium text-muted-foreground">Text / Foreground Color</label>
+          <label className="text-sm font-medium text-muted-foreground">{t("textColor")}</label>
           <div className="flex gap-2">
             <Input
               type="text"
@@ -80,7 +83,7 @@ export function ContrastChecker() {
         </div>
 
         <div className="space-y-2">
-          <label className="text-sm font-medium text-muted-foreground">Background Color</label>
+          <label className="text-sm font-medium text-muted-foreground">{t("bgColor")}</label>
           <div className="flex gap-2">
             <Input
               type="text"
@@ -103,7 +106,7 @@ export function ContrastChecker() {
         {/* Ratio Display */}
         <div className="p-6 rounded-2xl border border-border bg-muted/20 flex flex-col justify-center items-center text-center">
           <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1">
-            Contrast Ratio
+            {t("contrastRatio")}
           </span>
           <div className="text-5xl sm:text-6xl font-mono font-black text-foreground">
             {formattedRatio}:1
@@ -113,7 +116,7 @@ export function ContrastChecker() {
               normalAA ? "bg-emerald-500/10 text-emerald-500" : "bg-rose-500/10 text-rose-500"
             }`}
           >
-            {normalAA ? "Passes WCAG AA" : "Fails WCAG AA"}
+            {normalAA ? t("passesAA") : t("failsAA")}
           </span>
         </div>
 
@@ -146,7 +149,7 @@ export function ContrastChecker() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           {/* Normal Text */}
           <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl">
-            <span className="text-xs font-semibold text-muted-foreground block mb-2">Normal Text</span>
+            <span className="text-xs font-semibold text-muted-foreground block mb-2">{t("normalText")}</span>
             <div className="space-y-1.5 text-xs">
               <div className="flex items-center justify-between font-mono">
                 <span>AA (4.5:1)</span>
@@ -161,7 +164,7 @@ export function ContrastChecker() {
 
           {/* Large Text */}
           <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl">
-            <span className="text-xs font-semibold text-muted-foreground block mb-2">Large Text (18pt+)</span>
+            <span className="text-xs font-semibold text-muted-foreground block mb-2">{t("largeText")}</span>
             <div className="space-y-1.5 text-xs">
               <div className="flex items-center justify-between font-mono">
                 <span>AA (3.0:1)</span>
@@ -176,7 +179,7 @@ export function ContrastChecker() {
 
           {/* UI Components */}
           <div className="p-4 bg-muted/30 border border-border/50 rounded-2xl">
-            <span className="text-xs font-semibold text-muted-foreground block mb-2">UI Components</span>
+            <span className="text-xs font-semibold text-muted-foreground block mb-2">{t("uiComponents")}</span>
             <div className="space-y-1.5 text-xs">
               <div className="flex items-center justify-between font-mono">
                 <span>AA (3.0:1)</span>
@@ -190,7 +193,7 @@ export function ContrastChecker() {
       <div className="flex justify-end pt-2">
         <Button variant="outline" size="sm" onClick={copyResult} className="text-xs">
           {copied ? <Check className="w-3.5 h-3.5 text-emerald-500 mr-1.5" /> : <Copy className="w-3.5 h-3.5 mr-1.5" />}
-          {copied ? "Copied" : "Copy Results"}
+          {copied ? t("copied") : t("copyResults")}
         </Button>
       </div>
     </div>

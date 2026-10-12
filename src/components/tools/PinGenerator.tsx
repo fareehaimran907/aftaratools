@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Copy, Check, RotateCcw, Key, Shield, RefreshCw } from "lucide-react";
 
 export function PinGenerator() {
+  const t = useTranslations("Tools.pin-generator.ui");
   const [length, setLength] = useState(4);
   const [quantity, setQuantity] = useState(5);
   const [excludeRepeated, setExcludeRepeated] = useState(false);
@@ -74,11 +77,11 @@ export function PinGenerator() {
       <div className="flex items-center justify-between mb-6 pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Key className="w-5 h-5" />
-          <span>Random PIN Generator</span>
+          <span>{t("title")}</span>
         </div>
         <Button variant="outline" size="sm" onClick={generatePins} className="h-8 text-xs font-semibold">
           <RefreshCw className="w-3.5 h-3.5 mr-1.5" />
-          Regenerate
+          {t("regenerate")}
         </Button>
       </div>
 
@@ -86,7 +89,7 @@ export function PinGenerator() {
       <div className="space-y-4 mb-6">
         <div>
           <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block mb-2">
-            PIN Length
+            {t("pinLength")}
           </label>
           <div className="grid grid-cols-4 gap-2">
             {[4, 6, 8, 10].map((len) => (
@@ -111,7 +114,7 @@ export function PinGenerator() {
               onChange={(e) => setExcludeSequential(e.target.checked)}
               className="rounded border-border text-primary"
             />
-            <span>Avoid sequences (e.g. 1234, 4321)</span>
+            <span>{t("avoidSequences")}</span>
           </label>
 
           <label className="flex items-center gap-2 text-xs font-medium cursor-pointer p-3 rounded-xl border border-border/60 bg-muted/20">
@@ -121,7 +124,7 @@ export function PinGenerator() {
               onChange={(e) => setExcludeRepeated(e.target.checked)}
               className="rounded border-border text-primary"
             />
-            <span>No repeated digits (max 10)</span>
+            <span>{t("noRepeats")}</span>
           </label>
         </div>
       </div>
@@ -129,10 +132,10 @@ export function PinGenerator() {
       {/* Generated PINs List */}
       <div className="space-y-2 mb-6">
         <div className="flex items-center justify-between text-xs text-muted-foreground font-semibold">
-          <span>Generated PIN Codes ({pins.length})</span>
+          <span>{t("generatedPins")} ({pins.length})</span>
           <Button variant="ghost" size="sm" onClick={copyAllPins} className="h-6 text-xs px-2">
             {copiedAll ? <Check className="w-3 h-3 text-emerald-500 mr-1" /> : <Copy className="w-3 h-3 mr-1" />}
-            {copiedAll ? "Copied All" : "Copy All"}
+            {copiedAll ? t("copiedAll") : t("copyAll")}
           </Button>
         </div>
 
@@ -159,7 +162,7 @@ export function PinGenerator() {
       </div>
 
       <Button onClick={generatePins} className="w-full h-12 font-bold text-base bg-primary">
-        Generate New PINs
+        {t("generateNewPins")}
       </Button>
     </div>
   );

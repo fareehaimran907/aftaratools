@@ -1,5 +1,7 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Copy, Check, Radio, Volume2, ArrowRightLeft, RotateCcw } from "lucide-react";
@@ -22,6 +24,7 @@ const REVERSE_MORSE: Record<string, string> = Object.entries(MORSE_MAP).reduce(
 );
 
 export function MorseCodeTranslator() {
+  const t = useTranslations("Tools.morse-code-translator.ui");
   const [textToMorse, setTextToMorse] = useState(true);
   const [input, setInput] = useState("SOS");
   const [copied, setCopied] = useState(false);
@@ -110,15 +113,15 @@ export function MorseCodeTranslator() {
       <div className="flex items-center justify-between pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Radio className="w-5 h-5" />
-          <span>Morse Code Translator</span>
+          <span>{t("title")}</span>
         </div>
         <div className="flex items-center gap-2">
           <Button variant="outline" size="sm" onClick={swap} className="h-8 text-xs">
             <ArrowRightLeft className="w-3.5 h-3.5 mr-1" />
-            Switch Direction
+            {t("switchDirection")}
           </Button>
           <Button variant="ghost" size="sm" onClick={() => setInput("")} className="h-8 text-xs text-muted-foreground">
-            Clear
+            {t("clear")}
           </Button>
         </div>
       </div>
@@ -126,7 +129,7 @@ export function MorseCodeTranslator() {
       {/* Input */}
       <div className="space-y-2">
         <label className="text-sm font-medium text-muted-foreground">
-          {textToMorse ? "Plain Text Input" : "Morse Code Input (Dots '.' and Dashes '-')"}
+          {textToMorse ? t("textInput") : t("morseInput")}
         </label>
         <textarea
           rows={3}
@@ -140,7 +143,7 @@ export function MorseCodeTranslator() {
       {/* Output */}
       <div className="space-y-2">
         <div className="flex justify-between items-center text-sm font-medium text-muted-foreground">
-          <span>{textToMorse ? "Morse Code Output" : "Plain Text Translation"}</span>
+          <span>{textToMorse ? t("morseOutput") : t("textOutput")}</span>
           <div className="flex items-center gap-2">
             <Button
               variant="outline"
@@ -150,11 +153,11 @@ export function MorseCodeTranslator() {
               className="h-8 text-xs"
             >
               <Volume2 className="w-3.5 h-3.5 mr-1 text-primary" />
-              {isPlaying ? "Playing Beeps..." : "Play Morse Audio"}
+              {isPlaying ? t("playing") : t("playAudio")}
             </Button>
             <Button variant="default" size="sm" onClick={copy} disabled={!output} className="h-8 text-xs font-semibold">
               {copied ? <Check className="w-3.5 h-3.5 text-emerald-400 mr-1" /> : <Copy className="w-3.5 h-3.5 mr-1" />}
-              {copied ? "Copied" : "Copy"}
+              {copied ? t("copied") : t("copy")}
             </Button>
           </div>
         </div>

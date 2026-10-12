@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Copy, Check, Hash, RefreshCw } from "lucide-react";
 import CryptoJS from "crypto-js";
 
 export function HashGenerator() {
+  const t = useTranslations("Tools.hash-generator.ui");
   const [input, setInput] = useState("Hello, World!");
   const [uppercase, setUppercase] = useState(false);
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
@@ -54,7 +57,7 @@ export function HashGenerator() {
       <div className="flex items-center justify-between pb-4 border-b border-border/60">
         <div className="flex items-center gap-2 text-primary font-semibold text-lg">
           <Hash className="w-5 h-5" />
-          <span>All-in-One Cryptographic Hash Generator</span>
+          <span>{t("title")}</span>
         </div>
         <div className="flex items-center gap-2">
           <Button
@@ -66,14 +69,14 @@ export function HashGenerator() {
             {uppercase ? "UPPERCASE" : "lowercase"}
           </Button>
           <Button variant="ghost" size="sm" onClick={() => setInput("")} className="text-xs h-8 text-muted-foreground">
-            Clear
+            {t("clear")}
           </Button>
         </div>
       </div>
 
       {/* Input Text Area */}
       <div className="space-y-2">
-        <label className="text-sm font-medium text-muted-foreground">Input Text / String</label>
+        <label className="text-sm font-medium text-muted-foreground">{t("inputString")}</label>
         <textarea
           rows={3}
           value={input}
@@ -89,7 +92,7 @@ export function HashGenerator() {
           <span>Cryptographic Hash Outputs</span>
           <Button variant="ghost" size="sm" onClick={copyAll} className="h-6 text-xs px-2">
             {copiedKey === "all" ? <Check className="w-3 h-3 text-emerald-500 mr-1" /> : <Copy className="w-3 h-3 mr-1" />}
-            Copy All Hashes
+            {t("copyAll")}
           </Button>
         </div>
 

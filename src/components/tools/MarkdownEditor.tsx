@@ -1,5 +1,7 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
@@ -18,6 +20,7 @@ import {
 } from "lucide-react";
 
 export function MarkdownEditor() {
+  const t = useTranslations("Tools.markdown-editor.ui");
   const [markdown, setMarkdown] = useState(`# Welcome to Markdown Editor
 
 This is a **live, real-time** markdown editor and preview tool.
@@ -127,30 +130,30 @@ function greet(name) {
               onClick={() => setMode("edit")}
               className={`px-2.5 py-1 ${mode === "edit" ? "bg-primary text-primary-foreground font-semibold" : "bg-muted/40"}`}
             >
-              Edit
+              {t("edit")}
             </button>
             <button
               onClick={() => setMode("split")}
               className={`px-2.5 py-1 ${mode === "split" ? "bg-primary text-primary-foreground font-semibold" : "bg-muted/40"}`}
             >
-              Split
+              {t("split")}
             </button>
             <button
               onClick={() => setMode("preview")}
               className={`px-2.5 py-1 ${mode === "preview" ? "bg-primary text-primary-foreground font-semibold" : "bg-muted/40"}`}
             >
-              Preview
+              {t("preview")}
             </button>
           </div>
 
           <Button variant="outline" size="sm" onClick={downloadMd} className="h-8 text-xs">
             <Download className="w-3.5 h-3.5 mr-1" />
-            Export .md
+            {t("exportMd")}
           </Button>
 
           <Button variant="default" size="sm" onClick={copyMd} className="h-8 text-xs font-semibold">
             {copied ? <Check className="w-3.5 h-3.5 text-emerald-400 mr-1" /> : <Copy className="w-3.5 h-3.5 mr-1" />}
-            {copied ? "Copied" : "Copy"}
+            {copied ? t("copied") : t("copy")}
           </Button>
         </div>
       </div>
@@ -182,8 +185,8 @@ function greet(name) {
 
       {/* Footer Word Count */}
       <div className="flex justify-between items-center text-xs text-muted-foreground pt-1">
-        <span>{words} words &bull; {chars} characters</span>
-        <span>~{Math.max(1, Math.ceil(words / 200))} min read</span>
+        <span>{words} {t("words")} &bull; {chars} {t("characters")}</span>
+        <span>~{Math.max(1, Math.ceil(words / 200))} {t("minRead")}</span>
       </div>
     </div>
   );
