@@ -44,7 +44,7 @@ export async function generateMetadata({
     const s = pathnames[pathKey]?.[l] || pathnames[pathKey] || pathKey;
     const localePrefix = l === "en" ? "" : `/${l}`;
     alternates[l] =
-      `${process.env.NEXT_PUBLIC_SITE_URL || "https://aftaratools.com"}${localePrefix}${s}`;
+      `${process.env.NEXT_PUBLIC_SITE_URL || "https://aftaratools.online"}${localePrefix}${s}`;
   }
   if (routing.locales.includes("en" as any)) {
     alternates["x-default"] = alternates["en"];
@@ -177,7 +177,7 @@ export default async function CategoryPage({
       };
     });
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aftaratools.com";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aftaratools.online";
   const localePrefix = locale === "en" ? "" : `/${locale}`;
   const pathKey = `/category/${category}`;
   const slugCurrent =

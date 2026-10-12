@@ -13,7 +13,7 @@ import Script from 'next/script';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Home' });
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aftaratools.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aftaratools.online';
   const localePrefix = locale === 'en' ? '' : `/${locale}`;
   const currentUrl = `${baseUrl}${localePrefix}`;
 
@@ -103,7 +103,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     popularTools.push(...moreTools);
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aftaratools.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aftaratools.online';
   const currentUrl = `${baseUrl}${locale === 'en' ? '' : `/${locale}`}`;
 
   // Structured Data
