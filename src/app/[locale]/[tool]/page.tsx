@@ -768,6 +768,114 @@ const RandomNumberGenerator = dynamic(
     ),
   { ssr: true },
 );
+const BasicCalculator = dynamic(
+  () => import("@/components/tools/BasicCalculator").then((m) => m.BasicCalculator),
+  { ssr: true }
+);
+const ScientificCalculator = dynamic(
+  () => import("@/components/tools/ScientificCalculator").then((m) => m.ScientificCalculator),
+  { ssr: true }
+);
+const PercentageChangeCalculator = dynamic(
+  () => import("@/components/tools/PercentageChangeCalculator").then((m) => m.PercentageChangeCalculator),
+  { ssr: true }
+);
+const PercentageDifferenceCalculator = dynamic(
+  () => import("@/components/tools/PercentageDifferenceCalculator").then((m) => m.PercentageDifferenceCalculator),
+  { ssr: true }
+);
+const TestGradeCalculator = dynamic(
+  () => import("@/components/tools/TestGradeCalculator").then((m) => m.TestGradeCalculator),
+  { ssr: true }
+);
+const HexToRgb = dynamic(
+  () => import("@/components/tools/HexToRgb").then((m) => m.HexToRgb),
+  { ssr: true }
+);
+const RgbToHex = dynamic(
+  () => import("@/components/tools/RgbToHex").then((m) => m.RgbToHex),
+  { ssr: true }
+);
+const ColorPicker = dynamic(
+  () => import("@/components/tools/ColorPicker").then((m) => m.ColorPicker),
+  { ssr: true }
+);
+const ColorPaletteGenerator = dynamic(
+  () => import("@/components/tools/ColorPaletteGenerator").then((m) => m.ColorPaletteGenerator),
+  { ssr: true }
+);
+const ContrastChecker = dynamic(
+  () => import("@/components/tools/ContrastChecker").then((m) => m.ContrastChecker),
+  { ssr: true }
+);
+const PinGenerator = dynamic(
+  () => import("@/components/tools/PinGenerator").then((m) => m.PinGenerator),
+  { ssr: true }
+);
+const StrongPasswordGenerator = dynamic(
+  () => import("@/components/tools/StrongPasswordGenerator").then((m) => m.StrongPasswordGenerator),
+  { ssr: true }
+);
+const BcryptGenerator = dynamic(
+  () => import("@/components/tools/BcryptGenerator").then((m) => m.BcryptGenerator),
+  { ssr: true }
+);
+const HashGenerator = dynamic(
+  () => import("@/components/tools/HashGenerator").then((m) => m.HashGenerator),
+  { ssr: true }
+);
+const Sha512Generator = dynamic(
+  () => import("@/components/tools/Sha512Generator").then((m) => m.Sha512Generator),
+  { ssr: true }
+);
+const Md5HashGenerator = dynamic(
+  () => import("@/components/tools/Md5HashGenerator").then((m) => m.Md5HashGenerator),
+  { ssr: true }
+);
+const Sha1HashGenerator = dynamic(
+  () => import("@/components/tools/Sha1HashGenerator").then((m) => m.Sha1HashGenerator),
+  { ssr: true }
+);
+const Sha256HashGenerator = dynamic(
+  () => import("@/components/tools/Sha256HashGenerator").then((m) => m.Sha256HashGenerator),
+  { ssr: true }
+);
+const BarcodeGenerator = dynamic(
+  () => import("@/components/tools/BarcodeGenerator").then((m) => m.BarcodeGenerator),
+  { ssr: true }
+);
+const MarkdownEditor = dynamic(
+  () => import("@/components/tools/MarkdownEditor").then((m) => m.MarkdownEditor),
+  { ssr: true }
+);
+const TextCaseConverter = dynamic(
+  () => import("@/components/tools/TextCaseConverter").then((m) => m.TextCaseConverter),
+  { ssr: true }
+);
+const MorseCodeTranslator = dynamic(
+  () => import("@/components/tools/MorseCodeTranslator").then((m) => m.MorseCodeTranslator),
+  { ssr: true }
+);
+const FlipACoin = dynamic(
+  () => import("@/components/tools/FlipACoin").then((m) => m.FlipACoin),
+  { ssr: true }
+);
+const RollADie = dynamic(
+  () => import("@/components/tools/RollADie").then((m) => m.RollADie),
+  { ssr: true }
+);
+const SpinTheWheel = dynamic(
+  () => import("@/components/tools/SpinTheWheel").then((m) => m.SpinTheWheel),
+  { ssr: true }
+);
+const YesOrNoWheel = dynamic(
+  () => import("@/components/tools/YesOrNoWheel").then((m) => m.YesOrNoWheel),
+  { ssr: true }
+);
+const TruthOrDareGenerator = dynamic(
+  () => import("@/components/tools/TruthOrDareGenerator").then((m) => m.TruthOrDareGenerator),
+  { ssr: true }
+);
 
 function ToolWidget({ toolId }: { toolId: string }) {
   switch (toolId) {
@@ -969,6 +1077,60 @@ function ToolWidget({ toolId }: { toolId: string }) {
       return <QrCodeGenerator />;
     case "random-number-generator":
       return <RandomNumberGenerator />;
+    case "basic-calculator":
+      return <BasicCalculator />;
+    case "scientific-calculator":
+      return <ScientificCalculator />;
+    case "percentage-change-calculator":
+      return <PercentageChangeCalculator />;
+    case "percentage-difference-calculator":
+      return <PercentageDifferenceCalculator />;
+    case "test-grade-calculator":
+      return <TestGradeCalculator />;
+    case "hex-to-rgb":
+      return <HexToRgb />;
+    case "rgb-to-hex":
+      return <RgbToHex />;
+    case "color-picker":
+      return <ColorPicker />;
+    case "color-palette-generator":
+      return <ColorPaletteGenerator />;
+    case "contrast-checker":
+      return <ContrastChecker />;
+    case "pin-generator":
+      return <PinGenerator />;
+    case "strong-password-generator":
+      return <StrongPasswordGenerator />;
+    case "bcrypt-generator":
+      return <BcryptGenerator />;
+    case "hash-generator":
+      return <HashGenerator />;
+    case "sha512-hash-generator":
+      return <Sha512Generator />;
+    case "md5-hash-generator":
+      return <Md5HashGenerator />;
+    case "sha1-hash-generator":
+      return <Sha1HashGenerator />;
+    case "sha256-hash-generator":
+      return <Sha256HashGenerator />;
+    case "barcode-generator":
+      return <BarcodeGenerator />;
+    case "markdown-editor":
+      return <MarkdownEditor />;
+    case "text-case-converter":
+      return <TextCaseConverter />;
+    case "morse-code-translator":
+      return <MorseCodeTranslator />;
+    case "flip-a-coin":
+      return <FlipACoin />;
+    case "roll-a-die":
+      return <RollADie />;
+    case "spin-the-wheel":
+      return <SpinTheWheel />;
+    case "yes-or-no-wheel":
+      return <YesOrNoWheel />;
+    case "truth-or-dare-generator":
+      return <TruthOrDareGenerator />;
     default:
       return <p className="text-gray-500">Interactive widget for {toolId}</p>;
   }

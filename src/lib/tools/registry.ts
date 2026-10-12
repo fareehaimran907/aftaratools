@@ -5930,5 +5930,1652 @@ export const toolsRegistry: Record<string, ToolEntry> = {
         "reviewStatus": "reviewed"
       }
     }
-  }
+  },
+  "basic-calculator": {
+    "id": "basic-calculator",
+    "categoryId": "education",
+    "icon": "Calculator",
+    "ymyl": false,
+    "relatedToolIds": [
+      "scientific-calculator",
+      "percentage-calculator",
+      "fraction-calculator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "scientific-calculator": {
+    "id": "scientific-calculator",
+    "categoryId": "education",
+    "icon": "Binary",
+    "ymyl": false,
+    "relatedToolIds": [
+      "basic-calculator",
+      "fraction-calculator",
+      "binary-to-decimal"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "percentage-change-calculator": {
+    "id": "percentage-change-calculator",
+    "categoryId": "finance",
+    "icon": "Percent",
+    "ymyl": false,
+    "relatedToolIds": [
+      "percentage-calculator",
+      "percentage-increase-calculator",
+      "percentage-decrease-calculator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "percentage-difference-calculator": {
+    "id": "percentage-difference-calculator",
+    "categoryId": "finance",
+    "icon": "Percent",
+    "ymyl": false,
+    "relatedToolIds": [
+      "percentage-calculator",
+      "percentage-change-calculator",
+      "fraction-calculator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "test-grade-calculator": {
+    "id": "test-grade-calculator",
+    "categoryId": "education",
+    "icon": "GraduationCap",
+    "ymyl": false,
+    "relatedToolIds": [
+      "grade-calculator",
+      "final-grade-calculator",
+      "gpa-calculator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "barcode-generator": {
+    "id": "barcode-generator",
+    "categoryId": "developer-tools",
+    "icon": "Barcode",
+    "ymyl": false,
+    "relatedToolIds": [
+      "qr-code-generator",
+      "uuid-generator",
+      "base64-encode-decode"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "bcrypt-generator": {
+    "id": "bcrypt-generator",
+    "categoryId": "developer-tools",
+    "icon": "Shield",
+    "ymyl": false,
+    "relatedToolIds": [
+      "password-generator",
+      "md5-generator",
+      "sha256-generator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "color-palette-generator": {
+    "id": "color-palette-generator",
+    "categoryId": "developer-tools",
+    "icon": "Palette",
+    "ymyl": false,
+    "relatedToolIds": [
+      "color-picker",
+      "contrast-checker",
+      "hex-to-rgb"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "color-picker": {
+    "id": "color-picker",
+    "categoryId": "developer-tools",
+    "icon": "Pipette",
+    "ymyl": false,
+    "relatedToolIds": [
+      "color-palette-generator",
+      "hex-to-rgb",
+      "rgb-to-hex"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "contrast-checker": {
+    "id": "contrast-checker",
+    "categoryId": "developer-tools",
+    "icon": "Contrast",
+    "ymyl": false,
+    "relatedToolIds": [
+      "color-picker",
+      "color-palette-generator",
+      "hex-to-rgb"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "flip-a-coin": {
+    "id": "flip-a-coin",
+    "categoryId": "home",
+    "icon": "Coins",
+    "ymyl": false,
+    "relatedToolIds": [
+      "roll-a-die",
+      "random-number-generator",
+      "yes-or-no-wheel"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "hash-generator": {
+    "id": "hash-generator",
+    "categoryId": "developer-tools",
+    "icon": "Hash",
+    "ymyl": false,
+    "relatedToolIds": [
+      "md5-generator",
+      "sha256-generator",
+      "sha1-generator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "hex-to-rgb": {
+    "id": "hex-to-rgb",
+    "categoryId": "converters",
+    "icon": "Sparkles",
+    "ymyl": false,
+    "relatedToolIds": [
+      "rgb-to-hex",
+      "color-picker",
+      "color-palette-generator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "markdown-editor": {
+    "id": "markdown-editor",
+    "categoryId": "text",
+    "icon": "FileText",
+    "ymyl": false,
+    "relatedToolIds": [
+      "word-counter",
+      "html-minifier",
+      "character-counter"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "md5-hash-generator": {
+    "id": "md5-hash-generator",
+    "categoryId": "developer-tools",
+    "icon": "Hash",
+    "ymyl": false,
+    "relatedToolIds": [
+      "md5-generator",
+      "sha256-hash-generator",
+      "hash-generator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "morse-code-translator": {
+    "id": "morse-code-translator",
+    "categoryId": "text",
+    "icon": "Radio",
+    "ymyl": false,
+    "relatedToolIds": [
+      "binary-to-decimal",
+      "text-case-converter",
+      "word-counter"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "pin-generator": {
+    "id": "pin-generator",
+    "categoryId": "developer-tools",
+    "icon": "Key",
+    "ymyl": false,
+    "relatedToolIds": [
+      "password-generator",
+      "random-number-generator",
+      "strong-password-generator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "rgb-to-hex": {
+    "id": "rgb-to-hex",
+    "categoryId": "converters",
+    "icon": "Sparkles",
+    "ymyl": false,
+    "relatedToolIds": [
+      "hex-to-rgb",
+      "color-picker",
+      "color-palette-generator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "roll-a-die": {
+    "id": "roll-a-die",
+    "categoryId": "home",
+    "icon": "Dices",
+    "ymyl": false,
+    "relatedToolIds": [
+      "flip-a-coin",
+      "random-number-generator",
+      "spin-the-wheel"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "sha1-hash-generator": {
+    "id": "sha1-hash-generator",
+    "categoryId": "developer-tools",
+    "icon": "Hash",
+    "ymyl": false,
+    "relatedToolIds": [
+      "sha1-generator",
+      "sha256-hash-generator",
+      "hash-generator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "sha256-hash-generator": {
+    "id": "sha256-hash-generator",
+    "categoryId": "developer-tools",
+    "icon": "Hash",
+    "ymyl": false,
+    "relatedToolIds": [
+      "sha256-generator",
+      "sha512-hash-generator",
+      "hash-generator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "sha512-hash-generator": {
+    "id": "sha512-hash-generator",
+    "categoryId": "developer-tools",
+    "icon": "Hash",
+    "ymyl": false,
+    "relatedToolIds": [
+      "sha256-generator",
+      "hash-generator",
+      "bcrypt-generator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "spin-the-wheel": {
+    "id": "spin-the-wheel",
+    "categoryId": "home",
+    "icon": "RotateCw",
+    "ymyl": false,
+    "relatedToolIds": [
+      "yes-or-no-wheel",
+      "roll-a-die",
+      "flip-a-coin"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "strong-password-generator": {
+    "id": "strong-password-generator",
+    "categoryId": "developer-tools",
+    "icon": "Lock",
+    "ymyl": false,
+    "relatedToolIds": [
+      "password-generator",
+      "pin-generator",
+      "bcrypt-generator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "text-case-converter": {
+    "id": "text-case-converter",
+    "categoryId": "text",
+    "icon": "Type",
+    "ymyl": false,
+    "relatedToolIds": [
+      "word-counter",
+      "character-counter",
+      "bionic-reading-converter"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "truth-or-dare-generator": {
+    "id": "truth-or-dare-generator",
+    "categoryId": "home",
+    "icon": "HelpCircle",
+    "ymyl": false,
+    "relatedToolIds": [
+      "spin-the-wheel",
+      "flip-a-coin",
+      "roll-a-die"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
+  "yes-or-no-wheel": {
+    "id": "yes-or-no-wheel",
+    "categoryId": "home",
+    "icon": "HelpCircle",
+    "ymyl": false,
+    "relatedToolIds": [
+      "spin-the-wheel",
+      "flip-a-coin",
+      "random-number-generator"
+    ],
+    "locales": {
+      "en": {
+        "reviewStatus": "reviewed"
+      },
+      "es": {
+        "reviewStatus": "reviewed"
+      },
+      "fr": {
+        "reviewStatus": "reviewed"
+      },
+      "de": {
+        "reviewStatus": "reviewed"
+      },
+      "pt": {
+        "reviewStatus": "reviewed"
+      },
+      "it": {
+        "reviewStatus": "reviewed"
+      },
+      "ru": {
+        "reviewStatus": "reviewed"
+      },
+      "tr": {
+        "reviewStatus": "reviewed"
+      },
+      "ar": {
+        "reviewStatus": "reviewed"
+      },
+      "hi": {
+        "reviewStatus": "reviewed"
+      },
+      "id": {
+        "reviewStatus": "reviewed"
+      },
+      "ja": {
+        "reviewStatus": "reviewed"
+      },
+      "ko": {
+        "reviewStatus": "reviewed"
+      },
+      "nl": {
+        "reviewStatus": "reviewed"
+      },
+      "pl": {
+        "reviewStatus": "reviewed"
+      },
+      "bn": {
+        "reviewStatus": "reviewed"
+      }
+    }
+  },
 };
