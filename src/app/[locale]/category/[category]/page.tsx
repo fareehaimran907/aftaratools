@@ -8,6 +8,7 @@ import { Metadata } from "next";
 import { ToolCard } from "@/components/ui/ToolCard";
 import { Box } from "lucide-react";
 import { Link } from "@/i18n/routing";
+import { getBaseUrl } from "@/lib/site";
 
 export async function generateStaticParams() {
   const params: { locale: string; category: string }[] = [];
@@ -40,11 +41,11 @@ export async function generateMetadata({
   const pathnames = routing.pathnames as Record<string, any>;
   const pathKey = `/category/${category}`;
 
+  const baseUrl = getBaseUrl();
   for (const l of routing.locales) {
     const s = pathnames[pathKey]?.[l] || pathnames[pathKey] || pathKey;
     const localePrefix = l === "en" ? "" : `/${l}`;
-    alternates[l] =
-      `${process.env.NEXT_PUBLIC_SITE_URL || "https://aftaratools.online"}${localePrefix}${s}`;
+    alternates[l] = `${baseUrl}${localePrefix}${s}`;
   }
   if (routing.locales.includes("en" as any)) {
     alternates["x-default"] = alternates["en"];
@@ -177,7 +178,7 @@ export default async function CategoryPage({
       };
     });
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aftaratools.online";
+  const baseUrl = getBaseUrl();
   const localePrefix = locale === "en" ? "" : `/${locale}`;
   const pathKey = `/category/${category}`;
   const slugCurrent =

@@ -1,6 +1,9 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { FileText, AlertTriangle, Scale, Settings } from "lucide-react";
 
+import { routing } from "@/i18n/routing";
+import { getBaseUrl } from "@/lib/site";
+
 export async function generateMetadata({
   params,
 }: {
@@ -8,9 +11,22 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Terms" });
+  const baseUrl = getBaseUrl();
+  const localePrefix = locale === "en" ? "" : `/${locale}`;
+  const canonicalUrl = `${baseUrl}${localePrefix}/terms`;
+  const alternates: Record<string, string> = {};
+  routing.locales.forEach((l) => {
+    alternates[l] = `${baseUrl}${l === "en" ? "" : `/${l}`}/terms`;
+  });
+  alternates["x-default"] = `${baseUrl}/terms`;
+
   return {
     title: `${t("title")} - Aftara Tools`,
     description: t("intro"),
+    alternates: {
+      canonical: canonicalUrl,
+      languages: alternates,
+    },
   };
 }
 

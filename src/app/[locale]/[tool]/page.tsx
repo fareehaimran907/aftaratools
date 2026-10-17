@@ -6,6 +6,7 @@ import { setRequestLocale } from "next-intl/server";
 import { Metadata } from "next";
 import { Link } from "@/i18n/routing";
 import Script from "next/script";
+import { getBaseUrl } from "@/lib/site";
 
 export function generateStaticParams() {
   const params: { locale: string; tool: string }[] = [];
@@ -42,6 +43,7 @@ export async function generateMetadata({
   const pathKey = `/${toolEntry.id}`;
   const alternates: Record<string, string> = {};
 
+  const baseUrl = getBaseUrl();
   for (const l of routing.locales) {
     const s = pathnames[pathKey]?.[l] || pathnames[pathKey] || pathKey;
     const localePrefix = l === "en" ? "" : `/${l}`;
@@ -56,8 +58,7 @@ export async function generateMetadata({
       `${toolId}.json`,
     );
     if (fs.existsSync(checkPath)) {
-      alternates[l] =
-        `${process.env.NEXT_PUBLIC_SITE_URL || "https://aftaratools.online"}${localePrefix}${s}`;
+      alternates[l] = `${baseUrl}${localePrefix}${s}`;
     }
   }
   if (alternates["en"]) {
@@ -1237,7 +1238,7 @@ export default async function ToolPage({
       (enContent as any)?.benefits,
   };
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aftaratools.online";
+  const baseUrl = getBaseUrl();
   const localePrefix = locale === "en" ? "" : `/${locale}`;
   const pathnames = routing.pathnames as Record<string, any>;
   const pathKey = `/${toolEntry.id}`;

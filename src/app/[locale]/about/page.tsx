@@ -8,6 +8,9 @@ import {
   Scale,
 } from "lucide-react";
 
+import { routing } from "@/i18n/routing";
+import { getBaseUrl } from "@/lib/site";
+
 export async function generateMetadata({
   params,
 }: {
@@ -15,9 +18,22 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "About" });
+  const baseUrl = getBaseUrl();
+  const localePrefix = locale === "en" ? "" : `/${locale}`;
+  const canonicalUrl = `${baseUrl}${localePrefix}/about`;
+  const alternates: Record<string, string> = {};
+  routing.locales.forEach((l) => {
+    alternates[l] = `${baseUrl}${l === "en" ? "" : `/${l}`}/about`;
+  });
+  alternates["x-default"] = `${baseUrl}/about`;
+
   return {
     title: `${t("title")} - Aftara Tools`,
     description: t("description"),
+    alternates: {
+      canonical: canonicalUrl,
+      languages: alternates,
+    },
   };
 }
 

@@ -14,8 +14,10 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { AdSenseLoader } from "@/components/ads/AdSenseLoader";
 import { ConsentBanner } from "@/components/ads/ConsentBanner";
+import { getBaseUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(getBaseUrl()),
   title: "Aftara Tools",
   description: "Simple tools for everyday tasks",
   icons: {

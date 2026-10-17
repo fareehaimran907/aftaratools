@@ -9,11 +9,12 @@ import { CategoryCard } from '@/components/ui/CategoryCard';
 import { ToolCard } from '@/components/ui/ToolCard';
 import { Sparkles, Zap, Shield, CheckCircle2, Lock, Globe, Check } from 'lucide-react';
 import Script from 'next/script';
+import { getBaseUrl } from '@/lib/site';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Home' });
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aftaratools.online';
+  const baseUrl = getBaseUrl();
   const localePrefix = locale === 'en' ? '' : `/${locale}`;
   const currentUrl = `${baseUrl}${localePrefix}`;
 
@@ -103,7 +104,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     popularTools.push(...moreTools);
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aftaratools.online';
+  const baseUrl = getBaseUrl();
   const currentUrl = `${baseUrl}${locale === 'en' ? '' : `/${locale}`}`;
 
   // Structured Data

@@ -13,7 +13,7 @@ test('SEO: Sitemap is valid and all pages are 200 OK', async ({ request, page })
   
   // Test a subset of URLs to prove the concept
   for (const sitemapUrl of urls.slice(0, 5)) {
-    const url = sitemapUrl.replace('https://example.com', BASE_URL);
+    const url = sitemapUrl.replace('https://aftaratools.online', BASE_URL);
     const res = await page.goto(url);
     expect(res?.status()).toBe(200);
     
