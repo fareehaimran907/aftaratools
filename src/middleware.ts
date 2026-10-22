@@ -12,6 +12,7 @@ export default function middleware(request: NextRequest) {
     const nonWwwHost = host.slice(4); // strip "www."
     const url = request.nextUrl.clone();
     url.host = nonWwwHost;
+    url.protocol = 'https:';
     return NextResponse.redirect(url, { status: 301 });
   }
 

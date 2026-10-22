@@ -86,7 +86,7 @@ export async function generateMetadata({
   const localeContent = toolEntry.locales[locale as Locale];
 
   const seoTitle =
-    jsonContent?.title ||
+    jsonContent?.seoTitle ||
     `${localeContent?.title || toolEntry.id} - Free Online ${localeContent?.title || toolEntry.id}`;
   const seoDescription =
     jsonContent?.metaDescription ||
